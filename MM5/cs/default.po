@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-15 20:55\n"
 "PO-Revision-Date: 2020-11-03 07:47+0000\n"
-"Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
+"Last-Translator: Weblate Admin <jh@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/cs/>\n"
 "Language: cs\n"
@@ -1592,31 +1592,31 @@ msgstr "Informační panel"
 
 #: viewHandlers.js:458
 msgid "Media Nodes"
-msgstr ""
+msgstr "Mediální uzly"
 
 #: viewHandlers.js:462
 msgid "Suggested Artists"
-msgstr ""
+msgstr "Doporučení umělci"
 
 #: viewHandlers.js:466
 msgid "Suggested Albums"
-msgstr ""
+msgstr "Doporučená alba"
 
 #: viewHandlers.js:470
 msgid "Pinned list"
-msgstr ""
+msgstr "Připnutý seznam"
 
 #: viewHandlers.js:474 controls\audiobookCollectionView.html:10
 msgid "In progress"
-msgstr ""
+msgstr "Probíhá"
 
 #: viewHandlers.js:478 controls\videoCollectionView.html:3
 msgid "Recently watched"
-msgstr ""
+msgstr "Nedávno sledované"
 
 #: viewHandlers.js:482 controls\tvCollectionView.html:10
 msgid "Recently added"
-msgstr ""
+msgstr "Nedávno přidané"
 
 #: viewHandlers.js:488
 msgid "Column filter"
@@ -8956,7 +8956,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:5
 msgid "Enable bookmarking"
-msgstr ""
+msgstr "Zapnout pamatování pozice"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:5
 msgid ""
@@ -8984,10 +8984,13 @@ msgid ""
 "adjustment that appears in the Filelist. It also determines the volume to "
 "which tracks are leveled when 'Level Track volume' is used."
 msgstr ""
+"Tato hodnota slouží jako základ pro zobrazení nastavení vyrovnání "
+"hlasitosti, které se zobrazí v seznamu souborů. Určuje také hlasitost, na "
+"kterou se skladby vyrovnávají, pokud se používá \"Vyrovnat hlasitost\"."
 
 #: dialogs\dlgTrackProperties\tabBasic.html:19
 msgid "File name"
-msgstr ""
+msgstr "Název souboru"
 
 #: dialogs\dlgWizard\pnlShare.html:2
 msgid "Share your library"
@@ -8995,11 +8998,11 @@ msgstr "Sdílet Vaši knihovnu"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:24
 msgid "Only submit tracks that are part of the Library"
-msgstr ""
+msgstr "Odesílat pouze skladby, které jsou součástí knihovny"
 
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid "Show confirmation dialog"
-msgstr ""
+msgstr "Zobrazit potvrzovací dialogové okno"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "On the fly encoding"
@@ -9015,7 +9018,7 @@ msgstr "Jenom pokud byly poslouchány"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the Playing list"
-msgstr ""
+msgstr "Potvrdit požadované možnosti odstranění souborů ze seznamu přehrávání"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:18
 msgid "Confirm rename operations that exceed 64 character CD limit"
@@ -9032,10 +9035,14 @@ msgid ""
 "tracks are duplicates (i.e. they have matching signatures) they will appear "
 "in the Files to Edit - Duplicate Content view."
 msgstr ""
+"To vytváří digitální podpis pro audio obsah každé skladby (tagy jsou "
+"ignorovány), takže každá skladba může být jednoznačně identifikována. Pokud "
+"jsou dvě stopy duplicitní (tj. mají shodné podpisy), objeví se v zobrazení "
+"Soubory k úpravě - Duplicitní obsah."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:23
 msgid "Audio CD playback"
-msgstr ""
+msgstr "Přehrávání Audio CD"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:15
 msgid "This prevents users from exiting MediaMonkey by switching applications."
@@ -9048,7 +9055,7 @@ msgstr "Schovat menu"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:25
 msgid "Enable volume, play/pause controls"
-msgstr ""
+msgstr "Zobrazit ovládání změny hlasitosti, hraj/pauza"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:66
 msgid "Only analyze files with unknown Leveling Adjustment"
@@ -9056,15 +9063,15 @@ msgstr "Analyzovat hlasitost pouze pro neanalyzované skladby"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:150
 msgid "Play counter"
-msgstr ""
+msgstr "Počet přehrání"
 
 #: dialogs\dlgWizard\pnlScan.html:8
 msgid "Scan the following locations for media: "
-msgstr ""
+msgstr "Vyhledejte média na následujících místech:"
 
 #: controls\deviceConfig.html:8
 msgid "Sync now"
-msgstr ""
+msgstr "Synchronizovat nyní"
 
 #: controls\serverConfig\content.html:4
 msgid "(global settings)"
@@ -9100,11 +9107,11 @@ msgstr "Zobrazovat odkazy odstraněných epizod"
 
 #: dialogs\dlgSleep.html:31
 msgid "Cancel Sleep"
-msgstr ""
+msgstr "Zruš spánek"
 
 #: dialogs\videoConvSettings.html:59
 msgid "Bitrate (for max. res.)"
-msgstr ""
+msgstr "Bitrate (pro max. rozlišení)"
 
 #: dialogs\dlgOptions\pnl_Download.html:16
 msgid "Determines how often MediaMonkey checks for updates"
@@ -9118,14 +9125,16 @@ msgstr "Vždy viditelná ikona v system-tray"
 msgid ""
 "Drag available elements to a panel to be displayed, or to re-order them."
 msgstr ""
+"Přetáhněte dostupné prvky na panel, který se má zobrazit, nebo je "
+"přerovnejte."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:7
 msgid "Artist images"
-msgstr ""
+msgstr "Obrázky umělců"
 
 #: dialogs\dlgOptions\pnl_Player.html:45
 msgid "Pop-up file info:"
-msgstr ""
+msgstr "Informační okénko:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:31
 msgid "Update tags when editing properties"
@@ -9136,38 +9145,42 @@ msgid ""
 "This value determines playback volume (for track(s) that have been analyzed) "
 "if 'Level playback volume' is enabled."
 msgstr ""
+"Tato hodnota určuje hlasitost přehrávání (pro analyzované skladby), pokud je "
+"povolena možnost Vyrovnat hlasitost přehrávání."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:71
 msgid "Automatically analyzes volume of tracks as a background process"
-msgstr ""
+msgstr "Automaticky analyzuje hlasitost skladeb jako proces na pozadí"
 
 #: dialogs\dlgWizard\pnlRegistration.html:10
 msgid "analyze volume automatically"
-msgstr ""
+msgstr "analyzovat hlasitost automaticky"
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Lookup missing information via Auto-tag (Registered users only)"
 msgstr ""
+"Vyhledat chybějící informace prostřednictvím automatického označování (pouze "
+"registrovaní uživatelé)"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:3
 msgid "Scrobbler submission state"
-msgstr ""
+msgstr "Stav odevzdání Scrobbleru"
 
 #: controls\artistview.html:37
 msgid "Broadcasts"
-msgstr ""
+msgstr "Vysílání"
 
 #: controls\artistviewVertical.html:20
 msgid "Show album list"
-msgstr ""
+msgstr "Zobrazit seznam alb"
 
 #: controls\windowtitle.html:15
 msgid "Minimize window"
-msgstr ""
+msgstr "Minimalizovat okno"
 
 #: controls\clientConfig\content.html:3
 msgid "Share the following over the network"
-msgstr ""
+msgstr "Sdílet následující po síti"
 
 #: controls\deviceConfig\syncToDevice.html:5
 msgid "Hide unselected items"
@@ -9179,7 +9192,7 @@ msgstr "Synchronizovat playlisty (doporučeno)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:39
 msgid "Organize playlists using:"
-msgstr ""
+msgstr "Organizovat playlisty dle:"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
 msgid "Use only the first value when multiple Artists / Composers exist"
@@ -9188,33 +9201,37 @@ msgstr ""
 
 #: dialogs\dlgAddArtwork.html:34
 msgid "Replace existing image"
-msgstr ""
+msgstr "Nahradit stávající obrázek"
 
 #: dialogs\dlgCollectionOptions.html:28
 msgid "Visibility"
-msgstr ""
+msgstr "Viditelnost"
 
 #: dialogs\dlgNewVersion.html:10
 msgid "Installed version"
-msgstr ""
+msgstr "Instalovaná verze"
 
 #: dialogs\dlgRegisterGold.html:10
 msgid "To unlock Gold features, please enter license registration information:"
 msgstr ""
+"Chcete-li odemknout funkce MediaMonkey Gold, zadejte registrační údaje "
+"licence:"
 
 #: dialogs\dlgSupportedFormat.html:47
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:50
 msgid ""
 "Displays a warning if a file in the Playing queue is inaccessible (e.g. if "
 "it's on a CD that isn't inserted)."
 msgstr ""
+"Zobrazí upozornění, pokud je soubor ve frontě přehrávání nepřístupný (např. "
+"pokud je na CD, které není vloženo)."
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:3
 msgid "DSP Modules:"
-msgstr ""
+msgstr "Moduly DSP:"
 
 #: dialogs\dlgOptions\pnl_General.html:44
 msgid "This enables mouse gestures on the tray icon."
@@ -9222,15 +9239,15 @@ msgstr "Aktivuje posunky myší na ikonce v system tray."
 
 #: dialogs\dlgOptions\pnl_Library.html:110
 msgid "Get Album titles and Track Numbers from:"
-msgstr ""
+msgstr "Získat názvy alb and čísla skladeb z:"
 
 #: dialogs\dlgOptions\pnl_Library.html:80
 msgid "Show scan results dialog"
-msgstr ""
+msgstr "Zobrazit dialogové okno výsledků skenování"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:90
 msgid "Replace existing information if confidence > "
-msgstr ""
+msgstr "Nahradit stávající informace, pokud je důvěra > "
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
 msgid ""
@@ -9246,6 +9263,8 @@ msgstr "Nejnižší"
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:15
 msgid "Display format for 'Track summary' (in Player, Playing):"
 msgstr ""
+"Zobrazovací formát pro \"Shrnutí skladby\" (v přehrávači a seznamu pro "
+"přehrávání):"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Ignore Auto-DJ when playing"
@@ -9265,7 +9284,7 @@ msgstr "Formát pro více obrázků:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:56
 msgid "This sets the default location where associated artwork is stored."
-msgstr ""
+msgstr "Nastaví výchozí umístění, kde je uložen přidružený obal alba."
 
 #: dialogs\dlgTrackProperties\tabBasic.html:69
 msgid "Director(s)"
@@ -9289,11 +9308,11 @@ msgstr ""
 
 #: dialogs\dlgMaintainLibrary.html:9
 msgid "Maintenance"
-msgstr ""
+msgstr "Údržba"
 
 #: dialogs\dlgPodcastSubscription.html:12
 msgid "Podcast URL"
-msgstr ""
+msgstr "Podcast URL"
 
 #: dialogs\dlgSleep.html:9
 msgid "Play audio for"
@@ -9308,10 +9327,12 @@ msgid ""
 "If enabled, MediaMonkey will prompt you whether to copy the entire folder or "
 "only Library content within."
 msgstr ""
+"Pokud je povoleno, MediaMonkey vás vyzve, zda zkopírovat celou složku nebo "
+"pouze obsah knihovny uvnitř."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:21
 msgid "Confirm scan results"
-msgstr ""
+msgstr "Potvrdit výsledky skenování"
 
 #: dialogs\dlgOptions\pnl_Download.html:17
 msgid "Check for new episodes:"
