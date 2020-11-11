@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 10:58\n"
+"POT-Creation-Date: 2020-11-11 14:09\n"
 "PO-Revision-Date: 2020-10-02 16:10+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Chinese (Traditional) <http://translations.mediamonkey.com/"
@@ -1494,7 +1494,8 @@ msgstr ""
 msgid "Prevents audio from other applications"
 msgstr ""
 
-#: out_WASAPI_configDlg.js:77
+#: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
+#: out_WASAPI_configDlg.js:169
 #, fuzzy
 #| msgid "Exclude folders:"
 msgid "Exclusive mode"
@@ -1507,6 +1508,26 @@ msgstr ""
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
 msgstr ""
+
+#: out_WASAPI_configDlg.js:138
+#, fuzzy
+#| msgid "Minimal bitrate"
+msgid "Minimal buffer sizes"
+msgstr "最小的位元率"
+
+#: out_WASAPI_configDlg.js:143
+msgid "Pull mode (event driven)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
+msgid "Shared mode"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:164
+#, fuzzy
+#| msgid "Exclude folders:"
+msgid "Push mode"
+msgstr "排除資料夾:"
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
 msgid "Advanced"
@@ -10639,12 +10660,20 @@ msgstr ""
 msgid "Screenwriter(s)"
 msgstr "編劇"
 
+#, fuzzy
+#| msgid "WAV settings"
+msgid "AIFF settings"
+msgstr "WAV設定"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "ALAC settings"
+msgstr "FLAC設定"
+
 # FLAC enc/dec
 msgid "FLAC settings"
 msgstr "FLAC設定"
-
-msgid "Level:"
-msgstr "均化等級:"
 
 msgid "Less compression"
 msgstr "較少的壓縮"
@@ -10657,6 +10686,15 @@ msgstr "較快"
 
 msgid "Slower"
 msgstr "較慢"
+
+# FLAC encoder level description
+msgid "Bigger number - more compression, slower"
+msgstr ""
+
+#, fuzzy
+#| msgid "WAV settings"
+msgid "WMA settings"
+msgstr "WAV設定"
 
 msgid "Desktop"
 msgstr "桌面"
@@ -10681,6 +10719,12 @@ msgstr "您是否要下載它?"
 
 msgid "Mid/Side stereo"
 msgstr "Mid/Side立體聲"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "AAC settings"
+msgstr "FLAC設定"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -10860,6 +10904,9 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr "最近新增"
+
+#~ msgid "Level:"
+#~ msgstr "均化等級:"
 
 #~ msgid "Removing playlists"
 #~ msgstr "複製播放清單"

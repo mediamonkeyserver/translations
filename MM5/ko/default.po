@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 10:58\n"
+"POT-Creation-Date: 2020-11-11 14:09\n"
 "PO-Revision-Date: 2020-10-01 10:42+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
@@ -1500,7 +1500,8 @@ msgstr ""
 msgid "Prevents audio from other applications"
 msgstr ""
 
-#: out_WASAPI_configDlg.js:77
+#: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
+#: out_WASAPI_configDlg.js:169
 #, fuzzy
 #| msgid "Exclude folders:"
 msgid "Exclusive mode"
@@ -1513,6 +1514,26 @@ msgstr ""
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
 msgstr ""
+
+#: out_WASAPI_configDlg.js:138
+#, fuzzy
+#| msgid "Minimal bitrate"
+msgid "Minimal buffer sizes"
+msgstr "최소 비트율"
+
+#: out_WASAPI_configDlg.js:143
+msgid "Pull mode (event driven)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
+msgid "Shared mode"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:164
+#, fuzzy
+#| msgid "Exclude folders:"
+msgid "Push mode"
+msgstr "제외 폴더:"
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
 msgid "Advanced"
@@ -10711,12 +10732,20 @@ msgstr ""
 msgid "Screenwriter(s)"
 msgstr "각본"
 
+#, fuzzy
+#| msgid "WAV settings"
+msgid "AIFF settings"
+msgstr "WAV 설정"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "ALAC settings"
+msgstr "FLAC 설정"
+
 # FLAC enc/dec
 msgid "FLAC settings"
 msgstr "FLAC 설정"
-
-msgid "Level:"
-msgstr "조절:"
 
 msgid "Less compression"
 msgstr "저압축"
@@ -10729,6 +10758,15 @@ msgstr "고속"
 
 msgid "Slower"
 msgstr "저속"
+
+# FLAC encoder level description
+msgid "Bigger number - more compression, slower"
+msgstr ""
+
+#, fuzzy
+#| msgid "WAV settings"
+msgid "WMA settings"
+msgstr "WAV 설정"
 
 msgid "Desktop"
 msgstr "바탕화면"
@@ -10754,6 +10792,12 @@ msgstr "다운로드 하겠습니까?"
 
 msgid "Mid/Side stereo"
 msgstr "Mid/Side 스테레오"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "AAC settings"
+msgstr "FLAC 설정"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -10933,6 +10977,9 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr "최근에 추가됨"
+
+#~ msgid "Level:"
+#~ msgstr "조절:"
 
 #~ msgid "Removing playlists"
 #~ msgstr "재생목록 제거 중"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 10:58\n"
+"POT-Creation-Date: 2020-11-11 14:09\n"
 "PO-Revision-Date: 2020-10-01 10:42+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Hindi <http://translations.mediamonkey.com/projects/"
@@ -1500,7 +1500,8 @@ msgstr ""
 msgid "Prevents audio from other applications"
 msgstr ""
 
-#: out_WASAPI_configDlg.js:77
+#: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
+#: out_WASAPI_configDlg.js:169
 #, fuzzy
 #| msgid "Exclude folders:"
 msgid "Exclusive mode"
@@ -1513,6 +1514,26 @@ msgstr ""
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
 msgstr ""
+
+#: out_WASAPI_configDlg.js:138
+#, fuzzy
+#| msgid "Minimal bitrate"
+msgid "Minimal buffer sizes"
+msgstr "न्यूनतम बिटरेट"
+
+#: out_WASAPI_configDlg.js:143
+msgid "Pull mode (event driven)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
+msgid "Shared mode"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:164
+#, fuzzy
+#| msgid "Exclude folders:"
+msgid "Push mode"
+msgstr "फ़ोल्डरों को शामिल न करें:"
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
 msgid "Advanced"
@@ -10728,12 +10749,20 @@ msgstr ""
 msgid "Screenwriter(s)"
 msgstr "पटकथा लेखक (ओं)"
 
+#, fuzzy
+#| msgid "WAV settings"
+msgid "AIFF settings"
+msgstr "WAV सेटिंग्स"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "ALAC settings"
+msgstr "FLAC सेटिंग्स"
+
 # FLAC enc/dec
 msgid "FLAC settings"
 msgstr "FLAC सेटिंग्स"
-
-msgid "Level:"
-msgstr "स्तर:"
 
 msgid "Less compression"
 msgstr "कम संपीड़न"
@@ -10746,6 +10775,15 @@ msgstr "तेज़"
 
 msgid "Slower"
 msgstr "धीमी"
+
+# FLAC encoder level description
+msgid "Bigger number - more compression, slower"
+msgstr ""
+
+#, fuzzy
+#| msgid "WAV settings"
+msgid "WMA settings"
+msgstr "WAV सेटिंग्स"
 
 msgid "Desktop"
 msgstr "डेस्कटॉप"
@@ -10772,6 +10810,12 @@ msgstr "आप इसे डाउनलोड करना चाहते ह�
 
 msgid "Mid/Side stereo"
 msgstr "मिड/साइड स्टीरियो"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "AAC settings"
+msgstr "FLAC सेटिंग्स"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -10951,6 +10995,9 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr "हाल में जोड़ी"
+
+#~ msgid "Level:"
+#~ msgstr "स्तर:"
 
 #~ msgid "Removing playlists"
 #~ msgstr "प्लेलिस्ट निकाल रहा है"

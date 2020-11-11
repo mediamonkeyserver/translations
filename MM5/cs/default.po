@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 10:58\n"
+"POT-Creation-Date: 2020-11-11 14:09\n"
 "PO-Revision-Date: 2020-11-11 11:05+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
@@ -1518,7 +1518,8 @@ msgstr "Použít formát původního souboru"
 msgid "Prevents audio from other applications"
 msgstr "Potlačí zvuky z jiných aplikací"
 
-#: out_WASAPI_configDlg.js:77
+#: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
+#: out_WASAPI_configDlg.js:169
 msgid "Exclusive mode"
 msgstr "Výlučný mód"
 
@@ -1529,6 +1530,28 @@ msgstr "Událostmi řízený výlučný mód (doporučeno)"
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
 msgstr "Událostmi řízený sdílený mód (doporučeno)"
+
+#: out_WASAPI_configDlg.js:138
+#, fuzzy
+#| msgid "Minimal bitrate"
+msgid "Minimal buffer sizes"
+msgstr "Minimální bitrate"
+
+#: out_WASAPI_configDlg.js:143
+msgid "Pull mode (event driven)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
+#, fuzzy
+#| msgid "Share media"
+msgid "Shared mode"
+msgstr "Sdílení médií"
+
+#: out_WASAPI_configDlg.js:164
+#, fuzzy
+#| msgid "Exclusive mode"
+msgid "Push mode"
+msgstr "Výlučný mód"
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
 msgid "Advanced"
@@ -10972,12 +10995,20 @@ msgstr "ID3v2.4 tagy"
 msgid "Screenwriter(s)"
 msgstr "Scénárista"
 
+#, fuzzy
+#| msgid "WAV settings"
+msgid "AIFF settings"
+msgstr "Nastavení WAV"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "ALAC settings"
+msgstr "Nastavení FLAC"
+
 # FLAC enc/dec
 msgid "FLAC settings"
 msgstr "Nastavení FLAC"
-
-msgid "Level:"
-msgstr "Úroveň:"
 
 msgid "Less compression"
 msgstr "Méně komprese"
@@ -10990,6 +11021,15 @@ msgstr "Rychlejší"
 
 msgid "Slower"
 msgstr "Pomalejší"
+
+# FLAC encoder level description
+msgid "Bigger number - more compression, slower"
+msgstr ""
+
+#, fuzzy
+#| msgid "WAV settings"
+msgid "WMA settings"
+msgstr "Nastavení WAV"
 
 msgid "Desktop"
 msgstr "Plocha"
@@ -11017,6 +11057,12 @@ msgstr "Přejete si ho stáhnout?"
 
 msgid "Mid/Side stereo"
 msgstr "Mid/Side stereo"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "AAC settings"
+msgstr "Nastavení FLAC"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -11196,6 +11242,9 @@ msgstr "Nedávno přidané (1 GB)"
 # Playlist
 msgid "Recently Added"
 msgstr "Nedávno přidané"
+
+#~ msgid "Level:"
+#~ msgstr "Úroveň:"
 
 #~ msgid "&Open URL or file"
 #~ msgstr "&Otevřít URL nebo soubor"

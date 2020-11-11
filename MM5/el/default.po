@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 10:58\n"
+"POT-Creation-Date: 2020-11-11 14:09\n"
 "PO-Revision-Date: 2020-11-10 11:50+0000\n"
 "Last-Translator: Panagiotis Pentaris <ppentar@outlook.com>\n"
 "Language-Team: Greek <http://translations.mediamonkey.com/projects/"
@@ -1526,7 +1526,8 @@ msgstr ""
 msgid "Prevents audio from other applications"
 msgstr ""
 
-#: out_WASAPI_configDlg.js:77
+#: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
+#: out_WASAPI_configDlg.js:169
 #, fuzzy
 #| msgid "Exclude folders:"
 msgid "Exclusive mode"
@@ -1539,6 +1540,28 @@ msgstr ""
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
 msgstr ""
+
+#: out_WASAPI_configDlg.js:138
+#, fuzzy
+#| msgid "Minimal bitrate"
+msgid "Minimal buffer sizes"
+msgstr "Ελάχιστο bitrate"
+
+#: out_WASAPI_configDlg.js:143
+msgid "Pull mode (event driven)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
+#, fuzzy
+#| msgid "Share media"
+msgid "Shared mode"
+msgstr "Κοινή χρήση πολυμέσων"
+
+#: out_WASAPI_configDlg.js:164
+#, fuzzy
+#| msgid "Exclude folders:"
+msgid "Push mode"
+msgstr "Εξαίρεση φακέλων:"
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
 msgid "Advanced"
@@ -10933,12 +10956,20 @@ msgstr ""
 msgid "Screenwriter(s)"
 msgstr "Σεναριογράφος(οι)"
 
+#, fuzzy
+#| msgid "WAV settings"
+msgid "AIFF settings"
+msgstr "Ρυμίσεις WAV"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "ALAC settings"
+msgstr "Ρυθμίσεις FLAC"
+
 # FLAC enc/dec
 msgid "FLAC settings"
 msgstr "Ρυθμίσεις FLAC"
-
-msgid "Level:"
-msgstr "Επίπεδο:"
 
 msgid "Less compression"
 msgstr "Λιγότερη συμπίεση"
@@ -10951,6 +10982,15 @@ msgstr "Γρηγορότερα"
 
 msgid "Slower"
 msgstr "Χαμηλότερα"
+
+# FLAC encoder level description
+msgid "Bigger number - more compression, slower"
+msgstr ""
+
+#, fuzzy
+#| msgid "WAV settings"
+msgid "WMA settings"
+msgstr "Ρυμίσεις WAV"
 
 msgid "Desktop"
 msgstr "Desktop"
@@ -10977,6 +11017,12 @@ msgstr "Θέλετε να το μεταφορτώσετε;"
 
 msgid "Mid/Side stereo"
 msgstr "Mid/Side stereo"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "AAC settings"
+msgstr "Ρυθμίσεις FLAC"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -11156,6 +11202,9 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr "Πρόσφατα Προστεθέντα"
+
+#~ msgid "Level:"
+#~ msgstr "Επίπεδο:"
 
 #~ msgid "&Open URL or file"
 #~ msgstr "Άνοιγμα URL ή αρχείου"

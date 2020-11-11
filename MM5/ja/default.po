@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 10:58\n"
+"POT-Creation-Date: 2020-11-11 14:09\n"
 "PO-Revision-Date: 2020-10-02 16:10+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
@@ -1500,7 +1500,8 @@ msgstr ""
 msgid "Prevents audio from other applications"
 msgstr ""
 
-#: out_WASAPI_configDlg.js:77
+#: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
+#: out_WASAPI_configDlg.js:169
 #, fuzzy
 #| msgid "Exclude folders:"
 msgid "Exclusive mode"
@@ -1513,6 +1514,26 @@ msgstr ""
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
 msgstr ""
+
+#: out_WASAPI_configDlg.js:138
+#, fuzzy
+#| msgid "Minimal bitrate"
+msgid "Minimal buffer sizes"
+msgstr "ビットレート下限"
+
+#: out_WASAPI_configDlg.js:143
+msgid "Pull mode (event driven)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
+msgid "Shared mode"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:164
+#, fuzzy
+#| msgid "Exclude folders:"
+msgid "Push mode"
+msgstr "除外フォルダ:"
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
 msgid "Advanced"
@@ -10763,12 +10784,20 @@ msgstr ""
 msgid "Screenwriter(s)"
 msgstr "脚本家(s)"
 
+#, fuzzy
+#| msgid "WAV settings"
+msgid "AIFF settings"
+msgstr "WAV 設定"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "ALAC settings"
+msgstr "FLAC 設定"
+
 # FLAC enc/dec
 msgid "FLAC settings"
 msgstr "FLAC 設定"
-
-msgid "Level:"
-msgstr "レベル:"
 
 msgid "Less compression"
 msgstr "低圧縮"
@@ -10781,6 +10810,15 @@ msgstr "速い"
 
 msgid "Slower"
 msgstr "遅い"
+
+# FLAC encoder level description
+msgid "Bigger number - more compression, slower"
+msgstr ""
+
+#, fuzzy
+#| msgid "WAV settings"
+msgid "WMA settings"
+msgstr "WAV 設定"
 
 msgid "Desktop"
 msgstr "デスクトップ"
@@ -10807,6 +10845,12 @@ msgstr "ダウンロードしますか？"
 
 msgid "Mid/Side stereo"
 msgstr "Mid / Side ステレオ"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "AAC settings"
+msgstr "FLAC 設定"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -10986,6 +11030,9 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr "最近追加したもの"
+
+#~ msgid "Level:"
+#~ msgstr "レベル:"
 
 #~ msgid "Removing playlists"
 #~ msgstr "プレイリストの除去中"

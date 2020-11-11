@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 10:58\n"
+"POT-Creation-Date: 2020-11-11 14:09\n"
 "PO-Revision-Date: 2020-10-01 10:41+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Arabic <http://translations.mediamonkey.com/projects/"
@@ -1498,7 +1498,8 @@ msgstr ""
 msgid "Prevents audio from other applications"
 msgstr ""
 
-#: out_WASAPI_configDlg.js:77
+#: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
+#: out_WASAPI_configDlg.js:169
 #, fuzzy
 #| msgid "Exclude folders:"
 msgid "Exclusive mode"
@@ -1511,6 +1512,26 @@ msgstr ""
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
 msgstr ""
+
+#: out_WASAPI_configDlg.js:138
+#, fuzzy
+#| msgid "Minimal bitrate"
+msgid "Minimal buffer sizes"
+msgstr "تدفق الحد الأدنى"
+
+#: out_WASAPI_configDlg.js:143
+msgid "Pull mode (event driven)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
+msgid "Shared mode"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:164
+#, fuzzy
+#| msgid "Exclude folders:"
+msgid "Push mode"
+msgstr "استثناء الدلائل:"
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
 msgid "Advanced"
@@ -10627,12 +10648,20 @@ msgstr ""
 msgid "Screenwriter(s)"
 msgstr ""
 
+#, fuzzy
+#| msgid "WAV settings"
+msgid "AIFF settings"
+msgstr "معلمات WAV"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "ALAC settings"
+msgstr "معلمات FLAC"
+
 # FLAC enc/dec
 msgid "FLAC settings"
 msgstr "معلمات FLAC"
-
-msgid "Level:"
-msgstr "مستوى:"
 
 msgid "Less compression"
 msgstr "أقل ضغط"
@@ -10645,6 +10674,15 @@ msgstr "أسرع"
 
 msgid "Slower"
 msgstr "أبطأ"
+
+# FLAC encoder level description
+msgid "Bigger number - more compression, slower"
+msgstr ""
+
+#, fuzzy
+#| msgid "WAV settings"
+msgid "WMA settings"
+msgstr "معلمات WAV"
 
 msgid "Desktop"
 msgstr "مكتب"
@@ -10671,6 +10709,12 @@ msgstr "هل تريد تحميل؟"
 
 msgid "Mid/Side stereo"
 msgstr "ستيريو منتصف جانبية"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "AAC settings"
+msgstr "معلمات FLAC"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -10850,6 +10894,9 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr ""
+
+#~ msgid "Level:"
+#~ msgstr "مستوى:"
 
 #~ msgid "Input Plug-ins:"
 #~ msgstr "إدخال المكونات الإضافية المتاحة:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 10:58\n"
+"POT-Creation-Date: 2020-11-11 14:09\n"
 "PO-Revision-Date: 2020-10-02 16:10+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Slovenian <http://translations.mediamonkey.com/projects/"
@@ -1502,7 +1502,8 @@ msgstr ""
 msgid "Prevents audio from other applications"
 msgstr ""
 
-#: out_WASAPI_configDlg.js:77
+#: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
+#: out_WASAPI_configDlg.js:169
 #, fuzzy
 #| msgid "Exclude folders:"
 msgid "Exclusive mode"
@@ -1515,6 +1516,26 @@ msgstr ""
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
 msgstr ""
+
+#: out_WASAPI_configDlg.js:138
+#, fuzzy
+#| msgid "Minimal bitrate"
+msgid "Minimal buffer sizes"
+msgstr "Najmanjša bitna hitrost"
+
+#: out_WASAPI_configDlg.js:143
+msgid "Pull mode (event driven)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
+msgid "Shared mode"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:164
+#, fuzzy
+#| msgid "Exclude folders:"
+msgid "Push mode"
+msgstr "Izključi mape:"
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
 msgid "Advanced"
@@ -10776,12 +10797,20 @@ msgstr ""
 msgid "Screenwriter(s)"
 msgstr "Scenarist/-i"
 
+#, fuzzy
+#| msgid "WAV settings"
+msgid "AIFF settings"
+msgstr "WAV nastavitve"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "ALAC settings"
+msgstr "FLAC nastavitve"
+
 # FLAC enc/dec
 msgid "FLAC settings"
 msgstr "FLAC nastavitve"
-
-msgid "Level:"
-msgstr "Raven:"
 
 msgid "Less compression"
 msgstr "Manj stiskanja"
@@ -10794,6 +10823,15 @@ msgstr "Hitreje"
 
 msgid "Slower"
 msgstr "Počasneje"
+
+# FLAC encoder level description
+msgid "Bigger number - more compression, slower"
+msgstr ""
+
+#, fuzzy
+#| msgid "WAV settings"
+msgid "WMA settings"
+msgstr "WAV nastavitve"
 
 msgid "Desktop"
 msgstr "Namizje"
@@ -10820,6 +10858,12 @@ msgstr "Ali jo želite prenesti?"
 
 msgid "Mid/Side stereo"
 msgstr "Srednji/stranski stereo"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "AAC settings"
+msgstr "FLAC nastavitve"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -10999,6 +11043,9 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr "Nedavno dodano"
+
+#~ msgid "Level:"
+#~ msgstr "Raven:"
 
 #~ msgid "Removing playlists"
 #~ msgstr "Odstranjevanje seznamov predvajanja."

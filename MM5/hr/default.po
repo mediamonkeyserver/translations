@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 10:58\n"
+"POT-Creation-Date: 2020-11-11 14:09\n"
 "PO-Revision-Date: 2020-10-01 10:42+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Croatian <http://translations.mediamonkey.com/projects/"
@@ -1498,7 +1498,8 @@ msgstr ""
 msgid "Prevents audio from other applications"
 msgstr ""
 
-#: out_WASAPI_configDlg.js:77
+#: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
+#: out_WASAPI_configDlg.js:169
 msgid "Exclusive mode"
 msgstr ""
 
@@ -1508,6 +1509,24 @@ msgstr ""
 
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:138
+#, fuzzy
+#| msgid "Minimal bitrate"
+msgid "Minimal buffer sizes"
+msgstr "Minimalni Bitrate"
+
+#: out_WASAPI_configDlg.js:143
+msgid "Pull mode (event driven)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
+msgid "Shared mode"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:164
+msgid "Push mode"
 msgstr ""
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
@@ -10605,12 +10624,20 @@ msgstr ""
 msgid "Screenwriter(s)"
 msgstr ""
 
+#, fuzzy
+#| msgid "WAV settings"
+msgid "AIFF settings"
+msgstr "WAV postavke"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "ALAC settings"
+msgstr "FLAC postavke"
+
 # FLAC enc/dec
 msgid "FLAC settings"
 msgstr "FLAC postavke"
-
-msgid "Level:"
-msgstr "Nivo:"
 
 msgid "Less compression"
 msgstr "Manje kompresije"
@@ -10623,6 +10650,15 @@ msgstr "Brže"
 
 msgid "Slower"
 msgstr "Sporije"
+
+# FLAC encoder level description
+msgid "Bigger number - more compression, slower"
+msgstr ""
+
+#, fuzzy
+#| msgid "WAV settings"
+msgid "WMA settings"
+msgstr "WAV postavke"
 
 msgid "Desktop"
 msgstr "Desktop"
@@ -10647,6 +10683,12 @@ msgstr ""
 
 msgid "Mid/Side stereo"
 msgstr ""
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "AAC settings"
+msgstr "FLAC postavke"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -10826,6 +10868,9 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr ""
+
+#~ msgid "Level:"
+#~ msgstr "Nivo:"
 
 #~ msgid "Input Plug-ins:"
 #~ msgstr "Input Plugins:"

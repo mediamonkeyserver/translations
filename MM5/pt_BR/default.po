@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-11 10:58\n"
+"POT-Creation-Date: 2020-11-11 14:09\n"
 "PO-Revision-Date: 2020-10-01 14:00+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Portuguese (Brazil) <http://translations.mediamonkey.com/"
@@ -1501,7 +1501,8 @@ msgstr ""
 msgid "Prevents audio from other applications"
 msgstr ""
 
-#: out_WASAPI_configDlg.js:77
+#: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
+#: out_WASAPI_configDlg.js:169
 #, fuzzy
 #| msgid "Exclude folders:"
 msgid "Exclusive mode"
@@ -1514,6 +1515,26 @@ msgstr ""
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
 msgstr ""
+
+#: out_WASAPI_configDlg.js:138
+#, fuzzy
+#| msgid "Minimal bitrate"
+msgid "Minimal buffer sizes"
+msgstr "Taxa de bits mínima"
+
+#: out_WASAPI_configDlg.js:143
+msgid "Pull mode (event driven)"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
+msgid "Shared mode"
+msgstr ""
+
+#: out_WASAPI_configDlg.js:164
+#, fuzzy
+#| msgid "Exclude folders:"
+msgid "Push mode"
+msgstr "Exceto as pastas:"
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
 msgid "Advanced"
@@ -10825,12 +10846,20 @@ msgstr ""
 msgid "Screenwriter(s)"
 msgstr "Roteirista(s)"
 
+#, fuzzy
+#| msgid "WAV settings"
+msgid "AIFF settings"
+msgstr "Configurações WAV"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "ALAC settings"
+msgstr "Configurações FLAC"
+
 # FLAC enc/dec
 msgid "FLAC settings"
 msgstr "Configurações FLAC"
-
-msgid "Level:"
-msgstr "Nível:"
 
 msgid "Less compression"
 msgstr "Menor compressão"
@@ -10843,6 +10872,15 @@ msgstr "Mais rápido"
 
 msgid "Slower"
 msgstr "Mais lento"
+
+# FLAC encoder level description
+msgid "Bigger number - more compression, slower"
+msgstr ""
+
+#, fuzzy
+#| msgid "WAV settings"
+msgid "WMA settings"
+msgstr "Configurações WAV"
 
 msgid "Desktop"
 msgstr "Área de trabalho"
@@ -10869,6 +10907,12 @@ msgstr "Você deseja efetuar o download?"
 
 msgid "Mid/Side stereo"
 msgstr "Mid/Side stereo"
+
+# FLAC enc/dec
+#, fuzzy
+#| msgid "FLAC settings"
+msgid "AAC settings"
+msgstr "Configurações FLAC"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -11048,6 +11092,9 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr "Adicionadas recentemente"
+
+#~ msgid "Level:"
+#~ msgstr "Nível:"
 
 #~ msgid "Removing playlists"
 #~ msgstr "Removendo listas de execução"
