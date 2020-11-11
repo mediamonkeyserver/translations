@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-11 10:58\n"
-"PO-Revision-Date: 2020-11-10 18:19+0000\n"
+"PO-Revision-Date: 2020-11-11 11:05+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/cs/>\n"
@@ -1415,26 +1415,28 @@ msgid ""
 "Select which device to use. 'Default' uses whatever device is configured by "
 "the operating system for playback."
 msgstr ""
+"Vyberte, které zařízení chcete použít. 'Výchozí' použije zařízení, které je "
+"nakonfigurované v operačním systému pro přehrávání."
 
 #: out_MMDS_configDlg.js:41
 msgid "Disable only in the case of audio problems"
-msgstr ""
+msgstr "Vypnout jenom v případě problémů se zvukem"
 
 #: out_MMDS_configDlg.js:41
 msgid "Enable hardware acceleration"
-msgstr ""
+msgstr "Zapnout hardwarovou akceleraci"
 
 #: out_MMDS_configDlg.js:47 out_WASAPI_configDlg.js:89
 msgid ""
 "Overlaps tracks for the specified time, fading out the first track as the "
 "second one starts"
 msgstr ""
+"Překrývá skladby po specifikovanou dobu, utlumuje první skladbu, zatímco "
+"druhá začíná"
 
 #: out_MMDS_configDlg.js:47 out_WASAPI_configDlg.js:89
-#, fuzzy
-#| msgid "Crossfade"
 msgid "Crossfade tracks"
-msgstr "Cross&fade"
+msgstr "Crossfade skladeb"
 
 #: out_MMDS_configDlg.js:49 out_WASAPI_configDlg.js:91 dialogs\dlgDelay.html:14
 msgid "seconds"
@@ -1443,48 +1445,47 @@ msgstr "vteřin"
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Causes new track to fade-in rather than starting at full volume"
 msgstr ""
+"Způsobí, že se skladba plynule zesílí než aby začala hned na plné hlasitosti"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Fade in new track"
-msgstr ""
+msgstr "Plynule zesílit novou skladbu"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:98
 msgid "Removes gaps introduced by some lossy encoders"
-msgstr ""
+msgstr "Odstraní mezery způsobené některými ztrátovými enkodéry"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:98
 msgid "Remove silence at the beginning / end of track"
-msgstr ""
+msgstr "Odstranit ticho na začátku a konci skladby"
 
 #: out_MMDS_configDlg.js:62 out_WASAPI_configDlg.js:104
 msgid "Fades in and out on Pause/Play"
-msgstr ""
+msgstr "Plynule zesílí a zeslabí při Pauze/Hraj"
 
 #: out_MMDS_configDlg.js:62 out_WASAPI_configDlg.js:104
 msgid "Smooth pause"
-msgstr ""
+msgstr "Plynulá pauza"
 
 #: out_MMDS_configDlg.js:68 out_WASAPI_configDlg.js:110
 msgid "Crossfades during seek operation"
-msgstr ""
+msgstr "Crossfade během operace posouvání"
 
 #: out_MMDS_configDlg.js:68 out_WASAPI_configDlg.js:110
 msgid "Smooth seek"
-msgstr ""
+msgstr "Plynulé posouvání"
 
 #: out_MMDS_configDlg.js:74 out_WASAPI_configDlg.js:116
 msgid "Fades out on Stop"
-msgstr ""
+msgstr "Plynule zeslabení při zastavení"
 
 #: out_MMDS_configDlg.js:74 out_WASAPI_configDlg.js:116
 msgid "Smooth stop"
-msgstr ""
+msgstr "Plynulé zastavení"
 
 #: out_MMDS_configDlg.js:92
-#, fuzzy
-#| msgid "MediaMonkey Video plug-in"
 msgid "MediaMonkey DirectSound Output plug-in"
-msgstr "MediaMonkey video plug-in"
+msgstr "MediaMonkey DirectSound výstupní plug-in"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare sampleRate dropDown
@@ -1507,43 +1508,35 @@ msgstr "bitů"
 
 #: out_WASAPI_configDlg.js:14
 msgid "Automatic choice of format (per track)"
-msgstr ""
+msgstr "Automatický výběr formátu (po jednotlivých skladbách)"
 
 #: out_WASAPI_configDlg.js:15
-#, fuzzy
-#| msgid "Reset to original"
 msgid "Use format of original track"
-msgstr "Obnovit původní"
+msgstr "Použít formát původního souboru"
 
 #: out_WASAPI_configDlg.js:77
-#, fuzzy
-#| msgid "From other applications..."
 msgid "Prevents audio from other applications"
-msgstr "Z jiných aplikací..."
+msgstr "Potlačí zvuky z jiných aplikací"
 
 #: out_WASAPI_configDlg.js:77
-#, fuzzy
-#| msgid "Exclude folders:"
 msgid "Exclusive mode"
-msgstr "Kromě složek:"
+msgstr "Výlučný mód"
 
 #: out_WASAPI_configDlg.js:126
 msgid "Event driven Exclusive mode (recommended)"
-msgstr ""
+msgstr "Událostmi řízený výlučný mód (doporučeno)"
 
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
-msgstr ""
+msgstr "Událostmi řízený sdílený mód (doporučeno)"
 
 #: out_WASAPI_configDlg.js:187 controls/artWindow.js:102
 msgid "Advanced"
 msgstr "Rozšířené"
 
 #: out_WASAPI_configDlg.js:198
-#, fuzzy
-#| msgid "MediaMonkey Video plug-in"
 msgid "MediaMonkey WASAPI Output plug-in"
-msgstr "MediaMonkey video plug-in"
+msgstr "MediaMonkey WASAPI výstupní plug-in"
 
 #: playerUtils.js:369
 msgid "Zoom"
