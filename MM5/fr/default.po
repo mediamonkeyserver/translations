@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-12 19:11\n"
-"PO-Revision-Date: 2020-11-12 07:48+0000\n"
+"PO-Revision-Date: 2020-11-12 20:31+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: French <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/fr/>\n"
@@ -61,7 +61,7 @@ msgstr "Jaquette"
 
 #: actions.js:85
 msgid "History"
-msgstr ""
+msgstr "Historique"
 
 #: actions.js:88 controls/nowplayingList.js:78 controls/nowplayingList.js:398
 #: controls/player.js:549 dialogs/dlgOptions.js:43 helpers/trayIcon.js:96
@@ -398,7 +398,7 @@ msgstr ""
 #. default
 #: actions.js:1530
 msgid "Clean URL cache"
-msgstr ""
+msgstr "Effacer le cache d'URL"
 
 #: actions.js:1544
 #, fuzzy
@@ -439,11 +439,15 @@ msgid "This will restore the database from a backup."
 msgstr "Cela restaurera la base de données à partir d'une sauvegarde."
 
 #: actions.js:1619
+#, fuzzy
 msgid ""
 "Are you sure you want to restore database from %s?<br>This will delete "
 "current database and MediaMonkey will be automatically restarted when "
 "finished!"
 msgstr ""
+"Êtes-vous sûr de vouloir restaurer la base de données à partir de "
+"%s?<br>Cela supprimera la base de données actuelle et MediaMonkey sera "
+"automatiquement redémarré une fois terminé!"
 
 #: actions.js:1625
 #, fuzzy
@@ -553,7 +557,7 @@ msgstr "Ajouter un serveur multimédia manuellement"
 #. no message needed in case of success (as the new server just appears in the list)
 #: actions.js:2028
 msgid "%s cannot be reached"
-msgstr ""
+msgstr "%s n'a pas pu être connecté"
 
 #: actions.js:2029 ResStrings.pas:567 UI.pas:1239
 msgid "Error"
@@ -584,7 +588,7 @@ msgstr ""
 
 #: actions.js:2053
 msgid "Configuring remote access"
-msgstr ""
+msgstr "Configuration de l'accès à distance"
 
 #: actions.js:2056
 #, fuzzy
@@ -708,16 +712,19 @@ msgid "Play now"
 msgstr "Lire maintenant"
 
 #: actions.js:2436 actions.js:2502 actions.js:2553
+#, fuzzy
 msgid "shuffled"
-msgstr ""
+msgstr "mélangé"
 
 #: actions.js:2454 actions.js:2520 actions.js:2572
+#, fuzzy
 msgid "shuffled by Album"
-msgstr ""
+msgstr "mélangé par Album"
 
 #: actions.js:2469
+#, fuzzy
 msgid "Play mixed"
-msgstr ""
+msgstr "Lire mixte"
 
 #: actions.js:2484 actions.js:2499 actions.js:2502 actions.js:2517
 #: actions.js:2520 MediaMonkeyApp.pas:7927
@@ -861,7 +868,7 @@ msgstr "Configuration du plug-in d'&entrée courant"
 
 #: actions.js:3041 dialogs/dlgWizard.js:23
 msgid "Share media"
-msgstr ""
+msgstr "Partager"
 
 #: actions.js:3054
 msgid "Configure Collections and nodes"
@@ -1243,11 +1250,11 @@ msgstr "&Lecture"
 #. adds shuffle menu commands to button context menu
 #: actions.js:5222 actions.js:8709 controls/trackListView.js:1762
 msgid "Play shuffled"
-msgstr ""
+msgstr "Lire mélangé"
 
 #: actions.js:5254 actions.js:8710 controls/trackListView.js:1797
 msgid "Play shuffled (by Album)"
-msgstr ""
+msgstr "Lire mélangée (par Album)"
 
 #: actions.js:5327 controls/nowplayingList.js:346 dialogs/dlgOptions.js:43
 #: dialogs\dlgOptions\pnl_AutoDJ.html:3
@@ -1378,8 +1385,9 @@ msgid "Library"
 msgstr "Bibliothèque"
 
 #: actions.js:7948
+#, fuzzy
 msgid "Explorer"
-msgstr ""
+msgstr "Explorateur"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare channels dropDown
@@ -1473,20 +1481,25 @@ msgid ""
 "Select which device to use. 'Default' uses whatever device is configured by "
 "the operating system for playback."
 msgstr ""
+"Sélectionner le périphérique à utiliser. 'Défaut' utilise n'importe quel "
+"périphérique configuré pour la lecture par le système d'exploitation."
 
 #: out_MMDS_configDlg.js:41
 msgid "Disable only in the case of audio problems"
-msgstr ""
+msgstr "Désactiver uniquement dans le cas de problèmes audio"
 
 #: out_MMDS_configDlg.js:41
 msgid "Enable hardware acceleration"
-msgstr ""
+msgstr "Activer l'accelération matérielle"
 
 #: out_MMDS_configDlg.js:47 out_WASAPI_configDlg.js:89
+#, fuzzy
 msgid ""
 "Overlaps tracks for the specified time, fading out the first track as the "
 "second one starts"
 msgstr ""
+"Superpose des pistes pendant le temps spécifié, avec fondu sur la première "
+"piste lorsque la suivante démarre"
 
 #: out_MMDS_configDlg.js:47 out_WASAPI_configDlg.js:89
 #, fuzzy
@@ -1501,22 +1514,24 @@ msgstr "secondes"
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Causes new track to fade-in rather than starting at full volume"
 msgstr ""
+"Permet à la nouvelle piste de démarrer doucement au lieu de commencer à "
+"plein volume"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Fade in new track"
-msgstr ""
+msgstr "Fondu sur nouvelle piste"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:98
 msgid "Removes gaps introduced by some lossy encoders"
-msgstr ""
+msgstr "Retire les blancs créés par certains encodeurs"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:98
 msgid "Remove silence at the beginning / end of track"
-msgstr ""
+msgstr "Retirer les silence au début et à la fin des pistes"
 
 #: out_MMDS_configDlg.js:62 out_WASAPI_configDlg.js:104
 msgid "Fades in and out on Pause/Play"
-msgstr ""
+msgstr "Fondu en entrée et en sortie sur Lecture/Pause"
 
 #: out_MMDS_configDlg.js:62 out_WASAPI_configDlg.js:104
 msgid "Smooth pause"
@@ -1524,7 +1539,7 @@ msgstr "Pause fondue"
 
 #: out_MMDS_configDlg.js:68 out_WASAPI_configDlg.js:110
 msgid "Crossfades during seek operation"
-msgstr ""
+msgstr "Fondu pendant le parcours de la piste"
 
 #: out_MMDS_configDlg.js:68 out_WASAPI_configDlg.js:110
 msgid "Smooth seek"
@@ -1532,7 +1547,7 @@ msgstr "Recherche fondue"
 
 #: out_MMDS_configDlg.js:74 out_WASAPI_configDlg.js:116
 msgid "Fades out on Stop"
-msgstr ""
+msgstr "Fondu sur Stop"
 
 #: out_MMDS_configDlg.js:74 out_WASAPI_configDlg.js:116
 msgid "Smooth stop"
@@ -1565,7 +1580,7 @@ msgstr "bits"
 
 #: out_WASAPI_configDlg.js:14
 msgid "Automatic choice of format (per track)"
-msgstr ""
+msgstr "Choix automatique du format (par piste)"
 
 #: out_WASAPI_configDlg.js:15
 #, fuzzy
@@ -1575,7 +1590,7 @@ msgstr "Réinitialiser à l'original"
 
 #: out_WASAPI_configDlg.js:77
 msgid "Prevents audio from other applications"
-msgstr ""
+msgstr "Empêche l'audio à partir d'autres applications"
 
 #: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
 #: out_WASAPI_configDlg.js:169
@@ -1586,11 +1601,11 @@ msgstr "Exclure les répertoires:"
 
 #: out_WASAPI_configDlg.js:126
 msgid "Event driven Exclusive mode (recommended)"
-msgstr ""
+msgstr "Mode exclusif Event Driven (recommandé)"
 
 #: out_WASAPI_configDlg.js:132
 msgid "Event driven Shared mode (recommended)"
-msgstr ""
+msgstr "Mode partagé Event Driven (recommandé)"
 
 #: out_WASAPI_configDlg.js:138
 #, fuzzy
@@ -1600,7 +1615,7 @@ msgstr "Débit minimal"
 
 #: out_WASAPI_configDlg.js:143
 msgid "Pull mode (event driven)"
-msgstr ""
+msgstr "Mode Pull (Event Driven)"
 
 #: out_WASAPI_configDlg.js:156 out_WASAPI_configDlg.js:177
 #, fuzzy
@@ -2014,7 +2029,7 @@ msgstr "Nouveau répertoire"
 
 #: viewHandlers.js:3375
 msgid "New folder name"
-msgstr ""
+msgstr "Nouveau nom de répertoire"
 
 #. inheritance, this way we creates 'PlaylistBase' node handler class, 'Playlist' and 'Playlists' inherits from it when creating nodeHandlers.playlist(s) instances below
 #: viewHandlers.js:3603
@@ -2661,7 +2676,7 @@ msgstr "Image d'arrière-plan"
 #. F10 - toggle automatic preset change
 #: controls/baseVis.js:114 controls/baseVis.js:115
 msgid "Automatic preset change"
-msgstr ""
+msgstr "Changement automatique de préréglage"
 
 #: controls/baseVis.js:114 Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:5
 msgid "On"
@@ -2784,8 +2799,9 @@ msgid "Other"
 msgstr "Autre"
 
 #: controls/control.js:2007
+#, fuzzy
 msgid "Getting data"
-msgstr ""
+msgstr "Obtention de données"
 
 #: controls/deviceConfig.js:65
 msgid "You have changed the settings for %s"
@@ -2909,7 +2925,7 @@ msgstr "Pause"
 #. check empty value
 #: controls/dropdown.js:471 dialogs/dlgAutotag.js:49
 msgid "empty"
-msgstr ""
+msgstr "vide"
 
 #: controls/equalizer.js:57
 msgid "Equalizer"
@@ -3001,8 +3017,9 @@ msgid "Main directory:"
 msgstr "Répertoire principal:"
 
 #: controls/maskedit.js:461
+#, fuzzy
 msgid "Statically defined root folder"
-msgstr ""
+msgstr "Répertoire racine défini statiquement"
 
 #: controls/maskedit.js:466
 msgid "Subdirectories"
@@ -3237,6 +3254,8 @@ msgstr "Basculer en mode Mini/MicroMonkey"
 #: controls/playlistEditor.js:57
 msgid "Drag and drop or Send tracks to the playlist to populate it."
 msgstr ""
+"Faites glisser-déposer ou Envoyez des pistes à la liste de lecture pour la "
+"remplir."
 
 #: controls/playlistHeader.js:117
 msgid "Edit in Playlist Panel"
@@ -3267,6 +3286,8 @@ msgid ""
 "You are not subscribed to any podcast currently. To subscribe a podcast go "
 "to %s"
 msgstr ""
+"Vous n'êtes actuellement abonné à aucun podcast. Pour vous abonner à un "
+"podcast, allez à %s"
 
 #: controls/podcastSubscribeTutorial.js:23
 #, fuzzy
@@ -3275,16 +3296,18 @@ msgid "or"
 msgstr "Trier"
 
 #: controls/podcastSubscribeTutorial.js:23
+#, fuzzy
 msgid "Subscribe a podcast manually by entering the feed link"
-msgstr ""
+msgstr "Abonnez-vous manuellement à un podcast en entrant le lien de flux"
 
 #: controls/rating.js:210
 msgid "Remove rating"
 msgstr "Retirer l'évaluation"
 
 #: controls/searchBar.js:450 dialogs\dlgOptions\pnl_Search.html:8
+#, fuzzy
 msgid "Filters matches"
-msgstr ""
+msgstr "Filtre les correspondants"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. per #16067
@@ -3296,8 +3319,9 @@ msgid "Search current view"
 msgstr "Rechercher la vue actuelle"
 
 #: controls/searchBar.js:467 dialogs\dlgOptions\pnl_Search.html:9
+#, fuzzy
 msgid "Scrolls to match"
-msgstr ""
+msgstr "Défilement aux correspondants"
 
 #. LS: seems to be valid aso for active list searching (e.g. in Music > All Tracks)
 #: controls/searchBar.js:651
@@ -3370,8 +3394,9 @@ msgid "Nested condition"
 msgstr "Condition imbriqué"
 
 #: controls/searchEditor.js:823
+#, fuzzy
 msgid "Classification & Custom"
-msgstr ""
+msgstr "Classification & Personnalisé"
 
 #: controls/searchEditor.js:827
 msgid "Others"
@@ -3461,8 +3486,9 @@ msgid "Selected %d of %d"
 msgstr "Sélectionné %d sur %d"
 
 #: controls/tracklistFilter.js:402
+#, fuzzy
 msgid "Set same widths"
-msgstr ""
+msgstr "Définir les mêmes largeurs"
 
 #: controls/tracklistFilter.js:416
 msgid "Add Column"
@@ -4052,7 +4078,7 @@ msgstr "Enregistrer l'image dans le tag (si possible) et dans le répertoire"
 
 #: dialogs/dlgAddArtwork.js:27
 msgid "Add cover"
-msgstr ""
+msgstr "Ajouter une jaquette"
 
 #: dialogs/dlgAddMedia.js:23 dialogs/dlgWizard/pnlScan.js:70
 #, fuzzy
@@ -4186,7 +4212,7 @@ msgstr "Confirmation"
 
 #: dialogs/dlgAutotag.js:241
 msgid "Skip & Continue"
-msgstr ""
+msgstr "Passer et Continuer"
 
 #: dialogs/dlgAutotag.js:376
 msgid "to"
@@ -4511,11 +4537,11 @@ msgstr "Disque amovible"
 
 #: dialogs/dlgMediaProperties.js:14
 msgid "Fixed"
-msgstr ""
+msgstr "Fixe"
 
 #: dialogs/dlgMediaProperties.js:17
 msgid "Remote"
-msgstr ""
+msgstr "À distance"
 
 #: dialogs/dlgMediaProperties.js:29
 msgid "URL"
@@ -10865,16 +10891,17 @@ msgid "When analyzing Track volume, also analyze Album volume"
 msgstr "Lors de l'analyse du volume de piste, analyser le volume de l'album"
 
 #: samples\genreTextLayour.html:3
+#, fuzzy
 msgid "Alternative Rock"
-msgstr ""
+msgstr "Rock alternatif"
 
 #: maincontent.html:35
 msgid "Top panel"
-msgstr ""
+msgstr "Panneau supérieur"
 
 #: controls\mainTabContent.html:25
 msgid "Main panel (bottom)"
-msgstr ""
+msgstr "Panneau principal (bas)"
 
 #: controls\searchEditor.html:33
 msgid "megabytes"
@@ -10895,7 +10922,7 @@ msgstr ""
 
 #: dialogs\dlgAbout.html:26
 msgid "Developer Mode"
-msgstr ""
+msgstr "Mode Développeur"
 
 #: dialogs\dlgCollectionOptions.html:52
 msgid "Icon"
@@ -10914,12 +10941,14 @@ msgstr ""
 "tags épisodes, par les données du flux"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:15
+#, fuzzy
 msgid "when sorting by"
-msgstr ""
+msgstr "lors du tri par"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
+#, fuzzy
 msgid "previous files in Playing list"
-msgstr ""
+msgstr "fichiers précédents dans la liste de lecture en cours"
 
 #: dialogs\dlgOptions\pnl_Download.html:21
 msgid "Every week"
@@ -10927,7 +10956,7 @@ msgstr "Chaque semaine"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:4
 msgid "Background metadata lookup"
-msgstr ""
+msgstr "Recherche de métadonnées en tâches de fond"
 
 #: dialogs\dlgOptions\pnl_Performance.html:2
 msgid "Improve performance of some tasks by utilizing multiple CPU cores"
@@ -10937,12 +10966,14 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Player.html:41
 msgid "Pop-up display"
-msgstr ""
+msgstr "Info piste"
 
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid ""
 "Shows a confirmation dialog with a list of the files that will be affected"
 msgstr ""
+"Affiche une boîte de dialogue de confirmation avec une liste des fichiers "
+"qui seront affectés"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:10
 msgid "Remove artwork from tags if larger than:"
@@ -10958,7 +10989,7 @@ msgstr ""
 
 #: dialogs\dlgAddArtwork.html:24
 msgid "Image location"
-msgstr ""
+msgstr "Emplacement de l'image"
 
 #: dialogs\dlgConvertFormat.html:11
 msgid "Record CD track(s) to your hard drive"
@@ -10970,11 +11001,11 @@ msgstr "Fichiers situés à de nouveaux emplacements"
 
 #: dialogs\dlgMP3Settings.html:75
 msgid "Bitrate (max)"
-msgstr ""
+msgstr "Débit (max)"
 
 #: dialogs\dlgOGGSettings.html:36
 msgid " kbps"
-msgstr ""
+msgstr " kbps"
 
 #: dialogs\dlgPodcastSubscription.html:91
 msgid "Displays all episodes including those that have previously been deleted"
@@ -11039,7 +11070,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:20
 msgid "Set sources"
-msgstr ""
+msgstr "Définir les sources"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:56
 msgid "Play last in MediaMonkey"
@@ -11047,7 +11078,7 @@ msgstr "Lire en dernier dans MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:50
 msgid "'Play now' action:"
-msgstr ""
+msgstr "Action pour \"Lire maintenant\":"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:10
 msgid "'Play Now' Action:"
@@ -11081,36 +11112,45 @@ msgstr "Recherche des paroles"
 
 #: dialogs\dlgWizard\pnlRegistration.html:14
 msgid "AccurateRip for bit-perfect CD Rips."
-msgstr ""
+msgstr "AccurateRip pour des extraits de CD parfaits."
 
 #: controls\artistview.html:25
 msgid "Albums - live"
-msgstr ""
+msgstr "Albums - live"
 
 #: controls\searchView.html:5
+#, fuzzy
 msgid "Switch to advanced"
-msgstr ""
+msgstr "Passer à avancé"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:3
+#, fuzzy
 msgid ""
 "Sync profiles contain default settings that allow a device or storage "
 "location to sync correctly. They don't include user-settings such as which "
 "content will sync."
 msgstr ""
+"Les profils de synchronisation contiennent des paramètres par défaut qui "
+"permettent à un périphérique ou à un emplacement de stockage de se "
+"synchroniser correctement. Ils n'incluent pas les paramètres utilisateur "
+"tels que le contenu à synchroniser."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:35
 msgid "Destination directory"
-msgstr ""
+msgstr "Répertoire destination"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:6
 msgid ""
 "Create playlists to more easily navigate tracks on a device. This is useful "
 "for older players or car stereos that don't have a media database."
 msgstr ""
+"Créez des listes de lecture pour déplacer plus facilement les pistes sur un "
+"périphérique. Ceci est utile pour les lecteurs plus âgés ou les chaînes "
+"stéréo de voiture qui n'ont pas de base de données multimédia."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:11
 msgid "Selected Album nodes"
-msgstr ""
+msgstr "Branches d'album sélectionnés"
 
 #: dialogs\dlgAutotag.html:9
 msgid ""
