@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-12 19:11\n"
+"POT-Creation-Date: 2020-11-12 21:30\n"
 "PO-Revision-Date: 2020-11-12 20:31+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: French <http://translations.mediamonkey.com/projects/"
@@ -242,7 +242,7 @@ msgid "Lookup image"
 msgstr "Recherche la jaquette"
 
 #: actions.js:908 actions.js:1713 actions.js:2089
-#: controls/playlistHeader.js:159 FullPlayer.pas:4366
+#: controls/playlistHeader.js:159 FullPlayer.pas:4368
 #: controls\serverConfig\devices.html:8
 msgid "Remove"
 msgstr "Retirer"
@@ -445,8 +445,8 @@ msgid ""
 "current database and MediaMonkey will be automatically restarted when "
 "finished!"
 msgstr ""
-"Êtes-vous sûr de vouloir restaurer la base de données à partir de "
-"%s?<br>Cela supprimera la base de données actuelle et MediaMonkey sera "
+"Êtes-vous sûr de vouloir restaurer la base de données à partir de %s?"
+"<br>Cela supprimera la base de données actuelle et MediaMonkey sera "
 "automatiquement redémarré une fois terminé!"
 
 #: actions.js:1625
@@ -536,9 +536,8 @@ msgid "Add location"
 msgstr "Ajouter un emplacement"
 
 #. 'addStorage',
-#: actions.js:1950 viewHandlers.js:4622 dialogs/dlgAddMedia.js:40
-#: dialogs/dlgMediaProperties.js:26 dialogs/dlgWizard/pnlScan.js:91
-#: QueryManage.pas:4314 ResStrings.pas:403
+#: actions.js:1950 viewHandlers.js:4622 dialogs/dlgMediaProperties.js:26
+#: dialogs/dlgWizard/pnlScan.js:91 QueryManage.pas:4314 ResStrings.pas:403
 msgid "Network"
 msgstr "Voisinage réseau"
 
@@ -1057,7 +1056,7 @@ msgstr "Retirer les &doublons"
 msgid "&Randomize list"
 msgstr "Liste &aléatoire"
 
-#: actions.js:4016 FullPlayer.pas:4407
+#: actions.js:4016 FullPlayer.pas:4409
 msgid "Reverse list"
 msgstr "Liste inversée"
 
@@ -1879,7 +1878,7 @@ msgstr "Filtre de colonne"
 
 #. dummy handler, just to show "Tracks" above tracklist
 #: viewHandlers.js:699 viewHandlers.js:1276 viewHandlers.js:1364
-#: viewHandlers.js:2028 controls/searchView.js:422 dialogs/dlgAutotag.js:376
+#: viewHandlers.js:2028 controls/searchView.js:422
 msgid "Tracks"
 msgstr "Pistes"
 
@@ -4080,15 +4079,6 @@ msgstr "Enregistrer l'image dans le tag (si possible) et dans le répertoire"
 msgid "Add cover"
 msgstr "Ajouter une jaquette"
 
-#: dialogs/dlgAddMedia.js:23 dialogs/dlgWizard/pnlScan.js:70
-#, fuzzy
-msgid "Local storage"
-msgstr "Stockage local"
-
-#: dialogs/dlgAddMedia.js:133
-msgid "Add media"
-msgstr ""
-
 #: dialogs/dlgAddonConfig.js:10
 #, fuzzy
 msgid "Addon Configuration"
@@ -4191,20 +4181,11 @@ msgstr "Rechercher par empreinte digitale..."
 msgid "Auto-tag"
 msgstr "Auto-tag"
 
-#: dialogs/dlgAutotag.js:144 dialogs/dlgOptions/pnl_DSPModules.js:48
-#: dialogs/dlgOptions/pnl_InputPlugins.js:33
-#: dialogs/dlgOptions/pnl_OutputPlugins.js:40
-msgid "File"
-msgstr "Fichier"
-
-#: dialogs/dlgAutotag.js:144 dialogs/dlgAutotag.js:376
-msgid "of"
-msgstr "de"
-
 #: dialogs/dlgAutotag.js:144
 #, fuzzy
-msgid "processing"
-msgstr "en traitement"
+#| msgid "%d of %d folders processed"
+msgid "File %d of %d processing"
+msgstr "%d des %d répertoires traités"
 
 #: dialogs/dlgAutotag.js:238 PlaylistManage.pas:1277 ResStrings.pas:569
 msgid "Confirm"
@@ -4215,8 +4196,8 @@ msgid "Skip & Continue"
 msgstr "Passer et Continuer"
 
 #: dialogs/dlgAutotag.js:376
-msgid "to"
-msgstr "à"
+msgid "Tracks %d to %d of %d"
+msgstr ""
 
 #: dialogs/dlgAutotag.js:439
 #, fuzzy
@@ -5186,6 +5167,12 @@ msgstr ""
 msgid "Plug-in description"
 msgstr "Description"
 
+#: dialogs/dlgOptions/pnl_DSPModules.js:48
+#: dialogs/dlgOptions/pnl_InputPlugins.js:33
+#: dialogs/dlgOptions/pnl_OutputPlugins.js:40
+msgid "File"
+msgstr "Fichier"
+
 #: dialogs/dlgOptions/pnl_Hotkeys.js:5
 msgid "Type a keyboard shortcut"
 msgstr "Taper le raccourci clavier"
@@ -5458,6 +5445,11 @@ msgid ""
 msgstr ""
 "La mise à niveau vers MediaMonkey Gold aide à soutenir le développement "
 "continu de MediaMonkey et vous offre les fonctionnalités suivantes:"
+
+#: dialogs/dlgWizard/pnlScan.js:70
+#, fuzzy
+msgid "Local storage"
+msgstr "Stockage local"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #. we have exact gid, do not allow changing it in case search does not find it
@@ -6872,7 +6864,7 @@ msgstr "MediaMonkey ne peut pas encoder dans ce format."
 
 #. DRM
 #. DRM
-#: FormatsManage.pas:1243 FullPlayer.pas:4062 GeneralDecoder.pas:430
+#: FormatsManage.pas:1243 FullPlayer.pas:4064 GeneralDecoder.pas:430
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
 msgstr ""
 "Le fichier %s ne peut pas être décodé. Il présente peut être des droits "
@@ -7019,63 +7011,63 @@ msgstr "H:"
 msgid "above"
 msgstr "Au delà de"
 
-#: FullPlayer.pas:2089
+#: FullPlayer.pas:2091
 msgid "Add %d file(s) to Playing"
 msgstr ""
 
-#: FullPlayer.pas:2297
+#: FullPlayer.pas:2299
 msgid "Clear Playing"
 msgstr ""
 
 #. undefined
-#: FullPlayer.pas:2386
+#: FullPlayer.pas:2388
 msgid "Sort"
 msgstr "Trier"
 
-#: FullPlayer.pas:2708
+#: FullPlayer.pas:2710
 msgid "Currently, there is no output plug-in selected"
 msgstr "Actuellement, il n'y a pas de plug-in de sortie sélectionné."
 
-#: FullPlayer.pas:2722
+#: FullPlayer.pas:2724
 msgid "Currently no input plug-in is in use (no file is playing)."
 msgstr ""
 "Actuellement, il n'y a pas de plug-in d'entrée en cours d'utilisation (aucun "
 "fichier en cours de lecture)."
 
 #. test accessibility first
-#: FullPlayer.pas:4058
+#: FullPlayer.pas:4060
 #, fuzzy
 msgid "Playback failed: %s is inaccessible."
 msgstr "La lecture a échoué: %s est inaccessible."
 
-#: FullPlayer.pas:4066
+#: FullPlayer.pas:4068
 #, fuzzy
 msgid "Playback failed: %s cannot be decoded."
 msgstr "La lecture a échoué: %s ne peut pas être décodé."
 
-#: FullPlayer.pas:4296
+#: FullPlayer.pas:4298
 msgid "Clean"
 msgstr "Nettoyer"
 
-#: FullPlayer.pas:4452
+#: FullPlayer.pas:4454
 msgid "Randomize list"
 msgstr "Liste aléatoire"
 
 #. this song already was in the playlist
-#: FullPlayer.pas:4550
+#: FullPlayer.pas:4552
 msgid "No duplicates were detected."
 msgstr "Aucun doublon détecté."
 
-#: FullPlayer.pas:4554
+#: FullPlayer.pas:4556
 #, fuzzy
 msgid "Do you want to remove %d duplicate(s) Playing?"
 msgstr "Voulez-vous retirer %d doublon(s) en cours de lecture?"
 
-#: FullPlayer.pas:4558
+#: FullPlayer.pas:4560
 msgid "Remove duplicates"
 msgstr "Retirer les doublons"
 
-#: FullPlayer.pas:6217
+#: FullPlayer.pas:6220
 msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
@@ -7083,11 +7075,11 @@ msgstr ""
 "Le fichier %s est en cours de lecture. L'effacer va interrompre la lecture. "
 "Etes-vous sûr de vouloir l'effacer ?"
 
-#: FullPlayer.pas:7137
+#: FullPlayer.pas:7140
 msgid "Computing waveform for file %s"
 msgstr ""
 
-#: FullPlayer.pas:7651 WinAmpPlugins.pas:2879
+#: FullPlayer.pas:7654 WinAmpPlugins.pas:2879
 msgid "No configuration"
 msgstr "Pas de configuration"
 
@@ -11801,6 +11793,16 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr "Ajouté Récemment"
+
+#~ msgid "of"
+#~ msgstr "de"
+
+#, fuzzy
+#~ msgid "processing"
+#~ msgstr "en traitement"
+
+#~ msgid "to"
+#~ msgstr "à"
 
 #, fuzzy
 #~ msgid "Collection grid"

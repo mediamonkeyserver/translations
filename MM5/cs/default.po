@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-12 19:11\n"
+"POT-Creation-Date: 2020-11-12 21:30\n"
 "PO-Revision-Date: 2020-11-12 20:31+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
@@ -236,7 +236,7 @@ msgid "Lookup image"
 msgstr "Najít obrázek"
 
 #: actions.js:908 actions.js:1713 actions.js:2089
-#: controls/playlistHeader.js:159 FullPlayer.pas:4366
+#: controls/playlistHeader.js:159 FullPlayer.pas:4368
 #: controls\serverConfig\devices.html:8
 msgid "Remove"
 msgstr "Odstranit"
@@ -520,9 +520,8 @@ msgid "Add location"
 msgstr "Přidat umístění"
 
 #. 'addStorage',
-#: actions.js:1950 viewHandlers.js:4622 dialogs/dlgAddMedia.js:40
-#: dialogs/dlgMediaProperties.js:26 dialogs/dlgWizard/pnlScan.js:91
-#: QueryManage.pas:4314 ResStrings.pas:403
+#: actions.js:1950 viewHandlers.js:4622 dialogs/dlgMediaProperties.js:26
+#: dialogs/dlgWizard/pnlScan.js:91 QueryManage.pas:4314 ResStrings.pas:403
 msgid "Network"
 msgstr "Síť"
 
@@ -1008,7 +1007,7 @@ msgstr "Odstranit duplikáty"
 msgid "&Randomize list"
 msgstr "&Zamíchat seznam"
 
-#: actions.js:4016 FullPlayer.pas:4407
+#: actions.js:4016 FullPlayer.pas:4409
 msgid "Reverse list"
 msgstr "Obrátit seznam"
 
@@ -1792,7 +1791,7 @@ msgstr "Sloupcový filtr"
 
 #. dummy handler, just to show "Tracks" above tracklist
 #: viewHandlers.js:699 viewHandlers.js:1276 viewHandlers.js:1364
-#: viewHandlers.js:2028 controls/searchView.js:422 dialogs/dlgAutotag.js:376
+#: viewHandlers.js:2028 controls/searchView.js:422
 msgid "Tracks"
 msgstr "Skladby"
 
@@ -3887,14 +3886,6 @@ msgstr "Uložit obrázek v tagu (pokud je to možné) a do složky souboru"
 msgid "Add cover"
 msgstr "Přidání obrázku"
 
-#: dialogs/dlgAddMedia.js:23 dialogs/dlgWizard/pnlScan.js:70
-msgid "Local storage"
-msgstr "Místní úložiště"
-
-#: dialogs/dlgAddMedia.js:133
-msgid "Add media"
-msgstr "Přidání média"
-
 #: dialogs/dlgAddonConfig.js:10
 msgid "Addon Configuration"
 msgstr "Konfigurace doplňku"
@@ -3991,19 +3982,11 @@ msgstr "Vyhledat pomocí digitálního otisku..."
 msgid "Auto-tag"
 msgstr "Automatické tagování"
 
-#: dialogs/dlgAutotag.js:144 dialogs/dlgOptions/pnl_DSPModules.js:48
-#: dialogs/dlgOptions/pnl_InputPlugins.js:33
-#: dialogs/dlgOptions/pnl_OutputPlugins.js:40
-msgid "File"
-msgstr "Soubor"
-
-#: dialogs/dlgAutotag.js:144 dialogs/dlgAutotag.js:376
-msgid "of"
-msgstr "z"
-
 #: dialogs/dlgAutotag.js:144
-msgid "processing"
-msgstr "zpracování"
+#, fuzzy
+#| msgid "%d of %d folders processed"
+msgid "File %d of %d processing"
+msgstr "%d z %d složek zpracováno"
 
 #: dialogs/dlgAutotag.js:238 PlaylistManage.pas:1277 ResStrings.pas:569
 msgid "Confirm"
@@ -4014,8 +3997,8 @@ msgid "Skip & Continue"
 msgstr "Přeskočit a pokračovat"
 
 #: dialogs/dlgAutotag.js:376
-msgid "to"
-msgstr "až"
+msgid "Tracks %d to %d of %d"
+msgstr ""
 
 #: dialogs/dlgAutotag.js:439
 msgid "Lookups completed"
@@ -4918,6 +4901,12 @@ msgstr ""
 msgid "Plug-in description"
 msgstr "Popis pluginu"
 
+#: dialogs/dlgOptions/pnl_DSPModules.js:48
+#: dialogs/dlgOptions/pnl_InputPlugins.js:33
+#: dialogs/dlgOptions/pnl_OutputPlugins.js:40
+msgid "File"
+msgstr "Soubor"
+
 #: dialogs/dlgOptions/pnl_Hotkeys.js:5
 msgid "Type a keyboard shortcut"
 msgstr "Vložte klávesovou zkratku"
@@ -5166,6 +5155,10 @@ msgid ""
 msgstr ""
 "Aktualizace na MediaMonkey Gold pomáhá podporovat průběžný vývoj MediaMonkey "
 "a poskytuje následující funkce:"
+
+#: dialogs/dlgWizard/pnlScan.js:70
+msgid "Local storage"
+msgstr "Místní úložiště"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #. we have exact gid, do not allow changing it in case search does not find it
@@ -6514,7 +6507,7 @@ msgstr "MediaMonkey není schopno kódovat do tohoto formátu."
 
 #. DRM
 #. DRM
-#: FormatsManage.pas:1243 FullPlayer.pas:4062 GeneralDecoder.pas:430
+#: FormatsManage.pas:1243 FullPlayer.pas:4064 GeneralDecoder.pas:430
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
 msgstr "Soubor %s nelze dekódovat. Možná je to způsobeno DRM omezením."
 
@@ -6659,58 +6652,58 @@ msgstr "V: "
 msgid "above"
 msgstr "nad"
 
-#: FullPlayer.pas:2089
+#: FullPlayer.pas:2091
 msgid "Add %d file(s) to Playing"
 msgstr "Přidat %d soubor(y) do Přehrávání"
 
-#: FullPlayer.pas:2297
+#: FullPlayer.pas:2299
 msgid "Clear Playing"
 msgstr "Vymazat Přehrávání"
 
 #. undefined
-#: FullPlayer.pas:2386
+#: FullPlayer.pas:2388
 msgid "Sort"
 msgstr "Třídit"
 
-#: FullPlayer.pas:2708
+#: FullPlayer.pas:2710
 msgid "Currently, there is no output plug-in selected"
 msgstr "Žádný výstupní plugin není vybrán"
 
-#: FullPlayer.pas:2722
+#: FullPlayer.pas:2724
 msgid "Currently no input plug-in is in use (no file is playing)."
 msgstr "Žádný vstupní plugin není používán (nehraje žádný soubor)."
 
 #. test accessibility first
-#: FullPlayer.pas:4058
+#: FullPlayer.pas:4060
 msgid "Playback failed: %s is inaccessible."
 msgstr "Přehrávání se nezdařilo: %s je nedostupné."
 
-#: FullPlayer.pas:4066
+#: FullPlayer.pas:4068
 msgid "Playback failed: %s cannot be decoded."
 msgstr "Přehrávání se nezdařilo: %s nelze dekódovat."
 
-#: FullPlayer.pas:4296
+#: FullPlayer.pas:4298
 msgid "Clean"
 msgstr "Vyčistit"
 
-#: FullPlayer.pas:4452
+#: FullPlayer.pas:4454
 msgid "Randomize list"
 msgstr "Zamíchat seznam"
 
 #. this song already was in the playlist
-#: FullPlayer.pas:4550
+#: FullPlayer.pas:4552
 msgid "No duplicates were detected."
 msgstr "Nebyly detekovány žádné duplikátní skladby."
 
-#: FullPlayer.pas:4554
+#: FullPlayer.pas:4556
 msgid "Do you want to remove %d duplicate(s) Playing?"
 msgstr "Chcete odstranit %d duplicit v Přehrávání?"
 
-#: FullPlayer.pas:4558
+#: FullPlayer.pas:4560
 msgid "Remove duplicates"
 msgstr "Odstranit duplicity"
 
-#: FullPlayer.pas:6217
+#: FullPlayer.pas:6220
 msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
@@ -6718,11 +6711,11 @@ msgstr ""
 "Soubor %s právě hraje. Pokud jej smažete, přehrávání bude přerušeno. Opravdu "
 "jej chcete smazat?"
 
-#: FullPlayer.pas:7137
+#: FullPlayer.pas:7140
 msgid "Computing waveform for file %s"
 msgstr "Výpočet křivky pro soubor %s"
 
-#: FullPlayer.pas:7651 WinAmpPlugins.pas:2879
+#: FullPlayer.pas:7654 WinAmpPlugins.pas:2879
 msgid "No configuration"
 msgstr "Žádná konfigurace"
 
@@ -11221,6 +11214,18 @@ msgstr "Nedávno přidané (1 GB)"
 # Playlist
 msgid "Recently Added"
 msgstr "Nedávno přidané"
+
+#~ msgid "Add media"
+#~ msgstr "Přidání média"
+
+#~ msgid "of"
+#~ msgstr "z"
+
+#~ msgid "processing"
+#~ msgstr "zpracování"
+
+#~ msgid "to"
+#~ msgstr "až"
 
 #~ msgid "Are you sure you want to restore database from "
 #~ msgstr "Opravdu chcete obnovit databázi z "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-12 19:11\n"
+"POT-Creation-Date: 2020-11-12 21:30\n"
 "PO-Revision-Date: 2020-11-10 11:50+0000\n"
 "Last-Translator: Panagiotis Pentaris <ppentar@outlook.com>\n"
 "Language-Team: Greek <http://translations.mediamonkey.com/projects/"
@@ -236,7 +236,7 @@ msgid "Lookup image"
 msgstr "Αναζήτηση εικόνας"
 
 #: actions.js:908 actions.js:1713 actions.js:2089
-#: controls/playlistHeader.js:159 FullPlayer.pas:4366
+#: controls/playlistHeader.js:159 FullPlayer.pas:4368
 #: controls\serverConfig\devices.html:8
 msgid "Remove"
 msgstr "Αφαίρεση"
@@ -520,9 +520,8 @@ msgid "Add location"
 msgstr "Προσθήκη τοποθεσίας"
 
 #. 'addStorage',
-#: actions.js:1950 viewHandlers.js:4622 dialogs/dlgAddMedia.js:40
-#: dialogs/dlgMediaProperties.js:26 dialogs/dlgWizard/pnlScan.js:91
-#: QueryManage.pas:4314 ResStrings.pas:403
+#: actions.js:1950 viewHandlers.js:4622 dialogs/dlgMediaProperties.js:26
+#: dialogs/dlgWizard/pnlScan.js:91 QueryManage.pas:4314 ResStrings.pas:403
 msgid "Network"
 msgstr "Δίκτυο"
 
@@ -1012,7 +1011,7 @@ msgstr "Αφαίρεση διπλότυπων"
 msgid "&Randomize list"
 msgstr "Τυχαία λίστα"
 
-#: actions.js:4016 FullPlayer.pas:4407
+#: actions.js:4016 FullPlayer.pas:4409
 msgid "Reverse list"
 msgstr "Αντίστροφη λίστα"
 
@@ -1808,7 +1807,7 @@ msgstr "Φίλτρο στήλης"
 
 #. dummy handler, just to show "Tracks" above tracklist
 #: viewHandlers.js:699 viewHandlers.js:1276 viewHandlers.js:1364
-#: viewHandlers.js:2028 controls/searchView.js:422 dialogs/dlgAutotag.js:376
+#: viewHandlers.js:2028 controls/searchView.js:422
 msgid "Tracks"
 msgstr "Κομμάτια"
 
@@ -3910,14 +3909,6 @@ msgstr ""
 msgid "Add cover"
 msgstr ""
 
-#: dialogs/dlgAddMedia.js:23 dialogs/dlgWizard/pnlScan.js:70
-msgid "Local storage"
-msgstr ""
-
-#: dialogs/dlgAddMedia.js:133
-msgid "Add media"
-msgstr ""
-
 #: dialogs/dlgAddonConfig.js:10
 msgid "Addon Configuration"
 msgstr ""
@@ -4014,18 +4005,8 @@ msgstr ""
 msgid "Auto-tag"
 msgstr ""
 
-#: dialogs/dlgAutotag.js:144 dialogs/dlgOptions/pnl_DSPModules.js:48
-#: dialogs/dlgOptions/pnl_InputPlugins.js:33
-#: dialogs/dlgOptions/pnl_OutputPlugins.js:40
-msgid "File"
-msgstr "Αρχείο"
-
-#: dialogs/dlgAutotag.js:144 dialogs/dlgAutotag.js:376
-msgid "of"
-msgstr ""
-
 #: dialogs/dlgAutotag.js:144
-msgid "processing"
+msgid "File %d of %d processing"
 msgstr ""
 
 #: dialogs/dlgAutotag.js:238 PlaylistManage.pas:1277 ResStrings.pas:569
@@ -4037,8 +4018,8 @@ msgid "Skip & Continue"
 msgstr ""
 
 #: dialogs/dlgAutotag.js:376
-msgid "to"
-msgstr "σε"
+msgid "Tracks %d to %d of %d"
+msgstr ""
 
 #: dialogs/dlgAutotag.js:439
 msgid "Lookups completed"
@@ -4930,6 +4911,12 @@ msgstr ""
 msgid "Plug-in description"
 msgstr "Περιγραφή"
 
+#: dialogs/dlgOptions/pnl_DSPModules.js:48
+#: dialogs/dlgOptions/pnl_InputPlugins.js:33
+#: dialogs/dlgOptions/pnl_OutputPlugins.js:40
+msgid "File"
+msgstr "Αρχείο"
+
 #: dialogs/dlgOptions/pnl_Hotkeys.js:5
 msgid "Type a keyboard shortcut"
 msgstr "Πληκτρολογήστε μία συντόμευση πληκτρολογίου"
@@ -5179,6 +5166,10 @@ msgstr ""
 msgid ""
 "Upgrading to MediaMonkey Gold helps support ongoing development of "
 "MediaMonkey, and gives you the following features:"
+msgstr ""
+
+#: dialogs/dlgWizard/pnlScan.js:70
+msgid "Local storage"
 msgstr ""
 
 #. we have exact gid, do not allow changing it in case search does not find it
@@ -6522,7 +6513,7 @@ msgstr "Το MediaMonkey δεν μπορεί να κωδικοποιήσει α�
 
 #. DRM
 #. DRM
-#: FormatsManage.pas:1243 FullPlayer.pas:4062 GeneralDecoder.pas:430
+#: FormatsManage.pas:1243 FullPlayer.pas:4064 GeneralDecoder.pas:430
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
 msgstr ""
 "Το Αρχείο %s δεν μπορεί να κωδικοποιηθεί. Αυτό πιθανώς συμβαίνει λόγω "
@@ -6669,60 +6660,60 @@ msgstr "H: "
 msgid "above"
 msgstr "πάνω"
 
-#: FullPlayer.pas:2089
+#: FullPlayer.pas:2091
 msgid "Add %d file(s) to Playing"
 msgstr ""
 
-#: FullPlayer.pas:2297
+#: FullPlayer.pas:2299
 msgid "Clear Playing"
 msgstr ""
 
 #. undefined
-#: FullPlayer.pas:2386
+#: FullPlayer.pas:2388
 msgid "Sort"
 msgstr "Ταξινόμηση"
 
-#: FullPlayer.pas:2708
+#: FullPlayer.pas:2710
 msgid "Currently, there is no output plug-in selected"
 msgstr "Δεν επιλέχθηκε plug-in εξόδου"
 
-#: FullPlayer.pas:2722
+#: FullPlayer.pas:2724
 msgid "Currently no input plug-in is in use (no file is playing)."
 msgstr ""
 "Προς το παρόν δεν χρησιμοποιείται plug-in εισόδου (Δεν αναπαράγεται κανένα "
 "αρχεία)."
 
 #. test accessibility first
-#: FullPlayer.pas:4058
+#: FullPlayer.pas:4060
 msgid "Playback failed: %s is inaccessible."
 msgstr ""
 
-#: FullPlayer.pas:4066
+#: FullPlayer.pas:4068
 msgid "Playback failed: %s cannot be decoded."
 msgstr ""
 
-#: FullPlayer.pas:4296
+#: FullPlayer.pas:4298
 msgid "Clean"
 msgstr ""
 
-#: FullPlayer.pas:4452
+#: FullPlayer.pas:4454
 msgid "Randomize list"
 msgstr ""
 
 #. this song already was in the playlist
-#: FullPlayer.pas:4550
+#: FullPlayer.pas:4552
 msgid "No duplicates were detected."
 msgstr "Δεν ανιχνεύθηκαν Διπλότυπα."
 
-#: FullPlayer.pas:4554
+#: FullPlayer.pas:4556
 msgid "Do you want to remove %d duplicate(s) Playing?"
 msgstr ""
 
-#: FullPlayer.pas:4558
+#: FullPlayer.pas:4560
 msgid "Remove duplicates"
 msgstr ""
 
-#: FullPlayer.pas:6217
+#: FullPlayer.pas:6220
 msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
@@ -6730,11 +6721,11 @@ msgstr ""
 "Το Αρχείο %s αναπαράγεται τώρα. Η Διαγραφή του θα διακόψει την αναπαραγωγή. "
 "Θέλετε σίγουρα να διαγραφεί;"
 
-#: FullPlayer.pas:7137
+#: FullPlayer.pas:7140
 msgid "Computing waveform for file %s"
 msgstr ""
 
-#: FullPlayer.pas:7651 WinAmpPlugins.pas:2879
+#: FullPlayer.pas:7654 WinAmpPlugins.pas:2879
 msgid "No configuration"
 msgstr "Μη ρύθμιση"
 
@@ -11206,6 +11197,9 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr "Πρόσφατα Προστεθέντα"
+
+#~ msgid "to"
+#~ msgstr "σε"
 
 #~ msgid "Are you sure you want to restore database from "
 #~ msgstr "Είστε σίγουροι ότι θέλετε να επαναφέρετε βάση δεδομένων από "
