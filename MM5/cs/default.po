@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-13 16:29\n"
+"POT-Creation-Date: 2020-11-13 19:40\n"
 "PO-Revision-Date: 2020-11-13 18:41+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
@@ -2002,9 +2002,10 @@ msgstr "Zrušené odběry"
 msgid "Are you sure you want to remove \"%s\" ?"
 msgstr "Opravdu chcete odstranit \"%s\"?"
 
+#. to respect order served (#13941)
 #. to remove the folder (dataSource) and thus this node also
 #: viewHandlers.js:4306 viewHandlers.js:4460 viewHandlers.js:4486
-#: viewHandlers.js:6981
+#: viewHandlers.js:4842 viewHandlers.js:6981
 msgid "folder"
 msgstr "složka"
 
@@ -2075,11 +2076,6 @@ msgstr "Opravdu chcete odstranit playlist \"%s\" z %s?"
 #: viewHandlers.js:4808 viewHandlers.js:5061
 msgid "Are you sure you want to remove %d selected playlists from %s?"
 msgstr "Opravdu chcete odstranit %d vybraných playlistů z %s?"
-
-#. to respect order served (#13941)
-#: viewHandlers.js:4842
-msgid "container"
-msgstr "kontejner"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
@@ -2673,7 +2669,7 @@ msgid "Hide column"
 msgstr "Skrýt sloupec"
 
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: controls/columntracklist.js:272 controls/maskedit.js:265
+#: controls/columntracklist.js:272 controls/maskedit.js:267
 #: controls/tracklistFilter.js:479
 msgid "All fields"
 msgstr "Všechna pole"
@@ -2683,7 +2679,7 @@ msgstr "Všechna pole"
 #. add fields from this.allMaskItems not mentioned in fieldGroups to Other
 #. not used and will be visible
 #: controls/columntracklist.js:330 controls/deviceConfig.js:306
-#: controls/deviceConfig.js:307 controls/maskedit.js:331
+#: controls/deviceConfig.js:307 controls/maskedit.js:333
 #: controls/tracklistFilter.js:559 controls\artistview.html:40
 msgid "Other"
 msgstr "Jiná"
@@ -2888,36 +2884,36 @@ msgstr "Zavřít ostatní záložky"
 msgid "Close tabs to the right"
 msgstr "Zavřít záložky napravo"
 
-#: controls/maskedit.js:115 controls/maskedit.js:397
+#: controls/maskedit.js:115 controls/maskedit.js:399
 #: controls\deviceConfig\syncFromDevice.html:9
 msgid "Destination"
 msgstr "Cíl"
 
-#: controls/maskedit.js:461
+#: controls/maskedit.js:463
 msgid "Main directory:"
 msgstr "Hlavní složka:"
 
-#: controls/maskedit.js:461
+#: controls/maskedit.js:463
 msgid "Statically defined root folder"
 msgstr "Staticky definovaná kořenová složka"
 
-#: controls/maskedit.js:466
+#: controls/maskedit.js:468
 msgid "Subdirectories"
 msgstr "Podsložky"
 
-#: controls/maskedit.js:466
+#: controls/maskedit.js:468
 msgid "Subdirectories can be defined statically or using mask variables"
 msgstr "Různé podsložky lze definovat staticky nebo pomocí masek"
 
-#: controls/maskedit.js:469 dialogs\dlgOptions\pnl_Library.html:103
+#: controls/maskedit.js:471 dialogs\dlgOptions\pnl_Library.html:103
 msgid "Filenames"
 msgstr "Názvy souborů"
 
-#: controls/maskedit.js:469
+#: controls/maskedit.js:471
 msgid "Filenames can be defined using mask variables or statically"
 msgstr "Různé názvy souborů lze definovat pomocí masek nebo staticky"
 
-#: controls/maskedit.js:472
+#: controls/maskedit.js:474
 msgid "Sample:"
 msgstr "Vzorek:"
 
@@ -6876,8 +6872,10 @@ msgid "Extension"
 msgstr "Přípona"
 
 #: MaskHelper.pas:3072 MaskHelper.pas:3483 MaskHelper.pas:3780
-msgid "Target Type"
-msgstr "Cílový typ souboru"
+#, fuzzy
+#| msgid "Extension"
+msgid "Target Extension"
+msgstr "Přípona"
 
 #: MaskHelper.pas:3079 MaskHelper.pas:3536 MaskHelper.pas:3792
 msgid "Actor"
@@ -11188,6 +11186,12 @@ msgstr "Nedávno přidané (1 GB)"
 # Playlist
 msgid "Recently Added"
 msgstr "Nedávno přidané"
+
+#~ msgid "container"
+#~ msgstr "kontejner"
+
+#~ msgid "Target Type"
+#~ msgstr "Cílový typ souboru"
 
 #~ msgid "Checking accessibility by server"
 #~ msgstr "Kontrola dostupnosti serverem"

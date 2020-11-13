@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-13 16:29\n"
+"POT-Creation-Date: 2020-11-13 19:40\n"
 "PO-Revision-Date: 2020-11-13 18:41+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: French <http://translations.mediamonkey.com/projects/"
@@ -2067,9 +2067,10 @@ msgstr "Désabonner"
 msgid "Are you sure you want to remove \"%s\" ?"
 msgstr "Êtes-vous sûr de vouloir retirer \"%s\" ?"
 
+#. to respect order served (#13941)
 #. to remove the folder (dataSource) and thus this node also
 #: viewHandlers.js:4306 viewHandlers.js:4460 viewHandlers.js:4486
-#: viewHandlers.js:6981
+#: viewHandlers.js:4842 viewHandlers.js:6981
 msgid "folder"
 msgstr "répertoire"
 
@@ -2151,11 +2152,6 @@ msgstr "Êtes-vous sûr de vouloir retirer la liste de lecture \"%s\" de %s?"
 msgid "Are you sure you want to remove %d selected playlists from %s?"
 msgstr ""
 "Êtes-vous sûr de vouloir retirer %d listes de lecture sélectionnées de %s?"
-
-#. to respect order served (#13941)
-#: viewHandlers.js:4842
-msgid "container"
-msgstr "Répertoire"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
@@ -2766,7 +2762,7 @@ msgid "Hide column"
 msgstr "Cacher la colonne"
 
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: controls/columntracklist.js:272 controls/maskedit.js:265
+#: controls/columntracklist.js:272 controls/maskedit.js:267
 #: controls/tracklistFilter.js:479
 msgid "All fields"
 msgstr "Tous les champs"
@@ -2776,7 +2772,7 @@ msgstr "Tous les champs"
 #. add fields from this.allMaskItems not mentioned in fieldGroups to Other
 #. not used and will be visible
 #: controls/columntracklist.js:330 controls/deviceConfig.js:306
-#: controls/deviceConfig.js:307 controls/maskedit.js:331
+#: controls/deviceConfig.js:307 controls/maskedit.js:333
 #: controls/tracklistFilter.js:559 controls\artistview.html:40
 msgid "Other"
 msgstr "Autre"
@@ -2990,43 +2986,43 @@ msgstr "Fermer les autres onglets"
 msgid "Close tabs to the right"
 msgstr "Fermer les onglets à droite"
 
-#: controls/maskedit.js:115 controls/maskedit.js:397
+#: controls/maskedit.js:115 controls/maskedit.js:399
 #: controls\deviceConfig\syncFromDevice.html:9
 msgid "Destination"
 msgstr "Destination ?"
 
-#: controls/maskedit.js:461
+#: controls/maskedit.js:463
 msgid "Main directory:"
 msgstr "Répertoire principal:"
 
-#: controls/maskedit.js:461
+#: controls/maskedit.js:463
 #, fuzzy
 msgid "Statically defined root folder"
 msgstr "Répertoire racine défini statiquement"
 
-#: controls/maskedit.js:466
+#: controls/maskedit.js:468
 msgid "Subdirectories"
 msgstr "Sous-répertoires"
 
-#: controls/maskedit.js:466
+#: controls/maskedit.js:468
 #, fuzzy
 msgid "Subdirectories can be defined statically or using mask variables"
 msgstr ""
 "Les sous-répertoires peuvent être définis statiquement ou variablement à "
 "l'aide de masques"
 
-#: controls/maskedit.js:469 dialogs\dlgOptions\pnl_Library.html:103
+#: controls/maskedit.js:471 dialogs\dlgOptions\pnl_Library.html:103
 msgid "Filenames"
 msgstr "Noms des fichiers"
 
-#: controls/maskedit.js:469
+#: controls/maskedit.js:471
 #, fuzzy
 msgid "Filenames can be defined using mask variables or statically"
 msgstr ""
 "Les noms de fichiers peuvent être définis variablement à l'aide de masques "
 "ou statiquement"
 
-#: controls/maskedit.js:472
+#: controls/maskedit.js:474
 msgid "Sample:"
 msgstr "Exemple:"
 
@@ -7243,8 +7239,9 @@ msgstr "Extension"
 
 #: MaskHelper.pas:3072 MaskHelper.pas:3483 MaskHelper.pas:3780
 #, fuzzy
-msgid "Target Type"
-msgstr "Extension de Cible"
+#| msgid "Extension"
+msgid "Target Extension"
+msgstr "Extension"
 
 #: MaskHelper.pas:3079 MaskHelper.pas:3536 MaskHelper.pas:3792
 #, fuzzy
@@ -10034,7 +10031,8 @@ msgstr "Seulement si déjà écoutés"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the Playing list"
-msgstr "Confirmer les options lors du retrait de fichiers de 'Lecture en cours'"
+msgstr ""
+"Confirmer les options lors du retrait de fichiers de 'Lecture en cours'"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:18
 msgid "Confirm rename operations that exceed 64 character CD limit"
@@ -11815,6 +11813,13 @@ msgstr "Récemment ajouté (1GB)"
 # Playlist
 msgid "Recently Added"
 msgstr "Ajouté Récemment"
+
+#~ msgid "container"
+#~ msgstr "Répertoire"
+
+#, fuzzy
+#~ msgid "Target Type"
+#~ msgstr "Extension de Cible"
 
 #~ msgid "Extensions"
 #~ msgstr "Extensions"
