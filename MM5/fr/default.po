@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-13 16:03\n"
+"POT-Creation-Date: 2020-11-13 16:29\n"
 "PO-Revision-Date: 2020-11-13 15:04+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: French <http://translations.mediamonkey.com/projects/"
@@ -268,7 +268,7 @@ msgstr ""
 msgid "Unpin it"
 msgstr ""
 
-#: actions.js:1013
+#: actions.js:1013 PlaylistManage.pas:3919
 msgid "Save playlist"
 msgstr "Enregistrer la liste de lecture"
 
@@ -4596,8 +4596,10 @@ msgid "%s will be scanned and shared via %s"
 msgstr "%s sera scanné et partagé via %s"
 
 #: dialogs/dlgMigrateWizard.js:112
-msgid "Checking accessibility by server"
-msgstr ""
+#, fuzzy
+#| msgid "Checking for new version..."
+msgid "Checking for files on the server"
+msgstr "Recherche d'une nouvelle version..."
 
 #. this will force also the 'Sign in' dialog (if needed)
 #: dialogs/dlgMigrateWizard.js:123
@@ -5767,8 +5769,10 @@ msgstr "Lecture des métadonnées"
 
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:3947
-msgid "Waiting for sync lock"
-msgstr ""
+#, fuzzy
+#| msgid "Opening connection"
+msgid "Waiting for sync connection"
+msgstr "Ouverture de la connexion"
 
 #. release sync lock and finish
 #: helpers/mediaSync.js:4005
@@ -7658,10 +7662,6 @@ msgstr "Fichier(s) dupliqué(s) détecté(s):"
 #: PlaylistManage.pas:1272
 msgid "Are you sure you want to add the track(s) to the playlist?"
 msgstr "Etes-vous sûr de vouloir ajouter ces pistes à la liste de lecture?"
-
-#: PlaylistManage.pas:3919
-msgid "Save tracklist"
-msgstr ""
 
 #. This podcast is being downloaded
 #: PodcastManage.pas:884 PodcastManage.pas:1249

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-13 16:03\n"
+"POT-Creation-Date: 2020-11-13 16:29\n"
 "PO-Revision-Date: 2020-11-10 11:50+0000\n"
 "Last-Translator: Panagiotis Pentaris <ppentar@outlook.com>\n"
 "Language-Team: Greek <http://translations.mediamonkey.com/projects/"
@@ -265,7 +265,7 @@ msgstr "Καρφίτσωση"
 msgid "Unpin it"
 msgstr "Ξεκαρφίτσωση"
 
-#: actions.js:1013
+#: actions.js:1013 PlaylistManage.pas:3919
 msgid "Save playlist"
 msgstr "Αποθήκευση λίστας αναπαραγωγής"
 
@@ -4399,8 +4399,10 @@ msgid "%s will be scanned and shared via %s"
 msgstr ""
 
 #: dialogs/dlgMigrateWizard.js:112
-msgid "Checking accessibility by server"
-msgstr ""
+#, fuzzy
+#| msgid "Checking for new version..."
+msgid "Checking for files on the server"
+msgstr "Έλεγχος για νέα έκδοση..."
 
 #. this will force also the 'Sign in' dialog (if needed)
 #: dialogs/dlgMigrateWizard.js:123
@@ -5476,8 +5478,10 @@ msgstr ""
 
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:3947
-msgid "Waiting for sync lock"
-msgstr ""
+#, fuzzy
+#| msgid "Cannot create connection."
+msgid "Waiting for sync connection"
+msgstr "Αδυναμία δημιουργίας σύνδεσης."
 
 #. release sync lock and finish
 #: helpers/mediaSync.js:4005
@@ -7313,10 +7317,6 @@ msgstr "Εντοπίστηκαν Διπλότυπο(α) αρχείο(α):"
 #. new line
 #: PlaylistManage.pas:1272
 msgid "Are you sure you want to add the track(s) to the playlist?"
-msgstr ""
-
-#: PlaylistManage.pas:3919
-msgid "Save tracklist"
 msgstr ""
 
 #. This podcast is being downloaded

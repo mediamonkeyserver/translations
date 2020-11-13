@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-13 16:03\n"
+"POT-Creation-Date: 2020-11-13 16:29\n"
 "PO-Revision-Date: 2020-11-13 15:30+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
@@ -263,7 +263,7 @@ msgstr "Připnout"
 msgid "Unpin it"
 msgstr "Odendat"
 
-#: actions.js:1013
+#: actions.js:1013 PlaylistManage.pas:3919
 msgid "Save playlist"
 msgstr "Uložit playlist"
 
@@ -4372,8 +4372,10 @@ msgid "%s will be scanned and shared via %s"
 msgstr "%s bude naskenováno a sdíleno prostřednictvím %s"
 
 #: dialogs/dlgMigrateWizard.js:112
-msgid "Checking accessibility by server"
-msgstr "Kontrola dostupnosti serverem"
+#, fuzzy
+#| msgid "Checking for new version..."
+msgid "Checking for files on the server"
+msgstr "Hledám novou verzi..."
 
 #. this will force also the 'Sign in' dialog (if needed)
 #: dialogs/dlgMigrateWizard.js:123
@@ -5458,7 +5460,9 @@ msgstr "Čtení metadat"
 
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:3947
-msgid "Waiting for sync lock"
+#, fuzzy
+#| msgid "Waiting for sync lock"
+msgid "Waiting for sync connection"
 msgstr "Čekání na synchronizaci"
 
 #. release sync lock and finish
@@ -7261,10 +7265,6 @@ msgstr "Detekovány duplikátní soubory:"
 #: PlaylistManage.pas:1272
 msgid "Are you sure you want to add the track(s) to the playlist?"
 msgstr "Opravdu chcete přidat skladby do playlistu?"
-
-#: PlaylistManage.pas:3919
-msgid "Save tracklist"
-msgstr "Uložit seznam skladeb"
 
 #. This podcast is being downloaded
 #: PodcastManage.pas:884 PodcastManage.pas:1249
@@ -11192,6 +11192,12 @@ msgstr "Nedávno přidané (1 GB)"
 # Playlist
 msgid "Recently Added"
 msgstr "Nedávno přidané"
+
+#~ msgid "Checking accessibility by server"
+#~ msgstr "Kontrola dostupnosti serverem"
+
+#~ msgid "Save tracklist"
+#~ msgstr "Uložit seznam skladeb"
 
 #~ msgid "Extensions"
 #~ msgstr "Rozšíření"
