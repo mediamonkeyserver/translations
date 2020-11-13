@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-12 21:30\n"
+"POT-Creation-Date: 2020-11-13 16:03\n"
 "PO-Revision-Date: 2020-10-01 10:42+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
@@ -48,7 +48,7 @@ msgstr "편집"
 msgid "Window"
 msgstr "창"
 
-#: actions.js:79 viewHandlers.js:4745 dialogs/dlgOptions.js:119
+#: actions.js:79 viewHandlers.js:4749 dialogs/dlgOptions.js:119
 msgid "Downloads"
 msgstr "다운로드"
 
@@ -82,13 +82,15 @@ msgstr "선택한 파일 등급"
 msgid "Rating now playing file"
 msgstr "지금 재생 파일 등급"
 
-#: actions.js:107 actions.js:116 actions.js:8846
+#: actions.js:107 actions.js:116 actions.js:8861
 msgid "Add bookmark"
 msgstr ""
 
 #: actions.js:125
-msgid "Edit collection"
-msgstr ""
+#, fuzzy
+#| msgid "Collection"
+msgid "Edit Collection"
+msgstr "컬렉션"
 
 #: actions.js:131 dialogs/dlgOptions/pnl_MediaTree.js:197
 #: dialogs/dlgOptions/pnl_MediaTree.js:226
@@ -231,11 +233,11 @@ msgstr "모두 재개"
 msgid "Cancel all"
 msgstr "모두 취소"
 
-#: actions.js:884 actions.js:2131 dialogs\dlgTrackProperties\tabArtwork.html:7
+#: actions.js:884 actions.js:2146 dialogs\dlgTrackProperties\tabArtwork.html:7
 msgid "Lookup image"
 msgstr ""
 
-#: actions.js:908 actions.js:1713 actions.js:2089
+#: actions.js:908 actions.js:1728 actions.js:2104
 #: controls/playlistHeader.js:159 FullPlayer.pas:4368
 #: controls\serverConfig\devices.html:8
 msgid "Remove"
@@ -270,7 +272,7 @@ msgstr ""
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16261 - to be the first in the list after creation
 #. #16261 - to be the first in the list after creation
-#: actions.js:1033 actions.js:7586 actions.js:7612
+#: actions.js:1033 actions.js:7601 actions.js:7627
 #: dialogs\dlgSelectPlaylist.html:11
 msgid "New playlist"
 msgstr "새 재생목록"
@@ -335,413 +337,417 @@ msgstr ""
 msgid "&Add/Rescan files to the Library"
 msgstr ""
 
-#: actions.js:1310 actions.js:6762 dialogs/dlgMovedFiles.js:15
+#: actions.js:1310
+msgid "Open in Explorer"
+msgstr ""
+
+#: actions.js:1325 actions.js:6777 dialogs/dlgMovedFiles.js:15
 #: dialogs\dlgDeletedTracks.html:14
 msgid "Locate moved/missing files"
 msgstr ""
 
-#: actions.js:1329
+#: actions.js:1344
 msgid "Add to Library"
 msgstr ""
 
 #. device/cloud track in library (issue #14272)
-#: actions.js:1391
+#: actions.js:1406
 msgid "Adding from %s:"
 msgstr ""
 
-#: actions.js:1409 FormatsManage.pas:5585 ResStrings.pas:759
+#: actions.js:1424 FormatsManage.pas:5585 ResStrings.pas:759
 #: dialogs\dlgNewVersion.html:25
 msgid "Download"
 msgstr "다운로드"
 
 #. device/cloud tracks to be downloaded into library
-#: actions.js:1470 helpers/mediaSync.js:4248
+#: actions.js:1485 helpers/mediaSync.js:4248
 msgid "Initializing download from %s"
 msgstr ""
 
-#: actions.js:1487 DatabaseManage.pas:1063
+#: actions.js:1502 DatabaseManage.pas:1063
 msgid "Rebuild full-text search index"
 msgstr ""
 
 #. default
-#: actions.js:1504
+#: actions.js:1519
 msgid "Optimize database"
 msgstr ""
 
-#: actions.js:1507
+#: actions.js:1522
 msgid "Optimizes the database to improve performance"
 msgstr "성능 향상을 위해 데이터베이스 최적화"
 
 #. default
-#: actions.js:1517 DatabaseManage.pas:1368 DatabaseManage.pas:1488
+#: actions.js:1532 DatabaseManage.pas:1368 DatabaseManage.pas:1488
 #: DatabaseManage.pas:1531 DatabaseManage.pas:1589 DatabaseManage.pas:1596
 #: DatabaseManage.pas:1679 DatabaseManage.pas:1685
 msgid "Rebuild database"
 msgstr ""
 
-#: actions.js:1520
+#: actions.js:1535
 msgid ""
 "Rebuilds the database. This might be useful if database is corrupted or "
 "contains inconsistent data."
 msgstr ""
 
 #. default
-#: actions.js:1530
+#: actions.js:1545
 msgid "Clean URL cache"
 msgstr ""
 
-#: actions.js:1544
+#: actions.js:1559 dialogs/dlgMaintainLibrary.js:10
 msgid "Manage database"
 msgstr ""
 
-#: actions.js:1582 dialogs\dlgMaintainLibrary.html:19
+#: actions.js:1597 dialogs\dlgMaintainLibrary.html:19
 msgid "Backup database now"
 msgstr ""
 
-#: actions.js:1585
+#: actions.js:1600
 msgid "This will create a backup of the current database"
 msgstr ""
 
-#: actions.js:1585 actions.js:1613 actions.js:1648 actions.js:2048
-#: actions.js:8915 Scripts/autoIncTrack/actions_add.js:21
+#: actions.js:1600 actions.js:1628 actions.js:1663 actions.js:2063
+#: actions.js:8930 Scripts/autoIncTrack/actions_add.js:21
 #: Scripts/syncToFolder/viewHandlers_add.js:7
 msgid "Do you want to proceed?"
 msgstr ""
 
-#: actions.js:1591
+#: actions.js:1606
 msgid "Backup is complete."
 msgstr ""
 
-#: actions.js:1595
+#: actions.js:1610
 msgid "Backup FAILED!"
 msgstr ""
 
-#: actions.js:1610 dialogs\dlgMaintainLibrary.html:20
+#: actions.js:1625 dialogs\dlgMaintainLibrary.html:20
 msgid "Restore from backup"
 msgstr ""
 
-#: actions.js:1613
+#: actions.js:1628
 msgid "This will restore the database from a backup."
 msgstr ""
 
-#: actions.js:1619
+#: actions.js:1634
 msgid ""
 "Are you sure you want to restore database from %s?<br>This will delete "
 "current database and MediaMonkey will be automatically restarted when "
 "finished!"
 msgstr ""
 
-#: actions.js:1625
+#: actions.js:1640
 msgid "Restore FAILED!"
 msgstr ""
 
-#: actions.js:1644 dialogs\dlgMaintainLibrary.html:21
+#: actions.js:1659 dialogs\dlgMaintainLibrary.html:21
 msgid "Clear database"
 msgstr ""
 
-#: actions.js:1648
+#: actions.js:1663
 msgid ""
 "This will delete all Library data, Playlists, and Collections but will not "
 "delete any of your files or configuration data."
 msgstr ""
 
-#: actions.js:1654
+#: actions.js:1669
 msgid "Clear FAILED! Old database restored."
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode', // per #16067
-#: actions.js:1669 controls/searchBar.js:516
+#: actions.js:1684 controls/searchBar.js:516
 #: dialogs\dlgOptions\pnl_Search.html:15
 msgid "Global search"
 msgstr ""
 
-#: actions.js:1697
+#: actions.js:1712
 msgid "Delete (permanent)"
 msgstr ""
 
-#: actions.js:1734
+#: actions.js:1749
 msgid "Cut"
 msgstr "잘라내기"
 
-#: actions.js:1755
+#: actions.js:1770
 msgid "Copy"
 msgstr "복사"
 
-#: actions.js:1774 controls/artWindow.js:1008
+#: actions.js:1789 controls/artWindow.js:1008
 msgid "Paste"
 msgstr "붙여넣기"
 
 #. #16261 - to be the first in the list after creation
-#: actions.js:1809 actions.js:1821
+#: actions.js:1824 actions.js:1836
 msgid "New AutoPlay&list"
 msgstr ""
 
 #. #16261 - to be the first in the list after creation
-#: actions.js:1833 actions.js:1845
+#: actions.js:1848 actions.js:1860
 msgid "New pla&ylist"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. has support for NP list in full window
-#: actions.js:1857 controls/buttons.js:71 controls/control.js:120
+#: actions.js:1872 controls/buttons.js:71 controls/control.js:120
 #: controls/nowplayingview.js:377 helpers/dockableDialog.js:28
 #: controls\devicesView.html:41
 msgid "Close"
 msgstr ""
 
-#: actions.js:1868
+#: actions.js:1883
 msgid "E&xit"
 msgstr "종료(&X)"
 
-#: actions.js:1881 actions.js:2078 actions.js:4084
+#: actions.js:1896 actions.js:2093 actions.js:4099
 msgid "&Properties"
 msgstr "속성(&P)"
 
-#: actions.js:1907
+#: actions.js:1922
 msgid "Subscribe to new podcast"
 msgstr ""
 
-#: actions.js:1919 actions.js:1925 dialogs/dlgChooseFolders.js:21
+#: actions.js:1934 actions.js:1940 dialogs/dlgChooseFolders.js:21
 #: dialogs/dlgNetworkFolder.js:10
 msgid "Add folders"
 msgstr ""
 
-#: actions.js:1943 dialogs\dlgWizard\pnlScan.html:10
+#: actions.js:1958 dialogs\dlgWizard\pnlScan.html:10
 msgid "Add location"
 msgstr ""
 
 #. 'addStorage',
-#: actions.js:1950 viewHandlers.js:4622 dialogs/dlgMediaProperties.js:26
+#: actions.js:1965 viewHandlers.js:4626 dialogs/dlgMediaProperties.js:26
 #: dialogs/dlgWizard/pnlScan.js:91 QueryManage.pas:4314 ResStrings.pas:403
 msgid "Network"
 msgstr "네트워크"
 
-#: actions.js:1958 dialogs/dlgWizard/pnlScan.js:142 QueryManage.pas:4313
+#: actions.js:1973 dialogs/dlgWizard/pnlScan.js:142 QueryManage.pas:4313
 msgid "Media server"
 msgstr ""
 
-#: actions.js:1966 dialogs/dlgWizard/pnlScan.js:171
+#: actions.js:1981 dialogs/dlgWizard/pnlScan.js:171
 msgid "Cloud storage"
 msgstr ""
 
-#: actions.js:2001 actions.js:2008
+#: actions.js:2016 actions.js:2023
 msgid "Add media server manually"
 msgstr ""
 
 #. no message needed in case of success (as the new server just appears in the list)
-#: actions.js:2028
+#: actions.js:2043
 msgid "%s cannot be reached"
 msgstr ""
 
-#: actions.js:2029 ResStrings.pas:567 UI.pas:1239
+#: actions.js:2044 ResStrings.pas:567 UI.pas:1239
 msgid "Error"
 msgstr "오류"
 
-#: actions.js:2040
+#: actions.js:2055
 msgid "Configure remote access"
 msgstr ""
 
-#: actions.js:2048
+#: actions.js:2063
 msgid ""
 "This will auto-configure rules on your router to allow the %s UPnP/DLNA "
 "server to be accessible from a public/external network."
 msgstr ""
 
-#: actions.js:2048
+#: actions.js:2063
 msgid ""
 "Configuration is via UPnP/NAT-PMP which only works if this device is on the "
 "same network as the router."
 msgstr ""
 
-#: actions.js:2053
+#: actions.js:2068
 msgid "Configuring remote access"
 msgstr ""
 
-#: actions.js:2056
+#: actions.js:2071
 msgid "Remote UPnP/DLNA access to %s was successfuly configured."
 msgstr ""
 
-#: actions.js:2056
+#: actions.js:2071
 msgid ""
 "If you want to use another UPnP/DLNA client to remotely access %s, enter the "
 "following server destination to the client:"
 msgstr ""
 
-#: actions.js:2060
+#: actions.js:2075
 msgid "Remote access to %s cannot be auto-configured via UPnP/NAT-PMP"
 msgstr ""
 
-#: actions.js:2062 helpers/mediaSync.js:397 CDUtils.pas:1393 WebUtils.pas:6059
+#: actions.js:2077 helpers/mediaSync.js:397 CDUtils.pas:1393 WebUtils.pas:6059
 msgid "There is a problem with your internet connection."
 msgstr "인터넷 연결에 문제가 있습니다."
 
-#: actions.js:2064
+#: actions.js:2079
 msgid ""
 "To resolve, enable UPnP/NAT-PMP in your router configuration or manually "
 "configure port forwarding on your router and try again"
 msgstr ""
 
-#: actions.js:2064
+#: actions.js:2079
 msgid "port %d to IP address %s"
 msgstr ""
 
-#: actions.js:2103
+#: actions.js:2118
 msgid "Update all podcasts"
 msgstr ""
 
-#: actions.js:2118
+#: actions.js:2133
 msgid "Update podcast"
 msgstr ""
 
-#: actions.js:2149
+#: actions.js:2164
 msgid "&Help"
 msgstr "도움말(&H)"
 
-#: actions.js:2158
+#: actions.js:2173
 msgid "Check for updates"
 msgstr "업데이트 확인"
 
 #. not implemented yet fully
-#: actions.js:2171
+#: actions.js:2186
 msgid "&About"
 msgstr "정보(&A)"
 
-#: actions.js:2183
+#: actions.js:2198
 msgid "Debug"
 msgstr ""
 
-#: actions.js:2190
+#: actions.js:2205
 msgid "Send logs"
 msgstr ""
 
-#: actions.js:2197 actions.js:2207
+#: actions.js:2212 actions.js:2222
 msgid "Change freeze timeout"
 msgstr ""
 
-#: actions.js:2244
+#: actions.js:2259
 msgid "Submit crash logs automatically"
 msgstr ""
 
 #. show also the wheel progress on the toolbar
 #. show progress 500 ms later (when loading still not finished) -- issue #13898
-#: actions.js:2266 viewHandlers.js:2488 viewHandlers.js:4336
+#: actions.js:2281 viewHandlers.js:2488 viewHandlers.js:4336
 #: controls/mainTabContent.js:275 BaseMedia.pas:14482 BaseMedia.pas:15033
 #: Filters.pas:2656 Filters.pas:2713 PodcastManage.pas:940
 msgid "Loading"
 msgstr ""
 
-#: actions.js:2275
+#: actions.js:2290
 msgid "E&qualizer"
 msgstr "이퀄라이저(&Q)"
 
-#: actions.js:2317
+#: actions.js:2332
 msgid "&Rip Audio CD"
 msgstr ""
 
-#: actions.js:2364 dialogs/dlgCDDBResult.js:7
+#: actions.js:2379 dialogs/dlgCDDBResult.js:7
 msgid "Lookup Audio CD metadata"
 msgstr ""
 
-#: actions.js:2380
+#: actions.js:2395
 msgid "&Options"
 msgstr "옵션(&O)"
 
-#: actions.js:2393 controls/artWindow.js:1200 controls/artWindow.js:1210
+#: actions.js:2408 controls/artWindow.js:1200 controls/artWindow.js:1210
 #: controls/player.js:808 dialogs/dlgOptions.js:70
 msgid "Layout"
 msgstr ""
 
-#: actions.js:2406 dialogs/dlgExtensions.js:10
-msgid "Extensions"
-msgstr "확장자"
+#: actions.js:2421 dialogs/dlgExtensions.js:10
+msgid "Addons"
+msgstr ""
 
-#: actions.js:2418 actions.js:2433 actions.js:2436 actions.js:2451
-#: actions.js:2454 MediaMonkeyApp.pas:7926
+#: actions.js:2433 actions.js:2448 actions.js:2451 actions.js:2466
+#: actions.js:2469 MediaMonkeyApp.pas:7926
 #: dialogs\dlgOptions\pnl_OSIntegration.html:10
 msgid "Play now"
 msgstr ""
 
-#: actions.js:2436 actions.js:2502 actions.js:2553
+#: actions.js:2451 actions.js:2517 actions.js:2568
 msgid "shuffled"
 msgstr ""
 
-#: actions.js:2454 actions.js:2520 actions.js:2572
+#: actions.js:2469 actions.js:2535 actions.js:2587
 msgid "shuffled by Album"
 msgstr ""
 
-#: actions.js:2469
+#: actions.js:2484
 msgid "Play mixed"
 msgstr ""
 
-#: actions.js:2484 actions.js:2499 actions.js:2502 actions.js:2517
-#: actions.js:2520 MediaMonkeyApp.pas:7927
+#: actions.js:2499 actions.js:2514 actions.js:2517 actions.js:2532
+#: actions.js:2535 MediaMonkeyApp.pas:7927
 #: dialogs\dlgOptions\pnl_OSIntegration.html:11
 msgid "Play next"
 msgstr ""
 
-#: actions.js:2535 actions.js:2550 actions.js:2553 actions.js:2569
-#: actions.js:2572 MediaMonkeyApp.pas:7928
+#: actions.js:2550 actions.js:2565 actions.js:2568 actions.js:2584
+#: actions.js:2587 MediaMonkeyApp.pas:7928
 #: dialogs\dlgOptions\pnl_OSIntegration.html:12
 msgid "Play last"
 msgstr ""
 
-#: actions.js:2587 FileAssoc.pas:737 controls\playlistHeader.html:9
+#: actions.js:2602 FileAssoc.pas:737 controls\playlistHeader.html:9
 msgid "Play"
 msgstr "재생"
 
-#: actions.js:2605
+#: actions.js:2620
 msgid "Pause"
 msgstr "일시중지"
 
-#: actions.js:2623 Win7ToolsImpl.pas:1900
+#: actions.js:2638 Win7ToolsImpl.pas:1900
 msgid "Play/Pause"
 msgstr "재생/일시중지"
 
-#: actions.js:2638 Win7ToolsImpl.pas:1901
+#: actions.js:2653 Win7ToolsImpl.pas:1901
 msgid "Stop"
 msgstr "중지"
 
-#: actions.js:2653 actions.js:2656 actions.js:2773 controls/baseVis.js:115
+#: actions.js:2668 actions.js:2671 actions.js:2788 controls/baseVis.js:115
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:9
 msgid "Off"
 msgstr "끄기"
 
-#: actions.js:2656 actions.js:2678 actions.js:2702 actions.js:2723
+#: actions.js:2671 actions.js:2693 actions.js:2717 actions.js:2738
 msgid "Stop after"
 msgstr ""
 
-#: actions.js:2675 actions.js:2678
+#: actions.js:2690 actions.js:2693
 msgid "Current file"
 msgstr ""
 
-#: actions.js:2699 actions.js:2702
+#: actions.js:2714 actions.js:2717
 msgid "Every file"
 msgstr ""
 
-#: actions.js:2736
+#: actions.js:2751
 msgid "Crossfade"
 msgstr ""
 
-#: actions.js:2754 controls\playlistHeader.html:10
+#: actions.js:2769 controls\playlistHeader.html:10
 msgid "Shuffle"
 msgstr "섞기"
 
-#: actions.js:2776
+#: actions.js:2791
 msgid "Repeat off"
 msgstr ""
 
-#: actions.js:2792
+#: actions.js:2807
 msgid "One"
 msgstr ""
 
-#: actions.js:2795 controls/player.js:283
+#: actions.js:2810 controls/player.js:283
 msgid "Repeat one"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. The first line will show 'All' items
-#: actions.js:2811 actions.js:7933 viewHandlers.js:7688 controls/buttons.js:51
+#: actions.js:2826 actions.js:7948 viewHandlers.js:7692 controls/buttons.js:51
 #: controls/deviceContentSequencer.js:17 controls/tracklistFilter.js:713
 #: dialogs/dlgExtensions.js:33 dialogs/dlgOptions/pnl_AutoDJ.js:14
 #: dialogs/dlgOptions/pnl_AutoDJ.js:57 dialogs/dlgOptions/pnl_Performance.js:5
@@ -750,198 +756,198 @@ msgstr ""
 msgid "All"
 msgstr "모두"
 
-#: actions.js:2814 controls/player.js:283
+#: actions.js:2829 controls/player.js:283
 msgid "Repeat all"
 msgstr ""
 
-#: actions.js:2830
+#: actions.js:2845
 msgid "Repeat"
 msgstr ""
 
-#: actions.js:2843
+#: actions.js:2858
 msgid "Level playback volume"
 msgstr ""
 
-#: actions.js:2859 Win7ToolsImpl.pas:1902
+#: actions.js:2874 Win7ToolsImpl.pas:1902
 msgid "Next file"
 msgstr "다음 파일"
 
-#: actions.js:2874 Win7ToolsImpl.pas:1899
+#: actions.js:2889 Win7ToolsImpl.pas:1899
 msgid "Previous file"
 msgstr "이전 파일"
 
-#: actions.js:2889
+#: actions.js:2904
 msgid "Volume up"
 msgstr ""
 
-#: actions.js:2903
+#: actions.js:2918
 msgid "Volume down"
 msgstr ""
 
-#: actions.js:2917
+#: actions.js:2932
 msgid "Skip 5 seconds backward"
 msgstr ""
 
-#: actions.js:2932
+#: actions.js:2947
 msgid "Skip 5 seconds forward"
 msgstr ""
 
-#: actions.js:2947
+#: actions.js:2962
 msgid "S&leep"
 msgstr ""
 
-#: actions.js:2962
+#: actions.js:2977
 msgid "Auto-&tag from filename"
 msgstr ""
 
-#: actions.js:2986
+#: actions.js:3001
 msgid "&Auto-tag"
 msgstr ""
 
-#: actions.js:3017
+#: actions.js:3032
 msgid "Configure current &output plug-in"
 msgstr "현재 출력 플러그-인 구성(&O)"
 
-#: actions.js:3029
+#: actions.js:3044
 msgid "Configure current &input plug-in"
 msgstr "현재 입력 플러그-인 구성(&I)"
 
-#: actions.js:3041 dialogs/dlgWizard.js:23
+#: actions.js:3056 dialogs/dlgWizard.js:23
 msgid "Share media"
 msgstr ""
 
-#: actions.js:3054
+#: actions.js:3069
 msgid "Configure Collections and nodes"
 msgstr ""
 
-#: actions.js:3068 controls/nowplayingList.js:370
+#: actions.js:3083 controls/nowplayingList.js:370
 #: controls\serverConfig\devices.html:8
 msgid "Options"
 msgstr "옵션"
 
-#: actions.js:3068 actions.js:3655 controls/player.js:77 controls/player.js:808
+#: actions.js:3083 actions.js:3670 controls/player.js:77 controls/player.js:808
 #: dialogs/dlgOptions.js:36 dialogs/dlgOptions.js:74 maincontent.html:56
 msgid "Player"
 msgstr "플레이어"
 
-#: actions.js:3081 controls/player.js:183
+#: actions.js:3096 controls/player.js:183
 #: dialogs\dlgOptions\pnl_Streaming.html:3
 msgid "Play to"
 msgstr ""
 
-#: actions.js:3090
+#: actions.js:3105
 msgid "Select all"
 msgstr ""
 
-#: actions.js:3125
+#: actions.js:3140
 msgid "Focus tracklist on currently playing item"
 msgstr "현재 재생 항목에서 트랙목록 확대"
 
-#: actions.js:3155
+#: actions.js:3170
 msgid "Cancel selection"
 msgstr ""
 
-#: actions.js:3183
+#: actions.js:3198
 msgid "New tab"
 msgstr ""
 
-#: actions.js:3199 actions.js:3230 actions.js:7572 actions.js:7598
-#: actions.js:7612
+#: actions.js:3214 actions.js:3245 actions.js:7587 actions.js:7613
+#: actions.js:7627
 msgid "Send to"
 msgstr "보내기"
 
 #. first load MRU list
 #. root items insert directly to presetColumns, so we will not need to move them here later
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: actions.js:3217 controls/columntracklist.js:271 controls/filterEditor.js:107
+#: actions.js:3232 controls/columntracklist.js:271 controls/filterEditor.js:107
 #: controls/tracklistFilter.js:478
 msgid "Recently used"
 msgstr ""
 
-#: actions.js:3269
+#: actions.js:3284
 msgid "sync"
 msgstr ""
 
-#: actions.js:3294
+#: actions.js:3309
 msgid "Folder (&Move)"
 msgstr "폴더(이동) (&M)"
 
-#: actions.js:3303
+#: actions.js:3318
 msgid "Folder (&Copy)"
 msgstr "폴더(복사) (&C)"
 
-#: actions.js:3312
+#: actions.js:3327
 msgid "Folder (Rip/Con&vert)"
 msgstr "폴더(립/변환) (&V)"
 
 #. online mode only for online source track
-#: actions.js:3323 actions.js:7904 helpers/autoDJ.js:29 Devices.pas:2014
+#: actions.js:3338 actions.js:7919 helpers/autoDJ.js:29 Devices.pas:2014
 #: Devices.pas:12913 Devices.pas:15169 FormatsManage.pas:5473
 #: FormatsManage.pas:5505 FormatsManage.pas:5515 MaskHelper.pas:3035
 #: QueryManage.pas:4530 ResStrings.pas:526
 msgid "Playlist"
 msgstr "재생목록"
 
-#: actions.js:3333
+#: actions.js:3348
 msgid "M3U/XSPF playlist"
 msgstr ""
 
-#: actions.js:3345
+#: actions.js:3360
 msgid "E-Mail"
 msgstr "이메일"
 
-#: actions.js:3371
+#: actions.js:3386
 msgid "Find &more from same"
 msgstr ""
 
-#: actions.js:3385
+#: actions.js:3400
 msgid "Anal&yze volume"
 msgstr ""
 
-#: actions.js:3404
+#: actions.js:3419
 msgid "&Level Track volume"
 msgstr ""
 
-#: actions.js:3411
+#: actions.js:3426
 msgid ""
 "Leveling Track volume irreversibly modifies the track. Are you sure you want "
 "to level the volume of the selected Tracks?"
 msgstr ""
 "트랙의 볼륨을 균일하게 수정합니다. 선택한 트랙의 볼륨을 균일하게 하겠습니까?"
 
-#: actions.js:3431
+#: actions.js:3446
 msgid "Analyze waveform"
 msgstr ""
 
-#: actions.js:3480
+#: actions.js:3495
 msgid "View filter"
 msgstr ""
 
 #. "Any text"
-#: actions.js:3518 QueryManage.pas:2822 QueryManage.pas:2826 ResStrings.pas:532
+#: actions.js:3533 QueryManage.pas:2822 QueryManage.pas:2826 ResStrings.pas:532
 msgid "contains"
 msgstr "포함"
 
 #. radiogroup: 'search_mode',
-#: actions.js:3552 controls/searchBar.js:530
+#: actions.js:3567 controls/searchBar.js:530
 msgid "Advanced search"
 msgstr ""
 
-#: actions.js:3577 controls\mainTabContent.html:3
+#: actions.js:3592 controls\mainTabContent.html:3
 msgid "Left panel"
 msgstr ""
 
-#: actions.js:3608 controls\mainTabContent.html:4
+#: actions.js:3623 controls\mainTabContent.html:4
 msgid "Media Tree"
 msgstr "미디어 트리"
 
-#: actions.js:3692 maincontent.html:42
+#: actions.js:3707 maincontent.html:42
 msgid "Right panel"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. dont save sync, it will be saved async
-#: actions.js:3724 templates.js:520 controls/lyricsWindow.js:55
+#: actions.js:3739 templates.js:520 controls/lyricsWindow.js:55
 #: controls/nowplayingview.js:34 controls/trackListView.js:1002
 #: dialogs/dlgAutotag.js:2314 dialogs/dlgTrackProperties.js:25
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:153 MaskHelper.pas:3085
@@ -949,7 +955,7 @@ msgstr ""
 msgid "Lyrics"
 msgstr "가사"
 
-#: actions.js:3769 viewHandlers.js:7354 controls/artWindow.js:359
+#: actions.js:3784 viewHandlers.js:7358 controls/artWindow.js:359
 #: controls/nowplayingList.js:65 controls/nowplayingList.js:370
 #: dialogs/dlgEditView.js:427 maincontent.html:43
 msgid "Playing"
@@ -957,293 +963,293 @@ msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. no layout preset, use default
-#: actions.js:3813 controls/artWindow.js:1004 dialogs/dlgOptions.js:78
+#: actions.js:3828 controls/artWindow.js:1004 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_Layouts.js:335 maincontent.html:47
 msgid "Preview"
 msgstr "미리듣기"
 
-#: actions.js:3864
+#: actions.js:3879
 msgid "&Visualization"
 msgstr "시각효과(&V)"
 
-#: actions.js:3893
+#: actions.js:3908
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: actions.js:3914 dialogs/dlgOptions.js:20
+#: actions.js:3929 dialogs/dlgOptions.js:20
 msgid "Party Mode"
 msgstr "파티 모드"
 
-#: actions.js:3976
+#: actions.js:3991
 msgid "&Clear"
 msgstr "지우기(&C)"
 
-#: actions.js:3986
+#: actions.js:4001
 msgid "Clea&n (remove inaccessible)"
 msgstr "접근 불가 파일 제거(&N)"
 
-#: actions.js:3996
+#: actions.js:4011
 msgid "Remove &duplicates"
 msgstr ""
 
-#: actions.js:4006
+#: actions.js:4021
 msgid "&Randomize list"
 msgstr ""
 
-#: actions.js:4016 FullPlayer.pas:4409
+#: actions.js:4031 FullPlayer.pas:4409
 msgid "Reverse list"
 msgstr ""
 
-#: actions.js:4026
+#: actions.js:4041
 msgid "&Undo"
 msgstr "실행 취소(&U)"
 
-#: actions.js:4056
+#: actions.js:4071
 msgid "&Redo"
 msgstr "다시 실행(&R)"
 
-#: actions.js:4115
+#: actions.js:4130
 msgid "Previous view"
 msgstr ""
 
-#: actions.js:4134
+#: actions.js:4149
 msgid "Fit video to window on resize"
 msgstr ""
 
-#: actions.js:4150
+#: actions.js:4165
 msgid "Zoom to 50%"
 msgstr "50%로 확대"
 
-#: actions.js:4164
+#: actions.js:4179
 msgid "Zoom to 100%"
 msgstr "100%로 확대"
 
-#: actions.js:4178
+#: actions.js:4193
 msgid "Zoom to 150%"
 msgstr "150%로 확대"
 
-#: actions.js:4192
+#: actions.js:4207
 msgid "Zoom to 200%"
 msgstr "200%로 확대"
 
-#: actions.js:4207
+#: actions.js:4222
 msgid "Zoom in"
 msgstr "확대"
 
-#: actions.js:4220
+#: actions.js:4235
 msgid "Zoom out"
 msgstr "축소"
 
-#: actions.js:4253
+#: actions.js:4268
 msgid "Original AR"
 msgstr ""
 
-#: actions.js:4325 dialogs\dlgMoveAccompFiles.html:16
+#: actions.js:4340 dialogs\dlgMoveAccompFiles.html:16
 msgid "Move"
 msgstr "이동"
 
-#: actions.js:4335
+#: actions.js:4350
 msgid "Move left"
 msgstr "왼쪽으로 이동"
 
-#: actions.js:4348
+#: actions.js:4363
 msgid "Move right"
 msgstr "오른쪽으로 이동"
 
-#: actions.js:4361 controls\listEditButtons.html:2
+#: actions.js:4376 controls\listEditButtons.html:2
 msgid "Move up"
 msgstr "위로 이동"
 
-#: actions.js:4374 controls\listEditButtons.html:3
+#: actions.js:4389 controls\listEditButtons.html:3
 msgid "Move down"
 msgstr "아래로 이동"
 
-#: actions.js:4387
+#: actions.js:4402
 msgid "Reset changes"
 msgstr ""
 
 #. to load the new image thumb
-#: actions.js:4402 controls/artWindow.js:1046
+#: actions.js:4417 controls/artWindow.js:1046
 msgid "Save thumbnail"
 msgstr "섬네일 저장"
 
-#: actions.js:4406
+#: actions.js:4421
 msgid "Generate the thumbnail:"
 msgstr ""
 
-#: actions.js:4408
+#: actions.js:4423
 msgid "Automatically"
 msgstr "자동으로"
 
-#: actions.js:4411
+#: actions.js:4426
 msgid "Use current video frame"
 msgstr ""
 
-#: actions.js:4423
+#: actions.js:4438
 msgid "Audio streams"
 msgstr ""
 
 #. fill info about subtitle stream
-#: actions.js:4450 BaseMedia.pas:4568
+#: actions.js:4465 BaseMedia.pas:4568
 msgid "Subtitles"
 msgstr "자막"
 
-#: actions.js:4459
+#: actions.js:4474
 msgid "Open file"
 msgstr ""
 
-#: actions.js:4467
+#: actions.js:4482
 msgid "Subtitle files"
 msgstr "자막 파일"
 
-#: actions.js:4467
+#: actions.js:4482
 msgid "Select subtitle file"
 msgstr ""
 
-#: actions.js:4484 viewHandlers.js:5315
+#: actions.js:4499 viewHandlers.js:5319
 msgid "Enable"
 msgstr "사용"
 
 #. reset
-#: actions.js:4505 ResStrings.pas:441
+#: actions.js:4520 ResStrings.pas:441
 msgid "Size"
 msgstr "크기"
 
-#: actions.js:4510
+#: actions.js:4525
 msgid "Small"
 msgstr "작은"
 
-#: actions.js:4526 dialogs\dlgOptions\pnl_Performance.html:38
+#: actions.js:4541 dialogs\dlgOptions\pnl_Performance.html:38
 msgid "Normal"
 msgstr "일반"
 
-#: actions.js:4542
+#: actions.js:4557
 msgid "Large"
 msgstr "크게"
 
-#: actions.js:4558
+#: actions.js:4573
 msgid "Extra large"
 msgstr ""
 
 #. prepared menu item for reports implemented by scripts
-#: actions.js:4880
+#: actions.js:4895
 msgid "Create reports"
 msgstr ""
 
-#: actions.js:4894
+#: actions.js:4909
 msgid "&File"
 msgstr "파일(&F)"
 
-#: actions.js:4940 viewHandlers.js:5186 controls/searchView.js:355
+#: actions.js:4955 viewHandlers.js:5190 controls/searchView.js:355
 #: dialogs/dlgOptions.js:119 DBStructure.pas:1939 GlobVars.pas:1919
 #: UPnPTreeHelper.pas:1886
 #: controls\deviceConfig\options\pnl_FileLocations.html:33
 msgid "Podcasts"
 msgstr "팟캐스트"
 
-#: actions.js:4964
+#: actions.js:4979
 msgid "&Edit"
 msgstr "편집(&E)"
 
-#: actions.js:5033
+#: actions.js:5048
 msgid "&View"
 msgstr "보기(&V)"
 
-#: actions.js:5069 dialogs/dlgOptions.js:82
+#: actions.js:5084 dialogs/dlgOptions.js:82
 msgid "Skin"
 msgstr "스킨"
 
-#: actions.js:5084 dialogs\dlgMP3Settings.html:40
+#: actions.js:5099 dialogs\dlgMP3Settings.html:40
 msgid "Mode"
 msgstr ""
 
-#: actions.js:5099
+#: actions.js:5114
 msgid "Main panel view"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16702 ... remove cancelSelection action as it is already in Edit menu
-#: actions.js:5122 dialogs\dlgTrackProperties.html:11
+#: actions.js:5137 dialogs\dlgTrackProperties.html:11
 msgid "Previous"
 msgstr ""
 
-#: actions.js:5156 dialogs\dlgTrackProperties.html:11
+#: actions.js:5171 dialogs\dlgTrackProperties.html:11
 msgid "Next"
 msgstr ""
 
-#: actions.js:5201
+#: actions.js:5216
 msgid "&Play"
 msgstr "재생(&P)"
 
 #. adds shuffle menu commands to button context menu
-#: actions.js:5222 actions.js:8709 controls/trackListView.js:1762
+#: actions.js:5237 actions.js:8724 controls/trackListView.js:1762
 msgid "Play shuffled"
 msgstr ""
 
-#: actions.js:5254 actions.js:8710 controls/trackListView.js:1797
+#: actions.js:5269 actions.js:8725 controls/trackListView.js:1797
 msgid "Play shuffled (by Album)"
 msgstr ""
 
-#: actions.js:5327 controls/nowplayingList.js:346 dialogs/dlgOptions.js:43
+#: actions.js:5342 controls/nowplayingList.js:346 dialogs/dlgOptions.js:43
 #: dialogs\dlgOptions\pnl_AutoDJ.html:3
 msgid "Auto-DJ"
 msgstr "자동-DJ"
 
-#: actions.js:5365
+#: actions.js:5380
 msgid "Edit tags"
 msgstr ""
 
-#: actions.js:5399
+#: actions.js:5414
 msgid "&Tools"
 msgstr "도구(&T)"
 
-#: actions.js:5468
+#: actions.js:5483
 msgid "MediaMonkey Gold"
 msgstr ""
 
-#: actions.js:5475
+#: actions.js:5490
 msgid "Get MediaMonkey Gold"
 msgstr ""
 
-#: actions.js:6186
+#: actions.js:6201
 msgid "Save new order"
 msgstr ""
 
-#: actions.js:6298
+#: actions.js:6313
 msgid "Please restart MediaMonkey to finish the installation."
 msgstr "설치를 완료하려면 MediaMonkey를 다시 시작하십시오."
 
-#: actions.js:6605
+#: actions.js:6620
 msgid "Exit Party Mode"
 msgstr ""
 
-#: actions.js:6613 actions.js:6614
+#: actions.js:6628 actions.js:6629
 msgid "Enter password"
 msgstr ""
 
-#: actions.js:6770
+#: actions.js:6785
 msgid "Please select at least one folder to scan."
 msgstr ""
 
 #. assume always called with this = action
 #. remove path separator, not needed here
-#: actions.js:7458 actions.js:7518
+#: actions.js:7473 actions.js:7533
 msgid "Move to"
 msgstr ""
 
-#: actions.js:7460 actions.js:7521
+#: actions.js:7475 actions.js:7536
 msgid "Copy to"
 msgstr ""
 
-#: actions.js:7462 actions.js:7524
+#: actions.js:7477 actions.js:7539
 msgid "Convert to"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. cancel/free/unregister the dataSource
 #. don't save
-#: actions.js:7793 templates.js:1130 templates.js:1178 templates.js:1209
-#: viewHandlers.js:1619 viewHandlers.js:7904 controls/albumViewHeader.js:111
+#: actions.js:7808 templates.js:1130 templates.js:1178 templates.js:1209
+#: viewHandlers.js:1619 viewHandlers.js:7908 controls/albumViewHeader.js:111
 #: controls/player.js:519 controls/sortBy.js:12 controls/trackListView.js:203
 #: dialogs/dlgArtworkDetail.js:12 dialogs/dlgAutotag.js:1957
 #: dialogs/dlgEditView.js:22 dialogs/dlgOptions/pnl_MetadataLookup.js:141
@@ -1259,8 +1265,8 @@ msgstr "앨범"
 #. online mode only for online source track
 #. don't save
 #. Headers of table
-#: actions.js:7815 templates.js:1123 templates.js:1170 templates.js:1203
-#: viewHandlers.js:7985 controls/artistViewHeader.js:75 controls/player.js:508
+#: actions.js:7830 templates.js:1123 templates.js:1170 templates.js:1203
+#: viewHandlers.js:7989 controls/artistViewHeader.js:75 controls/player.js:508
 #: controls/trackListView.js:180 dialogs/dlgAutotag.js:1921
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:140
 #: layouts/Touch/templates_add.js:34 Scripts/export/actions_add.js:68
@@ -1270,7 +1276,7 @@ msgstr "앨범"
 msgid "Artist"
 msgstr "음악가"
 
-#: actions.js:7840 controls/trackListView.js:864 Covers.pas:733
+#: actions.js:7855 controls/trackListView.js:864 Covers.pas:733
 #: MaskHelper.pas:3041 QueryManage.pas:2998 ResStrings.pas:460
 #: ResStrings.pas:504
 msgid "Composer"
@@ -1280,7 +1286,7 @@ msgstr "작곡가"
 #. editor: editors.gridViewEditors.textEdit,
 #. request for Artists
 #. e.g. XBOX searches for genre's songs (testContentBrowser_XBOX_360_Genre)
-#: actions.js:7864 controls/trackListView.js:309 dialogs/dlgAutotag.js:2032
+#: actions.js:7879 controls/trackListView.js:309 dialogs/dlgAutotag.js:2032
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:146 helpers/autoTagFramework.js:333
 #: layouts/Touch/templates_add.js:35 Scripts/export/actions_add.js:74
 #: Scripts/export/actions_add.js:347
@@ -1291,7 +1297,7 @@ msgid "Genre"
 msgstr "장르"
 
 #. don't save
-#: actions.js:7886 dialogs/dlgAutotag.js:2343
+#: actions.js:7901 dialogs/dlgAutotag.js:2343
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:144
 #: layouts/Touch/templates_add.js:36 Scripts/export/actions_add.js:73
 #: Scripts/export/actions_add.js:347 MaskHelper.pas:3040 ResStrings.pas:416
@@ -1300,23 +1306,23 @@ msgid "Year"
 msgstr "년도"
 
 #. #16528
-#: actions.js:7918 actions.js:7933 actions.js:7948 MaskHelper.pas:3045
+#: actions.js:7933 actions.js:7948 actions.js:7963 MaskHelper.pas:3045
 #: MediaMonkeyApp.pas:6538 ResStrings.pas:527
 msgid "Folder"
 msgstr "폴더"
 
-#: actions.js:7918 dialogs/dlgOptions.js:88
+#: actions.js:7933 dialogs/dlgOptions.js:88
 #: SampleScripts/showLinks/controls/trackListView_add.js:43
 msgid "Library"
 msgstr "라이브러리"
 
-#: actions.js:7948
+#: actions.js:7963
 msgid "Explorer"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare channels dropDown
-#: actions.js:8025 dialogs/dlgOGGSettings.js:6 dialogs/dlgOGGSettings.js:57
+#: actions.js:8040 dialogs/dlgOGGSettings.js:6 dialogs/dlgOGGSettings.js:57
 #: dialogs/dlgWAVSettings.js:24 dialogs/dlgWAVSettings.js:38
 #: dialogs/dlgWAVSettings.js:53 dialogs/dlgOptions/pnl_Layouts.js:10
 #: helpers/docking.js:577 helpers/docking.js:941 MediaMonkeyApp.pas:7938
@@ -1325,11 +1331,11 @@ msgid "Default"
 msgstr "기본값"
 
 #. we can't use list.forEach() here as it would give us only fast access variant
-#: actions.js:8099
+#: actions.js:8114
 msgid "No playlist found"
 msgstr ""
 
-#: actions.js:8424
+#: actions.js:8439
 msgid ""
 "This will update the tags of the selected files so that they match your "
 "Library. Are you sure you want to proceed?"
@@ -1337,7 +1343,7 @@ msgstr ""
 "이것은 라이브러리와 일치하도록 선택한 파일의 태그를 업데이트합니다. 계속하시"
 "겠습니까?"
 
-#: actions.js:8426
+#: actions.js:8441
 msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
@@ -1345,23 +1351,23 @@ msgstr ""
 "선택한 파일에서%s에 대한 태그를 제거하시겠습니까? (파일의 속성 값은 라이브러"
 "리 DB에서 삭제되지 않습니다)"
 
-#: actions.js:8765 dialogs/dlgWizard.js:27
+#: actions.js:8780 dialogs/dlgWizard.js:27
 msgid "Registration"
 msgstr "등록"
 
 #. we need at least one song to work with
-#: actions.js:8782 dialogs/dlgTrackProperties.js:161 MP3Utils.pas:1209
+#: actions.js:8797 dialogs/dlgTrackProperties.js:161 MP3Utils.pas:1209
 msgid "Please select one or more files for this operation."
 msgstr ""
 
-#: actions.js:8847
+#: actions.js:8862
 msgid "Website link:"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this column will not be resized when 'Automatic column widths' is checked
 #. don't save
-#: actions.js:8851 templates.js:1116 templates.js:1160 templates.js:1198
+#: actions.js:8866 templates.js:1116 templates.js:1160 templates.js:1198
 #: controls/player.js:500 controls/searchEditor.js:946
 #: controls/trackListView.js:133 dialogs/dlgAutotag.js:1861
 #: dialogs/dlgOptions/pnl_Layouts.js:161
@@ -1373,7 +1379,7 @@ msgid "Title"
 msgstr "제목"
 
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
-#: actions.js:8915
+#: actions.js:8930
 msgid "MediaMonkey will reload (which may terminate existing processes)."
 msgstr ""
 
@@ -1382,8 +1388,8 @@ msgstr ""
 #. fill info about subtitle stream
 #. It seems to be an OPML directory
 #. - In this case we may don't know exact PubDate, but we know another info:
-#: actions.js:8979 mmstub.js:1638 utils.js:30 viewHandlers.js:6100
-#: viewHandlers.js:6240 controls/rating.js:106 controls/yearViewHeader.js:77
+#: actions.js:8994 mmstub.js:1638 utils.js:30 viewHandlers.js:6104
+#: viewHandlers.js:6244 controls/rating.js:106 controls/yearViewHeader.js:77
 #: dialogs/dlgMediaProperties.js:5 dialogs/dlgTrackProperties/tabDetails.js:44
 #: helpers/autoTagFramework.js:265 ArtistsManage.pas:1313
 #: ArtistsManage.pas:3502 BaseMedia.pas:4617 BaseMedia.pas:14725
@@ -1582,7 +1588,7 @@ msgstr ""
 #. we now always search for image in this view
 #. ms
 #. so it is not fetched again
-#: templates.js:520 viewHandlers.js:7904 viewHandlers.js:7985
+#: templates.js:520 viewHandlers.js:7908 viewHandlers.js:7989
 #: controls/albumViewHeader.js:600 controls/artistViewHeader.js:474
 #: controls/searchView.js:656 controls/viewHeader.js:174
 #: helpers/artistDataSource.js:87 helpers/autoTagFramework.js:275
@@ -1597,7 +1603,7 @@ msgstr ""
 msgid "Track was added to the Library"
 msgstr ""
 
-#: templates.js:1137 templates.js:1164 templates.js:1214 viewHandlers.js:6495
+#: templates.js:1137 templates.js:1164 templates.js:1214 viewHandlers.js:6499
 #: controls/player.js:530 controls/trackListView.js:358
 #: Scripts/export/actions_add.js:75 Scripts/export/actions_add.js:347
 #: MaskHelper.pas:3059 MaskHelper.pas:3488 MaskHelper.pas:3781
@@ -1786,7 +1792,7 @@ msgstr "트랙"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. baceuse of playlists names like <MM>
 #: viewHandlers.js:775 viewHandlers.js:795 viewHandlers.js:811
-#: viewHandlers.js:3865 viewHandlers.js:5085 viewHandlers.js:7103
+#: viewHandlers.js:3865 viewHandlers.js:5089 viewHandlers.js:7107
 #: controls/searchView.js:321 controls/deviceConfig/options.js:17
 #: dialogs/dlgEditView.js:436 AutoOrganize.pas:1630 FormatsManage.pas:3802
 #: Importers.pas:430 ResStrings.pas:419 Win7ToolsImpl.pas:2195
@@ -1800,7 +1806,7 @@ msgstr "트리"
 
 #. #16533
 #: viewHandlers.js:893 viewHandlers.js:929 viewHandlers.js:948
-#: viewHandlers.js:4522 viewHandlers.js:4981 viewHandlers.js:5207
+#: viewHandlers.js:4526 viewHandlers.js:4985 viewHandlers.js:5211
 #: ResStrings.pas:408
 msgid "Folders"
 msgstr "폴더"
@@ -1821,12 +1827,12 @@ msgstr ""
 msgid "Tabbed view"
 msgstr ""
 
-#: viewHandlers.js:1220 viewHandlers.js:6406 controls/searchView.js:174
+#: viewHandlers.js:1220 viewHandlers.js:6410 controls/searchView.js:174
 #: AutoOrganize.pas:1600
 msgid "Genres"
 msgstr "장르"
 
-#: viewHandlers.js:1264 viewHandlers.js:2052 viewHandlers.js:5465
+#: viewHandlers.js:1264 viewHandlers.js:2052 viewHandlers.js:5469
 #: controls/artistView.js:123 controls/genreAlbums.js:129
 #: controls/genreAlbums.js:156 controls/searchView.js:55
 #: controls/yearAlbums.js:99 controls/yearAlbums.js:121
@@ -1837,7 +1843,7 @@ msgstr "앨범"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. request for Albums of an Artist
 #. per #14747 conclusion
-#: viewHandlers.js:1288 viewHandlers.js:2040 viewHandlers.js:5986
+#: viewHandlers.js:1288 viewHandlers.js:2040 viewHandlers.js:5990
 #: controls/genreArtists.js:205 controls/genreArtists.js:236
 #: controls/searchView.js:16 controls/yearArtists.js:191
 #: controls/yearArtists.js:217 UpNp.pas:5845 UpNp.pas:5850
@@ -1880,7 +1886,7 @@ msgid "Grid (by Series)"
 msgstr ""
 
 #. for performance optimizations when jumping to nodes
-#: viewHandlers.js:1630 viewHandlers.js:5487 controls/trackListView.js:1433
+#: viewHandlers.js:1630 viewHandlers.js:5491 controls/trackListView.js:1433
 #: controls/deviceConfig/syncToDevice.js:22
 #: dialogs/dlgTrackProperties/tabBasic.js:475
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:187
@@ -1895,7 +1901,7 @@ msgstr "시리즈"
 msgid "Feeds"
 msgstr ""
 
-#: viewHandlers.js:1957 viewHandlers.js:5251 controls/maskedit.js:91
+#: viewHandlers.js:1957 viewHandlers.js:5255 controls/maskedit.js:91
 #: helpers/mediaSync.js:2874 WinAmpPlugins.pas:5232
 msgid "Configure"
 msgstr "구성"
@@ -1912,7 +1918,7 @@ msgstr "제거(&R)"
 #. Paste
 #. removes the device profile from database
 #. cannot edit/add release of unknown album
-#: viewHandlers.js:3347 viewHandlers.js:5295 controls/albumViewHeader.js:265
+#: viewHandlers.js:3347 viewHandlers.js:5299 controls/albumViewHeader.js:265
 #: controls/artistViewHeader.js:181 controls/genreViewHeader.js:32
 #: controls/playlistHeader.js:108 controls/trackListView.js:1852
 msgid "Rename"
@@ -1987,8 +1993,8 @@ msgid "Are you sure you want to remove \"%s\" ?"
 msgstr ""
 
 #. to remove the folder (dataSource) and thus this node also
-#: viewHandlers.js:4306 viewHandlers.js:4460 viewHandlers.js:4482
-#: viewHandlers.js:6977
+#: viewHandlers.js:4306 viewHandlers.js:4460 viewHandlers.js:4486
+#: viewHandlers.js:6981
 msgid "folder"
 msgstr ""
 
@@ -2000,12 +2006,12 @@ msgstr "팟캐스트 디렉터리"
 msgid "Unplayed"
 msgstr ""
 
-#: viewHandlers.js:4368 viewHandlers.js:4597
+#: viewHandlers.js:4368 viewHandlers.js:4601
 msgid "library Location node"
 msgstr ""
 
 #. to refresh once a server is connected/disconnected
-#: viewHandlers.js:4369 viewHandlers.js:4597
+#: viewHandlers.js:4369 viewHandlers.js:4601
 msgid ""
 "The Folders node only displays/edits metadata in file tags. To view/edit "
 "metadata that is in the database, use the %s"
@@ -2021,266 +2027,270 @@ msgid "selected folders"
 msgstr ""
 
 #: viewHandlers.js:4415
-msgid "Are you sure you want to move selected folders to recycle bin?"
-msgstr ""
+#, fuzzy
+#| msgid "Are you sure you want to remove %d file from the Library?"
+msgid "Are you sure you want to move the selected folders to the recycle bin?"
+msgstr "라이브러리에서 %d 파일을 제거하시겠습니까?"
 
 #: viewHandlers.js:4417
-msgid "Are you sure you want to move folder \"%s\" to recycle bin?"
-msgstr ""
+#, fuzzy
+#| msgid "Are you sure you want to remove %d file from the Library?"
+msgid "Are you sure you want to move the folder \"%s\" to the recycle bin?"
+msgstr "라이브러리에서 %d 파일을 제거하시겠습니까?"
 
-#: viewHandlers.js:4685
+#: viewHandlers.js:4689
 msgid "Are you sure you want to remove \"%s\"?"
 msgstr ""
 
-#: viewHandlers.js:4687
+#: viewHandlers.js:4691
 msgid "Are you sure you want to remove %d selected items?"
 msgstr ""
 
 #. to get fresh tracklist on F5 (view.refresh)
-#: viewHandlers.js:4723 viewHandlers.js:5129 controls/artistTracks.js:288
+#: viewHandlers.js:4727 viewHandlers.js:5133 controls/artistTracks.js:288
 #: controls/genreTracks.js:309 controls/yearTracks.js:288
 msgid "All tracks"
 msgstr ""
 
-#: viewHandlers.js:4730
+#: viewHandlers.js:4734
 msgid "All videos"
 msgstr ""
 
-#: viewHandlers.js:4736 FormatsManage.pas:4412 FormatsManage.pas:4425
+#: viewHandlers.js:4740 FormatsManage.pas:4412 FormatsManage.pas:4425
 msgid "video"
 msgstr "비디오"
 
-#: viewHandlers.js:4802 viewHandlers.js:5055
+#: viewHandlers.js:4806 viewHandlers.js:5059
 msgid "Are you sure you want to remove playlist \"%s\" from %s?"
 msgstr ""
 
-#: viewHandlers.js:4804 viewHandlers.js:5057
+#: viewHandlers.js:4808 viewHandlers.js:5061
 msgid "Are you sure you want to remove %d selected playlists from %s?"
 msgstr ""
 
 #. to respect order served (#13941)
-#: viewHandlers.js:4838
+#: viewHandlers.js:4842
 msgid "container"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
 #. #15626
-#: viewHandlers.js:4874 MediaManage.pas:5861 MusicUtils.pas:663
+#: viewHandlers.js:4878 MediaManage.pas:5861 MusicUtils.pas:663
 #: controls\devicesView.html:24
 msgid "Media Servers"
 msgstr "미디어 서버"
 
-#: viewHandlers.js:4904
+#: viewHandlers.js:4908
 msgid "No server available, try later"
 msgstr "서버를 사용할 수 없음, 나중에 시도"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prefer the default Music collection when there are more music collections (#17051)
 #. prefer the default Music collection when there are more music collections (#16929)
-#: viewHandlers.js:5156 Filters.pas:2058 Filters.pas:2211 GlobVars.pas:1918
+#: viewHandlers.js:5160 Filters.pas:2058 Filters.pas:2211 GlobVars.pas:1918
 #: controls\deviceConfig\options\pnl_FileLocations.html:9
 msgid "Music"
 msgstr "음악"
 
-#: viewHandlers.js:5166 controls/searchView.js:214
+#: viewHandlers.js:5170 controls/searchView.js:214
 msgid "Videos"
 msgstr "비디오"
 
-#: viewHandlers.js:5176 controls/searchView.js:389 DBStructure.pas:1940
+#: viewHandlers.js:5180 controls/searchView.js:389 DBStructure.pas:1940
 #: GlobVars.pas:1920
 msgid "Audiobooks"
 msgstr "오디오북"
 
-#: viewHandlers.js:5266 controls\listEditButtons.html:6
+#: viewHandlers.js:5270 controls\listEditButtons.html:6
 msgid "Delete"
 msgstr "삭제"
 
-#: viewHandlers.js:5273
+#: viewHandlers.js:5277
 msgid "Are you sure you want to remove profile \"%s\" ?"
 msgstr ""
 
-#: viewHandlers.js:5313
+#: viewHandlers.js:5317
 msgid "Disable"
 msgstr ""
 
 #. toggle
-#: viewHandlers.js:5335
+#: viewHandlers.js:5339
 msgid "Sync"
 msgstr "동기화"
 
-#: viewHandlers.js:5348
+#: viewHandlers.js:5352
 msgid "Safely &remove device"
 msgstr "안전하게 장치 제거(&R)"
 
-#: viewHandlers.js:5381
+#: viewHandlers.js:5385
 msgid "Devices & Services"
 msgstr ""
 
 #. timeout to accomodate when there is many devices added just during startup in one second -- to reduce unnecessary refreshNodeChildren() calling
-#: viewHandlers.js:5415
+#: viewHandlers.js:5419
 msgid "Years"
 msgstr "년도"
 
-#: viewHandlers.js:5501 controls/albumViewHeader.js:698 CDUtils.pas:1008
+#: viewHandlers.js:5505 controls/albumViewHeader.js:698 CDUtils.pas:1008
 #: dblistutils.pas:1463 UPnPTreeHelper.pas:1907
 msgid "Unknown Album"
 msgstr "알 수 없는 앨범"
 
 #. not used list, no events needed already
-#: viewHandlers.js:5580 controls/seriesViewHeader.js:617 dblistutils.pas:1465
+#: viewHandlers.js:5584 controls/seriesViewHeader.js:617 dblistutils.pas:1465
 msgid "Unknown Series"
 msgstr "알 수 없는 시리즈"
 
-#: viewHandlers.js:5992 viewHandlers.js:6005 controls/statusbar.js:119
+#: viewHandlers.js:5996 viewHandlers.js:6009 controls/statusbar.js:119
 #: helpers/artistDataSource.js:87
 msgid "artist"
 msgstr ""
 
-#: viewHandlers.js:5999 UPnPTreeHelper.pas:1880
+#: viewHandlers.js:6003 UPnPTreeHelper.pas:1880
 msgid "Album Artists"
 msgstr ""
 
-#: viewHandlers.js:6019 UPnPTreeHelper.pas:1885
+#: viewHandlers.js:6023 UPnPTreeHelper.pas:1885
 msgid "Directors"
 msgstr ""
 
-#: viewHandlers.js:6025
+#: viewHandlers.js:6029
 msgid "director"
 msgstr ""
 
-#: viewHandlers.js:6032 controls/searchView.js:94 UPnPTreeHelper.pas:1881
+#: viewHandlers.js:6036 controls/searchView.js:94 UPnPTreeHelper.pas:1881
 msgid "Composers"
 msgstr ""
 
-#: viewHandlers.js:6038
+#: viewHandlers.js:6042
 msgid "composer"
 msgstr ""
 
-#: viewHandlers.js:6045 controls/searchView.js:136 UPnPTreeHelper.pas:1884
+#: viewHandlers.js:6049 controls/searchView.js:136 UPnPTreeHelper.pas:1884
 msgid "Conductors"
 msgstr ""
 
-#: viewHandlers.js:6051
+#: viewHandlers.js:6055
 msgid "conductor"
 msgstr ""
 
-#: viewHandlers.js:6058 controls/searchView.js:283 UPnPTreeHelper.pas:1883
+#: viewHandlers.js:6062 controls/searchView.js:283 UPnPTreeHelper.pas:1883
 msgid "Producers"
 msgstr ""
 
-#: viewHandlers.js:6064
+#: viewHandlers.js:6068
 msgid "producer"
 msgstr ""
 
 #. don't save
 #. addFieldPair('publisher', _('Publisher'), FIELD_AUDIO);
-#: viewHandlers.js:6071 controls/searchView.js:246 dialogs/dlgAutotag.js:2072
+#: viewHandlers.js:6075 controls/searchView.js:246 dialogs/dlgAutotag.js:2072
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:150 UPnPTreeHelper.pas:1879
 msgid "Actors"
 msgstr ""
 
-#: viewHandlers.js:6077
+#: viewHandlers.js:6081
 msgid "actor"
 msgstr ""
 
-#: viewHandlers.js:6084 UPnPTreeHelper.pas:1894
+#: viewHandlers.js:6088 UPnPTreeHelper.pas:1894
 msgid "Publishers"
 msgstr ""
 
-#: viewHandlers.js:6090
+#: viewHandlers.js:6094
 msgid "publisher"
 msgstr ""
 
 #. category name
-#: viewHandlers.js:6334
+#: viewHandlers.js:6338
 msgid "Pop"
 msgstr ""
 
 #. defines word prefixes to be included within the particular genre(s)
-#: viewHandlers.js:6338
+#: viewHandlers.js:6342
 msgid "Rock"
 msgstr ""
 
-#: viewHandlers.js:6342
+#: viewHandlers.js:6346
 msgid "R&B and soul"
 msgstr ""
 
-#: viewHandlers.js:6346
+#: viewHandlers.js:6350
 msgid "Dance"
 msgstr "댄스"
 
-#: viewHandlers.js:6350
+#: viewHandlers.js:6354
 msgid "Blues"
 msgstr ""
 
-#: viewHandlers.js:6354
+#: viewHandlers.js:6358
 msgid "Jazz"
 msgstr ""
 
-#: viewHandlers.js:6358
+#: viewHandlers.js:6362
 msgid "Latin & Caribbean"
 msgstr ""
 
-#: viewHandlers.js:6363
+#: viewHandlers.js:6367
 msgid "Electronic"
 msgstr ""
 
-#: viewHandlers.js:6368
+#: viewHandlers.js:6372
 msgid "Country"
 msgstr ""
 
-#: viewHandlers.js:6372
+#: viewHandlers.js:6376
 msgid "Folk"
 msgstr ""
 
-#: viewHandlers.js:6376
+#: viewHandlers.js:6380
 msgid "Easy listening"
 msgstr ""
 
-#: viewHandlers.js:6380
+#: viewHandlers.js:6384
 msgid "Comedy"
 msgstr ""
 
-#: viewHandlers.js:6384 controls\deviceConfig\options\pnl_FileLocations.html:17
+#: viewHandlers.js:6388 controls\deviceConfig\options\pnl_FileLocations.html:17
 msgid "Classical"
 msgstr "클래식"
 
-#: viewHandlers.js:6389
+#: viewHandlers.js:6393
 msgid "World"
 msgstr ""
 
-#: viewHandlers.js:6558 controls/trackListView.js:906 MaskHelper.pas:3060
+#: viewHandlers.js:6562 controls/trackListView.js:906 MaskHelper.pas:3060
 #: ResStrings.pas:457 ResStrings.pas:515 UPnPTreeHelper.pas:1913
 #: dialogs\dlgTrackProperties\tabClassification.html:5
 msgid "Tempo"
 msgstr "박자"
 
-#: viewHandlers.js:6576 controls/trackListView.js:924 MaskHelper.pas:3061
+#: viewHandlers.js:6580 controls/trackListView.js:924 MaskHelper.pas:3061
 #: ResStrings.pas:455 ResStrings.pas:513 UPnPTreeHelper.pas:1914
 #: dialogs\dlgTrackProperties\tabClassification.html:16
 msgid "Mood"
 msgstr "무드"
 
-#: viewHandlers.js:6594 controls/trackListView.js:942 MaskHelper.pas:3062
+#: viewHandlers.js:6598 controls/trackListView.js:942 MaskHelper.pas:3062
 #: ResStrings.pas:456 ResStrings.pas:514 UPnPTreeHelper.pas:1915
 #: dialogs\dlgTrackProperties\tabClassification.html:27
 msgid "Occasion"
 msgstr "행사"
 
-#: viewHandlers.js:6612 controls/trackListView.js:960 FormatsHandler.pas:2897
+#: viewHandlers.js:6616 controls/trackListView.js:960 FormatsHandler.pas:2897
 #: FormatsHandler.pas:2916 MaskHelper.pas:3063 ResStrings.pas:369
 #: ResStrings.pas:420 ResStrings.pas:470 ResStrings.pas:524
 #: dialogs\dlgOGGSettings.html:22
 msgid "Quality"
 msgstr "품질"
 
-#: viewHandlers.js:6630 controls/trackListView.js:44
+#: viewHandlers.js:6634 controls/trackListView.js:44
 #: dialogs/dlgTrackProperties.js:21 UPnPTreeHelper.pas:1912
 msgid "Classification"
 msgstr "분류"
 
-#: viewHandlers.js:6748
+#: viewHandlers.js:6752
 msgid ""
 "If you have multiple tracks by different artists, that actually belong to a "
 "single album, MediaMonkey can help you organise them. They are displayed "
@@ -2288,17 +2298,17 @@ msgid ""
 "album artist and year."
 msgstr ""
 
-#: viewHandlers.js:6814 UPnPTreeHelper.pas:1900
+#: viewHandlers.js:6818 UPnPTreeHelper.pas:1900
 msgid "Files to Edit"
 msgstr "편집하려는 파일"
 
-#: viewHandlers.js:6992 dialogs/dlgMediaProperties.js:42
+#: viewHandlers.js:6996 dialogs/dlgMediaProperties.js:42
 msgid "Media Properties"
 msgstr "미디어 속성"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. create folder text element
-#: viewHandlers.js:7009 controls/monitoredFoldersView.js:258 ResStrings.pas:410
+#: viewHandlers.js:7013 controls/monitoredFoldersView.js:258 ResStrings.pas:410
 #: dialogs\dlgMediaProperties.html:26
 msgid "Location"
 msgstr "위치"
@@ -2307,7 +2317,7 @@ msgstr "위치"
 #. Other group is default
 #. fill info about audio stream
 #. Audio exts then video formats, then image exts
-#: viewHandlers.js:7069 controls/deviceConfig.js:296
+#: viewHandlers.js:7073 controls/deviceConfig.js:296
 #: controls/deviceConfig.js:297 controls/trackListView.js:40
 #: dialogs/dlgSupportedFormat.js:26 BaseMedia.pas:4458 FormatsManage.pas:3784
 #: FormatsManage.pas:5467 FormatsManage.pas:5499 FormatsManage.pas:5512
@@ -2317,7 +2327,7 @@ msgstr "오디오"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. fill info about video stream
-#: viewHandlers.js:7086 controls/deviceConfig.js:301
+#: viewHandlers.js:7090 controls/deviceConfig.js:301
 #: controls/deviceConfig.js:302 controls/trackListView.js:49
 #: dialogs/dlgSupportedFormat.js:27 BaseMedia.pas:4496 FormatsManage.pas:3790
 #: FormatsManage.pas:5469 FormatsManage.pas:5501 FormatsManage.pas:5513
@@ -2325,28 +2335,30 @@ msgstr "오디오"
 msgid "Video"
 msgstr "비디오"
 
-#: viewHandlers.js:7129 viewHandlers.js:7131
+#: viewHandlers.js:7133 viewHandlers.js:7135
 msgid "Web"
 msgstr "웹"
 
 #. TODO: add links to stations
-#: viewHandlers.js:7176 viewHandlers.js:7244
-msgid "Remove Bookmark"
-msgstr ""
+#: viewHandlers.js:7180 viewHandlers.js:7248
+#, fuzzy
+#| msgid "Remove image"
+msgid "Remove bookmark"
+msgstr "이미지 제거"
 
-#: viewHandlers.js:7199 viewHandlers.js:7201 GlobVars.pas:1926
+#: viewHandlers.js:7203 viewHandlers.js:7205 GlobVars.pas:1926
 msgid "Radio"
 msgstr ""
 
-#: viewHandlers.js:7266 controls\audiobookCollectionView.html:18
+#: viewHandlers.js:7270 controls\audiobookCollectionView.html:18
 msgid "Pinned"
 msgstr ""
 
-#: viewHandlers.js:7620 controls/multiview.js:193
+#: viewHandlers.js:7624 controls/multiview.js:193
 msgid "Home"
 msgstr ""
 
-#: viewHandlers.js:7637 AutoOrganize.pas:1581 ResStrings.pas:389
+#: viewHandlers.js:7641 AutoOrganize.pas:1581 ResStrings.pas:389
 msgid "Collections"
 msgstr "컬렉션"
 
@@ -2530,9 +2542,12 @@ msgstr ""
 msgid "Artwork (original)"
 msgstr ""
 
+#
 #: controls/backgroundImage.js:207
-msgid "Background Image"
-msgstr ""
+#, fuzzy
+#| msgid "Background"
+msgid "Background image"
+msgstr "배경"
 
 #. F10 - toggle automatic preset change
 #: controls/baseVis.js:114 controls/baseVis.js:115
@@ -2630,9 +2645,14 @@ msgstr ""
 msgid "Auto-conversion"
 msgstr "자동-변환"
 
-#: controls/columntracklist.js:168
-msgid "Choose columns / Sort"
-msgstr ""
+#: controls/columntracklist.js:168 dialogs/dlgSelectFromList.js:109
+msgid "Choose columns"
+msgstr "컬럼 선택"
+
+#. undefined
+#: controls/columntracklist.js:168 FullPlayer.pas:2388
+msgid "Sort"
+msgstr "정렬"
 
 #: controls/columntracklist.js:179
 msgid "Automatic column widths"
@@ -2872,7 +2892,7 @@ msgid "Subdirectories"
 msgstr ""
 
 #: controls/maskedit.js:466
-msgid "Variable subdirectories can be defined statically or using masks"
+msgid "Subdirectories can be defined statically or using mask variables"
 msgstr ""
 
 #: controls/maskedit.js:469 dialogs\dlgOptions\pnl_Library.html:103
@@ -2880,7 +2900,7 @@ msgid "Filenames"
 msgstr "파일명"
 
 #: controls/maskedit.js:469
-msgid "Variable filenames can be defined using masks or statically"
+msgid "Filenames can be defined using mask variables or statically"
 msgstr ""
 
 #: controls/maskedit.js:472
@@ -3116,7 +3136,7 @@ msgid "or"
 msgstr "정렬"
 
 #: controls/podcastSubscribeTutorial.js:23
-msgid "Subscribe a podcast manually by entering the feed link"
+msgid "Subscribe to a podcast manually by entering the feed link"
 msgstr ""
 
 #: controls/rating.js:210
@@ -3554,7 +3574,7 @@ msgstr "프레임 속도"
 #. assign duration only if we don't have a better way to find it (issue #8948)
 #: controls/trackListView.js:1415 dialogs/dlgTrackProperties/tabBasic.js:467
 #: DBStructure.pas:1939 MaskHelper.pas:3073 MaskHelper.pas:3503
-#: MaskHelper.pas:3784 PodcastManage.pas:2985 QueryManage.pas:2997
+#: MaskHelper.pas:3784 PodcastManage.pas:2987 QueryManage.pas:2997
 #: QueryManage.pas:3004 ResStrings.pas:485
 msgid "Podcast"
 msgstr "팟캐스트"
@@ -4245,10 +4265,6 @@ msgstr ""
 msgid "Monthly"
 msgstr ""
 
-#: dialogs/dlgMaintainLibrary.js:10
-msgid "Manage Database"
-msgstr ""
-
 #: dialogs/dlgManageViews.js:17 helpers/views.js:293
 msgid "Manage views"
 msgstr ""
@@ -4658,10 +4674,6 @@ msgstr ""
 #: dialogs/dlgSelectFolder.js:7
 msgid "Select folder"
 msgstr ""
-
-#: dialogs/dlgSelectFromList.js:109
-msgid "Choose columns"
-msgstr "컬럼 선택"
 
 #: dialogs/dlgSelectPlaylist.js:4 dialogs\dlgSelectPlaylist.html:10
 msgid "Select playlist"
@@ -5583,7 +5595,7 @@ msgstr ""
 
 #. url request failed, check for quota exceeded
 #: Scripts/youtube/helpers/youtubeHelper.js:48
-msgid "Youtube query failed: "
+msgid "YouTube query failed: "
 msgstr ""
 
 #: AndroidDBHandler.pas:1196 AndroidDBHandler.pas:1198
@@ -6216,7 +6228,7 @@ msgstr ""
 
 #. set buttons captions
 #: ExceptionHandler.pas:213
-msgid "Disable && Restart"
+msgid "Disable & Restart"
 msgstr ""
 
 #. Pointer not needed.
@@ -6233,11 +6245,11 @@ msgid "Do you want to disable this addon?"
 msgstr ""
 
 #: Extensions.pas:740 Extensions.pas:753 Extensions.pas:788
-msgid "Invalid Extension!"
+msgid "Invalid Addon!"
 msgstr ""
 
 #: Extensions.pas:750
-msgid "Invalid Extension: only valid for MediaMonkey 4.x"
+msgid "Invalid Addon: only valid for MediaMonkey 4.x"
 msgstr ""
 
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
@@ -6325,8 +6337,10 @@ msgstr ""
 "다."
 
 #: FileAssoc.pas:1132
-msgid "MediaMonkey Extension file"
-msgstr ""
+#, fuzzy
+#| msgid "MediaMonkey Filelist"
+msgid "MediaMonkey Addon file"
+msgstr "MediaMonkey 파일 목록"
 
 #: FileAssoc.pas:1134
 msgid "Audio File"
@@ -6577,11 +6591,6 @@ msgstr ""
 #: FullPlayer.pas:2299
 msgid "Clear Playing"
 msgstr ""
-
-#. undefined
-#: FullPlayer.pas:2388
-msgid "Sort"
-msgstr "정렬"
 
 #: FullPlayer.pas:2710
 msgid "Currently, there is no output plug-in selected"
@@ -7055,11 +7064,11 @@ msgstr "%s의 태그 삭제 중 %d / %d (%s)"
 msgid "Locate Moved/Missing Files"
 msgstr "이동된/누락된 파일의 위치"
 
-#: MP3Utils.pas:442 MP3Utils.pas:2664
+#: MP3Utils.pas:442 MP3Utils.pas:2670
 msgid "Error scanning directory"
 msgstr "디렉터리 검색 중 오류 발생"
 
-#: MP3Utils.pas:442 MP3Utils.pas:2664
+#: MP3Utils.pas:442 MP3Utils.pas:2670
 msgid "This directory is used exclusively for:"
 msgstr "전용으로 사용되는 디렉터리:"
 
@@ -7075,79 +7084,79 @@ msgstr ""
 msgid "Preparing list of files"
 msgstr ""
 
-#: MP3Utils.pas:1252
+#: MP3Utils.pas:1258
 msgid "Scanning for moved files in %s (%d files scanned)."
 msgstr "%s로 이동한 파일을 검색 중 (%d개의 파일 검색)."
 
 #. There are yet tracks to be found, try the second pass
-#: MP3Utils.pas:1321
+#: MP3Utils.pas:1327
 msgid "Scanning for moved files - 2nd pass (%d of %d files scanned)."
 msgstr "이동된 파일 검색 중 - 2 단계 (%d / %d 파일 검색)."
 
-#: MP3Utils.pas:1412
+#: MP3Utils.pas:1418
 msgid "Updating file %d of %d."
 msgstr "%d / %d 파일 업데이트 중."
 
-#: MP3Utils.pas:1548
+#: MP3Utils.pas:1554
 msgid "Imported Playlists"
 msgstr ""
 
 #. fail of this isn't a reason for terminating scanning
-#: MP3Utils.pas:1652 MP3Utils.pas:2844 MP3Utils.pas:2860
+#: MP3Utils.pas:1658 MP3Utils.pas:2850 MP3Utils.pas:2866
 msgid "Error scanning file"
 msgstr "파일 검색 중 오류 발생"
 
-#: MP3Utils.pas:1652 MP3Utils.pas:2860
+#: MP3Utils.pas:1658 MP3Utils.pas:2866
 msgid "error occured while scanning"
 msgstr "검색하는 동안 오류 발생"
 
-#: MP3Utils.pas:1674 MP3Utils.pas:1953
+#: MP3Utils.pas:1680 MP3Utils.pas:1959
 msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "감시 중 $FAdd$ / $FTot$ ($Dir$$Str$)"
 
-#: MP3Utils.pas:1674 MP3Utils.pas:1953
+#: MP3Utils.pas:1680 MP3Utils.pas:1959
 msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "추가 중 $FAdd$ / $FTot$ ($Dir$$Str$)"
 
-#: MP3Utils.pas:2028
+#: MP3Utils.pas:2034
 msgid "Problem with scanning directory %s."
 msgstr "디렉터리 %s 검색 문제."
 
-#: MP3Utils.pas:2777
+#: MP3Utils.pas:2783
 msgid "file is too short or too small"
 msgstr ""
 
-#: MP3Utils.pas:2844
+#: MP3Utils.pas:2850
 msgid "error while reading file info"
 msgstr "파일 정보를 읽는 동안 오류 발생"
 
 #. if we are going to tag a file that is playing, let's do it as quickly as possible
-#: MP3Utils.pas:3700
+#: MP3Utils.pas:3706
 msgid "Tag update failed: %s is inaccessible."
 msgstr ""
 
 #. wrong file format, no neeed for next attempt
-#: MP3Utils.pas:3731
+#: MP3Utils.pas:3737
 msgid "Tag update failed: %s has wrong format."
 msgstr ""
 
 #. No need to check
-#: MP3Utils.pas:3790
+#: MP3Utils.pas:3796
 msgid ""
 "One or more of the selected files are inaccessible and cannot be tagged. "
 "Save artwork to the folder instead."
 msgstr ""
 
-#: MP3Utils.pas:3927 Normalization.pas:1435 Normalization.pas:1970
+#: MP3Utils.pas:3933 Normalization.pas:1435 Normalization.pas:1970
 msgid ""
 "The media '%s' is not inserted. It must be inserted to access the file %s"
 msgstr ""
 
-#: MP3Utils.pas:4394
+#: MP3Utils.pas:4400
 msgid "trial"
 msgstr "평가"
 
-#: MP3Utils.pas:4396
+#: MP3Utils.pas:4402
 msgid "trial-expired"
 msgstr "평가 만료"
 
@@ -8526,6 +8535,13 @@ msgstr ""
 msgid "Scan file directories for Artwork"
 msgstr "삽화에 대한 파일 디렉터리 검색"
 
+#: dialogs\dlgOptions\pnl_Network.html:2
+msgid ""
+"If your network uses a proxy server, you'll need to configure these settings "
+"to enable Freedb HTTP connections and media streaming. If you don't know the "
+"proxy server settings, check with your administrator."
+msgstr ""
+
 #: dialogs\dlgOptions\pnl_PartyMode.html:43
 msgid "When files are playing:"
 msgstr "파일을 재생할 때:"
@@ -8725,10 +8741,6 @@ msgstr "라이브러리 폴더의 복사 시 옵션 확인"
 #: dialogs\dlgOptions\pnl_Download.html:19
 msgid "Every hour"
 msgstr "매시간"
-
-#: dialogs\dlgOptions\pnl_Download.html:66
-msgid "On download, tag episodes based on data from Podcast feed"
-msgstr "다운로드 시, 에피소드를 팟캐스트의 피드 정보를 기반으로 태그"
 
 #: dialogs\dlgOptions\pnl_Library.html:3
 msgid "When adding files to the Library"
@@ -9647,14 +9659,6 @@ msgstr "수동"
 msgid "Choose the location where downloaded content is saved by default"
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Download.html:71
-msgid ""
-"If episodes' properties are changed by the podcast feed creator, they are "
-"updated from the feed."
-msgstr ""
-"팟캐스트 피드 작성자에 의해 에피소드 속성이 변경되면, 피드에서 업데이트됩니"
-"다."
-
 #: dialogs\dlgOptions\pnl_General.html:42
 msgid "Close to tray"
 msgstr ""
@@ -9724,6 +9728,10 @@ msgstr ""
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s) to new destination"
 msgstr "새 위치로 파일 변환"
+
+#: dialogs\dlgExtensions.html:19
+msgid "Get more addons"
+msgstr ""
 
 #: dialogs\dlgMediaProperties.html:14
 msgid "Serial"
@@ -9805,10 +9813,6 @@ msgstr "보통"
 
 #: dialogs\dlgChooseFolders.html:11
 msgid "Select the folders you want to scan for media files:"
-msgstr ""
-
-#: dialogs\dlgExtensions.html:19
-msgid "Get more extensions"
 msgstr ""
 
 #: dialogs\dlgMaintainLibrary.html:16
@@ -10526,13 +10530,6 @@ msgstr ""
 msgid "Generate thumbnails for videos"
 msgstr "비디오용 미리 보기 그림 생성"
 
-#: dialogs\dlgOptions\pnl_Network.html:2
-msgid ""
-"If your network uses a proxy server, you'll need to configure these settings "
-"to enable Freedb HTTP connections and MP3 / OGG streaming. If you don't know "
-"the proxy server settings, check with your administrator."
-msgstr ""
-
 #: dialogs\dlgOptions\pnl_OSIntegration.html:51
 msgid "Play next in MediaMonkey"
 msgstr "Mediamonkey로 다음에 재생"
@@ -10608,10 +10605,6 @@ msgstr ""
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:2
 msgid "Set the default directory / filename format for specified files."
 msgstr "지정된 파일에 대한 기본 디렉터리 / 파일 형식을 설정합니다."
-
-#: dialogs\dlgOptions\pnl_Download.html:72
-msgid "Keep updating episode data by feed data (slower)"
-msgstr "피드 데이터에 의한 에피소드 데이터 업데이트 유지 (느림)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:21
 msgid ""
@@ -10974,8 +10967,21 @@ msgstr ""
 msgid "Recently Added"
 msgstr "최근에 추가됨"
 
-#~ msgid "Are you sure you want to remove %d file from the Library?"
-#~ msgstr "라이브러리에서 %d 파일을 제거하시겠습니까?"
+#~ msgid "Extensions"
+#~ msgstr "확장자"
+
+#~ msgid "On download, tag episodes based on data from Podcast feed"
+#~ msgstr "다운로드 시, 에피소드를 팟캐스트의 피드 정보를 기반으로 태그"
+
+#~ msgid ""
+#~ "If episodes' properties are changed by the podcast feed creator, they are "
+#~ "updated from the feed."
+#~ msgstr ""
+#~ "팟캐스트 피드 작성자에 의해 에피소드 속성이 변경되면, 피드에서 업데이트됩"
+#~ "니다."
+
+#~ msgid "Keep updating episode data by feed data (slower)"
+#~ msgstr "피드 데이터에 의한 에피소드 데이터 업데이트 유지 (느림)"
 
 #~ msgid "Are you sure you want to delete %d file?"
 #~ msgstr "%d 파일을 삭제하시겠습니까?"

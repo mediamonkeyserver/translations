@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-12 21:30\n"
+"POT-Creation-Date: 2020-11-13 16:03\n"
 "PO-Revision-Date: 2020-11-10 11:50+0000\n"
 "Last-Translator: Panagiotis Pentaris <ppentar@outlook.com>\n"
 "Language-Team: Greek <http://translations.mediamonkey.com/projects/"
@@ -48,7 +48,7 @@ msgstr "Επεξεργασία"
 msgid "Window"
 msgstr "Παράθυρο"
 
-#: actions.js:79 viewHandlers.js:4745 dialogs/dlgOptions.js:119
+#: actions.js:79 viewHandlers.js:4749 dialogs/dlgOptions.js:119
 msgid "Downloads"
 msgstr "Λήψεις"
 
@@ -82,12 +82,14 @@ msgstr "Εκτίμηση επιλεγμένου(ων) αρχείου(ων)"
 msgid "Rating now playing file"
 msgstr "Εκτίμηση αρχείου τρέχουσας αναπαραγωγής"
 
-#: actions.js:107 actions.js:116 actions.js:8846
+#: actions.js:107 actions.js:116 actions.js:8861
 msgid "Add bookmark"
 msgstr "Προσθήκη σελιδοδείκτη"
 
 #: actions.js:125
-msgid "Edit collection"
+#, fuzzy
+#| msgid "Edit collection"
+msgid "Edit Collection"
 msgstr "Επεξεργασία συλλογής"
 
 #: actions.js:131 dialogs/dlgOptions/pnl_MediaTree.js:197
@@ -231,11 +233,11 @@ msgstr "Συνέχιση όλων"
 msgid "Cancel all"
 msgstr "Ακύρωση όλων"
 
-#: actions.js:884 actions.js:2131 dialogs\dlgTrackProperties\tabArtwork.html:7
+#: actions.js:884 actions.js:2146 dialogs\dlgTrackProperties\tabArtwork.html:7
 msgid "Lookup image"
 msgstr "Αναζήτηση εικόνας"
 
-#: actions.js:908 actions.js:1713 actions.js:2089
+#: actions.js:908 actions.js:1728 actions.js:2104
 #: controls/playlistHeader.js:159 FullPlayer.pas:4368
 #: controls\serverConfig\devices.html:8
 msgid "Remove"
@@ -270,7 +272,7 @@ msgstr "Αποθήκευση λίστας αναπαραγωγής"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16261 - to be the first in the list after creation
 #. #16261 - to be the first in the list after creation
-#: actions.js:1033 actions.js:7586 actions.js:7612
+#: actions.js:1033 actions.js:7601 actions.js:7627
 #: dialogs\dlgSelectPlaylist.html:11
 msgid "New playlist"
 msgstr "Νέα λίστα αναπαραγωγής"
@@ -337,51 +339,57 @@ msgstr ""
 msgid "&Add/Rescan files to the Library"
 msgstr "Προσθήκη/Επανασάρωση αρχείων στη Βιβλιοθήκη"
 
-#: actions.js:1310 actions.js:6762 dialogs/dlgMovedFiles.js:15
+#: actions.js:1310
+#, fuzzy
+#| msgid "Explorer"
+msgid "Open in Explorer"
+msgstr "Εξερευνητής"
+
+#: actions.js:1325 actions.js:6777 dialogs/dlgMovedFiles.js:15
 #: dialogs\dlgDeletedTracks.html:14
 msgid "Locate moved/missing files"
 msgstr "Εντοπισμός μετακινημένων/που λείπουν αρχείων"
 
-#: actions.js:1329
+#: actions.js:1344
 msgid "Add to Library"
 msgstr "Προσθήκη στη Βιβλιοθήκη"
 
 #. device/cloud track in library (issue #14272)
-#: actions.js:1391
+#: actions.js:1406
 msgid "Adding from %s:"
 msgstr "Προσθήκη από %s:"
 
-#: actions.js:1409 FormatsManage.pas:5585 ResStrings.pas:759
+#: actions.js:1424 FormatsManage.pas:5585 ResStrings.pas:759
 #: dialogs\dlgNewVersion.html:25
 msgid "Download"
 msgstr "Λήψη"
 
 #. device/cloud tracks to be downloaded into library
-#: actions.js:1470 helpers/mediaSync.js:4248
+#: actions.js:1485 helpers/mediaSync.js:4248
 msgid "Initializing download from %s"
 msgstr "Προετοιμασία λήψης από %s"
 
-#: actions.js:1487 DatabaseManage.pas:1063
+#: actions.js:1502 DatabaseManage.pas:1063
 msgid "Rebuild full-text search index"
 msgstr "Αναδημιουργία ευρετηρίου αναζήτησης πλήρους κειμένου"
 
 #. default
-#: actions.js:1504
+#: actions.js:1519
 msgid "Optimize database"
 msgstr "Βελτιστοποίηση βάσης δεδομένων"
 
-#: actions.js:1507
+#: actions.js:1522
 msgid "Optimizes the database to improve performance"
 msgstr "Βελτιστοποιεί την βάση δεδομένων για βελτίωση της απόδοσης"
 
 #. default
-#: actions.js:1517 DatabaseManage.pas:1368 DatabaseManage.pas:1488
+#: actions.js:1532 DatabaseManage.pas:1368 DatabaseManage.pas:1488
 #: DatabaseManage.pas:1531 DatabaseManage.pas:1589 DatabaseManage.pas:1596
 #: DatabaseManage.pas:1679 DatabaseManage.pas:1685
 msgid "Rebuild database"
 msgstr "Ανακατασκευή βάσης δεδομένων"
 
-#: actions.js:1520
+#: actions.js:1535
 msgid ""
 "Rebuilds the database. This might be useful if database is corrupted or "
 "contains inconsistent data."
@@ -390,61 +398,61 @@ msgstr ""
 "δεδομένων είναι κατεστραμμένη ή περιέχει ασυνεπή δεδομένα."
 
 #. default
-#: actions.js:1530
+#: actions.js:1545
 msgid "Clean URL cache"
 msgstr "Εκκαθάριση cache URL"
 
-#: actions.js:1544
+#: actions.js:1559 dialogs/dlgMaintainLibrary.js:10
 msgid "Manage database"
 msgstr "Διαχείριση βάσης δεδομένων"
 
-#: actions.js:1582 dialogs\dlgMaintainLibrary.html:19
+#: actions.js:1597 dialogs\dlgMaintainLibrary.html:19
 msgid "Backup database now"
 msgstr "Αντίιγραφο ασφαλείας βάσης δεδομένων τώρα"
 
-#: actions.js:1585
+#: actions.js:1600
 msgid "This will create a backup of the current database"
 msgstr ""
 "Αυτό θα δημιουργήσει ένα αντίγραφο ασφαλείας της τρέχουσας βάσης δεδομένων"
 
-#: actions.js:1585 actions.js:1613 actions.js:1648 actions.js:2048
-#: actions.js:8915 Scripts/autoIncTrack/actions_add.js:21
+#: actions.js:1600 actions.js:1628 actions.js:1663 actions.js:2063
+#: actions.js:8930 Scripts/autoIncTrack/actions_add.js:21
 #: Scripts/syncToFolder/viewHandlers_add.js:7
 msgid "Do you want to proceed?"
 msgstr "Θέλετε να συνεχίσετε;"
 
-#: actions.js:1591
+#: actions.js:1606
 msgid "Backup is complete."
 msgstr "Ολοκληρώθηκε η δημιουργία αντίγραφου ασφαλείας ."
 
-#: actions.js:1595
+#: actions.js:1610
 msgid "Backup FAILED!"
 msgstr "ΑΠΟΤΥΧΙΑ δημιουργίας αντίγραφου ασφαλείας!"
 
-#: actions.js:1610 dialogs\dlgMaintainLibrary.html:20
+#: actions.js:1625 dialogs\dlgMaintainLibrary.html:20
 msgid "Restore from backup"
 msgstr "Επαναφορά από αντίγραφο ασφαλείας"
 
-#: actions.js:1613
+#: actions.js:1628
 msgid "This will restore the database from a backup."
 msgstr "Αυτό θα επαναφέρει τη βάση δεδομένων από ένα αντίγραφο ασφαλείας."
 
-#: actions.js:1619
+#: actions.js:1634
 msgid ""
 "Are you sure you want to restore database from %s?<br>This will delete "
 "current database and MediaMonkey will be automatically restarted when "
 "finished!"
 msgstr ""
 
-#: actions.js:1625
+#: actions.js:1640
 msgid "Restore FAILED!"
 msgstr "ΑΠΟΤΥΧΙΑ Επαναφοράς!"
 
-#: actions.js:1644 dialogs\dlgMaintainLibrary.html:21
+#: actions.js:1659 dialogs\dlgMaintainLibrary.html:21
 msgid "Clear database"
 msgstr "Εκκαθάριση βάσης δεδομένων"
 
-#: actions.js:1648
+#: actions.js:1663
 msgid ""
 "This will delete all Library data, Playlists, and Collections but will not "
 "delete any of your files or configuration data."
@@ -453,104 +461,104 @@ msgstr ""
 "τις Συλλογές, αλλά δεν θα διαγράψει κανένα από τα αρχεία σας ή τα δεδομένα "
 "διαμόρφωσης."
 
-#: actions.js:1654
+#: actions.js:1669
 msgid "Clear FAILED! Old database restored."
 msgstr "ΑΠΟΤΥΧΙΑ Καθαρισμού! Έγινε επαναφορά της παλιάς βάσης δεδομένων."
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode', // per #16067
-#: actions.js:1669 controls/searchBar.js:516
+#: actions.js:1684 controls/searchBar.js:516
 #: dialogs\dlgOptions\pnl_Search.html:15
 msgid "Global search"
 msgstr "Καθολική αναζήτηση"
 
-#: actions.js:1697
+#: actions.js:1712
 msgid "Delete (permanent)"
 msgstr "Διαγραφή (μόνιμη)"
 
-#: actions.js:1734
+#: actions.js:1749
 msgid "Cut"
 msgstr "Αποκοπή"
 
-#: actions.js:1755
+#: actions.js:1770
 msgid "Copy"
 msgstr "Αντιγραφή"
 
-#: actions.js:1774 controls/artWindow.js:1008
+#: actions.js:1789 controls/artWindow.js:1008
 msgid "Paste"
 msgstr "Επικόλληση"
 
 #. #16261 - to be the first in the list after creation
-#: actions.js:1809 actions.js:1821
+#: actions.js:1824 actions.js:1836
 msgid "New AutoPlay&list"
 msgstr "Νέα Αυτόματη Λίστα Αναπαραγωγής"
 
 #. #16261 - to be the first in the list after creation
-#: actions.js:1833 actions.js:1845
+#: actions.js:1848 actions.js:1860
 msgid "New pla&ylist"
 msgstr "Νέα λίστα αναπαραγωγής"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. has support for NP list in full window
-#: actions.js:1857 controls/buttons.js:71 controls/control.js:120
+#: actions.js:1872 controls/buttons.js:71 controls/control.js:120
 #: controls/nowplayingview.js:377 helpers/dockableDialog.js:28
 #: controls\devicesView.html:41
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#: actions.js:1868
+#: actions.js:1883
 msgid "E&xit"
 msgstr "Έξοδος"
 
-#: actions.js:1881 actions.js:2078 actions.js:4084
+#: actions.js:1896 actions.js:2093 actions.js:4099
 msgid "&Properties"
 msgstr "Ιδιότητες"
 
-#: actions.js:1907
+#: actions.js:1922
 msgid "Subscribe to new podcast"
 msgstr "Κάντε συνδρομή στο νέο podcast"
 
-#: actions.js:1919 actions.js:1925 dialogs/dlgChooseFolders.js:21
+#: actions.js:1934 actions.js:1940 dialogs/dlgChooseFolders.js:21
 #: dialogs/dlgNetworkFolder.js:10
 msgid "Add folders"
 msgstr "Προσθήκη φακέλων"
 
-#: actions.js:1943 dialogs\dlgWizard\pnlScan.html:10
+#: actions.js:1958 dialogs\dlgWizard\pnlScan.html:10
 msgid "Add location"
 msgstr "Προσθήκη τοποθεσίας"
 
 #. 'addStorage',
-#: actions.js:1950 viewHandlers.js:4622 dialogs/dlgMediaProperties.js:26
+#: actions.js:1965 viewHandlers.js:4626 dialogs/dlgMediaProperties.js:26
 #: dialogs/dlgWizard/pnlScan.js:91 QueryManage.pas:4314 ResStrings.pas:403
 msgid "Network"
 msgstr "Δίκτυο"
 
-#: actions.js:1958 dialogs/dlgWizard/pnlScan.js:142 QueryManage.pas:4313
+#: actions.js:1973 dialogs/dlgWizard/pnlScan.js:142 QueryManage.pas:4313
 msgid "Media server"
 msgstr "Server πολυμέσων"
 
-#: actions.js:1966 dialogs/dlgWizard/pnlScan.js:171
+#: actions.js:1981 dialogs/dlgWizard/pnlScan.js:171
 msgid "Cloud storage"
 msgstr "Αποθήκευση στο cloud"
 
-#: actions.js:2001 actions.js:2008
+#: actions.js:2016 actions.js:2023
 msgid "Add media server manually"
 msgstr "Χειροκίνητη προσθήκη server πολυμέσων"
 
 #. no message needed in case of success (as the new server just appears in the list)
-#: actions.js:2028
+#: actions.js:2043
 msgid "%s cannot be reached"
 msgstr "Μη δυνατή πρόσβαση %s"
 
-#: actions.js:2029 ResStrings.pas:567 UI.pas:1239
+#: actions.js:2044 ResStrings.pas:567 UI.pas:1239
 msgid "Error"
 msgstr "Σφάλμα"
 
-#: actions.js:2040
+#: actions.js:2055
 msgid "Configure remote access"
 msgstr "Διαμόρφωση απομακρυσμένης πρόσβασης"
 
-#: actions.js:2048
+#: actions.js:2063
 msgid ""
 "This will auto-configure rules on your router to allow the %s UPnP/DLNA "
 "server to be accessible from a public/external network."
@@ -559,7 +567,7 @@ msgstr ""
 "στον διακομιστή %s UPnP/DLNA να είναι προσβάσιμος από δημόσιο/εξωτερικό "
 "δίκτυο."
 
-#: actions.js:2048
+#: actions.js:2063
 msgid ""
 "Configuration is via UPnP/NAT-PMP which only works if this device is on the "
 "same network as the router."
@@ -567,15 +575,15 @@ msgstr ""
 "Η διαμόρφωση γίνεται μέσω UPnP/NAT-PMP που λειτουργεί μόνο εάν αυτή η "
 "συσκευή βρίσκεται στο ίδιο δίκτυο με τον router."
 
-#: actions.js:2053
+#: actions.js:2068
 msgid "Configuring remote access"
 msgstr "Διαμόρφωση απομακρυσμένης πρόσβασης"
 
-#: actions.js:2056
+#: actions.js:2071
 msgid "Remote UPnP/DLNA access to %s was successfuly configured."
 msgstr "Η απομακρυσμένη πρόσβαση UPnP/DLNA στο %s διαμορφώθηκε με επιτυχία."
 
-#: actions.js:2056
+#: actions.js:2071
 msgid ""
 "If you want to use another UPnP/DLNA client to remotely access %s, enter the "
 "following server destination to the client:"
@@ -583,17 +591,17 @@ msgstr ""
 "Εάν θέλετε να χρησιμοποιήσετε άλλο UPnP/DLNA client για απομακρυσμένη "
 "πρόσβαση %s, εισαγάγετε τον ακόλουθο προορισμό server στον client:"
 
-#: actions.js:2060
+#: actions.js:2075
 msgid "Remote access to %s cannot be auto-configured via UPnP/NAT-PMP"
 msgstr ""
 "Η απομακρυσμένη πρόσβαση στο %s δεν μπορεί να ρυθμιστεί αυτόματα μέσω UPnP/"
 "NAT-PMP"
 
-#: actions.js:2062 helpers/mediaSync.js:397 CDUtils.pas:1393 WebUtils.pas:6059
+#: actions.js:2077 helpers/mediaSync.js:397 CDUtils.pas:1393 WebUtils.pas:6059
 msgid "There is a problem with your internet connection."
 msgstr "Υπάρχει πρόβλημα με την σύνδεση σας στο διαδίκτυο."
 
-#: actions.js:2064
+#: actions.js:2079
 msgid ""
 "To resolve, enable UPnP/NAT-PMP in your router configuration or manually "
 "configure port forwarding on your router and try again"
@@ -602,166 +610,166 @@ msgstr ""
 "χειροκίνητα διαμαρφώσετε την θύρα προώθησης στον router σας και δοκιμάστε "
 "ξανά"
 
-#: actions.js:2064
+#: actions.js:2079
 msgid "port %d to IP address %s"
 msgstr "θύρα %d στην διευθυνσή IP %s"
 
-#: actions.js:2103
+#: actions.js:2118
 msgid "Update all podcasts"
 msgstr "Ενημέρωση όλων των podcast"
 
-#: actions.js:2118
+#: actions.js:2133
 msgid "Update podcast"
 msgstr "Ενημέρωση podcast"
 
-#: actions.js:2149
+#: actions.js:2164
 msgid "&Help"
 msgstr "Βοήθεια"
 
-#: actions.js:2158
+#: actions.js:2173
 msgid "Check for updates"
 msgstr "Έλεγχος για ενημερώσεις"
 
 #. not implemented yet fully
-#: actions.js:2171
+#: actions.js:2186
 msgid "&About"
 msgstr "Περί"
 
-#: actions.js:2183
+#: actions.js:2198
 msgid "Debug"
 msgstr "Εντοπισμός σφαλμάτων"
 
-#: actions.js:2190
+#: actions.js:2205
 msgid "Send logs"
 msgstr "Αποστολή αρχείων καταγραφής"
 
-#: actions.js:2197 actions.js:2207
+#: actions.js:2212 actions.js:2222
 msgid "Change freeze timeout"
 msgstr "Αλλαγή χρονικού ορίου παγώματος"
 
-#: actions.js:2244
+#: actions.js:2259
 msgid "Submit crash logs automatically"
 msgstr "Αυτόματη υποβολή αρχειών καταγραφής σφαλμάτων"
 
 #. show also the wheel progress on the toolbar
 #. show progress 500 ms later (when loading still not finished) -- issue #13898
-#: actions.js:2266 viewHandlers.js:2488 viewHandlers.js:4336
+#: actions.js:2281 viewHandlers.js:2488 viewHandlers.js:4336
 #: controls/mainTabContent.js:275 BaseMedia.pas:14482 BaseMedia.pas:15033
 #: Filters.pas:2656 Filters.pas:2713 PodcastManage.pas:940
 msgid "Loading"
 msgstr "Φόρτωση"
 
-#: actions.js:2275
+#: actions.js:2290
 msgid "E&qualizer"
 msgstr "Ισοσταθμιστής"
 
-#: actions.js:2317
+#: actions.js:2332
 msgid "&Rip Audio CD"
 msgstr "Rip Audio CD"
 
-#: actions.js:2364 dialogs/dlgCDDBResult.js:7
+#: actions.js:2379 dialogs/dlgCDDBResult.js:7
 msgid "Lookup Audio CD metadata"
 msgstr "Αναζήτηση μεταδεδομένων Audio CD"
 
-#: actions.js:2380
+#: actions.js:2395
 msgid "&Options"
 msgstr "Επιλογές"
 
-#: actions.js:2393 controls/artWindow.js:1200 controls/artWindow.js:1210
+#: actions.js:2408 controls/artWindow.js:1200 controls/artWindow.js:1210
 #: controls/player.js:808 dialogs/dlgOptions.js:70
 msgid "Layout"
 msgstr "Διάταξη"
 
-#: actions.js:2406 dialogs/dlgExtensions.js:10
-msgid "Extensions"
-msgstr "Επεκτάσεις"
+#: actions.js:2421 dialogs/dlgExtensions.js:10
+msgid "Addons"
+msgstr ""
 
-#: actions.js:2418 actions.js:2433 actions.js:2436 actions.js:2451
-#: actions.js:2454 MediaMonkeyApp.pas:7926
+#: actions.js:2433 actions.js:2448 actions.js:2451 actions.js:2466
+#: actions.js:2469 MediaMonkeyApp.pas:7926
 #: dialogs\dlgOptions\pnl_OSIntegration.html:10
 msgid "Play now"
 msgstr "Αναπαραγωγή τώρα"
 
-#: actions.js:2436 actions.js:2502 actions.js:2553
+#: actions.js:2451 actions.js:2517 actions.js:2568
 msgid "shuffled"
 msgstr "ανακάτεμα"
 
-#: actions.js:2454 actions.js:2520 actions.js:2572
+#: actions.js:2469 actions.js:2535 actions.js:2587
 msgid "shuffled by Album"
 msgstr "ανακάτεμα βάσει Album"
 
-#: actions.js:2469
+#: actions.js:2484
 msgid "Play mixed"
 msgstr "Ανάμεικτη αναπαραγωγή"
 
-#: actions.js:2484 actions.js:2499 actions.js:2502 actions.js:2517
-#: actions.js:2520 MediaMonkeyApp.pas:7927
+#: actions.js:2499 actions.js:2514 actions.js:2517 actions.js:2532
+#: actions.js:2535 MediaMonkeyApp.pas:7927
 #: dialogs\dlgOptions\pnl_OSIntegration.html:11
 msgid "Play next"
 msgstr "Αναπαραγωγή επόμενου"
 
-#: actions.js:2535 actions.js:2550 actions.js:2553 actions.js:2569
-#: actions.js:2572 MediaMonkeyApp.pas:7928
+#: actions.js:2550 actions.js:2565 actions.js:2568 actions.js:2584
+#: actions.js:2587 MediaMonkeyApp.pas:7928
 #: dialogs\dlgOptions\pnl_OSIntegration.html:12
 msgid "Play last"
 msgstr "Αναπαραγωγή τελευταίου"
 
-#: actions.js:2587 FileAssoc.pas:737 controls\playlistHeader.html:9
+#: actions.js:2602 FileAssoc.pas:737 controls\playlistHeader.html:9
 msgid "Play"
 msgstr "Αναπαραγωγή"
 
-#: actions.js:2605
+#: actions.js:2620
 msgid "Pause"
 msgstr "Παύση"
 
-#: actions.js:2623 Win7ToolsImpl.pas:1900
+#: actions.js:2638 Win7ToolsImpl.pas:1900
 msgid "Play/Pause"
 msgstr "Αναπαραγωγή/Παύση"
 
-#: actions.js:2638 Win7ToolsImpl.pas:1901
+#: actions.js:2653 Win7ToolsImpl.pas:1901
 msgid "Stop"
 msgstr "Διακοπή"
 
-#: actions.js:2653 actions.js:2656 actions.js:2773 controls/baseVis.js:115
+#: actions.js:2668 actions.js:2671 actions.js:2788 controls/baseVis.js:115
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:9
 msgid "Off"
 msgstr "Off"
 
-#: actions.js:2656 actions.js:2678 actions.js:2702 actions.js:2723
+#: actions.js:2671 actions.js:2693 actions.js:2717 actions.js:2738
 msgid "Stop after"
 msgstr "Διακοπή μετά"
 
-#: actions.js:2675 actions.js:2678
+#: actions.js:2690 actions.js:2693
 msgid "Current file"
 msgstr "Τρέχον αρχείο"
 
-#: actions.js:2699 actions.js:2702
+#: actions.js:2714 actions.js:2717
 msgid "Every file"
 msgstr "Κάθε αρχείο"
 
-#: actions.js:2736
+#: actions.js:2751
 msgid "Crossfade"
 msgstr "Crossfade"
 
-#: actions.js:2754 controls\playlistHeader.html:10
+#: actions.js:2769 controls\playlistHeader.html:10
 msgid "Shuffle"
 msgstr "Ανακάτεμα"
 
-#: actions.js:2776
+#: actions.js:2791
 msgid "Repeat off"
 msgstr "Χωρίς επανάληψη"
 
-#: actions.js:2792
+#: actions.js:2807
 msgid "One"
 msgstr ""
 
-#: actions.js:2795 controls/player.js:283
+#: actions.js:2810 controls/player.js:283
 msgid "Repeat one"
 msgstr "Μία επανάληψη"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. The first line will show 'All' items
-#: actions.js:2811 actions.js:7933 viewHandlers.js:7688 controls/buttons.js:51
+#: actions.js:2826 actions.js:7948 viewHandlers.js:7692 controls/buttons.js:51
 #: controls/deviceContentSequencer.js:17 controls/tracklistFilter.js:713
 #: dialogs/dlgExtensions.js:33 dialogs/dlgOptions/pnl_AutoDJ.js:14
 #: dialogs/dlgOptions/pnl_AutoDJ.js:57 dialogs/dlgOptions/pnl_Performance.js:5
@@ -770,159 +778,159 @@ msgstr "Μία επανάληψη"
 msgid "All"
 msgstr "Όλα"
 
-#: actions.js:2814 controls/player.js:283
+#: actions.js:2829 controls/player.js:283
 msgid "Repeat all"
 msgstr "Επανάληψη όλων"
 
-#: actions.js:2830
+#: actions.js:2845
 msgid "Repeat"
 msgstr "Επανάληψη"
 
-#: actions.js:2843
+#: actions.js:2858
 msgid "Level playback volume"
 msgstr "Επίπεδο έντασης αναπαραγωγής"
 
-#: actions.js:2859 Win7ToolsImpl.pas:1902
+#: actions.js:2874 Win7ToolsImpl.pas:1902
 msgid "Next file"
 msgstr "Επόμενο αρχείο"
 
-#: actions.js:2874 Win7ToolsImpl.pas:1899
+#: actions.js:2889 Win7ToolsImpl.pas:1899
 msgid "Previous file"
 msgstr "Προηγούμενο αρχείο"
 
-#: actions.js:2889
+#: actions.js:2904
 msgid "Volume up"
 msgstr "Αύξηση έντασης"
 
-#: actions.js:2903
+#: actions.js:2918
 msgid "Volume down"
 msgstr "Μείωση έντασης"
 
-#: actions.js:2917
+#: actions.js:2932
 msgid "Skip 5 seconds backward"
 msgstr "Μετάβαση πίσω 5 δευτερόλεπτα"
 
-#: actions.js:2932
+#: actions.js:2947
 msgid "Skip 5 seconds forward"
 msgstr "Μετάβαση εμπρός 5 δευτερόλεπτα"
 
-#: actions.js:2947
+#: actions.js:2962
 msgid "S&leep"
 msgstr "Αναμονή"
 
-#: actions.js:2962
+#: actions.js:2977
 msgid "Auto-&tag from filename"
 msgstr "Αυτόματη ετικέτα από όνομα αρχείου"
 
-#: actions.js:2986
+#: actions.js:3001
 msgid "&Auto-tag"
 msgstr "Αυτόματη ετικέτα"
 
-#: actions.js:3017
+#: actions.js:3032
 msgid "Configure current &output plug-in"
 msgstr "Διαμόρφωση τρέχοντος plug-in εξόδου"
 
-#: actions.js:3029
+#: actions.js:3044
 msgid "Configure current &input plug-in"
 msgstr "Διαμόρφωση τρέχοντος plug-in εισόδου"
 
-#: actions.js:3041 dialogs/dlgWizard.js:23
+#: actions.js:3056 dialogs/dlgWizard.js:23
 msgid "Share media"
 msgstr "Κοινή χρήση πολυμέσων"
 
-#: actions.js:3054
+#: actions.js:3069
 msgid "Configure Collections and nodes"
 msgstr "Διαμόρφωση Συλλογών και κόμβων"
 
-#: actions.js:3068 controls/nowplayingList.js:370
+#: actions.js:3083 controls/nowplayingList.js:370
 #: controls\serverConfig\devices.html:8
 msgid "Options"
 msgstr "Επιλογές"
 
-#: actions.js:3068 actions.js:3655 controls/player.js:77 controls/player.js:808
+#: actions.js:3083 actions.js:3670 controls/player.js:77 controls/player.js:808
 #: dialogs/dlgOptions.js:36 dialogs/dlgOptions.js:74 maincontent.html:56
 msgid "Player"
 msgstr "Player"
 
-#: actions.js:3081 controls/player.js:183
+#: actions.js:3096 controls/player.js:183
 #: dialogs\dlgOptions\pnl_Streaming.html:3
 msgid "Play to"
 msgstr "Αναπαραγωγή σε"
 
-#: actions.js:3090
+#: actions.js:3105
 msgid "Select all"
 msgstr "Επιλογή όλων"
 
-#: actions.js:3125
+#: actions.js:3140
 msgid "Focus tracklist on currently playing item"
 msgstr "Εστίαση λίστας κομματιών στο τρέχον αναπαραγώμενο αντικείμενο"
 
-#: actions.js:3155
+#: actions.js:3170
 msgid "Cancel selection"
 msgstr "Ακύρωση επιλογής"
 
-#: actions.js:3183
+#: actions.js:3198
 msgid "New tab"
 msgstr "Νέα καρτέλα"
 
-#: actions.js:3199 actions.js:3230 actions.js:7572 actions.js:7598
-#: actions.js:7612
+#: actions.js:3214 actions.js:3245 actions.js:7587 actions.js:7613
+#: actions.js:7627
 msgid "Send to"
 msgstr "Αποστολή σε"
 
 #. first load MRU list
 #. root items insert directly to presetColumns, so we will not need to move them here later
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: actions.js:3217 controls/columntracklist.js:271 controls/filterEditor.js:107
+#: actions.js:3232 controls/columntracklist.js:271 controls/filterEditor.js:107
 #: controls/tracklistFilter.js:478
 msgid "Recently used"
 msgstr "Πρόσφατα χρησιμοποιημένα"
 
-#: actions.js:3269
+#: actions.js:3284
 msgid "sync"
 msgstr "συγχρονισμός"
 
-#: actions.js:3294
+#: actions.js:3309
 msgid "Folder (&Move)"
 msgstr "Φάκελος (Μετακίνηση)"
 
-#: actions.js:3303
+#: actions.js:3318
 msgid "Folder (&Copy)"
 msgstr "Φάκελος (Αντιγραφή)"
 
-#: actions.js:3312
+#: actions.js:3327
 msgid "Folder (Rip/Con&vert)"
 msgstr "Φάκελος (Rip/Μετατροπή)"
 
 #. online mode only for online source track
-#: actions.js:3323 actions.js:7904 helpers/autoDJ.js:29 Devices.pas:2014
+#: actions.js:3338 actions.js:7919 helpers/autoDJ.js:29 Devices.pas:2014
 #: Devices.pas:12913 Devices.pas:15169 FormatsManage.pas:5473
 #: FormatsManage.pas:5505 FormatsManage.pas:5515 MaskHelper.pas:3035
 #: QueryManage.pas:4530 ResStrings.pas:526
 msgid "Playlist"
 msgstr "Λίστα αναπαραγωγής"
 
-#: actions.js:3333
+#: actions.js:3348
 msgid "M3U/XSPF playlist"
 msgstr "M3U/XSPF λίστα αναπαραγωγής"
 
-#: actions.js:3345
+#: actions.js:3360
 msgid "E-Mail"
 msgstr "E-Mail"
 
-#: actions.js:3371
+#: actions.js:3386
 msgid "Find &more from same"
 msgstr "Εύρεση περισσοτέρων από ίδιο"
 
-#: actions.js:3385
+#: actions.js:3400
 msgid "Anal&yze volume"
 msgstr "Ανάλυση έντασης"
 
-#: actions.js:3404
+#: actions.js:3419
 msgid "&Level Track volume"
 msgstr "Εξισορρόπηση έντασης Κομματιού"
 
-#: actions.js:3411
+#: actions.js:3426
 msgid ""
 "Leveling Track volume irreversibly modifies the track. Are you sure you want "
 "to level the volume of the selected Tracks?"
@@ -930,39 +938,39 @@ msgstr ""
 "Η εξισορρόπηση της έντασης του Κομματιού τροποποιεί αμετάκλητα το κομμάτι. "
 "Είστε σίγουρος θέλετε την εξισορρόπηση της έντασης των επιλεγμένων Κομματιών;"
 
-#: actions.js:3431
+#: actions.js:3446
 msgid "Analyze waveform"
 msgstr "Ανάλυση κυματομορφής"
 
-#: actions.js:3480
+#: actions.js:3495
 msgid "View filter"
 msgstr "Προβολή φίλτρου"
 
 #. "Any text"
-#: actions.js:3518 QueryManage.pas:2822 QueryManage.pas:2826 ResStrings.pas:532
+#: actions.js:3533 QueryManage.pas:2822 QueryManage.pas:2826 ResStrings.pas:532
 msgid "contains"
 msgstr "περιέχει"
 
 #. radiogroup: 'search_mode',
-#: actions.js:3552 controls/searchBar.js:530
+#: actions.js:3567 controls/searchBar.js:530
 msgid "Advanced search"
 msgstr "Προηγμένη αναζήτηση"
 
-#: actions.js:3577 controls\mainTabContent.html:3
+#: actions.js:3592 controls\mainTabContent.html:3
 msgid "Left panel"
 msgstr "Αριστερός πίνακας"
 
-#: actions.js:3608 controls\mainTabContent.html:4
+#: actions.js:3623 controls\mainTabContent.html:4
 msgid "Media Tree"
 msgstr "Δένδρο Μέσων"
 
-#: actions.js:3692 maincontent.html:42
+#: actions.js:3707 maincontent.html:42
 msgid "Right panel"
 msgstr "Δεξιός πίνακας"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. dont save sync, it will be saved async
-#: actions.js:3724 templates.js:520 controls/lyricsWindow.js:55
+#: actions.js:3739 templates.js:520 controls/lyricsWindow.js:55
 #: controls/nowplayingview.js:34 controls/trackListView.js:1002
 #: dialogs/dlgAutotag.js:2314 dialogs/dlgTrackProperties.js:25
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:153 MaskHelper.pas:3085
@@ -970,7 +978,7 @@ msgstr "Δεξιός πίνακας"
 msgid "Lyrics"
 msgstr "Στίχοι"
 
-#: actions.js:3769 viewHandlers.js:7354 controls/artWindow.js:359
+#: actions.js:3784 viewHandlers.js:7358 controls/artWindow.js:359
 #: controls/nowplayingList.js:65 controls/nowplayingList.js:370
 #: dialogs/dlgEditView.js:427 maincontent.html:43
 msgid "Playing"
@@ -978,294 +986,294 @@ msgstr "Αναπαραγωγή"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. no layout preset, use default
-#: actions.js:3813 controls/artWindow.js:1004 dialogs/dlgOptions.js:78
+#: actions.js:3828 controls/artWindow.js:1004 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_Layouts.js:335 maincontent.html:47
 msgid "Preview"
 msgstr "Προεπισκόπηση"
 
-#: actions.js:3864
+#: actions.js:3879
 msgid "&Visualization"
 msgstr "Απεικόνιση"
 
-#: actions.js:3893
+#: actions.js:3908
 msgid "Refresh"
 msgstr "Ανανέωση"
 
-#: actions.js:3914 dialogs/dlgOptions.js:20
+#: actions.js:3929 dialogs/dlgOptions.js:20
 msgid "Party Mode"
 msgstr "Λειτουργία Πάρτυ"
 
-#: actions.js:3976
+#: actions.js:3991
 msgid "&Clear"
 msgstr "Εκκαθάριση"
 
-#: actions.js:3986
+#: actions.js:4001
 msgid "Clea&n (remove inaccessible)"
 msgstr "Εκκαθάριση (αφαίρεση απροσπέλαστων)"
 
-#: actions.js:3996
+#: actions.js:4011
 msgid "Remove &duplicates"
 msgstr "Αφαίρεση διπλότυπων"
 
-#: actions.js:4006
+#: actions.js:4021
 msgid "&Randomize list"
 msgstr "Τυχαία λίστα"
 
-#: actions.js:4016 FullPlayer.pas:4409
+#: actions.js:4031 FullPlayer.pas:4409
 msgid "Reverse list"
 msgstr "Αντίστροφη λίστα"
 
-#: actions.js:4026
+#: actions.js:4041
 msgid "&Undo"
 msgstr "Αναίρεση"
 
-#: actions.js:4056
+#: actions.js:4071
 msgid "&Redo"
 msgstr "Επανάληψη"
 
-#: actions.js:4115
+#: actions.js:4130
 msgid "Previous view"
 msgstr "Προηγούμενη προβολή"
 
-#: actions.js:4134
+#: actions.js:4149
 msgid "Fit video to window on resize"
 msgstr "Προσαρμογή βίντεο στο παράθυρο στην αλλαγή μεγέθους"
 
-#: actions.js:4150
+#: actions.js:4165
 msgid "Zoom to 50%"
 msgstr "Ζουμ στο 50%"
 
-#: actions.js:4164
+#: actions.js:4179
 msgid "Zoom to 100%"
 msgstr "Ζουμ στο 100%"
 
-#: actions.js:4178
+#: actions.js:4193
 msgid "Zoom to 150%"
 msgstr "Ζουμ στο 150%"
 
-#: actions.js:4192
+#: actions.js:4207
 msgid "Zoom to 200%"
 msgstr "Ζουμ στο 200%"
 
-#: actions.js:4207
+#: actions.js:4222
 msgid "Zoom in"
 msgstr "Ζουμ μεγέθυνσης"
 
-#: actions.js:4220
+#: actions.js:4235
 msgid "Zoom out"
 msgstr "Ζουμ σμίκρυνσης"
 
-#: actions.js:4253
+#: actions.js:4268
 msgid "Original AR"
 msgstr ""
 
-#: actions.js:4325 dialogs\dlgMoveAccompFiles.html:16
+#: actions.js:4340 dialogs\dlgMoveAccompFiles.html:16
 msgid "Move"
 msgstr "Μετακίνηση"
 
-#: actions.js:4335
+#: actions.js:4350
 msgid "Move left"
 msgstr "Μετακίνηση αριστερά"
 
-#: actions.js:4348
+#: actions.js:4363
 msgid "Move right"
 msgstr "Μετακίνηση δεξιά"
 
-#: actions.js:4361 controls\listEditButtons.html:2
+#: actions.js:4376 controls\listEditButtons.html:2
 msgid "Move up"
 msgstr "Μετακίνηση πάνω"
 
-#: actions.js:4374 controls\listEditButtons.html:3
+#: actions.js:4389 controls\listEditButtons.html:3
 msgid "Move down"
 msgstr "Μετακίνηση κάτω"
 
-#: actions.js:4387
+#: actions.js:4402
 msgid "Reset changes"
 msgstr "Επαναφορά αλλαγών"
 
 #. to load the new image thumb
-#: actions.js:4402 controls/artWindow.js:1046
+#: actions.js:4417 controls/artWindow.js:1046
 msgid "Save thumbnail"
 msgstr "Αποθήκευση μικρογραφίας"
 
-#: actions.js:4406
+#: actions.js:4421
 msgid "Generate the thumbnail:"
 msgstr "Δημιουργία της μικρογραφίας:"
 
-#: actions.js:4408
+#: actions.js:4423
 msgid "Automatically"
 msgstr "Αυτόματα"
 
-#: actions.js:4411
+#: actions.js:4426
 msgid "Use current video frame"
 msgstr "Χρήση τρέχοντος καρέ βίντεο"
 
-#: actions.js:4423
+#: actions.js:4438
 msgid "Audio streams"
 msgstr "Ροές ήχου"
 
 #. fill info about subtitle stream
-#: actions.js:4450 BaseMedia.pas:4568
+#: actions.js:4465 BaseMedia.pas:4568
 msgid "Subtitles"
 msgstr "Υπότιτλοι"
 
-#: actions.js:4459
+#: actions.js:4474
 msgid "Open file"
 msgstr "Άνοιγμα αρχείου"
 
-#: actions.js:4467
+#: actions.js:4482
 msgid "Subtitle files"
 msgstr "Αρχεία υποτίτλων"
 
-#: actions.js:4467
+#: actions.js:4482
 msgid "Select subtitle file"
 msgstr "Επιλογή αρχείου υπότιτλου"
 
-#: actions.js:4484 viewHandlers.js:5315
+#: actions.js:4499 viewHandlers.js:5319
 msgid "Enable"
 msgstr "Ενεργοποίηση"
 
 #. reset
-#: actions.js:4505 ResStrings.pas:441
+#: actions.js:4520 ResStrings.pas:441
 msgid "Size"
 msgstr "Μέγεθος"
 
-#: actions.js:4510
+#: actions.js:4525
 msgid "Small"
 msgstr "Μικρό"
 
-#: actions.js:4526 dialogs\dlgOptions\pnl_Performance.html:38
+#: actions.js:4541 dialogs\dlgOptions\pnl_Performance.html:38
 msgid "Normal"
 msgstr "Κανονικό"
 
-#: actions.js:4542
+#: actions.js:4557
 msgid "Large"
 msgstr "Μεγάλο"
 
-#: actions.js:4558
+#: actions.js:4573
 msgid "Extra large"
 msgstr "Πολύ μεγάλο"
 
 #. prepared menu item for reports implemented by scripts
-#: actions.js:4880
+#: actions.js:4895
 msgid "Create reports"
 msgstr "Δημιουργία αναφορών"
 
-#: actions.js:4894
+#: actions.js:4909
 msgid "&File"
 msgstr "Αρχείο"
 
-#: actions.js:4940 viewHandlers.js:5186 controls/searchView.js:355
+#: actions.js:4955 viewHandlers.js:5190 controls/searchView.js:355
 #: dialogs/dlgOptions.js:119 DBStructure.pas:1939 GlobVars.pas:1919
 #: UPnPTreeHelper.pas:1886
 #: controls\deviceConfig\options\pnl_FileLocations.html:33
 msgid "Podcasts"
 msgstr "Podcasts"
 
-#: actions.js:4964
+#: actions.js:4979
 msgid "&Edit"
 msgstr "Επεξεργασία"
 
-#: actions.js:5033
+#: actions.js:5048
 msgid "&View"
 msgstr "Προβολή"
 
-#: actions.js:5069 dialogs/dlgOptions.js:82
+#: actions.js:5084 dialogs/dlgOptions.js:82
 msgid "Skin"
 msgstr "Skin"
 
-#: actions.js:5084 dialogs\dlgMP3Settings.html:40
+#: actions.js:5099 dialogs\dlgMP3Settings.html:40
 msgid "Mode"
 msgstr "Λειτουργία"
 
-#: actions.js:5099
+#: actions.js:5114
 msgid "Main panel view"
 msgstr "Προβολή κύριου πίνακα"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16702 ... remove cancelSelection action as it is already in Edit menu
-#: actions.js:5122 dialogs\dlgTrackProperties.html:11
+#: actions.js:5137 dialogs\dlgTrackProperties.html:11
 msgid "Previous"
 msgstr "Προηγούμενο"
 
-#: actions.js:5156 dialogs\dlgTrackProperties.html:11
+#: actions.js:5171 dialogs\dlgTrackProperties.html:11
 msgid "Next"
 msgstr "Επόμενο"
 
-#: actions.js:5201
+#: actions.js:5216
 msgid "&Play"
 msgstr "Αναπαραγωγή"
 
 #. adds shuffle menu commands to button context menu
-#: actions.js:5222 actions.js:8709 controls/trackListView.js:1762
+#: actions.js:5237 actions.js:8724 controls/trackListView.js:1762
 msgid "Play shuffled"
 msgstr "Αναπαραγωγή ανακατεμένη"
 
-#: actions.js:5254 actions.js:8710 controls/trackListView.js:1797
+#: actions.js:5269 actions.js:8725 controls/trackListView.js:1797
 msgid "Play shuffled (by Album)"
 msgstr "Αναπαραγωγή ανακατεμένη (ανά Άλμπουμ)"
 
-#: actions.js:5327 controls/nowplayingList.js:346 dialogs/dlgOptions.js:43
+#: actions.js:5342 controls/nowplayingList.js:346 dialogs/dlgOptions.js:43
 #: dialogs\dlgOptions\pnl_AutoDJ.html:3
 msgid "Auto-DJ"
 msgstr "Αυτόμ.-DJ"
 
-#: actions.js:5365
+#: actions.js:5380
 msgid "Edit tags"
 msgstr "Επεξεργασία ετικετών"
 
-#: actions.js:5399
+#: actions.js:5414
 msgid "&Tools"
 msgstr "Εργαλεία"
 
-#: actions.js:5468
+#: actions.js:5483
 msgid "MediaMonkey Gold"
 msgstr "MediaMonkey Gold"
 
-#: actions.js:5475
+#: actions.js:5490
 msgid "Get MediaMonkey Gold"
 msgstr "Απόκτηση MediaMonkey Gold"
 
-#: actions.js:6186
+#: actions.js:6201
 msgid "Save new order"
 msgstr "Αποθήκευση νέας σειράς"
 
-#: actions.js:6298
+#: actions.js:6313
 msgid "Please restart MediaMonkey to finish the installation."
 msgstr ""
 "Παρακαλούμε επανεκκίνησετε το MediaMonkey για ολοκλήρωση της εγκατάστασης."
 
-#: actions.js:6605
+#: actions.js:6620
 msgid "Exit Party Mode"
 msgstr "Έξοδος Λειτουργίας Πάρτυ"
 
-#: actions.js:6613 actions.js:6614
+#: actions.js:6628 actions.js:6629
 msgid "Enter password"
 msgstr "Εισαγάγετε κωδικό πρόσβασης"
 
-#: actions.js:6770
+#: actions.js:6785
 msgid "Please select at least one folder to scan."
 msgstr "Παρακαλούμε επιλέξτε τουλάχιστον έναν φάκελο για σάρωση."
 
 #. assume always called with this = action
 #. remove path separator, not needed here
-#: actions.js:7458 actions.js:7518
+#: actions.js:7473 actions.js:7533
 msgid "Move to"
 msgstr "Μετακίνηση σε"
 
-#: actions.js:7460 actions.js:7521
+#: actions.js:7475 actions.js:7536
 msgid "Copy to"
 msgstr "Αντιγραφή σε"
 
-#: actions.js:7462 actions.js:7524
+#: actions.js:7477 actions.js:7539
 msgid "Convert to"
 msgstr "Μετατροπή σε"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. cancel/free/unregister the dataSource
 #. don't save
-#: actions.js:7793 templates.js:1130 templates.js:1178 templates.js:1209
-#: viewHandlers.js:1619 viewHandlers.js:7904 controls/albumViewHeader.js:111
+#: actions.js:7808 templates.js:1130 templates.js:1178 templates.js:1209
+#: viewHandlers.js:1619 viewHandlers.js:7908 controls/albumViewHeader.js:111
 #: controls/player.js:519 controls/sortBy.js:12 controls/trackListView.js:203
 #: dialogs/dlgArtworkDetail.js:12 dialogs/dlgAutotag.js:1957
 #: dialogs/dlgEditView.js:22 dialogs/dlgOptions/pnl_MetadataLookup.js:141
@@ -1281,8 +1289,8 @@ msgstr "Άλμπουμ"
 #. online mode only for online source track
 #. don't save
 #. Headers of table
-#: actions.js:7815 templates.js:1123 templates.js:1170 templates.js:1203
-#: viewHandlers.js:7985 controls/artistViewHeader.js:75 controls/player.js:508
+#: actions.js:7830 templates.js:1123 templates.js:1170 templates.js:1203
+#: viewHandlers.js:7989 controls/artistViewHeader.js:75 controls/player.js:508
 #: controls/trackListView.js:180 dialogs/dlgAutotag.js:1921
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:140
 #: layouts/Touch/templates_add.js:34 Scripts/export/actions_add.js:68
@@ -1292,7 +1300,7 @@ msgstr "Άλμπουμ"
 msgid "Artist"
 msgstr "Καλλιτέχνης"
 
-#: actions.js:7840 controls/trackListView.js:864 Covers.pas:733
+#: actions.js:7855 controls/trackListView.js:864 Covers.pas:733
 #: MaskHelper.pas:3041 QueryManage.pas:2998 ResStrings.pas:460
 #: ResStrings.pas:504
 msgid "Composer"
@@ -1302,7 +1310,7 @@ msgstr "Συνθέτης"
 #. editor: editors.gridViewEditors.textEdit,
 #. request for Artists
 #. e.g. XBOX searches for genre's songs (testContentBrowser_XBOX_360_Genre)
-#: actions.js:7864 controls/trackListView.js:309 dialogs/dlgAutotag.js:2032
+#: actions.js:7879 controls/trackListView.js:309 dialogs/dlgAutotag.js:2032
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:146 helpers/autoTagFramework.js:333
 #: layouts/Touch/templates_add.js:35 Scripts/export/actions_add.js:74
 #: Scripts/export/actions_add.js:347
@@ -1313,7 +1321,7 @@ msgid "Genre"
 msgstr "Είδος"
 
 #. don't save
-#: actions.js:7886 dialogs/dlgAutotag.js:2343
+#: actions.js:7901 dialogs/dlgAutotag.js:2343
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:144
 #: layouts/Touch/templates_add.js:36 Scripts/export/actions_add.js:73
 #: Scripts/export/actions_add.js:347 MaskHelper.pas:3040 ResStrings.pas:416
@@ -1322,23 +1330,23 @@ msgid "Year"
 msgstr "Έτος"
 
 #. #16528
-#: actions.js:7918 actions.js:7933 actions.js:7948 MaskHelper.pas:3045
+#: actions.js:7933 actions.js:7948 actions.js:7963 MaskHelper.pas:3045
 #: MediaMonkeyApp.pas:6538 ResStrings.pas:527
 msgid "Folder"
 msgstr "Φάκελος"
 
-#: actions.js:7918 dialogs/dlgOptions.js:88
+#: actions.js:7933 dialogs/dlgOptions.js:88
 #: SampleScripts/showLinks/controls/trackListView_add.js:43
 msgid "Library"
 msgstr "Βιβλιοθήκη"
 
-#: actions.js:7948
+#: actions.js:7963
 msgid "Explorer"
 msgstr "Εξερευνητής"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare channels dropDown
-#: actions.js:8025 dialogs/dlgOGGSettings.js:6 dialogs/dlgOGGSettings.js:57
+#: actions.js:8040 dialogs/dlgOGGSettings.js:6 dialogs/dlgOGGSettings.js:57
 #: dialogs/dlgWAVSettings.js:24 dialogs/dlgWAVSettings.js:38
 #: dialogs/dlgWAVSettings.js:53 dialogs/dlgOptions/pnl_Layouts.js:10
 #: helpers/docking.js:577 helpers/docking.js:941 MediaMonkeyApp.pas:7938
@@ -1347,11 +1355,11 @@ msgid "Default"
 msgstr "Προκαθορισμός"
 
 #. we can't use list.forEach() here as it would give us only fast access variant
-#: actions.js:8099
+#: actions.js:8114
 msgid "No playlist found"
 msgstr "Δεν βρέθηκε λίστα αναπαραγωγής"
 
-#: actions.js:8424
+#: actions.js:8439
 msgid ""
 "This will update the tags of the selected files so that they match your "
 "Library. Are you sure you want to proceed?"
@@ -1359,7 +1367,7 @@ msgstr ""
 "Αυτό θα ενημερώσει τις ετικέτες των επιλεγμένων αρχείων έτσι ώστε να "
 "ταιριάζουν με τη Βιβλιοθήκη σας. Είστε σίγουρος ότι θέλετε να προχωρήσετε;"
 
-#: actions.js:8426
+#: actions.js:8441
 msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
@@ -1367,23 +1375,23 @@ msgstr ""
 "Θέλετε σίγουρα την αφαίρεση της(ων) %s ετικέτας(ων) από τα επιλεγμένα αρχεία "
 "(οι ιδιότητες αρχείου δεν θα αφαιρεθούν από την Βιβλιοθήκη);"
 
-#: actions.js:8765 dialogs/dlgWizard.js:27
+#: actions.js:8780 dialogs/dlgWizard.js:27
 msgid "Registration"
 msgstr "Εγγραφή"
 
 #. we need at least one song to work with
-#: actions.js:8782 dialogs/dlgTrackProperties.js:161 MP3Utils.pas:1209
+#: actions.js:8797 dialogs/dlgTrackProperties.js:161 MP3Utils.pas:1209
 msgid "Please select one or more files for this operation."
 msgstr "Παρακαλούμε επιλέξτε ένα ή περισσότερα αρχεία για αυτήν τη λειτουργία."
 
-#: actions.js:8847
+#: actions.js:8862
 msgid "Website link:"
 msgstr "Σύνδεσμος ιστοσελίδας:"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this column will not be resized when 'Automatic column widths' is checked
 #. don't save
-#: actions.js:8851 templates.js:1116 templates.js:1160 templates.js:1198
+#: actions.js:8866 templates.js:1116 templates.js:1160 templates.js:1198
 #: controls/player.js:500 controls/searchEditor.js:946
 #: controls/trackListView.js:133 dialogs/dlgAutotag.js:1861
 #: dialogs/dlgOptions/pnl_Layouts.js:161
@@ -1395,7 +1403,7 @@ msgid "Title"
 msgstr "Τίτλος"
 
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
-#: actions.js:8915
+#: actions.js:8930
 #, fuzzy
 #| msgid "This will terminate all existing processes."
 msgid "MediaMonkey will reload (which may terminate existing processes)."
@@ -1406,8 +1414,8 @@ msgstr "Αυτό θα τερματίσει όλες τις υπάρχουσες 
 #. fill info about subtitle stream
 #. It seems to be an OPML directory
 #. - In this case we may don't know exact PubDate, but we know another info:
-#: actions.js:8979 mmstub.js:1638 utils.js:30 viewHandlers.js:6100
-#: viewHandlers.js:6240 controls/rating.js:106 controls/yearViewHeader.js:77
+#: actions.js:8994 mmstub.js:1638 utils.js:30 viewHandlers.js:6104
+#: viewHandlers.js:6244 controls/rating.js:106 controls/yearViewHeader.js:77
 #: dialogs/dlgMediaProperties.js:5 dialogs/dlgTrackProperties/tabDetails.js:44
 #: helpers/autoTagFramework.js:265 ArtistsManage.pas:1313
 #: ArtistsManage.pas:3502 BaseMedia.pas:4617 BaseMedia.pas:14725
@@ -1610,7 +1618,7 @@ msgstr "Δεν βρέθηκαν στίχοι"
 #. we now always search for image in this view
 #. ms
 #. so it is not fetched again
-#: templates.js:520 viewHandlers.js:7904 viewHandlers.js:7985
+#: templates.js:520 viewHandlers.js:7908 viewHandlers.js:7989
 #: controls/albumViewHeader.js:600 controls/artistViewHeader.js:474
 #: controls/searchView.js:656 controls/viewHeader.js:174
 #: helpers/artistDataSource.js:87 helpers/autoTagFramework.js:275
@@ -1625,7 +1633,7 @@ msgstr "Έρευνα"
 msgid "Track was added to the Library"
 msgstr "Το κομμάτι προστέθηκε στη Βιβλιοθήκη"
 
-#: templates.js:1137 templates.js:1164 templates.js:1214 viewHandlers.js:6495
+#: templates.js:1137 templates.js:1164 templates.js:1214 viewHandlers.js:6499
 #: controls/player.js:530 controls/trackListView.js:358
 #: Scripts/export/actions_add.js:75 Scripts/export/actions_add.js:347
 #: MaskHelper.pas:3059 MaskHelper.pas:3488 MaskHelper.pas:3781
@@ -1814,7 +1822,7 @@ msgstr "Κομμάτια"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. baceuse of playlists names like <MM>
 #: viewHandlers.js:775 viewHandlers.js:795 viewHandlers.js:811
-#: viewHandlers.js:3865 viewHandlers.js:5085 viewHandlers.js:7103
+#: viewHandlers.js:3865 viewHandlers.js:5089 viewHandlers.js:7107
 #: controls/searchView.js:321 controls/deviceConfig/options.js:17
 #: dialogs/dlgEditView.js:436 AutoOrganize.pas:1630 FormatsManage.pas:3802
 #: Importers.pas:430 ResStrings.pas:419 Win7ToolsImpl.pas:2195
@@ -1828,7 +1836,7 @@ msgstr "Δέντρο"
 
 #. #16533
 #: viewHandlers.js:893 viewHandlers.js:929 viewHandlers.js:948
-#: viewHandlers.js:4522 viewHandlers.js:4981 viewHandlers.js:5207
+#: viewHandlers.js:4526 viewHandlers.js:4985 viewHandlers.js:5211
 #: ResStrings.pas:408
 msgid "Folders"
 msgstr "Φάκελοι"
@@ -1849,12 +1857,12 @@ msgstr "Κατηγορίες"
 msgid "Tabbed view"
 msgstr "Προβολή με καρτέλα"
 
-#: viewHandlers.js:1220 viewHandlers.js:6406 controls/searchView.js:174
+#: viewHandlers.js:1220 viewHandlers.js:6410 controls/searchView.js:174
 #: AutoOrganize.pas:1600
 msgid "Genres"
 msgstr "Είδη"
 
-#: viewHandlers.js:1264 viewHandlers.js:2052 viewHandlers.js:5465
+#: viewHandlers.js:1264 viewHandlers.js:2052 viewHandlers.js:5469
 #: controls/artistView.js:123 controls/genreAlbums.js:129
 #: controls/genreAlbums.js:156 controls/searchView.js:55
 #: controls/yearAlbums.js:99 controls/yearAlbums.js:121
@@ -1865,7 +1873,7 @@ msgstr "Άλμπουμ"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. request for Albums of an Artist
 #. per #14747 conclusion
-#: viewHandlers.js:1288 viewHandlers.js:2040 viewHandlers.js:5986
+#: viewHandlers.js:1288 viewHandlers.js:2040 viewHandlers.js:5990
 #: controls/genreArtists.js:205 controls/genreArtists.js:236
 #: controls/searchView.js:16 controls/yearArtists.js:191
 #: controls/yearArtists.js:217 UpNp.pas:5845 UpNp.pas:5850
@@ -1908,7 +1916,7 @@ msgid "Grid (by Series)"
 msgstr "Πλέγμα (ανά Σειρά)"
 
 #. for performance optimizations when jumping to nodes
-#: viewHandlers.js:1630 viewHandlers.js:5487 controls/trackListView.js:1433
+#: viewHandlers.js:1630 viewHandlers.js:5491 controls/trackListView.js:1433
 #: controls/deviceConfig/syncToDevice.js:22
 #: dialogs/dlgTrackProperties/tabBasic.js:475
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:187
@@ -1923,7 +1931,7 @@ msgstr "Σειρά"
 msgid "Feeds"
 msgstr "Τροφοδοσίες"
 
-#: viewHandlers.js:1957 viewHandlers.js:5251 controls/maskedit.js:91
+#: viewHandlers.js:1957 viewHandlers.js:5255 controls/maskedit.js:91
 #: helpers/mediaSync.js:2874 WinAmpPlugins.pas:5232
 msgid "Configure"
 msgstr "Διαμόρφωση"
@@ -1940,7 +1948,7 @@ msgstr "Αφαίρεση"
 #. Paste
 #. removes the device profile from database
 #. cannot edit/add release of unknown album
-#: viewHandlers.js:3347 viewHandlers.js:5295 controls/albumViewHeader.js:265
+#: viewHandlers.js:3347 viewHandlers.js:5299 controls/albumViewHeader.js:265
 #: controls/artistViewHeader.js:181 controls/genreViewHeader.js:32
 #: controls/playlistHeader.js:108 controls/trackListView.js:1852
 msgid "Rename"
@@ -2016,8 +2024,8 @@ msgid "Are you sure you want to remove \"%s\" ?"
 msgstr "Είστε σίγουρος ότι θέλετε την αφαίρεση \"%s\";"
 
 #. to remove the folder (dataSource) and thus this node also
-#: viewHandlers.js:4306 viewHandlers.js:4460 viewHandlers.js:4482
-#: viewHandlers.js:6977
+#: viewHandlers.js:4306 viewHandlers.js:4460 viewHandlers.js:4486
+#: viewHandlers.js:6981
 msgid "folder"
 msgstr "φάκελος"
 
@@ -2029,12 +2037,12 @@ msgstr "Κατάλογοι Podcast"
 msgid "Unplayed"
 msgstr "Μη αναπαραχθέντα"
 
-#: viewHandlers.js:4368 viewHandlers.js:4597
+#: viewHandlers.js:4368 viewHandlers.js:4601
 msgid "library Location node"
 msgstr "κόμβος Τοποθεσίας βιβλιοθήκης"
 
 #. to refresh once a server is connected/disconnected
-#: viewHandlers.js:4369 viewHandlers.js:4597
+#: viewHandlers.js:4369 viewHandlers.js:4601
 msgid ""
 "The Folders node only displays/edits metadata in file tags. To view/edit "
 "metadata that is in the database, use the %s"
@@ -2053,273 +2061,277 @@ msgid "selected folders"
 msgstr "επιλεγμένοι φάκελοι"
 
 #: viewHandlers.js:4415
-msgid "Are you sure you want to move selected folders to recycle bin?"
+#, fuzzy
+#| msgid "Are you sure you want to move selected folders to recycle bin?"
+msgid "Are you sure you want to move the selected folders to the recycle bin?"
 msgstr ""
 "Είστε σίγουρος ότι θέλετε να μετακινήσετε τους επιλεγμένους φακέλους στον "
 "κάδο ανακύκλωσης;"
 
 #: viewHandlers.js:4417
-msgid "Are you sure you want to move folder \"%s\" to recycle bin?"
+#, fuzzy
+#| msgid "Are you sure you want to move folder \"%s\" to recycle bin?"
+msgid "Are you sure you want to move the folder \"%s\" to the recycle bin?"
 msgstr ""
 "Είστε σίγουρος ότι θέλετε να μετακινήσετε τον φάκελο \"%s\" στον κάδο "
 "ανακύκλωσης;"
 
-#: viewHandlers.js:4685
+#: viewHandlers.js:4689
 msgid "Are you sure you want to remove \"%s\"?"
 msgstr "Είστε σίγουρος ότι θέλετε την αφαίρεση \"%s\";"
 
-#: viewHandlers.js:4687
+#: viewHandlers.js:4691
 msgid "Are you sure you want to remove %d selected items?"
 msgstr "Είστε σίγουρος ότι θέλετε να αφαιρέσετε %d επιλεγμένα στοιχεία;"
 
 #. to get fresh tracklist on F5 (view.refresh)
-#: viewHandlers.js:4723 viewHandlers.js:5129 controls/artistTracks.js:288
+#: viewHandlers.js:4727 viewHandlers.js:5133 controls/artistTracks.js:288
 #: controls/genreTracks.js:309 controls/yearTracks.js:288
 msgid "All tracks"
 msgstr "'Ολα τα κομμάτια"
 
-#: viewHandlers.js:4730
+#: viewHandlers.js:4734
 msgid "All videos"
 msgstr "Όλα τα βίντεο"
 
-#: viewHandlers.js:4736 FormatsManage.pas:4412 FormatsManage.pas:4425
+#: viewHandlers.js:4740 FormatsManage.pas:4412 FormatsManage.pas:4425
 msgid "video"
 msgstr "βίντεο"
 
-#: viewHandlers.js:4802 viewHandlers.js:5055
+#: viewHandlers.js:4806 viewHandlers.js:5059
 msgid "Are you sure you want to remove playlist \"%s\" from %s?"
 msgstr ""
 "Είστε σίγουρος ότι θέλετε να αφαιρέσετε τη λίστα αναπαραγωγής \"%s\" από %s;"
 
-#: viewHandlers.js:4804 viewHandlers.js:5057
+#: viewHandlers.js:4808 viewHandlers.js:5061
 msgid "Are you sure you want to remove %d selected playlists from %s?"
 msgstr ""
 "Είστε σίγουρος ότι θέλετε να αφαιρέσετε %d επιλεγμένες λίστες αναπαραγωγής "
 "από %s;"
 
 #. to respect order served (#13941)
-#: viewHandlers.js:4838
+#: viewHandlers.js:4842
 msgid "container"
 msgstr "κιβώτιο"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
 #. #15626
-#: viewHandlers.js:4874 MediaManage.pas:5861 MusicUtils.pas:663
+#: viewHandlers.js:4878 MediaManage.pas:5861 MusicUtils.pas:663
 #: controls\devicesView.html:24
 msgid "Media Servers"
 msgstr "Servers Πολυμέσων"
 
-#: viewHandlers.js:4904
+#: viewHandlers.js:4908
 msgid "No server available, try later"
 msgstr "Μη διαθέσιμος server, δοκιμάστε αργότερα"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prefer the default Music collection when there are more music collections (#17051)
 #. prefer the default Music collection when there are more music collections (#16929)
-#: viewHandlers.js:5156 Filters.pas:2058 Filters.pas:2211 GlobVars.pas:1918
+#: viewHandlers.js:5160 Filters.pas:2058 Filters.pas:2211 GlobVars.pas:1918
 #: controls\deviceConfig\options\pnl_FileLocations.html:9
 msgid "Music"
 msgstr "Μουσική"
 
-#: viewHandlers.js:5166 controls/searchView.js:214
+#: viewHandlers.js:5170 controls/searchView.js:214
 msgid "Videos"
 msgstr "Βίντεο"
 
-#: viewHandlers.js:5176 controls/searchView.js:389 DBStructure.pas:1940
+#: viewHandlers.js:5180 controls/searchView.js:389 DBStructure.pas:1940
 #: GlobVars.pas:1920
 msgid "Audiobooks"
 msgstr "Ηχητικά βιβλία"
 
-#: viewHandlers.js:5266 controls\listEditButtons.html:6
+#: viewHandlers.js:5270 controls\listEditButtons.html:6
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: viewHandlers.js:5273
+#: viewHandlers.js:5277
 msgid "Are you sure you want to remove profile \"%s\" ?"
 msgstr "Είστε σίγουρος ότι θέλετε να αφαιρέσετε το προφίλ \"%s\";"
 
-#: viewHandlers.js:5313
+#: viewHandlers.js:5317
 msgid "Disable"
 msgstr "Απενεργοποίηση"
 
 #. toggle
-#: viewHandlers.js:5335
+#: viewHandlers.js:5339
 msgid "Sync"
 msgstr "Συγχρονισμός"
 
-#: viewHandlers.js:5348
+#: viewHandlers.js:5352
 msgid "Safely &remove device"
 msgstr "Ασφαλής αφαίρεση συσκευής"
 
-#: viewHandlers.js:5381
+#: viewHandlers.js:5385
 msgid "Devices & Services"
 msgstr "Συσκευές & Υπηρεσίες"
 
 #. timeout to accomodate when there is many devices added just during startup in one second -- to reduce unnecessary refreshNodeChildren() calling
-#: viewHandlers.js:5415
+#: viewHandlers.js:5419
 msgid "Years"
 msgstr "Έτη"
 
-#: viewHandlers.js:5501 controls/albumViewHeader.js:698 CDUtils.pas:1008
+#: viewHandlers.js:5505 controls/albumViewHeader.js:698 CDUtils.pas:1008
 #: dblistutils.pas:1463 UPnPTreeHelper.pas:1907
 msgid "Unknown Album"
 msgstr "Άγνωστο Άλμπουμ"
 
 #. not used list, no events needed already
-#: viewHandlers.js:5580 controls/seriesViewHeader.js:617 dblistutils.pas:1465
+#: viewHandlers.js:5584 controls/seriesViewHeader.js:617 dblistutils.pas:1465
 msgid "Unknown Series"
 msgstr "Άγνωστη Σειρά"
 
-#: viewHandlers.js:5992 viewHandlers.js:6005 controls/statusbar.js:119
+#: viewHandlers.js:5996 viewHandlers.js:6009 controls/statusbar.js:119
 #: helpers/artistDataSource.js:87
 msgid "artist"
 msgstr "καλλιτέχνης"
 
-#: viewHandlers.js:5999 UPnPTreeHelper.pas:1880
+#: viewHandlers.js:6003 UPnPTreeHelper.pas:1880
 msgid "Album Artists"
 msgstr "Καλλιτέχνες Άλμπουμ"
 
-#: viewHandlers.js:6019 UPnPTreeHelper.pas:1885
+#: viewHandlers.js:6023 UPnPTreeHelper.pas:1885
 msgid "Directors"
 msgstr "Διευθυντές"
 
-#: viewHandlers.js:6025
+#: viewHandlers.js:6029
 msgid "director"
 msgstr "διευθυντής"
 
-#: viewHandlers.js:6032 controls/searchView.js:94 UPnPTreeHelper.pas:1881
+#: viewHandlers.js:6036 controls/searchView.js:94 UPnPTreeHelper.pas:1881
 msgid "Composers"
 msgstr "Συνθέτες"
 
-#: viewHandlers.js:6038
+#: viewHandlers.js:6042
 msgid "composer"
 msgstr "συνθέτης"
 
-#: viewHandlers.js:6045 controls/searchView.js:136 UPnPTreeHelper.pas:1884
+#: viewHandlers.js:6049 controls/searchView.js:136 UPnPTreeHelper.pas:1884
 msgid "Conductors"
 msgstr "Μαέστροι"
 
-#: viewHandlers.js:6051
+#: viewHandlers.js:6055
 msgid "conductor"
 msgstr "μαέστρος"
 
-#: viewHandlers.js:6058 controls/searchView.js:283 UPnPTreeHelper.pas:1883
+#: viewHandlers.js:6062 controls/searchView.js:283 UPnPTreeHelper.pas:1883
 msgid "Producers"
 msgstr "Παραγωγοί"
 
-#: viewHandlers.js:6064
+#: viewHandlers.js:6068
 msgid "producer"
 msgstr "παραγωγός"
 
 #. don't save
 #. addFieldPair('publisher', _('Publisher'), FIELD_AUDIO);
-#: viewHandlers.js:6071 controls/searchView.js:246 dialogs/dlgAutotag.js:2072
+#: viewHandlers.js:6075 controls/searchView.js:246 dialogs/dlgAutotag.js:2072
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:150 UPnPTreeHelper.pas:1879
 msgid "Actors"
 msgstr "Ηθοποιοί"
 
-#: viewHandlers.js:6077
+#: viewHandlers.js:6081
 msgid "actor"
 msgstr "ηθοποιός"
 
-#: viewHandlers.js:6084 UPnPTreeHelper.pas:1894
+#: viewHandlers.js:6088 UPnPTreeHelper.pas:1894
 msgid "Publishers"
 msgstr "Εκδότες"
 
-#: viewHandlers.js:6090
+#: viewHandlers.js:6094
 msgid "publisher"
 msgstr "εκδότης"
 
 #. category name
-#: viewHandlers.js:6334
+#: viewHandlers.js:6338
 msgid "Pop"
 msgstr "Pop"
 
 #. defines word prefixes to be included within the particular genre(s)
-#: viewHandlers.js:6338
+#: viewHandlers.js:6342
 msgid "Rock"
 msgstr "Rock"
 
-#: viewHandlers.js:6342
+#: viewHandlers.js:6346
 msgid "R&B and soul"
 msgstr "R&B και soul"
 
-#: viewHandlers.js:6346
+#: viewHandlers.js:6350
 msgid "Dance"
 msgstr "Dance"
 
-#: viewHandlers.js:6350
+#: viewHandlers.js:6354
 msgid "Blues"
 msgstr "Blues"
 
-#: viewHandlers.js:6354
+#: viewHandlers.js:6358
 msgid "Jazz"
 msgstr "Jazz"
 
-#: viewHandlers.js:6358
+#: viewHandlers.js:6362
 msgid "Latin & Caribbean"
 msgstr "Latin & Caribbean"
 
-#: viewHandlers.js:6363
+#: viewHandlers.js:6367
 msgid "Electronic"
 msgstr "Electronic"
 
-#: viewHandlers.js:6368
+#: viewHandlers.js:6372
 msgid "Country"
 msgstr "Country"
 
-#: viewHandlers.js:6372
+#: viewHandlers.js:6376
 msgid "Folk"
 msgstr "Folk"
 
-#: viewHandlers.js:6376
+#: viewHandlers.js:6380
 msgid "Easy listening"
 msgstr "Easy listening"
 
-#: viewHandlers.js:6380
+#: viewHandlers.js:6384
 msgid "Comedy"
 msgstr "Comedy"
 
-#: viewHandlers.js:6384 controls\deviceConfig\options\pnl_FileLocations.html:17
+#: viewHandlers.js:6388 controls\deviceConfig\options\pnl_FileLocations.html:17
 msgid "Classical"
 msgstr "Classical"
 
-#: viewHandlers.js:6389
+#: viewHandlers.js:6393
 msgid "World"
 msgstr "World"
 
-#: viewHandlers.js:6558 controls/trackListView.js:906 MaskHelper.pas:3060
+#: viewHandlers.js:6562 controls/trackListView.js:906 MaskHelper.pas:3060
 #: ResStrings.pas:457 ResStrings.pas:515 UPnPTreeHelper.pas:1913
 #: dialogs\dlgTrackProperties\tabClassification.html:5
 msgid "Tempo"
 msgstr "Ρυθμός"
 
-#: viewHandlers.js:6576 controls/trackListView.js:924 MaskHelper.pas:3061
+#: viewHandlers.js:6580 controls/trackListView.js:924 MaskHelper.pas:3061
 #: ResStrings.pas:455 ResStrings.pas:513 UPnPTreeHelper.pas:1914
 #: dialogs\dlgTrackProperties\tabClassification.html:16
 msgid "Mood"
 msgstr "Διάθεση"
 
-#: viewHandlers.js:6594 controls/trackListView.js:942 MaskHelper.pas:3062
+#: viewHandlers.js:6598 controls/trackListView.js:942 MaskHelper.pas:3062
 #: ResStrings.pas:456 ResStrings.pas:514 UPnPTreeHelper.pas:1915
 #: dialogs\dlgTrackProperties\tabClassification.html:27
 msgid "Occasion"
 msgstr "Περίσταση"
 
-#: viewHandlers.js:6612 controls/trackListView.js:960 FormatsHandler.pas:2897
+#: viewHandlers.js:6616 controls/trackListView.js:960 FormatsHandler.pas:2897
 #: FormatsHandler.pas:2916 MaskHelper.pas:3063 ResStrings.pas:369
 #: ResStrings.pas:420 ResStrings.pas:470 ResStrings.pas:524
 #: dialogs\dlgOGGSettings.html:22
 msgid "Quality"
 msgstr "Ποιότητα"
 
-#: viewHandlers.js:6630 controls/trackListView.js:44
+#: viewHandlers.js:6634 controls/trackListView.js:44
 #: dialogs/dlgTrackProperties.js:21 UPnPTreeHelper.pas:1912
 msgid "Classification"
 msgstr "Ταξινόμηση"
 
-#: viewHandlers.js:6748
+#: viewHandlers.js:6752
 msgid ""
 "If you have multiple tracks by different artists, that actually belong to a "
 "single album, MediaMonkey can help you organise them. They are displayed "
@@ -2331,17 +2343,17 @@ msgstr ""
 "εμφανίζονται εδώ, μπορείτε να τα επεξεργαστείτε και να τα συγχωνεύσετε σε "
 "ένα άλμπουμ ορίζοντας το ίδιο άλμπουμ, καλλιτέχνη άλμπουμ και έτος."
 
-#: viewHandlers.js:6814 UPnPTreeHelper.pas:1900
+#: viewHandlers.js:6818 UPnPTreeHelper.pas:1900
 msgid "Files to Edit"
 msgstr "Αρχεία για Επεξεργασία"
 
-#: viewHandlers.js:6992 dialogs/dlgMediaProperties.js:42
+#: viewHandlers.js:6996 dialogs/dlgMediaProperties.js:42
 msgid "Media Properties"
 msgstr "Ιδιότητες Πολυμέσου"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. create folder text element
-#: viewHandlers.js:7009 controls/monitoredFoldersView.js:258 ResStrings.pas:410
+#: viewHandlers.js:7013 controls/monitoredFoldersView.js:258 ResStrings.pas:410
 #: dialogs\dlgMediaProperties.html:26
 msgid "Location"
 msgstr "Τοποθεσία"
@@ -2350,7 +2362,7 @@ msgstr "Τοποθεσία"
 #. Other group is default
 #. fill info about audio stream
 #. Audio exts then video formats, then image exts
-#: viewHandlers.js:7069 controls/deviceConfig.js:296
+#: viewHandlers.js:7073 controls/deviceConfig.js:296
 #: controls/deviceConfig.js:297 controls/trackListView.js:40
 #: dialogs/dlgSupportedFormat.js:26 BaseMedia.pas:4458 FormatsManage.pas:3784
 #: FormatsManage.pas:5467 FormatsManage.pas:5499 FormatsManage.pas:5512
@@ -2360,7 +2372,7 @@ msgstr "Ήχος"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. fill info about video stream
-#: viewHandlers.js:7086 controls/deviceConfig.js:301
+#: viewHandlers.js:7090 controls/deviceConfig.js:301
 #: controls/deviceConfig.js:302 controls/trackListView.js:49
 #: dialogs/dlgSupportedFormat.js:27 BaseMedia.pas:4496 FormatsManage.pas:3790
 #: FormatsManage.pas:5469 FormatsManage.pas:5501 FormatsManage.pas:5513
@@ -2368,28 +2380,30 @@ msgstr "Ήχος"
 msgid "Video"
 msgstr "Βίντεο"
 
-#: viewHandlers.js:7129 viewHandlers.js:7131
+#: viewHandlers.js:7133 viewHandlers.js:7135
 msgid "Web"
 msgstr "Ιστός"
 
 #. TODO: add links to stations
-#: viewHandlers.js:7176 viewHandlers.js:7244
-msgid "Remove Bookmark"
+#: viewHandlers.js:7180 viewHandlers.js:7248
+#, fuzzy
+#| msgid "Remove Bookmark"
+msgid "Remove bookmark"
 msgstr "Κατάργηση Σελιδοδείκτη"
 
-#: viewHandlers.js:7199 viewHandlers.js:7201 GlobVars.pas:1926
+#: viewHandlers.js:7203 viewHandlers.js:7205 GlobVars.pas:1926
 msgid "Radio"
 msgstr "Ράδιο"
 
-#: viewHandlers.js:7266 controls\audiobookCollectionView.html:18
+#: viewHandlers.js:7270 controls\audiobookCollectionView.html:18
 msgid "Pinned"
 msgstr ""
 
-#: viewHandlers.js:7620 controls/multiview.js:193
+#: viewHandlers.js:7624 controls/multiview.js:193
 msgid "Home"
 msgstr "Αρχική"
 
-#: viewHandlers.js:7637 AutoOrganize.pas:1581 ResStrings.pas:389
+#: viewHandlers.js:7641 AutoOrganize.pas:1581 ResStrings.pas:389
 msgid "Collections"
 msgstr "Συλλογές"
 
@@ -2578,7 +2592,9 @@ msgid "Artwork (original)"
 msgstr "Έργo τέχνης (πρωτότυπη)"
 
 #: controls/backgroundImage.js:207
-msgid "Background Image"
+#, fuzzy
+#| msgid "Background Image"
+msgid "Background image"
 msgstr "Εικόνα Φόντου"
 
 #. F10 - toggle automatic preset change
@@ -2677,9 +2693,14 @@ msgstr "Κοινόχρηστο περιεχόμενο"
 msgid "Auto-conversion"
 msgstr "Αυτόματη μετατροπή"
 
-#: controls/columntracklist.js:168
-msgid "Choose columns / Sort"
-msgstr "Επιλογή στηλών / Ταξινόμηση"
+#: controls/columntracklist.js:168 dialogs/dlgSelectFromList.js:109
+msgid "Choose columns"
+msgstr "Επιλέξτε στήλες"
+
+#. undefined
+#: controls/columntracklist.js:168 FullPlayer.pas:2388
+msgid "Sort"
+msgstr "Ταξινόμηση"
 
 #: controls/columntracklist.js:179
 msgid "Automatic column widths"
@@ -2925,7 +2946,7 @@ msgid "Subdirectories"
 msgstr ""
 
 #: controls/maskedit.js:466
-msgid "Variable subdirectories can be defined statically or using masks"
+msgid "Subdirectories can be defined statically or using mask variables"
 msgstr ""
 
 #: controls/maskedit.js:469 dialogs\dlgOptions\pnl_Library.html:103
@@ -2933,7 +2954,7 @@ msgid "Filenames"
 msgstr "Ονόματα αρχείων"
 
 #: controls/maskedit.js:469
-msgid "Variable filenames can be defined using masks or statically"
+msgid "Filenames can be defined using mask variables or statically"
 msgstr ""
 
 #: controls/maskedit.js:472
@@ -3169,7 +3190,7 @@ msgid "or"
 msgstr "Ταξινόμηση"
 
 #: controls/podcastSubscribeTutorial.js:23
-msgid "Subscribe a podcast manually by entering the feed link"
+msgid "Subscribe to a podcast manually by entering the feed link"
 msgstr ""
 
 #: controls/rating.js:210
@@ -3607,7 +3628,7 @@ msgstr "Ρυθμός καρέ"
 #. assign duration only if we don't have a better way to find it (issue #8948)
 #: controls/trackListView.js:1415 dialogs/dlgTrackProperties/tabBasic.js:467
 #: DBStructure.pas:1939 MaskHelper.pas:3073 MaskHelper.pas:3503
-#: MaskHelper.pas:3784 PodcastManage.pas:2985 QueryManage.pas:2997
+#: MaskHelper.pas:3784 PodcastManage.pas:2987 QueryManage.pas:2997
 #: QueryManage.pas:3004 ResStrings.pas:485
 msgid "Podcast"
 msgstr "Podcast"
@@ -4301,10 +4322,6 @@ msgstr ""
 msgid "Monthly"
 msgstr ""
 
-#: dialogs/dlgMaintainLibrary.js:10
-msgid "Manage Database"
-msgstr ""
-
 #: dialogs/dlgManageViews.js:17 helpers/views.js:293
 msgid "Manage views"
 msgstr ""
@@ -4714,10 +4731,6 @@ msgstr ""
 #: dialogs/dlgSelectFolder.js:7
 msgid "Select folder"
 msgstr ""
-
-#: dialogs/dlgSelectFromList.js:109
-msgid "Choose columns"
-msgstr "Επιλέξτε στήλες"
 
 #: dialogs/dlgSelectPlaylist.js:4 dialogs\dlgSelectPlaylist.html:10
 msgid "Select playlist"
@@ -5653,7 +5666,7 @@ msgstr ""
 
 #. url request failed, check for quota exceeded
 #: Scripts/youtube/helpers/youtubeHelper.js:48
-msgid "Youtube query failed: "
+msgid "YouTube query failed: "
 msgstr ""
 
 #: AndroidDBHandler.pas:1196 AndroidDBHandler.pas:1198
@@ -6302,7 +6315,7 @@ msgstr ""
 
 #. set buttons captions
 #: ExceptionHandler.pas:213
-msgid "Disable && Restart"
+msgid "Disable & Restart"
 msgstr ""
 
 #. Pointer not needed.
@@ -6319,11 +6332,11 @@ msgid "Do you want to disable this addon?"
 msgstr ""
 
 #: Extensions.pas:740 Extensions.pas:753 Extensions.pas:788
-msgid "Invalid Extension!"
+msgid "Invalid Addon!"
 msgstr ""
 
 #: Extensions.pas:750
-msgid "Invalid Extension: only valid for MediaMonkey 4.x"
+msgid "Invalid Addon: only valid for MediaMonkey 4.x"
 msgstr ""
 
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
@@ -6411,8 +6424,10 @@ msgstr ""
 "οργανώσει τη συλλογή ψηφιακής μουσικής σας."
 
 #: FileAssoc.pas:1132
-msgid "MediaMonkey Extension file"
-msgstr ""
+#, fuzzy
+#| msgid "MediaMonkey Gold"
+msgid "MediaMonkey Addon file"
+msgstr "MediaMonkey Gold"
 
 #: FileAssoc.pas:1134
 msgid "Audio File"
@@ -6667,11 +6682,6 @@ msgstr ""
 #: FullPlayer.pas:2299
 msgid "Clear Playing"
 msgstr ""
-
-#. undefined
-#: FullPlayer.pas:2388
-msgid "Sort"
-msgstr "Ταξινόμηση"
 
 #: FullPlayer.pas:2710
 msgid "Currently, there is no output plug-in selected"
@@ -7147,11 +7157,11 @@ msgstr "Διαγραφή %s ετικετών %d από %d (%s)"
 msgid "Locate Moved/Missing Files"
 msgstr "Εντοπισμός Μετακινηθέντων/Χαμένων Αρχείων"
 
-#: MP3Utils.pas:442 MP3Utils.pas:2664
+#: MP3Utils.pas:442 MP3Utils.pas:2670
 msgid "Error scanning directory"
 msgstr "Σφάλμα σάρωσης του κατάλογου"
 
-#: MP3Utils.pas:442 MP3Utils.pas:2664
+#: MP3Utils.pas:442 MP3Utils.pas:2670
 msgid "This directory is used exclusively for:"
 msgstr "Αυτός ο κατάλογος χρησιμοποιείται αποκλειστικά για:"
 
@@ -7167,80 +7177,80 @@ msgstr ""
 msgid "Preparing list of files"
 msgstr ""
 
-#: MP3Utils.pas:1252
+#: MP3Utils.pas:1258
 msgid "Scanning for moved files in %s (%d files scanned)."
 msgstr "Σάρωση για μετακινηθέντα αρχεία στο %s (%d αρχεία σαρώθηκαν)."
 
 #. There are yet tracks to be found, try the second pass
-#: MP3Utils.pas:1321
+#: MP3Utils.pas:1327
 msgid "Scanning for moved files - 2nd pass (%d of %d files scanned)."
 msgstr ""
 "Σάρωση για μετακινηθέντα αρχεία - 2ο πέρασμα (%d από %d αρχεία σαρώθηκαν)."
 
-#: MP3Utils.pas:1412
+#: MP3Utils.pas:1418
 msgid "Updating file %d of %d."
 msgstr "Ενημέρωση του αρχείου %d από %d."
 
-#: MP3Utils.pas:1548
+#: MP3Utils.pas:1554
 msgid "Imported Playlists"
 msgstr ""
 
 #. fail of this isn't a reason for terminating scanning
-#: MP3Utils.pas:1652 MP3Utils.pas:2844 MP3Utils.pas:2860
+#: MP3Utils.pas:1658 MP3Utils.pas:2850 MP3Utils.pas:2866
 msgid "Error scanning file"
 msgstr "Σφάλμα σάρωσης αρχείων"
 
-#: MP3Utils.pas:1652 MP3Utils.pas:2860
+#: MP3Utils.pas:1658 MP3Utils.pas:2866
 msgid "error occured while scanning"
 msgstr "συνέβηκε σφάλμα κατά την σάρωση"
 
-#: MP3Utils.pas:1674 MP3Utils.pas:1953
+#: MP3Utils.pas:1680 MP3Utils.pas:1959
 msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Παρακολούθηση $FAdd$ από $FTot$ ($Dir$$Str$)"
 
-#: MP3Utils.pas:1674 MP3Utils.pas:1953
+#: MP3Utils.pas:1680 MP3Utils.pas:1959
 msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Προσθέτωντας $FAdd$ από $FTot$ ($Dir$$Str$)"
 
-#: MP3Utils.pas:2028
+#: MP3Utils.pas:2034
 msgid "Problem with scanning directory %s."
 msgstr "Πρόβλημα με την σάρωση φακέλλου %s."
 
-#: MP3Utils.pas:2777
+#: MP3Utils.pas:2783
 msgid "file is too short or too small"
 msgstr ""
 
-#: MP3Utils.pas:2844
+#: MP3Utils.pas:2850
 msgid "error while reading file info"
 msgstr "Πρόβλημα κατά την ανάγνωση της πληροφορίας του αρχείου"
 
 #. if we are going to tag a file that is playing, let's do it as quickly as possible
-#: MP3Utils.pas:3700
+#: MP3Utils.pas:3706
 msgid "Tag update failed: %s is inaccessible."
 msgstr ""
 
 #. wrong file format, no neeed for next attempt
-#: MP3Utils.pas:3731
+#: MP3Utils.pas:3737
 msgid "Tag update failed: %s has wrong format."
 msgstr ""
 
 #. No need to check
-#: MP3Utils.pas:3790
+#: MP3Utils.pas:3796
 msgid ""
 "One or more of the selected files are inaccessible and cannot be tagged. "
 "Save artwork to the folder instead."
 msgstr ""
 
-#: MP3Utils.pas:3927 Normalization.pas:1435 Normalization.pas:1970
+#: MP3Utils.pas:3933 Normalization.pas:1435 Normalization.pas:1970
 msgid ""
 "The media '%s' is not inserted. It must be inserted to access the file %s"
 msgstr ""
 
-#: MP3Utils.pas:4394
+#: MP3Utils.pas:4400
 msgid "trial"
 msgstr "δοκιμαστική"
 
-#: MP3Utils.pas:4396
+#: MP3Utils.pas:4402
 msgid "trial-expired"
 msgstr "ληγμένη δοκιμαστική"
 
@@ -8648,6 +8658,13 @@ msgstr ""
 msgid "Scan file directories for Artwork"
 msgstr "Σάρωση καταλόγων αρχείου για Γραφικά"
 
+#: dialogs\dlgOptions\pnl_Network.html:2
+msgid ""
+"If your network uses a proxy server, you'll need to configure these settings "
+"to enable Freedb HTTP connections and media streaming. If you don't know the "
+"proxy server settings, check with your administrator."
+msgstr ""
+
 #: dialogs\dlgOptions\pnl_PartyMode.html:43
 msgid "When files are playing:"
 msgstr "Όταν τα αρχεία αναπαράγονται:"
@@ -8854,12 +8871,6 @@ msgstr ""
 #: dialogs\dlgOptions\pnl_Download.html:19
 msgid "Every hour"
 msgstr "Κάθε ώρα"
-
-#: dialogs\dlgOptions\pnl_Download.html:66
-msgid "On download, tag episodes based on data from Podcast feed"
-msgstr ""
-"Στο κατέβασμα, ετικετοποίησε τα επεισόδια βάσει των δεδομένων από την "
-"τροφοδοσία Podcast"
 
 #: dialogs\dlgOptions\pnl_Library.html:3
 msgid "When adding files to the Library"
@@ -9814,14 +9825,6 @@ msgstr "Χειροκίνητα"
 msgid "Choose the location where downloaded content is saved by default"
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Download.html:71
-msgid ""
-"If episodes' properties are changed by the podcast feed creator, they are "
-"updated from the feed."
-msgstr ""
-"Εάν οι ιδιότητες των επεισοδίων αλλάξουν από τον podcast feed creator, αυτές "
-"ενημερώνονται από το feed."
-
 #: dialogs\dlgOptions\pnl_General.html:42
 msgid "Close to tray"
 msgstr ""
@@ -9891,6 +9894,10 @@ msgstr ""
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s) to new destination"
 msgstr "Μετατροπή αρχείου (ων) σε νέο προορισμό"
+
+#: dialogs\dlgExtensions.html:19
+msgid "Get more addons"
+msgstr ""
 
 #: dialogs\dlgMediaProperties.html:14
 msgid "Serial"
@@ -9975,10 +9982,6 @@ msgstr "Μεσαίο"
 
 #: dialogs\dlgChooseFolders.html:11
 msgid "Select the folders you want to scan for media files:"
-msgstr ""
-
-#: dialogs\dlgExtensions.html:19
-msgid "Get more extensions"
 msgstr ""
 
 #: dialogs\dlgMaintainLibrary.html:16
@@ -10740,13 +10743,6 @@ msgstr ""
 msgid "Generate thumbnails for videos"
 msgstr "Δημιουργία μικρογραφιών για βίντεο"
 
-#: dialogs\dlgOptions\pnl_Network.html:2
-msgid ""
-"If your network uses a proxy server, you'll need to configure these settings "
-"to enable Freedb HTTP connections and MP3 / OGG streaming. If you don't know "
-"the proxy server settings, check with your administrator."
-msgstr ""
-
 #: dialogs\dlgOptions\pnl_OSIntegration.html:51
 msgid "Play next in MediaMonkey"
 msgstr "Αναπαραγωγή επόμενο στο MediaMonkey"
@@ -10825,12 +10821,6 @@ msgid "Set the default directory / filename format for specified files."
 msgstr ""
 "Ορίζει τον προεπιλεγμένο τύπο φακέλου / ονόματος αρχείου για τα συγκεκριμένα "
 "αρχεία."
-
-#: dialogs\dlgOptions\pnl_Download.html:72
-msgid "Keep updating episode data by feed data (slower)"
-msgstr ""
-"Συνέχιση επικαιροποίησης των δεδομένων των επεισοδιών μέσω τροφοδοσίας "
-"δεδομένων (πιο αργό)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:21
 msgid ""
@@ -11197,6 +11187,29 @@ msgstr ""
 # Playlist
 msgid "Recently Added"
 msgstr "Πρόσφατα Προστεθέντα"
+
+#~ msgid "Extensions"
+#~ msgstr "Επεκτάσεις"
+
+#~ msgid "Choose columns / Sort"
+#~ msgstr "Επιλογή στηλών / Ταξινόμηση"
+
+#~ msgid "On download, tag episodes based on data from Podcast feed"
+#~ msgstr ""
+#~ "Στο κατέβασμα, ετικετοποίησε τα επεισόδια βάσει των δεδομένων από την "
+#~ "τροφοδοσία Podcast"
+
+#~ msgid ""
+#~ "If episodes' properties are changed by the podcast feed creator, they are "
+#~ "updated from the feed."
+#~ msgstr ""
+#~ "Εάν οι ιδιότητες των επεισοδίων αλλάξουν από τον podcast feed creator, "
+#~ "αυτές ενημερώνονται από το feed."
+
+#~ msgid "Keep updating episode data by feed data (slower)"
+#~ msgstr ""
+#~ "Συνέχιση επικαιροποίησης των δεδομένων των επεισοδιών μέσω τροφοδοσίας "
+#~ "δεδομένων (πιο αργό)"
 
 #~ msgid "to"
 #~ msgstr "σε"
