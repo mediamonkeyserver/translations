@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-20 17:39\n"
-"PO-Revision-Date: 2020-11-23 12:04+0000\n"
+"PO-Revision-Date: 2020-11-26 09:36+0000\n"
 "Last-Translator: Lee <pcsori@gmail.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ko/>\n"
@@ -738,7 +738,7 @@ msgstr "반복 끄기"
 
 #: actions.js:2807
 msgid "One"
-msgstr "1"
+msgstr "1번"
 
 #: actions.js:2810 controls/player.js:283
 msgid "Repeat one"
@@ -765,7 +765,7 @@ msgstr "반복"
 
 #: actions.js:2858
 msgid "Level playback volume"
-msgstr "재생 볼륨 수준"
+msgstr "재생 볼륨 평준화"
 
 #: actions.js:2874 Win7ToolsImpl.pas:1902
 msgid "Next file"
@@ -905,7 +905,7 @@ msgstr "볼륨 분석(&Y)"
 
 #: actions.js:3419
 msgid "&Level Track volume"
-msgstr "트랙 볼륨 수준(&L)"
+msgstr "트랙 볼륨 평준화(&L)"
 
 #: actions.js:3426
 msgid ""
@@ -1741,7 +1741,7 @@ msgstr "미디어 노드"
 
 #: viewHandlers.js:463
 msgid "Suggested Artists"
-msgstr "추천 음악가"
+msgstr "추천 아티스트"
 
 #: viewHandlers.js:467
 msgid "Suggested Albums"
@@ -1838,7 +1838,7 @@ msgstr "아티스트"
 #. add title line
 #: viewHandlers.js:1338 controls/relatedArtists.js:27
 msgid "Related Artists"
-msgstr "관련 음악가"
+msgstr "관련 아티스트"
 
 #: viewHandlers.js:1534
 msgid "Grid (by Album)"
@@ -2122,11 +2122,11 @@ msgstr "알 수 없는 시리즈"
 #: viewHandlers.js:6009 viewHandlers.js:6022 controls/statusbar.js:119
 #: helpers/artistDataSource.js:87
 msgid "artist"
-msgstr "음악가"
+msgstr "아티스트"
 
 #: viewHandlers.js:6016 UPnPTreeHelper.pas:1880
 msgid "Album Artists"
-msgstr "앨범 음악가"
+msgstr "앨범 아티스트"
 
 #: viewHandlers.js:6036 UPnPTreeHelper.pas:1885
 msgid "Directors"
@@ -2275,8 +2275,8 @@ msgid ""
 "here, you can edit them and merge to one album by setting the same album, "
 "album artist and year."
 msgstr ""
-"실제로 단일 앨범에 속하는 여러 음악가의 트랙을 가지고 있는 경우, MediaMonkey가 해당 트랙을 구성하는 데 도움을 줄 수 "
-"있습니다. 그것은 여기에 표시되며, 동일한 앨범, 음악가 및 년도를 설정하여 편집하고 하나의 앨범으로 병합할 수 있습니다."
+"실제로 단일 앨범에 속하는 여러 아티스트의 트랙을 가지고 있는 경우, MediaMonkey가 해당 트랙을 구성하는 데 도움을 줄 수 "
+"있습니다. 그것은 여기에 표시되며, 동일한 앨범, 아티스트 및 년도를 설정하여 편집하고 하나의 앨범으로 병합할 수 있습니다."
 
 #: viewHandlers.js:6831 UPnPTreeHelper.pas:1900
 msgid "Files to Edit"
@@ -2438,7 +2438,7 @@ msgstr "MusicBrainz에서 편집"
 #: controls/artistViewHeader.js:522 dblistutils.pas:1457
 #: UPnPTreeHelper.pas:1902
 msgid "Unknown Artist"
-msgstr "알 수 없는 음악가"
+msgstr "알 수 없는 아티스트"
 
 #: controls/artWindow.js:26
 msgid "Artwork only"
@@ -2508,7 +2508,7 @@ msgstr "재생 시 배경 애니메이션"
 
 #: controls/backgroundImage.js:156
 msgid "Cycle Artist images"
-msgstr "음악가 이미지 주기"
+msgstr "아티스트 이미지 주기"
 
 #: controls/backgroundImage.js:168
 msgid "Artwork (blurred)"
@@ -2980,7 +2980,7 @@ msgstr "앨범 아트"
 
 #: controls/nowplayingview.js:27
 msgid "Artist Bio"
-msgstr "음악가 약력"
+msgstr "아티스트 약력"
 
 #. full window -> normal
 #. full screen -> normal
@@ -3170,7 +3170,7 @@ msgstr "fieldname:foo | 검색은 특정 필드로 제한합니다. 예:"
 #: controls/searchBar.js:660
 msgid ""
 "artist:floy | finds words beginning with floy (in Artist) e.g. Pink Floyd"
-msgstr "artist:floy | floy(음악가에서)로 시작하는 단어 찾기(예 Pink Floyd)"
+msgstr "artist:floy | floy(아티스트에서)로 시작하는 단어 찾기(예 Pink Floyd)"
 
 #: controls/searchBar.js:661
 msgid "year:2000..2006 | finds matches in range 2000 to 2006"
@@ -3672,7 +3672,7 @@ msgstr "'%s'에서 지원되는 형식"
 #: controls/clientConfig/autoConvert.js:9
 #: controls/serverConfig/autoConvert.js:7
 msgid "Level volume when sharing audio"
-msgstr "오디오 공유 시 볼륨 수준"
+msgstr "오디오 공유 시 볼륨 평준화"
 
 #: controls/deviceConfig/options.js:9
 msgid "File Locations"
@@ -3723,7 +3723,7 @@ msgstr "대상의 형식"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:10
 msgid "Level volume when syncing audio"
-msgstr "오디오 동기화 시 볼륨 수준"
+msgstr "오디오 동기화 시 볼륨 평준화"
 
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:12
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:23
@@ -4631,7 +4631,7 @@ msgstr "라이브러리에 파일 추가/재검색..."
 
 #: dialogs/dlgSearch.js:9
 msgid "AutoPlaylist criteria"
-msgstr "자동재생목록 기준"
+msgstr "자동 재생 목록 기준"
 
 #: dialogs/dlgSearchImage.js:19
 msgid "Image search"
@@ -4663,11 +4663,11 @@ msgstr "최대 절전 모드"
 
 #: dialogs/dlgSleep.js:19 dialogs\dlgSleep.html:31
 msgid "Sleep"
-msgstr "대기모드"
+msgstr "대기 모드"
 
 #: dialogs/dlgSleep.js:21
 msgid "Log off"
-msgstr "로그 오프"
+msgstr "로그오프"
 
 #: dialogs/dlgSleep.js:23
 msgid "Close MediaMonkey"
@@ -4702,7 +4702,7 @@ msgstr "PC (%d) 장치에서 기존 파일 및 재생 목록 업데이트"
 
 #: dialogs/dlgSyncConfirm.js:26
 msgid "New file(s) and playlist(s) to copy from the device to the PC (%d)"
-msgstr "PC (%d)의 장치에서 새 파일 및 재생목록 복사"
+msgstr "PC (%d)의 장치에서 새 파일 및 재생 목록 복사"
 
 #: dialogs/dlgSyncConfirm.js:39
 msgid "File(s) and playlist(s) to delete from the device (%d)"
@@ -4714,7 +4714,7 @@ msgstr "자동 동기화"
 
 #: dialogs/dlgSyncConfirm.js:78
 msgid "Please confirm the following changes:"
-msgstr "다음 변경을 확인하십시오:"
+msgstr "다음 변경을 확인:"
 
 #. Button text
 #: dialogs/dlgTrackProperties.js:17 ExceptionHandler.pas:233 UpNp.pas:5336
@@ -4943,9 +4943,8 @@ msgid ""
 "MediaMonkey is not running and you are not logged into your account. Please "
 "input your account (%s) password:"
 msgstr ""
-"계정에 로그인 하지 않거나 MediaMonkey가 실행되지 않는 경우에도 미디어서버를 "
-"검색할 수 있도록 서비스로 MediaMonkey를 설치합니다. 계정 (%s) 암호를 입력하십"
-"시오:"
+"계정에 로그인 하지 않거나 MediaMonkey가 실행되지 않는 경우에도 미디어 서버를 검색할 수 있도록 서비스로 MediaMonkey를 "
+"설치합니다. 계정 (%s) 비밀번호 입력:"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:58
 #: dialogs/dlgOptions/pnl_MediaTree.js:59
@@ -5039,7 +5038,7 @@ msgstr "여러 파일 형식 선택"
 #: dialogs/dlgTrackProperties/tabBasic.js:445
 #: dialogs\dlgTrackProperties\tabBasic.html:67
 msgid "Artist(s)"
-msgstr "음악가"
+msgstr "아티스트"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:446
 #: dialogs\dlgTrackProperties\tabBasic.html:82
@@ -5048,7 +5047,7 @@ msgstr "장르"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:485
 msgid "Artist(s) (ensemble; soloist)"
-msgstr "음악가 (앙상블; 솔로)"
+msgstr "아티스트 (앙상블; 솔로)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:486
 msgid "Genre(s) (genre; period)"
@@ -5103,7 +5102,7 @@ msgstr "정보 표시 안 함"
 
 #: helpers/artistDataSource.js:23
 msgid "artist info"
-msgstr "음악가 정보"
+msgstr "아티스트 정보"
 
 #: helpers/autoDJ.js:19 Filters.pas:3345 MediaMonkeyApp.pas:7918
 #: ResStrings.pas:409
@@ -5242,11 +5241,11 @@ msgstr ""
 
 #: helpers/mediaSync.js:988
 msgid "Scan as soon as the device is connected"
-msgstr "장치가 연결되면 즉시 스캔"
+msgstr "장치가 연결되면 즉시 검색"
 
 #: helpers/mediaSync.js:989
 msgid "This initiates an auto-sync whenever the device is plugged into the PC"
-msgstr "장치가 PC 연결될 때 마다 자동-동기화를 시작합니다"
+msgstr "장치가 PC 연결될 때 마다 자동-동기화 시작"
 
 #: helpers/mediaSync.js:989
 msgid "Auto-Sync as soon as the device is connected"
@@ -5443,7 +5442,7 @@ msgstr "파일 목록 (&HTML)"
 
 #: Scripts/export/actions_add.js:41
 msgid "HTML (*.htm)|*.htm|All files (*.*)|*.*"
-msgstr "HTML (*.htm)|*.htm|모든 파일 (*.*)|*.*"
+msgstr "HTML(*.htm)|*.htm|모든 파일(*.*)|*.*"
 
 #. Use progress to notify user about the current action
 #: Scripts/export/actions_add.js:41 Scripts/export/actions_add.js:45
@@ -5478,7 +5477,7 @@ msgstr "파일 목록 (&XML)"
 
 #: Scripts/export/actions_add.js:183
 msgid "XML (*.xml)|*.xml|All files (*.*)|*.*"
-msgstr "XML (*.xml)|*.xml|모든 파일 (*.*)|*.*"
+msgstr "XML(*.xml)|*.xml|모든 파일(*.*)|*.*"
 
 #: Scripts/export/actions_add.js:331
 msgid "File List (CS&V)"
@@ -5486,7 +5485,7 @@ msgstr "파일 목록 (CS&V)"
 
 #: Scripts/export/actions_add.js:341
 msgid "CSV (*.csv)|*.csv|All files (*.*)|*.*"
-msgstr "CSV (*.csv)|*.csv|모든 파일 (*.*)|*.*"
+msgstr "CSV(*.csv)|*.csv|모든 파일(*.*)|*.*"
 
 #: Scripts/exportPlaylists/actions_add.js:2
 msgid "Export all playlists"
@@ -5533,7 +5532,7 @@ msgstr "MediaMonkey 라이브러리 통계"
 #. disable auto sizing mechanism, we have fixed size
 #: Scripts/statistics/dialogs/dlgStatistics.js:608
 msgid "MediaMonkey Music Library Statistics"
-msgstr "MediaMonkey 음악 라이브러리의 통계"
+msgstr "MediaMonkey 음악 라이브러리 통계"
 
 #: Scripts/swapArtistTitle/actions_add.js:4
 msgid "Swap Artist and Title"
@@ -5595,7 +5594,7 @@ msgstr "모든 컬렉션"
 
 #: AutoOrganize.pas:1607
 msgid "All Playlists"
-msgstr "모든 재생목록"
+msgstr "모든 재생 목록"
 
 #: BackgroundStuff.pas:273
 msgid "%d files to be tagged"
@@ -5680,7 +5679,7 @@ msgstr "이 오디오 CD는 Freedb에서 찾을 수 없습니다."
 
 #: CDUtils.pas:770 ResStrings.pas:363
 msgid "Audio CD"
-msgstr "오디오 시디"
+msgstr "오디오 CD"
 
 #. not found
 #: CDUtils.pas:1378 CDUtils.pas:1381 CDUtils.pas:1384 CDUtils.pas:1391
@@ -5698,7 +5697,7 @@ msgstr "(잘못된 추출 또는 데이터베이스의 일부/부정확한 데�
 
 #: CDUtils.pas:1384
 msgid "(error parsing verification file)"
-msgstr "(오류 구문 분석 검증 파일"
+msgstr "(오류 구문 분석 검증 파일)"
 
 #: CDUtils.pas:1386
 msgid ""
@@ -5740,11 +5739,11 @@ msgstr "지정되지 않음"
 
 #: Covers.pas:725
 msgid "Cover (front)"
-msgstr "커버 (앞면)"
+msgstr "표지 (앞면)"
 
 #: Covers.pas:726
 msgid "Cover (back)"
-msgstr "커버 (뒷면)"
+msgstr "표지 (뒷면)"
 
 #: Covers.pas:727
 msgid "Leaflet Page"
@@ -5756,7 +5755,7 @@ msgstr "미디어 레이블"
 
 #: Covers.pas:729
 msgid "Lead Artist"
-msgstr "음악가 리더"
+msgstr "선임 아티스트"
 
 #: Covers.pas:732
 msgid "Band"
@@ -5764,7 +5763,7 @@ msgstr "밴드"
 
 #: Covers.pas:735
 msgid "Recording Location"
-msgstr "리코딩 위치"
+msgstr "녹음 위치"
 
 #: Covers.pas:736
 msgid "During Recording"
@@ -5825,7 +5824,7 @@ msgstr "가상 CD에서 %d 트랙을 제거하겠습니까?"
 
 #: DatabaseManage.pas:2981
 msgid "Do you really want to remove %d previews?"
-msgstr "미리듣기에서 %d을(를) 제거하겠습니까?"
+msgstr "미리 듣기에서 %d을(를) 제거하겠습니까?"
 
 #: DatabaseManage.pas:3044
 msgid "Are you sure you want to remove %d file(s) from the Library?"
@@ -5878,7 +5877,7 @@ msgstr "알 수 없는 년도"
 
 #: dblistutils.pas:1468
 msgid "Unknown Rating"
-msgstr "알 수 없는 등급"
+msgstr "알 수 없는 평가"
 
 #: dblistutils.pas:1469 UPnPTreeHelper.pas:1910
 msgid "Unknown Artwork"
@@ -5890,7 +5889,7 @@ msgstr "일관성 없는 삽화"
 
 #: dblistutils.pas:1471
 msgid "Multiple Artist Albums"
-msgstr "다중 음악가 앨범"
+msgstr "여러 아티스트 앨범"
 
 #: dblistutils.pas:1472
 msgid "Ungrouped Multiple Artist Albums"
@@ -5930,7 +5929,7 @@ msgstr "분류되지 않은 파일"
 
 #: dblistutils.pas:1484
 msgid "Unknown Tempo"
-msgstr "알 수 없는 템포"
+msgstr "알 수 없는 박자"
 
 #: dblistutils.pas:1485
 msgid "Unknown Mood"
@@ -6061,7 +6060,7 @@ msgstr "%s을(를) %s(으)로 복사하는 동안 문제 발생"
 #. e.g. online/cloud tracks that failed to download
 #: Devices.pas:12305 Devices.pas:14789 Devices.pas:15055 FormatsManage.pas:853
 msgid "File %s is inaccessible"
-msgstr "파일 %s에 액세스 할 수 없습니다"
+msgstr "파일 %s에 액세스할 수 없습니다"
 
 #. e.g. to know it when the tracks are part of a playlist that need to be modified (e.g. on MMS)
 #: Devices.pas:12328
@@ -6080,11 +6079,11 @@ msgstr "파일 %s의 변환 실패"
 
 #: ErrHandlers.pas:116
 msgid "File %s is read-only. Do you want to change it?"
-msgstr "파일 %s은(는) 읽기-전용입니다. 변경하겠습니까?"
+msgstr "파일 %s은(는) 읽기 전용입니다. 변경하겠습니까?"
 
 #: ErrHandlers.pas:130
 msgid "The read-only attribute cannot be removed from the file %s."
-msgstr "파일 %s의 읽기-전용 속성을 제거할 수 없습니다."
+msgstr "파일 %s의 읽기 전용 속성을 제거할 수 없습니다."
 
 #: ErrHandlers.pas:137
 msgid "There was a problem updating the tag for file %s."
@@ -6092,15 +6091,13 @@ msgstr "파일 %s의 태그 갱신에 문제가 발생했습니다."
 
 #: ErrHandlers.pas:144
 msgid "File %s already exists. Do you want to replace it?"
-msgstr "파일 %s은(는) 이미 존재합니다. 기존의 파일을 대체 하겠습니까?"
+msgstr "파일 %s은(는) 이미 존재합니다. 기존의 파일을 대체하겠습니까?"
 
 #: ErrHandlers.pas:152
 msgid ""
 "Some components of filename %s exceed the 64 character limit for CDs. "
 "Continue renaming without editing filenames?"
-msgstr ""
-"파일명 %s가 CD의 64 문자 제한을 넘고 있습니다. 파일명을 편집 하지 않고 이름 "
-"변경을 시도하겠습니까?"
+msgstr "파일명 %s가 CD의 64 문자 제한을 넘고 있습니다. 파일명을 편집하지 않고 이름 변경을 시도하겠습니까?"
 
 #: ErrHandlers.pas:160
 msgid ""
@@ -6112,14 +6109,14 @@ msgstr ""
 
 #: ErrHandlers.pas:168 FileUtils.pas:787
 msgid "Problem with copying file %s to %s."
-msgstr "파일 %s의 %s에로의 복사 중에 문제가 발생했습니다."
+msgstr "파일 %s의 %s에 복사 중에 문제가 발생했습니다."
 
 #: ErrHandlers.pas:176
 msgid ""
 "File %s cannot be opened:\n"
 "%s"
 msgstr ""
-"파일 %s가 열리지 않습니다:\n"
+"파일 %s이(가) 열리지 않음:\n"
 "%s"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
@@ -6136,8 +6133,7 @@ msgstr "다음 트랙을 추출하거나 검증하는 동안 문제 발생:"
 msgid ""
 "Track(s) have been verified against AccurateRip.com database with the "
 "following results:"
-msgstr ""
-"트랙은 다음과 같은 결과로 AccurateRip.com 데이터베이스에서 인증되었습니다:"
+msgstr "트랙은 다음과 같은 결과로 AccurateRip.com 데이터베이스에서 인증됨:"
 
 #: ErrHandlers.pas:381
 msgid "Ripping results"
@@ -6156,22 +6152,22 @@ msgstr "다음 트랙의 볼륨을 분석하는 동안 문제 발생:"
 #. seconds
 #: ErrHandlers.pas:418
 msgid "There was a problem converting the following file(s):"
-msgstr "다음 파일을 변환하는 문제가 발생했습니다:"
+msgstr "다음 파일의 변환 중 문제 발생:"
 
 #. seconds
 #: ErrHandlers.pas:431 Extensions.pas:727
 msgid "There was a problem downloading the following file(s):"
-msgstr "다음 파일을 다운로드하는 문제가 발생했습니다:"
+msgstr "다음 파일의 다운로드 중 문제 발생:"
 
 #. seconds
 #: ErrHandlers.pas:444
 msgid "There was a problem scanning the following item(s):"
-msgstr "다음 항목의 검색 문제 발생:"
+msgstr "다음 항목의 검색 중 문제 발생:"
 
 #. seconds
 #: ErrHandlers.pas:456
 msgid "There was a problem synchronizing the following item(s):"
-msgstr "다음 항목의 동기화 문제 발생:"
+msgstr "다음 항목의 동기화 중 문제 발생:"
 
 #. seconds
 #. splitting or decoding failed
@@ -6227,11 +6223,11 @@ msgstr "잘못된 애드온: MediaMonkey 4.x에서만 유효함"
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
 #: Extensions.pas:840 UpNp.pas:10674
 msgid "%s was successfully installed."
-msgstr "%s가 설치되었습니다."
+msgstr "%s이(가) 설치되었습니다."
 
 #: Extensions.pas:844
 msgid "%s was not installed."
-msgstr "%s가 설치되지 않았습니다."
+msgstr "%s이(가) 설치되지 않았습니다."
 
 #: Extensions.pas:858
 msgid ""
@@ -6239,7 +6235,7 @@ msgid ""
 "Do you wish to continue?"
 msgstr ""
 "이 동작은 '%s'을(를) 제거할 것입니다.\n"
-"계속하겠습니까?"
+"계속하시겠습니까?"
 
 #: Extensions.pas:1026 Extensions.pas:1045 Extensions.pas:1051
 #: Extensions.pas:1116
@@ -6280,7 +6276,7 @@ msgstr "CD/DVD/BD 굽기"
 
 #: FileAssoc.pas:738
 msgid "Rip Audio CD"
-msgstr "오디오 CD 립"
+msgstr "오디오 CD 추출"
 
 #: FileAssoc.pas:740
 msgid "&Install MediaMonkey package"
@@ -6304,9 +6300,7 @@ msgstr "MediaMonkey로 DVD 재생"
 msgid ""
 "MediaMonkey is all-in-one audio jukebox application that can organize your "
 "digital music collection."
-msgstr ""
-"MediaMonkey는 디지털 음악 수집을 구성할 수 있는 오디오 주크박스 프로그램입니"
-"다."
+msgstr "MediaMonkey는 디지털 음악 컬렉션을 구성할 수 있는 오디오 주크박스 프로그램입니다."
 
 #: FileAssoc.pas:1132
 msgid "MediaMonkey Addon file"
@@ -6342,7 +6336,7 @@ msgstr "가상 CD 내용"
 
 #: FileUtils.pas:2299 UPnPTreeHelper.pas:1898
 msgid "Previews"
-msgstr "미리듣기"
+msgstr "미리 듣기"
 
 #: FileUtils.pas:2686
 msgid "Drive %s is running out of space."
@@ -6464,19 +6458,19 @@ msgstr "WMA Speech"
 #. Windows Media Audio Lossless Codec
 #: FormatsManage.pas:2998
 msgid "WMA Lossless"
-msgstr "WMA 손실"
+msgstr "WMA 무손실"
 
 #: FormatsManage.pas:3019
 msgid "Windows Media Video 7"
-msgstr "Windows 미디어 비디오 7"
+msgstr "Windows Media 비디오 7"
 
 #: FormatsManage.pas:3025
 msgid "Windows Media Video 8"
-msgstr "Windows 미디어 비디오 8"
+msgstr "Windows Media 비디오 8"
 
 #: FormatsManage.pas:3031
 msgid "Windows Media Video 9"
-msgstr "Windows 미디어 비디오 9"
+msgstr "Windows Media 비디오 9"
 
 #: FormatsManage.pas:3052
 msgid "VP8"
@@ -6548,7 +6542,7 @@ msgstr "H: "
 
 #: FormatsManage.pas:5045 FormatsManage.pas:5063 FormatsManage.pas:5076
 msgid "above"
-msgstr "보다 위"
+msgstr "이상"
 
 #: FullPlayer.pas:2091
 msgid "Add %d file(s) to Playing"
@@ -6560,7 +6554,7 @@ msgstr "재생 지우기"
 
 #: FullPlayer.pas:2710
 msgid "Currently, there is no output plug-in selected"
-msgstr "현재, 선택한 출력 플러그-인 없음"
+msgstr "현재, 선택한 출력 플러그인 없음"
 
 #: FullPlayer.pas:2724
 msgid "Currently no input plug-in is in use (no file is playing)."
@@ -6586,7 +6580,7 @@ msgstr "목록 무작위화"
 #. this song already was in the playlist
 #: FullPlayer.pas:4552
 msgid "No duplicates were detected."
-msgstr "탐지된 중복항목 없음."
+msgstr "감지된 중복 항목 없음."
 
 #: FullPlayer.pas:4556
 msgid "Do you want to remove %d duplicate(s) Playing?"
@@ -6610,7 +6604,7 @@ msgstr "%s 파일에 대한 파형 계산"
 
 #: FullPlayer.pas:7654 WinAmpPlugins.pas:2879
 msgid "No configuration"
-msgstr "구성없음"
+msgstr "구성 없음"
 
 #. read data to a temporary buffer
 #: GeneralDecoder.pas:754 GeneralDecoder.pas:758 MediaMonkeyApp.pas:3951
@@ -6664,15 +6658,15 @@ msgstr "브라우저 홈"
 
 #: Hotkeys.pas:697
 msgid "Volume Mute"
-msgstr "볼륨 죽임"
+msgstr "볼륨 음소거"
 
 #: Hotkeys.pas:698
 msgid "Volume Down"
-msgstr "볼륨 감소"
+msgstr "볼륨 줄이기"
 
 #: Hotkeys.pas:699
 msgid "Volume Up"
-msgstr "볼륨 증가"
+msgstr "볼륨 키우기"
 
 #: Hotkeys.pas:700
 msgid "Media Next"
@@ -6688,7 +6682,7 @@ msgstr "미디어 중지"
 
 #: Hotkeys.pas:703
 msgid "Media Play/Pause"
-msgstr "미디어 재생/일시중지"
+msgstr "미디어 재생/일시 중지"
 
 #: Hotkeys.pas:704
 msgid "Launch Mail"
@@ -6710,7 +6704,7 @@ msgstr "HID 키"
 #. we don't know parent playlist id yet
 #: Importers.pas:146 M3Umanage.pas:521
 msgid "Imported playlists"
-msgstr "가져온 재생목록"
+msgstr "가져온 재생 목록"
 
 #: Importers.pas:211
 msgid ""
@@ -6746,7 +6740,7 @@ msgstr "윈앰프"
 
 #: Importers.pas:879 Importers.pas:884
 msgid "Windows Media Player"
-msgstr "윈도우즈 미디어 플레이어"
+msgstr "Windows Media 플레이어"
 
 #: Importers.pas:1069
 msgid "Importing data from J. River Media Center..."
@@ -6819,7 +6813,7 @@ msgstr "재생목록 이름"
 
 #: MaskHelper.pas:3122
 msgid "Track artist"
-msgstr "트랙 음악가"
+msgstr "트랙 아티스트"
 
 #: MaskHelper.pas:3123
 msgid "Video actors"
@@ -6859,9 +6853,7 @@ msgstr "건너뜀#"
 
 #: MediaManage.pas:2510
 msgid "An error occured while moving file %s to %s. Do you want to try again?"
-msgstr ""
-"파일을 %s로부터 %s(으)로 이동하던 중 오류가 발생했습니다. 다시 시도하겠습니"
-"까?"
+msgstr "파일을 %s로부터 %s(으)로 이동 중 오류가 발생했습니다. 다시 시도하겠습니까?"
 
 #: MediaManage.pas:2653
 msgid "Moving file %d of %d (%s)"
@@ -6965,7 +6957,7 @@ msgstr "dB"
 
 #: MediaMonkeyApp.pas:7521 QueryManage.pas:4658
 msgid "Leveling"
-msgstr "볼륨"
+msgstr "평준화"
 
 #: MediaMonkeyApp.pas:7936
 msgid "Edit Properties"
@@ -7233,7 +7225,7 @@ msgstr "고품질"
 #. quality tag constant
 #: NewDBCreate.pas:1216
 msgid "Good copy"
-msgstr "우량품질"
+msgstr "우량 품질"
 
 #
 #. quality tag constant
@@ -7279,7 +7271,7 @@ msgstr "최근에 추가됨(1GB)"
 
 #: Normalization.pas:361
 msgid "Generating thumbnail $act$ of $tot$ ($name$)"
-msgstr "$act$ / $tot$ ($name$)의 미리 보기를 생성 중"
+msgstr "$act$ / $tot$ ($name$)의 썸네일 생성 중"
 
 #: Normalization.pas:452
 msgid "Saving tags"
@@ -7292,7 +7284,7 @@ msgstr "%d / %d (%s)"
 #. otherwise could result in write lock after read lock assertion when SD item is changed in CalcNormalization (crash C0040000)
 #: Normalization.pas:1717
 msgid "Leveling volume %d of %d (%s)"
-msgstr "볼륨 조정 %d / %d (%s)"
+msgstr "볼륨 평준화 %d / %d (%s)"
 
 #: Normalization.pas:1744
 msgid "Track volume may be leveled only for MP3 files."
@@ -7307,12 +7299,11 @@ msgid ""
 "This playlist is a parent of other playlists. Deleting it will also remove "
 "its children. Are you sure you want to delete it?"
 msgstr ""
-"이 재생목록은 다른 재생목록의 상위목록입니다. 이 재생목록을 삭제하면 하위 재"
-"생목록도 삭제됩니다. 재생목록을 삭제하시겠습니까?"
+"이 재생 목록은 다른 재생 목록의 상위 목록입니다. 이 재생 목록을 삭제하면 하위 재생 목록도 삭제됩니다. 재생 목록을 삭제하시겠습니까?"
 
 #: PlaylistManage.pas:1260
 msgid "Duplicate file(s) detected:"
-msgstr "발견된 중복파일:"
+msgstr "발견된 중복 파일:"
 
 #. new line
 #: PlaylistManage.pas:1272
@@ -7390,7 +7381,7 @@ msgstr "삽화 없음"
 
 #: QueryManage.pas:4200
 msgid "Is synced to"
-msgstr "동기화"
+msgstr "동기화됨"
 
 #: QueryManage.pas:4209
 msgid "Isn't synced to"
@@ -7450,7 +7441,7 @@ msgstr "모든 텍스트"
 
 #: QueryManage.pas:4636
 msgid "# Tracks by Artist"
-msgstr "음악가의 트랙 수"
+msgstr "아티스트별 트랙 수"
 
 #: QueryManage.pas:4637
 msgid "# Tracks in Album"
@@ -7458,11 +7449,11 @@ msgstr "앨범의 트랙 수"
 
 #: QueryManage.pas:4638
 msgid "# Albums by Artist"
-msgstr "음악가의 앨범 수"
+msgstr "아티스트별 앨범 수"
 
 #: QueryManage.pas:4641
 msgid "Artist Comment"
-msgstr "음악가 주석"
+msgstr "아티스트 주석"
 
 #: QueryManage.pas:4642
 msgid "Album Comment"
@@ -7534,9 +7525,7 @@ msgstr "현재"
 msgid ""
 "To upgrade or to learn more about MediaMonkey Gold, click the 'Upgrade' "
 "button."
-msgstr ""
-"업그레이드하거나 MediaMonkey Gold에 관한 추가 정보는, '업그레이드' 버튼을 클"
-"릭하십시오."
+msgstr "업그레이드하거나 MediaMonkey Gold에 관한 추가 정보는, '업그레이드' 단추를 누르십시오."
 
 #: RegManage.pas:565
 msgid "Upgrade"
@@ -7561,7 +7550,7 @@ msgstr "가운데"
 
 #: ResStrings.pas:368
 msgid "Progress"
-msgstr "진행상황"
+msgstr "진행 상황"
 
 #: ResStrings.pas:370
 msgid "Approx. bitrate"
@@ -7597,11 +7586,11 @@ msgstr "자동 추가 "
 
 #: ResStrings.pas:381
 msgid "Added "
-msgstr "추가 "
+msgstr "추가됨 "
 
 #: ResStrings.pas:383
 msgid "artists"
-msgstr "음악가"
+msgstr "아티스트"
 
 #: ResStrings.pas:385 dialogs\dlgErrorLog.html:20
 msgid "Save"
@@ -7725,9 +7714,8 @@ msgid ""
 "example, browse your classical music collection independently of your other "
 "music. Collections can only be edited with the Gold version."
 msgstr ""
-"컬렉션은, 예를 들어, 다른 음악에서 독립적으로 클래식 음악 컬렉션을 검색할 수 "
-"있도록 라이브러리의 하위 집합을 정의할 수 있습니다. 컬렉션은 골드 버전에서만 "
-"편집할 수 있습니다."
+"컬렉션은, 예를 들어, 다른 음악에서 독립적으로 클래식 음악 컬렉션을 검색할 수 있도록 라이브러리의 하위 집합을 정의할 수 있습니다. "
+"컬렉션은 Gold 버전에서만 편집할 수 있습니다."
 
 #: ResStrings.pas:568
 msgid "Information"
@@ -7788,7 +7776,7 @@ msgstr "%d 미재생 에피소드"
 #. is done via app.sharing.setPlayerControlAllowed()
 #: Settings.pas:1349
 msgid "MediaMonkey Player"
-msgstr "Monkey 플레이어"
+msgstr "MediaMonkey 플레이어"
 
 #: Shutdowner.pas:173
 msgid "Your computer is going to shutdown"
@@ -7796,11 +7784,11 @@ msgstr "컴퓨터가 종료될 것입니다"
 
 #: Shutdowner.pas:185
 msgid "Your computer is going to hibernate"
-msgstr "컴퓨터가 대기모드로 전환될 것입니다"
+msgstr "컴퓨터가 대기 모드로 전환될 것입니다"
 
 #: Shutdowner.pas:197
 msgid "Your computer is going to sleep"
-msgstr "컴퓨터가 절전모드로 전환될 것입니다"
+msgstr "컴퓨터가 절전 모드로 전환됩니다"
 
 #: Shutdowner.pas:209
 msgid "Your computer is going to log off"
@@ -7883,7 +7871,7 @@ msgstr "중지 중"
 
 #: UpNp.pas:8087
 msgid "The %s player is turned off or inaccessible."
-msgstr "%s 플레이어는 꺼져있거나 액세스 할 수 없습니다."
+msgstr "%s 플레이어가 꺼져있거나 액세스 할 수 없습니다."
 
 #. to not enter sleep mode when we are playing to a receiver and all data is already buffered by the receiver (#15089)
 #. to not show "turned off or inaccessible" message, but just skip to the next file
@@ -7972,12 +7960,12 @@ msgstr "MediaMonkey가 업데이트를 확인할 수 없습니다;"
 #. JumpList.Tasks.AddShellLink( _('Minimize to MiniPlayer'), '/w7t=gomini', Application.ExeName, 0);
 #: Win7ToolsImpl.pas:2187
 msgid "&Load Playlist"
-msgstr "재생목록 불러오기(&L)"
+msgstr "재생 목록 읽어오기(&L)"
 
 #. make sure CD_Reader is the first
 #: WinAmpPlugins.pas:3170
 msgid "Plug-in %s could not be opened."
-msgstr "플러그-인 %s을(를) 열 수 없음."
+msgstr "플러그인 %s을(를) 열 수 없음."
 
 #: WinAmpPlugins.pas:5233
 msgid ""
@@ -8028,7 +8016,7 @@ msgstr "부드러운 스크롤 사용"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
-msgstr "기존의 단축키 항목에 변경사항을 적용"
+msgstr "기존의 단축키 항목에 변경 사항 적용"
 
 #: dialogs\dlgOptions\pnl_Library.html:145
 msgid ".nfo files"
@@ -8082,11 +8070,11 @@ msgid ""
 "separate directories, or are simply prefaced with text indicating whether it "
 "is an Album or Artist."
 msgstr ""
-"개별 디렉터리에 앨범, 아티스트, 재생 목록 등의 저장 여부, 또는 간단히 앨범 또는 음악가 여부를 나타내는 텍스트 앞에 추가 합니다."
+"개별 디렉터리에 앨범, 아티스트, 재생 목록 등의 저장 여부, 또는 간단히 앨범 또는 아티스트 여부를 나타내는 텍스트 앞에 추가합니다."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "Use Linux folder separator ('/' instead of '\\')"
-msgstr "리눅스 폴더 분리자 사용 ('\\' 대신 '/')"
+msgstr "리눅스 폴더 분리자 사용 (\\' 대신 '/')"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:32
 msgid "Use extended M3U"
@@ -8203,7 +8191,7 @@ msgstr "하나의 MediaMonkey만 허용"
 
 #: dialogs\dlgOptions\pnl_General.html:23
 msgid "Shows the MediaMonkey icon in the system tray"
-msgstr "알림영역에 MediaMonkey 이이콘 표시"
+msgstr "알림 영역에 MediaMonkey 이이콘 표시"
 
 #: dialogs\dlgOptions\pnl_Library.html:125
 msgid "Video properties:"
@@ -8231,7 +8219,7 @@ msgstr "오디오/비디오"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:18
 msgid "Level playback volume to:"
-msgstr "재생 볼륨 수준:"
+msgstr "재생 볼륨 평준화:"
 
 #: dialogs\dlgWizard\pnlRegistration.html:33
 msgid "If you don't have a license key, you can "
@@ -8273,7 +8261,7 @@ msgstr "이렇게 하면, 트랙이 부족할 때 자동으로 재생 목록에 
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:9
 msgid "Confirm desired options on removal of files from Playlist"
-msgstr "재생목록에서 파일 삭제 시 옵션 확인"
+msgstr "재생 목록에서 파일 삭제 시 옵션 확인"
 
 #: dialogs\dlgOptions\pnl_General.html:8
 msgid "Check for updates (when connected)"
@@ -8285,8 +8273,8 @@ msgid ""
 "English characters. Note that some players may not support unicode .m3u "
 "playlists."
 msgstr ""
-".m3u 파일로 유니코드를 사용합니다. 그렇지만, 일부 플레이어에서 유니코드의 ."
-"m3u 재생목록을 읽을 때 문제가 발생하는 경우가 있습니다."
+".m3u 파일로 유니코드를 사용합니다. 그렇지만, 일부 플레이어에서 유니코드의 .m3u 재생 목록을 읽을 때 문제가 발생하는 경우가 "
+"있습니다."
 
 #: dialogs\dlgWizard\pnlRegistration.html:8
 msgid ""
@@ -8366,14 +8354,12 @@ msgid ""
 "Series/Movie is contained within a folder b) for all images when multiple "
 "Albums/Series/Movies are contained within a folder."
 msgstr ""
-"폴더에 하나 이상의 이미지가 저장되는 경우, 이 파일 이름이 사용됩니다. a) 폴더"
-"에 단일 앨범/시리즈/동영상이 포함되어 있으면 첫 번째 이미지 이외의 이름에 사"
-"용되며 b) 폴더에 여러 개의 앨범/시리즈/동영상이 포함되어 있으면, 모든 이미지 "
-"이름에 사용됩니다."
+"폴더에 하나 이상의 이미지가 저장되는 경우, 이 파일 이름이 사용됩니다. a) 폴더에 단일 앨범/시리즈/동영상이 포함되어 있으면 첫 번째 "
+"이미지 이외의 이름에 사용되며, b) 폴더에 여러 개의 앨범/시리즈/동영상이 포함되어 있으면, 모든 이미지 이름에 사용됩니다."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:36
 msgid "Level ripped tracks:"
-msgstr "추출된 트랙 조절:"
+msgstr "추출된 트랙 조정:"
 
 #: controls\autoConvertConfig.html:7
 msgid ""
@@ -8430,9 +8416,8 @@ msgid ""
 "This option causes MediaMonkey to never truly close--it always runs in the "
 "background, and is always accessible via the system tray."
 msgstr ""
-"MediaMonkey의 닫기 버튼을 눌렀을 때에, MediaMonkey를 백그라운드로 실행하도록 "
-"합니다. 닫기 버튼을 눌렀을 경우, MediaMonkey는 알림영역을 경유하여 접근할 수 "
-"있게 됩니다."
+"MediaMonkey의 닫기 버튼을 눌렀을 때에, MediaMonkey를 백그라운드로 실행하도록 합니다. 닫기 버튼을 눌렀을 경우, "
+"MediaMonkey는 알림 영역을 경유하여 접근할 수 있습니다."
 
 #: dialogs\dlgOptions\pnl_General.html:30
 msgid "Minimizes to the Taskbar"
@@ -8440,7 +8425,7 @@ msgstr "작업 표시줄에 최소화"
 
 #: dialogs\dlgOptions\pnl_Library.html:117
 msgid "Tags then Playlists"
-msgstr "태그, 재생목록 순서 얻기"
+msgstr "태그, 재생 목록 순서 얻기"
 
 #: dialogs\dlgOptions\pnl_Player.html:23
 msgid "From other applications..."
@@ -8484,7 +8469,7 @@ msgstr "업데이트, 다운로드"
 
 #: dialogs\dlgPodcastSubscription.html:73
 msgid "Only if rating is less than"
-msgstr "다음보다 작은 등급의 경우만"
+msgstr "다음보다 작은 평가의 경우만"
 
 #: dialogs\dlgSupportedFormat.html:107
 msgid "Width"
@@ -8496,8 +8481,7 @@ msgid ""
 "or edited. To fully automate, enable File Monitoring to scan directories in "
 "the background."
 msgstr ""
-"파일을 검색하거나 편집 할 때마다 위의 규칙에 따라 라이브러리의 파일을 정리합"
-"니다. 완전 자동화하려면 폴더 모니터링을 선택합니다."
+"파일을 검색하거나 편집 할 때마다, 위의 규칙에 따라 라이브러리의 파일을 정리합니다. 완전 자동화하려면 폴더 모니터링을 선택합니다."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:14
 msgid ""
@@ -8547,11 +8531,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:3
 msgid "Target volume levels"
-msgstr "대상 볼륨 수준"
+msgstr "대상 볼륨 평준화"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:124
 msgid "Album artist(s)"
-msgstr "앨범 음악가"
+msgstr "앨범 아티스트"
 
 #: controls\searchView.html:8
 msgid "My Library"
@@ -8613,9 +8597,8 @@ msgid ""
 "folder that isn't monitored, as doing so would result in the file being "
 "removed from the Library entirely."
 msgstr ""
-"모니터링 폴더에서 이동/삭제된 파일을 라이브러리에서 제거할 때 사용합니다. 이"
-"것은 매우 유용하지만, 파일을 모니터링 폴더 이외로 이동시키지 않을 때만 사용되"
-"어야 합니다. 라이브러리에서 삭제된 파일만 대상이 됩니다."
+"모니터링 폴더에서 이동/삭제된 파일을 라이브러리에서 제거할 때 사용합니다. 이것은 매우 유용하지만, 파일을 모니터링 폴더 이외로 이동하지 "
+"않을 때만 사용되어야 합니다. 라이브러리에서 삭제된 파일만 대상이 됩니다."
 
 #: dialogs\dlgOptions\pnl_Library.html:170
 msgid "Scan file directories for Artwork"
@@ -8651,8 +8634,7 @@ msgstr "EPs"
 msgid ""
 "Syncs updated metadata such as ratings and play counts from the device to "
 "the PC."
-msgstr ""
-"동기화는 장치에서 PC로 등급 및 재생 수와 같은 메타데이터를 업데이트합니다."
+msgstr "동기화는 장치에서 PC로 평가 및 재생 수와 같은 메타데이터를 업데이트합니다."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:23
 msgid ""
@@ -8665,7 +8647,7 @@ msgstr ""
 
 #: controls\deviceConfig\options\pnl_Tagging.html:15
 msgid "Use only the first Genre when multiple Genres exist"
-msgstr "다중 장르가 존재하면 처음 장르만 사용"
+msgstr "여러 장르가 존재하면 처음 장르만 사용"
 
 #: dialogs\dlgAbout.html:28
 msgid ""
@@ -8819,7 +8801,7 @@ msgstr "로그 보기"
 
 #: dialogs\dlgTrackProperties.html:12
 msgid "Update & Previous song (Alt-Left)"
-msgstr "이전 곡 갱신 (Alt-Left)"
+msgstr "업데이트 & 이전 곡 (Alt-Left)"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:50
 msgid "Show warning when file to be played is not accessible"
@@ -8848,7 +8830,7 @@ msgstr "전체 잠금"
 #: dialogs\dlgOptions\pnl_Player.html:102
 msgid ""
 "Plays videos via the system's default video player instead of in MediaMonkey"
-msgstr "MediaMonkey 대신 시스템의 기본 비디오 재생기로 비디오 재생"
+msgstr "MediaMonkey 대신 시스템의 기본 비디오 플레이어로 비디오 재생"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:64
 msgid "Original title"
@@ -8892,11 +8874,11 @@ msgstr "프로필"
 
 #: dialogs\dlgTrackProperties.html:13
 msgid "Update & Next song (Alt-Right)"
-msgstr "다음 곡 갱신 (Alt-Right)"
+msgstr "업데이트 & 다음 곡 (Alt-Right)"
 
 #: dialogs\dlgOptions\pnl_Library.html:76
 msgid "Remove unused Attributes (Artist, Album, Composer, ...)"
-msgstr "미사용 특성 제거 (음악가, 앨범, 작곡가, ...)"
+msgstr "미사용 특성 제거 (아티스트, 앨범, 작곡가, ...)"
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:11
 msgid "Cache auto-converted content to:"
@@ -8908,7 +8890,7 @@ msgstr "Freedb (CDDBP)"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:11
 msgid "Saves the change without confirmation."
-msgstr "확인없이 변경 사항 저장."
+msgstr "확인 없이 변경 사항 저장."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -8925,7 +8907,7 @@ msgstr "'트랙 요약'의 표시 형식(예: 플레이어):"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:49
 msgid "Warn when duplicate files are added"
-msgstr "중복 파일을 추가하는 경우 경고"
+msgstr "중복 파일을 추가할 때, 경고"
 
 #: dialogs\dlgTrackProperties\tabCustom.html:104
 msgid "Edit extended tags"
@@ -8949,7 +8931,7 @@ msgstr "제품 유형"
 
 #: dialogs\dlgConvertFormat.html:46
 msgid "Level Track volume"
-msgstr "트랙 볼륨 수준"
+msgstr "트랙 볼륨 평준화"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Verify ripped tracks"
@@ -9089,8 +9071,8 @@ msgid ""
 "playlist, remove them from the playlist and the library, or delete them from "
 "the playlist, the library, and the computer system."
 msgstr ""
-"트랙을 재생 중 목록에서 삭제하거나, 재생중 목록과 라이브러리로부터 삭제하거"
-"나, 재생 중 목록과 라이브러리와 컴퓨터에서의 삭제여부를 확인합니다."
+"트랙을 재생 중 목록에서 삭제하거나, 재생중 목록과 라이브러리로부터 삭제하거나, 재생 중 목록과 라이브러리와 컴퓨터에서 삭제 여부를 "
+"확인합니다."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:23
 msgid ""
@@ -9114,7 +9096,7 @@ msgstr "MediaMonkey의 언어를 선택할 수 있습니다. 변경 내용을 �
 msgid ""
 "This option forces a maximum of one MediaMonkey window to be open at any "
 "time."
-msgstr "이 옵션을 유효하게 하면, MediaMonkey의 다중 시작을 금지합니다."
+msgstr "이 옵션을 사용하면, 언제든지 하나의 MediaMonkey 창만 열 수 있습니다."
 
 #: dialogs\dlgOptions\pnl_Library.html:92
 msgid "Inferred properties then tags"
@@ -9143,10 +9125,9 @@ msgid ""
 "Digital Media Server. If you wish to play content from MediaMonkey's "
 "library, you must also enable Media Sharing."
 msgstr ""
-"디지털 미디어 컨트롤러는 디지털 미디어 서버에서 콘텐츠를 검색하고 그것을 "
-"MediaMonkey에서 재생시킬 수 있도록 MediaMonkey를 디지털 미디어 렌더러로 동작"
-"시킵니다. 만약 MediaMonkey 라이브러리에서 콘텐츠 재생을 원하면, 미디어 공유 "
-"기능도 활성화해야 합니다."
+"디지털 미디어 컨트롤러는 디지털 미디어 서버에서 콘텐츠를 검색하고 그것을 MediaMonkey에서 재생할 수 있도록 "
+"MediaMonkey를 디지털 미디어 렌더러로 동작하게 합니다. 만약 MediaMonkey 라이브러리에서 콘텐츠 재생을 원하면, 미디어 "
+"공유 기능도 활성화해야 합니다."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:45
 msgid ""
@@ -9154,9 +9135,8 @@ msgid ""
 "added files to your library. The main use of this is if you wish to export "
 "playlists of newly added files to a portable device."
 msgstr ""
-"이 옵션은 라이브러리에 새로 추가된 파일의 재생목록을 자동으로 생성할 때 유용"
-"합니다. 주로 새로 추가된 파일의 재생목록을 휴대 장치로 내보내려는 경우에 사용"
-"합니다."
+"이 옵션은 라이브러리에 새로 추가된 파일의 재생 목록을 자동으로 생성할 때 유용합니다. 주로 새로 추가된 파일의 재생 목록을 휴대 장치로 "
+"내보내려는 경우에 사용합니다."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:46
 msgid "Create playlists of tracks newly added to the library"
@@ -9172,7 +9152,7 @@ msgstr "프로듀서"
 
 #: controls\autoConvertConfig.html:9
 msgid "Target volume level"
-msgstr "대상 볼륨 수준"
+msgstr "대상 볼륨 평준화"
 
 #: controls\devicesView.html:9
 msgid "No devices configured. You can connect a device via USB or Wi-Fi."
@@ -9180,7 +9160,7 @@ msgstr "구성된 장치가 없습니다. USB 또는 Wi-Fi를 통해 장치를 �
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Syncs files from the selected folders on the device to the PC."
-msgstr "장치와 선택한 폴더의 파일을 동기화합니다."
+msgstr "장치에서 선택한 폴더의 파일을 PC로 동기화합니다."
 
 #: dialogs\dlgAutoorganize.html:9
 msgid "Move and rename files to new destination based on file tags"
@@ -9208,7 +9188,7 @@ msgstr "라이브러리 폴더의 이동 시 옵션 확인"
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:9
 msgid "Download more DSP plug-ins..."
-msgstr "DSP 플러그-인 다운로드..."
+msgstr "DSP 플러그인 다운로드..."
 
 #: dialogs\dlgOptions\pnl_General.html:33
 msgid ""
@@ -9236,7 +9216,7 @@ msgstr "이 옵션은 메뉴 표시줄을 완전히 숨깁니다."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:24
 msgid "Allows music to be lowered/paused for announcements during a party"
-msgstr "파티하는 동안 안내를 위해 음악의 일시중지를 허용합니다"
+msgstr "파티하는 동안 안내를 위해 음악의 일시 중지를 허용합니다"
 
 #: dialogs\dlgOptions\pnl_Search.html:23
 msgid "Search the following fields via the Search bar:"
@@ -9256,7 +9236,7 @@ msgstr "장치에서 PC로 파일 메타데이터 자동 동기화"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:41
 msgid "prefix for each playlist type"
-msgstr "각 재생목록 유형을 위한 접두어"
+msgstr "각 재생 목록 유형을 위한 접두어"
 
 #: dialogs\dlgConvertFormat.html:40
 msgid "Jitter-corrected read"
@@ -9268,7 +9248,7 @@ msgstr "경고 사라짐:"
 
 #: dialogs\dlgSleep.html:16
 msgid "Start fading in"
-msgstr "페이드-인 시작"
+msgstr "페이드인 시작"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
 msgid ""
@@ -9285,7 +9265,7 @@ msgstr "시작할 때 시작 화면 표시"
 
 #: dialogs\dlgOptions\pnl_General.html:45
 msgid "Enable mouse gestures for tray icon"
-msgstr "알림영역에서 마우스 제스처 사용"
+msgstr "알림 영역에서 마우스 제스처 사용"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:19
 msgid "Available elements"
@@ -9305,7 +9285,7 @@ msgstr "프록시 서버 사용"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:19
 msgid "Show AutoPlay actions for:"
-msgstr "자동재생 동작 표시:"
+msgstr "자동 재생 동작 표시:"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:26
 msgid "DVD video playback"
@@ -9333,8 +9313,7 @@ msgstr ""
 msgid ""
 "If enabled, a warning is provided whenever duplicate files are added to a "
 "playlist."
-msgstr ""
-"유효하게 하면, 중복된 파일을 재생목록에 추가할 때 경고 메시지를 표시합니다."
+msgstr "유효하게 하면, 중복된 파일을 재생 목록에 추가할 때 경고 메시지를 표시합니다."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:56
 msgid "Clipping prevention"
@@ -9378,7 +9357,7 @@ msgstr "현재 볼륨의 %"
 
 #: dialogs\dlgSupportedFormat.html:70
 msgid "Levels"
-msgstr "수준"
+msgstr "평준화"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:5
 msgid ""
@@ -9507,7 +9486,7 @@ msgstr "볼륨, 재생/일시 중지 컨트롤 활성화"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:66
 msgid "Only analyze files with unknown Leveling Adjustment"
-msgstr "알 수 없는 수준 조정을 포함하여 파일만 분석"
+msgstr "알 수 없는 평준화 조정을 포함하여 파일만 분석"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:150
 msgid "Play counter"
@@ -9590,7 +9569,7 @@ msgstr "속성을 편집할 때 태그 갱신"
 msgid ""
 "This value determines playback volume (for track(s) that have been analyzed) "
 "if 'Level playback volume' is enabled."
-msgstr "이 값은 '재생 볼륨 수준'이 활성화된 경우 분석된 트랙의 재생 볼륨을 결정합니다."
+msgstr "이 값은 '재생 볼륨 평준화'가 활성화된 경우 분석된 트랙의 재생 볼륨을 결정합니다."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:71
 msgid "Automatically analyzes volume of tracks as a background process"
@@ -9626,7 +9605,7 @@ msgstr "선택하지 않은 항목 숨기기"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:2
 msgid "Sync playlists (recommended)"
-msgstr "재생목록 동기화 (권장)"
+msgstr "재생 목록 동기화 (권장)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:39
 msgid "Organize playlists using:"
@@ -9634,7 +9613,7 @@ msgstr "다음을 사용하여 재생 목록 구성:"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
 msgid "Use only the first value when multiple Artists / Composers exist"
-msgstr "다중 음악가/작곡가가 존재하면 처음 값만 사용"
+msgstr "여러 아티스트/작곡가가 존재하면 처음 값만 사용"
 
 #: dialogs\dlgAddArtwork.html:34
 msgid "Replace existing image"
@@ -9664,7 +9643,7 @@ msgstr "재생 대기열에 있는 파일에 액세스할 수 없는 경우(예:
 
 #: dialogs\dlgOptions\pnl_General.html:44
 msgid "This enables mouse gestures on the tray icon."
-msgstr "알림영역 아이콘에서 마우스 제스처를 사용합니다."
+msgstr "알림 영역 아이콘에서 마우스 제스처를 사용합니다."
 
 #: dialogs\dlgOptions\pnl_Library.html:110
 msgid "Get Album titles and Track Numbers from:"
@@ -9717,7 +9696,7 @@ msgstr "감독"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:42
 msgid "subdirectory for each playlist type"
-msgstr "각 재생목록 유형을 위한 하위폴더"
+msgstr "각 재생 목록 유형을 위한 하위 폴더"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:29
 msgid "This format is used by some newer devices"
@@ -9795,7 +9774,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_OutputPlugins.html:10
 msgid "Download more output plug-ins..."
-msgstr "출력 플러그-인 다운로드..."
+msgstr "출력 플러그인 다운로드..."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:6
 msgid "Prevents users from making any changes"
@@ -9863,7 +9842,7 @@ msgstr "자동으로 최저 유지"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:20
 msgid "Choose where Auto-DJ should add tracks from"
-msgstr "자동-DJ가 트랙을 추가하려는 위치를 선택합니다"
+msgstr "자동-DJ가 트랙을 추가하려는 위치 선택"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:20
 msgid "If enabled, MediaMonkey will display results after a scan is completed."
@@ -9965,7 +9944,7 @@ msgstr "M3U 재생목록을 위해 유니코드(UTF-8 인코딩) 사용"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:7
 msgid "Level playback / sync volume:"
-msgstr "재생/동기화 볼륨 수준:"
+msgstr "재생/동기화 볼륨 평준화:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:47
 msgid "Target volume for ripping Audio CDs:"
@@ -9999,11 +9978,11 @@ msgstr "사용자 이름"
 
 #: dialogs\dlgNewVersion.html:7
 msgid "There is a new version of MediaMonkey available."
-msgstr "사용가능한 MediaMonkey의 새로운 버전이 있습니다."
+msgstr "새로운 버전의 MediaMonkey를 사용할 수 있습니다."
 
 #: dialogs\dlgNewVersion.html:18
 msgid "Description of the new version:"
-msgstr "새로운 버전의 설명:"
+msgstr "새 버전 설명:"
 
 #: dialogs\dlgOGGSettings.html:12
 msgid "(recommended)"
@@ -10029,7 +10008,7 @@ msgstr "문맥 도움말을 위해 도구 팁 표시"
 
 #: dialogs\dlgOptions\pnl_InputPlugins.html:10
 msgid "Download more input plug-ins..."
-msgstr "입력 플러그-인 다운로드..."
+msgstr "입력 플러그인 다운로드..."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:26
 msgid "Audio CD metadata lookup"
@@ -10115,7 +10094,7 @@ msgstr "다른 프로그램으로의 전환 차단 (Alt+Tab, Alt+Esc, Ctrl+Esc)"
 
 #: dialogs\dlgOptions\pnl_Player.html:52
 msgid "Indicates how long the Pop-up should take to fade out"
-msgstr "팝업이 페이드 아웃되는 데 걸리는 시간을 나타냄"
+msgstr "팝업이 페이드아웃되는 데 걸리는 시간을 나타냄"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:56
 msgid ""
@@ -10134,9 +10113,7 @@ msgstr "지휘자"
 msgid ""
 "MediaMonkey is free, however, you can upgrade to MediaMonkey Gold to get "
 "additional features:"
-msgstr ""
-"MediaMonkey는 무료이지만, 더 강력한 MediaMonkey 골드로 업그레이드할 수 있습니"
-"다:"
+msgstr "MediaMonkey는 무료이지만, 더 강력한 MediaMonkey Gold로 업그레이드할 수 있습니다:"
 
 #: controls\windowtitle.html:19
 msgid "Close window"
@@ -10342,7 +10319,7 @@ msgstr " kbps"
 
 #: dialogs\dlgPodcastSubscription.html:91
 msgid "Displays all episodes including those that have previously been deleted"
-msgstr "이전에 삭제된 것을 포함하여 모든 에피소드를 표시합니다"
+msgstr "이전에 삭제된 것을 포함하여 모든 에피소드 표시"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:8
 msgid ""
@@ -10353,7 +10330,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Library.html:118
 msgid "Playlists (M3U, XSPF) then Tags"
-msgstr "재생목록 (M3U, XSPF) 다음 태그"
+msgstr "재생 목록(M3U, XSPF) 다음에 태그"
 
 #: dialogs\dlgOptions\pnl_Library.html:85
 msgid ""
@@ -10377,10 +10354,9 @@ msgid ""
 "incorrect). Once you've verified the data, you can update the tags manually--"
 "see Synchronizing Your Tags."
 msgstr ""
-"태그에 충분한 정보가 포함되지 않은 경우, MediaMonkey는 파일명으로부터 아티스"
-"트, 타이틀, 앨범의 정보를 추출합니다. 추출된 정보는 데이터베이스에 저장되나, "
-"태그에 반영되지 않습니다. 데이터를 확인한 후에, 태그를 갱신할 수가 있습니다. "
-"자세한 내용은 도움말의 [Synchronizing Your Tags]를 참조하십시오."
+"태그에 충분한 정보가 포함되지 않은 경우, MediaMonkey는 파일명에서 아티스트, 타이틀, 앨범의 정보를 추출합니다. 추출된 정보는 "
+"데이터베이스에 저장되나, 태그에 반영되지 않습니다. 데이터를 확인한 후에, 태그를 갱신할 수가 있습니다. 자세한 내용은 도움말의 ["
+"Synchronizing Your Tags]를 참조하십시오."
 
 #: dialogs\dlgOptions\pnl_Library.html:172
 msgid ""
@@ -10480,7 +10456,7 @@ msgstr "파일 변환, 원본 바꾸기"
 
 #: dialogs\dlgLogin.html:16
 msgid "Password"
-msgstr "암호"
+msgstr "비밀번호"
 
 #: dialogs\dlgMP3Settings.html:83
 msgid "VBR method"
@@ -10508,7 +10484,7 @@ msgstr "사용 언어:"
 
 #: dialogs\dlgOptions\pnl_General.html:14
 msgid "Submit anonymous usage statistics to help improve the software"
-msgstr "소프트웨어 개선에 도움되는 익명의 사용 통계 보내기"
+msgstr "소프트웨어 개선에 도움이 되는 익명의 사용 통계 보내기"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:30
 msgid "Database"
@@ -10520,7 +10496,7 @@ msgstr "아티스트 이미지가 누락된 경우 조회"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:9
 msgid "Looks up artwork if it's missing"
-msgstr "아트워크가 없으면 아트워크 찾기"
+msgstr "삽화가 없으면 삽화 찾기"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
 msgid "Default action for files: "
@@ -10638,7 +10614,7 @@ msgstr "베타 빌드 포함"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:14
 msgid "Type the key combination to activate the selected action"
-msgstr "선택한 동작을 활성하기 위한 키 조합을 입력합니다"
+msgstr "선택한 동작을 활성화하기 위한 키 조합을 입력합니다"
 
 #: dialogs\dlgOptions\pnl_Library.html:113
 msgid ""
@@ -10654,11 +10630,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Library.html:173
 msgid "Generate thumbnails for videos"
-msgstr "비디오용 미리 보기 그림 생성"
+msgstr "비디오용 썸네일 생성"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:51
 msgid "Play next in MediaMonkey"
-msgstr "Mediamonkey로 다음에 재생"
+msgstr "Mediamonkey로 다음 재생"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:12
 msgid "This option causes MediaMonkey to take up the entire screen."
@@ -10670,7 +10646,7 @@ msgstr "비활성화시만 적용"
 
 #: dialogs\dlgOptions\pnl_Player.html:51
 msgid "Causes the Pop-up to fade-out smoothly"
-msgstr "팝업을 부드럽게 페이드 아웃"
+msgstr "팝업을 부드럽게 페이드아웃"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:34
 msgid "Modify timestamp when updating tags"
@@ -10693,8 +10669,8 @@ msgid ""
 "This makes it easier to browse the device's database. Otherwise, multiple "
 "Artists/Composers would sync as a single string (e.g. 'U2;B.B. King')"
 msgstr ""
-"장치 데이터베이스의 탐색을 쉽게 만듭니다. 그렇지 않으면, 다중 음악가/작곡가"
-"를 단일 문자열로 동기화합니다 (예, 'U2;B.B. King')"
+"장치 데이터베이스의 탐색을 쉽게 만듭니다. 그렇지 않으면, 여러 아티스트/작곡가를 단일 문자열로 동기화합니다 (예, 'U2;B.B. "
+"King')"
 
 #: dialogs\dlgAddonInstall.html:50
 msgid "You should only install software from sources that you trust."
@@ -10767,7 +10743,7 @@ msgstr "느린 페이드아웃:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:27
 msgid "Target volume for leveling tracks:"
-msgstr "트랙의 볼륨을 조정하기 위한 대상:"
+msgstr "트랙 평준화를 위한 대상 볼륨:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:72
 msgid "Automatically analyze volume of unanalyzed files:"
@@ -10791,7 +10767,7 @@ msgstr "이미지:"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:2
 msgid "Sync playlists automatically"
-msgstr "자동으로 재생목록 동기화"
+msgstr "자동으로 재생 목록 동기화"
 
 #: dialogs\dlgAddArtwork.html:15
 msgid "Image type"
@@ -10811,7 +10787,7 @@ msgstr "현재부터"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:15
 msgid "Confirm deletion of currently playing file"
-msgstr "현재 재생중인 파일의 삭제 확인"
+msgstr "현재 재생 중인 파일의 삭제 확인"
 
 #: dialogs\dlgOptions\pnl_Library.html:57
 msgid "Seconds"
@@ -10888,7 +10864,7 @@ msgstr ""
 
 # Quicktime AAC/MP4 plug-in
 msgid "QuickTime"
-msgstr "퀵타임"
+msgstr "QuickTime"
 
 msgid "Quicktime is needed to play M4A and other AAC tracks."
 msgstr "M4A와 다른 AAC 트랙을 재생하기 위해서는 Quicktime이 필요합니다."
@@ -10897,7 +10873,7 @@ msgid "New version of Quicktime is needed to play M4A and other AAC tracks."
 msgstr "M4A와 다른 AAC 트랙을 재생하려면 새로운 버전의 Quicktime이 필요합니다."
 
 msgid "Do you want to download it?"
-msgstr "다운로드 하겠습니까?"
+msgstr "다운로드하겠습니까?"
 
 msgid "Mid/Side stereo"
 msgstr "Mid/Side 스테레오"
@@ -10922,13 +10898,13 @@ msgstr "고정 비트율 (CBR) 2-pass"
 
 # Hotkeys
 msgid "Media Fast Forward"
-msgstr "미디어 감기"
+msgstr "미디어 빨리 감기"
 
 msgid "Media Rewind"
 msgstr "미디어 되감기"
 
 msgid "Media Pause"
-msgstr "미디어 일시중지"
+msgstr "미디어 일시 중지"
 
 msgid "Media Play"
 msgstr "미디어 재생"
