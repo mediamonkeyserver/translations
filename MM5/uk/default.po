@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-26 13:53\n"
-"PO-Revision-Date: 2020-11-26 12:56+0000\n"
+"PO-Revision-Date: 2020-11-26 16:25+0000\n"
 "Last-Translator: Igor Chomko <igorchomko@gmail.com>\n"
 "Language-Team: Ukrainian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/uk/>\n"
@@ -373,6 +373,8 @@ msgid ""
 "Rebuilds full-text search index. This might be useful if searching via "
 "search bar doesn't work right."
 msgstr ""
+"Відновлює повнотекстовий пошуковий індекс. Це може бути корисним, якщо пошук "
+"за допомогою рядка пошуку не працює належним чином."
 
 #. default
 #: actions.js:1519
@@ -528,6 +530,7 @@ msgstr "Додати теки"
 msgid ""
 "If a network location isn't found automatically, you can add one manually."
 msgstr ""
+"Якщо розташування мережі не знайдено автоматично, його можна додати вручну."
 
 #: actions.js:1958 dialogs\dlgWizard\pnlScan.html:10
 msgid "Add location"
@@ -554,6 +557,7 @@ msgstr "Додати медіа сервер вручну"
 #: actions.js:2024
 msgid "If a media server isn't found automatically, you can add one manually."
 msgstr ""
+"Якщо мультимедійний сервер не знайдено автоматично, його можна додати вручну."
 
 #: actions.js:2024 UpNp.pas:9421 controls\devicesView.html:36
 msgid "Device Description file path:"
@@ -958,14 +962,12 @@ msgid "Analyze waveform"
 msgstr "Аналіз форми сигналу"
 
 #: actions.js:3464
-#, fuzzy
-#| msgid "Play selected files only"
 msgid "Display only selected folder's content"
-msgstr "Відтворити лише обрані файли"
+msgstr "Показувати лише вміст вибраної теки"
 
 #: actions.js:3464
 msgid "Display folder content recursively"
-msgstr ""
+msgstr "Показувати вміст теки рекурсивно"
 
 #: actions.js:3495
 msgid "View filter"
@@ -2038,16 +2040,12 @@ msgid "Copying to %s:"
 msgstr "Копіювання до %s:"
 
 #: viewHandlers.js:4005
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to move '%s'?"
-msgstr "Ви дійсно хочете видалити %d попередніх переглядів?"
+msgstr "Ви дійсно хочете перемістити \"%s\"?"
 
 #: viewHandlers.js:4007
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to copy '%s'?"
-msgstr "Ви дійсно хочете видалити %d попередніх переглядів?"
+msgstr "Ви дійсно хочете скопіювати \"%s\"?"
 
 #: viewHandlers.js:4014
 msgid "Copy Library content only"
@@ -2399,12 +2397,17 @@ msgid ""
 "the mismatched values. If tracks don't show highlighted fields, try enabling "
 "additional columns."
 msgstr ""
+"Це знаходить усі доріжки з теґами, які не відповідають базі даних, виділяючи "
+"невідповідні значення. Якщо на доріжках не показуються виділені поля, "
+"спробуйте ввімкнути додаткові стовпці."
 
 #: viewHandlers.js:6824
 msgid ""
 "This node finds all content for which tracks have duplicate hashes or "
 "fingerprints."
 msgstr ""
+"Цей вузол знаходить весь вміст, для якого доріжки мають повторювані хеші або "
+"відбитки."
 
 #: viewHandlers.js:6831 UPnPTreeHelper.pas:1900
 msgid "Files to Edit"
@@ -2791,11 +2794,11 @@ msgstr "Інше"
 #. Add Inspect Element popup command (chromium 39 or later)
 #: controls/control.js:1566
 msgid "Inspect Element"
-msgstr ""
+msgstr "Перевірити елемент"
 
 #: controls/control.js:1582
 msgid "Open DevTools in Chrome"
-msgstr ""
+msgstr "Відкрити DevTools у Chrome"
 
 #: controls/control.js:2007
 msgid "Getting data"
@@ -2907,10 +2910,8 @@ msgid "Show less"
 msgstr "Показати менше"
 
 #: controls/downloadView.js:29
-#, fuzzy
-#| msgid "Resume all"
 msgid "Resume"
-msgstr "Відновити все"
+msgstr "Відновити"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that screen tests are user independent
@@ -4328,10 +4329,8 @@ msgid "Delete from Playing list, the database and drive"
 msgstr "Видалити зі списку відтворення, базу даних та диска"
 
 #: dialogs/dlgDeleteConfirm.js:189
-#, fuzzy
-#| msgid "Are you sure you want to remove %d file(s) from the Library?"
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
-msgstr "Ви дійсно бажаєте вилучити %d файлів з Бібліотеки?"
+msgstr "Ви впевнені, що хочете вилучити %d файлів з \"%s\"?"
 
 #: dialogs/dlgDeletedTracks.js:8
 msgid "Remove Unavailable files ?"
@@ -4778,11 +4777,11 @@ msgstr "Інтеграція ОС"
 
 #: dialogs/dlgPodcastSubscription.js:46
 msgid "Please enter the Podcast's title and URL to subscribe."
-msgstr ""
+msgstr "Будь ласка, введіть назву Подкасту та URL-адресу для підписки."
 
 #: dialogs/dlgPodcastSubscription.js:61
 msgid "You have been already subscribed to this podcast"
-msgstr ""
+msgstr "Ви вже підписалися на цей подкаст"
 
 #: dialogs/dlgPodcastSubscription.js:98 dialogs\dlgOptions\pnl_Download.html:14
 msgid "Global podcast options"
@@ -4955,10 +4954,8 @@ msgid "Welcome to MediaMonkey"
 msgstr "Ласкаво просимо до MediaMonkey"
 
 #: dialogs/dlgWizard.js:18
-#, fuzzy
-#| msgid "Add converted files to the library"
 msgid "To get started, add your media files to the library"
-msgstr "Додати перетворені файли до бібліотеки"
+msgstr "Щоб розпочати, додайте мультимедійні файли до бібліотеки"
 
 #: dialogs/dlgWizard.js:36
 msgid "Setup Wizard"
@@ -5698,16 +5695,12 @@ msgid "Case Checker"
 msgstr "Перевірка Справи"
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:221
-#, fuzzy
-#| msgid "old value"
 msgid "Old Value: "
-msgstr "старе значення"
+msgstr "Старе Значення: "
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:308
-#, fuzzy
-#| msgid "%d database entries to be updated"
 msgid "Select tracks to be updated"
-msgstr "%d записів у базі даних, які потрібно оновити"
+msgstr "Вибрати доріжки для оновлення"
 
 #: Scripts/export/actions_add.js:31
 msgid "File List (&HTML)"
@@ -5808,10 +5801,8 @@ msgid "MediaMonkey Library Statistics"
 msgstr "Статистика Бібліотеки MediaMonkey"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:171
-#, fuzzy
-#| msgid "Total Files"
 msgid "Totals"
-msgstr "Усього файлів"
+msgstr "Всього"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:326 QueryManage.pas:4722
@@ -5820,92 +5811,72 @@ msgid "Played"
 msgstr "Відтворені"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:325
-#, fuzzy
-#| msgid "Average bitrate"
 msgid "Averages"
-msgstr "Середня біт.шв-сть"
+msgstr "Середні"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:327
-#, fuzzy
-#| msgid "# Tracks by Artist"
 msgid "Tracks per Artist"
-msgstr "# Треків Виконавця"
+msgstr "Доріжки на Виконавця"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:328
-#, fuzzy
-#| msgid "# Tracks in Album"
 msgid "Tracks per Album"
-msgstr "# Треків в Альбомі"
+msgstr "Доріжки на Альбом"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:329
 msgid "Tracks per Genre"
-msgstr ""
+msgstr "Доріжки за Жанром"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
 msgid "Tracks per Year"
-msgstr ""
+msgstr "Доріжки за Роком"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:331
-#, fuzzy
-#| msgid "Bitrate (min)"
 msgid "Bitrate (kbps)"
-msgstr "Швидкість потоку (мін.)"
+msgstr "Швидкість потоку (кбіт/с)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:333
-#, fuzzy
-#| msgid "Track %s failed to verify"
 msgid "Tracks played per day"
-msgstr "Не вдалося перевірити доріжку %s"
+msgstr "Доріжки, відтворені за день"
 
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:343
-#, fuzzy
-#| msgid "Artists"
 msgid "Top %d Artists"
-msgstr "Виконавці"
+msgstr "Топ %d Виконавців"
 
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:376
 msgid "Top %d Artists played"
-msgstr ""
+msgstr "Топ %d відтворених Виконавців"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:407
-#, fuzzy
-#| msgid "per Album"
 msgid "Top %d Albums"
-msgstr "на Альбом"
+msgstr "Топ %d Альбомів"
 
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:438
 msgid "Top %d Albums played"
-msgstr ""
+msgstr "Топ %d відтворених Альбомів"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:470
-#, fuzzy
-#| msgid "Genres"
 msgid "Top %d Genres"
-msgstr "Жанри"
+msgstr "Топ %d Жанрів"
 
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:497
 msgid "Top %d Genres played"
-msgstr ""
+msgstr "Топ %d відтворених Жанрів"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:525
-#, fuzzy
-#| msgid "Rating"
 msgid "Ratings"
 msgstr "Рейтинг"
 
 #. rating played
 #: Scripts/statistics/dialogs/dlgStatistics.js:569
-#, fuzzy
-#| msgid "Last played"
 msgid "Ratings played"
-msgstr "Востаннє відтворено"
+msgstr "Рейтинги відтворені"
 
 #. disable auto sizing mechanism, we have fixed size
 #: Scripts/statistics/dialogs/dlgStatistics.js:608
@@ -5931,10 +5902,8 @@ msgstr ""
 "був портативний пристрій."
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:215
-#, fuzzy
-#| msgid "Sync now"
 msgid "Sync root"
-msgstr "Синхронізувати зараз"
+msgstr "Синхронізувати кореневу теку"
 
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:65
 msgid "series"
@@ -5951,10 +5920,8 @@ msgid "Specials"
 msgstr "Спеціальні пропозиції"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:253
-#, fuzzy
-#| msgid "Select files"
 msgid "Select preset"
-msgstr "Вибрати файли"
+msgstr "Вибрати попередні налаштування"
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:410
@@ -6803,27 +6770,27 @@ msgstr "ABR"
 
 #: FormatsHandler.pas:2904
 msgid "Max. bitrate"
-msgstr "Макс. бітова швидкість"
+msgstr "Макс. швидкість потоку"
 
 #: FormatsHandler.pas:3267 FormatsHandler.pas:3495 MediaMonkeyApp.pas:6566
 #: MediaMonkeyApp.pas:6592
 msgid "MediaMonkey is unable to encode this format."
-msgstr "MediaMonkey не може закодувати такий формат."
+msgstr "MediaMonkey не вдається кодувати цей формат."
 
 #. DRM
 #. DRM
 #: FormatsManage.pas:1243 FullPlayer.pas:4064 GeneralDecoder.pas:430
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
-msgstr "Файл %s неможливо декодувати. Можлива причина - обмеження DRM."
+msgstr "Файл %s неможливо декодувати. Можливо, це пов'язано з обмеженнями DRM."
 
 #: FormatsManage.pas:1245
 msgid "File %s was not successfully created."
-msgstr "Файл %s не було створено."
+msgstr "Файл %s не було успішно створено."
 
 #. Check whether album gain needs to be calculated:
 #: FormatsManage.pas:1392 FormatsManage.pas:1468
 msgid "Converting file %d of %d"
-msgstr "Конвертування файлу %d з %d"
+msgstr "Перетворення файлу %d з %d"
 
 #. TODOWIN8
 #: FormatsManage.pas:1403 FormatsManage.pas:1914 UpNp.pas:4458
@@ -6861,17 +6828,17 @@ msgstr "WMA"
 #. Windows Media Audio Professional Codec
 #: FormatsManage.pas:2968
 msgid "WMA Pro"
-msgstr "WMA Про"
+msgstr "WMA Pro"
 
 #. Windows Media Audio Voice Codec
 #: FormatsManage.pas:2974
 msgid "WMA Speech"
-msgstr "WMA Мова"
+msgstr "Мовлення WMA"
 
 #. Windows Media Audio Lossless Codec
 #: FormatsManage.pas:2998
 msgid "WMA Lossless"
-msgstr "WMA Безвтратне"
+msgstr "WMA без втрат"
 
 #: FormatsManage.pas:3019
 msgid "Windows Media Video 7"
@@ -6912,13 +6879,13 @@ msgstr "A: "
 #: FormatsManage.pas:4485 FormatsManage.pas:4507 FormatsManage.pas:4532
 #: FormatsManage.pas:4545
 msgid "Above %d"
-msgstr "Понад %d"
+msgstr "Вище %d"
 
 #: FormatsManage.pas:4456 FormatsManage.pas:4468 FormatsManage.pas:4479
 #: FormatsManage.pas:4489 FormatsManage.pas:4512 FormatsManage.pas:4537
 #: FormatsManage.pas:4550
 msgid "Between %d and %d"
-msgstr "Поміж %d та %d"
+msgstr "Між %d і %d"
 
 #: FormatsManage.pas:4485 FormatsManage.pas:4489
 msgid "bits per sample"
@@ -6932,11 +6899,11 @@ msgstr "V: "
 #. frame per second
 #: FormatsManage.pas:4519
 msgid "Above %.3f"
-msgstr "Понад %.3f"
+msgstr "Вище %.3f"
 
 #: FormatsManage.pas:4524
 msgid "Between %.3f and %.3f"
-msgstr "Поміж %.3f та %.3f"
+msgstr "Між %.3f і %.3f"
 
 #. width
 #: FormatsManage.pas:4528
@@ -6955,7 +6922,7 @@ msgstr "H: "
 
 #: FormatsManage.pas:5045 FormatsManage.pas:5063 FormatsManage.pas:5076
 msgid "above"
-msgstr "зверху"
+msgstr "вище"
 
 #: FullPlayer.pas:2091
 msgid "Add %d file(s) to Playing"
@@ -6993,7 +6960,7 @@ msgstr "Випадковий список"
 #. this song already was in the playlist
 #: FullPlayer.pas:4552
 msgid "No duplicates were detected."
-msgstr "Дублікатів не було виявлено ."
+msgstr "Дублікатів не виявлено."
 
 #: FullPlayer.pas:4556
 msgid "Do you want to remove %d duplicate(s) Playing?"
@@ -7008,8 +6975,8 @@ msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
 msgstr ""
-"Трек %s зараз виконується. Його видалення перерве відтворення.Ви дійсно "
-"бажаєте видалити його?"
+"Зараз відтворюється файл %s. Видалення призведе до переривання відтворення. "
+"Ви дійсно бажаєте видалити його?"
 
 #: FullPlayer.pas:7153
 msgid "Computing waveform for file %s"
@@ -7017,13 +6984,13 @@ msgstr "Обчислення форми сигналу для файлу %s"
 
 #: FullPlayer.pas:7667 WinAmpPlugins.pas:2879
 msgid "No configuration"
-msgstr "Конфігурація відсутня"
+msgstr "Немає конфігурації"
 
 #. read data to a temporary buffer
 #: GeneralDecoder.pas:754 GeneralDecoder.pas:758 MediaMonkeyApp.pas:3951
 #: MediaMonkeyApp.pas:3954
 msgid "Problem while decoding file %s"
-msgstr "Проблема при декодуванні файлу %s"
+msgstr "Проблема під час декодуванні файлу %s"
 
 #: GlobVars.pas:1912
 msgid "Classical Music"
@@ -7031,7 +6998,7 @@ msgstr "Класична Музика"
 
 #: GlobVars.pas:1913 controls\deviceConfig\options\pnl_FileLocations.html:57
 msgid "Music Video"
-msgstr "Відеокліп"
+msgstr "Музичне відео"
 
 #: GlobVars.pas:1915 controls\deviceConfig\options\pnl_FileLocations.html:65
 msgid "TV"
@@ -7043,43 +7010,43 @@ msgstr "Відео Подкаст"
 
 #: Hotkeys.pas:690
 msgid "Browser Back"
-msgstr "Браузер назад"
+msgstr "Браузер Назад"
 
 #: Hotkeys.pas:691
 msgid "Browser Forward"
-msgstr "Браузер вперед"
+msgstr "Браузер Вперед"
 
 #: Hotkeys.pas:692
 msgid "Browser Refresh"
-msgstr "Оновлення Браузера"
+msgstr "Оновити Браузер"
 
 #: Hotkeys.pas:693
 msgid "Browser Stop"
-msgstr "Зупинка Браузера"
+msgstr "Зупинити Браузер"
 
 #: Hotkeys.pas:694
 msgid "Browser Search"
-msgstr "Пошук Браузера"
+msgstr "Пошук у Браузері"
 
 #: Hotkeys.pas:695
 msgid "Browser Favorites"
-msgstr "Вибрані Браузера"
+msgstr "Вибране Браузера"
 
 #: Hotkeys.pas:696
 msgid "Browser Home"
-msgstr "Головна Браузера"
+msgstr "Домівка Браузера"
 
 #: Hotkeys.pas:697
 msgid "Volume Mute"
-msgstr "Німий Звук"
+msgstr "Вимкнення Звуку"
 
 #: Hotkeys.pas:698
 msgid "Volume Down"
-msgstr "Понизити звук"
+msgstr "Зменшити Гучність"
 
 #: Hotkeys.pas:699
 msgid "Volume Up"
-msgstr "Підняти звук"
+msgstr "Збільшити Гучність"
 
 #: Hotkeys.pas:700
 msgid "Media Next"
@@ -7099,11 +7066,11 @@ msgstr "Медіа Відтворити/Пауза"
 
 #: Hotkeys.pas:704
 msgid "Launch Mail"
-msgstr "Увімкнути Пошту"
+msgstr "Запустити Пошту"
 
 #: Hotkeys.pas:705
 msgid "Media Select"
-msgstr "Обрати Медіа"
+msgstr "Вибір носія"
 
 #: Hotkeys.pas:706 Hotkeys.pas:707
 msgid "Launch app"
@@ -7117,7 +7084,7 @@ msgstr "Ключ HID"
 #. we don't know parent playlist id yet
 #: Importers.pas:146 M3Umanage.pas:521
 msgid "Imported playlists"
-msgstr "Імпортовані плейлисти"
+msgstr "Імпортовані списки відтворення"
 
 #: Importers.pas:211
 msgid ""
@@ -7142,7 +7109,7 @@ msgstr "iTunes"
 #. Follows a _very_ simple parser of XML used by iTunes
 #: Importers.pas:449 ResStrings.pas:382
 msgid "tracks"
-msgstr "треки"
+msgstr "доріжки"
 
 #: Importers.pas:579 Importers.pas:878
 msgid "Importing data from WinAmp..."
@@ -7174,7 +7141,7 @@ msgstr "Обробка списків відтворення"
 
 #: MaskHelper.pas:3033 ResStrings.pas:525
 msgid "Auto Number"
-msgstr "Авто Номер"
+msgstr "Автоматичний номер"
 
 #: MaskHelper.pas:3068 QueryManage.pas:4609 ResStrings.pas:453
 #: ResStrings.pas:509
@@ -7243,7 +7210,7 @@ msgstr "Як користуватися масками"
 
 #: MaskHelper.pas:3743
 msgid "Track#"
-msgstr "Трек#"
+msgstr "Доріжка#"
 
 #: MaskHelper.pas:3776
 msgid "Disc#"
@@ -7259,7 +7226,7 @@ msgstr "Сезон#"
 
 #: MaskHelper.pas:3801
 msgid "Played#"
-msgstr "Відтворено #"
+msgstr "Відтворено#"
 
 #: MaskHelper.pas:3822
 msgid "Skipped#"
@@ -7267,7 +7234,8 @@ msgstr "Пропущено#"
 
 #: MediaManage.pas:2510
 msgid "An error occured while moving file %s to %s. Do you want to try again?"
-msgstr "При переміщенні %s до %s виникла помилка. Бажаєте повторити спробу?"
+msgstr ""
+"Під час переміщення файла %s до %s сталася помилка. Хочете спробувати ще раз?"
 
 #: MediaManage.pas:2653
 msgid "Moving file %d of %d (%s)"
@@ -7279,7 +7247,7 @@ msgstr "Копіювання файлу %d з %d (%s)"
 
 #: MediaManage.pas:2808
 msgid "Could not find file %s, it will not be %s."
-msgstr "Неможливо знайти файл %s, ним буде %s."
+msgstr "Не вдалося знайти файл %s, він не буде %s."
 
 #: MediaManage.pas:2809
 msgid "moved"
@@ -7303,7 +7271,7 @@ msgstr "Носій '%s' не вставлено."
 
 #: MediaManage.pas:3673
 msgid "Cannot rename directory %s to %s."
-msgstr "Неможливо перейменувати директорію %s в %s."
+msgstr "Неможливо перейменувати каталог %s на %s."
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
 #: MediaMonkeyApp.pas:4530
@@ -7341,7 +7309,7 @@ msgstr "Пожиттєво"
 
 #: MediaMonkeyApp.pas:6429 ResStrings.pas:364
 msgid "Unregistered"
-msgstr "Незареєстровано"
+msgstr "Незареєстрований"
 
 #: MediaMonkeyApp.pas:6431
 msgid "Trial version"
@@ -7358,16 +7326,16 @@ msgstr "не знайдено!"
 #. #16581
 #: MediaMonkeyApp.pas:6885
 msgid "Open tray"
-msgstr "&Відкрити трей"
+msgstr "&Відкрити панель"
 
 #: MediaMonkeyApp.pas:7516
 msgid "Track"
-msgstr "Трек"
+msgstr "Доріжка"
 
 #: MediaMonkeyApp.pas:7516 MediaMonkeyApp.pas:7518 MusicUtils.pas:828
 #: controls\autoConvertConfig.html:11
 msgid "dB"
-msgstr "Дб"
+msgstr "дБ"
 
 #: MediaMonkeyApp.pas:7521 QueryManage.pas:4621
 msgid "Leveling"
@@ -7375,7 +7343,7 @@ msgstr "Вирівнювання"
 
 #: MediaMonkeyApp.pas:7936
 msgid "Edit Properties"
-msgstr "Редагувати властивості"
+msgstr "Редагувати Властивості"
 
 #: MediaMonkeyApp.pas:7946
 msgid "Clear list & play selected + subsequent"
@@ -8876,10 +8844,8 @@ msgid "Tags then Playlists"
 msgstr "Теґи потім Список програвання"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
-#, fuzzy
-#| msgid "Default action for files: "
 msgid "Default action for files:"
-msgstr "Типова дія для файлів: "
+msgstr "Типова дія для файлів:"
 
 #: dialogs\dlgOptions\pnl_Player.html:23
 msgid "From other applications..."
