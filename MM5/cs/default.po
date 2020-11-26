@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-26 10:33\n"
-"PO-Revision-Date: 2020-11-21 09:40+0000\n"
+"PO-Revision-Date: 2020-11-26 12:56+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/cs/>\n"
@@ -374,6 +374,8 @@ msgid ""
 "Rebuilds full-text search index. This might be useful if searching via "
 "search bar doesn't work right."
 msgstr ""
+"Znovu vytvoří index pro fulltextové vyhledávání. Může být užitečné, pokud "
+"vyhledávání ve vyhledávacím boxu nefunguje správně."
 
 #. default
 #: actions.js:1519
@@ -528,7 +530,7 @@ msgstr "Přidat složky"
 #: actions.js:1941
 msgid ""
 "If a network location isn't found automatically, you can add one manually."
-msgstr ""
+msgstr "Není-li síťové umístění nalezeno automaticky, můžete je přidat ručně."
 
 #: actions.js:1958 dialogs\dlgWizard\pnlScan.html:10
 msgid "Add location"
@@ -554,13 +556,11 @@ msgstr "Přidat server médií ručně"
 
 #: actions.js:2024
 msgid "If a media server isn't found automatically, you can add one manually."
-msgstr ""
+msgstr "Není-li mediální server nalezen automaticky, můžete jej přidat ručně."
 
 #: actions.js:2024
-#, fuzzy
-#| msgid "Destination"
 msgid "Device Destination:"
-msgstr "Cíl"
+msgstr "Umístění zařízení:"
 
 #. no message needed in case of success (as the new server just appears in the list)
 #: actions.js:2043
@@ -956,14 +956,12 @@ msgid "Analyze waveform"
 msgstr "Analyzovat křivku"
 
 #: actions.js:3464
-#, fuzzy
-#| msgid "Play selected files only"
 msgid "Display only selected folder's content"
-msgstr "Přehrát pouze vybrané soubory"
+msgstr "Zobrazit pouze obsah vybrané složky"
 
 #: actions.js:3464
 msgid "Display folder content recursively"
-msgstr ""
+msgstr "Zobrazit obsah složky rekurzivně"
 
 #: actions.js:3495
 msgid "View filter"
@@ -2028,16 +2026,12 @@ msgid "Copying to %s:"
 msgstr "Kopíruji do %s:"
 
 #: viewHandlers.js:4005
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to move '%s'?"
-msgstr "Opravdu chcete odstranit %d náhledů?"
+msgstr "Opravdu chcete přesunout '%s'?"
 
 #: viewHandlers.js:4007
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to copy '%s'?"
-msgstr "Opravdu chcete odstranit %d náhledů?"
+msgstr "Opravdu chcete kopírovat '%s'?"
 
 #: viewHandlers.js:4014
 msgid "Copy Library content only"
@@ -2388,12 +2382,17 @@ msgid ""
 "the mismatched values. If tracks don't show highlighted fields, try enabling "
 "additional columns."
 msgstr ""
+"Najde všechny skladby s tagy, které neodpovídají databázi, zvýrazní nesoulad "
+"hodnot. Pokud se nezobrazují zvýrazněná pole u skladeb, zkuste povolit další "
+"sloupce."
 
 #: viewHandlers.js:6824
 msgid ""
 "This node finds all content for which tracks have duplicate hashes or "
 "fingerprints."
 msgstr ""
+"Tento uzel najde veškerý obsah, pro který mají soubory duplicitní hashe nebo "
+"digitální otisky."
 
 #: viewHandlers.js:6831 UPnPTreeHelper.pas:1900
 msgid "Files to Edit"
@@ -4282,10 +4281,8 @@ msgid "Delete from Playing list, the database and drive"
 msgstr "Smazat ze seznamu 'Přehrávání', databáze a disku"
 
 #: dialogs/dlgDeleteConfirm.js:189
-#, fuzzy
-#| msgid "Are you sure you want to remove %d file from the Library?"
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
-msgstr "Opravdu chcete odstranit %d soubor z Knihovny?"
+msgstr "Opravdu chcete odstranit %d souborů z '' %s '' ?"
 
 #: dialogs/dlgDeletedTracks.js:8
 msgid "Remove Unavailable files ?"
@@ -4728,11 +4725,11 @@ msgstr "Integrace do OS"
 
 #: dialogs/dlgPodcastSubscription.js:46
 msgid "Please enter the Podcast's title and URL to subscribe."
-msgstr ""
+msgstr "Pro přihlášení k odběru tohoto podcastu vložte prosím název a URL."
 
 #: dialogs/dlgPodcastSubscription.js:61
 msgid "You have been already subscribed to this podcast"
-msgstr ""
+msgstr "K odběru tohoto podcastu jste již přihlášeni"
 
 #: dialogs/dlgPodcastSubscription.js:98 dialogs\dlgOptions\pnl_Download.html:14
 msgid "Global podcast options"
@@ -4906,10 +4903,8 @@ msgid "Welcome to MediaMonkey"
 msgstr "Vítejte v MediaMonkey"
 
 #: dialogs/dlgWizard.js:18
-#, fuzzy
-#| msgid "Add converted files to the library"
 msgid "To get started, add your media files to the library"
-msgstr "Přidat převedené soubory do knihovny"
+msgstr "Chcete-li začít, přidejte své mediální soubory do knihovny"
 
 #: dialogs/dlgWizard.js:36
 msgid "Setup Wizard"
@@ -5646,16 +5641,12 @@ msgid "Case Checker"
 msgstr "Kontrola velkých písmen"
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:221
-#, fuzzy
-#| msgid "old value"
 msgid "Old Value: "
-msgstr "stará hodnota"
+msgstr "Stará hodnota: "
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:308
-#, fuzzy
-#| msgid "%d database entries to be updated"
 msgid "Select tracks to be updated"
-msgstr "%d záznamů databáze k aktualizaci"
+msgstr "Vyberte skladby, které mají být aktualizovány"
 
 #: Scripts/export/actions_add.js:31
 msgid "File List (&HTML)"
@@ -5756,10 +5747,8 @@ msgid "MediaMonkey Library Statistics"
 msgstr "Statistiky knihovny MediaMonkey"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:171
-#, fuzzy
-#| msgid "Total Files"
 msgid "Totals"
-msgstr "Celkem souborů"
+msgstr "Celkové počty"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:326 QueryManage.pas:4756
@@ -5768,92 +5757,72 @@ msgid "Played"
 msgstr "Hráno"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:325
-#, fuzzy
-#| msgid "Average bitrate"
 msgid "Averages"
-msgstr "Průměrný bitrate"
+msgstr "Průměry"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:327
-#, fuzzy
-#| msgid "# Tracks by Artist"
 msgid "Tracks per Artist"
-msgstr "Počet skladeb interpreta"
+msgstr "Skladeb/Interpret"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:328
-#, fuzzy
-#| msgid "# Tracks in Album"
 msgid "Tracks per Album"
-msgstr "Počet skladeb na albu"
+msgstr "Skladeb/Album"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:329
 msgid "Tracks per Genre"
-msgstr ""
+msgstr "Skladeb/Žánr"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
 msgid "Tracks per Year"
-msgstr ""
+msgstr "Skladeb/Rok"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:331
-#, fuzzy
-#| msgid "Bitrate (min)"
 msgid "Bitrate (kbps)"
-msgstr "Bitrate (min)"
+msgstr "Bitrate (kbps)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:333
-#, fuzzy
-#| msgid "Track %s failed to verify"
 msgid "Tracks played per day"
-msgstr "Skladba %s nebyla úspěšně verifikována"
+msgstr "Skladeb přehráno/den"
 
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:343
-#, fuzzy
-#| msgid "Artists"
 msgid "Top %d Artists"
-msgstr "Interpreti"
+msgstr "%d nejčastějších interpretů"
 
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:376
 msgid "Top %d Artists played"
-msgstr ""
+msgstr "%d nejčastěji hraných interpretů"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:407
-#, fuzzy
-#| msgid "per Album"
 msgid "Top %d Albums"
-msgstr "po albech"
+msgstr "%d nejčastějších alb"
 
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:438
 msgid "Top %d Albums played"
-msgstr ""
+msgstr "%d nejčastěji hraných alb"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:470
-#, fuzzy
-#| msgid "Genres"
 msgid "Top %d Genres"
-msgstr "Žánry"
+msgstr "%d nejčastějších žánrů"
 
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:497
 msgid "Top %d Genres played"
-msgstr ""
+msgstr "%d nejčastěji hraných žánrů"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:525
-#, fuzzy
-#| msgid "Rating"
 msgid "Ratings"
 msgstr "Hodnocení"
 
 #. rating played
 #: Scripts/statistics/dialogs/dlgStatistics.js:569
-#, fuzzy
-#| msgid "Last played"
 msgid "Ratings played"
-msgstr "Naposledy hráno"
+msgstr "Hraná hodnocení"
 
 #. disable auto sizing mechanism, we have fixed size
 #: Scripts/statistics/dialogs/dlgStatistics.js:608
@@ -8806,10 +8775,8 @@ msgid "Tags then Playlists"
 msgstr "Tagy, pak playlisty"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
-#, fuzzy
-#| msgid "Default action for files: "
 msgid "Default action for files:"
-msgstr "Primární akce pro soubory: "
+msgstr "Primární akce pro soubory:"
 
 #: dialogs\dlgOptions\pnl_Player.html:23
 msgid "From other applications..."
