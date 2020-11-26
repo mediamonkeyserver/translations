@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-26 10:33\n"
+"POT-Creation-Date: 2020-11-26 13:53\n"
 "PO-Revision-Date: 2020-10-01 10:42+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Hungarian <http://translations.mediamonkey.com/projects/"
@@ -530,11 +530,11 @@ msgstr ""
 
 #. 'addStorage',
 #: actions.js:1965 viewHandlers.js:4628 dialogs/dlgMediaProperties.js:26
-#: dialogs/dlgWizard/pnlScan.js:91 QueryManage.pas:4311 ResStrings.pas:403
+#: dialogs/dlgWizard/pnlScan.js:91 QueryManage.pas:4277 ResStrings.pas:403
 msgid "Network"
 msgstr "Hálózat"
 
-#: actions.js:1973 dialogs/dlgWizard/pnlScan.js:142 QueryManage.pas:4310
+#: actions.js:1973 dialogs/dlgWizard/pnlScan.js:142 QueryManage.pas:4276
 msgid "Media server"
 msgstr ""
 
@@ -550,11 +550,9 @@ msgstr ""
 msgid "If a media server isn't found automatically, you can add one manually."
 msgstr ""
 
-#: actions.js:2024
-#, fuzzy
-#| msgid "Destination"
-msgid "Device Destination:"
-msgstr "Cél"
+#: actions.js:2024 UpNp.pas:9421 controls\devicesView.html:36
+msgid "Device Description file path:"
+msgstr ""
 
 #. no message needed in case of success (as the new server just appears in the list)
 #: actions.js:2043
@@ -717,7 +715,7 @@ msgstr ""
 msgid "Play"
 msgstr "Lejátszás"
 
-#: actions.js:2620
+#: actions.js:2620 controls/downloadView.js:49
 msgid "Pause"
 msgstr "Szünet"
 
@@ -841,8 +839,10 @@ msgstr ""
 msgid "Configure Collections and nodes"
 msgstr ""
 
-#: actions.js:3083 controls/nowplayingList.js:370 dialogs/dlgOptions.js:136
-#: controls\serverConfig\devices.html:8
+#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
+#. radiogroup: 'search_mode',
+#: actions.js:3083 controls/nowplayingList.js:370 controls/searchBar.js:547
+#: dialogs/dlgOptions.js:136 controls\serverConfig\devices.html:8
 msgid "Options"
 msgstr "Opciók"
 
@@ -905,7 +905,7 @@ msgstr "Mappa (rippelés/kon&vertálás)"
 #: actions.js:3338 actions.js:7928 helpers/autoDJ.js:29 Devices.pas:2015
 #: Devices.pas:12918 Devices.pas:15175 FormatsManage.pas:5473
 #: FormatsManage.pas:5505 FormatsManage.pas:5515 MaskHelper.pas:3035
-#: QueryManage.pas:4527 ResStrings.pas:526
+#: QueryManage.pas:4493 ResStrings.pas:526
 msgid "Playlist"
 msgstr "Lejátszási lista"
 
@@ -956,7 +956,7 @@ msgid "View filter"
 msgstr ""
 
 #. "Any text"
-#: actions.js:3533 QueryManage.pas:2819 QueryManage.pas:2823 ResStrings.pas:532
+#: actions.js:3533 QueryManage.pas:2785 QueryManage.pas:2789 ResStrings.pas:532
 msgid "contains"
 msgstr "tartalmazza"
 
@@ -1143,7 +1143,7 @@ msgid "Enable"
 msgstr "Engedélyezés"
 
 #. reset
-#: actions.js:4520 ResStrings.pas:441
+#: actions.js:4520 controls/downloadView.js:143 ResStrings.pas:441
 msgid "Size"
 msgstr "Méret"
 
@@ -1282,16 +1282,18 @@ msgstr ""
 #. don't save
 #: actions.js:7817 templates.js:1130 templates.js:1178 templates.js:1209
 #: viewHandlers.js:1620 viewHandlers.js:7921 controls/albumViewHeader.js:111
-#: controls/player.js:519 controls/sortBy.js:12 controls/trackListView.js:203
-#: dialogs/dlgArtworkDetail.js:12 dialogs/dlgAutotag.js:1957
-#: dialogs/dlgEditView.js:22 dialogs/dlgOptions/pnl_MetadataLookup.js:141
+#: controls/downloadView.js:125 controls/player.js:519 controls/sortBy.js:12
+#: controls/trackListView.js:203 dialogs/dlgArtworkDetail.js:12
+#: dialogs/dlgAutotag.js:1957 dialogs/dlgEditView.js:22
+#: dialogs/dlgOptions/pnl_MetadataLookup.js:141
+#: dialogs/dlgOptions/pnl_Player.js:51
 #: dialogs/dlgTrackProperties/tabBasic.js:444 layouts/Touch/templates_add.js:33
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:320
 #: Scripts/export/actions_add.js:71 Scripts/export/actions_add.js:347
 #: Scripts/statistics/dialogs/dlgStatistics.js:410
 #: Scripts/statistics/dialogs/dlgStatistics.js:441 Devices.pas:2025
-#: MaskHelper.pas:3038 MediaMonkeyApp.pas:7518 QueryManage.pas:2986
-#: QueryManage.pas:2994 QueryManage.pas:3001 ResStrings.pas:412
+#: MaskHelper.pas:3038 MediaMonkeyApp.pas:7518 QueryManage.pas:2952
+#: QueryManage.pas:2960 QueryManage.pas:2967 ResStrings.pas:412
 #: ResStrings.pas:424 ResStrings.pas:501
 #: dialogs\dlgTrackProperties\tabBasic.html:92
 msgid "Album"
@@ -1301,22 +1303,25 @@ msgstr "Album"
 #. don't save
 #. Headers of table
 #: actions.js:7839 templates.js:1123 templates.js:1170 templates.js:1203
-#: viewHandlers.js:8002 controls/artistViewHeader.js:75 controls/player.js:508
+#: viewHandlers.js:8002 controls/artistViewHeader.js:75
+#: controls/downloadView.js:134 controls/player.js:508
 #: controls/trackListView.js:180 dialogs/dlgAutotag.js:1921
+#: dialogs/dlgDeletedTracks.js:91 dialogs/dlgMovedFiles.js:109
+#: dialogs/dlgMovedFiles.js:160 dialogs/dlgMovedFiles.js:211
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:140
-#: layouts/Touch/templates_add.js:34
+#: dialogs/dlgOptions/pnl_Player.js:50 layouts/Touch/templates_add.js:34
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:318
 #: Scripts/export/actions_add.js:68 Scripts/export/actions_add.js:347
 #: Scripts/statistics/dialogs/dlgStatistics.js:346
 #: Scripts/statistics/dialogs/dlgStatistics.js:379 Covers.pas:730
-#: Devices.pas:2020 MaskHelper.pas:3036 QueryManage.pas:2987
-#: QueryManage.pas:3002 ResStrings.pas:411 ResStrings.pas:423
+#: Devices.pas:2020 MaskHelper.pas:3036 QueryManage.pas:2953
+#: QueryManage.pas:2968 ResStrings.pas:411 ResStrings.pas:423
 #: ResStrings.pas:499
 msgid "Artist"
 msgstr "Előadó"
 
 #: actions.js:7864 controls/trackListView.js:864 Covers.pas:733
-#: MaskHelper.pas:3041 QueryManage.pas:2995 ResStrings.pas:460
+#: MaskHelper.pas:3041 QueryManage.pas:2961 ResStrings.pas:460
 #: ResStrings.pas:504
 msgid "Composer"
 msgstr "Zeneszerző"
@@ -1325,10 +1330,10 @@ msgstr "Zeneszerző"
 #. editor: editors.gridViewEditors.textEdit,
 #. request for Artists
 #. e.g. XBOX searches for genre's songs (testContentBrowser_XBOX_360_Genre)
-#: actions.js:7888 controls/trackListView.js:309 dialogs/dlgAutotag.js:2032
-#: dialogs/dlgOptions/pnl_MetadataLookup.js:146 helpers/autoTagFramework.js:333
-#: layouts/Touch/templates_add.js:35 Scripts/export/actions_add.js:74
-#: Scripts/export/actions_add.js:347
+#: actions.js:7888 controls/downloadView.js:170 controls/trackListView.js:309
+#: dialogs/dlgAutotag.js:2032 dialogs/dlgOptions/pnl_MetadataLookup.js:146
+#: helpers/autoTagFramework.js:333 layouts/Touch/templates_add.js:35
+#: Scripts/export/actions_add.js:74 Scripts/export/actions_add.js:347
 #: Scripts/musicBrainz/helpers/genreDataSource.js:24
 #: Scripts/statistics/dialogs/dlgStatistics.js:473
 #: Scripts/statistics/dialogs/dlgStatistics.js:500 MaskHelper.pas:3039
@@ -1402,10 +1407,12 @@ msgstr ""
 #. this column will not be resized when 'Automatic column widths' is checked
 #. don't save
 #: actions.js:8878 templates.js:1116 templates.js:1160 templates.js:1198
-#: controls/player.js:500 controls/searchEditor.js:946
-#: controls/trackListView.js:133 dialogs/dlgAutotag.js:1861
+#: controls/downloadView.js:116 controls/player.js:500
+#: controls/searchEditor.js:946 controls/trackListView.js:133
+#: dialogs/dlgAutotag.js:1861 dialogs/dlgDeletedTracks.js:82
 #: dialogs/dlgOptions/pnl_Layouts.js:161
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:139
+#: dialogs/dlgOptions/pnl_Player.js:49
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:319
 #: Scripts/export/actions_add.js:69 Scripts/export/actions_add.js:347
 #: MaskHelper.pas:3029 ResStrings.pas:413 ResStrings.pas:422 ResStrings.pas:502
@@ -1645,8 +1652,8 @@ msgstr ""
 #: Scripts/statistics/dialogs/dlgStatistics.js:409
 #: Scripts/statistics/dialogs/dlgStatistics.js:528
 #: Scripts/statistics/dialogs/dlgStatistics.js:572 MaskHelper.pas:3059
-#: MaskHelper.pas:3488 MaskHelper.pas:3781 QueryManage.pas:4754
-#: QueryManage.pas:4755 ResStrings.pas:436 UPnPTreeHelper.pas:1917
+#: MaskHelper.pas:3488 MaskHelper.pas:3781 QueryManage.pas:4720
+#: QueryManage.pas:4721 ResStrings.pas:436 UPnPTreeHelper.pas:1917
 #: Win7ToolsImpl.pas:1903 Win7ToolsImpl.pas:1904
 #: dialogs\dlgTrackProperties\tabBasic.html:55
 msgid "Rating"
@@ -1679,7 +1686,7 @@ msgstr ""
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare bps dropDown
 #. now add only bitrates to the description line
-#: templates.js:2525 controls/downloadView.js:99 dialogs/dlgWAVSettings.js:50
+#: templates.js:2525 controls/downloadView.js:107 dialogs/dlgWAVSettings.js:50
 #: dialogs/dlgTrackProperties/tabDetails.js:42 BaseMedia.pas:4470
 #: BaseMedia.pas:4472 BaseMedia.pas:4550 FormatsHandler.pas:2859
 #: FormatsHandler.pas:2887 FormatsHandler.pas:2903 FormatsHandler.pas:2904
@@ -1929,7 +1936,7 @@ msgstr ""
 #: controls/trackListView.js:257 controls/serverConfig/server.js:29
 #: dialogs/dlgAutotag.js:2379 dialogs/dlgOptions/pnl_MetadataLookup.js:145
 #: MaskHelper.pas:3057 MaskHelper.pas:3478 MaskHelper.pas:3779
-#: QueryManage.pas:4616 QueryManage.pas:4762 QueryManage.pas:4763
+#: QueryManage.pas:4582 QueryManage.pas:4728 QueryManage.pas:4729
 #: ResStrings.pas:475 dialogs\dlgTrackProperties\tabBasic.html:139
 msgid "Date"
 msgstr "Dátum"
@@ -1954,8 +1961,8 @@ msgstr ""
 #: dialogs/dlgTrackProperties/tabBasic.js:476
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:187
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:269 MaskHelper.pas:3074
-#: MaskHelper.pas:3509 MaskHelper.pas:3785 QueryManage.pas:1878
-#: QueryManage.pas:2986 QueryManage.pas:2989 QueryManage.pas:3001
+#: MaskHelper.pas:3509 MaskHelper.pas:3785 QueryManage.pas:1842
+#: QueryManage.pas:2952 QueryManage.pas:2955 QueryManage.pas:2967
 #: ResStrings.pas:486 UPnPTreeHelper.pas:1887
 msgid "Series"
 msgstr "Sorozat"
@@ -2071,6 +2078,7 @@ msgstr ""
 #. to remove the folder (dataSource) and thus this node also
 #: viewHandlers.js:4308 viewHandlers.js:4462 viewHandlers.js:4488
 #: viewHandlers.js:4844 viewHandlers.js:6994
+#: Scripts/syncToFolder/helpers/mediaSync_add.js:259
 msgid "folder"
 msgstr ""
 
@@ -2658,7 +2666,8 @@ msgstr "Nem"
 msgid "OK"
 msgstr "OK"
 
-#: controls/buttons.js:29 controls/taskscontroller.js:274 ResStrings.pas:573
+#: controls/buttons.js:29 controls/downloadView.js:69
+#: controls/taskscontroller.js:274 ResStrings.pas:573
 #: dialogs\dlgAutotagCover.html:28
 msgid "Cancel"
 msgstr "Mégse"
@@ -2667,7 +2676,7 @@ msgstr "Mégse"
 msgid "Abort"
 msgstr ""
 
-#: controls/buttons.js:41
+#: controls/buttons.js:41 dialogs/dlgErrorLog.js:134
 msgid "Retry"
 msgstr "Ismét"
 
@@ -2763,6 +2772,15 @@ msgstr ""
 #: controls/tracklistFilter.js:559 controls\artistview.html:40
 msgid "Other"
 msgstr "Más"
+
+#. Add Inspect Element popup command (chromium 39 or later)
+#: controls/control.js:1566
+msgid "Inspect Element"
+msgstr ""
+
+#: controls/control.js:1582
+msgid "Open DevTools in Chrome"
+msgstr ""
 
 #: controls/control.js:2007
 msgid "Getting data"
@@ -2868,17 +2886,42 @@ msgstr ""
 msgid "Show less"
 msgstr ""
 
-#: controls/downloadView.js:90
+#: controls/downloadView.js:29
+#, fuzzy
+#| msgid "Resume all"
+msgid "Resume"
+msgstr "Az összes folytatása"
+
+#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
+#. so that screen tests are user independent
+#: controls/downloadView.js:85 controls/serverConfig/server.js:37
+#: dialogs/dlgAutotag.js:2440 dialogs/dlgOptions/pnl_MediaServers.js:57
+#: helpers/searchCommon.js:92 helpers/searchCommon.js:963
+#: helpers/searchCommon.js:996 helpers/searchCommon.js:1041 ResStrings.pas:471
+#: controls\serverConfig\server.html:16
+msgid "Status"
+msgstr "Státusz"
+
+#: controls/downloadView.js:98
 msgid "Completed"
 msgstr "Kész"
 
-#: controls/downloadView.js:93 helpers/autoTagFramework.js:267
+#: controls/downloadView.js:101 helpers/autoTagFramework.js:267
 msgid "Queued"
 msgstr "Várólistán"
 
-#: controls/downloadView.js:97
+#: controls/downloadView.js:105
 msgid "Paused"
 msgstr "Szüneteltetve"
+
+#: controls/downloadView.js:152 dialogs/dlgMediaProperties.js:29
+msgid "URL"
+msgstr "URL"
+
+#: controls/downloadView.js:161 controls/maskedit.js:115
+#: controls/maskedit.js:399 controls\deviceConfig\syncFromDevice.html:9
+msgid "Destination"
+msgstr "Cél"
 
 #. check empty value
 #: controls/dropdown.js:471 dialogs/dlgAutotag.js:49
@@ -2959,11 +3002,6 @@ msgstr ""
 #: controls/maintabs.js:53
 msgid "Close tabs to the right"
 msgstr ""
-
-#: controls/maskedit.js:115 controls/maskedit.js:399
-#: controls\deviceConfig\syncFromDevice.html:9
-msgid "Destination"
-msgstr "Cél"
 
 #: controls/maskedit.js:463
 msgid "Main directory:"
@@ -3197,7 +3235,7 @@ msgstr ""
 
 #: controls/podcastHeader.js:194 controls/trackListView.js:1473
 #: MaskHelper.pas:3101 MaskHelper.pas:3636 MaskHelper.pas:3813
-#: QueryManage.pas:2995 ResStrings.pas:491 dialogs\dlgAddonInstall.html:37
+#: QueryManage.pas:2961 ResStrings.pas:491 dialogs\dlgAddonInstall.html:37
 msgid "Author"
 msgstr "Szerző"
 
@@ -3474,7 +3512,7 @@ msgstr "Legutoljára lejátszva"
 #: dialogs/dlgTrackProperties/tabDetails.js:44 Scripts/export/actions_add.js:76
 #: Scripts/export/actions_add.js:347 FormatsHandler.pas:2859
 #: FormatsHandler.pas:2887 FormatsHandler.pas:2919 FormatsHandler.pas:2922
-#: MaskHelper.pas:3043 QueryManage.pas:4770 QueryManage.pas:4771
+#: MaskHelper.pas:3043 QueryManage.pas:4736 QueryManage.pas:4737
 #: ResStrings.pas:437 ResStrings.pas:438 ResStrings.pas:508
 #: dialogs\dlgOGGSettings.html:26
 msgid "Bitrate"
@@ -3495,8 +3533,8 @@ msgstr ""
 msgid "Filesize"
 msgstr ""
 
-#: controls/trackListView.js:648 MaskHelper.pas:3044 QueryManage.pas:4772
-#: QueryManage.pas:4773 ResStrings.pas:442 ResStrings.pas:512
+#: controls/trackListView.js:648 MaskHelper.pas:3044 QueryManage.pas:4738
+#: QueryManage.pas:4739 ResStrings.pas:442 ResStrings.pas:512
 #: dialogs\dlgTrackProperties\tabDetails.html:17
 msgid "BPM"
 msgstr "BPM"
@@ -3512,7 +3550,7 @@ msgstr ""
 #: controls/trackListView.js:679 dialogs/dlgTrackProperties/tabDetails.js:71
 #: FormatsHandler.pas:2889 FormatsHandler.pas:2906 FormatsHandler.pas:2924
 #: MaskHelper.pas:3093 MaskHelper.pas:3596 MaskHelper.pas:3805
-#: QueryManage.pas:4666 ResStrings.pas:445 WinAmpPlugins.pas:5229
+#: QueryManage.pas:4632 ResStrings.pas:445 WinAmpPlugins.pas:5229
 #: dialogs\dlgOGGSettings.html:63
 msgid "Channels"
 msgstr "Csatornák"
@@ -3532,13 +3570,15 @@ msgstr ""
 
 #. source
 #: controls/trackListView.js:750 MaskHelper.pas:3087 MaskHelper.pas:3571
-#: MaskHelper.pas:3799 QueryManage.pas:4706
+#: MaskHelper.pas:3799 QueryManage.pas:4672
 msgid "Source"
 msgstr ""
 
 #: controls/trackListView.js:783 dialogs/dlgAutotag.js:2426
-#: Scripts/export/actions_add.js:347 MaskHelper.pas:3067 QueryManage.pas:4601
-#: ResStrings.pas:426 dialogs\dlgMediaProperties.html:32
+#: dialogs/dlgDeletedTracks.js:100 dialogs/dlgMovedFiles.js:180
+#: dialogs/dlgMovedFiles.js:231 Scripts/export/actions_add.js:347
+#: MaskHelper.pas:3067 QueryManage.pas:4567 ResStrings.pas:426
+#: dialogs\dlgMediaProperties.html:32
 msgid "Path"
 msgstr "Elérési út"
 
@@ -3557,14 +3597,14 @@ msgstr "Időbélyeg"
 
 #: controls/trackListView.js:853 dialogs/dlgTrackProperties/tabDetails.js:49
 #: MaskHelper.pas:3071 MaskHelper.pas:3498 MaskHelper.pas:3783
-#: QueryManage.pas:4760 QueryManage.pas:4761 ResStrings.pas:447
+#: QueryManage.pas:4726 QueryManage.pas:4727 ResStrings.pas:447
 #: dialogs\dlgTrackProperties\tabDetails.html:223
 msgid "Added"
 msgstr "Hozzáadva"
 
 #. Songs.Lyricist
 #: controls/trackListView.js:882 MaskHelper.pas:3069 MaskHelper.pas:3493
-#: MaskHelper.pas:3782 QueryManage.pas:4678 ResStrings.pas:476
+#: MaskHelper.pas:3782 QueryManage.pas:4644 ResStrings.pas:476
 msgid "Original Date"
 msgstr "Eredeti dátum"
 
@@ -3621,13 +3661,13 @@ msgstr "Eredeti dalszövegíró"
 
 #. don't save
 #: controls/trackListView.js:1157 dialogs/dlgAutotag.js:2210 Covers.pas:734
-#: MaskHelper.pas:3058 QueryManage.pas:2988 QueryManage.pas:2996
-#: QueryManage.pas:3003 ResStrings.pas:465 ResStrings.pas:519
+#: MaskHelper.pas:3058 QueryManage.pas:2954 QueryManage.pas:2962
+#: QueryManage.pas:2969 ResStrings.pas:465 ResStrings.pas:519
 msgid "Lyricist"
 msgstr "Dalszövegíró"
 
 #: controls/trackListView.js:1175 MaskHelper.pas:3056 MaskHelper.pas:3473
-#: MaskHelper.pas:3778 QueryManage.pas:4640 ResStrings.pas:480
+#: MaskHelper.pas:3778 QueryManage.pas:4606 ResStrings.pas:480
 #: dialogs\dlgTrackProperties\tabDetails.html:5
 msgid "Grouping"
 msgstr "Csoportosítás"
@@ -3660,8 +3700,8 @@ msgstr "Képfrissítés"
 #. assign duration only if we don't have a better way to find it (issue #8948)
 #: controls/trackListView.js:1415 dialogs/dlgTrackProperties/tabBasic.js:468
 #: DBStructure.pas:1939 MaskHelper.pas:3073 MaskHelper.pas:3503
-#: MaskHelper.pas:3784 PodcastManage.pas:2987 QueryManage.pas:2994
-#: QueryManage.pas:3001 ResStrings.pas:485
+#: MaskHelper.pas:3784 PodcastManage.pas:2987 QueryManage.pas:2960
+#: QueryManage.pas:2967 ResStrings.pas:485
 msgid "Podcast"
 msgstr "Podcast"
 
@@ -3674,15 +3714,15 @@ msgstr "Epizód"
 #. don't save
 #: controls/trackListView.js:1491 dialogs/dlgAutotag.js:2176
 #: MaskHelper.pas:3075 MaskHelper.pas:3514 MaskHelper.pas:3786
-#: QueryManage.pas:4674 ResStrings.pas:492
+#: QueryManage.pas:4640 ResStrings.pas:492
 msgid "Producer"
 msgstr "Producer"
 
 #. don't save
 #: controls/trackListView.js:1509 dialogs/dlgAutotag.js:2141
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:147 MaskHelper.pas:3076
-#: MaskHelper.pas:3519 MaskHelper.pas:3787 QueryManage.pas:1875
-#: QueryManage.pas:2987 QueryManage.pas:3002 ResStrings.pas:493
+#: MaskHelper.pas:3519 MaskHelper.pas:3787 QueryManage.pas:1839
+#: QueryManage.pas:2953 QueryManage.pas:2968 ResStrings.pas:493
 msgid "Director"
 msgstr "Rendező"
 
@@ -3693,7 +3733,7 @@ msgid "Season #"
 msgstr "Évad"
 
 #: controls/trackListView.js:1545 MaskHelper.pas:3102 MaskHelper.pas:3641
-#: MaskHelper.pas:3814 QueryManage.pas:1881 ResStrings.pas:478
+#: MaskHelper.pas:3814 QueryManage.pas:1845 ResStrings.pas:478
 msgid "Screenwriter"
 msgstr "Szövegkönyvíró"
 
@@ -3722,14 +3762,14 @@ msgstr "Szülői értékelés"
 #: controls/trackListView.js:1615
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:326 MaskHelper.pas:3081
-#: MaskHelper.pas:3541 MaskHelper.pas:3793 QueryManage.pas:4645
+#: MaskHelper.pas:3541 MaskHelper.pas:3793 QueryManage.pas:4611
 #: dialogs\dlgMediaProperties.html:10
 msgid "Type"
 msgstr "Típus"
 
 #: controls/trackListView.js:1625 MaskHelper.pas:3086 MaskHelper.pas:3566
-#: MaskHelper.pas:3798 QueryManage.pas:4641 QueryManage.pas:4774
-#: QueryManage.pas:4775 dialogs\dlgTrackProperties\tabClassification.html:49
+#: MaskHelper.pas:3798 QueryManage.pas:4607 QueryManage.pas:4740
+#: QueryManage.pas:4741 dialogs\dlgTrackProperties\tabClassification.html:49
 msgid "Initial Key"
 msgstr ""
 
@@ -3919,16 +3959,6 @@ msgstr ""
 msgid "Automatic"
 msgstr ""
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
-#. so that screen tests are user independent
-#: controls/serverConfig/server.js:37 dialogs/dlgAutotag.js:2440
-#: dialogs/dlgOptions/pnl_MediaServers.js:57 helpers/searchCommon.js:92
-#: helpers/searchCommon.js:963 helpers/searchCommon.js:996
-#: helpers/searchCommon.js:1041 ResStrings.pas:471
-#: controls\serverConfig\server.html:16
-msgid "Status"
-msgstr "Státusz"
-
 #: controls/serverConfig/server.js:61 UpNp.pas:5351
 msgid "Client name"
 msgstr "Kliens neve"
@@ -4035,10 +4065,12 @@ msgid "Add copied files to the Library"
 msgstr "Másolt fájlok hozzáadása a médiatárhoz"
 
 #: dialogs/dlgAutoorganize.js:241 dialogs/dlgConvertFormat.js:386
+#: dialogs/dlgMoveAccompFiles.js:55 dialogs/dlgMovedFiles.js:129
 msgid "New Path"
 msgstr "Új elérési út"
 
 #: dialogs/dlgAutoorganize.js:287 dialogs/dlgConvertFormat.js:432
+#: dialogs/dlgMoveAccompFiles.js:46 dialogs/dlgMovedFiles.js:138
 msgid "Old Path"
 msgstr "Régi elérési út"
 
@@ -4120,7 +4152,7 @@ msgstr ""
 msgid "Original value"
 msgstr ""
 
-#: dialogs/dlgAutotag.js:2602
+#: dialogs/dlgAutotag.js:2602 dialogs/dlgTrackProperties/tabCustom.js:120
 msgid "New value"
 msgstr ""
 
@@ -4376,10 +4408,6 @@ msgstr ""
 msgid "Remote"
 msgstr ""
 
-#: dialogs/dlgMediaProperties.js:29
-msgid "URL"
-msgstr "URL"
-
 #: dialogs/dlgMediaProperties.js:32
 msgid "UUID"
 msgstr ""
@@ -4420,7 +4448,7 @@ msgstr ""
 msgid "Fine-tune which content to store on %s..."
 msgstr ""
 
-#: dialogs/dlgMigrateWizard.js:92 QueryManage.pas:4306 QueryManage.pas:4307
+#: dialogs/dlgMigrateWizard.js:92 QueryManage.pas:4272 QueryManage.pas:4273
 msgid "Cloud"
 msgstr ""
 
@@ -4457,6 +4485,13 @@ msgstr ""
 #: dialogs/dlgMoveAccompFiles.js:9
 msgid "Accompanying files"
 msgstr "Kísérő fájlok"
+
+#: dialogs/dlgMovedFiles.js:119 dialogs/dlgMovedFiles.js:170
+#: dialogs/dlgMovedFiles.js:221 dialogs/dlgOptions/pnl_DSPModules.js:48
+#: dialogs/dlgOptions/pnl_InputPlugins.js:33
+#: dialogs/dlgOptions/pnl_OutputPlugins.js:40
+msgid "File"
+msgstr "Fájl"
 
 #: dialogs/dlgMP3Settings.js:6
 msgid "Compatible: CBR  96 kbps - Fair Quality"
@@ -4985,12 +5020,6 @@ msgstr ""
 msgid "Plug-in description"
 msgstr "Leírás"
 
-#: dialogs/dlgOptions/pnl_DSPModules.js:48
-#: dialogs/dlgOptions/pnl_InputPlugins.js:33
-#: dialogs/dlgOptions/pnl_OutputPlugins.js:40
-msgid "File"
-msgstr "Fájl"
-
 #: dialogs/dlgOptions/pnl_Hotkeys.js:5
 msgid "Type a keyboard shortcut"
 msgstr "Gépeljen be egy billentyűparancsot"
@@ -5195,12 +5224,12 @@ msgstr "Előadó(k) (együttes; szólista)"
 msgid "Genre(s) (genre; period)"
 msgstr "Műfaj(ok) (műfaj; periódus)"
 
-#: dialogs/dlgTrackProperties/tabCustom.js:39
+#: dialogs/dlgTrackProperties/tabCustom.js:38
 msgid "Tag name"
 msgstr ""
 
 #. do not save
-#: dialogs/dlgTrackProperties/tabCustom.js:72
+#: dialogs/dlgTrackProperties/tabCustom.js:71
 msgid "Tag value"
 msgstr ""
 
@@ -5240,7 +5269,9 @@ msgid ""
 "MediaMonkey, and gives you the following features:"
 msgstr ""
 
+#. and navigate this new profile in the UI:
 #: dialogs/dlgWizard/pnlScan.js:70
+#: Scripts/syncToFolder/helpers/mediaSync_add.js:259
 msgid "Local storage"
 msgstr ""
 
@@ -5623,7 +5654,7 @@ msgstr "MediaMokey Fájllista"
 msgid "Total Files"
 msgstr ""
 
-#: Scripts/export/actions_add.js:155 QueryManage.pas:4768 QueryManage.pas:4769
+#: Scripts/export/actions_add.js:155 QueryManage.pas:4734 QueryManage.pas:4735
 msgid "Duration"
 msgstr ""
 
@@ -5698,8 +5729,8 @@ msgid "Totals"
 msgstr ""
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
-#: Scripts/statistics/dialogs/dlgStatistics.js:326 QueryManage.pas:4756
-#: QueryManage.pas:4757 QueryManage.pas:4758 QueryManage.pas:4759
+#: Scripts/statistics/dialogs/dlgStatistics.js:326 QueryManage.pas:4722
+#: QueryManage.pas:4723 QueryManage.pas:4724 QueryManage.pas:4725
 msgid "Played"
 msgstr "Lejátszva"
 
@@ -5811,6 +5842,12 @@ msgid ""
 "sync files to this location as if it were a portable device."
 msgstr ""
 
+#: Scripts/syncToFolder/helpers/mediaSync_add.js:215
+#, fuzzy
+#| msgid "Sync"
+msgid "Sync root"
+msgstr "Szinkronizálás"
+
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:65
 msgid "series"
 msgstr ""
@@ -5824,6 +5861,12 @@ msgstr ""
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:250
 msgid "Specials"
 msgstr ""
+
+#: Scripts/vis_milkshake/vis_milkshake.js:253
+#, fuzzy
+#| msgid "Use presets"
+msgid "Select preset"
+msgstr "Előbeállítások használata"
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:410
@@ -7033,7 +7076,7 @@ msgstr ""
 msgid "Auto Number"
 msgstr "Auto számozás"
 
-#: MaskHelper.pas:3068 QueryManage.pas:4643 ResStrings.pas:453
+#: MaskHelper.pas:3068 QueryManage.pas:4609 ResStrings.pas:453
 #: ResStrings.pas:509
 msgid "Extension"
 msgstr "Kiterjesztés"
@@ -7214,7 +7257,7 @@ msgstr ""
 msgid "Updated"
 msgstr ""
 
-#: MediaMonkeyApp.pas:5528 QueryManage.pas:4766 QueryManage.pas:4767
+#: MediaMonkeyApp.pas:5528 QueryManage.pas:4732 QueryManage.pas:4733
 msgid "Skipped"
 msgstr ""
 
@@ -7260,7 +7303,7 @@ msgstr "Szám"
 msgid "dB"
 msgstr "dB"
 
-#: MediaMonkeyApp.pas:7521 QueryManage.pas:4655
+#: MediaMonkeyApp.pas:7521 QueryManage.pas:4621
 msgid "Leveling"
 msgstr "Szintezés"
 
@@ -7630,84 +7673,84 @@ msgstr "Ez velószínűleg nem OPML könyvtár."
 
 #. eliminate the word
 #. Replace OR operator by ; (it has the same meaning)
-#: QueryManage.pas:2401 QueryManage.pas:2655 QueryManage.pas:2659
-#: QueryManage.pas:7370 QueryManage.pas:7521
+#: QueryManage.pas:2367 QueryManage.pas:2621 QueryManage.pas:2625
+#: QueryManage.pas:7336 QueryManage.pas:7488
 msgid "OR"
 msgstr "VAGY"
 
-#: QueryManage.pas:2989
+#: QueryManage.pas:2955
 msgid "Series/Title"
 msgstr "Sorozat/cím"
 
-#: QueryManage.pas:4070
+#: QueryManage.pas:4036
 msgid "is accessible"
 msgstr "hozzáférhető"
 
-#: QueryManage.pas:4077
+#: QueryManage.pas:4043
 msgid "is not accessible"
 msgstr "nem hozzáférhető"
 
-#: QueryManage.pas:4084
+#: QueryManage.pas:4050
 msgid "is in Virtual CD"
 msgstr "virtuális CD-n van"
 
-#: QueryManage.pas:4091
+#: QueryManage.pas:4057
 msgid "has preview"
 msgstr "van előnézete"
 
-#: QueryManage.pas:4098
+#: QueryManage.pas:4064
 msgid "is podcast"
 msgstr "podcast"
 
-#: QueryManage.pas:4105
+#: QueryManage.pas:4071
 msgid "is not podcast"
 msgstr "nem podcast"
 
-#: QueryManage.pas:4112
+#: QueryManage.pas:4078
 msgid "is music"
 msgstr "zene"
 
-#: QueryManage.pas:4119
+#: QueryManage.pas:4085
 msgid "is not music"
 msgstr "nem zene"
 
-#: QueryManage.pas:4126
+#: QueryManage.pas:4092
 msgid "is audiobook"
 msgstr "hangoskönyv"
 
-#: QueryManage.pas:4133
+#: QueryManage.pas:4099
 msgid "is not audiobook"
 msgstr "nem hangoskönyv"
 
-#: QueryManage.pas:4140
+#: QueryManage.pas:4106
 msgid "has Artwork"
 msgstr "van grafikája"
 
-#: QueryManage.pas:4147
+#: QueryManage.pas:4113
 msgid "has no Artwork"
 msgstr ""
 
-#: QueryManage.pas:4197
+#: QueryManage.pas:4163
 msgid "Is synced to"
 msgstr "Szinkronizálva van ide:"
 
-#: QueryManage.pas:4206
+#: QueryManage.pas:4172
 msgid "Isn't synced to"
 msgstr "Nincsen szinkronizálva ide:"
 
-#: QueryManage.pas:4214
+#: QueryManage.pas:4180
 msgid "> (days ago)"
 msgstr "> (nappal ezelőtt)"
 
-#: QueryManage.pas:4221
+#: QueryManage.pas:4187
 msgid "< (days ago)"
 msgstr "< (nappal ezelőtt)"
 
-#: QueryManage.pas:4228
+#: QueryManage.pas:4194
 msgid "> (hours ago)"
 msgstr "> (órával ezelőtt)"
 
-#: QueryManage.pas:4235
+#: QueryManage.pas:4201
 msgid "< (hours ago)"
 msgstr "< (órával ezelőtt)"
 
@@ -7715,112 +7758,112 @@ msgstr "< (órával ezelőtt)"
 # temporarily added here
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. 'Is unknown' operations
-#: QueryManage.pas:4280 QueryManage.pas:4286
+#: QueryManage.pas:4246 QueryManage.pas:4252
 msgid "is unknown"
 msgstr "ismeretlen"
 
 #. 'Is known' operations
-#: QueryManage.pas:4294 QueryManage.pas:4300
+#: QueryManage.pas:4260 QueryManage.pas:4266
 msgid "is known"
 msgstr "ismert"
 
-#: QueryManage.pas:4306 QueryManage.pas:4307 QueryManage.pas:4308
-#: QueryManage.pas:4309 QueryManage.pas:4310 QueryManage.pas:4311
+#: QueryManage.pas:4272 QueryManage.pas:4273 QueryManage.pas:4274
+#: QueryManage.pas:4275 QueryManage.pas:4276 QueryManage.pas:4277
 #: ResStrings.pas:538
 msgid "is"
 msgstr "egyenlő"
 
-#: QueryManage.pas:4307
+#: QueryManage.pas:4273
 msgid "downloaded"
 msgstr ""
 
-#: QueryManage.pas:4308 controls\searchView.html:9
+#: QueryManage.pas:4274 controls\searchView.html:9
 msgid "Online"
 msgstr ""
 
-#: QueryManage.pas:4309
+#: QueryManage.pas:4275
 msgid "Local"
 msgstr ""
 
 #. Create 'any field' condition
-#: QueryManage.pas:4590
+#: QueryManage.pas:4556
 msgid "Any text"
 msgstr ""
 
-#: QueryManage.pas:4633
+#: QueryManage.pas:4599
 msgid "# Tracks by Artist"
 msgstr "# db szám az előadótól"
 
-#: QueryManage.pas:4634
+#: QueryManage.pas:4600
 msgid "# Tracks in Album"
 msgstr "# db szám az albumban"
 
-#: QueryManage.pas:4635
+#: QueryManage.pas:4601
 msgid "# Albums by Artist"
 msgstr "# db album az előadótól"
 
-#: QueryManage.pas:4638
+#: QueryManage.pas:4604
 msgid "Artist Comment"
 msgstr "Szerzői megjegyzés"
 
-#: QueryManage.pas:4639
+#: QueryManage.pas:4605
 msgid "Album Comment"
 msgstr "Album megjegyzés"
 
-#: QueryManage.pas:4716
+#: QueryManage.pas:4682
 msgid "Sync state"
 msgstr ""
 
-#: QueryManage.pas:4750
+#: QueryManage.pas:4716
 msgid "Random track"
 msgstr ""
 
-#: QueryManage.pas:4751
+#: QueryManage.pas:4717
 msgid "Random track (auto-refresh)"
 msgstr ""
 
-#: QueryManage.pas:4752
+#: QueryManage.pas:4718
 msgid "Random album"
 msgstr ""
 
-#: QueryManage.pas:4753
+#: QueryManage.pas:4719
 msgid "Random album (auto-refresh)"
 msgstr ""
 
-#: QueryManage.pas:4754 QueryManage.pas:4768 QueryManage.pas:4770
-#: QueryManage.pas:4772 QueryManage.pas:4774
+#: QueryManage.pas:4720 QueryManage.pas:4734 QueryManage.pas:4736
+#: QueryManage.pas:4738 QueryManage.pas:4740
 msgid "highest"
 msgstr ""
 
-#: QueryManage.pas:4755 QueryManage.pas:4769 QueryManage.pas:4771
-#: QueryManage.pas:4773 QueryManage.pas:4775
+#: QueryManage.pas:4721 QueryManage.pas:4735 QueryManage.pas:4737
+#: QueryManage.pas:4739 QueryManage.pas:4741
 msgid "lowest"
 msgstr ""
 
-#: QueryManage.pas:4756 QueryManage.pas:4760 QueryManage.pas:4762
-#: QueryManage.pas:4764
+#: QueryManage.pas:4722 QueryManage.pas:4726 QueryManage.pas:4728
+#: QueryManage.pas:4730
 msgid "most recent"
 msgstr "legújabb"
 
-#: QueryManage.pas:4757 QueryManage.pas:4761 QueryManage.pas:4763
-#: QueryManage.pas:4765
+#: QueryManage.pas:4723 QueryManage.pas:4727 QueryManage.pas:4729
+#: QueryManage.pas:4731
 msgid "least recent"
 msgstr ""
 
-#: QueryManage.pas:4758 QueryManage.pas:4766
+#: QueryManage.pas:4724 QueryManage.pas:4732
 msgid "most often"
 msgstr ""
 
-#: QueryManage.pas:4759 QueryManage.pas:4767
+#: QueryManage.pas:4725 QueryManage.pas:4733
 msgid "least often"
 msgstr ""
 
-#: QueryManage.pas:4764 QueryManage.pas:4765
+#: QueryManage.pas:4730 QueryManage.pas:4731
 #: dialogs\dlgTrackProperties\tabBasic.html:157
 msgid "Original date"
 msgstr "Eredeti dátum"
 
-#: QueryManage.pas:7730 QueryManage.pas:7739
+#: QueryManage.pas:7697 QueryManage.pas:7706
 msgid "Present"
 msgstr "Jelen"
 
@@ -8198,10 +8241,6 @@ msgstr ""
 
 #: UpNp.pas:9419
 msgid "Model description"
-msgstr ""
-
-#: UpNp.pas:9421
-msgid "Device description URL"
 msgstr ""
 
 #: UpNp.pas:10290
@@ -11097,10 +11136,6 @@ msgstr ""
 msgid "Composer(s)"
 msgstr "Zeneszerző(k)"
 
-#: controls\devicesView.html:36
-msgid "Device Description file path:"
-msgstr ""
-
 #: controls\searchEditor.html:34
 msgid "minutes"
 msgstr "perc"
@@ -11296,6 +11331,11 @@ msgid ""
 "The directory %s already exists. Would you like to install to that directory "
 "anyway?"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Destination"
+#~ msgid "Device Destination:"
+#~ msgstr "Cél"
 
 #
 #~ msgid "Favorites - Top 50"
