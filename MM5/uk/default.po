@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-26 17:23\n"
-"PO-Revision-Date: 2020-11-26 17:50+0000\n"
+"PO-Revision-Date: 2020-11-27 10:44+0000\n"
 "Last-Translator: Igor Chomko <igorchomko@gmail.com>\n"
 "Language-Team: Ukrainian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/uk/>\n"
@@ -7566,7 +7566,7 @@ msgstr "Вечірка"
 #. occasion tag constant
 #: NewDBCreate.pas:1211
 msgid "Rave"
-msgstr "Збуджений"
+msgstr "Рейв"
 
 #
 #. occasion tag constant
@@ -7602,7 +7602,7 @@ msgstr "Хороша копія"
 #. quality tag constant
 #: NewDBCreate.pas:1217
 msgid "Fair copy"
-msgstr "Достатня копія"
+msgstr "Середня копія"
 
 #
 #. quality tag constant
@@ -7642,7 +7642,7 @@ msgstr "Нещодавно додані (1 Гб)"
 
 #: Normalization.pas:361
 msgid "Generating thumbnail $act$ of $tot$ ($name$)"
-msgstr "Генерується ескіз зображення $дія$ of $маля$ ($ім'я$)"
+msgstr "Створення ескізу $act$ з $tot$ ($name$)"
 
 #: Normalization.pas:452
 msgid "Saving tags"
@@ -7650,12 +7650,12 @@ msgstr "Збереження теґів"
 
 #: Normalization.pas:1206
 msgid "%d of %d (%s)"
-msgstr "%d of %d (%s)"
+msgstr "%d з %d (%s)"
 
 #. otherwise could result in write lock after read lock assertion when SD item is changed in CalcNormalization (crash C0040000)
 #: Normalization.pas:1717
 msgid "Leveling volume %d of %d (%s)"
-msgstr "Вирівнювання звуку %d з %d (%s)"
+msgstr "Вирівнювання гучності %d з %d (%s)"
 
 #: Normalization.pas:1744
 msgid "Track volume may be leveled only for MP3 files."
@@ -7670,12 +7670,13 @@ msgid ""
 "This playlist is a parent of other playlists. Deleting it will also remove "
 "its children. Are you sure you want to delete it?"
 msgstr ""
-"Даний плейлист є батьківським для інших плейлистів.Його видалення вилучить "
-"також його дітей. Ви дійсно бажаєте видалити його?"
+"Цей список відтворення є батьківським для інших списків відтворення. "
+"Видалення також призведе до вилучення його дітей. Ви дійсно бажаєте видалити "
+"його?"
 
 #: PlaylistManage.pas:1261
 msgid "Duplicate file(s) detected:"
-msgstr "Виявлено файл(-и) дублікати:"
+msgstr "Виявлено дублікати файлів:"
 
 #. new line
 #: PlaylistManage.pas:1273
@@ -7690,18 +7691,18 @@ msgstr "Оновлення подкасту"
 #. And cache its content on HDD
 #: PodcastManage.pas:1000
 msgid "It does not seem to be an OPML directory."
-msgstr "Схоже - це не директорія OPML."
+msgstr "Здається, це не каталог OPML."
 
 #. eliminate the word
 #. Replace OR operator by ; (it has the same meaning)
 #: QueryManage.pas:2367 QueryManage.pas:2621 QueryManage.pas:2625
 #: QueryManage.pas:7336 QueryManage.pas:7488
 msgid "OR"
-msgstr "АБО"
+msgstr "OR"
 
 #: QueryManage.pas:2955
 msgid "Series/Title"
-msgstr "Серії/Заголовок"
+msgstr "Серія/Назва"
 
 #: QueryManage.pas:4036
 msgid "is accessible"
@@ -7713,11 +7714,11 @@ msgstr "недоступний"
 
 #: QueryManage.pas:4050
 msgid "is in Virtual CD"
-msgstr "знаходиться на віртуальному CD"
+msgstr "знаходиться на Віртуальному CD"
 
 #: QueryManage.pas:4057
 msgid "has preview"
-msgstr "має перегляд"
+msgstr "має попередній перегляд"
 
 #: QueryManage.pas:4064
 msgid "is podcast"
@@ -7745,7 +7746,7 @@ msgstr "не є аудіокнижкою"
 
 #: QueryManage.pas:4106
 msgid "has Artwork"
-msgstr "має Обкладинку"
+msgstr "має Оформлення"
 
 #: QueryManage.pas:4113
 msgid "has no Artwork"
@@ -7753,11 +7754,11 @@ msgstr "Оформлення відсутнє"
 
 #: QueryManage.pas:4163
 msgid "Is synced to"
-msgstr "Синхронізований з"
+msgstr "Синхронізовано з"
 
 #: QueryManage.pas:4172
 msgid "Isn't synced to"
-msgstr "Не синхронізований з"
+msgstr "Не синхронізовано з"
 
 #: QueryManage.pas:4180
 msgid "> (days ago)"
@@ -7781,7 +7782,7 @@ msgstr "< (годин тому)"
 #. 'Is unknown' operations
 #: QueryManage.pas:4246 QueryManage.pas:4252
 msgid "is unknown"
-msgstr "невідомо"
+msgstr "невідомий"
 
 #. 'Is known' operations
 #: QueryManage.pas:4260 QueryManage.pas:4266
@@ -7813,11 +7814,11 @@ msgstr "Будь-який текст"
 
 #: QueryManage.pas:4599
 msgid "# Tracks by Artist"
-msgstr "# Треків Виконавця"
+msgstr "# Доріжок Виконавця"
 
 #: QueryManage.pas:4600
 msgid "# Tracks in Album"
-msgstr "# Треків в Альбомі"
+msgstr "# Доріжок в Альбомі"
 
 #: QueryManage.pas:4601
 msgid "# Albums by Artist"
@@ -7825,11 +7826,11 @@ msgstr "# Альбомів Виконавця"
 
 #: QueryManage.pas:4604
 msgid "Artist Comment"
-msgstr "Коментарій до Виконавця"
+msgstr "Коментар до Виконавця"
 
 #: QueryManage.pas:4605
 msgid "Album Comment"
-msgstr "Коментарій до Альбому"
+msgstr "Коментар до Альбому"
 
 #: QueryManage.pas:4682
 msgid "Sync state"
@@ -7864,7 +7865,7 @@ msgstr "найнижчий"
 #: QueryManage.pas:4722 QueryManage.pas:4726 QueryManage.pas:4728
 #: QueryManage.pas:4730
 msgid "most recent"
-msgstr "останні"
+msgstr "найсучасніший"
 
 #: QueryManage.pas:4723 QueryManage.pas:4727 QueryManage.pas:4729
 #: QueryManage.pas:4731
@@ -7907,15 +7908,15 @@ msgstr "Попередження"
 
 #: ResStrings.pas:365 controls\equalizer.html:3
 msgid "Left"
-msgstr "Зліва"
+msgstr "Ліворуч"
 
 #: ResStrings.pas:366 controls\equalizer.html:5
 msgid "Right"
-msgstr "Справа"
+msgstr "Праворуч"
 
 #: ResStrings.pas:367
 msgid "Center"
-msgstr "В центрі"
+msgstr "По центру"
 
 #: ResStrings.pas:368
 msgid "Progress"
@@ -7927,23 +7928,23 @@ msgstr "Прибл. швидкість потоку"
 
 #: ResStrings.pas:371
 msgid "Average bitrate"
-msgstr "Середня біт.шв-сть"
+msgstr "Середня швидкість потоку"
 
 #: ResStrings.pas:373
 msgid "Minimal bitrate"
-msgstr "Мініміальна біт.шв-сть"
+msgstr "Мінімальна швидкість потоку"
 
 #: ResStrings.pas:374
 msgid "Maximal bitrate"
-msgstr "Максимальна біт.шв-сть"
+msgstr "Максимальна швидкість потоку"
 
 #: ResStrings.pas:375
 msgid "Constant bitrate"
-msgstr "Постійна біт.шв-сть"
+msgstr "Постійна швидкість потоку"
 
 #: ResStrings.pas:376
 msgid "Variable bitrate"
-msgstr "Змінна біт.шв-сть"
+msgstr "Змінна швидкість потоку"
 
 #: ResStrings.pas:378 dialogs\dlgMP3Settings.html:61
 msgid "Encoding quality"
@@ -7995,7 +7996,7 @@ msgstr "ram"
 
 #: ResStrings.pas:402
 msgid "Harddisk"
-msgstr "Твердий диск"
+msgstr "Жорсткий диск"
 
 #: ResStrings.pas:404
 msgid "CD-ROM"
@@ -8003,7 +8004,7 @@ msgstr "CD-ROM"
 
 #: ResStrings.pas:405
 msgid "Ramdisk"
-msgstr "Диск Ram"
+msgstr "Ramdisk"
 
 #: ResStrings.pas:418
 msgid "Virtual"
@@ -8023,23 +8024,23 @@ msgstr "Обрати"
 
 #: ResStrings.pas:531
 msgid "equals"
-msgstr "урівнює"
+msgstr "рівний"
 
 #: ResStrings.pas:533
 msgid "starts with"
-msgstr "розпочинається з"
+msgstr "починається з"
 
 #: ResStrings.pas:534
 msgid "doesn't equal"
-msgstr "не урівнює"
+msgstr "не дорівнює"
 
 #: ResStrings.pas:535
 msgid "doesn't contain"
-msgstr "не вміщує"
+msgstr "не містить"
 
 #: ResStrings.pas:536
 msgid "doesn't start with"
-msgstr "не розпочинається з"
+msgstr "не починається з"
 
 #: ResStrings.pas:537
 msgid "between"
@@ -8047,7 +8048,7 @@ msgstr "між"
 
 #: ResStrings.pas:539
 msgid "is not"
-msgstr "не являється"
+msgstr "не"
 
 #: ResStrings.pas:541
 msgid "Analyzing volume"
@@ -8055,15 +8056,15 @@ msgstr "Аналіз гучності"
 
 #: ResStrings.pas:546
 msgid "No Audio CD was found. Please insert a CD."
-msgstr "Аудіо CD не знайдено. Вставте CD, будь-ласка."
+msgstr "Аудіокомпакт-диск не знайдено. Вставте компакт-диск."
 
 #: ResStrings.pas:548
 msgid "Table of Contents of CD-ROM %s: was not read successfully."
-msgstr "Зміст CD-ROM %s: невдало прочитано."
+msgstr "Зміст компакт-диска %s: не було успішно прочитано."
 
 #: ResStrings.pas:550
 msgid "There was a problem querying the database: "
-msgstr "Виникла проблема запиту бази даних: "
+msgstr "Виникла проблема з запитом до бази даних: "
 
 #: ResStrings.pas:553
 msgid ""
@@ -8075,7 +8076,7 @@ msgstr ""
 
 #: ResStrings.pas:555
 msgid "Time-out error occured while connecting to Freedb."
-msgstr "Виникла помилка обмеження часу при під'єднанні до Freedb."
+msgstr "Під час підключення до Freedb сталася помилка часу очікування."
 
 #: ResStrings.pas:561
 msgid ""
@@ -8083,9 +8084,9 @@ msgid ""
 "example, browse your classical music collection independently of your other "
 "music. Collections can only be edited with the Gold version."
 msgstr ""
-"Колекції дозволяють вам визначати вибірки вашої Бібліотеки так, що ви можете,"
-"наприклад,переглядати свою музичну колекцію незалежно від інших зразків "
-"вашої музики. Колекції можуть бути створені лише у версії Gold."
+"Колекції дозволяють визначити підмножини вашої Бібліотеки, щоб ви могли, "
+"наприклад, переглядати свою колекцію класичної музики незалежно від іншої "
+"музики. Збірки можна редагувати лише за допомогою версії Gold."
 
 #: ResStrings.pas:568
 msgid "Information"
@@ -8093,7 +8094,7 @@ msgstr "Інформація"
 
 #: ResStrings.pas:579
 msgid "Language(s)"
-msgstr "Мова (-и)"
+msgstr "Мова(и)"
 
 #: ResStrings.pas:693
 msgid "recent episodes first"
@@ -8109,31 +8110,31 @@ msgstr "усі епізоди"
 
 #: ResStrings.pas:696
 msgid "no episodes"
-msgstr "нема епізодів"
+msgstr "немає епізодів"
 
 #: ResStrings.pas:706
 msgid "from the past 24 hours"
-msgstr "за останні 24 години"
+msgstr "за минулі 24 години"
 
 #: ResStrings.pas:707
 msgid "from the past 2 days"
-msgstr "за останні 2 дні"
+msgstr "за минулі 2 дні"
 
 #: ResStrings.pas:708
 msgid "from the past 3 days"
-msgstr "за останні 3 дні"
+msgstr "за минулі 3 дні"
 
 #: ResStrings.pas:709
 msgid "from the past week"
-msgstr "за останній тиждень"
+msgstr "за минулий тиждень"
 
 #: ResStrings.pas:710
 msgid "from the past 2 weeks"
-msgstr "за останні 2 тижні"
+msgstr "за минулі 2 тижні"
 
 #: ResStrings.pas:711
 msgid "from the past month"
-msgstr "за останній місяць"
+msgstr "за минулий місяць"
 
 #: ResStrings.pas:716
 msgid "1 unplayed episode"
@@ -8150,27 +8151,27 @@ msgstr "Програвач MediaMonkey"
 
 #: Shutdowner.pas:173
 msgid "Your computer is going to shutdown"
-msgstr "Ваш комп'ютер на межі відключення"
+msgstr "Ваш комп'ютер вимкнеться"
 
 #: Shutdowner.pas:185
 msgid "Your computer is going to hibernate"
-msgstr "Ваш комп'ютер на межі очікування"
+msgstr "Ваш комп 'ютер буде сплячим"
 
 #: Shutdowner.pas:197
 msgid "Your computer is going to sleep"
-msgstr "Ваш комп'ютер на межі сну"
+msgstr "Ваш комп'ютер засне"
 
 #: Shutdowner.pas:209
 msgid "Your computer is going to log off"
-msgstr "Ваш комп'ютер на межі виходу з реєстрації"
+msgstr "Ваш комп'ютер вийде з системи"
 
 #: Shutdowner.pas:259
 msgid "Sleep: %d minutes"
-msgstr "Спати: %d хвилин"
+msgstr "Сон: %d хвилин"
 
 #: Shutdowner.pas:259
 msgid "Sleep: %d minute"
-msgstr "Спати: %d хвилин"
+msgstr "Сон: %d хвилина"
 
 #. #13718 - item 1
 #: UpNp.pas:2367
@@ -8208,7 +8209,7 @@ msgstr "Прийнято"
 #: UpNp.pas:4408 UpNp.pas:5132 UpNp.pas:5889
 #: controls\deviceConfig\options\pnl_FileLocations.html:73
 msgid "Root directory"
-msgstr "Коренева директорія"
+msgstr "Кореневий каталог"
 
 #: UpNp.pas:5344 UpNp.pas:5350
 msgid "This is an external IP address!"
@@ -8216,12 +8217,12 @@ msgstr "Це зовнішня IP-адреса!"
 
 #: UpNp.pas:5346 UpNp.pas:5353
 msgid "Do you want to grant it access?"
-msgstr "Бажаєте дозволити доступ?"
+msgstr "Бажаєте надати йому доступ?"
 
 #. Access is not allowed, ask user to allow access
 #: UpNp.pas:5454
 msgid "A device [MAC address: %s] is attempting to access the %s"
-msgstr "Пристрій [MAC address: %s] намагається отримати доступ до %s"
+msgstr "Пристрій [MAC-адреса: %s] намагається отримати доступ до %s"
 
 #. WiFi sync
 #: UpNp.pas:5476
@@ -8243,7 +8244,7 @@ msgstr "Зупинка увімкнена"
 
 #: UpNp.pas:8093
 msgid "The %s player is turned off or inaccessible."
-msgstr "%s плеєр вимнкний або недоступний."
+msgstr "Програвач %s вимкнений або недоступний."
 
 #. to not enter sleep mode when we are playing to a receiver and all data is already buffered by the receiver (#15089)
 #. to not show "turned off or inaccessible" message, but just skip to the next file
@@ -8273,12 +8274,12 @@ msgstr "Опис моделі"
 
 #: UpNp.pas:10290
 msgid "The link/URL has not been entered in a valid format"
-msgstr "Неправильний формат адреси"
+msgstr "Посилання/URL-адреса не було введено в дійсному форматі"
 
 #. try again after 1 second as in some environments the router re-configuration (OpenPort) makes temporal issues
 #: UpNp.pas:10313
 msgid "The link/URL entered does not point to a media server device"
-msgstr "Введена адреса не вказує на медіа-сервер"
+msgstr "Введене посилання/URL-адреса не вказує на пристрій медіа сервера"
 
 #: UpNp.pas:11652
 msgid "Playing to %s has failed"
@@ -8298,7 +8299,7 @@ msgstr "Робочий стіл"
 
 #: UPnPTreeHelper.pas:877
 msgid "Public"
-msgstr "Публічне"
+msgstr "Загальнодоступний"
 
 #: UPnPTreeHelper.pas:1882
 msgid "Authors"
@@ -8306,34 +8307,34 @@ msgstr "Автори"
 
 #: UPnPTreeHelper.pas:1893
 msgid "Original Year"
-msgstr "Вихідний Рік"
+msgstr "Початковий рік"
 
 #: WebUtils.pas:4288
 msgid "The file %s cannot be created."
-msgstr "Файл %s неможливо створити."
+msgstr "Файл %s не може бути створений."
 
 #: WebUtils.pas:5895
 msgid "Checking for new version..."
-msgstr "Перевірка нової версії..."
+msgstr "Перевірка наявності нової версії..."
 
 #. release the ref
 #: WebUtils.pas:5997
 msgid "MediaMonkey %s is the current version"
-msgstr "Актуальна версія MediaMonkey %s"
+msgstr "MediaMonkey %s - поточна версія"
 
 #: WebUtils.pas:6025
 msgid "MediaMonkey could not check for updates;"
-msgstr "MediaMonkey не може перевірити оновлення;"
+msgstr "MediaMonkey не вдалося перевірити наявність оновлень;"
 
 #. JumpList.Tasks.AddShellLink( _('Minimize to MiniPlayer'), '/w7t=gomini', Application.ExeName, 0);
 #: Win7ToolsImpl.pas:2187
 msgid "&Load Playlist"
-msgstr "&Завантажити Плейлист"
+msgstr "&Завантажити Список відтворення"
 
 #. make sure CD_Reader is the first
 #: WinAmpPlugins.pas:3170
 msgid "Plug-in %s could not be opened."
-msgstr "Додаток %s неможливо відкрити."
+msgstr "Не вдалося відкрити плагін %s."
 
 #: WinAmpPlugins.pas:5233
 msgid ""
@@ -8386,7 +8387,7 @@ msgstr "Увімкнути плавну прокрутку"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
-msgstr "Застосовує зміни зроблені в існуючому введенні Гарячих клавіш"
+msgstr "Застосовує зміни, внесені до чинного запису Гарячої клавіші"
 
 #: dialogs\dlgOptions\pnl_Library.html:145
 msgid ".nfo files"
@@ -8399,10 +8400,10 @@ msgid ""
 "highly organized directory structure, in which case 'Filename + Path' will "
 "yield better results."
 msgstr ""
-"Властивості можна запозичити з 'Імені файлу' або 'Імені файлу + Шлях'. "
-"Загалом краще запозичати лише з Імен файлів, хіба якщо треки не було зібрано "
-"у високоорганізованій структурі директорії.У цьому випадку 'Ім'я файлу + "
-"Шлях' покажуть кращі результати."
+"Властивості можна визначити з \"Імен файлів\" або \"Імен файлів + Шлях\". Як "
+"правило, краще визначати лише з імен файлів, якщо файли не розташовані у "
+"високоорганізованій структурі каталогів, і в цьому випадку \"Ім'я файлу + "
+"Шлях\" дасть кращі результати."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:2
 msgid ""
@@ -8413,7 +8414,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:21
 msgid "ID3v2 text encoding:"
-msgstr "Текстове кодування ID3v2:"
+msgstr "Кодування тексту ID3v2:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:12
 msgid "ID3v2.3 tags"
@@ -8445,9 +8446,9 @@ msgid ""
 "separate directories, or are simply prefaced with text indicating whether it "
 "is an Album or Artist."
 msgstr ""
-"Це визначає чи будуть плейлисти для Альбомів, Артистів і т.д., зберігатися у "
-"окремих директоріях або просто будуть містити текст, що визначатиме Альбом "
-"це чи Артист."
+"Це визначає, чи зберігаються списки відтворення Альбомів, Виконавців тощо в "
+"окремих каталогах, чи просто будуть містити текст, що вказує чи це Альбом чи "
+"Виконавець."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "Use Linux folder separator ('/' instead of '\\')"
@@ -8455,7 +8456,7 @@ msgstr "Використовувати роздільник тек Linux (\"/\" 
 
 #: controls\deviceConfig\options\pnl_Playlists.html:32
 msgid "Use extended M3U"
-msgstr "Використати розширений M3U"
+msgstr "Використовувати розширений M3U"
 
 #: controls\serverConfig\server.html:11
 msgid "Port"
@@ -8473,7 +8474,7 @@ msgstr "Тип видобування"
 msgid ""
 "Defines how many new episodes are downloaded if new episodes are detected"
 msgstr ""
-"Визначте скільки нових епізодів завантажується, якщо виявлені нові епізоди"
+"Визначає, скільки нових епізодів завантажується, якщо виявлено нові епізоди"
 
 #: dialogs\dlgSupportedFormat.html:25
 msgid "Audio format"
@@ -8481,12 +8482,13 @@ msgstr "Формат аудіо"
 
 #: dialogs\dlgOptions\pnl_General.html:36
 msgid "Minimizes to the MiniPlayer"
-msgstr "Мінімізує до Мініплеєра"
+msgstr "Мінімізує до Міні Програвача"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:15
 msgid "Causes the Hotkey to function even when MediaMonkey isn't in focus"
 msgstr ""
-"Спричиняє функціонування Гарячих ключів навіть, коли MediaMonkey не у фокусі"
+"Викликає функціонування Гарячої клавіші, навіть коли MediaMonkey не "
+"знаходиться в фокусі"
 
 #: dialogs\dlgOptions\pnl_InputPlugins.html:4
 msgid "About..."
@@ -8515,7 +8517,7 @@ msgstr "Вимкнути перехресне затухання"
 
 #: dialogs\dlgOptions\pnl_Player.html:73
 msgid "Opaque"
-msgstr "Матовий"
+msgstr "Непрозорий"
 
 #: dialogs\dlgOptions\pnl_Player.html:30
 msgid "Default 'Play now' action"
@@ -8523,7 +8525,7 @@ msgstr "Типова дія для \"Відтворити зараз\""
 
 #: dialogs\dlgOptions\pnl_Player.html:46
 msgid "Indicates how long the Pop-up should display"
-msgstr "Відображає тривалість показу виринаючого вікна"
+msgstr "Вказує, скільки часу має показуватися спливне вікно"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:15
 msgid "ID3v1 and v2.4 tags"
@@ -8567,7 +8569,7 @@ msgstr "Макс. роздільна здатність"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:33
 msgid "Automatically retain"
-msgstr "Утримувати автоматично"
+msgstr "Автоматично зберігати"
 
 #: dialogs\dlgOptions\pnl_General.html:20
 msgid "Allow just one instance of MediaMonkey"
@@ -8575,7 +8577,7 @@ msgstr "Дозволити лише один примірник MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_General.html:23
 msgid "Shows the MediaMonkey icon in the system tray"
-msgstr "Показує іконку MediaMonkey в Системній Панелі"
+msgstr "Показує піктограму MediaMonkey у системному лотку"
 
 #: dialogs\dlgOptions\pnl_Library.html:125
 msgid "Video properties:"
@@ -8587,7 +8589,7 @@ msgstr "Тільки для файлів зі зміненою позначко�
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:18
 msgid "This locks the current configuration of Party Mode."
-msgstr "Це блокує поточну конфігурацію Режиму Вечоринки."
+msgstr "Це блокує поточну конфігурацію Режиму Вечірки."
 
 #: dialogs\dlgOptions\pnl_Performance.html:24
 msgid "Volume analysis"
@@ -8623,7 +8625,7 @@ msgstr "Критерії файлів"
 
 #: dialogs\dlgConvertFormat.html:30
 msgid "Settings"
-msgstr "Установки"
+msgstr "Налаштування"
 
 #: dialogs\dlgExtensions.html:19
 msgid "Find updates"
@@ -8631,7 +8633,7 @@ msgstr "Знайти оновлення"
 
 #: dialogs\dlgMP3Settings.html:91
 msgid "Use bit reservoir"
-msgstr "Використати бітовий запас"
+msgstr "Використовувати резервуар бітів"
 
 #: dialogs\dlgPodcastSubscription.html:63
 msgid "1 week"
@@ -8647,11 +8649,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:9
 msgid "Confirm desired options on removal of files from Playlist"
-msgstr "Підтвердити бажані опції при вилученні файлів з Плейлиста"
+msgstr "Підтвердити бажані параметри при видаленні файлів зі списку відтворення"
 
 #: dialogs\dlgOptions\pnl_General.html:8
 msgid "Check for updates (when connected)"
-msgstr "Перевірити оновлення (при з'єднанні)"
+msgstr "Перевірити наявність оновлень (при підключенні)"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -8685,9 +8687,9 @@ msgid ""
 "Note that content already synced from the PC to the Device will update "
 "within the existing locations."
 msgstr ""
-"Обрати директорію на ПК до якої буде синхронізуватися новий контент з "
-"пристрою. Майте на увазі, що контент, який вже було синхронізовано з ПК на "
-"пристрій, буде оновлений у існуючих місцях."
+"Обрати каталог на ПК до якої буде синхронізуватися новий контент з пристрою. "
+"Майте на увазі, що контент, який вже було синхронізовано з ПК на пристрій, "
+"буде оновлений в наявних місцях."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:14
 msgid "Selected folder nodes"
@@ -8699,7 +8701,7 @@ msgstr "Використати ручне налаштування"
 
 #: dialogs\dlgOGGSettings.html:14
 msgid "by Bitrate"
-msgstr "За бітовою швидкістю"
+msgstr "за Швидкістю потоку"
 
 #: dialogs\dlgPodcastSubscription.html:62
 msgid "3 days"
@@ -8715,11 +8717,11 @@ msgstr "Макс."
 
 #: dialogs\dlgOptions\pnl_Appearance.html:10
 msgid "(requires restart)"
-msgstr "(потребує перезавантаження)"
+msgstr "(потрібен перезапуск)"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:27
 msgid "Confirm sync operation when there's not enough space available"
-msgstr "Підтверджувати синхронізацію коли недостатньо вільного місця"
+msgstr "Підтвердити операцію синхронізації, коли недостатньо місця"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:7
 msgid "Active layout"
@@ -8731,11 +8733,11 @@ msgstr "Коли відтворення зупинено:"
 
 #: dialogs\dlgOptions\pnl_Player.html:90
 msgid "Horizontal"
-msgstr "Горизонтальне"
+msgstr "Горизонтально"
 
 #: dialogs\dlgOptions\pnl_Search.html:17
 msgid "Search whole words only"
-msgstr "Шукати лише цілі слова"
+msgstr "Пошук лише цілих слів"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:76
 msgid ""
@@ -8751,7 +8753,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:36
 msgid "Level ripped tracks:"
-msgstr "Вирівняти записувані треки:"
+msgstr "Рівень записуваних доріжок:"
 
 #: controls\autoConvertConfig.html:7
 msgid ""
@@ -8783,7 +8785,7 @@ msgstr "Оновити кількість відтворень під час в�
 
 #: dialogs\dlgMovedFiles.html:8
 msgid "Update the Library with the new location for the following files:"
-msgstr "Оновити Бібліотеку новим розміщенням наступних файлів:"
+msgstr "Оновити Бібліотеку новим розташуванням для наступних файлів:"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:12
 msgid ""
@@ -8807,24 +8809,24 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:27
 msgid "Minimization settings:"
-msgstr "Установки мінімізації:"
+msgstr "Параметри мінімізації:"
 
 #: dialogs\dlgOptions\pnl_General.html:41
 msgid ""
 "This option causes MediaMonkey to never truly close--it always runs in the "
 "background, and is always accessible via the system tray."
 msgstr ""
-"Дана опція спричиняяє MediaMonkey, насправді, ніколи не закриватися -- "
-"програма продовжує працювати у фоновому режимі і завжди доступна через "
-"системну панель."
+"Цей параметр призводить до того, що MediaMonkey ніколи по-справжньому не "
+"закривається - він завжди працює в фоновому режимі та завжди доступний через "
+"системний лоток."
 
 #: dialogs\dlgOptions\pnl_General.html:30
 msgid "Minimizes to the Taskbar"
-msgstr "Мінімізує до панелі завдань"
+msgstr "Мінімізується до Панелі завдань"
 
 #: dialogs\dlgOptions\pnl_Library.html:117
 msgid "Tags then Playlists"
-msgstr "Теґи потім Список програвання"
+msgstr "Теґи, а потім Списки відтворення"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
 msgid "Default action for files:"
@@ -8844,7 +8846,7 @@ msgstr "з наступних критеріїв"
 
 #: controls\deviceConfig\syncToDevice.html:18
 msgid "Unselected Library files"
-msgstr "Невибрані файли Бібліотеки"
+msgstr "Не вибрані файли Бібліотеки"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "This format is used by some devices"
@@ -8862,7 +8864,7 @@ msgstr "Приймати зовнішні ІР адреси"
 
 #: dialogs\dlgAddArtwork.html:33
 msgid "Apply to all files in the Album/Series"
-msgstr "Застосувати до всіх файлів у Альбомі/Серіях"
+msgstr "Застосувати до всіх файлів у Альбомі/Серії"
 
 #: dialogs\dlgAddonInstall.html:11
 msgid "This action will install the following product"
@@ -8886,9 +8888,9 @@ msgid ""
 "or edited. To fully automate, enable File Monitoring to scan directories in "
 "the background."
 msgstr ""
-"Організуйте файли бібліотеки за правилами встановленими вище, якщо файли "
-"скануються або редагуються . Для цілковитої автоматизації увімкніть Монітор "
-"Файлів для сканування директорій у фоновому режимі."
+"Упорядковуйте бібліотечні файли на основі наведених вище правил кожного "
+"разу, коли файли скануються або редагуються. Щоб повністю автоматизувати, "
+"увімкніть Моніторинг файлів для сканування каталогів у фоновому режимі."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:14
 msgid ""
@@ -8925,8 +8927,8 @@ msgid ""
 "Saves playback position (great for Audiobooks) for files of the selected "
 "type."
 msgstr ""
-"Зберігає позицію відтворення (чудово для Аудіокнижок) для файлів обраного "
-"типу."
+"Зберігає позицію відтворення (чудово підходить для аудіокниг) для файлів "
+"вибраного типу."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -8937,8 +8939,8 @@ msgid ""
 "This is the filename for the first image, as long as only a single Album, "
 "Series, or Movie is contained within the folder."
 msgstr ""
-"Це ім'я файлу належить лише першій картинці Альбому, Серіалу або Фільму, що "
-"знаходиться в даній папці."
+"Це ім'я файлу для першого зображення, якщо в теці міститься лише один "
+"Альбом, Серія або Фільм."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:3
 msgid "Target volume levels"
@@ -8954,7 +8956,7 @@ msgstr "Моя Бібліотека"
 
 #: dialogs\dlgAutoorganize.html:26
 msgid "Resulting directories and filenames:"
-msgstr "Вислідні директорії та імена файлів:"
+msgstr "Отримані каталоги та імена файлів:"
 
 #: dialogs\dlgAutotag.html:19
 msgid "Allow compilations"
@@ -8986,11 +8988,11 @@ msgstr "низька"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
-msgstr "Увімкнути Авто ДіДжей"
+msgstr "Увімкнути Авто Діджей"
 
 #: dialogs\dlgOptions\pnl_General.html:50
 msgid "This enables tooltips for context help"
-msgstr "Це вмимкає підказки інструментарію для контекстної допомоги"
+msgstr "Це дозволяє використовувати підказки для контекстної довідки"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:4
 msgid "Configure layout (current tab)"
@@ -9017,7 +9019,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Library.html:170
 msgid "Scan file directories for Artwork"
-msgstr "Сканувати директорії файлів для Обкладинок Альбомів"
+msgstr "Перевірка каталогів файлів на наявність Ілюстрацій"
 
 #: dialogs\dlgOptions\pnl_Network.html:2
 msgid ""
@@ -9032,7 +9034,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:43
 msgid "When files are playing:"
-msgstr "Коли файли відтворюються:"
+msgstr "Під час відтворення файлів:"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid ""
@@ -9053,8 +9055,8 @@ msgid ""
 "Syncs updated metadata such as ratings and play counts from the device to "
 "the PC."
 msgstr ""
-"Синхронізує оновлені метадані: рейтинг, кількість прослуховувань з пристрою "
-"на ПК."
+"Синхронізує оновлені метадані, такі як оцінки та кількість відтворень з "
+"пристрою на ПК."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:23
 msgid ""
@@ -9080,7 +9082,7 @@ msgstr ""
 
 #: dialogs\dlgAutoConvertRule.html:21
 msgid "If any of the following conditions are true:"
-msgstr "Якщо будь-яка з наступних умов є привильною:"
+msgstr "Якщо будь-яка з наступних умов відповідає дійсності:"
 
 #: dialogs\dlgAutoConvertRule.html:43
 msgid "Quality profile"
@@ -9088,11 +9090,11 @@ msgstr "Профіль якості"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Verifies ripped tracks against the AccurateRip.com database"
-msgstr "Звіряє записані треки з базою даних AccurateRip.com"
+msgstr "Перевірка записаних доріжок у базі даних AccurateRip.com"
 
 #: dialogs\dlgMP3Settings.html:49
 msgid "Use advanced settings"
-msgstr "Використати розширені налаштування"
+msgstr "Використовувати додаткові налаштування"
 
 #: dialogs\dlgPodcastSubscription.html:51
 msgid "Customize subscription rules for this podcast"
@@ -9134,11 +9136,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:13
 msgid "Looks up lyrics if they're missing"
-msgstr "Шукає текст, якщо його немає"
+msgstr "Пошук текстів пісень, якщо вони відсутні"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:59
 msgid "Associate file types with MediaMonkey..."
-msgstr "Асоціювати типи файлів з MediaMonkey..."
+msgstr "Пов'язати типи файлів з MediaMonkey..."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:44
 msgid "Play in MediaMonkey"
@@ -9150,11 +9152,11 @@ msgstr "Вимкнути елементи керування програвач�
 
 #: dialogs\dlgOptions\pnl_Streaming.html:16
 msgid "DLNA Settings"
-msgstr "DLNA налаштування"
+msgstr "Налаштування DLNA"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:11
 msgid "per Track"
-msgstr "на Трек"
+msgstr "на Доріжку"
 
 #: SampleScripts\sqleditor\dialogs\dlgSQLEditor.html:12
 msgid "Query"
@@ -9182,7 +9184,7 @@ msgstr "Скидає цей профіль синхронізації до ти�
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:86
 msgid "Describes any other directories that should be scanned for media."
-msgstr "Опис будь-яких інших директорій, які маують бути проскановані."
+msgstr "Описує будь-які інші каталоги, які слід перевірити на наявність носіїв."
 
 #: dialogs\dlgAutotagFromFilename.html:9
 msgid "Auto-tag allows you to update tags based on existing filenames"
@@ -9192,7 +9194,7 @@ msgstr ""
 
 #: dialogs\dlgAutotagFromFilename.html:26
 msgid "Update empty fields only"
-msgstr "Оновлювати лише порожні файли"
+msgstr "Оновити лише порожні поля"
 
 #: dialogs\dlgCollectionOptions.html:50
 msgid "Sub-nodes and Views"
@@ -9200,7 +9202,7 @@ msgstr "Підвузли та Перегляди"
 
 #: dialogs\dlgConvertFormat.html:46
 msgid "Encode tracks with volume leveled"
-msgstr "Закодувати треки з вирівняним звуком"
+msgstr "Кодування доріжок з вирівнюванням гучності"
 
 #: dialogs\dlgMovedFiles.html:37
 msgid "Update"
@@ -9212,7 +9214,7 @@ msgstr "Номінальна швидкість потоку"
 
 #: dialogs\dlgOGGSettings.html:38
 msgid "Limit minimal bitrate"
-msgstr "Обмежити мін.бітову швидк-ть"
+msgstr "Обмежити мінімальну швидкість потоку"
 
 #: dialogs\dlgPodcastSubscription.html:36
 msgid "Login"
@@ -9229,7 +9231,7 @@ msgstr "Переглянути журнал"
 
 #: dialogs\dlgTrackProperties.html:12
 msgid "Update & Previous song (Alt-Left)"
-msgstr "Оновлення & Попередня пісня (Alt-Left)"
+msgstr "Оновити та Попередня пісня (Alt-Left)"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:50
 msgid "Show warning when file to be played is not accessible"
@@ -9237,11 +9239,11 @@ msgstr "Показувати попередження, коли файл для 
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:3
 msgid "Confirm desired options on copy of Library folders"
-msgstr "Підтвердити бажані опції при копіюванні папок Бібліотеки"
+msgstr "Підтвердити бажані параметри на копії тек Бібліотеки"
 
 #: dialogs\dlgOptions\pnl_Download.html:19
 msgid "Every hour"
-msgstr "Кожної години"
+msgstr "Кожну годину"
 
 #: dialogs\dlgOptions\pnl_Library.html:3
 msgid "When adding files to the Library"
@@ -9258,7 +9260,9 @@ msgstr "Загальний карантин"
 #: dialogs\dlgOptions\pnl_Player.html:102
 msgid ""
 "Plays videos via the system's default video player instead of in MediaMonkey"
-msgstr "Грає відео-файли системним відео-плеєром замість MediaMonkey"
+msgstr ""
+"Відтворення відео за допомогою типового відеопрогравача системи замість "
+"MediaMonkey"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:64
 msgid "Original title"
@@ -9292,7 +9296,7 @@ msgstr ""
 
 #: dialogs\dlgAutotagFromFilename.html:12
 msgid "Filename format:"
-msgstr "Формат імені файла:"
+msgstr "Формат імені файлу:"
 
 #: dialogs\dlgMP3Settings.html:21
 msgid "Type of bitrate"
@@ -9308,16 +9312,15 @@ msgstr "Профілі"
 
 #: dialogs\dlgTrackProperties.html:13
 msgid "Update & Next song (Alt-Right)"
-msgstr "Оновлення & Наступна пісня (Alt-Right)"
+msgstr "Оновити та Наступна пісня (Alt-Right)"
 
 #: dialogs\dlgOptions\pnl_Library.html:76
 msgid "Remove unused Attributes (Artist, Album, Composer, ...)"
-msgstr ""
-"Вилучити невикористовувані Атрибути (Виконавець, Альбом, Композитор, ...)"
+msgstr "Вилучити невикористані Атрибути (Виконавець, Альбом, Композитор, ...)"
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:11
 msgid "Cache auto-converted content to:"
-msgstr "Кешує автоконвертований контент до:"
+msgstr "Кеш автоматично перетвореного вмісту до:"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:34
 msgid "Freedb (CDDBP)"
@@ -9371,11 +9374,11 @@ msgstr "Вирівняти гучність Доріжки"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Verify ripped tracks"
-msgstr "Перевірити записані треки"
+msgstr "Перевірити записані доріжки"
 
 #: dialogs\dlgMovedFiles.html:16
 msgid "Unlocatable files"
-msgstr "Незнайдені файли"
+msgstr "Не розташовані файли"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:17
 msgid ""
@@ -9414,7 +9417,7 @@ msgstr "Оновити інформацію про файл з теґів при
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:19
 msgid "Disable repositioning of dialogs and controls"
-msgstr "Відключити зміну розташування діалогів та контролерів"
+msgstr "Вимкнути зміну положення діалогових вікон та елементів керування"
 
 #: dialogs\dlgOptions\pnl_Performance.html:18
 msgid "Ripping"
@@ -9432,11 +9435,11 @@ msgstr "Ігнорувати Перемішування"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disables crossfading for files of the selected type."
-msgstr "Відключає перехресне затухання для файлів обраних типів."
+msgstr "Вимикає перехресне затухання для файлів вибраного типу."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:70
 msgid "First image per Album/Series:"
-msgstr "Перше зображення на кожний Альбом / Серії:"
+msgstr "Перше зображення на Альбом/Серії:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:33
 msgid ""
@@ -9478,7 +9481,7 @@ msgstr "Зберегти попереднє налаштування..."
 
 #: controls\deviceConfig\syncToDevice.html:19
 msgid "All other media files"
-msgstr "Усі інші медіа-файли"
+msgstr "Всі інші мультимедійні файли"
 
 #: dialogs\dlgAddArtwork.html:28
 msgid "Image filename"
@@ -9486,11 +9489,11 @@ msgstr "ім'я файлу зображення"
 
 #: dialogs\dlgAutoConvertRule.html:10
 msgid "Convert the following content:"
-msgstr "Конвертувати наступний контент:"
+msgstr "Перетворити такий вміст:"
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Copy files to new destination based on file tags"
-msgstr "Копіювати файли на нову адресу опираючись на теґи фойлу"
+msgstr "Копіювати файли до нового місця призначення на основі теґів файлів"
 
 #: dialogs\dlgMP3Settings.html:69
 msgid "Bitrate (min)"
@@ -9515,12 +9518,12 @@ msgid ""
 "If enabled, MediaMonkey will prompt you whenever an edit operation modifies "
 "more than 50 files at once."
 msgstr ""
-"Якщо увімкнено, MediaMonkey запитуватиме вас кожного разу, коли операція "
-"редагування змінить більше ніж 50 файлів одночасно."
+"Якщо увімкнено, тоді MediaMonkey зробить запит стосовно того чи операція "
+"редагування змінить більше, ніж 50 файлів одночасно."
 
 #: dialogs\dlgOptions\pnl_Download.html:4
 msgid "Default download location:"
-msgstr "Папка завантаження за замовчуванням:"
+msgstr "Типове місце завантаження:"
 
 #: dialogs\dlgOptions\pnl_General.html:4
 msgid ""
@@ -9547,7 +9550,7 @@ msgid ""
 "Choose which nodes to enable in the Media Tree, and edit the properties of "
 "Collections."
 msgstr ""
-"Оберіть які вузли увімкнути у Дереві Медіа і відредагуйте властивості "
+"Оберіть вузли, які потрібно увімкнути в Дереві Медіа, і змініть властивості "
 "Колекцій."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:94
@@ -9560,7 +9563,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Player.html:45
 msgid "Displays file information and associated artwork"
-msgstr "Показує інформацію файлу та асоційовані Обкладинки"
+msgstr "Показує інформацію файлу та пов'язані з ним Ілюстрації"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:15
 msgid ""
@@ -9569,10 +9572,10 @@ msgid ""
 "Digital Media Server. If you wish to play content from MediaMonkey's "
 "library, you must also enable Media Sharing."
 msgstr ""
-"Перетворює MediaMonkey в Цифровий Відтворювач Медіа таким чином, щоб він міг "
-"відворювати контент Цифрового Медіа Контролера, що отримується ним з "
-"Цифрового Медіа Сервера. Якщо бажаєте відтворювати контент з бібліотеки "
-"MediaMonkey, вам необхідно увімкнути режим Медіа Шарингу."
+"Дозволяє MediaMonkey поводитися як засіб відтворення цифрових носіїв, щоб "
+"відтворювати вміст з цифрового мультимедійного контролера, який отримує "
+"вміст з цифрового мультимедійного сервера. Якщо ви бажаєте відтворити вміст "
+"з бібліотеки MediaMonkey, потрібно також увімкнути обмін медіа."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:45
 msgid ""
@@ -9595,7 +9598,7 @@ msgstr "на Альбом"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:126
 msgid "Producer(s)"
-msgstr "Продюсер (-и)"
+msgstr "Продюсер(и)"
 
 #: controls\autoConvertConfig.html:9
 msgid "Target volume level"
@@ -9609,13 +9612,13 @@ msgstr ""
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Syncs files from the selected folders on the device to the PC."
-msgstr "Синхронізувати файли з обраних директорій пристрою на ПК."
+msgstr "Синхронізує файли з вибраних тек на пристрої з ПК."
 
 #: dialogs\dlgAutoorganize.html:9
 msgid "Move and rename files to new destination based on file tags"
 msgstr ""
-"Перемістити та перейменувати файли до нової адреси, грунтуючись на теґах "
-"файлу"
+"Перемістити та перейменувати файли до нового місця призначення на основі "
+"теґів файлу"
 
 #: dialogs\dlgCollectionOptions.html:12
 msgid "Collection name"
@@ -9635,19 +9638,19 @@ msgstr "Скинути до типового значення"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:6
 msgid "Confirm desired options on move of Library folders"
-msgstr "Підтвердити бажані опції при переміщенні папок Бібліотеки"
+msgstr "Підтвердити бажані опції при переміщенні тек Бібліотеки"
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:9
 msgid "Download more DSP plug-ins..."
-msgstr "Завантажити більше додатків DSP..."
+msgstr "Завантажити більше плагінів DSP..."
 
 #: dialogs\dlgOptions\pnl_General.html:33
 msgid ""
 "Minimizes to the MicroPlayer if it is enabled (right-click on the System "
 "Task bar, and click 'Toolbars')."
 msgstr ""
-"Мінімізує до Мікроплеєра, якщо увімкнено ( клацнути правою мишкою по "
-"Системній панелі Завдань, а потім Панелі інструментів)."
+"Мінімізується до Мікропрогравача, якщо він увімкнений (клацніть правою "
+"кнопкою миші на Панелі системних завдань і клацніть \"Панелі інструментів\")."
 
 #: dialogs\dlgOptions\pnl_Library.html:169
 msgid ""
@@ -9690,11 +9693,11 @@ msgstr "Автоматична синхронізація метаданих ф�
 
 #: controls\deviceConfig\options\pnl_Playlists.html:41
 msgid "prefix for each playlist type"
-msgstr "префікс для кожного типу плейлистів"
+msgstr "префікс для кожного типу списку відтворення"
 
 #: dialogs\dlgConvertFormat.html:40
 msgid "Jitter-corrected read"
-msgstr "Читання виправленого тремтіння"
+msgstr "Читання з корекцією Джиттера"
 
 #: dialogs\dlgErrorLog.html:14
 msgid "Warning will disappear in:"
@@ -9702,7 +9705,7 @@ msgstr "Попередження зникне через:"
 
 #: dialogs\dlgSleep.html:16
 msgid "Start fading in"
-msgstr "Початок затухання з"
+msgstr "Почати затухання"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
 msgid ""
@@ -9716,11 +9719,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:17
 msgid "Show splash screen at startup"
-msgstr "Показувати заставку при запуску"
+msgstr "Показати заставку під час запуску"
 
 #: dialogs\dlgOptions\pnl_General.html:45
 msgid "Enable mouse gestures for tray icon"
-msgstr "Включити рухи мишки для іконки панелі"
+msgstr "Увімкнути жести миші для піктограми лотка"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:19
 msgid "Available elements"
@@ -9732,7 +9735,7 @@ msgstr "Імена файлів + Шлях"
 
 #: dialogs\dlgOptions\pnl_Network.html:3
 msgid "Proxy server settings"
-msgstr "Установки проксі сервера"
+msgstr "Параметри проксі-сервера"
 
 #: dialogs\dlgOptions\pnl_Network.html:4
 msgid "Use proxy server"
@@ -9748,11 +9751,11 @@ msgstr "Відтворення відео DVD"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:18
 msgid "Accept input/control of MediaMonkey player via UPnP/DLNA"
-msgstr "Дозволити контроль плеєра MediaMonkey через UPnP/DLNA"
+msgstr "Прийняти вхід/керування програвачем MediaMonkey через UPnP/DLNA"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:7
 msgid "Store MP3 file properties using:"
-msgstr "Зберігати властивості MP3 файлу,користуючись:"
+msgstr "Зберігати властивості файлів MP3 за допомогою:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:19
 msgid ""
@@ -9761,22 +9764,22 @@ msgid ""
 "characters appear. Some players may have trouble reading Unicode tags, "
 "though."
 msgstr ""
-"Якщо у вас є файли з відмінними від латинських знаками, вам краще увімкнути "
-"ascii + Unicode, що збереже теґи в кодуванні ascii за винятком випадків, "
-"коли з'являються не-латинські знаки. Проте деякі плейєри мають проблеми з "
-"прочитуванням теґів Unicode."
+"Якщо у вас є файли з неанглійськими символами, ви бажаєте увімкнути ascii + "
+"Unicode, який зберігає теґи в ascii, за винятком випадків, коли з 'являються "
+"нелатинські символи. Однак деякі програвачі можуть мати проблеми з читанням "
+"теґів Unicode."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:48
 msgid ""
 "If enabled, a warning is provided whenever duplicate files are added to a "
 "playlist."
 msgstr ""
-"Якщо увімкнено, з'являється попередження, щойно до плейлиста додано файли-"
-"дублікати."
+"Якщо увімкнено, попередження надається кожного разу, коли дублюючі файли "
+"додаються до списку відтворення."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:56
 msgid "Clipping prevention"
-msgstr "Запобігання відсікання"
+msgstr "Запобігання обрізанню"
 
 #: maincontent.html:58
 msgid "Bottom panel"
@@ -9792,15 +9795,15 @@ msgstr "Примусові відносні шляхи"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:9
 msgid "Copy Artwork to file tags"
-msgstr "Копіювати Обкладинки Альбому в теґи файлу"
+msgstr "Копіювати Ілюстрації Альбому в теґи файлу"
 
 #: controls\serverConfig\content.html:9
 msgid ""
 "Displays an index in UPnP/DLNA clients if the number of entries exceeds the "
 "configured value."
 msgstr ""
-"Відображає індекс на UPnP/DLNA клієнтах, якщо число елементів перевищує "
-"значення."
+"Показує індекс у клієнтах UPnP/DLNA, якщо кількість записів перевищує "
+"налаштоване значення."
 
 #: dialogs\dlgConvertFormat.html:48
 msgid ""
@@ -9830,7 +9833,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:23
 msgid "Deletes existing Hotkey"
-msgstr "Видаляє існуючі Гарячі клавіші"
+msgstr "Вилучає чинну Гарячу клавішу"
 
 #: dialogs\dlgOptions\pnl_Library.html:50
 msgid "Ignore files shorter than"
@@ -9874,7 +9877,8 @@ msgstr ""
 msgid ""
 "Causes Tags to be updated immediately, as soon as changes to file properties "
 "are made."
-msgstr "Негайно оновлює Теґи при зміні властивостей файлу."
+msgstr ""
+"Викликає негайне оновлення теґів після внесення змін до властивостей файлів."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:30
 msgid ""
@@ -9904,7 +9908,7 @@ msgstr "Показати діалогове вікно підтвердженн�
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "On the fly encoding"
-msgstr "Побіжне кодування"
+msgstr "Кодування на льоту"
 
 #: dialogs\dlgPodcastSubscription.html:69
 msgid "Prevents episodes that haven't been listened to from being deleted."
@@ -9926,7 +9930,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:24
 msgid "Confirm modifications to more than 50 files at once"
-msgstr "Підтвердити зміни для більш,ніж 50 файлів одночасно"
+msgstr "Підтвердити зміни для більше, ніж 50 файлів одночасно"
 
 #: dialogs\dlgOptions\pnl_Library.html:67
 msgid ""
@@ -9946,11 +9950,11 @@ msgstr "Відтворення Аудіо CD"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:15
 msgid "This prevents users from exiting MediaMonkey by switching applications."
-msgstr "Це запобігає виходу користувача з MediaMonkey при перемиканні програм."
+msgstr "Це запобігає виходу користувачів з MediaMonkey при перемиканні програм."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:10
 msgid "Hide menu bar"
-msgstr "Приховати панель меню"
+msgstr "Сховати смужку меню"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:25
 msgid "Enable volume, play/pause controls"
@@ -9958,7 +9962,7 @@ msgstr "Увімкнути елементи регулювання гучнос�
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:66
 msgid "Only analyze files with unknown Leveling Adjustment"
-msgstr "Аналізувати лише файли з невідомими налаштуванням рівнів"
+msgstr "Аналізувати лише файли з невідомим Регулюванням Рівня"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:150
 msgid "Play counter"
@@ -9982,11 +9986,11 @@ msgstr "Встановити зараз"
 
 #: dialogs\dlgConvertFormat.html:41
 msgid "Secure read (takes extra time)"
-msgstr "Безпечне читання (йде більше часу)"
+msgstr "Безпечне читання (займає більше часу)"
 
 #: dialogs\dlgMovedFiles.html:15
 msgid "Unmoved files"
-msgstr "Непереміщені файли"
+msgstr "Не переміщені файли"
 
 #: dialogs\dlgPodcastSubscription.html:64
 msgid "2 weeks"
@@ -10002,7 +10006,7 @@ msgstr "Запобігає видаленню епізодів, які отри�
 
 #: dialogs\dlgPodcastSubscription.html:92
 msgid "Show removed episode links"
-msgstr "Показати посилання вилучених епізодів"
+msgstr "Показати вилучені посилання на серії"
 
 #: dialogs\dlgSleep.html:31
 msgid "Cancel Sleep"
@@ -10014,11 +10018,11 @@ msgstr "Потокова швидкість (для макс. рез.)"
 
 #: dialogs\dlgOptions\pnl_Download.html:16
 msgid "Determines how often MediaMonkey checks for updates"
-msgstr "Визначіть як часто MediaMonkey перевіряє наявність оновлення"
+msgstr "Визначає як часто MediaMonkey перевіряє наявність оновлення"
 
 #: dialogs\dlgOptions\pnl_General.html:23
 msgid "Always show tray icon"
-msgstr "Завжди показувати іконку панелі"
+msgstr "Завжди показувати піктограму лотка"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:12
 msgid ""
@@ -10082,7 +10086,7 @@ msgstr "Приховати невибрані елементи"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:2
 msgid "Sync playlists (recommended)"
-msgstr "Синхронізувати плейлисти (рекомендовано)"
+msgstr "Синхронізувати списки відтворення (рекомендовано)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:39
 msgid "Organize playlists using:"
@@ -10124,7 +10128,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:44
 msgid "This enables mouse gestures on the tray icon."
-msgstr "Це вмикає рухи мишки на іконці системи."
+msgstr "Це дозволяє робити жести миші на піктограмі лотка."
 
 #: dialogs\dlgOptions\pnl_Library.html:110
 msgid "Get Album titles and Track Numbers from:"
@@ -10155,7 +10159,7 @@ msgstr "Найнижчий"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Ignore Auto-DJ when playing"
-msgstr "Ігнорувати Авто-ДіДжея при відтворенні"
+msgstr "Ігнорувати Авто-Діджея при відтворенні"
 
 #: dialogs\dlgOptions\pnl_Player.html:70
 msgid "Transparent"
@@ -10163,11 +10167,11 @@ msgstr "Прозорий"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:20
 msgid "Renderer name:"
-msgstr "Назва сервера:"
+msgstr "Ім'я візуалізатора:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:78
 msgid "Format for multiple images:"
-msgstr "Формат для численних зображень:"
+msgstr "Формат для декількох зображень:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:56
 msgid "This sets the default location where associated artwork is stored."
@@ -10181,19 +10185,19 @@ msgstr "Режисер(и)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:42
 msgid "subdirectory for each playlist type"
-msgstr "піддиректорія для кожного типу плейлистів"
+msgstr "підкаталог для кожного типу списку відтворення"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:29
 msgid "This format is used by some newer devices"
-msgstr "Даний формат використовується якимось новішим пристроєм"
+msgstr "Цей формат використовується деякими новими пристроями"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:15
 msgid ""
 "This makes it easier to browse the device's database. Otherwise, multiple "
 "Genres would sync as a single string (e.g. 'Rock;Pop;Accoustic')"
 msgstr ""
-"Це спрощує перегляд бази даних пристрою. В іншому випадку декілька Жанрів "
-"будуть синхронізовані як одинарна послідовність(напр. 'Рок;Поп;Акустика')"
+"Це полегшує перегляд бази даних пристрою. Інакше, декілька жанрів "
+"синхронізувалися б як один рядок (наприклад, \"Rock;Pop;Accoustic\")"
 
 #: dialogs\dlgMaintainLibrary.html:9
 msgid "Maintenance"
@@ -10205,11 +10209,11 @@ msgstr "URL-адреса подкасту"
 
 #: dialogs\dlgSleep.html:9
 msgid "Play audio for"
-msgstr "Програвати аудіо упродовж"
+msgstr "Відтворити аудіо для"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:4
 msgid "Split multiple-value fields with:"
-msgstr "Розділити багатозначні поля через:"
+msgstr "Розділити поля з декількома значеннями на:"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:2
 msgid ""
@@ -10265,15 +10269,15 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_OutputPlugins.html:10
 msgid "Download more output plug-ins..."
-msgstr "Завантажити більше додатків виводу..."
+msgstr "Завантажити більше плагінів виводу..."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:6
 msgid "Prevents users from making any changes"
-msgstr "Не дозволяє користувачам здійснювати будь-які зміни"
+msgstr "Забороняє користувачам вносити будь-які зміни"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:182
 msgid "Lyricist(s)"
-msgstr "Автор(-и) слів"
+msgstr "Автор(и) слів"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:236
 msgid "Streams"
@@ -10309,7 +10313,7 @@ msgstr "Менше"
 
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s) to new destination"
-msgstr "Конвертувати файл(-и) до нового адресату"
+msgstr "Перетворити файл(и) на новий пункт призначення"
 
 #: dialogs\dlgExtensions.html:19
 msgid "Get more addons"
@@ -10325,15 +10329,15 @@ msgstr "Етикетка"
 
 #: dialogs\dlgPodcastUnsubscribe.html:17
 msgid "Unsubscribe and delete all episodes"
-msgstr "Зняти підписку та видалити усі епізоди"
+msgstr "Скасувати підписку та видалити всі епізоди"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:7
 msgid "Automatically maintain at least"
-msgstr "Автоматично обслуговувати принаймні"
+msgstr "Автоматично підтримувати принаймні"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:20
 msgid "Choose where Auto-DJ should add tracks from"
-msgstr "Вибрати джерело додавання треків Авто ДіДжеєм"
+msgstr "Виберіть, звідки Авто Діджей повинен додавати композиції"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:20
 msgid "If enabled, MediaMonkey will display results after a scan is completed."
@@ -10362,8 +10366,7 @@ msgstr "Бездіяльний"
 
 #: dialogs\dlgOptions\pnl_Search.html:17
 msgid "Causes search for 'an' to not return files containing 'another'"
-msgstr ""
-"Пошук за англійським артиклем 'an'. щоб не повертати файли з іменем 'another'"
+msgstr "Викликає пошук \"an\", щоб не повертати файли, що містять \"another\""
 
 #: dialogs\dlgWizard\pnlRegistration.html:11
 msgid "use custom Collections for sub-libraries"
@@ -10455,23 +10458,17 @@ msgstr ""
 "коефіцієнт вирівнювання."
 
 #: dialogs\dlgWizard\pnlShare.html:3
-#, fuzzy
-#| msgid ""
-#| "Let UPnP/DLNA clients (TVs, DVD Players, xBox, PlayStations, etc.) on "
-#| "your network access the MediaMonkey library, and let other MediaMonkey "
-#| "clients (e.g. MediaMonkey for Android) sync wirelessly. You'll be "
-#| "prompted to grant access for each remote device that attempts to connect. "
 msgid ""
 "Let UPnP/DLNA clients (TVs, DVD Players, xBox, PlayStations, etc.) on your "
 "network access the MediaMonkey library, and let other MediaMonkey clients (e."
 "g. MediaMonkey for Android) sync wirelessly. You'll be prompted to grant "
 "access for each remote device that attempts to connect."
 msgstr ""
-"Дозвольте клієнтам UPnP/DLNA (телевізори, DVD-плеєри, xBox, PlayStation "
-"тощо) у вашій мережі отримувати доступ до бібліотеки MediaMonkey, а іншим "
+"Дозвольте клієнтам UPnP/DLNA (телевізори, DVD-плеєри, xBox, PlayStation тощо)"
+" у вашій мережі отримувати доступ до бібліотеки MediaMonkey, а іншим "
 "клієнтам MediaMonkey (наприклад, MediaMonkey для Android) - бездротову "
 "синхронізацію. Вам буде запропоновано надати доступ для кожного віддаленого "
-"пристрою, який намагається з 'єднатися. "
+"пристрою, який намагається з 'єднатися."
 
 #: SampleScripts\sqleditor\dialogs\dlgSQLEditor.html:22
 msgid "Execute"
@@ -10482,13 +10479,13 @@ msgid ""
 "Automatically organizes files on the device according to the settings above. "
 "This can take a lot of time if the sync masks are modified."
 msgstr ""
-"Автоматично організує файли на пристрої згідно з вищенаведеними "
-"налаштуваннями. Якщо маски для синхронізації будуть змінені, це може зайняти "
-"багато часу."
+"Автоматично впорядковує файли на пристрої відповідно до налаштувань, "
+"наведених вище. Це може зайняти багато часу, якщо змінити маски "
+"синхронізації."
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
 msgid "Sync all Artwork to file folders"
-msgstr "Синхр.усі Обкладинки Альбому з папками файлів"
+msgstr "Синхронізувати всі Ілюстрації Альбому з теками файлів"
 
 #: dialogs\dlgLogin.html:12
 msgid "Username"
@@ -10496,7 +10493,7 @@ msgstr "Ім'я користувача"
 
 #: dialogs\dlgNewVersion.html:7
 msgid "There is a new version of MediaMonkey available."
-msgstr "В наявності нова версія MediaMonkey."
+msgstr "Доступна нова версія MediaMonkey."
 
 #: dialogs\dlgNewVersion.html:18
 msgid "Description of the new version:"
@@ -10524,11 +10521,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:51
 msgid "Show tooltips for context help"
-msgstr "Показувати підказки для контекстної допомоги"
+msgstr "Показувати підказки для контекстної довідки"
 
 #: dialogs\dlgOptions\pnl_InputPlugins.html:10
 msgid "Download more input plug-ins..."
-msgstr "Завантажити більше додатків введення..."
+msgstr "Завантажити додаткові вхідні плагіни..."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:26
 msgid "Audio CD metadata lookup"
@@ -10554,7 +10551,7 @@ msgstr "Використовувати декілька ядер процесо�
 
 #: dialogs\dlgOptions\pnl_Player.html:93
 msgid "Vertical"
-msgstr "Вертикальне"
+msgstr "Вертикальний"
 
 #: controls\deviceConfig\syncToDevice.html:14
 msgid ""
@@ -10618,7 +10615,7 @@ msgstr "Автоматичне позначення тегами"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:16
 msgid "Prevent switching to other application (Alt+Tab, Alt+Esc, Ctrl+Esc)"
-msgstr "Попередити переключення до іншої програми (Alt+Tab, Alt+Esc, Ctrl+Esc)"
+msgstr "Запобігти переходу до іншої програми (Alt+Tab, Alt+Esc, Ctrl+Esc)"
 
 #: dialogs\dlgOptions\pnl_Player.html:52
 msgid "Indicates how long the Pop-up should take to fade out"
@@ -10636,15 +10633,15 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabBasic.html:167
 msgid "Conductor(s)"
-msgstr "Диригент(-и)"
+msgstr "Диригент(и)"
 
 #: dialogs\dlgWizard\pnlRegistration.html:3
 msgid ""
 "MediaMonkey is free, however, you can upgrade to MediaMonkey Gold to get "
 "additional features:"
 msgstr ""
-"MediaMonkey безкоштовна, однак, задля отримання додаткових можливостей, ви "
-"можете оновитись до MediaMonkey Gold:"
+"MediaMonkey безкоштовний, проте ви можете оновитися до MediaMonkey Gold, щоб "
+"отримати додаткові функції:"
 
 #: controls\windowtitle.html:19
 msgid "Close window"
@@ -10656,15 +10653,15 @@ msgstr "Зберігати цей вміст у локальному кеші"
 
 #: controls\serverConfig\server.html:11
 msgid "A randomly generated IP port"
-msgstr "Випадково згенерований порт IP"
+msgstr "Випадково створений IP-порт"
 
 #: controls\serverConfig\server.html:18
 msgid ""
 "Unblocks connections from addresses outside the local network. Not "
 "recommended if Wi-Fi sync is enabled."
 msgstr ""
-"Дозволяє з'єднання за адрес за межами локальної мережі. Не рекомендується "
-"при увімкнутій Wi-Fi синхронізації."
+"Розблокує з 'єднання за межами локальної мережі. Не рекомендується, якщо "
+"ввімкнено синхронізацію Wi-Fi."
 
 #: dialogs\dlgAddonInstall.html:29
 msgid "Version"
@@ -10679,8 +10676,8 @@ msgid ""
 "The following accompanying files were found. Please select those which you "
 "would like to move."
 msgstr ""
-"Було знайдено ось такі супровідні файли. Оберіть,будь-ласка, ті з них,які ви "
-"бажаєте перемістити."
+"Були знайдені наступні супровідні файли. Будь ласка, виберіть ті, які ви "
+"хочете перемістити."
 
 #: dialogs\dlgNewVersion.html:11
 msgid "New version"
@@ -10688,7 +10685,7 @@ msgstr "Нова версія"
 
 #: dialogs\dlgPodcastSubscription.html:58
 msgid "Defines which episodes are to be deleted"
-msgstr "Визначте які епізоди потрібно видалити"
+msgstr "Визначає які епізоди потрібно видалити"
 
 #: dialogs\dlgSearchImage.html:22
 msgid "Default icon"
@@ -10704,7 +10701,7 @@ msgstr "Пересунути відео за допомогою повзункі
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:3
 msgid "Organize files according to the following rules"
-msgstr "Організувати файли за такими правилами"
+msgstr "Упорядкувати файли відповідно до наступних правил"
 
 #: dialogs\dlgOptions\pnl_General.html:26
 msgid ""
@@ -10744,14 +10741,14 @@ msgid ""
 "number of tracks analyzed does not affect volume analysis results, there is "
 "little reason to disable this function."
 msgstr ""
-"Дана опція стимулює команду Аналізу Звуку до виконання лише на треках, у "
-"яких коефіцієнт звуку ще не обчислено. Оскільки кількість проаналізованих "
-"треків не впливає на результати аналізу звуку, існує мало причин, щоб "
-"виключати цю функцію."
+"За допомогою цього параметру можна виконувати команду Аналіз гучності лише "
+"на доріжках, які ще не мають обчисленого коефіцієнта гучності. Оскільки "
+"кількість проаналізованих доріжок не впливає на результати аналізу гучності, "
+"немає жодних підстав вимикати цю функцію."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:69
 msgid "When analyzing Track volume, also analyze Album volume"
-msgstr "При аналізі звуку Треку,також аналізувати звук Альбому"
+msgstr "При аналізі гучності Доріжки також проаналізуйте гучність Альбому"
 
 #: samples\genreTextLayour.html:3
 msgid "Alternative Rock"
@@ -10778,7 +10775,9 @@ msgstr ""
 
 #: controls\serverConfig\devices.html:3
 msgid "Shares the server contents with all devices that attempt to connect"
-msgstr "Поділяє контент сервера з усіма пристроями, що намагаються з'єднатися"
+msgstr ""
+"Надає спільний доступ до вмісту сервера всім пристроям, які намагаються з "
+"'єднатися"
 
 #: dialogs\dlgAbout.html:26
 msgid "Developer Mode"
@@ -10817,7 +10816,8 @@ msgstr "Пошук фонових метаданих"
 #: dialogs\dlgOptions\pnl_Performance.html:2
 msgid "Improve performance of some tasks by utilizing multiple CPU cores"
 msgstr ""
-"Покращіть виконання певних завдань шляхом використання багаторазових ядер CPU"
+"Підвищення продуктивності деяких завдань коштом використання декількох ядер "
+"ЦП"
 
 #: dialogs\dlgOptions\pnl_Player.html:41
 msgid "Pop-up display"
@@ -10831,15 +10831,15 @@ msgstr ""
 
 #: controls\deviceConfig\options\pnl_Tagging.html:10
 msgid "Remove artwork from tags if larger than:"
-msgstr "Вилучити зображення з тегів, якщо більші,ніж:"
+msgstr "Вилучити ілюстрації з теґів, якщо вони більші за:"
 
 #: controls\serverConfig\devices.html:2
 msgid ""
 "Increases the play counter for items played via this server. This may not be "
 "accurate for partially played tracks."
 msgstr ""
-"Збільшує лічильник програвань для елементів, які програються сервером. Це "
-"може вплинути на точність у разі частково програних треків."
+"Збільшує лічильник відтворення для елементів, відтворених за допомогою цього "
+"сервера. Це може бути неточним для частково відтворених доріжок."
 
 #: dialogs\dlgAddArtwork.html:24
 msgid "Image location"
@@ -10863,19 +10863,19 @@ msgstr " кбіт/с"
 
 #: dialogs\dlgPodcastSubscription.html:91
 msgid "Displays all episodes including those that have previously been deleted"
-msgstr "Показує всі епізоди, включно з попередньо видаленими"
+msgstr "Показує всі епізоди, включаючи ті, які раніше були видалені"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:8
 msgid ""
 "Do not apply to files in the specified folders (\"C:\\Directory\\\",\"C:"
 "\\directory 2\")"
 msgstr ""
-"Не застосовувати до файлів у вказаних папках (\"C:\\Директорія\\\",\"C:"
-"\\директорія 2\")"
+"Не застосовувати до файлів у вказаних теках (\"C:\\Directory\\\",\"C:"
+"\\directory 2\")"
 
 #: dialogs\dlgOptions\pnl_Library.html:118
 msgid "Playlists (M3U, XSPF) then Tags"
-msgstr "Плейлисти (M3U, XSPF) потім Теґи"
+msgstr "Списки відтворення (M3U, XSPF), потім Теґи"
 
 #: dialogs\dlgOptions\pnl_Library.html:85
 msgid ""
@@ -10905,16 +10905,16 @@ msgid ""
 "see Synchronizing Your Tags."
 msgstr ""
 "У випадках, коли теґи не містять багато інформації, MediaMonkey може "
-"отримати певну інформацію, таку як Виконавець,Назва або Альбом з Імені "
-"Файлу, при умові, що дану функцію увімкнено. Майте на увазі, що запожичені "
-"властивості зберігаються у базі даних, але не зберігається у теґах файлів "
-"(для випадку, якщо інформація неправильна). Після перевірки даних ви можете "
+"отримати певну інформацію, таку як Виконавець, Назва або Альбом з Імені "
+"Файлу, при умові, що дану функцію увімкнено. Майте на увазі, що запозичені "
+"властивості зберігаються у базі даних, але не зберігається у теґах файлів ("
+"для випадку, якщо інформація неправильна). Після перевірки даних ви можете "
 "оновити теґи вручну -- див.Синхронізувати свої Теґи."
 
 #: dialogs\dlgOptions\pnl_Library.html:172
 msgid ""
 "Generates thumbnails automatically for videos that don't have any artwork."
-msgstr "Автоматично генерує мініатюри для відео без ілюстрацій."
+msgstr "Створює ескізи автоматично для відео без ілюстрацій."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:20
 msgid "Set sources"
@@ -10936,8 +10936,8 @@ msgstr "Дія для 'Виконати Зараз':"
 msgid ""
 "Causes the Pop-up to appear only if MediaMonkey is minimized or inactive"
 msgstr ""
-"Спричиняє появу виринаючого вікна лише тоді, коли MediaMonkey мінімізовано "
-"або неактивне"
+"Викликає появу спливного вікна, лише якщо MediaMonkey мінімізований або "
+"неактивний"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:2
 msgid ""
@@ -10950,12 +10950,12 @@ msgstr ""
 "Визначає метод вирівнювання звуку відтворення та синхронізації пристроїв. "
 "Рівні \"на Альбом\" в основі мають коефіцієнт рівня звуку (при наявності) "
 "конкретного Альбому, зберігаючи відносне різноманіття рівнів для треків "
-"Альбому.Рівні \"на Трек\" визначаються незалежно, переважно, коли Альбом в "
-"цілому відтворюється рідко."
+"Альбому.Рівні \"на Трек\" визначаються незалежно, переважно, коли Альбом "
+"рідко відтворюється в цілому."
 
 #: dialogs\dlgTrackProperties\tabLyrics.html:9
 msgid "Lookup lyrics"
-msgstr "Шукати текст"
+msgstr "Пошук текстів пісень"
 
 #: dialogs\dlgWizard\pnlRegistration.html:14
 msgid "AccurateRip for bit-perfect CD Rips."
@@ -11012,7 +11012,7 @@ msgstr ""
 
 #: dialogs\dlgConvertFormat.html:9
 msgid "Convert file(s), replacing the originals"
-msgstr "Конвертувати файл(-и) із заміною оригіналів"
+msgstr "Перетворити файли, замінивши оригінали"
 
 #: dialogs\dlgLogin.html:16
 msgid "Password"
@@ -11024,11 +11024,11 @@ msgstr "Метод VBR"
 
 #: dialogs\dlgMP3Settings.html:8
 msgid "Use presets"
-msgstr "Використати зазделегідь встановлене"
+msgstr "Використовувати попередні налаштування"
 
 #: dialogs\dlgOGGSettings.html:43
 msgid "Limit maximal bitrate"
-msgstr "Обмежити макс.бітову швидк-ть"
+msgstr "Обмежити максимальну швидкість потоку"
 
 #: dialogs\videoConvSettings.html:49
 msgid "large"
@@ -11036,7 +11036,7 @@ msgstr "великий"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:9
 msgid "Exclude folders:"
-msgstr "Виключити папки:"
+msgstr "Виключити теки:"
 
 #: dialogs\dlgOptions\pnl_General.html:3
 msgid "Interface language:"
@@ -11044,7 +11044,9 @@ msgstr "Мова інтерфейсу:"
 
 #: dialogs\dlgOptions\pnl_General.html:14
 msgid "Submit anonymous usage statistics to help improve the software"
-msgstr "Відправляти анонімну статистику для допомоги у покращенні програми"
+msgstr ""
+"Надіслати анонімну статистику використання, щоб покращити програмне "
+"забезпечення"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:30
 msgid "Database"
@@ -11056,7 +11058,7 @@ msgstr "Пошук зображення виконавця, якщо його н
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:9
 msgid "Looks up artwork if it's missing"
-msgstr "Шукає обкладинку, якщо її немає"
+msgstr "Шукає ілюстрацію альбому, якщо її немає"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:27
 msgid "Cache remote content when streaming:"
@@ -11068,7 +11070,7 @@ msgstr "Пропустити лічильник"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:21
 msgid "Recommended changes to capitalization:"
-msgstr "Рекомендовані зміни для використання великих літер:"
+msgstr "Рекомендовані зміни до використання великих літер:"
 
 #: controls\audiobookCollectionView.html:3
 msgid "Recently added Albums"
@@ -11096,11 +11098,11 @@ msgstr "Формат відео"
 
 #: dialogs\videoConvSettings.html:97
 msgid "Fit size exactly"
-msgstr "Допасувати розмір точно"
+msgstr "Точно підібрати розмір"
 
 #: dialogs\dlgOptions\pnl_General.html:54
 msgid "Temporary directory:"
-msgstr "Директорія для тимчасових файлів:"
+msgstr "Тимчасовий каталог:"
 
 #: dialogs\dlgOptions\pnl_Library.html:148
 msgid ".nfo files, Path and Filenames"
@@ -11146,8 +11148,7 @@ msgstr "Показати індекс для категорій з багать�
 
 #: controls\serverConfig\server.html:4
 msgid "The server name as it appears to other DLNA devices"
-msgstr ""
-"Ім'я сервера у такому вигляді,яким воно з'являється в інших пристроях DLNA"
+msgstr "Ім'я сервера, як воно показується на інших пристроях DLNA"
 
 #: dialogs\dlgAutotagFromFilename.html:27
 msgid "Remove underscores"
@@ -11175,7 +11176,7 @@ msgstr "Включити бета-збирання"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:14
 msgid "Type the key combination to activate the selected action"
-msgstr "Набрати комбінацію клавіш для активації обраної дії"
+msgstr "Введіть комбінацію клавіш, щоб активувати вибрану дію"
 
 #: dialogs\dlgOptions\pnl_Library.html:113
 msgid ""
@@ -11194,15 +11195,15 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Library.html:173
 msgid "Generate thumbnails for videos"
-msgstr "Генерувати ескізи зображення для відео"
+msgstr "Створити мініатюри для відео"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
 msgid "Play next in MediaMonkey"
-msgstr "Відтворити наступним в MediaMonkey"
+msgstr "Відтворити далі в MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:12
 msgid "This option causes MediaMonkey to take up the entire screen."
-msgstr "Дана опція виводить MediaMonkey на повний екран."
+msgstr "Ця опція змушує MediaMonkey займати весь екран."
 
 #: dialogs\dlgOptions\pnl_Player.html:55
 msgid "Only when inactive"
@@ -11214,7 +11215,7 @@ msgstr "Змушує спливне вікно плавно згасати"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:34
 msgid "Modify timestamp when updating tags"
-msgstr "Змінити часову позначку при оновленні теґів"
+msgstr "Змінити позначку часу при оновленні теґів"
 
 #: dialogs\dlgWizard\pnlRegistration.html:9
 msgid "organize files automatically"
@@ -11234,12 +11235,13 @@ msgid ""
 "Artists/Composers would sync as a single string (e.g. 'U2;B.B. King')"
 msgstr ""
 "Це спрощує перегляд бази даних пристрою. В іншому випадку декілька "
-"Виконавців/Композиторів будуть синхронізовані як одинарна "
-"послідовність(напр. 'U2;B.B. King')"
+"Виконавців/Композиторів синхронізувалися б як один рядок (напр. 'U2;B.B. "
+"King')"
 
 #: dialogs\dlgAddonInstall.html:50
 msgid "You should only install software from sources that you trust."
-msgstr "Ви повинні встановлювати програми лише з джерел яким довіряєте."
+msgstr ""
+"Програмне забезпечення слід встановлювати лише з джерел, яким ви довіряєте."
 
 #: dialogs\dlgAutoConvertRule.html:17
 msgid "When the format is"
@@ -11271,9 +11273,7 @@ msgstr "майбутні файли у Списку відтворення"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:2
 msgid "Set the default directory / filename format for specified files."
-msgstr ""
-"Встановіть формат директорії / імені файлу по замовчуванню для визначених "
-"файлів."
+msgstr "Встановіть типовий формат каталогу / імені файлу для вказаних файлів."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:21
 msgid ""
@@ -11281,10 +11281,10 @@ msgid ""
 "stopping or switching tracks; changing volume, balance or equalizer "
 "settings; and re-ordering / removing files, or adding multiple files at once."
 msgstr ""
-"Це змушує MediaMonkey функціонувати більше як музичний автомат, не "
-"дозволяючи користувачам зупиняти або перемикати треки; змінювати рівень "
+"Це робить функцію MediaMonkey більш схожою на музичний автомат, не "
+"дозволяючи користувачам зупиняти або перемикати доріжки; змінювати рівень "
 "звуку, баланс або установки еквалайзера; змінювати порядок / вилучення "
-"файлів, або додавати масив файлів одночасно."
+"файлів, або додавати декілька файлів одночасно."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:13
 msgid "Show in full screen mode"
@@ -11293,7 +11293,9 @@ msgstr "Показати в повноекранному режимі"
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:6
 msgid ""
 "Causes files of the selected type to not be played when Shuffle is enabled."
-msgstr "Попереджає відтворення обраних файлів, коли увімкнено Перемішування."
+msgstr ""
+"Призводить до того, що файли вибраного типу не відтворюються, коли ввімкнено "
+"функцію \"Перемішування\"."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:9
 msgid ""
@@ -11302,9 +11304,8 @@ msgid ""
 "The alternative is that only the selected file plays."
 msgstr ""
 "Це визначає які файли відтворюються, коли задано команду Виконати Зараз для "
-"одного файлу. По- замовчуванню ними є обраний файл та всі решта, що йдуть "
-"наступними у списку відтворення. Альтернативою є відтворення лише обраного "
-"файлу."
+"одного файлу. Типово ними є обраний файл та всі решта, що йдуть наступними у "
+"списку відтворення. Альтернативою є відтворення лише обраного файлу."
 
 #: dialogs\dlgOptions\pnl_Player.html:51
 msgid "Slow fade-out:"
@@ -11312,19 +11313,19 @@ msgstr "Повільне зникнення:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:27
 msgid "Target volume for leveling tracks:"
-msgstr "Цільова гучність для вирівнюваних треків:"
+msgstr "Цільова гучність для вирівнюваних доріжок:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:72
 msgid "Automatically analyze volume of unanalyzed files:"
-msgstr "Автоматично аналізувати гучність непроаналізованих файлів:"
+msgstr "Автоматично аналізувати гучність не аналізованих файлів:"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:149
 msgid "Composer(s)"
-msgstr "Композитор(-и)"
+msgstr "Композитор(и)"
 
 #: controls\searchEditor.html:34
 msgid "minutes"
-msgstr "хвилин"
+msgstr "хвилини"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:23
 msgid "Image:"
@@ -11332,7 +11333,7 @@ msgstr "Зображення:"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:2
 msgid "Sync playlists automatically"
-msgstr "Синхронізувати плейлисти автоматично"
+msgstr "Автоматична синхронізація списків відтворення"
 
 #: dialogs\dlgAddArtwork.html:15
 msgid "Image type"
@@ -11348,11 +11349,11 @@ msgstr "Додати >"
 
 #: dialogs\dlgSleep.html:21
 msgid "Fade to"
-msgstr "Затухання до"
+msgstr "Згасання до"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:15
 msgid "Confirm deletion of currently playing file"
-msgstr "Підтвердити видалення поточного виконуваного файлу"
+msgstr "Підтвердити видалення поточного відтворюваного файлу"
 
 #: dialogs\dlgOptions\pnl_Library.html:57
 msgid "Seconds"
@@ -11388,7 +11389,7 @@ msgstr "Теґи ID3v2.4"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:184
 msgid "Screenwriter(s)"
-msgstr "Сценарист (-и)"
+msgstr "Сценарист(и)"
 
 msgid "AIFF settings"
 msgstr "Параметри AIFF"
@@ -11405,7 +11406,7 @@ msgid "Less compression"
 msgstr "Менше стискання"
 
 msgid "More compression"
-msgstr "Більше стискання"
+msgstr "Більше стиснення"
 
 msgid "Faster"
 msgstr "Швидше"
@@ -11427,7 +11428,7 @@ msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks. Do you want to proceed?"
 msgstr ""
-"Це змінить поле номера треку у наступному порядку для %d обраного треку. "
+"Це змінить поле доріжки# в послідовному порядку для %d вибраних доріжок. "
 "Бажаєте продовжити?"
 
 # Quicktime AAC/MP4 plug-in
@@ -11445,7 +11446,7 @@ msgid "Do you want to download it?"
 msgstr "Бажаєте завантажити його?"
 
 msgid "Mid/Side stereo"
-msgstr "Середнє/Бокове стерео"
+msgstr "Середнє/Бічне стерео"
 
 # FLAC enc/dec
 msgid "AAC settings"
@@ -11453,24 +11454,24 @@ msgstr "Налаштування AAC"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
-msgstr "Змінна бітова швидкість (VBR)"
+msgstr "Змінна швидкість потоку (VBR)"
 
 msgid "Average bitrate (ABR)"
-msgstr "Середня бітова швидкість (ABR)"
+msgstr "Середня швидкість потоку (ABR)"
 
 # WMA plug-in
 msgid "Constant bitrate (CBR) 1-pass"
-msgstr "Постійна бітова швидкість"
+msgstr "Постійна швидкість потоку (CBR) 1-прохідна"
 
 msgid "Constant bitrate (CBR) 2-pass"
-msgstr "Постійна бітова швидкість (CBR) 2-pass"
+msgstr "Постійна швидкість потоку (CBR) 2-прохідна"
 
 # Hotkeys
 msgid "Media Fast Forward"
-msgstr "Швидке перемотування"
+msgstr "Швидке переміщення носія вперед"
 
 msgid "Media Rewind"
-msgstr "Перемота́ти Носій"
+msgstr "Перемотання носіїв"
 
 msgid "Media Pause"
 msgstr "Пауза Носія"
