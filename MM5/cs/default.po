@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-26 17:23\n"
+"POT-Creation-Date: 2020-11-27 17:35\n"
 "PO-Revision-Date: 2020-11-26 17:50+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
@@ -1187,7 +1187,7 @@ msgid "&File"
 msgstr "&Soubor"
 
 #: actions.js:4955 viewHandlers.js:5192 controls/searchView.js:355
-#: dialogs/dlgOptions.js:119 DBStructure.pas:1939 GlobVars.pas:1910
+#: dialogs/dlgOptions.js:119 DBStructure.pas:1939 GlobVars.pas:1902
 #: UPnPTreeHelper.pas:1886
 #: controls\deviceConfig\options\pnl_FileLocations.html:33
 msgid "Podcasts"
@@ -2170,7 +2170,7 @@ msgstr "Není dostupný žádný server, zkuste později"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prefer the default Music collection when there are more music collections (#17051)
 #. prefer the default Music collection when there are more music collections (#16929)
-#: viewHandlers.js:5162 Filters.pas:2078 Filters.pas:2231 GlobVars.pas:1909
+#: viewHandlers.js:5162 Filters.pas:2078 Filters.pas:2231 GlobVars.pas:1901
 #: controls\deviceConfig\options\pnl_FileLocations.html:9
 msgid "Music"
 msgstr "Hudba"
@@ -2180,7 +2180,7 @@ msgid "Videos"
 msgstr "Videa"
 
 #: viewHandlers.js:5182 controls/searchView.js:389 DBStructure.pas:1940
-#: GlobVars.pas:1911
+#: GlobVars.pas:1903
 msgid "Audiobooks"
 msgstr "Audioknihy"
 
@@ -2437,7 +2437,7 @@ msgstr "Hudba"
 #: controls/deviceConfig.js:302 controls/trackListView.js:49
 #: dialogs/dlgSupportedFormat.js:27 BaseMedia.pas:4497 FormatsManage.pas:3790
 #: FormatsManage.pas:5469 FormatsManage.pas:5501 FormatsManage.pas:5513
-#: GlobVars.pas:1914 controls\deviceConfig\options\pnl_FileLocations.html:49
+#: GlobVars.pas:1906 controls\deviceConfig\options\pnl_FileLocations.html:49
 msgid "Video"
 msgstr "Video"
 
@@ -2450,7 +2450,7 @@ msgstr "Web"
 msgid "Remove bookmark"
 msgstr "Odstranit záložku"
 
-#: viewHandlers.js:7216 viewHandlers.js:7218 GlobVars.pas:1917
+#: viewHandlers.js:7216 viewHandlers.js:7218 GlobVars.pas:1909
 msgid "Radio"
 msgstr "Rádio"
 
@@ -2526,7 +2526,7 @@ msgstr "Přístě se na tuto otázku neptat"
 #: controls/albumViewHeader.js:522 controls/albumViewHeader.js:548
 #: controls/albumViewHeader.js:573 controls/seriesViewHeader.js:411
 #: controls/seriesViewHeader.js:445 controls/seriesViewHeader.js:472
-#: dialogs/dlgTrackProperties/tabArtwork.js:166 helpers/artistDataSource.js:23
+#: dialogs/dlgTrackProperties/tabArtwork.js:165 helpers/artistDataSource.js:23
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:187
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:269
 msgid "Getting"
@@ -4763,7 +4763,9 @@ msgid "Please enter the Podcast's title and URL to subscribe."
 msgstr "Pro přihlášení k odběru tohoto podcastu vložte prosím název a URL."
 
 #: dialogs/dlgPodcastSubscription.js:61
-msgid "You have been already subscribed to this podcast"
+#, fuzzy
+#| msgid "You have been already subscribed to this podcast"
+msgid "You are already subscribed to this podcast"
 msgstr "K odběru tohoto podcastu jste již přihlášeni"
 
 #: dialogs/dlgPodcastSubscription.js:98 dialogs\dlgOptions\pnl_Download.html:14
@@ -5230,7 +5232,7 @@ msgstr "ASCII + UTF-8 (dle potřeby)"
 msgid "Automatically analyze volume of unanalyzed files"
 msgstr "Automaticky analyzovat hlasitost neanalyzovaných skladeb"
 
-#: dialogs/dlgTrackProperties/tabArtwork.js:166
+#: dialogs/dlgTrackProperties/tabArtwork.js:165
 msgid "image"
 msgstr "obrázek"
 
@@ -6949,19 +6951,19 @@ msgstr "Žádná konfigurace"
 msgid "Problem while decoding file %s"
 msgstr "Problém při dekódování souboru %s"
 
-#: GlobVars.pas:1912
+#: GlobVars.pas:1904
 msgid "Classical Music"
 msgstr "Klasická hudba"
 
-#: GlobVars.pas:1913 controls\deviceConfig\options\pnl_FileLocations.html:57
+#: GlobVars.pas:1905 controls\deviceConfig\options\pnl_FileLocations.html:57
 msgid "Music Video"
 msgstr "Hudební video"
 
-#: GlobVars.pas:1915 controls\deviceConfig\options\pnl_FileLocations.html:65
+#: GlobVars.pas:1907 controls\deviceConfig\options\pnl_FileLocations.html:65
 msgid "TV"
 msgstr "TV"
 
-#: GlobVars.pas:1916
+#: GlobVars.pas:1908
 msgid "Video Podcast"
 msgstr "Video Podcast"
 
@@ -8115,7 +8117,7 @@ msgid "%d unplayed episodes"
 msgstr "%d nepřehraných epizod"
 
 #. is done via app.sharing.setPlayerControlAllowed()
-#: Settings.pas:1349
+#: Settings.pas:1341
 msgid "MediaMonkey Player"
 msgstr "Přehrávač MediaMonkey"
 
@@ -8350,10 +8352,6 @@ msgstr "Výstupní kvalita"
 #: dialogs\dlgOptions\pnl_Appearance.html:29
 msgid "This changes the header for each custom field."
 msgstr "Tím se změní záhlaví pro každé vlastní pole."
-
-#: dialogs\dlgOptions\pnl_General.html:48
-msgid "Enable smooth scrolling"
-msgstr "Povolit plynulé posouvání"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -8951,10 +8949,6 @@ msgstr "malá"
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
 msgstr "Povolit Auto-DJ"
-
-#: dialogs\dlgOptions\pnl_General.html:50
-msgid "This enables tooltips for context help"
-msgstr "Zapne bublinovou nápovědu"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:4
 msgid "Configure layout (current tab)"
@@ -9677,10 +9671,6 @@ msgstr ""
 msgid "Show splash screen at startup"
 msgstr "Zobrazovat logo při startu"
 
-#: dialogs\dlgOptions\pnl_General.html:45
-msgid "Enable mouse gestures for tray icon"
-msgstr "Povolit myší pohyby pro ikonu v tray"
-
 #: dialogs\dlgOptions\pnl_Layouts.html:19
 msgid "Available elements"
 msgstr "Dostupné prvky"
@@ -10082,10 +10072,6 @@ msgstr ""
 "Zobrazí upozornění, pokud je soubor ve frontě přehrávání nepřístupný (např. "
 "pokud je na CD, které není vloženo)."
 
-#: dialogs\dlgOptions\pnl_General.html:44
-msgid "This enables mouse gestures on the tray icon."
-msgstr "Aktivuje posunky myší na ikonce v system tray."
-
 #: dialogs\dlgOptions\pnl_Library.html:110
 msgid "Get Album titles and Track Numbers from:"
 msgstr "Získat názvy alb and čísla skladeb z:"
@@ -10471,10 +10457,6 @@ msgid ""
 msgstr ""
 "Určuje, kolik dříve přehraných skladeb se zobrazí v seznamu Přehrávání."
 
-#: dialogs\dlgOptions\pnl_General.html:51
-msgid "Show tooltips for context help"
-msgstr "Zobrazovat bublinovou nápovědu"
-
 #: dialogs\dlgOptions\pnl_InputPlugins.html:10
 msgid "Download more input plug-ins..."
 msgstr "Najít více vstupních pluginů..."
@@ -10545,10 +10527,6 @@ msgstr "Zachovat poměr stran"
 #: dialogs\dlgOptions\pnl_Download.html:20
 msgid "Every day"
 msgstr "Každý den"
-
-#: dialogs\dlgOptions\pnl_General.html:47
-msgid "This enables smooth scrolling of lists."
-msgstr "Aktivuje hladké posouvání seznamů."
 
 #: dialogs\dlgOptions\pnl_General.html:8
 msgid ""
@@ -11043,7 +11021,7 @@ msgstr "Formát videa"
 msgid "Fit size exactly"
 msgstr "Přesně přizpůsobit velikost"
 
-#: dialogs\dlgOptions\pnl_General.html:54
+#: dialogs\dlgOptions\pnl_General.html:45
 msgid "Temporary directory:"
 msgstr "Odkládací složka:"
 
@@ -11451,6 +11429,24 @@ msgid ""
 "The directory %s already exists. Would you like to install to that directory "
 "anyway?"
 msgstr "Složka %s již existuje. Přejete si i tak nainstalovat do této složky?"
+
+#~ msgid "Enable smooth scrolling"
+#~ msgstr "Povolit plynulé posouvání"
+
+#~ msgid "This enables tooltips for context help"
+#~ msgstr "Zapne bublinovou nápovědu"
+
+#~ msgid "Enable mouse gestures for tray icon"
+#~ msgstr "Povolit myší pohyby pro ikonu v tray"
+
+#~ msgid "This enables mouse gestures on the tray icon."
+#~ msgstr "Aktivuje posunky myší na ikonce v system tray."
+
+#~ msgid "Show tooltips for context help"
+#~ msgstr "Zobrazovat bublinovou nápovědu"
+
+#~ msgid "This enables smooth scrolling of lists."
+#~ msgstr "Aktivuje hladké posouvání seznamů."
 
 #~ msgid "There was an error while connecting to Google Play Music"
 #~ msgstr "Při připojení ke službě Google Play Music došlo k chybě"

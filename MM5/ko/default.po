@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-26 17:23\n"
+"POT-Creation-Date: 2020-11-27 17:35\n"
 "PO-Revision-Date: 2020-11-26 09:36+0000\n"
 "Last-Translator: Lee <pcsori@gmail.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
@@ -1182,7 +1182,7 @@ msgid "&File"
 msgstr "파일(&F)"
 
 #: actions.js:4955 viewHandlers.js:5192 controls/searchView.js:355
-#: dialogs/dlgOptions.js:119 DBStructure.pas:1939 GlobVars.pas:1910
+#: dialogs/dlgOptions.js:119 DBStructure.pas:1939 GlobVars.pas:1902
 #: UPnPTreeHelper.pas:1886
 #: controls\deviceConfig\options\pnl_FileLocations.html:33
 msgid "Podcasts"
@@ -2168,7 +2168,7 @@ msgstr "서버를 사용할 수 없음, 나중에 시도"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prefer the default Music collection when there are more music collections (#17051)
 #. prefer the default Music collection when there are more music collections (#16929)
-#: viewHandlers.js:5162 Filters.pas:2078 Filters.pas:2231 GlobVars.pas:1909
+#: viewHandlers.js:5162 Filters.pas:2078 Filters.pas:2231 GlobVars.pas:1901
 #: controls\deviceConfig\options\pnl_FileLocations.html:9
 msgid "Music"
 msgstr "음악"
@@ -2178,7 +2178,7 @@ msgid "Videos"
 msgstr "비디오"
 
 #: viewHandlers.js:5182 controls/searchView.js:389 DBStructure.pas:1940
-#: GlobVars.pas:1911
+#: GlobVars.pas:1903
 msgid "Audiobooks"
 msgstr "오디오북"
 
@@ -2430,7 +2430,7 @@ msgstr "오디오"
 #: controls/deviceConfig.js:302 controls/trackListView.js:49
 #: dialogs/dlgSupportedFormat.js:27 BaseMedia.pas:4497 FormatsManage.pas:3790
 #: FormatsManage.pas:5469 FormatsManage.pas:5501 FormatsManage.pas:5513
-#: GlobVars.pas:1914 controls\deviceConfig\options\pnl_FileLocations.html:49
+#: GlobVars.pas:1906 controls\deviceConfig\options\pnl_FileLocations.html:49
 msgid "Video"
 msgstr "비디오"
 
@@ -2443,7 +2443,7 @@ msgstr "웹"
 msgid "Remove bookmark"
 msgstr "책갈피 제거"
 
-#: viewHandlers.js:7216 viewHandlers.js:7218 GlobVars.pas:1917
+#: viewHandlers.js:7216 viewHandlers.js:7218 GlobVars.pas:1909
 msgid "Radio"
 msgstr "라디오"
 
@@ -2519,7 +2519,7 @@ msgstr "다시 묻지 않기"
 #: controls/albumViewHeader.js:522 controls/albumViewHeader.js:548
 #: controls/albumViewHeader.js:573 controls/seriesViewHeader.js:411
 #: controls/seriesViewHeader.js:445 controls/seriesViewHeader.js:472
-#: dialogs/dlgTrackProperties/tabArtwork.js:166 helpers/artistDataSource.js:23
+#: dialogs/dlgTrackProperties/tabArtwork.js:165 helpers/artistDataSource.js:23
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:187
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:269
 msgid "Getting"
@@ -4751,8 +4751,10 @@ msgid "Please enter the Podcast's title and URL to subscribe."
 msgstr ""
 
 #: dialogs/dlgPodcastSubscription.js:61
-msgid "You have been already subscribed to this podcast"
-msgstr ""
+#, fuzzy
+#| msgid "Export subscribed podcasts"
+msgid "You are already subscribed to this podcast"
+msgstr "구독된 팟캐스트 내보내기"
 
 #: dialogs/dlgPodcastSubscription.js:98 dialogs\dlgOptions\pnl_Download.html:14
 msgid "Global podcast options"
@@ -5213,7 +5215,7 @@ msgstr "ASCII + UTF-8 (필요할 경우)"
 msgid "Automatically analyze volume of unanalyzed files"
 msgstr "자동으로 분석되지 않은 파일의 볼륨 분석"
 
-#: dialogs/dlgTrackProperties/tabArtwork.js:166
+#: dialogs/dlgTrackProperties/tabArtwork.js:165
 msgid "image"
 msgstr "이미지"
 
@@ -6952,19 +6954,19 @@ msgstr "구성 없음"
 msgid "Problem while decoding file %s"
 msgstr "%s 파일을 디코딩하는 동안 문제 발생"
 
-#: GlobVars.pas:1912
+#: GlobVars.pas:1904
 msgid "Classical Music"
 msgstr "클래식 음악"
 
-#: GlobVars.pas:1913 controls\deviceConfig\options\pnl_FileLocations.html:57
+#: GlobVars.pas:1905 controls\deviceConfig\options\pnl_FileLocations.html:57
 msgid "Music Video"
 msgstr "뮤직 비디오"
 
-#: GlobVars.pas:1915 controls\deviceConfig\options\pnl_FileLocations.html:65
+#: GlobVars.pas:1907 controls\deviceConfig\options\pnl_FileLocations.html:65
 msgid "TV"
 msgstr "TV"
 
-#: GlobVars.pas:1916
+#: GlobVars.pas:1908
 msgid "Video Podcast"
 msgstr "비디오 팟캐스트"
 
@@ -8120,7 +8122,7 @@ msgid "%d unplayed episodes"
 msgstr "%d 미재생 에피소드"
 
 #. is done via app.sharing.setPlayerControlAllowed()
-#: Settings.pas:1349
+#: Settings.pas:1341
 msgid "MediaMonkey Player"
 msgstr "MediaMonkey 플레이어"
 
@@ -8354,10 +8356,6 @@ msgstr "출력 품질"
 #: dialogs\dlgOptions\pnl_Appearance.html:29
 msgid "This changes the header for each custom field."
 msgstr "이렇게 하면, 각 사용자 정의 필드의 헤더가 변경됩니다."
-
-#: dialogs\dlgOptions\pnl_General.html:48
-msgid "Enable smooth scrolling"
-msgstr "부드러운 스크롤 사용"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -8945,10 +8943,6 @@ msgstr "작은"
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
 msgstr "자동-DJ 사용"
-
-#: dialogs\dlgOptions\pnl_General.html:50
-msgid "This enables tooltips for context help"
-msgstr "문맥 도움말을 위한 도구 팁을 허용합니다"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:4
 msgid "Configure layout (current tab)"
@@ -9638,10 +9632,6 @@ msgstr ""
 msgid "Show splash screen at startup"
 msgstr "시작할 때 시작 화면 표시"
 
-#: dialogs\dlgOptions\pnl_General.html:45
-msgid "Enable mouse gestures for tray icon"
-msgstr "알림 영역에서 마우스 제스처 사용"
-
 #: dialogs\dlgOptions\pnl_Layouts.html:19
 msgid "Available elements"
 msgstr "사용 가능한 요소"
@@ -10027,10 +10017,6 @@ msgstr ""
 "재생 대기열에 있는 파일에 액세스할 수 없는 경우(예: 삽입되지 않은 CD에 있는 "
 "경우)에 경고 표시."
 
-#: dialogs\dlgOptions\pnl_General.html:44
-msgid "This enables mouse gestures on the tray icon."
-msgstr "알림 영역 아이콘에서 마우스 제스처를 사용합니다."
-
 #: dialogs\dlgOptions\pnl_Library.html:110
 msgid "Get Album titles and Track Numbers from:"
 msgstr "다음에서 앨범 제목 및 트랙 번호 가져오기:"
@@ -10411,10 +10397,6 @@ msgid ""
 "Playing list."
 msgstr "재생 목록에 표시될 이전에 재생된 트랙 수를 결정합니다."
 
-#: dialogs\dlgOptions\pnl_General.html:51
-msgid "Show tooltips for context help"
-msgstr "문맥 도움말을 위해 도구 팁 표시"
-
 #: dialogs\dlgOptions\pnl_InputPlugins.html:10
 msgid "Download more input plug-ins..."
 msgstr "입력 플러그인 다운로드..."
@@ -10484,10 +10466,6 @@ msgstr "가로 세로 비율 유지"
 #: dialogs\dlgOptions\pnl_Download.html:20
 msgid "Every day"
 msgstr "매일"
-
-#: dialogs\dlgOptions\pnl_General.html:47
-msgid "This enables smooth scrolling of lists."
-msgstr "이렇게 하면, 목록을 부드럽게 스크롤할 수 있습니다."
 
 #: dialogs\dlgOptions\pnl_General.html:8
 msgid ""
@@ -10959,7 +10937,7 @@ msgstr "비디오 형식"
 msgid "Fit size exactly"
 msgstr "크기에 정확히 맞추기"
 
-#: dialogs\dlgOptions\pnl_General.html:54
+#: dialogs\dlgOptions\pnl_General.html:45
 msgid "Temporary directory:"
 msgstr "임시 디렉터리:"
 
@@ -11359,6 +11337,24 @@ msgid ""
 "The directory %s already exists. Would you like to install to that directory "
 "anyway?"
 msgstr "디렉터리 %s은(는) 이미 존재합니다. 해당 디렉토리에 설치하시겠습니까?"
+
+#~ msgid "Enable smooth scrolling"
+#~ msgstr "부드러운 스크롤 사용"
+
+#~ msgid "This enables tooltips for context help"
+#~ msgstr "문맥 도움말을 위한 도구 팁을 허용합니다"
+
+#~ msgid "Enable mouse gestures for tray icon"
+#~ msgstr "알림 영역에서 마우스 제스처 사용"
+
+#~ msgid "This enables mouse gestures on the tray icon."
+#~ msgstr "알림 영역 아이콘에서 마우스 제스처를 사용합니다."
+
+#~ msgid "Show tooltips for context help"
+#~ msgstr "문맥 도움말을 위해 도구 팁 표시"
+
+#~ msgid "This enables smooth scrolling of lists."
+#~ msgstr "이렇게 하면, 목록을 부드럽게 스크롤할 수 있습니다."
 
 #~ msgid "There was an error while connecting to Google Play Music"
 #~ msgstr "Google Play Music에 연결하는 동안 오류 발생"

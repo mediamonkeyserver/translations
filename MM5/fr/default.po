@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-26 17:23\n"
+"POT-Creation-Date: 2020-11-27 17:35\n"
 "PO-Revision-Date: 2020-11-26 09:36+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: French <http://translations.mediamonkey.com/projects/"
@@ -1191,7 +1191,7 @@ msgid "&File"
 msgstr "&Fichier"
 
 #: actions.js:4955 viewHandlers.js:5192 controls/searchView.js:355
-#: dialogs/dlgOptions.js:119 DBStructure.pas:1939 GlobVars.pas:1910
+#: dialogs/dlgOptions.js:119 DBStructure.pas:1939 GlobVars.pas:1902
 #: UPnPTreeHelper.pas:1886
 #: controls\deviceConfig\options\pnl_FileLocations.html:33
 msgid "Podcasts"
@@ -2186,7 +2186,7 @@ msgstr "Aucun serveur disponible, réessayez plus tard"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prefer the default Music collection when there are more music collections (#17051)
 #. prefer the default Music collection when there are more music collections (#16929)
-#: viewHandlers.js:5162 Filters.pas:2078 Filters.pas:2231 GlobVars.pas:1909
+#: viewHandlers.js:5162 Filters.pas:2078 Filters.pas:2231 GlobVars.pas:1901
 #: controls\deviceConfig\options\pnl_FileLocations.html:9
 msgid "Music"
 msgstr "Musique"
@@ -2196,7 +2196,7 @@ msgid "Videos"
 msgstr "Vidéos"
 
 #: viewHandlers.js:5182 controls/searchView.js:389 DBStructure.pas:1940
-#: GlobVars.pas:1911
+#: GlobVars.pas:1903
 msgid "Audiobooks"
 msgstr "Livres audio"
 
@@ -2448,7 +2448,7 @@ msgstr "Audio"
 #: controls/deviceConfig.js:302 controls/trackListView.js:49
 #: dialogs/dlgSupportedFormat.js:27 BaseMedia.pas:4497 FormatsManage.pas:3790
 #: FormatsManage.pas:5469 FormatsManage.pas:5501 FormatsManage.pas:5513
-#: GlobVars.pas:1914 controls\deviceConfig\options\pnl_FileLocations.html:49
+#: GlobVars.pas:1906 controls\deviceConfig\options\pnl_FileLocations.html:49
 msgid "Video"
 msgstr "Vidéo"
 
@@ -2461,7 +2461,7 @@ msgstr "Internet"
 msgid "Remove bookmark"
 msgstr "Supprimer le signet"
 
-#: viewHandlers.js:7216 viewHandlers.js:7218 GlobVars.pas:1917
+#: viewHandlers.js:7216 viewHandlers.js:7218 GlobVars.pas:1909
 msgid "Radio"
 msgstr "Radio"
 
@@ -2537,7 +2537,7 @@ msgstr "Ne plus poser la question"
 #: controls/albumViewHeader.js:522 controls/albumViewHeader.js:548
 #: controls/albumViewHeader.js:573 controls/seriesViewHeader.js:411
 #: controls/seriesViewHeader.js:445 controls/seriesViewHeader.js:472
-#: dialogs/dlgTrackProperties/tabArtwork.js:166 helpers/artistDataSource.js:23
+#: dialogs/dlgTrackProperties/tabArtwork.js:165 helpers/artistDataSource.js:23
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:187
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:269
 msgid "Getting"
@@ -4803,8 +4803,10 @@ msgid "Please enter the Podcast's title and URL to subscribe."
 msgstr ""
 
 #: dialogs/dlgPodcastSubscription.js:61
-msgid "You have been already subscribed to this podcast"
-msgstr ""
+#, fuzzy
+#| msgid "Export subscribed podcasts"
+msgid "You are already subscribed to this podcast"
+msgstr "Exporter les abonnements Podcasts"
 
 #: dialogs/dlgPodcastSubscription.js:98 dialogs\dlgOptions\pnl_Download.html:14
 msgid "Global podcast options"
@@ -5287,7 +5289,7 @@ msgstr "ASCII + UTF-16 (quand nécessaire)"
 msgid "Automatically analyze volume of unanalyzed files"
 msgstr "Analyser automatiquement le volume des fichiers non-analysées"
 
-#: dialogs/dlgTrackProperties/tabArtwork.js:166
+#: dialogs/dlgTrackProperties/tabArtwork.js:165
 msgid "image"
 msgstr "image"
 
@@ -7067,19 +7069,19 @@ msgstr "Pas de configuration"
 msgid "Problem while decoding file %s"
 msgstr "Problème lors du décodage du fichier %s"
 
-#: GlobVars.pas:1912
+#: GlobVars.pas:1904
 msgid "Classical Music"
 msgstr "Musique Classique"
 
-#: GlobVars.pas:1913 controls\deviceConfig\options\pnl_FileLocations.html:57
+#: GlobVars.pas:1905 controls\deviceConfig\options\pnl_FileLocations.html:57
 msgid "Music Video"
 msgstr "Vidéo Musicale"
 
-#: GlobVars.pas:1915 controls\deviceConfig\options\pnl_FileLocations.html:65
+#: GlobVars.pas:1907 controls\deviceConfig\options\pnl_FileLocations.html:65
 msgid "TV"
 msgstr "TV"
 
-#: GlobVars.pas:1916
+#: GlobVars.pas:1908
 msgid "Video Podcast"
 msgstr "Podcast Vidéo"
 
@@ -8239,7 +8241,7 @@ msgid "%d unplayed episodes"
 msgstr "%d épisodes non lus"
 
 #. is done via app.sharing.setPlayerControlAllowed()
-#: Settings.pas:1349
+#: Settings.pas:1341
 msgid "MediaMonkey Player"
 msgstr "Lecteur MediaMonkey"
 
@@ -8475,10 +8477,6 @@ msgstr "Qualité de sortie"
 #: dialogs\dlgOptions\pnl_Appearance.html:29
 msgid "This changes the header for each custom field."
 msgstr "Cela modifie l'en-tête pour chaque champ personnalisé."
-
-#: dialogs\dlgOptions\pnl_General.html:48
-msgid "Enable smooth scrolling"
-msgstr "Activer le défilement fluide"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -9098,10 +9096,6 @@ msgstr "petit"
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
 msgstr "Activer Auto-DJ"
-
-#: dialogs\dlgOptions\pnl_General.html:50
-msgid "This enables tooltips for context help"
-msgstr "Active les bulles d'aides contextuelles"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:4
 msgid "Configure layout (current tab)"
@@ -9855,11 +9849,6 @@ msgstr ""
 msgid "Show splash screen at startup"
 msgstr "Afficher l'écran de démarrage"
 
-#: dialogs\dlgOptions\pnl_General.html:45
-msgid "Enable mouse gestures for tray icon"
-msgstr ""
-"Activer les actions de la souris sur l'icône de la zone de notification"
-
 #: dialogs\dlgOptions\pnl_Layouts.html:19
 msgid "Available elements"
 msgstr "Éléments disponibles"
@@ -10273,12 +10262,6 @@ msgstr ""
 "cours' n'est pas accessible (par exemple, lorsque le fichier se trouve sur "
 "un CD qui n'a pas été inséré)."
 
-#: dialogs\dlgOptions\pnl_General.html:44
-msgid "This enables mouse gestures on the tray icon."
-msgstr ""
-"Si cette option est activée, vous pouvez utiliser des mouvements spécifique "
-"de souris sur l'icône réduite de MediaMonkey afin de contrôler le lecteur."
-
 #: dialogs\dlgOptions\pnl_Library.html:110
 msgid "Get Album titles and Track Numbers from:"
 msgstr "Obtenir les titres d'albums et les numéros de pistes de:"
@@ -10675,10 +10658,6 @@ msgstr ""
 "Cette option détermine combien de d'anciennes pistes seront maintenues dans "
 "la liste \"Lecture en cours\"."
 
-#: dialogs\dlgOptions\pnl_General.html:51
-msgid "Show tooltips for context help"
-msgstr "Afficher les bulles d'aide pour l'aide contextuelle"
-
 #: dialogs\dlgOptions\pnl_InputPlugins.html:10
 msgid "Download more input plug-ins..."
 msgstr "Télécharger d'autres plug-ins d'entrée..."
@@ -10754,10 +10733,6 @@ msgstr "Conserver le Ratio d'aspect"
 #: dialogs\dlgOptions\pnl_Download.html:20
 msgid "Every day"
 msgstr "Chaque jour"
-
-#: dialogs\dlgOptions\pnl_General.html:47
-msgid "This enables smooth scrolling of lists."
-msgstr "Cela permet un défilement fluide des listes."
 
 #: dialogs\dlgOptions\pnl_General.html:8
 msgid ""
@@ -11271,7 +11246,7 @@ msgstr "Format vidéo"
 msgid "Fit size exactly"
 msgstr "Adapter exactement la taille"
 
-#: dialogs\dlgOptions\pnl_General.html:54
+#: dialogs\dlgOptions\pnl_General.html:45
 msgid "Temporary directory:"
 msgstr "Répertoire temporaire :"
 
@@ -11692,6 +11667,28 @@ msgid ""
 "The directory %s already exists. Would you like to install to that directory "
 "anyway?"
 msgstr ""
+
+#~ msgid "Enable smooth scrolling"
+#~ msgstr "Activer le défilement fluide"
+
+#~ msgid "This enables tooltips for context help"
+#~ msgstr "Active les bulles d'aides contextuelles"
+
+#~ msgid "Enable mouse gestures for tray icon"
+#~ msgstr ""
+#~ "Activer les actions de la souris sur l'icône de la zone de notification"
+
+#~ msgid "This enables mouse gestures on the tray icon."
+#~ msgstr ""
+#~ "Si cette option est activée, vous pouvez utiliser des mouvements "
+#~ "spécifique de souris sur l'icône réduite de MediaMonkey afin de contrôler "
+#~ "le lecteur."
+
+#~ msgid "Show tooltips for context help"
+#~ msgstr "Afficher les bulles d'aide pour l'aide contextuelle"
+
+#~ msgid "This enables smooth scrolling of lists."
+#~ msgstr "Cela permet un défilement fluide des listes."
 
 #~ msgid "There was an error while connecting to Google Play Music"
 #~ msgstr "Une erreur s'est produite lors de la connexion à Google Play Music"
