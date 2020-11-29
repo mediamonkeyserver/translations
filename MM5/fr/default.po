@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 17:35\n"
-"PO-Revision-Date: 2020-11-26 09:36+0000\n"
+"PO-Revision-Date: 2020-12-04 10:09+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: French <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/fr/>\n"
@@ -255,13 +255,13 @@ msgstr "Afficher l'image"
 #: controls/artistViewHeader.js:255 controls/genreViewHeader.js:76
 #: controls/seriesViewHeader.js:233
 msgid "Pin it"
-msgstr ""
+msgstr "Épingler"
 
 #: actions.js:991 controls/albumViewHeader.js:316
 #: controls/artistViewHeader.js:270 controls/genreViewHeader.js:91
 #: controls/seriesViewHeader.js:248
 msgid "Unpin it"
-msgstr ""
+msgstr "Désépingler"
 
 #: actions.js:1013 PlaylistManage.pas:3936
 msgid "Save playlist"
@@ -373,6 +373,8 @@ msgid ""
 "Rebuilds full-text search index. This might be useful if searching via "
 "search bar doesn't work right."
 msgstr ""
+"Reconstruire l'index de recherche en texte intégral. Cela peut être utile si "
+"la recherche via la barre de recherche ne fonctionne pas correctement."
 
 #. default
 #: actions.js:1519
@@ -530,6 +532,8 @@ msgstr "Ajouter des dossiers"
 msgid ""
 "If a network location isn't found automatically, you can add one manually."
 msgstr ""
+"Si un emplacement réseau n'est pas trouvé automatiquement, vous pouvez en "
+"ajouter un manuellement."
 
 #: actions.js:1958 dialogs\dlgWizard\pnlScan.html:10
 msgid "Add location"
@@ -556,6 +560,8 @@ msgstr "Ajouter un serveur multimédia manuellement"
 #: actions.js:2024
 msgid "If a media server isn't found automatically, you can add one manually."
 msgstr ""
+"Si un serveur multimédia n'est pas trouvé automatiquement, vous pouvez "
+"l'ajouter manuellement."
 
 #: actions.js:2024 UpNp.pas:9421 controls\devicesView.html:36
 msgid "Device Description file path:"
@@ -960,18 +966,18 @@ msgid "Analyze waveform"
 msgstr "Analyser la forme d'onde"
 
 #: actions.js:3464
-#, fuzzy
-#| msgid "Play selected files only"
 msgid "Display only selected folder's content"
-msgstr "Lire les fichiers sélectionnés uniquement"
+msgstr "Afficher uniquement le contenu du répertoire sélectionné"
 
 #: actions.js:3464
 msgid "Display folder content recursively"
-msgstr ""
+msgstr "Afficher le contenu du répertoire de manière récursive"
 
 #: actions.js:3495
 msgid "View filter"
 msgstr ""
+"Le 'Filtre de vue' est accessible via l'icône d'entonnoir et filtre le "
+"contenu de la vue actuellement affichée"
 
 #. "Any text"
 #: actions.js:3533 QueryManage.pas:2785 QueryManage.pas:2789 ResStrings.pas:532
@@ -1841,7 +1847,7 @@ msgstr "Albums suggérés"
 
 #: viewHandlers.js:471
 msgid "Pinned list"
-msgstr ""
+msgstr "Liste épinglée"
 
 #: viewHandlers.js:475 controls\audiobookCollectionView.html:10
 msgid "In progress"
@@ -2042,16 +2048,12 @@ msgid "Copying to %s:"
 msgstr "Copie vers %s :"
 
 #: viewHandlers.js:4005
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to move '%s'?"
-msgstr "Voulez-vous vraiment retirer %d extraits ?"
+msgstr "Voulez-vous vraiment déplacer \"%s\" ?"
 
 #: viewHandlers.js:4007
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to copy '%s'?"
-msgstr "Voulez-vous vraiment retirer %d extraits ?"
+msgstr "Voulez-vous vraiment copier \"%s\" ?"
 
 #: viewHandlers.js:4014
 msgid "Copy Library content only"
@@ -2408,12 +2410,18 @@ msgid ""
 "the mismatched values. If tracks don't show highlighted fields, try enabling "
 "additional columns."
 msgstr ""
+"Ceci trouve toutes les pistes avec des tags qui ne correspondent pas à la "
+"base de données, mettant en évidence les valeurs non concordantes. Si les "
+"pistes n'affichent pas des champs en surbrillance, essayez d'activer des "
+"colonnes supplémentaires."
 
 #: viewHandlers.js:6824
 msgid ""
 "This node finds all content for which tracks have duplicate hashes or "
 "fingerprints."
 msgstr ""
+"Ce branche trouve tout le contenu pour lequel les pistes ont des hachages ou "
+"des empreintes digitales en double."
 
 #: viewHandlers.js:6831 UPnPTreeHelper.pas:1900
 msgid "Files to Edit"
@@ -2467,7 +2475,7 @@ msgstr "Radio"
 
 #: viewHandlers.js:7283 controls\audiobookCollectionView.html:18
 msgid "Pinned"
-msgstr ""
+msgstr "Épinglé"
 
 #: viewHandlers.js:7637 controls/multiview.js:193
 msgid "Home"
@@ -2541,7 +2549,7 @@ msgstr "Ne plus poser la question"
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:187
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:269
 msgid "Getting"
-msgstr ""
+msgstr "Chargement"
 
 #: controls/albumViewHeader.js:522 controls/albumViewHeader.js:548
 #: controls/albumViewHeader.js:573
@@ -2647,7 +2655,7 @@ msgstr "Animation de l'arrière-plan à la lecture"
 
 #: controls/backgroundImage.js:156
 msgid "Cycle Artist images"
-msgstr ""
+msgstr "Cyclage d'images de l'artiste"
 
 #: controls/backgroundImage.js:168
 msgid "Artwork (blurred)"
@@ -2798,11 +2806,11 @@ msgstr "Autre"
 #. Add Inspect Element popup command (chromium 39 or later)
 #: controls/control.js:1566
 msgid "Inspect Element"
-msgstr ""
+msgstr "Inspecter l'élément"
 
 #: controls/control.js:1582
 msgid "Open DevTools in Chrome"
-msgstr ""
+msgstr "Ouvrir DevTools dans Chrome"
 
 #: controls/control.js:2007
 msgid "Getting data"
@@ -2914,10 +2922,8 @@ msgid "Show less"
 msgstr "Afficher moins"
 
 #: controls/downloadView.js:29
-#, fuzzy
-#| msgid "Resume all"
 msgid "Resume"
-msgstr "Reprendre tout"
+msgstr "Reprendre"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that screen tests are user independent
@@ -3216,7 +3222,7 @@ msgstr "Temps restant"
 
 #: controls/player.js:395
 msgid "Waveform bar"
-msgstr ""
+msgstr "Barre de forme d'onde"
 
 #: controls/player.js:428
 msgid "Exit fullscreen"
@@ -3224,7 +3230,7 @@ msgstr "Quitter le plein écran"
 
 #: controls/player.js:437
 msgid "Visualizer"
-msgstr ""
+msgstr "Histogramme"
 
 #: controls/player.js:456 skins\Black Monkey\player.html:41
 msgid "Volume bar"
@@ -3815,7 +3821,7 @@ msgstr "Type de fichier"
 #: MaskHelper.pas:3798 QueryManage.pas:4607 QueryManage.pas:4740
 #: QueryManage.pas:4741 dialogs\dlgTrackProperties\tabClassification.html:49
 msgid "Initial Key"
-msgstr ""
+msgstr "Clé Initiale"
 
 #: controls/trackListView.js:1642 MaskHelper.pas:3104 ResStrings.pas:464
 #: ResStrings.pas:518 dialogs\dlgTrackProperties\tabDetails.html:86
@@ -3842,7 +3848,7 @@ msgstr "dans"
 
 #: controls/waveform.js:95
 msgid "Update waveform"
-msgstr ""
+msgstr "Mettre à jour la forme d'onde"
 
 #: controls/clientConfig/autoConvert.js:5
 msgid "Convert the following formats when playing %s content remotely"
@@ -4344,10 +4350,8 @@ msgid "Delete from Playing list, the database and drive"
 msgstr "Supprimer de 'Lecture en cours', la base de données et le lecteur"
 
 #: dialogs/dlgDeleteConfirm.js:189
-#, fuzzy
-#| msgid "Are you sure you want to remove %d file from the Library?"
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
-msgstr "Etes-vous sûr de vouloir retirer %d fichier de la Bibliothèque ?"
+msgstr "Etes-vous sûr de vouloir retirer %d fichiers du ''%s '' ?"
 
 #: dialogs/dlgDeletedTracks.js:8
 msgid "Remove Unavailable files ?"
@@ -4800,13 +4804,11 @@ msgstr "Intégration système"
 
 #: dialogs/dlgPodcastSubscription.js:46
 msgid "Please enter the Podcast's title and URL to subscribe."
-msgstr ""
+msgstr "Entrer le titre du podcast et l'URL pour s'abonner."
 
 #: dialogs/dlgPodcastSubscription.js:61
-#, fuzzy
-#| msgid "Export subscribed podcasts"
 msgid "You are already subscribed to this podcast"
-msgstr "Exporter les abonnements Podcasts"
+msgstr "Vous êtes déjà abonné à ce podcast"
 
 #: dialogs/dlgPodcastSubscription.js:98 dialogs\dlgOptions\pnl_Download.html:14
 msgid "Global podcast options"
@@ -4985,10 +4987,8 @@ msgid "Welcome to MediaMonkey"
 msgstr "Bienvenue dans MediaMonkey"
 
 #: dialogs/dlgWizard.js:18
-#, fuzzy
-#| msgid "Add converted files to the library"
 msgid "To get started, add your media files to the library"
-msgstr "Ajouter les fichiers convertis à la bibliothèque"
+msgstr "Pour commencer, ajoutez vos fichiers multimédias à la bibliothèque"
 
 #: dialogs/dlgWizard.js:36
 msgid "Setup Wizard"
@@ -5728,16 +5728,12 @@ msgid "Case Checker"
 msgstr "Verification de la casse"
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:221
-#, fuzzy
-#| msgid "old value"
 msgid "Old Value: "
-msgstr "ancienne valeur"
+msgstr "Ancienne Valeur "
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:308
-#, fuzzy
-#| msgid "%d database entries to be updated"
 msgid "Select tracks to be updated"
-msgstr "%d entrées de base de données à mettre à jour"
+msgstr "Sélectionner les pistes à mettre a jour"
 
 #: Scripts/export/actions_add.js:31
 msgid "File List (&HTML)"
@@ -5838,10 +5834,8 @@ msgid "MediaMonkey Library Statistics"
 msgstr "Statistiques de la Bibliothèque MediaMonkey"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:171
-#, fuzzy
-#| msgid "Total Files"
 msgid "Totals"
-msgstr "Total de fichiers"
+msgstr "Totaux"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:326 QueryManage.pas:4722
@@ -5850,92 +5844,72 @@ msgid "Played"
 msgstr "Nombre de lectures"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:325
-#, fuzzy
-#| msgid "Average bitrate"
 msgid "Averages"
-msgstr "Débit moyen"
+msgstr "Moyennes"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:327
-#, fuzzy
-#| msgid "# Tracks by Artist"
 msgid "Tracks per Artist"
-msgstr "Nombre de pistes par artiste"
+msgstr "Pistes par artiste"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:328
-#, fuzzy
-#| msgid "# Tracks in Album"
 msgid "Tracks per Album"
-msgstr "Nombre de pistes par album"
+msgstr "Pistes par album"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:329
 msgid "Tracks per Genre"
-msgstr ""
+msgstr "Pistes par Genre"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
 msgid "Tracks per Year"
-msgstr ""
+msgstr "Pistes par Année"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:331
-#, fuzzy
-#| msgid "Bitrate (min)"
 msgid "Bitrate (kbps)"
-msgstr "Débit min"
+msgstr "Débit (kbps)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:333
-#, fuzzy
-#| msgid "Track %s failed to verify"
 msgid "Tracks played per day"
-msgstr "La Piste %s n'a pas pu être vérifiée"
+msgstr "Pistes lues par jour"
 
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:343
-#, fuzzy
-#| msgid "Artists"
 msgid "Top %d Artists"
-msgstr "Artistes"
+msgstr "Top %d des Artistes"
 
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:376
 msgid "Top %d Artists played"
-msgstr ""
+msgstr "Top %d des Artistes joués"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:407
-#, fuzzy
-#| msgid "per Album"
 msgid "Top %d Albums"
-msgstr "par album"
+msgstr "Top %d des Albums"
 
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:438
 msgid "Top %d Albums played"
-msgstr ""
+msgstr "Top %d des Albums joués"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:470
-#, fuzzy
-#| msgid "Genres"
 msgid "Top %d Genres"
-msgstr "Genres"
+msgstr "Top %d des Genres"
 
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:497
 msgid "Top %d Genres played"
-msgstr ""
+msgstr "Top %d des Genres joués"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:525
-#, fuzzy
-#| msgid "Rating"
 msgid "Ratings"
-msgstr "Evaluation"
+msgstr "Evaluations"
 
 #. rating played
 #: Scripts/statistics/dialogs/dlgStatistics.js:569
-#, fuzzy
-#| msgid "Last played"
 msgid "Ratings played"
-msgstr "Dernière lecture"
+msgstr "Lectures par évaluations"
 
 #. disable auto sizing mechanism, we have fixed size
 #: Scripts/statistics/dialogs/dlgStatistics.js:608
@@ -5961,10 +5935,8 @@ msgstr ""
 "s'il s'agissait d'un appareil portable."
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:215
-#, fuzzy
-#| msgid "Sync now"
 msgid "Sync root"
-msgstr "Synchroniser maintenant"
+msgstr "Racine de synchronisation"
 
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:65
 msgid "series"
@@ -5981,10 +5953,8 @@ msgid "Specials"
 msgstr "Spéciaux"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:253
-#, fuzzy
-#| msgid "Select files"
 msgid "Select preset"
-msgstr "Sélectionner des fichiers"
+msgstr "Sélectionner un préréglage"
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:410
@@ -6053,12 +6023,12 @@ msgstr "les albums"
 
 #: BaseMedia.pas:18212
 msgid "Reorder track(s)"
-msgstr ""
+msgstr "Changer l'ordre des pistes"
 
 #. for tracks<=current track does copy instead of move
 #: BaseMedia.pas:18222
 msgid "Reorder/copy track(s)"
-msgstr ""
+msgstr "Changer l'ordre/copier piste(s)"
 
 #: CDDBUtils.pas:254
 msgid "There was an error while connecting to "
@@ -7057,7 +7027,7 @@ msgstr ""
 
 #: FullPlayer.pas:7153
 msgid "Computing waveform for file %s"
-msgstr ""
+msgstr "Calcul de la forme d'onde pour le fichier %s"
 
 #: FullPlayer.pas:7667 WinAmpPlugins.pas:2879
 msgid "No configuration"
@@ -8933,10 +8903,8 @@ msgid "Tags then Playlists"
 msgstr "Les tags puis les listes de lecture M3U"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
-#, fuzzy
-#| msgid "Default action for files: "
 msgid "Default action for files:"
-msgstr "Action par défaut pour les fichiers : "
+msgstr "Action par défaut pour les fichiers :"
 
 #: dialogs\dlgOptions\pnl_Player.html:23
 msgid "From other applications..."
@@ -10591,12 +10559,6 @@ msgstr ""
 "coefficient de nivellement."
 
 #: dialogs\dlgWizard\pnlShare.html:3
-#, fuzzy
-#| msgid ""
-#| "Let UPnP/DLNA clients (TVs, DVD Players, xBox, PlayStations, etc.) on "
-#| "your network access the MediaMonkey library, and let other MediaMonkey "
-#| "clients (e.g. MediaMonkey for Android) sync wirelessly. You'll be "
-#| "prompted to grant access for each remote device that attempts to connect. "
 msgid ""
 "Let UPnP/DLNA clients (TVs, DVD Players, xBox, PlayStations, etc.) on your "
 "network access the MediaMonkey library, and let other MediaMonkey clients (e."
@@ -10607,7 +10569,7 @@ msgstr ""
 "de votre réseau à accéder à la bibliothèque MediaMonkey, et la "
 "synchronisation sans fil aux autres clients MediaMonkey (MediaMonkey pour "
 "Android). Vous serez invité à autoriser l'accès à chaque équipement distant "
-"qui tente de se connecter. "
+"qui tente de se connecter."
 
 #: SampleScripts\sqleditor\dialogs\dlgSQLEditor.html:22
 msgid "Execute"
@@ -11194,9 +11156,8 @@ msgstr ""
 "logiciel"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:30
-#, fuzzy
 msgid "Database"
-msgstr "Gérer la base de données"
+msgstr "Base de données"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:6
 msgid "Looks up artist image if it's missing"
@@ -11656,17 +11617,17 @@ msgstr "Taux de compression"
 
 # Installer
 msgid "Warning: This will overwrite an existing %s installation!"
-msgstr ""
+msgstr "Attention : Cela écrasera une installation %s existante !"
 
-#, fuzzy
-#| msgid "Are you sure you want to delete"
 msgid "Are you sure you want to proceed?"
-msgstr "Etes-vous sûr de vouloir supprimer"
+msgstr "Êtes-vous sûr de vouloir continuer?"
 
 msgid ""
 "The directory %s already exists. Would you like to install to that directory "
 "anyway?"
 msgstr ""
+"Le répertoire %s existe déjà. Voulez-vous installer dans ce répertoire de "
+"toute façon ?"
 
 #~ msgid "Enable smooth scrolling"
 #~ msgstr "Activer le défilement fluide"
