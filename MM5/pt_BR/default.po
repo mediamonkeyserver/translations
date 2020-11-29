@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 17:35\n"
-"PO-Revision-Date: 2020-11-26 09:36+0000\n"
+"PO-Revision-Date: 2020-12-04 10:09+0000\n"
 "Last-Translator: Gervásio da Silva Antônio <gervasioantonio@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <http://translations.mediamonkey.com/"
 "projects/mediamonkey-5-x/application/pt_BR/>\n"
@@ -278,7 +278,7 @@ msgstr "Nova lista de execução"
 
 #: actions.js:1059
 msgid "Auto-organi&ze files"
-msgstr "Auto-organizar arquivos"
+msgstr "Auto-organi&zar arquivos"
 
 #: actions.js:1084 dialogs\dlgOptions\pnl_MetadataLookup.html:11
 msgid "Update tags"
@@ -374,6 +374,8 @@ msgid ""
 "Rebuilds full-text search index. This might be useful if searching via "
 "search bar doesn't work right."
 msgstr ""
+"Recria o índice de pesquisa textual. Isso pode ser útil se as buscas feitas "
+"via barra de pesquisa não produzirem os resultados corretos."
 
 #. default
 #: actions.js:1519
@@ -530,6 +532,8 @@ msgstr "Adicionar pastas"
 msgid ""
 "If a network location isn't found automatically, you can add one manually."
 msgstr ""
+"Se um local de rede não for encontrado automaticamente, você pode adicioná-"
+"lo manualmente."
 
 #: actions.js:1958 dialogs\dlgWizard\pnlScan.html:10
 msgid "Add location"
@@ -556,6 +560,8 @@ msgstr "Adicionar servidor de mídia manualmente"
 #: actions.js:2024
 msgid "If a media server isn't found automatically, you can add one manually."
 msgstr ""
+"Se um servidor de mídia não for encontrado automaticamente, você pode "
+"adicioná-lo manualmente."
 
 #: actions.js:2024 UpNp.pas:9421 controls\devicesView.html:36
 msgid "Device Description file path:"
@@ -696,7 +702,7 @@ msgstr "Layout"
 
 #: actions.js:2421 dialogs/dlgExtensions.js:10
 msgid "Addons"
-msgstr "Add-ons"
+msgstr "Extensões"
 
 #: actions.js:2433 actions.js:2448 actions.js:2451 actions.js:2466
 #: actions.js:2469 MediaMonkeyApp.pas:7933
@@ -959,14 +965,12 @@ msgid "Analyze waveform"
 msgstr "Analisar forma de onda"
 
 #: actions.js:3464
-#, fuzzy
-#| msgid "Play selected files only"
 msgid "Display only selected folder's content"
-msgstr "Tocar somente os arquivos selecionados"
+msgstr "Tocar somente o conteúdo das pastas selecionadas"
 
 #: actions.js:3464
 msgid "Display folder content recursively"
-msgstr ""
+msgstr "Exibir o conteúdo da pasta recursivamente"
 
 #: actions.js:3495
 msgid "View filter"
@@ -1015,7 +1019,7 @@ msgstr "Em execução"
 #: actions.js:3828 controls/artWindow.js:1063 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_Layouts.js:335 maincontent.html:50
 msgid "Preview"
-msgstr "Amostra"
+msgstr "Visualizar"
 
 #: actions.js:3879
 msgid "&Visualization"
@@ -1270,7 +1274,7 @@ msgstr "Por favor, reinicie o MediaMonkey para concluir a instalação."
 
 #: actions.js:6629
 msgid "Exit Party Mode"
-msgstr "Sari do modo festa"
+msgstr "Sair do modo festa"
 
 #: actions.js:6637 actions.js:6638
 msgid "Enter password"
@@ -1404,7 +1408,7 @@ msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
 msgstr ""
-"Você tem certeza que deseja remover as tags %s dos arquivos selecionados (as "
+"Você tem certeza que deseja remover as %s tags dos arquivos selecionados (as "
 "propriedades não são removidas da biblioteca)?"
 
 #: actions.js:8792 dialogs/dlgWizard.js:27
@@ -2015,7 +2019,7 @@ msgstr "Nova pasta"
 
 #: viewHandlers.js:3377
 msgid "New folder name"
-msgstr "Novo nome de pasta"
+msgstr "Nome da nova pasta"
 
 #. inheritance, this way we creates 'PlaylistBase' node handler class, 'Playlist' and 'Playlists' inherits from it when creating nodeHandlers.playlist(s) instances below
 #: viewHandlers.js:3605
@@ -2040,16 +2044,12 @@ msgid "Copying to %s:"
 msgstr "Copiando para %s:"
 
 #: viewHandlers.js:4005
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to move '%s'?"
-msgstr "Você deseja realmente remover %d amostras?"
+msgstr "Você deseja realmente mover '%s'?"
 
 #: viewHandlers.js:4007
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to copy '%s'?"
-msgstr "Você deseja realmente remover %d amostras?"
+msgstr "Você deseja realmente copiar '%s'?"
 
 #: viewHandlers.js:4014
 msgid "Copy Library content only"
@@ -2401,12 +2401,17 @@ msgid ""
 "the mismatched values. If tracks don't show highlighted fields, try enabling "
 "additional columns."
 msgstr ""
+"Localiza todas as faixas com tags que não coincidem com o conteúdo da base "
+"de dados, destacando os valores diferentes. Se as faixas não exibirem campos "
+"destacados, tente habilitar colunas adicionais."
 
 #: viewHandlers.js:6824
 msgid ""
 "This node finds all content for which tracks have duplicate hashes or "
 "fingerprints."
 msgstr ""
+"Este nó localiza todo o conteúdo para o qual as faixas possuem assinaturas "
+"duplicadas."
 
 #: viewHandlers.js:6831 UPnPTreeHelper.pas:1900
 msgid "Files to Edit"
@@ -2621,7 +2626,7 @@ msgstr "Permitir edição"
 #. search link is present only if searching artwork in album a not on web (when searchMissingArtwork is false)
 #: controls/artWindow.js:1678
 msgid "Artwork not found"
-msgstr "Arte não encontrada"
+msgstr "Capa não encontrada"
 
 #: controls/autoConvertConfig.js:100
 msgid ""
@@ -2791,11 +2796,11 @@ msgstr "Outros"
 #. Add Inspect Element popup command (chromium 39 or later)
 #: controls/control.js:1566
 msgid "Inspect Element"
-msgstr ""
+msgstr "Inspecionar elemento"
 
 #: controls/control.js:1582
 msgid "Open DevTools in Chrome"
-msgstr ""
+msgstr "Abrir DevTools no Chrome"
 
 #: controls/control.js:2007
 msgid "Getting data"
@@ -2909,10 +2914,8 @@ msgid "Show less"
 msgstr "Exibir menos"
 
 #: controls/downloadView.js:29
-#, fuzzy
-#| msgid "Resume all"
 msgid "Resume"
-msgstr "Reiniciar todos"
+msgstr "Reiniciar"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that screen tests are user independent
@@ -3054,7 +3057,7 @@ msgstr ""
 
 #: controls/maskedit.js:474
 msgid "Sample:"
-msgstr "Exemplo:"
+msgstr "Amostra:"
 
 #: controls/mediaTree.js:208
 msgid "Show all subnodes"
@@ -3169,7 +3172,7 @@ msgstr "Exibir janela inteira"
 
 #: controls/nowplayingview.js:225
 msgid "Show full screen"
-msgstr "Exibir tela inteira"
+msgstr "Exibir tela cheia"
 
 #: controls/nowplayingview.js:240
 msgid "Cancel full window"
@@ -3177,7 +3180,7 @@ msgstr "Cancelar janela inteira"
 
 #: controls/nowplayingview.js:242
 msgid "Cancel full screen"
-msgstr "Cancelar tela inteira"
+msgstr "Cancelar tela cheia"
 
 #: controls/nowplayingview.js:259
 msgid "Choose layout"
@@ -3221,7 +3224,7 @@ msgstr "Visualizador"
 
 #: controls/player.js:456 skins\Black Monkey\player.html:41
 msgid "Volume bar"
-msgstr "Volume"
+msgstr "Barra de volume"
 
 #: controls/player.js:465 helpers/trayIcon.js:104
 msgid "Volume"
@@ -3250,11 +3253,11 @@ msgstr "Alternar para o mini/micro player"
 
 #: controls/playlistEditor.js:57
 msgid "Drag and drop or Send tracks to the playlist to populate it."
-msgstr "Arraste e solte ou então Envie faixas para a lista, para populá-la."
+msgstr "Arraste e solte ou então envie faixas para a lista, para populá-la."
 
 #: controls/playlistHeader.js:117
 msgid "Edit in Playlist Panel"
-msgstr "Editar no painel da lista"
+msgstr "Editar no painel de Listas"
 
 #: controls/playlistHeader.js:276
 msgid "Hide editor"
@@ -3279,7 +3282,8 @@ msgstr ""
 msgid ""
 "You are not subscribed to any podcast currently. To subscribe a podcast go "
 "to %s"
-msgstr "Você não tem assinados atualmente. Para assinar um podcast, vá em %s"
+msgstr ""
+"Você não tem podcasts assinados atualmente. Para assinar um podcast, vá em %s"
 
 #: controls/podcastSubscribeTutorial.js:23
 msgid "or"
@@ -3295,7 +3299,7 @@ msgstr "Remover avaliação"
 
 #: controls/searchBar.js:450 dialogs\dlgOptions\pnl_Search.html:8
 msgid "Filters matches"
-msgstr "Filtrar coincidências"
+msgstr "Filtra coincidências"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. per #16067
@@ -3511,7 +3515,7 @@ msgstr "Personalizado 10"
 #: controls/trackListView.js:53 dialogs/dlgTrackProperties.js:33
 #: dialogs\dlgAutoConvertRule.html:50
 msgid "Custom"
-msgstr "Personalizada"
+msgstr "Personalizado"
 
 #: controls/trackListView.js:61
 msgid "Play History"
@@ -3858,7 +3862,7 @@ msgstr "Ajustar volume ao compartilhar áudio"
 
 #: controls/deviceConfig/options.js:9
 msgid "File Locations"
-msgstr "Local de arquivos"
+msgstr "Local dos arquivos"
 
 #: controls/deviceConfig/options.js:13
 msgid "Tagging"
@@ -3947,7 +3951,7 @@ msgstr "Também gerar listas em '%s' para:"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Modify metadata as follows when syncing to '%s'"
-msgstr "Modificar metadados dessa forma ao sincronizar para '%s'"
+msgstr "Modificar metadados desta forma ao sincronizar para '%s'"
 
 #: controls/nowPlaying/fullList.js:168
 msgid "Click to look up lyrics..."
@@ -4028,7 +4032,7 @@ msgstr "Adicionar capa"
 
 #: dialogs/dlgAddonConfig.js:10
 msgid "Addon Configuration"
-msgstr "Configuração de add-on"
+msgstr "Configuração de extensão"
 
 #: dialogs/dlgAddonInstall.js:6
 msgid "Product installation"
@@ -4092,7 +4096,7 @@ msgstr "Auto-organizar"
 
 #: dialogs/dlgAutoorganize.js:141 dialogs\dlgAutoorganize.html:32
 msgid "Delete emptied folders"
-msgstr "Apagar pastas esvaziadas"
+msgstr "Excluir pastas esvaziadas"
 
 #: dialogs/dlgAutoorganize.js:143
 msgid "Add copied files to the Library"
@@ -4265,11 +4269,11 @@ msgstr "Excluir da base de dados e do disco"
 
 #: dialogs/dlgDeleteConfirm.js:58
 msgid "Delete Library content from the database only"
-msgstr "Excluir conteúdo da biblioteca apenas da base de dados"
+msgstr "Excluir conteúdo gerenciado apenas da base de dados"
 
 #: dialogs/dlgDeleteConfirm.js:59
 msgid "Delete Library content from the database and drive"
-msgstr "Excluir conteúdo da biblioteca da base de dados e do disco"
+msgstr "Excluir conteúdo gerenciado da base de dados e do disco"
 
 #: dialogs/dlgDeleteConfirm.js:60
 msgid "Delete all content from the database and drive"
@@ -4311,7 +4315,7 @@ msgstr "Excluir da lista, da base de dados e do disco"
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from Playing list only"
-msgstr "Remover da lista Em execução apenas"
+msgstr "Remover somente da lista Em execução"
 
 #: dialogs/dlgDeleteConfirm.js:135
 msgid "Remove from Playing list and"
@@ -4319,17 +4323,15 @@ msgstr "Remover da lista Em execução e"
 
 #: dialogs/dlgDeleteConfirm.js:160
 msgid "Delete from Playing list and the database only"
-msgstr "Excluir da lista Em execução e da base de dados apenas"
+msgstr "Excluir somente da lista Em execução e da base de dados"
 
 #: dialogs/dlgDeleteConfirm.js:161
 msgid "Delete from Playing list, the database and drive"
 msgstr "Excluir da lista Em execução, da base de dados e do disco"
 
 #: dialogs/dlgDeleteConfirm.js:189
-#, fuzzy
-#| msgid "Are you sure you want to remove %d file(s) from the Library?"
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
-msgstr "Você deseja realmente remover %d arquivo(s) da biblioteca?"
+msgstr "Você realmente deseja remover %d arquivo(s) de \"%s\"?"
 
 #: dialogs/dlgDeletedTracks.js:8
 msgid "Remove Unavailable files ?"
@@ -4570,11 +4572,11 @@ msgstr "Padrão: VBR ~192 kbps - Qualidade muito alta+"
 
 #: dialogs/dlgMP3Settings.js:10 MP3Manage.pas:263
 msgid "Extreme (fast): VBR ~256 kbps - Near CD Quality"
-msgstr "Extremo (rápida): VBR ~256 kbps - Qualidade próxima de CD"
+msgstr "Extremo (rápida): VBR ~256 kbps - Qualidade próxima à de CD"
 
 #: dialogs/dlgMP3Settings.js:10 MP3Manage.pas:262
 msgid "Extreme: VBR ~256 kbps - Near CD Quality+"
-msgstr "Extremo: VBR ~256 kbps - Próximo da qualidade de CD+"
+msgstr "Extremo: VBR ~256 kbps - Qualidade próxima à de CD+"
 
 #: dialogs/dlgMP3Settings.js:11 MP3Manage.pas:264
 msgid "Insane: CBR ~320 kbps - Highest Quality"
@@ -4779,13 +4781,11 @@ msgstr "Integração ao SO"
 
 #: dialogs/dlgPodcastSubscription.js:46
 msgid "Please enter the Podcast's title and URL to subscribe."
-msgstr ""
+msgstr "Insira o título e a URL do podcast para assinar."
 
 #: dialogs/dlgPodcastSubscription.js:61
-#, fuzzy
-#| msgid "Export subscribed podcasts"
 msgid "You are already subscribed to this podcast"
-msgstr "Exportar podcasts assinados"
+msgstr "Você já assina este podcast"
 
 #: dialogs/dlgPodcastSubscription.js:98 dialogs\dlgOptions\pnl_Download.html:14
 msgid "Global podcast options"
@@ -4801,7 +4801,7 @@ msgstr "Registre o MediaMonkey Gold"
 
 #: dialogs/dlgRegisterGold.js:40 dialogs/dlgWizard.js:232
 msgid "Registration succeeded! Thank you for purchasing MediaMonkey Gold!"
-msgstr "Registrado com sucesso! Obrigado por comprar o MediaMonkey GOld!"
+msgstr "Registrado com sucesso! Obrigado por comprar o MediaMonkey Gold!"
 
 #: dialogs/dlgRegisterGold.js:47 dialogs/dlgWizard.js:239
 #: dialogs/dlgWizard.js:248
@@ -4919,15 +4919,17 @@ msgstr "Conteúdo"
 #: dialogs/dlgSyncConfirm.js:13
 msgid ""
 "Existing file(s) and playlist(s) to update from the device to the PC (%d)"
-msgstr "Arquivos e listas existentes a atualizar do dispositivo para o PC (%d)"
+msgstr ""
+"Arquivos e listas existentes a serem atualizados do dispositivo para o PC "
+"(%d)"
 
 #: dialogs/dlgSyncConfirm.js:26
 msgid "New file(s) and playlist(s) to copy from the device to the PC (%d)"
-msgstr "Novos arquivos e listas a copiar do dispositivo para o PC (%d)"
+msgstr "Novos arquivos e listas a serem copiados do dispositivo para o PC (%d)"
 
 #: dialogs/dlgSyncConfirm.js:39
 msgid "File(s) and playlist(s) to delete from the device (%d)"
-msgstr "Arquivos e listas a excluir do dispositivo (%d)"
+msgstr "Arquivos e listas a serem excluídos do dispositivo (%d)"
 
 #: dialogs/dlgSyncConfirm.js:75
 msgid "Auto-sync"
@@ -4960,10 +4962,8 @@ msgid "Welcome to MediaMonkey"
 msgstr "Bem-vindo ao MediaMonkey"
 
 #: dialogs/dlgWizard.js:18
-#, fuzzy
-#| msgid "Add converted files to the library"
 msgid "To get started, add your media files to the library"
-msgstr "Adicionar arquivos convertidos à biblioteca"
+msgstr "Para iniciar, adicione seus arquivos de mídia à biblioteca"
 
 #: dialogs/dlgWizard.js:36
 msgid "Setup Wizard"
@@ -5132,7 +5132,7 @@ msgstr "Controle de visualização não localizado."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:23
 msgid "Preview layout cannot be set."
-msgstr "Layout visualizado não pode ser definido."
+msgstr "Layout de visualização não pode ser definido."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:26
 msgid "This panel element displays details of the playing or selected file"
@@ -5179,8 +5179,8 @@ msgid ""
 "input your account (%s) password:"
 msgstr ""
 "Instalando o MediaMonkey como serviço, você poderá utilizar o servidor de "
-"mídia, mesmo se o MediaMonkey não estiver rodando ou você não estiver logado "
-"em sua conta. Insira a senha de sua conta (%s):"
+"mídia, mesmo se o MediaMonkey não estiver rodando ou você não estiver "
+"logado. Insira a senha de sua conta (%s):"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:58
 #: dialogs/dlgOptions/pnl_MediaTree.js:59
@@ -5490,8 +5490,9 @@ msgid ""
 "to connect will trigger a prompt)."
 msgstr ""
 "Permite que clientes remotos do MediaMonkey sincronizem via Wi-Fi, se for "
-"concedido a eles direitos sobre o conteúdo da biblioteca. Por padrão, quando "
-"um dispositivo tentar conectar pela primeira vez, será emitido um aviso."
+"concedido a eles permissões sobre o conteúdo da biblioteca. Por padrão, "
+"quando um dispositivo tentar conectar pela primeira vez, será emitido um "
+"aviso."
 
 #: helpers/mediaSync.js:989
 msgid ""
@@ -5693,19 +5694,15 @@ msgstr "Começar numeração em:"
 
 #: Scripts/caseChecker/actions_add.js:2 Scripts/caseChecker/actions_add.js:12
 msgid "Case Checker"
-msgstr "Verificador de Capitalização"
+msgstr "Verificador de capitalização"
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:221
-#, fuzzy
-#| msgid "old value"
 msgid "Old Value: "
-msgstr "valor antigo"
+msgstr "Valor antigo: "
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:308
-#, fuzzy
-#| msgid "%d database entries to be updated"
 msgid "Select tracks to be updated"
-msgstr "%d entradas da base de dados a serem atualizadas"
+msgstr "Selecione as faixas a serem atualizadas"
 
 #: Scripts/export/actions_add.js:31
 msgid "File List (&HTML)"
@@ -5806,10 +5803,8 @@ msgid "MediaMonkey Library Statistics"
 msgstr "Estatísticas da biblioteca do MediaMonkey"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:171
-#, fuzzy
-#| msgid "Total Files"
 msgid "Totals"
-msgstr "Total de arquivos"
+msgstr "Totais"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:326 QueryManage.pas:4722
@@ -5818,92 +5813,72 @@ msgid "Played"
 msgstr "Tocados"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:325
-#, fuzzy
-#| msgid "Average bitrate"
 msgid "Averages"
-msgstr "Taxa de bits média"
+msgstr "Médias"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:327
-#, fuzzy
-#| msgid "# Tracks by Artist"
 msgid "Tracks per Artist"
 msgstr "Faixas por artista"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:328
-#, fuzzy
-#| msgid "# Tracks in Album"
 msgid "Tracks per Album"
-msgstr "Faixas no álbum"
+msgstr "Faixas por álbum"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:329
 msgid "Tracks per Genre"
-msgstr ""
+msgstr "Faixas por gênero"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
 msgid "Tracks per Year"
-msgstr ""
+msgstr "Faixas por ano"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:331
-#, fuzzy
-#| msgid "Bitrate (min)"
 msgid "Bitrate (kbps)"
-msgstr "Taxa de bits (min)"
+msgstr "Taxa de bits (kbps)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:333
-#, fuzzy
-#| msgid "Track %s failed to verify"
 msgid "Tracks played per day"
-msgstr "A verificação da faixa %s falhou"
+msgstr "Faixas tocadas por dia"
 
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:343
-#, fuzzy
-#| msgid "Artists"
 msgid "Top %d Artists"
-msgstr "Artistas"
+msgstr "Top %d artistas"
 
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:376
 msgid "Top %d Artists played"
-msgstr ""
+msgstr "Top %d artistas mais tocados"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:407
-#, fuzzy
-#| msgid "per Album"
 msgid "Top %d Albums"
-msgstr "por álbum"
+msgstr "Top %d álbuns"
 
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:438
 msgid "Top %d Albums played"
-msgstr ""
+msgstr "Top %d álbuns mais tocados"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:470
-#, fuzzy
-#| msgid "Genres"
 msgid "Top %d Genres"
-msgstr "Gêneros"
+msgstr "Top %d gêneros"
 
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:497
 msgid "Top %d Genres played"
-msgstr ""
+msgstr "Top %d gêneros mais tocados"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:525
-#, fuzzy
-#| msgid "Rating"
 msgid "Ratings"
-msgstr "Avaliação"
+msgstr "Avaliações"
 
 #. rating played
 #: Scripts/statistics/dialogs/dlgStatistics.js:569
-#, fuzzy
-#| msgid "Last played"
 msgid "Ratings played"
-msgstr "Última execução"
+msgstr "Avaliações tocadas"
 
 #. disable auto sizing mechanism, we have fixed size
 #: Scripts/statistics/dialogs/dlgStatistics.js:608
@@ -5929,10 +5904,8 @@ msgstr ""
 "portátil."
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:215
-#, fuzzy
-#| msgid "Sync now"
 msgid "Sync root"
-msgstr "Sincronizar agora"
+msgstr "Raiz da sincronização"
 
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:65
 msgid "series"
@@ -5949,10 +5922,8 @@ msgid "Specials"
 msgstr "Especiais"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:253
-#, fuzzy
-#| msgid "Select files"
 msgid "Select preset"
-msgstr "Selecione os arquivos"
+msgstr "Selecione o ajuste"
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:410
@@ -6117,7 +6088,7 @@ msgstr "Erro ao extrair faixa"
 #. track doesn't exist or is a data track
 #: CDUtils.pas:1601
 msgid "The CD-ROM unit %s: does not contain track number %d."
-msgstr "A unidade de CD-ROM %s não contém a faixa número %d."
+msgstr "A unidade de CD-ROM %s: não contém a faixa número %d."
 
 #: CDUtils.pas:1787
 msgid ""
@@ -6431,7 +6402,7 @@ msgstr ""
 
 #: Devices.pas:9546
 msgid "No / I'll sync over USB instead"
-msgstr "Não. Vou sincronizar via UBS"
+msgstr "Não. Vou sincronizar via USB"
 
 #. capacity is unknown (e.g. Google Music)
 #: Devices.pas:10915
@@ -6491,7 +6462,7 @@ msgstr "O atributo somente-leitura não pode ser removido do arquivo %s."
 
 #: ErrHandlers.pas:137
 msgid "There was a problem updating the tag for file %s."
-msgstr "Existe um problema na atualização da tag do arquivo %s."
+msgstr "Houve um problema na atualização da tag do arquivo %s."
 
 #: ErrHandlers.pas:144
 msgid "File %s already exists. Do you want to replace it?"
@@ -6614,19 +6585,19 @@ msgstr "Pilha de execução"
 
 #: ExceptionHandler.pas:327
 msgid "There was a runtime error in Addon"
-msgstr "Houve um erro em tempo de execução no Add-on"
+msgstr "Houve um erro em tempo de execução na extensão"
 
 #: ExceptionHandler.pas:327
 msgid "Do you want to disable this addon?"
-msgstr "Deseja desabilitar esse add-on?"
+msgstr "Deseja desabilitar essa extensão?"
 
 #: Extensions.pas:668 Extensions.pas:681 Extensions.pas:716
 msgid "Invalid Addon!"
-msgstr "Add-on inválido!"
+msgstr "Extensão inválida!"
 
 #: Extensions.pas:678
 msgid "Invalid Addon: only valid for MediaMonkey 4.x"
-msgstr "Add-on inválido: válido somente para o MediaMonkey 4.x"
+msgstr "Extensão inválida: formato válido somente para o MediaMonkey 4.x"
 
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
 #: Extensions.pas:768 UpNp.pas:10680
@@ -6713,7 +6684,7 @@ msgstr ""
 
 #: FileAssoc.pas:1132
 msgid "MediaMonkey Addon file"
-msgstr "Arquivo de add-on do MediaMonkey"
+msgstr "Arquivo de extensão do MediaMonkey"
 
 #: FileAssoc.pas:1134
 msgid "Audio File"
@@ -8577,7 +8548,7 @@ msgstr "Indica por quanto tempo a janela Pop-up deve ser exibida"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:15
 msgid "ID3v1 and v2.4 tags"
-msgstr "Tags ID3v1 e ID3v2.4"
+msgstr "Tags ID3v1 e v2.4"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:18
 msgid ""
@@ -8645,7 +8616,7 @@ msgstr "Análise de volume"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:14
 msgid "ID3v1 and v2.3 tags"
-msgstr "Tags ID3v1 e ID3v2.3"
+msgstr "Tags ID3v1 e v2.3"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:76
 msgid "Audio/Video"
@@ -8881,10 +8852,8 @@ msgid "Tags then Playlists"
 msgstr "Primeiro das tags, depois das listas de execução"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
-#, fuzzy
-#| msgid "Default action for files: "
 msgid "Default action for files:"
-msgstr "Ação padrão para arquivos: "
+msgstr "Ação padrão para arquivos:"
 
 #: dialogs\dlgOptions\pnl_Player.html:23
 msgid "From other applications..."
@@ -10365,7 +10334,7 @@ msgstr "Converter arquivos para um novo destino"
 
 #: dialogs\dlgExtensions.html:19
 msgid "Get more addons"
-msgstr "Obter mais add-ons"
+msgstr "Obter mais extensões"
 
 #: dialogs\dlgMediaProperties.html:14
 msgid "Serial"
@@ -10509,12 +10478,6 @@ msgstr ""
 "faixas, com base no álbum inteiro, e armazena esse coeficiente na tag."
 
 #: dialogs\dlgWizard\pnlShare.html:3
-#, fuzzy
-#| msgid ""
-#| "Let UPnP/DLNA clients (TVs, DVD Players, xBox, PlayStations, etc.) on "
-#| "your network access the MediaMonkey library, and let other MediaMonkey "
-#| "clients (e.g. MediaMonkey for Android) sync wirelessly. You'll be "
-#| "prompted to grant access for each remote device that attempts to connect. "
 msgid ""
 "Let UPnP/DLNA clients (TVs, DVD Players, xBox, PlayStations, etc.) on your "
 "network access the MediaMonkey library, and let other MediaMonkey clients (e."
@@ -10525,7 +10488,7 @@ msgstr ""
 "etc.) em sua rede acessem a biblioteca do MediaMonkey. Também permite que "
 "outros clientes MediaMonkey (como o MediaMonkey para Android) sincronizem "
 "pela rede sem fio. Você será perguntado a conceder o acesso para cada "
-"dispositivo que tentar se conectar. "
+"dispositivo que tentar se conectar."
 
 #: SampleScripts\sqleditor\dialogs\dlgSQLEditor.html:22
 msgid "Execute"
