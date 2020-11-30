@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 17:35\n"
-"PO-Revision-Date: 2020-11-27 15:57+0000\n"
+"PO-Revision-Date: 2020-12-04 10:09+0000\n"
 "Last-Translator: Marko Mahnic <mahnic.marko@gmail.com>\n"
 "Language-Team: Slovenian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/sl/>\n"
@@ -234,7 +234,7 @@ msgstr "Prekliči vse"
 
 #: actions.js:884 actions.js:2146 dialogs\dlgTrackProperties\tabArtwork.html:7
 msgid "Lookup image"
-msgstr ""
+msgstr "Poišči sliko"
 
 #: actions.js:908 actions.js:1728 actions.js:2104
 #: controls/playlistHeader.js:159 FullPlayer.pas:4368
@@ -374,11 +374,13 @@ msgid ""
 "Rebuilds full-text search index. This might be useful if searching via "
 "search bar doesn't work right."
 msgstr ""
+"Obnovi indeks za iskanje celotnega besedila. To je lahko koristno, če "
+"iskanje z iskalno vrstico ne deluje pravilno."
 
 #. default
 #: actions.js:1519
 msgid "Optimize database"
-msgstr ""
+msgstr "Optimiziraj zbirko podatkov"
 
 #: actions.js:1522
 msgid "Optimizes the database to improve performance"
@@ -389,52 +391,54 @@ msgstr "Optimizira podatkovno zbirko za izboljšanje učinkovitosti"
 #: DatabaseManage.pas:1531 DatabaseManage.pas:1589 DatabaseManage.pas:1596
 #: DatabaseManage.pas:1679 DatabaseManage.pas:1685
 msgid "Rebuild database"
-msgstr ""
+msgstr "Obnovi zbirko podatkov"
 
 #: actions.js:1535
 msgid ""
 "Rebuilds the database. This might be useful if database is corrupted or "
 "contains inconsistent data."
 msgstr ""
+"Obnovi zbirko podatkov. To je lahko koristno, če je zbirka podatkov "
+"poškodovana ali vsebuje neskladne podatke."
 
 #. default
 #: actions.js:1545
 msgid "Clean URL cache"
-msgstr ""
+msgstr "Izbriši pomnilnik URL"
 
 #: actions.js:1559 dialogs/dlgMaintainLibrary.js:10
 msgid "Manage database"
-msgstr ""
+msgstr "Upravljanje zbirke podatkov"
 
 #: actions.js:1597 dialogs\dlgMaintainLibrary.html:19
 msgid "Backup database now"
-msgstr ""
+msgstr "Zdaj varnostno kopiraj zbirko podatkov"
 
 #: actions.js:1600
 msgid "This will create a backup of the current database"
-msgstr ""
+msgstr "S tem boste ustvarili varnostno kopijo trenutne zbirke podatkov"
 
 #: actions.js:1600 actions.js:1628 actions.js:1663 actions.js:2063
 #: actions.js:8942 Scripts/autoIncTrack/actions_add.js:21
 #: Scripts/syncToFolder/viewHandlers_add.js:7
 msgid "Do you want to proceed?"
-msgstr ""
+msgstr "Ali želite nadaljevati?"
 
 #: actions.js:1606
 msgid "Backup is complete."
-msgstr ""
+msgstr "Varnostno kopiranje je končano."
 
 #: actions.js:1610
 msgid "Backup FAILED!"
-msgstr ""
+msgstr "Varnostno kopiranje NI USPELO!"
 
 #: actions.js:1625 dialogs\dlgMaintainLibrary.html:20
 msgid "Restore from backup"
-msgstr ""
+msgstr "Obnovi iz varnostne kopije"
 
 #: actions.js:1628
 msgid "This will restore the database from a backup."
-msgstr ""
+msgstr "S tem boste obnovili zbirko podatkov iz varnostne kopije."
 
 #: actions.js:1634
 msgid ""
@@ -442,35 +446,40 @@ msgid ""
 "current database and MediaMonkey will be automatically restarted when "
 "finished!"
 msgstr ""
+"Ali ste prepričani, da želite obnoviti zbirko podatkov iz %s?<br> S tem "
+"boste izbrisali trenutno zbirko podatkov, MediaMonkey pa se bo po dokončanem "
+"procesu samodejno znova zagnal!"
 
 #: actions.js:1640
 msgid "Restore FAILED!"
-msgstr ""
+msgstr "Obnovitev NI USPELA!"
 
 #: actions.js:1659 dialogs\dlgMaintainLibrary.html:21
 msgid "Clear database"
-msgstr ""
+msgstr "Izbriši zbirko podatkov"
 
 #: actions.js:1663
 msgid ""
 "This will delete all Library data, Playlists, and Collections but will not "
 "delete any of your files or configuration data."
 msgstr ""
+"S tem boste izbrisali vse podatke knjižnice, sezname predvajanja in zbirke, "
+"ne boste pa izbrisali nobene datoteke ali konfiguracijskih podatkov."
 
 #: actions.js:1669
 msgid "Clear FAILED! Old database restored."
-msgstr ""
+msgstr "Brisanje NI USPELO! Stara zbirka podatkov je obnovljena."
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode', // per #16067
 #: actions.js:1684 controls/searchBar.js:516
 #: dialogs\dlgOptions\pnl_Search.html:15
 msgid "Global search"
-msgstr ""
+msgstr "Globalno iskanje"
 
 #: actions.js:1712
 msgid "Delete (permanent)"
-msgstr ""
+msgstr "Izbriši (trajno)"
 
 #: actions.js:1749
 msgid "Cut"
@@ -487,12 +496,12 @@ msgstr "Prilepi"
 #. #16261 - to be the first in the list after creation
 #: actions.js:1824 actions.js:1836
 msgid "New AutoPlay&list"
-msgstr ""
+msgstr "Nov samodejni &seznam predvajanja"
 
 #. #16261 - to be the first in the list after creation
 #: actions.js:1848 actions.js:1860
 msgid "New pla&ylist"
-msgstr ""
+msgstr "Nov &seznam predvajanja"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. has support for NP list in full window
@@ -500,7 +509,7 @@ msgstr ""
 #: controls/nowplayingview.js:377 helpers/dockableDialog.js:28
 #: controls\devicesView.html:41
 msgid "Close"
-msgstr ""
+msgstr "Zapri"
 
 #: actions.js:1883
 msgid "E&xit"
@@ -512,21 +521,21 @@ msgstr "&Lastnosti"
 
 #: actions.js:1922
 msgid "Subscribe to new podcast"
-msgstr ""
+msgstr "Prijava na novo poddajo"
 
 #: actions.js:1934 actions.js:1940 dialogs/dlgChooseFolders.js:21
 #: dialogs/dlgNetworkFolder.js:10
 msgid "Add folders"
-msgstr ""
+msgstr "Dodaj imenike"
 
 #: actions.js:1941
 msgid ""
 "If a network location isn't found automatically, you can add one manually."
-msgstr ""
+msgstr "Če omrežne lokacije ni mogoče najti samodejno, jo lahko dodate ročno."
 
 #: actions.js:1958 dialogs\dlgWizard\pnlScan.html:10
 msgid "Add location"
-msgstr ""
+msgstr "Dodaj lokacijo"
 
 #. 'addStorage',
 #: actions.js:1965 viewHandlers.js:4628 dialogs/dlgMediaProperties.js:26
@@ -536,28 +545,30 @@ msgstr "Omrežje"
 
 #: actions.js:1973 dialogs/dlgWizard/pnlScan.js:142 QueryManage.pas:4276
 msgid "Media server"
-msgstr ""
+msgstr "Predstavnostni strežnik"
 
 #: actions.js:1981 dialogs/dlgWizard/pnlScan.js:171
 msgid "Cloud storage"
-msgstr ""
+msgstr "Shramba v oblaku"
 
 #: actions.js:2016 actions.js:2023
 msgid "Add media server manually"
-msgstr ""
+msgstr "Ročno dodaj predstavnostni strežnik"
 
 #: actions.js:2024
 msgid "If a media server isn't found automatically, you can add one manually."
 msgstr ""
+"Če predstavnostnega strežnika ni mogoče najti samodejno, ga lahko dodate "
+"ročno."
 
 #: actions.js:2024 UpNp.pas:9421 controls\devicesView.html:36
 msgid "Device Description file path:"
-msgstr ""
+msgstr "Pot do datoteke z opisom naprave:"
 
 #. no message needed in case of success (as the new server just appears in the list)
 #: actions.js:2043
 msgid "%s cannot be reached"
-msgstr ""
+msgstr "%s ni mogoče doseči"
 
 #: actions.js:2044 ResStrings.pas:567 UI.pas:1252
 msgid "Error"
