@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 17:35\n"
-"PO-Revision-Date: 2020-11-28 21:24+0000\n"
+"PO-Revision-Date: 2020-12-04 10:09+0000\n"
 "Last-Translator: Panagiotis Pentaris <ppentar@outlook.com>\n"
 "Language-Team: Greek <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/el/>\n"
@@ -5077,6 +5077,12 @@ msgid ""
 "have to install to the Winamp directory and then manually copy the "
 "installed .dll file(s) to the Program Files/MediaMonkey/Plug-ins directory."
 msgstr ""
+"1) Εάν το plug-in παρέχεται με ένα πρόγραμμα εγκατάστασης, το πρόγραμμα "
+"εγκατάστασης επιλέγει συχνά έναν προεπιλεγμένο κατάλογο /Program Files/"
+"Winamp. Αλλάξτε το σε /Program Files/MediaMonkey. Εάν δεν μπορείτε να "
+"αλλάξετε τον κατάλογο εγκατάστασης, θα πρέπει να κάνετε εγκατάσταση στον "
+"κατάλογο Winamp και, στη συνέχεια, να αντιγράψετε χειροκίνητα τα "
+"εγκατεστημένα αρχεία .dll στον κατάλογο Program Files/MediaMonkey/Plug-ins."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:17
 #: dialogs/dlgOptions/pnl_InputPlugins.js:16
@@ -5086,6 +5092,9 @@ msgid ""
 "MediaMonkey/Plugins directory, and follow the instructions provided with the "
 "plug-in."
 msgstr ""
+"2) Εάν το plug-in είναι .dll, απλώς αντιγράψτε το .dll στον κατάλογο Program "
+"Files/MediaMonkey/Plugins και ακολουθήστε τις οδηγίες που παρέχονται με τo "
+"plug-in."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:19
 #: dialogs/dlgOptions/pnl_InputPlugins.js:18
@@ -5094,18 +5103,20 @@ msgid ""
 "Once the plug-in is installed, you can access it from the plug-ins pane, and "
 "press the Configure button."
 msgstr ""
+"Μόλις εγκατασταθεί to plug-in, μπορείτε να αποκτήσετε πρόσβαση σε αυτό από "
+"το παράθυρο plug-ins και να πατήσετε το κουμπί Διαμόρφωση."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:19
 msgid ""
 "For DSP Audio Effect plug-ins, you can also set the order in which the "
 "plugins process the audio using the up/down arrows."
 msgstr ""
+"Για plug-ins DSP Εφέ Ήχου, μπορείτε επίσης να ορίσετε τη σειρά με την οποία "
+"τα plugins επεξεργάζονται τον ήχο χρησιμοποιώντας τα βέλη πάνω/κάτω."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:39
-#, fuzzy
-#| msgid "Description"
 msgid "Plug-in description"
-msgstr "Περιγραφή"
+msgstr "Περιγραφή plug-in"
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:5
 msgid "Type a keyboard shortcut"
@@ -5117,7 +5128,7 @@ msgstr "Επιλογή μιας Ενέργειας"
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:7
 msgid "<New Hotkey...>"
-msgstr "<Νέο Πλήκτρο συντόμευσης...>"
+msgstr "<Νέο Πλήκτρο Συντόμευσης...>"
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:63 dialogs\dlgOptions\pnl_Hotkeys.html:8
 msgid "Action"
@@ -5129,67 +5140,63 @@ msgstr "Πλήκτρο συντόμευσης"
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:88 dialogs\dlgOptions\pnl_Hotkeys.html:15
 msgid "Global"
-msgstr "Γενικές"
+msgstr "Καθολικές"
 
 #. LS: to filter no longer existing actions (#14646)
 #: dialogs/dlgOptions/pnl_Hotkeys.js:220
 msgid "Delete selected hotkey ?"
-msgstr ""
+msgstr "Διαγραφή επιλεγμένου πλήκτρου συντόμευσης ;"
 
 #: dialogs/dlgOptions/pnl_InputPlugins.js:10
 msgid ""
 "The MediaMonkey Player supports Input plug-ins that are compatible with "
 "Winamp 2. They generally add support for new audio formats."
 msgstr ""
+"Το MediaMonkey Player υποστηρίζει plug-ins εισόδου που είναι συμβατά με το "
+"Winamp 2. Γενικά προσθέτουν υποστήριξη για νέες μορφές ήχου."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:14
-#, fuzzy
-#| msgid "Lyrics not found"
 msgid "Player panel not found."
-msgstr "Δεν βρέθηκαν στίχοι"
+msgstr "Δεν βρέθηκε player panel."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:18
-#, fuzzy
-#| msgid "Lyrics not found"
 msgid "Player control not found."
-msgstr "Δεν βρέθηκαν στίχοι"
+msgstr "Δεν βρέθηκε το player control."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:30
 msgid "Player layout cannot be set."
-msgstr ""
+msgstr "Είναι αδύνατη η ρύθμιση της διάταξης του player."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:11
-#, fuzzy
-#| msgid "Artwork not found"
 msgid "Preview control not found."
-msgstr "Δεν βρέθηκε έργο τέχνης"
+msgstr "Δεν βρέθηκε ο έλεγχος προεπισκόπησης."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:23
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "Preview layout cannot be set."
-msgstr "Το αρχείο %s δεν μπορεί να δημιουργηθεί."
+msgstr "Είναι αδύνατη η ρύθμιση της διάταξης προεπισκόπησης."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:26
 msgid "This panel element displays details of the playing or selected file"
 msgstr ""
+"Αυτό το στοιχείο πίνακα εμφανίζει λεπτομέρειες της αναπαραγόμενου ή του "
+"επιλεγμένου αρχείου"
 
 #: dialogs/dlgOptions/pnl_Layouts.js:11
 msgid "Add new layout"
-msgstr ""
+msgstr "Προσθήκη νέας διάταξης"
 
 #: dialogs/dlgOptions/pnl_Layouts.js:461
 msgid "New layout name"
-msgstr ""
+msgstr "Νέο όνομα διάταξης"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:33 UpNp.pas:9411
 #: controls\serverConfig\server.html:4
 msgid "Server name"
-msgstr ""
+msgstr "Όνομα server"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:60
 msgid "Running"
-msgstr "Εκτελείται"
+msgstr "Εκτέλεση"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:62
 msgid "Stopped"
@@ -5213,10 +5220,10 @@ msgid ""
 "MediaMonkey is not running and you are not logged into your account. Please "
 "input your account (%s) password:"
 msgstr ""
-"Εγκαθιστώντας το MediaMonkey ως υπηρεσία σάς επιτρέπει να εξερευνήσετε τον "
+"Εγκαθιστώντας το MediaMonkey ως υπηρεσία σάς επιτρέπει να περιηγηθείτε στον "
 "server των πολυμέσων, ακόμα και αν το MediaMonkey δεν εκτελείται και δεν "
 "έχετε εισέλθει στο λογαριασμό σας. Παρακαλούμε εισάγετε το κωδικό πρόσβασης "
-"(%s) του λογαριασμού σας:"
+"του (%s) λογαριασμού σας:"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:58
 #: dialogs/dlgOptions/pnl_MediaTree.js:59
@@ -5226,7 +5233,7 @@ msgstr "Ορατό"
 #. <Add New Collection...> row
 #: dialogs/dlgOptions/pnl_MediaTree.js:127
 msgid "Content to display"
-msgstr ""
+msgstr "Περιεχόμενο προς εμφάνιση"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:160
 msgid "<Add New Collection...>"
@@ -5236,44 +5243,47 @@ msgstr "<Προσθήκη Νέας Συλλογής...>"
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:26
 msgid "To automatically update tags, please upgrade to MediaMonkey Gold!"
 msgstr ""
+"Για αυτόματη ενημέρωση ετικετών, παρακαλούμε αναβαθμίστε σε MediaMonkey Gold!"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:87
 msgid "Lyrics sources"
-msgstr ""
+msgstr "Πηγές στίχων"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:96
 msgid "Auto-tag metadata sources"
-msgstr ""
+msgstr "Πηγές μεταδεδομένων αυτόματης προσθήκης ετικετών"
 
 #: dialogs/dlgOptions/pnl_OutputPlugins.js:12
 msgid ""
 "The MediaMonkey Player supports Output plug-ins that are compatible with "
 "Winamp 2. They generally control how MediaMonkey outputs audio."
 msgstr ""
+"Το MediaMonkey Player υποστηρίζει plug-ins Εξόδου που είναι συμβατά με το "
+"Winamp 2. Γενικά ελέγχουν τον τρόπο με τον οποίο το MediaMonkey εξάγει ήχο."
 
 #: dialogs/dlgOptions/pnl_Search.js:5
 msgid "When typing in a view:"
-msgstr ""
+msgstr "Κατά την πληκτρολόγηση σε προβολή:"
 
 #: dialogs/dlgOptions/pnl_Search.js:35
 msgid "Ignore diacritics"
-msgstr ""
+msgstr "Αγνόηση διακριτικών"
 
 #: dialogs/dlgOptions/pnl_Search.js:35
 msgid "Match beginning of words"
-msgstr ""
+msgstr "Ταίριασμα της αρχής των λέξεων"
 
 #: dialogs/dlgOptions/pnl_Search.js:35
 msgid "faster"
-msgstr ""
+msgstr "γρηγορότερα"
 
 #: dialogs/dlgOptions/pnl_Search.js:36
 msgid "Respect diacritics"
-msgstr ""
+msgstr "Σεβασμός διακριτικών"
 
 #: dialogs/dlgOptions/pnl_Search.js:36
 msgid "Match within words"
-msgstr ""
+msgstr "Ταίριασμα μέσα στις λέξεις"
 
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:2
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:3
@@ -5287,50 +5297,50 @@ msgstr "ASCII + UTF-16 (όταν χρειάζεται)"
 
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:3
 msgid "ASCII + UTF-8 (when needed)"
-msgstr ""
+msgstr "ASCII + UTF-8 (όταν χρειάζεται)"
 
 #: dialogs/dlgOptions/pnl_VolumeLeveling.js:6
 msgid "Automatically analyze volume of unanalyzed files"
-msgstr ""
+msgstr "Αυτόματη ανάλυση του όγκου των μη αναλυμένων αρχείων"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:165
 msgid "image"
-msgstr ""
+msgstr "εικόνα"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
-msgstr "Πολλαπλά αρχεία επιλέχθηκαν"
+msgstr "Επιλέχθηκαν πολλά αρχεία"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:58 ResStrings.pas:580
 msgid "Multiple file Types selected"
-msgstr "Πολλαπλοί Τύποι αρχείου επιλέχθηκαν"
+msgstr "Eπιλέχθηκαν Πολλαπλοί Τύποι αρχείου"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:445
 #: dialogs\dlgTrackProperties\tabBasic.html:67
 msgid "Artist(s)"
-msgstr "Καλλιτέχνης (ες)"
+msgstr "Καλλιτέχνης(ες)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:446
 #: dialogs\dlgTrackProperties\tabBasic.html:82
 msgid "Genre(s)"
-msgstr "Είδος (η)"
+msgstr "Είδος(η)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:485
 msgid "Artist(s) (ensemble; soloist)"
-msgstr "Καλλιτέχνης (ες) (σύνολο, σολίστ)"
+msgstr "Καλλιτέχνης(ες) (ομάδα, σολίστ)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:486
 msgid "Genre(s) (genre; period)"
-msgstr "Είδος (η) (είδος, περίοδος)"
+msgstr "Είδος(η) (είδος, περίοδος)"
 
 #: dialogs/dlgTrackProperties/tabCustom.js:38
 msgid "Tag name"
-msgstr ""
+msgstr "Όνομα ετικέτας"
 
 #. do not save
 #: dialogs/dlgTrackProperties/tabCustom.js:71
 msgid "Tag value"
-msgstr ""
+msgstr "Τιμή ετικέτας"
 
 #: dialogs/dlgTrackProperties/tabDetails.js:45
 #: Scripts/statistics/dialogs/dlgStatistics.js:180
@@ -5350,7 +5360,7 @@ msgstr "Μέγεθος αρχείου"
 #: dialogs/dlgTrackProperties/tabDetails.js:47
 #: dialogs\dlgTrackProperties\tabDetails.html:203
 msgid "Last played"
-msgstr ""
+msgstr "Τελευταίο αναπαραχθέν"
 
 #: dialogs/dlgTrackProperties/tabDetails.js:72 FormatsHandler.pas:2894
 #: dialogs\dlgTrackProperties\tabDetails.html:214
@@ -5360,30 +5370,32 @@ msgstr "VBR"
 #: dialogs/dlgTrackProperties/tabLyrics.js:14
 #: dialogs/dlgTrackProperties/tabLyrics.js:16
 msgid "Searching for missing lyrics"
-msgstr ""
+msgstr "Αναζήτηση για στίχους που λείπουν"
 
 #: dialogs/dlgWizard/pnlRegistration.js:20
 msgid ""
 "Upgrading to MediaMonkey Gold helps support ongoing development of "
 "MediaMonkey, and gives you the following features:"
 msgstr ""
+"Η αναβάθμιση σε MediaMonkey Gold βοηθά στην υποστήριξη της συνεχούς "
+"ανάπτυξης του MediaMonkey και σας παρέχει τις ακόλουθες δυνατότητες:"
 
 #. and navigate this new profile in the UI:
 #: dialogs/dlgWizard/pnlScan.js:70
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:259
 msgid "Local storage"
-msgstr ""
+msgstr "Τοπική αποθήκευση"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #. we have exact gid, do not allow changing it in case search does not find it
 #: helpers/albumDataSource.js:132
 #: Scripts/musicBrainz/helpers/musicBrainz.js:667
 msgid "Don't display info"
-msgstr ""
+msgstr "Μη εμφάνιση πληροφοριών"
 
 #: helpers/artistDataSource.js:23
 msgid "artist info"
-msgstr ""
+msgstr "πληροφορίες καλλιτέχνη"
 
 #: helpers/autoDJ.js:19 Filters.pas:3345 MediaMonkeyApp.pas:7918
 #: ResStrings.pas:409
@@ -5396,27 +5408,27 @@ msgstr "Συλλογή"
 
 #: helpers/autoTagFramework.js:269 helpers/autoTagFramework.js:271
 msgid "Processing"
-msgstr ""
+msgstr "Επεξεργασία"
 
 #: helpers/autoTagFramework.js:273
 msgid "Fingerprinting"
-msgstr ""
+msgstr "Δακτυλικά αποτυπώματα"
 
 #: helpers/autoTagFramework.js:277
 msgid "artwork"
-msgstr ""
+msgstr "έργο τέχνης"
 
 #: helpers/autoTagFramework.js:279
 msgid "lyrics"
-msgstr ""
+msgstr "στίχοι"
 
 #: helpers/autoTagFramework.js:281
 msgid "Located"
-msgstr ""
+msgstr "Βρίσκεται"
 
 #: helpers/autoTagFramework.js:283
 msgid "Fail"
-msgstr ""
+msgstr "Αποτυχία"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to accept <Skip> as used in MM4 (and renamed to <Ignore> in MM5)
@@ -5427,70 +5439,79 @@ msgstr "Παράλειψη"
 
 #: helpers/autoTagFramework.js:287 dialogs\dlgWizard.html:16
 msgid "Done"
-msgstr ""
+msgstr "Ολοκληρώθηκε"
 
 #: helpers/mediaSync.js:398
 msgid "There was a problem syncing \"%s\"."
-msgstr ""
+msgstr "Παρουσιάστηκε πρόβλημα κατά τον συγχρονισμό του \"%s\"."
 
 #. add new sync storage target (profile):
 #: helpers/mediaSync.js:594 helpers/mediaSync.js:2431
 msgid "Remote content"
-msgstr ""
+msgstr "Απομακρυσμένο περιεχόμενο"
 
 #: helpers/mediaSync.js:596 helpers/mediaSync.js:2433
 msgid "Library content"
-msgstr ""
+msgstr "Περιεχόμενο βιβλιοθήκης"
 
 #: helpers/mediaSync.js:616
 msgid "Hourly"
-msgstr ""
+msgstr "Ωριαίο"
 
 #: helpers/mediaSync.js:617
 msgid "2x / day"
-msgstr ""
+msgstr "2x / ημέρα"
 
 #: helpers/mediaSync.js:687 helpers/mediaSync.js:2562
 msgid ""
 "On sync, the database is updated with links to files and playlists from '%s'"
 msgstr ""
+"Κατά τον συγχρονισμό, η βάση δεδομένων ενημερώνεται με συνδέσμους σε αρχεία "
+"και λίστες αναπαραγωγής από '%s'"
 
 #: helpers/mediaSync.js:688
 msgid "Only include content that matches files already in the database"
 msgstr ""
+"Συμπερίληψη μόνο περιεχομένου που ταιριάζει με αρχεία που είναι ήδη στη βάση "
+"δεδομένων"
 
 #: helpers/mediaSync.js:689
 msgid ""
 "On sync, the database is only updated with links to files & playlists from "
 "'%s' that match files already in the database"
 msgstr ""
+"Κατά το συγχρονισμό, η βάση δεδομένων ενημερώνεται μόνο με συνδέσμους σε "
+"αρχεία και λίστες αναπαραγωγής από '%s' που ταιριάζουν με αρχεία που είναι "
+"ήδη στη βάση δεδομένων"
 
 #: helpers/mediaSync.js:690
 msgid "Download '%s' content that is not accessible locally"
-msgstr ""
+msgstr "Λήψη περιεχομένου '%s' που δεν είναι προσβάσιμο τοπικά"
 
 #: helpers/mediaSync.js:691
 msgid ""
 "Downloads files and playlists from '%s' that are not accessible via the "
 "local drive or network"
 msgstr ""
+"Λήψη αρχείων και λιστών αναπαραγωγής από το '%s' που δεν είναι προσβάσιμα "
+"μέσω της τοπικής μονάδας ή δικτύου"
 
 #: helpers/mediaSync.js:692
 msgid "Sync '%s' metadata to the Library"
-msgstr ""
+msgstr "Συγχρονισμός μεταδεδομένων '%s' στη βιβλιοθήκη"
 
 #: helpers/mediaSync.js:693
 msgid "Update metadata for matching tracks and playlists"
-msgstr ""
+msgstr "Ενημέρωση μεταδεδομένων για ταίριασμα κομματιών και λιστών αναπαραγωγής"
 
 #. show toast message that device has been connected (#15402):
 #: helpers/mediaSync.js:826 helpers/mediaSync.js:2874
 msgid "Connected"
-msgstr ""
+msgstr "Συνδέθηκε"
 
 #: helpers/mediaSync.js:828 dblistutils.pas:1476
 msgid "Disconnected"
-msgstr ""
+msgstr "Αποσυνδέθηκε"
 
 #. return track.id.toString(); // we used MMW's track id in MMA, but now seems better to unify this with cloud storages and use targetPath as the identificator
 #: helpers/mediaSync.js:970
@@ -5502,6 +5523,8 @@ msgid ""
 "Once installed, you may initiate Wi-Fi sync from the device (USB sync is not "
 "reliable on some devices)."
 msgstr ""
+"Μόλις γίνει εγκατάσταση, ενδέχεται να ξεκινήσετε το συγχρονισμό Wi-Fi από τη "
+"συσκευή (ο συγχρονισμός USB δεν είναι αξιόπιστος σε ορισμένες συσκευές)."
 
 #: helpers/mediaSync.js:986
 msgid ""
@@ -5510,7 +5533,7 @@ msgid ""
 "to connect will trigger a prompt)."
 msgstr ""
 "Επιτρέπει σε απομακρυσμένους clients του MediaMonkey να συγχρονιστούν μέσω "
-"Wi-Fi, εφόσον τούς έχουν δωθεί δικαιώματα προσβάσης στο περιεχόμενο της "
+"Wi-Fi, εφόσον τούς έχουν δοθεί δικαιώματα προσβάσης στο περιεχόμενο της "
 "βιβλιοθήκης (από προεπιλογή, οι αρχικές προσπάθειες συσκευής να συνδεθεί, θα "
 "επιφέρουν μία υπενθύμιση)."
 
@@ -5520,7 +5543,8 @@ msgid ""
 "It may take awhile for some devices, though."
 msgstr ""
 "Μόλις θα σαρωθεί, το MediaMonkey μπορεί να απεικονίσει με ακρίβεια το "
-"περιεχόμενο της συσκευής. Παρόλα αυτά μπορεί να πάρει λίγο χρόνο."
+"περιεχόμενο της συσκευής. Παρόλα αυτά για ορισμένες συσκευές μπορεί να πάρει "
+"λίγο χρόνο."
 
 #: helpers/mediaSync.js:989
 msgid "Scan as soon as the device is connected"
@@ -5528,8 +5552,7 @@ msgstr "Σάρωση αμέσως μόλις συνδεθεί η συσκευή"
 
 #: helpers/mediaSync.js:990
 msgid "This initiates an auto-sync whenever the device is plugged into the PC"
-msgstr ""
-"Αυτό εκκινεί τον αυτο-συγχρονισμό οποτεδήποτε η συσκευή συνδέεται στον Η/Υ"
+msgstr "Αυτό εκκινεί τον αυτόματο συγχρονισμό όταν η συσκευή συνδέεται στον Η/Υ"
 
 #: helpers/mediaSync.js:990
 msgid "Auto-Sync as soon as the device is connected"
@@ -5539,8 +5562,8 @@ msgstr "Αυτόματος Συγχρονισμός μόλις συνδεθεί 
 msgid ""
 "Causes the device to automatically disconnect after auto-sync has completed."
 msgstr ""
-"Προκαλεί την συσκευή να αποσυνδέεται αυτόματα μετά την ολοκλήρωση του αυτο-"
-"συγχρονισμού."
+"Προκαλεί την συσκευή να αποσυνδέεται αυτόματα μετά την ολοκλήρωση του "
+"αυτόματου συγχρονισμού."
 
 #: helpers/mediaSync.js:991
 msgid "Automatically unmount device after Auto-Sync"
@@ -5548,74 +5571,80 @@ msgstr "Αυτόματη αποσύνδεση συσκευής μετά τον �
 
 #: helpers/mediaSync.js:999
 msgid "Allow %s to remotely sync with the"
-msgstr ""
+msgstr "Επιτρέπεται ο συγχρονισμός από απόσταση %s με"
 
 #: helpers/mediaSync.js:1030
 msgid ""
 "To sync with Android devices, %s should be installed for improved sync "
 "performance."
 msgstr ""
+"Για συγχρονισμό με συσκευές Android, πρέπει να γίνει εγκατάσταση %s για "
+"βελτιωμένη απόδοση συγχρονισμού."
 
 #: helpers/mediaSync.js:1982
 msgid "There was a problem syncing \"%s\". It is turned off or inaccessible."
 msgstr ""
+"Παρουσιάστηκε πρόβλημα κατά τον συγχρονισμό \"%s\". Είναι εκτός ή σε μη "
+"πρόσβαση."
 
 #. the track is accessible under the same path on the server -- it is the same track, use it (don't re-upload as it would result in copying file to itself!)
 #: helpers/mediaSync.js:2241 helpers/mediaSync.js:3656
 msgid "Updating"
-msgstr ""
+msgstr "Ενημέρωση"
 
 #. continuously (polling method, TODO: do this via notifications from MMS?)
 #: helpers/mediaSync.js:2444 helpers/mediaSync.js:2563
 msgid "Set content to store on '%s'"
-msgstr ""
+msgstr "Ορισμός περιεχομένου για αποθήκευση σε '%s'"
 
 #: helpers/mediaSync.js:2444
 msgid ""
 "This content will be copied (by default) to '%s' so that it can be shared "
 "with other clients"
 msgstr ""
+"Αυτό το περιεχόμενο θα αντιγραφεί (από προεπιλογή) σε '%s' έτσι ώστε να "
+"μπορεί να μοιρασθεί σε άλλους clients"
 
 #: helpers/mediaSync.js:2486
 msgid "Server is down!"
-msgstr ""
+msgstr "Ο server είναι εκτός!"
 
 #: helpers/mediaSync.js:2489
 msgid "Access is denied"
-msgstr ""
+msgstr "Η πρόσβαση απαγορεύεται"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. older MMS versions don't have the userInfo yet
 #: helpers/mediaSync.js:2527
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:6
 msgid "User"
-msgstr ""
+msgstr "Χρήστης"
 
 #: helpers/mediaSync.js:2784
 msgid "Syncing"
-msgstr ""
+msgstr "Συγχρονισμός"
 
 #: helpers/mediaSync.js:2790
 msgid "Last synced"
-msgstr ""
+msgstr "Τελευταίος συγχρονισμός"
 
 #: helpers/mediaSync.js:2794
 msgid "Never"
-msgstr ""
+msgstr "Ποτέ"
 
 #: helpers/mediaSync.js:3258
 msgid "Syncing %s:"
-msgstr ""
+msgstr "Συγχρονισμός %s:"
 
 #: helpers/mediaSync.js:3263
 msgid "Scanning"
-msgstr ""
+msgstr "Σάρωση"
 
 #. non-track paths (jpg, m3u are above this index)
 #: helpers/mediaSync.js:3320 helpers/mediaSync.js:3322
 #: helpers/mediaSync.js:3449 helpers/mediaSync.js:3451
 msgid "Removing"
-msgstr ""
+msgstr "Αφαίρεση"
 
 #: helpers/mediaSync.js:3327 helpers/mediaSync.js:3336
 msgid "(Preparing list of files)"
