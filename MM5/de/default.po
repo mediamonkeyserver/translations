@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 11:06\n"
-"PO-Revision-Date: 2020-12-06 17:54+0000\n"
+"PO-Revision-Date: 2020-12-10 08:17+0000\n"
 "Last-Translator: Harald Kampen <info@harald-kampen.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -71,9 +71,8 @@ msgid "Playing list"
 msgstr "Abspielliste"
 
 #: actions.js:91 playerUtils.js:366
-#, fuzzy
 msgid "Adjust video"
-msgstr "Video anpassen"
+msgstr "Video einrichten"
 
 #: actions.js:97
 msgid "Rating selected file(s)"
@@ -98,7 +97,7 @@ msgstr "Bitte aktualisieren Sie für diese Funktion auf MediaMonkey Gold!"
 
 #: actions.js:175
 msgid "Enter registration key for MediaMonkey Gold"
-msgstr "Lizenz-Schlüssel für MediaMonkey Gold eingeben"
+msgstr "Lizenz-Schlüssel für MediaMonkey Gold &eingeben"
 
 #: actions.js:191
 msgid "My Rating"
@@ -297,9 +296,8 @@ msgid "Clean ID3v&2 tags"
 msgstr "ID3v&2-Tags entfernen"
 
 #: actions.js:1127
-#, fuzzy
 msgid "&Clean ID3v1 and v2 tags"
-msgstr "ID3v1 und v2-Tags entfernen"
+msgstr "ID3v1- und v2-Tags entfernen"
 
 #: actions.js:1141
 #, fuzzy
@@ -317,7 +315,6 @@ msgid ""
 msgstr "Geben Sie die URL oder den Pfad zur Multimedia-Datei an:"
 
 #: actions.js:1194
-#, fuzzy
 msgid "&Download file"
 msgstr "Datei herunterladen"
 
@@ -676,9 +673,8 @@ msgid "Send logs"
 msgstr "Logs senden"
 
 #: actions.js:2212 actions.js:2222
-#, fuzzy
 msgid "Change freeze timeout"
-msgstr "Ändere Timeout für Einfrieren"
+msgstr "Ändern Sie die Zeit bis zum Einfrieren"
 
 #: actions.js:2259
 msgid "Submit crash logs automatically"
@@ -1677,7 +1673,6 @@ msgstr "Songtext nicht gefunden"
 #: helpers/autoTagFramework.js:277 helpers/autoTagFramework.js:279
 #: Scripts/musicBrainz/helpers/genreDataSource.js:24
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:65
-#, fuzzy
 msgid "Searching"
 msgstr "Sucht"
 
@@ -2575,9 +2570,8 @@ msgstr "In Zukunft nicht mehr nachfragen"
 #: dialogs/dlgTrackProperties/tabArtwork.js:165 helpers/artistDataSource.js:23
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:187
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:269
-#, fuzzy
 msgid "Getting"
-msgstr "Hole"
+msgstr "Liest"
 
 #: controls/albumViewHeader.js:522 controls/albumViewHeader.js:548
 #: controls/albumViewHeader.js:573
@@ -2618,9 +2612,8 @@ msgid "Artwork only"
 msgstr "Nur Bilder"
 
 #: controls/artWindow.js:117 dialogs/dlgTrackProperties.js:13
-#, fuzzy
 msgid "Basic"
-msgstr "Grundlegend"
+msgstr "Einfach"
 
 #: controls/artWindow.js:435 controls/nowplayingList.js:70
 #: controls/statusbar.js:137 controls/statusbar.js:157
@@ -2659,9 +2652,8 @@ msgid "Properties"
 msgstr "Eigenschaften"
 
 #: controls/artWindow.js:1279
-#, fuzzy
 msgid "Allow edits"
-msgstr "Bearbeitungen erlauben"
+msgstr "Bearbeitungen zulassen"
 
 #. search link is present only if searching artwork in album a not on web (when searchMissingArtwork is false)
 #: controls/artWindow.js:1678
@@ -2887,6 +2879,8 @@ msgstr ""
 #: controls/deviceContentRandomizer.js:8
 msgid "Sync random subset of selected files up to target capacity"
 msgstr ""
+"Abhängig von vom verfügbaren Speicherplatz zufällige Auswahl von markierten "
+"Dateien syncen"
 
 #: controls/deviceContentRandomizer.js:11
 msgid "This gives preference to tracks with higher ratings."
@@ -2992,7 +2986,7 @@ msgstr "Equalizer"
 
 #: controls/feedlistview.js:61
 msgid "feed"
-msgstr ""
+msgstr "Feed"
 
 #: controls/filetypetree.js:49 dialogs/dlgSupportedFormats.js:31
 #: dialogs\dlgAutoConvertRule.html:32
@@ -3030,12 +3024,12 @@ msgstr "Hinzufügen"
 
 #: controls/listview.js:1398
 msgid "Collapse"
-msgstr ""
+msgstr "Zusammenklappen"
 
 #. supress toast messages when we are placed into a view, search bar is taking it
 #: controls/listview.js:2741
 msgid "Scroll to"
-msgstr ""
+msgstr "Scrollen nach"
 
 #: controls/listview.js:2741
 msgid "Use %s for the next match"
@@ -3076,6 +3070,8 @@ msgstr "Unterverzeichnisse"
 #: controls/maskedit.js:468
 msgid "Subdirectories can be defined statically or using mask variables"
 msgstr ""
+"Das Unterverzeichnis kann statisch festgelegt werden oder aus Platzhaltern "
+"als Maske"
 
 #: controls/maskedit.js:471 dialogs\dlgOptions\pnl_Library.html:103
 msgid "Filenames"
@@ -3083,7 +3079,7 @@ msgstr "Dateinamen"
 
 #: controls/maskedit.js:471
 msgid "Filenames can be defined using mask variables or statically"
-msgstr ""
+msgstr "Dateinamen können statisch festgelegt werden oder Platzhalter verwenden"
 
 #: controls/maskedit.js:474
 msgid "Sample:"
@@ -3095,8 +3091,9 @@ msgstr "Alle Unterknoten anzeigen"
 
 #. to hide the expand marks for corresponding nodes
 #: controls/mediaTree.js:223
+#, fuzzy
 msgid "Focus tree nodes when browsing content"
-msgstr ""
+msgstr "Beim browsen Knoten anzeigen"
 
 #: controls/mediaTree.js:231
 msgid "Collapse the tree"
@@ -3115,7 +3112,7 @@ msgstr "Beim Start"
 #: controls/monitoredFoldersView.js:20 dialogs/dlgChooseFolders.js:15
 #: helpers/mediaSync.js:2437
 msgid "Continuously"
-msgstr ""
+msgstr "Ständig"
 
 #: controls/monitoredFoldersView.js:24 MediaMonkeyApp.pas:7994
 msgid "Auto detection"
@@ -3136,7 +3133,7 @@ msgstr "Medientyp"
 
 #: controls/multiview.js:192
 msgid "Views"
-msgstr ""
+msgstr "Ansichten"
 
 #: controls/multiview.js:228 controls/sortBy.js:65
 #: controls\searchEditor.html:41
@@ -3289,7 +3286,7 @@ msgstr ""
 
 #: controls/playlistHeader.js:276
 msgid "Hide editor"
-msgstr ""
+msgstr "Editor verbergen"
 
 #: controls/podcastHeader.js:194 controls/trackListView.js:1473
 #: MaskHelper.pas:3101 MaskHelper.pas:3636 MaskHelper.pas:3813
@@ -3299,11 +3296,13 @@ msgstr "Autor"
 
 #: controls/podcastHeader.js:195
 msgid "Episodes"
-msgstr ""
+msgstr "Episoden"
 
 #: controls/podcastHeader.js:198
 msgid "This podcast is unsubscribed. Edit the podcast URL to re-activate it."
 msgstr ""
+"Der Podcast wurde abbestellt. Bearbeiten Sie die Podcast-URL, um ihn wieder "
+"zu aktivieren."
 
 #: controls/podcastSubscribeTutorial.js:23
 msgid ""
@@ -3321,11 +3320,11 @@ msgstr ""
 
 #: controls/rating.js:210
 msgid "Remove rating"
-msgstr ""
+msgstr "Wertung entfernen"
 
 #: controls/searchBar.js:450 dialogs\dlgOptions\pnl_Search.html:8
 msgid "Filters matches"
-msgstr ""
+msgstr "Filter-Treffer"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. per #16067
@@ -3333,16 +3332,16 @@ msgstr ""
 #: controls/searchBar.js:464 controls/searchBar.js:492
 #: dialogs\dlgOptions\pnl_Search.html:4
 msgid "Search current view"
-msgstr ""
+msgstr "In der aktuellen Ansicht suchen"
 
 #: controls/searchBar.js:467 dialogs\dlgOptions\pnl_Search.html:9
 msgid "Scrolls to match"
-msgstr ""
+msgstr "Scrollt zum Treffer"
 
 #. LS: seems to be valid aso for active list searching (e.g. in Music > All Tracks)
 #: controls/searchBar.js:651
 msgid "Search Tips"
-msgstr ""
+msgstr "Suchtipps"
 
 #: controls/searchBar.js:653
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
@@ -4936,12 +4935,12 @@ msgstr ""
 #: dialogs/dlgSyncConfirm.js:26
 msgid "New file(s) and playlist(s) to copy from the device to the PC (%d)"
 msgstr ""
-"Neue Datei(en) und Wiedergabelist(en), um sie vom Gerät zum PC (%d) zu "
-"kopieren"
+"Neue Datei(en) und Wiedergabelist(en), um sie vom Gerät zum PC zu kopieren "
+"(%d)"
 
 #: dialogs/dlgSyncConfirm.js:39
 msgid "File(s) and playlist(s) to delete from the device (%d)"
-msgstr "Datei(en) und Wiedergabeliste(n), die von %d gelöscht werden sollen"
+msgstr "Datei(en) und Wiedergabeliste(n), die gelöscht werden sollen (%d)"
 
 #: dialogs/dlgSyncConfirm.js:75
 msgid "Auto-sync"
@@ -10978,9 +10977,9 @@ msgid "Include beta builds"
 msgstr ""
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:14
-#, fuzzy
 msgid "Type the key combination to activate the selected action"
-msgstr "Definiere die zu drückenden Tasten um die Aktion auszuführen"
+msgstr ""
+"Drücken Sie die Tastenkombination, um die ausgewählte Aktion zu aktivieren"
 
 #: dialogs\dlgOptions\pnl_Library.html:113
 msgid ""
