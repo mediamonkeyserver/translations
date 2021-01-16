@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 17:59\n"
-"PO-Revision-Date: 2020-12-04 10:09+0000\n"
+"PO-Revision-Date: 2021-01-16 13:49+0000\n"
 "Last-Translator: Hans Schippers <hans@hanas.nl>\n"
 "Language-Team: Dutch <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/nl/>\n"
@@ -643,18 +643,16 @@ msgid "&Help"
 msgstr "&Help"
 
 #: actions.js:2178
-#, fuzzy
-#| msgid "Content"
 msgid "Help Content"
-msgstr "Inhoud"
+msgstr "Help Inhoud"
 
 #: actions.js:2190
 msgid "On-line Forum"
-msgstr ""
+msgstr "Online Forum"
 
 #: actions.js:2202
 msgid "Technical Support"
-msgstr ""
+msgstr "Technische Ondersteuning"
 
 #: actions.js:2214
 msgid "Check for updates"
@@ -1278,10 +1276,8 @@ msgid "Save new order"
 msgstr "Nieuwe bestelling opslaan"
 
 #: actions.js:6373
-#, fuzzy
-#| msgid "%s was successfully installed."
 msgid "%s installed successfully."
-msgstr "De installatie van %s is gelukt."
+msgstr "% geïnstalleerd."
 
 #: actions.js:6394
 msgid "Please restart MediaMonkey to finish the installation."
@@ -4065,7 +4061,7 @@ msgstr "Add-on Configuratie"
 #: dialogs/dlgAddonConfig.js:47 Extensions.pas:687 Extensions.pas:702
 #: Extensions.pas:747
 msgid "Invalid Addon!"
-msgstr ""
+msgstr "Ongeldige Add-on!"
 
 #: dialogs/dlgAddonInstall.js:6
 msgid "Product installation"
@@ -4406,10 +4402,8 @@ msgid "Item"
 msgstr "Item"
 
 #: dialogs/dlgExtensions.js:34 ResStrings.pas:388
-#, fuzzy
-#| msgid "Configure"
 msgid "Configurable"
-msgstr "Configureren"
+msgstr "Configureerbaar"
 
 #: dialogs/dlgExtensions.js:39
 msgid "MediaMonkey installation files (*.mmip)|*.*ip"
@@ -5302,7 +5296,7 @@ msgstr "Meerdere bestandstypen geselecteerd"
 #. Youtube track, allow searching it on Youtube
 #: dialogs/dlgTrackProperties/tabBasic.js:158
 msgid "Show more from YouTube"
-msgstr ""
+msgstr "Toon meer op YouTube"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:446
 #: dialogs\dlgTrackProperties\tabBasic.html:67
@@ -5467,44 +5461,51 @@ msgid ""
 "On sync, the database is only updated with links to files & playlists from "
 "'%s' that match files already in the database"
 msgstr ""
+"Bij synchronisatie wordt de database alleen bijgewerkt met koppelingen naar "
+"bestanden en afspeellijsten van '%s' die overeenkomen met bestanden die al "
+"in de database staan"
 
 #: helpers/mediaSync.js:690
 msgid "Download '%s' content that is not accessible locally"
-msgstr ""
+msgstr "Download '%s' inhoud die lokaal niet beschikbaar is"
 
 #: helpers/mediaSync.js:691
 msgid ""
 "Downloads files and playlists from '%s' that are not accessible via the "
 "local drive or network"
 msgstr ""
+"Downloadt bestanden en afspeellijsten van '%s' die via het lokale station of "
+"netwerk niet beschikbaar zijn"
 
 #: helpers/mediaSync.js:692
 msgid "Sync '%s' metadata to the Library"
-msgstr ""
+msgstr "Synchroniseer '%s' metadata naar de Bibliotheek"
 
 #: helpers/mediaSync.js:693
 msgid "Update metadata for matching tracks and playlists"
-msgstr ""
+msgstr "Werkt metadata van overeenkomende tracks en afspeellijsten bij"
 
 #. show toast message that device has been connected (#15402):
 #: helpers/mediaSync.js:826 helpers/mediaSync.js:2874
 msgid "Connected"
-msgstr ""
+msgstr "Verbonden"
 
 #: helpers/mediaSync.js:828 dblistutils.pas:1476
 msgid "Disconnected"
-msgstr ""
+msgstr "Verbinding verbroken"
 
 #. return track.id.toString(); // we used MMW's track id in MMA, but now seems better to unify this with cloud storages and use targetPath as the identificator
 #: helpers/mediaSync.js:970
 msgid "Choose which files to keep synced:"
-msgstr ""
+msgstr "Bestanden die gesynchroniseerd moeten blijven:"
 
 #: helpers/mediaSync.js:980
 msgid ""
 "Once installed, you may initiate Wi-Fi sync from the device (USB sync is not "
 "reliable on some devices)."
 msgstr ""
+"Na installatie kan je Wi-Fi-synchronisatie inschakelen op het apparaat (USB-"
+"synchronisatie is soms onbetrouwbaar)."
 
 #: helpers/mediaSync.js:986
 msgid ""
@@ -5512,12 +5513,17 @@ msgid ""
 "granted rights to library content (by default, initial attempts by a device "
 "to connect will trigger a prompt)."
 msgstr ""
+"Hiermee kunnen externe MediaMonkey-clients synchroniseren via Wi-Fi, mits er "
+"rechten zijn verleend voor bibliotheekinhoud (standaard wordt bij een eerste "
+"verbindingspoging een mededeling getoond)."
 
 #: helpers/mediaSync.js:989
 msgid ""
 "Once scanned, MediaMonkey can accurately display the contents of the device. "
 "It may take awhile for some devices, though."
 msgstr ""
+"Na scannen van het apparaat kan MediaMonkey de inhoud ervan goed weergeven. "
+"Soms kost dit wel veel tijd."
 
 #: helpers/mediaSync.js:989
 msgid "Scan as soon as the device is connected"
@@ -5544,74 +5550,80 @@ msgstr "Na synchronisatie het apparaat automatisch verwijderen"
 
 #: helpers/mediaSync.js:999
 msgid "Allow %s to remotely sync with the"
-msgstr ""
+msgstr "Sta toe dat %s op afstand synchroniseert met de"
 
 #: helpers/mediaSync.js:1030
 msgid ""
 "To sync with Android devices, %s should be installed for improved sync "
 "performance."
 msgstr ""
+"Om goed met Android-apparaten te kunnen synchroniseren, moet %s "
+"geïnstalleerd worden."
 
 #: helpers/mediaSync.js:1982
 msgid "There was a problem syncing \"%s\". It is turned off or inaccessible."
 msgstr ""
+"Er was een probleem bij het synchroniseren met \"%s\". Het staat uit of is "
+"niet toegankelijk."
 
 #. the track is accessible under the same path on the server -- it is the same track, use it (don't re-upload as it would result in copying file to itself!)
 #: helpers/mediaSync.js:2241 helpers/mediaSync.js:3656
 msgid "Updating"
-msgstr ""
+msgstr "Bijwerken"
 
 #. continuously (polling method, TODO: do this via notifications from MMS?)
 #: helpers/mediaSync.js:2444 helpers/mediaSync.js:2563
 msgid "Set content to store on '%s'"
-msgstr ""
+msgstr "Instellen wat op te slaan op %s"
 
 #: helpers/mediaSync.js:2444
 msgid ""
 "This content will be copied (by default) to '%s' so that it can be shared "
 "with other clients"
 msgstr ""
+"Deze inhoud zal (standaard) worden gekopieerd naar '%s' zodat deze kan "
+"worden gedeeld met andere clients"
 
 #: helpers/mediaSync.js:2486
 msgid "Server is down!"
-msgstr ""
+msgstr "Server is uitgevallen!"
 
 #: helpers/mediaSync.js:2489
 msgid "Access is denied"
-msgstr ""
+msgstr "Toegang geweigerd"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. older MMS versions don't have the userInfo yet
 #: helpers/mediaSync.js:2527
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:6
 msgid "User"
-msgstr ""
+msgstr "Gebruiker"
 
 #: helpers/mediaSync.js:2784
 msgid "Syncing"
-msgstr ""
+msgstr "Synchroniseren"
 
 #: helpers/mediaSync.js:2790
 msgid "Last synced"
-msgstr ""
+msgstr "Laatst gesynchroniseerd"
 
 #: helpers/mediaSync.js:2794
 msgid "Never"
-msgstr ""
+msgstr "Nooit"
 
 #: helpers/mediaSync.js:3258
 msgid "Syncing %s:"
-msgstr ""
+msgstr "%s synchroniseren:"
 
 #: helpers/mediaSync.js:3263
 msgid "Scanning"
-msgstr ""
+msgstr "Scannen"
 
 #. non-track paths (jpg, m3u are above this index)
 #: helpers/mediaSync.js:3320 helpers/mediaSync.js:3322
 #: helpers/mediaSync.js:3449 helpers/mediaSync.js:3451
 msgid "Removing"
-msgstr ""
+msgstr "Verwijderen"
 
 #: helpers/mediaSync.js:3327 helpers/mediaSync.js:3336
 msgid "(Preparing list of files)"
@@ -5631,57 +5643,55 @@ msgstr "(Kopiëren van apparaat -> PC, %d van %d: %s)"
 
 #: helpers/mediaSync.js:3658
 msgid "Copying"
-msgstr ""
+msgstr "Kopiëren"
 
 #: helpers/mediaSync.js:3660
 msgid "Matching"
-msgstr ""
+msgstr "Matchen"
 
 #. waiting for file conversion
 #: helpers/mediaSync.js:3727
 msgid "Downloading file: %s"
-msgstr ""
+msgstr "Bestand downloaden: %s"
 
 #: helpers/mediaSync.js:3730
 msgid "Converting file: %s"
-msgstr ""
+msgstr "Bestand converteren: %s"
 
 #: helpers/mediaSync.js:3754
 msgid "Copying playlist %s"
-msgstr ""
+msgstr "Afspeellijst %s wordt gekopieerd"
 
 #: helpers/mediaSync.js:3784
 msgid "Preparing playlists"
-msgstr ""
+msgstr "Afspeellijsten voorbereiden"
 
 #. #17023 / item 1:
 #: helpers/mediaSync.js:3915 helpers/mediaSync.js:4074 CDUtils.pas:771
 msgid "Reading metadata"
-msgstr ""
+msgstr "Metadata lezen"
 
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:3950
-#, fuzzy
-#| msgid "Cannot create connection."
 msgid "Waiting for sync connection"
-msgstr "Kan geen verbinding maken."
+msgstr "Wachten op synchronisatieverbinding"
 
 #. release sync lock and finish
 #: helpers/mediaSync.js:4008
 msgid "Uploading metadata"
-msgstr ""
+msgstr "Metadata uploaden"
 
 #: helpers/mediaSync.js:4073
 msgid "Scanning %s:"
-msgstr ""
+msgstr "%s scannen:"
 
 #: helpers/searchCommon.js:359
 msgid "Pairing"
-msgstr ""
+msgstr "Koppelen"
 
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:6
 msgid "Side by side"
-msgstr ""
+msgstr "Zij aan zij"
 
 #: Scripts/autoIncTrack/actions_add.js:4 Scripts/autoIncTrack/actions_add.js:20
 msgid "Auto-increment Track #s"
@@ -5692,6 +5702,8 @@ msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
 msgstr ""
+"Hiermee wordt het veld track# in oplopende volgorde voor de %d geselecteerde "
+"tracks gewijzigd."
 
 #: Scripts/autoIncTrack/actions_add.js:21
 msgid "Start numbering from:"
@@ -5703,11 +5715,11 @@ msgstr "Hoofdlettercontrole"
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:221
 msgid "Old Value: "
-msgstr ""
+msgstr "Oude waarde: "
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:308
 msgid "Select tracks to be updated"
-msgstr ""
+msgstr "Selecteer tracks om bij te werken"
 
 #: Scripts/export/actions_add.js:31
 msgid "File List (&HTML)"
@@ -5724,7 +5736,7 @@ msgstr "HTML (*.htm)|*.htm|Alle bestanden (*.*)|*.*"
 #: Scripts/exportPlaylists/actions_add.js:57
 #: Scripts/statistics/dialogs/dlgStatistics.js:615
 msgid "Exporting"
-msgstr ""
+msgstr "Exporteren"
 
 #: Scripts/export/actions_add.js:50 Scripts/export/actions_add.js:62
 msgid "MediaMonkey Filelist"
@@ -5733,11 +5745,11 @@ msgstr "MediaMonkey bestandenlijst"
 #. Write some code to finish html document
 #: Scripts/export/actions_add.js:153
 msgid "Total Files"
-msgstr ""
+msgstr "Totaal aantal bestanden"
 
 #: Scripts/export/actions_add.js:155 QueryManage.pas:4744 QueryManage.pas:4745
 msgid "Duration"
-msgstr ""
+msgstr "Duur"
 
 #: Scripts/export/actions_add.js:156
 #: Scripts/statistics/dialogs/dlgStatistics.js:592
@@ -5763,26 +5775,26 @@ msgstr "CSV (*.csv)|*.csv|Alle bestanden (*.*)|*.*"
 
 #: Scripts/exportPlaylists/actions_add.js:2
 msgid "Export all playlists"
-msgstr ""
+msgstr "Alle afspeellijsten exporteren"
 
 #. Open inifile and get last used directory
 #: Scripts/exportPlaylists/actions_add.js:33
 msgid "Select where to export all M3U files"
-msgstr ""
+msgstr "Exportlocatie voor alle M3U-bestanden selecteren"
 
 #: Scripts/exportPodcasts/actions_add.js:2
 msgid "Export subscribed podcasts"
-msgstr ""
+msgstr "Podcast met abonnement exporteren"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1431
 msgid "Continue reading at Wikipedia..."
-msgstr ""
+msgstr "Verder lezen op Wikipedia..."
 
 #. correct cleaning including listeners
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1455
 msgid "Error downloading content. Click to retry."
-msgstr ""
+msgstr "Fout bij downloaden. Klik om opnieuw te proberen."
 
 #. correct cleaning including listeners
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1468
@@ -5790,24 +5802,26 @@ msgid ""
 "No matching content online. Please verify the spelling of existing metadata "
 "or edit the entry in "
 msgstr ""
+"Geen overeenkomsten online. Controleer de spelling van bestaande metadata of "
+"bewerk het veld in "
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
-msgstr ""
+msgstr "Volgende weergave"
 
 #: Scripts/statistics/actions_add.js:2
 msgid "Statistics"
-msgstr ""
+msgstr "Statistieken"
 
 #. Building base page
 #: Scripts/statistics/actions_add.js:9
 #: Scripts/statistics/dialogs/dlgStatistics.js:93
 msgid "MediaMonkey Library Statistics"
-msgstr ""
+msgstr "MediaMonkey Bibliotheekstatistieken"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:171
 msgid "Totals"
-msgstr ""
+msgstr "Totalen"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:323 QueryManage.pas:4732
@@ -5816,92 +5830,72 @@ msgid "Played"
 msgstr "Gespeeld"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:322
-#, fuzzy
-#| msgid "Average bitrate"
 msgid "Averages"
-msgstr "Gemiddelde bitwaarde"
+msgstr "Gemiddelden"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:324
-#, fuzzy
-#| msgid "# Tracks by Artist"
 msgid "Tracks per Artist"
-msgstr "# nummers door artiest"
+msgstr "Tracks per Artiest"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:325
-#, fuzzy
-#| msgid "# Tracks in Album"
 msgid "Tracks per Album"
-msgstr "# nummers op album"
+msgstr "Tracks per Album"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:326
 msgid "Tracks per Genre"
-msgstr ""
+msgstr "Tracks per Genre"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:327
 msgid "Tracks per Year"
-msgstr ""
+msgstr "Tracks per Jaar"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:328
-#, fuzzy
-#| msgid "Bitrate (max)"
 msgid "Bitrate (kbps)"
-msgstr "Bitrate (max)"
+msgstr "Bitsnelheid(kbps)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
-#, fuzzy
-#| msgid "Track %s failed to verify"
 msgid "Tracks played per day"
-msgstr "Kan nummer %s niet verifiëren"
+msgstr "Gespeelde nummers per dag"
 
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:340
-#, fuzzy
-#| msgid "Artists"
 msgid "Top %d Artists"
-msgstr "Artiesten"
+msgstr "Top %d Artiesten"
 
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:373
 msgid "Top %d Artists played"
-msgstr ""
+msgstr "Top %d gespeelde Artiesten"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:404
-#, fuzzy
-#| msgid "per Album"
 msgid "Top %d Albums"
-msgstr "Per album"
+msgstr "Top %d Albums"
 
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:435
 msgid "Top %d Albums played"
-msgstr ""
+msgstr "Top %d gespeelde Albums"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:467
-#, fuzzy
-#| msgid "Genres"
 msgid "Top %d Genres"
-msgstr "Genres"
+msgstr "Top %d Genres"
 
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:494
 msgid "Top %d Genres played"
-msgstr ""
+msgstr "Top %d gespeelde Genres"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:522
-#, fuzzy
-#| msgid "Rating"
 msgid "Ratings"
-msgstr "Score"
+msgstr "Beoordelingen"
 
 #. rating played
 #: Scripts/statistics/dialogs/dlgStatistics.js:566
-#, fuzzy
-#| msgid "Rating now playing file"
 msgid "Ratings played"
-msgstr "Nu spelend bestand waarderen"
+msgstr "Gespeeld met beoordeling"
 
 #. disable auto sizing mechanism, we have fixed size
 #: Scripts/statistics/dialogs/dlgStatistics.js:605
@@ -5911,64 +5905,63 @@ msgstr "Statistieken van MediaMonkey-bibliotheek"
 
 #: Scripts/swapArtistTitle/actions_add.js:4
 msgid "Swap Artist and Title"
-msgstr ""
+msgstr "Artiest en Titel omkeren"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:2
 msgid "Set as sync target"
-msgstr ""
+msgstr "Als synchronisatiedoel instellen"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:7
 msgid ""
 "This will create a new sync profile for this drive/folder so that you can "
 "sync files to this location as if it were a portable device."
 msgstr ""
+"Hiermee wordt een nieuw synchronisatieprofiel voor dit station/deze map "
+"gemaakt, zodat je bestanden naar deze locatie kunt synchroniseren alsof het "
+"een draagbaar apparaat is."
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:215
-#, fuzzy
-#| msgid "Sync"
 msgid "Sync root"
-msgstr "Sync"
+msgstr "Root synchroniseren"
 
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:65
 msgid "series"
-msgstr ""
+msgstr "series"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:115
 msgid "Another series"
-msgstr ""
+msgstr "Een andere serie"
 
 #. helper function for preparing track item
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:250
 msgid "Specials"
-msgstr ""
+msgstr "Specials"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:253
-#, fuzzy
-#| msgid "Use presets"
 msgid "Select preset"
-msgstr "Voorgeprogrammeerde  instellingen gebruiken"
+msgstr "Voorinstelling selecteren"
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:410
 msgid "Search results"
-msgstr ""
+msgstr "Zoekresultaten"
 
 #. url request failed, check for quota exceeded
 #: Scripts/youtube/helpers/youtubeHelper.js:48
 msgid "YouTube query failed: "
-msgstr ""
+msgstr "Info opvragen bij YouTube mislukt: "
 
 #: AndroidDBHandler.pas:1196 AndroidDBHandler.pas:1198
 #: AndroidDBHandler.pas:1246 AndroidDBHandler.pas:1248
 #: MetadataStorageHandler.pas:1532 MetadataStorageHandler.pas:1533
 #: MetadataStorageHandler.pas:1594
 msgid "Problem while updating file %s: %s"
-msgstr ""
+msgstr "Probleem bij het updaten van bestand %s: %s"
 
 #: AndroidDBHandler.pas:1306 AndroidDBHandler.pas:1308 Devices.pas:15136
 msgid "Problem while deleting file %s: %s"
-msgstr ""
+msgstr "Probleem bij het verwijderen van bestand %s: %s"
 
 #: ArtistsManage.pas:1246 AutoOrganize.pas:1588
 msgid "All Genres"
@@ -5992,7 +5985,7 @@ msgstr "Kanaal"
 
 #: BaseMedia.pas:4487 BaseMedia.pas:4559
 msgid "encrypted"
-msgstr ""
+msgstr "Versleuteld"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. show as decimal value : 1
@@ -6004,11 +5997,11 @@ msgstr "fps"
 
 #: BaseMedia.pas:14110
 msgid "%d database entries to be updated"
-msgstr ""
+msgstr "%d database-ingangen bijwerken"
 
 #: BaseMedia.pas:14496 Filters.pas:2733
 msgid "list"
-msgstr ""
+msgstr "lijst"
 
 #: BaseMedia.pas:15047 Filters.pas:2676 ResStrings.pas:385
 msgid "albums"
@@ -6016,16 +6009,16 @@ msgstr "albums"
 
 #: BaseMedia.pas:18262
 msgid "Reorder track(s)"
-msgstr ""
+msgstr "Nummer(s) herschikken"
 
 #. for tracks<=current track does copy instead of move
 #: BaseMedia.pas:18272
 msgid "Reorder/copy track(s)"
-msgstr ""
+msgstr "Nummer(s) kopiëren/herschikken"
 
 #: CDDBUtils.pas:254
 msgid "There was an error while connecting to "
-msgstr ""
+msgstr "Fout bij het verbinden met "
 
 #: CDDBUtils.pas:256
 msgid "There was an error while connecting to Freedb: "
@@ -6033,11 +6026,11 @@ msgstr "Er deed zich een fout voor tijdens het verbinden met Freedb:"
 
 #: CDDBUtils.pas:494 CDDBUtils.pas:951
 msgid "Retrieving result %d of %d"
-msgstr ""
+msgstr "Resultaat %d van %d ophalen"
 
 #: CDDBUtils.pas:727
 msgid "Opening connection"
-msgstr ""
+msgstr "Verbinding maken"
 
 #: CDDBUtils.pas:743
 msgid "Cannot create connection."
@@ -6057,7 +6050,7 @@ msgstr "Selecteer een Audio-CD voor het opvragen van informatie bij Freedb."
 
 #: CDDBUtils.pas:1897
 msgid "Requesting information for %s (%d of %d)"
-msgstr ""
+msgstr "Informatie opvragen voor %s (%d van %d)"
 
 #: CDDBUtils.pas:1945 CDDBUtils.pas:1970
 msgid "This Audio CD was not found in Freedb."
@@ -6079,7 +6072,7 @@ msgstr "(nummer niet in database)"
 
 #: CDUtils.pas:1400
 msgid "(bad rip or the database has partial/inaccurate data)"
-msgstr ""
+msgstr "(slechte rip of de database bevat onvolledige/verkeerde data)"
 
 #: CDUtils.pas:1403
 msgid "(error parsing verification file)"
@@ -6095,7 +6088,7 @@ msgstr ""
 
 #: CDUtils.pas:1410
 msgid "this CD doesn't exist in the database"
-msgstr ""
+msgstr "Deze CD staat niet in de database"
 
 #. Download the BIN meta file from AccureteRip.com database:
 #: CDUtils.pas:1425
@@ -6179,7 +6172,7 @@ msgstr "Uitgeverslogo"
 
 #: Covers.pas:1155
 msgid "Unsaved image"
-msgstr ""
+msgstr "Niet-opgeslagen afbeelding"
 
 #: Covers.pas:1157
 msgid "Stored in tag"
@@ -6194,17 +6187,19 @@ msgid ""
 "All links to the image %s have been removed from the Library. Would you like "
 "to delete it from the drive as well?"
 msgstr ""
+"Alle koppelingen met afbeelding %s zijn verwijderd uit de Bibliotheek. Ook "
+"van schijf verwijderen?"
 
 #. Get exclusive access to the DB
 #. VACUUM fails with "out of memory" exception on large databases (7 GB, 2.2 million of tracks)
 #: DatabaseManage.pas:941 DatabaseManage.pas:1725 DatabaseManage.pas:1727
 #: DatabaseManage.pas:1733
 msgid "Checking database structure"
-msgstr ""
+msgstr "Structuur van database controleren"
 
 #: DatabaseManage.pas:1705
 msgid "The database seems to be corrupted. Attempt to fix it ?"
-msgstr ""
+msgstr "De database lijkt beschadigd. Repareren?"
 
 #: DatabaseManage.pas:2922
 msgid "Do you really want to remove %d tracks from Virtual CD?"
@@ -6215,16 +6210,12 @@ msgid "Do you really want to remove %d previews?"
 msgstr "werkelijk %d luisterproeven verwijderen?"
 
 #: DatabaseManage.pas:3044
-#, fuzzy
-#| msgid "Are you sure you want to remove %d files from the Library?"
 msgid "Are you sure you want to remove %d file(s) from the Library?"
-msgstr "%d bestanden echt uit de bibliotheek verwijderen?"
+msgstr "%d bestand(en) echt uit de Bibliotheek verwijderen?"
 
 #: DatabaseManage.pas:3045
-#, fuzzy
-#| msgid "Are you sure you want to delete %d files?"
 msgid "Are you sure you want to delete %d file(s)?"
-msgstr "%d bestanden echt verwijderen?"
+msgstr "%d bestand(en) echt verwijderen?"
 
 #: DatabaseManage.pas:3067
 msgid "Removing file %s (%d of %d)"
@@ -6232,7 +6223,7 @@ msgstr "Bezig met verwijderen van bestand %s (%d van %d)"
 
 #: dblistutils.pas:1167
 msgid "%d of %d folders processed"
-msgstr ""
+msgstr "%d van %d mappen verwerkt"
 
 #: dblistutils.pas:1456 UpNp.pas:5746 UPnPTreeHelper.pas:1901 WebUtils.pas:1972
 #: WebUtils.pas:1993
@@ -6245,7 +6236,7 @@ msgstr "Onbekende producer"
 
 #: dblistutils.pas:1459 UPnPTreeHelper.pas:1904
 msgid "Unknown Actor"
-msgstr ""
+msgstr "Onbekende Acteur"
 
 #: dblistutils.pas:1460
 msgid "Unknown Director"
@@ -6285,7 +6276,7 @@ msgstr "Verzamelalbums"
 
 #: dblistutils.pas:1472
 msgid "Ungrouped Multiple Artist Albums"
-msgstr ""
+msgstr "Ongegroepeerde Multi-Artiesten Albums"
 
 #: dblistutils.pas:1475
 msgid "Dead Links"
