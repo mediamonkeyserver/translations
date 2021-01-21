@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 09:09\n"
+"POT-Creation-Date: 2021-01-21 20:23\n"
 "PO-Revision-Date: 2021-01-21 19:27+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
@@ -2160,8 +2160,10 @@ msgid "Are you sure you want to remove %d selected items?"
 msgstr "%s 선택한 항목을 제거하시겠습니까?"
 
 #. to get fresh tracklist on F5 (view.refresh)
-#: viewHandlers.js:4760 viewHandlers.js:5168 controls/artistTracks.js:288
-#: controls/genreTracks.js:309 controls/yearTracks.js:288
+#: viewHandlers.js:4760 viewHandlers.js:5168 controls/artistTracks.js:54
+#: controls/artistTracks.js:55 controls/artistTracks.js:288
+#: controls/genreTracks.js:32 controls/genreTracks.js:309
+#: controls/yearTracks.js:288
 msgid "All tracks"
 msgstr "모든 트랙"
 
@@ -2567,6 +2569,50 @@ msgstr "앨범 이미지"
 #: dialogs/dlgDeleteConfirm.js:28 CDDBUtils.pas:1319 CDDBUtils.pas:1378
 msgid "track"
 msgstr "트랙"
+
+#. to properly handle scrollbars of Scroller per the LV content.
+#. to properly handle scrollbars of Scroller per the LV content.
+#. to properly handle scrollbars of Scroller per the LV content
+#: controls/artistTracks.js:52 controls/genreTracks.js:30
+#: controls/yearTracks.js:29
+#, fuzzy
+#| msgid "Tracks"
+msgid "Top Tracks"
+msgstr "트랙"
+
+#: controls/artistTracks.js:66 controls/artistTracks.js:67
+#: controls/genreTracks.js:30 controls/yearTracks.js:29
+#, fuzzy
+#| msgid "show all %d tracks"
+msgid "Show all tracks"
+msgstr "모든 %d 트랙 표시"
+
+#: controls/artistTracks.js:68 controls/genreTracks.js:30
+#: controls/yearTracks.js:29
+#, fuzzy
+#| msgid "show all %d tracks"
+msgid "Loading all tracks"
+msgstr "모든 %d 트랙 표시"
+
+#: controls/artistTracks.js:71 controls/genreTracks.js:32
+#: controls/yearTracks.js:31
+msgid "Show Top Tracks only"
+msgstr ""
+
+#: controls/artistTracks.js:73
+msgid "Tracks (unclassified)"
+msgstr ""
+
+#. Youtube track, allow searching it on Youtube
+#: controls/artistTracks.js:76 dialogs/dlgTrackProperties/tabBasic.js:158
+msgid "Show more from YouTube"
+msgstr "YouTube에서 더 보기"
+
+#: controls/artistTracks.js:77
+#, fuzzy
+#| msgid "Show more from YouTube"
+msgid "Loading more from YouTube"
+msgstr "YouTube에서 더 보기"
 
 #: controls/artistTracks.js:136
 msgid "Add to MusicBrainz"
@@ -5244,11 +5290,6 @@ msgstr "여러 파일 선택"
 #: dialogs/dlgTrackProperties/tabBasic.js:58 ResStrings.pas:582
 msgid "Multiple file Types selected"
 msgstr "여러 파일 형식 선택"
-
-#. Youtube track, allow searching it on Youtube
-#: dialogs/dlgTrackProperties/tabBasic.js:158
-msgid "Show more from YouTube"
-msgstr "YouTube에서 더 보기"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:446
 #: dialogs\dlgTrackProperties\tabBasic.html:67
@@ -11359,9 +11400,11 @@ msgid ""
 "none of your data is left behind. The downside is that it isn't optimized "
 "for your particular PC (e.g. no Start menu entry)."
 msgstr ""
-"이렇게 하면 모든 PC에서 사용할 수 있는 휴대용 장치에서 MediaMonkey를 실행할 수 있습니다.%n USB 플래시 드라이브 또는 "
-"휴대용 하드 드라이브를 연결하면 PC에서처럼 MediaMonkey에 액세스할 수 있으며,%n연결을 해제하면 데이터가 하나도 남지 "
-"않습니다. 단점은 특정 PC(예: 시작 메뉴 항목 없음)에 최적화되어 있지 않다는 것입니다."
+"이렇게 하면 모든 PC에서 사용할 수 있는 휴대용 장치에서 MediaMonkey를 실행할 "
+"수 있습니다.%n USB 플래시 드라이브 또는 휴대용 하드 드라이브를 연결하면 PC에"
+"서처럼 MediaMonkey에 액세스할 수 있으며,%n연결을 해제하면 데이터가 하나도 남"
+"지 않습니다. 단점은 특정 PC(예: 시작 메뉴 항목 없음)에 최적화되어 있지 않다"
+"는 것입니다."
 
 msgid "portable"
 msgstr "휴대용"

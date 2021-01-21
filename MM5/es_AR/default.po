@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 09:09\n"
+"POT-Creation-Date: 2021-01-21 20:23\n"
 "PO-Revision-Date: 2020-12-29 16:55+0000\n"
 "Last-Translator: Marcelo Botti <botti.marcelo@gmail.com>\n"
 "Language-Team: Spanish (Argentina) <http://translations.mediamonkey.com/"
@@ -2176,8 +2176,10 @@ msgid "Are you sure you want to remove %d selected items?"
 msgstr "¿Está seguro que desea eliminar %d elementos seleccionados?"
 
 #. to get fresh tracklist on F5 (view.refresh)
-#: viewHandlers.js:4760 viewHandlers.js:5168 controls/artistTracks.js:288
-#: controls/genreTracks.js:309 controls/yearTracks.js:288
+#: viewHandlers.js:4760 viewHandlers.js:5168 controls/artistTracks.js:54
+#: controls/artistTracks.js:55 controls/artistTracks.js:288
+#: controls/genreTracks.js:32 controls/genreTracks.js:309
+#: controls/yearTracks.js:288
 msgid "All tracks"
 msgstr "Todas las pistas"
 
@@ -2587,6 +2589,50 @@ msgstr "portada del álbum"
 #: dialogs/dlgDeleteConfirm.js:28 CDDBUtils.pas:1319 CDDBUtils.pas:1378
 msgid "track"
 msgstr "pista"
+
+#. to properly handle scrollbars of Scroller per the LV content.
+#. to properly handle scrollbars of Scroller per the LV content.
+#. to properly handle scrollbars of Scroller per the LV content
+#: controls/artistTracks.js:52 controls/genreTracks.js:30
+#: controls/yearTracks.js:29
+#, fuzzy
+#| msgid "Tracks"
+msgid "Top Tracks"
+msgstr "Pistas"
+
+#: controls/artistTracks.js:66 controls/artistTracks.js:67
+#: controls/genreTracks.js:30 controls/yearTracks.js:29
+#, fuzzy
+#| msgid "show all %d tracks"
+msgid "Show all tracks"
+msgstr "mostrar todas las %d pistas"
+
+#: controls/artistTracks.js:68 controls/genreTracks.js:30
+#: controls/yearTracks.js:29
+#, fuzzy
+#| msgid "show all %d tracks"
+msgid "Loading all tracks"
+msgstr "mostrar todas las %d pistas"
+
+#: controls/artistTracks.js:71 controls/genreTracks.js:32
+#: controls/yearTracks.js:31
+msgid "Show Top Tracks only"
+msgstr ""
+
+#: controls/artistTracks.js:73
+msgid "Tracks (unclassified)"
+msgstr ""
+
+#. Youtube track, allow searching it on Youtube
+#: controls/artistTracks.js:76 dialogs/dlgTrackProperties/tabBasic.js:158
+msgid "Show more from YouTube"
+msgstr ""
+
+#: controls/artistTracks.js:77
+#, fuzzy
+#| msgid "Find &more from same"
+msgid "Loading more from YouTube"
+msgstr "Encuentra y &más de lo mismo"
 
 #: controls/artistTracks.js:136
 msgid "Add to MusicBrainz"
@@ -5273,11 +5319,6 @@ msgstr "Múltiples archivos seleccionados"
 #: dialogs/dlgTrackProperties/tabBasic.js:58 ResStrings.pas:582
 msgid "Multiple file Types selected"
 msgstr "Hay seleccionados múltiples Tipos de archivo"
-
-#. Youtube track, allow searching it on Youtube
-#: dialogs/dlgTrackProperties/tabBasic.js:158
-msgid "Show more from YouTube"
-msgstr ""
 
 #: dialogs/dlgTrackProperties/tabBasic.js:446
 #: dialogs\dlgTrackProperties\tabBasic.html:67
