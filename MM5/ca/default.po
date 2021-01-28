@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2021-01-27 20:17\n"
-"PO-Revision-Date: 2021-01-27 19:21+0000\n"
+"PO-Revision-Date: 2021-02-01 17:44+0000\n"
 "Last-Translator: Jordi Xicola <jxicola@gmail.com>\n"
 "Language-Team: Catalan <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ca/>\n"
@@ -1384,7 +1384,7 @@ msgstr "Compositor"
 #. online mode only for online source track
 #: actions.js:8017 MaskHelper.pas:3084 MaskHelper.pas:3541 MaskHelper.pas:3797
 msgid "Actor"
-msgstr ""
+msgstr "Actor"
 
 #. online mode only for online source track
 #. editor: editors.gridViewEditors.textEdit,
@@ -2402,7 +2402,7 @@ msgstr "Tempo"
 #: ResStrings.pas:457 ResStrings.pas:515 UPnPTreeHelper.pas:1914
 #: dialogs\dlgTrackProperties\tabClassification.html:16
 msgid "Mood"
-msgstr "Estat d’ànim"
+msgstr "Tessitura"
 
 #: viewHandlers.js:6725 controls/trackListView.js:942 MaskHelper.pas:3067
 #: ResStrings.pas:458 ResStrings.pas:516 UPnPTreeHelper.pas:1915
@@ -3615,12 +3615,12 @@ msgstr "Nom de l'arxiu"
 #: controls/trackListView.js:327 MaskHelper.pas:3093 MaskHelper.pas:3581
 #: MaskHelper.pas:3805 ResStrings.pas:433
 msgid "Played #"
-msgstr "Reproduit #"
+msgstr "Reproduït #"
 
 #: controls/trackListView.js:346 MaskHelper.pas:3095 MaskHelper.pas:3586
 #: MaskHelper.pas:3807 ResStrings.pas:435 Win7ToolsImpl.pas:2199
 msgid "Last Played"
-msgstr "Últim reproduit"
+msgstr "Últim reproduït"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this column will not be resized when 'Automatic column widths' is checked
@@ -4325,8 +4325,8 @@ msgid ""
 "CD Ripping is supported in the free version of MediaMonkey, however, "
 "verification via AccurateRip is only included with the Gold version. "
 msgstr ""
-"L'extracció de CD és compatible amb la versió gratuïta de MediaMonkey, però, "
-"la verificació mitjançant AccurateRip, només s’inclou amb la versió Gold. "
+"La còpia de CD és compatible amb la versió gratuïta de MediaMonkey, però, la "
+"verificació mitjançant AccurateRip, només s’inclou amb la versió Gold. "
 
 #: dialogs/dlgDeleteConfirm.js:9
 msgid "Confirmation"
@@ -5190,70 +5190,74 @@ msgstr "Global"
 #. LS: to filter no longer existing actions (#14646)
 #: dialogs/dlgOptions/pnl_Hotkeys.js:220
 msgid "Delete selected hotkey ?"
-msgstr ""
+msgstr "Voleu suprimir la tecla de drecera seleccionada?"
 
 #: dialogs/dlgOptions/pnl_InputPlugins.js:10
 msgid ""
 "The MediaMonkey Player supports Input plug-ins that are compatible with "
 "Winamp 2. They generally add support for new audio formats."
 msgstr ""
+"El reproductor de MediaMonkey admet connectors d'entrada que són compatibles "
+"amb Winamp 2. Generalment, afegeixen compatibilitat amb nous formats d'àudio."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:14
 msgid "Player panel not found."
-msgstr ""
+msgstr "No s'ha trobat el tauler del reproductor."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:18
 msgid "Player control not found."
-msgstr ""
+msgstr "No s'ha trobat el control del reproductor."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:30
 msgid "Player layout cannot be set."
-msgstr ""
+msgstr "No es pot configurar el disseny del reproductor."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:11
 msgid "Preview control not found."
-msgstr ""
+msgstr "No s'ha trobat el control de vista prèvia."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:23
 msgid "Preview layout cannot be set."
-msgstr ""
+msgstr "No es pot configurar el disseny de vista prèvia."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:26
 msgid "This panel element displays details of the playing or selected file"
 msgstr ""
+"Aquest element del tauler mostra detalls de la reproducció o del fitxer "
+"seleccionat"
 
 #: dialogs/dlgOptions/pnl_Layouts.js:11
 msgid "Add new layout"
-msgstr ""
+msgstr "Afegeix un disseny nou"
 
 #: dialogs/dlgOptions/pnl_Layouts.js:461
 msgid "New layout name"
-msgstr ""
+msgstr "Nom del disseny nou"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:33 UpNp.pas:9447
 #: controls\serverConfig\server.html:4
 msgid "Server name"
-msgstr ""
+msgstr "Nom del servidor"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:60
 msgid "Running"
-msgstr ""
+msgstr "En execució"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:62
 msgid "Stopped"
-msgstr ""
+msgstr "Aturat"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:115
 msgid "Install as service"
-msgstr ""
+msgstr "Instal·la com a servei"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:117
 msgid "Uninstall service"
-msgstr ""
+msgstr "Desinstal·la el servei"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:142
 msgid "Install Service"
-msgstr ""
+msgstr "Instal·leu el servei"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:143
 msgid ""
@@ -5261,25 +5265,29 @@ msgid ""
 "MediaMonkey is not running and you are not logged into your account. Please "
 "input your account (%s) password:"
 msgstr ""
+"La instal·lació de MediaMonkey com a servei us permet navegar pel servidor "
+"multimèdia, fins i tot si MediaMonkey no s’està executant i no esteu "
+"connectat al vostre compte. Introduïu la contrasenya del vostre compte (%s):"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:63
 #: dialogs/dlgOptions/pnl_MediaTree.js:64
 msgid "Visible"
-msgstr ""
+msgstr "Visible"
 
 #. <Add New Collection...> row
 #: dialogs/dlgOptions/pnl_MediaTree.js:132
 msgid "Content to display"
-msgstr ""
+msgstr "Contingut per mostrar"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:165
 msgid "<Add New Collection...>"
-msgstr ""
+msgstr "<Afegeix una col·lecció nova ...>"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:25
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:26
 msgid "To automatically update tags, please upgrade to MediaMonkey Gold!"
 msgstr ""
+"Per actualitzar automàticament les etiquetes, actualitzeu a MediaMonkey Gold!"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:87
 msgid "Lyrics sources"
@@ -5287,94 +5295,96 @@ msgstr "Fonts de lletres"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:96
 msgid "Auto-tag metadata sources"
-msgstr ""
+msgstr "Etiquetatge automàtic de fonts de metadades"
 
 #: dialogs/dlgOptions/pnl_OutputPlugins.js:12
 msgid ""
 "The MediaMonkey Player supports Output plug-ins that are compatible with "
 "Winamp 2. They generally control how MediaMonkey outputs audio."
 msgstr ""
+"El reproductor de MediaMonkey admet connectors de sortida compatibles amb "
+"Winamp 2. Generalment controlen la manera com MediaMonkey emet àudio."
 
 #: dialogs/dlgOptions/pnl_Search.js:5
 msgid "When typing in a view:"
-msgstr ""
+msgstr "Quan escriviu una vista:"
 
 #: dialogs/dlgOptions/pnl_Search.js:33
 msgid "Ignore diacritics"
-msgstr ""
+msgstr "Ignoreu els diacrítics"
 
 #: dialogs/dlgOptions/pnl_Search.js:33
 msgid "Match beginning of words"
-msgstr ""
+msgstr "Coincidir amb el començament de les paraules"
 
 #: dialogs/dlgOptions/pnl_Search.js:33
 msgid "faster"
-msgstr ""
+msgstr "ràpid"
 
 #: dialogs/dlgOptions/pnl_Search.js:34
 msgid "Respect diacritics"
-msgstr ""
+msgstr "Respecteu els diacrítics"
 
 #: dialogs/dlgOptions/pnl_Search.js:34
 msgid "Match within words"
-msgstr ""
+msgstr "Coincideix dins de les paraules"
 
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:2
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:3
 msgid "ASCII (always)"
-msgstr ""
+msgstr "ASCII (sempre)"
 
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:2
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:3
 msgid "ASCII + UTF-16 (when needed)"
-msgstr ""
+msgstr "ASCII + UTF-16 (quan calgui)"
 
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:3
 msgid "ASCII + UTF-8 (when needed)"
-msgstr ""
+msgstr "ASCII + UTF-8 (quan calgui)"
 
 #: dialogs/dlgOptions/pnl_VolumeLeveling.js:6
 msgid "Automatically analyze volume of unanalyzed files"
-msgstr ""
+msgstr "Analitza automàticament el volum de fitxers no analitzats"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:165
 msgid "image"
-msgstr ""
+msgstr "Imatge"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
-msgstr ""
+msgstr "S'han seleccionat diversos fitxers"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:58 ResStrings.pas:582
 msgid "Multiple file Types selected"
-msgstr ""
+msgstr "S'han seleccionat diversos tipus de fitxers"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:446
 #: dialogs\dlgTrackProperties\tabBasic.html:67
 msgid "Artist(s)"
-msgstr ""
+msgstr "Artista(s)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:447
 #: dialogs\dlgTrackProperties\tabBasic.html:82
 msgid "Genre(s)"
-msgstr ""
+msgstr "Gènere(s)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:486
 msgid "Artist(s) (ensemble; soloist)"
-msgstr ""
+msgstr "Artista(s) (conjunt; solista)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:487
 msgid "Genre(s) (genre; period)"
-msgstr ""
+msgstr "Gènere(s) (gènere; època)"
 
 #: dialogs/dlgTrackProperties/tabCustom.js:38
 msgid "Tag name"
-msgstr ""
+msgstr "Nom de l'etiqueta"
 
 #. do not save
 #: dialogs/dlgTrackProperties/tabCustom.js:71
 msgid "Tag value"
-msgstr ""
+msgstr "Valor de l'etiqueta"
 
 #: dialogs/dlgTrackProperties/tabDetails.js:45
 #: Scripts/statistics/dialogs/dlgStatistics.js:180
@@ -5389,17 +5399,17 @@ msgstr ""
 #: Scripts/statistics/dialogs/dlgStatistics.js:571 ResStrings.pas:442
 #: dialogs\dlgTrackProperties\tabDetails.html:198
 msgid "File size"
-msgstr ""
+msgstr "Mida de l'arxiu"
 
 #: dialogs/dlgTrackProperties/tabDetails.js:47
 #: dialogs\dlgTrackProperties\tabDetails.html:203
 msgid "Last played"
-msgstr ""
+msgstr "Últim reproduït"
 
 #: dialogs/dlgTrackProperties/tabDetails.js:73 FormatsHandler.pas:2892
 #: dialogs\dlgTrackProperties\tabDetails.html:214
 msgid "VBR"
-msgstr ""
+msgstr "VBR"
 
 #: dialogs/dlgTrackProperties/tabLyrics.js:14
 #: dialogs/dlgTrackProperties/tabLyrics.js:16
@@ -5411,40 +5421,42 @@ msgid ""
 "Upgrading to MediaMonkey Gold helps support ongoing development of "
 "MediaMonkey, and gives you the following features:"
 msgstr ""
+"L’actualització a MediaMonkey Gold ajuda a donar suport al desenvolupament "
+"continu de MediaMonkey i us proporciona les funcions següents:"
 
 #. and navigate this new profile in the UI:
 #: dialogs/dlgWizard/pnlScan.js:70
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:259
 msgid "Local storage"
-msgstr ""
+msgstr "Emmagatzematge local"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #. we have exact gid, do not allow changing it in case search does not find it
 #: helpers/albumDataSource.js:132
 #: Scripts/musicBrainz/helpers/musicBrainz.js:667
 msgid "Don't display info"
-msgstr ""
+msgstr "No mostreu informació"
 
 #: helpers/artistDataSource.js:23
 msgid "artist info"
-msgstr ""
+msgstr "artista info"
 
 #: helpers/autoDJ.js:19 Filters.pas:3345 MediaMonkeyApp.pas:7973
 #: ResStrings.pas:411
 msgid "Entire Library"
-msgstr ""
+msgstr "Biblioteca sencera"
 
 #: helpers/autoDJ.js:84
 msgid "Collection"
-msgstr ""
+msgstr "Col·lecció"
 
 #: helpers/autoTagFramework.js:269 helpers/autoTagFramework.js:271
 msgid "Processing"
-msgstr ""
+msgstr "Executant"
 
 #: helpers/autoTagFramework.js:273
 msgid "Fingerprinting"
-msgstr ""
+msgstr "Empremta digital"
 
 #: helpers/autoTagFramework.js:277
 msgid "artwork"
@@ -5456,96 +5468,108 @@ msgstr "Lletres"
 
 #: helpers/autoTagFramework.js:281
 msgid "Located"
-msgstr ""
+msgstr "Situat"
 
 #: helpers/autoTagFramework.js:283
 msgid "Fail"
-msgstr ""
+msgstr "Fallat"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to accept <Skip> as used in MM4 (and renamed to <Ignore> in MM5)
 #: helpers/autoTagFramework.js:285 MaskHelper.pas:3765
 #: dialogs\dlgAutotag.html:19
 msgid "Skip"
-msgstr ""
+msgstr "Omèt"
 
 #: helpers/autoTagFramework.js:287 dialogs\dlgWizard.html:16
 msgid "Done"
-msgstr ""
+msgstr "Fet"
 
 #: helpers/mediaSync.js:398
 msgid "There was a problem syncing \"%s\"."
-msgstr ""
+msgstr "S'ha produït un problema en sincronitzar \"%s\"."
 
 #. add new sync storage target (profile):
 #: helpers/mediaSync.js:601 helpers/mediaSync.js:2438
 msgid "Remote content"
-msgstr ""
+msgstr "Contingut remot"
 
 #: helpers/mediaSync.js:603 helpers/mediaSync.js:2440
 msgid "Library content"
-msgstr ""
+msgstr "Contingut de la biblioteca"
 
 #: helpers/mediaSync.js:623
 msgid "Hourly"
-msgstr ""
+msgstr "Cada hora"
 
 #: helpers/mediaSync.js:624
 msgid "2x / day"
-msgstr ""
+msgstr "2x / dia"
 
 #: helpers/mediaSync.js:694 helpers/mediaSync.js:2569
 msgid ""
 "On sync, the database is updated with links to files and playlists from '%s'"
 msgstr ""
+"En sincronitzar-se, la base de dades s'actualitza amb enllaços a fitxers i "
+"llistes de reproducció de '%s'"
 
 #: helpers/mediaSync.js:695
 msgid "Only include content that matches files already in the database"
 msgstr ""
+"Incloeu només contingut que coincideixi amb fitxers que ja estan a la base "
+"de dades"
 
 #: helpers/mediaSync.js:696
 msgid ""
 "On sync, the database is only updated with links to files & playlists from "
 "'%s' that match files already in the database"
 msgstr ""
+"Sincronitzada, la base de dades només s'actualitza amb enllaços a fitxers i "
+"llistes de reproducció de '%s' que coincideixen amb fitxers que ja estan a "
+"la base de dades"
 
 #: helpers/mediaSync.js:697
 msgid "Download '%s' content that is not accessible locally"
-msgstr ""
+msgstr "Baixeu contingut '%s' que no és accessible localment"
 
 #: helpers/mediaSync.js:698
 msgid ""
 "Downloads files and playlists from '%s' that are not accessible via the "
 "local drive or network"
 msgstr ""
+"Descarrega fitxers i llistes de reproducció de '%s' que no són accessibles "
+"del ddisc o la xarxa local"
 
 #: helpers/mediaSync.js:699
 msgid "Sync '%s' metadata to the Library"
-msgstr ""
+msgstr "Sincronitzeu les metadades '%s' amb la biblioteca"
 
 #: helpers/mediaSync.js:700
 msgid "Update metadata for matching tracks and playlists"
 msgstr ""
+"Actualitzeu les metadades per a pistes i llistes de reproducció coincidents"
 
 #. show toast message that device has been connected (#15402):
 #: helpers/mediaSync.js:833 helpers/mediaSync.js:2881
 msgid "Connected"
-msgstr ""
+msgstr "Connectat"
 
 #: helpers/mediaSync.js:835 dblistutils.pas:1476
 msgid "Disconnected"
-msgstr ""
+msgstr "Desconnectat"
 
 #. return track.id.toString(); // we used MMW's track id in MMA, but now seems better to unify this with cloud storages and use targetPath as the identificator
 #: helpers/mediaSync.js:977
 msgid "Choose which files to keep synced:"
-msgstr ""
+msgstr "Trieu quins fitxers voleu sincronitzar:"
 
 #: helpers/mediaSync.js:987
 msgid ""
 "Once installed, you may initiate Wi-Fi sync from the device (USB sync is not "
 "reliable on some devices)."
 msgstr ""
+"Un cop instal·lat, podeu iniciar la sincronització Wi-Fi des del dispositiu ("
+"la sincronització USB no és fiable en alguns dispositius)."
 
 #: helpers/mediaSync.js:993
 msgid ""
@@ -5553,206 +5577,224 @@ msgid ""
 "granted rights to library content (by default, initial attempts by a device "
 "to connect will trigger a prompt)."
 msgstr ""
+"Permet que els clients de MediaMonkey remots es sincronitzin mitjançant Wi-"
+"Fi, si també se'ls ha concedit drets sobre el contingut de la biblioteca ("
+"per defecte, els intents inicials d'un dispositiu de connectar-se activaran "
+"una sol·licitud)."
 
 #: helpers/mediaSync.js:996
 msgid ""
 "Once scanned, MediaMonkey can accurately display the contents of the device. "
 "It may take awhile for some devices, though."
 msgstr ""
+"Un cop escanejat, MediaMonkey pot mostrar amb precisió el contingut del "
+"dispositiu. Però alguns dispositius poden trigar una estona."
 
 #: helpers/mediaSync.js:996
 msgid "Scan as soon as the device is connected"
-msgstr ""
+msgstr "Escaneja tan aviat com el dispositiu estigui connectat"
 
 #: helpers/mediaSync.js:997
 msgid "This initiates an auto-sync whenever the device is plugged into the PC"
 msgstr ""
+"S’inicia la sincronització automàtica sempre que el dispositiu es connecta "
+"al PC"
 
 #: helpers/mediaSync.js:997
 msgid "Auto-Sync as soon as the device is connected"
-msgstr ""
+msgstr "Sincronització automàtica tan bon punt es connecti el dispositiu"
 
 #: helpers/mediaSync.js:998
 msgid ""
 "Causes the device to automatically disconnect after auto-sync has completed."
 msgstr ""
+"Fa que el dispositiu es desconnecti automàticament un cop finalitzada la "
+"sincronització automàtica."
 
 #: helpers/mediaSync.js:998
 msgid "Automatically unmount device after Auto-Sync"
 msgstr ""
+"Desmunta el dispositiu automàticament després de la sincronització automàtica"
 
 #: helpers/mediaSync.js:1006
 msgid "Allow %s to remotely sync with the"
-msgstr ""
+msgstr "Permet que %s se sincronitzi remotament amb el fitxer"
 
 #: helpers/mediaSync.js:1037
 msgid ""
 "To sync with Android devices, %s should be installed for improved sync "
 "performance."
 msgstr ""
+"Per sincronitzar amb dispositius Android, s'hauria d'instal·lar %s per "
+"millorar el rendiment de la sincronització."
 
 #: helpers/mediaSync.js:1989
 msgid "There was a problem syncing \"%s\". It is turned off or inaccessible."
 msgstr ""
+"S'ha produït un problema en sincronitzar \"%s\". Està apagat o inaccessible."
 
 #. the track is accessible under the same path on the server -- it is the same track, use it (don't re-upload as it would result in copying file to itself!)
 #: helpers/mediaSync.js:2248 helpers/mediaSync.js:3663
 msgid "Updating"
-msgstr ""
+msgstr "S'està actualitzant"
 
 #. continuously (polling method, TODO: do this via notifications from MMS?)
 #: helpers/mediaSync.js:2451 helpers/mediaSync.js:2570
 msgid "Set content to store on '%s'"
-msgstr ""
+msgstr "Estableix contingut per emmagatzemar a '%s'"
 
 #: helpers/mediaSync.js:2451
 msgid ""
 "This content will be copied (by default) to '%s' so that it can be shared "
 "with other clients"
 msgstr ""
+"Aquest contingut es copiarà (per defecte) a '%s' perquè es pugui compartir "
+"amb altres clients"
 
 #: helpers/mediaSync.js:2493
 msgid "Server is down!"
-msgstr ""
+msgstr "El servidor està caigut!"
 
 #: helpers/mediaSync.js:2496
 msgid "Access is denied"
-msgstr ""
+msgstr "Accés denegat"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. older MMS versions don't have the userInfo yet
 #: helpers/mediaSync.js:2534
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:6
 msgid "User"
-msgstr ""
+msgstr "Usuari"
 
 #: helpers/mediaSync.js:2791
 msgid "Syncing"
-msgstr ""
+msgstr "Sincronitzant"
 
 #: helpers/mediaSync.js:2797
 msgid "Last synced"
-msgstr ""
+msgstr "Darrer sincronitzat"
 
 #: helpers/mediaSync.js:2801
 msgid "Never"
-msgstr ""
+msgstr "Mai"
 
 #: helpers/mediaSync.js:3265
 msgid "Syncing %s:"
-msgstr ""
+msgstr "Sincronitzant %s:"
 
 #: helpers/mediaSync.js:3270
 msgid "Scanning"
-msgstr ""
+msgstr "Escanejant"
 
 #. non-track paths (jpg, m3u are above this index)
 #: helpers/mediaSync.js:3327 helpers/mediaSync.js:3329
 #: helpers/mediaSync.js:3456 helpers/mediaSync.js:3458
 msgid "Removing"
-msgstr ""
+msgstr "Eliminant"
 
 #: helpers/mediaSync.js:3334 helpers/mediaSync.js:3343
 msgid "(Preparing list of files)"
-msgstr ""
+msgstr "(Preparació de la llista de fitxers)"
 
 #: helpers/mediaSync.js:3349 helpers/mediaSync.js:3393
 msgid "Initializating"
-msgstr ""
+msgstr "Inicialitzant"
 
 #: helpers/mediaSync.js:3492 helpers/mediaSync.js:3808
 msgid "(Removing old content)"
-msgstr ""
+msgstr "(Eliminació de contingut antic)"
 
 #: helpers/mediaSync.js:3559
 msgid "(Copying Device -> PC, %d of %d: %s)"
-msgstr ""
+msgstr "(Copiant dispositiu -> PC, %d de %d: %s)"
 
 #: helpers/mediaSync.js:3665
 msgid "Copying"
-msgstr ""
+msgstr "Copiant"
 
 #: helpers/mediaSync.js:3667
 msgid "Matching"
-msgstr ""
+msgstr "Coincidències"
 
 #. waiting for file conversion
 #: helpers/mediaSync.js:3734
 msgid "Downloading file: %s"
-msgstr ""
+msgstr "S'està descarregant el fitxer: %s"
 
 #: helpers/mediaSync.js:3737
 msgid "Converting file: %s"
-msgstr ""
+msgstr "S'està convertint el fitxer: %s"
 
 #: helpers/mediaSync.js:3761
 msgid "Copying playlist %s"
-msgstr ""
+msgstr "S'està copiant la llista de reproducció %s"
 
 #: helpers/mediaSync.js:3791
 msgid "Preparing playlists"
-msgstr ""
+msgstr "Preparant llistes de reproducció"
 
 #. #17023 / item 1:
 #: helpers/mediaSync.js:3922 helpers/mediaSync.js:4081 CDUtils.pas:771
 msgid "Reading metadata"
-msgstr ""
+msgstr "Lectura de metadades"
 
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:3957
 msgid "Waiting for sync connection"
-msgstr ""
+msgstr "S'està esperant la connexió de sincronització"
 
 #. release sync lock and finish
 #: helpers/mediaSync.js:4015
 msgid "Uploading metadata"
-msgstr ""
+msgstr "Carregant metadades"
 
 #: helpers/mediaSync.js:4080
 msgid "Scanning %s:"
-msgstr ""
+msgstr "Escanejant% s:"
 
 #: helpers/searchCommon.js:359
 msgid "Pairing"
-msgstr ""
+msgstr "Emparellant"
 
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:6
 msgid "Side by side"
-msgstr ""
+msgstr "Un al costat de l’altre"
 
 #: Scripts/autoIncTrack/actions_add.js:4 Scripts/autoIncTrack/actions_add.js:20
 msgid "Auto-increment Track #s"
-msgstr ""
+msgstr "Increment automàtic del número de pista #s"
 
 #: Scripts/autoIncTrack/actions_add.js:21
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
 msgstr ""
+"Això modificarà el camp de pista# en ordre seqüencial per a les %d pistes "
+"seleccionades."
 
 #: Scripts/autoIncTrack/actions_add.js:21
 msgid "Start numbering from:"
-msgstr ""
+msgstr "Comenceu a numerar des de:"
 
 #: Scripts/caseChecker/actions_add.js:2 Scripts/caseChecker/actions_add.js:12
 msgid "Case Checker"
-msgstr ""
+msgstr "Comprovador de Majúscules i Minúscules"
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:221
 msgid "Old Value: "
-msgstr ""
+msgstr "Valor antic: "
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:308
 msgid "Select tracks to be updated"
-msgstr ""
+msgstr "Seleccioneu les pistes que voleu actualitzar"
 
 #: Scripts/export/actions_add.js:31
 msgid "File List (&HTML)"
-msgstr ""
+msgstr "Llista de fitxers (&HTML)"
 
 #: Scripts/export/actions_add.js:41
 msgid "HTML (*.htm)|*.htm|All files (*.*)|*.*"
-msgstr ""
+msgstr "HTML (*.htm)|*.htm|Tots els fitxers (*.*)|*.*"
 
 #. Use progress to notify user about the current action
 #: Scripts/export/actions_add.js:41 Scripts/export/actions_add.js:45
@@ -5761,65 +5803,65 @@ msgstr ""
 #: Scripts/exportPlaylists/actions_add.js:57
 #: Scripts/statistics/dialogs/dlgStatistics.js:615
 msgid "Exporting"
-msgstr ""
+msgstr "Exportant"
 
 #: Scripts/export/actions_add.js:50 Scripts/export/actions_add.js:62
 msgid "MediaMonkey Filelist"
-msgstr ""
+msgstr "Llista de fitxers MediaMonkey"
 
 #. Write some code to finish html document
 #: Scripts/export/actions_add.js:153
 msgid "Total Files"
-msgstr ""
+msgstr "Total de fitxers"
 
 #: Scripts/export/actions_add.js:155 QueryManage.pas:4778 QueryManage.pas:4779
 msgid "Duration"
-msgstr ""
+msgstr "Durada"
 
 #: Scripts/export/actions_add.js:156
 #: Scripts/statistics/dialogs/dlgStatistics.js:592
 msgid "Generated by "
-msgstr ""
+msgstr "Generat per "
 
 #. export canceled, delete file
 #: Scripts/export/actions_add.js:173
 msgid "File List (&XML)"
-msgstr ""
+msgstr "Llista de fitxers (&XML)"
 
 #: Scripts/export/actions_add.js:183
 msgid "XML (*.xml)|*.xml|All files (*.*)|*.*"
-msgstr ""
+msgstr "XML (*.xml)|*.xml|Tots els fitxers (*.*)|*.*"
 
 #: Scripts/export/actions_add.js:331
 msgid "File List (CS&V)"
-msgstr ""
+msgstr "Llista de fitxers (CS&V)"
 
 #: Scripts/export/actions_add.js:341
 msgid "CSV (*.csv)|*.csv|All files (*.*)|*.*"
-msgstr ""
+msgstr "CSV (*.csv)|*.csv|Tots els fitxers (*.*)|*.*"
 
 #: Scripts/exportPlaylists/actions_add.js:2
 msgid "Export all playlists"
-msgstr ""
+msgstr "Exporta totes les llistes de reproducció"
 
 #. Open inifile and get last used directory
 #: Scripts/exportPlaylists/actions_add.js:33
 msgid "Select where to export all M3U files"
-msgstr ""
+msgstr "Seleccioneu on voleu exportar tots els fitxers M3U"
 
 #: Scripts/exportPodcasts/actions_add.js:2
 msgid "Export subscribed podcasts"
-msgstr ""
+msgstr "Exporta podcasts subscrits"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1431
 msgid "Continue reading at Wikipedia..."
-msgstr ""
+msgstr "Continueu llegint a la Wikipedia ..."
 
 #. correct cleaning including listeners
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1455
 msgid "Error downloading content. Click to retry."
-msgstr ""
+msgstr "Error en baixar contingut. Feu clic per tornar-ho a provar."
 
 #. correct cleaning including listeners
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1468
@@ -5827,189 +5869,194 @@ msgid ""
 "No matching content online. Please verify the spelling of existing metadata "
 "or edit the entry in "
 msgstr ""
+"No hi ha contingut coincident en línia. Verifiqueu l'ortografia de les "
+"metadades existents o editeu l'entrada a "
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
-msgstr ""
+msgstr "Vista següent"
 
 #: Scripts/statistics/actions_add.js:2
 msgid "Statistics"
-msgstr ""
+msgstr "Estadístiques"
 
 #. Building base page
 #: Scripts/statistics/actions_add.js:9
 #: Scripts/statistics/dialogs/dlgStatistics.js:93
 msgid "MediaMonkey Library Statistics"
-msgstr ""
+msgstr "Estadístiques de la biblioteca MediaMonkey"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:171
 msgid "Totals"
-msgstr ""
+msgstr "Totals"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:323 QueryManage.pas:4766
 #: QueryManage.pas:4767 QueryManage.pas:4768 QueryManage.pas:4769
 msgid "Played"
-msgstr ""
+msgstr "Reproduït"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:322
 msgid "Averages"
-msgstr ""
+msgstr "Mitjanes"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:324
 msgid "Tracks per Artist"
-msgstr ""
+msgstr "Pistes per Artista"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:325
 msgid "Tracks per Album"
-msgstr ""
+msgstr "Pistes per a Àlbum"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:326
 msgid "Tracks per Genre"
-msgstr ""
+msgstr "Pistes per a Gènere"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:327
 msgid "Tracks per Year"
-msgstr ""
+msgstr "Pistes per Any"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:328
 msgid "Bitrate (kbps)"
-msgstr ""
+msgstr "Taxa de bits (kbps)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
 msgid "Tracks played per day"
-msgstr ""
+msgstr "Pistes reproduïdes al dia"
 
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:340
 msgid "Top %d Artists"
-msgstr ""
+msgstr "%d Artistes Principals"
 
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:373
 msgid "Top %d Artists played"
-msgstr ""
+msgstr "%d Artistes Principals reproduïts"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:404
 msgid "Top %d Albums"
-msgstr ""
+msgstr "%d Àlbuns Principals"
 
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:435
 msgid "Top %d Albums played"
-msgstr ""
+msgstr "%d Àlbums Principals reproduïts"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:467
 msgid "Top %d Genres"
-msgstr ""
+msgstr "%d Gèneres Principals"
 
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:494
 msgid "Top %d Genres played"
-msgstr ""
+msgstr "%d Gèneres Principals reproduïts"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:522
 msgid "Ratings"
-msgstr ""
+msgstr "Valoració"
 
 #. rating played
 #: Scripts/statistics/dialogs/dlgStatistics.js:566
 msgid "Ratings played"
-msgstr ""
+msgstr "Puntuacions reproduïdes"
 
 #. disable auto sizing mechanism, we have fixed size
 #: Scripts/statistics/dialogs/dlgStatistics.js:605
 #: Scripts/statistics/dialogs/dlgStatistics.js:620
 msgid "MediaMonkey Music Library Statistics"
-msgstr ""
+msgstr "Estadístiques de la biblioteca musical de MediaMonkey"
 
 #: Scripts/swapArtistTitle/actions_add.js:4
 msgid "Swap Artist and Title"
-msgstr ""
+msgstr "Intercanviar artista i títol"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:2
 msgid "Set as sync target"
-msgstr ""
+msgstr "Estableix com a objectiu de sincronització"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:7
 msgid ""
 "This will create a new sync profile for this drive/folder so that you can "
 "sync files to this location as if it were a portable device."
 msgstr ""
+"Això crearà un perfil de sincronització nou per a aquest disc / carpeta de "
+"manera que pugueu sincronitzar fitxers en aquesta ubicació com si fos un "
+"dispositiu portàtil."
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:215
 msgid "Sync root"
-msgstr ""
+msgstr "Sincronitza l'arrel"
 
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:65
 msgid "series"
-msgstr ""
+msgstr "series"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:115
 msgid "Another series"
-msgstr ""
+msgstr "Una altra sèrie"
 
 #. helper function for preparing track item
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:250
 msgid "Specials"
-msgstr ""
+msgstr "Especials"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:253
 msgid "Select preset"
-msgstr ""
+msgstr "Seleccioneu la predeterminada"
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:410
 msgid "Search results"
-msgstr ""
+msgstr "Resultats de la cerca"
 
 #. url request failed, check for quota exceeded
 #: Scripts/youtube/helpers/youtubeHelper.js:48
 msgid "YouTube query failed: "
-msgstr ""
+msgstr "La consulta de YouTube ha fallat: "
 
 #: AndroidDBHandler.pas:1196 AndroidDBHandler.pas:1198
 #: AndroidDBHandler.pas:1246 AndroidDBHandler.pas:1248
 #: MetadataStorageHandler.pas:1532 MetadataStorageHandler.pas:1533
 #: MetadataStorageHandler.pas:1594
 msgid "Problem while updating file %s: %s"
-msgstr ""
+msgstr "Problema en actualitzar el fitxe r%s: %s"
 
 #: AndroidDBHandler.pas:1306 AndroidDBHandler.pas:1308 Devices.pas:15132
 msgid "Problem while deleting file %s: %s"
-msgstr ""
+msgstr "Problema en suprimir el fitxer %s: %s"
 
 #: ArtistsManage.pas:1246 AutoOrganize.pas:1588
 msgid "All Genres"
-msgstr ""
+msgstr "Tots el Gèneres"
 
 #: AutoOrganize.pas:1562
 msgid "All Collections"
-msgstr ""
+msgstr "Totes les col·leccions"
 
 #: AutoOrganize.pas:1607
 msgid "All Playlists"
-msgstr ""
+msgstr "Totes les llistes de reproducció"
 
 #: BackgroundStuff.pas:281
 msgid "%d files to be tagged"
-msgstr ""
+msgstr "S'han d'etiquetar %d fitxers"
 
 #: BaseApp.pas:6646
 msgid "There are background processes running. Terminate them?"
-msgstr ""
+msgstr "Hi ha processos en segon pla en execució. Vols acabar-los?"
 
 #: BaseMedia.pas:4474
 msgid "Channel"
-msgstr ""
+msgstr "Canal"
 
 #: BaseMedia.pas:4490 BaseMedia.pas:4562
 msgid "encrypted"
-msgstr ""
+msgstr "encriptat"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. show as decimal value : 1
@@ -6017,268 +6064,274 @@ msgstr ""
 #: BaseMedia.pas:4556 FormatsHandler.pas:2862 FormatsManage.pas:4519
 #: FormatsManage.pas:4524 dialogs\dlgSupportedFormat.html:102
 msgid "fps"
-msgstr ""
+msgstr "fps"
 
 #: BaseMedia.pas:14118
 msgid "%d database entries to be updated"
-msgstr ""
+msgstr "S'han d'actualitzar %d entrades de base de dades"
 
 #: BaseMedia.pas:14504 Filters.pas:2733
 msgid "list"
-msgstr ""
+msgstr "llista"
 
 #: BaseMedia.pas:15055 Filters.pas:2676 ResStrings.pas:385
 msgid "albums"
-msgstr ""
+msgstr "Albums"
 
 #: BaseMedia.pas:18270
 msgid "Reorder track(s)"
-msgstr ""
+msgstr "Reordenar les pistes"
 
 #. for tracks<=current track does copy instead of move
 #: BaseMedia.pas:18280
 msgid "Reorder/copy track(s)"
-msgstr ""
+msgstr "Reordenar/copiar pistes"
 
 #: CDDBUtils.pas:254
 msgid "There was an error while connecting to "
-msgstr ""
+msgstr "S'ha produït un error en connectar-se a "
 
 #: CDDBUtils.pas:256
 msgid "There was an error while connecting to Freedb: "
-msgstr ""
+msgstr "S'ha produït un error en connectar-se a Freedb: "
 
 #: CDDBUtils.pas:494 CDDBUtils.pas:951
 msgid "Retrieving result %d of %d"
-msgstr ""
+msgstr "S'està recuperant el resultat %d de %d"
 
 #: CDDBUtils.pas:727
 msgid "Opening connection"
-msgstr ""
+msgstr "Obrin connexió"
 
 #: CDDBUtils.pas:743
 msgid "Cannot create connection."
-msgstr ""
+msgstr "No es pot crear una connexió."
 
 #: CDDBUtils.pas:1292
 msgid "Updating media %s (%d of %d)"
-msgstr ""
+msgstr "S'està actualitzant el mitjà %s (%d of %d)"
 
 #: CDDBUtils.pas:1798
 msgid "The media for the Freedb query is unavailable."
-msgstr ""
+msgstr "Els suports per a la consulta Freedb no estan disponibles."
 
 #: CDDBUtils.pas:1880
 msgid "Please select an Audio CD before requesting information from Freedb."
-msgstr ""
+msgstr "Seleccioneu un CD d'àudio abans de sol·licitar informació a Freedb."
 
 #: CDDBUtils.pas:1897
 msgid "Requesting information for %s (%d of %d)"
-msgstr ""
+msgstr "Sol·licitud d'informació per a %s (%d of %d)"
 
 #: CDDBUtils.pas:1945 CDDBUtils.pas:1970
 msgid "This Audio CD was not found in Freedb."
-msgstr ""
+msgstr "Aquest CD d'àudio no s'ha trobat a Freedb."
 
 #: CDUtils.pas:771 ResStrings.pas:364
 msgid "Audio CD"
-msgstr ""
+msgstr "CD d'àudio"
 
 #. not found
 #: CDUtils.pas:1397 CDUtils.pas:1400 CDUtils.pas:1403 CDUtils.pas:1410
 #: CDUtils.pas:1412
 msgid "Track %s failed to verify"
-msgstr ""
+msgstr "No s'ha pogut verificar la pista %s"
 
 #: CDUtils.pas:1397
 msgid "(track isn't present in database)"
-msgstr ""
+msgstr "(la pista no està present a la base de dades)"
 
 #: CDUtils.pas:1400
 msgid "(bad rip or the database has partial/inaccurate data)"
-msgstr ""
+msgstr "(mal copiat o la base de dades té dades parcials / inexactes)"
 
 #: CDUtils.pas:1403
 msgid "(error parsing verification file)"
-msgstr ""
+msgstr "(error en analitzar el fitxer de verificació)"
 
 #: CDUtils.pas:1405
 msgid ""
 "Track %s verified with confidence number %d (number of people matched your "
 "rip)"
 msgstr ""
+"El seguiment de %s s'ha verificat amb el número de confiança %d (nombre de "
+"persones que coincideixen amb la vostre extracció)"
 
 #: CDUtils.pas:1410
 msgid "this CD doesn't exist in the database"
-msgstr ""
+msgstr "aquest CD no existeix a la base de dades"
 
 #. Download the BIN meta file from AccureteRip.com database:
 #: CDUtils.pas:1425
 msgid "Requesting data from AccurateRip.com database"
-msgstr ""
+msgstr "Sol·licitud de dades a la base de dades AccurateRip.com"
 
 #. There was a jitter error
 #. we are not getting results for too long, ask user what to do...
 #: CDUtils.pas:1523 CDUtils.pas:1765
 msgid "Error ripping track"
-msgstr ""
+msgstr "Error en copiar la pista"
 
 #. track doesn't exist or is a data track
 #: CDUtils.pas:1620
 msgid "The CD-ROM unit %s: does not contain track number %d."
-msgstr ""
+msgstr "La unitat de CD-ROM% s: no conté el número de pista %d."
 
 #: CDUtils.pas:1806
 msgid ""
 "There were %d jitter errors while reading track %d. It is very likely that "
 "audio data is corrupt."
 msgstr ""
+"Hi ha hagut %d errors de fluctuació en llegir la pista %d. És molt probable "
+"que les dades d'àudio estiguin danyades."
 
 #: Covers.pas:724
 msgid "Not specified"
-msgstr ""
+msgstr "Sense especificar"
 
 #: Covers.pas:725
 msgid "Cover (front)"
-msgstr ""
+msgstr "Portada (frontal)"
 
 #: Covers.pas:726
 msgid "Cover (back)"
-msgstr ""
+msgstr "Portada (posterior)"
 
 #: Covers.pas:727
 msgid "Leaflet Page"
-msgstr ""
+msgstr "Pàgina de Fulletó"
 
 #: Covers.pas:728
 msgid "Media Label"
-msgstr ""
+msgstr "Etiqueta del mitjà"
 
 #: Covers.pas:729
 msgid "Lead Artist"
-msgstr ""
+msgstr "Artista principal"
 
 #: Covers.pas:732
 msgid "Band"
-msgstr ""
+msgstr "Banda"
 
 #: Covers.pas:735
 msgid "Recording Location"
-msgstr ""
+msgstr "Ubicació de la gravació"
 
 #: Covers.pas:736
 msgid "During Recording"
-msgstr ""
+msgstr "Durant la gravació"
 
 #: Covers.pas:737
 msgid "During Performance"
-msgstr ""
+msgstr "Durant l’actuació"
 
 #: Covers.pas:738
 msgid "Video Screen Capture"
-msgstr ""
+msgstr "Captura de pantalla de vídeo"
 
 #: Covers.pas:739
 msgid "Illustration"
-msgstr ""
+msgstr "Il·lustració"
 
 #: Covers.pas:740
 msgid "Band Logotype"
-msgstr ""
+msgstr "Logotip de banda"
 
 #: Covers.pas:741
 msgid "Publisher Logotype"
-msgstr ""
+msgstr "Logotip de l'editor"
 
 #: Covers.pas:1155
 msgid "Unsaved image"
-msgstr ""
+msgstr "Imatge no desada"
 
 #: Covers.pas:1157
 msgid "Stored in tag"
-msgstr ""
+msgstr "Emmagatzamat en l'etiqueta"
 
 #: Covers.pas:1159
 msgid "Stored in %s"
-msgstr ""
+msgstr "Emmagatzemat a %s"
 
 #: Covers.pas:2836
 msgid ""
 "All links to the image %s have been removed from the Library. Would you like "
 "to delete it from the drive as well?"
 msgstr ""
+"Tots els enllaços a la imatge %s s'han eliminat de la biblioteca. Voleu "
+"eliminar-lo també del disc?"
 
 #. Get exclusive access to the DB
 #. VACUUM fails with "out of memory" exception on large databases (7 GB, 2.2 million of tracks)
 #: DatabaseManage.pas:941 DatabaseManage.pas:1725 DatabaseManage.pas:1727
 #: DatabaseManage.pas:1733
 msgid "Checking database structure"
-msgstr ""
+msgstr "Comprovació de l'estructura de la base de dades"
 
 #: DatabaseManage.pas:1705
 msgid "The database seems to be corrupted. Attempt to fix it ?"
-msgstr ""
+msgstr "Sembla que la base de dades està malmesa. Voleu solucionar-ho?"
 
 #: DatabaseManage.pas:2922
 msgid "Do you really want to remove %d tracks from Virtual CD?"
-msgstr ""
+msgstr "Segur que voleu eliminar %d pistes del CD virtual?"
 
 #: DatabaseManage.pas:2981
 msgid "Do you really want to remove %d previews?"
-msgstr ""
+msgstr "Confirmes que vols suprimir %d visualitzacions prèvies?"
 
 #: DatabaseManage.pas:3044
 msgid "Are you sure you want to remove %d file(s) from the Library?"
-msgstr ""
+msgstr "Esteu segur que voleu eliminar % d fitxers de la biblioteca?"
 
 #: DatabaseManage.pas:3045
 msgid "Are you sure you want to delete %d file(s)?"
-msgstr ""
+msgstr "Esteu segur que voleu suprimir %d fitxers?"
 
 #: DatabaseManage.pas:3067
 msgid "Removing file %s (%d of %d)"
-msgstr ""
+msgstr "S'està suprimint el fitxer %s (%d of %d)"
 
 #: dblistutils.pas:1167
 msgid "%d of %d folders processed"
-msgstr ""
+msgstr "%d of %d carpetes processades"
 
 #: dblistutils.pas:1456 UpNp.pas:5746 UPnPTreeHelper.pas:1901 WebUtils.pas:1983
 #: WebUtils.pas:2004
 msgid "Unknown Title"
-msgstr ""
+msgstr "Títol desconegut"
 
 #: dblistutils.pas:1458 UPnPTreeHelper.pas:1903
 msgid "Unknown Producer"
-msgstr ""
+msgstr "Productor desconegut"
 
 #: dblistutils.pas:1459 UPnPTreeHelper.pas:1904
 msgid "Unknown Actor"
-msgstr ""
+msgstr "Actor desconegut"
 
 #: dblistutils.pas:1460
 msgid "Unknown Director"
-msgstr ""
+msgstr "Director desconegut"
 
 #: dblistutils.pas:1461 UPnPTreeHelper.pas:1905
 msgid "Unknown Composer"
-msgstr ""
+msgstr "Compositor desconegut"
 
 #: dblistutils.pas:1462 UPnPTreeHelper.pas:1906
 msgid "Unknown Conductor"
-msgstr ""
+msgstr "Director d'orquestra desconegut"
 
 #: dblistutils.pas:1464
 msgid "Unknown Podcast"
-msgstr ""
+msgstr "Podcast desconegut"
 
 #: dblistutils.pas:1467 UPnPTreeHelper.pas:1909
 msgid "Unknown Year"
-msgstr ""
+msgstr "Any desconegut"
 
 #: dblistutils.pas:1468
 msgid "Unknown Rating"
-msgstr ""
+msgstr "Puntuació desconeguda"
 
 #: dblistutils.pas:1469 UPnPTreeHelper.pas:1910
 msgid "Unknown Artwork"
@@ -6290,81 +6343,83 @@ msgstr "Il·lustració inconsistent"
 
 #: dblistutils.pas:1471
 msgid "Multiple Artist Albums"
-msgstr ""
+msgstr "Diversos àlbums d'artistes"
 
 #: dblistutils.pas:1472
 msgid "Ungrouped Multiple Artist Albums"
-msgstr ""
+msgstr "Àlbums d'artistes múltiples no agrupats"
 
 #: dblistutils.pas:1475
 msgid "Dead Links"
-msgstr ""
+msgstr "Enllaços morts"
 
 #: dblistutils.pas:1477
 msgid "Unanalyzed Volume"
-msgstr ""
+msgstr "Volum no analitzat"
 
 #: dblistutils.pas:1478
 msgid "Unorganized Files"
-msgstr ""
+msgstr "Fitxers no organitzats"
 
 #: dblistutils.pas:1479
 msgid "DB / Tag mismatches"
-msgstr ""
+msgstr "Desajustament de DB/Etiqueta"
 
 #: dblistutils.pas:1480
 msgid "Duplicate Titles"
-msgstr ""
+msgstr "Títols duplicats"
 
 #: dblistutils.pas:1481
 msgid "Duplicate Titles/Artists"
-msgstr ""
+msgstr "Títols/artistes duplicats"
 
 #: dblistutils.pas:1483
 msgid "Unclassified Files"
-msgstr ""
+msgstr "Fitxers no classificats"
 
 #: dblistutils.pas:1484
 msgid "Unknown Tempo"
-msgstr ""
+msgstr "Tempo desconegut"
 
 #: dblistutils.pas:1485
 msgid "Unknown Mood"
-msgstr ""
+msgstr "Tessitura desconeguda"
 
 #: dblistutils.pas:1486
 msgid "Unknown Occasion"
-msgstr ""
+msgstr "Ocasió desconeguda"
 
 #: dblistutils.pas:1487
 msgid "Unknown Quality"
-msgstr ""
+msgstr "Qualitat desconeguda"
 
 #. in order to skip all -- when user canceled DB upgrade
 #: DBStructure.pas:275
 msgid "Updating to database version %d.%d.%d"
-msgstr ""
+msgstr "S'està actualitzant a la versió de la base de dades %d.%d.%d"
 
 #: DBStructure.pas:852
 msgid ""
 "Library database %s can't be opened, would you like to create a new local "
 "Library?"
 msgstr ""
+"No es pot obrir la base de dades de la biblioteca %s, voleu crear una nova "
+"biblioteca local?"
 
 #: DBStructure.pas:1940 controls\deviceConfig\options\pnl_FileLocations.html:25
 msgid "Audiobook"
-msgstr ""
+msgstr "Audio-llibres"
 
 #. LS: qUnit tests are on empty DB
 #. ini not found OR it's just simple INI created by installer for portable version ... copy from MM4 installation
 #: DBStructure.pas:2479 Settings.pas:2971
 msgid "Do you want to use the database and settings from %s ?"
-msgstr ""
+msgstr "Voleu utilitzar la base de dades i la configuració de %s?"
 
 #: DBStructure.pas:2479 Settings.pas:2971
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Import settings"
-msgstr ""
+msgstr "Importar la configuració"
 
 #. showProgressLayer;
 #: DBStructure.pas:2514
@@ -6372,48 +6427,52 @@ msgid ""
 "Your Library is being upgraded to the latest version. It can take up to "
 "several minutes..."
 msgstr ""
+"La vostra biblioteca s'està actualitzant a la versió més recent. Pot trigar "
+"uns quants minuts ..."
 
 #: Devices.pas:2933 M3Umanage.pas:114
 msgid "Recently Added Content"
-msgstr ""
+msgstr "Contingut afegit recentment"
 
 #. "Added from {Device Title} on 2012-11-14"
 #: Devices.pas:2934
 msgid "Added from %s on %s"
-msgstr ""
+msgstr "Afegit des de %s on %s"
 
 #: Devices.pas:3653
 msgid "Remove '%s' entries from the Library?"
-msgstr ""
+msgstr "Voleu eliminar les entrades '%s' de la Biblioteca?"
 
 #: Devices.pas:3658
 msgid "Delete downloaded content"
-msgstr ""
+msgstr "Suprimiu el contingut baixat"
 
 #: Devices.pas:3794
 msgid "Cannot remove directory %s."
-msgstr ""
+msgstr "No es pot eliminar el directori %s."
 
 #: Devices.pas:4963
 msgid "Are you sure you want to reset this profile to its default settings?"
 msgstr ""
+"Esteu segur que voleu restablir la configuració predeterminada d'aquest "
+"perfil?"
 
 #: Devices.pas:8215
 msgid "The device '%s' cannot be stopped now as it appears to be in use."
-msgstr ""
+msgstr "El dispositiu '% s' no es pot aturar ara, ja que sembla que està en ús."
 
 #: Devices.pas:8216
 msgid "Problem Ejecting %s"
-msgstr ""
+msgstr "Problema en expulsar %s"
 
 #: Devices.pas:9521
 msgid "\"%s\" is attempting to sync with the MediaMonkey Library over WiFi."
-msgstr ""
+msgstr "\"%s\" intenta sincronitzar-se amb la biblioteca MediaMonkey per WiFi."
 
 #. Lib wasn't found, this is an unknown new device that wants a wireless sync with us, create library for the device
 #: Devices.pas:9541
 msgid "An unknown portable device"
-msgstr ""
+msgstr "Un dispositiu portàtil desconegut"
 
 #: Devices.pas:9547
 msgid ""
@@ -6425,21 +6484,31 @@ msgid ""
 "MediaMonkey, it's recommended that you initially sync over USB to preserve "
 "your existing sync configuration."
 msgstr ""
+"%s intenta sincronitzar-se amb la Biblioteca MediaMonkey per primera vegada."
+"\n"
+"\n"
+"\n"
+"\n"
+"Nota: Si prèviament heu sincronitzat aquest dispositiu amb versions "
+"anteriors de MediaMonkey, us recomanem que sincronitzeu inicialment per USB "
+"per conservar la configuració de sincronització existent."
 
 #: Devices.pas:9550
 msgid "No / I'll sync over USB instead"
-msgstr ""
+msgstr "No / en lloc de això, sincronitzaré per USB"
 
 #. capacity is unknown (e.g. Google Music)
 #: Devices.pas:10913
 msgid "Needed: %s, available: %s, to be freed: %s"
-msgstr ""
+msgstr "Necessari: %s, disponible: %s, per alliberar: %s"
 
 #: Devices.pas:10916
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
 msgstr ""
+"No hi ha prou espai al dispositiu per sincronitzar els fitxers seleccionats. "
+"Voldrieu recuperar espai suprimint els fitxers existents?"
 
 #. Clear tracks on the device
 #: Devices.pas:10932
@@ -6447,109 +6516,120 @@ msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
 msgstr ""
+"No hi ha prou espai al dispositiu per sincronitzar els fitxers seleccionats. "
+"Voleu continuar?"
 
 #. we updated tag, force regular upload
 #: Devices.pas:11441 Devices.pas:11699 Devices.pas:15242 Devices.pas:15251
 msgid "Problem while copying file %s to %s"
-msgstr ""
+msgstr "Problema en copiar el fitxer %s a %s"
 
 #. track needs conversion
 #. e.g. online/cloud tracks that failed to download
 #: Devices.pas:12308 Devices.pas:14795 Devices.pas:15061 FormatsManage.pas:853
 msgid "File %s is inaccessible"
-msgstr ""
+msgstr "El fitxer %s no és accessible"
 
 #. e.g. to know it when the tracks are part of a playlist that need to be modified (e.g. on MMS)
 #: Devices.pas:12331
 msgid "File %s is not supported by the device"
-msgstr ""
+msgstr "El dispositiu no admet el fitxer %s"
 
 #. no track being converted, see the tracks being downloaded from cloud
 #: Devices.pas:14604
 msgid "downloading"
-msgstr ""
+msgstr "Baixant"
 
 #. another converted track is prepared, prefer it to upload
 #: Devices.pas:15030
 msgid "Conversion of file %s failed"
-msgstr ""
+msgstr "La conversió del fitxer %s ha fallat"
 
 #: ErrHandlers.pas:116
 msgid "File %s is read-only. Do you want to change it?"
-msgstr ""
+msgstr "El fitxer %s és de només lectura. El voleu canviar?"
 
 #: ErrHandlers.pas:130
 msgid "The read-only attribute cannot be removed from the file %s."
-msgstr ""
+msgstr "L'atribut de només lectura no es pot eliminar del fitxer %s."
 
 #: ErrHandlers.pas:137
 msgid "There was a problem updating the tag for file %s."
-msgstr ""
+msgstr "S'ha produït un problema en actualitzar l'etiqueta del fitxer %s."
 
 #: ErrHandlers.pas:144
 msgid "File %s already exists. Do you want to replace it?"
-msgstr ""
+msgstr "El fitxer% s ja existeix. El voleu substituir?"
 
 #: ErrHandlers.pas:152
 msgid ""
 "Some components of filename %s exceed the 64 character limit for CDs. "
 "Continue renaming without editing filenames?"
 msgstr ""
+"Alguns components del fitxer %s superen el límit de 64 caràcters dels CD. "
+"Voleu continuar canviant el nom sense editar els noms de fitxer?"
 
 #: ErrHandlers.pas:160
 msgid ""
 "Cannot delete %s. Access is denied. The file may be in use or you may not "
 "have access rights."
 msgstr ""
+"No es pot suprimir %s. Accés denegat. El fitxer pot estar en ús o és "
+"possible que no tingueu drets d’accés."
 
 #: ErrHandlers.pas:168 FileUtils.pas:786
 msgid "Problem with copying file %s to %s."
-msgstr ""
+msgstr "Problema en copiar el fitxer %s to %s."
 
 #: ErrHandlers.pas:176
 msgid ""
 "File %s cannot be opened:\n"
 "%s"
 msgstr ""
+"No es pot obrir el fitxer %s:\n"
+"%s"
 
 #. e.g. for the confidence numbers after AccurateRip verification (#17023 - item 3)
 #: ErrHandlers.pas:376
 msgid "Result"
-msgstr ""
+msgstr "Resultat"
 
 #: ErrHandlers.pas:379
 msgid "There was a problem ripping or verifying the following track(s):"
-msgstr ""
+msgstr "S'ha produït un problema en copiar o verificar les pistes següents:"
 
 #: ErrHandlers.pas:380
 msgid ""
 "Track(s) have been verified against AccurateRip.com database with the "
 "following results:"
 msgstr ""
+"Les pista(s) s'han verificat amb la base de dades AccurateRip.com amb els "
+"següents resultats:"
 
 #: ErrHandlers.pas:381
 msgid "Ripping results"
-msgstr ""
+msgstr "Resultats de la còpia"
 
 #. seconds
 #: ErrHandlers.pas:393
 msgid "There was a problem leveling volume for the following track(s):"
 msgstr ""
+"S'ha produït un problema d'anivellament del volum de les pistes següents:"
 
 #. seconds
 #: ErrHandlers.pas:405
 msgid "There was a problem analyzing volume for the following track(s):"
-msgstr ""
+msgstr "S'ha produït un problema en analitzar el volum de les pistes següents:"
 
 #. seconds
 #: ErrHandlers.pas:418
 msgid "There was a problem converting the following file(s):"
-msgstr ""
+msgstr "S'ha produït un problema en escanejar el(s) element(s) següent(s):"
 
 #. seconds
 #: ErrHandlers.pas:431 Extensions.pas:675
 msgid "There was a problem downloading the following file(s):"
-msgstr ""
+msgstr "S'ha produït un problema al baixar el(s) element(s) següent(s):"
 
 #. seconds
 #: ErrHandlers.pas:444
@@ -6568,118 +6648,122 @@ msgstr "S'ha produït un problema en sincronitzar els elements següents:"
 #: ErrHandlers.pas:469 FormatsHandler.pas:3263 FormatsHandler.pas:3270
 #: GeneralDecoder.pas:421
 msgid "MediaMonkey is unable to decode this format."
-msgstr ""
+msgstr "MediaMonkey no pot descodificar aquest format."
 
 #: ErrHandlers.pas:481
 msgid ""
 "The trial version of the %s is limited to a 30-day trial period. For "
 "unrestricted use please upgrade to MediaMonkey Gold. Do you want to upgrade?"
 msgstr ""
+"La versió de prova de %s es limita a un període de prova de 30 dies. Per a "
+"un ús sense restriccions, actualitzeu a MediaMonkey Gold. Voleu actualitzar?"
 
 #: ErrHandlers.pas:493
 msgid "There was a problem organizing the following file(s):"
-msgstr ""
+msgstr "S'ha produït un problema al organitzar el(s) element(s) següent(s):"
 
 #: ExceptionHandler.pas:228
 msgid "Restart in Safe mode"
-msgstr ""
+msgstr "Reinicieu en mode segur"
 
 #. set buttons captions
 #: ExceptionHandler.pas:262
 msgid "Disable & Restart"
-msgstr ""
+msgstr "Desactiva i reinicia"
 
 #. Pointer not needed.
 #: ExceptionHandler.pas:287
 msgid "Callstack"
-msgstr ""
+msgstr "Una pila de trucades"
 
 #: ExceptionHandler.pas:363
 msgid "There was a runtime error in Addon"
-msgstr ""
+msgstr "Hi ha hagut un error en temps d'execució en complement"
 
 #: ExceptionHandler.pas:363
 msgid "Do you want to disable this addon?"
-msgstr ""
+msgstr "Voleu desactivar aquest complement?"
 
 #: Extensions.pas:700
 msgid "Invalid Addon: only valid for MediaMonkey 4.x"
-msgstr ""
+msgstr "Complement no vàlid: només vàlid per a MediaMonkey 4.x"
 
 #. show the addon's config immediatelly (so that users are aware)
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
 #: Extensions.pas:821 UpNp.pas:10721
 msgid "%s was successfully installed."
-msgstr ""
+msgstr "%s s'ha instal·lat correctament."
 
 #: Extensions.pas:826
 msgid "%s was not installed."
-msgstr ""
+msgstr "%s no s'ha instal·lat."
 
 #: Extensions.pas:840
 msgid ""
 "This action will uninstall '%s'.\n"
 "Do you wish to continue?"
 msgstr ""
+"Aquesta acció desinstal·larà '%s'.\n"
+"Voleu continuar?"
 
 #: Extensions.pas:1008 Extensions.pas:1027 Extensions.pas:1033
 #: Extensions.pas:1098
 msgid "No update available"
-msgstr ""
+msgstr "No hi ha cap actualització disponible"
 
 #: Extensions.pas:1015 dialogs\dlgExtensions.html:14
 msgid "Fetching update info"
-msgstr ""
+msgstr "S'està obtenint la informació d'actualització"
 
 #: Extensions.pas:1094
 msgid "Update available"
-msgstr ""
+msgstr "Actualització disponible"
 
 #  Add list.
 #: FileAssoc.pas:731
 msgid "&Play in MediaMonkey"
-msgstr ""
+msgstr "&Reprodueix a MediaMonkey"
 
 #: FileAssoc.pas:732
 msgid "Play &next in MediaMonkey"
-msgstr ""
+msgstr "Reprodueix a &continuació a MediaMonkey"
 
 #: FileAssoc.pas:733
 msgid "Play &last in MediaMonkey"
-msgstr ""
+msgstr "Reproduir l'&Últim a MediaMonkey"
 
 #: FileAssoc.pas:734
 msgid "Sync device"
-msgstr ""
+msgstr "Sincronitza dispositiu"
 
 #: FileAssoc.pas:735
 msgid "Play Audio CD"
-msgstr ""
+msgstr "Reprodueix CD d’àudio"
 
 #: FileAssoc.pas:736
 msgid "Burn CD/DVD/BD"
-msgstr ""
+msgstr "Gravar CD/DVD/BD"
 
 #: FileAssoc.pas:738
 msgid "Rip Audio CD"
-msgstr ""
+msgstr "&Extreu l'audio del CD"
 
 #: FileAssoc.pas:740
 msgid "&Install MediaMonkey package"
-msgstr ""
+msgstr "&Instal·la el paquet MediaMonkey"
 
 #. This is localized, user sees it when iPod is connected under Vista
 #: FileAssoc.pas:828
 msgid "iPod"
-msgstr ""
+msgstr "iPod"
 
 #: FileAssoc.pas:953
 msgid "Play CD with MediaMonkey"
-msgstr ""
+msgstr "Reprodueix CD amb MediaMonkey"
 
 #: FileAssoc.pas:966
 msgid "Play DVD with MediaMonkey"
-msgstr ""
+msgstr "Reprodueix DVD amb MediaMonkey"
 
 #. issue #10108, if only "MediaMonkey" would be there then it won't appear in 'Set default programs' when both MM8 & MMW are installed (because of same app name)
 #: FileAssoc.pas:1068
@@ -6687,120 +6771,126 @@ msgid ""
 "MediaMonkey is all-in-one audio jukebox application that can organize your "
 "digital music collection."
 msgstr ""
+"MediaMonkey és una aplicació de jukebox d'àudio 'tot en un' que pot "
+"organitzar la vostra col·lecció de música digital."
 
 #: FileAssoc.pas:1132
 msgid "MediaMonkey Addon file"
-msgstr ""
+msgstr "Fitxer complement MediaMonkey"
 
 #: FileAssoc.pas:1134
 msgid "Audio File"
-msgstr ""
+msgstr "Fitxer d’àudio"
 
 #: FileUtils.pas:592 Normalization.pas:1795
 msgid "The file is unavailable or you may not have permission to access it."
 msgstr ""
+"El fitxer no està disponible o és possible que no tingueu permís per accedir-"
+"hi."
 
 #: FileUtils.pas:629
 msgid "Cannot create file %s."
-msgstr ""
+msgstr "No es pot crear el fitxer %s."
 
 #: FileUtils.pas:786 ResStrings.pas:559
 msgid "Insufficient space available."
-msgstr ""
+msgstr "No hi ha prou espai disponible."
 
 # #-#-#-#-#  htmladd.po (MediaMonkey 5.0)  #-#-#-#-#
 # From installer
 #: FileUtils.pas:1978
 msgid "Unknown error"
-msgstr ""
+msgstr "Error desconegut"
 
 #: FileUtils.pas:2282
 msgid "Media Server cache"
-msgstr ""
+msgstr "Memòria cau del servidor multimèdia"
 
 #: FileUtils.pas:2285
 msgid "Virtual CD content"
-msgstr ""
+msgstr "Contingut de CD virtual"
 
 #: FileUtils.pas:2288 UPnPTreeHelper.pas:1898
 msgid "Previews"
-msgstr ""
+msgstr "Vistes prèvies"
 
 #: FileUtils.pas:2675
 msgid "Drive %s is running out of space."
-msgstr ""
+msgstr "Drive %s s'està quedant sense espai."
 
 #: FileUtils.pas:2676
 msgid "Please free up space for MediaMonkey to function properly."
-msgstr ""
+msgstr "Allibereu espai perquè MediaMonkey funcioni correctament."
 
 #. no subtitles filter
 #: FormatsHandler.pas:2253
 msgid "MediaMonkey is unable to show subtitles."
-msgstr ""
+msgstr "MediaMonkey no pot mostrar els subtítols."
 
 #: FormatsHandler.pas:2846
 msgid "Video codec"
-msgstr ""
+msgstr "Còdec de video"
 
 #. size
 #: FormatsHandler.pas:2852
 msgid "Original"
-msgstr ""
+msgstr "Original"
 
 #: FormatsHandler.pas:2853
 msgid "Max size"
-msgstr ""
+msgstr "Mida màxima"
 
 #: FormatsHandler.pas:2855 dialogs\videoConvSettings.html:68
 msgid "Conversion quality"
-msgstr ""
+msgstr "Qualitat de conversió"
 
 #. will be replaced by FriendlyName
 #: FormatsHandler.pas:2873
 msgid "Audio codec"
-msgstr ""
+msgstr "Còdec d'àudio"
 
 #. type of bitrate
 #: FormatsHandler.pas:2882
 msgid "CBR 1 pass"
-msgstr ""
+msgstr "CBR 1 passada"
 
 #: FormatsHandler.pas:2884
 msgid "CBR 2 pass"
-msgstr ""
+msgstr "CBR 2 passada"
 
 #: FormatsHandler.pas:2893 dialogs\dlgWAVSettings.html:20
 msgid "Bits per sample"
-msgstr ""
+msgstr "Bits per mostra"
 
 #: FormatsHandler.pas:2900
 msgid "ABR"
-msgstr ""
+msgstr "ABR"
 
 #: FormatsHandler.pas:2902
 msgid "Max. bitrate"
-msgstr ""
+msgstr "Màx. taxa de bits"
 
 #: FormatsHandler.pas:3265 FormatsHandler.pas:3493 MediaMonkeyApp.pas:6611
 #: MediaMonkeyApp.pas:6642
 msgid "MediaMonkey is unable to encode this format."
-msgstr ""
+msgstr "MediaMonkey no pot codificar aquest format."
 
 #. DRM
 #. DRM
 #: FormatsManage.pas:1243 FullPlayer.pas:4072 GeneralDecoder.pas:430
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
 msgstr ""
+"No es pot descodificar el fitxer %s. Possiblement es deu a les restriccions "
+"del DRM."
 
 #: FormatsManage.pas:1245
 msgid "File %s was not successfully created."
-msgstr ""
+msgstr "El fitxer %s no s'ha creat correctament."
 
 #. Check whether album gain needs to be calculated:
 #: FormatsManage.pas:1392 FormatsManage.pas:1468
 msgid "Converting file %d of %d"
-msgstr ""
+msgstr "S'està convertint el fitxer %d de %d"
 
 #. TODOWIN8
 #: FormatsManage.pas:1403 FormatsManage.pas:1914 UpNp.pas:4492
@@ -6808,78 +6898,80 @@ msgid ""
 "There isn't enough free space to convert all files. Please clear space in "
 "the temporary directory"
 msgstr ""
+"No hi ha prou espai lliure per convertir tots els fitxers. Esborreu l’espai "
+"al directori temporal"
 
 #: FormatsManage.pas:1432
 msgid "ripping"
-msgstr ""
+msgstr "Copiant"
 
 #. AAC MPEG4 Low Complexity
 #: FormatsManage.pas:2916
 msgid "AAC"
-msgstr ""
+msgstr "AAC"
 
 #. MP3
 #: FormatsManage.pas:2925
 msgid "LAME Audio Encoder"
-msgstr ""
+msgstr "LAME Audio Encoder"
 
 #. BY_QUALITY
 #: FormatsManage.pas:2950
 msgid "Vorbis"
-msgstr ""
+msgstr "Vorbis"
 
 #. Windows Media Audio Codec
 #: FormatsManage.pas:2962
 msgid "WMA"
-msgstr ""
+msgstr "WMA"
 
 #. Windows Media Audio Professional Codec
 #: FormatsManage.pas:2968
 msgid "WMA Pro"
-msgstr ""
+msgstr "WMA Pro"
 
 #. Windows Media Audio Voice Codec
 #: FormatsManage.pas:2974
 msgid "WMA Speech"
-msgstr ""
+msgstr "WMA llenguatge"
 
 #. Windows Media Audio Lossless Codec
 #: FormatsManage.pas:2998
 msgid "WMA Lossless"
-msgstr ""
+msgstr "WMA Lossless"
 
 #: FormatsManage.pas:3019
 msgid "Windows Media Video 7"
-msgstr ""
+msgstr "Windows Media Video 7"
 
 #: FormatsManage.pas:3025
 msgid "Windows Media Video 8"
-msgstr ""
+msgstr "Windows Media Video 8"
 
 #: FormatsManage.pas:3031
 msgid "Windows Media Video 9"
-msgstr ""
+msgstr "Windows Media Video 9"
 
 #: FormatsManage.pas:3052
 msgid "VP8"
-msgstr ""
+msgstr "VP8"
 
 #: FormatsManage.pas:3060
 msgid "VP9"
-msgstr ""
+msgstr "VP9"
 
 #: FormatsManage.pas:3723
 msgid "Unknown (all formats)"
-msgstr ""
+msgstr "Desconegut (tots els formats)"
 
 #: FormatsManage.pas:4416 FormatsManage.pas:4429
 msgid "audio"
-msgstr ""
+msgstr "audio"
 
 #. audio stream
 #: FormatsManage.pas:4439 FormatsManage.pas:5068
 msgid "A: "
-msgstr ""
+msgstr "A: "
 
 #. pixels
 #. pixels
@@ -6887,210 +6979,214 @@ msgstr ""
 #: FormatsManage.pas:4485 FormatsManage.pas:4507 FormatsManage.pas:4532
 #: FormatsManage.pas:4545
 msgid "Above %d"
-msgstr ""
+msgstr "Per sobre de %d"
 
 #: FormatsManage.pas:4456 FormatsManage.pas:4468 FormatsManage.pas:4479
 #: FormatsManage.pas:4489 FormatsManage.pas:4512 FormatsManage.pas:4537
 #: FormatsManage.pas:4550
 msgid "Between %d and %d"
-msgstr ""
+msgstr "Entre %d and %d"
 
 #: FormatsManage.pas:4485 FormatsManage.pas:4489
 msgid "bits per sample"
-msgstr ""
+msgstr "Bits per mostra"
 
 #. video stream
 #: FormatsManage.pas:4496 FormatsManage.pas:5054
 msgid "V: "
-msgstr ""
+msgstr "V: "
 
 #. frame per second
 #: FormatsManage.pas:4519
 msgid "Above %.3f"
-msgstr ""
+msgstr "Per sobre %.3f"
 
 #: FormatsManage.pas:4524
 msgid "Between %.3f and %.3f"
-msgstr ""
+msgstr "Entre %.3f and %.3f"
 
 #. width
 #: FormatsManage.pas:4528
 msgid "W: "
-msgstr ""
+msgstr "W: "
 
 #: FormatsManage.pas:4532 FormatsManage.pas:4537 FormatsManage.pas:4545
 #: FormatsManage.pas:4550 dialogs\dlgSupportedFormat.html:116
 msgid "px"
-msgstr ""
+msgstr "px"
 
 #. height
 #: FormatsManage.pas:4541
 msgid "H: "
-msgstr ""
+msgstr "H: "
 
 #: FormatsManage.pas:5048 FormatsManage.pas:5066 FormatsManage.pas:5079
 msgid "above"
-msgstr ""
+msgstr "Per sobre"
 
 #: FullPlayer.pas:2093
 msgid "Add %d file(s) to Playing"
-msgstr ""
+msgstr "Afegiu %d fitxers a la reproducció en curs"
 
 #: FullPlayer.pas:2301
 msgid "Clear Playing"
-msgstr ""
+msgstr "Esborra la reproducció"
 
 #: FullPlayer.pas:2712
 msgid "Currently, there is no output plug-in selected"
-msgstr ""
+msgstr "Actualment, no hi ha cap connector de sortida seleccionat"
 
 #: FullPlayer.pas:2726
 msgid "Currently no input plug-in is in use (no file is playing)."
 msgstr ""
+"Actualment no s’utilitza cap connector d’entrada (no s’està reproduint cap "
+"fitxer)."
 
 #. test accessibility first
 #: FullPlayer.pas:4068
 msgid "Playback failed: %s is inaccessible."
-msgstr ""
+msgstr "La reproducció ha fallat: %s no és accessible."
 
 #: FullPlayer.pas:4076
 msgid "Playback failed: %s cannot be decoded."
-msgstr ""
+msgstr "La reproducció ha fallat: %s no es pot descodificar."
 
 #: FullPlayer.pas:4310
 msgid "Clean"
-msgstr ""
+msgstr "Esborra"
 
 #: FullPlayer.pas:4466
 msgid "Randomize list"
-msgstr ""
+msgstr "Llista aleatòria"
 
 #. this song already was in the playlist
 #: FullPlayer.pas:4564
 msgid "No duplicates were detected."
-msgstr ""
+msgstr "No s'han detectat duplicats."
 
 #: FullPlayer.pas:4568
 msgid "Do you want to remove %d duplicate(s) Playing?"
-msgstr ""
+msgstr "Voleu eliminar %d duplicats que s'estan reproduint?"
 
 #: FullPlayer.pas:4572
 msgid "Remove duplicates"
-msgstr ""
+msgstr "Borrar duplicats"
 
 #: FullPlayer.pas:6273
 msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
 msgstr ""
+"El fitxer %s s'està reproduint. Si es suprimeix, s'interromprà la "
+"reproducció. Esteu segur que voleu eliminar-lo?"
 
 #: FullPlayer.pas:7203
 msgid "Computing waveform for file %s"
-msgstr ""
+msgstr "S'està calculant la forma d'ona del fitxer %s"
 
 #: FullPlayer.pas:7717 WinAmpPlugins.pas:2879
 msgid "No configuration"
-msgstr ""
+msgstr "Sense configuració"
 
 #. read data to a temporary buffer
 #: GeneralDecoder.pas:754 GeneralDecoder.pas:758 MediaMonkeyApp.pas:3991
 #: MediaMonkeyApp.pas:3994
 msgid "Problem while decoding file %s"
-msgstr ""
+msgstr "Problema en descodificar el fitxer %s"
 
 #: GlobVars.pas:1918
 msgid "Classical Music"
-msgstr ""
+msgstr "Música clàssica"
 
 #: GlobVars.pas:1919 controls\deviceConfig\options\pnl_FileLocations.html:57
 msgid "Music Video"
-msgstr ""
+msgstr "Videoclip"
 
 #: GlobVars.pas:1921 controls\deviceConfig\options\pnl_FileLocations.html:65
 msgid "TV"
-msgstr ""
+msgstr "TV"
 
 #: GlobVars.pas:1922
 msgid "Video Podcast"
-msgstr ""
+msgstr "Video Podcast"
 
 #: Hotkeys.pas:690
 msgid "Browser Back"
-msgstr ""
+msgstr "Tornar al navegador"
 
 #: Hotkeys.pas:691
 msgid "Browser Forward"
-msgstr ""
+msgstr "Reenviament del navegador"
 
 #: Hotkeys.pas:692
 msgid "Browser Refresh"
-msgstr ""
+msgstr "Actualitzar el navegador"
 
 #: Hotkeys.pas:693
 msgid "Browser Stop"
-msgstr ""
+msgstr "Aturar el navegador"
 
 #: Hotkeys.pas:694
 msgid "Browser Search"
-msgstr ""
+msgstr "Cercar el navegador"
 
 #: Hotkeys.pas:695
 msgid "Browser Favorites"
-msgstr ""
+msgstr "Preferits del Navegador"
 
 #: Hotkeys.pas:696
 msgid "Browser Home"
-msgstr ""
+msgstr "Inici navegador"
 
 #: Hotkeys.pas:697
 msgid "Volume Mute"
-msgstr ""
+msgstr "Silencia el volum"
 
 #: Hotkeys.pas:698
 msgid "Volume Down"
-msgstr ""
+msgstr "Baixar el volum"
 
 #: Hotkeys.pas:699
 msgid "Volume Up"
-msgstr ""
+msgstr "Pujar el volum"
 
 #: Hotkeys.pas:700
 msgid "Media Next"
-msgstr ""
+msgstr "Mitjà següent"
 
 #: Hotkeys.pas:701
 msgid "Media Previous"
-msgstr ""
+msgstr "Mitjà previ"
 
 #: Hotkeys.pas:702
 msgid "Media Stop"
-msgstr ""
+msgstr "Aturar mitjà"
 
 #: Hotkeys.pas:703
 msgid "Media Play/Pause"
-msgstr ""
+msgstr "Reproduir/Pausar mitjà"
 
 #: Hotkeys.pas:704
 msgid "Launch Mail"
-msgstr ""
+msgstr "Inicia el correu"
 
 #: Hotkeys.pas:705
 msgid "Media Select"
-msgstr ""
+msgstr "Selecció de mitjà"
 
 #: Hotkeys.pas:706 Hotkeys.pas:707
 msgid "Launch app"
-msgstr ""
+msgstr "Inicia app"
 
 #. LS: Some keyboards returns HID = 75 on _each_ media key release state (e.g. my Genius wireless KB)
 #: Hotkeys.pas:814
 msgid "HID Key"
-msgstr ""
+msgstr "HID Key"
 
 #. we don't know parent playlist id yet
 #: Importers.pas:146 M3Umanage.pas:521 MP3Utils.pas:1567
 msgid "Imported Playlists"
-msgstr ""
+msgstr "Llistes de reproducció importades"
 
 #: Importers.pas:211
 msgid ""
@@ -7099,235 +7195,240 @@ msgid ""
 "manually, please export the iTunes XML library via iTunes and select it "
 "below."
 msgstr ""
+"MediaMonkey no pot importar metadades de la base de dades d'iTunes. Per "
+"resoldre-ho automàticament, executeu iTunes i activeu \"Comparteix la "
+"biblioteca XML de l'iTunes ...\". Per fer-ho manualment, exporteu la "
+"biblioteca XML d'iTunes a través d'iTunes i seleccioneu-la a continuació."
 
 #: Importers.pas:250
 msgid "Importing data from iTunes..."
-msgstr ""
+msgstr "Important dades de iTunes..."
 
 #: Importers.pas:255
 msgid "iTunes"
-msgstr ""
+msgstr "iTunes"
 
 #. Follows a _very_ simple parser of XML used by iTunes
 #: Importers.pas:449 ResStrings.pas:383
 msgid "tracks"
-msgstr ""
+msgstr "pistes"
 
 #: Importers.pas:579 Importers.pas:878
 msgid "Importing data from WinAmp..."
-msgstr ""
+msgstr "S'estan important dades de WinAmp ..."
 
 #: Importers.pas:584
 msgid "WinAmp"
-msgstr ""
+msgstr "WinAmp"
 
 #: Importers.pas:879 Importers.pas:884
 msgid "Windows Media Player"
-msgstr ""
+msgstr "Windows Media Player"
 
 #: Importers.pas:1069
 msgid "Importing data from J. River Media Center..."
-msgstr ""
+msgstr "Important dades de J. River Media Center..."
 
 #: Importers.pas:1074
 msgid "J. River Media Center"
-msgstr ""
+msgstr "J. River Media Center"
 
 #: M3Umanage.pas:409
 msgid "Updating track numbers"
-msgstr ""
+msgstr "S'estan actualitzant els números de les pistes"
 
 #: M3Umanage.pas:488
 msgid "Processing playlists"
-msgstr ""
+msgstr "Processant les llistes de reproducció"
 
 #: MaskHelper.pas:3038 ResStrings.pas:527
 msgid "Auto Number"
-msgstr ""
+msgstr "Número automàtic"
 
 #: MaskHelper.pas:3073 QueryManage.pas:4653 ResStrings.pas:455
 #: ResStrings.pas:511
 msgid "Extension"
-msgstr ""
+msgstr "Extensió"
 
 #: MaskHelper.pas:3077 MaskHelper.pas:3488 MaskHelper.pas:3785
 msgid "Target Extension"
-msgstr ""
+msgstr "Extensió objectiu"
 
 #: MaskHelper.pas:3087
 msgid "Sample Rate"
-msgstr ""
+msgstr "Freqüència de mostreig"
 
 #: MaskHelper.pas:3089 MaskHelper.pas:3561 MaskHelper.pas:3801
 msgid "Involved People"
-msgstr ""
+msgstr "Persones implicades"
 
 #: MaskHelper.pas:3100 MaskHelper.pas:3611 MaskHelper.pas:3812
 msgid "Track Volume"
-msgstr ""
+msgstr "Volumen de la pista"
 
 #: MaskHelper.pas:3101 MaskHelper.pas:3616 MaskHelper.pas:3813
 msgid "Album Volume"
-msgstr ""
+msgstr "Volum de l'Àlbum"
 
 #: MaskHelper.pas:3120
 msgid "Splitter"
-msgstr ""
+msgstr "Separador"
 
 #: MaskHelper.pas:3123
 msgid "Track title"
-msgstr ""
+msgstr "Títol de la pista"
 
 #: MaskHelper.pas:3124
 msgid "Auto number"
-msgstr ""
+msgstr "Número automàtic"
 
 #: MaskHelper.pas:3125
 msgid "Random number"
-msgstr ""
+msgstr "Número aleatori"
 
 #: MaskHelper.pas:3126
 msgid "Playlist name"
-msgstr ""
+msgstr "Nom de la llista de reproducció"
 
 #: MaskHelper.pas:3127
 msgid "Track artist"
-msgstr ""
+msgstr "Artista de la pista"
 
 #: MaskHelper.pas:3128
 msgid "Video actors"
-msgstr ""
+msgstr "Actors de vídeo"
 
 #: MaskHelper.pas:3129
 msgid "Track folder"
-msgstr ""
+msgstr "Carpeta de la pista"
 
 #: MaskHelper.pas:3142
 msgid "How to use masks"
-msgstr ""
+msgstr "Com s’utilitzen les màscares"
 
 #: MaskHelper.pas:3748
 msgid "Track#"
-msgstr ""
+msgstr "Pista#"
 
 #: MaskHelper.pas:3781
 msgid "Disc#"
-msgstr ""
+msgstr "Disc#"
 
 #: MaskHelper.pas:3794
 msgid "Episode#"
-msgstr ""
+msgstr "Episodi#"
 
 #: MaskHelper.pas:3796
 msgid "Season#"
-msgstr ""
+msgstr "Temporada#"
 
 #: MaskHelper.pas:3806
 msgid "Played#"
-msgstr ""
+msgstr "Reproduït#"
 
 #: MaskHelper.pas:3827
 msgid "Skipped#"
-msgstr ""
+msgstr "Omès#"
 
 #: MediaManage.pas:2510
 msgid "An error occured while moving file %s to %s. Do you want to try again?"
 msgstr ""
+"S'ha produït un error en moure el fitxer %s to %s. Voleu tornar-ho a provar?"
 
 #: MediaManage.pas:2653
 msgid "Moving file %d of %d (%s)"
-msgstr ""
+msgstr "Movent el fitxer %d of %d (%s)"
 
 #: MediaManage.pas:2655
 msgid "Copying file %d of %d (%s)"
-msgstr ""
+msgstr "Copiant el fitxer %d of %d (%s)"
 
 #: MediaManage.pas:2808
 msgid "Could not find file %s, it will not be %s."
-msgstr ""
+msgstr "No s'ha pogut trobar el fitxer %s, no serà %s."
 
 #: MediaManage.pas:2809
 msgid "moved"
-msgstr ""
+msgstr "Mogut"
 
 #: MediaManage.pas:2809
 msgid "copied"
-msgstr ""
+msgstr "copiat"
 
 #: MediaManage.pas:3400
 msgid "Moving file $src$ to $dest$"
-msgstr ""
+msgstr "Movent el fitxer $src$ to $dest$"
 
 #: MediaManage.pas:3402
 msgid "Copying file $src$ to $dest$"
-msgstr ""
+msgstr "Copiant el fitxer $src$ a $dest$"
 
 #: MediaManage.pas:3610
 msgid "The media '%s' is not inserted."
-msgstr ""
+msgstr "El mitjà '%s' no està inserit."
 
 #: MediaManage.pas:3673
 msgid "Cannot rename directory %s to %s."
-msgstr ""
+msgstr "No es pot canviar el nom del directori %s to %s."
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
 #: MediaMonkeyApp.pas:4570
 msgid "Deleted %d files from %d"
-msgstr ""
+msgstr "Suprimit %d fitxers de %d"
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
 #: MediaMonkeyApp.pas:4627
 msgid "Removed %d files from %d"
-msgstr ""
+msgstr "Eliminat %d fitxer de %d"
 
 #: MediaMonkeyApp.pas:5560
 msgid "Imported"
-msgstr ""
+msgstr "Importat"
 
 #: MediaMonkeyApp.pas:5564
 msgid "Updated"
-msgstr ""
+msgstr "Actualitzat"
 
 #: MediaMonkeyApp.pas:5568 QueryManage.pas:4776 QueryManage.pas:4777
 msgid "Skipped"
-msgstr ""
+msgstr "Omès"
 
 #: MediaMonkeyApp.pas:5580
 msgid "Scan log"
-msgstr ""
+msgstr "Registre d’escaneig"
 
 #: MediaMonkeyApp.pas:5581
 msgid "Operation"
-msgstr ""
+msgstr "Operació"
 
 #: MediaMonkeyApp.pas:6429
 msgid "Lifetime"
-msgstr ""
+msgstr "Vitalícia"
 
 #: MediaMonkeyApp.pas:6469 ResStrings.pas:365
 msgid "Unregistered"
-msgstr ""
+msgstr "No registrat"
 
 #: MediaMonkeyApp.pas:6471
 msgid "Trial version"
-msgstr ""
+msgstr "Versió de proves"
 
 #: MediaMonkeyApp.pas:6473
 msgid "Standard edition"
-msgstr ""
+msgstr "Edició estàndard"
 
 #: MediaMonkeyApp.pas:6585
 msgid "not found!"
-msgstr ""
+msgstr "no trobat!"
 
 #. #16581
 #: MediaMonkeyApp.pas:6935
 msgid "Open tray"
-msgstr ""
+msgstr "Obriu la safata"
 
 #: MediaMonkeyApp.pas:7566
 msgid "Track"
-msgstr ""
+msgstr "Pistes"
 
 #: MediaMonkeyApp.pas:7566 MediaMonkeyApp.pas:7568 MusicUtils.pas:847
 #: controls\autoConvertConfig.html:11
@@ -7340,7 +7441,7 @@ msgstr ""
 
 #: MediaMonkeyApp.pas:7991
 msgid "Edit Properties"
-msgstr ""
+msgstr "Edita les propietats"
 
 #: MediaMonkeyApp.pas:8001
 msgid "Clear list & play selected + subsequent"
@@ -7360,7 +7461,7 @@ msgstr ""
 
 #: MP3Manage.pas:254
 msgid "Compatible: CBR   96 kbps - Fair Quality"
-msgstr ""
+msgstr "Compatible: CBR   96 kbps - Qualitat justa"
 
 #: MP3Manage.pas:1399
 msgid "Preset"
@@ -7378,7 +7479,7 @@ msgstr ""
 
 #: MP3Utils.pas:237
 msgid "Locate Moved/Missing Files"
-msgstr ""
+msgstr "Localitzeu fitxers moguts/que falten"
 
 #: MP3Utils.pas:442 MP3Utils.pas:2683
 msgid "Error scanning directory"
@@ -7613,7 +7714,7 @@ msgstr ""
 #. default auto-playlist name
 #: NewDBCreate.pas:1239
 msgid "Most played (50)"
-msgstr ""
+msgstr "El més reproduït"
 
 #. default auto-playlist name
 #: NewDBCreate.pas:1246
@@ -7668,7 +7769,7 @@ msgstr ""
 #. This podcast is being downloaded
 #: PodcastManage.pas:884 PodcastManage.pas:1249
 msgid "Updating podcast"
-msgstr ""
+msgstr "Actualitzant el podcast"
 
 #. And cache its content on HDD
 #: PodcastManage.pas:1000
@@ -7828,7 +7929,7 @@ msgstr ""
 
 #: QueryManage.pas:4762
 msgid "Random album"
-msgstr ""
+msgstr "Album aleatori"
 
 #: QueryManage.pas:4763
 msgid "Random album (auto-refresh)"
@@ -7865,7 +7966,7 @@ msgstr ""
 #: QueryManage.pas:4774 QueryManage.pas:4775
 #: dialogs\dlgTrackProperties\tabBasic.html:157
 msgid "Original date"
-msgstr ""
+msgstr "Data original"
 
 #: QueryManage.pas:7852 QueryManage.pas:7861
 msgid "Present"
@@ -7936,11 +8037,11 @@ msgstr ""
 
 #: ResStrings.pas:382
 msgid "Added "
-msgstr ""
+msgstr "Afegit "
 
 #: ResStrings.pas:384
 msgid "artists"
-msgstr ""
+msgstr "Artistes"
 
 #: ResStrings.pas:386 dialogs\dlgErrorLog.html:20
 msgid "Save"
@@ -8113,11 +8214,11 @@ msgstr ""
 
 #: ResStrings.pas:718
 msgid "1 unplayed episode"
-msgstr ""
+msgstr "1 episodi sense reproduir"
 
 #: ResStrings.pas:719 ResStrings.pas:720 ResStrings.pas:721 ResStrings.pas:722
 msgid "%d unplayed episodes"
-msgstr ""
+msgstr "%d episodis sense reproduir"
 
 #. is done via app.sharing.setPlayerControlAllowed()
 #: Settings.pas:1355
@@ -8276,7 +8377,7 @@ msgstr ""
 
 #: UPnPTreeHelper.pas:1882
 msgid "Authors"
-msgstr ""
+msgstr "Autors"
 
 #: UPnPTreeHelper.pas:1893
 msgid "Original Year"
@@ -8444,7 +8545,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:35
 msgid "Minimizes to the MiniPlayer"
-msgstr ""
+msgstr "Minimitza al MiniReproductor"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:15
 msgid "Causes the Hotkey to function even when MediaMonkey isn't in focus"
@@ -8557,7 +8658,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:18
 msgid "Level playback volume to:"
-msgstr ""
+msgstr "Nivell de volum de reproducció a:"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:13
 msgid "Cache"
@@ -8832,6 +8933,11 @@ msgid ""
 "priority of these background tasks. By default it is set to 'Lower' so that "
 "these tasks don't slow down other operations."
 msgstr ""
+"MediaMonkey realitza nombroses operacions com ara Còpia de CD, conversió, "
+"etiquetatge, anivellament de volum, etc. en segon pla. Aquesta opció "
+"estableix la prioritat d’aquestes tasques en segon pla. Per defecte, "
+"s'estableix a la \"Baixa\" perquè aquestes tasques no frenin altres "
+"operacions."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:5
 msgid ""
@@ -8855,7 +8961,7 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabBasic.html:124
 msgid "Album artist(s)"
-msgstr ""
+msgstr "Artista(s) del(s) Àlbum(s)"
 
 #: controls\searchView.html:8
 msgid "My Library"
@@ -8891,7 +8997,7 @@ msgstr ""
 
 #: dialogs\videoConvSettings.html:47
 msgid "small"
-msgstr ""
+msgstr "Petit"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
@@ -8947,6 +9053,8 @@ msgid ""
 "Syncs updated metadata such as ratings and play counts from the device to "
 "the PC."
 msgstr ""
+"Sincronitza metadades actualitzades, com ara puntuacions i recompte de "
+"reproduccions des del dispositiu a l'ordinador."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:23
 msgid ""
@@ -9104,7 +9212,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:50
 msgid "Show warning when file to be played is not accessible"
-msgstr ""
+msgstr "Mostra l'avís quan no es pot accedir al fitxer per reproduir"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:3
 msgid "Confirm desired options on copy of Library folders"
@@ -9133,7 +9241,7 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabDetails.html:64
 msgid "Original title"
-msgstr ""
+msgstr "Títol original"
 
 #: dialogs\dlgWizard\pnlRegistration.html:6
 msgid ""
@@ -9228,7 +9336,7 @@ msgstr ""
 
 #: dialogs\dlgConvertFormat.html:46
 msgid "Level Track volume"
-msgstr ""
+msgstr "Nivell de volum de la pista"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Verify ripped tracks"
@@ -9272,7 +9380,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Performance.html:18
 msgid "Ripping"
-msgstr ""
+msgstr "Copiant"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:14
 msgid "Choose how the 'Track summary' field displays for each content Type"
@@ -9421,7 +9529,7 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabBasic.html:126
 msgid "Producer(s)"
-msgstr ""
+msgstr "Productor(s)"
 
 #: controls\autoConvertConfig.html:9
 msgid "Target volume level"
@@ -9620,6 +9728,9 @@ msgid ""
 "being extracted from the CD-ROM. For some older drives, this should be "
 "disabled as it may reduce the quality of encoded files."
 msgstr ""
+"Això accelera la Copia de CD codificant l'àudio al format escollit mentre "
+"s'extreu del CD-ROM. Per a algunes unitats antigues, s'hauria de desactivar "
+"perquè pot reduir la qualitat dels fitxers codificats."
 
 #: dialogs\dlgSleep.html:23
 msgid "% of current volume"
@@ -9684,7 +9795,7 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabBasic.html:19
 msgid "File name"
-msgstr ""
+msgstr "Nom de l'arxiu"
 
 #: dialogs\dlgWizard\pnlShare.html:2
 msgid "Share your library"
@@ -9818,6 +9929,8 @@ msgstr ""
 msgid ""
 "Drag available elements to a panel to be displayed, or to re-order them."
 msgstr ""
+"Arrossegueu els elements disponibles a un tauler per mostrar-los o reordeneu-"
+"los."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:7
 msgid "Artist images"
@@ -9925,6 +10038,10 @@ msgid ""
 "a single file. By default the selected file and others subsequent to it "
 "play. The alternative is that only the selected file plays."
 msgstr ""
+"Això determina quins fitxers es reprodueixen quan s'executa l'ordre "
+"\"Reprodueix ara\" per a un sol fitxer. Per defecte, es reprodueix el fitxer "
+"seleccionat i altres posteriors. L’alternativa és que només es reprodueixi "
+"el fitxer seleccionat."
 
 #: dialogs\dlgOptions\pnl_Performance.html:36
 msgid "Lowest"
@@ -9954,7 +10071,7 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabBasic.html:69
 msgid "Director(s)"
-msgstr ""
+msgstr "Director(s)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:42
 msgid "subdirectory for each playlist type"
@@ -10137,6 +10254,8 @@ msgid ""
 "Import files, playlists, ratings, and playback history from other "
 "applications:"
 msgstr ""
+"Importeu fitxers, llistes de reproducció, puntuacions i historial de "
+"reproducció d'altres aplicacions:"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:10
 msgid "Logout from last.fm service"
@@ -10204,7 +10323,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:47
 msgid "Target volume for ripping Audio CDs:"
-msgstr ""
+msgstr "Volum objectiu per la copia de CD d'àudio:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:68
 msgid ""
@@ -10252,13 +10371,15 @@ msgstr ""
 
 #: dialogs\videoConvSettings.html:23
 msgid "Codec"
-msgstr ""
+msgstr "Còdec"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:30
 msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "Playing list."
 msgstr ""
+"Això determina quantes pistes reproduïdes anteriorment es mostraran a la "
+"llista de reproducció."
 
 #: dialogs\dlgOptions\pnl_InputPlugins.html:10
 msgid "Download more input plug-ins..."
@@ -10275,7 +10396,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:29
 msgid "Audio CD ripping"
-msgstr ""
+msgstr "Copiant CD d’àudio"
 
 #: dialogs\dlgOptions\pnl_Performance.html:12
 msgid "Conversion"
@@ -10306,7 +10427,7 @@ msgstr ""
 
 #: dialogs\dlgChooseFields.html:20
 msgid "Larger"
-msgstr ""
+msgstr "Gran"
 
 #: dialogs\dlgCollectionOptions.html:78
 msgid "Choose"
@@ -10314,7 +10435,7 @@ msgstr ""
 
 #: dialogs\dlgConvertFormat.html:44
 msgid "Eject CD after ripping"
-msgstr ""
+msgstr "Expulseu el CD després de la còpia"
 
 #: dialogs\videoConvSettings.html:102
 msgid "Preserve aspect ratio"
@@ -10355,7 +10476,7 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabBasic.html:167
 msgid "Conductor(s)"
-msgstr ""
+msgstr "Director(s) d'orquestra"
 
 #: dialogs\dlgWizard\pnlRegistration.html:3
 msgid ""
@@ -10436,7 +10557,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:18
 msgid "Sources"
-msgstr ""
+msgstr "Font(s)"
 
 #: dialogs\dlgOptions\pnl_Player.html:61
 msgid "Transparency"
@@ -10557,7 +10678,7 @@ msgstr ""
 
 #: dialogs\dlgOGGSettings.html:36
 msgid " kbps"
-msgstr ""
+msgstr " kbps"
 
 #: dialogs\dlgPodcastSubscription.html:91
 msgid "Displays all episodes including those that have previously been deleted"
@@ -10630,6 +10751,12 @@ msgid ""
 "Album. 'per Track' levels each track independently, preferable when Albums "
 "are rarely played as a whole."
 msgstr ""
+"Determina el mètode que s’utilitza per anivellar el volum per a la "
+"reproducció i la sincronització del dispositiu. Nivells \"per àlbum\" basats "
+"en el volum de l'àlbum co-eficient (si està disponible), conservant les "
+"diferències de volum relatives de les pistes d'un àlbum. \"per pista\" "
+"nivela cada pista de manera independent, preferible quan els àlbums poques "
+"vegades son reproduït en conjunt."
 
 #: dialogs\dlgTrackProperties\tabLyrics.html:9
 msgid "Lookup lyrics"
@@ -10699,7 +10826,7 @@ msgstr ""
 
 #: dialogs\videoConvSettings.html:49
 msgid "large"
-msgstr ""
+msgstr "Gran"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:9
 msgid "Exclude folders:"
@@ -10827,7 +10954,7 @@ msgstr ""
 
 #: dialogs\dlgConvertFormat.html:45
 msgid "Add converted files to the library"
-msgstr ""
+msgstr "Afegiu fitxers convertits a la biblioteca"
 
 #: dialogs\dlgExtensions.html:9
 msgid "Show"
@@ -10937,6 +11064,8 @@ msgstr ""
 msgid ""
 "Causes files of the selected type to not be played when Shuffle is enabled."
 msgstr ""
+"Fa que no es reprodueixin fitxers del tipus seleccionat quan la reproducció "
+"aleatòria està activada."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:9
 msgid ""
@@ -10944,6 +11073,10 @@ msgid ""
 "single file. By default the selected file and others subsequent to it play. "
 "The alternative is that only the selected file plays."
 msgstr ""
+"Això determina quins fitxers es reprodueixen quan s’executa l’ordre "
+"\"Reprodueix ara\" per a un sol fitxer. Per defecte es reprodueix el fitxer "
+"seleccionat i altres posteriors. L’alternativa és que només es reprodueixi "
+"el fitxer seleccionat."
 
 #: dialogs\dlgOptions\pnl_Player.html:51
 msgid "Slow fade-out:"
@@ -10959,7 +11092,7 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabBasic.html:149
 msgid "Composer(s)"
-msgstr ""
+msgstr "Compositor(s)"
 
 #: controls\searchEditor.html:34
 msgid "minutes"
@@ -10967,7 +11100,7 @@ msgstr ""
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:23
 msgid "Image:"
-msgstr ""
+msgstr "Imatge:"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:2
 msgid "Sync playlists automatically"
@@ -10995,7 +11128,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Library.html:57
 msgid "Seconds"
-msgstr ""
+msgstr "segons"
 
 #: dialogs\dlgOptions\pnl_Library.html:75
 msgid ""
@@ -11025,7 +11158,7 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabBasic.html:184
 msgid "Screenwriter(s)"
-msgstr ""
+msgstr "Guionista(s)"
 
 # AIFF enc/dec
 msgid "AIFF settings"
@@ -11057,7 +11190,7 @@ msgstr ""
 
 # WMA encoder
 msgid "WMA settings"
-msgstr ""
+msgstr "Configuració WMA"
 
 msgid "Desktop"
 msgstr ""
@@ -11085,7 +11218,7 @@ msgstr ""
 
 # AAC enc/dec
 msgid "AAC settings"
-msgstr ""
+msgstr "Configuració AAC"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
