@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2021-01-27 20:17\n"
-"PO-Revision-Date: 2021-02-01 22:16+0000\n"
+"PO-Revision-Date: 2021-02-02 21:00+0000\n"
 "Last-Translator: Jordi Xicola <jxicola@gmail.com>\n"
 "Language-Team: Catalan <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ca/>\n"
@@ -5684,7 +5684,7 @@ msgstr "Sincronitzant %s:"
 
 #: helpers/mediaSync.js:3270
 msgid "Scanning"
-msgstr "Escanejant"
+msgstr "Analitzant"
 
 #. non-track paths (jpg, m3u are above this index)
 #: helpers/mediaSync.js:3327 helpers/mediaSync.js:3329
@@ -5750,7 +5750,7 @@ msgstr "Carregant metadades"
 
 #: helpers/mediaSync.js:4080
 msgid "Scanning %s:"
-msgstr "Escanejant% s:"
+msgstr "Analitzant%s:"
 
 #: helpers/searchCommon.js:359
 msgid "Pairing"
@@ -6634,7 +6634,7 @@ msgstr "S'ha produït un problema al baixar el(s) element(s) següent(s):"
 #. seconds
 #: ErrHandlers.pas:444
 msgid "There was a problem scanning the following item(s):"
-msgstr "S'ha produït un problema en escanejar els elements següents:"
+msgstr "S'ha produït un problema en analitzar els elements següents:"
 
 #. seconds
 #: ErrHandlers.pas:456
@@ -7433,11 +7433,11 @@ msgstr "Pistes"
 #: MediaMonkeyApp.pas:7566 MediaMonkeyApp.pas:7568 MusicUtils.pas:847
 #: controls\autoConvertConfig.html:11
 msgid "dB"
-msgstr ""
+msgstr "dB"
 
 #: MediaMonkeyApp.pas:7571 QueryManage.pas:4665
 msgid "Leveling"
-msgstr ""
+msgstr "Anivellament"
 
 #: MediaMonkeyApp.pas:7991
 msgid "Edit Properties"
@@ -7445,19 +7445,19 @@ msgstr "Edita les propietats"
 
 #: MediaMonkeyApp.pas:8001
 msgid "Clear list & play selected + subsequent"
-msgstr ""
+msgstr "Esborra la llista & reprodueix els seleccionats + posterior"
 
 #: MediaMonkeyApp.pas:8002
 msgid "Clear list & play selected only"
-msgstr ""
+msgstr "Esborra la llista i reprodueix només els seleccionats"
 
 #: MediaMonkeyApp.pas:8003
 msgid "Play selected files only"
-msgstr ""
+msgstr "Reprodueix només els fitxers seleccionats"
 
 #: MetadataStorageHandler.pas:1593
 msgid "Problem while updating playlist %s: %s"
-msgstr ""
+msgstr "Problema en actualitzar la llista de reproducció %s: %s"
 
 #: MP3Manage.pas:254
 msgid "Compatible: CBR   96 kbps - Fair Quality"
@@ -7465,17 +7465,19 @@ msgstr "Compatible: CBR   96 kbps - Qualitat justa"
 
 #: MP3Manage.pas:1399
 msgid "Preset"
-msgstr ""
+msgstr "Predeterminat"
 
 #: MP3Manage.pas:1495
 msgid ""
 "To enable advanced codec options (e.g. higher or lower bitrates), please "
 "upgrade to MediaMonkey Gold."
 msgstr ""
+"Per habilitar opcions avançades de còdecs (per exemple, taxes de bits més "
+"altes o inferiors), actualitzeu-vos a MediaMonkey Gold."
 
 #: MP3Manage.pas:3647
 msgid "Removing %s tags %d of %d (%s)"
-msgstr ""
+msgstr "Eliminant %s etiquetes %d de %d (%s)"
 
 #: MP3Utils.pas:237
 msgid "Locate Moved/Missing Files"
@@ -7483,43 +7485,45 @@ msgstr "Localitzeu fitxers moguts/que falten"
 
 #: MP3Utils.pas:442 MP3Utils.pas:2683
 msgid "Error scanning directory"
-msgstr ""
+msgstr "Error en analitzar el directori"
 
 #: MP3Utils.pas:442 MP3Utils.pas:2683
 msgid "This directory is used exclusively for:"
-msgstr ""
+msgstr "Aquest directori s'utilitza exclusivament per a:"
 
 #: MP3Utils.pas:1220
 msgid ""
 "This assists you in locating files that have been moved to other locations, "
 "and is only available with the Gold version."
 msgstr ""
+"Això us ajuda a localitzar fitxers que s'han mogut a altres ubicacions, i "
+"només està disponible amb la versió Gold."
 
 #: MP3Utils.pas:1235
 msgid "Preparing list of files"
-msgstr ""
+msgstr "S'està preparant la llista d'arxius"
 
 #: MP3Utils.pas:1261
 msgid "Scanning for moved files in %s (%d files scanned)."
-msgstr ""
+msgstr "S'està cercant fitxers moguts a %s (%d fitxers analitzats)."
 
 #. There are yet tracks to be found, try the second pass
 #: MP3Utils.pas:1337
 msgid "Scanning for moved files - 2nd pass (%d of %d files scanned)."
-msgstr ""
+msgstr "S'estan cercant fitxers moguts: 2on pas (%d de %d fitxers analitzats)."
 
 #: MP3Utils.pas:1431
 msgid "Updating file %d of %d."
-msgstr ""
+msgstr "Actualitzant el fitxer %d de %d."
 
 #. fail of this isn't a reason for terminating scanning
 #: MP3Utils.pas:1671 MP3Utils.pas:2863 MP3Utils.pas:2879
 msgid "Error scanning file"
-msgstr ""
+msgstr "Error en analitzar el fitxer"
 
 #: MP3Utils.pas:1671 MP3Utils.pas:2879
 msgid "error occured while scanning"
-msgstr ""
+msgstr "s'ha produït un error en analitzar"
 
 #: MP3Utils.pas:1693 MP3Utils.pas:1972
 msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
@@ -7531,7 +7535,7 @@ msgstr ""
 
 #: MP3Utils.pas:2047
 msgid "Problem with scanning directory %s."
-msgstr ""
+msgstr "Problema amb l'exploració del directori %s."
 
 #: MP3Utils.pas:2796
 msgid "file is too short or too small"
@@ -9373,6 +9377,8 @@ msgstr ""
 #: dialogs\dlgOptions\pnl_Library.html:61
 msgid "Update file info from tags when rescanning files"
 msgstr ""
+"Actualitzeu la informació dels fitxers de les etiquetes quan torneu a "
+"analitzar fitxers"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:19
 msgid "Disable repositioning of dialogs and controls"
