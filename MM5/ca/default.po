@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2021-01-27 20:17\n"
-"PO-Revision-Date: 2021-02-05 14:57+0000\n"
+"PO-Revision-Date: 2021-02-05 19:02+0000\n"
 "Last-Translator: Jordi Xicola <jxicola@gmail.com>\n"
 "Language-Team: Catalan <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ca/>\n"
@@ -896,7 +896,7 @@ msgstr "Seleccionar tot"
 
 #: actions.js:3191
 msgid "Focus tracklist on currently playing item"
-msgstr "Enfoca la llista de cançons a l'element que es reprodueix actualment"
+msgstr "Llista de cançons basada en els elements que es reprodueix actualment"
 
 #: actions.js:3221
 msgid "Cancel selection"
@@ -3143,7 +3143,7 @@ msgstr "Mostra tots els subnodes"
 #. to hide the expand marks for corresponding nodes
 #: controls/mediaTree.js:223
 msgid "Focus tree nodes when browsing content"
-msgstr "Centreu-vos en l'abre de nodes quan navegueu pel contingut"
+msgstr "Mostreu els nodes d’arbre quan navegueu pel contingut"
 
 #: controls/mediaTree.js:231
 msgid "Collapse the tree"
@@ -4290,7 +4290,7 @@ msgstr "Trieu un àlbum"
 #: dialogs/dlgClientConfig.js:7 dialogs/dlgOptions.js:115
 #: dialogs/dlgServerConfig.js:5
 msgid "Media Sharing"
-msgstr "Compartir multimèdia"
+msgstr "Ús compartit de suports"
 
 #: dialogs/dlgCollectionOptions.js:55
 msgid "Collection Options"
@@ -8102,69 +8102,71 @@ msgstr "Virtual"
 
 #: ResStrings.pas:430
 msgid "Length (seconds)"
-msgstr ""
+msgstr "Durada (segons)"
 
 #: ResStrings.pas:451
 msgid "File length"
-msgstr ""
+msgstr "Llargada del fitxer"
 
 #: ResStrings.pas:475 dialogs\dlgOptions\pnl_MetadataLookup.html:59
 msgid "Select"
-msgstr ""
+msgstr "Seleccioneu"
 
 #: ResStrings.pas:533
 msgid "equals"
-msgstr ""
+msgstr "és igual"
 
 #: ResStrings.pas:535
 msgid "starts with"
-msgstr ""
+msgstr "comença per"
 
 #: ResStrings.pas:536
 msgid "doesn't equal"
-msgstr ""
+msgstr "no és igual"
 
 #: ResStrings.pas:537
 msgid "doesn't contain"
-msgstr ""
+msgstr "no conté"
 
 #: ResStrings.pas:538
 msgid "doesn't start with"
-msgstr ""
+msgstr "no comença per"
 
 #: ResStrings.pas:539
 msgid "between"
-msgstr ""
+msgstr "entre"
 
 #: ResStrings.pas:541
 msgid "is not"
-msgstr ""
+msgstr "no és"
 
 #: ResStrings.pas:543
 msgid "Analyzing volume"
-msgstr ""
+msgstr "Analitzant el volum"
 
 #: ResStrings.pas:548
 msgid "No Audio CD was found. Please insert a CD."
-msgstr ""
+msgstr "No s'ha trobat cap CD d'àudio. Introduïu un CD."
 
 #: ResStrings.pas:550
 msgid "Table of Contents of CD-ROM %s: was not read successfully."
-msgstr ""
+msgstr "Taula de continguts del CD-ROM %s: no s'ha llegit correctament."
 
 #: ResStrings.pas:552
 msgid "There was a problem querying the database: "
-msgstr ""
+msgstr "S'ha produït un problema en consultar la base de dades: "
 
 #: ResStrings.pas:555
 msgid ""
 "Files from the following locations are currently inaccessible:\n"
 "%sPlease reconnect the drive or insert the CDs."
 msgstr ""
+"Actualment, els fitxers de les ubicacions següents són inaccessibles:\n"
+"%s Torneu a connectar la unitat o introduïu els CD."
 
 #: ResStrings.pas:557
 msgid "Time-out error occured while connecting to Freedb."
-msgstr ""
+msgstr "S'ha produït un error de temps d'espera en connectar-se a Freedb."
 
 #: ResStrings.pas:563
 msgid ""
@@ -8172,54 +8174,58 @@ msgid ""
 "example, browse your classical music collection independently of your other "
 "music. Collections can only be edited with the Gold version."
 msgstr ""
+"Les col·leccions us permeten definir subconjunts de la biblioteca per poder, "
+"per exemple, navegar per la vostra col·lecció de música clàssica "
+"independentment de la vostra altra música. Les col·leccions només es poden "
+"editar amb la versió Gold."
 
 #: ResStrings.pas:570
 msgid "Information"
-msgstr ""
+msgstr "Informació"
 
 #: ResStrings.pas:581
 msgid "Language(s)"
-msgstr ""
+msgstr "Idioma (s)"
 
 #: ResStrings.pas:695
 msgid "recent episodes first"
-msgstr ""
+msgstr "primer els episodis recents"
 
 #: ResStrings.pas:696
 msgid "older episodes first"
-msgstr ""
+msgstr "primer els episodis més antics"
 
 #: ResStrings.pas:697
 msgid "all episodes"
-msgstr ""
+msgstr "tots els episodis"
 
 #: ResStrings.pas:698
 msgid "no episodes"
-msgstr ""
+msgstr "cap episodi"
 
 #: ResStrings.pas:708
 msgid "from the past 24 hours"
-msgstr ""
+msgstr "de les darreres 24 hores"
 
 #: ResStrings.pas:709
 msgid "from the past 2 days"
-msgstr ""
+msgstr "dels darrers 2 dies"
 
 #: ResStrings.pas:710
 msgid "from the past 3 days"
-msgstr ""
+msgstr "dels darrers 3 dies"
 
 #: ResStrings.pas:711
 msgid "from the past week"
-msgstr ""
+msgstr "de la setmana passada"
 
 #: ResStrings.pas:712
 msgid "from the past 2 weeks"
-msgstr ""
+msgstr "de les darreres 2 setmanes"
 
 #: ResStrings.pas:713
 msgid "from the past month"
-msgstr ""
+msgstr "del darrer mes"
 
 #: ResStrings.pas:718
 msgid "1 unplayed episode"
@@ -8232,58 +8238,61 @@ msgstr "%d episodis sense reproduir"
 #. is done via app.sharing.setPlayerControlAllowed()
 #: Settings.pas:1355
 msgid "MediaMonkey Player"
-msgstr ""
+msgstr "Reproductor de MediaMonkey"
 
 #: Shutdowner.pas:173
 msgid "Your computer is going to shutdown"
-msgstr ""
+msgstr "L'ordinador s'apagarà"
 
 #: Shutdowner.pas:185
 msgid "Your computer is going to hibernate"
-msgstr ""
+msgstr "L'ordinador s'apagarà"
 
 #: Shutdowner.pas:197
 msgid "Your computer is going to sleep"
-msgstr ""
+msgstr "L’ordinador s'aturarà temporalment"
 
 #: Shutdowner.pas:209
 msgid "Your computer is going to log off"
-msgstr ""
+msgstr "Es tancarà la sessió en el vostre equip"
 
 #: Shutdowner.pas:259
 msgid "Sleep: %d minutes"
-msgstr ""
+msgstr "S'aturarà temporalment: %d minuts"
 
 #: Shutdowner.pas:259
 msgid "Sleep: %d minute"
-msgstr ""
+msgstr "S'aturarà temporalment: %d minuts"
 
 #. #13718 - item 1
 #: UpNp.pas:2375
 msgid "Casting"
-msgstr ""
+msgstr "Difusió"
 
 #: UpNp.pas:3451
 msgid "MediaMonkey Library"
-msgstr ""
+msgstr "Biblioteca de MediaMonkey"
 
 #: UpNp.pas:3735
 msgid "Media server '%s' could not start: port %d is already in use."
 msgstr ""
+"El servidor de suports '%s' no s'ha pogut iniciar: el port %d ja està en ús."
 
 #: UpNp.pas:3736
 msgid ""
 "Check whether another instance of MediaMonkey is already running or change "
 "the port# in Options > Media Sharing."
 msgstr ""
+"Comproveu si ja s’està executant una altra instància de MediaMonkey o "
+"canvieu el número de port# a Opcions> Ús compartit de suports."
 
 #: UpNp.pas:4150
 msgid "Denied"
-msgstr ""
+msgstr "Negat"
 
 #: UpNp.pas:4152
 msgid "Accepted"
-msgstr ""
+msgstr "Acceptat"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this is request to (un)check this item on the sync list for particular device
@@ -8292,42 +8301,42 @@ msgstr ""
 #: UpNp.pas:4442 UpNp.pas:5166 UpNp.pas:5923
 #: controls\deviceConfig\options\pnl_FileLocations.html:73
 msgid "Root directory"
-msgstr ""
+msgstr "Directori arrel"
 
 #: UpNp.pas:5378 UpNp.pas:5384
 msgid "This is an external IP address!"
-msgstr ""
+msgstr "Aquesta és una adreça IP externa!"
 
 #: UpNp.pas:5380 UpNp.pas:5387
 msgid "Do you want to grant it access?"
-msgstr ""
+msgstr "Voleu concedir-hi accés?"
 
 #. Access is not allowed, ask user to allow access
 #: UpNp.pas:5488
 msgid "A device [MAC address: %s] is attempting to access the %s"
-msgstr ""
+msgstr "Un dispositiu [adreça MAC: %s] intenta accedir a %s"
 
 #. WiFi sync
 #: UpNp.pas:5510
 msgid "Access denied"
-msgstr ""
+msgstr "Accés denegat"
 
 #: UpNp.pas:5595
 msgid "All files"
-msgstr ""
+msgstr "Tots els fitxers"
 
 #: UpNp.pas:7988
 msgid "Connecting to"
-msgstr ""
+msgstr "Connectant-se a"
 
 #. some players (e.g. Samsung) requires Stop before setting another track (#10298: Next has no effect when player is Samsung TV)
 #: UpNp.pas:8069
 msgid "Stopping on"
-msgstr ""
+msgstr "Parant"
 
 #: UpNp.pas:8129
 msgid "The %s player is turned off or inaccessible."
-msgstr ""
+msgstr "El reproductor %s està apagat o inaccessible."
 
 #. to not enter sleep mode when we are playing to a receiver and all data is already buffered by the receiver (#15089)
 #. to not show "turned off or inaccessible" message, but just skip to the next file
@@ -8559,6 +8568,8 @@ msgstr "Minimitza al MiniReproductor"
 #: dialogs\dlgOptions\pnl_Hotkeys.html:15
 msgid "Causes the Hotkey to function even when MediaMonkey isn't in focus"
 msgstr ""
+"Fa que la tecla d'accés directe funcioni fins i tot quan MediaMonkey no està "
+"actiu"
 
 #: dialogs\dlgOptions\pnl_InputPlugins.html:4
 msgid "About..."
@@ -9522,6 +9533,11 @@ msgid ""
 "Digital Media Server. If you wish to play content from MediaMonkey's "
 "library, you must also enable Media Sharing."
 msgstr ""
+"Permet que MediaMonkey es comporti com un renderitzador de suports digitals "
+"de manera que pugui reproduir contingut des d’un controlador de suports "
+"digitals que recupera contingut d’un servidor de suports digitals. Si voleu "
+"reproduir contingut de la biblioteca de MediaMonkey, també heu d’habilitar l’"
+"ús compartit de suports."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:45
 msgid ""
@@ -9922,7 +9938,7 @@ msgstr ""
 
 #: dialogs\dlgSleep.html:31
 msgid "Cancel Sleep"
-msgstr ""
+msgstr "Cancel·la aturarada temporal"
 
 #: dialogs\videoConvSettings.html:59
 msgid "Bitrate (for max. res.)"
@@ -10920,6 +10936,8 @@ msgstr ""
 #: dialogs\dlgWizard\pnlRegistration.html:15
 msgid "Plus improved performance and tuning options, Sleep timer, etc."
 msgstr ""
+"A més a més un rendiment millorat i opcions d’ajust, temporitzador de "
+"aturada temporal, etc."
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Recommends Artwork and track metadata for newly imported tracks"
