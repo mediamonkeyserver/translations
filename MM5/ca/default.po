@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2021-01-27 20:17\n"
-"PO-Revision-Date: 2021-02-07 06:25+0000\n"
+"PO-Revision-Date: 2021-02-08 11:40+0000\n"
 "Last-Translator: Jordi Xicola <jxicola@gmail.com>\n"
 "Language-Team: Catalan <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ca/>\n"
@@ -4558,8 +4558,8 @@ msgid ""
 msgstr ""
 "S'ha detectat un %s. Es pot utilitzar per emmagatzemar i compartir una part "
 "de la vostra biblioteca amb diversos clients MediaMonkey encara que aquesta "
-"ocasió MediaMonkey no estigui en execució. Es pot gestionar i accedir al "
-"contingut del servidor MediaMonkey mitjançant MediaMonkey com si el "
+"instància de MediaMonkey no estigui en execució. Es pot gestionar i accedir "
+"al contingut del servidor MediaMonkey mitjançant MediaMonkey com si el "
 "contingut fos local, sempre que el servidor sigui accessible. Si no, el "
 "contingut es pot emmagatzemar a la memòria cau localment."
 
@@ -6155,7 +6155,7 @@ msgid ""
 "rip)"
 msgstr ""
 "El seguiment de %s s'ha verificat amb el número de confiança %d (nombre de "
-"persones que coincideixen amb la vostre extracció)"
+"persones que coincideixen amb la vostre còpia)"
 
 #: CDUtils.pas:1410
 msgid "this CD doesn't exist in the database"
@@ -8434,50 +8434,53 @@ msgid ""
 "Current audio configuration cannot play %s. Verify that your sound drivers "
 "are properly installed or try to change/re-configure the output plugin."
 msgstr ""
+"La configuració d'àudio actual no pot reproduir %s. Verifiqueu que els "
+"controladors de so estiguin instal·lats correctament o proveu de canviar/"
+"tornar a configurar el connector de sortida."
 
 #: WMAUtils.pas:332
 msgid "WMA is not supported. The codec must first be installed."
-msgstr ""
+msgstr "WMA no és compatible. Primer s’ha d’instal·lar el còdec."
 
 #: controls\searchEditor.html:29
 msgid "Limit to"
-msgstr ""
+msgstr "Limitat a"
 
 #: controls\nowPlaying\fullList.html:42
 msgid "Coming up: "
-msgstr ""
+msgstr "Següent: "
 
 #: dialogs\dlgAutoConvertRule.html:28
 msgid "To the following format:"
-msgstr ""
+msgstr "Al format següent:"
 
 #: dialogs\dlgPodcastSubscription.html:85
 msgid "most recent episodes"
-msgstr ""
+msgstr "els episodis més recents"
 
 #: dialogs\dlgPodcastSubscription.html:59
 msgid "Delete episodes older than"
-msgstr ""
+msgstr "Suprimeix els episodis anteriors a"
 
 #: dialogs\dlgRegisterGold.html:18
 msgid "License key"
-msgstr ""
+msgstr "El número de llicència"
 
 #: dialogs\videoConvSettings.html:40
 msgid "Output quality"
-msgstr ""
+msgstr "Qualitat de sortida"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:29
 msgid "This changes the header for each custom field."
-msgstr ""
+msgstr "Això canvia la capçalera de cada camp personalitzat."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
-msgstr ""
+msgstr "Aplica els canvis fets a una entrada de tecla ràpida existent"
 
 #: dialogs\dlgOptions\pnl_Library.html:145
 msgid ".nfo files"
-msgstr ""
+msgstr "fitxers .nfo"
 
 #: dialogs\dlgOptions\pnl_Library.html:97
 msgid ""
@@ -8486,41 +8489,51 @@ msgid ""
 "highly organized directory structure, in which case 'Filename + Path' will "
 "yield better results."
 msgstr ""
+"Les propietats es poden inferir a partir de \"Nom de fitxer\" o \"Nom de "
+"fitxer + ruta\". En general, és millor inferir només dels noms de fitxer, "
+"tret que els fitxers estiguin organitzats en una estructura de directoris "
+"altament organitzada, en aquest cas 'Nom de fitxer + ruta' donarà millors "
+"resultats."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:2
 msgid ""
 "If enabled, will prompt for a password when attempting to exit Party Mode."
 msgstr ""
+"Si està activat, se us demanarà una contrasenya quan intenteu sortir del "
+"mode festa."
 
 #: dialogs\dlgOptions\pnl_Performance.html:43
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "Activa el desplaçament suau"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:21
 msgid "ID3v2 text encoding:"
-msgstr ""
+msgstr "Codificació de text ID3v2:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:12
 msgid "ID3v2.3 tags"
-msgstr ""
+msgstr "Etiquetes ID3v2.3"
 
 #: controls\devicesView.html:40
 msgid "Add"
-msgstr ""
+msgstr "Afegeix"
 
 #: controls\playlistHeader.html:7
 msgid "Discard changes"
-msgstr ""
+msgstr "Descartar els canvis"
 
 #: controls\tvCollectionView.html:3
 msgid "Recently watched series"
-msgstr ""
+msgstr "Sèries vistes recentment"
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:82
 msgid ""
 "Describes directories other than the above that are scanned for media when "
 "syncing. Limit the directories scanned so as not to hurt performance."
 msgstr ""
+"Descriu directoris diferents dels anteriors que s’exploren per a suports "
+"quan es sincronitzen. Limiteu els directoris escanejats per no perjudicar el "
+"rendiment."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:38
 msgid ""
@@ -8528,39 +8541,43 @@ msgid ""
 "separate directories, or are simply prefaced with text indicating whether it "
 "is an Album or Artist."
 msgstr ""
+"Això determina si les llistes de reproducció d'àlbums, artistes, etc. es "
+"desen en directoris separats o simplement estan precedits amb un text que "
+"indica si es tracta d'un àlbum o d'un artista."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "Use Linux folder separator ('/' instead of '\\')"
-msgstr ""
+msgstr "Utilitzeu el separador de carpetes Linux ('/' en lloc de '\\')"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:32
 msgid "Use extended M3U"
-msgstr ""
+msgstr "Utilitzeu M3U ampliat"
 
 #: controls\serverConfig\server.html:11
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: dialogs\dlgAbout.html:25
 msgid "License"
-msgstr ""
+msgstr "Llicència"
 
 #: dialogs\dlgAutotag.html:19
 msgid "Confirm All"
-msgstr ""
+msgstr "Confirmeu-ho tot"
 
 #: dialogs\dlgConvertFormat.html:37
 msgid "Rip type"
-msgstr ""
+msgstr "Tipus de còpia"
 
 #: dialogs\dlgPodcastSubscription.html:53
 msgid ""
 "Defines how many new episodes are downloaded if new episodes are detected"
 msgstr ""
+"Defineix quants episodis nous es descarreguen si es detecten episodis nous"
 
 #: dialogs\dlgSupportedFormat.html:25
 msgid "Audio format"
-msgstr ""
+msgstr "Audio format"
 
 #: dialogs\dlgOptions\pnl_General.html:35
 msgid "Minimizes to the MiniPlayer"
@@ -8578,37 +8595,39 @@ msgstr "En quan a ..."
 
 #: dialogs\dlgOptions\pnl_Library.html:79
 msgid "Show scan results dialog when scan is done."
-msgstr ""
+msgstr "Mostra el quadre de diàleg de resultats quan s'hagi acabat l'escaneig."
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:10
 msgid ""
 "Saves auto-converted content to a temporary cache so that it can be re-used, "
 "as needed."
 msgstr ""
+"Desa el contingut convertit automàticament en una memòria cau temporal "
+"perquè es pugui tornar a utilitzar, segons sigui necessari."
 
 #: dialogs\dlgOptions\pnl_Performance.html:37
 msgid "Lower"
-msgstr ""
+msgstr "Baix"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disable crossfading"
-msgstr ""
+msgstr "Inhabiliteu l'esvaïment"
 
 #: dialogs\dlgOptions\pnl_Player.html:73
 msgid "Opaque"
-msgstr ""
+msgstr "Opac"
 
 #: dialogs\dlgOptions\pnl_Player.html:30
 msgid "Default 'Play now' action"
-msgstr ""
+msgstr "Acció predeterminada \"Reprodueix ara\""
 
 #: dialogs\dlgOptions\pnl_Player.html:46
 msgid "Indicates how long the Pop-up should display"
-msgstr ""
+msgstr "Indica quant de temps ha de mostrar-se la finestra emergent"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:15
 msgid "ID3v1 and v2.4 tags"
-msgstr ""
+msgstr "Etiquetes ID3v1 i v2.4"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:18
 msgid ""
@@ -8616,66 +8635,70 @@ msgid ""
 "previously analyzed volume leveling coefficients. It has no effect on tracks "
 "that do not have such a coefficient."
 msgstr ""
+"Si està activat, MediaMonkey ajusta el volum a l'objectiu del reproductor, "
+"utilitzant coeficients d'anivellament de volum analitzats prèviament. No té "
+"cap efecte en les pistes que no tinguin aquest coeficient."
 
 #: controls\windowtitle.html:18
 msgid "Restore window"
-msgstr ""
+msgstr "Restaurar finestra"
 
 #: controls\serverConfig\devices.html:3
 msgid "Share automatically with all new devices"
-msgstr ""
+msgstr "Comparteix automàticament amb tots els dispositius nous"
 
 #: dialogs\dlgAddonInstall.html:49
 msgid "Malicious software can damage your computer or violate your privacy."
 msgstr ""
+"El programari maliciós pot danyar l’ordinador o violar la vostra privadesa."
 
 #: dialogs\dlgAutoConvertRule.html:49
 msgid "High"
-msgstr ""
+msgstr "Alt"
 
 #: dialogs\dlgSleep.html:27
 msgid "Action at end:"
-msgstr ""
+msgstr "Acció al final:"
 
 #: dialogs\videoConvSettings.html:31
 msgid "Max. resolution"
-msgstr ""
+msgstr "Màx. resolució"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:33
 msgid "Automatically retain"
-msgstr ""
+msgstr "Conserva automàticament"
 
 #: dialogs\dlgOptions\pnl_General.html:19
 msgid "Allow just one instance of MediaMonkey"
-msgstr ""
+msgstr "Permetre només una instància de MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid "Shows the MediaMonkey icon in the system tray"
-msgstr ""
+msgstr "Mostra la icona de MediaMonkey a la safata del sistema"
 
 #: dialogs\dlgOptions\pnl_Library.html:125
 msgid "Video properties:"
-msgstr ""
+msgstr "Propietats del vídeo:"
 
 #: dialogs\dlgOptions\pnl_Library.html:64
 msgid "Only for files with changed timestamp or size"
-msgstr ""
+msgstr "Només per a fitxers amb marca de temps o mida canviades"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:18
 msgid "This locks the current configuration of Party Mode."
-msgstr ""
+msgstr "Això bloqueja la configuració actual del Mode Festa."
 
 #: dialogs\dlgOptions\pnl_Performance.html:24
 msgid "Volume analysis"
-msgstr ""
+msgstr "Anàlisi de volum"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:14
 msgid "ID3v1 and v2.3 tags"
-msgstr ""
+msgstr "Etiquetes ID3v1 i v2.3"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:76
 msgid "Audio/Video"
-msgstr ""
+msgstr "Àudio/Video"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:18
 msgid "Level playback volume to:"
@@ -8683,45 +8706,49 @@ msgstr "Nivell de volum de reproducció a:"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:13
 msgid "Cache"
-msgstr ""
+msgstr "Memòria cau"
 
 #: Scripts\statistics\dialogs\dlgStatistics.html:24
 msgid "Fetching data"
-msgstr ""
+msgstr "Obtenint dades"
 
 #: dialogs\dlgAutoOrganizeRule.html:8
 msgid "File Criteria"
-msgstr ""
+msgstr "Criteris de fitxers"
 
 #: dialogs\dlgConvertFormat.html:30
 msgid "Settings"
-msgstr ""
+msgstr "Configuració"
 
 #: dialogs\dlgExtensions.html:19
 msgid "Find updates"
-msgstr ""
+msgstr "Cerqueu actualitzacions"
 
 #: dialogs\dlgMP3Settings.html:91
 msgid "Use bit reservoir"
-msgstr ""
+msgstr "Utilitzeu un dipòsit de bits"
 
 #: dialogs\dlgPodcastSubscription.html:63
 msgid "1 week"
-msgstr ""
+msgstr "1 setmana"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the Playing list when it runs out."
 msgstr ""
+"Això activa la funció Auto-DJ, que fa que les pistes s'afegeixin "
+"automàticament a la llista de reproducció quan s'esgoti."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:9
 msgid "Confirm desired options on removal of files from Playlist"
 msgstr ""
+"Confirmeu les opcions desitjades per eliminar fitxers de la llista de "
+"reproducció"
 
 #: dialogs\dlgOptions\pnl_General.html:7
 msgid "Check for updates (when connected)"
-msgstr ""
+msgstr "Comproveu si hi ha actualitzacions (quan estigueu connectat)"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -8729,20 +8756,25 @@ msgid ""
 "English characters. Note that some players may not support unicode .m3u "
 "playlists."
 msgstr ""
+"Això fa que MediaMonkey desi fitxers .m3u en un format que conservi "
+"caràcters no anglesos. Tingueu en compte que és possible que alguns "
+"reproductors no admetin llistes de reproducció .m3u unicode."
 
 #: dialogs\dlgWizard\pnlRegistration.html:8
 msgid ""
 "full auto-tagging functionality (faster, unlimited lookups, and background "
 "lookups)"
 msgstr ""
+"funcionalitat completa d'etiquetatge automàtic (cerques més ràpides i il·"
+"limitades i cerques en segon pla)"
 
 #: controls\windowtitle.html:17
 msgid "Maximize window"
-msgstr ""
+msgstr "Maximitza la finestra"
 
 #: controls\clientConfig\autoConvert.html:2
 msgid "Customize for this device"
-msgstr ""
+msgstr "Personalitza aquest dispositiu"
 
 #: controls\deviceConfig\syncFromDevice.html:8
 msgid ""
@@ -8750,54 +8782,58 @@ msgid ""
 "Note that content already synced from the PC to the Device will update "
 "within the existing locations."
 msgstr ""
+"Trieu la carpeta del PC amb la qual se sincronitzarà el contingut nou del "
+"dispositiu. Tingueu en compte que el contingut ja sincronitzat del PC al "
+"dispositiu s'actualitzarà a les ubicacions existents."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:14
 msgid "Selected folder nodes"
-msgstr ""
+msgstr "Nodes de carpeta seleccionats"
 
 #: dialogs\dlgMP3Settings.html:17
 msgid "Use manual settings"
-msgstr ""
+msgstr "Utilitzeu la configuració manual"
 
 #: dialogs\dlgOGGSettings.html:14
 msgid "by Bitrate"
-msgstr ""
+msgstr "per taxa de bits"
 
 #: dialogs\dlgPodcastSubscription.html:62
 msgid "3 days"
-msgstr ""
+msgstr "3 dies"
 
 #: dialogs\dlgPodcastSubscription.html:76
 msgid "Prevents recent episodes from being deleted."
-msgstr ""
+msgstr "Evita que se suprimeixin els episodis recents."
 
 #: dialogs\dlgSupportedFormat.html:51
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:10
 msgid "(requires restart)"
-msgstr ""
+msgstr "(requereix reinici)"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:27
 msgid "Confirm sync operation when there's not enough space available"
 msgstr ""
+"Confirmeu l'operació de sincronització quan no hi ha prou espai disponible"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:7
 msgid "Active layout"
-msgstr ""
+msgstr "Disseny actiu"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:35
 msgid "When playback is stopped:"
-msgstr ""
+msgstr "Quan la reproducció està aturada:"
 
 #: dialogs\dlgOptions\pnl_Player.html:90
 msgid "Horizontal"
-msgstr ""
+msgstr "Horitzontal"
 
 #: dialogs\dlgOptions\pnl_Search.html:21
 msgid "Search whole words only"
-msgstr ""
+msgstr "Cerqueu només paraules senceres"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:76
 msgid ""
@@ -8806,10 +8842,15 @@ msgid ""
 "Series/Movie is contained within a folder b) for all images when multiple "
 "Albums/Series/Movies are contained within a folder."
 msgstr ""
+"Aquest nom de fitxer s'utilitza sempre que s'emmagatzema més d'una imatge en "
+"una carpeta. S'utilitza a) per a imatges diferents de la primera imatge, "
+"quan només hi ha un sol àlbum / sèrie / pel·lícula dins d'una carpeta b) per "
+"a totes les imatges quan hi ha diversos àlbums / sèries / pel·lícules dins "
+"d'una carpeta."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:36
 msgid "Level ripped tracks:"
-msgstr ""
+msgstr "Nivel de pistes extretesl:"
 
 #: controls\autoConvertConfig.html:7
 msgid ""
@@ -8817,27 +8858,33 @@ msgid ""
 "files). Mainly for older devices that can't adjust volume on the fly via "
 "Replay Gain tags."
 msgstr ""
+"Ajusta el volum de fitxers al nivell escollit (sense pèrdues només per a "
+"fitxers MP3). Principalment per a dispositius antics que no poden ajustar el "
+"volum sobre la marxa mitjançant les etiquetes Replay Gain."
 
 #: controls\devicesView.html:31
 msgid ""
 "For example 192.168.1.130:55963. You can find this in the server's settings."
 msgstr ""
+"Per exemple 192.168.1.130:55963. Ho podeu trobar a la configuració del "
+"servidor."
 
 #: controls\searchEditor.html:9
 msgid "Match"
-msgstr ""
+msgstr "Coincidir"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:18
 msgid "Playlist format"
-msgstr ""
+msgstr "Format de llista de reproducció"
 
 #: controls\serverConfig\devices.html:2
 msgid "Update play count when playing remotely"
 msgstr ""
+"Actualitza el contador de reproduccions quan es reprodueix de forma remota"
 
 #: dialogs\dlgMovedFiles.html:8
 msgid "Update the Library with the new location for the following files:"
-msgstr ""
+msgstr "Actualitzeu la biblioteca amb la nova ubicació dels fitxers següents:"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:12
 msgid ""
@@ -8846,38 +8893,46 @@ msgid ""
 "'Beatles' will appear directly adjacent to one another if this is enabled "
 "and 'the' is configured."
 msgstr ""
+"Això fa que MediaMonkey ignori els prefixos especificats quan s’ordenen ("
+"separeu diversos prefixos amb un ','). Per exemple, \"The Beatles\" i "
+"\"Beatles\" apareixeran directament adjacents entre si, en el cas d'està "
+"activat i el \"the\" està configurat."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:6
 msgid ""
 "This determines how many tracks Auto-DJ will add to the Playing list when "
 "the list begins to empty."
 msgstr ""
+"Això determina quantes pistes Auto-DJ afegirà a la llista de reproducció "
+"quan la llista comenci a buidar-se."
 
 #: dialogs\dlgOptions\pnl_General.html:26
 msgid "Minimization settings:"
-msgstr ""
+msgstr "Configuració de minimització:"
 
 #: dialogs\dlgOptions\pnl_General.html:40
 msgid ""
 "This option causes MediaMonkey to never truly close--it always runs in the "
 "background, and is always accessible via the system tray."
 msgstr ""
+"Aquesta opció fa que MediaMonkey mai no es tanqui realment: sempre s'executa "
+"en segon pla i sempre és accessible a la safata del sistema."
 
 #: dialogs\dlgOptions\pnl_General.html:29
 msgid "Minimizes to the Taskbar"
-msgstr ""
+msgstr "Es redueix al mínim a la barra de tasques"
 
 #: dialogs\dlgOptions\pnl_Library.html:117
 msgid "Tags then Playlists"
-msgstr ""
+msgstr "Etiquetes i després les llistes de reproducció"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
 msgid "Default action for files:"
-msgstr ""
+msgstr "Acció predeterminada per als fitxers:"
 
 #: dialogs\dlgOptions\pnl_Player.html:23
 msgid "From other applications..."
-msgstr ""
+msgstr "Des d’altres aplicacions ..."
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:18
 msgid "Notify last.fm about playing tracks"
@@ -8885,15 +8940,15 @@ msgstr "Notifiqueu a last.fm la reproducció de pistes"
 
 #: controls\searchEditor.html:14
 msgid "of the following criteria"
-msgstr ""
+msgstr "dels següents criteris"
 
 #: controls\deviceConfig\syncToDevice.html:18
 msgid "Unselected Library files"
-msgstr ""
+msgstr "Fitxers de biblioteca no seleccionats"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "This format is used by some devices"
-msgstr ""
+msgstr "Aquest format l’utilitzen alguns dispositius"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:5
 msgid "Copies tagged artwork to folders for devices that don't read image tags"
@@ -8903,27 +8958,27 @@ msgstr ""
 
 #: controls\serverConfig\server.html:18
 msgid "Accept external IP addresses"
-msgstr ""
+msgstr "Accepteu adreces IP externes"
 
 #: dialogs\dlgAddArtwork.html:33
 msgid "Apply to all files in the Album/Series"
-msgstr ""
+msgstr "Apliqueu-lo a tots els fitxers de l'àlbum/sèrie"
 
 #: dialogs\dlgAddonInstall.html:11
 msgid "This action will install the following product"
-msgstr ""
+msgstr "Aquesta acció instal·larà el producte següent"
 
 #: dialogs\dlgPodcastSubscription.html:54
 msgid "On update, download"
-msgstr ""
+msgstr "Amb una nova actualització a punt, baixeu-la"
 
 #: dialogs\dlgPodcastSubscription.html:73
 msgid "Only if rating is less than"
-msgstr ""
+msgstr "Només si la puntuació és inferior a"
 
 #: dialogs\dlgSupportedFormat.html:107
 msgid "Width"
-msgstr ""
+msgstr "Amplada"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:12
 msgid ""
@@ -8931,6 +8986,9 @@ msgid ""
 "or edited. To fully automate, enable File Monitoring to scan directories in "
 "the background."
 msgstr ""
+"Organitzeu fitxers de biblioteca segons les regles anteriors sempre que s’"
+"escanegin o editen fitxers. Per automatitzar totalment, activeu "
+"Monitorització de Fitxers per escanejar directoris en segon pla."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:14
 msgid ""
@@ -8941,7 +8999,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Download.html:8
 msgid "Number of concurrent downloads:"
-msgstr ""
+msgstr "Nombre de descàrregues simultànies:"
 
 #: dialogs\dlgOptions\pnl_Download.html:27
 msgid "Download podcasts to:"
@@ -9098,7 +9156,7 @@ msgstr ""
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Verifies ripped tracks against the AccurateRip.com database"
-msgstr ""
+msgstr "Verifica les pistes extretes a la base de dades AccurateRip.com"
 
 #: dialogs\dlgMP3Settings.html:49
 msgid "Use advanced settings"
@@ -9361,7 +9419,7 @@ msgstr "Nivell de volum de la pista"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Verify ripped tracks"
-msgstr ""
+msgstr "Verifiqueu les pistes extretes"
 
 #: dialogs\dlgMovedFiles.html:16
 msgid "Unlocatable files"
@@ -10792,7 +10850,7 @@ msgstr "Cerca lletres"
 
 #: dialogs\dlgWizard\pnlRegistration.html:14
 msgid "AccurateRip for bit-perfect CD Rips."
-msgstr ""
+msgstr "AccurateRip per a còpies de CD perfectes."
 
 #: controls\artistview.html:25
 msgid "Albums - live"
