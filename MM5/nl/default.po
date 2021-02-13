@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-27 20:17\n"
-"PO-Revision-Date: 2021-02-13 15:43+0000\n"
+"PO-Revision-Date: 2021-02-13 21:29+0000\n"
 "Last-Translator: Hans Schippers <hans@hanas.nl>\n"
 "Language-Team: Dutch <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/nl/>\n"
@@ -75,11 +75,11 @@ msgstr "Video aanpassen"
 
 #: actions.js:97
 msgid "Rating selected file(s)"
-msgstr "Selectie waarderen "
+msgstr "Selectie waarderen"
 
 #: actions.js:100
 msgid "Rating now playing file"
-msgstr "Nu spelend bestand waarderen"
+msgstr "Score nu spelend bestand"
 
 #: actions.js:107 actions.js:116 actions.js:9060
 msgid "Add bookmark"
@@ -100,7 +100,7 @@ msgstr "Vul de registratiecode in voor MediaMonkey Gold"
 
 #: actions.js:191
 msgid "My Rating"
-msgstr "Mijn Beoordeling"
+msgstr "Mijn Score"
 
 #: actions.js:221 actions.js:430
 msgid "Rate unknown"
@@ -461,8 +461,8 @@ msgid ""
 "This will delete all Library data, Playlists, and Collections but will not "
 "delete any of your files or configuration data."
 msgstr ""
-"Hierdoor worden alle bibliotheekgegevens, afspeellijsten en collecties "
-"verwijderd. Bestanden en instellingen worden niet verwijderd."
+"Alle bibliotheekgegevens, afspeellijsten en collecties worden verwijderd "
+"maar bestanden en instellingen blijven behouden."
 
 #: actions.js:1683
 msgid "Clear FAILED! Old database restored."
@@ -818,11 +818,11 @@ msgstr "Afspeelvolume normaliseren"
 
 #: actions.js:2925 Win7ToolsImpl.pas:1902
 msgid "Next file"
-msgstr "Volgende bestand"
+msgstr "Volgende"
 
 #: actions.js:2940 Win7ToolsImpl.pas:1899
 msgid "Previous file"
-msgstr "Vorig bestand"
+msgstr "Vorige"
 
 #: actions.js:2955
 msgid "Volume up"
@@ -891,7 +891,7 @@ msgstr "Alles selecteren"
 
 #: actions.js:3191
 msgid "Focus tracklist on currently playing item"
-msgstr "Lijst met nummers op nu spelend nummer focussen"
+msgstr "Focus in lijst op nu spelend item"
 
 #: actions.js:3221
 msgid "Cancel selection"
@@ -956,7 +956,7 @@ msgstr "Volume anal&yseren"
 
 #: actions.js:3470
 msgid "&Level Track volume"
-msgstr "Trackvo&lume normaliseren"
+msgstr "Vo&lume Nummer normaliseren"
 
 #: actions.js:3477
 msgid ""
@@ -1441,8 +1441,8 @@ msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
 msgstr ""
-"%s Label(s) uit deze selectie verwijderen? (Eigenschappen worden niet uit de "
-"bibliotheek verwijderd)."
+"%s Label(s) uit deze selectie verwijderen (eigenschappen worden niet uit de "
+"bibliotheek verwijderd)?"
 
 #: actions.js:8979 dialogs/dlgWizard.js:27
 msgid "Registration"
@@ -1520,8 +1520,8 @@ msgid ""
 "Overlaps tracks for the specified time, fading out the first track as the "
 "second one starts"
 msgstr ""
-"Laat bestanden in elkaar overgaan, waarbij de eerste track uitfadet terwijl "
-"de tweede start"
+"Laat bestanden gedurende de opgegeven tijd in elkaar overgaan, waarbij het "
+"eerste nummer uitfadet terwijl het tweede start"
 
 #: out_MMDS_configDlg.js:47 out_WASAPI_configDlg.js:89
 msgid "Crossfade tracks"
@@ -1534,8 +1534,8 @@ msgstr "seconden"
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Causes new track to fade-in rather than starting at full volume"
 msgstr ""
-"Hiermee wordt het volume van een nieuwe track langzaam verhoogd i.p.v. dat "
-"het nummer op vol volume start"
+"Het volume van een nieuw nummer wordt langzaam verhoogd i.p.v. dat het op "
+"vol volume start"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Fade in new track"
@@ -1547,7 +1547,7 @@ msgstr "Verwijdert stiltes, veroorzaakt door minder goede encoders"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:98
 msgid "Remove silence at the beginning / end of track"
-msgstr "Verwijder stiltes aan het begin en einde van een track"
+msgstr "Verwijder stiltes aan het begin en einde van een nummer"
 
 #: out_MMDS_configDlg.js:62 out_WASAPI_configDlg.js:104
 msgid "Fades in and out on Pause/Play"
@@ -1602,7 +1602,7 @@ msgstr "Automatische indelingskeuze (per nummer)"
 
 #: out_WASAPI_configDlg.js:15
 msgid "Use format of original track"
-msgstr "Gebruik indeling van originele nummer"
+msgstr "Indeling van origineel gebruiken"
 
 #: out_WASAPI_configDlg.js:77
 msgid "Prevents audio from other applications"
@@ -1695,7 +1695,7 @@ msgstr "Bezig met zoeken"
 #. online track not present in the library - toast message and add to the library
 #: templates.js:739
 msgid "Track was added to the Library"
-msgstr "Nummer werd toegevoegd aan de Bibliotheek"
+msgstr "Nummer werd aan de Bibliotheek toegevoegd"
 
 #: templates.js:1161 templates.js:1188 templates.js:1238 viewHandlers.js:6626
 #: controls/player.js:530 controls/trackListView.js:358
@@ -1819,7 +1819,7 @@ msgid ""
 "%d tracks in your library have not been analyzed for redundancy. Would you "
 "like to analyze them now (this takes a fair amount of time)?"
 msgstr ""
-"%d nummers in de bibliotheek zijn nog niet geanalyseerd op dubbelingen. Nu "
+"%d nummers in de bibliotheek zijn nog niet gecontroleerd p dubbelingen. Nu "
 "analyseren (dit kan lang duren)?"
 
 #: viewHandlers.js:377 Devices.pas:10933 dialogs\dlgScanResults.html:9
@@ -1928,7 +1928,7 @@ msgstr "Afspeellijsten"
 
 #: viewHandlers.js:839 viewHandlers.js:921
 msgid "Tree"
-msgstr "Navigatiestructuur "
+msgstr "Navigatiestructuur"
 
 #. #16533
 #: viewHandlers.js:921 viewHandlers.js:957 viewHandlers.js:976
@@ -2148,7 +2148,7 @@ msgstr ""
 #. folder, library, playlist, nowplaying, device
 #: viewHandlers.js:4494 dialogs/dlgDeleteConfirm.js:15
 msgid "Are you sure you want to permanently delete "
-msgstr "Definitief wilt verwijderen"
+msgstr "Definitief wilt verwijderen "
 
 #: viewHandlers.js:4496
 msgid "selected folders"
@@ -2419,10 +2419,10 @@ msgid ""
 "here, you can edit them and merge to one album by setting the same album, "
 "album artist and year."
 msgstr ""
-"Wanneer je meerdere nummers door verschillende artiesten hebt die tot "
-"hetzelfde album behoren, dan kan MediaMonkey je helpen deze te ordenen. Je "
-"ziet ze hier, je kunt ze bewerken en samenvoegen tot één album door dezelfde "
-"albumartiest, hetzelfde album, en jaar in te voeren."
+"Wanneer meerdere nummers van verschillende artiesten tot hetzelfde album "
+"behoren, kan MediaMonkey helpen deze te ordenen. Ze worden hier weergegeven. "
+"Bewerk ze of voeg ze samen tot één album door dezelfde albumartiest, "
+"hetzelfde album, en jaar in te voeren."
 
 #: viewHandlers.js:6931
 msgid ""
@@ -2430,9 +2430,9 @@ msgid ""
 "the mismatched values. If tracks don't show highlighted fields, try enabling "
 "additional columns."
 msgstr ""
-"Hiermee worden alle nummers gevonden met labels die afwijken van de "
-"database, waarbij de afwijkingen gemarkeerd worden. Wanneer je geen "
-"afwijkende velden ziet, selecteer dan meer kolommen."
+"Vindt alle nummers met labels die afwijken van de database, waarbij de "
+"afwijkingen gemarkeerd worden. Selecteer meer kolommen als er geen "
+"afwijkende velden zijn."
 
 #: viewHandlers.js:6938
 msgid ""
@@ -2700,10 +2700,10 @@ msgid ""
 "conversion rules. To convert content on-the-fly to different formats or to "
 "higher/lower bitrates, please upgrade to MediaMonkey Gold."
 msgstr ""
-"Met de standaardversie van MediaMonkey kan je de standaard instellingen voor "
-"auto-conversie gebruiken. Om direct te kunnen converteren of in andere "
-"indelingen of met een hogere/lagere bitrate moet je upgraden naar "
-"MediaMonkey Gold."
+"Met de standaardversie van MediaMonkey kunnen de standaardinstellingen voor "
+"auto-conversie gebruikt worden. Om direct te converteren of in andere "
+"indelingen of met een hogere/lagere bitwaarde, is een upgrade naar "
+"MediaMonkey Gold noodzakelijk."
 
 #: controls/backgroundImage.js:141
 msgid "Animate background on playback"
@@ -2875,7 +2875,7 @@ msgstr "Data ophalen"
 
 #: controls/deviceConfig.js:65
 msgid "You have changed the settings for %s"
-msgstr "De instellingen voor %s zijn gewijzigd."
+msgstr "De instellingen voor %s zijn gewijzigd"
 
 #: controls/deviceConfig.js:65
 msgid "Would you like to apply these changes?"
@@ -2910,7 +2910,7 @@ msgid ""
 "limit. This is useful for syncing random tracks to a device/location that "
 "cannot contain your entire library."
 msgstr ""
-"Synchroniseer willekeurige bestanden uit de selectie tot de ingestelde "
+"Synchroniseert willekeurige bestanden uit de selectie tot de ingestelde "
 "limiet van het doel. Handig voor het synchroniseren van willekeurige nummers "
 "wanneer het doel onvoldoende ruimte heeft voor de hele bibliotheek."
 
@@ -2920,11 +2920,11 @@ msgstr "Willekeurige bestanden uit selectie synchroniseren tot het doel vol is"
 
 #: controls/deviceContentRandomizer.js:11
 msgid "This gives preference to tracks with higher ratings."
-msgstr "Geeft voorkeur aan nummers met hogere waardering."
+msgstr "Geeft voorkeur aan nummers met een hogere score."
 
 #: controls/deviceContentRandomizer.js:11
 msgid "Sync higher-rated tracks more often"
-msgstr "Beter gewaardeerde nummers vaker synchroniseren"
+msgstr "Nummers met hogere score vaker synchroniseren"
 
 #: controls/deviceContentRandomizer.js:14
 msgid "Reserve"
@@ -3134,7 +3134,7 @@ msgstr "Focus op knooppunten tijdens het doorzoeken van inhoud"
 
 #: controls/mediaTree.js:231
 msgid "Collapse the tree"
-msgstr "Navigatiestructuur samenvoegen "
+msgstr "Navigatiestructuur inklappen"
 
 #. e.g. Spotify does not support deletion
 #: controls/monitoredFoldersView.js:18 helpers/mediaSync.js:621
@@ -3319,11 +3319,11 @@ msgstr "Naar mini-/microspeler gaan"
 
 #: controls/playlistEditor.js:57
 msgid "Drag and drop or Send tracks to the playlist to populate it."
-msgstr "Sleep of stuur nummers naar de afspeellijst om deze te vullen."
+msgstr "Sleep of Verzend nummers naar de afspeellijst om deze te vullen."
 
 #: controls/playlistHeader.js:117
 msgid "Edit in Playlist Panel"
-msgstr "In Afspeellijst-venster bewerken"
+msgstr "In Speellijst-venster bewerken"
 
 #: controls/playlistHeader.js:276
 msgid "Hide editor"
@@ -3363,7 +3363,7 @@ msgstr "Abonneer handmatig op een podcast door de URL van de feed in te voeren"
 
 #: controls/rating.js:210
 msgid "Remove rating"
-msgstr "Beoordeling verwijderen"
+msgstr "Score verwijderen"
 
 #: controls/searchBar.js:458 dialogs\dlgOptions\pnl_Search.html:8
 msgid "Filters matches"
@@ -3511,7 +3511,7 @@ msgstr "Populariteit"
 #: dialogs/dlgOptions/pnl_InputPlugins.js:25
 #: dialogs/dlgOptions/pnl_OutputPlugins.js:32
 msgid "Name"
-msgstr "Naam:"
+msgstr "Naam"
 
 #: controls/statusbar.js:119
 msgid "genre"
@@ -3671,7 +3671,7 @@ msgstr "Bitdiepte"
 #: controls/trackListView.js:703 ResStrings.pas:452
 #: dialogs\dlgTrackProperties\tabDetails.html:170
 msgid "Track volume"
-msgstr "Trackvoume"
+msgstr "Volume nummer"
 
 #. source
 #: controls/trackListView.js:750 MaskHelper.pas:3092 MaskHelper.pas:3576
@@ -3783,7 +3783,7 @@ msgstr "Groeperen"
 #: MaskHelper.pas:3747 ResStrings.pas:437 ResStrings.pas:508
 #: dialogs\dlgTrackProperties\tabBasic.html:111
 msgid "Track #"
-msgstr "Volgnummer"
+msgstr "Nummer #"
 
 #: controls/trackListView.js:1360 MaskHelper.pas:3094 MaskHelper.pas:3681
 #: MaskHelper.pas:3826 ResStrings.pas:434
@@ -3854,7 +3854,7 @@ msgstr "Acteur(s)"
 #: MaskHelper.pas:3556 MaskHelper.pas:3800 ResStrings.pas:492
 #: UPnPTreeHelper.pas:1895 dialogs\dlgTrackProperties\tabDetails.html:42
 msgid "Parental Rating"
-msgstr "Ouderlijke waardering"
+msgstr "Ouderlijke Beoordeling"
 
 #: controls/trackListView.js:1615
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
@@ -3906,7 +3906,7 @@ msgstr ""
 #: controls/clientConfig/autoConvert.js:6
 #: controls/serverConfig/autoConvert.js:4
 msgid "Format on PC"
-msgstr "Indeling op PC:"
+msgstr "Indeling op PC"
 
 #: controls/clientConfig/autoConvert.js:7
 #: controls/serverConfig/autoConvert.js:5
@@ -3956,7 +3956,7 @@ msgstr "Inhoud van bibliotheek toevoegen aan '%s'"
 
 #: controls/deviceConfig/syncToDevice.js:465
 msgid "Delete other files and playlists from '%s'"
-msgstr "Verwijder andere bestanden en afspeellijsten van '%s'"
+msgstr "Andere bestanden en afspeellijsten van '%s' verwijderen"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:6
 msgid "Convert the following formats when syncing to '%s'"
@@ -4009,7 +4009,7 @@ msgstr "Andere locaties op '%s' voor het scannen op mediabestanden"
 
 #: controls/deviceConfig/options/pnl_Playlists.js:9
 msgid "Also generate playlists on '%s' for:"
-msgstr "Ook afspeellijsten genereren op '%s' voor:"
+msgstr "Ook afspeellijsten op '%s' aanmaken voor:"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Modify metadata as follows when syncing to '%s'"
@@ -4127,7 +4127,7 @@ msgstr "Regel voor auto-conversie"
 
 #: dialogs/dlgAutoConvertRule.js:147
 msgid "Video bitrate"
-msgstr "Video bitrate"
+msgstr "Video bitwaarde"
 
 #: dialogs/dlgAutoConvertRule.js:148 dialogs\dlgSupportedFormat.html:93
 msgid "Frame rate"
@@ -4143,7 +4143,7 @@ msgstr "Framehoogte"
 
 #: dialogs/dlgAutoConvertRule.js:151
 msgid "Audio bitrate"
-msgstr "Audio bitrate"
+msgstr "Audio bitwaarde"
 
 #: dialogs/dlgAutoConvertRule.js:152
 msgid "Audio sample rate"
@@ -4209,7 +4209,7 @@ msgstr "Overslaan & Doorgaan"
 
 #: dialogs/dlgAutotag.js:376
 msgid "Tracks %d to %d of %d"
-msgstr "Track %d naar %d van %d"
+msgstr "Nummers %d naar %d van %d"
 
 #: dialogs/dlgAutotag.js:439
 msgid "Lookups completed"
@@ -4221,7 +4221,7 @@ msgstr "Auto-label meer/sneller met"
 
 #: dialogs/dlgAutotag.js:581
 msgid "Press F5 to re-sort/re-group tracks"
-msgstr "Druk op F5 om nummers te hersorteren/-groeperen"
+msgstr "Druk op F5 om nummers te herordenen/-groeperen"
 
 #: dialogs/dlgAutotag.js:1014
 msgid "old value"
@@ -4243,11 +4243,11 @@ msgstr "Labels"
 
 #: dialogs/dlgAutotag.js:2571
 msgid "track(s) matched"
-msgstr "overeenkomende track(s)"
+msgstr "nummer(s) gematcht"
 
 #: dialogs/dlgAutotag.js:2573
 msgid "track(s) failed"
-msgstr "Mislukte track(s)"
+msgstr "nummer(s) mislukt"
 
 #: dialogs/dlgAutotag.js:2600
 msgid "Conflict"
@@ -4308,7 +4308,7 @@ msgid ""
 "verification via AccurateRip is only included with the Gold version. "
 msgstr ""
 "Het rippen van CD's wordt in de gratis versie van MediaMonkey ondersteund, "
-"maar verificatie bij AccurateRip zit alleen in de Gold-versie."
+"maar verificatie bij AccurateRip zit alleen in de Gold-versie. "
 
 #: dialogs/dlgDeleteConfirm.js:9
 msgid "Confirmation"
@@ -4345,7 +4345,7 @@ msgstr "Alleen uit Afspeellijst verwijderen"
 
 #: dialogs/dlgDeleteConfirm.js:86
 msgid "Remove from the Playlist and"
-msgstr "Verwijder uit de afspeellijst en"
+msgstr "Uit de afspeellijst verwijderen en"
 
 #. per #15029
 #: dialogs/dlgDeleteConfirm.js:96 dialogs/dlgDeleteConfirm.js:145
@@ -4365,28 +4365,28 @@ msgstr "Verwijder alle kopieën en verwijder uit de database"
 
 #: dialogs/dlgDeleteConfirm.js:110
 msgid "Delete from the Playlist and database only"
-msgstr "Verwijder van de Afspeellijst en werk de database bij"
+msgstr "Alleen van de Afspeellijst en uit de database verwijderen"
 
 #: dialogs/dlgDeleteConfirm.js:111
 msgid "Delete from the Playlist, database and drive"
-msgstr "Verwijder van de afspeellijst, uit de database en van schijf"
+msgstr "Van de afspeellijst, schijf en uit de database verwijderen"
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from Playing list only"
-msgstr "Verwijder alleen van de Speellijst"
+msgstr "Alleen van de Speellijst verwijderen"
 
 #: dialogs/dlgDeleteConfirm.js:135
 msgid "Remove from Playing list and"
-msgstr "Verwijder van de Speellijst en"
+msgstr "Van de Speellijst verwijderen en"
 
 #: dialogs/dlgDeleteConfirm.js:160
 msgid "Delete from Playing list and the database only"
-msgstr "Verwijder alleen van de Speellijst en uit de database"
+msgstr "Alleen van de Speellijst en uit de database verwijderen"
 
 #: dialogs/dlgDeleteConfirm.js:161
 msgid "Delete from Playing list, the database and drive"
-msgstr "Verwijden van de Speellijst, uit de database en van schijf"
+msgstr "Van de Speellijst, schijf en uit de database verwijderen"
 
 #: dialogs/dlgDeleteConfirm.js:189
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
@@ -4678,15 +4678,15 @@ msgstr "Studio: ABR ~256 kbps"
 
 #: dialogs/dlgMP3Settings.js:15
 msgid "Constant bitrate (CBR - most compatible)"
-msgstr "Constante bitrate (CBR - meest compatible)"
+msgstr "Constante bitwaarde (CBR - meest compatible)"
 
 #: dialogs/dlgMP3Settings.js:15
 msgid "Variable bitrate (VBR - most efficient)"
-msgstr "Variabele bitrate (VBR - meest efficiënt)"
+msgstr "Variabele bitwaarde (VBR - meest efficiënt)"
 
 #: dialogs/dlgMP3Settings.js:16
 msgid "Average bitrate (ABR - controlled/efficient)"
-msgstr "Gemiddelde bitrate (ABR - gecontroleerd/efficiënt)"
+msgstr "Gemiddelde bitwaarde (ABR - gecontroleerd/efficiënt)"
 
 #: dialogs/dlgMP3Settings.js:18 ResStrings.pas:393
 msgid "Stereo"
@@ -4884,7 +4884,7 @@ msgstr "Scanresultaten"
 
 #: dialogs/dlgScanResults.js:20
 msgid "Library now has %d files"
-msgstr "%d Bestanden in bibliotheek."
+msgstr "%d Bestanden in Bibliotheek"
 
 #: dialogs/dlgScanResults.js:22
 msgid "Search and update took %s"
@@ -4904,7 +4904,7 @@ msgstr "%d Bestanden niet geïmporteerd (voldeden niet aan criteria)"
 
 #: dialogs/dlgScanResults.js:26
 msgid "Failed to import %d files"
-msgstr "%d bestanden niet geïmporteerd."
+msgstr "Importeren %d bestanden mislukt"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -4912,7 +4912,7 @@ msgstr "Bestanden Herscannen/Toevoegen aan Bibliotheek..."
 
 #: dialogs/dlgSearch.js:9
 msgid "AutoPlaylist criteria"
-msgstr "Criteria Auto-Afspeellijst"
+msgstr "Auto-Afspeellijst-criteria"
 
 #: dialogs/dlgSearchImage.js:19
 msgid "Image search"
@@ -4944,11 +4944,11 @@ msgstr "Slaapstand"
 
 #: dialogs/dlgSleep.js:19 dialogs\dlgSleep.html:31
 msgid "Sleep"
-msgstr "Stand-by"
+msgstr "Slaapstand"
 
 #: dialogs/dlgSleep.js:21
 msgid "Log off"
-msgstr "Afmelden "
+msgstr "Afmelden"
 
 #: dialogs/dlgSleep.js:23
 msgid "Close MediaMonkey"
@@ -4991,7 +4991,7 @@ msgstr ""
 
 #: dialogs/dlgSyncConfirm.js:39
 msgid "File(s) and playlist(s) to delete from the device (%d)"
-msgstr "Bestand(en) en afspeellijst(en) om van te verwijderen van de PC (%d)"
+msgstr "Bestand(en) en afspeellijst(en) om van het apparaat te verwijderen (%d)"
 
 #: dialogs/dlgSyncConfirm.js:75
 msgid "Auto-sync"
@@ -5136,7 +5136,7 @@ msgstr "Beschrijving van de plug-in"
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:5
 msgid "Type a keyboard shortcut"
-msgstr "Type een toetsenboord snelkoppeling"
+msgstr "Typ toetsenbordcombinatie"
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:6
 msgid "Select an Action"
@@ -5279,7 +5279,7 @@ msgstr ""
 
 #: dialogs/dlgOptions/pnl_Search.js:5
 msgid "When typing in a view:"
-msgstr "Bij type in een weergave:"
+msgstr "Bij typen in een weergave:"
 
 #: dialogs/dlgOptions/pnl_Search.js:33
 msgid "Ignore diacritics"
@@ -5516,7 +5516,7 @@ msgstr "Synchroniseer '%s' metadata naar de Bibliotheek"
 
 #: helpers/mediaSync.js:700
 msgid "Update metadata for matching tracks and playlists"
-msgstr "Werkt metadata van overeenkomende tracks en afspeellijsten bij"
+msgstr "Metadata van overeenkomende nummers en afspeellijsten bijwerken"
 
 #. show toast message that device has been connected (#15402):
 #: helpers/mediaSync.js:833 helpers/mediaSync.js:2881
@@ -5564,8 +5564,7 @@ msgstr "Scan zodra het apparaat is aangesloten"
 
 #: helpers/mediaSync.js:997
 msgid "This initiates an auto-sync whenever the device is plugged into the PC"
-msgstr ""
-"Start auto-synchronisatie zodra het apparaat wordt aangesloten op de PC."
+msgstr "Start auto-synchronisatie zodra het apparaat wordt aangesloten op de PC"
 
 #: helpers/mediaSync.js:997
 msgid "Auto-Sync as soon as the device is connected"
@@ -5728,15 +5727,15 @@ msgstr "Zij aan zij"
 
 #: Scripts/autoIncTrack/actions_add.js:4 Scripts/autoIncTrack/actions_add.js:20
 msgid "Auto-increment Track #s"
-msgstr "Volgnummers aanpassen"
+msgstr "Nummer #s automatisch vullen"
 
 #: Scripts/autoIncTrack/actions_add.js:21
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
 msgstr ""
-"Hiermee wordt het veld track# in oplopende volgorde voor de %d geselecteerde "
-"tracks gewijzigd."
+"Past het veld ummer # in oplopende volgorde voor de %d geselecteerde nummers "
+"aan."
 
 #: Scripts/autoIncTrack/actions_add.js:21
 msgid "Start numbering from:"
@@ -5752,7 +5751,7 @@ msgstr "Oude waarde: "
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:308
 msgid "Select tracks to be updated"
-msgstr "Selecteer tracks om bij te werken"
+msgstr "Bij te werken nummers selecteren"
 
 #: Scripts/export/actions_add.js:31
 msgid "File List (&HTML)"
@@ -5787,7 +5786,7 @@ msgstr "Duur"
 #: Scripts/export/actions_add.js:156
 #: Scripts/statistics/dialogs/dlgStatistics.js:592
 msgid "Generated by "
-msgstr "Aangemaakt door"
+msgstr "Aangemaakt door "
 
 #. export canceled, delete file
 #: Scripts/export/actions_add.js:173
@@ -5868,23 +5867,23 @@ msgstr "Gemiddelden"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:324
 msgid "Tracks per Artist"
-msgstr "Tracks per Artiest"
+msgstr "Nummers per Artiest"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:325
 msgid "Tracks per Album"
-msgstr "Tracks per Album"
+msgstr "Nummers per Album"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:326
 msgid "Tracks per Genre"
-msgstr "Tracks per Genre"
+msgstr "Nummers per Genre"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:327
 msgid "Tracks per Year"
-msgstr "Tracks per Jaar"
+msgstr "Nummers per Jaar"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:328
 msgid "Bitrate (kbps)"
-msgstr "Bitsnelheid(kbps)"
+msgstr "Bitwaarde (kbps)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
 msgid "Tracks played per day"
@@ -5923,12 +5922,12 @@ msgstr "Top %d gespeelde Genres"
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:522
 msgid "Ratings"
-msgstr "Beoordelingen"
+msgstr "Scores"
 
 #. rating played
 #: Scripts/statistics/dialogs/dlgStatistics.js:566
 msgid "Ratings played"
-msgstr "Gespeeld met beoordeling"
+msgstr "Scores afgespeeld"
 
 #. disable auto sizing mechanism, we have fixed size
 #: Scripts/statistics/dialogs/dlgStatistics.js:605
@@ -6006,7 +6005,7 @@ msgstr "Alle collecties"
 
 #: AutoOrganize.pas:1607
 msgid "All Playlists"
-msgstr "Alle afspeellijsten"
+msgstr "Alle Afspeellijsten"
 
 #: BackgroundStuff.pas:281
 msgid "%d files to be tagged"
@@ -6059,7 +6058,7 @@ msgstr "Fout bij het verbinden met "
 
 #: CDDBUtils.pas:256
 msgid "There was an error while connecting to Freedb: "
-msgstr "Er deed zich een fout voor tijdens het verbinden met Freedb:"
+msgstr "Fout tijdens het verbinden met Freedb: "
 
 #: CDDBUtils.pas:494 CDDBUtils.pas:951
 msgid "Retrieving result %d of %d"
@@ -6136,12 +6135,12 @@ msgstr "Data bij AccurateRip.com-database ophalen"
 #. we are not getting results for too long, ask user what to do...
 #: CDUtils.pas:1523 CDUtils.pas:1765
 msgid "Error ripping track"
-msgstr "Fout by het rippen van een nummer"
+msgstr "Fout bij rippen nummer"
 
 #. track doesn't exist or is a data track
 #: CDUtils.pas:1620
 msgid "The CD-ROM unit %s: does not contain track number %d."
-msgstr "CD-ROM schijf %s: bevat het volgnummer %d niet."
+msgstr "CD-ROM-station %s: bevat het volgnummer %d niet."
 
 #: CDUtils.pas:1806
 msgid ""
@@ -6149,7 +6148,7 @@ msgid ""
 "audio data is corrupt."
 msgstr ""
 "Er zijn %d jitterfouten gevonden terwijl nummer %d werd gelezen. "
-"Waarschijnlijk zijn de audiogegevens beschadigd."
+"Waarschijnlijk isde audiodata beschadigd."
 
 #: Covers.pas:724
 msgid "Not specified"
@@ -6240,7 +6239,7 @@ msgstr "De database lijkt beschadigd. Repareren?"
 
 #: DatabaseManage.pas:2922
 msgid "Do you really want to remove %d tracks from Virtual CD?"
-msgstr "Zeker %d nummers van de virtuele CD verwijderen?"
+msgstr "%d Nummers van de virtuele CD verwijderen?"
 
 #: DatabaseManage.pas:2981
 msgid "Do you really want to remove %d previews?"
@@ -6487,7 +6486,7 @@ msgstr ""
 #. we updated tag, force regular upload
 #: Devices.pas:11441 Devices.pas:11699 Devices.pas:15242 Devices.pas:15251
 msgid "Problem while copying file %s to %s"
-msgstr "Probleem bij het kopiëren van bestand %s naar %s."
+msgstr "Probleem bij het kopiëren van bestand %s naar %s"
 
 #. track needs conversion
 #. e.g. online/cloud tracks that failed to download
@@ -6561,7 +6560,7 @@ msgstr "Resultaat"
 
 #: ErrHandlers.pas:379
 msgid "There was a problem ripping or verifying the following track(s):"
-msgstr "Probleem bij het rippen of verifiëren van de volgende track(s):"
+msgstr "Probleem bij het rippen of verifiëren van de volgende nummer(s):"
 
 #: ErrHandlers.pas:380
 msgid ""
@@ -6578,12 +6577,12 @@ msgstr "Resultaten van rippen"
 #. seconds
 #: ErrHandlers.pas:393
 msgid "There was a problem leveling volume for the following track(s):"
-msgstr "Probleem bij het normaliseren van het volume van de volgende track(s):"
+msgstr "Probleem bij het normaliseren van het volume van nummer(s):"
 
 #. seconds
 #: ErrHandlers.pas:405
 msgid "There was a problem analyzing volume for the following track(s):"
-msgstr "Probleem bij het analyseren van het volume van de volgende track(s):"
+msgstr "Probleem bij het analyseren van het volume van nummer(s):"
 
 #. seconds
 #: ErrHandlers.pas:418
@@ -6624,7 +6623,7 @@ msgstr ""
 
 #: ErrHandlers.pas:493
 msgid "There was a problem organizing the following file(s):"
-msgstr "Probleem bij het organiseren van de volgende track(s):"
+msgstr "Probleem bij het organiseren van nummer(s):"
 
 #: ExceptionHandler.pas:228
 msgid "Restart in Safe mode"
@@ -6929,7 +6928,7 @@ msgstr "Audio"
 #. audio stream
 #: FormatsManage.pas:4439 FormatsManage.pas:5068
 msgid "A: "
-msgstr "A:"
+msgstr "A: "
 
 #. pixels
 #. pixels
@@ -6952,7 +6951,7 @@ msgstr "bits per sample"
 #. video stream
 #: FormatsManage.pas:4496 FormatsManage.pas:5054
 msgid "V: "
-msgstr "V:"
+msgstr "V: "
 
 #. frame per second
 #: FormatsManage.pas:4519
@@ -6966,7 +6965,7 @@ msgstr "Tussen %.3f en %.3f"
 #. width
 #: FormatsManage.pas:4528
 msgid "W: "
-msgstr "W:"
+msgstr "W: "
 
 #: FormatsManage.pas:4532 FormatsManage.pas:4537 FormatsManage.pas:4545
 #: FormatsManage.pas:4550 dialogs\dlgSupportedFormat.html:116
@@ -6976,7 +6975,7 @@ msgstr "px"
 #. height
 #: FormatsManage.pas:4541
 msgid "H: "
-msgstr "H:"
+msgstr "H: "
 
 #: FormatsManage.pas:5048 FormatsManage.pas:5066 FormatsManage.pas:5079
 msgid "above"
@@ -6992,7 +6991,7 @@ msgstr "Spelend leeg maken"
 
 #: FullPlayer.pas:2712
 msgid "Currently, there is no output plug-in selected"
-msgstr "Er is momenteel geen outputplug-in geselecteerd."
+msgstr "Er is geen outputplug-in geselecteerd"
 
 #: FullPlayer.pas:2726
 msgid "Currently no input plug-in is in use (no file is playing)."
@@ -7092,7 +7091,7 @@ msgstr "Browser Favorieten"
 
 #: Hotkeys.pas:696
 msgid "Browser Home"
-msgstr "Browser Home "
+msgstr "Browser Home"
 
 #: Hotkeys.pas:697
 msgid "Volume Mute"
@@ -7191,7 +7190,7 @@ msgstr "J. River Media Center"
 
 #: M3Umanage.pas:409
 msgid "Updating track numbers"
-msgstr "Tracknummers bijwerken"
+msgstr "Volgnummers bijwerken"
 
 #: M3Umanage.pas:488
 msgid "Processing playlists"
@@ -7220,7 +7219,7 @@ msgstr "Betrokken Personen"
 
 #: MaskHelper.pas:3100 MaskHelper.pas:3611 MaskHelper.pas:3812
 msgid "Track Volume"
-msgstr "Trackvolume"
+msgstr "Volume Nummer"
 
 #: MaskHelper.pas:3101 MaskHelper.pas:3616 MaskHelper.pas:3813
 msgid "Album Volume"
@@ -7232,7 +7231,7 @@ msgstr "Splitter"
 
 #: MaskHelper.pas:3123
 msgid "Track title"
-msgstr "Tracktitel"
+msgstr "Titel nummer"
 
 #: MaskHelper.pas:3124
 msgid "Auto number"
@@ -7248,7 +7247,7 @@ msgstr "Naam afspeellijst"
 
 #: MaskHelper.pas:3127
 msgid "Track artist"
-msgstr "Trackartiest"
+msgstr "Artiest nummer"
 
 #: MaskHelper.pas:3128
 msgid "Video actors"
@@ -7256,7 +7255,7 @@ msgstr "Video-acteurs"
 
 #: MaskHelper.pas:3129
 msgid "Track folder"
-msgstr "Trackmap"
+msgstr "Nummer map"
 
 #: MaskHelper.pas:3142
 msgid "How to use masks"
@@ -7264,7 +7263,7 @@ msgstr "Hoe maskers te gebruiken"
 
 #: MaskHelper.pas:3748
 msgid "Track#"
-msgstr "Volgnummer"
+msgstr "Volgnr."
 
 #: MaskHelper.pas:3781
 msgid "Disc#"
@@ -7412,7 +7411,7 @@ msgstr "Selectie afspelen"
 
 #: MetadataStorageHandler.pas:1593
 msgid "Problem while updating playlist %s: %s"
-msgstr "Probleem met bijwerken van afspeellijst %s: %s"
+msgstr "Probleem bij het bijwerken van afspeellijst %s: %s"
 
 #: MP3Manage.pas:254
 msgid "Compatible: CBR   96 kbps - Fair Quality"
@@ -7427,8 +7426,8 @@ msgid ""
 "To enable advanced codec options (e.g. higher or lower bitrates), please "
 "upgrade to MediaMonkey Gold."
 msgstr ""
-"Om geavanceerde codec-opties te gebruiken (bijv. hogere of lagere bitrates), "
-"moet je upgraden naar MediaMonkey Gold."
+"Om geavanceerde codec-opties te gebruiken (bijv. hogere of lagere bitwaarde)"
+", is een upgrade naar MediaMonkey Gold noodzakelijk."
 
 #: MP3Manage.pas:3647
 msgid "Removing %s tags %d of %d (%s)"
@@ -7495,7 +7494,7 @@ msgstr "Probleem bij het scannen van directory %s."
 
 #: MP3Utils.pas:2796
 msgid "file is too short or too small"
-msgstr "Bestand is te kort of te klein."
+msgstr "Bestand is te kort of te klein"
 
 #: MP3Utils.pas:2863
 msgid "error while reading file info"
@@ -7550,7 +7549,7 @@ msgstr "Gisteren"
 
 #: MusicUtils.pas:957
 msgid " stars"
-msgstr "sterren"
+msgstr " sterren"
 
 # SOME DESCRIPTIVE TITLE.
 #. tempo tag constant
@@ -7687,7 +7686,7 @@ msgstr "Matige kopie"
 #. default auto-playlist name
 #: NewDBCreate.pas:1223
 msgid "Accessible tracks"
-msgstr "Toegankelijke tracks"
+msgstr "Toegankelijke nummers"
 
 #
 #. default auto-playlist name
@@ -7732,7 +7731,7 @@ msgstr "Volume normaliseren %d van %d (%s)"
 
 #: Normalization.pas:1744
 msgid "Track volume may be leveled only for MP3 files."
-msgstr "Trackvolume kan alleen voor MP3-bestanden worden genormaliseerd."
+msgstr "Volume kan alleen voor MP3-bestanden worden genormaliseerd."
 
 #: Normalization.pas:1767
 msgid "Calculating leveling coefficients"
@@ -7753,7 +7752,7 @@ msgstr "Identieke bestanden gevonden:"
 #. new line
 #: PlaylistManage.pas:1238
 msgid "Are you sure you want to add the track(s) to the playlist?"
-msgstr "Track(s) echt aan afspeellijst toevoegen?"
+msgstr "Nummer(s) aan de afspeellijst toevoegen?"
 
 #. This podcast is being downloaded
 #: PodcastManage.pas:884 PodcastManage.pas:1249
@@ -7886,11 +7885,11 @@ msgstr "Willekeurige tekst"
 
 #: QueryManage.pas:4643
 msgid "# Tracks by Artist"
-msgstr "# nummers door artiest"
+msgstr "# Nummers door Artiest"
 
 #: QueryManage.pas:4644
 msgid "# Tracks in Album"
-msgstr "# nummers op album"
+msgstr "# Nummers op Album"
 
 #: QueryManage.pas:4645
 msgid "# Albums by Artist"
@@ -7910,11 +7909,11 @@ msgstr "Synchronisatiestatus"
 
 #: QueryManage.pas:4760
 msgid "Random track"
-msgstr "Willekeurige track"
+msgstr "Willekeurig nummer"
 
 #: QueryManage.pas:4761
 msgid "Random track (auto-refresh)"
-msgstr "Willekeurige track (auto-verversen)"
+msgstr "Willekeurig nummer (auto-verversen)"
 
 #: QueryManage.pas:4762
 msgid "Random album"
@@ -7996,7 +7995,7 @@ msgstr "Voortgang"
 
 #: ResStrings.pas:371
 msgid "Approx. bitrate"
-msgstr "Geschatte bitrate"
+msgstr "Geschatte bitwaarde"
 
 #: ResStrings.pas:372
 msgid "Average bitrate"
@@ -8028,7 +8027,7 @@ msgstr "Auto-toegevoegd "
 
 #: ResStrings.pas:382
 msgid "Added "
-msgstr "Toegevoegd"
+msgstr "Toegevoegd "
 
 #: ResStrings.pas:384
 msgid "artists"
@@ -8136,7 +8135,7 @@ msgstr "Inhoud van CD-ROM %s: werd niet succesvol gelezen."
 
 #: ResStrings.pas:552
 msgid "There was a problem querying the database: "
-msgstr "Er was een probleem bij het doorzoeken van de database:"
+msgstr "Probleem bij het doorzoeken van de database: "
 
 #: ResStrings.pas:555
 msgid ""
@@ -8227,11 +8226,11 @@ msgstr "De computer wordt afgesloten"
 
 #: Shutdowner.pas:185
 msgid "Your computer is going to hibernate"
-msgstr "Computer voorbereiden op slaapstand"
+msgstr "Computer gaat in de slaapstand"
 
 #: Shutdowner.pas:197
 msgid "Your computer is going to sleep"
-msgstr "Computer voorbereiden op stand-by"
+msgstr "De computer gaat in de slaapstand"
 
 #: Shutdowner.pas:209
 msgid "Your computer is going to log off"
@@ -8239,11 +8238,11 @@ msgstr "Computer voorbereiden op afmelden"
 
 #: Shutdowner.pas:259
 msgid "Sleep: %d minutes"
-msgstr "Slaap: %d minuten"
+msgstr "Slapen: %d minuten"
 
 #: Shutdowner.pas:259
 msgid "Sleep: %d minute"
-msgstr "Slaap: %d minuut"
+msgstr "Slapen: %d minuut"
 
 #. #13718 - item 1
 #: UpNp.pas:2375
@@ -8401,7 +8400,7 @@ msgstr "MediaMonkey kon niet naar updates zoeken;"
 #. JumpList.Tasks.AddShellLink( _('Minimize to MiniPlayer'), '/w7t=gomini', Application.ExeName, 0);
 #: Win7ToolsImpl.pas:2187
 msgid "&Load Playlist"
-msgstr "Afspeellijst &openen"
+msgstr "Afspee&llijst Openen"
 
 #. make sure CD_Reader is the first
 #: WinAmpPlugins.pas:3170
@@ -8486,7 +8485,7 @@ msgstr "Soepel scrollen inschakelen"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:21
 msgid "ID3v2 text encoding:"
-msgstr "ID3v2 karakterset: "
+msgstr "ID3v2-encodering:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:12
 msgid "ID3v2.3 tags"
@@ -8519,9 +8518,9 @@ msgid ""
 "separate directories, or are simply prefaced with text indicating whether it "
 "is an Album or Artist."
 msgstr ""
-"Bepaalt of afspeellijsten voor albums, artiesten, enz. in aparte mappen "
-"worden opgeslagen of worden voorafgegaan door tekst die aangeeft of het een "
-"album of artiest betreft."
+"Bepaalt of afspeellijsten voor Albums, Artiesten, enz. in aparte mappen "
+"worden opgeslagen of voorafgegaan worden door tekst die aangeeft of het een "
+"Album of aAtiest betreft."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "Use Linux folder separator ('/' instead of '\\')"
@@ -8614,9 +8613,9 @@ msgid ""
 "previously analyzed volume leveling coefficients. It has no effect on tracks "
 "that do not have such a coefficient."
 msgstr ""
-"Ingeschakeld, past MediaMonkey het volume aan het doelvolume van de speler "
-"aan m.b.v. eerder geanalyseerde volumenormaliseringsco-efficiënten. Het "
-"heeft geen effect op tracks die zonder co-efficiënt."
+"MediaMonkey past het volume aan het doelvolume van de speler aan m.b.v. "
+"eerder verkregen volumenormaliseringsco-efficiënten. Het heeft geen effect "
+"op nummers zonder co-efficiënt."
 
 #: controls\windowtitle.html:18
 msgid "Restore window"
@@ -8648,7 +8647,7 @@ msgstr "Houd automatisch"
 
 #: dialogs\dlgOptions\pnl_General.html:19
 msgid "Allow just one instance of MediaMonkey"
-msgstr "Laat slechts één open MediaMonkey-venster toe"
+msgstr "Slechts één open MediaMonkey-venster toestaan"
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid "Shows the MediaMonkey icon in the system tray"
@@ -8656,7 +8655,7 @@ msgstr "Toont het MediaMonkey-pictogram in het systeemvak"
 
 #: dialogs\dlgOptions\pnl_Library.html:125
 msgid "Video properties:"
-msgstr "Video-eigenschappen"
+msgstr "Video-eigenschappen:"
 
 #: dialogs\dlgOptions\pnl_Library.html:64
 msgid "Only for files with changed timestamp or size"
@@ -8715,13 +8714,13 @@ msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the Playing list when it runs out."
 msgstr ""
-"Schakelt de Auto-DJ-functie in waardoor tracks automatisch worden toegevoegd "
-"aan de afspeellijst wanneer deze leeg raakt."
+"Schakelt de Auto-DJ-functie in waardoor nummers automatisch worden "
+"toegevoegd aan de Speellijst wanneer deze leeg raakt."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:9
 msgid "Confirm desired options on removal of files from Playlist"
 msgstr ""
-"Vraag bevestiging bij het verwijderen van bestanden van de afspeellijst "
+"Bevestiging bij het verwijderen van bestanden van de afspeellijst vragen"
 
 #: dialogs\dlgOptions\pnl_General.html:7
 msgid "Check for updates (when connected)"
@@ -8769,11 +8768,11 @@ msgstr "Geselecteerde mapknoppunten"
 
 #: dialogs\dlgMP3Settings.html:17
 msgid "Use manual settings"
-msgstr "Handmatige instellingen gebruiken "
+msgstr "Handmatige instellingen gebruiken"
 
 #: dialogs\dlgOGGSettings.html:14
 msgid "by Bitrate"
-msgstr "volgens Bitwaarde"
+msgstr "op Bitwaarde"
 
 #: dialogs\dlgPodcastSubscription.html:62
 msgid "3 days"
@@ -8781,7 +8780,7 @@ msgstr "3 dagen"
 
 #: dialogs\dlgPodcastSubscription.html:76
 msgid "Prevents recent episodes from being deleted."
-msgstr "Voorkomt dat recente afleveringen worden verwijderd"
+msgstr "Voorkomt dat recente afleveringen worden verwijderd."
 
 #: dialogs\dlgSupportedFormat.html:51
 msgid "Max"
@@ -8821,11 +8820,11 @@ msgstr ""
 "Deze bestandsnaam wordt gebruikt wanneer een map meer dan één afbeelding "
 "bevat. Gebruik:  a) voor afbeeldingen anders dan de eerste, wanneer een map "
 "slechts één album/serie/film bevat of b) voor alle afbeeldingen wanneer een  "
-"map meerdere albums/series/films bevat. "
+"map meerdere albums/series/films bevat."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:36
 msgid "Level ripped tracks:"
-msgstr "Effen geripte nummers:"
+msgstr "Geripte nummers normaliseren:"
 
 #: controls\autoConvertConfig.html:7
 msgid ""
@@ -8876,7 +8875,7 @@ msgid ""
 "This determines how many tracks Auto-DJ will add to the Playing list when "
 "the list begins to empty."
 msgstr ""
-"Bepaalt hoeveel tracks Auto-DJ toevoegt aan de Speellijst wanneer deze leeg "
+"Bepaalt hoeveel nummers Auto-DJ toevoegt aan de Speellijst wanneer deze leeg "
 "begint te raken."
 
 #: dialogs\dlgOptions\pnl_General.html:26
@@ -8897,7 +8896,7 @@ msgstr "Minimaliseert naar de taakbalk"
 
 #: dialogs\dlgOptions\pnl_Library.html:117
 msgid "Tags then Playlists"
-msgstr "eerst labels dan afspeellijsten"
+msgstr "Labels dan Afspeellijsten"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
 msgid "Default action for files:"
@@ -8909,7 +8908,7 @@ msgstr "Van andere applicaties..."
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:18
 msgid "Notify last.fm about playing tracks"
-msgstr "Informeer last.fm over het afsprelen van tracks"
+msgstr "Last.fm over het spelende nummers informeren"
 
 #: controls\searchEditor.html:14
 msgid "of the following criteria"
@@ -8959,9 +8958,9 @@ msgid ""
 "or edited. To fully automate, enable File Monitoring to scan directories in "
 "the background."
 msgstr ""
-"Organiseer nummers in de bibliotheek o.b.v. bovenstaande regels wanneer "
+"Organiseert nummers in de bibliotheek o.b.v. bovenstaande regels wanneer "
 "bestanden worden gescand of bewerkt. Dit kan geheel automatisch, door de "
-"bestandsmonitor op de achtergrond mappen te laten scannen. "
+"bestandsmonitor op de achtergrond mappen te laten scannen."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:14
 msgid ""
@@ -8969,8 +8968,8 @@ msgid ""
 "playing file from the system, since doing so will cause an interruption of "
 "playback."
 msgstr ""
-"Zorgt ervoor dat  MediaMonkey vraagt of het nu spelende nummer verwijderd "
-"moet worden, omdat dit een onderbreking in het afspelen zal veroorzaken."
+"MediaMonkey zal vragen of het nu spelende nummer verwijderd moet worden, "
+"omdat dit een onderbreking in het afspelen zal veroorzaken."
 
 #: dialogs\dlgOptions\pnl_Download.html:8
 msgid "Number of concurrent downloads:"
@@ -8978,7 +8977,7 @@ msgstr "Aantal gelijktijdige downloads:"
 
 #: dialogs\dlgOptions\pnl_Download.html:27
 msgid "Download podcasts to:"
-msgstr "Download podcasts naar: "
+msgstr "Download podcasts naar:"
 
 #: dialogs\dlgOptions\pnl_Performance.html:32
 msgid ""
@@ -9104,7 +9103,7 @@ msgstr "Tijdens afspelen:"
 msgid ""
 "Prevents Auto-DJ from adding tracks while this Type of content is playing"
 msgstr ""
-"Voorkomt dat Auto-DJ tracks toevoegt wanneer dit soort inhoud wordt "
+"Voorkomt dat Auto-DJ nummers toevoegt wanneer dit soort inhoud wordt "
 "afgespeeld"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:55
@@ -9120,8 +9119,8 @@ msgid ""
 "Syncs updated metadata such as ratings and play counts from the device to "
 "the PC."
 msgstr ""
-"Synchroniseert bijgewerkte metadata, zoals beoordelingen en afspeeltellers, "
-"van het apparaat met de PC."
+"Synchroniseert bijgewerkte metadata, zoals scores en afspeeltellers, van het "
+"apparaat met de PC."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:23
 msgid ""
@@ -9205,7 +9204,7 @@ msgstr "Afspelen met MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:22
 msgid "Disable Player controls and track reordering"
-msgstr "Afspeelknoppen en wijzigen trackvolgorde uitschakelen"
+msgstr "Afspeelknoppen en wijzigen nummervolgorde uitschakelen"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:16
 msgid "DLNA Settings"
@@ -9221,7 +9220,7 @@ msgstr "Houdt ionhoud bij die"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Submit tracks from Radio streams"
-msgstr "Tracks van Radiostreams indienen"
+msgstr "Nummers van Radiostreams indienen"
 
 #: controls\devicesView.html:32
 msgid "Server IP address:port: "
@@ -9255,7 +9254,7 @@ msgstr "Sub-knooppunten en -Weergaven"
 
 #: dialogs\dlgConvertFormat.html:46
 msgid "Encode tracks with volume leveled"
-msgstr "Effen volume bij het encoderen"
+msgstr "Nummers met genormaliseerd volume encoderen"
 
 #: dialogs\dlgMovedFiles.html:37
 msgid "Update"
@@ -9263,7 +9262,7 @@ msgstr "Bijwerken"
 
 #: dialogs\dlgOGGSettings.html:34
 msgid "Nominal bitrate"
-msgstr "Nominale bitrate"
+msgstr "Nominale bitwaarde"
 
 #: dialogs\dlgOGGSettings.html:38
 msgid "Limit minimal bitrate"
@@ -9291,7 +9290,7 @@ msgstr "Waarschuwing  bij ontoegankelijk bestand"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:3
 msgid "Confirm desired options on copy of Library folders"
-msgstr "Vraag bevestiging bij het kopiëren van bibliotheekmappen"
+msgstr "Bevestiging bij het kopiëren van bibliotheekmappen vragen"
 
 #: dialogs\dlgOptions\pnl_Download.html:19
 msgid "Every hour"
@@ -9329,8 +9328,8 @@ msgstr ""
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Auto-sync playlists and new files from the device to the PC"
 msgstr ""
-"Auto-synchroniseer afspeellijsten en nieuwe bestanden van het apparaat naar "
-"de PC"
+"Afspeellijsten en nieuwe bestanden van het apparaat naar de PC auto-"
+"synchroniseren"
 
 #: dialogs\dlgAddonInstall.html:47
 msgid "I accept the terms in the license agreement"
@@ -9341,7 +9340,7 @@ msgid ""
 "Determines whether groups of tracks are treated as compilation albums or as "
 "individual tracks"
 msgstr ""
-"Bepaalt of een groep tracks als compilatie-album of als individuele tracks "
+"Bepaalt of een groep nummers als compilatie of als individuele nummers "
 "worden behandeld"
 
 #: dialogs\dlgAutotagFromFilename.html:12
@@ -9350,7 +9349,7 @@ msgstr "Indeling bestandsnaam:"
 
 #: dialogs\dlgMP3Settings.html:21
 msgid "Type of bitrate"
-msgstr "Type bitrate"
+msgstr "Soort bitwaarde"
 
 #: dialogs\dlgSearchImage.html:22
 msgid "Generated image"
@@ -9392,7 +9391,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:15
 msgid "Display format for 'Track summary'  (e.g. in Player):"
-msgstr "Trackindeling weergeven voor 'Tracksamenvatting'(bijv. in Speler):"
+msgstr "Indeling voor 'Nummersamenvatting'(bijv. in Speler):"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:49
 msgid "Warn when duplicate files are added"
@@ -9420,11 +9419,11 @@ msgstr "Producttype"
 
 #: dialogs\dlgConvertFormat.html:46
 msgid "Level Track volume"
-msgstr "Trackvolume normaliseren"
+msgstr "Volume Nummer normaliseren"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Verify ripped tracks"
-msgstr "Geripte bestanden controleren"
+msgstr "Geripte nummers controleren"
 
 #: dialogs\dlgMovedFiles.html:16
 msgid "Unlocatable files"
@@ -9437,7 +9436,7 @@ msgid ""
 "limit that is standard for a CD."
 msgstr ""
 "Hierdoor zal MediaMonkey vragen of hernoemen moet doorgaan indien de "
-"bestandnaam de standaard 64-karakterlimiet voor CD's overschrijdt. "
+"bestandnaam de standaard 64-karakterlimiet voor CD's overschrijdt."
 
 #: dialogs\dlgOptions\pnl_Download.html:26
 msgid ""
@@ -9475,8 +9474,7 @@ msgstr "Rippen"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:14
 msgid "Choose how the 'Track summary' field displays for each content Type"
-msgstr ""
-"Kies hoe het veld \"Bestandssamenvatting\" gevuld wordt voor elk mediatype"
+msgstr "Kies hoe 'Bestandssamenvatting' eruit ziet voor elk mediatype"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:6
 msgid "Ignore Shuffle"
@@ -9538,7 +9536,7 @@ msgstr "Bestandsnaam van afbeelding"
 
 #: dialogs\dlgAutoConvertRule.html:10
 msgid "Convert the following content:"
-msgstr "Converteer de volgende inhoud: "
+msgstr "De volgende inhoud converteren:"
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Copy files to new destination based on file tags"
@@ -9546,7 +9544,7 @@ msgstr "Kopieer bestanden naar nieuw locatie gebaseerd op labels"
 
 #: dialogs\dlgMP3Settings.html:69
 msgid "Bitrate (min)"
-msgstr "Bitrate (min.)"
+msgstr "Bitwaarde (min)"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:13
 msgid "Ignore prefixes:"
@@ -9610,7 +9608,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Player.html:45
 msgid "Displays file information and associated artwork"
-msgstr "Geeft bestandsinformatie en gekoppelde illustratie(s) weer."
+msgstr "Geeft bestandsinformatie en gekoppelde illustratie(s) weer"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:15
 msgid ""
@@ -9630,13 +9628,13 @@ msgid ""
 "added files to your library. The main use of this is if you wish to export "
 "playlists of newly added files to a portable device."
 msgstr ""
-"Deze optie is handig voor het automatisch genereren van afspeellijsten van "
+"Deze optie is handig voor het automatisch aanmaken van afspeellijsten van "
 "nieuw toegevoegde bestanden. Dit is nuttig voor het exporteren van  "
 "afspeellijsten van nieuw toegevoegde bestanden naar een draagbaar apparaat."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:46
 msgid "Create playlists of tracks newly added to the library"
-msgstr "Maak afspeellijsten aan van nieuw toegevoegde bestanden"
+msgstr "Afspeellijsten van nieuw toegevoegde nummers aanmaken"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:12
 msgid "per Album"
@@ -9686,7 +9684,7 @@ msgstr "Add-ons configureren"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:6
 msgid "Confirm desired options on move of Library folders"
-msgstr "Vraag bevestiging bij het verplaatsen van bibliotheekmappen"
+msgstr "Bevestiging bij het verplaatsen van bibliotheekmappen vragen"
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:9
 msgid "Download more DSP plug-ins..."
@@ -9698,7 +9696,7 @@ msgid ""
 "Task bar, and click 'Toolbars')."
 msgstr ""
 "Minimaliseert naar Microspeler als die is ingeschakeld (rechts-klik op de "
-"taakbalk en klik \"Werkbalken\")"
+"taakbalk en klik 'Werkbalken')."
 
 #: dialogs\dlgOptions\pnl_Library.html:169
 msgid ""
@@ -9706,13 +9704,13 @@ msgid ""
 "artwork and links it to tracks as they are added to the Library."
 msgstr ""
 "Bepaalt of MediaMonkey in mappen zoekt naar albumafbeeldingen en deze "
-"koppelt aan bestanden terwijl deze aan de Bibliotheek worden toegevoegd."
+"koppelt aan nummers terwijl deze aan de Bibliotheek worden toegevoegd."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:86
 msgid ""
 "For groups of tracks, avoid compilations (treat as individual tracks instead)"
 msgstr ""
-"VErmijd compilaties voor groepen tracks (behandel als individuele tracks)"
+"Compilaties voor groepen nummers vermijden (behandel als individuele nummers)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:9
 msgid "This option completely hides the menu bar."
@@ -9766,9 +9764,9 @@ msgid ""
 "Playing list, remove them from the Playing list and the Library, or delete "
 "them from the Playing list, the Library, and the computer system."
 msgstr ""
-"Wanneer aangevinkt, vraagt MediaMonkey of tracks van de Nu Spelend-lijst, de "
-"Nu Spelend-lijst en uit de Bibliotheek of van de Nu Spelend-lijst, uit de "
-"Bibliotheek en van de computer verwijderd moeten worden."
+"MediaMonkey zal vragen of nummers van de Speellijst, de Speellijst en uit de "
+"Bibliotheek of van de Speellijst, uit de Bibliotheek en van de computer "
+"verwijderd moeten worden."
 
 #: dialogs\dlgOptions\pnl_General.html:16
 msgid "Show splash screen at startup"
@@ -9823,8 +9821,8 @@ msgid ""
 "If enabled, a warning is provided whenever duplicate files are added to a "
 "playlist."
 msgstr ""
-"Toont een melding wanneer een  nummer aan een afspeellijst wordt toegevoegd "
-"dat al in de lijst staat."
+"Waarschuwt wanneer een  nummer aan een afspeellijst wordt toegevoegd dat al "
+"in de lijst staat."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:56
 msgid "Clipping prevention"
@@ -9866,7 +9864,7 @@ msgstr ""
 
 #: dialogs\dlgSleep.html:23
 msgid "% of current volume"
-msgstr "% van huidig volume."
+msgstr "% van huidig volume"
 
 #: dialogs\dlgSupportedFormat.html:70
 msgid "Levels"
@@ -9926,7 +9924,7 @@ msgid ""
 "are made."
 msgstr ""
 "Labels worden direct bijgewerkt wanneer de bestandseigenschappen worden "
-"gewijzigd. "
+"gewijzigd."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:30
 msgid ""
@@ -9935,7 +9933,7 @@ msgid ""
 "which tracks are leveled when 'Level Track volume' is used."
 msgstr ""
 "Dit is de basiswaarde voor de volume-normaliseringsaapassing die in de "
-"Bestandslijst wordt weergegeven. Het bepaalt ook het volume waarop tracks "
+"Bestandslijst wordt weergegeven. Het bepaalt ook het volume waarop nummers "
 "worden genormaiseerd wanneer 'Afspeelvolume normaliseren' wordt gebruikt."
 
 #: dialogs\dlgTrackProperties\tabBasic.html:19
@@ -9948,7 +9946,7 @@ msgstr "Deel de bibliotheek"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:24
 msgid "Only submit tracks that are part of the Library"
-msgstr "Alleen tracks uit de Bibliotheek indienen"
+msgstr "Alleen nummers uit de Bibliotheek indienen"
 
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid "Show confirmation dialog"
@@ -9964,7 +9962,7 @@ msgstr "Direct coderen"
 
 #: dialogs\dlgPodcastSubscription.html:69
 msgid "Prevents episodes that haven't been listened to from being deleted."
-msgstr "Voorkomt dat niet-beluisterde afleveringen worden verwijderd"
+msgstr "Voorkomt dat niet-beluisterde afleveringen worden verwijderd."
 
 #: dialogs\dlgPodcastSubscription.html:70
 msgid "Only if they have been listened to"
@@ -9973,18 +9971,18 @@ msgstr "Alleen als ze afgeluisterd zijn"
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the Playing list"
 msgstr ""
-"Bevestig gewenste opties bij verwijderen van bestanden uit de Nu Spelend-"
-"lijst"
+"Bevestiging gewenste opties bij verwijderen van bestanden van de Speellijst "
+"vragen"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:18
 msgid "Confirm rename operations that exceed 64 character CD limit"
 msgstr ""
-"Vraag bevestiging bij hernoemen bij overschrijding van de 64-karakterlimiet "
-"voor CD's"
+"Bevestiging bij hernoemen bij overschrijding van de 64-karakterlimiet voor "
+"CD's vragen"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:24
 msgid "Confirm modifications to more than 50 files at once"
-msgstr "Vraag bevestiging bij wijziging van meer dan 50 bestanden in één keer"
+msgstr "Bevestiging bij wijziging van meer dan 50 bestanden in één keer vragen"
 
 #: dialogs\dlgOptions\pnl_Library.html:67
 msgid ""
@@ -9993,9 +9991,9 @@ msgid ""
 "tracks are duplicates (i.e. they have matching signatures) they will appear "
 "in the Files to Edit - Duplicate Content view."
 msgstr ""
-"Maakt een digitale handtekening voor de audio-inhoud van elke track (labels "
-"worden genegeerd), zodat elke track afzonderlijk kan worden herkend. Als "
-"twee tracks identiek zijn (d.w.z. dat ze overeenkomende handtekeningen "
+"Maakt een digitale handtekening voor de audio-inhoud van elk nummer (labels "
+"worden genegeerd), zodat elk nummer afzonderlijk kan worden herkend. Als "
+"twee nummers identiek zijn (d.w.z. dat ze overeenkomende handtekeningen "
 "hebben), worden ze weergegeven in de weergave Te bewerken bestanden - "
 "Gelijke inhoud."
 
@@ -10071,7 +10069,7 @@ msgstr "Slapen annuleren"
 
 #: dialogs\videoConvSettings.html:59
 msgid "Bitrate (for max. res.)"
-msgstr "Bitsnelheid (voor max. res.)"
+msgstr "Bitwaarde (voor max. res.)"
 
 #: dialogs\dlgOptions\pnl_Download.html:16
 msgid "Determines how often MediaMonkey checks for updates"
@@ -10079,7 +10077,7 @@ msgstr "Bepaalt hoe vaak MediaMonkey controleert op updates"
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid "Always show tray icon"
-msgstr "Toon pictogram in systeemvak"
+msgstr "Pictogram in systeemvak weergeven"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:12
 msgid ""
@@ -10105,12 +10103,12 @@ msgid ""
 "This value determines playback volume (for track(s) that have been analyzed) "
 "if 'Level playback volume' is enabled."
 msgstr ""
-"Deze waarde bepaalt het afspeelvolume (voor tracks die geanalyseerd zijn) "
+"Deze waarde bepaalt het afspeelvolume (voor nummers die geanalyseerd zijn) "
 "wanneer 'Afspeelvolume normaliseren' is ingeschakeld."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:71
 msgid "Automatically analyzes volume of tracks as a background process"
-msgstr "Analyseert het trackvolume automatisch op de achtergrond"
+msgstr "Analyseert het volume van nummers automatisch op de achtergrond"
 
 #: dialogs\dlgWizard\pnlRegistration.html:10
 msgid "analyze volume automatically"
@@ -10180,12 +10178,12 @@ msgid ""
 "Displays a warning if a file in the Playing queue is inaccessible (e.g. if "
 "it's on a CD that isn't inserted)."
 msgstr ""
-"Geeft een waarschuwing weer wanneer een bestand in de Nu Spelend-rij "
+"Geeft een waarschuwing weer wanneer een bestand in de Speellijst "
 "ontoegankelijk is (bijv. een niet-geplaatste CD)."
 
 #: dialogs\dlgOptions\pnl_Library.html:110
 msgid "Get Album titles and Track Numbers from:"
-msgstr "Haal Albumtitels en Tracknummers op bij:"
+msgstr "Albumtitels en Nummers ophalen bij:"
 
 #: dialogs\dlgOptions\pnl_Library.html:80
 msgid "Show scan results dialog"
@@ -10236,7 +10234,7 @@ msgstr "Regiseur(s)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:42
 msgid "subdirectory for each playlist type"
-msgstr "Map voor elk type afspeellijst"
+msgstr "Submap voor elk type afspeellijst"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:29
 msgid "This format is used by some newer devices"
@@ -10385,7 +10383,7 @@ msgstr "Opzeggen en alle afleveringen verwijderen"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:7
 msgid "Automatically maintain at least"
-msgstr "Houd automatisch minstens "
+msgstr "Houd automatisch minstens"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:20
 msgid "Choose where Auto-DJ should add tracks from"
@@ -10430,7 +10428,7 @@ msgid ""
 "Import files, playlists, ratings, and playback history from other "
 "applications:"
 msgstr ""
-"Bestanden, afspeellijsten, beoordelingen en afspeelhistorie uit andere apps "
+"Bestanden, afspeellijsten, scores en afspeelhistorie uit andere apps "
 "importeren:"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:10
@@ -10491,7 +10489,7 @@ msgstr "Standaard Actie"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:43
 msgid "Use Unicode (UTF-8 encoding) for M3U playlists"
-msgstr "Gebruik Unicode (UTF-8 codering) voor .m3u afspeellijsten"
+msgstr "Unicode (UTF-8 codering) voor .m3u afspeellijsten gebruiken"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:7
 msgid "Level playback / sync volume:"
@@ -10506,7 +10504,7 @@ msgid ""
 "Analyzes the relative volume of tracks on a per Album basis, and saves the "
 "leveling co-efficient."
 msgstr ""
-"Analyseert het relatieve volume van tracks per Album en slaat de niveau-co-"
+"Analyseert het relatieve volume van nummers per Album en slaat de niveau-co-"
 "efficiënt op."
 
 #: dialogs\dlgWizard\pnlShare.html:3
@@ -10644,8 +10642,8 @@ msgid ""
 "If enabled, MediaMonkey will check (over the internet) whether a newer "
 "version exists."
 msgstr ""
-"Indien er een actieve internetverbinding is zal MediaMonkey zoeken naar een "
-"recentere versie."
+"Wanneer er een internetverbinding is, zal MediaMonkey zoeken naar de "
+"nieuwste versie."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:50
 msgid "Auto-tagging"
@@ -10670,7 +10668,7 @@ msgid ""
 "track. It does so by limiting the volume adjustment when possible clipping "
 "is detected."
 msgstr ""
-"Clippreventie zorgt ervoor dat volume-effening de audiotrack niet clipt. Dit "
+"Clippreventie zorgt ervoor dat volume-effening het nummer niet clipt. Dit "
 "gebeurt door de volume-aanpassing te beperken wanneer mogelijke clipping "
 "wordt gedetecteerd."
 
@@ -10728,7 +10726,7 @@ msgstr "Nieuwe versie"
 
 #: dialogs\dlgPodcastSubscription.html:58
 msgid "Defines which episodes are to be deleted"
-msgstr "Bepaalt welke afleveringen verwijderd worden."
+msgstr "Bepaalt welke afleveringen verwijderd worden"
 
 #: dialogs\dlgSearchImage.html:22
 msgid "Default icon"
@@ -10764,9 +10762,9 @@ msgid ""
 "(seconds) from being added to the Library, since it's unlikely that you "
 "really want such files to appear in your Library."
 msgstr ""
-"Voorkomt dat nummers die kleiner zijn dan een bepaalde grootte (KB) of tijd "
-"(seconden) worden toegevoegd aan de Bibliotheek, omdat je dergelijke nummers "
-"waarschijnlijk niet in je Bibliotheek wilt hebben."
+"Voorkomt dat nummers die kleiner zijn dan een bepaalde grootte (KB) of "
+"korter zijn (seconden) worden toegevoegd aan de Bibliotheek, omdat je "
+"dergelijke nummers waarschijnlijk niet in je Bibliotheek wilt hebben."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:18
 msgid "Sources"
@@ -10783,14 +10781,14 @@ msgid ""
 "number of tracks analyzed does not affect volume analysis results, there is "
 "little reason to disable this function."
 msgstr ""
-"Deze optie zorgt ervoor dat de Volume-analyse in werking treedt wanneer een "
-"nummer dat wordt toegevoegd aan de bibliotheek nog geen volume-waarde heeft. "
-"Omdat het aantal te analyseren nummers het resultaat van de analyse niet "
-"beïnvloedt, is er weinig reden om deze optie uit te schakelen."
+"Zorgt ervoor dat Volume analyseren alleen wordt uitgevoerd op nummers "
+"waarvoor nog geen volumecoëfficiënt is berekend. Aangezien het aantal "
+"geanalyseerde nummers de resultaten van de volumeanalyse niet beïnvloedt, is "
+"er weinig reden deze functie uit te schakelen."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:69
 msgid "When analyzing Track volume, also analyze Album volume"
-msgstr "Analyseer naast het nummervolume ook het albumvolume"
+msgstr "Naast het nummervolume ook het albumvolume analyseren"
 
 #: samples\genreTextLayour.html:3
 msgid "Alternative Rock"
@@ -10890,7 +10888,7 @@ msgstr "Afbeeldingslocatie"
 
 #: dialogs\dlgConvertFormat.html:11
 msgid "Record CD track(s) to your hard drive"
-msgstr "Nummers van CD naar de harde schijf kopiëren"
+msgstr "Nummer(s) van CD naar de harde schijf kopiëren"
 
 #: dialogs\dlgMovedFiles.html:14
 msgid "Files Located in New Locations"
@@ -10898,7 +10896,7 @@ msgstr "Bestanden gevonden op nieuwe locatie"
 
 #: dialogs\dlgMP3Settings.html:75
 msgid "Bitrate (max)"
-msgstr "Bitrate (max)"
+msgstr "Bitwaarde (max)"
 
 #: dialogs\dlgOGGSettings.html:36
 msgid " kbps"
@@ -10918,7 +10916,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Library.html:118
 msgid "Playlists (M3U, XSPF) then Tags"
-msgstr "Eerst afspeellijsten (M3U, xspf) dan labels"
+msgstr "Afspeellijsten (M3U, xspf) dan labels"
 
 #: dialogs\dlgOptions\pnl_Library.html:85
 msgid ""
@@ -11165,8 +11163,7 @@ msgstr "Plus verbeterde prestaties- en instellingsopties, Sleeptimer, enz."
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Recommends Artwork and track metadata for newly imported tracks"
-msgstr ""
-"Beveelt Illustratie- en trackgegevens aan voor nieuw geïmporteerde nummers"
+msgstr "Beveelt Illustratie- en metadata aan voor nieuw geïmporteerde nummers"
 
 #: controls\devicesView.html:4
 msgid "Devices"
@@ -11215,7 +11212,7 @@ msgstr "Toon"
 
 #: dialogs\dlgOptions\pnl_General.html:10
 msgid "Include beta builds"
-msgstr "Inclusief bèta-builds"
+msgstr "Inclusief bèta's"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:14
 msgid "Type the key combination to activate the selected action"
@@ -11229,11 +11226,11 @@ msgid ""
 "where a music collection is arranged in such a manner that each collection "
 "of tracks has an associated playlist that defines the Album."
 msgstr ""
-"Dit bepaalt hoe de eigenschappen van Albumtitels en Tracknummers aan de "
+"Dit bepaalt hoe de eigenschappen van Albumtitels en Volgnummers aan de "
 "Bibliotheek worden toegevoegd. Opties: 'Alleen labels', 'Labels, dan "
 "afspeellijsten' en 'Afspeellijsten, dan labels'. Gebruik altijd 'Alleen "
 "labels', behalve wanneer een muziekcollectie zo is geordend dat elke "
-"verzameling tracks een bijbehorende afspeellijst heeft die het album "
+"verzameling nummers een bijbehorende afspeellijst heeft die het album "
 "definieert."
 
 #: dialogs\dlgOptions\pnl_Library.html:173
@@ -11307,7 +11304,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in Playing list"
-msgstr "aankomende bestanden in Speellijst"
+msgstr "volgende bestanden op de Speellijst"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:2
 msgid "Set the default directory / filename format for specified files."
@@ -11320,7 +11317,7 @@ msgid ""
 "stopping or switching tracks; changing volume, balance or equalizer "
 "settings; and re-ordering / removing files, or adding multiple files at once."
 msgstr ""
-"Hierdoor werkt MediaMonkey meer als een jukebox, waardoor gebruikers nummers "
+"MediaMonkey werkt hierdoor meer als een jukebox, waardoor gebruikers nummers "
 "niet kunnen stoppen of overslaan; volume-, balans-, en equalizerinstllingen "
 "niet kunnen wijzigen ;nummers niet kunnen sorteren of verwijderen of "
 "meerdere nummers tegelijkertijd kunnen toevoegen."
@@ -11353,7 +11350,7 @@ msgstr "Langzame fade-out:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:27
 msgid "Target volume for leveling tracks:"
-msgstr "Doelvolume voor effening:"
+msgstr "Doelvolume voor normaliseren:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:72
 msgid "Automatically analyze volume of unanalyzed files:"
@@ -11394,7 +11391,7 @@ msgstr "Faden naar"
 #: dialogs\dlgOptions\pnl_Confirmations.html:15
 msgid "Confirm deletion of currently playing file"
 msgstr ""
-"Vraag bevestiging bij het verwijderen van een bestand dat wordt afgespeeld"
+"Bevestiging bij het verwijderen van een bestand dat wordt afgespeeld vragen"
 
 #: dialogs\dlgOptions\pnl_Library.html:57
 msgid "Seconds"
@@ -11469,8 +11466,8 @@ msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks. Do you want to proceed?"
 msgstr ""
-"Hiermee wordt het veld Volgnummer oplopend aangepast voor de %d "
-"geselecteerde nummers. Doorgaan?"
+"Hiermee wordt het veld Volgnr. oplopend aangepast voor de %d geselecteerde "
+"nummers. Doorgaan?"
 
 # Quicktime AAC/MP4 plug-in
 msgid "QuickTime"
@@ -11481,14 +11478,14 @@ msgstr "Quicktime is nodig om M4A- en andere AAC-bestanden af te spelen."
 
 msgid "New version of Quicktime is needed to play M4A and other AAC tracks."
 msgstr ""
-"Een nieuwe versie van Quicktime is nodig om M4A- en andere AAC-tracks af te "
-"spelen."
+"Een nieuwe versie van Quicktime is nodig om M4A- en andere AAC-bestanden af "
+"te spelen."
 
 msgid "Do you want to download it?"
 msgstr "Downloaden?"
 
 msgid "Mid/Side stereo"
-msgstr "Mid/Side stereo "
+msgstr "Mid/Side stereo"
 
 # FLAC enc/dec
 msgid "AAC settings"
@@ -11503,10 +11500,10 @@ msgstr "Gemiddelde bitwaarde (ABR)"
 
 # WMA plug-in
 msgid "Constant bitrate (CBR) 1-pass"
-msgstr "Constante bitwaarde (CBR) 1-pass "
+msgstr "Constante bitwaarde (CBR) 1-pass"
 
 msgid "Constant bitrate (CBR) 2-pass"
-msgstr "Constante bitwaarde (CBR) 2-pass "
+msgstr "Constante bitwaarde (CBR) 2-pass"
 
 # Hotkeys
 msgid "Media Fast Forward"
