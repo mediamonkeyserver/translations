@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-27 20:17\n"
-"PO-Revision-Date: 2021-02-13 21:29+0000\n"
+"PO-Revision-Date: 2021-02-14 16:50+0000\n"
 "Last-Translator: Hans Schippers <hans@hanas.nl>\n"
 "Language-Team: Dutch <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/nl/>\n"
@@ -320,7 +320,7 @@ msgstr "URL opgeven"
 
 #: actions.js:1212
 msgid "Enter a link to a file you want to download:"
-msgstr "Link naar het bestand dat je wilt downloaden:"
+msgstr "Link naar het te downloaden bestand:"
 
 #: actions.js:1232 actions.js:1239
 msgid "Add directory"
@@ -403,7 +403,7 @@ msgstr ""
 #. default
 #: actions.js:1559
 msgid "Clean URL cache"
-msgstr "URL-cache opschonen"
+msgstr "URL-cache legen"
 
 #: actions.js:1573 dialogs/dlgMaintainLibrary.js:10
 msgid "Manage database"
@@ -421,7 +421,7 @@ msgstr "Hiermee wordt een backup gemaakt van de huidige database"
 #: actions.js:9129 Scripts/autoIncTrack/actions_add.js:21
 #: Scripts/syncToFolder/viewHandlers_add.js:7
 msgid "Do you want to proceed?"
-msgstr "Wil je doorgaan?"
+msgstr "Doorgaan?"
 
 #: actions.js:1620
 msgid "Backup is complete."
@@ -528,8 +528,8 @@ msgstr "Mappen toevoegen"
 msgid ""
 "If a network location isn't found automatically, you can add one manually."
 msgstr ""
-"Wanneer een netwerklocatie niet automatisch is gevonden, kan je deze "
-"handmatig toevoegen."
+"Wanneer een netwerklocatie niet automatisch is gevonden, kan deze handmatig "
+"worden opgegeven."
 
 #: actions.js:1972 dialogs\dlgWizard\pnlScan.html:10
 msgid "Add location"
@@ -556,8 +556,8 @@ msgstr "Mediaserver handmatig toevoegen"
 #: actions.js:2038
 msgid "If a media server isn't found automatically, you can add one manually."
 msgstr ""
-"Wanneer een mediaserver niet automatisch is gevonden, kan je deze handmatig "
-"toevoegen."
+"Wanneer een mediaserver niet automatisch is gevonden, kan deze handmatig "
+"worden opgegeven."
 
 #: actions.js:2038 UpNp.pas:9457 controls\devicesView.html:36
 msgid "Device Description file path:"
@@ -605,8 +605,8 @@ msgid ""
 "If you want to use another UPnP/DLNA client to remotely access %s, enter the "
 "following server destination to the client:"
 msgstr ""
-"Als je een andere UPnP/DLNA-client wilt gebruiken voor externe toegang tot "
-"%s, voer dan het volgende serveradres in voor de client:"
+"Als een andere UPnP/DLNA-client gewenst is voor externe toegang tot %s, voer "
+"dan het volgende serveradres in op de client:"
 
 #: actions.js:2089
 msgid "Remote access to %s cannot be auto-configured via UPnP/NAT-PMP"
@@ -695,7 +695,7 @@ msgstr "Audio-CD &rippen"
 
 #: actions.js:2429 dialogs/dlgCDDBResult.js:7
 msgid "Lookup Audio CD metadata"
-msgstr "Metadata van Audio-CD opzoeken"
+msgstr "Albumgegevens opzoeken"
 
 #: actions.js:2445
 msgid "&Options"
@@ -842,7 +842,7 @@ msgstr "5 seconden vooruit"
 
 #: actions.js:3013
 msgid "S&leep"
-msgstr "S&laap"
+msgstr "S&lapen"
 
 #: actions.js:3028
 msgid "Auto-&tag from filename"
@@ -1045,7 +1045,7 @@ msgstr "&Verwijderen"
 
 #: actions.js:4052
 msgid "Clea&n (remove inaccessible)"
-msgstr "&Schonen (verwijderen indien ontoegankelijk)"
+msgstr "&Opruimen (verwijder indien ontoegankelijk)"
 
 #: actions.js:4062
 msgid "Remove &duplicates"
@@ -1053,7 +1053,7 @@ msgstr "&Duplicaten verwijderen"
 
 #: actions.js:4072
 msgid "&Randomize list"
-msgstr "&Lijst schudden"
+msgstr "&Lijst husselen"
 
 #: actions.js:4082 FullPlayer.pas:4421
 msgid "Reverse list"
@@ -1477,7 +1477,9 @@ msgstr "Titel"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: actions.js:9129
 msgid "MediaMonkey will reload (which may terminate existing processes)."
-msgstr "MediaMonkey zal herstarten (wat bestaande processen kan beëindigen)."
+msgstr ""
+"MediaMonkey wordt opnieuw gestart (Mogelijk worden bestaande processen "
+"beëindigd)."
 
 #. registerDebuggerEntryPoint.call(this /* method class */, 'init' /* method name to inject */);
 #. add unknown
@@ -1606,7 +1608,7 @@ msgstr "Indeling van origineel gebruiken"
 
 #: out_WASAPI_configDlg.js:77
 msgid "Prevents audio from other applications"
-msgstr "Voorkomt audio van andere toepassingen"
+msgstr "Blokkeert audio van andere toepassingen"
 
 #: out_WASAPI_configDlg.js:77 out_WASAPI_configDlg.js:148
 #: out_WASAPI_configDlg.js:169
@@ -2932,7 +2934,7 @@ msgstr "Reserveer"
 
 #: controls/deviceContentRandomizer.js:16
 msgid "MB of free space"
-msgstr "Vrije ruimte (MB)"
+msgstr "MB aan vrije ruimte"
 
 #: controls/deviceContentSequencer.js:19 ResStrings.pas:703 ResStrings.pas:704
 #: ResStrings.pas:705 ResStrings.pas:706 ResStrings.pas:707
@@ -3171,7 +3173,7 @@ msgstr "Type Media"
 
 #: controls/multiview.js:192
 msgid "Views"
-msgstr "Weergaven"
+msgstr "Deelvensters"
 
 #: controls/multiview.js:228 controls/sortBy.js:65
 #: controls\searchEditor.html:41
@@ -3306,8 +3308,7 @@ msgid ""
 "Please consider upgrading to a Gold license."
 msgstr ""
 "Audio-streaming is beperkt tot 30 minuten in de gratis versie van "
-"MediaMonkey. Je kunt upgraden naar de Gold-versie om deze beperking op te "
-"heffen."
+"MediaMonkey. Upgrade naar de Gold-versie om deze beperking op te heffen."
 
 #: controls/player.js:955 controls\windowtitle.html:4
 msgid "MediaMonkey"
@@ -3349,9 +3350,7 @@ msgstr ""
 msgid ""
 "You are not subscribed to any podcast currently. To subscribe a podcast go "
 "to %s"
-msgstr ""
-"Je bent momenteel op geen enkele podcast geabonneerd. Ga naar %s om je te "
-"abonneren"
+msgstr "Geen Podcast-abonnementen. Ga naar %s om te abonneren"
 
 #: controls/podcastSubscribeTutorial.js:23
 msgid "or"
@@ -3367,7 +3366,7 @@ msgstr "Score verwijderen"
 
 #: controls/searchBar.js:458 dialogs\dlgOptions\pnl_Search.html:8
 msgid "Filters matches"
-msgstr "Filtert overeenkomsten"
+msgstr "Overeenkomsten filteren"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. per #16067
@@ -3375,11 +3374,11 @@ msgstr "Filtert overeenkomsten"
 #: controls/searchBar.js:472 controls/searchBar.js:500
 #: dialogs\dlgOptions\pnl_Search.html:4
 msgid "Search current view"
-msgstr "Huidige weergave doorzoeken"
+msgstr "Weergegeven venster doorzoeken"
 
 #: controls/searchBar.js:475 dialogs\dlgOptions\pnl_Search.html:9
 msgid "Scrolls to match"
-msgstr "Schuift naar overeenkomst"
+msgstr "Naar overeenkomst scrollen"
 
 #: controls/searchBar.js:675
 msgid "Search Tips"
@@ -3438,7 +3437,7 @@ msgstr "Vaste voorwaarde"
 
 #: controls/searchEditor.js:823
 msgid "Classification & Custom"
-msgstr "Classificatie & Aangepast"
+msgstr "Classificatie & Vrij veld"
 
 #: controls/searchEditor.js:827
 msgid "Others"
@@ -3561,28 +3560,28 @@ msgstr "Vrij veld 5"
 
 #: controls/trackListView.js:21 dialogs\dlgOptions\pnl_Appearance.html:53
 msgid "Custom 6"
-msgstr "Aangepast 6"
+msgstr "Vrij veld 6"
 
 #: controls/trackListView.js:22 dialogs\dlgOptions\pnl_Appearance.html:57
 msgid "Custom 7"
-msgstr "Aangepast 7"
+msgstr "Vrij veld 7"
 
 #: controls/trackListView.js:23 dialogs\dlgOptions\pnl_Appearance.html:61
 msgid "Custom 8"
-msgstr "Aangepast 8"
+msgstr "Vrij veld 8"
 
 #: controls/trackListView.js:24 dialogs\dlgOptions\pnl_Appearance.html:65
 msgid "Custom 9"
-msgstr "Aangepast 9"
+msgstr "Vrij veld 9"
 
 #: controls/trackListView.js:25 dialogs\dlgOptions\pnl_Appearance.html:69
 msgid "Custom 10"
-msgstr "Aangepast 10"
+msgstr "Vrij veld 10"
 
 #: controls/trackListView.js:53 dialogs/dlgTrackProperties.js:33
 #: dialogs\dlgAutoConvertRule.html:50
 msgid "Custom"
-msgstr "Aangepast"
+msgstr "Vrij veld"
 
 #: controls/trackListView.js:61
 msgid "Play History"
@@ -3775,7 +3774,7 @@ msgstr "Tekstschrijver"
 #: MaskHelper.pas:3783 QueryManage.pas:4650 ResStrings.pas:482
 #: dialogs\dlgTrackProperties\tabDetails.html:5
 msgid "Grouping"
-msgstr "Groeperen"
+msgstr "Groep"
 
 #: controls/trackListView.js:1342 dialogs/dlgAutotag.js:1785
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:142
@@ -3948,7 +3947,7 @@ msgstr "Map toevoegen"
 #: controls/deviceConfig/syncFromDevice.js:46
 #: controls/deviceConfig/options/pnl_FileLocations.js:67
 msgid "Enter folder path that you want to add:"
-msgstr "Geef het pad op dat je wilt toevoegen:"
+msgstr "Geef het pad op om toe te voegen:"
 
 #: controls/deviceConfig/syncToDevice.js:182
 msgid "Add library content to '%s'"
@@ -4159,7 +4158,7 @@ msgstr "Audio bitdiepte"
 
 #: dialogs/dlgAutoorganize.js:22 dialogs/dlgOptions.js:107
 msgid "Auto-organize"
-msgstr "Auto-organiseer"
+msgstr "Auto-organiseren"
 
 #: dialogs/dlgAutoorganize.js:141 dialogs\dlgAutoorganize.html:32
 msgid "Delete emptied folders"
@@ -4404,7 +4403,7 @@ msgstr ""
 
 #: dialogs/dlgDeletedTracks.js:60
 msgid "Do you want to remove them from the Library?"
-msgstr "Wil je ze uit de Bibliotheek verwijderen?"
+msgstr "Uit de Bibliotheek verwijderen?"
 
 #: dialogs/dlgDeviceConfig.js:4 helpers/mediaSync.js:2572
 msgid "Sync settings"
@@ -4494,7 +4493,7 @@ msgstr "Elke maand"
 
 #: dialogs/dlgManageViews.js:17 helpers/views.js:293
 msgid "Manage views"
-msgstr "Weergaven beheren"
+msgstr "Deelvensters beheren"
 
 #: dialogs/dlgMediaProperties.js:11 ResStrings.pas:403
 msgid "Removable"
@@ -4818,7 +4817,7 @@ msgstr "Audio-DSP"
 
 #: dialogs/dlgOptions.js:91
 msgid "Collections & Views"
-msgstr "Collecties & Weergaven"
+msgstr "Collecties & Vensters"
 
 #: dialogs/dlgOptions.js:95
 msgid "Fields"
@@ -4847,11 +4846,11 @@ msgstr "Geef de Podcast's titel en URL op om te abonneren."
 
 #: dialogs/dlgPodcastSubscription.js:61
 msgid "You are already subscribed to this podcast"
-msgstr "Je bent al op deze podcast geabonneerd"
+msgstr "Er is al een abonnement op deze Podcast"
 
 #: dialogs/dlgPodcastSubscription.js:98 dialogs\dlgOptions\pnl_Download.html:14
 msgid "Global podcast options"
-msgstr "Algemene podcast-instellingen"
+msgstr "Algemene Podcast-instellingen"
 
 #: dialogs/dlgPodcastUnsubscribe.js:9
 msgid "Are you sure you want to unsubscribe"
@@ -4875,7 +4874,7 @@ msgid ""
 "Your license information is incorrect. Please cut and paste the registration "
 "information to avoid any errors."
 msgstr ""
-"Je licentie-informatie is niet correct. Kopieer en plak de registratie-"
+"De licentie-informatie is niet correct. Kopieer en plak de registratie-"
 "informatie om fouten te voorkomen."
 
 #: dialogs/dlgScanResults.js:8
@@ -4944,7 +4943,7 @@ msgstr "Slaapstand"
 
 #: dialogs/dlgSleep.js:19 dialogs\dlgSleep.html:31
 msgid "Sleep"
-msgstr "Slaapstand"
+msgstr "Stand-by"
 
 #: dialogs/dlgSleep.js:21
 msgid "Log off"
@@ -5025,7 +5024,7 @@ msgstr "Welkom bij MediaMonkey"
 
 #: dialogs/dlgWizard.js:18
 msgid "To get started, add your media files to the library"
-msgstr "Voeg je mediabestanden toe aan de bibliotheek"
+msgstr "Voeg, om te beginnen, mediabestanden toe aan de bibliotheek"
 
 #: dialogs/dlgWizard.js:36
 msgid "Setup Wizard"
@@ -5046,7 +5045,9 @@ msgstr "Bestanden automatisch ordenen (tijdens scannen of bewerken)"
 
 #: dialogs/dlgOptions/pnl_AutoOrganize.js:17
 msgid "For auto-organize functionality, please upgrade to MediaMonkey Gold!"
-msgstr "Voor auto-organisatiefuncties moet je upgraden naar MediaMonkey Gold!"
+msgstr ""
+"Om de functie Auto-organiseren te kunnen gebruiken, is een upgrade naar "
+"MediaMonkey Gold nodig!"
 
 #: dialogs/dlgOptions/pnl_AutoOrganize.js:35
 #: dialogs\dlgCollectionOptions.html:48
@@ -5082,7 +5083,7 @@ msgstr ""
 msgid ""
 "To install a plug-in you'll have to follow either of the following "
 "procedures:"
-msgstr "Om een plug-in te installeren, doe je één van de volgende dingen:"
+msgstr "Een plug-in installeren kan op de volgende twee manieren:"
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:15
 #: dialogs/dlgOptions/pnl_InputPlugins.js:14
@@ -5127,8 +5128,8 @@ msgid ""
 "For DSP Audio Effect plug-ins, you can also set the order in which the "
 "plugins process the audio using the up/down arrows."
 msgstr ""
-"Je kunt de volgorde waarin DSP-audio-effectplug-ins de audio verwerken "
-"wijzigen door de pijltjestoetsen (omhoog/omlaag) te gebruiken."
+"De volgorde waarin DSP-audio-effectplug-ins de audio verwerken kan met de "
+"pijltjestoetsen (omhoog/omlaag) gewijzigd worden."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:39
 msgid "Plug-in description"
@@ -5237,9 +5238,9 @@ msgid ""
 "MediaMonkey is not running and you are not logged into your account. Please "
 "input your account (%s) password:"
 msgstr ""
-"MedeaMonkehy als service installeren geeft je de mogelijkheid mediaserver te "
-"doorzoeken, zelfs wanneer MediaMonkey niet actief is en je niet ingelogd "
-"bent op je account. Geef het account (%s) wachtwoord:"
+"MedeaMonkehy als service installeren biedt de mogelijkheid de mediaserver te "
+"doorzoeken, ook wanneer MediaMonkey niet actief is en zonder ingelogd te "
+"zijn. Voer het account (%s) wachtwoord op:"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:63
 #: dialogs/dlgOptions/pnl_MediaTree.js:64
@@ -5259,7 +5260,8 @@ msgstr "<Nieuwe collectie toevoegen...>"
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:26
 msgid "To automatically update tags, please upgrade to MediaMonkey Gold!"
 msgstr ""
-"Om labels automatisch bij te werken moet je upgraden naar MediaMonkey Gold!"
+"Om labels automatisch bij te werken is een upgrade naar MediaMonkey Gold "
+"nodig!"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:87
 msgid "Lyrics sources"
@@ -5455,7 +5457,7 @@ msgstr "Overslaan"
 
 #: helpers/autoTagFramework.js:287 dialogs\dlgWizard.html:16
 msgid "Done"
-msgstr "Voltooid"
+msgstr "Voltooien"
 
 #: helpers/mediaSync.js:398
 msgid "There was a problem syncing \"%s\"."
@@ -5537,8 +5539,8 @@ msgid ""
 "Once installed, you may initiate Wi-Fi sync from the device (USB sync is not "
 "reliable on some devices)."
 msgstr ""
-"Na installatie kan je Wi-Fi-synchronisatie inschakelen op het apparaat (USB-"
-"synchronisatie is soms onbetrouwbaar)."
+"Na installatie kan Wi-Fi-synchronisatie inschakeld worden op het apparaat "
+"(USB-synchronisatie is soms onbetrouwbaar)."
 
 #: helpers/mediaSync.js:993
 msgid ""
@@ -5948,9 +5950,9 @@ msgid ""
 "This will create a new sync profile for this drive/folder so that you can "
 "sync files to this location as if it were a portable device."
 msgstr ""
-"Hiermee wordt een nieuw synchronisatieprofiel voor dit station/deze map "
-"gemaakt, zodat je bestanden naar deze locatie kunt synchroniseren alsof het "
-"een draagbaar apparaat is."
+"Maakt een nieuw synchronisatieprofiel voor dit station/deze map , zodat "
+"bestanden naar deze locatie gesynchroniseerd kunnen worden alsof het een "
+"draagbaar apparaat is."
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:215
 msgid "Sync root"
@@ -6627,7 +6629,7 @@ msgstr "Probleem bij het organiseren van nummer(s):"
 
 #: ExceptionHandler.pas:228
 msgid "Restart in Safe mode"
-msgstr "In veilige modus herstarten"
+msgstr "Veilige modus"
 
 #. set buttons captions
 #: ExceptionHandler.pas:262
@@ -7008,7 +7010,7 @@ msgstr "Afspelen mislukt: %s kan niet gedecodeerd worden."
 
 #: FullPlayer.pas:4310
 msgid "Clean"
-msgstr "Opschonen"
+msgstr "Opruimen"
 
 #: FullPlayer.pas:4466
 msgid "Randomize list"
@@ -8155,7 +8157,7 @@ msgid ""
 "example, browse your classical music collection independently of your other "
 "music. Collections can only be edited with the Gold version."
 msgstr ""
-"Collecties maken het mogelijk subsets te definiëren binnen je Bibiliotheek "
+"Collecties maken het mogelijk subsets te definiëren binnen de Bibiliotheek "
 "zodat, bijvoorbeeld, klassieke muziek doorzocht kan worden, los van overige "
 "muziek. Collecties kunnen alleen worden bewerkt in de Gold-versie."
 
@@ -8230,7 +8232,7 @@ msgstr "Computer gaat in de slaapstand"
 
 #: Shutdowner.pas:197
 msgid "Your computer is going to sleep"
-msgstr "De computer gaat in de slaapstand"
+msgstr "De computer gaat in Stand-by"
 
 #: Shutdowner.pas:209
 msgid "Your computer is going to log off"
@@ -8450,7 +8452,7 @@ msgstr "Outputkwaliteit"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:29
 msgid "This changes the header for each custom field."
-msgstr "Hiermee wordt de koptekst van elk aangepast veld gewijzigd."
+msgstr "Hiermee wordt de koptekst van elk vrij veld gewijzigd."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -9158,7 +9160,7 @@ msgstr "Abonnementsregels voor deze podcast aanpassen"
 
 #: dialogs\dlgRegisterGold.html:32
 msgid "purchase MediaMonkey Gold here"
-msgstr "koop MediaMonkey Gold hier"
+msgstr "Koop MediaMonkey dan hier"
 
 #: dialogs\dlgSelectFromList.html:13
 msgid "< Remove"
@@ -9216,7 +9218,7 @@ msgstr "Per nummer"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:29
 msgid "Scrobble content that"
-msgstr "Houdt ionhoud bij die"
+msgstr "Inhoud Scrobblen"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Submit tracks from Radio streams"
@@ -9250,7 +9252,7 @@ msgstr "Alleen lege velden bijwerken"
 
 #: dialogs\dlgCollectionOptions.html:50
 msgid "Sub-nodes and Views"
-msgstr "Sub-knooppunten en -Weergaven"
+msgstr "Sub-knooppunten en Deelvensters"
 
 #: dialogs\dlgConvertFormat.html:46
 msgid "Encode tracks with volume leveled"
@@ -9395,7 +9397,7 @@ msgstr "Indeling voor 'Nummersamenvatting'(bijv. in Speler):"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:49
 msgid "Warn when duplicate files are added"
-msgstr "Waarschuwing bij toevoegen identiek bestand"
+msgstr "Waarschuwing bij het toevoegen van een identiek bestand"
 
 #: dialogs\dlgTrackProperties\tabCustom.html:104
 msgid "Edit extended tags"
@@ -9540,7 +9542,7 @@ msgstr "De volgende inhoud converteren:"
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Copy files to new destination based on file tags"
-msgstr "Kopieer bestanden naar nieuw locatie gebaseerd op labels"
+msgstr "Bestanden a.h.v. labels naar de nieuwe locatie kopiëren"
 
 #: dialogs\dlgMP3Settings.html:69
 msgid "Bitrate (min)"
@@ -9577,8 +9579,8 @@ msgid ""
 "Allows you to choose MediaMonkey's language. Close and restart MediaMonkey "
 "for the change to take effect."
 msgstr ""
-"Hiermee kan je de MediaMonkey-taal kiezen. Herstart MediaMonkey om de "
-"wijziging door te voeren."
+"Hiermee kan de MediaMonkey-taal gewijzigd worden. MediaMonkey moet opnieuw "
+"gestart worden om de wijziging door te voeren."
 
 #: dialogs\dlgOptions\pnl_General.html:19
 msgid ""
@@ -9603,7 +9605,7 @@ msgid ""
 "Prefer faster metadata lookups when possible (instead of slower audio "
 "fingerprinting)"
 msgstr ""
-"Prefereer sneller metadata zoeken, indien mogelijk (i.p.v. traere audio-"
+"Bij voorkeur sneller metadata zoeken, indien mogelijk (i.p.v. tragere audio-"
 "vingerafdrukken)"
 
 #: dialogs\dlgOptions\pnl_Player.html:45
@@ -9660,7 +9662,7 @@ msgstr ""
 
 #: dialogs\dlgAutoorganize.html:9
 msgid "Move and rename files to new destination based on file tags"
-msgstr "Verplaats en hernoem bestanden, gebaseerd op bestandslabels"
+msgstr "Bestanden gebaseerd op bestandslabels verplaatsen en hernoemen"
 
 #: dialogs\dlgCollectionOptions.html:12
 msgid "Collection name"
@@ -9802,7 +9804,7 @@ msgstr "Besturing van de MediaMonkey-speler via UPnP/DLNA toestaan"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:7
 msgid "Store MP3 file properties using:"
-msgstr "Sla mp3 informatie op in:"
+msgstr "Sla mp3 bestandsinformatie op in:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:19
 msgid ""
@@ -9895,8 +9897,8 @@ msgid ""
 "Configure which server to use. The main server is entered by default, "
 "although you may want to change this to a server closer to your location."
 msgstr ""
-"Stel in welke server gebruikt moet worden. The hoofdserver staat standaard "
-"ingesteld. Je kunt dit wijzigen in een server dichterbij."
+"Kies welke server gebruikt moet worden. Standaard is de hoofdserver "
+"ingesteld. Dit kan gewijzigd worden naar een server dichter in de buurt."
 
 #: dialogs\dlgOptions\pnl_Performance.html:33
 msgid "Priority for background tasks"
@@ -10191,7 +10193,7 @@ msgstr "Scanresultaten weergeven"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:90
 msgid "Replace existing information if confidence > "
-msgstr "Bestaande info vervangen bij betrouwbaarheid > "
+msgstr "Bestaande info vervangen bij een betrouwbaarheid > "
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
 msgid ""
@@ -10681,8 +10683,8 @@ msgid ""
 "MediaMonkey is free, however, you can upgrade to MediaMonkey Gold to get "
 "additional features:"
 msgstr ""
-"MediaMonkey is gratis, maar je kunt upgraden naar MediaMonkey Gold met "
-"daarin nog meer opties:"
+"MediaMonkey is gratis. Upgrade naar MediaMonkey Gold voor veel meer "
+"mogelijkheden:"
 
 #: controls\windowtitle.html:19
 msgid "Close window"
@@ -10762,9 +10764,9 @@ msgid ""
 "(seconds) from being added to the Library, since it's unlikely that you "
 "really want such files to appear in your Library."
 msgstr ""
-"Voorkomt dat nummers die kleiner zijn dan een bepaalde grootte (KB) of "
-"korter zijn (seconden) worden toegevoegd aan de Bibliotheek, omdat je "
-"dergelijke nummers waarschijnlijk niet in je Bibliotheek wilt hebben."
+"Voorkomt dat nummers kleiner dan een bepaalde grootte (KB) of korter "
+"(seconden) worden toegevoegd aan de Bibliotheek, omdat dergelijke nummers "
+"waarschijnlijk niet gewenst zijn in de Bibliotheek."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:18
 msgid "Sources"
@@ -10892,7 +10894,7 @@ msgstr "Nummer(s) van CD naar de harde schijf kopiëren"
 
 #: dialogs\dlgMovedFiles.html:14
 msgid "Files Located in New Locations"
-msgstr "Bestanden gevonden op nieuwe locatie"
+msgstr "Bestanden op nieuwe locaties"
 
 #: dialogs\dlgMP3Settings.html:75
 msgid "Bitrate (max)"
@@ -11047,15 +11049,15 @@ msgid ""
 "fingerprint. Change the recommendations if needed, and select which tracks "
 "to tag."
 msgstr ""
-"Auto-label zoekt gegevens over nummers op (bijv. artiest, genre, album) op "
-"basis van de titel en tracklengte en gegevens over albums (bijv. "
-"albumartiest, datum) o.b.v. het album. Als de titel ontbreekt wordt die "
-"gezocht via een audiovingerafdruk. Wijzig, indien nodig, de suggesties en "
-"selecteer de te labelen nummers."
+"Auto-label zoekt gegevens over nummers op (bijv. Artiest, Genre, Album) "
+"o.b.v. de Titel en speelduur en gegevens over Albums (bijv. Albumartiest, "
+"datum) o.b.v. het Album. Als de titel ontbreekt wordt die gezocht via een "
+"audiovingerafdruk. Wijzig, indien nodig, de suggesties en selecteer de te "
+"labelen nummers."
 
 #: dialogs\dlgConvertFormat.html:9
 msgid "Convert file(s), replacing the originals"
-msgstr "Overschrijf originelen bij bestandsconversie"
+msgstr "Originele bij conversie overschrijven"
 
 #: dialogs\dlgLogin.html:16
 msgid "Password"
@@ -11159,7 +11161,7 @@ msgstr ""
 
 #: dialogs\dlgWizard\pnlRegistration.html:15
 msgid "Plus improved performance and tuning options, Sleep timer, etc."
-msgstr "Plus verbeterde prestaties- en instellingsopties, Sleeptimer, enz."
+msgstr "Plus verbeterde prestatie- en instellingsopties, Sleeptimer, enz."
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Recommends Artwork and track metadata for newly imported tracks"
@@ -11172,7 +11174,7 @@ msgstr "Apparaten"
 #: controls\devicesView.html:35
 msgid "For example rootDesc.xml. You can find this in the server's settings."
 msgstr ""
-"Bijvoorbeeld rootDesc.xml. Je kunt dit vinden in de insteserverinstellingen."
+"Bijvoorbeeld rootDesc.xml. dit is te vinden in de insteserverinstellingen."
 
 #: controls\homeView.html:7
 msgid "(see all)"
@@ -11255,11 +11257,11 @@ msgstr "Zorgt ervoor dat de pop-up geleidelijk verdwijnt"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:34
 msgid "Modify timestamp when updating tags"
-msgstr "Datum wijzigen bij opslaan van labels"
+msgstr "Datum wijzigen bij het opslaan van labels"
 
 #: dialogs\dlgWizard\pnlRegistration.html:9
 msgid "organize files automatically"
-msgstr "Bestanden auto-organiseren"
+msgstr "bestanden automatisch organiseren"
 
 #: controls\equalizer.html:2
 msgid "Balance:"
@@ -11284,7 +11286,7 @@ msgstr "Als het formaat is"
 
 #: dialogs\dlgRegisterGold.html:31
 msgid "If you don't have a license key, you can"
-msgstr "Als je geen licentie hebt, kan je"
+msgstr "Nog geen licentie?"
 
 #: dialogs\dlgSleep.html:13
 msgid "Fade volume"
@@ -11292,7 +11294,7 @@ msgstr "Volume faden"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:30
 msgid "Rename custom fields (requires restart)"
-msgstr "Aangepaste velden hernoemen (herstart is nodig)"
+msgstr "Vrije velden hernoemen (herstart nodig)"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:3
 msgid ""
@@ -11585,9 +11587,9 @@ msgid ""
 "for your particular PC (e.g. no Start menu entry)."
 msgstr ""
 "Installeert MediaMonkey op een draagbaar apparaat zodat het op elke PC "
-"gebruikt %nkan worden. Wanneer het apparaat wordt aangesloten, kan je "
-"MediaMonkey gebruiken zoals je gewend bent, zonder dat er data "
-"%nachterblijft op de PC. Nadeel: geen optimalisatie voor de PC (bijv. geen "
+"gebruikt kan worden. %nWanneer het apparaat wordt aangesloten, kan "
+"MediaMonkey op de normale manier gebruikt worden, %nzonder dat er data "
+"achterblijft op de PC. Nadeel: geen optimalisatie voor de PC (bijv. geen "
 "koppeling in het Start-menu)."
 
 msgid "portable"
