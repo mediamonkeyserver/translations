@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-27 20:17\n"
-"PO-Revision-Date: 2021-02-10 03:27+0000\n"
+"PO-Revision-Date: 2021-02-18 20:50+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -5463,24 +5463,24 @@ msgstr "Erledigt"
 
 #: helpers/mediaSync.js:398
 msgid "There was a problem syncing \"%s\"."
-msgstr ""
+msgstr "Beim Synchronisieren von \"%s\" ist ein Problem aufgetreten."
 
 #. add new sync storage target (profile):
 #: helpers/mediaSync.js:601 helpers/mediaSync.js:2438
 msgid "Remote content"
-msgstr ""
+msgstr "Remote-Inhalt"
 
 #: helpers/mediaSync.js:603 helpers/mediaSync.js:2440
 msgid "Library content"
-msgstr ""
+msgstr "Archiv-Inhalt"
 
 #: helpers/mediaSync.js:623
 msgid "Hourly"
-msgstr ""
+msgstr "Stündlich"
 
 #: helpers/mediaSync.js:624
 msgid "2x / day"
-msgstr ""
+msgstr "2x / Tag"
 
 #: helpers/mediaSync.js:694 helpers/mediaSync.js:2569
 msgid ""
@@ -5518,11 +5518,11 @@ msgstr ""
 #. show toast message that device has been connected (#15402):
 #: helpers/mediaSync.js:833 helpers/mediaSync.js:2881
 msgid "Connected"
-msgstr ""
+msgstr "Verbunden"
 
 #: helpers/mediaSync.js:835 dblistutils.pas:1476
 msgid "Disconnected"
-msgstr ""
+msgstr "Getrennt"
 
 #. return track.id.toString(); // we used MMW's track id in MMA, but now seems better to unify this with cloud storages and use targetPath as the identificator
 #: helpers/mediaSync.js:977
@@ -5591,11 +5591,13 @@ msgstr ""
 #: helpers/mediaSync.js:1989
 msgid "There was a problem syncing \"%s\". It is turned off or inaccessible."
 msgstr ""
+"Beim Synchronisieren von \"%s\" ist ein Problem aufgetreten. Es ist "
+"ausgeschaltet oder unzugänglich."
 
 #. the track is accessible under the same path on the server -- it is the same track, use it (don't re-upload as it would result in copying file to itself!)
 #: helpers/mediaSync.js:2248 helpers/mediaSync.js:3663
 msgid "Updating"
-msgstr ""
+msgstr "Aktualisieren"
 
 #. continuously (polling method, TODO: do this via notifications from MMS?)
 #: helpers/mediaSync.js:2451 helpers/mediaSync.js:2570
@@ -5610,34 +5612,34 @@ msgstr ""
 
 #: helpers/mediaSync.js:2493
 msgid "Server is down!"
-msgstr ""
+msgstr "Server ist ausgefallen!"
 
 #: helpers/mediaSync.js:2496
 msgid "Access is denied"
-msgstr ""
+msgstr "Zugriff verweigert"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. older MMS versions don't have the userInfo yet
 #: helpers/mediaSync.js:2534
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:6
 msgid "User"
-msgstr ""
+msgstr "Benutzername"
 
 #: helpers/mediaSync.js:2791
 msgid "Syncing"
-msgstr ""
+msgstr "Synchronisieren"
 
 #: helpers/mediaSync.js:2797
 msgid "Last synced"
-msgstr ""
+msgstr "Zuletzt synchronisiert"
 
 #: helpers/mediaSync.js:2801
 msgid "Never"
-msgstr ""
+msgstr "Niemals"
 
 #: helpers/mediaSync.js:3265
 msgid "Syncing %s:"
-msgstr ""
+msgstr "%s wird synchronisiert:"
 
 #: helpers/mediaSync.js:3270
 msgid "Scanning"
@@ -5667,7 +5669,7 @@ msgstr "(Kopiere Gerät -> PC, %d von %d: %s)"
 
 #: helpers/mediaSync.js:3665
 msgid "Copying"
-msgstr ""
+msgstr "Kopieren"
 
 #: helpers/mediaSync.js:3667
 msgid "Matching"
@@ -5680,15 +5682,15 @@ msgstr ""
 
 #: helpers/mediaSync.js:3737
 msgid "Converting file: %s"
-msgstr ""
+msgstr "Datei wird konvertiert: %s"
 
 #: helpers/mediaSync.js:3761
 msgid "Copying playlist %s"
-msgstr ""
+msgstr "Kopiere Wiedergabeliste '%s'"
 
 #: helpers/mediaSync.js:3791
 msgid "Preparing playlists"
-msgstr ""
+msgstr "Erstellen von Wiedergabelisten"
 
 #. #17023 / item 1:
 #: helpers/mediaSync.js:3922 helpers/mediaSync.js:4081 CDUtils.pas:771
@@ -5703,7 +5705,7 @@ msgstr "Wartet auf Verbindung für Sync"
 #. release sync lock and finish
 #: helpers/mediaSync.js:4015
 msgid "Uploading metadata"
-msgstr ""
+msgstr "Metadaten hochladen"
 
 #: helpers/mediaSync.js:4080
 msgid "Scanning %s:"
@@ -5715,17 +5717,18 @@ msgstr ""
 
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:6
 msgid "Side by side"
-msgstr ""
+msgstr "Seite an Seite"
 
 #: Scripts/autoIncTrack/actions_add.js:4 Scripts/autoIncTrack/actions_add.js:20
 msgid "Auto-increment Track #s"
 msgstr "Nummeriere Songs durch"
 
 #: Scripts/autoIncTrack/actions_add.js:21
+#, fuzzy
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
-msgstr ""
+msgstr "Die Song# der %d gewählten Songs werden neu durchnummeriert."
 
 #: Scripts/autoIncTrack/actions_add.js:21
 msgid "Start numbering from:"
@@ -5758,7 +5761,7 @@ msgstr "HTML (*.htm)|*.htm|Alle Dateien (*.*)|*.*"
 #: Scripts/exportPlaylists/actions_add.js:57
 #: Scripts/statistics/dialogs/dlgStatistics.js:615
 msgid "Exporting"
-msgstr ""
+msgstr "Exportiere"
 
 #: Scripts/export/actions_add.js:50 Scripts/export/actions_add.js:62
 msgid "MediaMonkey Filelist"
@@ -5767,11 +5770,11 @@ msgstr "MediaMonkey Dateiliste"
 #. Write some code to finish html document
 #: Scripts/export/actions_add.js:153
 msgid "Total Files"
-msgstr ""
+msgstr "Dateien Gesamt"
 
 #: Scripts/export/actions_add.js:155 QueryManage.pas:4778 QueryManage.pas:4779
 msgid "Duration"
-msgstr ""
+msgstr "Laufzeit"
 
 #: Scripts/export/actions_add.js:156
 #: Scripts/statistics/dialogs/dlgStatistics.js:592
@@ -5802,16 +5805,16 @@ msgstr ""
 #. Open inifile and get last used directory
 #: Scripts/exportPlaylists/actions_add.js:33
 msgid "Select where to export all M3U files"
-msgstr ""
+msgstr "Wählen Sie den Zielort für die M3U-Datei"
 
 #: Scripts/exportPodcasts/actions_add.js:2
 msgid "Export subscribed podcasts"
-msgstr ""
+msgstr "Exportiere abonnierte Podcasts"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1431
 msgid "Continue reading at Wikipedia..."
-msgstr ""
+msgstr "Weiterlesen bei Wikipedia..."
 
 #. correct cleaning including listeners
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1455
@@ -5827,21 +5830,21 @@ msgstr ""
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
-msgstr ""
+msgstr "Nächste Ansicht"
 
 #: Scripts/statistics/actions_add.js:2
 msgid "Statistics"
-msgstr ""
+msgstr "Statistiken"
 
 #. Building base page
 #: Scripts/statistics/actions_add.js:9
 #: Scripts/statistics/dialogs/dlgStatistics.js:93
 msgid "MediaMonkey Library Statistics"
-msgstr ""
+msgstr "Archivstatistiken"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:171
 msgid "Totals"
-msgstr ""
+msgstr "Gesamt"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:323 QueryManage.pas:4766
@@ -5885,7 +5888,7 @@ msgstr "%d Top-Interpreten"
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:373
 msgid "Top %d Artists played"
-msgstr ""
+msgstr "Top %d der gespielten Interpreten"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:404
@@ -5895,7 +5898,7 @@ msgstr "%d Top-Alben"
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:435
 msgid "Top %d Albums played"
-msgstr ""
+msgstr "Top %d der gespielten Alben"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:467
@@ -5905,7 +5908,7 @@ msgstr "%d Top-Genres"
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:494
 msgid "Top %d Genres played"
-msgstr ""
+msgstr "Top %d der gespielten Genres"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:522
@@ -5925,7 +5928,7 @@ msgstr "Archivstatistiken"
 
 #: Scripts/swapArtistTitle/actions_add.js:4
 msgid "Swap Artist and Title"
-msgstr ""
+msgstr "Tausche Interpret und Titel"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:2
 msgid "Set as sync target"
@@ -5943,12 +5946,12 @@ msgstr "Synchronisations-Pfad"
 
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:65
 msgid "series"
-msgstr ""
+msgstr "Serie"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:115
 msgid "Another series"
-msgstr ""
+msgstr "Eine weitere Serie"
 
 #. helper function for preparing track item
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:250
@@ -5962,7 +5965,7 @@ msgstr "Voreinstellungen verwenden"
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:410
 msgid "Search results"
-msgstr ""
+msgstr "Suchergebnisse"
 
 #. url request failed, check for quota exceeded
 #: Scripts/youtube/helpers/youtubeHelper.js:48
@@ -5998,7 +6001,7 @@ msgstr "%d Dateien zu taggen"
 
 #: BaseApp.pas:6646
 msgid "There are background processes running. Terminate them?"
-msgstr ""
+msgstr "Hintergrundprozesse laufen noch. Prozesse abbrechen?"
 
 #: BaseMedia.pas:4474
 msgid "Channel"
@@ -6022,7 +6025,7 @@ msgstr ""
 
 #: BaseMedia.pas:14504 Filters.pas:2733
 msgid "list"
-msgstr ""
+msgstr "Liste"
 
 #: BaseMedia.pas:15055 Filters.pas:2676 ResStrings.pas:385
 msgid "albums"
@@ -6039,7 +6042,7 @@ msgstr ""
 
 #: CDDBUtils.pas:254
 msgid "There was an error while connecting to "
-msgstr ""
+msgstr "Es gab ein Fehler beim Herstellen der Verbindung zu "
 
 #: CDDBUtils.pas:256
 msgid "There was an error while connecting to Freedb: "
@@ -6047,11 +6050,11 @@ msgstr "Es gab ein Fehler beim Herstellen der Verbindung zu FreeDB: "
 
 #: CDDBUtils.pas:494 CDDBUtils.pas:951
 msgid "Retrieving result %d of %d"
-msgstr ""
+msgstr "Erhalte Ergebnis %d von %d"
 
 #: CDDBUtils.pas:727
 msgid "Opening connection"
-msgstr ""
+msgstr "Stelle Verbindung her"
 
 #: CDDBUtils.pas:743
 msgid "Cannot create connection."
@@ -6073,7 +6076,7 @@ msgstr ""
 
 #: CDDBUtils.pas:1897
 msgid "Requesting information for %s (%d of %d)"
-msgstr ""
+msgstr "Frage Information ab für %s (%d von %d)"
 
 #: CDDBUtils.pas:1945 CDDBUtils.pas:1970
 msgid "This Audio CD was not found in Freedb."
@@ -6210,6 +6213,8 @@ msgid ""
 "All links to the image %s have been removed from the Library. Would you like "
 "to delete it from the drive as well?"
 msgstr ""
+"Alle Verweise auf das Bild %s wurden aus dem Archiv entfernt. Möchten sie es "
+"auch vom Laufwerk löschen?"
 
 #. Get exclusive access to the DB
 #. VACUUM fails with "out of memory" exception on large databases (7 GB, 2.2 million of tracks)
@@ -6257,7 +6262,7 @@ msgstr "Unbekannter Produzent"
 
 #: dblistutils.pas:1459 UPnPTreeHelper.pas:1904
 msgid "Unknown Actor"
-msgstr ""
+msgstr "Unbekannter Schauspieler"
 
 #: dblistutils.pas:1460
 msgid "Unknown Director"
@@ -6353,6 +6358,8 @@ msgid ""
 "Library database %s can't be opened, would you like to create a new local "
 "Library?"
 msgstr ""
+"Archivdatei %s kann nicht geöffnet werden, wollen Sie ein neues Archiv "
+"anlegen?"
 
 #: DBStructure.pas:1940 controls\deviceConfig\options\pnl_FileLocations.html:25
 msgid "Audiobook"
@@ -6456,6 +6463,9 @@ msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
 msgstr ""
+"Es ist nicht genug Speicherplatz auf dem Gerät vorhanden, um die gewählten "
+"Dateien zu synchronisieren. Möchten Sie Platz schaffen, indem Sie vorhandene "
+"Dateien löschen?"
 
 #. Clear tracks on the device
 #: Devices.pas:10932
@@ -6463,6 +6473,8 @@ msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
 msgstr ""
+"Es ist nicht genug Speicherplatz auf dem Gerät vorhanden, um die gewählten "
+"Dateien zu synchronisieren. Möchten Sie trotzdem fortfahren?"
 
 #. we updated tag, force regular upload
 #: Devices.pas:11441 Devices.pas:11699 Devices.pas:15242 Devices.pas:15251
@@ -6538,7 +6550,7 @@ msgstr ""
 #. e.g. for the confidence numbers after AccurateRip verification (#17023 - item 3)
 #: ErrHandlers.pas:376
 msgid "Result"
-msgstr ""
+msgstr "Ergebnis"
 
 #: ErrHandlers.pas:379
 msgid "There was a problem ripping or verifying the following track(s):"
@@ -7013,7 +7025,7 @@ msgstr ""
 
 #: FullPlayer.pas:4572
 msgid "Remove duplicates"
-msgstr ""
+msgstr "Duplikate entfernen"
 
 #: FullPlayer.pas:6273
 msgid ""
@@ -7129,7 +7141,7 @@ msgstr "HID-Schlüssel"
 #. we don't know parent playlist id yet
 #: Importers.pas:146 M3Umanage.pas:521 MP3Utils.pas:1567
 msgid "Imported Playlists"
-msgstr ""
+msgstr "Importierte Wiedergabelisten"
 
 #: Importers.pas:211
 msgid ""
@@ -7174,11 +7186,11 @@ msgstr "JRiver Media Center"
 
 #: M3Umanage.pas:409
 msgid "Updating track numbers"
-msgstr ""
+msgstr "Aktualisiere Anzahl der Songs"
 
 #: M3Umanage.pas:488
 msgid "Processing playlists"
-msgstr ""
+msgstr "Verarbeite Wiedergabelisten"
 
 #: MaskHelper.pas:3038 ResStrings.pas:527
 msgid "Auto Number"
@@ -7199,7 +7211,7 @@ msgstr "Abtastrate"
 
 #: MaskHelper.pas:3089 MaskHelper.pas:3561 MaskHelper.pas:3801
 msgid "Involved People"
-msgstr ""
+msgstr "Mitwirkende"
 
 #: MaskHelper.pas:3100 MaskHelper.pas:3611 MaskHelper.pas:3812
 msgid "Track Volume"
@@ -7211,7 +7223,7 @@ msgstr "Album-Lautstärke"
 
 #: MaskHelper.pas:3120
 msgid "Splitter"
-msgstr ""
+msgstr "Teiler"
 
 #: MaskHelper.pas:3123
 msgid "Track title"
@@ -7243,7 +7255,7 @@ msgstr "Titel-Ordner"
 
 #: MaskHelper.pas:3142
 msgid "How to use masks"
-msgstr ""
+msgstr "Verwendung von Masken"
 
 #: MaskHelper.pas:3748
 msgid "Track#"
@@ -7305,7 +7317,7 @@ msgstr "Kopiere Datei $src$ nach $dest$"
 
 #: MediaManage.pas:3610
 msgid "The media '%s' is not inserted."
-msgstr ""
+msgstr "Medium '%s' ist nicht eingelegt."
 
 #: MediaManage.pas:3673
 msgid "Cannot rename directory %s to %s."
@@ -7327,11 +7339,11 @@ msgstr ""
 
 #: MediaMonkeyApp.pas:5564
 msgid "Updated"
-msgstr ""
+msgstr "Aktualisiert"
 
 #: MediaMonkeyApp.pas:5568 QueryManage.pas:4776 QueryManage.pas:4777
 msgid "Skipped"
-msgstr ""
+msgstr "Überspringen"
 
 #: MediaMonkeyApp.pas:5580
 msgid "Scan log"
@@ -7351,15 +7363,15 @@ msgstr "Unregistriert"
 
 #: MediaMonkeyApp.pas:6471
 msgid "Trial version"
-msgstr ""
+msgstr "Trial version"
 
 #: MediaMonkeyApp.pas:6473
 msgid "Standard edition"
-msgstr ""
+msgstr "Standard version"
 
 #: MediaMonkeyApp.pas:6585
 msgid "not found!"
-msgstr ""
+msgstr "nicht gefunden!"
 
 #. #16581
 #: MediaMonkeyApp.pas:6935
@@ -7397,7 +7409,7 @@ msgstr "Ausgewählte Datei wiedergeben"
 
 #: MetadataStorageHandler.pas:1593
 msgid "Problem while updating playlist %s: %s"
-msgstr ""
+msgstr "Fehler beim Aktualisieren der Wiedergabeliste %s: %s"
 
 #: MP3Manage.pas:254
 msgid "Compatible: CBR   96 kbps - Fair Quality"
@@ -7405,7 +7417,7 @@ msgstr "Kompatibel: CBR 96 kbps - Akzeptable Qualität"
 
 #: MP3Manage.pas:1399
 msgid "Preset"
-msgstr ""
+msgstr "Voreinstellung"
 
 #: MP3Manage.pas:1495
 msgid ""
@@ -7440,7 +7452,7 @@ msgstr ""
 
 #: MP3Utils.pas:1235
 msgid "Preparing list of files"
-msgstr ""
+msgstr "Bereite Liste der Dateien vor"
 
 #: MP3Utils.pas:1261
 msgid "Scanning for moved files in %s (%d files scanned)."
@@ -7502,11 +7514,15 @@ msgid ""
 "One or more of the selected files are inaccessible and cannot be tagged. "
 "Save artwork to the folder instead."
 msgstr ""
+"Eine oder mehrere ausgewählte Dateien sind nicht verfügbar. Speichere "
+"stattdessen Bild im Ordner."
 
 #: MP3Utils.pas:3946 Normalization.pas:1435 Normalization.pas:1970
 msgid ""
 "The media '%s' is not inserted. It must be inserted to access the file %s"
 msgstr ""
+"Das Medium '%s' ist nicht eingelegt. Es muss eingelegt sein, damit auf die "
+"Datei %s zugegriffen werden kann"
 
 #: MP3Utils.pas:4413
 msgid "trial"
@@ -7669,7 +7685,7 @@ msgstr "Schlechte Kopie"
 #. default auto-playlist name
 #: NewDBCreate.pas:1223
 msgid "Accessible tracks"
-msgstr ""
+msgstr "Auffindbare Musikdateien"
 
 #
 #. default auto-playlist name
