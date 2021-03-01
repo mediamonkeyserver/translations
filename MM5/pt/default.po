@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-24 19:16\n"
+"POT-Creation-Date: 2021-03-01 16:17\n"
 "PO-Revision-Date: 2020-10-02 16:10+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Portuguese <http://translations.mediamonkey.com/projects/"
@@ -48,12 +48,12 @@ msgstr "Editar"
 msgid "Window"
 msgstr "Janela"
 
-#: actions.js:79 viewHandlers.js:4840 dialogs/dlgOptions.js:119
+#: actions.js:79 viewHandlers.js:4840 dialogs/dlgOptions.js:123
 msgid "Downloads"
 msgstr "Transferências"
 
 #: actions.js:82 templates.js:219 controls/player.js:606
-#: controls/trackListView.js:1192 dialogs/dlgAutotag.js:1654
+#: controls/trackListView.js:1196 dialogs/dlgAutotag.js:1654
 #: dialogs/dlgTrackProperties.js:29 ResStrings.pas:485
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:10
 msgid "Artwork"
@@ -63,8 +63,9 @@ msgstr "Capa"
 msgid "History"
 msgstr ""
 
-#: actions.js:88 controls/nowplayingList.js:82 controls/nowplayingList.js:400
-#: controls/player.js:549 dialogs/dlgOptions.js:43 helpers/trayIcon.js:96
+#: actions.js:88 controls/nowplayingList.js:84 controls/nowplayingList.js:295
+#: controls/player.js:549 dialogs/dlgOptions.js:43 dialogs/dlgOptions.js:82
+#: dialogs/dlgOptions/pnl_LayoutPlaying.js:11 helpers/trayIcon.js:96
 #: ResStrings.pas:421 dialogs\dlgOptions\pnl_AutoDJ.html:31
 msgid "Playing list"
 msgstr ""
@@ -685,11 +686,12 @@ msgid "&Options"
 msgstr "&Opções"
 
 #: actions.js:2458 controls/artWindow.js:1298 controls/artWindow.js:1308
-#: controls/player.js:823 dialogs/dlgOptions.js:70
+#: controls/player.js:823 controls/playingListContainer.js:129
+#: controls/playingListContainer.js:218 dialogs/dlgOptions.js:70
 msgid "Layout"
 msgstr ""
 
-#: actions.js:2471 dialogs/dlgExtensions.js:10 dialogs/dlgOptions.js:126
+#: actions.js:2471 dialogs/dlgExtensions.js:10 dialogs/dlgOptions.js:130
 msgid "Addons"
 msgstr ""
 
@@ -853,8 +855,9 @@ msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode',
-#: actions.js:3134 controls/nowplayingList.js:372 controls/searchBar.js:560
-#: dialogs/dlgOptions.js:141 controls\serverConfig\devices.html:8
+#: actions.js:3134 controls/playingListContainer.js:141
+#: controls/searchBar.js:560 dialogs/dlgOptions.js:145
+#: controls\serverConfig\devices.html:8
 msgid "Options"
 msgstr "Opções"
 
@@ -892,7 +895,7 @@ msgstr "Enviar para"
 #. first load MRU list
 #. root items insert directly to presetColumns, so we will not need to move them here later
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: actions.js:3287 controls/columntracklist.js:271 controls/filterEditor.js:107
+#: actions.js:3287 controls/columntracklist.js:272 controls/filterEditor.js:107
 #: controls/tracklistFilter.js:478
 msgid "Recently used"
 msgstr ""
@@ -992,7 +995,7 @@ msgstr ""
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. dont save sync, it will be saved async
 #: actions.js:3794 templates.js:524 controls/lyricsWindow.js:68
-#: controls/nowplayingview.js:34 controls/trackListView.js:1002
+#: controls/nowplayingview.js:34 controls/trackListView.js:1006
 #: dialogs/dlgAutotag.js:2314 dialogs/dlgTrackProperties.js:25
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:153 MaskHelper.pas:3090
 #: ResStrings.pas:463 dialogs\dlgOptions\pnl_MetadataLookup.html:14
@@ -1000,7 +1003,7 @@ msgid "Lyrics"
 msgstr "Letras"
 
 #: actions.js:3839 viewHandlers.js:7511 controls/artWindow.js:433
-#: controls/nowplayingList.js:69 controls/nowplayingList.js:372
+#: controls/nowplayingList.js:71 controls/playingListContainer.js:141
 #: dialogs/dlgEditView.js:427 maincontent.html:46
 msgid "Playing"
 msgstr ""
@@ -1185,7 +1188,7 @@ msgid "&File"
 msgstr "Ficheiro"
 
 #: actions.js:5010 viewHandlers.js:5284 controls/searchView.js:355
-#: dialogs/dlgOptions.js:119 DBStructure.pas:1939 GlobVars.pas:1918
+#: dialogs/dlgOptions.js:123 DBStructure.pas:1939 GlobVars.pas:1918
 #: UPnPTreeHelper.pas:1886
 #: controls\deviceConfig\options\pnl_FileLocations.html:33
 msgid "Podcasts"
@@ -1199,7 +1202,7 @@ msgstr "&Editar"
 msgid "&View"
 msgstr "&Ver"
 
-#: actions.js:5139 dialogs/dlgOptions.js:82
+#: actions.js:5139 dialogs/dlgOptions.js:86
 msgid "Skin"
 msgstr "Skin"
 
@@ -1226,16 +1229,16 @@ msgid "&Play"
 msgstr "Re&produzir"
 
 #. adds shuffle menu commands to button context menu
-#: actions.js:5292 actions.js:8978 controls/trackListView.js:1762
+#: actions.js:5292 actions.js:8978 controls/trackListView.js:1766
 msgid "Play shuffled"
 msgstr ""
 
-#: actions.js:5325 actions.js:8979 controls/trackListView.js:1798
+#: actions.js:5325 actions.js:8979 controls/trackListView.js:1802
 msgid "Play shuffled (by Album)"
 msgstr ""
 
-#: actions.js:5399 controls/nowplayingList.js:348 dialogs/dlgOptions.js:43
-#: dialogs\dlgOptions\pnl_AutoDJ.html:3
+#: actions.js:5399 controls/playingListContainer.js:110
+#: dialogs/dlgOptions.js:43 dialogs\dlgOptions\pnl_AutoDJ.html:3
 msgid "Auto-DJ"
 msgstr "Auto-DJ"
 
@@ -1297,7 +1300,7 @@ msgstr ""
 
 #. for performance optimizations when jumping to nodes
 #: actions.js:7991 viewHandlers.js:1661 viewHandlers.js:5623
-#: controls/trackListView.js:1433 controls/deviceConfig/syncToDevice.js:22
+#: controls/trackListView.js:1437 controls/deviceConfig/syncToDevice.js:22
 #: dialogs/dlgTrackProperties/tabBasic.js:477
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:187
 #: Scripts/videoTagServices/helpers/seriesDataSource.js:269 MaskHelper.pas:3079
@@ -1313,7 +1316,7 @@ msgstr "Séries"
 #: actions.js:7993 templates.js:1154 templates.js:1202 templates.js:1233
 #: viewHandlers.js:1650 viewHandlers.js:8068 controls/albumViewHeader.js:111
 #: controls/downloadView.js:125 controls/player.js:519 controls/sortBy.js:12
-#: controls/trackListView.js:203 dialogs/dlgArtworkDetail.js:12
+#: controls/trackListView.js:207 dialogs/dlgArtworkDetail.js:12
 #: dialogs/dlgAutotag.js:1957 dialogs/dlgEditView.js:22
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:141
 #: dialogs/dlgOptions/pnl_Player.js:51
@@ -1330,7 +1333,7 @@ msgid "Album"
 msgstr "Álbum"
 
 #. don't save
-#: actions.js:8020 controls/trackListView.js:1509 dialogs/dlgAutotag.js:2141
+#: actions.js:8020 controls/trackListView.js:1513 dialogs/dlgAutotag.js:2141
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:147 MaskHelper.pas:3081
 #: MaskHelper.pas:3524 MaskHelper.pas:3792 QueryManage.pas:1860
 #: QueryManage.pas:2981 QueryManage.pas:2996 ResStrings.pas:497
@@ -1342,7 +1345,7 @@ msgstr "Realizador"
 #: actions.js:8022 templates.js:1147 templates.js:1194 templates.js:1227
 #: viewHandlers.js:8151 controls/artistViewHeader.js:75
 #: controls/downloadView.js:134 controls/player.js:508
-#: controls/trackListView.js:180 dialogs/dlgAutotag.js:1921
+#: controls/trackListView.js:184 dialogs/dlgAutotag.js:1921
 #: dialogs/dlgDeletedTracks.js:91 dialogs/dlgMovedFiles.js:112
 #: dialogs/dlgMovedFiles.js:163 dialogs/dlgMovedFiles.js:214
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:140
@@ -1357,7 +1360,7 @@ msgstr "Realizador"
 msgid "Artist"
 msgstr "Artista"
 
-#: actions.js:8050 controls/trackListView.js:864 Covers.pas:733
+#: actions.js:8050 controls/trackListView.js:868 Covers.pas:733
 #: MaskHelper.pas:3046 QueryManage.pas:2989 ResStrings.pas:464
 #: ResStrings.pas:508
 msgid "Composer"
@@ -1374,7 +1377,7 @@ msgstr "Actor(es)"
 #. editor: editors.gridViewEditors.textEdit,
 #. request for Artists
 #. e.g. XBOX searches for genre's songs (testContentBrowser_XBOX_360_Genre)
-#: actions.js:8098 controls/downloadView.js:170 controls/trackListView.js:309
+#: actions.js:8098 controls/downloadView.js:170 controls/trackListView.js:313
 #: dialogs/dlgAutotag.js:2032 dialogs/dlgOptions/pnl_MetadataLookup.js:146
 #: helpers/autoTagFramework.js:333 layouts/Touch/templates_add.js:35
 #: Scripts/export/actions_add.js:74 Scripts/export/actions_add.js:347
@@ -1402,7 +1405,7 @@ msgstr "Ano"
 msgid "Folder"
 msgstr "Pasta"
 
-#: actions.js:8152 dialogs/dlgOptions.js:88
+#: actions.js:8152 dialogs/dlgOptions.js:92
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:323
 msgid "Library"
@@ -1451,7 +1454,7 @@ msgstr ""
 #. don't save
 #: actions.js:9120 templates.js:1140 templates.js:1184 templates.js:1222
 #: controls/downloadView.js:116 controls/player.js:500
-#: controls/searchEditor.js:946 controls/trackListView.js:133
+#: controls/searchEditor.js:946 controls/trackListView.js:137
 #: dialogs/dlgAutotag.js:1861 dialogs/dlgDeletedTracks.js:82
 #: dialogs/dlgOptions/pnl_Layouts.js:161
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:139
@@ -1479,7 +1482,7 @@ msgstr ""
 #: helpers/autoTagFramework.js:265 ArtistsManage.pas:1313
 #: ArtistsManage.pas:3513 BaseMedia.pas:4639 BaseMedia.pas:14775
 #: BaseMedia.pas:16429 BaseMedia.pas:16435 Filters.pas:3376
-#: PodcastManage.pas:991 PodcastManage.pas:1323 PodcastManage.pas:2741
+#: PodcastManage.pas:991 PodcastManage.pas:1323 PodcastManage.pas:2743
 #: ResStrings.pas:359 UpNp.pas:10016
 msgid "Unknown"
 msgstr "Desconhecido"
@@ -1691,7 +1694,7 @@ msgid "Track was added to the Library"
 msgstr ""
 
 #: templates.js:1161 templates.js:1188 templates.js:1238 viewHandlers.js:6631
-#: controls/player.js:530 controls/trackListView.js:358
+#: controls/player.js:530 controls/trackListView.js:362
 #: Scripts/export/actions_add.js:75 Scripts/export/actions_add.js:347
 #: Scripts/statistics/dialogs/dlgStatistics.js:331
 #: Scripts/statistics/dialogs/dlgStatistics.js:406
@@ -1707,7 +1710,7 @@ msgstr "Avaliação"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
 #: templates.js:1168 templates.js:1206 templates.js:1245
-#: controls/trackListView.js:244 dialogs/dlgAutotag.js:2413
+#: controls/trackListView.js:248 dialogs/dlgAutotag.js:2413
 #: dialogs/dlgTrackProperties/tabDetails.js:38 Scripts/export/actions_add.js:70
 #: Scripts/export/actions_add.js:347
 #: Scripts/statistics/dialogs/dlgStatistics.js:179
@@ -1790,7 +1793,7 @@ msgstr "A ler ficheiros..."
 #: viewHandlers.js:823 viewHandlers.js:976 viewHandlers.js:1016
 #: viewHandlers.js:1496 viewHandlers.js:1698 viewHandlers.js:1854
 #: viewHandlers.js:1948 viewHandlers.js:2155 viewHandlers.js:2314
-#: controls/nowplayingview.js:41
+#: controls/nowplayingview.js:41 controls/playingListContainer.js:20
 msgid "List"
 msgstr "Listar"
 
@@ -1823,7 +1826,7 @@ msgstr "Não mostra novamente"
 msgid "Duplicate Content"
 msgstr "Conteúdo duplicado"
 
-#: viewHandlers.js:410 viewHandlers.js:2378
+#: viewHandlers.js:410 viewHandlers.js:2378 controls/playingListContainer.js:10
 msgid "Simplified list"
 msgstr ""
 
@@ -1914,7 +1917,7 @@ msgstr "Faixas"
 #: dialogs/dlgEditView.js:436 Scripts/statistics/dialogs/dlgStatistics.js:177
 #: AutoOrganize.pas:1630 FormatsManage.pas:3802 Importers.pas:430
 #: ResStrings.pas:423 Win7ToolsImpl.pas:2195
-#: dialogs\dlgOptions\pnl_Library.html:36
+#: dialogs\dlgOptions\pnl_Library.html:38
 msgid "Playlists"
 msgstr "Listas de reprodução"
 
@@ -1984,7 +1987,7 @@ msgstr ""
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
 #: viewHandlers.js:1650 viewHandlers.js:1661 controls/sortBy.js:19
-#: controls/trackListView.js:257 controls/serverConfig/server.js:29
+#: controls/trackListView.js:261 controls/serverConfig/server.js:29
 #: dialogs/dlgAutotag.js:2379 dialogs/dlgOptions/pnl_MetadataLookup.js:145
 #: MaskHelper.pas:3062 MaskHelper.pas:3483 MaskHelper.pas:3784
 #: QueryManage.pas:4632 QueryManage.pas:4778 QueryManage.pas:4779
@@ -1995,7 +1998,7 @@ msgstr "Data"
 #. to show full value like 6.245689785 (and not '6.25 dB' via utils.formatNormalization)
 #. don't save
 #. Don't do this for PS3, because PS3 would not show the content properly then (issue #7676)
-#: viewHandlers.js:1650 controls/sortBy.js:26 controls/trackListView.js:728
+#: viewHandlers.js:1650 controls/sortBy.js:26 controls/trackListView.js:732
 #: dialogs/dlgArtworkDetail.js:13 dialogs/dlgAutotag.js:2000
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:321 MaskHelper.pas:3042
 #: ResStrings.pas:429 ResStrings.pas:504 UpNp.pas:5642 UpNp.pas:5643
@@ -2030,7 +2033,7 @@ msgstr "&Remover"
 #. cannot edit/add release of unknown album
 #: viewHandlers.js:3380 viewHandlers.js:5393 controls/albumViewHeader.js:265
 #: controls/artistViewHeader.js:181 controls/genreViewHeader.js:32
-#: controls/playlistHeader.js:108 controls/trackListView.js:1854
+#: controls/playlistHeader.js:108 controls/trackListView.js:1858
 msgid "Rename"
 msgstr "Renomear"
 
@@ -2382,25 +2385,25 @@ msgstr "Clássica"
 msgid "World"
 msgstr ""
 
-#: viewHandlers.js:6694 controls/trackListView.js:906 MaskHelper.pas:3065
+#: viewHandlers.js:6694 controls/trackListView.js:910 MaskHelper.pas:3065
 #: ResStrings.pas:461 ResStrings.pas:519 UPnPTreeHelper.pas:1913
 #: dialogs\dlgTrackProperties\tabClassification.html:5
 msgid "Tempo"
 msgstr "Tempo"
 
-#: viewHandlers.js:6712 controls/trackListView.js:924 MaskHelper.pas:3066
+#: viewHandlers.js:6712 controls/trackListView.js:928 MaskHelper.pas:3066
 #: ResStrings.pas:459 ResStrings.pas:517 UPnPTreeHelper.pas:1914
 #: dialogs\dlgTrackProperties\tabClassification.html:16
 msgid "Mood"
 msgstr "Ambiente"
 
-#: viewHandlers.js:6730 controls/trackListView.js:942 MaskHelper.pas:3067
+#: viewHandlers.js:6730 controls/trackListView.js:946 MaskHelper.pas:3067
 #: ResStrings.pas:460 ResStrings.pas:518 UPnPTreeHelper.pas:1915
 #: dialogs\dlgTrackProperties\tabClassification.html:27
 msgid "Occasion"
 msgstr "Ocasião"
 
-#: viewHandlers.js:6748 controls/trackListView.js:960 FormatsHandler.pas:2895
+#: viewHandlers.js:6748 controls/trackListView.js:964 FormatsHandler.pas:2895
 #: FormatsHandler.pas:2914 MaskHelper.pas:3068 ResStrings.pas:372
 #: ResStrings.pas:424 ResStrings.pas:474 ResStrings.pas:528
 #: dialogs\dlgOGGSettings.html:22
@@ -2644,7 +2647,7 @@ msgstr ""
 msgid "Basic"
 msgstr ""
 
-#: controls/artWindow.js:450 controls/nowplayingList.js:74
+#: controls/artWindow.js:450 controls/nowplayingList.js:76
 #: controls/statusbar.js:137 controls/statusbar.js:157
 msgid "Selected"
 msgstr "selecionado"
@@ -2820,25 +2823,25 @@ msgstr ""
 msgid "Auto-conversion"
 msgstr "Conversão auto"
 
-#: controls/columntracklist.js:168 dialogs/dlgSelectFromList.js:109
+#: controls/columntracklist.js:169 dialogs/dlgSelectFromList.js:109
 msgid "Choose columns"
 msgstr "Escolher colunas"
 
 #. undefined
-#: controls/columntracklist.js:168 FullPlayer.pas:2393
+#: controls/columntracklist.js:169 FullPlayer.pas:2393
 msgid "Sort"
 msgstr "Ordenar"
 
-#: controls/columntracklist.js:179
+#: controls/columntracklist.js:180
 msgid "Automatic column widths"
 msgstr ""
 
-#: controls/columntracklist.js:203
+#: controls/columntracklist.js:204
 msgid "Hide column"
 msgstr ""
 
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: controls/columntracklist.js:272 controls/maskedit.js:267
+#: controls/columntracklist.js:273 controls/maskedit.js:267
 #: controls/tracklistFilter.js:479
 msgid "All fields"
 msgstr ""
@@ -2847,22 +2850,22 @@ msgstr ""
 #. not used and will be visible
 #. add fields from this.allMaskItems not mentioned in fieldGroups to Other
 #. not used and will be visible
-#: controls/columntracklist.js:330 controls/deviceConfig.js:306
+#: controls/columntracklist.js:331 controls/deviceConfig.js:306
 #: controls/deviceConfig.js:307 controls/maskedit.js:333
 #: controls/tracklistFilter.js:559 controls\artistAlbums.html:40
 msgid "Other"
 msgstr "Outro"
 
 #. Add Inspect Element popup command (chromium 39 or later)
-#: controls/control.js:1567
+#: controls/control.js:1569
 msgid "Inspect Element"
 msgstr ""
 
-#: controls/control.js:1583
+#: controls/control.js:1585
 msgid "Open DevTools in Chrome"
 msgstr ""
 
-#: controls/control.js:2008
+#: controls/control.js:2010
 msgid "Getting data"
 msgstr ""
 
@@ -3034,15 +3037,15 @@ msgid "Unknown Genre"
 msgstr "Género desconhecido"
 
 #. for backward compatibility with MM4 auto-playlists (#17365)
-#: controls/gridview.js:1470 QueryManage.pas:4792
+#: controls/gridview.js:1484 QueryManage.pas:4792
 msgid "Sort order"
 msgstr "Ordenar"
 
-#: controls/gridview.js:1475
+#: controls/gridview.js:1489
 msgid "ascending"
 msgstr ""
 
-#: controls/gridview.js:1475
+#: controls/gridview.js:1489
 msgid "descending"
 msgstr ""
 
@@ -3100,7 +3103,7 @@ msgstr ""
 msgid "Subdirectories can be defined statically or using mask variables"
 msgstr ""
 
-#: controls/maskedit.js:471 dialogs\dlgOptions\pnl_Library.html:103
+#: controls/maskedit.js:471 dialogs\dlgOptions\pnl_Library.html:105
 msgid "Filenames"
 msgstr "Nome dos ficheiros"
 
@@ -3194,7 +3197,7 @@ msgstr ""
 msgid "Right-click for history."
 msgstr ""
 
-#: controls/nowplayingList.js:75 controls/statusbar.js:131
+#: controls/nowplayingList.js:77 controls/statusbar.js:131
 #: controls/statusbar.js:138 controls/statusbar.js:156
 #: dialogs/dlgMigrateWizard.js:81 helpers/mediaSync.js:3329 ResStrings.pas:547
 msgid "file"
@@ -3284,7 +3287,7 @@ msgstr "Barra de volume"
 msgid "Volume"
 msgstr "Volume"
 
-#: controls/player.js:484 controls/trackListView.js:1378
+#: controls/player.js:484 controls/trackListView.js:1382
 msgid "Track summary"
 msgstr ""
 
@@ -3315,7 +3318,7 @@ msgstr ""
 msgid "Hide editor"
 msgstr ""
 
-#: controls/podcastHeader.js:194 controls/trackListView.js:1473
+#: controls/podcastHeader.js:194 controls/trackListView.js:1477
 #: MaskHelper.pas:3106 MaskHelper.pas:3641 MaskHelper.pas:3818
 #: QueryManage.pas:2989 ResStrings.pas:495 dialogs\dlgAddonInstall.html:37
 msgid "Author"
@@ -3570,17 +3573,17 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
-#: controls/trackListView.js:226 MaskHelper.pas:3035 ResStrings.pas:456
+#: controls/trackListView.js:230 MaskHelper.pas:3035 ResStrings.pas:456
 #: ResStrings.pas:514
 msgid "Filename"
 msgstr "Nome do ficheiro"
 
-#: controls/trackListView.js:327 MaskHelper.pas:3093 MaskHelper.pas:3581
+#: controls/trackListView.js:331 MaskHelper.pas:3093 MaskHelper.pas:3581
 #: MaskHelper.pas:3805 ResStrings.pas:435
 msgid "Played #"
 msgstr "Reproduzido #"
 
-#: controls/trackListView.js:346 MaskHelper.pas:3095 MaskHelper.pas:3586
+#: controls/trackListView.js:350 MaskHelper.pas:3095 MaskHelper.pas:3586
 #: MaskHelper.pas:3807 ResStrings.pas:437 Win7ToolsImpl.pas:2199
 msgid "Last Played"
 msgstr "Última reprodução"
@@ -3588,7 +3591,7 @@ msgstr "Última reprodução"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this column will not be resized when 'Automatic column widths' is checked
 #. bitrate
-#: controls/trackListView.js:391 dialogs/dlgMP3Settings.js:84
+#: controls/trackListView.js:395 dialogs/dlgMP3Settings.js:84
 #: dialogs/dlgTrackProperties/tabDetails.js:42
 #: dialogs/dlgTrackProperties/tabDetails.js:44 Scripts/export/actions_add.js:76
 #: Scripts/export/actions_add.js:347 FormatsHandler.pas:2857
@@ -3599,22 +3602,22 @@ msgstr "Última reprodução"
 msgid "Bitrate"
 msgstr "Bitrate"
 
-#: controls/trackListView.js:406 Scripts/export/actions_add.js:77
+#: controls/trackListView.js:410 Scripts/export/actions_add.js:77
 #: Scripts/export/actions_add.js:347 MaskHelper.pas:3096 MaskHelper.pas:3596
 #: MaskHelper.pas:3809 ResStrings.pas:418 ResStrings.pas:443
 msgid "Media"
 msgstr "Média"
 
-#: controls/trackListView.js:607 dialogs\dlgTrackProperties\tabCustom.html:106
+#: controls/trackListView.js:611 dialogs\dlgTrackProperties\tabCustom.html:106
 msgid "Extended tags"
 msgstr ""
 
-#: controls/trackListView.js:637 MaskHelper.pas:3097 MaskHelper.pas:3591
+#: controls/trackListView.js:641 MaskHelper.pas:3097 MaskHelper.pas:3591
 #: MaskHelper.pas:3808
 msgid "Filesize"
 msgstr ""
 
-#: controls/trackListView.js:648 MaskHelper.pas:3049 QueryManage.pas:4788
+#: controls/trackListView.js:652 MaskHelper.pas:3049 QueryManage.pas:4788
 #: QueryManage.pas:4789 ResStrings.pas:446 ResStrings.pas:516
 #: dialogs\dlgTrackProperties\tabDetails.html:17
 msgid "BPM"
@@ -3622,7 +3625,7 @@ msgstr "BPM"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. setVisibility(qeid(mainElement, 'volume_track'), false);
-#: controls/trackListView.js:668 dialogs/dlgTrackProperties/tabDetails.js:71
+#: controls/trackListView.js:672 dialogs/dlgTrackProperties/tabDetails.js:71
 #: FormatsHandler.pas:2886 FormatsHandler.pas:2894 FormatsHandler.pas:2903
 #: FormatsHandler.pas:2921 ResStrings.pas:448 dialogs\dlgMP3Settings.html:53
 msgid "Sample rate"
@@ -3630,7 +3633,7 @@ msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Songs.Author
-#: controls/trackListView.js:679 dialogs/dlgTrackProperties/tabDetails.js:72
+#: controls/trackListView.js:683 dialogs/dlgTrackProperties/tabDetails.js:72
 #: FormatsHandler.pas:2887 FormatsHandler.pas:2904 FormatsHandler.pas:2922
 #: MaskHelper.pas:3098 MaskHelper.pas:3601 MaskHelper.pas:3810
 #: QueryManage.pas:4682 ResStrings.pas:449 WinAmpPlugins.pas:5232
@@ -3640,24 +3643,24 @@ msgstr "Canais"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. qeid(mainElement, 'lbl_norm').innerText = utils.getNormalizeText(track.normalizeTrack, track.normalizeAlbum);
-#: controls/trackListView.js:689 dialogs/dlgTrackProperties/tabDetails.js:77
+#: controls/trackListView.js:693 dialogs/dlgTrackProperties/tabDetails.js:77
 #: MaskHelper.pas:3099 MaskHelper.pas:3606 MaskHelper.pas:3811
 #: ResStrings.pas:382 ResStrings.pas:447 dialogs\dlgSupportedFormat.html:37
 msgid "Bit depth"
 msgstr ""
 
-#: controls/trackListView.js:703 ResStrings.pas:454
+#: controls/trackListView.js:707 ResStrings.pas:454
 #: dialogs\dlgTrackProperties\tabDetails.html:170
 msgid "Track volume"
 msgstr ""
 
 #. source
-#: controls/trackListView.js:750 MaskHelper.pas:3092 MaskHelper.pas:3576
+#: controls/trackListView.js:754 MaskHelper.pas:3092 MaskHelper.pas:3576
 #: MaskHelper.pas:3804 QueryManage.pas:4722
 msgid "Source"
 msgstr ""
 
-#: controls/trackListView.js:783 dialogs/dlgAutotag.js:2426
+#: controls/trackListView.js:787 dialogs/dlgAutotag.js:2426
 #: dialogs/dlgDeletedTracks.js:100 dialogs/dlgMovedFiles.js:183
 #: dialogs/dlgMovedFiles.js:234 Scripts/export/actions_add.js:347
 #: MaskHelper.pas:3072 QueryManage.pas:4617 ResStrings.pas:430
@@ -3665,20 +3668,20 @@ msgstr ""
 msgid "Path"
 msgstr "Caminho"
 
-#: controls/trackListView.js:813
+#: controls/trackListView.js:817
 msgid "Recommended path"
 msgstr ""
 
-#: controls/trackListView.js:832 dialogs\dlgChooseFields.html:9
+#: controls/trackListView.js:836 dialogs\dlgChooseFields.html:9
 msgid "File type"
 msgstr ""
 
-#: controls/trackListView.js:842 MaskHelper.pas:3102 MaskHelper.pas:3621
+#: controls/trackListView.js:846 MaskHelper.pas:3102 MaskHelper.pas:3621
 #: MaskHelper.pas:3814 ResStrings.pas:450
 msgid "Timestamp"
 msgstr "Timestamp"
 
-#: controls/trackListView.js:853 dialogs/dlgTrackProperties/tabDetails.js:49
+#: controls/trackListView.js:857 dialogs/dlgTrackProperties/tabDetails.js:49
 #: MaskHelper.pas:3076 MaskHelper.pas:3503 MaskHelper.pas:3788
 #: QueryManage.pas:4776 QueryManage.pas:4777 ResStrings.pas:451
 #: dialogs\dlgTrackProperties\tabDetails.html:223
@@ -3686,14 +3689,14 @@ msgid "Added"
 msgstr "Adicionado"
 
 #. Songs.Lyricist
-#: controls/trackListView.js:882 MaskHelper.pas:3074 MaskHelper.pas:3498
+#: controls/trackListView.js:886 MaskHelper.pas:3074 MaskHelper.pas:3498
 #: MaskHelper.pas:3787 QueryManage.pas:4694 ResStrings.pas:480
 msgid "Original Date"
 msgstr "Data original"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
-#: controls/trackListView.js:978 dialogs/dlgAutotag.js:2279
+#: controls/trackListView.js:982 dialogs/dlgAutotag.js:2279
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:152 ResStrings.pas:462
 #: ResStrings.pas:520 dialogs\dlgTrackProperties\tabBasic.html:199
 msgid "Comment"
@@ -3701,20 +3704,20 @@ msgstr "Comentário"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. dont save sync, it will be saved async
-#: controls/trackListView.js:1026 ResStrings.pas:455
+#: controls/trackListView.js:1030 ResStrings.pas:455
 #: dialogs\dlgTrackProperties\tabDetails.html:179
 msgid "Album volume"
 msgstr ""
 
 #. to show full value like 6.245689785 (and not '6.25 dB' via utils.formatNormalization)
-#: controls/trackListView.js:1051 Covers.pas:731 MaskHelper.pas:3047
+#: controls/trackListView.js:1055 Covers.pas:731 MaskHelper.pas:3047
 #: MaskHelper.pas:3473 MaskHelper.pas:3782 ResStrings.pas:481
 msgid "Conductor"
 msgstr "Maestro"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
-#: controls/trackListView.js:1069 dialogs/dlgAutotag.js:1823
+#: controls/trackListView.js:1073 dialogs/dlgAutotag.js:1823
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:143
 #: dialogs/dlgTrackProperties/tabBasic.js:448 MaskHelper.pas:3780
 #: ResStrings.pas:438 ResStrings.pas:509
@@ -3722,40 +3725,40 @@ msgstr "Maestro"
 msgid "Disc #"
 msgstr "Disco #"
 
-#: controls/trackListView.js:1087 dialogs/dlgOptions/pnl_MetadataLookup.js:154
+#: controls/trackListView.js:1091 dialogs/dlgOptions/pnl_MetadataLookup.js:154
 #: ResStrings.pas:467 dialogs\dlgTrackProperties\tabDetails.html:31
 msgid "Involved people"
 msgstr ""
 
-#: controls/trackListView.js:1104 MaskHelper.pas:3069 ResStrings.pas:470
+#: controls/trackListView.js:1108 MaskHelper.pas:3069 ResStrings.pas:470
 #: ResStrings.pas:524 dialogs\dlgTrackProperties\tabDetails.html:53
 msgid "Original Artist"
 msgstr "Artista original"
 
-#: controls/trackListView.js:1122 MaskHelper.pas:3071 ResStrings.pas:472
+#: controls/trackListView.js:1126 MaskHelper.pas:3071 ResStrings.pas:472
 #: ResStrings.pas:483 ResStrings.pas:526
 msgid "Original Title"
 msgstr "Título original"
 
-#: controls/trackListView.js:1139 MaskHelper.pas:3070 ResStrings.pas:471
+#: controls/trackListView.js:1143 MaskHelper.pas:3070 ResStrings.pas:471
 #: ResStrings.pas:525 dialogs\dlgTrackProperties\tabDetails.html:75
 msgid "Original Lyricist"
 msgstr "Letrista original"
 
 #. don't save
-#: controls/trackListView.js:1157 dialogs/dlgAutotag.js:2210 Covers.pas:734
+#: controls/trackListView.js:1161 dialogs/dlgAutotag.js:2210 Covers.pas:734
 #: MaskHelper.pas:3063 QueryManage.pas:2982 QueryManage.pas:2990
 #: QueryManage.pas:2997 ResStrings.pas:469 ResStrings.pas:523
 msgid "Lyricist"
 msgstr "Letrista"
 
-#: controls/trackListView.js:1175 MaskHelper.pas:3061 MaskHelper.pas:3478
+#: controls/trackListView.js:1179 MaskHelper.pas:3061 MaskHelper.pas:3478
 #: MaskHelper.pas:3783 QueryManage.pas:4656 ResStrings.pas:484
 #: dialogs\dlgTrackProperties\tabDetails.html:5
 msgid "Grouping"
 msgstr "A agrupar"
 
-#: controls/trackListView.js:1342 dialogs/dlgAutotag.js:1785
+#: controls/trackListView.js:1346 dialogs/dlgAutotag.js:1785
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:142
 #: dialogs/dlgTrackProperties/tabBasic.js:449 Scripts/export/actions_add.js:72
 #: MaskHelper.pas:3747 ResStrings.pas:439 ResStrings.pas:510
@@ -3763,78 +3766,78 @@ msgstr "A agrupar"
 msgid "Track #"
 msgstr "Faixa #"
 
-#: controls/trackListView.js:1360 MaskHelper.pas:3094 MaskHelper.pas:3681
+#: controls/trackListView.js:1364 MaskHelper.pas:3094 MaskHelper.pas:3681
 #: MaskHelper.pas:3826 ResStrings.pas:436
 msgid "Skipped #"
 msgstr "Saltar #"
 
 #. TODO: HTML: get the dimensions a better way?
-#: controls/trackListView.js:1395 Covers.pas:1186 MaskHelper.pas:3104
+#: controls/trackListView.js:1399 Covers.pas:1186 MaskHelper.pas:3104
 #: MaskHelper.pas:3631 MaskHelper.pas:3816 ResStrings.pas:487
 msgid "Resolution"
 msgstr "Resolução"
 
-#: controls/trackListView.js:1405 FormatsHandler.pas:2865 MaskHelper.pas:3105
+#: controls/trackListView.js:1409 FormatsHandler.pas:2865 MaskHelper.pas:3105
 #: MaskHelper.pas:3636 MaskHelper.pas:3817 ResStrings.pas:488
 #: dialogs\videoConvSettings.html:87
 msgid "Framerate"
 msgstr "Framerate:"
 
 #. assign duration only if we don't have a better way to find it (issue #8948)
-#: controls/trackListView.js:1415 dialogs/dlgTrackProperties/tabBasic.js:469
+#: controls/trackListView.js:1419 dialogs/dlgTrackProperties/tabBasic.js:469
 #: DBStructure.pas:1939 MaskHelper.pas:3078 MaskHelper.pas:3508
-#: MaskHelper.pas:3789 PodcastManage.pas:2987 QueryManage.pas:2988
+#: MaskHelper.pas:3789 PodcastManage.pas:2989 QueryManage.pas:2988
 #: QueryManage.pas:2995 ResStrings.pas:489
 msgid "Podcast"
 msgstr "Podcast"
 
-#: controls/trackListView.js:1455 dialogs/dlgTrackProperties/tabBasic.js:479
+#: controls/trackListView.js:1459 dialogs/dlgTrackProperties/tabBasic.js:479
 #: MaskHelper.pas:3082 MaskHelper.pas:3529 MaskHelper.pas:3793
 #: ResStrings.pas:492 ResStrings.pas:498
 msgid "Episode #"
 msgstr "Episódio #"
 
 #. don't save
-#: controls/trackListView.js:1491 dialogs/dlgAutotag.js:2176
+#: controls/trackListView.js:1495 dialogs/dlgAutotag.js:2176
 #: MaskHelper.pas:3080 MaskHelper.pas:3519 MaskHelper.pas:3791
 #: QueryManage.pas:4690 ResStrings.pas:496
 msgid "Producer"
 msgstr "Produtor"
 
-#: controls/trackListView.js:1527 dialogs/dlgTrackProperties/tabBasic.js:478
+#: controls/trackListView.js:1531 dialogs/dlgTrackProperties/tabBasic.js:478
 #: MaskHelper.pas:3083 MaskHelper.pas:3536 MaskHelper.pas:3795
 #: ResStrings.pas:493 ResStrings.pas:499
 msgid "Season #"
 msgstr "Época #"
 
-#: controls/trackListView.js:1545 MaskHelper.pas:3107 MaskHelper.pas:3646
+#: controls/trackListView.js:1549 MaskHelper.pas:3107 MaskHelper.pas:3646
 #: MaskHelper.pas:3819 QueryManage.pas:1866 ResStrings.pas:482
 msgid "Screenwriter"
 msgstr "Argumentista"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
-#: controls/trackListView.js:1563 dialogs/dlgAutotag.js:2107
+#: controls/trackListView.js:1567 dialogs/dlgAutotag.js:2107
 #: MaskHelper.pas:3075 ResStrings.pas:473 ResStrings.pas:527
 #: dialogs\dlgTrackProperties\tabDetails.html:97
 msgid "Publisher"
 msgstr "Editor"
 
-#: controls/trackListView.js:1580 ResStrings.pas:491
+#: controls/trackListView.js:1584 ResStrings.pas:491
 #: dialogs\dlgTrackProperties\tabBasic.html:169
 msgid "Actor(s)"
 msgstr "Actor(es)"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
-#: controls/trackListView.js:1598 dialogs/dlgAutotag.js:2244
+#: controls/trackListView.js:1602 dialogs/dlgAutotag.js:2244
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:151 MaskHelper.pas:3088
 #: MaskHelper.pas:3556 MaskHelper.pas:3800 ResStrings.pas:494
 #: UPnPTreeHelper.pas:1895 dialogs\dlgTrackProperties\tabDetails.html:42
 msgid "Parental Rating"
 msgstr "Avaliação parental"
 
-#: controls/trackListView.js:1615
+#: controls/trackListView.js:1619
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:323 MaskHelper.pas:3086
 #: MaskHelper.pas:3546 MaskHelper.pas:3798 QueryManage.pas:4661
@@ -3842,23 +3845,23 @@ msgstr "Avaliação parental"
 msgid "Type"
 msgstr "Tipo"
 
-#: controls/trackListView.js:1625 MaskHelper.pas:3091 MaskHelper.pas:3571
+#: controls/trackListView.js:1629 MaskHelper.pas:3091 MaskHelper.pas:3571
 #: MaskHelper.pas:3803 QueryManage.pas:4657 QueryManage.pas:4790
 #: QueryManage.pas:4791 dialogs\dlgTrackProperties\tabClassification.html:49
 msgid "Initial Key"
 msgstr ""
 
-#: controls/trackListView.js:1642 MaskHelper.pas:3109 ResStrings.pas:468
+#: controls/trackListView.js:1646 MaskHelper.pas:3109 ResStrings.pas:468
 #: ResStrings.pas:522 dialogs\dlgTrackProperties\tabDetails.html:86
 msgid "ISRC"
 msgstr "ISRC"
 
-#: controls/trackListView.js:1659 ResStrings.pas:466 ResStrings.pas:521
+#: controls/trackListView.js:1663 ResStrings.pas:466 ResStrings.pas:521
 #: dialogs\dlgTrackProperties\tabDetails.html:108
 msgid "Encoder"
 msgstr "Codificador"
 
-#: controls/trackListView.js:1676 MaskHelper.pas:3111 MaskHelper.pas:3651
+#: controls/trackListView.js:1680 MaskHelper.pas:3111 MaskHelper.pas:3651
 #: MaskHelper.pas:3820 ResStrings.pas:465
 #: dialogs\dlgTrackProperties\tabDetails.html:119
 msgid "Copyright"
@@ -3866,7 +3869,7 @@ msgstr "Copyright"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. scroll column was specified
-#: controls/trackListView.js:2070 controls/trackListView.js:2073
+#: controls/trackListView.js:2077 controls/trackListView.js:2080
 #: dialogs\dlgDelay.html:12
 msgid "in"
 msgstr "em"
@@ -4135,7 +4138,7 @@ msgstr ""
 msgid "Audio bit depth"
 msgstr ""
 
-#: dialogs/dlgAutoorganize.js:22 dialogs/dlgOptions.js:107
+#: dialogs/dlgAutoorganize.js:22 dialogs/dlgOptions.js:111
 msgid "Auto-organize"
 msgstr ""
 
@@ -4247,7 +4250,7 @@ msgstr ""
 msgid "Choose an Album"
 msgstr ""
 
-#: dialogs/dlgClientConfig.js:7 dialogs/dlgOptions.js:115
+#: dialogs/dlgClientConfig.js:7 dialogs/dlgOptions.js:119
 #: dialogs/dlgServerConfig.js:5
 msgid "Media Sharing"
 msgstr "Partilha de média"
@@ -4800,28 +4803,28 @@ msgstr "CD de áudio"
 msgid "Audio DSP"
 msgstr "CD de áudio"
 
-#: dialogs/dlgOptions.js:91
+#: dialogs/dlgOptions.js:95
 msgid "Collections & Views"
 msgstr ""
 
-#: dialogs/dlgOptions.js:95
+#: dialogs/dlgOptions.js:99
 msgid "Fields"
 msgstr ""
 
-#: dialogs/dlgOptions.js:99
+#: dialogs/dlgOptions.js:103
 msgid "Tags & playlists"
 msgstr ""
 
-#: dialogs/dlgOptions.js:103
+#: dialogs/dlgOptions.js:107
 msgid "Metadata lookup"
 msgstr "Procurar metadados"
 
-#: dialogs/dlgOptions.js:111 dialogs/dlgSearch.js:6
+#: dialogs/dlgOptions.js:115 dialogs/dlgSearch.js:6
 #: controls\searchEditor.html:5
 msgid "Search"
 msgstr "Procurar"
 
-#: dialogs/dlgOptions.js:134
+#: dialogs/dlgOptions.js:138
 msgid "OS integration"
 msgstr "Integração do SO"
 
@@ -5160,6 +5163,10 @@ msgstr ""
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:30
 msgid "Player layout cannot be set."
+msgstr ""
+
+#: dialogs/dlgOptions/pnl_LayoutPlaying.js:11 MediaMonkeyApp.pas:6593
+msgid "not found!"
 msgstr ""
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:11
@@ -6356,11 +6363,11 @@ msgstr "Livro de áudio"
 
 #. LS: qUnit tests are on empty DB
 #. ini not found OR it's just simple INI created by installer for portable version ... copy from MM4 installation
-#: DBStructure.pas:2479 Settings.pas:2973
+#: DBStructure.pas:2479 Settings.pas:2974
 msgid "Do you want to use the database and settings from %s ?"
 msgstr ""
 
-#: DBStructure.pas:2479 Settings.pas:2973
+#: DBStructure.pas:2479 Settings.pas:2974
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Import settings"
 msgstr ""
@@ -7388,10 +7395,6 @@ msgstr ""
 msgid "Standard edition"
 msgstr ""
 
-#: MediaMonkeyApp.pas:6593
-msgid "not found!"
-msgstr ""
-
 #. #16581
 #: MediaMonkeyApp.pas:6943
 msgid "Open tray"
@@ -8227,7 +8230,7 @@ msgid "%d unplayed episodes"
 msgstr "%d episódios não reproduzidos"
 
 #. is done via app.sharing.setPlayerControlAllowed()
-#: Settings.pas:1356
+#: Settings.pas:1357
 msgid "MediaMonkey Player"
 msgstr "Reprodutor MediaMonkey"
 
@@ -8462,13 +8465,13 @@ msgstr ""
 msgid "Applies the changes made to an existing Hotkey entry"
 msgstr "Aplica as alterações feitas a uma entrada existente de uma Hotkey"
 
-#: dialogs\dlgOptions\pnl_Library.html:145
+#: dialogs\dlgOptions\pnl_Library.html:147
 #, fuzzy
 #| msgid "Unmoved files"
 msgid ".nfo files"
 msgstr "Ficheiros não movidos"
 
-#: dialogs\dlgOptions\pnl_Library.html:97
+#: dialogs\dlgOptions\pnl_Library.html:99
 msgid ""
 "Properties can be inferred from 'Filename' or 'Filename + Path'. Generally, "
 "it is better to infer from Filenames only, unless files are arranged in a "
@@ -8574,7 +8577,7 @@ msgstr ""
 msgid "About..."
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:79
+#: dialogs\dlgOptions\pnl_Library.html:81
 msgid "Show scan results dialog when scan is done."
 msgstr ""
 
@@ -8652,13 +8655,13 @@ msgstr "Permitir apenas uma sessão do MediaMonkey"
 msgid "Shows the MediaMonkey icon in the system tray"
 msgstr "Mostra o ícone do MediaMonkey na área de notificação"
 
-#: dialogs\dlgOptions\pnl_Library.html:125
+#: dialogs\dlgOptions\pnl_Library.html:127
 #, fuzzy
 #| msgid "File Properties"
 msgid "Video properties:"
 msgstr "Propriedades do ficheiro"
 
-#: dialogs\dlgOptions\pnl_Library.html:64
+#: dialogs\dlgOptions\pnl_Library.html:66
 msgid "Only for files with changed timestamp or size"
 msgstr ""
 
@@ -8885,7 +8888,7 @@ msgstr ""
 msgid "Minimizes to the Taskbar"
 msgstr "Minimiza para a barra de tarefas"
 
-#: dialogs\dlgOptions\pnl_Library.html:117
+#: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
 msgstr "Etiquetas e depois listas de reprodução"
 
@@ -9061,11 +9064,11 @@ msgstr "Activar Auto-DJ"
 msgid "Configure layout (current tab)"
 msgstr "Configurar o plug-in de e&ntrada actual"
 
-#: dialogs\dlgOptions\pnl_Library.html:87
+#: dialogs\dlgOptions\pnl_Library.html:89
 msgid "Use"
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:71
+#: dialogs\dlgOptions\pnl_Library.html:73
 msgid ""
 "Enable this if you wish the library to be pruned of any files that have been "
 "moved or deleted from a monitored folder. This is extremely useful, but "
@@ -9079,7 +9082,7 @@ msgstr ""
 "para uma pasta que não é monitorizada, pois ao fazê-lo resulta no ficheiro "
 "ser eliminado completamente da biblioteca."
 
-#: dialogs\dlgOptions\pnl_Library.html:170
+#: dialogs\dlgOptions\pnl_Library.html:172
 msgid "Scan file directories for Artwork"
 msgstr "Pesquisar capas nas directorias dos ficheiros"
 
@@ -9344,7 +9347,7 @@ msgstr ""
 msgid "Update & Next song (Alt-Right)"
 msgstr "atualizar & Música seguinte (Alt-Direita)"
 
-#: dialogs\dlgOptions\pnl_Library.html:76
+#: dialogs\dlgOptions\pnl_Library.html:78
 msgid "Remove unused Attributes (Artist, Album, Composer, ...)"
 msgstr "Remover atributos não utilizados (Artista, Álbum, COmpositor,...)"
 
@@ -9428,13 +9431,13 @@ msgstr ""
 msgid "Minimize to taskbar"
 msgstr "minimizar para barra de tarefas"
 
-#: dialogs\dlgOptions\pnl_Library.html:63
+#: dialogs\dlgOptions\pnl_Library.html:65
 msgid ""
 "Enabling this option speeds up all scans subsequent to the initial one by "
 "only re-adding files that have changed in size or timestamp."
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:61
+#: dialogs\dlgOptions\pnl_Library.html:63
 msgid "Update file info from tags when rescanning files"
 msgstr ""
 
@@ -9559,7 +9562,7 @@ msgstr ""
 "Esta opção força a abertura, a qualquer momento, de um máximo de uma janela "
 "do MediaMonkey."
 
-#: dialogs\dlgOptions\pnl_Library.html:92
+#: dialogs\dlgOptions\pnl_Library.html:94
 msgid "Inferred properties then tags"
 msgstr "Propriedades infer e depois etiquetas"
 
@@ -9672,7 +9675,7 @@ msgstr ""
 "Minimiza para o Micro reprodutor se estiver activado (clique direito na "
 "barra do sistema e clique em 'Barras de ferramentas')."
 
-#: dialogs\dlgOptions\pnl_Library.html:169
+#: dialogs\dlgOptions\pnl_Library.html:171
 msgid ""
 "This setting determines whether MediaMonkey searches file directories for "
 "artwork and links it to tracks as they are added to the Library."
@@ -9743,7 +9746,7 @@ msgstr "Mostrar ecrã inicial ao iniciar"
 msgid "Available elements"
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:104
+#: dialogs\dlgOptions\pnl_Library.html:106
 msgid "Filenames + Path"
 msgstr "Nomes dos ficheiros + caminho"
 
@@ -9844,7 +9847,7 @@ msgstr ""
 msgid "Deletes existing Hotkey"
 msgstr "Apaga  Hotkey existentes"
 
-#: dialogs\dlgOptions\pnl_Library.html:50
+#: dialogs\dlgOptions\pnl_Library.html:52
 msgid "Ignore files shorter than"
 msgstr "Ignorar ficheiros menores que"
 
@@ -9939,7 +9942,7 @@ msgstr ""
 msgid "Confirm modifications to more than 50 files at once"
 msgstr "Confirmar modificações para mais de 50 ficheiros de cada vez"
 
-#: dialogs\dlgOptions\pnl_Library.html:67
+#: dialogs\dlgOptions\pnl_Library.html:69
 msgid ""
 "This creates a digital signature, for the audio content of each track (tags "
 "are ignored), so that each track can be uniquely identified. If any two "
@@ -10123,11 +10126,11 @@ msgid ""
 "it's on a CD that isn't inserted)."
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:110
+#: dialogs\dlgOptions\pnl_Library.html:112
 msgid "Get Album titles and Track Numbers from:"
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:80
+#: dialogs\dlgOptions\pnl_Library.html:82
 msgid "Show scan results dialog"
 msgstr ""
 
@@ -10195,6 +10198,10 @@ msgstr ""
 msgid "Podcast URL"
 msgstr ""
 
+#: dialogs\dlgScanTracks.html:14
+msgid "Scan now"
+msgstr ""
+
 #: dialogs\dlgSleep.html:9
 msgid "Play audio for"
 msgstr "Reproduzir audio para"
@@ -10229,11 +10236,11 @@ msgstr ""
 msgid "Close to tray"
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:119
+#: dialogs\dlgOptions\pnl_Library.html:121
 msgid "Tags only"
 msgstr "Apenas etiquetas"
 
-#: dialogs\dlgOptions\pnl_Library.html:60
+#: dialogs\dlgOptions\pnl_Library.html:62
 msgid ""
 "This causes all files that are re-added (either manually by clicking 'Add "
 "files...' or automatically via the File Monitor) to be updated--even those "
@@ -10323,15 +10330,15 @@ msgstr "Escolha de onde o Auto-Dj deve adicionar faixas"
 msgid "If enabled, MediaMonkey will display results after a scan is completed."
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:91
+#: dialogs\dlgOptions\pnl_Library.html:93
 msgid "Tags then inferred properties"
 msgstr "Etiquetas e depois propriedades infer"
 
-#: dialogs\dlgOptions\pnl_Library.html:68
+#: dialogs\dlgOptions\pnl_Library.html:70
 msgid "Analyze files for duplicates (takes extra time)"
 msgstr "Analisar ficheiros por duplicados (demora um tempo extra)"
 
-#: dialogs\dlgOptions\pnl_Library.html:72
+#: dialogs\dlgOptions\pnl_Library.html:74
 msgid "Remove unavailable items"
 msgstr "Eliminar itens indisponíveis"
 
@@ -10391,11 +10398,11 @@ msgstr ""
 msgid "Choose the action for which a Hotkey should be created"
 msgstr "Escolha a ação para a qual a hotkey será criada"
 
-#: dialogs\dlgOptions\pnl_Library.html:99
+#: dialogs\dlgOptions\pnl_Library.html:101
 msgid "Infer properties from:"
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:83
+#: dialogs\dlgOptions\pnl_Library.html:85
 #, fuzzy
 #| msgid "Inferred properties then tags"
 msgid "Infer properties:"
@@ -10665,12 +10672,18 @@ msgid ""
 "application is minimized."
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:49
+#: dialogs\dlgOptions\pnl_Library.html:51
 msgid ""
 "This prevents tracks that are less than a specified size (KB) or time "
 "(seconds) from being added to the Library, since it's unlikely that you "
 "really want such files to appear in your Library."
 msgstr ""
+
+#: dialogs\dlgOptions\pnl_Library.html:5
+#, fuzzy
+#| msgid "WAV settings"
+msgid "Add/Scan settings"
+msgstr "Definições WAV"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:18
 msgid "Sources"
@@ -10818,11 +10831,11 @@ msgstr ""
 "Não aplicar a ficheiros nas pastas específicadas (\"C:\\Directory\\\",\"C:"
 "\\directory 2\")"
 
-#: dialogs\dlgOptions\pnl_Library.html:118
+#: dialogs\dlgOptions\pnl_Library.html:120
 msgid "Playlists (M3U, XSPF) then Tags"
 msgstr "Listas de reprodução ((M3U, XSPF) e depois etiquetas"
 
-#: dialogs\dlgOptions\pnl_Library.html:85
+#: dialogs\dlgOptions\pnl_Library.html:87
 msgid ""
 "It is possible to specify whether to use 'Tags and then inferred "
 "properties', or vice versa. Generally, Tags contain more accurate "
@@ -10840,7 +10853,7 @@ msgstr ""
 "'Propriedades inferred e depois etiquetas' é se souber que as etiquetas não "
 "estão correctas e o nome dos ficheiros têm dados mais precisos."
 
-#: dialogs\dlgOptions\pnl_Library.html:83
+#: dialogs\dlgOptions\pnl_Library.html:85
 msgid ""
 "In cases where the tags do not contain much information, MediaMonkey can get "
 "some information such as Artist, Title, or Album from the Filename if this "
@@ -10857,7 +10870,7 @@ msgstr ""
 "dados pode actualizar as etiquetas manualmente--ver Sincronizar as suas "
 "etiquetas."
 
-#: dialogs\dlgOptions\pnl_Library.html:172
+#: dialogs\dlgOptions\pnl_Library.html:174
 msgid ""
 "Generates thumbnails automatically for videos that don't have any artwork."
 msgstr "Cria miniaturas automaticamente para vídeos que não têm qualquer capa."
@@ -11040,7 +11053,7 @@ msgstr "Adequar exactamente ao tamanho"
 msgid "Temporary directory:"
 msgstr "Pasta temporária:"
 
-#: dialogs\dlgOptions\pnl_Library.html:148
+#: dialogs\dlgOptions\pnl_Library.html:150
 msgid ".nfo files, Path and Filenames"
 msgstr ""
 
@@ -11112,7 +11125,7 @@ msgstr ""
 msgid "Type the key combination to activate the selected action"
 msgstr "Escreva a combinação de teclas para activar a ação selecionada"
 
-#: dialogs\dlgOptions\pnl_Library.html:113
+#: dialogs\dlgOptions\pnl_Library.html:115
 msgid ""
 "This setting defines how Album titles and Track Number properties are added "
 "to the Library. Options are 'Tags only', 'Tags then Playlists', and "
@@ -11121,7 +11134,7 @@ msgid ""
 "of tracks has an associated playlist that defines the Album."
 msgstr ""
 
-#: dialogs\dlgOptions\pnl_Library.html:173
+#: dialogs\dlgOptions\pnl_Library.html:175
 msgid "Generate thumbnails for videos"
 msgstr "Criar miniaturas dos vídeos"
 
@@ -11281,11 +11294,11 @@ msgstr "Fade para"
 msgid "Confirm deletion of currently playing file"
 msgstr "Confirmar eliminação do ficheiro em reprodução"
 
-#: dialogs\dlgOptions\pnl_Library.html:57
+#: dialogs\dlgOptions\pnl_Library.html:59
 msgid "Seconds"
 msgstr "Segundos"
 
-#: dialogs\dlgOptions\pnl_Library.html:75
+#: dialogs\dlgOptions\pnl_Library.html:77
 msgid ""
 "Automatically removes attributes (e.g. Artist) that are no longer associated "
 "with any files from the Library."
