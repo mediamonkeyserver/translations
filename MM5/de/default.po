@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 16:17\n"
-"PO-Revision-Date: 2021-03-17 03:57+0000\n"
+"PO-Revision-Date: 2021-03-17 20:59+0000\n"
 "Last-Translator: Matthias Barone <matthias.barone@gmail.com>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -3239,7 +3239,7 @@ msgstr "Bild"
 
 #: controls/nowplayingview.js:27
 msgid "Artist Bio"
-msgstr ""
+msgstr "Autorenbiographie"
 
 #. full window -> normal
 #. full screen -> normal
@@ -5127,6 +5127,12 @@ msgid ""
 "have to install to the Winamp directory and then manually copy the "
 "installed .dll file(s) to the Program Files/MediaMonkey/Plug-ins directory."
 msgstr ""
+"1) Wenn das plug-in mit einer ausführbaren Instanz installiert wird, nutzt "
+"diese häufig den Standardpfad /Programme/Winamp. Ändern Sie das "
+"Installationsverzeichnis auf /Programme/MediaMonkey. Wenn Sie den "
+"Installationspfad nicht ändern können, installieren Sie in den Winamp Order "
+"und kopieren anschliessend von Hand die installierte(n) .dll Datei(en) in "
+"das Verzeichnis /Programme/MediaMonkey/Plug-ins."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:17
 #: dialogs/dlgOptions/pnl_InputPlugins.js:16
@@ -5136,6 +5142,9 @@ msgid ""
 "MediaMonkey/Plugins directory, and follow the instructions provided with the "
 "plug-in."
 msgstr ""
+"2) Wenn es sich bei dem Plugin um eine .dll Datei handelt, kopieren Sie "
+"diese einfach in das Verzeichnis Program Files/MediaMonkey/Plugins und "
+"befolgen Sie die Anweisungen des Plugins."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:19
 #: dialogs/dlgOptions/pnl_InputPlugins.js:18
@@ -5144,12 +5153,16 @@ msgid ""
 "Once the plug-in is installed, you can access it from the plug-ins pane, and "
 "press the Configure button."
 msgstr ""
+"Sobald das Plug-in installiert ist, können Sie über den Plug-in-Bereich "
+"darauf zugreifen und die Schaltfläche Konfigurieren drücken."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:19
 msgid ""
 "For DSP Audio Effect plug-ins, you can also set the order in which the "
 "plugins process the audio using the up/down arrows."
 msgstr ""
+"Für DSP Audio Effect-Plug-ins können Sie mit den Aufwärts-/Abwärtspfeilen "
+"auch die Reihenfolge festlegen, in der die Plug-ins das Audio verarbeiten."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:39
 msgid "Plug-in description"
@@ -5203,7 +5216,7 @@ msgstr "Player steuerung nicht gefunden."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:30
 msgid "Player layout cannot be set."
-msgstr ""
+msgstr "Vorschaulayout kann nicht gesetzt werden"
 
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:11 MediaMonkeyApp.pas:6593
 msgid "not found!"
@@ -5211,7 +5224,7 @@ msgstr "nicht gefunden!"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:11
 msgid "Preview control not found."
-msgstr ""
+msgstr "Player steuerung nicht gefunden."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:23
 msgid "Preview layout cannot be set."
@@ -5452,7 +5465,7 @@ msgstr "Verarbeiten"
 
 #: helpers/autoTagFramework.js:273
 msgid "Fingerprinting"
-msgstr ""
+msgstr "Fingerabdruck"
 
 #: helpers/autoTagFramework.js:277
 msgid "artwork"
@@ -5506,6 +5519,8 @@ msgstr "2x / Tag"
 msgid ""
 "On sync, the database is updated with links to files and playlists from '%s'"
 msgstr ""
+"Beim Synchronisieren wird die Datenbank mit Links zu Dateien und "
+"Wiedergabelisten von '%s' aktualisiert"
 
 #: helpers/mediaSync.js:695
 msgid "Only include content that matches files already in the database"
