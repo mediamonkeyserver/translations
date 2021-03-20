@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 16:17\n"
-"PO-Revision-Date: 2021-03-17 20:59+0000\n"
+"PO-Revision-Date: 2021-03-21 22:55+0000\n"
 "Last-Translator: Matthias Barone <matthias.barone@gmail.com>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -3891,7 +3891,7 @@ msgstr "Typ"
 #: MaskHelper.pas:3803 QueryManage.pas:4657 QueryManage.pas:4790
 #: QueryManage.pas:4791 dialogs\dlgTrackProperties\tabClassification.html:49
 msgid "Initial Key"
-msgstr ""
+msgstr "Tonart"
 
 #: controls/trackListView.js:1646 MaskHelper.pas:3109 ResStrings.pas:468
 #: ResStrings.pas:522 dialogs\dlgTrackProperties\tabDetails.html:86
@@ -4527,15 +4527,15 @@ msgstr "Wechselmedium"
 
 #: dialogs/dlgMediaProperties.js:14
 msgid "Fixed"
-msgstr ""
+msgstr "Lokal"
 
 #: dialogs/dlgMediaProperties.js:17
 msgid "Remote"
-msgstr ""
+msgstr "Remote"
 
 #: dialogs/dlgMediaProperties.js:32
 msgid "UUID"
-msgstr ""
+msgstr "UUID"
 
 #: dialogs/dlgMediaProperties.js:35 ResStrings.pas:410
 msgid "YouTube"
@@ -4545,6 +4545,8 @@ msgstr "YouTube"
 msgid ""
 "Location change is complete and will take effect after MediaMonkey restarts."
 msgstr ""
+"Änderung des Speicherortes ist abgeschlossen und wird wirksam, nachdem "
+"MediaMonkey neu startet."
 
 #. to be sure that only our 'click' event handler will be used (to be sure that setResult(res) is called also for Cancel button)
 #: dialogs/dlgMigrateWizard.js:4
@@ -4575,15 +4577,15 @@ msgstr ""
 
 #: dialogs/dlgMigrateWizard.js:20
 msgid "Retain local cache of %s content"
-msgstr ""
+msgstr "Behalte lokaler cache des Inhaltes %s"
 
 #: dialogs/dlgMigrateWizard.js:35
 msgid "Fine-tune which content to store on %s..."
-msgstr ""
+msgstr "Feinabstimmung, welcher Inhalt auf %s gespeichert werden soll..."
 
 #: dialogs/dlgMigrateWizard.js:92 QueryManage.pas:4322 QueryManage.pas:4323
 msgid "Cloud"
-msgstr ""
+msgstr "Cloud"
 
 #: dialogs/dlgMigrateWizard.js:98 dialogs/dlgMigrateWizard.js:100
 msgid "%s will be moved to %s (%s)"
@@ -4595,7 +4597,7 @@ msgstr "%s wird kopiert nach %s (%s)"
 
 #: dialogs/dlgMigrateWizard.js:108
 msgid "%s will be scanned and shared via %s"
-msgstr ""
+msgstr "%s wird gescannt und geteilt via %s"
 
 #: dialogs/dlgMigrateWizard.js:112
 msgid "Checking for files on the server"
@@ -4810,7 +4812,7 @@ msgstr "Leistung"
 
 #: dialogs/dlgOptions.js:39
 msgid "Streaming"
-msgstr ""
+msgstr "Streaming"
 
 #: dialogs/dlgOptions.js:47
 msgid "Volume leveling"
@@ -5525,30 +5527,38 @@ msgstr ""
 #: helpers/mediaSync.js:695
 msgid "Only include content that matches files already in the database"
 msgstr ""
+"Nur Inhalte einbeziehen, die mit Dateien übereinstimmen, welche bereits in "
+"der Datenbank vorhanden sind"
 
 #: helpers/mediaSync.js:696
 msgid ""
 "On sync, the database is only updated with links to files & playlists from "
 "'%s' that match files already in the database"
 msgstr ""
+"Beim Synchronisieren wird die Datenbank nur mit jenen Dateiverknüpfungen & "
+"Playlisten von '%s' aktualisiert, die mit bereits in der Datenbank "
+"befindlichen Dateien übereinstimmen"
 
 #: helpers/mediaSync.js:697
 msgid "Download '%s' content that is not accessible locally"
 msgstr ""
+"Herunterladen von '%s' Inhalten, auf die lokal nicht zugegriffen werden kann"
 
 #: helpers/mediaSync.js:698
 msgid ""
 "Downloads files and playlists from '%s' that are not accessible via the "
 "local drive or network"
 msgstr ""
+"Lädt Dateien und Wiedergabelisten von \"%s\" herunter, die weder über das "
+"lokale Laufwerk noch im Netzwerk zugänglich sind"
 
 #: helpers/mediaSync.js:699
 msgid "Sync '%s' metadata to the Library"
-msgstr ""
+msgstr "'%s' Metadaten mit der Bibliothek synchronisieren"
 
 #: helpers/mediaSync.js:700
 msgid "Update metadata for matching tracks and playlists"
-msgstr ""
+msgstr "Metadaten für passende Tracks und Playlists aktualisieren"
 
 #. show toast message that device has been connected (#15402):
 #: helpers/mediaSync.js:833 helpers/mediaSync.js:2881
@@ -5569,6 +5579,9 @@ msgid ""
 "Once installed, you may initiate Wi-Fi sync from the device (USB sync is not "
 "reliable on some devices)."
 msgstr ""
+"Nach der Installation können Sie die WLAN-Synchronisation vom Gerät aus "
+"initiieren (die USB-Synchronisierung ist auf einigen Geräten nicht "
+"zuverlässig)."
 
 #: helpers/mediaSync.js:993
 msgid ""
@@ -5615,13 +5628,15 @@ msgstr "Nach Auto-Synchronisation automatisch entfernen"
 
 #: helpers/mediaSync.js:1006
 msgid "Allow %s to remotely sync with the"
-msgstr ""
+msgstr "Erlaube %s die Remote-Synchronisation mit dem"
 
 #: helpers/mediaSync.js:1037
 msgid ""
 "To sync with Android devices, %s should be installed for improved sync "
 "performance."
 msgstr ""
+"Um Android-Geräte zu synchronisieren, sollte für eine verbesserte "
+"Synchronisierungsleistung %s installiert werden."
 
 #: helpers/mediaSync.js:1989
 msgid "There was a problem syncing \"%s\". It is turned off or inaccessible."
@@ -5637,13 +5652,15 @@ msgstr "Aktualisieren"
 #. continuously (polling method, TODO: do this via notifications from MMS?)
 #: helpers/mediaSync.js:2451 helpers/mediaSync.js:2570
 msgid "Set content to store on '%s'"
-msgstr ""
+msgstr "Inhalt festlegen, der auf '%s' gespeichert werden soll"
 
 #: helpers/mediaSync.js:2451
 msgid ""
 "This content will be copied (by default) to '%s' so that it can be shared "
 "with other clients"
 msgstr ""
+"Dieser Inhalt wird (standardmäßig) nach '%s' kopiert, damit er mit anderen "
+"Clients geteilt werden kann"
 
 #: helpers/mediaSync.js:2493
 msgid "Server is down!"
@@ -5678,13 +5695,13 @@ msgstr "%s wird synchronisiert:"
 
 #: helpers/mediaSync.js:3270
 msgid "Scanning"
-msgstr ""
+msgstr "Scannen"
 
 #. non-track paths (jpg, m3u are above this index)
 #: helpers/mediaSync.js:3327 helpers/mediaSync.js:3329
 #: helpers/mediaSync.js:3456 helpers/mediaSync.js:3458
 msgid "Removing"
-msgstr ""
+msgstr "Entfernt"
 
 #: helpers/mediaSync.js:3334 helpers/mediaSync.js:3343
 msgid "(Preparing list of files)"
@@ -5708,12 +5725,12 @@ msgstr "Kopieren"
 
 #: helpers/mediaSync.js:3667
 msgid "Matching"
-msgstr ""
+msgstr "Passend"
 
 #. waiting for file conversion
 #: helpers/mediaSync.js:3734
 msgid "Downloading file: %s"
-msgstr ""
+msgstr "Datei wird heruntergeladen: %s"
 
 #: helpers/mediaSync.js:3737
 msgid "Converting file: %s"
@@ -5730,7 +5747,7 @@ msgstr "Erstellen von Wiedergabelisten"
 #. #17023 / item 1:
 #: helpers/mediaSync.js:3922 helpers/mediaSync.js:4081 CDUtils.pas:771
 msgid "Reading metadata"
-msgstr ""
+msgstr "Lesen von Metadaten"
 
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:3957
@@ -5744,11 +5761,11 @@ msgstr "Metadaten hochladen"
 
 #: helpers/mediaSync.js:4080
 msgid "Scanning %s:"
-msgstr ""
+msgstr "Scanne %s:"
 
 #: helpers/searchCommon.js:359
 msgid "Pairing"
-msgstr ""
+msgstr "Pairing"
 
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:6
 msgid "Side by side"
@@ -5759,11 +5776,10 @@ msgid "Auto-increment Track #s"
 msgstr "Nummeriere Songs durch"
 
 #: Scripts/autoIncTrack/actions_add.js:21
-#, fuzzy
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
-msgstr "Die Song# der %d gewählten Songs werden neu durchnummeriert."
+msgstr "Track# -Feld von %d gewählten Songs werden neu durchnummeriert."
 
 #: Scripts/autoIncTrack/actions_add.js:21
 msgid "Start numbering from:"
@@ -5779,7 +5795,7 @@ msgstr "Alter Wert: "
 
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:308
 msgid "Select tracks to be updated"
-msgstr ""
+msgstr "Zu aktualisierende Titel auswählen"
 
 #: Scripts/export/actions_add.js:31
 msgid "File List (&HTML)"
@@ -5835,7 +5851,7 @@ msgstr "CSV (*.csv)|*.csv|Alle Dateien (*.*)|*.*"
 
 #: Scripts/exportPlaylists/actions_add.js:2
 msgid "Export all playlists"
-msgstr ""
+msgstr "Exportiere alle Playlisten"
 
 #. Open inifile and get last used directory
 #: Scripts/exportPlaylists/actions_add.js:33
@@ -5855,6 +5871,8 @@ msgstr "Weiterlesen bei Wikipedia..."
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1455
 msgid "Error downloading content. Click to retry."
 msgstr ""
+"Fehler beim Herunterladen des Inhalts. Klicken Sie hier, um es erneut zu "
+"versuchen."
 
 #. correct cleaning including listeners
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1468
@@ -5862,6 +5880,8 @@ msgid ""
 "No matching content online. Please verify the spelling of existing metadata "
 "or edit the entry in "
 msgstr ""
+"Keine passenden Inhalte online gefunden. Bitte überprüfen Sie die "
+"Schreibweise vorhandener Metadaten oder bearbeiten Sie den Eintrag in "
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
@@ -5901,11 +5921,11 @@ msgstr "Songs pro Album"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:326
 msgid "Tracks per Genre"
-msgstr ""
+msgstr "Songs pro Genre"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:327
 msgid "Tracks per Year"
-msgstr ""
+msgstr "Songs pro Jahr"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:328
 msgid "Bitrate (kbps)"
@@ -5967,13 +5987,16 @@ msgstr "Tausche Interpret und Titel"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:2
 msgid "Set as sync target"
-msgstr ""
+msgstr "Als Synchronisierungsziel festlegen"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:7
 msgid ""
 "This will create a new sync profile for this drive/folder so that you can "
 "sync files to this location as if it were a portable device."
 msgstr ""
+"Dadurch wird ein neues Synchronisierungsprofil für dieses Laufwerk/diesen "
+"Ordner erstellt, so dass Sie Dateien mit diesem Speicherort synchronisieren "
+"können, als wäre es ein tragbares Gerät."
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:215
 msgid "Sync root"
@@ -6005,7 +6028,7 @@ msgstr "Suchergebnisse"
 #. url request failed, check for quota exceeded
 #: Scripts/youtube/helpers/youtubeHelper.js:48
 msgid "YouTube query failed: "
-msgstr ""
+msgstr "YouTube-Abfrage fehlgeschlagen: "
 
 #: AndroidDBHandler.pas:1196 AndroidDBHandler.pas:1198
 #: AndroidDBHandler.pas:1246 AndroidDBHandler.pas:1248
@@ -6056,7 +6079,7 @@ msgstr "fps"
 
 #: BaseMedia.pas:14134
 msgid "%d database entries to be updated"
-msgstr ""
+msgstr "%d Datenbankeinträge werden aktualisiert"
 
 #: BaseMedia.pas:14532 Filters.pas:2733
 msgid "list"
@@ -6068,7 +6091,7 @@ msgstr "Alben"
 
 #: BaseMedia.pas:18306
 msgid "Reorder track(s)"
-msgstr ""
+msgstr "Song(s) neu ordnen"
 
 #. for tracks<=current track does copy instead of move
 #: BaseMedia.pas:18316
@@ -6233,7 +6256,7 @@ msgstr "Verlagslogo"
 
 #: Covers.pas:1155
 msgid "Unsaved image"
-msgstr ""
+msgstr "Nicht gespeichertes Bild"
 
 #: Covers.pas:1157
 msgid "Stored in tag"
@@ -6256,11 +6279,12 @@ msgstr ""
 #: DatabaseManage.pas:956 DatabaseManage.pas:1740 DatabaseManage.pas:1742
 #: DatabaseManage.pas:1748
 msgid "Checking database structure"
-msgstr ""
+msgstr "Datenbankstruktur prüfen"
 
 #: DatabaseManage.pas:1720
 msgid "The database seems to be corrupted. Attempt to fix it ?"
 msgstr ""
+"Die Datenbank scheint beschädigt. Soll versucht werden, sie zu reparieren?"
 
 #: DatabaseManage.pas:2925
 msgid "Do you really want to remove %d tracks from Virtual CD?"
@@ -6284,7 +6308,7 @@ msgstr "Enferne Datei %s (%d von %d)"
 
 #: dblistutils.pas:1167
 msgid "%d of %d folders processed"
-msgstr ""
+msgstr "%d von %d Ordnern verarbeitet"
 
 #: dblistutils.pas:1456 UpNp.pas:5755 UPnPTreeHelper.pas:1901 WebUtils.pas:1985
 #: WebUtils.pas:2006
@@ -6337,7 +6361,7 @@ msgstr "Multi-Interpreten Alben"
 
 #: dblistutils.pas:1472
 msgid "Ungrouped Multiple Artist Albums"
-msgstr ""
+msgstr "Ungruppierte Alben mit mehreren Künstlern"
 
 #: dblistutils.pas:1475
 msgid "Dead Links"
@@ -6353,7 +6377,7 @@ msgstr "Uneingeordnete Dateien"
 
 #: dblistutils.pas:1479
 msgid "DB / Tag mismatches"
-msgstr ""
+msgstr "Datenbankeinträge stimmen nicht mit den Tags überein"
 
 #: dblistutils.pas:1480
 msgid "Duplicate Titles"
@@ -6361,7 +6385,7 @@ msgstr "Doppelte Titel"
 
 #: dblistutils.pas:1481
 msgid "Duplicate Titles/Artists"
-msgstr ""
+msgstr "Titel/Künstler duplizieren"
 
 #: dblistutils.pas:1483
 msgid "Unclassified Files"
@@ -6386,7 +6410,7 @@ msgstr "Unbekannte Qualität"
 #. in order to skip all -- when user canceled DB upgrade
 #: DBStructure.pas:275
 msgid "Updating to database version %d.%d.%d"
-msgstr ""
+msgstr "Auf Datenbankversion %d. %d. %d aktualisieren"
 
 #: DBStructure.pas:852
 msgid ""
