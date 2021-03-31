@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 16:17\n"
-"PO-Revision-Date: 2021-03-31 07:56+0000\n"
+"PO-Revision-Date: 2021-03-31 20:54+0000\n"
 "Last-Translator: Matthias Barone <matthias.barone@gmail.com>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -820,7 +820,7 @@ msgstr "Wiederholen"
 
 #: actions.js:2908
 msgid "Level playback volume"
-msgstr "Lautstärke der Wiedergabe einstellen"
+msgstr "Wiedergabelautstärke"
 
 #: actions.js:2925 Win7ToolsImpl.pas:1902
 msgid "Next file"
@@ -9786,11 +9786,11 @@ msgstr ""
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:86
 msgid ""
 "For groups of tracks, avoid compilations (treat as individual tracks instead)"
-msgstr ""
+msgstr "Kompilationen vermeiden, stattdessen die Songs individuell behandeln"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:9
 msgid "This option completely hides the menu bar."
-msgstr ""
+msgstr "Diese Option blendet die Menüleiste vollständig aus."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:24
 msgid "Allows music to be lowered/paused for announcements during a party"
@@ -9804,15 +9804,15 @@ msgstr "Nach folgenden Feldern über die Suchleiste suchen:"
 
 #: dialogs\dlgTrackProperties\tabArtwork.html:7
 msgid "Apply to all selected"
-msgstr ""
+msgstr "Für alle gewählten Dateien übernehmen"
 
 #: controls\deviceConfig.html:8
 msgid "Apply"
-msgstr ""
+msgstr "Anwenden"
 
 #: controls\deviceConfig\syncFromDevice.html:15
 msgid "Auto-Sync file metadata from the device to the PC"
-msgstr ""
+msgstr "Datei-Metadaten automatisch vom Gerät zum PC synchronisieren"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:41
 msgid "prefix for each playlist type"
@@ -9824,7 +9824,7 @@ msgstr "mit Fehlerkorrektur"
 
 #: dialogs\dlgErrorLog.html:14
 msgid "Warning will disappear in:"
-msgstr ""
+msgstr "Warnung verschwindet in:"
 
 #: dialogs\dlgSleep.html:16
 msgid "Start fading in"
@@ -9840,6 +9840,9 @@ msgid ""
 "Playing list, remove them from the Playing list and the Library, or delete "
 "them from the Playing list, the Library, and the computer system."
 msgstr ""
+"Wenn aktiviert wird MediaMonkey Sie fragen, ob Sie die Songs nur aus der "
+"Playliste, aus der Playliste und dem Archiv oder aus der Wiedergabeliste, "
+"aus dem Archiv und von der Festplatte löschen möchten."
 
 #: dialogs\dlgOptions\pnl_General.html:16
 msgid "Show splash screen at startup"
@@ -9847,7 +9850,7 @@ msgstr "Startbildschirm anzeigen"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:19
 msgid "Available elements"
-msgstr ""
+msgstr "Verfügbare Elemente"
 
 #: dialogs\dlgOptions\pnl_Library.html:106
 msgid "Filenames + Path"
@@ -9859,7 +9862,7 @@ msgstr "Proxy-Einstellungen"
 
 #: dialogs\dlgOptions\pnl_Network.html:4
 msgid "Use proxy server"
-msgstr ""
+msgstr "Proxy-Server verwenden"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:17
 msgid "Show AutoPlay actions for:"
@@ -9867,7 +9870,7 @@ msgstr "AutoPlay-Funktion anzeigen für:"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:24
 msgid "DVD video playback"
-msgstr ""
+msgstr "Wiedergabe DVD Video"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:18
 msgid "Accept input/control of MediaMonkey player via UPnP/DLNA"
@@ -9903,11 +9906,11 @@ msgstr "Clippingschutz"
 
 #: maincontent.html:57
 msgid "Bottom panel"
-msgstr ""
+msgstr "Unteres Panel"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Export settings"
-msgstr ""
+msgstr "Einstellungen exportieren"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:23
 msgid "Force relative paths"
@@ -9931,6 +9934,10 @@ msgid ""
 "being extracted from the CD-ROM. For some older drives, this should be "
 "disabled as it may reduce the quality of encoded files."
 msgstr ""
+"Diese Option beschleunigt das Rippen von CDs, indem die Audiodaten während "
+"der Extraktion von der CD-ROM in das gewählte Format kodiert werden. Für "
+"einige Laufwerke, besonders ältere, sollte dies deaktiviert werden, da sonst "
+"die Qualität der kodierten Dateien leidet."
 
 #: dialogs\dlgSleep.html:23
 msgid "% of current volume"
@@ -9938,13 +9945,15 @@ msgstr "% der Lautstärke"
 
 #: dialogs\dlgSupportedFormat.html:70
 msgid "Levels"
-msgstr ""
+msgstr "Lautstärke-Pegel"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:5
 msgid ""
 "If enabled, MediaMonkey will prompt you whether to move the entire folder or "
 "only Library content within."
 msgstr ""
+"Wenn aktiviert wird MediaMonkey Sie fragen, ob Sie den gesamten Ordner oder "
+"nur die im Archiv verzeichneten Inhalte verschieben möchten."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:23
 msgid "Deletes existing Hotkey"
@@ -9956,21 +9965,24 @@ msgstr "Dateien ignorieren mit weniger als"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:35
 msgid "Freedb (HTTP)"
-msgstr ""
+msgstr "Freedb (HTTP)"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:39
 msgid ""
 "Configure which server to use. The main server is entered by default, "
 "although you may want to change this to a server closer to your location."
 msgstr ""
+"Konfigurieren Sie hier, welcher Server verwendet werden soll. Der "
+"Hauptserver ist standardmäßig eingegeben, aber diesen können Sie "
+"gegebenenfalls durch einen Server ersetzen, der näher an Ihrem Wohnort liegt."
 
 #: dialogs\dlgOptions\pnl_Performance.html:33
 msgid "Priority for background tasks"
-msgstr ""
+msgstr "Priorität für Hintergrundprozesse"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:5
 msgid "Enable bookmarking"
-msgstr ""
+msgstr "Lesezeichen aktivieren"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:5
 msgid ""
@@ -10006,7 +10018,7 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabBasic.html:19
 msgid "File name"
-msgstr ""
+msgstr "Dateiname"
 
 #: dialogs\dlgWizard\pnlShare.html:2
 msgid "Share your library"
@@ -10014,15 +10026,17 @@ msgstr "Bibliothek freigeben"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:24
 msgid "Only submit tracks that are part of the Library"
-msgstr ""
+msgstr "Nur Titel senden, die Teil des Archivs sind"
 
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid "Show confirmation dialog"
-msgstr ""
+msgstr "Bestätigungsdialog anzeigen"
 
 #: dialogs\dlgAbout.html:32
 msgid "Used for developer testing (disables automatic crashlog generation)"
 msgstr ""
+"Für Entwicklertestung gedacht (deaktiviert die automatische Crashlog-"
+"Generierung)"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "On the fly encoding"
@@ -10058,10 +10072,14 @@ msgid ""
 "tracks are duplicates (i.e. they have matching signatures) they will appear "
 "in the Files to Edit - Duplicate Content view."
 msgstr ""
+"Dadurch wird eine digitale Signatur für die Audiosignale jeden Songs (Tags "
+"werden ignoriert) erstellt, so dass jeder Song eindeutig identifiziert "
+"werden kann. Wenn Duplikate dieselbe Signatur generieren, werden sie im "
+"Archivbaum angezeigt unter 'zu bearbeitende Dateien - Doppelter Inhalt'."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:21
 msgid "Audio CD playback"
-msgstr ""
+msgstr "Wiedergabe Audio CD"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:15
 msgid "This prevents users from exiting MediaMonkey by switching applications."
@@ -10073,7 +10091,7 @@ msgstr "Menüleiste verstecken"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:25
 msgid "Enable volume, play/pause controls"
-msgstr ""
+msgstr "Lautstärke-, Wiedergabe-/Pausenregler aktivieren"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:66
 msgid "Only analyze files with unknown Leveling Adjustment"
@@ -10081,15 +10099,15 @@ msgstr "Lautstärke nur bei Songs mit unbekanntem Pegel analysieren"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:150
 msgid "Play counter"
-msgstr ""
+msgstr "Wiedergabe-Zähler"
 
 #: dialogs\dlgWizard\pnlScan.html:8
 msgid "Scan the following locations for media: "
-msgstr ""
+msgstr "Die folgenden Speicherorte nach Medien scannen: "
 
 #: controls\deviceConfig.html:8
 msgid "Sync now"
-msgstr ""
+msgstr "Synchronisierung beginnen"
 
 #: controls\serverConfig\content.html:4
 msgid "(global settings)"
@@ -10143,14 +10161,16 @@ msgstr "Icon Infobereich immer anzeigen"
 msgid ""
 "Drag available elements to a panel to be displayed, or to re-order them."
 msgstr ""
+"Ziehen Sie verfügbare Elemente in ein Panel, um sie anzuzeigen oder neu zu "
+"ordnen."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:7
 msgid "Artist images"
-msgstr ""
+msgstr "Künstlerbilder"
 
 #: dialogs\dlgOptions\pnl_Player.html:45
 msgid "Pop-up file info:"
-msgstr ""
+msgstr "Blende Datei-Info ein:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:31
 msgid "Update tags when editing properties"
@@ -10161,34 +10181,38 @@ msgid ""
 "This value determines playback volume (for track(s) that have been analyzed) "
 "if 'Level playback volume' is enabled."
 msgstr ""
+"Dieser Wert bestimmt den Lautstärkepegel wenn \"Wiedergabelautstärke "
+"einstellen\" aktiviert ist (wirkt sich nur auf Songs aus, die analysiert "
+"wurden)."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:71
 msgid "Automatically analyzes volume of tracks as a background process"
-msgstr ""
+msgstr "Analysiert die Laustärke der Songs automatisch als Hintergrundprozess"
 
 #: dialogs\dlgWizard\pnlRegistration.html:10
 msgid "analyze volume automatically"
-msgstr ""
+msgstr "Wiedergabelautstärke automatisch analysieren"
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Lookup missing information via Auto-tag (Registered users only)"
 msgstr ""
+"Suche nach fehlenden Informationen über Auto-Tag (nur registrierte Benutzer)"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:3
 msgid "Scrobbler submission state"
-msgstr ""
+msgstr "Scrobbler Sendestatus"
 
 #: controls\artistAlbums.html:37
 msgid "Broadcasts"
-msgstr ""
+msgstr "Sendungen"
 
 #: controls\windowtitle.html:16
 msgid "Minimize window"
-msgstr ""
+msgstr "Fenster minimieren"
 
 #: controls\clientConfig\content.html:3
 msgid "Share the following over the network"
-msgstr ""
+msgstr "Folgendes über das Netzwerk teilen"
 
 #: controls\deviceConfig\syncToDevice.html:5
 msgid "Hide unselected items"
@@ -10200,7 +10224,7 @@ msgstr "Wiedergabelisten synchronisieren (empfohlen)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:39
 msgid "Organize playlists using:"
-msgstr ""
+msgstr "Wiedergabelisten organisieren durch:"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
 msgid "Use only the first value when multiple Artists / Composers exist"
@@ -10208,37 +10232,41 @@ msgstr "Nur ersten Interpreten bei Multi-Interpreten verwenden"
 
 #: dialogs\dlgAddArtwork.html:34
 msgid "Replace existing image"
-msgstr ""
+msgstr "Vorhandenes Bild ersetzen"
 
 #: dialogs\dlgCollectionOptions.html:28
 msgid "Visibility"
-msgstr ""
+msgstr "Sichtbarkeit"
 
 #: dialogs\dlgNewVersion.html:10
 msgid "Installed version"
-msgstr ""
+msgstr "Installierte Version"
 
 #: dialogs\dlgRegisterGold.html:10
 msgid "To unlock Gold features, please enter license registration information:"
 msgstr ""
+"Um alle Funktionen freizuschalten, geben Sie bitte die Lizenzinformationen "
+"ein:"
 
 #: dialogs\dlgSupportedFormat.html:47
 msgid "Min"
-msgstr ""
+msgstr "Minimum"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:50
 msgid ""
 "Displays a warning if a file in the Playing queue is inaccessible (e.g. if "
 "it's on a CD that isn't inserted)."
 msgstr ""
+"Zeigt eine Warnung an, wenn eine Datei in der Wiedergabeliste nicht "
+"auffindbar ist (z.B. wenn die Datei auf einer nicht eingelegten CD liegt)."
 
 #: dialogs\dlgOptions\pnl_Library.html:112
 msgid "Get Album titles and Track Numbers from:"
-msgstr ""
+msgstr "Album-Titel und Songnummern abrufen von:"
 
 #: dialogs\dlgOptions\pnl_Library.html:82
 msgid "Show scan results dialog"
-msgstr ""
+msgstr "Dialogfeld der Scan-Ergebnisse anzeigen"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:90
 msgid "Replace existing information if confidence > "
