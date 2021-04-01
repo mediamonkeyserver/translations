@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 16:17\n"
-"PO-Revision-Date: 2021-04-01 19:21+0000\n"
+"PO-Revision-Date: 2021-04-01 19:44+0000\n"
 "Last-Translator: Matthias Barone <matthias.barone@gmail.com>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -1757,7 +1757,7 @@ msgstr "Anzeige in voller Größe"
 #: MP3Manage.pas:3794 MP3Manage.pas:3796 MP3Manage.pas:3803 OggManage.pas:118
 #: OggManage.pas:120 ResStrings.pas:442 dialogs\dlgSupportedFormat.html:53
 msgid "kbps"
-msgstr "Kbp/s"
+msgstr "kb/s"
 
 #: templates.js:3184
 msgid "Season"
@@ -1989,7 +1989,7 @@ msgstr "Interpreten"
 #. add title line
 #: viewHandlers.js:1390 controls/relatedArtists.js:27
 msgid "Related Artists"
-msgstr "Ähnliche Künstler"
+msgstr "Ähnliche Interpreten"
 
 #. so that the default focus control is searched within subViews below
 #: viewHandlers.js:1564
@@ -2730,7 +2730,7 @@ msgstr "Hintergrund bei Abspielen animieren"
 
 #: controls/backgroundImage.js:156
 msgid "Cycle Artist images"
-msgstr "Künstlerbilder rotieren"
+msgstr "Coverart-Bilder nacheinander zeigen"
 
 #: controls/backgroundImage.js:168
 msgid "Artwork (blurred)"
@@ -3239,7 +3239,7 @@ msgstr "Bild"
 
 #: controls/nowplayingview.js:27
 msgid "Artist Bio"
-msgstr "Autorenbiographie"
+msgstr "Interpretenbiographie"
 
 #. full window -> normal
 #. full screen -> normal
@@ -3441,7 +3441,8 @@ msgstr ""
 msgid ""
 "artist:floy | finds words beginning with floy (in Artist) e.g. Pink Floyd"
 msgstr ""
-"artist:floy | findet Wörter beginnend mit floy (in Artist) z.B. Pink Floyd"
+"artist:floy | findet Wörter beginnend mit floy (im Interpreten-Feld) z.B. "
+"Pink Floyd"
 
 #: controls/searchBar.js:688
 msgid "year:2000..2006 | finds matches in range 2000 to 2006"
@@ -5382,7 +5383,7 @@ msgstr "Genre"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:486
 msgid "Artist(s) (ensemble; soloist)"
-msgstr "Künstler (Ensemble; Solist)"
+msgstr "Interpret (Ensemble; Solist)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:487
 msgid "Genre(s) (genre; period)"
@@ -5450,7 +5451,7 @@ msgstr "Keine Infos anzeigen"
 
 #: helpers/artistDataSource.js:23
 msgid "artist info"
-msgstr "interpret-Info"
+msgstr "Interpret-Info"
 
 #: helpers/autoDJ.js:19 Filters.pas:3345 MediaMonkeyApp.pas:7981
 #: ResStrings.pas:413
@@ -10859,11 +10860,11 @@ msgstr "Aufnehmen/Aktualisieren Einstellungen"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:18
 msgid "Sources"
-msgstr ""
+msgstr "Quellenangabe"
 
 #: dialogs\dlgOptions\pnl_Player.html:61
 msgid "Transparency"
-msgstr ""
+msgstr "Transparenz"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:65
 msgid ""
@@ -10883,15 +10884,15 @@ msgstr "Bei Lautstärke-Analyse auch Album-Lautstärke analysieren"
 
 #: samples\genreTextLayour.html:3
 msgid "Alternative Rock"
-msgstr ""
+msgstr "Alternative Rock"
 
 #: maincontent.html:38
 msgid "Top panel"
-msgstr ""
+msgstr "Oberes Panel"
 
 #: controls\mainTabContent.html:25
 msgid "Main panel (bottom)"
-msgstr ""
+msgstr "Hauptpanel (unten)"
 
 #: controls\searchEditor.html:33
 msgid "megabytes"
@@ -10910,7 +10911,7 @@ msgstr "Gibt Inhalt für alle Geräte frei, die eine Verbindung aufbauen wollen"
 
 #: dialogs\dlgAbout.html:30
 msgid "Developer mode"
-msgstr ""
+msgstr "Entwicklermodus"
 
 #: dialogs\dlgCollectionOptions.html:52
 msgid "Icon"
@@ -10930,7 +10931,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Appearance.html:15
 msgid "when sorting by"
-msgstr ""
+msgstr "sortieren nach"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in Playing list"
@@ -10942,7 +10943,7 @@ msgstr "Jede Woche"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:4
 msgid "Background metadata lookup"
-msgstr ""
+msgstr "Hintergrund-Metadatensuche"
 
 #: dialogs\dlgOptions\pnl_Performance.html:2
 msgid "Improve performance of some tasks by utilizing multiple CPU cores"
@@ -10952,12 +10953,13 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Player.html:41
 msgid "Pop-up display"
-msgstr ""
+msgstr "Pop-up Fenster"
 
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid ""
 "Shows a confirmation dialog with a list of the files that will be affected"
 msgstr ""
+"Zeigt einen Bestätigungsdialog mit einer Liste der betroffenen Dateien an"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:10
 msgid "Remove artwork from tags if larger than:"
@@ -10973,7 +10975,7 @@ msgstr ""
 
 #: dialogs\dlgAddArtwork.html:24
 msgid "Image location"
-msgstr ""
+msgstr "Speicherort des Bildes"
 
 #: dialogs\dlgConvertFormat.html:11
 msgid "Record CD track(s) to your hard drive"
@@ -10989,7 +10991,7 @@ msgstr "Bitrate (maximum)"
 
 #: dialogs\dlgOGGSettings.html:36
 msgid " kbps"
-msgstr ""
+msgstr " kb/s"
 
 #: dialogs\dlgPodcastSubscription.html:91
 msgid "Displays all episodes including those that have previously been deleted"
@@ -11049,7 +11051,7 @@ msgstr "Erzeugt automatisch Vorschauen für Videos, die kein Cover besitzen."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:20
 msgid "Set sources"
-msgstr ""
+msgstr "Quellen festlegen"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
 msgid "Play last in MediaMonkey"
@@ -11057,7 +11059,7 @@ msgstr "In MediaMonkey als letztes abspielen"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:50
 msgid "'Play now' action:"
-msgstr ""
+msgstr "'Jetzt wiedergeben' Aktion:"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:10
 msgid "'Play Now' Action:"
@@ -11089,15 +11091,15 @@ msgstr "Liedtext suchen"
 
 #: dialogs\dlgWizard\pnlRegistration.html:14
 msgid "AccurateRip for bit-perfect CD Rips."
-msgstr ""
+msgstr "'AccurateRip' für bitperfekte CD-Rips."
 
 #: controls\artistAlbums.html:25
 msgid "Albums - live"
-msgstr ""
+msgstr "Alben - live"
 
 #: controls\searchView.html:5
 msgid "Switch to advanced"
-msgstr ""
+msgstr "Erweiterte Ansicht anzeigen"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:3
 msgid ""
@@ -11105,20 +11107,27 @@ msgid ""
 "location to sync correctly. They don't include user-settings such as which "
 "content will sync."
 msgstr ""
+"Synchronisierungsprofile enthalten Standardeinstellungen, die eine korrekte "
+"Synchronisierung eines Geräts oder Speicherorts ermöglichen. Die Profile "
+"enthalten keine Benutzereinstellungen, z. B. welche Inhalte synchronisiert "
+"werden."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:35
 msgid "Destination directory"
-msgstr ""
+msgstr "Zielverzeichnis"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:6
 msgid ""
 "Create playlists to more easily navigate tracks on a device. This is useful "
 "for older players or car stereos that don't have a media database."
 msgstr ""
+"Erstellen Sie Wiedergabelisten, um Titel auf einem Gerät einfacher zu "
+"finden. Dies ist nützlich für ältere Player oder Autoradios, die keine "
+"Mediendatenbank haben."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:11
 msgid "Selected Album nodes"
-msgstr ""
+msgstr "Ausgewählte Albumknoten"
 
 #: dialogs\dlgAutotag.html:9
 msgid ""
