@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 16:17\n"
-"PO-Revision-Date: 2021-04-01 19:44+0000\n"
+"PO-Revision-Date: 2021-04-02 05:21+0000\n"
 "Last-Translator: Matthias Barone <matthias.barone@gmail.com>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -1448,8 +1448,8 @@ msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
 msgstr ""
-"Sind Sie sicher, dass sie %s Tag(s) aus den gewählten Dateien entfernen "
-"wollen? (Dateieigenschaften werden nicht aus dem Archiv entfernt.)"
+"Sind Sie sicher, dass Sie %s Tag(s) aus den gewählten Dateien entfernen "
+"wollen (Dateieigenschaften werden nicht aus dem Archiv entfernt)?"
 
 #: actions.js:9034 dialogs/dlgWizard.js:27
 msgid "Registration"
@@ -5219,7 +5219,7 @@ msgstr "Player steuerung nicht gefunden."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:30
 msgid "Player layout cannot be set."
-msgstr "Vorschaulayout kann nicht gesetzt werden"
+msgstr "Vorschaulayout kann nicht gesetzt werden."
 
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:11 MediaMonkeyApp.pas:6593
 msgid "not found!"
@@ -6358,11 +6358,11 @@ msgstr "Inkonsistente Bilder"
 
 #: dblistutils.pas:1471
 msgid "Multiple Artist Albums"
-msgstr "Multi-Interpreten Alben"
+msgstr "Alben mit mehreren Interpreten"
 
 #: dblistutils.pas:1472
 msgid "Ungrouped Multiple Artist Albums"
-msgstr "Ungruppierte Alben mit mehreren Künstlern"
+msgstr "Ungruppierte Alben mit mehreren Interpreten"
 
 #: dblistutils.pas:1475
 msgid "Dead Links"
@@ -6386,7 +6386,7 @@ msgstr "Doppelte Titel"
 
 #: dblistutils.pas:1481
 msgid "Duplicate Titles/Artists"
-msgstr "Titel/Künstler duplizieren"
+msgstr "Titel/Interpret duplizieren"
 
 #: dblistutils.pas:1483
 msgid "Unclassified Files"
@@ -7427,7 +7427,7 @@ msgstr "Unregistriert"
 
 #: MediaMonkeyApp.pas:6479
 msgid "Trial version"
-msgstr "Trial version"
+msgstr "Testversion"
 
 #: MediaMonkeyApp.pas:6481
 msgid "Standard edition"
@@ -10167,7 +10167,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:7
 msgid "Artist images"
-msgstr "Künstlerbilder"
+msgstr "Bilder des Interpreten"
 
 #: dialogs\dlgOptions\pnl_Player.html:45
 msgid "Pop-up file info:"
@@ -10396,7 +10396,7 @@ msgstr ""
 "Diese Option sorgt dafür, dass die ausgewählten Songs (entweder manuell oder "
 "automatisch durch die Dateiüberwachung neu/wiederholt hinzugefügt) im Archiv "
 "mit neuen Einträgen versehen werden. Dies gilt auch für Songs, die bereits "
-"im Archiv existieren, und ermöglicht  das Archiv anhand von Tag-Daten zu "
+"im Archiv existieren, und ermöglicht das Archiv anhand von Tag-Daten zu "
 "aktualisieren, die von anderen Anwendungen kürzlich ergänzt/geändert wurden. "
 "Achtung: Das Risiko ist, dass aktuelle Tags im Archiv möglicherweise mit "
 "veralteten Einträgen aus der Datei überschrieben werden (dies geschieht "
@@ -11137,6 +11137,11 @@ msgid ""
 "fingerprint. Change the recommendations if needed, and select which tracks "
 "to tag."
 msgstr ""
+"Das Auto-Tagging sucht Titelmetadaten (z. B. Interpret, Genre, Album) "
+"basierend auf Titel und Titellänge und Album-Metadaten (z. B. Interpret, "
+"Datum) basierend auf dem Album. Wenn der Titel fehlt, wird er über einen "
+"Audio-Fingerabdruck nachgeschlagen. Ändern Sie bei Bedarf die Empfehlungen "
+"und wählen Sie aus, welche Songs getaggt werden sollen."
 
 #: dialogs\dlgConvertFormat.html:9
 msgid "Convert file(s), replacing the originals"
@@ -11148,7 +11153,7 @@ msgstr "Passwort"
 
 #: dialogs\dlgMP3Settings.html:83
 msgid "VBR method"
-msgstr ""
+msgstr "VBR-Methode"
 
 #: dialogs\dlgMP3Settings.html:8
 msgid "Use presets"
@@ -11160,7 +11165,7 @@ msgstr "Maximale Bitrate begrenzen"
 
 #: dialogs\videoConvSettings.html:49
 msgid "large"
-msgstr ""
+msgstr "Groß"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:9
 msgid "Exclude folders:"
@@ -11178,11 +11183,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:30
 msgid "Database"
-msgstr ""
+msgstr "Datenbank"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:6
 msgid "Looks up artist image if it's missing"
-msgstr ""
+msgstr "Sucht nach fehlenden Interpretenbildern"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:9
 msgid "Looks up artwork if it's missing"
@@ -11190,11 +11195,11 @@ msgstr "Sucht nach fehlenden Albumbildern"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:27
 msgid "Cache remote content when streaming:"
-msgstr ""
+msgstr "Remote-Inhalte beim Streamen zwischenspeichern:"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:159
 msgid "Skip counter"
-msgstr ""
+msgstr "Zähler überspringen"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:21
 msgid "Recommended changes to capitalization:"
@@ -11202,15 +11207,15 @@ msgstr "Empfohlene Anpassung der Groß- und Kleinschreibung:"
 
 #: controls\audiobookCollectionView.html:3
 msgid "Recently added Albums"
-msgstr ""
+msgstr "Kürzlich hinzugefügte Alben"
 
 #: controls\searchEditor.html:36
 msgid "Selected by"
-msgstr ""
+msgstr "Ausgewählt von"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:29
 msgid "Use Unicode (UTF-8 encoding)"
-msgstr ""
+msgstr "UTF8-Unicode-Kodierung verwenden"
 
 #: dialogs\dlgAddArtwork.html:18
 msgid "Description"
@@ -11218,11 +11223,11 @@ msgstr "Beschreibung"
 
 #: dialogs\dlgChooseFields.html:21
 msgid "Largest"
-msgstr ""
+msgstr "Am größten"
 
 #: dialogs\dlgSupportedFormat.html:62
 msgid "Video format"
-msgstr ""
+msgstr "Videoformat"
 
 #: dialogs\videoConvSettings.html:97
 msgid "Fit size exactly"
@@ -11234,29 +11239,33 @@ msgstr "Temporärer Ordner:"
 
 #: dialogs\dlgOptions\pnl_Library.html:150
 msgid ".nfo files, Path and Filenames"
-msgstr ""
+msgstr ".nfo-Dateien, Pfad und Dateinamen"
 
 #: dialogs\dlgWizard\pnlRegistration.html:5
 msgid ""
 "Custom Auto-conversion rules to convert files on-the-fly so that they can "
 "play on any device."
 msgstr ""
+"Benutzerdefinierte Regeln, um Dateien während dem streamen zu konvertieren, "
+"so dass sie auf jedem Gerät abgespielt werden können."
 
 #: dialogs\dlgWizard\pnlRegistration.html:15
 msgid "Plus improved performance and tuning options, Sleep timer, etc."
-msgstr ""
+msgstr "Verbesserte Leistung und Tuning-Optionen, Schlaf-Timer, etc."
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Recommends Artwork and track metadata for newly imported tracks"
-msgstr ""
+msgstr "Empfiehlt Artwork und Metadaten für neu importierte Songs"
 
 #: controls\devicesView.html:4
 msgid "Devices"
-msgstr ""
+msgstr "Geräte"
 
 #: controls\devicesView.html:35
 msgid "For example rootDesc.xml. You can find this in the server's settings."
 msgstr ""
+"Zum Beispiel rootDesc.xml. Die Adresse finden Sie in den Einstellungen des "
+"Servers."
 
 #: controls\homeView.html:7
 msgid "(see all)"
@@ -11264,11 +11273,11 @@ msgstr "(siehe alle)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:8
 msgid "Selected Artist nodes"
-msgstr ""
+msgstr "Ausgewählte Interpretenknoten"
 
 #: controls\serverConfig\content.html:9
 msgid "Show index for categories with many items"
-msgstr ""
+msgstr "Zeige den Index für Kategorien mit vielen Einträgen"
 
 #: controls\serverConfig\server.html:4
 msgid "The server name as it appears to other DLNA devices"
@@ -11284,11 +11293,11 @@ msgstr "Spalten"
 
 #: dialogs\dlgCollectionOptions.html:20
 msgid "Collection comment"
-msgstr ""
+msgstr "Kommentar Sammlung"
 
 #: dialogs\dlgConvertFormat.html:45
 msgid "Add converted files to the library"
-msgstr ""
+msgstr "Konvertierte Dateien zum Archiv hinzufügen"
 
 #: dialogs\dlgExtensions.html:9
 msgid "Show"
@@ -11296,7 +11305,7 @@ msgstr "Anzeigen"
 
 #: dialogs\dlgOptions\pnl_General.html:10
 msgid "Include beta builds"
-msgstr ""
+msgstr "Beta-Builds einbeziehen"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:14
 msgid "Type the key combination to activate the selected action"
@@ -11311,6 +11320,11 @@ msgid ""
 "where a music collection is arranged in such a manner that each collection "
 "of tracks has an associated playlist that defines the Album."
 msgstr ""
+"Diese Einstellung legt fest, wie Albumtitel und Songreihenfolge zur "
+"Bibliothek hinzugefügt werden. Optionen sind 'Nur Tags', 'Tags, dann "
+"Playlisten' und 'Playlisten, dann Tags'. \"Nur Tags\" sollte immer verwendet "
+"werden, außer in Fällen, in denen das Archiv so organisiert ist, dass jeder "
+"Musiksammlung eine Wiedergabeliste zugeordnet ist, die das Album definiert."
 
 #: dialogs\dlgOptions\pnl_Library.html:175
 msgid "Generate thumbnails for videos"
@@ -11332,7 +11346,7 @@ msgstr "Nur wenn inaktiv"
 
 #: dialogs\dlgOptions\pnl_Player.html:51
 msgid "Causes the Pop-up to fade-out smoothly"
-msgstr ""
+msgstr "Lässt das Pop-up sanft ausblenden"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:34
 msgid "Modify timestamp when updating tags"
@@ -11340,11 +11354,11 @@ msgstr "Zeitstempel aktualisieren bei Änderung von Tags"
 
 #: dialogs\dlgWizard\pnlRegistration.html:9
 msgid "organize files automatically"
-msgstr ""
+msgstr "Dateien automatisch organisieren"
 
 #: controls\equalizer.html:2
 msgid "Balance:"
-msgstr ""
+msgstr "Balance:"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
 msgid ""
@@ -11360,19 +11374,19 @@ msgstr "Installiere Software nur aus Quellen denen du vertraust."
 
 #: dialogs\dlgAutoConvertRule.html:17
 msgid "When the format is"
-msgstr ""
+msgstr "Wenn das Format entspricht"
 
 #: dialogs\dlgRegisterGold.html:31
 msgid "If you don't have a license key, you can"
-msgstr ""
+msgstr "Wenn Sie keinen Lizenzschlüssel haben, können Sie"
 
 #: dialogs\dlgSleep.html:13
 msgid "Fade volume"
-msgstr ""
+msgstr "Fade-Lautstärke"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:30
 msgid "Rename custom fields (requires restart)"
-msgstr ""
+msgstr "Benutzerdefinierte Überschriften umbenennen (erfordert Neustart)"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:3
 msgid ""
@@ -11402,7 +11416,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:13
 msgid "Show in full screen mode"
-msgstr ""
+msgstr "Im Vollbildmodus anzeigen"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:6
 msgid ""
@@ -11425,7 +11439,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Player.html:51
 msgid "Slow fade-out:"
-msgstr ""
+msgstr "Langsames Ausblenden:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:27
 msgid "Target volume for leveling tracks:"
@@ -11445,7 +11459,7 @@ msgstr "Minuten"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:23
 msgid "Image:"
-msgstr ""
+msgstr "Bild:"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:2
 msgid "Sync playlists automatically"
@@ -11453,15 +11467,15 @@ msgstr "Synchronisiert Wiedergabelisten automatisch"
 
 #: dialogs\dlgAddArtwork.html:15
 msgid "Image type"
-msgstr ""
+msgstr "Bildtyp"
 
 #: dialogs\dlgChooseFields.html:17
 msgid "Smallest"
-msgstr ""
+msgstr "Am kleinsten"
 
 #: dialogs\dlgSelectFromList.html:13
 msgid "Add >"
-msgstr ""
+msgstr "Hinzufügen >"
 
 #: dialogs\dlgSleep.html:21
 msgid "Fade to"
@@ -11480,26 +11494,28 @@ msgid ""
 "Automatically removes attributes (e.g. Artist) that are no longer associated "
 "with any files from the Library."
 msgstr ""
+"Entfernt automatisch Attribute aus dem Archiv (z. B. Interpreten), die "
+"keiner Datei mehr zugeordnet sind."
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:16
 msgid "Maximum cache size"
-msgstr ""
+msgstr "Maximale Cache-Größe"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:3
 msgid "Secure Party Mode with password:"
-msgstr ""
+msgstr "Sicherer Party-Modus mit Passwort:"
 
 #: dialogs\dlgOptions\pnl_Player.html:102
 msgid "Use default external videoplayer"
-msgstr ""
+msgstr "Standardmäßigen externen Videoplayer verwenden"
 
 #: dialogs\dlgOptions\pnl_Search.html:18
 msgid "Search mode:"
-msgstr ""
+msgstr "Suchmodus:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:13
 msgid "ID3v2.4 tags"
-msgstr ""
+msgstr "ID3v2.4 Tags"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:184
 msgid "Screenwriter(s)"
@@ -11530,7 +11546,7 @@ msgstr "Langsamer"
 
 # FLAC encoder level description
 msgid "Bigger number - more compression, slower"
-msgstr ""
+msgstr "Größere Zahl entspricht mehr Kompression (langsamer)"
 
 msgid "WMA settings"
 msgstr "WMA-Einstellungen"
@@ -11551,9 +11567,12 @@ msgstr "QuickTime"
 
 msgid "Quicktime is needed to play M4A and other AAC tracks."
 msgstr ""
+"Für die Wiedergabe von M4A- und anderen AAC-Dateien benötigen Sie Quicktime."
 
 msgid "New version of Quicktime is needed to play M4A and other AAC tracks."
 msgstr ""
+"Um M4A- und AAC-Dateien wiedergeben zu können, benötigen Sie eine neue "
+"Version von Quicktime."
 
 msgid "Do you want to download it?"
 msgstr "Wollen Sie es jetzt herunterladen?"
@@ -11615,7 +11634,7 @@ msgstr "Niedrige Komprimierung"
 
 # Installer
 msgid "Warning: This will overwrite an existing %s installation!"
-msgstr ""
+msgstr "Warnung: Dies überschreibt die bestehende %s Installation!"
 
 msgid "Are you sure you want to proceed?"
 msgstr "Sind Sie sicher, dass Sie fortsetzen wollen?"
@@ -11624,42 +11643,34 @@ msgid ""
 "The directory %s already exists. Would you like to install to that directory "
 "anyway?"
 msgstr ""
+"Das Verzeichnis %s existiert bereits. Möchten Sie trotzdem in dieses "
+"Verzeichnis installieren?"
 
 msgid "Installation type:"
 msgstr "Installationstyp:"
 
-#, fuzzy
-#| msgid "&Download file"
 msgid "Download language"
-msgstr "Datei herunterladen"
+msgstr "Sprache herunterladen"
 
 # From installer
 msgid "Downloading language files for:"
-msgstr ""
+msgstr "Sprachdateien herunterladen für:"
 
 # From installer
 msgid "Failed to download language files for:"
-msgstr ""
+msgstr "Fehler beim Herunterladen von Sprachdateien für:"
 
-#, fuzzy
-#| msgid "Error scanning directory"
 msgid "Error parsing parameter"
-msgstr "Fehler beim Scannen des Ordners"
+msgstr "Fehler bei der Syntaxanalyse"
 
-#, fuzzy
-#| msgid "Install Now"
 msgid "Install error"
-msgstr "jetzt installieren"
+msgstr "Installationsfehler"
 
-#, fuzzy
-#| msgid "Download"
 msgid "Download error"
-msgstr "Herunterladen"
+msgstr "Fehler beim Herunterladen"
 
-#, fuzzy
-#| msgid "Product installation"
 msgid "Portable Installation"
-msgstr "Produkt-Installation"
+msgstr "Portable Installation"
 
 # From installer
 msgid ""
@@ -11669,15 +11680,20 @@ msgid ""
 "none of your data is left behind. The downside is that it isn't optimized "
 "for your particular PC (e.g. no Start menu entry)."
 msgstr ""
+"Damit können Sie MediaMonkey auf einem tragbaren Speichermedium installieren "
+"(z. B. wo Ihr Archiv gespeichert ist) damit Sie das Programm auf jedem PC "
+"ausführen können.%nNach dem Anschließen des tragbaren Datenträgers können "
+"Sie auf MediaMonkey so verwenden, als ob es lokal auf diesem PC installiert "
+"wäre,%nbeim Trennen des Datenträgers werden keine Daten zurückgelassen. Der "
+"Nachteil ist, dass es nicht für Ihren PC optimiert ist (z. B. kein "
+"Startmenüeintrag)."
 
-#, fuzzy
-#| msgid "Configurable"
 msgid "portable"
-msgstr "Konfigurierbar"
+msgstr "portabel"
 
 # From installer
 msgid "non-portable"
-msgstr ""
+msgstr "nicht portabel"
 
 #, fuzzy
 #~| msgid "&Play in MediaMonkey"
