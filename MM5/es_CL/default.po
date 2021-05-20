@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
-"POT-Creation-Date: 2021-05-20 12:25\n"
+"POT-Creation-Date: 2021-05-20 13:22\n"
 "PO-Revision-Date: 2021-04-29 11:51+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Spanish (Chile) <http://translations.mediamonkey.com/projects/"
@@ -897,12 +897,9 @@ msgstr "Enviar registro de fallos automáticamente"
 
 #. hide old progress and start new (otherwise old status stay always visible)
 #. show progress 500 ms later (when loading still not finished) -- issue #13898
-#. Progress messages
-#. Programmer's name for it: sProgressLoading
 #: actions.js:2659 viewHandlers.js:2538 viewHandlers.js:4539
 #: controls/mainTabContent.js:277 BaseMedia.pas:14601 BaseMedia.pas:15164
 #: Filters.pas:2681 Filters.pas:2738 PodcastManage.pas:941
-#: Vcl.Imaging.GIFConsts.pas:69
 msgid "Loading"
 msgstr "Cargando"
 
@@ -5783,8 +5780,7 @@ msgstr "(Eliminando el contenido anterior)"
 msgid "(Copying Device -> PC, %d of %d: %s)"
 msgstr "(Copiando Dispositivo -> PC, %d de %d: %s)"
 
-#. Programmer's name for it: sProgressCopying
-#: helpers/mediaSync.js:3682 Vcl.Imaging.GIFConsts.pas:73
+#: helpers/mediaSync.js:3682
 msgid "Copying"
 msgstr "Copiando"
 
@@ -8522,250 +8518,6 @@ msgstr "Autores"
 #: UPnPTreeHelper.pas:1893
 msgid "Original Year"
 msgstr "Año Original"
-
-#. GIF Error messages
-#. Programmer's name for it: sOutOfData
-#: Vcl.Imaging.GIFConsts.pas:20
-msgid "Premature end of data"
-msgstr ""
-
-#. Programmer's name for it: sTooManyColors
-#: Vcl.Imaging.GIFConsts.pas:21
-#, fuzzy
-#| msgid "Portable mode"
-msgid "Color table overflow"
-msgstr "Modo Portable"
-
-#. Programmer's name for it: sBadColorIndex
-#: Vcl.Imaging.GIFConsts.pas:22
-#, fuzzy
-#| msgid "Invalid Addon!"
-msgid "Invalid color index"
-msgstr "¡Extensión no válida!"
-
-#. Programmer's name for it: sBadColorIndexFixed
-#: Vcl.Imaging.GIFConsts.pas:23
-msgid "Invalid color index - color map expanded"
-msgstr ""
-
-#. Programmer's name for it: sGIFErrorSaveEmpty
-#: Vcl.Imaging.GIFConsts.pas:24
-msgid "Cannot save empty GIF"
-msgstr ""
-
-#. Programmer's name for it: sBadSignature
-#: Vcl.Imaging.GIFConsts.pas:25
-msgid "Invalid GIF signature"
-msgstr ""
-
-#. Programmer's name for it: sScreenBadColorSize
-#: Vcl.Imaging.GIFConsts.pas:26
-msgid "Invalid number of colors specified in Screen Descriptor"
-msgstr ""
-
-#. Programmer's name for it: sImageBadColorSize
-#: Vcl.Imaging.GIFConsts.pas:27
-msgid "Invalid number of colors specified in Image Descriptor"
-msgstr ""
-
-#. Programmer's name for it: sUnknownExtension
-#: Vcl.Imaging.GIFConsts.pas:28
-#, fuzzy
-#| msgid "Unknown Occasion"
-msgid "Unknown extension type"
-msgstr "Ocasión desconocida"
-
-#. Programmer's name for it: sBadExtensionLabel
-#: Vcl.Imaging.GIFConsts.pas:29
-msgid "Invalid extension introducer"
-msgstr ""
-
-#. Programmer's name for it: sOutOfMemDIB
-#: Vcl.Imaging.GIFConsts.pas:30
-msgid "Failed to allocate memory for GIF DIB"
-msgstr ""
-
-#. Programmer's name for it: sDIBCreate
-#: Vcl.Imaging.GIFConsts.pas:31
-msgid "Failed to create DIB from Bitmap"
-msgstr ""
-
-#. Programmer's name for it: sDecodeTooFewBits
-#: Vcl.Imaging.GIFConsts.pas:32
-msgid "Decoder bit buffer under-run"
-msgstr ""
-
-#. Programmer's name for it: sDecodeCircular
-#: Vcl.Imaging.GIFConsts.pas:33
-msgid "Circular decoder table entry"
-msgstr ""
-
-#. Programmer's name for it: sBadTrailer
-#: Vcl.Imaging.GIFConsts.pas:34
-msgid "Invalid Image trailer"
-msgstr ""
-
-#. Programmer's name for it: sBadExtensionInstance
-#: Vcl.Imaging.GIFConsts.pas:35
-msgid "Internal error: Extension Instance does not match Extension Label"
-msgstr ""
-
-#. Programmer's name for it: sBadBlockSize
-#: Vcl.Imaging.GIFConsts.pas:36
-msgid "Unsupported Application Extension block size"
-msgstr ""
-
-#. Programmer's name for it: sBadBlock
-#: Vcl.Imaging.GIFConsts.pas:37
-msgid "Unknown GIF block type"
-msgstr ""
-
-#. Programmer's name for it: sUnsupportedClass
-#: Vcl.Imaging.GIFConsts.pas:38
-msgid "Object type not supported for operation"
-msgstr ""
-
-#. Programmer's name for it: sInvalidData
-#: Vcl.Imaging.GIFConsts.pas:39
-#, fuzzy
-#| msgid "Invalid Addon!"
-msgid "Invalid GIF data"
-msgstr "¡Extensión no válida!"
-
-#. Programmer's name for it: sBadSize
-#: Vcl.Imaging.GIFConsts.pas:40
-#, fuzzy
-#| msgid "Image size"
-msgid "Invalid image size"
-msgstr "Tamaño de imagen"
-
-#. Programmer's name for it: sFailedPaste
-#: Vcl.Imaging.GIFConsts.pas:41
-msgid "Failed to store GIF on clipboard"
-msgstr ""
-
-#. Programmer's name for it: sTPictureConflict
-#: Vcl.Imaging.GIFConsts.pas:42
-msgid "Another TGIFImage class has already been registered with TPicture"
-msgstr ""
-
-#. Programmer's name for it: sScreenSizeExceeded
-#: Vcl.Imaging.GIFConsts.pas:43
-msgid "Image exceeds Logical Screen size"
-msgstr ""
-
-#. Programmer's name for it: sNoColorTable
-#: Vcl.Imaging.GIFConsts.pas:44
-msgid "No global or local color table defined"
-msgstr ""
-
-#. Programmer's name for it: sBadPixelCoordinates
-#: Vcl.Imaging.GIFConsts.pas:45
-msgid "Invalid pixel coordinates"
-msgstr ""
-
-#. Programmer's name for it: sUnsupportedBitmap
-#: Vcl.Imaging.GIFConsts.pas:46
-#, fuzzy
-#| msgid "Supported formats on '%s'"
-msgid "Unsupported bitmap format"
-msgstr "Formatos aceptados en '%s'"
-
-#. Programmer's name for it: sInvalidPixelFormat
-#: Vcl.Imaging.GIFConsts.pas:47
-msgid "Unsupported PixelFormat"
-msgstr ""
-
-#. Programmer's name for it: sBadDimension
-#: Vcl.Imaging.GIFConsts.pas:48
-msgid "Invalid image dimensions"
-msgstr ""
-
-#. Programmer's name for it: sNoDIB
-#: Vcl.Imaging.GIFConsts.pas:49
-msgid "Image has no DIB"
-msgstr ""
-
-#. Programmer's name for it: sInvalidStream
-#: Vcl.Imaging.GIFConsts.pas:50
-msgid "Invalid stream operation"
-msgstr ""
-
-#. Programmer's name for it: sInvalidColor
-#: Vcl.Imaging.GIFConsts.pas:51
-msgid "Color not in color table"
-msgstr ""
-
-#. Programmer's name for it: sInvalidBitSize
-#: Vcl.Imaging.GIFConsts.pas:52
-msgid "Invalid Bits Per Pixel value"
-msgstr ""
-
-#. Programmer's name for it: sEmptyColorMap
-#: Vcl.Imaging.GIFConsts.pas:53
-msgid "Color table is empty"
-msgstr ""
-
-#. Programmer's name for it: sEmptyImage
-#: Vcl.Imaging.GIFConsts.pas:54
-#, fuzzy
-#| msgid "Image size"
-msgid "Image is empty"
-msgstr "Tamaño de imagen"
-
-#. Programmer's name for it: sInvalidBitmapList
-#: Vcl.Imaging.GIFConsts.pas:55
-msgid "Invalid bitmap list"
-msgstr ""
-
-#. Programmer's name for it: sInvalidReduction
-#: Vcl.Imaging.GIFConsts.pas:56
-msgid "Invalid reduction method"
-msgstr ""
-
-#. Programmer's name for it: sMultipleGCE
-#: Vcl.Imaging.GIFConsts.pas:57
-msgid "Frame contains multiple Graphic Control Extension blocks"
-msgstr ""
-
-#. Programmer's name for it: sNoPalette
-#: Vcl.Imaging.GIFConsts.pas:58
-msgid "Missing, invalid or empty palette"
-msgstr ""
-
-#. File filter name
-#. Programmer's name for it: sGIFImageFile
-#: Vcl.Imaging.GIFConsts.pas:66
-#, fuzzy
-#| msgid "Image"
-msgid "GIF Image"
-msgstr "Imagen"
-
-#. Programmer's name for it: sProgressSaving
-#: Vcl.Imaging.GIFConsts.pas:70
-#, fuzzy
-#| msgid "Saving tags"
-msgid "Saving"
-msgstr "Guardando etiquetas"
-
-#. Programmer's name for it: sProgressConverting
-#: Vcl.Imaging.GIFConsts.pas:71
-#, fuzzy
-#| msgid "Conversion"
-msgid "Converting"
-msgstr "Conversión"
-
-#. Programmer's name for it: sProgressRendering
-#: Vcl.Imaging.GIFConsts.pas:72
-#, fuzzy
-#| msgid "Renderer name:"
-msgid "Rendering"
-msgstr "Nombre de renderizador:"
-
-#. Programmer's name for it: sProgressOptimizing
-#: Vcl.Imaging.GIFConsts.pas:74
-msgid "Optimizing"
-msgstr ""
 
 #: WebUtils.pas:4324
 msgid "The file %s cannot be created."
@@ -12078,6 +11830,61 @@ msgstr "La reproducción ha fallado: %s no puede ser decodificado."
 #: dialogs\dlgCollectionOptions.html:50
 msgid "Sub-nodes and Views"
 msgstr "Sub-nodos y Vistas"
+
+#, fuzzy
+#~| msgid "Portable mode"
+#~ msgid "Color table overflow"
+#~ msgstr "Modo Portable"
+
+#, fuzzy
+#~| msgid "Invalid Addon!"
+#~ msgid "Invalid color index"
+#~ msgstr "¡Extensión no válida!"
+
+#, fuzzy
+#~| msgid "Unknown Occasion"
+#~ msgid "Unknown extension type"
+#~ msgstr "Ocasión desconocida"
+
+#, fuzzy
+#~| msgid "Invalid Addon!"
+#~ msgid "Invalid GIF data"
+#~ msgstr "¡Extensión no válida!"
+
+#, fuzzy
+#~| msgid "Image size"
+#~ msgid "Invalid image size"
+#~ msgstr "Tamaño de imagen"
+
+#, fuzzy
+#~| msgid "Supported formats on '%s'"
+#~ msgid "Unsupported bitmap format"
+#~ msgstr "Formatos aceptados en '%s'"
+
+#, fuzzy
+#~| msgid "Image size"
+#~ msgid "Image is empty"
+#~ msgstr "Tamaño de imagen"
+
+#, fuzzy
+#~| msgid "Image"
+#~ msgid "GIF Image"
+#~ msgstr "Imagen"
+
+#, fuzzy
+#~| msgid "Saving tags"
+#~ msgid "Saving"
+#~ msgstr "Guardando etiquetas"
+
+#, fuzzy
+#~| msgid "Conversion"
+#~ msgid "Converting"
+#~ msgstr "Conversión"
+
+#, fuzzy
+#~| msgid "Renderer name:"
+#~ msgid "Rendering"
+#~ msgstr "Nombre de renderizador:"
 
 # #-#-#-#-#  htmladd.po (MediaMonkey 5.0)  #-#-#-#-#
 #  Add list.
