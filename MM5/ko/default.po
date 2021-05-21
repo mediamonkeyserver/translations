@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 13:22\n"
+"POT-Creation-Date: 2021-05-21 10:32\n"
 "PO-Revision-Date: 2021-03-27 13:55+0000\n"
 "Last-Translator: Lee <pcsori@gmail.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
@@ -348,7 +348,7 @@ msgstr "라이브러리에 파일 추가/다시 검색(&A)"
 msgid "Open in Explorer"
 msgstr "탐색기로 열기"
 
-#: actions.js:1367 controls/mediaTree.js:248
+#: actions.js:1367 controls/mediaTree.js:246
 msgid "Collapse the tree"
 msgstr "트리 접기"
 
@@ -408,7 +408,8 @@ msgstr "같은 것에서 더 찾기(&M)"
 #: dialogs/dlgArtworkDetail.js:12 dialogs/dlgAutotag.js:1983
 #: dialogs/dlgEditView.js:22 dialogs/dlgOptions/pnl_MetadataLookup.js:141
 #: dialogs/dlgOptions/pnl_Player.js:51
-#: dialogs/dlgTrackProperties/tabBasic.js:445 layouts/Touch/templates_add.js:33
+#: dialogs/dlgTrackProperties/tabBasic.js:445
+#: dialogs/dlgTrackProperties/tabBasic.js:464 layouts/Touch/templates_add.js:33
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:320
 #: Scripts/export/actions_add.js:71 Scripts/export/actions_add.js:347
 #: Scripts/statistics/dialogs/dlgStatistics.js:407
@@ -780,7 +781,7 @@ msgstr "장치 설명 파일 경로:"
 msgid "%s cannot be reached"
 msgstr "%s에 연결할 수 없음"
 
-#: actions.js:2386 ResStrings.pas:571 UI.pas:1339
+#: actions.js:2386 dialogs/dlgAutotag.js:572 ResStrings.pas:571 UI.pas:1339
 msgid "Error"
 msgstr "오류"
 
@@ -1561,6 +1562,7 @@ msgstr "웹 사이트 링크:"
 #: dialogs/dlgOptions/pnl_Layouts.js:161
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:139
 #: dialogs/dlgOptions/pnl_Player.js:49
+#: dialogs/dlgTrackProperties/tabBasic.js:462
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:319
 #: Scripts/export/actions_add.js:69 Scripts/export/actions_add.js:347
 #: MaskHelper.pas:3034 ResStrings.pas:417 ResStrings.pas:426 ResStrings.pas:506
@@ -3174,12 +3176,12 @@ msgstr "파일 이름은 마스크 변수를 사용하거나 정적으로 정의
 msgid "Sample:"
 msgstr "샘플:"
 
-#: controls/mediaTree.js:225
+#: controls/mediaTree.js:224
 msgid "Show all subnodes"
 msgstr "모든 하위 노드 표시"
 
 #. to hide the expand marks for corresponding nodes
-#: controls/mediaTree.js:240
+#: controls/mediaTree.js:238
 msgid "Focus tree nodes when browsing content"
 msgstr "콘텐츠를 탐색할 때 트리 노드 초점"
 
@@ -3544,7 +3546,7 @@ msgstr "인기"
 msgid "Name"
 msgstr "이름"
 
-#: controls/statusbar.js:119
+#: controls/statusbar.js:119 dialogs/dlgTrackProperties/tabBasic.js:492
 msgid "genre"
 msgstr "장르"
 
@@ -3810,7 +3812,8 @@ msgstr "그룹화"
 
 #: controls/trackListView.js:1346 dialogs/dlgAutotag.js:1811
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:142
-#: dialogs/dlgTrackProperties/tabBasic.js:449 Scripts/export/actions_add.js:72
+#: dialogs/dlgTrackProperties/tabBasic.js:449
+#: dialogs/dlgTrackProperties/tabBasic.js:466 Scripts/export/actions_add.js:72
 #: MaskHelper.pas:3747 ResStrings.pas:439 ResStrings.pas:510
 #: dialogs\dlgTrackProperties\tabBasic.html:111
 msgid "Track #"
@@ -4228,9 +4231,9 @@ msgstr "%d에서 %d / %d 트랙"
 msgid "Lookups completed"
 msgstr "조회 완료"
 
-#: dialogs/dlgAutotag.js:572
-msgid "Error while lookup"
-msgstr ""
+#: dialogs/dlgAutotag.js:572 dialogs/dlgOptions.js:107
+msgid "Metadata lookup"
+msgstr "메타데이터 찾기"
 
 #: dialogs/dlgAutotag.js:586
 msgid "Auto-tag more / faster with"
@@ -4842,10 +4845,6 @@ msgstr "필드"
 msgid "Tags & playlists"
 msgstr "태그 및 재생 목록"
 
-#: dialogs/dlgOptions.js:107
-msgid "Metadata lookup"
-msgstr "메타데이터 찾기"
-
 #: dialogs/dlgOptions.js:115 dialogs/dlgSearch.js:6 Extensions.pas:1224
 #: controls\searchEditor.html:5
 msgid "Search"
@@ -5341,42 +5340,90 @@ msgid "Multiple file Types selected"
 msgstr "여러 파일 형식 선택"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:446
+#: dialogs/dlgTrackProperties/tabBasic.js:463
+#: dialogs/dlgTrackProperties/tabBasic.js:491
 #: dialogs\dlgTrackProperties\tabBasic.html:67
 msgid "Artist(s)"
 msgstr "아티스트"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:447
+#: dialogs/dlgTrackProperties/tabBasic.js:492
 #: dialogs\dlgTrackProperties\tabBasic.html:82
 msgid "Genre(s)"
 msgstr "장르"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:462
-msgid "Title (title; episode title)"
+#, fuzzy
+#| msgid "Title"
+msgid "title"
+msgstr "제목"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:462
+#, fuzzy
+#| msgid "episode"
+msgid "episode title"
+msgstr "에피소드"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:463
+msgid "narrator"
 msgstr ""
 
 #: dialogs/dlgTrackProperties/tabBasic.js:463
-msgid "Artist(s) (narrator; performer)"
-msgstr ""
+#: dialogs/dlgTrackProperties/tabBasic.js:465
+#, fuzzy
+#| msgid "Performance"
+msgid "performer"
+msgstr "성능"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:464
-msgid "Album (book title; course title; performance)"
-msgstr ""
+#, fuzzy
+#| msgid "Track title"
+msgid "book title"
+msgstr "트랙 제목"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:464
+#, fuzzy
+#| msgid "Track title"
+msgid "course title"
+msgstr "트랙 제목"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:464
+#, fuzzy
+#| msgid "Performance"
+msgid "performance"
+msgstr "성능"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:465
-msgid "Album Artist(s) (author; performer)"
+#, fuzzy
+#| msgid "Album artist(s)"
+msgid "Album Artist(s)"
+msgstr "앨범 아티스트"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:465
+#, fuzzy
+#| msgid "Author"
+msgid "author"
+msgstr "저자"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:466
+msgid "part"
 msgstr ""
 
 #: dialogs/dlgTrackProperties/tabBasic.js:466
-msgid "Track # (part; chapter)"
+msgid "chapter"
 msgstr ""
 
 #: dialogs/dlgTrackProperties/tabBasic.js:491
-msgid "Artist(s) (ensemble; soloist)"
-msgstr "아티스트 (앙상블; 솔로)"
+msgid "ensemble"
+msgstr ""
+
+#: dialogs/dlgTrackProperties/tabBasic.js:491
+msgid "soloist"
+msgstr ""
 
 #: dialogs/dlgTrackProperties/tabBasic.js:492
-msgid "Genre(s) (genre; period)"
-msgstr "장르 (장르; 시대)"
+msgid "period"
+msgstr ""
 
 #: dialogs/dlgTrackProperties/tabCustom.js:38
 msgid "Tag name"
@@ -11553,6 +11600,12 @@ msgstr "재생 실패: %s을(를) 디코딩할 수 없음."
 #: dialogs\dlgCollectionOptions.html:50
 msgid "Sub-nodes and Views"
 msgstr "하위 노드 및 보기"
+
+#~ msgid "Artist(s) (ensemble; soloist)"
+#~ msgstr "아티스트 (앙상블; 솔로)"
+
+#~ msgid "Genre(s) (genre; period)"
+#~ msgstr "장르 (장르; 시대)"
 
 #, fuzzy
 #~| msgid "Portable mode"

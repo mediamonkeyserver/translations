@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-20 13:22\n"
+"POT-Creation-Date: 2021-05-21 10:32\n"
 "PO-Revision-Date: 2021-04-15 18:05+0000\n"
 "Last-Translator: Matthias Barone <matthias.barone@gmail.com>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
@@ -350,7 +350,7 @@ msgstr "D&ateien neu ins Archiv aufnehmen/aktualisieren"
 msgid "Open in Explorer"
 msgstr "Im Explorer öffnen"
 
-#: actions.js:1367 controls/mediaTree.js:248
+#: actions.js:1367 controls/mediaTree.js:246
 msgid "Collapse the tree"
 msgstr "Archivbaum einklappen"
 
@@ -410,7 +410,8 @@ msgstr "&Finde mehr von"
 #: dialogs/dlgArtworkDetail.js:12 dialogs/dlgAutotag.js:1983
 #: dialogs/dlgEditView.js:22 dialogs/dlgOptions/pnl_MetadataLookup.js:141
 #: dialogs/dlgOptions/pnl_Player.js:51
-#: dialogs/dlgTrackProperties/tabBasic.js:445 layouts/Touch/templates_add.js:33
+#: dialogs/dlgTrackProperties/tabBasic.js:445
+#: dialogs/dlgTrackProperties/tabBasic.js:464 layouts/Touch/templates_add.js:33
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:320
 #: Scripts/export/actions_add.js:71 Scripts/export/actions_add.js:347
 #: Scripts/statistics/dialogs/dlgStatistics.js:407
@@ -784,7 +785,7 @@ msgstr "Pfad der Gerätebeschreibung:"
 msgid "%s cannot be reached"
 msgstr "Der Server ist nicht erreichbar bzw. kann nicht verbunden werden"
 
-#: actions.js:2386 ResStrings.pas:571 UI.pas:1339
+#: actions.js:2386 dialogs/dlgAutotag.js:572 ResStrings.pas:571 UI.pas:1339
 msgid "Error"
 msgstr "Fehler"
 
@@ -1569,6 +1570,7 @@ msgstr "Link zur Website:"
 #: dialogs/dlgOptions/pnl_Layouts.js:161
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:139
 #: dialogs/dlgOptions/pnl_Player.js:49
+#: dialogs/dlgTrackProperties/tabBasic.js:462
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:319
 #: Scripts/export/actions_add.js:69 Scripts/export/actions_add.js:347
 #: MaskHelper.pas:3034 ResStrings.pas:417 ResStrings.pas:426 ResStrings.pas:506
@@ -3204,12 +3206,12 @@ msgstr ""
 msgid "Sample:"
 msgstr "Beispiel:"
 
-#: controls/mediaTree.js:225
+#: controls/mediaTree.js:224
 msgid "Show all subnodes"
 msgstr "Alle Unterknoten anzeigen"
 
 #. to hide the expand marks for corresponding nodes
-#: controls/mediaTree.js:240
+#: controls/mediaTree.js:238
 msgid "Focus tree nodes when browsing content"
 msgstr "Beim browsen Knoten anzeigen"
 
@@ -3586,7 +3588,7 @@ msgstr "Beliebtheit"
 msgid "Name"
 msgstr "Name"
 
-#: controls/statusbar.js:119
+#: controls/statusbar.js:119 dialogs/dlgTrackProperties/tabBasic.js:492
 msgid "genre"
 msgstr "genre"
 
@@ -3852,7 +3854,8 @@ msgstr "Stück/Werk"
 
 #: controls/trackListView.js:1346 dialogs/dlgAutotag.js:1811
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:142
-#: dialogs/dlgTrackProperties/tabBasic.js:449 Scripts/export/actions_add.js:72
+#: dialogs/dlgTrackProperties/tabBasic.js:449
+#: dialogs/dlgTrackProperties/tabBasic.js:466 Scripts/export/actions_add.js:72
 #: MaskHelper.pas:3747 ResStrings.pas:439 ResStrings.pas:510
 #: dialogs\dlgTrackProperties\tabBasic.html:111
 msgid "Track #"
@@ -4272,9 +4275,9 @@ msgstr "Tracks %d bis %d von %d"
 msgid "Lookups completed"
 msgstr "Lookups abgeschlossen"
 
-#: dialogs/dlgAutotag.js:572
-msgid "Error while lookup"
-msgstr ""
+#: dialogs/dlgAutotag.js:572 dialogs/dlgOptions.js:107
+msgid "Metadata lookup"
+msgstr "Suche nach Metadaten"
 
 #: dialogs/dlgAutotag.js:586
 msgid "Auto-tag more / faster with"
@@ -4894,10 +4897,6 @@ msgstr "Felder"
 msgid "Tags & playlists"
 msgstr "Schlagwörter & Wiedergabelisten"
 
-#: dialogs/dlgOptions.js:107
-msgid "Metadata lookup"
-msgstr "Suche nach Metadaten"
-
 #: dialogs/dlgOptions.js:115 dialogs/dlgSearch.js:6 Extensions.pas:1224
 #: controls\searchEditor.html:5
 msgid "Search"
@@ -5411,42 +5410,90 @@ msgid "Multiple file Types selected"
 msgstr "Mehrere Dateitypen ausgewählt"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:446
+#: dialogs/dlgTrackProperties/tabBasic.js:463
+#: dialogs/dlgTrackProperties/tabBasic.js:491
 #: dialogs\dlgTrackProperties\tabBasic.html:67
 msgid "Artist(s)"
 msgstr "Interpret(en)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:447
+#: dialogs/dlgTrackProperties/tabBasic.js:492
 #: dialogs\dlgTrackProperties\tabBasic.html:82
 msgid "Genre(s)"
 msgstr "Genre"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:462
-msgid "Title (title; episode title)"
+#, fuzzy
+#| msgid "Title"
+msgid "title"
+msgstr "Titel"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:462
+#, fuzzy
+#| msgid "episode"
+msgid "episode title"
+msgstr "episode"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:463
+msgid "narrator"
 msgstr ""
 
 #: dialogs/dlgTrackProperties/tabBasic.js:463
-msgid "Artist(s) (narrator; performer)"
-msgstr ""
+#: dialogs/dlgTrackProperties/tabBasic.js:465
+#, fuzzy
+#| msgid "Performance"
+msgid "performer"
+msgstr "Leistung"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:464
-msgid "Album (book title; course title; performance)"
-msgstr ""
+#, fuzzy
+#| msgid "Track title"
+msgid "book title"
+msgstr "Songtitel"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:464
+#, fuzzy
+#| msgid "Track title"
+msgid "course title"
+msgstr "Songtitel"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:464
+#, fuzzy
+#| msgid "Performance"
+msgid "performance"
+msgstr "Leistung"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:465
-msgid "Album Artist(s) (author; performer)"
+#, fuzzy
+#| msgid "Album artist(s)"
+msgid "Album Artist(s)"
+msgstr "Album-Interpret(en)"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:465
+#, fuzzy
+#| msgid "Author"
+msgid "author"
+msgstr "Autor"
+
+#: dialogs/dlgTrackProperties/tabBasic.js:466
+msgid "part"
 msgstr ""
 
 #: dialogs/dlgTrackProperties/tabBasic.js:466
-msgid "Track # (part; chapter)"
+msgid "chapter"
 msgstr ""
 
 #: dialogs/dlgTrackProperties/tabBasic.js:491
-msgid "Artist(s) (ensemble; soloist)"
-msgstr "Interpret (Ensemble; Solist)"
+msgid "ensemble"
+msgstr ""
+
+#: dialogs/dlgTrackProperties/tabBasic.js:491
+msgid "soloist"
+msgstr ""
 
 #: dialogs/dlgTrackProperties/tabBasic.js:492
-msgid "Genre(s) (genre; period)"
-msgstr "Genre (Genre, Zeitraum)"
+msgid "period"
+msgstr ""
 
 #: dialogs/dlgTrackProperties/tabCustom.js:38
 msgid "Tag name"
@@ -11820,6 +11867,12 @@ msgstr "Wiedergabe fehlgeschlagen: %s kann nicht dekodiert werden."
 #: dialogs\dlgCollectionOptions.html:50
 msgid "Sub-nodes and Views"
 msgstr "Unterknoten und Ansichten"
+
+#~ msgid "Artist(s) (ensemble; soloist)"
+#~ msgstr "Interpret (Ensemble; Solist)"
+
+#~ msgid "Genre(s) (genre; period)"
+#~ msgstr "Genre (Genre, Zeitraum)"
 
 #, fuzzy
 #~| msgid "Portable mode"
