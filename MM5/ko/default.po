@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-21 10:32\n"
-"PO-Revision-Date: 2021-03-27 13:55+0000\n"
+"PO-Revision-Date: 2021-05-24 13:10+0000\n"
 "Last-Translator: Lee <pcsori@gmail.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ko/>\n"
@@ -354,7 +354,7 @@ msgstr "트리 접기"
 
 #: actions.js:1380 actions.js:1399 actions.js:1418
 msgid "Go to the %s node"
-msgstr ""
+msgstr "%s 노드로 이동"
 
 #: actions.js:1380 viewHandlers.js:1297 viewHandlers.js:1376
 #: viewHandlers.js:2095 viewHandlers.js:5723 controls/artistAlbums.js:123
@@ -393,10 +393,8 @@ msgstr "재생 목록"
 #: actions.js:1497 actions.js:1514 actions.js:1531 actions.js:1548
 #: actions.js:1565 actions.js:1582 actions.js:1599 actions.js:1616
 #: actions.js:1633 actions.js:1650
-#, fuzzy
-#| msgid "Find &more from same"
 msgid "Find more from same %s"
-msgstr "같은 것에서 더 찾기(&M)"
+msgstr "같은 %s에서 더 찾기"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. cancel/free/unregister the dataSource
@@ -2124,10 +2122,8 @@ msgid "Copying to %s:"
 msgstr "%s로 복사 중:"
 
 #: viewHandlers.js:4122
-#, fuzzy
-#| msgid "Copying to %s:"
 msgid "Moving to %s:"
-msgstr "%s로 복사 중:"
+msgstr "%s(으)로 이동 중:"
 
 #: viewHandlers.js:4190
 msgid "Do you really want to move '%s'?"
@@ -5353,77 +5349,61 @@ msgid "Genre(s)"
 msgstr "장르"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:462
-#, fuzzy
-#| msgid "Title"
 msgid "title"
 msgstr "제목"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:462
-#, fuzzy
-#| msgid "episode"
 msgid "episode title"
-msgstr "에피소드"
+msgstr "에피소드 제목"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:463
 msgid "narrator"
-msgstr ""
+msgstr "성우"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:463
 #: dialogs/dlgTrackProperties/tabBasic.js:465
-#, fuzzy
-#| msgid "Performance"
 msgid "performer"
-msgstr "성능"
+msgstr "연기자"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:464
-#, fuzzy
-#| msgid "Track title"
 msgid "book title"
-msgstr "트랙 제목"
+msgstr "책 제목"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:464
-#, fuzzy
-#| msgid "Track title"
 msgid "course title"
-msgstr "트랙 제목"
+msgstr "과정 제목"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:464
-#, fuzzy
-#| msgid "Performance"
 msgid "performance"
-msgstr "성능"
+msgstr "공연"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:465
-#, fuzzy
-#| msgid "Album artist(s)"
 msgid "Album Artist(s)"
 msgstr "앨범 아티스트"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:465
-#, fuzzy
-#| msgid "Author"
 msgid "author"
 msgstr "저자"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:466
 msgid "part"
-msgstr ""
+msgstr "부분"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:466
 msgid "chapter"
-msgstr ""
+msgstr "챕터"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:491
 msgid "ensemble"
-msgstr ""
+msgstr "앙상블"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:491
 msgid "soloist"
-msgstr ""
+msgstr "독주자"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:492
 msgid "period"
-msgstr ""
+msgstr "시대"
 
 #: dialogs/dlgTrackProperties/tabCustom.js:38
 msgid "Tag name"
@@ -6279,17 +6259,13 @@ msgid "Unsaved image"
 msgstr "저장되지 않은 이미지"
 
 #: Covers.pas:1166
-#, fuzzy
-#| msgid "Save image"
 msgid "Save to tag"
-msgstr "이미지 저장"
+msgstr "태그에 저장"
 
 #. %s for image file name
 #: Covers.pas:1168
-#, fuzzy
-#| msgid "Save as"
 msgid "Save to: %s"
-msgstr "다른 이름으로 저장"
+msgstr "저장 대상: %s"
 
 #: Covers.pas:1170
 msgid "Stored in tag"
@@ -6762,24 +6738,20 @@ msgid "Profiles"
 msgstr "프로필"
 
 #: Extensions.pas:1223
-#, fuzzy
-#| msgid "Skin"
 msgid "Skins"
 msgstr "스킨"
 
 #: Extensions.pas:1225 Extensions.pas:1226 Extensions.pas:1227
-#, fuzzy
-#| msgid "&Visualization"
 msgid "Visualization"
-msgstr "시각 효과(&V)"
+msgstr "시각 효과"
 
 #: Extensions.pas:1228
 msgid "Tweaks"
-msgstr ""
+msgstr "미세 조정"
 
 #: Extensions.pas:1229
 msgid "Reports"
-msgstr ""
+msgstr "보고서"
 
 #: FileAssoc.pas:731
 msgid "&Play in MediaMonkey"
@@ -7101,7 +7073,7 @@ msgstr "현재 사용 중인 입력 플러그인 없음(재생 중인 파일 없
 #. no audio hw
 #: FullPlayer.pas:3999 GeneralDecoder.pas:446
 msgid "No audio hardware found"
-msgstr ""
+msgstr "오디오 하드웨어를 찾을 수 없음"
 
 #. test accessibility first
 #: FullPlayer.pas:4131
@@ -7110,8 +7082,6 @@ msgstr "재생 실패: %s에 액세스할 수 없음."
 
 #. if DRM error, new codec does not help
 #: FullPlayer.pas:4146 FullPlayer.pas:4157
-#, fuzzy
-#| msgid "Playback failed: %s cannot be decoded."
 msgid "Playback failed: %s cannot decode %s."
 msgstr "재생 실패: %s을(를) 디코딩할 수 없음."
 
@@ -8855,10 +8825,8 @@ msgid "Selected folder nodes"
 msgstr "선택한 폴더 노드"
 
 #: dialogs\dlgCollectionOptions.html:50
-#, fuzzy
-#| msgid "Sub-nodes and Views"
 msgid "Sub-nodes"
-msgstr "하위 노드 및 보기"
+msgstr "하위 노드"
 
 #: dialogs\dlgMP3Settings.html:17
 msgid "Use manual settings"
@@ -8893,10 +8861,8 @@ msgid "Active layout"
 msgstr "활성 레이아웃"
 
 #: dialogs\dlgOptions\pnl_Library.html:52
-#, fuzzy
-#| msgid "Ignore files shorter than"
 msgid "Ignore files smaller than"
-msgstr "보다 짧은 파일 무시"
+msgstr "보다 작은 파일 무시"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:35
 msgid "When playback is stopped:"
@@ -10518,7 +10484,7 @@ msgstr "플레이어 컨트롤"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:10
 msgid "Increase play counter at:"
-msgstr ""
+msgstr "재생 카운터 증가:"
 
 #: dialogs\dlgOptions\pnl_Player.html:3
 msgid "Default Action"
@@ -10626,10 +10592,8 @@ msgid "Vertical"
 msgstr "수직"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:190
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Bookmark"
-msgstr "책갈피 추가"
+msgstr "책갈피"
 
 #: controls\deviceConfig\syncToDevice.html:18
 msgid ""
