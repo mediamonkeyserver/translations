@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2021-05-26 19:23\n"
-"PO-Revision-Date: 2021-04-29 11:51+0000\n"
-"Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
+"PO-Revision-Date: 2021-05-30 06:17+0000\n"
+"Last-Translator: Alberto Montealegre B <amb@mb-arq.cl>\n"
 "Language-Team: Spanish (Chile) <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/es_CL/>\n"
 "Language: es_CL\n"
@@ -356,7 +356,7 @@ msgstr "Colapsar el árbol"
 
 #: actions.js:1380 actions.js:1399 actions.js:1418
 msgid "Go to the %s node"
-msgstr ""
+msgstr "Ir al nodo %s"
 
 #: actions.js:1380 viewHandlers.js:1304 viewHandlers.js:1383
 #: viewHandlers.js:2104 viewHandlers.js:5732 controls/artistAlbums.js:123
@@ -2135,10 +2135,8 @@ msgid "Copying to %s:"
 msgstr "Copiando en %s:"
 
 #: viewHandlers.js:4131
-#, fuzzy
-#| msgid "Copying to %s:"
 msgid "Moving to %s:"
-msgstr "Copiando en %s:"
+msgstr "Moviendo a %s:"
 
 #: viewHandlers.js:4199
 msgid "Do you really want to move '%s'?"
@@ -5424,77 +5422,61 @@ msgid "Genre(s)"
 msgstr "Género(s)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:462
-#, fuzzy
-#| msgid "Title"
 msgid "title"
-msgstr "Título"
+msgstr "título"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:462
-#, fuzzy
-#| msgid "episode"
 msgid "episode title"
-msgstr "episodio"
+msgstr "título del episodio"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:463
 msgid "narrator"
-msgstr ""
+msgstr "narrador"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:463
 #: dialogs/dlgTrackProperties/tabBasic.js:465
-#, fuzzy
-#| msgid "Performance"
 msgid "performer"
-msgstr "Desempeño"
+msgstr "intérprete"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:464
-#, fuzzy
-#| msgid "Track title"
 msgid "book title"
-msgstr "Título de la pista"
+msgstr "título del libro"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:464
-#, fuzzy
-#| msgid "Track title"
 msgid "course title"
-msgstr "Título de la pista"
+msgstr "título del curso"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:464
-#, fuzzy
-#| msgid "Performance"
 msgid "performance"
-msgstr "Desempeño"
+msgstr "desempeño"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:465
-#, fuzzy
-#| msgid "Album artist(s)"
 msgid "Album Artist(s)"
 msgstr "Intérprete(s) del álbum"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:465
-#, fuzzy
-#| msgid "Author"
 msgid "author"
-msgstr "Autor"
+msgstr "autor"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:466
 msgid "part"
-msgstr ""
+msgstr "parte"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:466
 msgid "chapter"
-msgstr ""
+msgstr "capítulo"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:491
 msgid "ensemble"
-msgstr ""
+msgstr "conjunto"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:491
 msgid "soloist"
-msgstr ""
+msgstr "solista"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:492
 msgid "period"
-msgstr ""
+msgstr "período"
 
 #: dialogs/dlgTrackProperties/tabCustom.js:38
 msgid "Tag name"
@@ -6364,17 +6346,13 @@ msgid "Unsaved image"
 msgstr "Imagen sin guardar"
 
 #: Covers.pas:1166
-#, fuzzy
-#| msgid "Save image"
 msgid "Save to tag"
-msgstr "Guardar imagen"
+msgstr "Guardar en tag"
 
 #. %s for image file name
 #: Covers.pas:1168
-#, fuzzy
-#| msgid "Save as"
 msgid "Save to: %s"
-msgstr "Guardar como"
+msgstr "Guardar en: %s"
 
 #: Covers.pas:1170
 msgid "Stored in tag"
@@ -6857,18 +6835,16 @@ msgid "Profiles"
 msgstr "Perfiles"
 
 #: Extensions.pas:1236
-#, fuzzy
-#| msgid "Skin"
 msgid "Skins"
-msgstr "Skin"
+msgstr "Skins"
 
 #: Extensions.pas:1242
 msgid "Tweaks"
-msgstr ""
+msgstr "Ajustes"
 
 #: Extensions.pas:1243
 msgid "Reports"
-msgstr ""
+msgstr "Informes"
 
 # #-#-#-#-#  htmladd.po (MediaMonkey 5.0)  #-#-#-#-#
 #  Add list.
@@ -7195,7 +7171,7 @@ msgstr "No hay plug-ins en uso (no hay archivos en ejecución)."
 #. no audio hw
 #: FullPlayer.pas:4000 GeneralDecoder.pas:446
 msgid "No audio hardware found"
-msgstr ""
+msgstr "Ningún hardware de audio encontrado"
 
 #. test accessibility first
 #: FullPlayer.pas:4132
@@ -7204,10 +7180,8 @@ msgstr "La reproducción ha fallado: %s es inaccesible."
 
 #. if DRM error, new codec does not help
 #: FullPlayer.pas:4147 FullPlayer.pas:4158
-#, fuzzy
-#| msgid "Playback failed: %s cannot be decoded."
 msgid "Playback failed: %s cannot decode %s."
-msgstr "La reproducción ha fallado: %s no puede ser decodificado."
+msgstr "La reproducción ha fallado: %s no puede decodificar %s."
 
 #: FullPlayer.pas:4381
 msgid "Clean"
@@ -8947,10 +8921,8 @@ msgid "Selected folder nodes"
 msgstr "Nodos de carpeta seleccionados"
 
 #: dialogs\dlgCollectionOptions.html:50
-#, fuzzy
-#| msgid "Sub-nodes and Views"
 msgid "Sub-nodes"
-msgstr "Sub-nodos y Vistas"
+msgstr "Sub-nodos"
 
 #: dialogs\dlgMP3Settings.html:17
 msgid "Use manual settings"
@@ -8987,10 +8959,8 @@ msgid "Active layout"
 msgstr "Disposición activa"
 
 #: dialogs\dlgOptions\pnl_Library.html:52
-#, fuzzy
-#| msgid "Ignore files shorter than"
 msgid "Ignore files smaller than"
-msgstr "Ignorar archivos de menos de"
+msgstr "Ignorar archivos inferiores a"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:35
 msgid "When playback is stopped:"
@@ -10716,7 +10686,7 @@ msgstr "Controles del Reproductor"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:10
 msgid "Increase play counter at:"
-msgstr ""
+msgstr "Aumentar el contador de lectura a:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:43
 msgid "Use Unicode (UTF-8 encoding) for M3U playlists"
@@ -10828,10 +10798,8 @@ msgid "Vertical"
 msgstr "Vertical"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:190
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Bookmark"
-msgstr "Agregar marcador"
+msgstr "Marcador"
 
 #: controls\deviceConfig\syncToDevice.html:18
 msgid ""
@@ -11532,10 +11500,8 @@ msgstr ""
 "palabra (por ej., 'U2;B.B. King')"
 
 #: controls\nowPlaying\fullList.html:30
-#, fuzzy
-#| msgid "Save lyrics"
 msgid "Save lyrics to tag"
-msgstr "Guardar letra"
+msgstr "Guardar letra en tag"
 
 #: dialogs\dlgAddonInstall.html:50
 msgid "You should only install software from sources that you trust."
