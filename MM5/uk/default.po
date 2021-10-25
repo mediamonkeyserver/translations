@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 08:38\n"
-"PO-Revision-Date: 2021-05-30 06:17+0000\n"
+"PO-Revision-Date: 2021-10-26 01:02+0000\n"
 "Last-Translator: Igor Chomko <igorchomko@gmail.com>\n"
 "Language-Team: Ukrainian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/uk/>\n"
@@ -1167,10 +1167,8 @@ msgid "M3U/XSPF playlist"
 msgstr "Список відтворення M3U/XSPF"
 
 #: actions.js:3824
-#, fuzzy
-#| msgid "File length"
 msgid "File list"
-msgstr "Довжина файлу"
+msgstr "Список файлів"
 
 #. Use progress to notify user about the current action
 #: actions.js:3845 actions.js:3866 Scripts/exportPlaylists/actions_add.js:62
@@ -1440,10 +1438,8 @@ msgstr "Відтворити перетасовані (за Альбомом)"
 
 #. prepared menu item for library exports implemented by scripts
 #: actions.js:5559
-#, fuzzy
-#| msgid "Exporting"
 msgid "Export"
-msgstr "Використати шкалу прогресу, щоб повідомити користувача про поточну дію"
+msgstr "Експорт"
 
 #: actions.js:5573
 msgid "&File"
@@ -1542,7 +1538,7 @@ msgstr "Перетворити на"
 
 #: actions.js:8495
 msgid "No track to export"
-msgstr ""
+msgstr "Відсутня доріжка для експорту"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this column will not be resized when 'Automatic column widths' is checked
@@ -2334,7 +2330,7 @@ msgstr "Роки"
 
 #: viewHandlers.js:5762
 msgid "Years (orig.)"
-msgstr ""
+msgstr "Роки (походження)"
 
 #: viewHandlers.js:5848 controls/albumViewHeader.js:725 CDUtils.pas:1047
 #: dblistutils.pas:1520 UPnPTreeHelper.pas:1907
@@ -2633,10 +2629,8 @@ msgstr "Редагувати випуск у MusicBrainz"
 
 #: controls/albumViewHeader.js:282 controls/artistViewHeader.js:196
 #: controls/seriesViewHeader.js:208
-#, fuzzy
-#| msgid "Artist Comment"
 msgid "Edit comment"
-msgstr "Коментар до Виконавця"
+msgstr "Редагувати коментар"
 
 #. Ask user if they want to modify the files if greater than threshold
 #. Ask user if they want to modify the files if greater than threshold
@@ -3003,10 +2997,8 @@ msgstr "файли"
 
 #. we are still calculating, let it known in the UI:
 #: controls/deviceConfig.js:326
-#, fuzzy
-#| msgid "Casting"
 msgid "Calculating"
-msgstr "Транслювання на пристрій"
+msgstr "Обчислення"
 
 #: controls/deviceConfig.js:331 controls/deviceConfig.js:332
 #: controls/deviceConfig/summary.js:43
@@ -3241,7 +3233,7 @@ msgstr "Показати всі підвузли"
 #. to hide the expand marks for corresponding nodes
 #: controls/mediaTree.js:239
 msgid "Scroll to match when typing in tree"
-msgstr ""
+msgstr "Прокручувати, щоб збігатися під час введення в дереві"
 
 #. toggle:
 #: controls/mediaTree.js:248
@@ -5368,13 +5360,11 @@ msgstr "<Додати Нову Колекцію...>"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:205
 msgid "This will delete the \"%s\" collection."
-msgstr ""
+msgstr "Це видалить колекцію \"%s\"."
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:207
-#, fuzzy
-#| msgid "Edit Collection"
 msgid "Delete collection"
-msgstr "Редагувати Колекцію"
+msgstr "Видалити колекцію"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:26
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:27
@@ -5931,7 +5921,7 @@ msgstr "Вибрати доріжки для оновлення"
 #: Scripts/cleanMultiValueFields/actions_add.js:11
 #: Scripts/cleanMultiValueFields/dialogs/dlgCleanMultiValue.js:109
 msgid "Clean Multi-Value Fields"
-msgstr ""
+msgstr "Очистити багатозначні поля"
 
 #: Scripts/export/actions_add.js:39 Scripts/export/actions_add.js:51
 msgid "MediaMonkey Filelist"
@@ -5968,10 +5958,8 @@ msgstr "Експортувати підписані подкасти"
 #: Scripts/featuredArtistsToArtists/actions_add.js:2
 #: Scripts/featuredArtistsToArtists/actions_add.js:11
 #: Scripts/featuredArtistsToArtists/dialogs/dlgFeaturedArtistsToArtists.js:68
-#, fuzzy
-#| msgid "Related Artists"
 msgid "Featured Artists to Artists"
-msgstr "Пов'язані Виконавці"
+msgstr "Рекомендовані виконавці для виконавців"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1471
@@ -6144,6 +6132,8 @@ msgid ""
 "The color combination you chose would result in text being unreadable. "
 "Please choose a different color combination."
 msgstr ""
+"Вибрана комбінація кольорів призведе до нечитабельності тексту. Будь ласка, "
+"виберіть іншу комбінацію кольорів."
 
 #: AndroidDBHandler.pas:1196 AndroidDBHandler.pas:1198
 #: AndroidDBHandler.pas:1246 AndroidDBHandler.pas:1248
@@ -6747,10 +6737,8 @@ msgstr "Виникла проблема вирівнювання гучност�
 
 #. #18222
 #: ErrHandlers.pas:416
-#, fuzzy
-#| msgid "There was a problem leveling volume for the following track(s):"
 msgid "There was a problem processing audio for the following track(s):"
-msgstr "Виникла проблема вирівнювання гучності для наступних доріжок:"
+msgstr "Виникла проблема з обробкою звуку для наступних звукових доріжок:"
 
 #. #18222
 #: ErrHandlers.pas:430
@@ -8546,10 +8534,8 @@ msgid "The file %s cannot be created."
 msgstr "Файл %s не може бути створений."
 
 #: WebUtils.pas:5970
-#, fuzzy
-#| msgid "Search and update took %s"
 msgid "Searching for addons updates..."
-msgstr "Пошук та оновлення зайняли %s"
+msgstr "Пошук оновлень для доповнень..."
 
 #: WebUtils.pas:6027
 msgid "Checking for new version..."
@@ -8784,10 +8770,8 @@ msgstr ""
 "вирівнювання гучності. Це не впливає на доріжки без такого коефіцієнта."
 
 #: Scripts\featuredArtistsToArtists\dialogs\dlgFeaturedArtistsToArtists.html:25
-#, fuzzy
-#| msgid "Artist images"
 msgid "Artist tag"
-msgstr "Зображення виконавця"
+msgstr "Теґ виконавця"
 
 #: controls\windowtitle.html:19
 msgid "Restore window"
@@ -8942,7 +8926,7 @@ msgstr "Вибрані вузли тек"
 
 #: dialogs\dlgMaintainLibrary.html:24
 msgid "Retain backups:"
-msgstr ""
+msgstr "Зберегти резервні копії:"
 
 #: dialogs\dlgMP3Settings.html:17
 msgid "Use manual settings"
@@ -9323,7 +9307,7 @@ msgstr "Використати лише перший Жанр коли прис�
 
 #: controls\serverConfig\server.html:13
 msgid "Check"
-msgstr ""
+msgstr "Перевірити"
 
 #: dialogs\dlgAutoConvertRule.html:21
 msgid "If any of the following conditions are true:"
@@ -9647,7 +9631,7 @@ msgstr "Оновити інформацію про файл з теґів при
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:10
 msgid "Add Windows firewall exception"
-msgstr ""
+msgstr "Додати виняток брандмауера Windows"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:19
 msgid "Disable repositioning of dialogs and controls"
@@ -9837,6 +9821,8 @@ msgstr "Продюсер(и)"
 #: Scripts\featuredArtistsToArtists\dialogs\dlgFeaturedArtistsToArtists.html:10
 msgid "Enter a comma-separated list of the Featured Artist keyword:"
 msgstr ""
+"Введіть розділений комами список ключового слова \"Рекомендований "
+"виконавець\":"
 
 #: controls\autoConvertConfig.html:9
 msgid "Target volume level"
@@ -10025,7 +10011,7 @@ msgstr "Запобігання обрізанню"
 
 #: skins\Monkey Groove\config.html:3
 msgid "Theme color:"
-msgstr ""
+msgstr "Колір теми:"
 
 #: maincontent.html:58
 msgid "Bottom panel"
@@ -10318,16 +10304,12 @@ msgstr ""
 "зареєстрованих користувачів)"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:28
-#, fuzzy
-#| msgid "Recommended changes to capitalization:"
 msgid "Custom strings to force capitalization:"
-msgstr "Рекомендовані зміни до використання великих літер:"
+msgstr "Користувацькі рядки для примусової капіталізації:"
 
 #: Scripts\cleanMultiValueFields\dialogs\dlgCleanMultiValue.html:10
-#, fuzzy
-#| msgid "To the following format:"
 msgid "Switch the following to separators:"
-msgstr "До наступного формату:"
+msgstr "Перемикніть наступне на розділювачі:"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:3
 msgid "Scrobbler submission state"
@@ -10384,10 +10366,8 @@ msgid "Min"
 msgstr "Мін."
 
 #: dialogs\dlgOptions\pnl_General.html:13
-#, fuzzy
-#| msgid "Check for updates (when connected)"
 msgid "Check for addons updates (when connected)"
-msgstr "Перевірити наявність оновлень (при підключенні)"
+msgstr "Перевірити наявність оновлень додатків (при підключенні)"
 
 #: dialogs\dlgOptions\pnl_Library.html:112
 msgid "Get Album titles and Track Numbers from:"
@@ -10443,10 +10423,8 @@ msgid "Director(s)"
 msgstr "Режисер(и)"
 
 #: Scripts\featuredArtistsToArtists\dialogs\dlgFeaturedArtistsToArtists.html:22
-#, fuzzy
-#| msgid "Title"
 msgid "Title tag"
-msgstr "Назва"
+msgstr "Тег заголовка"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:42
 msgid "subdirectory for each playlist type"
@@ -11079,15 +11057,12 @@ msgid "Every week"
 msgstr "Кожного тижня"
 
 #: dialogs\dlgOptions\pnl_General.html:13
-#, fuzzy
-#| msgid ""
-#| "If enabled, MediaMonkey will check (over the internet) whether a newer "
-#| "version exists."
 msgid ""
 "If enabled, MediaMonkey will check (over the internet) whether any addon "
 "update is available."
 msgstr ""
-"Якщо увімкнено, MediaMonkey перевірить (через Інтернет) чи існує нова версія."
+"Якщо ввімкнено, MediaMonkey перевірить (через Інтернет), чи доступне будь-"
+"яке оновлення доповнення."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:4
 msgid "Background metadata lookup"
@@ -11358,6 +11333,9 @@ msgid ""
 "identify featured artists. Useful if the title is in another language. "
 "Periods are added automatically."
 msgstr ""
+"Введіть розділений комами список ключового слова MediaMonkey, яке слід "
+"шукати, щоб визначити рекомендованих виконавців. Корисно, якщо заголовок "
+"написано іншою мовою. Періоди додаються автоматично."
 
 #: controls\audiobookCollectionView.html:3
 msgid "Recently added Albums"
@@ -11513,6 +11491,8 @@ msgid ""
 "Here you can provide custom strings, like names, to force your own "
 "capitalization. Separate them with a pipe | symbol."
 msgstr ""
+"Тут ви можете надати користувацькі рядки, такі як імена, для примусового "
+"написання власних великих літер. Відділіть їх символом pipe |."
 
 #: controls\equalizer.html:2
 msgid "Balance:"
