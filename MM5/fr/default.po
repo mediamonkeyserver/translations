@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 08:52\n"
-"PO-Revision-Date: 2021-11-10 07:54+0000\n"
+"PO-Revision-Date: 2021-11-11 07:20+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: French <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/fr/>\n"
@@ -1547,7 +1547,7 @@ msgstr "Convertir vers"
 
 #: actions.js:8637
 msgid "No track to export"
-msgstr ""
+msgstr "Aucune piste trouvée"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this column will not be resized when 'Automatic column widths' is checked
@@ -2351,7 +2351,7 @@ msgstr "Années"
 
 #: viewHandlers.js:5766
 msgid "Years (orig.)"
-msgstr ""
+msgstr "Années (orig.)"
 
 #: viewHandlers.js:5852 controls/albumViewHeader.js:740 CDUtils.pas:1047
 #: dblistutils.pas:1520 UPnPTreeHelper.pas:1907
@@ -2515,7 +2515,7 @@ msgstr "Classification"
 
 #: viewHandlers.js:7119
 msgid "Album Artist is not the same across tracks on an album."
-msgstr ""
+msgstr "Artist de l'album n'est pas le même sur tous les pistes d'un album."
 
 #: viewHandlers.js:7171
 msgid ""
@@ -2538,11 +2538,11 @@ msgstr ""
 
 #: viewHandlers.js:7186
 msgid "Artwork is not the same across tracks on an album."
-msgstr ""
+msgstr "Le Jaquette n'est pas le même sur tous les pistes d'un album."
 
 #: viewHandlers.js:7190
 msgid "Files have been deleted or moved."
-msgstr ""
+msgstr "Les fichiers qui ont été supprimés ou déplacés."
 
 #: viewHandlers.js:7194 UPnPTreeHelper.pas:1900
 msgid "Files to Edit"
@@ -2652,10 +2652,8 @@ msgstr "Editer la sortie dans MusicBrainz"
 
 #: controls/albumViewHeader.js:288 controls/artistViewHeader.js:196
 #: controls/seriesViewHeader.js:208
-#, fuzzy
-#| msgid "Artist Comment"
 msgid "Edit comment"
-msgstr "Commentaire sur l'artiste"
+msgstr "Editer le commentaire"
 
 #: controls/albumViewHeader.js:463 controls/artistViewHeader.js:419
 #: controls/seriesViewHeader.js:338 dialogs/dlgTrackProperties.js:654
@@ -3014,10 +3012,8 @@ msgstr "fichiers"
 
 #. we are still calculating, let it known in the UI:
 #: controls/deviceConfig.js:326
-#, fuzzy
-#| msgid "Casting"
 msgid "Calculating"
-msgstr "Diffusion"
+msgstr "Calcul"
 
 #: controls/deviceConfig.js:331 controls/deviceConfig.js:332
 #: controls/deviceConfig/summary.js:43
@@ -3255,7 +3251,7 @@ msgstr "Afficher tous les sous-branches"
 #. to hide the expand marks for corresponding nodes
 #: controls/mediaTree.js:239
 msgid "Scroll to match when typing in tree"
-msgstr ""
+msgstr "Défilement aux correspondants lors de la saisie dans l'arbre"
 
 #. toggle:
 #: controls/mediaTree.js:248
@@ -3288,10 +3284,8 @@ msgid "Auto detection"
 msgstr "Détection automatique"
 
 #: controls/monitoredFoldersView.js:190
-#, fuzzy
-#| msgid "selected folders"
 msgid "Remove selected folder(s)"
-msgstr "répertoires sélectionnés"
+msgstr "Retirer le(s) répertoire(s) sélectionné(s)"
 
 #: controls/monitoredFoldersView.js:247 GlobVars.pas:2073
 msgid "Classical Music"
@@ -4228,16 +4222,13 @@ msgstr "Installation du produit"
 
 #. addon.minAppVersion = '5.0.3;
 #: dialogs/dlgAddonInstall.js:19
-#, fuzzy
-#| msgid "There is a new version of MediaMonkey available."
 msgid "This addon is incompatible with current version of MediaMonkey"
-msgstr "Une nouvelle version de MediaMonkey est disponible."
+msgstr ""
+"Cette extension est incompatible avec la version actuelle de MediaMonkey"
 
 #: dialogs/dlgAddonInstall.js:20
-#, fuzzy
-#| msgid "Please upgrade to MediaMonkey Gold for this feature!"
 msgid "Please update to MediaMonkey %s or higher."
-msgstr "Veuillez passer à MediaMonkey Gold pour cette fonctionnalité !"
+msgstr "Veuillez mettre à jour vers MediaMonkey %s ou supérieur."
 
 #. afterImageDownload(); // close old message and enable apply button
 #. downloading original image failed
@@ -4905,7 +4896,7 @@ msgstr "Nouvelle version disponible"
 
 #: dialogs/dlgNewVersion.js:13 dialogs\dlgNewVersion.html:25
 msgid "Dismiss"
-msgstr ""
+msgstr "Rejeter"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare channels dropDown
@@ -5428,13 +5419,11 @@ msgstr "<Ajouter une Nouvelle Collection...>"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:205
 msgid "This will delete the \"%s\" collection."
-msgstr ""
+msgstr "Cela supprimera la Collection \"%s\"."
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:207
-#, fuzzy
-#| msgid "Edit Collection"
 msgid "Delete collection"
-msgstr "Editer la Collection"
+msgstr "Supprimer la Collection"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:26
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:27
@@ -5910,8 +5899,6 @@ msgid "(Preparing list of files)"
 msgstr "(Préparation de la liste des fichiers)"
 
 #: helpers/mediaSync.js:3390 helpers/mediaSync.js:3434
-#, fuzzy
-#| msgid "Initializating"
 msgid "Initializing"
 msgstr "Initialisation"
 
@@ -5977,6 +5964,8 @@ msgid ""
 "The color combination you chose would result in text being unreadable. "
 "Please choose a different color combination."
 msgstr ""
+"La combinaison de couleurs que vous avez choisie rendrait le texte "
+"illisible. Veuillez choisir une combinaison de couleurs différente."
 
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:6
 msgid "Side by side"
@@ -6817,10 +6806,8 @@ msgstr "Il y a eu un problème de nivellement de volume des pistes suivantes :"
 
 #. #18222
 #: ErrHandlers.pas:416
-#, fuzzy
-#| msgid "There was a problem leveling volume for the following track(s):"
 msgid "There was a problem processing audio for the following track(s):"
-msgstr "Il y a eu un problème de nivellement de volume des pistes suivantes :"
+msgstr "Il y a eu un problème de traitement audio des pistes suivantes :"
 
 #. #18222
 #: ErrHandlers.pas:430
@@ -6882,7 +6869,7 @@ msgstr "Callstack"
 
 #: ExceptionHandler.pas:412
 msgid "There was a runtime error in Addon"
-msgstr "Une erreur d'exécution s'est produite dans l'Addon"
+msgstr "Une erreur d'exécution s'est produite dans l'extension"
 
 #: ExceptionHandler.pas:412
 msgid "Do you want to disable this addon?"
@@ -7310,16 +7297,12 @@ msgid "Problem while decoding file %s"
 msgstr "Problème lors du décodage du fichier %s"
 
 #: GlobVars.pas:1870
-#, fuzzy
-#| msgid "this CD doesn't exist in the database"
 msgid "Restore existing database"
-msgstr "Ce CD n'est pas présent dans la base de données"
+msgstr "Restaurer la base de données existante"
 
 #: GlobVars.pas:1870
-#, fuzzy
-#| msgid "Lyrics sources"
 msgid "choose source"
-msgstr "Sources de paroles"
+msgstr "choisir la source"
 
 #: GlobVars.pas:2074 controls\deviceConfig\options\pnl_FileLocations.html:57
 msgid "Music Video"
@@ -8624,10 +8607,8 @@ msgid "The file %s cannot be created."
 msgstr "Impossible de créer le fichier %s."
 
 #: WebUtils.pas:5967
-#, fuzzy
-#| msgid "Search and update took %s"
 msgid "Searching for updates..."
-msgstr "La recherche et mise à jour a pris %s"
+msgstr "Recherche de mises à jour..."
 
 #: WebUtils.pas:6024
 msgid "Checking for new version..."
@@ -8931,10 +8912,8 @@ msgid "Level playback volume to:"
 msgstr "Niveler le volume en lecture :"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:42
-#, fuzzy
-#| msgid "Customize for this device"
 msgid "Customize case for these words"
-msgstr "Personaliser pour ce périphérique"
+msgstr "Personnaliser le cas pour ces mots"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:13
 msgid "Cache"
@@ -9024,7 +9003,7 @@ msgstr "Branches de répertoire sélectionnés"
 
 #: dialogs\dlgMaintainLibrary.html:24
 msgid "Retain backups:"
-msgstr ""
+msgstr "Conserver les sauvegardes :"
 
 #: dialogs\dlgMP3Settings.html:17
 msgid "Use manual settings"
@@ -9086,7 +9065,7 @@ msgstr "Niveler les pistes extraites :"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:37
 msgid "Capitalize common abbreviations"
-msgstr ""
+msgstr "Capitaliser les abréviations courantes"
 
 #: controls\autoConvertConfig.html:7
 msgid ""
@@ -9119,7 +9098,7 @@ msgstr "Mettre à jour le compte de lecture lors de la lecture à distance"
 
 #: dialogs\dlgAutoorganize.html:36
 msgid "Trim long paths/filenames"
-msgstr ""
+msgstr "Couper les longs chemins/noms de fichiers"
 
 #: dialogs\dlgMovedFiles.html:8
 msgid "Update the Library with the new location for the following files:"
@@ -9328,16 +9307,13 @@ msgid "small"
 msgstr "petit"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:3
-#, fuzzy
-#| msgid ""
-#| "This specifies what character is used to denote multiple values within a "
-#| "single field (e.g. Rock;Folk)."
 msgid ""
 "This specifies a single character used to enter multiple values within a "
 "field (e.g. Rock;Folk). Spaces determine how the character is displayed."
 msgstr ""
-"Cela détermine quel caractère est utilisé pour désigner des valeurs "
-"multiples dans un seul champ (ex: Rock, Folk)."
+"Ceci spécifie un seul caractère utilisé pour entrer plusieurs valeurs dans "
+"un champ (ex : Rock;Folk). Les espaces déterminent la façon dont le "
+"personnage est affiché."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
@@ -9424,7 +9400,7 @@ msgstr "Utiliser uniquement le premier genre quand il y en a plusieurs"
 
 #: controls\serverConfig\server.html:13
 msgid "Check"
-msgstr ""
+msgstr "Vérifier"
 
 #: dialogs\dlgAutoConvertRule.html:21
 msgid "If any of the following conditions are true:"
@@ -9732,10 +9708,8 @@ msgstr ""
 "nom original du Podcast sera utilisé"
 
 #: dialogs\dlgOptions\pnl_General.html:13
-#, fuzzy
-#| msgid "Include beta builds"
 msgid "Include addons"
-msgstr "Inclure les versions bêta"
+msgstr "Inclure les extensions"
 
 #: dialogs\dlgOptions\pnl_General.html:33
 msgid "Minimize to taskbar"
@@ -9758,7 +9732,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:10
 msgid "Add Windows firewall exception"
-msgstr ""
+msgstr "Ajouter une exception de pare-feu Windows"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:19
 msgid "Disable repositioning of dialogs and controls"
@@ -9882,10 +9856,8 @@ msgstr ""
 "soit activée."
 
 #: dialogs\dlgOptions\pnl_General.html:10
-#, fuzzy
-#| msgid "Check for new episodes:"
 msgid "Also checks for new beta builds."
-msgstr "Chercher de nouveaux épisodes :"
+msgstr "Vérifie également les nouvelles versions bêta."
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid ""
@@ -10177,6 +10149,8 @@ msgstr ""
 msgid ""
 "Shorten paths/filenames to 256 characters for compatibility with certain apps"
 msgstr ""
+"Raccourcir les chemins/noms de fichiers à 256 caractères pour la "
+"compatibilité avec certaines applications"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid ""
@@ -10980,10 +10954,8 @@ msgstr ""
 "nouvelle version est disponible."
 
 #: dialogs\dlgOptions\pnl_General.html:13
-#, fuzzy
-#| msgid "Search and update took %s"
 msgid "Also checks for addon updates."
-msgstr "La recherche et mise à jour a pris %s"
+msgstr "Vérifie également les mises à jour d'addons."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:50
 msgid "Auto-tagging"
@@ -11788,13 +11760,11 @@ msgstr "Scénariste(s)"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:36
 msgid "Lowercase common short words"
-msgstr ""
+msgstr "Mots courts courants en minuscules"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:23
-#, fuzzy
-#| msgid "Recommended changes to capitalization:"
 msgid "Recommended changes to capitalization"
-msgstr "Corrections recommandées de la casse :"
+msgstr "Corrections recommandées de la casse"
 
 msgid "AIFF settings"
 msgstr "Paramètres AIFF"
