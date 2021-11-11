@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-10 08:52\n"
+"POT-Creation-Date: 2021-11-11 08:19\n"
 "PO-Revision-Date: 2021-11-11 07:20+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
@@ -1163,7 +1163,7 @@ msgstr "Ordner (rippen/kon&vertieren)"
 
 #. online mode only for online source track
 #: actions.js:3917 actions.js:8978 helpers/autoDJ.js:29 Devices.pas:2026
-#: Devices.pas:13086 Devices.pas:15434 FormatsManage.pas:5518
+#: Devices.pas:13093 Devices.pas:15441 FormatsManage.pas:5518
 #: FormatsManage.pas:5550 FormatsManage.pas:5560 MaskHelper.pas:3040
 #: QueryManage.pas:4635 ResStrings.pas:530
 msgid "Playlist"
@@ -1545,8 +1545,10 @@ msgid "Convert to"
 msgstr "Konvertiere nach"
 
 #: actions.js:8637
-msgid "No track to export"
-msgstr "Kein Song gefunden"
+#, fuzzy
+#| msgid "No results found"
+msgid "No tracks found"
+msgstr "Keine Ergebnisse gefunden"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this column will not be resized when 'Automatic column widths' is checked
@@ -1964,7 +1966,7 @@ msgstr ""
 "%d Songs wurden nicht auf Duplikate geprüft. Sollen die jetzt analysiert "
 "werden? (Dies kann etwas länger dauern.)"
 
-#: viewHandlers.js:378 Devices.pas:11070 dialogs\dlgScanResults.html:9
+#: viewHandlers.js:378 Devices.pas:11073 dialogs\dlgScanResults.html:9
 msgid "Don't show this again"
 msgstr "Nicht wieder anzeigen"
 
@@ -5164,8 +5166,8 @@ msgstr "Datei-Eigenschaften"
 #. for group test decide based on the first selected track
 #. track needs conversion
 #. e.g. online/cloud tracks that failed to download
-#: dialogs/dlgTrackProperties.js:237 Devices.pas:12462 Devices.pas:15042
-#: Devices.pas:15321 FormatsManage.pas:856 Normalization.pas:1433
+#: dialogs/dlgTrackProperties.js:237 Devices.pas:12465 Devices.pas:15049
+#: Devices.pas:15328 FormatsManage.pas:856 Normalization.pas:1433
 msgid "File %s is inaccessible"
 msgstr "Datei %s ist nicht erreichbar"
 
@@ -5418,13 +5420,13 @@ msgid "<Add New Collection...>"
 msgstr "<Füge neue Sammlung hinzu...>"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:205
-msgid "This will delete the \"%s\" collection."
+msgid "This will delete the \"%s\" Collection."
 msgstr ""
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:207
 #, fuzzy
 #| msgid "Edit Collection"
-msgid "Delete collection"
+msgid "Delete Collection"
 msgstr "Sammlung bearbeiten"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:26
@@ -6200,7 +6202,7 @@ msgstr "YouTube-Abfrage fehlgeschlagen: "
 msgid "Problem while updating file %s: %s"
 msgstr "Fehler beim Aktualisieren der Datei %s: %s"
 
-#: AndroidDBHandler.pas:1306 AndroidDBHandler.pas:1308 Devices.pas:15391
+#: AndroidDBHandler.pas:1306 AndroidDBHandler.pas:1308 Devices.pas:15398
 msgid "Problem while deleting file %s: %s"
 msgstr "Fehler beim Löschen der Datei %s: %s"
 
@@ -6687,11 +6689,11 @@ msgid "No / I'll sync over USB instead"
 msgstr "Nein / Über USB synchronisieren"
 
 #. capacity is unknown (e.g. Google Music)
-#: Devices.pas:11050
+#: Devices.pas:11053
 msgid "Needed: %s, available: %s, to be freed: %s"
 msgstr "Benötigt: %s, verfügbar: %s, freizuräumen: %s"
 
-#: Devices.pas:11053
+#: Devices.pas:11056
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
@@ -6701,7 +6703,7 @@ msgstr ""
 "Dateien löschen?"
 
 #. Clear tracks on the device
-#: Devices.pas:11069
+#: Devices.pas:11072
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
@@ -6709,26 +6711,26 @@ msgstr ""
 "Es ist nicht genug Speicherplatz auf dem Gerät vorhanden, um die gewählten "
 "Dateien zu synchronisieren. Möchten Sie trotzdem fortfahren?"
 
-#: Devices.pas:11583 FileUtils.pas:814 ResStrings.pas:561
+#: Devices.pas:11586 FileUtils.pas:814 ResStrings.pas:561
 msgid "Insufficient space available."
 msgstr "Nicht genug Speicherplatz verfügbar."
 
-#: Devices.pas:11585 Devices.pas:11853 Devices.pas:15513 Devices.pas:15522
+#: Devices.pas:11588 Devices.pas:11856 Devices.pas:15520 Devices.pas:15529
 msgid "Problem while copying file %s to %s"
 msgstr "Problem beim Kopieren der Datei %s nach %s"
 
 #. e.g. to know it when the tracks are part of a playlist that need to be modified (e.g. on MMS)
-#: Devices.pas:12485
+#: Devices.pas:12488
 msgid "File %s is not supported by the device"
 msgstr "Datei %s wird von dem Gerät nicht unterstützt"
 
 #. no track being converted, see the tracks being downloaded from cloud
-#: Devices.pas:14847
+#: Devices.pas:14854
 msgid "downloading"
 msgstr "herunterladen"
 
 #. track has failed to convert
-#: Devices.pas:15287
+#: Devices.pas:15294
 msgid "Conversion of file %s failed"
 msgstr "Konvertierung der Datei %s fehlgeschlagen"
 
@@ -12011,6 +12013,9 @@ msgstr ""
 msgid "Causes search for 'an' to not return files containing 'another'"
 msgstr ""
 "Bei der Suche nach z.B. 'an' wird 'another' nicht als Treffer zurückgeliefert"
+
+#~ msgid "No track to export"
+#~ msgstr "Kein Song gefunden"
 
 #~ msgid ""
 #~ "If enabled, MediaMonkey will check also whether a new beta build exists."

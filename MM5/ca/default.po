@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
-"POT-Creation-Date: 2021-11-10 08:52\n"
+"POT-Creation-Date: 2021-11-11 08:19\n"
 "PO-Revision-Date: 2021-06-03 03:21+0000\n"
 "Last-Translator: Jordi Xicola <jxicola@gmail.com>\n"
 "Language-Team: Catalan <http://translations.mediamonkey.com/projects/"
@@ -1166,7 +1166,7 @@ msgstr "Carpeta (Extreu/Con&verteix)"
 
 #. online mode only for online source track
 #: actions.js:3917 actions.js:8978 helpers/autoDJ.js:29 Devices.pas:2026
-#: Devices.pas:13086 Devices.pas:15434 FormatsManage.pas:5518
+#: Devices.pas:13093 Devices.pas:15441 FormatsManage.pas:5518
 #: FormatsManage.pas:5550 FormatsManage.pas:5560 MaskHelper.pas:3040
 #: QueryManage.pas:4635 ResStrings.pas:530
 msgid "Playlist"
@@ -1552,8 +1552,10 @@ msgid "Convert to"
 msgstr "Converteix a"
 
 #: actions.js:8637
-msgid "No track to export"
-msgstr ""
+#, fuzzy
+#| msgid "No results found"
+msgid "No tracks found"
+msgstr "No s'han trobat resultats"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this column will not be resized when 'Automatic column widths' is checked
@@ -1970,7 +1972,7 @@ msgstr ""
 "les pistes de la biblioteca no s’han analitzat per redundància. Voleu "
 "analitzar-les ara (això requereix una bona estona)?"
 
-#: viewHandlers.js:378 Devices.pas:11070 dialogs\dlgScanResults.html:9
+#: viewHandlers.js:378 Devices.pas:11073 dialogs\dlgScanResults.html:9
 msgid "Don't show this again"
 msgstr "No mostris això un altre cop"
 
@@ -5177,8 +5179,8 @@ msgstr "Propietats del fitxer"
 #. for group test decide based on the first selected track
 #. track needs conversion
 #. e.g. online/cloud tracks that failed to download
-#: dialogs/dlgTrackProperties.js:237 Devices.pas:12462 Devices.pas:15042
-#: Devices.pas:15321 FormatsManage.pas:856 Normalization.pas:1433
+#: dialogs/dlgTrackProperties.js:237 Devices.pas:12465 Devices.pas:15049
+#: Devices.pas:15328 FormatsManage.pas:856 Normalization.pas:1433
 msgid "File %s is inaccessible"
 msgstr "El fitxer %s no és accessible"
 
@@ -5430,13 +5432,13 @@ msgid "<Add New Collection...>"
 msgstr "<Afegeix una col·lecció nova ...>"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:205
-msgid "This will delete the \"%s\" collection."
+msgid "This will delete the \"%s\" Collection."
 msgstr ""
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:207
 #, fuzzy
 #| msgid "Edit Collection"
-msgid "Delete collection"
+msgid "Delete Collection"
 msgstr "Edita la col·lecció"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:26
@@ -6213,7 +6215,7 @@ msgstr "La consulta de YouTube ha fallat: "
 msgid "Problem while updating file %s: %s"
 msgstr "Problema en actualitzar el fitxe r%s: %s"
 
-#: AndroidDBHandler.pas:1306 AndroidDBHandler.pas:1308 Devices.pas:15391
+#: AndroidDBHandler.pas:1306 AndroidDBHandler.pas:1308 Devices.pas:15398
 msgid "Problem while deleting file %s: %s"
 msgstr "Problema en suprimir el fitxer %s: %s"
 
@@ -6695,11 +6697,11 @@ msgid "No / I'll sync over USB instead"
 msgstr "No / en lloc de això, sincronitzaré per USB"
 
 #. capacity is unknown (e.g. Google Music)
-#: Devices.pas:11050
+#: Devices.pas:11053
 msgid "Needed: %s, available: %s, to be freed: %s"
 msgstr "Necessari: %s, disponible: %s, per alliberar: %s"
 
-#: Devices.pas:11053
+#: Devices.pas:11056
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
@@ -6708,7 +6710,7 @@ msgstr ""
 "Voldrieu recuperar espai suprimint els fitxers existents?"
 
 #. Clear tracks on the device
-#: Devices.pas:11069
+#: Devices.pas:11072
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
@@ -6716,26 +6718,26 @@ msgstr ""
 "No hi ha prou espai al dispositiu per sincronitzar els fitxers seleccionats. "
 "Voleu continuar?"
 
-#: Devices.pas:11583 FileUtils.pas:814 ResStrings.pas:561
+#: Devices.pas:11586 FileUtils.pas:814 ResStrings.pas:561
 msgid "Insufficient space available."
 msgstr "No hi ha prou espai disponible."
 
-#: Devices.pas:11585 Devices.pas:11853 Devices.pas:15513 Devices.pas:15522
+#: Devices.pas:11588 Devices.pas:11856 Devices.pas:15520 Devices.pas:15529
 msgid "Problem while copying file %s to %s"
 msgstr "Problema en copiar el fitxer %s a %s"
 
 #. e.g. to know it when the tracks are part of a playlist that need to be modified (e.g. on MMS)
-#: Devices.pas:12485
+#: Devices.pas:12488
 msgid "File %s is not supported by the device"
 msgstr "El dispositiu no admet el fitxer %s"
 
 #. no track being converted, see the tracks being downloaded from cloud
-#: Devices.pas:14847
+#: Devices.pas:14854
 msgid "downloading"
 msgstr "Baixant"
 
 #. track has failed to convert
-#: Devices.pas:15287
+#: Devices.pas:15294
 msgid "Conversion of file %s failed"
 msgstr "La conversió del fitxer %s ha fallat"
 
