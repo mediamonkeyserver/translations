@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-03-11 16:01+0000\n"
+"PO-Revision-Date: 2022-03-13 08:20+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -1110,7 +1110,7 @@ msgstr "Alle auswählen"
 
 #: actions.js:3601
 msgid "Focus tracklist on currently playing item"
-msgstr "Songliste basierend auf dem aktuellen Songs auswählen"
+msgstr "Gerade spielenden Track in aktueller Liste anzeigen"
 
 #: actions.js:3635
 msgid "Cancel selection"
@@ -1190,7 +1190,7 @@ msgstr "Lautstärke anal&ysieren"
 
 #: actions.js:4024
 msgid "&Level Track volume"
-msgstr "&Lautstärke anpassen"
+msgstr "&Lautstärke der Datei anpassen"
 
 #: actions.js:4032
 msgid ""
@@ -1667,7 +1667,7 @@ msgstr ""
 
 #: out_MMDS_configDlg.js:47 out_WASAPI_configDlg.js:90
 msgid "Crossfade tracks"
-msgstr "Überblenden von Songs"
+msgstr "Überblenden von Tracks"
 
 #: out_MMDS_configDlg.js:49 out_WASAPI_configDlg.js:92 dialogs\dlgDelay.html:14
 msgid "seconds"
@@ -1680,7 +1680,7 @@ msgstr ""
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:93
 msgid "Fade in new track"
-msgstr "Blendet neue Songs ein"
+msgstr "Tracks beim Start einblenden"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:99
 msgid "Removes gaps introduced by some lossy encoders"
@@ -1688,7 +1688,7 @@ msgstr "Entfernt Lücken, die durch manche Verlustformate entstehen"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:99
 msgid "Remove silence at the beginning / end of track"
-msgstr "Stille am Anfang / Ende eines Songs entfernen"
+msgstr "Stille am Anfang / Ende eines Tracks entfernen"
 
 #: out_MMDS_configDlg.js:62 out_WASAPI_configDlg.js:105
 msgid "Fades in and out on Pause/Play"
@@ -1743,7 +1743,7 @@ msgstr "Automatisches Format (pro Titel)"
 
 #: out_WASAPI_configDlg.js:15
 msgid "Use format of original track"
-msgstr "Format des Originalsongs beibehalten"
+msgstr "Format des Originaltracks beibehalten"
 
 #: out_WASAPI_configDlg.js:78
 msgid "Prevents audio from other applications"
@@ -3046,7 +3046,7 @@ msgstr "Gibt Songs mit höhere Bewertung Vorrang."
 
 #: controls/deviceContentRandomizer.js:11
 msgid "Sync higher-rated tracks more often"
-msgstr "Songs mit hohen Berwertungen öfter synchronisieren"
+msgstr "Tracks mit hohen Berwertungen öfter synchronisieren"
 
 #: controls/deviceContentRandomizer.js:14
 msgid "Reserve"
@@ -3391,7 +3391,7 @@ msgstr "Controls"
 
 #: controls/player.js:153 controls/player.js:382
 msgid "Seek bar"
-msgstr "Song Position"
+msgstr "Tracks-Position"
 
 #: controls/player.js:201 UpNp.pas:12631
 msgid "Internal player"
@@ -6091,7 +6091,7 @@ msgstr "Bitrate (kbit/s)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
 msgid "Tracks played per day"
-msgstr "Pro Tag abgespielte Songs"
+msgstr "Pro Tag abgespielte Tracks"
 
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:340
@@ -6255,7 +6255,7 @@ msgstr "Song(s) neu ordnen"
 #. for tracks<=current track does copy instead of move
 #: BaseMedia.pas:18738
 msgid "Reorder/copy track(s)"
-msgstr "Song(s) neu ordnen und gegebenenfalls kopieren"
+msgstr "Track(s) neu sortieren"
 
 #: CDDBUtils.pas:255
 msgid "There was an error while connecting to "
@@ -6341,7 +6341,7 @@ msgstr "Hole Informationen von AccurateRip.com"
 #. we are not getting results for too long, ask user what to do...
 #: CDUtils.pas:1568 CDUtils.pas:1810
 msgid "Error ripping track"
-msgstr "Fehler beim Rippen des Songs"
+msgstr "Fehler (Jitter) beim Rippen des Tracks"
 
 #. track doesn't exist or is a data track
 #: CDUtils.pas:1665
@@ -6353,8 +6353,8 @@ msgid ""
 "There were %d jitter errors while reading track %d. It is very likely that "
 "audio data is corrupt."
 msgstr ""
-"Es gab %d Jitter-Fehler beim Lesen von Song %d. Es ist sehr wahrscheinlich, "
-"dass die Audiodaten fehlerhaft sind."
+"Es gab %d Jitter-Fehler beim Lesen von Track %d. Wahrscheinlich sind die "
+"Audiodaten fehlerhaft."
 
 #: Covers.pas:745
 msgid "Not specified"
@@ -7557,8 +7557,6 @@ msgid "Tag update failed: %s is inaccessible."
 msgstr "Aktualisierung der Tags ist fehlgeschlagen: %s ist nicht auffindbar."
 
 #: MediaManage.pas:5337 MediaMonkeyApp.pas:5012
-#, fuzzy
-#| msgid "Conversion of file %s failed"
 msgid "Creating folder \"%s\" failed"
 msgstr "Konvertierung der Datei %s fehlgeschlagen"
 
@@ -7980,7 +7978,7 @@ msgstr "Doppelte Datei(en) gefunden:"
 #. new line
 #: PlaylistManage.pas:1174
 msgid "Are you sure you want to add the track(s) to the playlist?"
-msgstr "Möchten Sie die Songs zur Wiedergabeliste hinzufügen?"
+msgstr "Möchten Sie wirklich die Tracks zur Wiedergabeliste hinzufügen?"
 
 #. This podcast is being downloaded
 #: PodcastManage.pas:885 PodcastManage.pas:1250
@@ -8839,9 +8837,9 @@ msgid ""
 "previously analyzed volume leveling coefficients. It has no effect on tracks "
 "that do not have such a coefficient."
 msgstr ""
-"Wenn aktiviert, passt MediaMonkey die Wiedergabelautstärke basierend auf den "
-"Wert der Lautstärkeanalyse an. Songs ohne Lautstärkeanalyse werden nicht "
-"davon beeinflusst."
+"Wenn aktiviert, benutzt MediaMonkey die Ergebnisse der Lautstärkeanalyse zur "
+"Regelung der Wiedergabe-Lautstärke . Tracks ohne vorherige Lautstärkeanalyse "
+"werden nicht davon beeinflusst."
 
 #: controls\windowtitle.html:19
 msgid "Restore window"
@@ -9113,8 +9111,8 @@ msgid ""
 "This determines how many tracks Auto-DJ will add to the Playing list when "
 "the list begins to empty."
 msgstr ""
-"Gibt an, wieviele Songs der Auto-DJ zur Abspielliste hinzufügt wenn das Ende "
-"erreicht ist."
+"Gibt an, wieviele Tracks der Auto-DJ zur Wiedergabeliste hinzufügt werden, "
+"wenn diese sich leert."
 
 #: dialogs\dlgOptions\pnl_General.html:29
 msgid "Minimization settings:"
@@ -9810,9 +9808,9 @@ msgid ""
 "playlist, remove them from the playlist and the library, or delete them from "
 "the playlist, the library, and the computer system."
 msgstr ""
-"Wenn aktiviert wird MediaMonkey Sie fragen, ob Sie die Songs nur aus der "
-"Playliste, aus der Playliste und dem Archiv oder aus der Wiedergabeliste, "
-"aus dem Archiv und von der Festplatte löschen möchten."
+"Wenn aktiviert wird MediaMonkey Sie fragen, ob Sie die Tracks entweder nur "
+"aus der Wiedergabeliste, aus der Wiedergabeliste und dem Archiv oder aus der "
+"Wiedergabeliste, dem Archiv und von der Festplatte löschen möchten."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:23
 msgid ""
@@ -10025,9 +10023,9 @@ msgid ""
 "Playing list, remove them from the Playing list and the Library, or delete "
 "them from the Playing list, the Library, and the computer system."
 msgstr ""
-"Wenn aktiviert wird MediaMonkey Sie fragen, ob Sie die Songs nur aus der "
-"Playliste, aus der Playliste und dem Archiv oder aus der Wiedergabeliste, "
-"aus dem Archiv und von der Festplatte löschen möchten."
+"Wenn aktiviert wird MediaMonkey Sie fragen, ob Sie die Tracks entweder nur "
+"aus der Wiedergabeliste, aus Wiedergabeliste und Archiv oder aus "
+"Wiedergabeliste, Archiv und von der Festplatte löschen möchten."
 
 #: dialogs\dlgOptions\pnl_General.html:19
 msgid "Show splash screen at startup"
@@ -10204,9 +10202,8 @@ msgid ""
 "which tracks are leveled when 'Level Track volume' is used."
 msgstr ""
 "Dieser Wert wird als Basis für die Anzeige der Lautstärkeanpassung "
-"verwendet, die in der Songliste angezeigt wird. Er bestimmt zudem die "
-"Lautstärke, an welche Songs angepasst werden, wenn die Lautstärkeanpassung "
-"verwendet wird."
+"verwendet, die in der Trackliste angezeigt wird. Er bestimmt zudem die "
+"Wiedergabelautstärke wenn \"Lautstärkeanpassung\" aktiv ist."
 
 #: dialogs\dlgTrackProperties\tabBasic.html:19
 msgid "File name"
@@ -11506,11 +11503,11 @@ msgid ""
 "where a music collection is arranged in such a manner that each collection "
 "of tracks has an associated playlist that defines the Album."
 msgstr ""
-"Diese Einstellung legt fest, wie Albumtitel und Songreihenfolge zur "
-"Bibliothek hinzugefügt werden. Optionen sind 'Nur Tags', 'Tags, dann "
-"Playlisten' und 'Playlisten, dann Tags'. \"Nur Tags\" sollte immer verwendet "
-"werden, außer in Fällen, in denen das Archiv so organisiert ist, dass jeder "
-"Musiksammlung eine Wiedergabeliste zugeordnet ist, die das Album definiert."
+"Diese Einstellung definiert, wie Album-Titel- und Tracknummer ins Archiv "
+"übertragen werden. Die Optionen sind 'Nur Tags', 'Erst Tags, dann "
+"Wiedergabelisten' und 'Erst Wiedergabelisten, dann Tags'. 'Nur Tags' sollte "
+"normalerweise verwendet werden, außer wenn die Musiksammlung so strukturiert "
+"ist, dass jedes Album durch eine Wiedergabeliste definiert wird."
 
 #: dialogs\dlgOptions\pnl_Library.html:175
 msgid "Generate thumbnails for videos"
@@ -11752,7 +11749,7 @@ msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks. Do you want to proceed?"
 msgstr ""
-"Die Song# der %d gewählten Songs werden neu durchnummeriert. Willst du "
+"Die Track# der %d gewählten Tracks werden neu durchnummeriert. Wollen Sie "
 "fortfahren?"
 
 # Quicktime AAC/MP4 plug-in
@@ -11991,10 +11988,10 @@ msgid ""
 "here, you can edit them and merge to one album by setting the same album, "
 "album artist and year."
 msgstr ""
-"Wenn Sie mehrere Songs von unterschiedlichen Interpreten haben, die zu einem "
-"einzelnen Album gehören, kann MediaMonkey bei der Organisation helfen. Sie "
-"werden hier angezeigt. Sie können die Songs bearbeiten und zu einem Album "
-"zusammenführen, indem Sie Album, Album-Interpret und Jahr für alle gleich "
+"Wenn Sie in einem Album Tracks von unterschiedlichen Interpreten haben ("
+"Sampler, Compilation),  kann MediaMonkey beim Einordnen helfen. Die Tracks "
+"werden hier zum Bearbeiten angezeigt. Ein gemeinsames Album wird erzeugt, "
+"indem Sie die Felder Album, Album-Interpret und Jahr für alle Tracks gleich "
 "setzen."
 
 #: dialogs\dlgOptions\pnl_Search.html:21
