@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-03-26 17:31+0000\n"
+"PO-Revision-Date: 2022-03-27 22:15+0000\n"
 "Last-Translator: Leandro Botella Penalva <darklbp@outlook.com>\n"
 "Language-Team: Spanish <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/es/>\n"
@@ -1711,7 +1711,7 @@ msgstr "Búsqueda suave"
 
 #: out_MMDS_configDlg.js:74 out_WASAPI_configDlg.js:117
 msgid "Fades out on Stop"
-msgstr ""
+msgstr "Se desvanece al Detener"
 
 #: out_MMDS_configDlg.js:74 out_WASAPI_configDlg.js:117
 msgid "Smooth stop"
@@ -1771,7 +1771,7 @@ msgstr "Tamaños mínimos de buffer"
 
 #: out_WASAPI_configDlg.js:144
 msgid "Pull mode (event driven)"
-msgstr ""
+msgstr "Modo de extracción (basado en eventos)"
 
 #: out_WASAPI_configDlg.js:157 out_WASAPI_configDlg.js:178
 msgid "Shared mode"
@@ -9480,7 +9480,7 @@ msgstr "por Pista"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:29
 msgid "Scrobble content that"
-msgstr ""
+msgstr "Scrobble contenido que"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Submit tracks from Radio streams"
@@ -10421,7 +10421,7 @@ msgstr ""
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:3
 msgid "Scrobbler submission state"
-msgstr ""
+msgstr "Estado de envío del Scrobbler"
 
 #: controls\artistAlbums.html:37
 msgid "Broadcasts"
@@ -10912,6 +10912,15 @@ msgid ""
 "unselected content should be used carefully if the remote location contains "
 "new/modified content that isn't in the local database."
 msgstr ""
+"Elimina contenido remoto que no está seleccionado en la lista de "
+"Sincronización (ya sea todo el contenido sin seleccionar o solo el contenido "
+"sin seleccionar que existe en la base de datos local). La eliminación ocurre "
+"después de que el contenido remoto haya sido sincronizado (si esa opción "
+"está disponible/activada). En general, la eliminación debería estar activada "
+"para prevenir duplicados en la ubicación remota, pero la opción de eliminar "
+"'todo' el contenido no seleccionado debería ser utilizado con cuidado si la "
+"ubicación remota contiene contenido nuevo/modificado que no está en tu base "
+"de datos local."
 
 #: dialogs\dlgAutoOrganizeRule.html:10
 msgid "Organize these files using the following Directory and Filename format"
@@ -10921,7 +10930,7 @@ msgstr ""
 
 #: dialogs\dlgChooseFields.html:20
 msgid "Larger"
-msgstr ""
+msgstr "Más grande"
 
 #: dialogs\dlgCollectionOptions.html:78
 msgid "Choose"
@@ -10953,7 +10962,7 @@ msgstr "También busca actualizaciones de complementos."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:50
 msgid "Auto-tagging"
-msgstr ""
+msgstr "Auto-etiquetado"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:16
 msgid "Prevent switching to other application (Alt+Tab, Alt+Esc, Ctrl+Esc)"
@@ -10961,7 +10970,7 @@ msgstr "Prevenir el cambio a otra aplicación (Alt+Tab, Alt+Esc, Ctrl+Esc)"
 
 #: dialogs\dlgOptions\pnl_Performance.html:42
 msgid "This enables smooth scrolling of lists."
-msgstr ""
+msgstr "Esto activa el desplazamiento suave de las listas."
 
 #: dialogs\dlgOptions\pnl_Player.html:52
 msgid "Indicates how long the Pop-up should take to fade out"
@@ -10975,6 +10984,9 @@ msgid ""
 "track. It does so by limiting the volume adjustment when possible clipping "
 "is detected."
 msgstr ""
+"La prevención de recorte asegura que el nivelado de volumen no recorta la "
+"pista de audio. Lo hace limitando el ajustamiento del volumen cuando se "
+"detecta un posible recorte."
 
 #: dialogs\dlgTrackProperties\tabBasic.html:167
 msgid "Conductor(s)"
@@ -10990,11 +11002,11 @@ msgstr ""
 
 #: controls\windowtitle.html:20
 msgid "Close window"
-msgstr ""
+msgstr "Cerrar ventana"
 
 #: controls\deviceConfig\syncToDevice.html:29
 msgid "Keep this content locally cached"
-msgstr ""
+msgstr "Mantener este contenido cacheado localmente"
 
 #: controls\serverConfig\server.html:11
 msgid "A randomly generated IP port"
@@ -11005,6 +11017,8 @@ msgid ""
 "Unblocks connections from addresses outside the local network. Not "
 "recommended if Wi-Fi sync is enabled."
 msgstr ""
+"Desbloquea conexiones de direcciones afuera de la red local. No recomendado "
+"si la sincronización por Wi-Fi está activada."
 
 #: dialogs\dlgAddonInstall.html:29
 msgid "Version"
@@ -11040,7 +11054,7 @@ msgstr "Columnas seleccionadas"
 
 #: dialogs\dlgVideoMove.html:8
 msgid "Move video using sliders:"
-msgstr ""
+msgstr "Mover vídeo usado controles deslizantes:"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:3
 msgid "Organize files according to the following rules"
@@ -11053,6 +11067,11 @@ msgid ""
 "'Minimize to MiniPlayer', displays 'Playing list' files even when the main "
 "application is minimized."
 msgstr ""
+"Por defecto, MediaMonkey se minimiza a la barra de tareas. 'Minimizar a "
+"MicroReproductor' hace que al minimizarse aparezca como una barra de "
+"herramientas al lado de la bandeja del Sistema. 'Minimizar a "
+"MiniReproductor', muestra los archivos de la 'lista de Reproducción Actual' "
+"incluso cuando la aplicación principal está minimizada."
 
 #: dialogs\dlgOptions\pnl_Library.html:51
 msgid ""
@@ -11060,6 +11079,9 @@ msgid ""
 "(seconds) from being added to the Library, since it's unlikely that you "
 "really want such files to appear in your Library."
 msgstr ""
+"Esto previene que las pistas que tienen un tamaño (KB) o duración (segundos) "
+"menor al especificado se añadan a la Biblioteca, ya que es poco probable que "
+"quieras realmente que aparezcan estos archivos en tu Biblioteca."
 
 #: dialogs\dlgOptions\pnl_Library.html:5
 msgid "Add/Scan settings"
@@ -11163,7 +11185,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Player.html:41
 msgid "Pop-up display"
-msgstr ""
+msgstr "Pantalla emergente"
 
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid ""
@@ -11464,6 +11486,8 @@ msgstr ""
 #: dialogs\dlgWizard\pnlRegistration.html:15
 msgid "Plus improved performance and tuning options, Sleep timer, etc."
 msgstr ""
+"Además, rendimiento mejorado y opciones de ajuste, temporizador de "
+"Suspensión, etc."
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Recommends Artwork and track metadata for newly imported tracks"
@@ -11557,7 +11581,7 @@ msgstr "Sólo cuando esté inactivo"
 
 #: dialogs\dlgOptions\pnl_Player.html:51
 msgid "Causes the Pop-up to fade-out smoothly"
-msgstr ""
+msgstr "Hace que la ventana emergente desaparezca suavemente"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:34
 msgid "Modify timestamp when updating tags"
@@ -11602,7 +11626,7 @@ msgstr "Si no tienes una clave de licencia, puedes"
 
 #: dialogs\dlgSleep.html:13
 msgid "Fade volume"
-msgstr ""
+msgstr "Graduar volumen"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:29
 msgid "Rename custom fields (requires restart)"
@@ -11653,7 +11677,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Player.html:51
 msgid "Slow fade-out:"
-msgstr ""
+msgstr "Desvanecimiento lento:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:27
 msgid "Target volume for leveling tracks:"
@@ -12027,7 +12051,7 @@ msgstr "Hace que al buscar 'el' no se encuentren archivos que contengan 'ellos'"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:42
 msgid "Customize case for these words"
-msgstr ""
+msgstr "Personalizar mayúsculas/minúsculas para estas palabras"
 
 #, fuzzy
 #~| msgid "Deletes existing Hotkey"
