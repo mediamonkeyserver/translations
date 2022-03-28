@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-03-28 12:39+0000\n"
+"PO-Revision-Date: 2022-03-28 21:11+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -5963,7 +5963,7 @@ msgstr "Track# -Feld von %d gewählten Tracks werden neu durchnummeriert."
 
 #: Scripts/autoIncTrack/actions_add.js:22
 msgid "Start numbering from:"
-msgstr "Starte Nummerierung von:"
+msgstr "Starte Nummerierung bei:"
 
 #: Scripts/caseChecker/actions_add.js:2 Scripts/caseChecker/actions_add.js:12
 msgid "Case Checker"
@@ -5985,7 +5985,7 @@ msgstr "MediaMonkey-Dateiliste"
 #. Write some code to finish html document
 #: Scripts/export/actions_add.js:115
 msgid "Total Files"
-msgstr "Dateien Gesamt"
+msgstr "Anzahl Dateien"
 
 #: Scripts/export/actions_add.js:117 QueryManage.pas:4876 QueryManage.pas:4877
 msgid "Duration"
@@ -5999,7 +5999,7 @@ msgstr "Erzeugt von "
 #. Open inifile and get last used directory
 #: Scripts/exportPlaylists/actions_add.js:40
 msgid "Select where to export all M3U files"
-msgstr "Wählen Sie den Zielort für die M3U-Datei"
+msgstr "Wählen Sie den Zielort für die M3U-Dateien"
 
 #: Scripts/exportPodcasts/actions_add.js:2
 msgid "Export subscribed podcasts"
@@ -6086,7 +6086,7 @@ msgstr "%d Top-Interpreten"
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:373
 msgid "Top %d Artists played"
-msgstr "Top %d der gespielten Interpreten"
+msgstr "%d Top-Interpreten (gespielt)"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:404
@@ -6096,7 +6096,7 @@ msgstr "%d Top-Alben"
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:435
 msgid "Top %d Albums played"
-msgstr "Top %d der gespielten Alben"
+msgstr "%d Top-Alben (gespielt)"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:467
@@ -6106,17 +6106,17 @@ msgstr "%d Top-Genres"
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:494
 msgid "Top %d Genres played"
-msgstr "Top %d der gespielten Genres"
+msgstr "Top %d Genres (gespielt)"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:522
 msgid "Ratings"
-msgstr "Bewertung"
+msgstr "Bewertungen"
 
 #. rating played
 #: Scripts/statistics/dialogs/dlgStatistics.js:566
 msgid "Ratings played"
-msgstr "Abgespielte Bewertungen"
+msgstr "Bewertungen (gespielt)"
 
 #. disable auto sizing mechanism, we have fixed size
 #: Scripts/statistics/dialogs/dlgStatistics.js:605
@@ -7200,8 +7200,7 @@ msgstr "Zur Zeit ist kein Output-Plugin ausgewählt"
 
 #: FullPlayer.pas:2874
 msgid "Currently no input plug-in is in use (no file is playing)."
-msgstr ""
-"Zur Zeit ist kein Input-Plugin in Gebrauch (es wird keine Datei abgespielt)."
+msgstr "Zur Zeit ist kein Input-Plugin aktiv (es wird keine Datei abgespielt)."
 
 #. run in separate thread, as caller could be terminated too fast and message would not be shown
 #. no audio hw
@@ -10439,10 +10438,10 @@ msgid ""
 "a single file. By default the selected file and others subsequent to it "
 "play. The alternative is that only the selected file plays."
 msgstr ""
-"Bestimmt, wenn eine einzelne Datei mit dem Befehl \"Jetzt abspielen\" "
-"aufgerufen wird. Standardmäßig wird die ausgewählte Datei und die im "
-"Anzeigefenster darauf folgenden Tracks abgespielt. Alternativ kann nur die "
-"ausgewählte Datei abgespielt werden."
+"Bestimmt die Wirkung des Befehl \"Jetzt abspielen\" für eine einzelne Datei. "
+"Voreingestellt ist: Die ausgewählte Datei und die im Anzeigefenster darauf "
+"folgenden Tracks werden abgespielt. Alternativ wird nur die ausgewählte "
+"Datei abgespielt."
 
 #: dialogs\dlgOptions\pnl_Performance.html:36
 msgid "Lowest"
