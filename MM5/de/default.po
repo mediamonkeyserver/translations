@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-03-27 22:15+0000\n"
+"PO-Revision-Date: 2022-03-28 12:39+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -5532,15 +5532,15 @@ msgstr "Album-Interpret(en)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:465
 msgid "author"
-msgstr "autor"
+msgstr "Autor"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:466
 msgid "part"
-msgstr "teil"
+msgstr "Teil"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:466
 msgid "chapter"
-msgstr "kapitel"
+msgstr "Kapitel"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:491
 msgid "ensemble"
@@ -5552,16 +5552,16 @@ msgstr "Solist"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:492
 msgid "period"
-msgstr "periode"
+msgstr "Periode"
 
 #: dialogs/dlgTrackProperties/tabCustom.js:38
 msgid "Tag name"
-msgstr "Tag-Name"
+msgstr "Tag-Bezeichnung"
 
 #. do not save
 #: dialogs/dlgTrackProperties/tabCustom.js:71
 msgid "Tag value"
-msgstr "Tag Wert"
+msgstr "Tag-Wert"
 
 #: dialogs/dlgTrackProperties/tabDetails.js:53
 #: Scripts/statistics/dialogs/dlgStatistics.js:180
@@ -5621,7 +5621,7 @@ msgstr "Keine Infos anzeigen"
 
 #: helpers/artistDataSource.js:23
 msgid "artist info"
-msgstr "Interpret-Info"
+msgstr "Interpreten-Info"
 
 #. Follows a _very_ simple parser of XML used by iTunes
 #: helpers/artistDataSource.js:150 helpers/artistDataSource.js:167
@@ -5675,7 +5675,7 @@ msgstr "Erledigt"
 
 #: helpers/mediaSync.js:407
 msgid "There was a problem syncing \"%s\"."
-msgstr "Beim Synchronisieren von \"%s\" ist ein Problem aufgetreten."
+msgstr "Beim Synchronisieren mit \"%s\" ist ein Problem aufgetreten."
 
 #. servers.whenLoaded().then(_regProfiles); // commented because of #17638/3a
 #: helpers/mediaSync.js:610 helpers/mediaSync.js:2457
@@ -5698,14 +5698,14 @@ msgstr "2x / Tag"
 msgid ""
 "On sync, the database is updated with links to files and playlists from '%s'"
 msgstr ""
-"Beim Synchronisieren wird die Datenbank mit Links zu Dateien und "
+"Beim Synchronisieren wird die Datenbank incl. Links zu Dateien und "
 "Wiedergabelisten von '%s' aktualisiert"
 
 #: helpers/mediaSync.js:704
 msgid "Only include content that matches files already in the database"
 msgstr ""
-"Nur Inhalte einbeziehen, die mit Dateien übereinstimmen, welche bereits in "
-"der Datenbank vorhanden sind"
+"Nur Inhalte von Dateien einbeziehen, die bereits in der Datenbank vorhanden "
+"sind"
 
 #: helpers/mediaSync.js:705
 msgid ""
@@ -5718,16 +5718,15 @@ msgstr ""
 
 #: helpers/mediaSync.js:706
 msgid "Download '%s' content that is not accessible locally"
-msgstr ""
-"Herunterladen von '%s' Inhalten, auf die lokal nicht zugegriffen werden kann"
+msgstr "Lokal nicht verfügbaren Inhalt von '%s' herunterladen"
 
 #: helpers/mediaSync.js:707
 msgid ""
 "Downloads files and playlists from '%s' that are not accessible via the "
 "local drive or network"
 msgstr ""
-"Lädt Dateien und Wiedergabelisten von \"%s\" herunter, die weder über das "
-"lokale Laufwerk noch im Netzwerk zugänglich sind"
+"Lädt Dateien und Wiedergabelisten von \"%s\" herunter, die weder auf dem "
+"lokale Laufwerk noch im Netzwerk verfügbar sind"
 
 #: helpers/mediaSync.js:708
 msgid "Sync '%s' metadata to the Library"
@@ -5781,20 +5780,19 @@ msgid ""
 "It may take awhile for some devices, though."
 msgstr ""
 "Nach dem Scannen kann Mediamonkey den Inhalt des Gerätes genau anzuzeigen. "
-"Es kann eine Weile für einige Geräte dauern."
+"Das kann für einige Geräte eine Weile dauern."
 
 #: helpers/mediaSync.js:1011
 msgid "Scan as soon as the device is connected"
-msgstr "Nach dem Anschließen automatisch einlesen"
+msgstr "Nach Anschließen des Gerätes automatisch einlesen"
 
 #: helpers/mediaSync.js:1012
 msgid "This initiates an auto-sync whenever the device is plugged into the PC"
-msgstr ""
-"Startet den Auto-Sync-Vorgang sowie das Gerät an den PC angeschlossen ist"
+msgstr "Startet den Auto-Sync-Vorgang sobald das Gerät am PC angeschlossen ist"
 
 #: helpers/mediaSync.js:1012
 msgid "Auto-Sync as soon as the device is connected"
-msgstr "Nach dem Anschließen automatisch synchronisieren"
+msgstr "Nach dem Anschließen des Gerätes automatisch synchronisieren"
 
 #: helpers/mediaSync.js:1013
 msgid ""
@@ -5845,7 +5843,7 @@ msgstr ""
 
 #: helpers/mediaSync.js:2515
 msgid "Server is down!"
-msgstr "Server ist ausgefallen!"
+msgstr "Server ist ausgeschaltet!"
 
 #: helpers/mediaSync.js:2518
 msgid "Access is denied"
@@ -5946,8 +5944,8 @@ msgid ""
 "The color combination you chose would result in text being unreadable. "
 "Please choose a different color combination."
 msgstr ""
-"Die von Ihnen gewählte Farbkombination würde dazu führen, dass Text nicht "
-"lesbar ist. Bitte wählen Sie eine andere Farbkombination."
+"Die von Ihnen gewählte Farbkombination würde den Text unlesbar machen. Bitte "
+"wählen Sie eine andere Farbkombination."
 
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:6
 msgid "Side by side"
