@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-03-28 21:11+0000\n"
+"PO-Revision-Date: 2022-03-29 10:14+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -348,8 +348,8 @@ msgstr "Ordner hinzufügen"
 #: actions.js:1296
 msgid "Enter a link to a podcast OPML directory, to include in the list:"
 msgstr ""
-"Gib einen Link zu einem Podcast OPML Ordner an, der in die Liste aufgenommen "
-"werden soll"
+"Geben Sie einen Link zu einem Podcast OPML Ordner an, der in die Liste "
+"aufgenommen werden soll:"
 
 #: actions.js:1355
 msgid "&Add/Rescan files to the Library"
@@ -1801,7 +1801,7 @@ msgstr "Seitenverhältnis"
 #: MaskHelper.pas:3103 MaskHelper.pas:3626 MaskHelper.pas:3815
 #: ResStrings.pas:489
 msgid "Summary"
-msgstr "Zusammenfassung"
+msgstr "Übersicht"
 
 #: templates.js:499
 msgid "Open Link in New Tab"
@@ -2966,7 +2966,7 @@ msgstr "Alle Felder"
 #: controls/deviceConfig.js:320 controls/maskedit.js:334
 #: controls/tracklistFilter.js:573 controls\artistAlbums.html:40
 msgid "Other"
-msgstr "Andere"
+msgstr "belegt"
 
 #. Add Inspect Element popup command (chromium 39 or later)
 #: controls/control.js:1579
@@ -2991,7 +2991,7 @@ msgstr "Möchten Sie die Änderungen übernehmen?"
 
 #: controls/deviceConfig.js:90
 msgid "Sync list (Library --> Device)"
-msgstr "Syncliste (Archiv -> Gerät)"
+msgstr "Zu Synchronisieren (Archiv -> Gerät)"
 
 #: controls/deviceConfig.js:94
 msgid "Sync list (Device --> Library)"
@@ -4063,7 +4063,7 @@ msgstr "Archivinhalt zu '%s' hinzufügen"
 
 #: controls/deviceConfig/syncToDevice.js:496
 msgid "Delete other files and playlists from '%s'"
-msgstr "Andere Dateien und Wiedergabelisten von '%s' löschen"
+msgstr "Übrige Dateien und Wiedergabelisten von '%s' löschen"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:6
 msgid "Convert the following formats when syncing to '%s'"
@@ -4231,12 +4231,13 @@ msgstr "Bild-Download fehlgeschlagen"
 
 #: dialogs/dlgAutoConvertRule.js:89 FormatsManage.pas:4449
 #: FormatsManage.pas:4483 FormatsManage.pas:4539 controls\searchEditor.html:12
+#, fuzzy
 msgid "Any"
 msgstr "eines der"
 
 #: dialogs/dlgAutoConvertRule.js:90 FormatsManage.pas:4462
 msgid "Incompatible"
-msgstr "Inkompatibel"
+msgstr "Inkompatibles"
 
 #: dialogs/dlgAutoConvertRule.js:142
 msgid "Auto-conversion rule"
@@ -5712,9 +5713,8 @@ msgid ""
 "On sync, the database is only updated with links to files & playlists from "
 "'%s' that match files already in the database"
 msgstr ""
-"Beim Synchronisieren wird die Datenbank nur mit jenen Dateiverknüpfungen & "
-"Playlisten von '%s' aktualisiert, die mit bereits in der Datenbank "
-"befindlichen Dateien übereinstimmen"
+"Beim Sychronisieren werden nur bereits in der Datenbank vorhandene Dateien "
+"durch Links und Wiedergabelisten aus '%s' aktualisiert"
 
 #: helpers/mediaSync.js:706
 msgid "Download '%s' content that is not accessible locally"
@@ -5734,7 +5734,8 @@ msgstr "'%s' Metadaten mit dem Archiv synchronisieren"
 
 #: helpers/mediaSync.js:709
 msgid "Update metadata for matching tracks and playlists"
-msgstr "Metadaten für passende Tracks und Playlists aktualisieren"
+msgstr ""
+"Metadaten für übereinstimmende Tracks und Wiedergabelisten aktualisieren"
 
 #: helpers/mediaSync.js:845 helpers/mediaSync.js:3311
 msgid "Scanning"
@@ -5820,8 +5821,8 @@ msgstr ""
 #: helpers/mediaSync.js:2006
 msgid "There was a problem syncing \"%s\". It is turned off or inaccessible."
 msgstr ""
-"Beim Synchronisieren von \"%s\" ist ein Problem aufgetreten. Es ist "
-"ausgeschaltet oder unzugänglich."
+"Beim Synchronisieren ist ein Problem aufgetreten. '%s' ist ausgeschaltet "
+"oder nicht verfügbar."
 
 #. the track is accessible under the same path on the server -- it is the same track, use it (don't re-upload as it would result in copying file to itself!)
 #: helpers/mediaSync.js:2265 helpers/mediaSync.js:3711
@@ -5901,11 +5902,11 @@ msgstr "Passend"
 #. waiting for file conversion
 #: helpers/mediaSync.js:3785
 msgid "Downloading file: %s"
-msgstr "Datei wird heruntergeladen: %s"
+msgstr "Datei %s wird heruntergeladen"
 
 #: helpers/mediaSync.js:3788
 msgid "Converting file: %s"
-msgstr "Datei wird konvertiert: %s"
+msgstr "Datei %s wird konvertiert"
 
 #: helpers/mediaSync.js:3812
 msgid "Copying playlist %s"
@@ -5918,7 +5919,7 @@ msgstr "Erstellen von Wiedergabelisten"
 #. #17023 / item 1:
 #: helpers/mediaSync.js:3973 helpers/mediaSync.js:4133 CDUtils.pas:775
 msgid "Reading metadata"
-msgstr "Lesen von Metadaten"
+msgstr "Lese Metadaten"
 
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:4008
@@ -5953,13 +5954,13 @@ msgstr "Seite an Seite"
 
 #: Scripts/autoIncTrack/actions_add.js:4 Scripts/autoIncTrack/actions_add.js:20
 msgid "Auto-increment Track #s"
-msgstr "Nummeriere Tracks durch"
+msgstr "Erzeuge fortlaufende Tracknummern"
 
 #: Scripts/autoIncTrack/actions_add.js:22
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
-msgstr "Track# -Feld von %d gewählten Tracks werden neu durchnummeriert."
+msgstr "%d gewählte Tracks erhalten neue fortlaufende Nummern."
 
 #: Scripts/autoIncTrack/actions_add.js:22
 msgid "Start numbering from:"
@@ -6249,19 +6250,19 @@ msgstr "Es gab ein Fehler beim Herstellen der Verbindung zu "
 
 #: CDDBUtils.pas:257
 msgid "There was an error while connecting to Freedb: "
-msgstr "Es gab ein Fehler beim Herstellen der Verbindung zu FreeDB: "
+msgstr "Es gab ein Fehler beim Verbinden mit dem FreeDB-Server: "
 
 #: CDDBUtils.pas:502 CDDBUtils.pas:967
 msgid "Retrieving result %d of %d"
-msgstr "Erhalte Ergebnis %d von %d"
+msgstr "Rufe Ergebnis %d von %d ab"
 
 #: CDDBUtils.pas:743
 msgid "Opening connection"
-msgstr "Stelle Verbindung her"
+msgstr "Verbinde"
 
 #: CDDBUtils.pas:759
 msgid "Cannot create connection."
-msgstr "Kann Verbindung nicht herstellen."
+msgstr "Kann nicht verbinden."
 
 #: CDDBUtils.pas:1308
 msgid "Updating media %s (%d of %d)"
@@ -7146,7 +7147,7 @@ msgstr "Über %d"
 #: FormatsManage.pas:4529 FormatsManage.pas:4552 FormatsManage.pas:4577
 #: FormatsManage.pas:4590
 msgid "Between %d and %d"
-msgstr "Zwischen %d und %d"
+msgstr "zwischen %d und %d"
 
 #: FormatsManage.pas:4525 FormatsManage.pas:4529
 msgid "bits per sample"
@@ -11207,7 +11208,7 @@ msgstr ""
 "Funktion aktiviert ist. Beachten Sie, dass abgeleitete Eigenschaften im "
 "Archiv gespeichert werden, aber nicht in den Datei-Tags (für den Fall, dass "
 "die Information inkorrekt ist). Sobald Sie die Daten geprüft haben, können "
-"Sie die Tags manuell aktualisieren -- siehe \"Tags synchronisieren\""
+"Sie die Tags manuell aktualisieren -- siehe \"Tags synchronisieren\"."
 
 #: dialogs\dlgOptions\pnl_Library.html:174
 msgid ""
@@ -11534,7 +11535,7 @@ msgstr "Installieren Sie Software nur aus vertrauenswürdigen Quellen."
 
 #: dialogs\dlgAutoConvertRule.html:17
 msgid "When the format is"
-msgstr "Wenn Format gleich:"
+msgstr "Wenn Format gleich"
 
 #: dialogs\dlgChooseFields.html:9
 msgid "File type"
