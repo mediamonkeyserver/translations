@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-03-29 10:14+0000\n"
-"Last-Translator: Stefan Galler <inetaddy@stefangaller.de>\n"
+"PO-Revision-Date: 2022-03-30 15:43+0000\n"
+"Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
 "Language: de\n"
@@ -2327,7 +2327,7 @@ msgstr "Wollen Sie wirklich das Profil \"%s\" löschen?"
 
 #: viewHandlers.js:5607
 msgid "Disable"
-msgstr "Abschalten"
+msgstr "Deaktivieren"
 
 #. toggle
 #: viewHandlers.js:5629
@@ -2995,7 +2995,7 @@ msgstr "Zu Synchronisieren (Archiv -> Gerät)"
 
 #: controls/deviceConfig.js:94
 msgid "Sync list (Device --> Library)"
-msgstr "Liste synchronisieren (Gerät -> Archiv)"
+msgstr "Zu Synchronisieren (Gerät -> Archiv)"
 
 #: controls/deviceConfig.js:98
 msgid "Sync profile"
@@ -3043,7 +3043,7 @@ msgstr "Tracks mit hohen Bewertungen öfter synchronisieren"
 
 #: controls/deviceContentRandomizer.js:14
 msgid "Reserve"
-msgstr "Umgekehrt"
+msgstr "Freihalten"
 
 #: controls/deviceContentRandomizer.js:16
 msgid "MB of free space"
@@ -4113,7 +4113,7 @@ msgstr ""
 
 #: controls/deviceConfig/options/pnl_FileLocations.js:53
 msgid "Other locations on '%s' to scan for media files"
-msgstr "Andere Speicherorte auf '%s' für die Suche nach Mediendateien"
+msgstr "Weitere Speicherorte auf \"%s\" für die Suche nach Mediendateien"
 
 #: controls/deviceConfig/options/pnl_Playlists.js:9
 msgid "Also generate playlists on '%s' for:"
@@ -4233,7 +4233,7 @@ msgstr "Bild-Download fehlgeschlagen"
 #: FormatsManage.pas:4483 FormatsManage.pas:4539 controls\searchEditor.html:12
 #, fuzzy
 msgid "Any"
-msgstr "eines der"
+msgstr "beliebige"
 
 #: dialogs/dlgAutoConvertRule.js:90 FormatsManage.pas:4462
 msgid "Incompatible"
@@ -6262,7 +6262,7 @@ msgstr "Verbinde"
 
 #: CDDBUtils.pas:759
 msgid "Cannot create connection."
-msgstr "Kann nicht verbinden."
+msgstr "(Kein Netzwerk? Falsche Server-URL?)"
 
 #: CDDBUtils.pas:1308
 msgid "Updating media %s (%d of %d)"
@@ -6328,20 +6328,20 @@ msgstr "Hole Informationen von AccurateRip.com"
 #. we are not getting results for too long, ask user what to do...
 #: CDUtils.pas:1568 CDUtils.pas:1810
 msgid "Error ripping track"
-msgstr "Fehler beim Rippen des Tracks"
+msgstr "Fehler (Jitter) beim Rippen des Tracks"
 
 #. track doesn't exist or is a data track
 #: CDUtils.pas:1665
 msgid "The CD-ROM unit %s: does not contain track number %d."
-msgstr "CD-ROM %s: enthält keinen Track %d."
+msgstr "CD-ROM %s: enthält keinen Track mit Nr. %d."
 
 #: CDUtils.pas:1851
 msgid ""
 "There were %d jitter errors while reading track %d. It is very likely that "
 "audio data is corrupt."
 msgstr ""
-"Es gab %d Jitter-Fehler beim Lesen von Track %d. Es ist sehr wahrscheinlich, "
-"dass die Audiodaten fehlerhaft sind."
+"Es gab %d Jitter-Fehler beim Lesen von Track %d. Sehr wahrscheinlich sind "
+"die Audiodaten fehlerhaft."
 
 #: Covers.pas:745
 msgid "Not specified"
@@ -6361,7 +6361,7 @@ msgstr "Covereinlage"
 
 #: Covers.pas:749
 msgid "Media Label"
-msgstr "CD-Label"
+msgstr "Media-Label"
 
 #: Covers.pas:750
 msgid "Lead Artist"
@@ -6369,7 +6369,7 @@ msgstr "Haupt-Interpret"
 
 #: Covers.pas:753
 msgid "Band"
-msgstr "Gruppe"
+msgstr "Musik-Gruppe"
 
 #: Covers.pas:756
 msgid "Recording Location"
@@ -6410,7 +6410,7 @@ msgstr "Speichere im Tag"
 #. %s for image file name
 #: Covers.pas:1191
 msgid "Save to: %s"
-msgstr "Speichern unter: %s"
+msgstr "Speichern als: %s"
 
 #: Covers.pas:1193
 msgid "Stored in tag"
@@ -6419,14 +6419,14 @@ msgstr "Gespeichert im Tag"
 #. %s for image file name
 #: Covers.pas:1195
 msgid "Stored in %s"
-msgstr "Gespeichert in %s"
+msgstr "Gespeichert als %s"
 
 #: Covers.pas:2879
 msgid ""
 "All links to the image %s have been removed from the Library. Would you like "
 "to delete it from the drive as well?"
 msgstr ""
-"Alle Verweise auf das Bild %s wurden aus dem Archiv entfernt. Möchten sie es "
+"Alle Verweise auf das Bild %s wurden aus dem Archiv entfernt. Möchten Sie es "
 "auch vom Laufwerk löschen?"
 
 #. Get exclusive access to the DB
@@ -6434,12 +6434,11 @@ msgstr ""
 #: DatabaseManage.pas:953 DatabaseManage.pas:1772 DatabaseManage.pas:1774
 #: DatabaseManage.pas:1780
 msgid "Checking database structure"
-msgstr "Datenbankstruktur prüfen"
+msgstr "Prüfe Datenbankstruktur"
 
 #: DatabaseManage.pas:1752
 msgid "The database seems to be corrupted. Attempt to fix it ?"
-msgstr ""
-"Die Datenbank scheint beschädigt. Soll versucht werden, sie zu reparieren?"
+msgstr "Die Datenbank scheint beschädigt. Reparaturversuch starten?"
 
 #: DatabaseManage.pas:2963
 msgid "Do you really want to remove %d tracks from Virtual CD?"
@@ -6520,7 +6519,7 @@ msgstr "Ungruppierte Alben mit mehreren Interpreten"
 
 #: dblistutils.pas:1532
 msgid "Dead Links"
-msgstr "unauffindbare Dateien"
+msgstr "Tote Links"
 
 #: dblistutils.pas:1534
 msgid "Unanalyzed Volume"
@@ -6585,7 +6584,7 @@ msgid ""
 "Your Library is being upgraded to the latest version. It can take up to "
 "several minutes..."
 msgstr ""
-"Das Archiv wird auf die aktuelle Version aktualisiert. Das kann einige "
+"Das Archiv wird auf die neueste Version aktualisiert. Das kann einige "
 "Minuten dauern..."
 
 #: Devices.pas:2954 M3Umanage.pas:114
@@ -6599,7 +6598,7 @@ msgstr "Hinzugefügt von %s am %s"
 
 #: Devices.pas:3686
 msgid "Remove '%s' entries from the Library?"
-msgstr "'%s' Einträge aus dem Archiv entfernen?"
+msgstr "Einträge von \"%s\" aus dem Archiv entfernen?"
 
 #: Devices.pas:3691
 msgid "Delete downloaded content"
@@ -6836,15 +6835,15 @@ msgstr "Callstack"
 
 #: ExceptionHandler.pas:410
 msgid "There was a runtime error in Addon"
-msgstr "Es gab einen Laufzeitfehler in der Erweiterung"
+msgstr "Es gab einen Laufzeitfehler im Addon"
 
 #: ExceptionHandler.pas:410
 msgid "Do you want to disable this addon?"
-msgstr "Möchten Sie diese Erweiterung deaktivieren?"
+msgstr "Möchten Sie dieses Addon deaktivieren?"
 
 #: Extensions.pas:720
 msgid "Invalid Addon: only valid for MediaMonkey 4.x"
-msgstr "Inkompatible Erweiterung: läuft nur in MediaMonkey 4.x"
+msgstr "Inkompatibles Addon: läuft nur in MediaMonkey 4.x"
 
 #. show the addon's config immediatelly (so that users are aware)
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
@@ -6861,7 +6860,7 @@ msgid ""
 "This action will uninstall '%s'.\n"
 "Do you wish to continue?"
 msgstr ""
-"Hiermit wird '%s' deinstalliert.\n"
+"\"%s\" wird deinstalliert.\n"
 "Fortfahren?"
 
 #: Extensions.pas:1090 Extensions.pas:1109 Extensions.pas:1115
@@ -7184,7 +7183,7 @@ msgstr "H: "
 
 #: FormatsManage.pas:5090 FormatsManage.pas:5108 FormatsManage.pas:5121
 msgid "above"
-msgstr "über"
+msgstr "größer"
 
 #. using checkMedia removed, #18091
 #: FullPlayer.pas:2253
@@ -10771,9 +10770,8 @@ msgid ""
 "Automatically organizes files on the device according to the settings above. "
 "This can take a lot of time if the sync masks are modified."
 msgstr ""
-"Organisiert automatisch Dateien auf dem Gerät gemäß den obigen "
-"Einstellungen. Dies kann viel Zeit in Anspruch nehmen, wenn die "
-"Synchronisierungsfilter geändert werden."
+"Ordnet die Dateien auf dem Zielgerät nach oben stehenden Masken neu ein. "
+"Nach Ändern der Synchronisationsmasken kann das sehr lange dauern."
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
 msgid "Sync all Artwork to file folders"
