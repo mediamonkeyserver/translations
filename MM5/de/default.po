@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-03-31 12:02+0000\n"
+"PO-Revision-Date: 2022-04-02 11:48+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -967,7 +967,7 @@ msgstr "Als nächstes abspielen"
 #: actions.js:3043 MediaMonkeyApp.pas:8253
 #: dialogs\dlgOptions\pnl_OSIntegration.html:10
 msgid "Play last"
-msgstr "Als letztes abspielen"
+msgstr "Zuletzt abspielen"
 
 #: actions.js:3058 FileAssoc.pas:740 controls\playlistHeader.html:9
 msgid "Play"
@@ -4429,7 +4429,7 @@ msgstr "Bestätigung"
 
 #: dialogs/dlgDeleteConfirm.js:18
 msgid "Are you sure you want to delete"
-msgstr "Wollen Sie wirklich folgende Anzahl löschen"
+msgstr "Wollen Sie wirklich Folgendes löschen"
 
 #: dialogs/dlgDeleteConfirm.js:44
 msgid "Delete from the database only"
@@ -6313,8 +6313,8 @@ msgid ""
 "Track %s verified with confidence number %d (number of people matched your "
 "rip)"
 msgstr ""
-"Track %s mit Vertrauensindex %d geprüft (Anzahl der Anwender, bei denen das "
-"Einlesen übereinstimmt)"
+"Für Track %s wurde ein Vertrauensindex von %d ermittelt (Anzahl der Proben, "
+"bei denen die Prüfsumme übereinstimmt)"
 
 #: CDUtils.pas:1440
 msgid "this CD doesn't exist in the database"
@@ -6647,9 +6647,9 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-"Achtung: Wenn dieses Gerät bereits mit älteren MediaMonkey-Versionen "
-"synchronisiert wurde, wird empfohlen, die initiale Synchronisation über USB "
-"durchzuführen, um die Synchronisationskonfiguration zu erhalten."
+"Achtung: Wenn dieses Gerät bereits mit einer älteren MediaMonkey-Versionen "
+"synchronisiert wurde, sollte die initiale Synchronisation über USB "
+"durchgeführt werden, um die Synchronisationskonfiguration zu erhalten."
 
 #: Devices.pas:9683
 msgid "No / I'll sync over USB instead"
@@ -6665,9 +6665,8 @@ msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
 msgstr ""
-"Es ist nicht genug Speicherplatz auf dem Gerät vorhanden, um die gewählten "
-"Dateien zu synchronisieren. Möchten Sie Platz schaffen, indem Sie vorhandene "
-"Dateien löschen?"
+"Es passen nicht alle zum Synchronisieren gewählten Dateien auf das Ziel-"
+"Gerät. Möchten Sie Platz schaffen, indem Sie vorhandene Dateien löschen?"
 
 #. Clear tracks on the device
 #: Devices.pas:11080
@@ -6675,8 +6674,8 @@ msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
 msgstr ""
-"Es ist nicht genug Speicherplatz auf dem Gerät vorhanden, um die gewählten "
-"Dateien zu synchronisieren. Möchten Sie trotzdem fortfahren?"
+"Es passen nicht alle zum Synchronisieren gewählten Dateien auf das Ziel-"
+"Gerät. Möchten Sie trotzdem fortfahren?"
 
 #: Devices.pas:11594 FileUtils.pas:814 ResStrings.pas:564
 msgid "Insufficient space available."
@@ -6689,7 +6688,7 @@ msgstr "Problem beim Kopieren der Datei %s nach %s"
 #. e.g. to know it when the tracks are part of a playlist that need to be modified (e.g. on MMS)
 #: Devices.pas:12496
 msgid "File %s is not supported by the device"
-msgstr "Datei %s wird von dem Gerät nicht unterstützt"
+msgstr "Datei %s wird vom Gerät nicht unterstützt"
 
 #. no track being converted, see the tracks being downloaded from cloud
 #: Devices.pas:14862
@@ -6699,7 +6698,7 @@ msgstr "herunterladen"
 #. track has failed to convert
 #: Devices.pas:15310
 msgid "Conversion of file %s failed"
-msgstr "Konvertierung der Datei %s fehlgeschlagen"
+msgstr "Konvertieren der Datei %s fehlgeschlagen"
 
 #: ErrHandlers.pas:116
 msgid "File %s is read-only. Do you want to change it?"
@@ -6707,12 +6706,11 @@ msgstr "Datei %s ist schreibgeschützt. Wollen Sie das ändern?"
 
 #: ErrHandlers.pas:130
 msgid "The read-only attribute cannot be removed from the file %s."
-msgstr ""
-"Das Schreibschutz-Attribut kann bei der Datei %s nicht entfernt werden."
+msgstr "Der Schreibschutz der Datei %s kann nicht entfernt werden."
 
 #: ErrHandlers.pas:137
 msgid "There was a problem updating the tag for file %s."
-msgstr "Es gab ein Problem beim Aktualisieren der Tags bei der Datei %s."
+msgstr "Es gab ein Problem beim Aktualisieren der Tags in der Datei %s."
 
 #: ErrHandlers.pas:144
 msgid "File %s already exists. Do you want to replace it?"
@@ -6724,7 +6722,7 @@ msgid ""
 "Continue renaming without editing filenames?"
 msgstr ""
 "Manche Teile des Dateinamen %s überschreiten die 64-Zeichen-Begrenzung für "
-"CDs. Umbennen ohne Dateinamen zu ändern?"
+"CDs. Umbennen ohne Dateinamen zu bearbeiten?"
 
 #: ErrHandlers.pas:160
 msgid ""
@@ -6870,7 +6868,7 @@ msgstr "kein Update verfügbar"
 
 #: Extensions.pas:1097 dialogs\dlgExtensions.html:14
 msgid "Fetching update info"
-msgstr "Informationen zur Aktualisierung werden abgerufen"
+msgstr "Update-Informationen werden abgerufen"
 
 #: Extensions.pas:1180
 msgid "Update available"
@@ -6939,7 +6937,7 @@ msgid ""
 "MediaMonkey is all-in-one audio jukebox application that can organize your "
 "digital music collection."
 msgstr ""
-"MediaMonkey ist die All-In-One Jukebox-Lösung, die deine digitale "
+"MediaMonkey ist die All-In-One Musikbox-Lösung, die Ihre digitale "
 "Musiksammlung in Ordnung bringt."
 
 #: FileAssoc.pas:1135
@@ -6953,7 +6951,7 @@ msgstr "Audio-Datei"
 #: FileUtils.pas:598 Normalization.pas:1797
 msgid "The file is unavailable or you may not have permission to access it."
 msgstr ""
-"Die Datei ist nicht vorhanden oder Sie besitzen keine Zugriffsrechte darauf."
+"Die Datei ist nicht vorhanden oder Sie besitzen keine Zugriffsrechte dafür."
 
 #: FileUtils.pas:636
 msgid "Cannot create file %s."
@@ -6969,7 +6967,7 @@ msgstr "Medienserver-Cache"
 
 #: FileUtils.pas:2329
 msgid "Virtual CD content"
-msgstr "Virtuelle CD Inhalte"
+msgstr "Inhalte Virtueller CDs"
 
 #: FileUtils.pas:2332 UPnPTreeHelper.pas:1906
 msgid "Previews"
@@ -7014,11 +7012,11 @@ msgstr "Audio-Codec"
 #. type of bitrate
 #: FormatsHandler.pas:2868
 msgid "CBR 1 pass"
-msgstr "CBR 1 pass"
+msgstr "CBR 1-pass"
 
 #: FormatsHandler.pas:2870
 msgid "CBR 2 pass"
-msgstr "CBR 2 pass"
+msgstr "CBR 2-pass"
 
 #: FormatsHandler.pas:2879 dialogs\dlgWAVSettings.html:20
 msgid "Bits per sample"
@@ -7041,7 +7039,7 @@ msgstr "MediaMonkey kann nicht in dieses Format umwandeln."
 #. DRM
 #: FormatsManage.pas:1247 FullPlayer.pas:4338 GeneralDecoder.pas:441
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
-msgstr "Datei %s konnte nicht dekodiert werden. Evtl. ist Sie DRM-geschützt."
+msgstr "Datei %s kann nicht dekodiert werden. Evtl. ist sie DRM-geschützt."
 
 #: FormatsManage.pas:1249
 msgid "File %s was not successfully created."
@@ -7058,7 +7056,7 @@ msgid ""
 "There isn't enough free space to convert all files. Please clear space in "
 "the temporary directory"
 msgstr ""
-"Nicht genügend freier Speicherplatz um die Dateien zu konvertieren. Bitte "
+"Nicht genügend freier Speicherplatz zum Konvertieren der Dateien. Bitte "
 "machen Sie Speicherplatz im temporären Ordner frei"
 
 #: FormatsManage.pas:1436
@@ -7192,11 +7190,11 @@ msgstr "%d Datei(en) zur Abspielliste hinzugefügt"
 
 #: FullPlayer.pas:2410
 msgid "Clear Playing"
-msgstr "Inhalt der Wiedergabeliste löschen"
+msgstr "Inhalt der Abspielliste löschen"
 
 #: FullPlayer.pas:2860
 msgid "Currently, there is no output plug-in selected"
-msgstr "Zur Zeit ist kein Output-Plugin ausgewählt"
+msgstr "Zur Zeit ist kein Ausgabe-Plugin ausgewählt"
 
 #: FullPlayer.pas:2874
 msgid "Currently no input plug-in is in use (no file is playing)."
@@ -7222,7 +7220,7 @@ msgstr "Abspielen fehlgeschlagen: %s kann %s nicht dekodieren."
 
 #: FullPlayer.pas:4610
 msgid "Clean"
-msgstr "Unauffindbare Dateien bereinigen"
+msgstr "Unauffindbare Dateien entfernen"
 
 #: FullPlayer.pas:4770
 msgid "Randomize list"
@@ -7235,7 +7233,7 @@ msgstr "Keine Duplikate gefunden."
 
 #: FullPlayer.pas:4872
 msgid "Do you want to remove %d duplicate(s) Playing?"
-msgstr "Möchten Sie %d Duplikate aus der Wiedergabeliste entfernen?"
+msgstr "Möchten Sie %d Duplikat(e) aus der Liste entfernen?"
 
 #: FullPlayer.pas:6631
 msgid ""
@@ -7243,7 +7241,7 @@ msgid ""
 "you want to delete it?"
 msgstr ""
 "Datei %s wird abgespielt. Beim Löschen wird das Abspielen unterbrochen. "
-"Wollen Sie sie wirklich löschen?"
+"Wollen Sie die Datei wirklich löschen?"
 
 #: FullPlayer.pas:7572
 msgid "Computing waveform for file %s"
@@ -7261,7 +7259,7 @@ msgstr "Problem beim Dekodieren der Datei %s"
 
 #: GlobVars.pas:1877
 msgid "Do you want to use the database and settings from %s ?"
-msgstr "Möchten Sie die Datenbank und Einstellungen von %s verwenden?"
+msgstr "Möchten Sie die Datenbank und Einstellungen von %s übernehmen?"
 
 #: GlobVars.pas:1877 controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Import settings"
@@ -7313,27 +7311,27 @@ msgstr "Lautlos"
 
 #: Hotkeys.pas:698
 msgid "Volume Down"
-msgstr "Lautstärke leiser"
+msgstr "leiser"
 
 #: Hotkeys.pas:699
 msgid "Volume Up"
-msgstr "Lautstärke lauter"
+msgstr "lauter"
 
 #: Hotkeys.pas:700
 msgid "Media Next"
-msgstr "Medium nächstes"
+msgstr "Weiter"
 
 #: Hotkeys.pas:701
 msgid "Media Previous"
-msgstr "Medium letztes"
+msgstr "Zurück"
 
 #: Hotkeys.pas:702
 msgid "Media Stop"
-msgstr "Medium stop"
+msgstr "Stopp"
 
 #: Hotkeys.pas:703
 msgid "Media Play/Pause"
-msgstr "Medium Start/Pause"
+msgstr "Start/Pause"
 
 #: Hotkeys.pas:704
 msgid "Launch Mail"
@@ -7400,11 +7398,11 @@ msgstr "WinAmp"
 
 #: Importers.pas:891 Importers.pas:896
 msgid "Windows Media Player"
-msgstr "Windows Media Player"
+msgstr "Windows Media-Player"
 
 #: Importers.pas:1082
 msgid "Importing data from J. River Media Center..."
-msgstr "Importiere Daten vom J. River Media Center..."
+msgstr "Importiere Daten vom J. River Media-Center..."
 
 #: Importers.pas:1087
 msgid "J. River Media Center"
@@ -7412,7 +7410,7 @@ msgstr "JRiver Media Center"
 
 #: M3Umanage.pas:409
 msgid "Updating track numbers"
-msgstr "Aktualisiere Anzahl der Tracks"
+msgstr "Aktualisiere Track-Nummern"
 
 #: M3Umanage.pas:488
 msgid "Processing playlists"
@@ -9037,7 +9035,7 @@ msgstr "Lautstärke gerippter Tracks anpassen:"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:37
 msgid "Capitalize common abbreviations"
-msgstr "Gemeinsame Abkürzungen großschreiben"
+msgstr "Gebräuchliche Abkürzungen großschreiben"
 
 #: controls\autoConvertConfig.html:7
 msgid ""
@@ -9602,9 +9600,9 @@ msgid ""
 "or [enter] is pressed. Options are Play Now, Play Next, Play Last, or Edit "
 "Properties."
 msgstr ""
-"Bestimmt das Standardverhalten bei einem Doppelklick oder beim drücken von "
-"[Enter]. Die Optionen sind 'Jetzt abspielen', 'Als nächstes abspielen', "
-"'Zuletzt abspielen' oder 'Eigenschaften bearbeiten'."
+"Bestimmt das Standardverhalten bei einem Doppelklick oder beim Drücken von "
+"[Enter]. Die Optionen sind \"Jetzt abspielen\", \"Als nächstes abspielen\", "
+"\"Zuletzt abspielen\" oder \"Eigenschaften bearbeiten\"."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:20
 msgid "Display format for 'Track summary'  (e.g. in Player):"
@@ -10101,10 +10099,10 @@ msgid ""
 "being extracted from the CD-ROM. For some older drives, this should be "
 "disabled as it may reduce the quality of encoded files."
 msgstr ""
-"Beschleunigt das Rippen von CDs, indem die Audiodaten während der Extraktion "
-"von der CD-ROM in das gewählte Format kodiert werden. Für einige Laufwerke, "
-"besonders ältere, sollte die Beschleunigung deaktiviert werden, da sonst die "
-"Qualität der kodierten Dateien leidet."
+"Beschleunigt das Rippen von CDs, indem die Audiodaten schon beim Extrahieren "
+"von der CD-ROM in das gewählte Format kodiert werden. Dies sollte für einige "
+"Laufwerke, besonders ältere, deaktiviert werden, da sonst die Qualität der "
+"kodierten Dateien leiden könnte."
 
 #: dialogs\dlgSleep.html:23
 msgid "% of current volume"
@@ -10193,7 +10191,7 @@ msgstr "Archiv freigeben"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:24
 msgid "Only submit tracks that are part of the Library"
-msgstr "Nur Titel senden, die Teil des Archivs sind"
+msgstr "Nur Tracks senden, die im Archiv liegen"
 
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid "Show confirmation dialog"
@@ -10242,7 +10240,7 @@ msgstr ""
 "Aus den Audiosignalen jedes Tracks (nicht aus den Tags) wird eine Signatur "
 "erstellt, womit jeder Track eindeutig identifiziert werden kann. Dateien mit "
 "derselben Signatur werden im Archivbaum unter \"zu bearbeitende Dateien > "
-"Doppelter Inhalt\" angezeigt."
+"Doppelte Signatur\" angezeigt."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:21
 msgid "Audio CD playback"
@@ -10437,10 +10435,10 @@ msgid ""
 "a single file. By default the selected file and others subsequent to it "
 "play. The alternative is that only the selected file plays."
 msgstr ""
-"Bestimmt die Wirkung des Befehl \"Jetzt abspielen\" für eine einzelne Datei. "
-"Voreingestellt ist: Die ausgewählte Datei und die im Anzeigefenster darauf "
-"folgenden Tracks werden abgespielt. Alternativ wird nur die ausgewählte "
-"Datei abgespielt."
+"Bestimmt die Wirkung des Befehls \"Jetzt abspielen\" für eine einzelne "
+"Datei. Voreingestellt ist: Die ausgewählte Datei und die im Anzeigefenster "
+"darauf folgenden Tracks werden abgespielt. Alternativ wird nur die "
+"ausgewählte Datei abgespielt."
 
 #: dialogs\dlgOptions\pnl_Performance.html:36
 msgid "Lowest"
@@ -10875,7 +10873,7 @@ msgstr "Wähle"
 
 #: dialogs\dlgConvertFormat.html:44
 msgid "Eject CD after ripping"
-msgstr "Medium nach dem rippen auswerfen"
+msgstr "Medium nach dem Rippen auswerfen"
 
 #: dialogs\videoConvSettings.html:102
 msgid "Preserve aspect ratio"
@@ -11676,7 +11674,7 @@ msgstr "Drehbuchautor(en)"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:36
 msgid "Lowercase common short words"
-msgstr "Gängige kurze Wörter kleinschreiben"
+msgstr "Gängige kurze Wörter klein schreiben"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:23
 msgid "Recommended changes to capitalization"
