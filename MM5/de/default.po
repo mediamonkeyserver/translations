@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-04-05 12:57+0000\n"
+"PO-Revision-Date: 2022-04-05 17:19+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -6204,8 +6204,7 @@ msgstr "%d Dateien zu taggen"
 
 #: BaseApp.pas:6940
 msgid "There are background processes running. Terminate them?"
-msgstr ""
-"MediaMonkey arbeitet noch im Hintergrund. Alle Prozesse trotzdem abbrechen?"
+msgstr "Aktive Hintergrundprozesse abbrechen?"
 
 #: BaseMedia.pas:4545
 msgid "Channel"
@@ -8550,7 +8549,7 @@ msgstr "Modellbeschreibung"
 
 #: UpNp.pas:10931
 msgid "The link/URL has not been entered in a valid format"
-msgstr "Der Link / die URL wurde mit einem ungültigen Format eingegeben"
+msgstr "Ungültiges Format bei der Link/URL-Eingabe"
 
 #. try again after 1 second as in some environments the router re-configuration (OpenPort) makes temporal issues
 #: UpNp.pas:10954
@@ -8563,7 +8562,7 @@ msgstr "Das Abspielen auf %s ist fehlgeschlagen"
 
 #: UpNp.pas:12468
 msgid "The format is probably unsupported by the device."
-msgstr "Das Format wird vom Gerät vielleicht nicht unterstützt."
+msgstr "Das Format wird vom Gerät evtl. nicht unterstützt."
 
 #: UPnPTreeHelper.pas:873
 msgid "My Documents"
@@ -8571,7 +8570,7 @@ msgstr "Eigene Dateien"
 
 #: UPnPTreeHelper.pas:874
 msgid "My Desktop"
-msgstr "Arbeitsplatz"
+msgstr "Desktop"
 
 #: UPnPTreeHelper.pas:881
 msgid "Public"
@@ -8591,7 +8590,7 @@ msgstr "Die Datei %s konnte nicht erstellt werden."
 
 #: WebUtils.pas:5978
 msgid "Searching for updates..."
-msgstr "Nach Updates suchen..."
+msgstr "Suche nach Updates..."
 
 #: WebUtils.pas:6035
 msgid "Checking for new version..."
@@ -8626,7 +8625,9 @@ msgstr ""
 
 #: WMAUtils.pas:332
 msgid "WMA is not supported. The codec must first be installed."
-msgstr "WMA wird nicht unterstützt. Der Codec muss erst installiert werden."
+msgstr ""
+"WMA wird nicht unterstützt. Dafür muss der geeignete Codec installiert "
+"werden."
 
 #: controls\searchEditor.html:29
 msgid "Limit to"
@@ -8662,7 +8663,7 @@ msgstr "Sie können die Bezeichnung des benutzerdefinierten Felds ändern."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
-msgstr "Speichert die Änderungen des Tastenkürzels"
+msgstr "Speichert das geänderte Tastenkürzel"
 
 #: dialogs\dlgOptions\pnl_Library.html:147
 msgid ".nfo files"
@@ -8675,15 +8676,14 @@ msgid ""
 "highly organized directory structure, in which case 'Filename + Path' will "
 "yield better results."
 msgstr ""
-"Datei-Eigenschaften können aus 'Dateiname' oder aus 'Dateiname + Pfad' "
+"Datei-Eigenschaften können aus \"Dateiname\" oder aus \"Dateiname + Pfad\" "
 "abgeleitet werden. Allgemein ist es besser, nur vom Dateinamen abzuleiten, "
 "außer die Dateien sind in einer gut organisierten Ordnerstruktur gespeichert."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:2
 msgid ""
 "If enabled, will prompt for a password when attempting to exit Party Mode."
-msgstr ""
-"Wenn aktiviert, wird beim Beenden des Party-Modus ein Passwort verlangt."
+msgstr "Wenn aktiviert, wird zum Beenden des Party-Modus ein Passwort verlangt."
 
 #: dialogs\dlgOptions\pnl_Performance.html:43
 msgid "Enable smooth scrolling"
@@ -8691,7 +8691,7 @@ msgstr "Weichen Bildlauf aktivieren"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:21
 msgid "ID3v2 text encoding:"
-msgstr "ID3v2-Tag-Kodierung:"
+msgstr "ID3v2-Text-Kodierung:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:12
 msgid "ID3v2.3 tags"
@@ -8725,12 +8725,12 @@ msgid ""
 "is an Album or Artist."
 msgstr ""
 "Legt fest, ob Wiedergabelisten für Alben, Künstler, etc. in separaten "
-"Verzeichnissen oder einfach mit vorangestelltem Text, ob es ein Album oder "
-"Interpret ist, gespeichert werden."
+"Verzeichnissen gespeichert werden oder einfach durch vorangestellten Text "
+"auf Album oder Interpret hingewiesen wird."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "Use Linux folder separator ('/' instead of '\\')"
-msgstr "Linux-Trennzeichen verwenden ('/' anstatt '\\')"
+msgstr "Linux-Trennzeichen verwenden (\"/\" anstatt \"\\\")"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:32
 msgid "Use extended M3U"
@@ -8765,11 +8765,13 @@ msgstr "Audioformat"
 
 #: dialogs\dlgOptions\pnl_General.html:38
 msgid "Minimizes to the MiniPlayer"
-msgstr "Minimiert in den MiniPlayer"
+msgstr "Wechselt in den MiniPlayer"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:15
 msgid "Causes the Hotkey to function even when MediaMonkey isn't in focus"
-msgstr "Tastenkürzel funktionieren auch dann, wenn MediaMonkey nicht aktiv ist"
+msgstr ""
+"Globale Tastenkürzel funktionieren auch dann, wenn MediaMonkey im "
+"Hintergrund läuft"
 
 #: dialogs\dlgOptions\pnl_InputPlugins.html:4
 msgid "About..."
@@ -8777,23 +8779,23 @@ msgstr "Über..."
 
 #: dialogs\dlgOptions\pnl_Library.html:81
 msgid "Show scan results dialog when scan is done."
-msgstr "Resultate im Dialogfeld anzeigen, sobald der Scan abgeschlossen ist."
+msgstr "Ergebnisse im Dialogfeld anzeigen, sobald der Scan abgeschlossen ist."
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:11
 msgid ""
 "Saves auto-converted content to a temporary cache so that it can be re-used, "
 "as needed."
 msgstr ""
-"Speichert automatisch konvertierten Inhalt im temporären Cache ab, damit er "
+"Speichert automatisch konvertierten Inhalt im temporären Cache, damit er "
 "gegebenenfalls wiederverwendet werden kann."
 
 #: dialogs\dlgOptions\pnl_Performance.html:37
 msgid "Lower"
-msgstr "Niedrigere"
+msgstr "Niedriger"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disable crossfading"
-msgstr "Überblendung deaktivieren"
+msgstr "Überblenden deaktivieren"
 
 #: dialogs\dlgOptions\pnl_Player.html:73
 msgid "Opaque"
@@ -8937,17 +8939,17 @@ msgid ""
 "English characters. Note that some players may not support unicode .m3u "
 "playlists."
 msgstr ""
-"Hiermit speichert MediaMonkey .m3u-Dateien in einem Format, in dem nicht-"
-"englische Zeichen erhalten bleiben. Beachten Sie, dass manche Abspielgeräte "
-"keine Unicode-Wiedergabelisten unterstützen."
+"Hiermit speichert MediaMonkey .m3u-Dateien in einem Format, in dem "
+"internationale Zeichen erhalten bleiben. Beachten Sie, dass manche "
+"Abspielgeräte keine Unicode-Wiedergabelisten unterstützen."
 
 #: dialogs\dlgWizard\pnlRegistration.html:8
 msgid ""
 "full auto-tagging functionality (faster, unlimited lookups, and background "
 "lookups)"
 msgstr ""
-"vollständige automatische Tagging-Funktionalität (schnellere, unbegrenzte "
-"Suchvorgänge und Hintergrundsuchvorgänge)"
+"vollautomatische Tagging-Funktionen (schnellere, unbegrenzte Such- und "
+"Hintergrundsuchvorgänge)"
 
 #: controls\windowtitle.html:18
 msgid "Maximize window"
@@ -9024,10 +9026,9 @@ msgid ""
 "Series/Movie is contained within a folder b) for all images when multiple "
 "Albums/Series/Movies are contained within a folder."
 msgstr ""
-"Deser Dateiname wird immer dann verwendet, wenn der Ordner mehr als ein Bild "
-"beinhaltet. Es wird verwendet für a) weitere Bilder bei nur einem Album/"
-"einer Serie/eines Film pro Ordner b) für alle Bilder, wenn ein Ordner "
-"mehrere Alben/Serien/Filme enthält."
+"Dieser Dateiname wird verwendet, wenn ein Ordner mehr als ein Bild enthält. "
+"Für a) weitere Bilder bei nur einem Album/einer Serie/eines Film pro Ordner "
+"b) für alle Bilder, wenn ein Ordner mehrere Alben/Serien/Filme enthält."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:36
 msgid "Level ripped tracks:"
@@ -9043,7 +9044,7 @@ msgid ""
 "files). Mainly for older devices that can't adjust volume on the fly via "
 "Replay Gain tags."
 msgstr ""
-"Passt die Dateien auf die gewählte lautstärke an (verlustfrei nur für "
+"Passt die Dateien auf die gewählte Lautstärke an (verlustfrei nur für "
 "MP3-Dateien). Hauptsächlich für ältere Geräte, die die Lautstärke nicht im "
 "laufenden Betrieb über lautstärke -Tags anpassen können."
 
@@ -9103,8 +9104,9 @@ msgid ""
 "This option causes MediaMonkey to never truly close--it always runs in the "
 "background, and is always accessible via the system tray."
 msgstr ""
-"MediaMonkey wird nicht beendet -- das Programm läuft im Hintergrund weiter "
-"und ist über die Taskleiste erreich-und bedienbar."
+"MediaMonkey wird beim Schließen des Fensters mit X nicht beendet -- das "
+"Programm läuft im Hintergrund weiter und ist über die Taskleiste erreich- "
+"und bedienbar."
 
 #: dialogs\dlgOptions\pnl_General.html:32
 msgid "Minimizes to the Taskbar"
@@ -11229,7 +11231,9 @@ msgstr "\"Jetzt abspielen\" Aktion:"
 #: dialogs\dlgOptions\pnl_Player.html:55
 msgid ""
 "Causes the Pop-up to appear only if MediaMonkey is minimized or inactive"
-msgstr "Zeigt das Pop-up nur, wenn MediaMonkey minimiert oder inaktiv ist"
+msgstr ""
+"Zeigt das Pop-up nur, wenn das MediaMonkey-Fenster nicht aktiv oder "
+"minimiert ist"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:10
 msgid ""
@@ -11494,7 +11498,7 @@ msgstr "Mit dieser Einstellung füllt MediaMonkey den gesamten Bildschirm aus."
 
 #: dialogs\dlgOptions\pnl_Player.html:55
 msgid "Only when inactive"
-msgstr "Nur wenn inaktiv"
+msgstr "Nur bei nicht aktivem oder minimierten Fenster"
 
 #: dialogs\dlgOptions\pnl_Player.html:51
 msgid "Causes the Pop-up to fade-out smoothly"
