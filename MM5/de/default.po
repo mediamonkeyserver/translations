@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-04-05 17:19+0000\n"
+"PO-Revision-Date: 2022-04-07 10:11+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -545,7 +545,7 @@ msgstr "Archiv"
 #: dialogs/dlgOptions/pnl_Performance.js:11 ResStrings.pas:365
 #: controls\searchEditor.html:11
 msgid "All"
-msgstr "alle"
+msgstr "jedes"
 
 #: actions.js:1708 actions.js:9031
 msgid "Explorer"
@@ -1389,7 +1389,7 @@ msgstr "Aktuelles Bild vom Video verwenden"
 
 #: actions.js:5109
 msgid "Audio streams"
-msgstr "Audio Streams"
+msgstr "Audio-Streams"
 
 #. fill info about subtitle stream
 #: actions.js:5136 BaseMedia.pas:4649
@@ -2845,7 +2845,7 @@ msgstr "Hintergrundbild"
 #. F10 - toggle automatic preset change
 #: controls/baseVis.js:114 controls/baseVis.js:115
 msgid "Automatic preset change"
-msgstr "Automatisches Ändern der Voreinstellungen"
+msgstr "Automatisches Wechseln der Presets"
 
 #: controls/baseVis.js:114 controls/player.js:292
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:5
@@ -3442,7 +3442,7 @@ msgstr "Zum Mini-/Micro-Player wechseln"
 #: controls/playlistEditor.js:57
 msgid "Drag and drop or Send tracks to the playlist to populate it."
 msgstr ""
-"Senden oder Ziehen sie Tracks in die Wiedergabeliste um sie zu befüllen."
+"Senden oder Ziehen Sie Tracks in die Wiedergabeliste um sie zu befüllen."
 
 #: controls/playlistHeader.js:121
 msgid "Edit in Playlist Panel"
@@ -3512,8 +3512,8 @@ msgstr "Suchtipps"
 #: controls/searchBar.js:696
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
-"+Roc | Findet Wörter die mit Roc beginnen (Achtung: Groß-/Kleinschreibung "
-"beachten, z.B. Rock)"
+"+Foo | Findet Wörter die mit Foo beginnen (Achtung: Groß-/Kleinschreibung "
+"beachten, z.B. Football)"
 
 #: controls/searchBar.js:699
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -3527,11 +3527,13 @@ msgstr "foo bar | Findet Übereinstimmungen mit foo und bar"
 
 #: controls/searchBar.js:701
 msgid "foo OR bar | finds matches with either foo or bar"
-msgstr "foo ODER bar | Findet Übereinstimmungen mit foo oder bar"
+msgstr ""
+"foo OR bar | Findet Übereinstimmungen sowohl mit \"foo\" als auch mit \"bar\""
 
 #: controls/searchBar.js:702
 msgid "foo -bar | finds matches with foo and not bar"
-msgstr "foo -bar | Findet Übereinstimmungen mit foo und nicht bar"
+msgstr ""
+"foo -bar | Findet Übereinstimmungen mit \"foo\" die \"bar\" nicht enthalten"
 
 #: controls/searchBar.js:703
 msgid "fieldname:foo | restricts search to a specific field. For example:"
@@ -3542,8 +3544,8 @@ msgstr ""
 msgid ""
 "artist:floy | finds words beginning with floy (in Artist) e.g. Pink Floyd"
 msgstr ""
-"artist:floy | findet Wörter beginnend mit floy (im Interpreten-Feld) z.B. "
-"Pink Floyd"
+"artist:floy | findet im Interpreten-Feld Wörter, die mit \"floy\" beginnen "
+"z.B. Pink Floyd"
 
 #: controls/searchBar.js:705
 msgid "year:2000..2006 | finds matches in range 2000 to 2006"
@@ -4028,7 +4030,7 @@ msgstr "Unterstützte Formate auf '%s'"
 #: controls/clientConfig/autoConvert.js:9
 #: controls/serverConfig/autoConvert.js:7
 msgid "Level volume when sharing audio"
-msgstr "Laustärke beim Freigeben anpassen"
+msgstr "Lautstärke beim Freigeben anpassen"
 
 #: controls/deviceConfig/options.js:9
 msgid "File Locations"
@@ -4231,9 +4233,8 @@ msgstr "Bild-Download fehlgeschlagen"
 
 #: dialogs/dlgAutoConvertRule.js:89 FormatsManage.pas:4449
 #: FormatsManage.pas:4483 FormatsManage.pas:4539 controls\searchEditor.html:12
-#, fuzzy
 msgid "Any"
-msgstr "beliebige"
+msgstr "beliebiges"
 
 #: dialogs/dlgAutoConvertRule.js:90 FormatsManage.pas:4462
 msgid "Incompatible"
@@ -5001,7 +5002,7 @@ msgstr "Das Archiv hat jetzt %d Dateien"
 
 #: dialogs/dlgScanResults.js:22
 msgid "Search and update took %s"
-msgstr "Suche und Aktualisierung dauerte %s"
+msgstr "Suchen und Aktualisieren dauerte %s"
 
 #: dialogs/dlgScanResults.js:23
 msgid "Imported %d new files"
@@ -5633,7 +5634,7 @@ msgstr "Tracks"
 #: helpers/autoDJ.js:19 Filters.pas:3414 MediaMonkeyApp.pas:8236
 #: ResStrings.pas:415
 msgid "Entire Library"
-msgstr "Gesamten Archiv"
+msgstr "Gesamtes Archiv"
 
 #: helpers/autoDJ.js:84
 msgid "Collection"
@@ -5672,7 +5673,7 @@ msgstr "Überspringen"
 
 #: helpers/autoTagFramework.js:289 dialogs\dlgWizard.html:16
 msgid "Done"
-msgstr "Erledigt"
+msgstr "Fertig"
 
 #: helpers/mediaSync.js:407
 msgid "There was a problem syncing \"%s\"."
@@ -6163,7 +6164,7 @@ msgstr "Spezialepisode"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:253
 msgid "Select preset"
-msgstr "Voreinstellungen verwenden"
+msgstr "Presets auswählen"
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -7930,7 +7931,7 @@ msgstr "Erstelle Vorschaubild $act$ von $tot$ ($name$)"
 
 #: Normalization.pas:450
 msgid "Saving tags"
-msgstr "Tags speichern"
+msgstr "Speichere Tags"
 
 #: Normalization.pas:1221
 msgid "%d of %d (%s)"
@@ -8360,9 +8361,10 @@ msgid ""
 "example, browse your classical music collection independently of your other "
 "music. Collections can only be edited with the Gold version."
 msgstr ""
-"Auswahlen ermöglichen die Unterteilung des Archivs, so dass Sie z.B. durch "
-"Ihre klassische Musik unabhängig von Ihrer anderen Musik navigieren können. "
-"Eine persönliche Auswahl kann nur mit MediaMonkey Gold erstellt werden."
+"Auswahlen ermöglichen die Unterteilung des Archivs, so dass Sie z.B. "
+"unabhängig von den übrigen Tracks durch Ihre klassische Musik navigieren "
+"können. Eine persönliche Auswahl kann nur mit MediaMonkey Gold erstellt "
+"werden."
 
 #: ResStrings.pas:575
 msgid "Information"
@@ -8398,7 +8400,7 @@ msgstr "der letzten 2 Tage"
 
 #: ResStrings.pas:715
 msgid "from the past 3 days"
-msgstr "der letzten 3 Wochen"
+msgstr "der letzten 3 Tage"
 
 #: ResStrings.pas:716
 msgid "from the past week"
@@ -8434,11 +8436,11 @@ msgstr "Ihr Computer wird in den Ruhezustand versetzt"
 
 #: Shutdowner.pas:197
 msgid "Your computer is going to sleep"
-msgstr "Ihr Computer wird heruntergefahren"
+msgstr "Ihr Computer schaltet auf Standby"
 
 #: Shutdowner.pas:209
 msgid "Your computer is going to log off"
-msgstr "Ihr Computer wird abgemeldet"
+msgstr "Sie melden sich von Ihrem Computer ab"
 
 #: Shutdowner.pas:259
 msgid "Sleep: %d minutes"
@@ -8451,7 +8453,7 @@ msgstr "Einschlafen: %d Minute"
 #. #13718 - item 1
 #: UpNp.pas:2462
 msgid "Casting"
-msgstr "Teilen"
+msgstr "Casting"
 
 #: UpNp.pas:3612
 msgid "MediaMonkey Library"
@@ -8495,7 +8497,7 @@ msgstr "Dies ist eine externe IP-Adresse!"
 
 #: UpNp.pas:5619 UpNp.pas:5626
 msgid "Do you want to grant it access?"
-msgstr "Möchten Sie die Freigabe erteilen?"
+msgstr "Möchten Sie ihm Zugriff gewähren?"
 
 #. Access is not allowed, ask user to allow access
 #: UpNp.pas:5750
@@ -8509,23 +8511,23 @@ msgstr "Zugriff verweigert"
 
 #: UpNp.pas:8390
 msgid "Connecting to"
-msgstr "Verbinden mit"
+msgstr "Verbinde mit"
 
 #. some players (e.g. Samsung) requires Stop before setting another track (#10298: Next has no effect when player is Samsung TV)
 #: UpNp.pas:8480
 msgid "Stopping on"
-msgstr "Abspielen kurz unterbrechen auf"
+msgstr "Abspielen unterbrechen auf"
 
 #. #18691
 #: UpNp.pas:8554
 msgid "The %s player is turned off or inaccessible."
-msgstr "Das %s gerät ist ausgeschaltet oder nicht verfügbar."
+msgstr "Das Abspielgerät %s ist ausgeschaltet oder nicht verfügbar."
 
 #. #18189 - to advance to next track when screen is dimmed (and player seekbar rendering inactive)
 #. to not show "turned off or inaccessible" message, but just skip to the next file
 #: UpNp.pas:8837 UpNp.pas:12401
 msgid "Buffering on"
-msgstr "Pufferung von Daten ein"
+msgstr "Datenpufferung"
 
 #: UpNp.pas:9114
 msgid "Multi-zone"
@@ -8554,7 +8556,7 @@ msgstr "Ungültiges Format bei der Link/URL-Eingabe"
 #. try again after 1 second as in some environments the router re-configuration (OpenPort) makes temporal issues
 #: UpNp.pas:10954
 msgid "The link/URL entered does not point to a media server device"
-msgstr "Die URL / der Link verweist nicht auf einen Medienserver"
+msgstr "URL/Link verweist nicht auf einen Medienserver"
 
 #: UpNp.pas:12468
 msgid "Playing to %s has failed"
@@ -8807,7 +8809,7 @@ msgstr "Standardaktion \"Jetzt abspielen\""
 
 #: dialogs\dlgOptions\pnl_Player.html:46
 msgid "Indicates how long the Pop-up should display"
-msgstr "Stellt ein, wie lange das Pop-up angezeigt werden soll"
+msgstr "Bestimmt die Anzeigedauer des Popups"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:15
 msgid "ID3v1 and v2.4 tags"
@@ -8820,8 +8822,8 @@ msgid ""
 "that do not have such a coefficient."
 msgstr ""
 "Wenn aktiviert, benutzt MediaMonkey die Ergebnisse der Lautstärkeanalyse zur "
-"Regelung der Lautstärke im Player auf die eingestellten dB . Tracks ohne "
-"vorherige Lautstärkeanalyse werden nicht davon beeinflusst."
+"Regelung der Lautstärke im Player auf den eingestellten dB-Wert . Tracks "
+"ohne vorherige Lautstärkeanalyse werden nicht davon beeinflusst."
 
 #: controls\windowtitle.html:19
 msgid "Restore window"
@@ -8834,7 +8836,7 @@ msgstr "Automatisch für alle neuen Geräte freigeben"
 #: dialogs\dlgAddonInstall.html:49
 msgid "Malicious software can damage your computer or violate your privacy."
 msgstr ""
-"Böswillige Software kann deinen Computer beschädigen oder deine Privatsphäre "
+"Böswillige Software kann Ihren Computer beschädigen oder Ihre Privatsphäre "
 "verletzen."
 
 #: dialogs\dlgAutoConvertRule.html:49
@@ -8859,7 +8861,7 @@ msgstr "Nur eine Programm-Instanz von MediaMonkey erlauben"
 
 #: dialogs\dlgOptions\pnl_General.html:25
 msgid "Shows the MediaMonkey icon in the system tray"
-msgstr "Zeigt das MediaMonkey-Symbol Infobereich der Taskleiste an"
+msgstr "Zeigt das MediaMonkey-Symbol im Infobereich der Taskleiste an"
 
 #: dialogs\dlgOptions\pnl_Library.html:127
 msgid "Video properties:"
@@ -8867,7 +8869,7 @@ msgstr "Video-Eigenschaften:"
 
 #: dialogs\dlgOptions\pnl_Library.html:66
 msgid "Only for files with changed timestamp or size"
-msgstr "Nur für Dateien mit verändertem Zeitstempel oder Größe"
+msgstr "Nur für Dateien bei denen Zeitstempel oder Größe geändert wurden"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:18
 msgid "This locks the current configuration of Party Mode."
@@ -8895,7 +8897,7 @@ msgstr "Cache"
 
 #: Scripts\statistics\dialogs\dlgStatistics.html:24
 msgid "Fetching data"
-msgstr "Daten abrufen"
+msgstr "Hole Daten"
 
 #: dialogs\dlgAutoOrganizeRule.html:8
 msgid "File Criteria"
@@ -8923,15 +8925,16 @@ msgid ""
 "added to the Playing list when it runs out."
 msgstr ""
 "Die Auto-DJ-Funktion fügt automatisch Tracks zur Abspielliste hinzu, bevor "
-"diese endet."
+"diese leerläuft."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:9
 msgid "Confirm desired options on removal of files from Playlist"
-msgstr "Entfernen von Dateien aus einer Wiedergabeliste bestätigen"
+msgstr ""
+"Optionen beim Entfernen von Dateien aus einer Wiedergabeliste bestätigen"
 
 #: dialogs\dlgOptions\pnl_General.html:7
 msgid "Check for updates (when connected)"
-msgstr "Nach Updates suchen (bei Internetverbindung)"
+msgstr "Auf Updates prüfen (bei Internetverbindung)"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -8957,7 +8960,7 @@ msgstr "Fenster maximieren"
 
 #: controls\clientConfig\autoConvert.html:2
 msgid "Customize for this device"
-msgstr "Für dieses Gerät bearbeiten"
+msgstr "Für dieses Gerät anpassen"
 
 #: controls\deviceConfig\syncFromDevice.html:8
 msgid ""
@@ -8965,9 +8968,9 @@ msgid ""
 "Note that content already synced from the PC to the Device will update "
 "within the existing locations."
 msgstr ""
-"Wählen Sie den Ordner auf dem PC, zu dem neuer Inhalt vom Gerät "
-"synchronisiert wird. Beachte, dass der bereits synchronisierte Inhalt vom PC "
-"auf dem Gerät aktualisiert wird."
+"Wählen Sie den Zieldordner zum Synchronisieren vom Gerät auf den PC. Dabei "
+"werden die vorher vom PC auf das Gerät synchronisierten Daten durch die "
+"geänderten Daten vom Gerät am bestehenden Speicherort überschrieben."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:14
 msgid "Selected folder nodes"
@@ -9044,24 +9047,24 @@ msgid ""
 "files). Mainly for older devices that can't adjust volume on the fly via "
 "Replay Gain tags."
 msgstr ""
-"Passt die Dateien auf die gewählte Lautstärke an (verlustfrei nur für "
-"MP3-Dateien). Hauptsächlich für ältere Geräte, die die Lautstärke nicht im "
-"laufenden Betrieb über lautstärke -Tags anpassen können."
+"Codiert die Dateien mit der gewählte Lautstärke neu (verlustfrei nur für MP3)"
+". Hauptsächlich für ältere Geräte ohne die Fähigkeit, die Lautstärke beim "
+"Abspielen über Lautstärke -Tags zu berücksichtigen."
 
 #: controls\devicesView.html:31
 msgid ""
 "For example 192.168.1.130:55963. You can find this in the server's settings."
 msgstr ""
-"Zum Beispiel 192.168.1.130:55963. Die Adresse finden Sie in den "
+"Zum Beispiel 192.168.178.30:55963. Die Adresse finden Sie in den "
 "Einstellungen des Servers."
 
 #: controls\searchEditor.html:9
 msgid "Match"
-msgstr "Übereinstimmung"
+msgstr "Übereinstimmung:"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:18
 msgid "Playlist format"
-msgstr "listeformat"
+msgstr "Format der Wiedergabeliste"
 
 #: controls\serverConfig\devices.html:2
 msgid "Update play count when playing remotely"
@@ -9073,7 +9076,7 @@ msgstr "Lange Pfade/Dateinamen kürzen"
 
 #: dialogs\dlgMovedFiles.html:8
 msgid "Update the Library with the new location for the following files:"
-msgstr "Das Archiv mit dem neuen Speicherort folgender Dateien aktualisieren:"
+msgstr "Im Archiv für folgender Dateien den neuen Speicherort eintragen:"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:11
 msgid ""
@@ -9082,10 +9085,9 @@ msgid ""
 "'Beatles' will appear directly adjacent to one another if this is enabled "
 "and 'the' is configured."
 msgstr ""
-"Hiermit werden Präfixe beim Sortieren der Interpreten ignoriert (zu "
-"ignorierende Präfixe durch ',' trennen). Wenn die Option aktiviert ist und "
-"'the' als Präfix verwendet wird, erscheinen zum Beispiel 'The Beatles' und "
-"'Beatles' direkt hintereinander."
+"Beim Sortieren kann MediaMonkey die hier gelisteten Präfixe ignorieren ("
+"mehrere Werte durch \",\" trennen). So erscheinen z.B. \"The Beatles\" und "
+"\"Beatles\" direkt hintereinander, wenn \"the' als Präfix verwendet wird."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:6
 msgid ""
@@ -9130,7 +9132,7 @@ msgstr "last.fm über das Abspielen von Tracks benachrichtigen"
 
 #: controls\searchEditor.html:14
 msgid "of the following criteria"
-msgstr "folgenden Kriterien"
+msgstr "folgende Kriterium"
 
 #: controls\deviceConfig\syncToDevice.html:22
 msgid "Unselected Library files"
@@ -9143,12 +9145,12 @@ msgstr "Dieses Format wird von einigen Geräten unterstützt"
 #: controls\deviceConfig\options\pnl_Tagging.html:5
 msgid "Copies tagged artwork to folders for devices that don't read image tags"
 msgstr ""
-"Kopiert markierte Bilder in den Ordner (für Geräte die Bilder nicht aus dem "
-"Tag lesen können)"
+"Kopiert markierte Bilder in Ordner (für Geräte die Bilder nicht aus Tags "
+"lesen können)"
 
 #: controls\serverConfig\server.html:21
 msgid "Accept external IP addresses"
-msgstr "Akzeptiert externe IP-Adressen"
+msgstr "Externe IP-Adressen erlauben"
 
 #: dialogs\dlgAddArtwork.html:37
 msgid "Apply to all files in the Album/Series"
@@ -9177,8 +9179,9 @@ msgid ""
 "the background."
 msgstr ""
 "Ordnet Dateien automatisch nach den oben definierten Regeln ein, sobald sie "
-"in das Archiv aufgenommen werden. Aktivieren Sie die Ordner-Überwachung zur "
-"vollständigen Automatisierung."
+"in das Archiv aufgenommen werden. Zur automatischen Übernahme neuer Dateien "
+"ins Archiv aktivieren Sie: Dateien neu ins Archiv aufnehmen: "
+"Ablaufplan=ständig."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:14
 msgid ""
@@ -9186,8 +9189,9 @@ msgid ""
 "playing file from the system, since doing so will cause an interruption of "
 "playback."
 msgstr ""
-"Wenn aktiviert, wird MediaMonkey Sie fragen, ob Sie die aktuell spielende "
-"Datei wirklich löschen möchten, denn damit würde das Abspielen unterbrochen."
+"Wenn aktiviert, wird MediaMonkey Sie fragen, ob Sie den aktuell "
+"spielendenTrack wirklich löschen möchten, und somit das Abspielen "
+"unterbrechen."
 
 #: dialogs\dlgOptions\pnl_Download.html:8
 msgid "Number of concurrent downloads:"
@@ -9204,17 +9208,17 @@ msgid ""
 "priority of these background tasks. By default it is set to 'Lower' so that "
 "these tasks don't slow down other operations."
 msgstr ""
-"MediaMonkey vollführt viele Aktionen im Hintergrund: CD-Rippen, "
-"Konvertierungen, Taggen, Lautstärkeanpassung, etc. Diese Option ändert die "
-"Priorität dieser Hintergrund-Tätigkeiten. Die Standardeinstellung ist "
-"'Niedriger', so dass andere Anwendungen nicht verlangsamt werden."
+"MediaMonkey führt viele Prozesse im Hintergrund aus: CD-Rippen, "
+"Konvertieren, Taggen, Lautstärkeanpassung usw. Hier können Sie deren "
+"Priorität ändern. Die Standardvorgabe ist \"Niedriger\", sodass andere "
+"Anwendungen nicht verlangsamt werden."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:5
 msgid ""
 "Saves playback position (great for Audiobooks) for files of the selected "
 "type."
 msgstr ""
-"Speichert die Abspielposition für Dateien der angegebenen Typen (ideal für "
+"Speichert die Abspielposition für Tracks der angegebenen Typen (ideal für "
 "Hörbücher)."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
@@ -9231,7 +9235,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:3
 msgid "Target volume levels"
-msgstr "Ziel-lautstärke"
+msgstr "Ziel-Lautstärke"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:124
 msgid "Album artist(s)"
@@ -9243,7 +9247,7 @@ msgstr "Mein Archiv"
 
 #: dialogs\dlgAutoorganize.html:26
 msgid "Resulting directories and filenames:"
-msgstr "Zu erstellende Ordner und Dateinamen:"
+msgstr "Neue Ordner und Dateinamen:"
 
 #: dialogs\dlgAutotag.html:19
 msgid "Allow compilations"
@@ -9267,7 +9271,7 @@ msgstr "Höhe"
 
 #: dialogs\dlgSupportedFormats.html:9
 msgid "Select formats supported on the target"
-msgstr "Wählen Sie die unterstützen Formate des Gerätes"
+msgstr "Wählen Sie die vom Gerätes unterstützen Formate"
 
 #: dialogs\videoConvSettings.html:47
 msgid "small"
@@ -9278,9 +9282,9 @@ msgid ""
 "This specifies a single character used to enter multiple values within a "
 "field (e.g. Rock;Folk). Spaces determine how the character is displayed."
 msgstr ""
-"Hier wird ein einzelnes Zeichen angegeben, das zur Eingabe mehrerer Werte in "
-"einem Feld verwendet wird (z. B. Rock;Folk). Leerzeichen bestimmen, wie das "
-"Zeichen angezeigt wird."
+"Hier wird ein Trennzeichen für die Abgrenzung mehrerer Werte in einem Feld "
+"angegeben (z. B. Rock;Folk). Leerzeichen davor oder dahinter bestimmen, wie "
+"das Zeichen angezeigt wird."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
@@ -9399,7 +9403,7 @@ msgstr "< Entfernen"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:21
 msgid "Add files from:"
-msgstr "Füge Dateien hinzu aus:"
+msgstr "Quelle für Track-Auswahl:"
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:4
 msgid "Configure..."
@@ -9503,7 +9507,7 @@ msgstr "Beim Herunterladen die Episoden aus Daten vom Podcast Feed taggen"
 
 #: dialogs\dlgScanResults.html:10
 msgid "View log"
-msgstr "Protokoll anschauen"
+msgstr "Protokoll anzeigen"
 
 #: dialogs\dlgTrackProperties.html:12
 msgid "Update & Previous song (Alt-Left)"
@@ -9544,7 +9548,7 @@ msgstr "Originaltitel"
 msgid ""
 "Advanced Library management tools to help organize your library more "
 "efficiently:"
-msgstr "Erweiterte Werkzeuge zur effizienteren Organisation Ihrer :"
+msgstr "Erweiterte Werkzeuge zur effizienteren Organisation Ihres Archivs:"
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Auto-sync playlists and new files from the device to the PC"
@@ -10119,8 +10123,8 @@ msgid ""
 "If enabled, MediaMonkey will prompt you whether to move the entire folder or "
 "only Library content within."
 msgstr ""
-"Aktiviert die Abfrage, ob Sie den gesamten Datei-Ordner oder nur die Archiv-"
-"Inhalte verschieben möchten."
+"Aktiviert die Abfrage, ob Sie den gesamten Datei-Ordner oder nur die darin "
+"enthaltenen Archiv-Inhalte verschieben möchten."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:23
 msgid "Deletes existing Hotkey"
@@ -10358,7 +10362,7 @@ msgstr "Analysiert die Laustärke der Tracks automatisch als Hintergrundprozess"
 
 #: dialogs\dlgWizard\pnlRegistration.html:10
 msgid "analyze volume automatically"
-msgstr "lautstärke automatisch analysieren"
+msgstr "Lautstärke automatisch analysieren"
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Lookup missing information via Auto-tag (Registered users only)"
@@ -10511,8 +10515,8 @@ msgid ""
 "If enabled, MediaMonkey will prompt you whether to copy the entire folder or "
 "only Library content within."
 msgstr ""
-"Aktiviert die Abfrage, ob Sie den gesamten Datei-Ordner oder nur die Archiv-"
-"Inhalte kopieren möchten."
+"Aktiviert die Abfrage, ob Sie den gesamten Datei-Ordner oder nur die darin "
+"enthaltenen Archiv-Inhalte kopieren möchten."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:21
 msgid "Confirm scan results"
@@ -10614,7 +10618,7 @@ msgstr "Dateien mit neuem Ziel konvertieren"
 
 #: dialogs\dlgExtensions.html:19
 msgid "Get more addons"
-msgstr "Weitere Addons finden"
+msgstr "Weitere Addons Online"
 
 #: dialogs\dlgMediaProperties.html:14
 msgid "Serial"
@@ -10630,7 +10634,7 @@ msgstr "Abonnement beenden und Episoden löschen"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:7
 msgid "Automatically maintain at least"
-msgstr "Füge automatisch mindestens"
+msgstr "Halte mindestens"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:20
 msgid "Choose where Auto-DJ should add tracks from"
@@ -10664,7 +10668,7 @@ msgstr "Untätig"
 
 #: dialogs\dlgWizard\pnlRegistration.html:11
 msgid "use custom Collections for sub-libraries"
-msgstr "Archiv-Unterknoten nach benutzerdefinierten Kriterien erstellen"
+msgstr "Archiv-Unterknoten (Auswahl) nach eigenen Kriterien erstellen"
 
 #: dialogs\dlgWizard\pnlScan.html:20
 msgid ""
@@ -10758,11 +10762,11 @@ msgid ""
 "g. MediaMonkey for Android) sync wirelessly. You'll be prompted to grant "
 "access for each remote device that attempts to connect."
 msgstr ""
-"UPnP/DLNA-Clients (TV, DVD-Spieler, Xbox, PS3, etc.) in Ihrem Netzwerk "
-"Zugriff auf die MediaMonkey- gewähren und es MediaMonkey-Clients ("
-"MediaMonkey für Android, MediaMonkey für Windows 8/RT) erlauben, drahtlos zu "
-"synchronisieren. Sie werden aufgefordert, jeden Verbindungsversuch eines "
-"Remote-Gerätes zu gestatten."
+"Sie können UPnP/DLNA-Clients (TV, DVD-Spieler, Xbox, PS3, etc.) in Ihrem "
+"Netzwerk Zugriff auf das MediaMonkey-Archiv gewähren und es MediaMonkey-"
+"Clients (MediaMonkey für Android, MediaMonkey für Windows) erlauben, "
+"drahtlos zu synchronisieren. Jede (neu) Verbindung eines Remote-Gerätes muss "
+"von Ihnen zugelassen werden."
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:80
 msgid ""
@@ -11099,7 +11103,7 @@ msgstr "sortieren nach"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in Playing list"
-msgstr "gespielte Dateien in der Abspielliste"
+msgstr "gespielte Stück(e) in der Abspielliste"
 
 #: dialogs\dlgOptions\pnl_Download.html:21
 msgid "Every week"
@@ -11403,8 +11407,8 @@ msgid ""
 "Custom Auto-conversion rules to convert files on-the-fly so that they can "
 "play on any device."
 msgstr ""
-"Benutzerdefinierte Regeln, um Dateien während des Streamens so zu "
-"konvertieren, dass sie auf jedem Gerät abgespielt werden können."
+"Benutzerdefinierte Regeln für das automatische Konvertieren von Dateien "
+"während des Streamens. Erlaubt das Abspielen auf jedem Gerät."
 
 #: dialogs\dlgWizard\pnlRegistration.html:15
 msgid "Plus improved performance and tuning options, Sleep timer, etc."
@@ -11554,7 +11558,7 @@ msgstr "Benutzerdefinierte Felder umbenennen (erfordert Neustart)"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in Playing list"
-msgstr "anstehende Dateien in die Abspielliste ein"
+msgstr "Tracks automatisch in der Abspielliste vor"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:2
 msgid "Set the default directory / filename format for specified files."
