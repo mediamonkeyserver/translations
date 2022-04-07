@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-04-07 10:11+0000\n"
-"Last-Translator: Enrico Balke <enrico.balke@gmx.de>\n"
+"PO-Revision-Date: 2022-04-07 15:30+0000\n"
+"Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
 "Language: de\n"
@@ -3900,7 +3900,7 @@ msgstr "Texter"
 #: MaskHelper.pas:3783 QueryManage.pas:4748 ResStrings.pas:487
 #: dialogs\dlgTrackProperties\tabDetails.html:5
 msgid "Grouping"
-msgstr "Stück/Werk"
+msgstr "Werk"
 
 #: controls/trackListView.js:1446 dialogs/dlgAutotag.js:1878
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:143
@@ -6250,7 +6250,7 @@ msgstr "Es gab ein Fehler beim Herstellen der Verbindung zu "
 
 #: CDDBUtils.pas:257
 msgid "There was an error while connecting to Freedb: "
-msgstr "Es gab ein Fehler beim Verbinden mit dem FreeDB-Server: "
+msgstr "Es gab ein Fehler beim Verbinden mit dem GnuDB-Server: "
 
 #: CDDBUtils.pas:502 CDDBUtils.pas:967
 msgid "Retrieving result %d of %d"
@@ -6270,12 +6270,12 @@ msgstr "Aktualisiere Medium %s (%d von %d)"
 
 #: CDDBUtils.pas:1814
 msgid "The media for the Freedb query is unavailable."
-msgstr "Das Medium für die FreeDB-Abfrage ist nicht verfügbar."
+msgstr "Das Medium für die GnuDB-Abfrage ist nicht verfügbar."
 
 #: CDDBUtils.pas:1896
 msgid "Please select an Audio CD before requesting information from Freedb."
 msgstr ""
-"Bitte wählen Sie eine Audio-CD aus, bevor Sie Informationen von FreeDB "
+"Bitte wählen Sie eine Audio-CD aus, bevor Sie Informationen von GnuDB "
 "abfragen."
 
 #: CDDBUtils.pas:1913
@@ -6284,7 +6284,7 @@ msgstr "Frage Information ab für %s (%d von %d)"
 
 #: CDDBUtils.pas:1961 CDDBUtils.pas:1986
 msgid "This Audio CD was not found in Freedb."
-msgstr "Diese Audio CD konnte nicht bei FreeDB gefunden werden."
+msgstr "Diese Audio-CD wurde bei GnuDB nicht gefunden."
 
 #: CDUtils.pas:775 ResStrings.pas:368
 msgid "Audio CD"
@@ -8353,7 +8353,7 @@ msgstr ""
 
 #: ResStrings.pas:562
 msgid "Time-out error occured while connecting to Freedb."
-msgstr "Zeitüberschreitung beim Verbinden mit FreeDB."
+msgstr "Zeitüberschreitung beim Verbinden mit GnuDB."
 
 #: ResStrings.pas:568
 msgid ""
@@ -9323,7 +9323,7 @@ msgid ""
 "proxy server settings, check with your administrator."
 msgstr ""
 "Wenn Ihr Netzwerk über einen Proxy Server verfügt müssen Sie diesen "
-"konfigurieren, um FreeDB-HTTP-Verbindungen und mp3/Ogg-Streaming zu "
+"konfigurieren, um GnuDB-HTTP-Verbindungen und mp3/Ogg-Streaming zu "
 "ermöglichen. Bei Fragen zum Proxy Server wenden Sie sich an ihren "
 "Administrator."
 
@@ -9594,7 +9594,7 @@ msgstr "Autom. konvertierten Inhalt zwischenspeichern in:"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:34
 msgid "Freedb (CDDBP)"
-msgstr "Freedb (CDDBP)"
+msgstr "GnuDB (CDDBP)"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:11
 msgid "Saves the change without confirmation."
@@ -9802,8 +9802,8 @@ msgid ""
 "If enabled, MediaMonkey will prompt you whenever an edit operation modifies "
 "more than 50 files at once."
 msgstr ""
-"Wenn aktiviert, wird MediaMonkey nach einer Bestätigung fragen, sowie mehr "
-"wie 50 Dateien gleichzeitig geändert werden."
+"Aktiviert eine Bestätigung, wenn mehr als 50 Dateien gleichzeitig geändert "
+"werden sollen."
 
 #: dialogs\dlgOptions\pnl_Download.html:4
 msgid "Default download location:"
@@ -9897,20 +9897,21 @@ msgstr ""
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Syncs files from the selected folders on the device to the PC."
 msgstr ""
-"Synchronisiert Dateien aus den ausgewählten Ordnern auf dem Gerät mit dem PC."
+"Synchronisiert Dateien von den ausgewählten Ordnern auf dem Gerät zum PC."
 
 #: dialogs\dlgAutoorganize.html:9
 msgid "Move and rename files to new destination based on file tags"
 msgstr ""
-"Dateien automatisch gemäß der Datei-Eigenschaften verschieben und umbenennen"
+"Zum automatischen Verschieben und Umbenennen von Dateien die Datei-Tags "
+"auslesen"
 
 #: dialogs\dlgCollectionOptions.html:12
 msgid "Collection name"
-msgstr "Auswahl"
+msgstr "Auswahl-Name"
 
 #: dialogs\dlgMP3Settings.html:94
 msgid "Strict ISO compliance"
-msgstr "Strikte ISO-Einhaltung"
+msgstr "Strikte ISO-Konformität"
 
 #: dialogs\dlgPodcastSubscription.html:61
 msgid "1 day"
@@ -9945,8 +9946,8 @@ msgid ""
 "This setting determines whether MediaMonkey searches file directories for "
 "artwork and links it to tracks as they are added to the Library."
 msgstr ""
-"Bestimmt ob MediaMonkey in Verzeichnissen nach Cover-Bildern sucht und sie "
-"mit den Tracks verknüpft, wenn diese ins Archiv aufgenommen werden."
+"Bestimmt ob MediaMonkey in Ordnern nach Bildern sucht und diese mit den "
+"Tracks bei Aufnahme ins Archiv verknüpft."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:88
 msgid ""
@@ -9960,12 +9961,12 @@ msgstr "Die Menüleiste wird vollständig ausgeblendet."
 #: dialogs\dlgOptions\pnl_PartyMode.html:24
 msgid "Allows music to be lowered/paused for announcements during a party"
 msgstr ""
-"Erlaubt für Ansagen während Parties die Lautstärke der Musik zu senken/zu "
-"unterbrechen"
+"Erlaubt es, für Ansagen während Partys die Lautstärke zu senken oder das "
+"Abspielen zu unterbrechen"
 
 #: dialogs\dlgOptions\pnl_Search.html:22
 msgid "Search the following fields via the Search bar:"
-msgstr "Nach folgenden Feldern über die Suchleiste suchen:"
+msgstr "Folgenden Felder per Suchleiste durchsuchen:"
 
 #: dialogs\dlgTrackProperties\tabArtwork.html:7
 msgid "Apply to all selected"
@@ -10011,7 +10012,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:19
 msgid "Show splash screen at startup"
-msgstr "Startbildschirm anzeigen"
+msgstr "Begrüßungsbild beim Programmstart anzeigen"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:19
 msgid "Available elements"
@@ -10035,11 +10036,11 @@ msgstr "AutoPlay-Funktion anzeigen für:"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:24
 msgid "DVD video playback"
-msgstr "DVD Video abspielen"
+msgstr "DVD-Video abspielen"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:18
 msgid "Accept input/control of MediaMonkey player via UPnP/DLNA"
-msgstr "Steuerung von MediaMonkey über UPnP/DLNA erlauben"
+msgstr "Steuerung des MediaMonkey-Players über UPnP/DLNA erlauben"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:7
 msgid "Store MP3 file properties using:"
@@ -10052,17 +10053,18 @@ msgid ""
 "characters appear. Some players may have trouble reading Unicode tags, "
 "though."
 msgstr ""
-"ASCII & Unicode schreibt ID3v2-Tags im ASCII-Format. Treten z.B. im Titel "
-"nicht-englischen Zeichen wird automatisch Unicode verwendet -- allerdings "
-"haben manche Abspielgeräte Schwierigkeiten beim Auslesen von Unicode-Tags."
+"Mit ASCII + Unicode werden ID3v2-Tags im Prinzip als ASCII gespeichert. "
+"Treten aber, z.B. im Titel, nicht-ASCII-Zeichen auf, wird automatisch "
+"Unicode verwendet -- allerdings haben manche Abspielgeräte Schwierigkeiten "
+"beim Auslesen von Unicode-Tags."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:54
 msgid ""
 "If enabled, a warning is provided whenever duplicate files are added to a "
 "playlist."
 msgstr ""
-"Wenn aktiviert, wird eine Warnmeldung ausgegeben, wenn Dateien mehrfach zu "
-"einer Wiedergabelisten hinzugefügt werden."
+"Sie können eine Warnmeldung aktivieren, wenn Dateien mehrfach zu einer "
+"Wiedergabeliste hinzugefügt werden."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:56
 msgid "Clipping prevention"
@@ -10082,7 +10084,7 @@ msgstr "Relative Pfade erzwingen"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:9
 msgid "Copy Artwork to file tags"
-msgstr "Albumcover in Tags übernehmen"
+msgstr "Bilder in Datei-Tags speichern"
 
 #: controls\serverConfig\content.html:9
 msgid ""
@@ -10128,24 +10130,24 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:23
 msgid "Deletes existing Hotkey"
-msgstr "Löscht ein Tastenkürzel"
+msgstr "Löscht gewähltes Tastenkürzel"
 
 #: dialogs\dlgOptions\pnl_Library.html:57
 msgid "Ignore files shorter than"
-msgstr "Dateien ignorieren mit weniger als"
+msgstr "Dateien ignorieren die kürzer sind als"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:35
 msgid "Freedb (HTTP)"
-msgstr "Freedb (HTTP)"
+msgstr "GnuDB (HTTP)"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:39
 msgid ""
 "Configure which server to use. The main server is entered by default, "
 "although you may want to change this to a server closer to your location."
 msgstr ""
-"Konfigurieren Sie hier, welcher Server verwendet werden soll. Der "
-"Hauptserver ist standardmäßig eingegeben, aber diesen können Sie "
-"gegebenenfalls durch einen Server ersetzen, der näher an Ihrem Wohnort liegt."
+"Geben sie hier die URL des Servers ein (ohne http://). Der Hauptserver ist "
+"vorgegeben, lässt sich aber durch einen Server ersetzen, der z.B. näher an "
+"Ihrem Wohnort liegt. (Beispiel: gnudb.gnudb.org)."
 
 #: dialogs\dlgOptions\pnl_Performance.html:33
 msgid "Priority for background tasks"
