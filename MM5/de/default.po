@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-04-07 15:30+0000\n"
+"PO-Revision-Date: 2022-04-08 15:44+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -34,7 +34,7 @@ msgstr "Extras"
 
 #: actions.js:71 controls/player.js:150
 msgid "Playback"
-msgstr "Wiedergabe"
+msgstr "Abspielen"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. moved at top in #16542
@@ -1019,7 +1019,7 @@ msgstr "Wiederholen aus"
 
 #: actions.js:3263
 msgid "One"
-msgstr "Einer"
+msgstr "Ein"
 
 #. Screen reader support
 #: actions.js:3266 controls/player.js:303 controls/player.js:332
@@ -5022,7 +5022,7 @@ msgstr "Import von %d Dateien fehlgeschlagen"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
-msgstr "D&ateien ins Archiv aufnehmen/aktualisieren..."
+msgstr "Dateien ins Archiv aufnehmen/aktualisieren..."
 
 #: dialogs/dlgSearch.js:9
 msgid "AutoPlaylist criteria"
@@ -8942,9 +8942,9 @@ msgid ""
 "English characters. Note that some players may not support unicode .m3u "
 "playlists."
 msgstr ""
-"Hiermit speichert MediaMonkey .m3u-Dateien in einem Format, in dem "
-"internationale Zeichen erhalten bleiben. Beachten Sie, dass manche "
-"Abspielgeräte keine Unicode-Wiedergabelisten unterstützen."
+"Beim Speichern der .m3u-Dateien als UTF-8-Unicode, bleiben internationale "
+"Zeichen erhalten. Beachten Sie, dass manche Abspielgeräte keine Unicode-"
+"Wiedergabelisten unterstützen."
 
 #: dialogs\dlgWizard\pnlRegistration.html:8
 msgid ""
@@ -9030,8 +9030,9 @@ msgid ""
 "Albums/Series/Movies are contained within a folder."
 msgstr ""
 "Dieser Dateiname wird verwendet, wenn ein Ordner mehr als ein Bild enthält. "
-"Für a) weitere Bilder bei nur einem Album/einer Serie/eines Film pro Ordner "
-"b) für alle Bilder, wenn ein Ordner mehrere Alben/Serien/Filme enthält."
+"A) für zusätzliche Bilder bei nur einem Album/einer Serie/einem Film pro "
+"Ordner B) für alle Bilder, wenn ein Ordner mehrere Alben/Serien/Filme "
+"enthält."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:36
 msgid "Level ripped tracks:"
@@ -9665,8 +9666,8 @@ msgid ""
 "filename mask is not chosen, then the podcast's original filename will be "
 "used"
 msgstr ""
-"Wählen Sie ein Verzeichnis und ein Dateinamen-Format, mit welchem Podcasts "
-"gespeichert werden sollen. Ohne Angabe eines Formats wird der ursprüngliche "
+"Mit dieser Maske können Sie Verzeichnisse und Dateinamen zum Speichern von "
+"Podcasts definieren. Ohne Angabe eines Formats wird der ursprüngliche "
 "Dateiname verwendet"
 
 #: dialogs\dlgOptions\pnl_General.html:13
@@ -9682,17 +9683,19 @@ msgid ""
 "Enabling this option speeds up all scans subsequent to the initial one by "
 "only re-adding files that have changed in size or timestamp."
 msgstr ""
-"Aktivierung dieser Option beschleunigt alle nachfolgenden Scans, indem nur "
-"noch Dateien neu hinzugefügt werden, deren Größe oder Zeitstempel sich nach "
-"dem Initialscan geändert haben."
+"Diese Option beschleunigt alle nachfolgenden Scans, indem nur noch solche "
+"Dateien hinzugefügt werden, deren Größe oder Zeitstempel sich nach dem "
+"Initialscan geändert haben."
 
 #: dialogs\dlgOptions\pnl_Library.html:63
 msgid "Update file info from tags when rescanning files"
-msgstr "Datei-Eigenschaften aktualisieren, wenn Dateien neu gescannt werden"
+msgstr ""
+"Datei-Informationen aus Tags aktualisieren, wenn Dateien erneut gescannt "
+"werden"
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:10
 msgid "Add Windows firewall exception"
-msgstr "Windows-Firewall-Ausnahme hinzufügen"
+msgstr "Ausnahme zu Windows-Firewall hinzufügen"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:19
 msgid "Disable repositioning of dialogs and controls"
@@ -9705,8 +9708,8 @@ msgstr "Rippen"
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:19
 msgid "Choose how the 'Track summary' field displays for each content Type"
 msgstr ""
-"Wählen Sie, wie das Feld 'Titel-Zusammenfassung' für jeden Inhaltstyp "
-"angezeigt wird"
+"Hier können Sie den Inhalt der \"Titel-Zusammenfassung\" für den jeweiligen "
+"Auswahl-Typ zusammenstellen"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:6
 msgid "Ignore Shuffle"
@@ -9714,7 +9717,7 @@ msgstr "Zufallswiedergabe ignorieren"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disables crossfading for files of the selected type."
-msgstr "Deaktiviert Crossfading für Dateien, die diesem Filter entsprechen."
+msgstr "Deaktiviert Überblenden für Dateien des gewählten Typs."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:76
 msgid "First image per Album/Series:"
@@ -9727,9 +9730,8 @@ msgid ""
 "are aware that a change has been made."
 msgstr ""
 "Hiermit wird MediaMonkey den Zeitstempel einer Datei aktualisieren, wenn ein "
-"Tag in der Datei geändert wurde. Dies sollte aktiviert sein, damit andere "
-"Anwendungen, die auf die Datei zugreifen, erkennen, dass eine Änderung "
-"vorgenommen wurde."
+"Tag in der Datei geändert wurde. Dies sollte aktiviert sein, damit auch "
+"andere Anwendungen die Änderung erkennen können."
 
 #: dialogs\dlgTrackProperties\tabDetails.html:130
 msgid "Start time"
@@ -9761,7 +9763,7 @@ msgstr "Voreinstellung speichern..."
 
 #: controls\deviceConfig\summary.html:10
 msgid "Safely remove device"
-msgstr "Gerät sicher entfe&rnen"
+msgstr "Gerät sicher entfernen"
 
 #: controls\deviceConfig\syncToDevice.html:23
 msgid "All other media files"
@@ -9769,7 +9771,7 @@ msgstr "Alle anderen Mediendateien"
 
 #: dialogs\dlgAddArtwork.html:32
 msgid "Image filename"
-msgstr "Bilddateiname"
+msgstr "Bild-Dateiname"
 
 #: dialogs\dlgAutoConvertRule.html:10
 msgid "Convert the following content:"
@@ -9777,11 +9779,11 @@ msgstr "Konvertiere folgenden Inhalt:"
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Copy files to new destination based on file tags"
-msgstr "Dateien basierend auf die Datei-Eigenschaften kopieren"
+msgstr "Kopierziel für Dateien aus den Tags erzeugen"
 
 #: dialogs\dlgMP3Settings.html:69
 msgid "Bitrate (min)"
-msgstr "Bitrate (minimum)"
+msgstr "Bitrate (min.)"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:12
 msgid "Ignore prefixes:"
@@ -9793,9 +9795,9 @@ msgid ""
 "playlist, remove them from the playlist and the library, or delete them from "
 "the playlist, the library, and the computer system."
 msgstr ""
-"Wenn aktiviert wird MediaMonkey Sie fragen, ob Sie die Tracks nur aus der "
-"Playliste, aus der Playliste und dem Archiv oder aus der Wiedergabeliste, "
-"aus dem Archiv und von der Festplatte löschen möchten."
+"Aktiviert die Abfrage, ob Sie die Tracks nur aus der Wiedergabeliste löschen "
+"wollen, aus Wiedergabeliste und Archiv oder aus Wiedergabeliste Archiv und "
+"von der Festplatte."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:23
 msgid ""
@@ -9814,12 +9816,12 @@ msgid ""
 "Allows you to choose MediaMonkey's language. Close and restart MediaMonkey "
 "for the change to take effect."
 msgstr ""
-"Erlaubt Ihnen, die Programmsprache zu wählen. Sie müssen MediaMonkey "
-"schließen und neu starten, damit die Änderung in Kraft tritt."
+"Hier können Sie die Sprache von MediaMonkey wählen. MediaMonkey startet "
+"anschließend neu, um die Änderung zu übernehmen."
 
 #: dialogs\dlgOptions\pnl_General.html:10
 msgid "Also checks for new beta builds."
-msgstr "Überprüft auch auf neue Beta-Builds."
+msgstr "Überprüft auch auf neue Beta-Versionen."
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid ""
@@ -10164,11 +10166,10 @@ msgid ""
 "with devices that only support v1 tags, and allows for the much richer set "
 "of data that can be stored in v2 tags."
 msgstr ""
-"Sie können auswählen, welche ID3-Version für Tags Sie verwenden möchten: v1, "
-"v2 oder beide. Normalerweise ist es am besten, beide Versionen zu verwenden, "
-"denn dies gewährleistet die Kompatibilität mit Geräten, die nur v1-Tags "
-"unterstützen. Außerdem können wesentlich mehr Informationen gespeichert "
-"werden, als nur mit v2-Tags möglich wäre."
+"Sie können die ID3-Version für Tags auswählenn: v1, v2 oder beide. Beide "
+"Versionen zu verwenden hat Vorteile. Damit werden sowohl Geräten unterstüzt "
+", die nur v1-Tags verarbeiten können, gleichzeitig werden aber auch die viel "
+"umfangreicheren Speichermöglichkeiten von v2-Tags genutzt."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:30
 msgid ""
@@ -10470,7 +10471,8 @@ msgstr "Format für mehrere Bilder:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:62
 msgid "This sets the default location where associated artwork is stored."
-msgstr "Hiermit wird standardmäßige Speicherort für Cover Bilder festgelegt."
+msgstr ""
+"Wählen Sie die Voreinstellung, wo MediaMonkey die Bilder speichern soll."
 
 #: dialogs\dlgTrackProperties\tabBasic.html:69
 msgid "Director(s)"
@@ -10654,7 +10656,7 @@ msgstr "Erst Tags, dann abgeleitete Eigenschaften"
 
 #: dialogs\dlgOptions\pnl_Library.html:70
 msgid "Analyze files for duplicates (takes extra time)"
-msgstr "Dateien auf Duplikate prüfen (erfordert mehr Zeit)"
+msgstr "Dateien auf Duplikate prüfen (Signatur erstellen, dauert!)"
 
 #: dialogs\dlgOptions\pnl_Library.html:74
 msgid "Remove unavailable items"
@@ -10739,7 +10741,7 @@ msgstr "Erhöht den Abspiel-Zähler bei:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:43
 msgid "Use Unicode (UTF-8 encoding) for M3U playlists"
-msgstr "UTF8-Unicode-Kodierung für .m3u-Wiedergabelisten verwenden"
+msgstr "UTF-8 für .m3u-Wiedergabelisten verwenden"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:7
 msgid "Level playback / sync volume:"
@@ -11177,7 +11179,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Library.html:120
 msgid "Playlists (M3U, XSPF) then Tags"
-msgstr "Wiedergabelisten (m3u, xspf) dann Eigenschaften"
+msgstr "Erst Wiedergabelisten (m3u, xspf) dann Tags"
 
 #: dialogs\dlgOptions\pnl_Library.html:87
 msgid ""
@@ -11189,13 +11191,14 @@ msgid ""
 "Properties and then Tags' is if it is known in advance that tags are "
 "inaccurate, and filenames contain more accurate data."
 msgstr ""
-"Es kann festgelegt werden, ob \"Erst Tags, dann abgeleitete Eigenschaften\" "
-"zur Archivierung verwendet werden sollen, oder umgekehrt. Tags enthalten "
-"normalerweise korrektere Informationen Die Option \"Erst abgeleitete "
-"Eigenschaften, dann Tags\" importiert zunächst die Tag-Informationen und "
-"ergänzt fehlende Angaben durch Ableitung aus Pfad und Dateiname. Diese "
-"Variante sollte man nur verwenden, wenn man sicher ist, dass die Tags "
-"falsche Informationen enthalten, der Dateiname dagegen korrekt ist."
+"Sie können die Reigenfolge festlegen, nach der MediaMonkey die Datei-"
+"Informationen beim Archivieren aus den Tags und/oder aus Pfad/Dateiname "
+"gewinnt. Tags enthalten normalerweise korrektere Informationen Die Option "
+"\"Erst Tags, dann abgeleitete Eigenschaften\" importiert zunächst die Tag-"
+"Informationen und ergänzt fehlende Angaben aus Pfad und Dateiname. Wenn die "
+"Tags eindeutig falsch sind, kann die Variante \"Erst abgeleitete "
+"Eigenschaften, dann Tags\" helfen, vorausgesetzt Pfad und Dateiname "
+"enthalten die korrekten Angaben zum Datei-Inhalt."
 
 #: dialogs\dlgOptions\pnl_Library.html:85
 msgid ""
@@ -11484,11 +11487,12 @@ msgid ""
 "where a music collection is arranged in such a manner that each collection "
 "of tracks has an associated playlist that defines the Album."
 msgstr ""
-"Legt fest, wie Albumtitel und Tracknummer zum Archiv hinzugefügt werden. "
-"Optionen sind \"Nur Tags\", \"Tags, dann Wiedergabelisten\" und "
-"\"Wiedergabelisten, dann Tags\"\". \"Nur Tags\" sollte immer verwendet "
-"werden, außer in Fällen, in denen das Archiv so organisiert ist, dass jeder "
-"Musiksammlung eine Wiedergabeliste zugeordnet ist, die das Album definiert."
+"Legt die Quellen und die Reihenfolge fest, aus denen Albumtitel und "
+"Tracknummer automatisch ermittelt werden. Optionen sind \"Nur Tags\", \"erst "
+"Tags, dann Wiedergabelisten\" und \"erst Wiedergabelisten, dann Tags\"\". "
+"Sie sollten immer \"Nur Tags\" verwenden, es sei denn das Archiv ist so "
+"organisiert, dass jeder Musikauswahl eine Wiedergabeliste zugeordnet ist, "
+"die das Album definiert."
 
 #: dialogs\dlgOptions\pnl_Library.html:175
 msgid "Generate thumbnails for videos"
