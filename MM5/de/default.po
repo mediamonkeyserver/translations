@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-29 14:01\n"
-"PO-Revision-Date: 2022-04-08 15:44+0000\n"
+"PO-Revision-Date: 2022-04-10 21:21+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -2531,7 +2531,7 @@ msgid ""
 "fingerprints."
 msgstr ""
 "Dieser Knoten zeigt Duplikate mit denselben Hashwerten oder Fingerabdrücken "
-"(Voraussetzung: \"Dateien auf Duplikate prüfen\" aktiviert)."
+"(Voraussetzung: \"Signatur für Duplikatprüfung erzeugen\" durchgeführt)."
 
 #: viewHandlers.js:7186
 msgid "Artwork is not the same across tracks on an album."
@@ -3857,7 +3857,7 @@ msgstr "Kommentar"
 #: controls/trackListView.js:1130 ResStrings.pas:458
 #: dialogs\dlgTrackProperties\tabDetails.html:179
 msgid "Album volume"
-msgstr "Lautstärke Album"
+msgstr "Album-Lautstärke"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
@@ -6771,7 +6771,7 @@ msgstr "Es gab ein Problem bei der Lautstärkeanpassung folgender Datei(en):"
 #. #18222
 #: ErrHandlers.pas:416
 msgid "There was a problem processing audio for the following track(s):"
-msgstr "Es gab ein Problem bei der Audioverarbeitung  folgender Datei(en):"
+msgstr "Die Lautstärke konnte bei folgenden Dateien nicht analysiert werden:"
 
 #. #18222
 #: ErrHandlers.pas:430
@@ -9297,7 +9297,7 @@ msgstr "Layout konfigurieren (ausgewählter Tab)"
 
 #: dialogs\dlgOptions\pnl_Library.html:89
 msgid "Use"
-msgstr "Benutze"
+msgstr "Reihenfolge"
 
 #: dialogs\dlgOptions\pnl_Library.html:73
 msgid ""
@@ -9827,7 +9827,7 @@ msgstr "Überprüft auch auf neue Beta-Versionen."
 msgid ""
 "This option forces a maximum of one MediaMonkey window to be open at any "
 "time."
-msgstr "Es soll höchstens ein MediaMonkey-Programmfenster geöffnet sein."
+msgstr "Nur ein MediaMonkey-Programmfenster gleichzeitig erlauben."
 
 #: dialogs\dlgOptions\pnl_Library.html:94
 msgid "Inferred properties then tags"
@@ -9863,7 +9863,9 @@ msgstr ""
 "Verwandelt MediaMonkey in einen DMR (Digital Media Renderer, DLNA-Client), "
 "sodass Sie z.B. mit Ihrem Smartphone als Digital Media Controller Inhalte "
 "von einem DMS (Digital Media Server) abspielen können. Um so auch auf das "
-"MediaMonkey-Archivs zuzugreifen, muss die Freigabe aktiviert sein."
+"MediaMonkey-Archivs zuzugreifen, muss die Freigabe aktiviert sein. Kurz: Sie "
+"steuern mit Ihrem Smartphone, welche Tracks Sie von einem DLNA-Server auf "
+"dem MediaMonkey-PC abspielen lassen."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:51
 msgid ""
@@ -9876,8 +9878,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:52
 msgid "Create playlists of tracks newly added to the library"
-msgstr ""
-"Wiedergabelisten aus Tracks generieren, die neu zum Archiv hinzugefügt wurden"
+msgstr "Für neu hinzugefügte Tracks automatisch Wiedergabelisten erzeugen"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:12
 msgid "per Album"
@@ -9889,7 +9890,7 @@ msgstr "Produzent(en)"
 
 #: controls\autoConvertConfig.html:9
 msgid "Target volume level"
-msgstr "Ziel-lautstärke"
+msgstr "Ziel-Lautstärke"
 
 #: controls\devicesView.html:9
 msgid "No devices configured. You can connect a device via USB or Wi-Fi."
@@ -9936,6 +9937,7 @@ msgid "Download more DSP plug-ins..."
 msgstr "Weitere DSP-Plugins herunterladen..."
 
 #: dialogs\dlgOptions\pnl_General.html:35
+#, fuzzy
 msgid ""
 "Minimizes to the MicroPlayer if it is enabled (right-click on the System "
 "Task bar, and click 'Toolbars')."
@@ -10046,7 +10048,7 @@ msgstr "Steuerung des MediaMonkey-Players über UPnP/DLNA erlauben"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:7
 msgid "Store MP3 file properties using:"
-msgstr "Track-Informationen speichern in:"
+msgstr "MP3 Dateieigenschaften speichern in:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:19
 msgid ""
@@ -10175,9 +10177,7 @@ msgstr ""
 msgid ""
 "Causes Tags to be updated immediately, as soon as changes to file properties "
 "are made."
-msgstr ""
-"Sorgt dafür, dass Tags gleich nach der Änderung von Datei-Eigenschaften "
-"aktualisiert werden."
+msgstr "Schreibt Änderungen von Datei-Eigenschaften sofort in die Tags."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:30
 msgid ""
@@ -10185,10 +10185,9 @@ msgid ""
 "adjustment that appears in the Filelist. It also determines the volume to "
 "which tracks are leveled when 'Level Track volume' is used."
 msgstr ""
-"Dieser Wert wird als Basis für die Anzeige der Lautstärkeanpassung "
-"verwendet, die in der Trackliste angezeigt wird. Er bestimmt zudem die "
-"Lautstärke, an welche Tracks angepasst werden, wenn die Lautstärkeanpassung "
-"verwendet wird."
+"Dieser Wert wird als Basis für die Anzeige der Lautstärkeanpassung \"Track-"
+"Lautstärke\" in der Trackliste verwendet. Er bestimmt zudem die Abspiel-"
+"Lautstärke, wenn \"Laustärke einregeln\" verwendet wird."
 
 #: dialogs\dlgTrackProperties\tabBasic.html:19
 msgid "File name"
@@ -10196,7 +10195,7 @@ msgstr "Dateiname"
 
 #: dialogs\dlgWizard\pnlShare.html:2
 msgid "Share your library"
-msgstr "Archiv freigeben"
+msgstr "Archiv per DNLA freigeben"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:24
 msgid "Only submit tracks that are part of the Library"
@@ -10209,8 +10208,8 @@ msgstr "Bestätigungsdialog anzeigen"
 #: dialogs\dlgAbout.html:32
 msgid "Used for developer testing (disables automatic crashlog generation)"
 msgstr ""
-"Für Entwicklertestung gedacht (deaktiviert die automatische Crashlog-"
-"Generierung)"
+"Automatische Crashlogs deaktivieren (Für Testinstallationen von Entwicklern "
+"gedacht)"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "On the fly encoding"
@@ -10218,11 +10217,11 @@ msgstr "Gleichzeitiges Kodieren"
 
 #: dialogs\dlgPodcastSubscription.html:69
 msgid "Prevents episodes that haven't been listened to from being deleted."
-msgstr "Schützt Episoden, die noch nicht gehört wurden, vor dem Löschen."
+msgstr "Schützt nicht gehörte Episoden vor dem Löschen."
 
 #: dialogs\dlgPodcastSubscription.html:70
 msgid "Only if they have been listened to"
-msgstr "Nur wenn sie angehört wurden"
+msgstr "Nur wenn sie schon angehört wurden"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the Playing list"
@@ -10253,7 +10252,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:21
 msgid "Audio CD playback"
-msgstr "Audio CD abspielen"
+msgstr "Audio-CD abspielen"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:15
 msgid "This prevents users from exiting MediaMonkey by switching applications."
@@ -10265,7 +10264,7 @@ msgstr "Menüleiste verstecken"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:25
 msgid "Enable volume, play/pause controls"
-msgstr "Lautstärke-, -/Pausenregler aktivieren"
+msgstr "Lautstärkeregler und Start/Pausenschalter aktivieren"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:66
 msgid "Only analyze files with unknown Leveling Adjustment"
@@ -10281,7 +10280,7 @@ msgstr "Die folgenden Speicherorte nach Medien scannen: "
 
 #: controls\deviceConfig.html:8
 msgid "Sync now"
-msgstr "Synchronisierung beginnen"
+msgstr "Jetzt Synchronisieren"
 
 #: controls\serverConfig\content.html:4
 msgid "(global settings)"
@@ -10289,11 +10288,11 @@ msgstr "(globale Einstellungen)"
 
 #: dialogs\dlgAddonInstall.html:56
 msgid "Install Now"
-msgstr "jetzt installieren"
+msgstr "Jetzt Installieren"
 
 #: dialogs\dlgConvertFormat.html:41
 msgid "Secure read (takes extra time)"
-msgstr "Sicheres Lesen (erfordert mehr Zeit)"
+msgstr "Sicheres Lesen (dauert länger)"
 
 #: dialogs\dlgMovedFiles.html:15
 msgid "Unmoved files"
@@ -10321,15 +10320,15 @@ msgstr "Einschlafmodus abbrechen"
 
 #: dialogs\videoConvSettings.html:59
 msgid "Bitrate (for max. res.)"
-msgstr "Bitrate (für maximale Auflösung)"
+msgstr "Bitrate (für max. Auflösung)"
 
 #: dialogs\dlgOptions\pnl_Download.html:16
 msgid "Determines how often MediaMonkey checks for updates"
-msgstr "Definiert wie of MediaMonkey nach Updates sucht"
+msgstr "Bestimmt wie of MediaMonkey nach Updates sucht"
 
 #: dialogs\dlgOptions\pnl_General.html:25
 msgid "Always show tray icon"
-msgstr "Icon Infobereich immer anzeigen"
+msgstr "Icon immer in der Taskleistenecke anzeigen"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:12
 msgid ""
@@ -10344,20 +10343,19 @@ msgstr "Bilder des Interpreten"
 
 #: dialogs\dlgOptions\pnl_Player.html:45
 msgid "Pop-up file info:"
-msgstr "Blende Datei-Info ein:"
+msgstr "Blende Datei-Info ein für:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:31
 msgid "Update tags when editing properties"
-msgstr "Tags aktualisieren bei Änderung von Eigenschaften"
+msgstr "Beim Ändern von Eigenschaften auch Tags aktualisieren"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:21
 msgid ""
 "This value determines playback volume (for track(s) that have been analyzed) "
 "if 'Level playback volume' is enabled."
 msgstr ""
-"Dieser Wert bestimmt den Lautstärkepegel wenn \"Abspiellautstärke "
-"einstellen\" aktiviert ist (wirkt sich nur auf Tracks aus, die analysiert "
-"wurden)."
+"Dieser Wert bestimmt die Lautstärke wenn \"Lautstärke einregeln\" aktiviert "
+"ist (nur bei Tracks, die bereits analysiert wurden)."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:71
 msgid "Automatically analyzes volume of tracks as a background process"
@@ -10378,7 +10376,7 @@ msgstr "Scrobbler Sendestatus"
 
 #: controls\artistAlbums.html:37
 msgid "Broadcasts"
-msgstr "Sendungen"
+msgstr "Broadcasts"
 
 #: controls\windowtitle.html:17
 msgid "Minimize window"
@@ -10386,7 +10384,7 @@ msgstr "Fenster minimieren"
 
 #: controls\clientConfig\content.html:3
 msgid "Share the following over the network"
-msgstr "Folgendes über das Netzwerk teilen"
+msgstr "Folgendes über das Netzwerk freigeben"
 
 #: controls\deviceConfig\syncToDevice.html:5
 msgid "Hide unselected items"
@@ -10424,7 +10422,7 @@ msgstr ""
 
 #: dialogs\dlgSupportedFormat.html:47
 msgid "Min"
-msgstr "Minimum"
+msgstr "Min."
 
 #: dialogs\dlgOptions\pnl_Library.html:112
 msgid "Get Album titles and Track Numbers from:"
@@ -10432,7 +10430,7 @@ msgstr "Album-Titel und Tracknummern abrufen von:"
 
 #: dialogs\dlgOptions\pnl_Library.html:82
 msgid "Show scan results dialog"
-msgstr "Dialogfeld der Scan-Ergebnisse anzeigen"
+msgstr "Dialogfeld mit Scan-Ergebnissen anzeigen"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:92
 msgid "Replace existing information if confidence > "
@@ -10559,14 +10557,13 @@ msgid ""
 "would only occur if tags are not kept up-to-date and in synch with the "
 "Library)."
 msgstr ""
-"Wieder hinzugefügte Tracks (entweder manuell oder automatisch durch die "
-"Dateiüberwachung neu/wiederholt hinzugefügt) werden im Archiv mit neuen "
-"Einträgen versehen. Dies gilt auch für Tracks, die bereits im Archiv "
-"existieren, und ermöglicht das Archiv anhand von Tag-Daten zu aktualisieren, "
-"die von anderen Anwendungen kürzlich ergänzt/geändert wurden. Achtung: Das "
-"Risiko ist, dass aktuelle Tags im Archiv möglicherweise mit veralteten "
-"Einträgen aus der Datei überschrieben werden (dies geschieht dann, wenn die "
-"Archiveinträgen nicht in die Datei-Tags synchronisiert wurden)."
+"Erneut hinzugefügte Dateien (manuell oder durch automatisches Scannen) "
+"werden im Archiv so neu getaggt. Bereits im Archiv vorhandene Tags werden "
+"überschrieben. Somit können im Archiv Daten durch andere  Anwendungen "
+"aktualisiert werden, in denen sie kürzlich ergänzt/geändert wurden.\n"
+"Achtung: Es könnten aktuelle Daten im Archiv möglicherweise mit veralteten "
+"Tags aus der Datei überschrieben werden (wenn die Archiveinträgen vorher "
+"nicht in die Datei-Tags synchronisiert wurden)."
 
 #: dialogs\dlgOptions\pnl_OutputPlugins.html:10
 msgid "Download more output plug-ins..."
@@ -10656,7 +10653,7 @@ msgstr "Erst Tags, dann abgeleitete Eigenschaften"
 
 #: dialogs\dlgOptions\pnl_Library.html:70
 msgid "Analyze files for duplicates (takes extra time)"
-msgstr "Dateien auf Duplikate prüfen (Signatur erstellen, dauert!)"
+msgstr "Signatur für Duplikatprüfung erzeugen (dauert!)"
 
 #: dialogs\dlgOptions\pnl_Library.html:74
 msgid "Remove unavailable items"
@@ -10757,7 +10754,7 @@ msgid ""
 "leveling co-efficient."
 msgstr ""
 "Analysiert die Lautstärke von Tracks relativ zum gesamten Album und "
-"speichert Wert für die Anpassung in der Datei."
+"speichert den Wert für die Anpassung in einem Datei-Tag."
 
 #: dialogs\dlgWizard\pnlShare.html:3
 msgid ""
@@ -11209,12 +11206,12 @@ msgid ""
 "incorrect). Once you've verified the data, you can update the tags manually--"
 "see Synchronizing Your Tags."
 msgstr ""
-"Falls ein Tag nicht viele Informationen enthält, kann MediaMonkey Angaben "
-"über Interpreten, Titel oder Album aus dem Dateinamen ableiten, wenn diese "
-"Funktion aktiviert ist. Beachten Sie, dass abgeleitete Eigenschaften im "
-"Archiv gespeichert werden, aber nicht in den Datei-Tags (für den Fall, dass "
-"die Information inkorrekt ist). Sobald Sie die Daten geprüft haben, können "
-"Sie die Tags manuell aktualisieren -- siehe \"Tags synchronisieren\"."
+"Falls die Tags zu wenig Informationen enthalten, kann MediaMonkey Angaben "
+"über Interpreten, Titel oder Album aus dem Dateinamen ableiten. Abgeleitete "
+"Eigenschaften werden NUR IM ARCHIV gespeichert, nicht aber in den Datei-Tags "
+"(falls die Information inkorrekt ist). Sobald Sie die Daten geprüft haben, "
+"können Sie die Tags manuell aktualisieren -- Kontextmenü: \"Tags "
+"aktualisieren\"."
 
 #: dialogs\dlgOptions\pnl_Library.html:174
 msgid ""
@@ -11253,11 +11250,11 @@ msgid ""
 "are rarely played as a whole."
 msgstr ""
 "Bestimmt die Methode der Lautstärkeanpassung für das Abspielen und bei der "
-"Gerätesynchronisation. \"pro Album\" passt die Lautstärke mit Hilfe der "
+"Gerätesynchronisation. \"pro Album\" passt die Track-Lautstärke mittels "
 "Albumlautstärke an (wenn vorhanden). Damit bleiben Lautstärkeunterschiede "
-"zwischen den einzelnen Titeln bestehen. \"pro Titel\" passt die Lautstärke "
-"jedes einzelnen Titels an, hilfreich wenn ganze Alben eher selten abgespielt "
-"werden."
+"zwischen den einzelnen Tracks bestehen. \"pro Track\" passt die Lautstärke "
+"jedes Tracks unabhängig an, hilfreich wenn ganze Alben eher selten "
+"abgespielt werden."
 
 #: dialogs\dlgTrackProperties\tabLyrics.html:10
 msgid "Lookup lyrics"
