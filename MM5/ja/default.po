@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-19 10:24\n"
+"POT-Creation-Date: 2022-04-19 14:14\n"
 "PO-Revision-Date: 2020-10-02 16:10+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
@@ -9867,10 +9867,8 @@ msgid "Collection name"
 msgstr ""
 
 #: dialogs\dlgCollectionOptions.html:80
-#, fuzzy
-#| msgid "Default"
-msgid "Reset to Default"
-msgstr "デフォルト"
+msgid "Reset to default"
+msgstr ""
 
 #: dialogs\dlgMP3Settings.html:94
 msgid "Strict ISO compliance"
@@ -9879,10 +9877,6 @@ msgstr "ISO に厳密に準拠"
 #: dialogs\dlgPodcastSubscription.html:61
 msgid "1 day"
 msgstr "1 日"
-
-#: dialogs\dlgVideoMove.html:12
-msgid "Reset to default"
-msgstr ""
 
 #: dialogs\dlgOptions\pnl_Addons.html:2
 #, fuzzy
@@ -11885,13 +11879,35 @@ msgstr "'an' を検索する際、'another' を含むファイルを表示しな
 msgid "Customize case for these words"
 msgstr "このデバイスのカスタマイズ"
 
-#~ msgid "Disables crossfading for files of the selected type."
-#~ msgstr "選択した種類のファイルにつき、クロスフェードを無効にします。"
+# string till 5.0.2 version only
+#: Scripts/caseChecker/dialogs/dlgCaseChecker.js:253
+msgid "Old Value: "
+msgstr ""
+
+# string till 5.0.2 version only
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:7
+msgid "Disable crossfading"
+msgstr ""
+
+# string till 5.0.2 version only
+#: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:93
+msgid "Fade in new track"
+msgstr ""
+
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:7
+msgid "Disables crossfading for files of the selected type."
+msgstr "選択した種類のファイルにつき、クロスフェードを無効にします。"
+
+#: controls\deviceConfig\summary.html:10
+#, fuzzy
+#| msgid "Safely &remove device"
+msgid "Safely remove device"
+msgstr "安全にデバイスを取り外す(&R)"
 
 #, fuzzy
-#~| msgid "Safely &remove device"
-#~ msgid "Safely remove device"
-#~ msgstr "安全にデバイスを取り外す(&R)"
+#~| msgid "Default"
+#~ msgid "Reset to Default"
+#~ msgstr "デフォルト"
 
 #, fuzzy
 #~| msgid "this CD doesn't exist in the database"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-19 10:24\n"
+"POT-Creation-Date: 2022-04-19 14:14\n"
 "PO-Revision-Date: 2022-03-09 01:01+0000\n"
 "Last-Translator: Hulen <shift0106@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://translations.mediamonkey.com/"
@@ -9769,10 +9769,8 @@ msgid "Collection name"
 msgstr ""
 
 #: dialogs\dlgCollectionOptions.html:80
-#, fuzzy
-#| msgid "Default"
-msgid "Reset to Default"
-msgstr "預設"
+msgid "Reset to default"
+msgstr ""
 
 #: dialogs\dlgMP3Settings.html:94
 msgid "Strict ISO compliance"
@@ -9781,10 +9779,6 @@ msgstr "嚴格依據ISO"
 #: dialogs\dlgPodcastSubscription.html:61
 msgid "1 day"
 msgstr "1 天"
-
-#: dialogs\dlgVideoMove.html:12
-msgid "Reset to default"
-msgstr ""
 
 #: dialogs\dlgOptions\pnl_Addons.html:2
 #, fuzzy
@@ -11738,13 +11732,36 @@ msgstr "搜尋'an'造成無法顯示包含'another'的內容"
 msgid "Customize case for these words"
 msgstr ""
 
-#~ msgid "Disables crossfading for files of the selected type."
-#~ msgstr "關閉所選擇類型檔案的交叉淡化功能"
+# string till 5.0.2 version only
+#: Scripts/caseChecker/dialogs/dlgCaseChecker.js:253
+msgid "Old Value: "
+msgstr ""
+
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:7
+#, fuzzy
+#| msgid "Crossfade"
+msgid "Disable crossfading"
+msgstr "淡入與淡出"
+
+# string till 5.0.2 version only
+#: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:93
+msgid "Fade in new track"
+msgstr ""
+
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:7
+msgid "Disables crossfading for files of the selected type."
+msgstr "關閉所選擇類型檔案的交叉淡化功能"
+
+#: controls\deviceConfig\summary.html:10
+#, fuzzy
+#| msgid "Safely &remove device"
+msgid "Safely remove device"
+msgstr "安全地移除裝置(&r)"
 
 #, fuzzy
-#~| msgid "Safely &remove device"
-#~ msgid "Safely remove device"
-#~ msgstr "安全地移除裝置(&r)"
+#~| msgid "Default"
+#~ msgid "Reset to Default"
+#~ msgstr "預設"
 
 #, fuzzy
 #~| msgid "Deletes existing Hotkey"
