@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-19 14:14\n"
-"PO-Revision-Date: 2022-03-09 01:01+0000\n"
+"PO-Revision-Date: 2022-04-19 14:33+0000\n"
 "Last-Translator: Hulen <shift0106@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://translations.mediamonkey.com/"
 "projects/mediamonkey-5-x/application/zh_Hant/>\n"
@@ -75,7 +75,7 @@ msgstr "歷史記錄"
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:103
 #: ResStrings.pas:425 dialogs\dlgOptions\pnl_AutoDJ.html:31
 msgid "Playing list"
-msgstr ""
+msgstr "正在播放清單"
 
 #: actions.js:95 playerUtils.js:399
 msgid "Adjust video"
@@ -101,7 +101,7 @@ msgstr "編輯收藏"
 #: dialogs/dlgOptions/pnl_MediaTree.js:253
 #: dialogs/dlgOptions/pnl_VolumeLeveling.js:17
 msgid "Please upgrade to MediaMonkey Gold for this feature!"
-msgstr ""
+msgstr "請升級到 MediaMonkey Gold 以使用此功能!"
 
 #: actions.js:179
 msgid "Enter registration key for MediaMonkey Gold"
@@ -177,7 +177,7 @@ msgstr "評比 5 顆星"
 
 #: actions.js:630
 msgid "Show all album tracks"
-msgstr ""
+msgstr "顯示所有專輯曲目"
 
 #: actions.js:630
 msgid "Collapse albums"
@@ -820,7 +820,7 @@ msgstr ""
 
 #: actions.js:2487 helpers/mediaSync.js:407 CDUtils.pas:1442 WebUtils.pas:6170
 msgid "There is a problem with your internet connection."
-msgstr ""
+msgstr "There is a problem with your internet connection."
 
 #: actions.js:2489
 msgid ""
@@ -4026,7 +4026,7 @@ msgstr ""
 #: controls/deviceConfig/syncFromDevice.js:46
 #: controls/deviceConfig/options/pnl_FileLocations.js:67
 msgid "Enter folder path that you want to add:"
-msgstr ""
+msgstr "輸入您要加入的資料夾路徑:"
 
 #: controls/deviceConfig/syncToDevice.js:182
 msgid "Add library content to '%s'"
@@ -5107,7 +5107,7 @@ msgstr ""
 
 #: dialogs/dlgSyncConfirm.js:78
 msgid "Please confirm the following changes:"
-msgstr ""
+msgstr "請確認以下變更:"
 
 #. Button text
 #: dialogs/dlgTrackProperties.js:18 ExceptionHandler.pas:316 UpNp.pas:5621
@@ -5340,6 +5340,9 @@ msgid ""
 "MediaMonkey is not running and you are not logged into your account. Please "
 "input your account (%s) password:"
 msgstr ""
+"Installing MediaMonkey as service allows you to browse media server even if "
+"MediaMonkey is not running and you are not logged into your account. Please "
+"input your account (%s) password:"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:63
 #: dialogs/dlgOptions/pnl_MediaTree.js:64
@@ -5743,7 +5746,7 @@ msgstr ""
 #. return track.id.toString(); // we used MMW's track id in MMA, but now seems better to unify this with cloud storages and use targetPath as the identificator
 #: helpers/mediaSync.js:992
 msgid "Choose which files to keep synced:"
-msgstr ""
+msgstr "選擇要保持同步的檔案:"
 
 #: helpers/mediaSync.js:1002
 msgid ""
@@ -5757,12 +5760,14 @@ msgid ""
 "granted rights to library content (by default, initial attempts by a device "
 "to connect will trigger a prompt)."
 msgstr ""
+"允許遠端 MediaMonkey 客戶端透過 Wi-Fi 進行同步, 如果客戶端被授予媒體櫃內容許可權 (預設情況下, "
+"裝置進行第一次嘗試連線時將觸發提示)."
 
 #: helpers/mediaSync.js:1011
 msgid ""
 "Once scanned, MediaMonkey can accurately display the contents of the device. "
 "It may take awhile for some devices, though."
-msgstr ""
+msgstr "掃描後 MediaMonkey 可以準確顯示裝置的內容. 不過, 某些裝置可能需要一段時間."
 
 #: helpers/mediaSync.js:1011
 msgid "Scan as soon as the device is connected"
@@ -6593,7 +6598,7 @@ msgstr ""
 
 #: Devices.pas:8433
 msgid "The device '%s' cannot be stopped now as it appears to be in use."
-msgstr ""
+msgstr "The device '%s' cannot be stopped now as it appears to be in use."
 
 #: Devices.pas:8434
 msgid "Problem Ejecting %s"
@@ -6601,7 +6606,7 @@ msgstr "彈出 %s 出現問題"
 
 #: Devices.pas:9738
 msgid "\"%s\" is attempting to sync with the MediaMonkey Library over WiFi."
-msgstr ""
+msgstr "\"%s\"正嘗試透過 WiFi 與 MediaMonkey 媒體櫃同步。"
 
 #. Lib wasn't found, this is an unknown new device that wants a wireless sync with us, create library for the device
 #: Devices.pas:9758
@@ -7627,7 +7632,7 @@ msgstr "掃描問題目錄夾"
 
 #: MP3Utils.pas:459 MP3Utils.pas:2693
 msgid "This directory is used exclusively for:"
-msgstr ""
+msgstr "This directory is used exclusively for:"
 
 #: MP3Utils.pas:1225
 msgid ""
@@ -8304,6 +8309,9 @@ msgid ""
 "example, browse your classical music collection independently of your other "
 "music. Collections can only be edited with the Gold version."
 msgstr ""
+"Collections allow you to define subsets of your Library so that you can, for "
+"example, browse your classical music collection independently of your other "
+"music. Collections can only be edited with the Gold version."
 
 #: ResStrings.pas:577
 msgid "Information"
@@ -8455,7 +8463,7 @@ msgstr ""
 #. #18691
 #: UpNp.pas:8572
 msgid "The %s player is turned off or inaccessible."
-msgstr ""
+msgstr "The %s player is turned off or inaccessible."
 
 #. #18189 - to advance to next track when screen is dimmed (and player seekbar rendering inactive)
 #. to not show "turned off or inaccessible" message, but just skip to the next file
@@ -8522,7 +8530,7 @@ msgstr "原創的年份"
 
 #: WebUtils.pas:4342
 msgid "The file %s cannot be created."
-msgstr ""
+msgstr "無法建立檔案 %s."
 
 #: WebUtils.pas:5987
 #, fuzzy
@@ -8540,7 +8548,7 @@ msgstr "MediaMonkey %s 是目前版本"
 
 #: WebUtils.pas:6170
 msgid "MediaMonkey could not check for updates;"
-msgstr ""
+msgstr "MediaMonkey 無法檢查更新;"
 
 #. JumpList.Tasks.AddShellLink( _('Minimize to MiniPlayer'), '/w7t=gomini', Application.ExeName, 0);
 #: Win7ToolsImpl.pas:2187
@@ -8656,6 +8664,9 @@ msgid ""
 "separate directories, or are simply prefaced with text indicating whether it "
 "is an Album or Artist."
 msgstr ""
+"This determines whether playlists for Albums, Artists, etc. are saved in "
+"separate directories, or are simply prefaced with text indicating whether it "
+"is an Album or Artist."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "Use Linux folder separator ('/' instead of '\\')"
@@ -8882,6 +8893,9 @@ msgid ""
 "Note that content already synced from the PC to the Device will update "
 "within the existing locations."
 msgstr ""
+"Choose the folder on the PC to which new content on the device is synced. "
+"Note that content already synced from the PC to the Device will update "
+"within the existing locations."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:14
 msgid "Selected folder nodes"
@@ -9241,7 +9255,7 @@ msgstr ""
 msgid ""
 "Syncs updated metadata such as ratings and play counts from the device to "
 "the PC."
-msgstr ""
+msgstr "將更新的中繼資料同步到 PC (例如裝置上的評比和播放計數)。"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:23
 msgid ""
@@ -9310,7 +9324,7 @@ msgstr "如果缺少歌詞, 會尋找歌詞"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:59
 msgid "Associate file types with MediaMonkey..."
-msgstr ""
+msgstr "將檔案類型與 MediaMonkey 關聯..."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:44
 msgid "Play in MediaMonkey"
@@ -9357,7 +9371,7 @@ msgstr "為特定曲目設定預設的目錄夾/檔名格式"
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:86
 msgid "Describes any other directories that should be scanned for media."
-msgstr ""
+msgstr "Describes any other directories that should be scanned for media."
 
 #: dialogs\dlgAutotagFromFilename.html:9
 msgid "Auto-tag allows you to update tags based on existing filenames"
@@ -9484,7 +9498,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:11
 msgid "Saves the change without confirmation."
-msgstr ""
+msgstr "儲存變更而不進行確認。"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -9758,7 +9772,7 @@ msgstr ""
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Syncs files from the selected folders on the device to the PC."
-msgstr ""
+msgstr "將檔案從裝置上選取的資料夾同步到 PC."
 
 #: dialogs\dlgAutoorganize.html:9
 msgid "Move and rename files to new destination based on file tags"
@@ -9945,6 +9959,8 @@ msgid ""
 "Displays an index in UPnP/DLNA clients if the number of entries exceeds the "
 "configured value."
 msgstr ""
+"Displays an index in UPnP/DLNA clients if the number of entries exceeds the "
+"configured value."
 
 #: dialogs\dlgAutoorganize.html:36
 msgid ""
@@ -10270,7 +10286,7 @@ msgstr "透明"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:20
 msgid "Renderer name:"
-msgstr ""
+msgstr "轉譯器名稱:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:84
 msgid "Format for multiple images:"
@@ -10567,6 +10583,8 @@ msgid ""
 "Automatically organizes files on the device according to the settings above. "
 "This can take a lot of time if the sync masks are modified."
 msgstr ""
+"Automatically organizes files on the device according to the settings above. "
+"This can take a lot of time if the sync masks are modified."
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
 msgid "Sync all Artwork to file folders"
@@ -10739,6 +10757,8 @@ msgid ""
 "Unblocks connections from addresses outside the local network. Not "
 "recommended if Wi-Fi sync is enabled."
 msgstr ""
+"Unblocks connections from addresses outside the local network. Not "
+"recommended if Wi-Fi sync is enabled."
 
 #: dialogs\dlgAddonInstall.html:29
 msgid "Version"
@@ -10907,13 +10927,15 @@ msgstr ""
 
 #: controls\deviceConfig\options\pnl_Tagging.html:10
 msgid "Remove artwork from tags if larger than:"
-msgstr ""
+msgstr "如果較大, 請從標記中刪除專輯圖片:"
 
 #: controls\serverConfig\devices.html:2
 msgid ""
 "Increases the play counter for items played via this server. This may not be "
 "accurate for partially played tracks."
 msgstr ""
+"Increases the play counter for items played via this server. This may not be "
+"accurate for partially played tracks."
 
 #: dialogs\dlgAddArtwork.html:28
 msgid "Image location"
@@ -11352,7 +11374,7 @@ msgstr "已均衡化曲目的目標音量:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:72
 msgid "Automatically analyze volume of unanalyzed files:"
-msgstr ""
+msgstr "自動分析未分析檔案的音量:"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:149
 msgid "Composer(s)"
