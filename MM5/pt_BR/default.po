@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-29 13:58\n"
-"PO-Revision-Date: 2021-11-12 17:51+0000\n"
+"PO-Revision-Date: 2022-10-03 08:12+0000\n"
 "Last-Translator: Gervásio da Silva Antônio <gervasioantonio@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <http://translations.mediamonkey.com/"
 "projects/mediamonkey-5-x/application/pt_BR/>\n"
@@ -981,7 +981,7 @@ msgstr "CD de áudio"
 
 #: actions.js:3021 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:37
 msgid "Burn"
-msgstr ""
+msgstr "Gravar"
 
 #: actions.js:3040 dialogs/dlgCDDBResult.js:7
 msgid "Lookup Audio CD metadata"
@@ -989,7 +989,7 @@ msgstr "Procurar metadados do CD de áudio"
 
 #: actions.js:3056
 msgid "Eject"
-msgstr ""
+msgstr "Ejetar"
 
 #: actions.js:3069
 msgid "&Options"
@@ -2410,13 +2410,11 @@ msgstr "artista"
 
 #: viewHandlers.js:6573
 msgid "Contributing artists"
-msgstr ""
+msgstr "Artistas participantes"
 
 #: viewHandlers.js:6576
-#, fuzzy
-#| msgid "Artists"
 msgid "Artists only"
-msgstr "Artistas"
+msgstr "Somente Artistas"
 
 #: viewHandlers.js:6596 UPnPTreeHelper.pas:1893
 msgid "Directors"
@@ -2638,7 +2636,7 @@ msgstr "Disco %s"
 #: controls/albumViewHeader.js:196 controls/artistViewHeader.js:79
 #: controls/artistViewHeader.js:81
 msgid "Switch"
-msgstr ""
+msgstr "Alternar"
 
 #: controls/albumViewHeader.js:172 controls/artistViewHeader.js:119
 msgid "Update properties"
@@ -4572,10 +4570,8 @@ msgid "Are you sure you want to remove %d files from the ''%s'' ?"
 msgstr "Você realmente deseja remover %d arquivo(s) de \"%s\"?"
 
 #: dialogs/dlgDeletedTracks.js:8
-#, fuzzy
-#| msgid "Remove Unavailable files ?"
 msgid "Remove unavailable files"
-msgstr "Remover arquivos não disponíveis?"
+msgstr "Remover arquivos não disponíveis"
 
 #: dialogs/dlgDeletedTracks.js:62
 msgid ""
@@ -5005,10 +5001,8 @@ msgid "Audio Output"
 msgstr "Saída de áudio"
 
 #: dialogs/dlgOptions.js:90
-#, fuzzy
-#| msgid "Tools"
 msgid "Toolbar"
-msgstr "Ferramentas"
+msgstr "Barra de ferramentas"
 
 #: dialogs/dlgOptions.js:99
 msgid "Collections & Views"
@@ -5377,6 +5371,8 @@ msgstr "Global"
 msgid ""
 "This hotkey %s is already assigned to action %s! Choose a different hotkey."
 msgstr ""
+"A tecla de atalho %s já está atribuída à ação %s! Selecione uma tecla de "
+"atalho diferente."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:240
 msgid "Delete selected hotkey ?"
@@ -5497,10 +5493,8 @@ msgstr "Fontes de metadados para auto-tag"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:141
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:197
-#, fuzzy
-#| msgid "Summary"
 msgid "Album Summary"
-msgstr "Resumo"
+msgstr "Resumo do álbum"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:231 Extensions.pas:1410
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:3
@@ -5520,10 +5514,8 @@ msgstr ""
 "2. Geralmente eles controlam como o MediaMonkey faz a saída de áudio."
 
 #: dialogs/dlgOptions/pnl_Performance.js:43
-#, fuzzy
-#| msgid "Enable hardware acceleration"
 msgid "Use hardware acceleration when available"
-msgstr "Habilitar aceleração de hardware"
+msgstr "Usar aceleração de hardware se disponível"
 
 #: dialogs/dlgOptions/pnl_Performance.js:43
 #: dialogs\dlgOptions\pnl_Appearance.html:10
@@ -5532,23 +5524,21 @@ msgstr "(precisa reiniciar)"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:71
 msgid "Gap"
-msgstr ""
+msgstr "Intervalo"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:72
 msgid "Overlap"
-msgstr ""
+msgstr "Sobreposição"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:73
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:26
 msgid "Gap/Overlap"
-msgstr ""
+msgstr "Intervalo/sobreposição"
 
 #. Unsupported by <NameofCurrentOutputPlugin>. Please change "Audio Output" ("plug-ins").
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:126
-#, fuzzy
-#| msgid "Supported formats on '%s'"
 msgid "Unsupported by %s."
-msgstr "Formatos suportados em '%s'"
+msgstr "Não suportados por '%s."
 
 #: dialogs/dlgOptions/pnl_Search.js:9
 msgid "When typing in a view:"
@@ -6142,6 +6132,8 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
+"O MediaMonkey busca imagens de vários websites. Por favor, selecione aceitar "
+"ou rejeitar cookies para as imagens pesquisadas."
 
 #: Scripts/imageSearch/helpers/searchTools_add.js:112
 #: dialogs\dlgCollectionOptions.html:79
@@ -7490,50 +7482,40 @@ msgstr "Chave HID"
 
 #: hpCDEBurner.pas:845
 msgid "Erase disc"
-msgstr ""
+msgstr "Apagar disco"
 
 #: hpCDEBurner.pas:849
-#, fuzzy
-#| msgid "Another series"
 msgid "Try another disc"
-msgstr "Outra série"
+msgstr "Tente outro disco"
 
 #. 2 minutes
 #: hpCDEBurner.pas:959
 msgid "minutes remaining"
-msgstr ""
+msgstr "minutos restantes"
 
 #: hpCDEBurner.pas:961
 msgid "seconds remaining"
-msgstr ""
+msgstr "segundos restantes"
 
 #: hpCDEBurner.pas:980
-#, fuzzy
-#| msgid "Calculating"
 msgid "Simulating"
-msgstr "Calculando"
+msgstr "Simulando"
 
 #: hpCDEBurner.pas:981 hpCDEBurner.pas:983
-#, fuzzy
-#| msgid "Exporting"
 msgid "Writing"
-msgstr "Exportando"
+msgstr "Gravando"
 
 #: hpCDEBurner.pas:982
-#, fuzzy
-#| msgid "Close"
 msgid "Closing"
-msgstr "Fechar"
+msgstr "Fechando"
 
 #: hpCDEBurner.pas:984 ResStrings.pas:872
 msgid "Erasing"
-msgstr ""
+msgstr "Apagando"
 
 #: hpCDEBurner.pas:985
-#, fuzzy
-#| msgid "Waiting for sync connection"
 msgid "Waiting for a new disc"
-msgstr "Esperando conexão para sincronização"
+msgstr "Aguardando novo disco"
 
 #. Check for termination, but give a warning:
 #: hpCDEBurner.pas:1007
@@ -7541,76 +7523,70 @@ msgid ""
 "Terminating a Disc burn will create an unreadable disc. Are you sure you "
 "want to proceed?"
 msgstr ""
+"Interromper uma gravação de disco vai resultar em um disco ilegível. Deseja "
+"realmente continuar?"
 
 #: hpCDEBurner.pas:1347
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s (copy %d) burned successfully."
-msgstr "%s foi instalado com sucesso."
+msgstr "O disco %s (cópia %d) foi gravado com sucesso."
 
 #: hpCDEBurner.pas:1349
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s burned successfully."
-msgstr "%s foi instalado com sucesso."
+msgstr "Disco %s gravado com sucesso."
 
 #: hpCDEBurner.pas:1355
 msgid "Disc %s (copy %d) burn failed"
-msgstr ""
+msgstr "A gravação do disco %s (cópia %d) falhou"
 
 #: hpCDEBurner.pas:1357
 msgid "Disc %s burn failed"
-msgstr ""
+msgstr "A gravação do disco %s falhou"
 
 #. TODOWIN8
 #: hpCDEBurner.pas:1639
 msgid "Re-burn disc"
-msgstr ""
+msgstr "Regravar o disco"
 
 #: hpCDEBurner.pas:1646
 msgid "Burn disc %d"
-msgstr ""
+msgstr "Gravar o disco %d"
 
 #: hpCDEBurner.pas:1649
 msgid "Burn another copy"
-msgstr ""
+msgstr "Gravar outra cópia"
 
 #: hpCDEBurner.pas:1660
 msgid "Could not set the required speed"
-msgstr ""
+msgstr "Não foi possível definir a velocidade solicitada"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Server error"
 msgid "Burn error"
-msgstr "Erro de servidor"
+msgstr "Erro de gravação"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Select tracks to be updated"
 msgid "Selected tracks cannot be accessed!"
-msgstr "Selecione as faixas a serem atualizadas"
+msgstr "Não foi possível acessar as faixas selecionadas!"
 
 #. Dialog was already presented
 #: hpCDEBurner.pas:1666
-#, fuzzy
-#| msgid "Error"
 msgid "Error code"
-msgstr "Erro"
+msgstr "Código de erro"
 
 #: hpCDEBurner.pas:1815 hpCDEBurner.pas:2696
 msgid "Burning ... (%s)"
-msgstr ""
+msgstr "Gravando... (%s)"
 
 #: hpCDEBurner.pas:1818 hpCDEBurner.pas:1918
 msgid "Caching files from network"
-msgstr ""
+msgstr "Buscando arquivos da rede"
 
 #: hpCDEBurner.pas:2413
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disk from being burnt."
 msgstr ""
+"Operação de gravação falhou! Algumas faixas são protegidas por DRM ("
+"Gerenciamento de Direitos Digitais), impedindo a gravação do disco."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13486
