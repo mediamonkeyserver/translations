@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
 "PO-Revision-Date: 2022-10-03 08:12+0000\n"
 "Last-Translator: Lee <pcsori@gmail.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
@@ -3540,9 +3540,21 @@ msgstr "일치하도록 스크롤"
 msgid "Search Tips"
 msgstr "검색 팁"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+#, fuzzy
+#| msgid ""
+#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr "+Foo | Foo로 시작하는 단어 찾기(대소문자 구분, 예: Football)"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr "+Foo | Foo로 시작하는 단어 찾기(대소문자 구분, 예: Football)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr ""
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -5699,6 +5711,11 @@ msgstr "트랙"
 msgid "Entire Library"
 msgstr "전체 라이브러리"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "선택"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr "컬렉션"
@@ -6071,11 +6088,6 @@ msgid ""
 msgstr ""
 "MediaMonkey는 다양한 웹 사이트에서 이미지를 찾습니다. 조회할 이미지에 대해 쿠"
 "키를 수락하거나 거부하도록 선택하십시오."
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "선택"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -8569,7 +8581,8 @@ msgstr "트레이 열기(&O)"
 msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
-msgstr "삽입된 디스크를 먼저 지우지 않으면 쓸 수 없습니다. 굽기 전에 지우시겠습니까?"
+msgstr ""
+"삽입된 디스크를 먼저 지우지 않으면 쓸 수 없습니다. 굽기 전에 지우시겠습니까?"
 
 #: ResStrings.pas:870
 msgid "Please insert a disc to be burned..."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
 "PO-Revision-Date: 2020-12-29 16:55+0000\n"
 "Last-Translator: Bogáromi Zoltán <bogaromi@msn.com>\n"
 "Language-Team: Hungarian <http://translations.mediamonkey.com/projects/"
@@ -3619,12 +3619,24 @@ msgstr "Görgetés a találathoz"
 msgid "Search Tips"
 msgstr "Keresési tippek"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+#, fuzzy
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+"+Foo | a Foo-val kezdődő szavak keresése (kis-nagybetű érzékeny, pl. "
+"Football)"
+
 #: controls/searchBar.js:768
 #, fuzzy
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+Foo | a Foo-val kezdődő szavak keresése (kis-nagybetű érzékeny, pl. "
 "Football)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr ""
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -5825,6 +5837,11 @@ msgstr "szám"
 msgid "Entire Library"
 msgstr "Teljes médiatár"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Válassza ki"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr "Gyűjtemény"
@@ -6187,11 +6204,6 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Válassza ki"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508

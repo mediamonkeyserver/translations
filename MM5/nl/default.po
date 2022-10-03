@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
 "PO-Revision-Date: 2021-12-14 23:34+0000\n"
 "Last-Translator: Martin Warning <mwarning@hotmail.com>\n"
 "Language-Team: Dutch <http://translations.mediamonkey.com/projects/"
@@ -3553,10 +3553,23 @@ msgstr "Naar overeenkomst scrollen"
 msgid "Search Tips"
 msgstr "Zoektips"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+#, fuzzy
+#| msgid ""
+#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+"+Voe | vindt woorden beginnend met Voe (hoofdlettergevoelig, bijv. Voetbal)"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+Voe | vindt woorden beginnend met Voe (hoofdlettergevoelig, bijv. Voetbal)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr ""
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -5745,6 +5758,11 @@ msgstr "Tracks"
 msgid "Entire Library"
 msgstr "Volledige Bibliotheek"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Kiezen"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr "Collectie"
@@ -6119,11 +6137,6 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Kiezen"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508

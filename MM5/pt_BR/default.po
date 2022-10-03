@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
 "PO-Revision-Date: 2022-10-03 08:12+0000\n"
 "Last-Translator: Gervásio da Silva Antônio <gervasioantonio@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <http://translations.mediamonkey.com/"
@@ -3559,11 +3559,25 @@ msgstr "Rola até a coincidência"
 msgid "Search Tips"
 msgstr "Dicas de pesquisa"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+#, fuzzy
+#| msgid ""
+#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+"+Foo | encontra palavras começando com Foo (sensível a maiúsculas, por ex. "
+"Football)"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+Foo | encontra palavras começando com Foo (sensível a maiúsculas, por ex. "
 "Football)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr ""
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -5751,6 +5765,11 @@ msgstr "faixas"
 msgid "Entire Library"
 msgstr "Biblioteca inteira"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Escolher"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr "Coleção"
@@ -6134,11 +6153,6 @@ msgid ""
 msgstr ""
 "O MediaMonkey busca imagens de vários websites. Por favor, selecione aceitar "
 "ou rejeitar cookies para as imagens pesquisadas."
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Escolher"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -7585,8 +7599,8 @@ msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disk from being burnt."
 msgstr ""
-"Operação de gravação falhou! Algumas faixas são protegidas por DRM ("
-"Gerenciamento de Direitos Digitais), impedindo a gravação do disco."
+"Operação de gravação falhou! Algumas faixas são protegidas por DRM "
+"(Gerenciamento de Direitos Digitais), impedindo a gravação do disco."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13486

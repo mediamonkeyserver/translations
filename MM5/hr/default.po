@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
 "PO-Revision-Date: 2020-10-01 10:42+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Croatian <http://translations.mediamonkey.com/projects/"
@@ -3543,8 +3543,17 @@ msgstr ""
 msgid "Search Tips"
 msgstr ""
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgstr ""
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
 msgstr ""
 
 #: controls/searchBar.js:771
@@ -5704,6 +5713,11 @@ msgstr "pjesme"
 msgid "Entire Library"
 msgstr "Čitava Fonoteka"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Odaberi"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr ""
@@ -6059,11 +6073,6 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Odaberi"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508

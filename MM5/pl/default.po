@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
 "PO-Revision-Date: 2022-10-03 08:12+0000\n"
 "Last-Translator: Marcin Kozioł <koziol.martin@gmail.com>\n"
 "Language-Team: Polish <http://translations.mediamonkey.com/projects/"
@@ -3556,11 +3556,25 @@ msgstr "Przewija do dopasowania"
 msgid "Search Tips"
 msgstr "Wskazówki wyszukiwania"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+#, fuzzy
+#| msgid ""
+#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+"+Foo | wyszukuje słowa zaczynające się od Foo (z uwzględnieniem wielkości "
+"liter, np. Football)"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+Foo | wyszukuje słowa zaczynające się od Foo (z uwzględnieniem wielkości "
 "liter, np. Football)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr ""
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -5741,6 +5755,11 @@ msgstr "utworów"
 msgid "Entire Library"
 msgstr "Cała Biblioteka"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Wybierz"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr "Kolekcja"
@@ -6123,11 +6142,6 @@ msgid ""
 msgstr ""
 "MediaMonkey wyszukuje obrazy z różnych stron internetowych. Wybierz "
 "akceptację lub odrzucenie plików cookie w celu wyszukania obrazów."
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Wybierz"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508

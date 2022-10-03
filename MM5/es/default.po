@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
 "PO-Revision-Date: 2022-10-03 08:12+0000\n"
 "Last-Translator: Leandro Botella Penalva <darklbp@outlook.com>\n"
 "Language-Team: Spanish <http://translations.mediamonkey.com/projects/"
@@ -3579,11 +3579,25 @@ msgstr "Desplazar a coincidencia"
 msgid "Search Tips"
 msgstr "Consejos de Búsqueda"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+#, fuzzy
+#| msgid ""
+#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+"+Foo | encuentra palabras que empiecen por Foo (sensible a las mayúsculas, p."
+"ej. Football)"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+Foo | encuentra palabras que empiecen por Foo (sensible a las mayúsculas, p."
 "ej. Football)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr ""
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -5786,6 +5800,11 @@ msgstr "pistas"
 msgid "Entire Library"
 msgstr "Toda la Biblioteca"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Elegir"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr "Colección"
@@ -6167,11 +6186,6 @@ msgid ""
 msgstr ""
 "MediaMonkey busca imágenes de varias páginas web. Por favor, elige aceptar o "
 "rechazar cookies para la búsqueda de imágenes."
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Elegir"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -8699,8 +8713,8 @@ msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
 msgstr ""
-"No se puede escribir en el disco insertado a menos que primero se borre. ¿"
-"Quieres borrarlo antes de grabar en él?"
+"No se puede escribir en el disco insertado a menos que primero se borre. "
+"¿Quieres borrarlo antes de grabar en él?"
 
 #: ResStrings.pas:870
 msgid "Please insert a disc to be burned..."

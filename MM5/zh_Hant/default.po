@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
 "PO-Revision-Date: 2022-10-03 08:12+0000\n"
 "Last-Translator: Hulen <shift0106@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://translations.mediamonkey.com/"
@@ -3508,8 +3508,17 @@ msgstr ""
 msgid "Search Tips"
 msgstr "搜尋提示"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgstr ""
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
 msgstr ""
 
 #: controls/searchBar.js:771
@@ -5644,6 +5653,11 @@ msgstr "曲目"
 msgid "Entire Library"
 msgstr "整個媒體櫃"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "選擇"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr "收藏"
@@ -5998,11 +6012,6 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "選擇"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -7404,7 +7413,9 @@ msgstr ""
 msgid ""
 "The MicroPlayer is not yet enabled. To enable it, right-click on the "
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
-msgstr "假如開啟的話, 會最小化到微型播放器 (在系統工作列上按下滑鼠右鍵, 並點選 '工具列')."
+msgstr ""
+"假如開啟的話, 會最小化到微型播放器 (在系統工作列上按下滑鼠右鍵, 並點選 '工具"
+"列')."
 
 #. we don't know parent playlist id yet
 #: Importers.pas:148 M3Umanage.pas:529 MP3Utils.pas:1585
@@ -8532,7 +8543,9 @@ msgstr "媒體伺服器「%s」無法啟動: 連接埠 %d 已在使用中。"
 msgid ""
 "Check whether another instance of MediaMonkey is already running or change "
 "the port# in Options > Media Sharing."
-msgstr "檢查 MediaMonkey 的另一個實例是否已在執行, 或在「選項」>「媒體共用」中變更連接埠號."
+msgstr ""
+"檢查 MediaMonkey 的另一個實例是否已在執行, 或在「選項」>「媒體共用」中變更連"
+"接埠號."
 
 #: UpNp.pas:4373
 msgid "Denied"
@@ -8733,8 +8746,9 @@ msgid ""
 "highly organized directory structure, in which case 'Filename + Path' will "
 "yield better results."
 msgstr ""
-"屬性是來 '檔案名稱' 或 '檔名+路徑' 從推論而來. 一般而言, 最好僅從檔名來推論, 除非曲目是以較高一層的組織化目錄結構來安排的話,  '檔名+"
-"路徑' 這樣的方式會產生一個較好的結果."
+"屬性是來 '檔案名稱' 或 '檔名+路徑' 從推論而來. 一般而言, 最好僅從檔名來推論, "
+"除非曲目是以較高一層的組織化目錄結構來安排的話,  '檔名+路徑' 這樣的方式會產生"
+"一個較好的結果."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:2
 msgid ""
@@ -9073,8 +9087,9 @@ msgid ""
 "Series/Movie is contained within a folder b) for all images when multiple "
 "Albums/Series/Movies are contained within a folder."
 msgstr ""
-"當超過一個圖片存放在資料夾中, 使用這個檔名. 它用來 a) 當資料夾只包含單一專輯/系列/電影時, 給第一張圖片以外的圖片用. b) "
-"當資料夾內含多個專輯/系列/電影時, 給所有圖片用."
+"當超過一個圖片存放在資料夾中, 使用這個檔名. 它用來 a) 當資料夾只包含單一專輯/"
+"系列/電影時, 給第一張圖片以外的圖片用. b) 當資料夾內含多個專輯/系列/電影時, "
+"給所有圖片用."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:36
 msgid "Level ripped tracks:"
@@ -9211,7 +9226,9 @@ msgid ""
 "Organize library files based on the above rules whenever files are scanned "
 "or edited. To fully automate, enable File Monitoring to scan directories in "
 "the background."
-msgstr "當檔案被掃描或是編輯時, 會基於以上的規則來組織媒體櫃檔案. 為了能夠完全自動化, 可以啟用檔案監控功能來做目錄的背景掃描."
+msgstr ""
+"當檔案被掃描或是編輯時, 會基於以上的規則來組織媒體櫃檔案. 為了能夠完全自動"
+"化, 可以啟用檔案監控功能來做目錄的背景掃描."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:14
 msgid ""
@@ -9237,8 +9254,9 @@ msgid ""
 "priority of these background tasks. By default it is set to 'Lower' so that "
 "these tasks don't slow down other operations."
 msgstr ""
-"MediaMonkey可以在背景執行許多的作業, 像是擷取CD, 轉檔, 標籤, 均化音量等等. 這個選項設定了這些背景作業的優先順序. "
-"在預設值裡它是設為'較低的'好讓這些作業不會使其他運作變慢."
+"MediaMonkey可以在背景執行許多的作業, 像是擷取CD, 轉檔, 標籤, 均化音量等等. 這"
+"個選項設定了這些背景作業的優先順序. 在預設值裡它是設為'較低的'好讓這些作業不"
+"會使其他運作變慢."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:5
 msgid ""
@@ -9807,7 +9825,8 @@ msgstr "預設下載位置:"
 msgid ""
 "Allows you to choose MediaMonkey's language. Close and restart MediaMonkey "
 "for the change to take effect."
-msgstr "允許您選擇 MediaMonkey 的語言。關閉並重新啟動 MediaMonkey，以使變更生效。"
+msgstr ""
+"允許您選擇 MediaMonkey 的語言。關閉並重新啟動 MediaMonkey，以使變更生效。"
 
 #: dialogs\dlgOptions\pnl_General.html:10
 msgid "Also checks for new beta builds."
@@ -10451,7 +10470,8 @@ msgstr "分割多重值的欄位為:"
 msgid ""
 "If enabled, MediaMonkey will prompt you whether to copy the entire folder or "
 "only Library content within."
-msgstr "如果啟用，MediaMonkey 將提示您是複製整個資料夾還是僅複製其中的媒體櫃內容。"
+msgstr ""
+"如果啟用，MediaMonkey 將提示您是複製整個資料夾還是僅複製其中的媒體櫃內容。"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:21
 msgid "Confirm scan results"
@@ -10836,7 +10856,8 @@ msgstr "指揮家"
 msgid ""
 "MediaMonkey is free, however, you can upgrade to MediaMonkey Gold to get "
 "additional features:"
-msgstr "MediaMonkey 是免費的, 然而您可以升級到 MediaMonkey Gold 來取得額外的功能:"
+msgstr ""
+"MediaMonkey 是免費的, 然而您可以升級到 MediaMonkey Gold 來取得額外的功能:"
 
 #: controls\windowtitle.html:20
 msgid "Close window"

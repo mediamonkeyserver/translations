@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
 "PO-Revision-Date: 2022-10-03 08:12+0000\n"
 "Last-Translator: Igor Chomko <igorchomko@gmail.com>\n"
 "Language-Team: Ukrainian <http://translations.mediamonkey.com/projects/"
@@ -3559,11 +3559,25 @@ msgstr "Прокрутки до відповідності"
 msgid "Search Tips"
 msgstr "Поради щодо пошуку"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+#, fuzzy
+#| msgid ""
+#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+"+ Фу | знаходить слова, що починаються на Фу (з урахуванням регістру, "
+"наприклад, Футбол)"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+ Фу | знаходить слова, що починаються на Фу (з урахуванням регістру, "
 "наприклад, Футбол)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr ""
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -5737,6 +5751,11 @@ msgstr "доріжки"
 msgid "Entire Library"
 msgstr "Вся Бібліотека"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Вибрати"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr "Колекція"
@@ -6114,11 +6133,6 @@ msgid ""
 msgstr ""
 "MediaMonkey шукає зображення з різних вебсайтів. Виберіть, щоб прийняти або "
 "відхилити файли cookie для зображень, які потрібно шукати."
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Вибрати"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
