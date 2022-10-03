@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-03 10:10\n"
-"PO-Revision-Date: 2022-10-03 08:12+0000\n"
+"PO-Revision-Date: 2022-10-04 03:25+0000\n"
 "Last-Translator: Leandro Botella Penalva <darklbp@outlook.com>\n"
 "Language-Team: Spanish <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/es/>\n"
@@ -974,7 +974,7 @@ msgstr "&Ecualizador"
 
 #: actions.js:2973
 msgid "&Rip Audio CD"
-msgstr "&Ripear CD de Audio"
+msgstr "Copia&r CD de Audio"
 
 #: actions.js:3021 CDUtils.pas:779 ResStrings.pas:371
 msgid "Audio CD"
@@ -1235,7 +1235,7 @@ msgstr "Carpeta (&Copiar)"
 
 #: actions.js:4153
 msgid "Folder (Rip/Con&vert)"
-msgstr "Carpeta (Ripear/Con&vertir)"
+msgstr "Carpeta (Copiar/Con&vertir)"
 
 #. online mode only for online source track
 #: actions.js:4168 actions.js:9389 helpers/autoDJ.js:29 Devices.pas:2032
@@ -3581,13 +3581,8 @@ msgstr "Consejos de Búsqueda"
 
 #. following variants are not supported in word infix mode (see #17395)
 #: controls/searchBar.js:767
-#, fuzzy
-#| msgid ""
-#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
-msgstr ""
-"+Foo | encuentra palabras que empiecen por Foo (sensible a las mayúsculas, p."
-"ej. Football)"
+msgstr "foo | encuentra palabras que empiecen por foo (p.ej. fóObar)"
 
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
@@ -3597,7 +3592,7 @@ msgstr ""
 
 #: controls/searchBar.js:770
 msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
-msgstr ""
+msgstr "\"Foo\" | encuentra palabras completas  (p.ej. FOO o fóo)"
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -4525,8 +4520,8 @@ msgid ""
 "CD Ripping is supported in the free version of MediaMonkey, however, "
 "verification via AccurateRip is only included with the Gold version. "
 msgstr ""
-"La versión gratuita de MediaMonkey permite ripeado de CDs, pero la "
-"verificación con AccurateRip está incluida solo en la versión Gold. "
+"La versión gratuita de MediaMonkey permite el Copiado de CDs, pero la "
+"verificación con AccurateRip solo está incluida en la versión Gold. "
 
 #: dialogs/dlgDeleteConfirm.js:9
 msgid "Confirmation"
@@ -6476,7 +6471,7 @@ msgstr "(la pista no se encuentra en la base de datos)"
 
 #: CDUtils.pas:1447
 msgid "(bad rip or the database has partial/inaccurate data)"
-msgstr "(ripeo malo o la base de datos tiene datos parciales/inexactos)"
+msgstr "(copia mala o la base de datos tiene datos parciales/inexactos)"
 
 #: CDUtils.pas:1450
 msgid "(error parsing verification file)"
@@ -6502,7 +6497,7 @@ msgstr "Obteniendo datos de la base de datos AccurateRip.com"
 #. we are not getting results for too long, ask user what to do...
 #: CDUtils.pas:1585 CDUtils.pas:1827
 msgid "Error ripping track"
-msgstr "Error al ripear la pista"
+msgstr "Error al copiar la pista"
 
 #. track doesn't exist or is a data track
 #: CDUtils.pas:1682
@@ -6929,7 +6924,7 @@ msgstr "Resultado"
 
 #: ErrHandlers.pas:388
 msgid "There was a problem ripping or verifying the following track(s):"
-msgstr "Hubo un problema al ripear o verificar la(s) siguiente(s) pista(s):"
+msgstr "Hubo un problema al copiar o verificar la(s) siguiente(s) pista(s):"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -6941,7 +6936,7 @@ msgstr ""
 
 #: ErrHandlers.pas:390
 msgid "Ripping results"
-msgstr "Resultados del ripeado"
+msgstr "Resultados de la copia"
 
 #. #18222
 #: ErrHandlers.pas:403
@@ -7095,7 +7090,7 @@ msgstr "Grabar CD/DVD/BD"
 
 #: FileAssoc.pas:741
 msgid "Rip Audio CD"
-msgstr "Ripear CD de Audio"
+msgstr "Copiar CD de Audio"
 
 #: FileAssoc.pas:743
 msgid "&Install MediaMonkey package"
@@ -7245,7 +7240,7 @@ msgstr ""
 
 #: FormatsManage.pas:1433
 msgid "ripping"
-msgstr "ripeando"
+msgstr "copiando"
 
 #. AAC MPEG4 Low Complexity
 #: FormatsManage.pas:2946
@@ -9091,7 +9086,7 @@ msgstr "Confirmar Todo"
 
 #: dialogs\dlgConvertFormat.html:37
 msgid "Rip type"
-msgstr "Tipo de ripeo"
+msgstr "Tipo de copiado"
 
 #: dialogs\dlgPodcastSubscription.html:53
 msgid ""
@@ -9391,7 +9386,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:36
 msgid "Level ripped tracks:"
-msgstr "Nivel de las pistas ripeadas:"
+msgstr "Nivel de las pistas copiadas:"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:37
 msgid "Capitalize common abbreviations"
@@ -9572,9 +9567,9 @@ msgid ""
 "these tasks don't slow down other operations."
 msgstr ""
 "MediaMonkey ejecuta en segundo plano numerosas operaciones tales como "
-"Ripeado de CDs, Conversión, Etiquetado, Nivelación de Volumen, etc. Esta "
+"Copiado de CDs, Conversión, Etiquetado, Nivelación de Volumen, etc. Esta "
 "opción establece la prioridad de estas tareas de segundo plano. El valor por "
-"defecto es 'Mas baja', lo cual hace que estas tareas ralenticen otras "
+"defecto es 'Mas baja', lo cual hace que estas tareas no ralenticen otras "
 "operaciones."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:5
@@ -9750,7 +9745,7 @@ msgstr "por Pista"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Verifies ripped tracks against the AccurateRip.com database"
-msgstr "Verifica las pistas ripeadas contra la base de datos AccurateRip.com"
+msgstr "Verifica las pistas copiadas contra la base de datos AccurateRip.com"
 
 #: dialogs\dlgMP3Settings.html:49
 msgid "Use advanced settings"
@@ -10029,7 +10024,7 @@ msgstr "Nivelar volumen de la Pista"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Verify ripped tracks"
-msgstr "Verificar pistas ripeadas"
+msgstr "Verificar pistas copiadas"
 
 #: dialogs\dlgMovedFiles.html:16
 msgid "Unlocatable files"
@@ -10088,7 +10083,7 @@ msgstr "Deshabilitar el reposicionamiento de cuadros de diálogo y de controles"
 
 #: dialogs\dlgOptions\pnl_Performance.html:18
 msgid "Ripping"
-msgstr "Ripeo"
+msgstr "Copiado"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:43
 msgid "Choose how the 'Track summary' field displays for each content Type"
@@ -10503,7 +10498,7 @@ msgid ""
 "being extracted from the CD-ROM. For some older drives, this should be "
 "disabled as it may reduce the quality of encoded files."
 msgstr ""
-"Esto acelera el Ripeo de CDs al codificar el audio en el formato elegido a "
+"Esto acelera el Copiado de CDs al codificar el audio en el formato elegido a "
 "medida que se extrae del CD-ROM. Para algunas unidades antiguas, esto debe "
 "desactivarse ya que puede reducir la calidad de los archivos codificados."
 
@@ -11151,7 +11146,7 @@ msgstr "Nivelar volumen de la reproducción / sincronización:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:47
 msgid "Target volume for ripping Audio CDs:"
-msgstr "Volumen objetivo para el ripeo de CDs de Audio:"
+msgstr "Volumen objetivo para el copiado de CDs de Audio:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:68
 msgid ""
@@ -11240,7 +11235,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:29
 msgid "Audio CD ripping"
-msgstr "Ripeado de CDs de Audio"
+msgstr "Copiado de CDs de Audio"
 
 #: dialogs\dlgOptions\pnl_Performance.html:12
 msgid "Conversion"
@@ -11290,7 +11285,7 @@ msgstr "Más grande"
 
 #: dialogs\dlgConvertFormat.html:44
 msgid "Eject CD after ripping"
-msgstr "Expulsar CD después de ripear"
+msgstr "Expulsar CD después de copiar"
 
 #: dialogs\videoConvSettings.html:102
 msgid "Preserve aspect ratio"
@@ -11702,7 +11697,7 @@ msgstr "Buscar letra"
 
 #: dialogs\dlgWizard\pnlRegistration.html:14
 msgid "AccurateRip for bit-perfect CD Rips."
-msgstr "AccurateRip para Ripeos perfectos de CDs."
+msgstr "AccurateRip para Copiados perfectos de CDs."
 
 #: controls\artistAlbums.html:25
 msgid "Albums - live"
