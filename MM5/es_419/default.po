@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2022-10-03 10:10\n"
-"PO-Revision-Date: 2022-05-02 04:39+0000\n"
-"Last-Translator: Alberto Montealegre B <amb@mb-arq.cl>\n"
+"PO-Revision-Date: 2022-10-04 03:50+0000\n"
+"Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: Spanish (Latin America) <http://translations.mediamonkey.com/"
 "projects/mediamonkey-5-x/application/es_419/>\n"
 "Language: es_419\n"
@@ -981,7 +981,7 @@ msgstr "CD de audio"
 
 #: actions.js:3021 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:37
 msgid "Burn"
-msgstr ""
+msgstr "Grabar"
 
 #: actions.js:3040 dialogs/dlgCDDBResult.js:7
 msgid "Lookup Audio CD metadata"
@@ -989,7 +989,7 @@ msgstr "Buscar metadatos de CD de audio"
 
 #: actions.js:3056
 msgid "Eject"
-msgstr ""
+msgstr "Expulsar"
 
 #: actions.js:3069
 msgid "&Options"
@@ -2417,13 +2417,11 @@ msgstr "intérprete"
 
 #: viewHandlers.js:6573
 msgid "Contributing artists"
-msgstr ""
+msgstr "Artistas colaboradores"
 
 #: viewHandlers.js:6576
-#, fuzzy
-#| msgid "Artists"
 msgid "Artists only"
-msgstr "Intérpretes"
+msgstr "Sólo Intérpretes"
 
 #: viewHandlers.js:6596 UPnPTreeHelper.pas:1893
 msgid "Directors"
@@ -4604,10 +4602,8 @@ msgid "Are you sure you want to remove %d files from the ''%s'' ?"
 msgstr "¿Está seguro que quiere eliminar %d archivos del \"%s\"?"
 
 #: dialogs/dlgDeletedTracks.js:8
-#, fuzzy
-#| msgid "Remove Unavailable files ?"
 msgid "Remove unavailable files"
-msgstr "¿Eliminar los archivos no disponibles?"
+msgstr "Eliminar los archivos no disponibles"
 
 #: dialogs/dlgDeletedTracks.js:62
 msgid ""
@@ -5040,10 +5036,8 @@ msgid "Audio Output"
 msgstr "Salida de audio"
 
 #: dialogs/dlgOptions.js:90
-#, fuzzy
-#| msgid "Tools"
 msgid "Toolbar"
-msgstr "Herramientas"
+msgstr "Barra de herramientas"
 
 #: dialogs/dlgOptions.js:99
 msgid "Collections & Views"
@@ -5413,6 +5407,8 @@ msgstr "Global"
 msgid ""
 "This hotkey %s is already assigned to action %s! Choose a different hotkey."
 msgstr ""
+"¡Esta tecla de acceso directo %s ya está asignada a la acción %s! Elija una "
+"tecla de acceso distinta."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:240
 msgid "Delete selected hotkey ?"
@@ -5534,10 +5530,8 @@ msgstr "Fuentes de metadatos de Auto-etiquetado"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:141
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:197
-#, fuzzy
-#| msgid "Summary"
 msgid "Album Summary"
-msgstr "Resumen"
+msgstr "Resumen del álbum"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:231 Extensions.pas:1410
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:3
@@ -5557,10 +5551,8 @@ msgstr ""
 "2. Estos generalmente controlan cómo MediaMonkey emite audio."
 
 #: dialogs/dlgOptions/pnl_Performance.js:43
-#, fuzzy
-#| msgid "Enable hardware acceleration"
 msgid "Use hardware acceleration when available"
-msgstr "Activar aceleración de hardware"
+msgstr "Usar aceleración por hardware cuando esté disponible"
 
 # string till 5.0.1 version only
 #: dialogs/dlgOptions/pnl_Performance.js:43
@@ -6185,6 +6177,8 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
+"MediaMonkey busca imágenes en varias páginas web. Por favor, elija aceptar o "
+"rechazar cookies para la búsqueda de imágenes."
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -7532,50 +7526,40 @@ msgstr "Llave HID"
 
 #: hpCDEBurner.pas:845
 msgid "Erase disc"
-msgstr ""
+msgstr "Borrar disco"
 
 #: hpCDEBurner.pas:849
-#, fuzzy
-#| msgid "Another series"
 msgid "Try another disc"
-msgstr "Otras series"
+msgstr "Probar otro disco"
 
 #. 2 minutes
 #: hpCDEBurner.pas:959
 msgid "minutes remaining"
-msgstr ""
+msgstr "minutos restantes"
 
 #: hpCDEBurner.pas:961
 msgid "seconds remaining"
-msgstr ""
+msgstr "segundos restantes"
 
 #: hpCDEBurner.pas:980
-#, fuzzy
-#| msgid "Calculating"
 msgid "Simulating"
-msgstr "Calculando"
+msgstr "Simulando"
 
 #: hpCDEBurner.pas:981 hpCDEBurner.pas:983
-#, fuzzy
-#| msgid "Exporting"
 msgid "Writing"
-msgstr "Exportando"
+msgstr "Escribiendo"
 
 #: hpCDEBurner.pas:982
-#, fuzzy
-#| msgid "Close"
 msgid "Closing"
-msgstr "Cerrar"
+msgstr "Cerrando"
 
 #: hpCDEBurner.pas:984 ResStrings.pas:872
 msgid "Erasing"
-msgstr ""
+msgstr "Borrando"
 
 #: hpCDEBurner.pas:985
-#, fuzzy
-#| msgid "Waiting for sync connection"
 msgid "Waiting for a new disc"
-msgstr "En espera de conexión para sincronización"
+msgstr "Esperando un nuevo disco"
 
 #. Check for termination, but give a warning:
 #: hpCDEBurner.pas:1007
@@ -7583,76 +7567,70 @@ msgid ""
 "Terminating a Disc burn will create an unreadable disc. Are you sure you "
 "want to proceed?"
 msgstr ""
+"Terminar el grabado de un Disco creará un disco ilegible. ¿Estás seguro de "
+"que quieres continuar?"
 
 #: hpCDEBurner.pas:1347
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s (copy %d) burned successfully."
-msgstr "%s instalado correctamente."
+msgstr "Disco %s (copia %d) grabado correctamente."
 
 #: hpCDEBurner.pas:1349
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s burned successfully."
-msgstr "%s instalado correctamente."
+msgstr "Disco %s grabado exitosamente."
 
 #: hpCDEBurner.pas:1355
 msgid "Disc %s (copy %d) burn failed"
-msgstr ""
+msgstr "La grabación de Disco %s (copia %d) falló"
 
 #: hpCDEBurner.pas:1357
 msgid "Disc %s burn failed"
-msgstr ""
+msgstr "La grabación de Disco %s falló"
 
 #. TODOWIN8
 #: hpCDEBurner.pas:1639
 msgid "Re-burn disc"
-msgstr ""
+msgstr "Regrabar disco"
 
 #: hpCDEBurner.pas:1646
 msgid "Burn disc %d"
-msgstr ""
+msgstr "Grabar disco %d"
 
 #: hpCDEBurner.pas:1649
 msgid "Burn another copy"
-msgstr ""
+msgstr "Grabar otra copia"
 
 #: hpCDEBurner.pas:1660
 msgid "Could not set the required speed"
-msgstr ""
+msgstr "No se pudo establecer la velocidad requerida"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Server error"
 msgid "Burn error"
-msgstr "Error de servidor"
+msgstr "Error de grabación"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Select tracks to be updated"
 msgid "Selected tracks cannot be accessed!"
-msgstr "Seleccione pistas para actualizar"
+msgstr "¡Las pistas seleccionadas no son accesibles!"
 
 #. Dialog was already presented
 #: hpCDEBurner.pas:1666
-#, fuzzy
-#| msgid "Error"
 msgid "Error code"
-msgstr "Error"
+msgstr "Código de error"
 
 #: hpCDEBurner.pas:1815 hpCDEBurner.pas:2696
 msgid "Burning ... (%s)"
-msgstr ""
+msgstr "Grabando... (%s)"
 
 #: hpCDEBurner.pas:1818 hpCDEBurner.pas:1918
 msgid "Caching files from network"
-msgstr ""
+msgstr "Poniendo en cache archivos de la red"
 
 #: hpCDEBurner.pas:2413
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disk from being burnt."
 msgstr ""
+"¡La operación de la grabación falló! Algunas pistas están protegidas por los "
+"Digital Rights Management que previenen que el disco sea grabado."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13486
@@ -8496,10 +8474,8 @@ msgid "Not calculated"
 msgstr "No calculada"
 
 #: ResStrings.pas:397
-#, fuzzy
-#| msgid "Username"
 msgid "User-installed"
-msgstr "Nombre de usuario"
+msgstr "Instaladas por el usuario"
 
 #: ResStrings.pas:399
 msgid "and"
@@ -8682,83 +8658,69 @@ msgid "%d unplayed episodes"
 msgstr "%d episodios sin reproducir"
 
 #: ResStrings.pas:865
-#, fuzzy
-#| msgid "Continue"
 msgid "Co&ntinue"
-msgstr "Continuar"
+msgstr "Co&ntinuar"
 
 #: ResStrings.pas:866
 msgid "&Erase CD"
-msgstr ""
+msgstr "&Borrar CD"
 
 #: ResStrings.pas:867
-#, fuzzy
-#| msgid "Open tray"
 msgid "&Open tray"
-msgstr "Abrir bandeja"
+msgstr "&Abrir bandeja"
 
 #: ResStrings.pas:869
 msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
 msgstr ""
+"No se puede escribir en el disco insertado a menos que primero se borre. ¿"
+"Quiere borrarlo antes de grabar en él?"
 
 #: ResStrings.pas:870
 msgid "Please insert a disc to be burned..."
-msgstr ""
+msgstr "Por favor, inserte el disco a ser grabado..."
 
 # From installer
 #: ResStrings.pas:873
-#, fuzzy
-#| msgid "Error parsing parameter"
 msgid "Error erasing the CDRW."
-msgstr "Error al analizar el parámetro"
+msgstr "Error al borrar el CDRW."
 
 #: ResStrings.pas:875
-#, fuzzy
-#| msgid "File %s was not successfully created."
 msgid "Burning was not successful"
-msgstr "No se pudo crear el archivo %s con éxito."
+msgstr "La grabación no fue exitosa"
 
 #: ResStrings.pas:877
-#, fuzzy
-#| msgid "Player layout cannot be set."
 msgid "The layout could not be set."
-msgstr "La disposición del Reproductor no puede establecerse."
+msgstr "No se pudo establecer la disposición."
 
 #: ResStrings.pas:878
 msgid "Re-burn this disc?"
-msgstr ""
+msgstr "¿Regrabar este disco?"
 
 #: ResStrings.pas:879
 msgid "Could not write the image layout to the disk."
-msgstr ""
+msgstr "No se pudo escribir la disposición de la imagen en el disco."
 
 #: ResStrings.pas:880
 msgid "Burning was terminated."
-msgstr ""
+msgstr "La grabación se terminó."
 
 #: ResStrings.pas:881
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Burn completed successfully"
-msgstr "%s instalado correctamente."
+msgstr "La grabación terminó exitosamente"
 
 #: ResStrings.pas:882
-#, fuzzy
-#| msgid "Removing %s tags %d of %d (%s)"
 msgid "Preparing track %d of %d (%s)"
-msgstr "Eliminando etiquetas %s, %d de %d (%s)"
+msgstr "Preparando pista %d de %d (%s)"
 
 #: ResStrings.pas:883
-#, fuzzy
-#| msgid "Problem while decoding file %s"
 msgid "Problem while decoding file %s, burning terminated"
-msgstr "Problema al decodificar el archivo %"
+msgstr "Problema al decodificar el archivo %s, grabación terminada"
 
 #: ResStrings.pas:884
 msgid "Burning ... (Phase: %s)%s"
-msgstr ""
+msgstr "Grabando... (Fase: %s)%s"
 
 #: Settings.pas:1377
 msgid "MediaMonkey Player"
@@ -9183,12 +9145,16 @@ msgid ""
 "Writes track information to the CD so that devices that support CD-Text can "
 "display it during playback."
 msgstr ""
+"Escribe la información de la pista al CD para que los dispositivos que "
+"soporten CD-Text puedan mostrarla durante la reproducción."
 
 #: dialogs\dlgBurn.html:27
 msgid ""
 "Improves performance by converting tracks on the fly to Audio CD format. "
 "Disable if burns are failing."
 msgstr ""
+"Mejora el rendimiento al convertir las pistas al vuelo a formato de Audio "
+"CD. Desactivar si las grabaciones fallan."
 
 #: dialogs\dlgSleep.html:27
 msgid "Action at end:"
@@ -9518,7 +9484,7 @@ msgstr "Esta acción instalará el producto siguiente"
 
 #: dialogs\dlgBurn.html:34
 msgid "Sound alert after the burn process"
-msgstr ""
+msgstr "Alerta de sonido después del proceso de grabación"
 
 #: dialogs\dlgPodcastSubscription.html:54
 msgid "On update, download"
@@ -9949,7 +9915,7 @@ msgstr "Formato de nombre de archivo:"
 
 #: dialogs\dlgBurn.html:9
 msgid "Drive"
-msgstr ""
+msgstr "Unidad"
 
 #: dialogs\dlgMP3Settings.html:21
 msgid "Type of bitrate"
@@ -10160,10 +10126,8 @@ msgid "per Album"
 msgstr "por Álbum"
 
 #: dialogs\dlgBurn.html:28
-#, fuzzy
-#| msgid "On the fly encoding"
 msgid "On the fly audio burning"
-msgstr "Codificación al vuelo"
+msgstr "Grabación de audio al vuelo"
 
 #: dialogs\dlgMP3Settings.html:69
 msgid "Bitrate (min)"
@@ -10552,7 +10516,7 @@ msgstr "Activar marcadores"
 
 #: dialogs\dlgOptions\pnl_Search.html:6
 msgid "Clear search history"
-msgstr ""
+msgstr "Vaciar historial de búsqueda"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:5
 msgid ""
@@ -10607,10 +10571,8 @@ msgstr ""
 "fallo)"
 
 #: dialogs\dlgBurn.html:12
-#, fuzzy
-#| msgid "Encode tracks with volume leveled"
 msgid "Burn tracks with volume leveled"
-msgstr "Codificar pistas con el volumen nivelado"
+msgstr "Grabar pistas con el volumen nivelado"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "On the fly encoding"
@@ -11190,10 +11152,8 @@ msgid "Sync all Artwork to file folders"
 msgstr "Sincronizar todas las carátulas en las carpetas de los archivos"
 
 #: dialogs\dlgBurn.html:13
-#, fuzzy
-#| msgid "Level Track volume"
 msgid "Level volume"
-msgstr "Nivelar volumen de pista"
+msgstr "Nivelar volumen"
 
 #: dialogs\dlgLogin.html:12
 msgid "Username"
@@ -11380,7 +11340,7 @@ msgstr "Versión"
 
 #: dialogs\dlgBurn.html:22
 msgid "Write CD-Text"
-msgstr ""
+msgstr "Escribir CD-Text"
 
 #: dialogs\dlgConvertFormat.html:55
 msgid "Output files"
@@ -11578,7 +11538,7 @@ msgstr "Ubicación de la imagen"
 
 #: dialogs\dlgBurn.html:24
 msgid "Prevents network problems from corrupting burns"
-msgstr ""
+msgstr "Previene que los problemas de red corrompan grabaciones"
 
 #: dialogs\dlgConvertFormat.html:11
 msgid "Record CD track(s) to your hard drive"
@@ -11668,6 +11628,8 @@ msgid ""
 "Hardware acceleration improves performance and battery life, but may cause "
 "stability issues on some systems."
 msgstr ""
+"La aceleración por hardware mejora el rendimiento y la vida de la batería, "
+"pero puede causar problemas de estabilidad en algunos sistemas."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:39
 msgid "'Play Now' Action:"
@@ -11827,7 +11789,7 @@ msgstr "Descripción"
 
 #: dialogs\dlgBurn.html:31
 msgid "Eject media after the burn process"
-msgstr ""
+msgstr "Expulsar medio después del proceso de grabación"
 
 #: dialogs\dlgChooseFields.html:21
 msgid "Largest"
@@ -12096,7 +12058,7 @@ msgstr "Tipo de imagen"
 
 #: dialogs\dlgBurn.html:25
 msgid "Cache files from network"
-msgstr ""
+msgstr "Poner en cache los archivos de la red"
 
 #: dialogs\dlgChooseFields.html:17
 msgid "Smallest"
