@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2022-10-03 10:10\n"
-"PO-Revision-Date: 2022-10-03 08:12+0000\n"
+"PO-Revision-Date: 2022-10-04 16:46+0000\n"
 "Last-Translator: Jordi Xicola <jxicola@gmail.com>\n"
 "Language-Team: Catalan <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ca/>\n"
@@ -3574,13 +3574,10 @@ msgstr "Cerca Consells"
 
 #. following variants are not supported in word infix mode (see #17395)
 #: controls/searchBar.js:767
-#, fuzzy
-#| msgid ""
-#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
 msgstr ""
-"+ Fut | troba paraules que comencen per Fut (distingeix entre majúscules i "
-"minúscules, p. ex. futbol)"
+"Fut | troba paraules que comencen per Fut (distingeix entre majúscules i "
+"minúscules, p. ex. futbol, Fútbol o fÚtbol)"
 
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
@@ -3590,7 +3587,7 @@ msgstr ""
 
 #: controls/searchBar.js:770
 msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
-msgstr ""
+msgstr "\"Fut\" | troba totes les paraules( amb p.e. Fut, FUt o FúT)"
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -6174,6 +6171,8 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
+"MediaMonkey cerca imatges de diversos llocs web. Si us plau, trieu acceptar "
+"o rebutjar les galetes perquè es busquin les imatges."
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -7522,50 +7521,40 @@ msgstr "HID Key"
 
 #: hpCDEBurner.pas:845
 msgid "Erase disc"
-msgstr ""
+msgstr "Borra el disc"
 
 #: hpCDEBurner.pas:849
-#, fuzzy
-#| msgid "Another series"
 msgid "Try another disc"
-msgstr "Una altra sèrie"
+msgstr "Prova un altre disc"
 
 #. 2 minutes
 #: hpCDEBurner.pas:959
 msgid "minutes remaining"
-msgstr ""
+msgstr "minuts restants"
 
 #: hpCDEBurner.pas:961
 msgid "seconds remaining"
-msgstr ""
+msgstr "segons que queden"
 
 #: hpCDEBurner.pas:980
-#, fuzzy
-#| msgid "Calculating"
 msgid "Simulating"
-msgstr "Calculant"
+msgstr "Simulant"
 
 #: hpCDEBurner.pas:981 hpCDEBurner.pas:983
-#, fuzzy
-#| msgid "Exporting"
 msgid "Writing"
-msgstr "Exportant"
+msgstr "Escrivint"
 
 #: hpCDEBurner.pas:982
-#, fuzzy
-#| msgid "Close"
 msgid "Closing"
-msgstr "Tanca"
+msgstr "Tancant"
 
 #: hpCDEBurner.pas:984 ResStrings.pas:872
 msgid "Erasing"
-msgstr ""
+msgstr "Borrant"
 
 #: hpCDEBurner.pas:985
-#, fuzzy
-#| msgid "Waiting for sync connection"
 msgid "Waiting for a new disc"
-msgstr "S'està esperant la connexió de sincronització"
+msgstr "S'està esperant un nou disc"
 
 #. Check for termination, but give a warning:
 #: hpCDEBurner.pas:1007
@@ -7573,76 +7562,70 @@ msgid ""
 "Terminating a Disc burn will create an unreadable disc. Are you sure you "
 "want to proceed?"
 msgstr ""
+"Si s'acaba ara la gravació del disc, es crearà un disc il·legible. Esteu "
+"segur que voleu continuar?"
 
 #: hpCDEBurner.pas:1347
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s (copy %d) burned successfully."
-msgstr "%s s'ha instal·lat correctament."
+msgstr "%s s'ha gravat correctament."
 
 #: hpCDEBurner.pas:1349
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s burned successfully."
-msgstr "%s s'ha instal·lat correctament."
+msgstr "Disc %s s'ha gravat correctament."
 
 #: hpCDEBurner.pas:1355
 msgid "Disc %s (copy %d) burn failed"
-msgstr ""
+msgstr "Disc %s (còpia %d)la gravació ha fallat."
 
 #: hpCDEBurner.pas:1357
 msgid "Disc %s burn failed"
-msgstr ""
+msgstr "La gravació del disc %s ha fallat"
 
 #. TODOWIN8
 #: hpCDEBurner.pas:1639
 msgid "Re-burn disc"
-msgstr ""
+msgstr "Torna a gravar el disc"
 
 #: hpCDEBurner.pas:1646
 msgid "Burn disc %d"
-msgstr ""
+msgstr "Grava el disc %d"
 
 #: hpCDEBurner.pas:1649
 msgid "Burn another copy"
-msgstr ""
+msgstr "Grava una altre còpia"
 
 #: hpCDEBurner.pas:1660
 msgid "Could not set the required speed"
-msgstr ""
+msgstr "No s'ha pogut establir la velocitat requerida"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Server error"
 msgid "Burn error"
-msgstr "Error del servidor"
+msgstr "Error en la gravació"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Select tracks to be updated"
 msgid "Selected tracks cannot be accessed!"
-msgstr "Seleccioneu les pistes que voleu actualitzar"
+msgstr "No es pot accedir a les pistes seleccionades!"
 
 #. Dialog was already presented
 #: hpCDEBurner.pas:1666
-#, fuzzy
-#| msgid "Error"
 msgid "Error code"
-msgstr "Error"
+msgstr "Codi d'error"
 
 #: hpCDEBurner.pas:1815 hpCDEBurner.pas:2696
 msgid "Burning ... (%s)"
-msgstr ""
+msgstr "Gravant ... (%s)"
 
 #: hpCDEBurner.pas:1818 hpCDEBurner.pas:1918
 msgid "Caching files from network"
-msgstr ""
+msgstr "Emmagatzematge en memòria cau de fitxers de la xarxa"
 
 #: hpCDEBurner.pas:2413
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disk from being burnt."
 msgstr ""
+"L'operació de gravació ha fallat! Algunes de les pistes estan protegides per "
+"Digital Rights Management, evitant que el disc es gravi."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13486
@@ -8481,10 +8464,8 @@ msgid "Not calculated"
 msgstr "No calculat"
 
 #: ResStrings.pas:397
-#, fuzzy
-#| msgid "Username"
 msgid "User-installed"
-msgstr "Nom d'usuari"
+msgstr "Usuari instal·lat"
 
 #: ResStrings.pas:399
 msgid "and"
@@ -8666,83 +8647,69 @@ msgid "%d unplayed episodes"
 msgstr "%d episodis sense reproduir"
 
 #: ResStrings.pas:865
-#, fuzzy
-#| msgid "Continue"
 msgid "Co&ntinue"
-msgstr "Continua"
+msgstr "Co&ntinua"
 
 #: ResStrings.pas:866
 msgid "&Erase CD"
-msgstr ""
+msgstr "&Borra CD"
 
 #: ResStrings.pas:867
-#, fuzzy
-#| msgid "Open tray"
 msgid "&Open tray"
-msgstr "Obriu la safata"
+msgstr "&Obriu la safata"
 
 #: ResStrings.pas:869
 msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
 msgstr ""
+"El disc inserit no es pot escriure a menys que s'esborri primer. Voleu "
+"esborrar-lo abans que es gravi?"
 
 #: ResStrings.pas:870
 msgid "Please insert a disc to be burned..."
-msgstr ""
+msgstr "Si us plau, inseriu un disc per gravar..."
 
 # From installer
 #: ResStrings.pas:873
-#, fuzzy
-#| msgid "Error parsing parameter"
 msgid "Error erasing the CDRW."
-msgstr "S'ha produït un error en analitzar el paràmetre"
+msgstr "S'ha produït un error al borrar el CDRW."
 
 #: ResStrings.pas:875
-#, fuzzy
-#| msgid "File %s was not successfully created."
 msgid "Burning was not successful"
-msgstr "El fitxer %s no s'ha creat correctament."
+msgstr "La gravació no va tingut èxit"
 
 #: ResStrings.pas:877
-#, fuzzy
-#| msgid "Player layout cannot be set."
 msgid "The layout could not be set."
-msgstr "No es pot configurar el disseny del reproductor."
+msgstr "No s'ha pogut configurar el disseny ."
 
 #: ResStrings.pas:878
 msgid "Re-burn this disc?"
-msgstr ""
+msgstr "Vols tornar a gravar el disc?"
 
 #: ResStrings.pas:879
 msgid "Could not write the image layout to the disk."
-msgstr ""
+msgstr "No s'ha pogut escriure la disposició la imatge al disc."
 
 #: ResStrings.pas:880
 msgid "Burning was terminated."
-msgstr ""
+msgstr "S'ha acabar la gravació."
 
 #: ResStrings.pas:881
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Burn completed successfully"
-msgstr "%s s'ha instal·lat correctament."
+msgstr "La gravació ha acabar correctament."
 
 #: ResStrings.pas:882
-#, fuzzy
-#| msgid "Removing %s tags %d of %d (%s)"
 msgid "Preparing track %d of %d (%s)"
-msgstr "Eliminant %s etiquetes %d de %d (%s)"
+msgstr "Preparant pista %d de %d (%s)"
 
 #: ResStrings.pas:883
-#, fuzzy
-#| msgid "Problem while decoding file %s"
 msgid "Problem while decoding file %s, burning terminated"
-msgstr "Problema en descodificar el fitxer %s"
+msgstr "Problema en descodificar el fitxer %s, gravació acabada"
 
 #: ResStrings.pas:884
 msgid "Burning ... (Phase: %s)%s"
-msgstr ""
+msgstr "Gravant ... (Fase: %s)%s"
 
 #: Settings.pas:1377
 msgid "MediaMonkey Player"
@@ -9165,12 +9132,16 @@ msgid ""
 "Writes track information to the CD so that devices that support CD-Text can "
 "display it during playback."
 msgstr ""
+"Escriu la informació de la pista al CD perquè els dispositius compatibles "
+"amb CD-Text la puguin mostrar durant la reproducció."
 
 #: dialogs\dlgBurn.html:27
 msgid ""
 "Improves performance by converting tracks on the fly to Audio CD format. "
 "Disable if burns are failing."
 msgstr ""
+"Millora el rendiment convertint pistes sobre la marxa a format de CD "
+"d'àudio. Desactiveu si les gravacions fallen."
 
 #: dialogs\dlgSleep.html:27
 msgid "Action at end:"
@@ -9499,7 +9470,7 @@ msgstr "Aquesta acció instal·larà el producte següent"
 
 #: dialogs\dlgBurn.html:34
 msgid "Sound alert after the burn process"
-msgstr ""
+msgstr "Alerta sonora després del procés de gravació"
 
 #: dialogs\dlgPodcastSubscription.html:54
 msgid "On update, download"
@@ -9932,7 +9903,7 @@ msgstr "Format del nom del fitxer:"
 
 #: dialogs\dlgBurn.html:9
 msgid "Drive"
-msgstr ""
+msgstr "Unitat"
 
 #: dialogs\dlgMP3Settings.html:21
 msgid "Type of bitrate"
@@ -10144,10 +10115,8 @@ msgid "per Album"
 msgstr "per Àlbum"
 
 #: dialogs\dlgBurn.html:28
-#, fuzzy
-#| msgid "On the fly encoding"
 msgid "On the fly audio burning"
-msgstr "Codificació sobre la marxa"
+msgstr "Gravació d'audio sobre la marxa"
 
 #: dialogs\dlgMP3Settings.html:69
 msgid "Bitrate (min)"
@@ -10542,7 +10511,7 @@ msgstr "Activa els marcadors"
 
 #: dialogs\dlgOptions\pnl_Search.html:6
 msgid "Clear search history"
-msgstr ""
+msgstr "Borra l'històrial de cerca"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:5
 msgid ""
@@ -10597,10 +10566,8 @@ msgstr ""
 "registres de fallades)"
 
 #: dialogs\dlgBurn.html:12
-#, fuzzy
-#| msgid "Encode tracks with volume leveled"
 msgid "Burn tracks with volume leveled"
-msgstr "Codificar pistes amb volum anivellat"
+msgstr "Grava pistes amb volum anivellat"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "On the fly encoding"
@@ -11179,10 +11146,8 @@ msgid "Sync all Artwork to file folders"
 msgstr "Sincronitzeu totes les il·lustracions amb carpetes de fitxers"
 
 #: dialogs\dlgBurn.html:13
-#, fuzzy
-#| msgid "Level Track volume"
 msgid "Level volume"
-msgstr "Nivell de volum de la pista"
+msgstr "Nivell de volum"
 
 #: dialogs\dlgLogin.html:12
 msgid "Username"
@@ -11368,7 +11333,7 @@ msgstr "Versió"
 
 #: dialogs\dlgBurn.html:22
 msgid "Write CD-Text"
-msgstr ""
+msgstr "Escriure CD-Text"
 
 #: dialogs\dlgConvertFormat.html:55
 msgid "Output files"
@@ -11567,7 +11532,7 @@ msgstr "Ubicació de la imatge"
 
 #: dialogs\dlgBurn.html:24
 msgid "Prevents network problems from corrupting burns"
-msgstr ""
+msgstr "Evita que els problemes de xarxa corrompin les gravacions"
 
 #: dialogs\dlgConvertFormat.html:11
 msgid "Record CD track(s) to your hard drive"
@@ -11658,6 +11623,8 @@ msgid ""
 "Hardware acceleration improves performance and battery life, but may cause "
 "stability issues on some systems."
 msgstr ""
+"L'acceleració de maquinari millora el rendiment i la durada de la bateria, "
+"però pot causar problemes d'estabilitat en alguns sistemes."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:39
 msgid "'Play Now' Action:"
@@ -11818,7 +11785,7 @@ msgstr "Descripció"
 
 #: dialogs\dlgBurn.html:31
 msgid "Eject media after the burn process"
-msgstr ""
+msgstr "Expulsa el suport després del procés de gravació"
 
 #: dialogs\dlgChooseFields.html:21
 msgid "Largest"
@@ -12088,7 +12055,7 @@ msgstr "Tipus d'imatge"
 
 #: dialogs\dlgBurn.html:25
 msgid "Cache files from network"
-msgstr ""
+msgstr "Arxius de memòria cau de la xarxa"
 
 #: dialogs\dlgChooseFields.html:17
 msgid "Smallest"
