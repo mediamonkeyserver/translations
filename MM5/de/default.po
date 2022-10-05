@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-03 10:10\n"
-"PO-Revision-Date: 2022-10-05 07:29+0000\n"
+"PO-Revision-Date: 2022-10-05 09:16+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -3576,32 +3576,31 @@ msgstr "foo | Findet Wörter, die mit foo beginnen (z.B. Bar Food oder fóObar)"
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
-"+Foo | Findet Wörter die mit Foo beginnen (Achtung: Groß-/Kleinschreibung "
-"beachten, z.B. Football)"
+"+Foo | Findet Wörter die mit Foo beginnen (Groß-/Kleinschreibung beachten, "
+"z.B. Football)"
 
 #: controls/searchBar.js:770
 msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
-msgstr "\"Foo\" | findet ganze Wörter  (z.B. FOO oder fóo)"
+msgstr "\"Foo\" | findet ganze Wörter  (z.B. FOO oder fóo, nicht aber Food)"
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
 msgstr ""
-"\"foo bar\" | findet Übereinstimmungen einschließlich der Phrase foo bar (z. "
-"B. foo barman)"
+"\"foo bar\" | findet Begriffe, die die Phrase foo bar enthalten (z. B. foo "
+"barman)"
 
 #: controls/searchBar.js:772
 msgid "foo bar | finds matches with foo and bar"
-msgstr "foo bar | Findet Übereinstimmungen mit foo und bar"
+msgstr "foo bar | Findet Begriffe, die foo und bar enthalten"
 
 #: controls/searchBar.js:773
 msgid "foo OR bar | finds matches with either foo or bar"
 msgstr ""
-"foo OR bar | Findet Übereinstimmungen sowohl mit \"foo\" als auch mit \"bar\""
+"foo OR bar | Findet Begriffe, die entweder \"foo\" oder \"bar\" enthalten"
 
 #: controls/searchBar.js:774
 msgid "foo -bar | finds matches with foo and not bar"
-msgstr ""
-"foo -bar | Findet Übereinstimmungen mit \"foo\" die \"bar\" nicht enthalten"
+msgstr "foo -bar | Findet Begriffe, die \"foo\" aber nicht \"bar\" enthalten"
 
 #: controls/searchBar.js:775
 msgid "fieldname:foo | restricts search to a specific field. For example:"
