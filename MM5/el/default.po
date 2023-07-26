@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
-"PO-Revision-Date: 2021-11-14 19:41+0000\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
+"PO-Revision-Date: 2022-10-03 08:12+0000\n"
 "Last-Translator: Panagiotis Pentaris <ppentar@outlook.com>\n"
 "Language-Team: Greek <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/el/>\n"
@@ -985,7 +985,7 @@ msgstr "Audio CD"
 
 #: actions.js:3021 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:37
 msgid "Burn"
-msgstr ""
+msgstr "Εγγραφή"
 
 #: actions.js:3040 dialogs/dlgCDDBResult.js:7
 msgid "Lookup Audio CD metadata"
@@ -993,7 +993,7 @@ msgstr "Αναζήτηση μεταδεδομένων Audio CD"
 
 #: actions.js:3056
 msgid "Eject"
-msgstr ""
+msgstr "Εξαγωγή"
 
 #: actions.js:3069
 msgid "&Options"
@@ -2424,13 +2424,11 @@ msgstr "καλλιτέχνης"
 
 #: viewHandlers.js:6573
 msgid "Contributing artists"
-msgstr ""
+msgstr "Συνεισφέροντες καλλιτέχνες"
 
 #: viewHandlers.js:6576
-#, fuzzy
-#| msgid "Artists"
 msgid "Artists only"
-msgstr "Καλλιτέχνες"
+msgstr "Καλλιτέχνες μόνο"
 
 #: viewHandlers.js:6596 UPnPTreeHelper.pas:1893
 msgid "Directors"
@@ -2652,7 +2650,7 @@ msgstr "Δίσκος %s"
 #: controls/albumViewHeader.js:196 controls/artistViewHeader.js:79
 #: controls/artistViewHeader.js:81
 msgid "Switch"
-msgstr ""
+msgstr "Αλλαγή"
 
 #: controls/albumViewHeader.js:172 controls/artistViewHeader.js:119
 msgid "Update properties"
@@ -3578,11 +3576,25 @@ msgstr "Κύλιση για αντιστοίχιση"
 msgid "Search Tips"
 msgstr "Συμβουλές Αναζήτησης"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+#, fuzzy
+#| msgid ""
+#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+"+Foo | βρίσκει λέξεις που ξεκινούν με Foo (διάκριση πεζών-κεφαλαίων, π.χ. "
+"Football)"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+Foo | βρίσκει λέξεις που ξεκινούν με Foo (διάκριση πεζών-κεφαλαίων, π.χ. "
 "Football)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr ""
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -4600,10 +4612,8 @@ msgid "Are you sure you want to remove %d files from the ''%s'' ?"
 msgstr "Είστε σίγουρος ότι θέλετε την αφαίρεση %d αρχείων από ''%s'';"
 
 #: dialogs/dlgDeletedTracks.js:8
-#, fuzzy
-#| msgid "Remove Unavailable files ?"
 msgid "Remove unavailable files"
-msgstr "Αφαίρεση Μη Διαθέσιμων αρχείων ;"
+msgstr "Αφαίρεση μη διαθέσιμων αρχείων"
 
 #: dialogs/dlgDeletedTracks.js:62
 msgid ""
@@ -5037,10 +5047,8 @@ msgid "Audio Output"
 msgstr "Έξοδος Ήχου"
 
 #: dialogs/dlgOptions.js:90
-#, fuzzy
-#| msgid "Tools"
 msgid "Toolbar"
-msgstr "Εργαλεία"
+msgstr "Γραμμή Εργαλείων"
 
 #: dialogs/dlgOptions.js:99
 msgid "Collections & Views"
@@ -5408,6 +5416,8 @@ msgstr "Καθολικές"
 msgid ""
 "This hotkey %s is already assigned to action %s! Choose a different hotkey."
 msgstr ""
+"Αυτό το πλήκτρο πρόσβασης %s έχει ήδη εκχωρηθεί στην ενέργεια %s! Επιλέξτε "
+"ένα διαφορετικό πλήκτρο πρόσβασης."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:240
 msgid "Delete selected hotkey ?"
@@ -5529,10 +5539,8 @@ msgstr "Πηγές μεταδεδομένων αυτόματης προσθήκ�
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:141
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:197
-#, fuzzy
-#| msgid "Summary"
 msgid "Album Summary"
-msgstr "Περίληψη"
+msgstr "Περίληψη Άλμπουμ"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:231 Extensions.pas:1410
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:3
@@ -5552,10 +5560,8 @@ msgstr ""
 "Winamp 2. Γενικά ελέγχουν τον τρόπο με τον οποίο το MediaMonkey εξάγει ήχο."
 
 #: dialogs/dlgOptions/pnl_Performance.js:43
-#, fuzzy
-#| msgid "Enable hardware acceleration"
 msgid "Use hardware acceleration when available"
-msgstr "Ενεργοποίηση επιτάχυνσης hardware"
+msgstr "Χρήση hardware acceleration όποτε είναι διαθέσιμη"
 
 #: dialogs/dlgOptions/pnl_Performance.js:43
 #: dialogs\dlgOptions\pnl_Appearance.html:10
@@ -5564,23 +5570,21 @@ msgstr "(απαιτείται επανεκκίνηση)"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:71
 msgid "Gap"
-msgstr ""
+msgstr "Κενό"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:72
 msgid "Overlap"
-msgstr ""
+msgstr "Επικάλυψη"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:73
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:26
 msgid "Gap/Overlap"
-msgstr ""
+msgstr "Κενό/Επικάλυψη"
 
 #. Unsupported by <NameofCurrentOutputPlugin>. Please change "Audio Output" ("plug-ins").
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:126
-#, fuzzy
-#| msgid "Supported formats on '%s'"
 msgid "Unsupported by %s."
-msgstr "Υποστηριζόμενες μορφές στο '%s'"
+msgstr "Χωρίς υποστήριξη από %s."
 
 #: dialogs/dlgOptions/pnl_Search.js:9
 msgid "When typing in a view:"
@@ -5791,6 +5795,11 @@ msgstr "κομμάτια"
 #: ResStrings.pas:420
 msgid "Entire Library"
 msgstr "Ολόκληρη η Βιβλιοθήκη"
+
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Επιλογή"
 
 #: helpers/autoDJ.js:84
 msgid "Collection"
@@ -6175,11 +6184,8 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Επιλογή"
+"Το MediaMonkey αναζητά εικόνες από διάφορους ιστότοπους. Παρακαλούμε "
+"επιλέξτε να αποδεχτείτε ή να απορρίψετε τα cookies για την αναζήτηση εικόνων."
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -7540,50 +7546,40 @@ msgstr "Πλήκτρο HID"
 
 #: hpCDEBurner.pas:845
 msgid "Erase disc"
-msgstr ""
+msgstr "Διαγραφή δίσκου"
 
 #: hpCDEBurner.pas:849
-#, fuzzy
-#| msgid "Another series"
 msgid "Try another disc"
-msgstr "Μια άλλη σειρά"
+msgstr "Δοκιμάστε άλλον δίσκο"
 
 #. 2 minutes
 #: hpCDEBurner.pas:959
 msgid "minutes remaining"
-msgstr ""
+msgstr "λεπτά απομένουν"
 
 #: hpCDEBurner.pas:961
 msgid "seconds remaining"
-msgstr ""
+msgstr "δευτερόλεπτα απομένουν"
 
 #: hpCDEBurner.pas:980
-#, fuzzy
-#| msgid "Calculating"
 msgid "Simulating"
-msgstr "Υπολογισμός"
+msgstr "Προσομοίωση"
 
 #: hpCDEBurner.pas:981 hpCDEBurner.pas:983
-#, fuzzy
-#| msgid "Exporting"
 msgid "Writing"
-msgstr "Εξαγωγή"
+msgstr "Εγγραφή"
 
 #: hpCDEBurner.pas:982
-#, fuzzy
-#| msgid "Close"
 msgid "Closing"
 msgstr "Κλείσιμο"
 
 #: hpCDEBurner.pas:984 ResStrings.pas:872
 msgid "Erasing"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: hpCDEBurner.pas:985
-#, fuzzy
-#| msgid "Waiting for sync connection"
 msgid "Waiting for a new disc"
-msgstr "Αναμονή για σύνδεση συγχρονισμού"
+msgstr "Αναμονή για νέο δίσκο"
 
 #. Check for termination, but give a warning:
 #: hpCDEBurner.pas:1007
@@ -7591,89 +7587,80 @@ msgid ""
 "Terminating a Disc burn will create an unreadable disc. Are you sure you "
 "want to proceed?"
 msgstr ""
+"Ο Τερματισμός Εγγραφής Δίσκου θα δημιουργήσει έναν μη αναγνώσιμο δίσκο. "
+"Είστε σίγουροι ότι θέλετε να συνεχίσετε;"
 
 #: hpCDEBurner.pas:1347
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s (copy %d) burned successfully."
-msgstr "Το %s εγκαταστάθηκε με επιτυχία."
+msgstr "Επιτυχημένη εγγραφή δίσκου %s (αντίγραφο %d)."
 
 #: hpCDEBurner.pas:1349
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s burned successfully."
-msgstr "Το %s εγκαταστάθηκε με επιτυχία."
+msgstr "Επιτυχημένη εγγραφή δίσκου %s ."
 
 #: hpCDEBurner.pas:1355
 msgid "Disc %s (copy %d) burn failed"
-msgstr ""
+msgstr "Απέτυχε η εγγραφή του δίσκου %s (αντιγραφή %d)"
 
 #: hpCDEBurner.pas:1357
 msgid "Disc %s burn failed"
-msgstr ""
+msgstr "Απέτυχε η εγγραφή του δίσκου %s"
 
 #. TODOWIN8
 #: hpCDEBurner.pas:1639
 msgid "Re-burn disc"
-msgstr ""
+msgstr "Επανεγγραφή δίσκου"
 
 #: hpCDEBurner.pas:1646
 msgid "Burn disc %d"
-msgstr ""
+msgstr "Εγγραφή δίσκου %d"
 
 #: hpCDEBurner.pas:1649
 msgid "Burn another copy"
-msgstr ""
+msgstr "Εγγραφή άλλου αντίγραφου"
 
 #: hpCDEBurner.pas:1660
 msgid "Could not set the required speed"
-msgstr ""
+msgstr "Δεν ήταν δυνατή η ρύθμιση της απαιτούμενης ταχύτητας"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Server error"
 msgid "Burn error"
-msgstr "Σφάλμα server"
+msgstr "Σφάλμα στην εγγραφή"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Select tracks to be updated"
 msgid "Selected tracks cannot be accessed!"
-msgstr "Επιλογή κομματιών για ενημέρωση"
+msgstr "Δεν είναι δυνατή η πρόσβαση στα επιλεγμένα κομμάτια!"
 
 #. Dialog was already presented
 #: hpCDEBurner.pas:1666
-#, fuzzy
-#| msgid "Error"
 msgid "Error code"
-msgstr "Σφάλμα"
+msgstr "Κωδικός σφάλματος"
 
 #: hpCDEBurner.pas:1815 hpCDEBurner.pas:2696
 msgid "Burning ... (%s)"
-msgstr ""
+msgstr "Εγγραφή ... (%s)"
 
 #: hpCDEBurner.pas:1818 hpCDEBurner.pas:1918
 msgid "Caching files from network"
-msgstr ""
+msgstr "Αποθήκευση αρχείων από το δίκτυο"
 
 #: hpCDEBurner.pas:2413
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disk from being burnt."
 msgstr ""
+"Απέτυχε η λειτουργία εγγραφής! Ορισμένα από τα κομμάτια προστατεύονται από "
+"Digital Rights Management, που αποτρέπουν την εγγραφή του δίσκου."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13486
-#, fuzzy
-#| msgid ""
-#| "Minimizes to the MicroPlayer if it is enabled (right-click on the System "
-#| "Task bar, and click 'Toolbars')."
 msgid ""
 "The MicroPlayer is not yet enabled. To enable it, right-click on the "
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
 msgstr ""
-"Ελαχιστοποίηση σε MicroPlayer αν είναι ενεργοποιημένη (δεξί κλικ στη Γραμμή "
-"Εργασιών Συστήματος και κλικ στο 'Γραμμές εργαλείων')."
+"Το MicroPlayer δεν είναι ακόμα ενεργοποιημένο. Για να το ενεργοποιήσετε, "
+"κάντε δεξί κλικ στη γραμμή εργασιών, κλικ στο 'Γραμμές εργαλείων' και "
+"ενεργοποιήστε το 'MediaMonkey Player'."
 
 #. we don't know parent playlist id yet
 #: Importers.pas:148 M3Umanage.pas:529 MP3Utils.pas:1585
@@ -7849,10 +7836,8 @@ msgid "Tag update failed: %s is inaccessible."
 msgstr "Η ενημέρωση ετικέτας απέτυχε: Μη προσβασιμότητα %s."
 
 #: MediaManage.pas:5567 MediaMonkeyApp.pas:5570
-#, fuzzy
-#| msgid "Conversion of file %s failed"
 msgid "Creating folder \"%s\" failed"
-msgstr "Απέτυχε η μετατροπή του αρχείου %s"
+msgstr "Απέτυχε η δημιουργία του φακέλου \"%s\""
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
 #: MediaMonkeyApp.pas:5264
@@ -8536,10 +8521,8 @@ msgid "Not calculated"
 msgstr "Δεν υπολογίστηκε"
 
 #: ResStrings.pas:397
-#, fuzzy
-#| msgid "Username"
 msgid "User-installed"
-msgstr "Όνομα χρήστη"
+msgstr "Εγκατεστημένο από τον χρήστη"
 
 #: ResStrings.pas:399
 msgid "and"
@@ -8721,18 +8704,14 @@ msgid "%d unplayed episodes"
 msgstr "%d μη αναπαραχθέντα επεισόδια"
 
 #: ResStrings.pas:865
-#, fuzzy
-#| msgid "Continue"
 msgid "Co&ntinue"
-msgstr "Συνέχεια"
+msgstr "Συνέχιση"
 
 #: ResStrings.pas:866
 msgid "&Erase CD"
-msgstr ""
+msgstr "Διαγραφή CD"
 
 #: ResStrings.pas:867
-#, fuzzy
-#| msgid "Open tray"
 msgid "&Open tray"
 msgstr "Άνοιγμα δίσκου"
 
@@ -8741,62 +8720,53 @@ msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
 msgstr ""
+"Ο δίσκος που έχει εισαχθεί δεν μπορεί να εγγραφεί εκτός εάν πρώτα διαγραφεί. "
+"Θέλετε να τον διαγράψετε για την εγγραφή;"
 
 #: ResStrings.pas:870
 msgid "Please insert a disc to be burned..."
-msgstr ""
+msgstr "Παρακαλούμε εισαγάγετε έναν δίσκο για εγγραφή..."
 
 #: ResStrings.pas:873
-#, fuzzy
-#| msgid "Error parsing parameter"
 msgid "Error erasing the CDRW."
-msgstr "Σφάλμα παραμέτρου ανάλυσης"
+msgstr "Σφάλμα κατά τη διαγραφή του CDRW."
 
 #: ResStrings.pas:875
-#, fuzzy
-#| msgid "File %s was not successfully created."
 msgid "Burning was not successful"
-msgstr "Το αρχείο %s δεν δημιουργήθηκε επιτυχώς."
+msgstr "Η εγγραφή δεν ήταν επιτυχής"
 
 #: ResStrings.pas:877
-#, fuzzy
-#| msgid "Player layout cannot be set."
 msgid "The layout could not be set."
-msgstr "Είναι αδύνατη η ρύθμιση της διάταξης του player."
+msgstr "Δεν ήταν δυνατή η ρύθμιση της διάταξης."
 
 #: ResStrings.pas:878
 msgid "Re-burn this disc?"
-msgstr ""
+msgstr "Επανεγγραφή αυτού του δίσκου;"
 
 #: ResStrings.pas:879
 msgid "Could not write the image layout to the disk."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η εγγραφή της διάταξης εικόνας στον δίσκο."
 
 #: ResStrings.pas:880
 msgid "Burning was terminated."
-msgstr ""
+msgstr "Τερματίστηκε η εγγραφή."
 
 #: ResStrings.pas:881
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Burn completed successfully"
-msgstr "Το %s εγκαταστάθηκε με επιτυχία."
+msgstr "Η εγγραφή ολοκληρώθηκε με επιτυχία"
 
 #: ResStrings.pas:882
-#, fuzzy
-#| msgid "Removing %s tags %d of %d (%s)"
 msgid "Preparing track %d of %d (%s)"
-msgstr "Διαγραφή %s ετικετών %d από %d (%s)"
+msgstr "Προετοιμασία κομματιού %d από %d (%s)"
 
 #: ResStrings.pas:883
-#, fuzzy
-#| msgid "Problem while decoding file %s"
 msgid "Problem while decoding file %s, burning terminated"
-msgstr "Πρόβλημα κατά την αποκωδικοποίηση αρχείου %s"
+msgstr ""
+"Πρόβλημα κατά την αποκωδικοποίηση του αρχείου %s, η εγγραφή τερματίστηκε"
 
 #: ResStrings.pas:884
 msgid "Burning ... (Phase: %s)%s"
-msgstr ""
+msgstr "Εγγραφή ... (Φάση: %s)%s"
 
 #: Settings.pas:1377
 msgid "MediaMonkey Player"
@@ -9224,12 +9194,16 @@ msgid ""
 "Writes track information to the CD so that devices that support CD-Text can "
 "display it during playback."
 msgstr ""
+"Γράφει πληροφορίες κομματιού στο CD έτσι ώστε οι συσκευές που υποστηρίζουν "
+"CD-Text να μπορούν να τις εμφανίζουν κατά την αναπαραγωγή."
 
 #: dialogs\dlgBurn.html:27
 msgid ""
 "Improves performance by converting tracks on the fly to Audio CD format. "
 "Disable if burns are failing."
 msgstr ""
+"Βελτιώνει την απόδοση μετατρέποντας τα κομμάτια on the fly σε μορφή Audio "
+"CD. Απενεργοποιήστε, εάν αποτυγχάνουν οι εγγραφές."
 
 #: dialogs\dlgSleep.html:27
 msgid "Action at end:"
@@ -9344,10 +9318,9 @@ msgstr ""
 "και αναζητήσεις παρασκηνίου)"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:47
-#, fuzzy
-#| msgid "Customize case for these words"
 msgid "Customize case for these phrases mid-string"
-msgstr "Προσαρμογή πεζών-κεφαλαίων για αυτές τις λέξεις"
+msgstr ""
+"Προσαρμογή πεζών-κεφαλαίων για αυτές τις φράσεις στη μέση της συμβολοσειράς"
 
 #: controls\windowtitle.html:18
 msgid "Maximize window"
@@ -9559,7 +9532,7 @@ msgstr "Αυτή η ενέργεια θα εγκαταστήσει το ακόλ
 
 #: dialogs\dlgBurn.html:34
 msgid "Sound alert after the burn process"
-msgstr ""
+msgstr "Ηχητική ειδοποίηση μετά τη διαδικασία εγγραφής"
 
 #: dialogs\dlgPodcastSubscription.html:54
 msgid "On update, download"
@@ -9870,13 +9843,11 @@ msgstr ""
 "Επαναφέρει αυτό το προφίλ συγχρονισμού στις προεπιλεγμένες του ρυθμίσεις"
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:6
-#, fuzzy
-#| msgid "Set the default directory / filename format for specified files."
 msgid ""
 "Choose the Directory/Filename format to be used for files on the device."
 msgstr ""
-"Ορίζει την προεπιλεγμένη μορφή φακέλου / ονόματος αρχείου για συγκεκριμένα "
-"αρχεία."
+"Επιλέξτε τη μορφή Καταλόγου/Όνομα αρχείου που θα χρησιμοποιηθεί για αρχεία "
+"στη συσκευή."
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:86
 msgid "Describes any other directories that should be scanned for media."
@@ -9947,10 +9918,8 @@ msgid "Total lockdown"
 msgstr "Συνολικό κλείδωμα"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:20
-#, fuzzy
-#| msgid "Fade to"
 msgid "Fade in"
-msgstr "Fade σε"
+msgstr "Fade in"
 
 #: dialogs\dlgOptions\pnl_Player.html:102
 msgid ""
@@ -9995,7 +9964,7 @@ msgstr "Μορφή Ονόματος Αρχείου:"
 
 #: dialogs\dlgBurn.html:9
 msgid "Drive"
-msgstr ""
+msgstr "Μονάδα"
 
 #: dialogs\dlgMP3Settings.html:21
 msgid "Type of bitrate"
@@ -10037,10 +10006,8 @@ msgstr ""
 "Αναπαραγωγή Επόμενου, Αναπαραγωγή Τελευταίου ή Επεξεργασία Ιδιοτήτων."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:14
-#, fuzzy
-#| msgid "Fade to"
 msgid "Fade out"
-msgstr "Fade σε"
+msgstr "Fade out"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
 msgid "Display format for 'Track summary'  (e.g. in Player):"
@@ -10209,10 +10176,8 @@ msgid "per Album"
 msgstr "ανά Άλμπουμ"
 
 #: dialogs\dlgBurn.html:28
-#, fuzzy
-#| msgid "On the fly encoding"
 msgid "On the fly audio burning"
-msgstr "Κωδικοποίηση on the fly"
+msgstr "Εγγραφή ήχου on the fly"
 
 #: dialogs\dlgMP3Settings.html:69
 msgid "Bitrate (min)"
@@ -10605,7 +10570,7 @@ msgstr "Ενεργοποίηση σελιδοδείκτη"
 
 #: dialogs\dlgOptions\pnl_Search.html:6
 msgid "Clear search history"
-msgstr ""
+msgstr "Εκκαθάριση ιστορικού αναζήτησης"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:5
 msgid ""
@@ -10662,10 +10627,8 @@ msgstr ""
 "δημιουργία αρχείου καταγραφής σφαλμάτων)"
 
 #: dialogs\dlgBurn.html:12
-#, fuzzy
-#| msgid "Encode tracks with volume leveled"
 msgid "Burn tracks with volume leveled"
-msgstr "Κωδικοποίηση κομματιών με εξισορρόπηση έντασης"
+msgstr "Εγγραφή κομματιών με εξισορρόπηση έντασης"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "On the fly encoding"
@@ -11045,10 +11008,8 @@ msgid "Registered to :"
 msgstr "Καταχωρημένο:"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:43
-#, fuzzy
-#| msgid "Customize case for these words"
 msgid "Customize case for these phrases"
-msgstr "Προσαρμογή πεζών-κεφαλαίων για αυτές τις λέξεις"
+msgstr "Προσαρμογή πεζών-κεφαλαίων για αυτές τις φράσεις"
 
 #: Scripts\statistics\dialogs\dlgStatistics.html:28
 msgid "Save this report"
@@ -11200,7 +11161,7 @@ msgstr "Αύξηση μετρητή αναπαραγωγής σε:"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:25
 msgid "Sets the size of the gap or overlap between tracks"
-msgstr ""
+msgstr "Ορίζει το μέγεθος του κενού ή της επικάλυψης μεταξύ των κομματιών"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:43
 msgid "Use Unicode (UTF-8 encoding) for M3U playlists"
@@ -11249,10 +11210,8 @@ msgid "Sync all Artwork to file folders"
 msgstr "Συγχρονισμός όλων των Γραφικών στους φακέλους αρχείων"
 
 #: dialogs\dlgBurn.html:13
-#, fuzzy
-#| msgid "Level Track volume"
 msgid "Level volume"
-msgstr "Εξισορρόπηση έντασης Κομματιού"
+msgstr "Εξισορρόπηση έντασης"
 
 #: dialogs\dlgLogin.html:12
 msgid "Username"
@@ -11441,7 +11400,7 @@ msgstr "Έκδοση"
 
 #: dialogs\dlgBurn.html:22
 msgid "Write CD-Text"
-msgstr ""
+msgstr "Εγγραφή CD-Text"
 
 #: dialogs\dlgConvertFormat.html:55
 msgid "Output files"
@@ -11513,7 +11472,7 @@ msgstr "Πηγές"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:15
 msgid "Determines which actions are presented when a disk is inserted"
-msgstr ""
+msgstr "Καθορίζει ποιες ενέργειες παρουσιάζονται κατά την εισαγωγή ενός δίσκου"
 
 #: dialogs\dlgOptions\pnl_Player.html:61
 msgid "Transparency"
@@ -11604,20 +11563,16 @@ msgstr ""
 "Βελτιώνει την απόδοση κάποιων εργασιών χρησιμοποιώντας πολλούς πυρήνες CPU"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
-#, fuzzy
-#| msgid "Crossfade"
 msgid "Crossfading"
-msgstr "Crossfade"
+msgstr "Crossfading"
 
 #: dialogs\dlgOptions\pnl_Player.html:41
 msgid "Pop-up display"
 msgstr "Αναδυόμενη απεικόνιση"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:25
-#, fuzzy
-#| msgid "Choose which files to keep synced:"
 msgid "Choose which files to update"
-msgstr "Επιλέξτε ποια αρχεία θα συνεχίσουν να συγχρονίζονται:"
+msgstr "Επιλέξτε ποια αρχεία θα ενημερωθούν"
 
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid ""
@@ -11645,7 +11600,7 @@ msgstr "Τοποθεσία εικόνας"
 
 #: dialogs\dlgBurn.html:24
 msgid "Prevents network problems from corrupting burns"
-msgstr ""
+msgstr "Αποτρέπει προβλήματα δικτύου από καταστραμμένες εγγραφές"
 
 #: dialogs\dlgConvertFormat.html:11
 msgid "Record CD track(s) to your hard drive"
@@ -11737,6 +11692,9 @@ msgid ""
 "Hardware acceleration improves performance and battery life, but may cause "
 "stability issues on some systems."
 msgstr ""
+"Το hardware acceleration βελτιώνει την απόδοση και τη διάρκεια ζωής της "
+"μπαταρίας, αλλά σε ορισμένα συστήματα μπορεί να προκαλέσει προβλήματα "
+"σταθερότητας."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:39
 msgid "'Play Now' Action:"
@@ -11898,7 +11856,7 @@ msgstr "Περιγραφή"
 
 #: dialogs\dlgBurn.html:31
 msgid "Eject media after the burn process"
-msgstr ""
+msgstr "Εξαγωγή πολυμέσου μετά την διαδικασία εγγραφής"
 
 #: dialogs\dlgChooseFields.html:21
 msgid "Largest"
@@ -12019,6 +11977,8 @@ msgstr "Δημιουργία μικρογραφιών για βίντεο"
 #: dialogs\dlgOptions\pnl_OSIntegration.html:38
 msgid "Determines which actions are available in the Explorer context-menu"
 msgstr ""
+"Καθορίζει ποιες ενέργειες είναι διαθέσιμες στο μενού περιβάλλοντος του "
+"Explorer"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
 msgid "Play next in MediaMonkey"
@@ -12047,7 +12007,7 @@ msgstr "αυτόματη οργάνωση αρχείων"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:38
 msgid "Fix quotes and apostrophes"
-msgstr ""
+msgstr "Διόρθωση εισαγωγικών και απόστροφων"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
 msgid ""
@@ -12151,10 +12111,8 @@ msgid "minutes"
 msgstr "λεπτά"
 
 #: controls\deviceConfig\summary.html:10
-#, fuzzy
-#| msgid "Menu bar"
 msgid "Menu"
-msgstr "Γραμμή μενού"
+msgstr "Μενού"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:23
 msgid "Image:"
@@ -12170,7 +12128,7 @@ msgstr "Τύπος εικόνας"
 
 #: dialogs\dlgBurn.html:25
 msgid "Cache files from network"
-msgstr ""
+msgstr "Αποθήκευση αρχείων από το δίκτυο"
 
 #: dialogs\dlgChooseFields.html:17
 msgid "Smallest"
@@ -12537,8 +12495,6 @@ msgid "Disables crossfading for files of the selected type."
 msgstr "Απενεργοποιεί το crossfading για αρχεία του επιλεγμένου τύπου."
 
 #: controls\deviceConfig\summary.html:10
-#, fuzzy
-#| msgid "Safely &remove device"
 msgid "Safely remove device"
 msgstr "Ασφαλής αφαίρεση συσκευής"
 

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
-"PO-Revision-Date: 2022-04-26 00:25+0000\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
+"PO-Revision-Date: 2022-10-03 08:12+0000\n"
 "Last-Translator: Marko Mahnic <mahnic.marko@gmail.com>\n"
 "Language-Team: Slovenian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/sl/>\n"
@@ -978,7 +978,7 @@ msgstr "Glasbeni CD"
 
 #: actions.js:3021 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:37
 msgid "Burn"
-msgstr ""
+msgstr "Zapiši"
 
 #: actions.js:3040 dialogs/dlgCDDBResult.js:7
 msgid "Lookup Audio CD metadata"
@@ -986,7 +986,7 @@ msgstr "Iskanje metapodatkov zvočnega CD-ja"
 
 #: actions.js:3056
 msgid "Eject"
-msgstr ""
+msgstr "Izvrzi"
 
 #: actions.js:3069
 msgid "&Options"
@@ -1071,7 +1071,7 @@ msgstr "Vsaka datoteka"
 
 #: actions.js:3427
 msgid "Crossfade"
-msgstr "Navzkrižno pojemanje"
+msgstr "Prelivanje"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. For screen reader support (aria-label for screen readers to read its state)
@@ -1741,7 +1741,7 @@ msgstr "Mehak premor"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Crossfades during seek operation"
-msgstr "Navzkrižno pojemanje med iskanjem"
+msgstr "Prelivanje med iskanjem"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Smooth seek"
@@ -2413,13 +2413,11 @@ msgstr "Izvajalec"
 
 #: viewHandlers.js:6573
 msgid "Contributing artists"
-msgstr ""
+msgstr "Sodelujoči umetniki"
 
 #: viewHandlers.js:6576
-#, fuzzy
-#| msgid "Artists"
 msgid "Artists only"
-msgstr "Izvajalci"
+msgstr "Samo izvajalci"
 
 #: viewHandlers.js:6596 UPnPTreeHelper.pas:1893
 msgid "Directors"
@@ -3563,11 +3561,25 @@ msgstr "Drsenje do zadetka"
 msgid "Search Tips"
 msgstr "Nasveti za iskanje"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+#, fuzzy
+#| msgid ""
+#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+"+Foo | poišče besede, ki se začnejo z Foo (z velikimi in malimi črkami, npr. "
+"Football (nogomet))"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+Foo | poišče besede, ki se začnejo z Foo (z velikimi in malimi črkami, npr. "
 "Football (nogomet))"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr ""
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -4571,10 +4583,8 @@ msgid "Are you sure you want to remove %d files from the ''%s'' ?"
 msgstr "Ali ste prepričani, da želite iz ''%s'' odstraniti datoteke: %d?"
 
 #: dialogs/dlgDeletedTracks.js:8
-#, fuzzy
-#| msgid "Remove Unavailable files ?"
 msgid "Remove unavailable files"
-msgstr "Naj odstranim datoteke, ki niso na voljo?"
+msgstr "Odstrani datoteke, ki niso na voljo"
 
 #: dialogs/dlgDeletedTracks.js:62
 msgid ""
@@ -5001,10 +5011,8 @@ msgid "Audio Output"
 msgstr "Zvočni izhod"
 
 #: dialogs/dlgOptions.js:90
-#, fuzzy
-#| msgid "Tools"
 msgid "Toolbar"
-msgstr "Orodja"
+msgstr "Orodna vrstica"
 
 #: dialogs/dlgOptions.js:99
 msgid "Collections & Views"
@@ -5364,6 +5372,8 @@ msgstr "Globalno"
 msgid ""
 "This hotkey %s is already assigned to action %s! Choose a different hotkey."
 msgstr ""
+"Ta bližnjična tipka %s je že določena za dejanje %s! Izberite drugo "
+"bližnjično tipko."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:240
 msgid "Delete selected hotkey ?"
@@ -5483,10 +5493,8 @@ msgstr "Samodejno označi vire metapodatkov"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:141
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:197
-#, fuzzy
-#| msgid "Summary"
 msgid "Album Summary"
-msgstr "Povzetek"
+msgstr "Povzetek albuma"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:231 Extensions.pas:1410
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:3
@@ -5507,10 +5515,8 @@ msgstr ""
 "predvaja zvok."
 
 #: dialogs/dlgOptions/pnl_Performance.js:43
-#, fuzzy
-#| msgid "Enable hardware acceleration"
 msgid "Use hardware acceleration when available"
-msgstr "Omogoči strojno pospeševanje"
+msgstr "Omogoči strojno pospeševanje, če je na voljo"
 
 #: dialogs/dlgOptions/pnl_Performance.js:43
 #: dialogs\dlgOptions\pnl_Appearance.html:10
@@ -5743,6 +5749,11 @@ msgstr "skladbe"
 #: ResStrings.pas:420
 msgid "Entire Library"
 msgstr "Vsa knjižnica"
+
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Izberi"
 
 #: helpers/autoDJ.js:84
 msgid "Collection"
@@ -6122,11 +6133,8 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Izberi"
+"MediaMonkey išče slike na različnih spletnih mestih. Izberite, ali želite "
+"sprejeti ali zavrniti piškotke za slike, ki jih želite poiskati."
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -7465,50 +7473,40 @@ msgstr "HID ključ"
 
 #: hpCDEBurner.pas:845
 msgid "Erase disc"
-msgstr ""
+msgstr "Izbrišite medij"
 
 #: hpCDEBurner.pas:849
-#, fuzzy
-#| msgid "Another series"
 msgid "Try another disc"
-msgstr "Še ena serija"
+msgstr "Poskusite drug medij"
 
 #. 2 minutes
 #: hpCDEBurner.pas:959
 msgid "minutes remaining"
-msgstr ""
+msgstr "preostalih minut"
 
 #: hpCDEBurner.pas:961
 msgid "seconds remaining"
-msgstr ""
+msgstr "preostalih minut"
 
 #: hpCDEBurner.pas:980
-#, fuzzy
-#| msgid "Calculating"
 msgid "Simulating"
-msgstr "Izračunavanje"
+msgstr "Simuliranje"
 
 #: hpCDEBurner.pas:981 hpCDEBurner.pas:983
-#, fuzzy
-#| msgid "Exporting"
 msgid "Writing"
-msgstr "Izvažanje"
+msgstr "Zapisovanje"
 
 #: hpCDEBurner.pas:982
-#, fuzzy
-#| msgid "Close"
 msgid "Closing"
-msgstr "Zapri"
+msgstr "Zapiranje"
 
 #: hpCDEBurner.pas:984 ResStrings.pas:872
 msgid "Erasing"
-msgstr ""
+msgstr "Brisanje"
 
 #: hpCDEBurner.pas:985
-#, fuzzy
-#| msgid "Waiting for sync connection"
 msgid "Waiting for a new disc"
-msgstr "Čakanje na sinhronizacijsko povezavo"
+msgstr "Čakanje na nov medij"
 
 #. Check for termination, but give a warning:
 #: hpCDEBurner.pas:1007
@@ -7516,76 +7514,70 @@ msgid ""
 "Terminating a Disc burn will create an unreadable disc. Are you sure you "
 "want to proceed?"
 msgstr ""
+"Če prekinete zapisovanje na medij bo ta neberljiv. Ste prepričani, da želite "
+"nadaljevati?"
 
 #: hpCDEBurner.pas:1347
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s (copy %d) burned successfully."
-msgstr "Namestitev %s je uspela."
+msgstr "Zapisovanje na medij (kopiranje %s) je bilo uspešno."
 
 #: hpCDEBurner.pas:1349
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s burned successfully."
-msgstr "Namestitev %s je uspela."
+msgstr "Zapisovanje na medij %s je bilo uspešno."
 
 #: hpCDEBurner.pas:1355
 msgid "Disc %s (copy %d) burn failed"
-msgstr ""
+msgstr "Zapisovanje na medij %s (kopiranje %d) ni bilo uspešno"
 
 #: hpCDEBurner.pas:1357
 msgid "Disc %s burn failed"
-msgstr ""
+msgstr "Zapisovanje na medij %s ni bilo uspešno"
 
 #. TODOWIN8
 #: hpCDEBurner.pas:1639
 msgid "Re-burn disc"
-msgstr ""
+msgstr "Ponovno zapisovanje na medij"
 
 #: hpCDEBurner.pas:1646
 msgid "Burn disc %d"
-msgstr ""
+msgstr "Zapisovanje na medij %d"
 
 #: hpCDEBurner.pas:1649
 msgid "Burn another copy"
-msgstr ""
+msgstr "Zapišite še eno kopijo"
 
 #: hpCDEBurner.pas:1660
 msgid "Could not set the required speed"
-msgstr ""
+msgstr "Zahtevane hitrosti ni bilo mogoče nastaviti"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Server error"
 msgid "Burn error"
-msgstr "Napaka strežnika"
+msgstr "Napaka zapisovanja"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Select tracks to be updated"
 msgid "Selected tracks cannot be accessed!"
-msgstr "Izberite skladbe, ki jih želite posodobiti"
+msgstr "Izbrane skladbe niso dostopne!"
 
 #. Dialog was already presented
 #: hpCDEBurner.pas:1666
-#, fuzzy
-#| msgid "Error"
 msgid "Error code"
-msgstr "Napaka"
+msgstr "Koda napake"
 
 #: hpCDEBurner.pas:1815 hpCDEBurner.pas:2696
 msgid "Burning ... (%s)"
-msgstr ""
+msgstr "Zapisovanje ... (%s)"
 
 #: hpCDEBurner.pas:1818 hpCDEBurner.pas:1918
 msgid "Caching files from network"
-msgstr ""
+msgstr "Predpomnjenje datotek iz omrežja"
 
 #: hpCDEBurner.pas:2413
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disk from being burnt."
 msgstr ""
+"Zapisovanje ni bilo uspešno! Nekatere skladbe so zaščitene z upravljanjem "
+"pravic digitalnih vsebin, kar preprečuje zapisovanje na medij."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13486
@@ -8451,10 +8443,8 @@ msgid "Not calculated"
 msgstr "Ni izračunano"
 
 #: ResStrings.pas:397
-#, fuzzy
-#| msgid "Username"
 msgid "User-installed"
-msgstr "Uporabniško ime"
+msgstr "Namestil uporabnik"
 
 #: ResStrings.pas:399
 msgid "and"
@@ -8635,82 +8625,68 @@ msgid "%d unplayed episodes"
 msgstr "%d nepredvajanih epizod"
 
 #: ResStrings.pas:865
-#, fuzzy
-#| msgid "Continue"
 msgid "Co&ntinue"
-msgstr "Nadaljuj"
+msgstr "Na&daljuj"
 
 #: ResStrings.pas:866
 msgid "&Erase CD"
-msgstr ""
+msgstr "&Izbriši medij"
 
 #: ResStrings.pas:867
-#, fuzzy
-#| msgid "Open tray"
 msgid "&Open tray"
-msgstr "Odpri pladenj"
+msgstr "&Odpri pladenj"
 
 #: ResStrings.pas:869
 msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
 msgstr ""
+"Če želite zapisovati na vstavljeni medij, ga je treba najprej izbrisati. Ali "
+"ga želite izbrisati pred zapisovanjem?"
 
 #: ResStrings.pas:870
 msgid "Please insert a disc to be burned..."
-msgstr ""
+msgstr "Vstavite medij za zapisovanje ..."
 
 #: ResStrings.pas:873
-#, fuzzy
-#| msgid "Error parsing parameter"
 msgid "Error erasing the CDRW."
-msgstr "Napaka pri razčlenjevanju parametra"
+msgstr "Napaka pri brisanju medija (CD-RW)"
 
 #: ResStrings.pas:875
-#, fuzzy
-#| msgid "File %s was not successfully created."
 msgid "Burning was not successful"
-msgstr "Datoteka %s ni bila uspešno ustvarjena."
+msgstr "Zapisovanje ni bilo uspešno"
 
 #: ResStrings.pas:877
-#, fuzzy
-#| msgid "Player layout cannot be set."
 msgid "The layout could not be set."
-msgstr "Postavitve predvajalnika ni mogoče nastaviti."
+msgstr "Postavitve ni bilo mogoče nastaviti."
 
 #: ResStrings.pas:878
 msgid "Re-burn this disc?"
-msgstr ""
+msgstr "Ali želite ponoviti zapisovanje na medij?"
 
 #: ResStrings.pas:879
 msgid "Could not write the image layout to the disk."
-msgstr ""
+msgstr "Postavitve slike ni bilo mogoče zapisati na medij."
 
 #: ResStrings.pas:880
 msgid "Burning was terminated."
-msgstr ""
+msgstr "Zapisovanje je bilo prekinjeno."
 
 #: ResStrings.pas:881
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Burn completed successfully"
-msgstr "Namestitev %s je uspela."
+msgstr "Zapisovanje je bilo uspešno zaključeno"
 
 #: ResStrings.pas:882
-#, fuzzy
-#| msgid "Removing %s tags %d of %d (%s)"
 msgid "Preparing track %d of %d (%s)"
-msgstr "Odstranjevanje %s oznak %d od %d (%s)"
+msgstr "Pripravljanje skladbe %s od %d (%s)"
 
 #: ResStrings.pas:883
-#, fuzzy
-#| msgid "Problem while decoding file %s"
 msgid "Problem while decoding file %s, burning terminated"
-msgstr "Težava pri dekodiranju datoteke %s"
+msgstr "Težava pri dekodiranju datoteke %s, zapisovanje prekinjeno"
 
 #: ResStrings.pas:884
 msgid "Burning ... (Phase: %s)%s"
-msgstr ""
+msgstr "Zapisovanje ... (Faza: %s)%s"
 
 #: Settings.pas:1377
 msgid "MediaMonkey Player"
@@ -9127,12 +9103,16 @@ msgid ""
 "Writes track information to the CD so that devices that support CD-Text can "
 "display it during playback."
 msgstr ""
+"Zapiše informacije o skladbi na CD, da jih lahko naprave, ki podpirajo CD-"
+"besedilo, prikažejo med predvajanjem."
 
 #: dialogs\dlgBurn.html:27
 msgid ""
 "Improves performance by converting tracks on the fly to Audio CD format. "
 "Disable if burns are failing."
 msgstr ""
+"Izboljša delovanje tako, da podatke takoj pretvori v glasbeno obliko zapisa "
+"na mediju. Onemogočite, če zapisovanje ni uspešno."
 
 #: dialogs\dlgSleep.html:27
 msgid "Action at end:"
@@ -9452,7 +9432,7 @@ msgstr "Nameščen bo naslednji izdelek"
 
 #: dialogs\dlgBurn.html:34
 msgid "Sound alert after the burn process"
-msgstr ""
+msgstr "Zvočno opozorilo po procesu zapisovanja"
 
 #: dialogs\dlgPodcastSubscription.html:54
 msgid "On update, download"
@@ -9826,10 +9806,8 @@ msgid "Total lockdown"
 msgstr "Popolnoma zaklenjeno"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:20
-#, fuzzy
-#| msgid "Fade to"
 msgid "Fade in"
-msgstr "Izginjanje v"
+msgstr "Naraščanje"
 
 #: dialogs\dlgOptions\pnl_Player.html:102
 msgid ""
@@ -9874,7 +9852,7 @@ msgstr "Oblika imena datoteke:"
 
 #: dialogs\dlgBurn.html:9
 msgid "Drive"
-msgstr ""
+msgstr "Pogon"
 
 #: dialogs\dlgMP3Settings.html:21
 msgid "Type of bitrate"
@@ -10084,10 +10062,8 @@ msgid "per Album"
 msgstr "na album"
 
 #: dialogs\dlgBurn.html:28
-#, fuzzy
-#| msgid "On the fly encoding"
 msgid "On the fly audio burning"
-msgstr "Takojšnje kodiranje"
+msgstr "Sprotno zapisovanje zvoka"
 
 #: dialogs\dlgMP3Settings.html:69
 msgid "Bitrate (min)"
@@ -10469,7 +10445,7 @@ msgstr "Omogoči ustvarjanje zaznamkov"
 
 #: dialogs\dlgOptions\pnl_Search.html:6
 msgid "Clear search history"
-msgstr ""
+msgstr "Izbriši zgodovino iskanja"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:5
 msgid ""
@@ -10524,10 +10500,8 @@ msgstr ""
 "dnevnika zrušitev)"
 
 #: dialogs\dlgBurn.html:12
-#, fuzzy
-#| msgid "Encode tracks with volume leveled"
 msgid "Burn tracks with volume leveled"
-msgstr "Kodiraj skladbe z izenačeno glasnostjo"
+msgstr "Zapiši skladbe z izenačeno glasnostjo"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "On the fly encoding"
@@ -11095,10 +11069,8 @@ msgid "Sync all Artwork to file folders"
 msgstr "Sinhroniziraj vse naslovnice v datotečne mape"
 
 #: dialogs\dlgBurn.html:13
-#, fuzzy
-#| msgid "Level Track volume"
 msgid "Level volume"
-msgstr "Izenači glasnost skladbe"
+msgstr "Izenači glasnost"
 
 #: dialogs\dlgLogin.html:12
 msgid "Username"
@@ -11279,7 +11251,7 @@ msgstr "Različica"
 
 #: dialogs\dlgBurn.html:22
 msgid "Write CD-Text"
-msgstr ""
+msgstr "Zapiši CD-besedilo"
 
 #: dialogs\dlgConvertFormat.html:55
 msgid "Output files"
@@ -11435,10 +11407,8 @@ msgid "Improve performance of some tasks by utilizing multiple CPU cores"
 msgstr "Izboljšaj zmogljivost nekaterih opravil z uporabo več jeder CPE"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
-#, fuzzy
-#| msgid "Crossfade"
 msgid "Crossfading"
-msgstr "Navzkrižno pojemanje"
+msgstr "Prelivanje"
 
 #: dialogs\dlgOptions\pnl_Player.html:41
 msgid "Pop-up display"
@@ -11472,7 +11442,7 @@ msgstr "Lokacija slike"
 
 #: dialogs\dlgBurn.html:24
 msgid "Prevents network problems from corrupting burns"
-msgstr ""
+msgstr "Preprečuje, da bi težave z omrežjem motile zapisovanje"
 
 #: dialogs\dlgConvertFormat.html:11
 msgid "Record CD track(s) to your hard drive"
@@ -11558,6 +11528,8 @@ msgid ""
 "Hardware acceleration improves performance and battery life, but may cause "
 "stability issues on some systems."
 msgstr ""
+"Strojno pospeševanje izboljša zmogljivost in življenjsko dobo baterije, "
+"vendar lahko povzroči težave stabilnosti nekaterih sistemov."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:39
 msgid "'Play Now' Action:"
@@ -11717,7 +11689,7 @@ msgstr "Opis"
 
 #: dialogs\dlgBurn.html:31
 msgid "Eject media after the burn process"
-msgstr ""
+msgstr "Izvrzi medij po procesu zapisovanja"
 
 #: dialogs\dlgChooseFields.html:21
 msgid "Largest"
@@ -11977,7 +11949,7 @@ msgstr "Vrsta slike"
 
 #: dialogs\dlgBurn.html:25
 msgid "Cache files from network"
-msgstr ""
+msgstr "Predpomni datoteke iz omrežja"
 
 #: dialogs\dlgChooseFields.html:17
 msgid "Smallest"
@@ -12331,7 +12303,7 @@ msgstr "Počasi zvišuj glasnost nove skladbe"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disables crossfading for files of the selected type."
-msgstr "Onemogoči crossfade za izbrane vrste datotek."
+msgstr "Onemogoči prelivanje za izbrane vrste datotek."
 
 #: controls\deviceConfig\summary.html:10
 msgid "Safely remove device"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
-"PO-Revision-Date: 2022-09-20 21:28+0000\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
+"PO-Revision-Date: 2022-10-04 03:49+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/cs/>\n"
@@ -3546,11 +3546,20 @@ msgstr "Posun ke shodě"
 msgid "Search Tips"
 msgstr "Tipy pro vyhledávání"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr "foo | najde slova začínající na foo (např. Bar Food nebo fóObar )"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+Foo | najde slova začínající na Foo (rozlišuje velká a velká písmena, např. "
 "Football)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr "\"Foo\" | najde celá slova  (např. FOO nebo fóo)"
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -5719,6 +5728,11 @@ msgstr "skladeb"
 msgid "Entire Library"
 msgstr "Celá knihovna"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Vybrat"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr "Kolekce"
@@ -6091,11 +6105,6 @@ msgid ""
 msgstr ""
 "MediaMonkey vyhledává obrázky z různých webových stránek. Vyberte prosím, "
 "zda chcete přijmout nebo odmítnout soubory cookie pro vyhledání obrázků."
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Vybrat"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -7477,14 +7486,10 @@ msgstr ""
 "vypalování ukončit?"
 
 #: hpCDEBurner.pas:1347
-#, fuzzy
-#| msgid "Disc %s (copy %d) burned successfuly."
 msgid "Disc %s (copy %d) burned successfully."
 msgstr "Vypalování disku %s (kopie %d) bylo úspěšně dokončeno."
 
 #: hpCDEBurner.pas:1349
-#, fuzzy
-#| msgid "Disc %s burned successfuly."
 msgid "Disc %s burned successfully."
 msgstr "Vypalování disku %s bylo úspěšné dokončeno."
 
@@ -8598,16 +8603,12 @@ msgid "&Open tray"
 msgstr "&Vysunout disk"
 
 #: ResStrings.pas:869
-#, fuzzy
-#| msgid ""
-#| "The inserted CD/DVD/BD cannot be written on unless it is first erased. Do "
-#| "you want to erase it before it is burned?"
 msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
 msgstr ""
-"Na vložené CD/DVD/BD není možno zapisovat, pokud nebude nejprve smazáno. "
-"Chcete ho před vypálením smazat?"
+"Na vložený disk není možno zapisovat, pokud nebude nejprve smazán. Chcete ho "
+"před vypálením smazat?"
 
 #: ResStrings.pas:870
 msgid "Please insert a disc to be burned..."

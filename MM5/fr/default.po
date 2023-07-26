@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
-"PO-Revision-Date: 2022-09-29 11:59+0000\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
+"PO-Revision-Date: 2022-10-04 03:49+0000\n"
 "Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: French <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/fr/>\n"
@@ -3568,11 +3568,21 @@ msgstr "Défilement aux correspondants"
 msgid "Search Tips"
 msgstr "Conseils de recherche"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+"foo | trouve des mots commençant par foo (par exemple Bar Foo ou fóObar )"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+Foo | trouve des mots commençant par Foo (sensible à la casse, par exemple "
 "Football)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr "\"foo\" | trouve des mots entiers (par exemple FOO ou fóo)"
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -3590,7 +3600,7 @@ msgstr "foo OR bar | trouve des correspondances avec foo ou bar"
 
 #: controls/searchBar.js:774
 msgid "foo -bar | finds matches with foo and not bar"
-msgstr "foo -bar | trouve des correspondances avec foo et non avec bar"
+msgstr "foo -bar | trouve des correspondances avec foo et non bar"
 
 #: controls/searchBar.js:775
 msgid "fieldname:foo | restricts search to a specific field. For example:"
@@ -5775,6 +5785,11 @@ msgstr "pistes"
 msgid "Entire Library"
 msgstr "Bibliothèque entière"
 
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Choisir"
+
 #: helpers/autoDJ.js:84
 msgid "Collection"
 msgstr "Collection"
@@ -6161,11 +6176,6 @@ msgid ""
 msgstr ""
 "MediaMonkey recherche des images de différents sites Web. Veuillez choisir "
 "d'accepter ou de refuser les cookies pour les images à rechercher."
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Choisir"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -7564,14 +7574,10 @@ msgstr ""
 "vouloir continuer ?"
 
 #: hpCDEBurner.pas:1347
-#, fuzzy
-#| msgid "Disc %s (copy %d) burned successfuly."
 msgid "Disc %s (copy %d) burned successfully."
 msgstr "Disque %s (copie %d) succès de la gravure."
 
 #: hpCDEBurner.pas:1349
-#, fuzzy
-#| msgid "Disc %s burned successfuly."
 msgid "Disc %s burned successfully."
 msgstr "Disque %s gravé avec succès."
 
@@ -8690,10 +8696,6 @@ msgid "&Open tray"
 msgstr "&Ouvrir le plateau"
 
 #: ResStrings.pas:869
-#, fuzzy
-#| msgid ""
-#| "The inserted CD/DVD/BD cannot be written on unless it is first erased. Do "
-#| "you want to erase it before it is burned?"
 msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"

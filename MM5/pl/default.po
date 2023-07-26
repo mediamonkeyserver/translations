@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 13:58\n"
-"PO-Revision-Date: 2021-11-22 01:58+0000\n"
+"POT-Creation-Date: 2022-10-03 10:10\n"
+"PO-Revision-Date: 2022-10-03 08:12+0000\n"
 "Last-Translator: Marcin Kozioł <koziol.martin@gmail.com>\n"
 "Language-Team: Polish <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/pl/>\n"
@@ -189,7 +189,7 @@ msgstr "Oceń na 2,5 gwiazdek"
 
 #: actions.js:491 actions.js:684
 msgid "Rate 3 Stars"
-msgstr "Oceń na 3 gwiazdki"
+msgstr "Oceń 3 gwiazdki"
 
 #: actions.js:503 actions.js:696
 msgid "Rate 3.5 Stars"
@@ -197,7 +197,7 @@ msgstr "Oceń na 3,5 gwiazdki"
 
 #: actions.js:515 actions.js:708
 msgid "Rate 4 Stars"
-msgstr "Oceń na 4 gwiazdek"
+msgstr "Oceń 4 gwiazdki"
 
 #: actions.js:528 actions.js:721
 msgid "Rate 4.5 Stars"
@@ -205,7 +205,7 @@ msgstr "Oceń na 4,5 gwiazdek"
 
 #: actions.js:540 actions.js:733
 msgid "Rate 5 Stars"
-msgstr "Oceń na 5 gwiazdek"
+msgstr "Oceń 5 gwiazdki"
 
 #: actions.js:745
 msgid "Show all album tracks"
@@ -217,11 +217,11 @@ msgstr "Zwiń albumy"
 
 #: actions.js:776
 msgid "Maximize"
-msgstr "Zmaksymalizuj"
+msgstr "Maksymalizuj"
 
 #: actions.js:789
 msgid "Minimize"
-msgstr "Zminimalizuj"
+msgstr "Minimalizuj"
 
 #: actions.js:802 helpers/trayIcon.js:76
 msgid "Restore"
@@ -245,7 +245,7 @@ msgstr "Pełne okno"
 
 #: actions.js:883 dialogs\dlgOptions\pnl_General.html:39
 msgid "Minimize to MiniPlayer"
-msgstr "Zminimalizuj do minioodtwarzacza"
+msgstr "Zminimalizuj do MiniPlayera"
 
 #: actions.js:918
 msgid "MiniPlayer"
@@ -353,15 +353,15 @@ msgstr "Zaktualizuj tagi"
 
 #: actions.js:1305
 msgid "Clean ID3v&1 tags"
-msgstr "Wyczyść tagi ID3v1"
+msgstr "Wyczyść tagi ID3v&1"
 
 #: actions.js:1320
 msgid "Clean ID3v&2 tags"
-msgstr "Wyczyść tagi ID3v2"
+msgstr "Wyczyść tagi ID3v&2"
 
 #: actions.js:1335
 msgid "&Clean ID3v1 and v2 tags"
-msgstr "Wyczyść tagi ID3v1 i v2"
+msgstr "&Wyczyść tagi ID3v1 i v2"
 
 #: actions.js:1350
 msgid "Con&vert format"
@@ -369,7 +369,7 @@ msgstr "Konwertuj format"
 
 #: actions.js:1374 actions.js:1381
 msgid "&Open URL or File"
-msgstr "Otwórz adres URL lub plik"
+msgstr "&Otwórz adres URL lub plik"
 
 #: actions.js:1382
 msgid ""
@@ -397,7 +397,7 @@ msgstr "Dodaj katalog"
 
 #: actions.js:1440
 msgid "Enter a link to a podcast OPML directory, to include in the list:"
-msgstr "Wprowadź link do katalogu podcastów OPML, aby umieścić go na liście:"
+msgstr "Wprowadź link do katalogu OPML podcastu, aby umieścić go na liście:"
 
 #: actions.js:1505
 msgid "&Add/Rescan files to the Library"
@@ -980,7 +980,7 @@ msgstr "Audio CD"
 
 #: actions.js:3021 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:37
 msgid "Burn"
-msgstr ""
+msgstr "Nagraj"
 
 #: actions.js:3040 dialogs/dlgCDDBResult.js:7
 msgid "Lookup Audio CD metadata"
@@ -988,7 +988,7 @@ msgstr "Wyszukaj metadane Audio CD"
 
 #: actions.js:3056
 msgid "Eject"
-msgstr ""
+msgstr "Wysuń"
 
 #: actions.js:3069
 msgid "&Options"
@@ -2409,13 +2409,11 @@ msgstr "artysta"
 
 #: viewHandlers.js:6573
 msgid "Contributing artists"
-msgstr ""
+msgstr "Współpracujący artyści"
 
 #: viewHandlers.js:6576
-#, fuzzy
-#| msgid "Artists"
 msgid "Artists only"
-msgstr "Artyści"
+msgstr "Tylko artyści"
 
 #: viewHandlers.js:6596 UPnPTreeHelper.pas:1893
 msgid "Directors"
@@ -2637,7 +2635,7 @@ msgstr "Dysk %s"
 #: controls/albumViewHeader.js:196 controls/artistViewHeader.js:79
 #: controls/artistViewHeader.js:81
 msgid "Switch"
-msgstr ""
+msgstr "Przełączenie"
 
 #: controls/albumViewHeader.js:172 controls/artistViewHeader.js:119
 msgid "Update properties"
@@ -3558,11 +3556,25 @@ msgstr "Przewija do dopasowania"
 msgid "Search Tips"
 msgstr "Wskazówki wyszukiwania"
 
+#. following variants are not supported in word infix mode (see #17395)
+#: controls/searchBar.js:767
+#, fuzzy
+#| msgid ""
+#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
+msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
+msgstr ""
+"+Foo | wyszukuje słowa zaczynające się od Foo (z uwzględnieniem wielkości "
+"liter, np. Football)"
+
 #: controls/searchBar.js:768
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
 "+Foo | wyszukuje słowa zaczynające się od Foo (z uwzględnieniem wielkości "
 "liter, np. Football)"
+
+#: controls/searchBar.js:770
+msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
+msgstr ""
 
 #: controls/searchBar.js:771
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -4571,10 +4583,8 @@ msgid "Are you sure you want to remove %d files from the ''%s'' ?"
 msgstr "Czy na pewno chcesz usunąć %d plików z ''%s''?"
 
 #: dialogs/dlgDeletedTracks.js:8
-#, fuzzy
-#| msgid "Remove Unavailable files ?"
 msgid "Remove unavailable files"
-msgstr "Usunąć niedostępne pliki ?"
+msgstr "Usuń niedostępne pliki"
 
 #: dialogs/dlgDeletedTracks.js:62
 msgid ""
@@ -5004,10 +5014,8 @@ msgid "Audio Output"
 msgstr "Wyjście audio"
 
 #: dialogs/dlgOptions.js:90
-#, fuzzy
-#| msgid "Tools"
 msgid "Toolbar"
-msgstr "Narzędzia"
+msgstr "Pasek narzędzi"
 
 #: dialogs/dlgOptions.js:99
 msgid "Collections & Views"
@@ -5372,7 +5380,7 @@ msgstr "Ogólne"
 #: dialogs/dlgOptions/pnl_Hotkeys.js:215
 msgid ""
 "This hotkey %s is already assigned to action %s! Choose a different hotkey."
-msgstr ""
+msgstr "Ten skrót %s jest już przypisany do akcji %s! Wybierz inny skrót."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:240
 msgid "Delete selected hotkey ?"
@@ -5491,10 +5499,8 @@ msgstr "Automatyczne tagowanie źródeł metadanych"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:141
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:197
-#, fuzzy
-#| msgid "Summary"
 msgid "Album Summary"
-msgstr "Streszczenie"
+msgstr "Podsumowanie albumu"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:231 Extensions.pas:1410
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:3
@@ -5514,10 +5520,8 @@ msgstr ""
 "Winampem 2. Ogólnie kontrolują sposób, w jaki MediaMonkey wysyła dźwięk."
 
 #: dialogs/dlgOptions/pnl_Performance.js:43
-#, fuzzy
-#| msgid "Enable hardware acceleration"
 msgid "Use hardware acceleration when available"
-msgstr "Włącz akcelerację sprzętową"
+msgstr "Użyj przyspieszenia sprzętu komputerowego, gdy jest to możliwe"
 
 #: dialogs/dlgOptions/pnl_Performance.js:43
 #: dialogs\dlgOptions\pnl_Appearance.html:10
@@ -5526,21 +5530,21 @@ msgstr "(wymaga restartu)"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:71
 msgid "Gap"
-msgstr ""
+msgstr "Luka"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:72
 msgid "Overlap"
-msgstr ""
+msgstr "Zachodzić"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:73
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:26
 msgid "Gap/Overlap"
-msgstr ""
+msgstr "Odstęp/nakładanie"
 
 #. Unsupported by <NameofCurrentOutputPlugin>. Please change "Audio Output" ("plug-ins").
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:126
 msgid "Unsupported by %s."
-msgstr ""
+msgstr "Nieobsługiwane przez %s."
 
 #: dialogs/dlgOptions/pnl_Search.js:9
 msgid "When typing in a view:"
@@ -5750,6 +5754,11 @@ msgstr "utworów"
 #: ResStrings.pas:420
 msgid "Entire Library"
 msgstr "Cała Biblioteka"
+
+#: helpers/autoDJ.js:37 Scripts/imageSearch/helpers/searchTools_add.js:112
+#: dialogs\dlgCollectionOptions.html:79
+msgid "Choose"
+msgstr "Wybierz"
 
 #: helpers/autoDJ.js:84
 msgid "Collection"
@@ -6131,11 +6140,8 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
-
-#: Scripts/imageSearch/helpers/searchTools_add.js:112
-#: dialogs\dlgCollectionOptions.html:79
-msgid "Choose"
-msgstr "Wybierz"
+"MediaMonkey wyszukuje obrazy z różnych stron internetowych. Wybierz "
+"akceptację lub odrzucenie plików cookie w celu wyszukania obrazów."
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1508
@@ -7477,50 +7483,40 @@ msgstr "Klawisz HID"
 
 #: hpCDEBurner.pas:845
 msgid "Erase disc"
-msgstr ""
+msgstr "Wymaż dysk"
 
 #: hpCDEBurner.pas:849
-#, fuzzy
-#| msgid "Another series"
 msgid "Try another disc"
-msgstr "Kolejna seria"
+msgstr "Wypróbuj inną płytę"
 
 #. 2 minutes
 #: hpCDEBurner.pas:959
 msgid "minutes remaining"
-msgstr ""
+msgstr "pozostające minuty"
 
 #: hpCDEBurner.pas:961
 msgid "seconds remaining"
-msgstr ""
+msgstr "pozostałe sekundy"
 
 #: hpCDEBurner.pas:980
-#, fuzzy
-#| msgid "Calculating"
 msgid "Simulating"
-msgstr "Obliczenie"
+msgstr "Symulacja"
 
 #: hpCDEBurner.pas:981 hpCDEBurner.pas:983
-#, fuzzy
-#| msgid "Exporting"
 msgid "Writing"
-msgstr "Eksportowanie"
+msgstr "Zapisywanie"
 
 #: hpCDEBurner.pas:982
-#, fuzzy
-#| msgid "Close"
 msgid "Closing"
-msgstr "Zamknij"
+msgstr "Zamykanie"
 
 #: hpCDEBurner.pas:984 ResStrings.pas:872
 msgid "Erasing"
-msgstr ""
+msgstr "Wymazywanie"
 
 #: hpCDEBurner.pas:985
-#, fuzzy
-#| msgid "Waiting for sync connection"
 msgid "Waiting for a new disc"
-msgstr "Czekam na połączenie synchronizacji"
+msgstr "Czekam na nową płytę"
 
 #. Check for termination, but give a warning:
 #: hpCDEBurner.pas:1007
@@ -7528,89 +7524,80 @@ msgid ""
 "Terminating a Disc burn will create an unreadable disc. Are you sure you "
 "want to proceed?"
 msgstr ""
+"Zakończenie nagrywania płyty spowoduje utworzenie nieczytelnej płyty. Na "
+"pewno chcesz kontynuować?"
 
 #: hpCDEBurner.pas:1347
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s (copy %d) burned successfully."
-msgstr "%s zainstalowano pomyślnie."
+msgstr "Płyta %s (kopia %d) została pomyślnie nagrana."
 
 #: hpCDEBurner.pas:1349
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Disc %s burned successfully."
-msgstr "%s zainstalowano pomyślnie."
+msgstr "Dysk %s został pomyślnie nagrany."
 
 #: hpCDEBurner.pas:1355
 msgid "Disc %s (copy %d) burn failed"
-msgstr ""
+msgstr "Nagrywanie dysku %s (kopia %d) nie powiodło się"
 
 #: hpCDEBurner.pas:1357
 msgid "Disc %s burn failed"
-msgstr ""
+msgstr "Nagrywanie dysku %s nie powiodło się"
 
 #. TODOWIN8
 #: hpCDEBurner.pas:1639
 msgid "Re-burn disc"
-msgstr ""
+msgstr "Ponownie nagraj dysk"
 
 #: hpCDEBurner.pas:1646
 msgid "Burn disc %d"
-msgstr ""
+msgstr "Nagraj dysk %d"
 
 #: hpCDEBurner.pas:1649
 msgid "Burn another copy"
-msgstr ""
+msgstr "Nagraj kolejną kopię"
 
 #: hpCDEBurner.pas:1660
 msgid "Could not set the required speed"
-msgstr ""
+msgstr "Nie można ustawić wymaganej prędkości"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Server error"
 msgid "Burn error"
-msgstr "Błąd serwera"
+msgstr "Błąd nagrywania"
 
 #: hpCDEBurner.pas:1663
-#, fuzzy
-#| msgid "Select tracks to be updated"
 msgid "Selected tracks cannot be accessed!"
-msgstr "Wybierz utwory do aktualizacji"
+msgstr "Wybrane utwory nie są dostępne!"
 
 #. Dialog was already presented
 #: hpCDEBurner.pas:1666
-#, fuzzy
-#| msgid "Error"
 msgid "Error code"
-msgstr "Błąd"
+msgstr "Kod błędu"
 
 #: hpCDEBurner.pas:1815 hpCDEBurner.pas:2696
 msgid "Burning ... (%s)"
-msgstr ""
+msgstr "Nagrywanie... (%s)"
 
 #: hpCDEBurner.pas:1818 hpCDEBurner.pas:1918
 msgid "Caching files from network"
-msgstr ""
+msgstr "Buforowanie plików z sieci"
 
 #: hpCDEBurner.pas:2413
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disk from being burnt."
 msgstr ""
+"Operacja nagrywania nie powiodła się! Niektóre utwory są chronione przez "
+"system zarządzania prawami cyfrowymi, zapobiegający wypaleniu dysku."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13486
-#, fuzzy
-#| msgid ""
-#| "Minimizes to the MicroPlayer if it is enabled (right-click on the System "
-#| "Task bar, and click 'Toolbars')."
 msgid ""
 "The MicroPlayer is not yet enabled. To enable it, right-click on the "
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
 msgstr ""
-"Minimalizuje do MicroPlayera, jeśli jest włączony (kliknij prawym "
-"przyciskiem myszy pasek zadań systemowych i kliknij „Paski narzędzi”)."
+"MicroPlayer nie jest jeszcze włączony. Aby go włączyć, kliknij prawym "
+"przyciskiem myszy pasek zadań, kliknij „Paski narzędzi” i włącz „MediaMonkey "
+"Player”."
 
 #. we don't know parent playlist id yet
 #: Importers.pas:148 M3Umanage.pas:529 MP3Utils.pas:1585
@@ -7679,7 +7666,7 @@ msgstr "Częstotliwość próbkowania"
 
 #: MaskHelper.pas:3168 MaskHelper.pas:3640 MaskHelper.pas:3880
 msgid "Involved People"
-msgstr "Zaangażowani ludzie"
+msgstr "Osoby zaangażowane"
 
 #: MaskHelper.pas:3179 MaskHelper.pas:3690 MaskHelper.pas:3891
 msgid "Track Volume"
@@ -7695,7 +7682,7 @@ msgstr "Rozdzielacz"
 
 #: MaskHelper.pas:3203
 msgid "Auto number"
-msgstr "Numer automatyczny"
+msgstr "Auto numer"
 
 #: MaskHelper.pas:3204
 msgid "Random number"
@@ -7731,7 +7718,7 @@ msgstr "Sezon#"
 
 #: MaskHelper.pas:3885
 msgid "Played#"
-msgstr "Odtwarzany#"
+msgstr "Odtworzono#"
 
 #: MaskHelper.pas:3906
 msgid "Skipped#"
@@ -7786,10 +7773,8 @@ msgid "Tag update failed: %s is inaccessible."
 msgstr "Aktualizacja tagu nie powiodła się: %s jest niedostępny."
 
 #: MediaManage.pas:5567 MediaMonkeyApp.pas:5570
-#, fuzzy
-#| msgid "Conversion of file %s failed"
 msgid "Creating folder \"%s\" failed"
-msgstr "Konwersja pliku %s nie powiodła się"
+msgstr "Tworzenie folderu \"%s\" nie powiodło się"
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
 #: MediaMonkeyApp.pas:5264
@@ -8472,10 +8457,8 @@ msgid "Not calculated"
 msgstr "Nie obliczone"
 
 #: ResStrings.pas:397
-#, fuzzy
-#| msgid "Username"
 msgid "User-installed"
-msgstr "Użytkownik"
+msgstr "Instalowane przez użytkownika"
 
 #: ResStrings.pas:399
 msgid "and"
@@ -8656,82 +8639,68 @@ msgid "%d unplayed episodes"
 msgstr "%d nieodtwarzanych odcinków"
 
 #: ResStrings.pas:865
-#, fuzzy
-#| msgid "Continue"
 msgid "Co&ntinue"
-msgstr "Kontyntynuj"
+msgstr "Kontynuować"
 
 #: ResStrings.pas:866
 msgid "&Erase CD"
-msgstr ""
+msgstr "&Wyczyść CD"
 
 #: ResStrings.pas:867
-#, fuzzy
-#| msgid "Open tray"
 msgid "&Open tray"
-msgstr "Otwórz tackę"
+msgstr "&Otwórz tackę"
 
 #: ResStrings.pas:869
 msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
 msgstr ""
+"Na włożonej płycie nie można zapisywać, chyba że zostanie ona najpierw "
+"skasowana. Czy chcesz go wymazać, zanim zostanie spalony?"
 
 #: ResStrings.pas:870
 msgid "Please insert a disc to be burned..."
-msgstr ""
+msgstr "Proszę włożyć płytę do nagrania..."
 
 #: ResStrings.pas:873
-#, fuzzy
-#| msgid "Error parsing parameter"
 msgid "Error erasing the CDRW."
-msgstr "Błąd parsowania parametru"
+msgstr "Błąd podczas kasowania CDRW."
 
 #: ResStrings.pas:875
-#, fuzzy
-#| msgid "File %s was not successfully created."
 msgid "Burning was not successful"
-msgstr "Plik %s nie został pomyślnie utworzony."
+msgstr "Nagrywanie nie powiodło się"
 
 #: ResStrings.pas:877
-#, fuzzy
-#| msgid "Player layout cannot be set."
 msgid "The layout could not be set."
-msgstr "Nie można ustawić układu gracza."
+msgstr "Nie można ustawić układu."
 
 #: ResStrings.pas:878
 msgid "Re-burn this disc?"
-msgstr ""
+msgstr "Nagrać ponownie ten dysk?"
 
 #: ResStrings.pas:879
 msgid "Could not write the image layout to the disk."
-msgstr ""
+msgstr "Nie można zapisać układu obrazu na dysku."
 
 #: ResStrings.pas:880
 msgid "Burning was terminated."
-msgstr ""
+msgstr "Nagrywanie zostało zakończone."
 
 #: ResStrings.pas:881
-#, fuzzy
-#| msgid "%s installed successfully."
 msgid "Burn completed successfully"
-msgstr "%s zainstalowano pomyślnie."
+msgstr "Nagrywanie zakończone pomyślnie"
 
 #: ResStrings.pas:882
-#, fuzzy
-#| msgid "Removing %s tags %d of %d (%s)"
 msgid "Preparing track %d of %d (%s)"
-msgstr "Usuwanie %s togów %d z %d (%s)"
+msgstr "Przygotowuję ścieżkę %d z %d (%s)"
 
 #: ResStrings.pas:883
-#, fuzzy
-#| msgid "Problem while decoding file %s"
 msgid "Problem while decoding file %s, burning terminated"
-msgstr "Problem podczas dekodowania pliku %s"
+msgstr "Problem podczas dekodowania pliku %s, nagrywanie zakończone"
 
 #: ResStrings.pas:884
 msgid "Burning ... (Phase: %s)%s"
-msgstr ""
+msgstr "Nagrywanie... (Faza: %s)%s"
 
 #: Settings.pas:1377
 msgid "MediaMonkey Player"
@@ -9153,12 +9122,16 @@ msgid ""
 "Writes track information to the CD so that devices that support CD-Text can "
 "display it during playback."
 msgstr ""
+"Zapisuje informacje o utworze na płycie CD, aby urządzenia obsługujące CD-"
+"Text mogły wyświetlać je podczas odtwarzania."
 
 #: dialogs\dlgBurn.html:27
 msgid ""
 "Improves performance by converting tracks on the fly to Audio CD format. "
 "Disable if burns are failing."
 msgstr ""
+"Poprawia wydajność poprzez konwersję utworów w locie do formatu Audio CD. "
+"Wyłącz, jeśli oparzenia kończą się niepowodzeniem."
 
 #: dialogs\dlgSleep.html:27
 msgid "Action at end:"
@@ -9271,10 +9244,8 @@ msgstr ""
 "wyszukiwania i wyszukiwania w tle)"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:47
-#, fuzzy
-#| msgid "Customize case for these words"
 msgid "Customize case for these phrases mid-string"
-msgstr "Dostosuj wielkość liter dla tych słów"
+msgstr "Dostosuj wielkość liter dla tych fraz w połowie ciągu"
 
 #: controls\windowtitle.html:18
 msgid "Maximize window"
@@ -9482,7 +9453,7 @@ msgstr "Ta akcja zainstaluje następujący produkt"
 
 #: dialogs\dlgBurn.html:34
 msgid "Sound alert after the burn process"
-msgstr ""
+msgstr "Alarm dźwiękowy po zakończeniu procesu nagrywania"
 
 #: dialogs\dlgPodcastSubscription.html:54
 msgid "On update, download"
@@ -9787,11 +9758,11 @@ msgid "Resets this sync profile to its default settings"
 msgstr "Resetuje ten profil synchronizacji do ustawień domyślnych"
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:6
-#, fuzzy
-#| msgid "Set the default directory / filename format for specified files."
 msgid ""
 "Choose the Directory/Filename format to be used for files on the device."
-msgstr "Ustaw domyślny format katalogu / nazwy pliku dla określonych plików."
+msgstr ""
+"Wybierz format katalogu/nazwy pliku, który ma być używany dla plików na "
+"urządzeniu."
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:86
 msgid "Describes any other directories that should be scanned for media."
@@ -9862,10 +9833,8 @@ msgid "Total lockdown"
 msgstr "Całkowita blokada"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:20
-#, fuzzy
-#| msgid "Fade to"
 msgid "Fade in"
-msgstr "Wycisz do"
+msgstr "Pojawianie się"
 
 #: dialogs\dlgOptions\pnl_Player.html:102
 msgid ""
@@ -9910,7 +9879,7 @@ msgstr "Format nazwy pliku:"
 
 #: dialogs\dlgBurn.html:9
 msgid "Drive"
-msgstr ""
+msgstr "Napęd"
 
 #: dialogs\dlgMP3Settings.html:21
 msgid "Type of bitrate"
@@ -9951,10 +9920,8 @@ msgstr ""
 "następny, Odtwórz ostatni lub Edytuj właściwości."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:14
-#, fuzzy
-#| msgid "Fade to"
 msgid "Fade out"
-msgstr "Wycisz do"
+msgstr "Zanikanie"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
 msgid "Display format for 'Track summary'  (e.g. in Player):"
@@ -10122,10 +10089,8 @@ msgid "per Album"
 msgstr "na album"
 
 #: dialogs\dlgBurn.html:28
-#, fuzzy
-#| msgid "On the fly encoding"
 msgid "On the fly audio burning"
-msgstr "Kodowanie w locie"
+msgstr "Nagrywanie dźwięku w locie"
 
 #: dialogs\dlgMP3Settings.html:69
 msgid "Bitrate (min)"
@@ -10512,7 +10477,7 @@ msgstr "Włącz zakładki"
 
 #: dialogs\dlgOptions\pnl_Search.html:6
 msgid "Clear search history"
-msgstr ""
+msgstr "Wyczyść historię wyszukiwania"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:5
 msgid ""
@@ -10568,10 +10533,8 @@ msgstr ""
 "crashlogów)"
 
 #: dialogs\dlgBurn.html:12
-#, fuzzy
-#| msgid "Encode tracks with volume leveled"
 msgid "Burn tracks with volume leveled"
-msgstr "Koduj utwory z wyrównaną głośnością"
+msgstr "Nagrywaj utwory z wyrównaną głośnością"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "On the fly encoding"
@@ -10944,10 +10907,8 @@ msgid "Registered to :"
 msgstr "Zarejestrowany na:"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:43
-#, fuzzy
-#| msgid "Customize case for these words"
 msgid "Customize case for these phrases"
-msgstr "Dostosuj wielkość liter dla tych słów"
+msgstr "Dostosuj wielkość liter dla tych fraz"
 
 #: Scripts\statistics\dialogs\dlgStatistics.html:28
 msgid "Save this report"
@@ -11098,7 +11059,7 @@ msgstr "Zwiększ licznik odtworzeń o:"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:25
 msgid "Sets the size of the gap or overlap between tracks"
-msgstr ""
+msgstr "Ustawia wielkość przerwy lub nakładania się ścieżek"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:43
 msgid "Use Unicode (UTF-8 encoding) for M3U playlists"
@@ -11147,10 +11108,8 @@ msgid "Sync all Artwork to file folders"
 msgstr "Synchronizuj całą grafikę z folderami plików"
 
 #: dialogs\dlgBurn.html:13
-#, fuzzy
-#| msgid "Level Track volume"
 msgid "Level volume"
-msgstr "Poziom głośności utworu"
+msgstr "Poziom głośności"
 
 #: dialogs\dlgLogin.html:12
 msgid "Username"
@@ -11336,7 +11295,7 @@ msgstr "Wersja"
 
 #: dialogs\dlgBurn.html:22
 msgid "Write CD-Text"
-msgstr ""
+msgstr "Zapisz tekst CD"
 
 #: dialogs\dlgConvertFormat.html:55
 msgid "Output files"
@@ -11408,7 +11367,7 @@ msgstr "Źródła"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:15
 msgid "Determines which actions are presented when a disk is inserted"
-msgstr ""
+msgstr "Określa, jakie akcje są prezentowane po włożeniu dysku"
 
 #: dialogs\dlgOptions\pnl_Player.html:61
 msgid "Transparency"
@@ -11498,20 +11457,16 @@ msgstr ""
 "procesora"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
-#, fuzzy
-#| msgid "Crossfade"
 msgid "Crossfading"
-msgstr "Przejście"
+msgstr "Przenikanie"
 
 #: dialogs\dlgOptions\pnl_Player.html:41
 msgid "Pop-up display"
 msgstr "Wyskakujący wyświetlacz"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:25
-#, fuzzy
-#| msgid "Choose which files to keep synced:"
 msgid "Choose which files to update"
-msgstr "Wybierz pliki, które chcesz zsynchronizować:"
+msgstr "Wybierz pliki do aktualizacji"
 
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid ""
@@ -11537,7 +11492,7 @@ msgstr "Lokalizacja obrazu"
 
 #: dialogs\dlgBurn.html:24
 msgid "Prevents network problems from corrupting burns"
-msgstr ""
+msgstr "Zapobiega problemom z siecią przed uszkodzeniem oparzeń"
 
 #: dialogs\dlgConvertFormat.html:11
 msgid "Record CD track(s) to your hard drive"
@@ -11625,6 +11580,8 @@ msgid ""
 "Hardware acceleration improves performance and battery life, but may cause "
 "stability issues on some systems."
 msgstr ""
+"Przyspieszenie sprzętowe poprawia wydajność i żywotność baterii, ale może "
+"powodować problemy ze stabilnością w niektórych systemach."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:39
 msgid "'Play Now' Action:"
@@ -11783,7 +11740,7 @@ msgstr "Opis"
 
 #: dialogs\dlgBurn.html:31
 msgid "Eject media after the burn process"
-msgstr ""
+msgstr "Wysuń nośnik po zakończeniu procesu nagrywania"
 
 #: dialogs\dlgChooseFields.html:21
 msgid "Largest"
@@ -11898,7 +11855,7 @@ msgstr "Generuj miniaturki dla klipów wideo"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:38
 msgid "Determines which actions are available in the Explorer context-menu"
-msgstr ""
+msgstr "Określa, które akcje są dostępne w menu kontekstowym Eksploratora"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
 msgid "Play next in MediaMonkey"
@@ -11926,7 +11883,7 @@ msgstr "organizuj pliki automatycznie"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:38
 msgid "Fix quotes and apostrophes"
-msgstr ""
+msgstr "Napraw cytaty i apostrofy"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
 msgid ""
@@ -12026,10 +11983,8 @@ msgid "minutes"
 msgstr "minut"
 
 #: controls\deviceConfig\summary.html:10
-#, fuzzy
-#| msgid "Menu bar"
 msgid "Menu"
-msgstr "Pasek menu"
+msgstr "Menu"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:23
 msgid "Image:"
@@ -12045,7 +12000,7 @@ msgstr "Typ obrazu"
 
 #: dialogs\dlgBurn.html:25
 msgid "Cache files from network"
-msgstr ""
+msgstr "Buforuj pliki z sieci"
 
 #: dialogs\dlgChooseFields.html:17
 msgid "Smallest"
@@ -12397,15 +12352,13 @@ msgstr "Wyłącz przenikanie"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:93
 msgid "Fade in new track"
-msgstr "Zniknij w nowym utworze"
+msgstr "Pojawianie się w nowej ścieżce"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disables crossfading for files of the selected type."
 msgstr "Wyłącza przenikanie dla plików wybranego typu."
 
 #: controls\deviceConfig\summary.html:10
-#, fuzzy
-#| msgid "Safely &remove device"
 msgid "Safely remove device"
 msgstr "Bezpiecznie usuń urządzenie"
 
