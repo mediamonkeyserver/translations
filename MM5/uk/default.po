@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-26 13:37\n"
-"PO-Revision-Date: 2022-10-04 03:49+0000\n"
+"PO-Revision-Date: 2023-08-02 06:45+0000\n"
 "Last-Translator: Igor Chomko <igorchomko@gmail.com>\n"
 "Language-Team: Ukrainian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/uk/>\n"
@@ -366,10 +366,8 @@ msgid "Save new order"
 msgstr "Зберегти нову послідовність"
 
 #: actions.js:1176
-#, fuzzy
-#| msgid "Auto-organi&ze files"
 msgid "Organi&ze files"
-msgstr "Автоматична органі&зація файлів"
+msgstr "Впорядку&вати файли"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. whenLoaded promise is awaited directly in the dialog
@@ -1134,26 +1132,20 @@ msgid "shuffled by Album"
 msgstr "перетасовано за Альбомом"
 
 #: actions.js:3041 actions.js:6187 controls/trackListView.js:1904
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue mixed"
-msgstr "Поставлено в чергу"
+msgstr "Змішана черга"
 
 #: actions.js:3055 actions.js:3069 actions.js:3072 actions.js:3086
 #: actions.js:3089 actions.js:6175 controls/trackListView.js:1892
 #: MediaMonkeyApp.pas:9017 dialogs\dlgOptions\pnl_OSIntegration.html:9
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue next"
-msgstr "Поставлено в чергу"
+msgstr "Наступним у черзі"
 
 #: actions.js:3103 actions.js:3117 actions.js:3120 actions.js:3134
 #: actions.js:3137 actions.js:6199 controls/trackListView.js:1916
 #: MediaMonkeyApp.pas:9018 dialogs\dlgOptions\pnl_OSIntegration.html:10
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue last"
-msgstr "Поставлено в чергу"
+msgstr "Останнім в черзі"
 
 #: actions.js:3151 controls/player.js:147 FileAssoc.pas:740
 #: controls\playlistHeader.html:9
@@ -1264,10 +1256,8 @@ msgid "S&leep"
 msgstr "Режим с&ну"
 
 #: actions.js:3520
-#, fuzzy
-#| msgid "Auto-&tag from filename"
 msgid "&Tag from filename"
-msgstr "Авто&теґувати з імені файлу"
+msgstr "&Теґ з імені файлу"
 
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:3544
@@ -1661,10 +1651,8 @@ msgid "Extra large"
 msgstr "Дуже великий"
 
 #: actions.js:5394
-#, fuzzy
-#| msgid "Play now"
 msgid "Play normally"
-msgstr "Відтворити зараз"
+msgstr "Відтворити звичайно"
 
 #. adds shuffle menu commands to button context menu
 #. nodeUtils
@@ -2099,10 +2087,8 @@ msgstr "Виберіть один або кілька файлів для ціє
 #. hide full window player and switcher
 #. TODO: add links to stations
 #: uitools.js:2405 viewHandlers.js:7587 viewHandlers.js:7681
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Edit bookmark"
-msgstr "Додати закладку"
+msgstr "Редагувати закладку"
 
 #: uitools.js:2417
 msgid "Website link:"
@@ -2836,16 +2822,12 @@ msgstr "Колекції"
 
 #. other windows are fetching this value (e.g. in uitools.showExtensions)
 #: controls/addonListView.js:85
-#, fuzzy
-#| msgid "Install Now"
 msgid "Install"
-msgstr "Встановити зараз"
+msgstr "Встановити"
 
 #: controls/addonListView.js:87
-#, fuzzy
-#| msgid "Installing update"
 msgid "Install update"
-msgstr "Встановлення оновлення"
+msgstr "Встановити оновлення"
 
 #. failure
 #: controls/addonListView.js:142
@@ -3756,6 +3738,8 @@ msgstr "Внутрішній програвач"
 msgid ""
 "Shuffles the Playing list and makes default play commands shuffle tracks."
 msgstr ""
+"Перемішує список відтворення і змушує типові команди відтворення "
+"перемішувати доріжки."
 
 #: controls/player.js:442
 msgid "Time"
@@ -3888,13 +3872,11 @@ msgstr "Прокрутки до відповідності"
 
 #: controls/searchBar.js:462
 msgid "primary sort field"
-msgstr ""
+msgstr "основне поле сортування"
 
 #: controls/searchBar.js:488
-#, fuzzy
-#| msgid "All fields"
 msgid "all fields"
-msgstr "Усі поля"
+msgstr "усі поля"
 
 #. LS: seems to be valid also for active list searching (e.g. in Music > All Tracks) -- i.e. this.searchType == 'activelist'
 #: controls/searchBar.js:719
@@ -4152,10 +4134,8 @@ msgstr "Останнє відтворення"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:363 QueryManage.pas:4829
-#, fuzzy
-#| msgid "Skipped"
 msgid "Last Skipped"
-msgstr "Пропущено"
+msgstr "Останнє пропущене"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. bitrate
@@ -4598,10 +4578,12 @@ msgid ""
 "%s appears running normally, if you still can't access server on the other "
 "machines/devices click Help."
 msgstr ""
+"%s здається, працює нормально, якщо ви все ще не можете отримати доступ до "
+"сервера на інших комп'ютерах/пристроях, натисніть кнопку Допомога."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
-msgstr ""
+msgstr "Сервер не працює"
 
 #: controls/serverConfig/server.js:138 UpNp.pas:5823
 msgid "Client name"
@@ -4712,10 +4694,8 @@ msgid "Audio bit depth"
 msgstr "Бітова глибина звуку"
 
 #: dialogs/dlgAutoorganize.js:19
-#, fuzzy
-#| msgid "Auto-organize"
 msgid "Organize"
-msgstr "Автоматична організація"
+msgstr "Впорядкувати"
 
 #: dialogs/dlgAutoorganize.js:177 dialogs\dlgAutoorganize.html:34
 msgid "Delete emptied folders"
@@ -4824,10 +4804,8 @@ msgid "New value"
 msgstr "Нове значення"
 
 #: dialogs/dlgAutotagFromFilename.js:80
-#, fuzzy
-#| msgid "Auto-tag from filename"
 msgid "Tag from filename"
-msgstr "Автотеґувати з Імені файлу"
+msgstr "Теґ з імені файлу"
 
 #. another thread is preparing the list
 #: dialogs/dlgAutotagFromFilename.js:386 MP3Utils.pas:1260
@@ -5811,10 +5789,8 @@ msgid "New layout name"
 msgstr "Нова назва для розташованих елементів"
 
 #: dialogs/dlgOptions/pnl_LayoutToolbar.js:58
-#, fuzzy
-#| msgid "narrator"
 msgid "Separator"
-msgstr "оповідач"
+msgstr "Розділювач"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10312
 #: controls\serverConfig\server.html:5
@@ -5992,6 +5968,8 @@ msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album. Do "
 "you want to proceed?"
 msgstr ""
+"Зміна обкладинки на %s буде застосована до %d інших файлів в альбомі. "
+"Бажаєте продовжити?"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6130,14 +6108,14 @@ msgid "Local storage"
 msgstr "Локальне сховище"
 
 #: dialogs/dlgWizard/pnlScan.js:154
-#, fuzzy
-#| msgid "Move Library content only"
 msgid "Media Server content is read-only."
-msgstr "Перемістити лише вміст Бібліотеки"
+msgstr "Вміст медіасервера доступний лише для читання."
 
 #: dialogs/dlgWizard/pnlScan.js:154
 msgid "You might want to add the content via a 'Network' location instead."
 msgstr ""
+"Можливо, замість цього вам захочеться додати вміст через розташування "
+"\"Мережа\"."
 
 #: dialogs/dlgWizard/pnlScan.js:154
 msgid "Are you sure you want to proceed?"
@@ -6592,10 +6570,8 @@ msgstr ""
 "або відредагуйте запис у "
 
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:31
-#, fuzzy
-#| msgid "During Recording"
 msgid "recording"
-msgstr "Під час Запису"
+msgstr "запис"
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
@@ -6896,10 +6872,8 @@ msgstr ""
 "звукові дані пошкоджені."
 
 #: CDUtils.pas:1906
-#, fuzzy
-#| msgid "Drive %s is running out of space."
 msgid "Drive %s is currently in use."
-msgstr "На диску %s не вистачає місця."
+msgstr "Диск %s зараз використовується."
 
 #: Covers.pas:765
 msgid "Not specified"
@@ -7138,6 +7112,8 @@ msgid ""
 "This version of MediaMonkey supports new tag(s) (%s). Would you like to "
 "rescan files now in order to read these tags?"
 msgstr ""
+"Ця версія MediaMonkey підтримує нові теґи (%s). Бажаєте пересканувати файли, "
+"щоб прочитати ці теґи?"
 
 #: DBStructure.pas:971
 msgid ""
@@ -7439,8 +7415,6 @@ msgid "Skins"
 msgstr "Оболонки"
 
 #: Extensions.pas:1543
-#, fuzzy
-#| msgid "Icon"
 msgid "Icons"
 msgstr "Піктограма"
 
@@ -7460,17 +7434,13 @@ msgstr "&Відтворити в MediaMonkey"
 
 #. #19167
 #: FileAssoc.pas:735
-#, fuzzy
-#| msgid "Play &next in MediaMonkey"
 msgid "Queue &next in MediaMonkey"
-msgstr "Відтворити &наступне у MediaMonkey"
+msgstr "Поставити наступним у черзі в MediaMonkey"
 
 #. #19167
 #: FileAssoc.pas:736
-#, fuzzy
-#| msgid "Play &last in MediaMonkey"
 msgid "Queue &last in MediaMonkey"
-msgstr "Відтворити &останнім в MediaMonkey"
+msgstr "Поставити &останнім у черзі в MediaMonkey"
 
 #: FileAssoc.pas:737
 msgid "Sync device"
@@ -7811,7 +7781,7 @@ msgstr "Видалити %d дублікатів, що відтворюютьс�
 msgid ""
 "The operation will be finished after the end of playback of the current "
 "track."
-msgstr ""
+msgstr "Дію буде закінчено після завершення відтворення поточної доріжки."
 
 #: FullPlayer.pas:6945
 msgid ""
@@ -8024,16 +7994,12 @@ msgid "Caching files from network"
 msgstr "Кешування файлів з мережі"
 
 #: hpCDEBurner.pas:2226
-#, fuzzy
-#| msgid ""
-#| "Burn operation failed! Some of the tracks are protected by Digital Rights "
-#| "Management, preventing the disk from being burnt."
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disc from being burnt."
 msgstr ""
-"Спроба запису зазнала невдачі! Деякі доріжки захищені системою керування "
-"цифровими правами, що запобігає запису диска."
+"Не вдалося записати диск! Деякі доріжки захищені системою управління "
+"цифровими правами, що не дозволяє записати диск."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13025
@@ -8438,6 +8404,8 @@ msgid ""
 "This kind of audio conversion is not implemented yet. Channels: %d "
 "(required: %d), Bits per sample: %d (required: %d)"
 msgstr ""
+"Цей тип перетворення аудіо ще не реалізовано. Канали: %d (потрібно: %d), "
+"Біти за вибірку: %d (потрібно: %d)"
 
 # SOME DESCRIPTIVE TITLE.
 #. tempo tag constant
@@ -8760,10 +8728,8 @@ msgid "Any text"
 msgstr "Будь-який текст"
 
 #: QueryManage.pas:4806
-#, fuzzy
-#| msgid "My Rating"
 msgid "Album Rating"
-msgstr "Мій Рейтинг"
+msgstr "Рейтинг альбому"
 
 #: QueryManage.pas:4811
 msgid "# Tracks by Artist"
@@ -9134,8 +9100,6 @@ msgid "Re-burn this disc?"
 msgstr "Повторно записати цей диск?"
 
 #: ResStrings.pas:879
-#, fuzzy
-#| msgid "Could not write the image layout to the disk."
 msgid "Could not write the image layout to the disc."
 msgstr "Не вдалося записати макет зображення на диск."
 
@@ -9188,16 +9152,12 @@ msgid "Sleep: %d minute"
 msgstr "Сон: %d хвилина"
 
 #: SQLiteDB.pas:643
-#, fuzzy
-#| msgid ""
-#| "Library database %s can't be opened, would you like to create a new local "
-#| "Library?"
 msgid ""
 "Library database %s can't be opened, please check the file is accessible and "
 "is not locked."
 msgstr ""
-"Базу даних Бібліотеки %s неможливо відкрити. Чи хочете ви створити нову "
-"локальну Бібліотеку?"
+"Не вдається відкрити базу даних бібліотеки %s, будь ласка, перевірте, чи "
+"файл доступний і не заблокований."
 
 #. per #17917
 #: UpNp.pas:1956
@@ -9206,6 +9166,10 @@ msgid ""
 "not be discoverable by other devices on the network.If you're at home then "
 "you might want to switch to 'Private' instead. Do you wish to proceed?"
 msgstr ""
+"Ваше мережеве з'єднання налаштоване в режимі \"Загальнодоступне\". Зазвичай "
+"це означає, що ваш пристрій не може бути виявлений іншими пристроями в "
+"мережі. Якщо ви перебуваєте вдома, можливо, вам варто змінити налаштування "
+"на \"Приватне\". Бажаєте продовжити?"
 
 #. #13718 - item 1
 #: UpNp.pas:2494
@@ -9246,10 +9210,8 @@ msgid "Root directory"
 msgstr "Кореневий каталог"
 
 #: UpNp.pas:4873
-#, fuzzy
-#| msgid "MediaMonkey Player"
 msgid "Output from MediaMonkey Player"
-msgstr "Програвач MediaMonkey"
+msgstr "Виведення з програвача MediaMonkey"
 
 #: UpNp.pas:5816 UpNp.pas:5822
 msgid "This is an external IP address!"
@@ -9648,7 +9610,7 @@ msgstr "Аналіз гучності"
 
 #: dialogs\dlgOptions\pnl_Search.html:9
 msgid "Show results only after pressing ENTER"
-msgstr ""
+msgstr "Показувати результати виключно після натискання клавіші ENTER"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:14
 msgid "ID3v1 and v2.3 tags"
@@ -9748,10 +9710,8 @@ msgid "Selected folder nodes"
 msgstr "Вибрані вузли тек"
 
 #: dialogs\dlgEditView.html:23
-#, fuzzy
-#| msgid "Exporting"
 msgid "Sorting"
-msgstr "Використати шкалу прогресу, щоб повідомити користувача про поточну дію"
+msgstr "Сортування"
 
 #: dialogs\dlgMaintainLibrary.html:24
 msgid "Retain backups:"
@@ -9800,6 +9760,8 @@ msgstr "Горизонтально"
 #: dialogs\dlgOptions\pnl_Streaming.html:9
 msgid "Play all audio tracks as single stream to external players (gaplessly)"
 msgstr ""
+"Відтворити всі аудіодоріжки одним потоком на зовнішні програвачі (без "
+"пропусків)"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:85
 msgid ""
@@ -10693,10 +10655,8 @@ msgid "Reset to default"
 msgstr "Скинути до типового значення"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Install as service"
 msgid "Install addon from file"
-msgstr "Встановити як службу"
+msgstr "Встановити додаток з файлу"
 
 #: dialogs\dlgMP3Settings.html:95
 msgid "Strict ISO compliance"
@@ -10784,6 +10744,8 @@ msgstr "Попередження зникне через:"
 #: dialogs\dlgPodcastSubscription.html:23
 msgid "This is not a valid RSS link and may not subscribe correctly. "
 msgstr ""
+"Це недійсне посилання на канал RSS, а отже, підписка може бути виконана "
+"некоректно. "
 
 #: dialogs\dlgSleep.html:17
 msgid "Start fading in"
@@ -11086,7 +11048,7 @@ msgstr "(глобальні налаштування)"
 
 #: controls\serverConfig\devices.html:3
 msgid "Scrobble to last.fm if Scrobbling is enabled"
-msgstr ""
+msgstr "Скремблювати до last.fm, якщо скремблювання ввімкнено"
 
 #: dialogs\dlgAddonInstall.html:57
 msgid "Install Now"
@@ -11404,10 +11366,8 @@ msgid "Video Podcasts"
 msgstr "Відео Подкасти"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
-#, fuzzy
-#| msgid "Convert to"
 msgid "Convert artwork to"
-msgstr "Перетворити на"
+msgstr "Конвертувати обкладинку у"
 
 #: dialogs\dlgAutoConvertRule.html:48
 msgid "Low"
@@ -11508,10 +11468,8 @@ msgstr ""
 "Вибрати теки, які потрібно перевірити на наявність мультимедійних файлів:"
 
 #: dialogs\dlgEditView.html:15
-#, fuzzy
-#| msgid "File type"
 msgid "View type"
-msgstr "Тип файлу"
+msgstr "Тип перегляду"
 
 #: dialogs\dlgMaintainLibrary.html:16
 msgid "Scheduled backup"
@@ -11699,16 +11657,12 @@ msgid "Eject CD after ripping"
 msgstr "Витягнути CD після його копіювання"
 
 #: dialogs\dlgEditView.html:44
-#, fuzzy
-#| msgid "View elements"
 msgid "Elements"
-msgstr "Переглянути елементи"
+msgstr "Елементи"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Get more addons"
 msgid "Find more addons"
-msgstr "Отримати більше додатків"
+msgstr "Знайти більше додатків"
 
 #: dialogs\videoConvSettings.html:102
 msgid "Preserve aspect ratio"
@@ -11734,10 +11688,8 @@ msgid "Auto-tagging"
 msgstr "Автоматичне позначення тегами"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
-#, fuzzy
-#| msgid "Play last in MediaMonkey"
 msgid "Queue last in MediaMonkey"
-msgstr "Відтворити останнім в MediaMonkey"
+msgstr "Поставити останнім у черзі в MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:16
 msgid "Prevent switching to other application (Alt+Tab, Alt+Esc, Ctrl+Esc)"
@@ -11873,10 +11825,9 @@ msgid "Determines which actions are presented when a disk is inserted"
 msgstr "Визначає, які дії буде показано під час вставлення диска"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
-#, fuzzy
-#| msgid "Display format for 'Track summary'  (e.g. in Player):"
 msgid "'Track summary' format (e.g. in Player, Tracklist):"
-msgstr "Формат показу для \"Відомості про доріжку\" (наприклад, у Програвачі):"
+msgstr ""
+"Формат \"Короткий зміст треку\"\" (наприклад, у програвачі, трек-листі):"
 
 #: dialogs\dlgOptions\pnl_Player.html:61
 msgid "Transparency"
@@ -12073,10 +12024,8 @@ msgid ""
 msgstr "Створює ескізи автоматично для відео без ілюстрацій."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
-#, fuzzy
-#| msgid "Play next in MediaMonkey"
 msgid "Queue next in MediaMonkey"
-msgstr "Відтворити далі в MediaMonkey"
+msgstr "Поставити наступним у черзі в MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:50
 msgid "'Play now' action:"
@@ -12126,6 +12075,8 @@ msgstr "Точне копіювання для ідеального копіюв
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Send also Album Artist field, if different from Artist"
 msgstr ""
+"Надіслати також поле \"Виконавець альбому\", якщо воно відрізняється від "
+"\"Виконавець\""
 
 #: controls\artistAlbums.html:25
 msgid "Albums - live"
@@ -12177,12 +12128,8 @@ msgstr ""
 "рекомендації, якщо потрібно, і виберіть, які доріжки слід позначити теґом."
 
 #: dialogs\dlgAutotagFromFilename.html:10
-#, fuzzy
-#| msgid "Auto-tag allows you to update tags based on existing filenames"
 msgid "Update tags based on existing filenames"
-msgstr ""
-"Автоматичне додавання тегів дозволяє оновлювати теґи на основі наявних імен "
-"файлів"
+msgstr "Оновлення теґів на основі наявних імен файлів"
 
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s), replacing the originals"
@@ -12287,10 +12234,8 @@ msgid "Remove silence at the beginning / end of track"
 msgstr "Видалити тишу на початку/в кінці доріжки"
 
 #: dialogs\dlgOptions\pnl_Search.html:19
-#, fuzzy
-#| msgid "'Play now' action:"
 msgid "Take no action"
-msgstr "Дія для 'Виконати зараз':"
+msgstr "Не вживати жодних заходів"
 
 #: dialogs\dlgWizard\pnlRegistration.html:5
 msgid ""
@@ -12436,10 +12381,8 @@ msgid "File type"
 msgstr "Тип файлу"
 
 #: dialogs\dlgEditView.html:19
-#, fuzzy
-#| msgid "Fade in"
 msgid "Use in"
-msgstr "Затухання в"
+msgstr "Використовувати в"
 
 #: dialogs\dlgRegisterGold.html:32
 msgid "If you don't have a license key, you can"
@@ -12462,19 +12405,14 @@ msgid "Set the default directory / filename format for specified files."
 msgstr "Встановіть типовий формат каталогу / імені файлу для вказаних файлів."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
-#, fuzzy
-#| msgid ""
-#| "This determines what the default behavior is when a file is double-"
-#| "clicked or [enter] is pressed. Options are Play Now, Play Next, Play "
-#| "Last, or Edit Properties."
 msgid ""
 "This determines what the default behavior is when a file is double-clicked "
 "or [enter] is pressed. Options are Play Now, Queue Next, Queue Last, or Edit "
 "Properties."
 msgstr ""
-"Це визначає типову поведінку при подвійному клацанні на файлі або натисканні "
-"клавіші [Enter]. Параметри: Відтворити зараз, Відтворити наступним, "
-"Відтворити останнім або Редагувати властивості."
+"Визначає типову поведінку при подвійному клацанні на файлі або при "
+"натисканні клавіші [enter]. Можливі варіанти: Відтворити зараз, До черги "
+"наступним, До черги останнім або Редагувати властивості."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:21
 msgid ""
