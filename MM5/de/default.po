@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-26 13:37\n"
-"PO-Revision-Date: 2023-08-22 05:49+0000\n"
-"Last-Translator: Harald Kampen <info@harald-kampen.de>\n"
+"PO-Revision-Date: 2023-08-23 09:31+0000\n"
+"Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
 "Language: de\n"
@@ -365,10 +365,8 @@ msgid "Save new order"
 msgstr "Neue Sortierung speichern"
 
 #: actions.js:1176
-#, fuzzy
-#| msgid "Auto-organi&ze files"
 msgid "Organi&ze files"
-msgstr "Dateien automatisch &einordnen"
+msgstr "Dateien &einordnen"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. whenLoaded promise is awaited directly in the dialog
@@ -1134,33 +1132,27 @@ msgstr "Jetzt abspielen"
 #: controls/trackListView.js:1880 controls/trackListView.js:1892
 #: controls/trackListView.js:1904 controls/trackListView.js:1916
 msgid "shuffled"
-msgstr "gemischt"
+msgstr "zufällig"
 
 #: actions.js:3027 actions.js:3089 actions.js:3137
 msgid "shuffled by Album"
 msgstr "Gemisch nach Album"
 
 #: actions.js:3041 actions.js:6187 controls/trackListView.js:1904
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue mixed"
-msgstr "Hinzugefügt"
+msgstr "Irgendwo in die Abspielliste"
 
 #: actions.js:3055 actions.js:3069 actions.js:3072 actions.js:3086
 #: actions.js:3089 actions.js:6175 controls/trackListView.js:1892
 #: MediaMonkeyApp.pas:9017 dialogs\dlgOptions\pnl_OSIntegration.html:9
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue next"
-msgstr "Hinzugefügt"
+msgstr "Als nächstes in die Abspielliste"
 
 #: actions.js:3103 actions.js:3117 actions.js:3120 actions.js:3134
 #: actions.js:3137 actions.js:6199 controls/trackListView.js:1916
 #: MediaMonkeyApp.pas:9018 dialogs\dlgOptions\pnl_OSIntegration.html:10
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue last"
-msgstr "Hinzugefügt"
+msgstr "Als letztes in die Abspielliste"
 
 #: actions.js:3151 controls/player.js:147 FileAssoc.pas:740
 #: controls\playlistHeader.html:9
@@ -1271,10 +1263,8 @@ msgid "S&leep"
 msgstr "Ein&schlafmodus"
 
 #: actions.js:3520
-#, fuzzy
-#| msgid "Auto-&tag from filename"
 msgid "&Tag from filename"
-msgstr "Auto-&Taggen aus Dateiname"
+msgstr "Aus Dateinamen &taggen"
 
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:3544
@@ -1668,10 +1658,8 @@ msgid "Extra large"
 msgstr "Extra groß"
 
 #: actions.js:5394
-#, fuzzy
-#| msgid "Play now"
 msgid "Play normally"
-msgstr "Jetzt abspielen"
+msgstr "Normal abspielen"
 
 #. adds shuffle menu commands to button context menu
 #. nodeUtils
@@ -2105,10 +2093,8 @@ msgstr "Bitte wählen Sie mindestens eine Datei für diesen Vorgang aus."
 #. hide full window player and switcher
 #. TODO: add links to stations
 #: uitools.js:2405 viewHandlers.js:7587 viewHandlers.js:7681
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Edit bookmark"
-msgstr "Lesezeichen hinzufügen"
+msgstr "Lesezeichen bearbeiten"
 
 #: uitools.js:2417
 msgid "Website link:"
@@ -2845,14 +2831,10 @@ msgstr "Auswahl"
 
 #. other windows are fetching this value (e.g. in uitools.showExtensions)
 #: controls/addonListView.js:85
-#, fuzzy
-#| msgid "Install Now"
 msgid "Install"
-msgstr "Jetzt Installieren"
+msgstr "Installieren"
 
 #: controls/addonListView.js:87
-#, fuzzy
-#| msgid "Installing update"
 msgid "Install update"
 msgstr "Update installieren"
 
@@ -3764,6 +3746,8 @@ msgstr "Interner Player"
 msgid ""
 "Shuffles the Playing list and makes default play commands shuffle tracks."
 msgstr ""
+"Mischt die Abspielliste und fügt neue Tracks an Zufallspositionen in die "
+"Abspielliste ein."
 
 #: controls/player.js:442
 msgid "Time"
@@ -3897,11 +3881,9 @@ msgstr "Springe zum 1. Treffer"
 
 #: controls/searchBar.js:462
 msgid "primary sort field"
-msgstr ""
+msgstr "Primäres Sortierfeld"
 
 #: controls/searchBar.js:488
-#, fuzzy
-#| msgid "All fields"
 msgid "all fields"
 msgstr "Alle Felder"
 
@@ -4162,10 +4144,8 @@ msgstr "Zuletzt gespielt"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:363 QueryManage.pas:4829
-#, fuzzy
-#| msgid "Skipped"
 msgid "Last Skipped"
-msgstr "Übersprungen"
+msgstr "Zuletzt übersprungen"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. bitrate
@@ -4608,10 +4588,12 @@ msgid ""
 "%s appears running normally, if you still can't access server on the other "
 "machines/devices click Help."
 msgstr ""
+"%s scheint normal zu laufen. Wenn Sie von den anderen Rechnern/Geräten immer "
+"noch nicht auf den Server zugreifen können, klicken Sie auf Hilfe."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
-msgstr ""
+msgstr "Der Server läuft nicht"
 
 #: controls/serverConfig/server.js:138 UpNp.pas:5823
 msgid "Client name"
@@ -4721,10 +4703,8 @@ msgid "Audio bit depth"
 msgstr "Audio-Bittiefe"
 
 #: dialogs/dlgAutoorganize.js:19
-#, fuzzy
-#| msgid "Auto-organize"
 msgid "Organize"
-msgstr "Automatisches Einordnen"
+msgstr "Einordnen"
 
 #: dialogs/dlgAutoorganize.js:177 dialogs\dlgAutoorganize.html:34
 msgid "Delete emptied folders"
@@ -4833,10 +4813,8 @@ msgid "New value"
 msgstr "Neuer Wert"
 
 #: dialogs/dlgAutotagFromFilename.js:80
-#, fuzzy
-#| msgid "Auto-tag from filename"
 msgid "Tag from filename"
-msgstr "Auto-Taggen aus Dateiname"
+msgstr "Aus Dateiname taggen"
 
 #. another thread is preparing the list
 #: dialogs/dlgAutotagFromFilename.js:386 MP3Utils.pas:1260
@@ -5832,10 +5810,8 @@ msgid "New layout name"
 msgstr "Neuer Layout-Name"
 
 #: dialogs/dlgOptions/pnl_LayoutToolbar.js:58
-#, fuzzy
-#| msgid "narrator"
 msgid "Separator"
-msgstr "Erzähler"
+msgstr "Trennzeichen"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10312
 #: controls\serverConfig\server.html:5
@@ -6014,6 +5990,8 @@ msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album. Do "
 "you want to proceed?"
 msgstr ""
+"Die Änderung des Bildes bei %s wirkt auch für %d weitere Dateien des Albums. "
+"Möchten Sie fortfahren?"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6152,14 +6130,13 @@ msgid "Local storage"
 msgstr "Lokaler Speicher"
 
 #: dialogs/dlgWizard/pnlScan.js:154
-#, fuzzy
-#| msgid "Move Library content only"
 msgid "Media Server content is read-only."
-msgstr "Nur Archivinhalt verschieben"
+msgstr "Der Inhalt des Media-Servers ist schreibgeschützt."
 
 #: dialogs/dlgWizard/pnlScan.js:154
 msgid "You might want to add the content via a 'Network' location instead."
 msgstr ""
+"Sie könnten den Inhalt auch über einen \"Netzwerk\"-Speicherort hinzufügen."
 
 #: dialogs/dlgWizard/pnlScan.js:154
 msgid "Are you sure you want to proceed?"
@@ -6345,8 +6322,7 @@ msgstr "Nach Anschließen des Gerätes automatisch einlesen"
 
 #: helpers/mediaSync.js:975
 msgid "This initiates an auto-sync whenever the device is plugged into the PC"
-msgstr ""
-"Startet den Auto-Sync-Vorgang sobald das Gerät an den PC angeschlossen ist."
+msgstr "Startet Auto-Sync bei Anschluss des Gerätes an den PC"
 
 #: helpers/mediaSync.js:975
 msgid "Auto-Sync as soon as the device is connected"
@@ -6356,7 +6332,7 @@ msgstr "Nach Anschließen des Gerätes automatisch synchronisieren"
 msgid ""
 "Causes the device to automatically disconnect after auto-sync has completed."
 msgstr ""
-"Trennt automatisch die Verbindung zum Gerät wenn der Auto-Sync-Vorgang "
+"Trennt automatisch die Verbindung zum Gerät, wenn der Auto-Sync-Vorgang "
 "abgeschlossen ist."
 
 #: helpers/mediaSync.js:976
@@ -6621,10 +6597,8 @@ msgstr ""
 "Schreibweise vorhandener Metadaten oder bearbeiten Sie den Eintrag in "
 
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:31
-#, fuzzy
-#| msgid "During Recording"
 msgid "recording"
-msgstr "Bei der Aufnahme"
+msgstr "Aufnahme läuft"
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
@@ -6925,10 +6899,8 @@ msgstr ""
 "die Audiodaten fehlerhaft."
 
 #: CDUtils.pas:1906
-#, fuzzy
-#| msgid "Drive %s is running out of space."
 msgid "Drive %s is currently in use."
-msgstr "Speicherplatz auf Laufwerk %s wird knapp."
+msgstr "Laufwerk %s ist derzeit in Gebrauch."
 
 #: Covers.pas:765
 msgid "Not specified"
@@ -7167,6 +7139,8 @@ msgid ""
 "This version of MediaMonkey supports new tag(s) (%s). Would you like to "
 "rescan files now in order to read these tags?"
 msgstr ""
+"Diese Version von MediaMonkey unterstützt neue Tags (%s). Möchten Sie die "
+"Dateien jetzt erneut scannen, um diese Tags zu lesen?"
 
 #: DBStructure.pas:971
 msgid ""
@@ -7468,10 +7442,8 @@ msgid "Skins"
 msgstr "Skins"
 
 #: Extensions.pas:1543
-#, fuzzy
-#| msgid "Icon"
 msgid "Icons"
-msgstr "Symbol"
+msgstr "Icons"
 
 #: Extensions.pas:1545 dialogs\dlgSupportedFormat.html:67
 msgid "Profiles"
@@ -7489,17 +7461,13 @@ msgstr "In MediaMonkey abs&pielen"
 
 #. #19167
 #: FileAssoc.pas:735
-#, fuzzy
-#| msgid "Play &next in MediaMonkey"
 msgid "Queue &next in MediaMonkey"
-msgstr "In MediaMonkey als &nächstes abspielen"
+msgstr "Als &nächstes in die Abspielliste"
 
 #. #19167
 #: FileAssoc.pas:736
-#, fuzzy
-#| msgid "Play &last in MediaMonkey"
 msgid "Queue &last in MediaMonkey"
-msgstr "In MediaMonkey als &letztes abspielen"
+msgstr "Als &letztes in die Abspielliste"
 
 #: FileAssoc.pas:737
 msgid "Sync device"
@@ -7842,7 +7810,7 @@ msgstr "Möchten Sie %d Duplikat(e) aus der Liste entfernen?"
 msgid ""
 "The operation will be finished after the end of playback of the current "
 "track."
-msgstr ""
+msgstr "Der Vorgang wird beendet, nachdem der aktuelle Track abgespielt ist."
 
 #: FullPlayer.pas:6945
 msgid ""
@@ -8055,10 +8023,6 @@ msgid "Caching files from network"
 msgstr "Netzwerk-Dateien zwischenspeichern"
 
 #: hpCDEBurner.pas:2226
-#, fuzzy
-#| msgid ""
-#| "Burn operation failed! Some of the tracks are protected by Digital Rights "
-#| "Management, preventing the disk from being burnt."
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disc from being burnt."
@@ -8474,6 +8438,8 @@ msgid ""
 "This kind of audio conversion is not implemented yet. Channels: %d "
 "(required: %d), Bits per sample: %d (required: %d)"
 msgstr ""
+"Diese Art der Audiokonvertierung ist noch nicht implementiert. Kanäle: %d "
+"(erforderlich: %d), Bits pro Sample: %d (erforderlich: %d)"
 
 # SOME DESCRIPTIVE TITLE.
 #. tempo tag constant
@@ -8796,10 +8762,8 @@ msgid "Any text"
 msgstr "Beliebiger Text"
 
 #: QueryManage.pas:4806
-#, fuzzy
-#| msgid "My Rating"
 msgid "Album Rating"
-msgstr "Bewertung"
+msgstr "Album-Bewertung"
 
 #: QueryManage.pas:4811
 msgid "# Tracks by Artist"
@@ -9172,8 +9136,6 @@ msgid "Re-burn this disc?"
 msgstr "Medium erneut brennen?"
 
 #: ResStrings.pas:879
-#, fuzzy
-#| msgid "Could not write the image layout to the disk."
 msgid "Could not write the image layout to the disc."
 msgstr "Die Zusammenstellung konnte nicht auf das Medium geschrieben werden."
 
@@ -9226,16 +9188,12 @@ msgid "Sleep: %d minute"
 msgstr "Schlafen für: %d Minute"
 
 #: SQLiteDB.pas:643
-#, fuzzy
-#| msgid ""
-#| "Library database %s can't be opened, would you like to create a new local "
-#| "Library?"
 msgid ""
 "Library database %s can't be opened, please check the file is accessible and "
 "is not locked."
 msgstr ""
-"Archiv-Datenbankdatei \"%s\" kann nicht geöffnet werden. Wollen Sie ein "
-"neues (leeres) Archiv anlegen?"
+"Archiv-Datenbankdatei \"%s\" kann nicht geöffnet werden. Überprüfen Sie "
+"bitte, ob die Datei zugänglich und nicht gesperrt ist."
 
 #. per #17917
 #: UpNp.pas:1956
@@ -9244,6 +9202,9 @@ msgid ""
 "not be discoverable by other devices on the network.If you're at home then "
 "you might want to switch to 'Private' instead. Do you wish to proceed?"
 msgstr ""
+"Ihre Netzwerkverbindung ist auf \"Öffentlich\" eingestellt. Damit ist Ihr "
+"Gerät in der Regel für andere Geräte im Netzwerk nicht auffindbar. Zu Hause "
+"sollten Sie stattdessen zu \"Privat\" wechseln. Möchten Sie fortfahren?"
 
 #. #13718 - item 1
 #: UpNp.pas:2494
@@ -9287,10 +9248,8 @@ msgid "Root directory"
 msgstr "Haupt-Ordner"
 
 #: UpNp.pas:4873
-#, fuzzy
-#| msgid "MediaMonkey Player"
 msgid "Output from MediaMonkey Player"
-msgstr "MediaMonkey-Player"
+msgstr "Wiedergabe vom MediaMonkey-Player"
 
 #: UpNp.pas:5816 UpNp.pas:5822
 msgid "This is an external IP address!"
@@ -9694,7 +9653,7 @@ msgstr "Lautstärkeanalyse"
 
 #: dialogs\dlgOptions\pnl_Search.html:9
 msgid "Show results only after pressing ENTER"
-msgstr ""
+msgstr "Ergebnisse erst nach Drücken von ENTER anzeigen"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:14
 msgid "ID3v1 and v2.3 tags"
@@ -9795,10 +9754,8 @@ msgid "Selected folder nodes"
 msgstr "Ausgewählte Ordnerknoten"
 
 #: dialogs\dlgEditView.html:23
-#, fuzzy
-#| msgid "Exporting"
 msgid "Sorting"
-msgstr "Exportiere"
+msgstr "Sortierung"
 
 #: dialogs\dlgMaintainLibrary.html:24
 msgid "Retain backups:"
@@ -9849,6 +9806,8 @@ msgstr "Horizontal"
 #: dialogs\dlgOptions\pnl_Streaming.html:9
 msgid "Play all audio tracks as single stream to external players (gaplessly)"
 msgstr ""
+"Abspielen aller Audiospuren als einzelner Stream auf externen Playern "
+"(lückenlos)"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:85
 msgid ""
@@ -10740,10 +10699,8 @@ msgid "Reset to default"
 msgstr "Auf Standard zurücksetzen"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Install as service"
 msgid "Install addon from file"
-msgstr "Als Dienst installieren"
+msgstr "Addon aus Datei installieren"
 
 #: dialogs\dlgMP3Settings.html:95
 msgid "Strict ISO compliance"
@@ -10831,6 +10788,7 @@ msgstr "Warnung verschwindet in:"
 #: dialogs\dlgPodcastSubscription.html:23
 msgid "This is not a valid RSS link and may not subscribe correctly. "
 msgstr ""
+"Dies ist kein gültiger RSS-Link und kann nicht korrekt abonniert werden. "
 
 #: dialogs\dlgSleep.html:17
 msgid "Start fading in"
@@ -11132,7 +11090,7 @@ msgstr "(globale Einstellungen)"
 
 #: controls\serverConfig\devices.html:3
 msgid "Scrobble to last.fm if Scrobbling is enabled"
-msgstr ""
+msgstr "Scrobble zu last.fm, wenn Scrobbling aktiviert ist"
 
 #: dialogs\dlgAddonInstall.html:57
 msgid "Install Now"
@@ -11448,10 +11406,8 @@ msgid "Video Podcasts"
 msgstr "Video-Podcast"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
-#, fuzzy
-#| msgid "Convert to"
 msgid "Convert artwork to"
-msgstr "Konvertiere nach"
+msgstr "Konvertiere Bild nach"
 
 #: dialogs\dlgAutoConvertRule.html:48
 msgid "Low"
@@ -11553,10 +11509,8 @@ msgstr ""
 "Wählen Sie die Ordner aus, in denen nach Mediendateien gesucht werden soll:"
 
 #: dialogs\dlgEditView.html:15
-#, fuzzy
-#| msgid "File type"
 msgid "View type"
-msgstr "Dateityp"
+msgstr "Ansichtstyp"
 
 #: dialogs\dlgMaintainLibrary.html:16
 msgid "Scheduled backup"
@@ -11743,14 +11697,10 @@ msgid "Eject CD after ripping"
 msgstr "Medium nach dem Rippen auswerfen"
 
 #: dialogs\dlgEditView.html:44
-#, fuzzy
-#| msgid "View elements"
 msgid "Elements"
-msgstr "Zeige Elemente"
+msgstr "Elemente"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Get more addons"
 msgid "Find more addons"
 msgstr "Weitere Addons Online"
 
@@ -11778,10 +11728,8 @@ msgid "Auto-tagging"
 msgstr "Auto-Taggen"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
-#, fuzzy
-#| msgid "Play last in MediaMonkey"
 msgid "Queue last in MediaMonkey"
-msgstr "In MediaMonkey als letztes abspielen"
+msgstr "In MediaMonkey als letztes einreihen"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:16
 msgid "Prevent switching to other application (Alt+Tab, Alt+Esc, Ctrl+Esc)"
@@ -11917,10 +11865,8 @@ msgid "Determines which actions are presented when a disk is inserted"
 msgstr "Bestimmt die angebotenen Aktionen beim Einlegen einer CD/DVD"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
-#, fuzzy
-#| msgid "Display format for 'Track summary'  (e.g. in Player):"
 msgid "'Track summary' format (e.g. in Player, Tracklist):"
-msgstr "Anzeigeformat für \"Titel-Zusammenfassung\" (z.B. im Player):"
+msgstr "Format für \"Track-Zusammenfassung\" (z.B. im Player und Listen):"
 
 #: dialogs\dlgOptions\pnl_Player.html:61
 msgid "Transparency"
@@ -12118,10 +12064,8 @@ msgid ""
 msgstr "Erzeugt für Videos ohne Cover-Bilder automatisch Vorschaubilder."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
-#, fuzzy
-#| msgid "Play next in MediaMonkey"
 msgid "Queue next in MediaMonkey"
-msgstr "In MediaMonkey als nächstes abspielen"
+msgstr "In MediaMonkey als nächstes einreihen"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:50
 msgid "'Play now' action:"
@@ -12172,6 +12116,8 @@ msgstr "\"AccurateRip\" für bitperfekte CD-Rips."
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Send also Album Artist field, if different from Artist"
 msgstr ""
+"Auch das Feld \"Album-Interpret(en)\" senden, wenn es sich von \"Interpret"
+"(en)\" unterscheidet"
 
 #: controls\artistAlbums.html:25
 msgid "Albums - live"
@@ -12222,12 +12168,8 @@ msgstr ""
 "getaggt werden sollen."
 
 #: dialogs\dlgAutotagFromFilename.html:10
-#, fuzzy
-#| msgid "Auto-tag allows you to update tags based on existing filenames"
 msgid "Update tags based on existing filenames"
-msgstr ""
-"Mit \"Auto-Taggen\" können Sie die Tags aus Datei- und/oder Ordnernamen "
-"erzeugen"
+msgstr "Tags aus bestehenden Datei- und/oder Ordnernamen aktualisieren"
 
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s), replacing the originals"
@@ -12330,10 +12272,8 @@ msgid "Remove silence at the beginning / end of track"
 msgstr "Stille am Anfang und Ende eines Tracks entfernen"
 
 #: dialogs\dlgOptions\pnl_Search.html:19
-#, fuzzy
-#| msgid "'Play now' action:"
 msgid "Take no action"
-msgstr "\"Jetzt abspielen\"-Aktion:"
+msgstr "Nichts tun"
 
 #: dialogs\dlgWizard\pnlRegistration.html:5
 msgid ""
@@ -12480,10 +12420,8 @@ msgid "File type"
 msgstr "Dateityp"
 
 #: dialogs\dlgEditView.html:19
-#, fuzzy
-#| msgid "Fade in"
 msgid "Use in"
-msgstr "Einblenden"
+msgstr "Nutze in"
 
 #: dialogs\dlgRegisterGold.html:32
 msgid "If you don't have a license key, you can"
@@ -12506,19 +12444,14 @@ msgid "Set the default directory / filename format for specified files."
 msgstr "Setzt das Standardverzeichnis / Dateinamenformat für diese Dateien."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
-#, fuzzy
-#| msgid ""
-#| "This determines what the default behavior is when a file is double-"
-#| "clicked or [enter] is pressed. Options are Play Now, Play Next, Play "
-#| "Last, or Edit Properties."
 msgid ""
 "This determines what the default behavior is when a file is double-clicked "
 "or [enter] is pressed. Options are Play Now, Queue Next, Queue Last, or Edit "
 "Properties."
 msgstr ""
-"Bestimmen Sie die Reaktionen bei Doppelklick oder [Enter]. Auszuwählen ist: "
-"\"Jetzt abspielen\", \"Als nächstes abspielen\", \"Zuletzt abspielen\" oder "
-"\"Eigenschaften bearbeiten\"."
+"Reaktionen bei Doppelklick oder [Enter]. Optionen sind \"Jetzt abspielen\", "
+"\"Als nächstes einreihen\", \"Zum Schluss einreihen\" oder \"Eigenschaften "
+"bearbeiten\"."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:21
 msgid ""
