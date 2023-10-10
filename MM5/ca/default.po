@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2023-07-26 13:37\n"
-"PO-Revision-Date: 2023-10-05 21:01+0000\n"
+"PO-Revision-Date: 2023-10-11 19:31+0000\n"
 "Last-Translator: Jordi Xicola <jxicola@gmail.com>\n"
 "Language-Team: Catalan <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ca/>\n"
@@ -1136,8 +1136,6 @@ msgid "shuffled by Album"
 msgstr "Barrejat per Àlbum"
 
 #: actions.js:3041 actions.js:6187 controls/trackListView.js:1904
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue mixed"
 msgstr "En cua"
 
@@ -7489,10 +7487,8 @@ msgstr "Afegeix &següent a la cua al MediaMonkey"
 
 #. #19167
 #: FileAssoc.pas:736
-#, fuzzy
-#| msgid "Play &last in MediaMonkey"
 msgid "Queue &last in MediaMonkey"
-msgstr "Reproduir l'&Últim a MediaMonkey"
+msgstr "Afegeix &darrera a la cua al MediaMonkey"
 
 #: FileAssoc.pas:737
 msgid "Sync device"
@@ -7841,7 +7837,7 @@ msgstr "Voleu eliminar %d duplicats que s'estan reproduint?"
 msgid ""
 "The operation will be finished after the end of playback of the current "
 "track."
-msgstr ""
+msgstr "L'operació finalitzarà després de la reproducció de la pista actual."
 
 #: FullPlayer.pas:6945
 msgid ""
@@ -8054,16 +8050,12 @@ msgid "Caching files from network"
 msgstr "Emmagatzematge en memòria cau de fitxers de la xarxa"
 
 #: hpCDEBurner.pas:2226
-#, fuzzy
-#| msgid ""
-#| "Burn operation failed! Some of the tracks are protected by Digital Rights "
-#| "Management, preventing the disk from being burnt."
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disc from being burnt."
 msgstr ""
 "L'operació de gravació ha fallat! Algunes de les pistes estan protegides per "
-"Digital Rights Management, evitant que el disc es gravi."
+"la Gestió de Drets Digitals (DRM), impedint la gravació del disc."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13025
@@ -8466,6 +8458,8 @@ msgid ""
 "This kind of audio conversion is not implemented yet. Channels: %d "
 "(required: %d), Bits per sample: %d (required: %d)"
 msgstr ""
+"Aquest tipus de conversió d'àudio encara no està implementat. Canals: %d "
+"(necessaris: %d), Bits per mostra: %d (necessaris: %d)"
 
 #. tempo tag constant
 #: NewDBCreate.pas:1235
@@ -8762,10 +8756,8 @@ msgid "Any text"
 msgstr "Qualsevol text"
 
 #: QueryManage.pas:4806
-#, fuzzy
-#| msgid "My Rating"
 msgid "Album Rating"
-msgstr "La meva Puntuació"
+msgstr "Puntuació de l'àlbum"
 
 #: QueryManage.pas:4811
 msgid "# Tracks by Artist"
@@ -9138,10 +9130,8 @@ msgid "Re-burn this disc?"
 msgstr "Vols tornar a gravar el disc?"
 
 #: ResStrings.pas:879
-#, fuzzy
-#| msgid "Could not write the image layout to the disk."
 msgid "Could not write the image layout to the disc."
-msgstr "No s'ha pogut escriure la disposició la imatge al disc."
+msgstr "No s'ha pogut escriure la disposició de la imatge al disc."
 
 #: ResStrings.pas:880
 msgid "Burning was terminated."
@@ -9192,16 +9182,12 @@ msgid "Sleep: %d minute"
 msgstr "S'aturarà temporalment: %d minuts"
 
 #: SQLiteDB.pas:643
-#, fuzzy
-#| msgid ""
-#| "Library database %s can't be opened, would you like to create a new local "
-#| "Library?"
 msgid ""
 "Library database %s can't be opened, please check the file is accessible and "
 "is not locked."
 msgstr ""
-"No es pot obrir la base de dades de la biblioteca %s, voleu crear una nova "
-"biblioteca local?"
+"La base de dades de la biblioteca %s no es pot obrir, comproveu si el fitxer "
+"és accessible i no està bloquejat."
 
 #. per #17917
 #: UpNp.pas:1956
@@ -9210,6 +9196,10 @@ msgid ""
 "not be discoverable by other devices on the network.If you're at home then "
 "you might want to switch to 'Private' instead. Do you wish to proceed?"
 msgstr ""
+"La connexió de la teva xarxa està configurada com a 'Pública'. Això "
+"normalment fa que el teu dispositiu no sigui detectable per altres "
+"dispositius de la xarxa. Si ets a casa, potser voldries canviar-ho a "
+"'Privada'. Vols continuar?"
 
 #. #13718 - item 1
 #: UpNp.pas:2494
@@ -9251,10 +9241,8 @@ msgid "Root directory"
 msgstr "Directori arrel"
 
 #: UpNp.pas:4873
-#, fuzzy
-#| msgid "MediaMonkey Player"
 msgid "Output from MediaMonkey Player"
-msgstr "Reproductor de MediaMonkey"
+msgstr "Sortida del reproductor MediaMonkey"
 
 #: UpNp.pas:5816 UpNp.pas:5822
 msgid "This is an external IP address!"
@@ -9654,7 +9642,7 @@ msgstr "Anàlisi de volum"
 
 #: dialogs\dlgOptions\pnl_Search.html:9
 msgid "Show results only after pressing ENTER"
-msgstr ""
+msgstr "Mostrar resultats només després de prémer ENTER"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:14
 msgid "ID3v1 and v2.3 tags"
@@ -9756,10 +9744,8 @@ msgid "Selected folder nodes"
 msgstr "Nodes de carpeta seleccionats"
 
 #: dialogs\dlgEditView.html:23
-#, fuzzy
-#| msgid "Exporting"
 msgid "Sorting"
-msgstr "Exportant"
+msgstr "Ordenant"
 
 #: dialogs\dlgMaintainLibrary.html:24
 msgid "Retain backups:"
@@ -9809,6 +9795,8 @@ msgstr "Horitzontal"
 #: dialogs\dlgOptions\pnl_Streaming.html:9
 msgid "Play all audio tracks as single stream to external players (gaplessly)"
 msgstr ""
+"Reprodueix totes les pistes d'àudio com un únic flux a reproductors externs ("
+"sense pauses)"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:85
 msgid ""
@@ -10719,10 +10707,8 @@ msgid "Reset to default"
 msgstr "Restableix la configuració predeterminada"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Install as service"
 msgid "Install addon from file"
-msgstr "Instal·la com a servei"
+msgstr "Instal·la els complements des del fitxer"
 
 #: dialogs\dlgMP3Settings.html:95
 msgid "Strict ISO compliance"
@@ -10813,7 +10799,7 @@ msgstr "L'advertència desapareixerà en:"
 
 #: dialogs\dlgPodcastSubscription.html:23
 msgid "This is not a valid RSS link and may not subscribe correctly. "
-msgstr ""
+msgstr "Aquest no és un enllaç RSS vàlid i potser no s'inscriurà correctament. "
 
 #: dialogs\dlgSleep.html:17
 msgid "Start fading in"
@@ -11120,7 +11106,7 @@ msgstr "(configuració global)"
 
 #: controls\serverConfig\devices.html:3
 msgid "Scrobble to last.fm if Scrobbling is enabled"
-msgstr ""
+msgstr "Registrar a last.fm si la funció de Scrobbling està habilitada"
 
 #: dialogs\dlgAddonInstall.html:57
 msgid "Install Now"
@@ -11442,10 +11428,8 @@ msgid "Video Podcasts"
 msgstr "Video Podcasts"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
-#, fuzzy
-#| msgid "Convert to"
 msgid "Convert artwork to"
-msgstr "Converteix a"
+msgstr "Convertir la portada de l'àlbum a"
 
 #: dialogs\dlgAutoConvertRule.html:48
 msgid "Low"
@@ -11546,10 +11530,8 @@ msgid "Select the folders you want to scan for media files:"
 msgstr "Seleccioneu les carpetes on vulgueu buscar fitxers multimèdia:"
 
 #: dialogs\dlgEditView.html:15
-#, fuzzy
-#| msgid "File type"
 msgid "View type"
-msgstr "Tipus d'arxiu"
+msgstr "Visualitza tipus"
 
 #: dialogs\dlgMaintainLibrary.html:16
 msgid "Scheduled backup"
@@ -11738,16 +11720,12 @@ msgid "Eject CD after ripping"
 msgstr "Expulseu el CD després de la còpia"
 
 #: dialogs\dlgEditView.html:44
-#, fuzzy
-#| msgid "View elements"
 msgid "Elements"
-msgstr "Veure elements"
+msgstr "Elements"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Get more addons"
 msgid "Find more addons"
-msgstr "Obteniu més complements"
+msgstr "Busqueu més complements"
 
 #: dialogs\videoConvSettings.html:102
 msgid "Preserve aspect ratio"
@@ -11774,10 +11752,8 @@ msgid "Auto-tagging"
 msgstr "Etiquetatge automàtic"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
-#, fuzzy
-#| msgid "Play last in MediaMonkey"
 msgid "Queue last in MediaMonkey"
-msgstr "Reprodueix per últim a MediaMonkey"
+msgstr "Reprodueix l'últim a MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:16
 msgid "Prevent switching to other application (Alt+Tab, Alt+Esc, Ctrl+Esc)"
@@ -11913,11 +11889,9 @@ msgid "Determines which actions are presented when a disk is inserted"
 msgstr "Determina quines accions es presenten quan s'insereix un disc"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
-#, fuzzy
-#| msgid "Display format for 'Track summary'  (e.g. in Player):"
 msgid "'Track summary' format (e.g. in Player, Tracklist):"
 msgstr ""
-"Format de visualització del \"Resum de la pista\" (p. Ex., A Reproductor):"
+"Format 'Resum de pista' (per exemple, en el reproductor, llista de pistes):"
 
 #: dialogs\dlgOptions\pnl_Player.html:61
 msgid "Transparency"
@@ -12124,10 +12098,8 @@ msgstr ""
 "il·lustració."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
-#, fuzzy
-#| msgid "Play next in MediaMonkey"
 msgid "Queue next in MediaMonkey"
-msgstr "Reprodueix a continuació a MediaMonkey"
+msgstr "Encua la següent en MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:50
 msgid "'Play now' action:"
@@ -12178,6 +12150,7 @@ msgstr "AccurateRip per a còpies de CD perfectes."
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Send also Album Artist field, if different from Artist"
 msgstr ""
+"Envia també el camp de l'Artista de l'Àlbum, si és diferent de l'Artista"
 
 #: controls\artistAlbums.html:25
 msgid "Albums - live"
@@ -12230,12 +12203,8 @@ msgstr ""
 "seleccioneu quines pistes voleu etiquetar."
 
 #: dialogs\dlgAutotagFromFilename.html:10
-#, fuzzy
-#| msgid "Auto-tag allows you to update tags based on existing filenames"
 msgid "Update tags based on existing filenames"
-msgstr ""
-"L’etiquetatge automàtic us permet actualitzar les etiquetes en funció dels "
-"noms de fitxer existents"
+msgstr "Actualitzar les etiquetes en funció dels noms de fitxer existents"
 
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s), replacing the originals"
@@ -12339,10 +12308,8 @@ msgid "Remove silence at the beginning / end of track"
 msgstr "Elimina el silenci al començament / final de la pista"
 
 #: dialogs\dlgOptions\pnl_Search.html:19
-#, fuzzy
-#| msgid "'Play now' action:"
 msgid "Take no action"
-msgstr "Acció \"Reprodueix ara\":"
+msgstr "No fer res"
 
 #: dialogs\dlgWizard\pnlRegistration.html:5
 msgid ""
@@ -12492,10 +12459,8 @@ msgid "File type"
 msgstr "Tipus d'arxiu"
 
 #: dialogs\dlgEditView.html:19
-#, fuzzy
-#| msgid "Fade in"
 msgid "Use in"
-msgstr "Fonen-se"
+msgstr "Fer servir a"
 
 #: dialogs\dlgRegisterGold.html:32
 msgid "If you don't have a license key, you can"
@@ -12520,19 +12485,14 @@ msgstr ""
 "especificats."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
-#, fuzzy
-#| msgid ""
-#| "This determines what the default behavior is when a file is double-"
-#| "clicked or [enter] is pressed. Options are Play Now, Play Next, Play "
-#| "Last, or Edit Properties."
 msgid ""
 "This determines what the default behavior is when a file is double-clicked "
 "or [enter] is pressed. Options are Play Now, Queue Next, Queue Last, or Edit "
 "Properties."
 msgstr ""
-"Això determina quin és el comportament predeterminat quan es fa doble clic a "
-"un fitxer o es prem [entrar]. Les opcions són 'Reprodueix ara, `'Reprodueix "
-"següent', 'Reprodueix darrer' o 'Edita propietats'."
+"Això determina quina és la conducta predeterminada quan es fa doble clic en "
+"un fitxer o s'apreta [Enter]. Les opcions són Reproduir Ara, reprodueix a "
+"continuació, reprodueix al final o Editar Propietats."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:21
 msgid ""
