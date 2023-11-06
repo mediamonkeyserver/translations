@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-06 11:10\n"
-"PO-Revision-Date: 2023-11-05 15:18+0000\n"
+"PO-Revision-Date: 2023-11-06 17:41+0000\n"
 "Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ja/>\n"
@@ -1212,13 +1212,13 @@ msgstr "リストをランダム化"
 
 #: actions.js:3338
 msgid "Shuffle disabled. Reverting to unshuffled list."
-msgstr ""
+msgstr "シャッフルが無効です。シャッフルされていないリストに戻ります。"
 
 #: actions.js:3342
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
-msgstr ""
+msgstr "シャッフルは無効です。編集のためシャッフルを解除できません。再生リストへの変更を元に戻すには「元に戻す」を使用してください。"
 
 #: actions.js:3354
 msgid "Repeat off"
@@ -1540,10 +1540,8 @@ msgstr "元に戻す(&U)"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4841 controls/filterEditor.js:93 controls/navigationBar.js:338
-#, fuzzy
-#| msgid "Clear search history"
 msgid "Clear history"
-msgstr "検索履歴をクリア"
+msgstr "履歴をクリア"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
 #: actions.js:4855 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
@@ -2119,7 +2117,7 @@ msgstr "ウェブサイトのリンク:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2532
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "変更を適用するにはMediaMonkeyを再起動する必要があります"
 
 #: uitools.js:2534 controls/buttons.js:479 ExceptionHandler.pas:282
 #: ExceptionHandler.pas:318 ResStrings.pas:588
@@ -2128,7 +2126,7 @@ msgstr "再起動"
 
 #: uitools.js:2838
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "選択された場所を検索:"
 
 #: uitools.js:2850
 msgid "Please select at least one folder to scan."
@@ -5009,10 +5007,8 @@ msgid "Everywhere"
 msgstr "どこでも"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
-msgstr "名前を入力"
+msgstr "名前を入力してください"
 
 #: dialogs/dlgErrorLog.js:5
 msgid "Problem"
@@ -5054,10 +5050,8 @@ msgstr "一度だけ"
 
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:47
-#, fuzzy
-#| msgid "The media '%s' is not inserted."
 msgid "The location %s does not exist."
-msgstr "メディア'%s'が挿入されていません。"
+msgstr "場所%sが存在しません。"
 
 #: dialogs/dlgImageSize.js:41
 msgid "Browser & Grid views"
@@ -5482,13 +5476,11 @@ msgstr "検索結果"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "フィルタリングまたは無効化された場所"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "同期設定"
+msgstr "ライブラリ設定"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5499,26 +5491,20 @@ msgid "Search and update took %s"
 msgstr "検索と更新に%s掛かりました"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
-msgstr "%dの新規ファイルをインポート"
+msgstr "%dの新規ファイルを追加しました"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
 msgstr "%dファイルを更新"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "%dファイルのインポートに失敗"
+msgstr "%dファイルのインポートに失敗しました"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "%dファイルを更新"
+msgstr "%dファイルを更新しました"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5797,8 +5783,6 @@ msgstr ""
 "てください。"
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:241
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
 msgstr "選択したホットキーを削除しますか？"
 
@@ -6780,7 +6764,7 @@ msgstr "プリセットを選択"
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:299
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "YouTube動画では最小限の幅に切り替え。"
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -7377,7 +7361,7 @@ msgstr "結果"
 msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
-msgstr ""
+msgstr "ひとつ以上のトラックがリッピングまたはベリファイできませんでした。再試行したいトラックを選んでください:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -8414,10 +8398,8 @@ msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "$FAdd$ / $FTot$ ($Dir$$Str$)の監視中"
 
 #: MP3Utils.pas:1725 MP3Utils.pas:2008
-#, fuzzy
-#| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr "$FAdd$/$FTot$ ($Dir$$Str$)の追加中"
+msgstr "$FAdd$/$FTot$ ($Dir$$Str$)のスキャン中"
 
 #: MP3Utils.pas:2083
 msgid "Problem with scanning directory %s."
@@ -9231,16 +9213,10 @@ msgid "Sleep: %d minute"
 msgstr "スリープ: %d 分"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid ""
-#| "Library database %s can't be opened, please check the file is accessible "
-#| "and is not locked."
 msgid ""
 "Library database %s can't be opened, please check the file is accessible and "
 "is not locked.<br><br>Error: "
-msgstr ""
-"ライブラリデータベース%sを開くことができません。ファイルがアクセス可能でロッ"
-"クされていないことを確認してください。"
+msgstr "ライブラリデータベース%sを開くことができません。ファイルがアクセス可能でロックされていないことを確認してください。<br><br>エラー: "
 
 #. per #17917
 #: UpNp.pas:1961
@@ -9747,18 +9723,11 @@ msgid "Check for updates (when connected)"
 msgstr "アップデートの確認（接続時）"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It applies only when Party mode is active."
 msgstr ""
-"「今すぐ再生」コマンドが１つのファイルに対して実行されたときに再生されるファ"
-"イルを指定します。デフォルトでは、選択したファイルとそれに続く他のファイルが"
-"再生されます。選択したファイルのみを再生するという方法もあります。"
+"「今すぐ再生」コマンドが単一のファイルに対して実行されたときに再生されるファイルを指定します。パーティーモードがアクティブである時のみ適用されます。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9948,10 +9917,8 @@ msgid "Minimizes to the Taskbar"
 msgstr "タスクバーに最小化"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:21
-#, fuzzy
-#| msgid "Imported"
 msgid "Import"
-msgstr "インポート済み"
+msgstr "インポート"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
@@ -10062,19 +10029,13 @@ msgstr ""
 "選択した種類のファイルの再生位置（オーディオブックに最適です）を保存します。"
 
 #: dialogs\dlgOptions\pnl_Player.html:32
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. Party Mode and Playback rule settings can override this "
 "default."
 msgstr ""
-"「今すぐ再生」コマンドが１つのファイルに対して実行されたときに再生されるファ"
-"イルを指定します。デフォルトでは、選択したファイルとそれに続く他のファイルが"
-"再生されます。選択したファイルのみを再生するという方法もあります。"
+"「今すぐ再生」コマンドが単一のファイルに対して実行されたときに再生されるファイルを指定します。パーティーモードと再生ルールの設定はこのデフォルトを上書きで"
+"きます。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -11664,19 +11625,13 @@ msgid "Use multiple CPU cores (if available)"
 msgstr "複数のCPUコアを使用する（利用可能な場合）"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:38
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It can be set use the default Player settings or customized "
 "for each media Type."
 msgstr ""
-"「今すぐ再生」コマンドが１つのファイルに対して実行されたときに再生されるファ"
-"イルを指定します。デフォルトでは、選択したファイルとそれに続く他のファイルが"
-"再生されます。選択したファイルのみを再生するという方法もあります。"
+"「今すぐ再生」コマンドが単一のファイルに対して実行されたときに再生されるファイルを指定します。デフォルトのプレイヤー設定を使用して設定することも、メディア"
+"タイプごとにカスタマイズすることもできます。"
 
 #: dialogs\dlgOptions\pnl_Player.html:90
 msgid "Vertical"
