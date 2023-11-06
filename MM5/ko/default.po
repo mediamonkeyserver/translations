@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-06 11:10\n"
-"PO-Revision-Date: 2023-08-11 09:31+0000\n"
+"PO-Revision-Date: 2023-11-06 17:41+0000\n"
 "Last-Translator: Lee <pcsori@gmail.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ko/>\n"
@@ -1212,13 +1212,13 @@ msgstr "목록 무작위화"
 
 #: actions.js:3338
 msgid "Shuffle disabled. Reverting to unshuffled list."
-msgstr ""
+msgstr "섞기 비활성화. 섞이지 않은 목록으로 되돌립니다."
 
 #: actions.js:3342
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
-msgstr ""
+msgstr "섞기 비활성화. 편집으로 인해 섞기를 해제할 수 없음 - '실행 취소'를 사용하여 변경 사항을 재생 목록으로 되돌립니다."
 
 #: actions.js:3354
 msgid "Repeat off"
@@ -1539,8 +1539,6 @@ msgstr "실행 취소(&U)"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4841 controls/filterEditor.js:93 controls/navigationBar.js:338
-#, fuzzy
-#| msgid "Clear search history"
 msgid "Clear history"
 msgstr "검색 기록 지우기"
 
@@ -2118,7 +2116,7 @@ msgstr "웹 사이트 링크:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2532
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "변경 사항을 적용하려면 MediaMonkey의 재시작 필요"
 
 #: uitools.js:2534 controls/buttons.js:479 ExceptionHandler.pas:282
 #: ExceptionHandler.pas:318 ResStrings.pas:588
@@ -2127,7 +2125,7 @@ msgstr "다시 시작"
 
 #: uitools.js:2838
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "선택한 위치 검색:"
 
 #: uitools.js:2850
 msgid "Please select at least one folder to scan."
@@ -4989,8 +4987,6 @@ msgid "Everywhere"
 msgstr "어디서나"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
 msgstr "이름 입력"
 
@@ -5034,8 +5030,6 @@ msgstr "한번"
 
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:47
-#, fuzzy
-#| msgid "The media '%s' is not inserted."
 msgid "The location %s does not exist."
 msgstr "미디어 '%s'이(가) 삽입되지 않았습니다."
 
@@ -5460,13 +5454,11 @@ msgstr "검사 결과"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "필터링 또는 비활성화"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "동기화 설정"
+msgstr "라이브러리 설정"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5477,26 +5469,20 @@ msgid "Search and update took %s"
 msgstr "검색 및 업데이트 %s"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
-msgstr "%d 새 파일 가져옴"
+msgstr "%d 새 파일 추가됨"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
 msgstr "%d 파일 업데이트됨"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "%d 파일 가져오기 실패"
+msgstr "%d 파일 추가 실패"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "%d 파일 업데이트됨"
+msgstr "%d 파일 건너뜀"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5769,8 +5755,6 @@ msgstr ""
 "이 단축키 %s은(는) 이미 %s 작업에 할당되었습니다! 다른 단축키를 선택하십시오."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:241
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
 msgstr "선택한 단축키를 삭제하시겠습니까?"
 
@@ -6743,7 +6727,7 @@ msgstr "사전 설정 선택"
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:299
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "YouTube 동영상의 최소 너비로 전환합니다."
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -7336,7 +7320,7 @@ msgstr "결과"
 msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
-msgstr ""
+msgstr "하나 이상의 트랙을 추출하거나 확인할 수 없습니다. 다시 시도할 트랙 선택:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -8367,8 +8351,6 @@ msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "감시 중 $FAdd$ / $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:1725 MP3Utils.pas:2008
-#, fuzzy
-#| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "추가 중 $FAdd$ / $FTot$ ($Dir$$Str$)"
 
@@ -9182,16 +9164,11 @@ msgid "Sleep: %d minute"
 msgstr "취침예약: %d 분"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid ""
-#| "Library database %s can't be opened, please check the file is accessible "
-#| "and is not locked."
 msgid ""
 "Library database %s can't be opened, please check the file is accessible and "
 "is not locked.<br><br>Error: "
 msgstr ""
-"라이브러리 데이터베이스 %s을(를) 열 수 없습니다. 파일에 액세스할 수 있고 잠"
-"겨 있지 않은지 확인하십시오."
+"라이브러리 데이터베이스 %s을(를) 열 수 없습니다. 파일에 액세스할 수 있고 잠겨 있지 않은지 확인하십시오.<br><br>오류: "
 
 #. per #17917
 #: UpNp.pas:1961
@@ -9689,18 +9666,10 @@ msgid "Check for updates (when connected)"
 msgstr "업데이트 확인 (연결되면)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It applies only when Party mode is active."
-msgstr ""
-"단일 파일에 대해 '지금 재생' 명령을 실행할 때 재생되는 파일을 결정합니다. 기"
-"본적으로 선택한 파일과 그 이후의 다른 파일이 재생됩니다. 대안은 선택한 파일"
-"만 재생하는 것입니다."
+msgstr "단일 파일에 대해 '지금 재생' 명령을 실행할 때 어떤 파일이 재생될지 결정합니다. 파티 모드가 활성화된 경우에만 적용됩니다."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9885,10 +9854,8 @@ msgid "Minimizes to the Taskbar"
 msgstr "작업 표시줄에 최소화"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:21
-#, fuzzy
-#| msgid "Imported"
 msgid "Import"
-msgstr "가져옴"
+msgstr "가져오기"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
@@ -9996,19 +9963,13 @@ msgstr ""
 "선택한 유형의 파일에 대한 재생 위치를 저장합니다. 오디오 북에 효과적입니다."
 
 #: dialogs\dlgOptions\pnl_Player.html:32
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. Party Mode and Playback rule settings can override this "
 "default."
 msgstr ""
-"단일 파일에 대해 '지금 재생' 명령을 실행할 때 재생되는 파일을 결정합니다. 기"
-"본적으로 선택한 파일과 그 이후의 다른 파일이 재생됩니다. 대안은 선택한 파일"
-"만 재생하는 것입니다."
+"단일 파일에 대해 '지금 재생' 명령이 실행될 때 어떤 파일이 재생될지 결정합니다. 파티 모드 및 재생 규칙 설정으로 이 기본값을 "
+"재정의할 수 있습니다."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -11564,19 +11525,13 @@ msgid "Use multiple CPU cores (if available)"
 msgstr "여러 CPU 코어 사용(사용 가능한 경우)"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:38
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It can be set use the default Player settings or customized "
 "for each media Type."
 msgstr ""
-"단일 파일에 대해 '지금 재생' 명령을 실행할 때 재생되는 파일을 결정합니다. 기"
-"본적으로 선택한 파일과 그 이후의 다른 파일이 재생됩니다. 대안은 선택한 파일"
-"만 재생하는 것입니다."
+"단일 파일에 대해 '지금 재생' 명령이 실행될 때 어떤 파일이 재생될지 결정합니다. 기본 플레이어 설정을 사용하여 설정하거나 각 미디어 "
+"유형에 맞게 사용자 지정할 수 있습니다."
 
 #: dialogs\dlgOptions\pnl_Player.html:90
 msgid "Vertical"
