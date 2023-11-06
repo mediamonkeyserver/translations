@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-06 11:10\n"
-"PO-Revision-Date: 2022-10-04 03:49+0000\n"
+"PO-Revision-Date: 2023-11-06 15:08+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/cs/>\n"
@@ -370,10 +370,8 @@ msgid "Save new order"
 msgstr "Uložit nové pořadí"
 
 #: actions.js:1184
-#, fuzzy
-#| msgid "Auto-organi&ze files"
 msgid "Organi&ze files"
-msgstr "Auto-&organizovat soubory"
+msgstr "&Organizovat soubory"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. whenLoaded promise is awaited directly in the dialog
@@ -1138,26 +1136,20 @@ msgid "shuffled by Album"
 msgstr "náhodně dle Alb"
 
 #: actions.js:3047 actions.js:6225 controls/trackListView.js:1904
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue mixed"
-msgstr "Ve frontě"
+msgstr "Zařaď vmíchaně"
 
 #: actions.js:3061 actions.js:3075 actions.js:3078 actions.js:3092
 #: actions.js:3095 actions.js:6210 controls/trackListView.js:1889
 #: MediaMonkeyApp.pas:9054 dialogs\dlgOptions\pnl_OSIntegration.html:9
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue next"
-msgstr "Ve frontě"
+msgstr "Zařaď jako další"
 
 #: actions.js:3109 actions.js:3123 actions.js:3126 actions.js:3140
 #: actions.js:3143 actions.js:6240 controls/trackListView.js:1919
 #: MediaMonkeyApp.pas:9055 dialogs\dlgOptions\pnl_OSIntegration.html:10
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue last"
-msgstr "Ve frontě"
+msgstr "Zařaď jako poslední"
 
 #: actions.js:3157 controls/player.js:147 FileAssoc.pas:740
 #: controls\playlistHeader.html:9
@@ -1220,13 +1212,15 @@ msgstr "Zamíchat seznam"
 
 #: actions.js:3338
 msgid "Shuffle disabled. Reverting to unshuffled list."
-msgstr ""
+msgstr "Míchání vypnuto. Navrácení nezamíchaného seznamu."
 
 #: actions.js:3342
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
 msgstr ""
+"Míchání vypnuto. Nelze vrátit nezamíchaný seznam kvůli proběhnutým úpravám – "
+"pomocí akce „Zpět“ vrátíte změny v seznamu přehrávání."
 
 #: actions.js:3354
 msgid "Repeat off"
@@ -1283,10 +1277,8 @@ msgid "S&leep"
 msgstr "&Spánek"
 
 #: actions.js:3539
-#, fuzzy
-#| msgid "Auto-&tag from filename"
 msgid "&Tag from filename"
-msgstr "Auto-tag podle názvu souboru"
+msgstr "&Tagovat podle názvu souboru"
 
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:3563
@@ -1550,10 +1542,8 @@ msgstr "&Zpět"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4841 controls/filterEditor.js:93 controls/navigationBar.js:338
-#, fuzzy
-#| msgid "Clear search history"
 msgid "Clear history"
-msgstr "Vymazat historii vyhledávání"
+msgstr "Vymazat historii"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
 #: actions.js:4855 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
@@ -1688,10 +1678,8 @@ msgid "Extra large"
 msgstr "Velmi velké"
 
 #: actions.js:5423
-#, fuzzy
-#| msgid "Play now"
 msgid "Play normally"
-msgstr "Přehraj teď"
+msgstr "Přehraj normálně"
 
 #. adds shuffle menu commands to button context menu
 #. nodeUtils
@@ -2121,10 +2109,8 @@ msgstr "Vyberte jeden nebo více souborů pro tuto operaci."
 #. hide full window player and switcher
 #. TODO: add links to stations
 #: uitools.js:2442 viewHandlers.js:7646 viewHandlers.js:7740
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Edit bookmark"
-msgstr "Přidat záložku"
+msgstr "Upravit záložku"
 
 #: uitools.js:2454
 msgid "Website link:"
@@ -2133,7 +2119,7 @@ msgstr "Odkaz na webové stránky:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2532
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "Aby se změny projevily, je třeba MediaMonkey restartovat"
 
 #: uitools.js:2534 controls/buttons.js:479 ExceptionHandler.pas:282
 #: ExceptionHandler.pas:318 ResStrings.pas:588
@@ -2142,7 +2128,7 @@ msgstr "Restartovat"
 
 #: uitools.js:2838
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "Hledat ve vybraných lokalitách:"
 
 #: uitools.js:2850
 msgid "Please select at least one folder to scan."
@@ -2862,16 +2848,12 @@ msgstr "Kolekce"
 
 #. other windows are fetching this value (e.g. in uitools.showExtensions)
 #: controls/addonListView.js:85
-#, fuzzy
-#| msgid "Install Now"
 msgid "Install"
-msgstr "Nainstalovat nyní"
+msgstr "Instalovat"
 
 #: controls/addonListView.js:87
-#, fuzzy
-#| msgid "Installing update"
 msgid "Install update"
-msgstr "Instalace aktualizace"
+msgstr "Instalovat aktualizaci"
 
 #. failure
 #: controls/addonListView.js:142
@@ -3779,6 +3761,8 @@ msgstr "Interní přehrávač"
 msgid ""
 "Shuffles the Playing list and makes default play commands shuffle tracks."
 msgstr ""
+"Zamíchá seznam přehrávání a nastaví výchozí příkazy přehrávání na míchání "
+"skladeb."
 
 #: controls/player.js:442
 msgid "Time"
@@ -3908,13 +3892,11 @@ msgstr "Posun ke shodě"
 
 #: controls/searchBar.js:462
 msgid "primary sort field"
-msgstr ""
+msgstr "primární třídící pole"
 
 #: controls/searchBar.js:488
-#, fuzzy
-#| msgid "All fields"
 msgid "all fields"
-msgstr "Všechna pole"
+msgstr "všechna pole"
 
 #. LS: seems to be valid also for active list searching (e.g. in Music > All Tracks) -- i.e. this.searchType == 'activelist'
 #: controls/searchBar.js:719
@@ -4168,8 +4150,6 @@ msgstr "Hráno"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:368 QueryManage.pas:4904
-#, fuzzy
-#| msgid "Skipped"
 msgid "Last Skipped"
 msgstr "Přeskočeno"
 
@@ -4614,10 +4594,12 @@ msgid ""
 "%s appears running normally, if you still can't access server on the other "
 "machines/devices click Help."
 msgstr ""
+"%s se zdá běžet normálně, pokud stále nemáte přístup k serveru na ostatních "
+"počítačích/zařízeních, klikněte na Nápověda."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
-msgstr ""
+msgstr "Server není spuštěn"
 
 #: controls/serverConfig/server.js:138 UpNp.pas:5838
 msgid "Client name"
@@ -4728,10 +4710,8 @@ msgid "Audio bit depth"
 msgstr "Bitová hloubka audia"
 
 #: dialogs/dlgAutoorganize.js:19
-#, fuzzy
-#| msgid "Auto-organize"
 msgid "Organize"
-msgstr "Auto-organizovat"
+msgstr "Organizovat"
 
 #: dialogs/dlgAutoorganize.js:177 dialogs\dlgAutoorganize.html:34
 msgid "Delete emptied folders"
@@ -4840,10 +4820,8 @@ msgid "New value"
 msgstr "Nová hodnota"
 
 #: dialogs/dlgAutotagFromFilename.js:84
-#, fuzzy
-#| msgid "Auto-tag from filename"
 msgid "Tag from filename"
-msgstr "Auto-tag podle názvu souboru"
+msgstr "Tagovat podle názvu souboru"
 
 #. another thread is preparing the list
 #: dialogs/dlgAutotagFromFilename.js:390 MP3Utils.pas:1266
@@ -5024,10 +5002,8 @@ msgid "Everywhere"
 msgstr "Všude"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
-msgstr "Zadejte název"
+msgstr "Zadejte prosím název"
 
 #: dialogs/dlgErrorLog.js:5
 msgid "Problem"
@@ -5069,10 +5045,8 @@ msgstr "Jednou"
 
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:47
-#, fuzzy
-#| msgid "The media '%s' is not inserted."
 msgid "The location %s does not exist."
-msgstr "Médium '%s' není vloženo."
+msgstr "Umístění %s neexistuje."
 
 #: dialogs/dlgImageSize.js:41
 msgid "Browser & Grid views"
@@ -5496,13 +5470,11 @@ msgstr "Výsledky prohledávání"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "vyfiltrováno nebo zakázáno v"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "Nastavení synchronizace"
+msgstr "Nastavení knihovny"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5513,26 +5485,20 @@ msgid "Search and update took %s"
 msgstr "Vyhledávání a aktualizace trvala %s"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
-msgstr "Importováno %d nových souborů"
+msgstr "Přidáno %d nových souborů"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
 msgstr "Aktualizováno %d souborů"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "Neúspěšně importováno %d souborů"
+msgstr "Selhalo přidání %d souborů"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "Aktualizováno %d souborů"
+msgstr "Přeskočeno %d souborů"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5811,10 +5777,8 @@ msgstr ""
 "klávesovou zkratku."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:241
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
-msgstr "Odstranit vybranou zkratku?"
+msgstr "Odstranit vybrané zkratky?"
 
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
 #: dialogs/dlgOptions/pnl_Hotkeys.js:255
@@ -5878,10 +5842,8 @@ msgid "New layout name"
 msgstr "Název rozvržení"
 
 #: dialogs/dlgOptions/pnl_LayoutToolbar.js:58
-#, fuzzy
-#| msgid "narrator"
 msgid "Separator"
-msgstr "vypravěč"
+msgstr "Oddělovač"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10351
 #: controls\serverConfig\server.html:5
@@ -6059,6 +6021,8 @@ msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album. Do "
 "you want to proceed?"
 msgstr ""
+"Změna obrázku %s se bude vztahovat na %d další(ch) soubor(ů) v albu. Chcete "
+"pokračovat?"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6193,14 +6157,12 @@ msgid "Local storage"
 msgstr "Místní úložiště"
 
 #: dialogs/dlgWizard/pnlScan.js:155
-#, fuzzy
-#| msgid "Move Library content only"
 msgid "Media Server content is read-only."
-msgstr "Přesunout pouze obsah knihovny"
+msgstr "Obsah mediálního serveru je pouze pro čtení."
 
 #: dialogs/dlgWizard/pnlScan.js:155
 msgid "You might want to add the content via a 'Network' location instead."
-msgstr ""
+msgstr "Obsah můžete místo toho přidat prostřednictvím umístění „Síť“."
 
 #: dialogs/dlgWizard/pnlScan.js:155
 msgid "Are you sure you want to proceed?"
@@ -6660,10 +6622,8 @@ msgstr ""
 "upravte položku na "
 
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:31
-#, fuzzy
-#| msgid "During Recording"
 msgid "recording"
-msgstr "Během nahrávání"
+msgstr "nahrávka"
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
@@ -6792,7 +6752,7 @@ msgstr "Vybrat preset"
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:299
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "Přepnuto na minimální šířku pro YouTube video."
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -6971,10 +6931,8 @@ msgstr ""
 "nebyla v pořádku přečtena.."
 
 #: CDUtils.pas:1923
-#, fuzzy
-#| msgid "Drive %s is running out of space."
 msgid "Drive %s is currently in use."
-msgstr "Jednotka %s nemá dostatek místa."
+msgstr "Jednotka %s se právě používá."
 
 #: Covers.pas:767
 msgid "Not specified"
@@ -7213,6 +7171,8 @@ msgid ""
 "This version of MediaMonkey supports new tag(s) (%s). Would you like to "
 "rescan files now in order to read these tags?"
 msgstr ""
+"Tato verze MediaMonkey podporuje nové tagy (%s). Chcete nyní znovu "
+"naskenovat soubory, abyste mohli načíst tyto tagy?"
 
 #: DBStructure.pas:971
 msgid ""
@@ -7390,6 +7350,8 @@ msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
 msgstr ""
+"Jednu nebo více skladeb nebylo možné přečíst nebo ověřit. Vyberte stopy, "
+"které chcete zkusit znovu:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -7514,10 +7476,8 @@ msgid "Skins"
 msgstr "Skiny"
 
 #: Extensions.pas:1583
-#, fuzzy
-#| msgid "Icon"
 msgid "Icons"
-msgstr "Ikona"
+msgstr "Ikony"
 
 #: Extensions.pas:1585 dialogs\dlgSupportedFormat.html:67
 msgid "Profiles"
@@ -7535,17 +7495,13 @@ msgstr "&Hraj v MediaMonkey"
 
 #. #19167
 #: FileAssoc.pas:735
-#, fuzzy
-#| msgid "Play &next in MediaMonkey"
 msgid "Queue &next in MediaMonkey"
-msgstr "Hraj &příště v MediaMonkey"
+msgstr "Zařaď jako &další v MediaMonkey"
 
 #. #19167
 #: FileAssoc.pas:736
-#, fuzzy
-#| msgid "Play &last in MediaMonkey"
 msgid "Queue &last in MediaMonkey"
-msgstr "Hraj &poslední v MediaMonkey"
+msgstr "Zařaď &poslední v MediaMonkey"
 
 #: FileAssoc.pas:737
 msgid "Sync device"
@@ -7882,7 +7838,7 @@ msgstr "Chcete odstranit %d duplicit v Přehrávání?"
 msgid ""
 "The operation will be finished after the end of playback of the current "
 "track."
-msgstr ""
+msgstr "Operace bude dokončena po ukončení přehrávání aktuální skladby."
 
 #: FullPlayer.pas:7133
 msgid ""
@@ -8095,10 +8051,6 @@ msgid "Caching files from network"
 msgstr "Předpřipravování souborů ze sítě"
 
 #: hpCDEBurner.pas:2226
-#, fuzzy
-#| msgid ""
-#| "Burn operation failed! Some of the tracks are protected by Digital Rights "
-#| "Management, preventing the disk from being burnt."
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disc from being burnt."
@@ -8432,10 +8384,8 @@ msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Monitoruji $FAdd$ z $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:1725 MP3Utils.pas:2008
-#, fuzzy
-#| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr "Uloženo $FAdd$ z $FTot$ ($Dir$$Str$)"
+msgstr "Skenování $FAdd$ z $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:2083
 msgid "Problem with scanning directory %s."
@@ -8499,6 +8449,8 @@ msgid ""
 "This kind of audio conversion is not implemented yet. Channels: %d "
 "(required: %d), Bits per sample: %d (required: %d)"
 msgstr ""
+"Tento druh zvukové konverze ještě není implementován. Kanálů: %d (vyžadováno:"
+" %d), Bitů na vzorek: %d (vyžadováno: %d)"
 
 # SOME DESCRIPTIVE TITLE.
 #. tempo tag constant
@@ -8821,10 +8773,8 @@ msgid "Any text"
 msgstr "Jakýkoliv text"
 
 #: QueryManage.pas:4881
-#, fuzzy
-#| msgid "My Rating"
 msgid "Album Rating"
-msgstr "Mé hodnocení"
+msgstr "Hodnocení alba"
 
 #: QueryManage.pas:4886
 msgid "# Tracks by Artist"
@@ -9195,8 +9145,6 @@ msgid "Re-burn this disc?"
 msgstr "Znovu vypálit tento disk?"
 
 #: ResStrings.pas:879
-#, fuzzy
-#| msgid "Could not write the image layout to the disk."
 msgid "Could not write the image layout to the disc."
 msgstr "Nebylo možno zapsat rozložení disku."
 
@@ -9249,16 +9197,12 @@ msgid "Sleep: %d minute"
 msgstr "Spánek: %d minuta"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid ""
-#| "Library database %s can't be opened, would you like to create a new local "
-#| "Library?"
 msgid ""
 "Library database %s can't be opened, please check the file is accessible and "
 "is not locked.<br><br>Error: "
 msgstr ""
-"Soubor s knihovnou %s nemůže být otevřen, přejete si vytvořit novou lokální "
-"knihovnu?"
+"Soubor s knihovnou %s nemůže být otevřen, zkontrolujte, zda je soubor "
+"přístupný a není uzamčen.<br><br>Chyba: "
 
 #. per #17917
 #: UpNp.pas:1961
@@ -9267,6 +9211,9 @@ msgid ""
 "not be discoverable by other devices on the network.If you're at home then "
 "you might want to switch to 'Private' instead. Do you wish to proceed?"
 msgstr ""
+"Síťové připojení je nastaveno na „Veřejné“. To obvykle způsobí, že vaše "
+"zařízení nebude rozpoznatelné jinými zařízeními v síti. Pokud jste doma, "
+"můžete místo toho přepnout na „Soukromé“. Přejete si pokračovat?"
 
 #. #13718 - item 1
 #: UpNp.pas:2504
@@ -9307,10 +9254,8 @@ msgid "Root directory"
 msgstr "Kořenový adresář"
 
 #: UpNp.pas:4888
-#, fuzzy
-#| msgid "MediaMonkey Player"
 msgid "Output from MediaMonkey Player"
-msgstr "Přehrávač MediaMonkey"
+msgstr "Výstup z přehrávače MediaMonkey"
 
 #: UpNp.pas:5831 UpNp.pas:5837
 msgid "This is an external IP address!"
@@ -9706,7 +9651,7 @@ msgstr "Analýza hlasitosti"
 
 #: dialogs\dlgOptions\pnl_Search.html:9
 msgid "Show results only after pressing ENTER"
-msgstr ""
+msgstr "Zobrazit výsledky pouze po stisknutí klávesy ENTER"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:14
 msgid "ID3v1 and v2.3 tags"
@@ -9761,18 +9706,13 @@ msgid "Check for updates (when connected)"
 msgstr "Test nové verze (při připojení)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It applies only when Party mode is active."
 msgstr ""
 "Tato volba určuje, které soubory budou přehrány, když je spuštěna akce "
-"'Přehraj teď' pro jediný soubor. Standardně je přehrán vybraný soubor a "
-"všechny následující. Alternativou je přehrát pouze vybraný soubor."
+"'Přehraj teď' pro jediný soubor. Platí pouze v případě, když je aktivní "
+"Party mód."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9819,10 +9759,8 @@ msgid "Selected folder nodes"
 msgstr "Vybrané uzly složek"
 
 #: dialogs\dlgEditView.html:23
-#, fuzzy
-#| msgid "Exporting"
 msgid "Sorting"
-msgstr "Export"
+msgstr "Třídění"
 
 #: dialogs\dlgMaintainLibrary.html:24
 msgid "Retain backups:"
@@ -9871,6 +9809,8 @@ msgstr "Horizontálně"
 #: dialogs\dlgOptions\pnl_Streaming.html:9
 msgid "Play all audio tracks as single stream to external players (gaplessly)"
 msgstr ""
+"Přehrávat všechny zvukové skladby do externích přehrávačů jako jeden stream ("
+"bez mezer)"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:85
 msgid ""
@@ -9963,10 +9903,8 @@ msgid "Minimizes to the Taskbar"
 msgstr "Minimalizuje do hlavního panelu"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:21
-#, fuzzy
-#| msgid "Imported"
 msgid "Import"
-msgstr "Importováno"
+msgstr "Importovat"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
@@ -10077,19 +10015,14 @@ msgid ""
 msgstr "Uloží pozici přehrávání (skvělé pro Audioknihy) souborů tohoto typu."
 
 #: dialogs\dlgOptions\pnl_Player.html:32
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. Party Mode and Playback rule settings can override this "
 "default."
 msgstr ""
 "Tato volba určuje, které soubory budou přehrány, když je spuštěna akce "
-"'Přehraj teď' pro jediný soubor. Standardně je přehrán vybraný soubor a "
-"všechny následující. Alternativou je přehrát pouze vybraný soubor."
+"'Přehraj teď' pro jediný soubor. Nastavení Party módu a Pravidla pro "
+"přehrávání mohou toto výchozí nastavení přepsat."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -10770,10 +10703,8 @@ msgid "Reset to default"
 msgstr "Obnovit původní"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Install as service"
 msgid "Install addon from file"
-msgstr "Instalovat jako službu"
+msgstr "Nainstalovat doplněk ze souboru"
 
 #: dialogs\dlgMP3Settings.html:95
 msgid "Strict ISO compliance"
@@ -10862,7 +10793,7 @@ msgstr "Výstraha zmizí za:"
 
 #: dialogs\dlgPodcastSubscription.html:23
 msgid "This is not a valid RSS link and may not subscribe correctly. "
-msgstr ""
+msgstr "Toto není platný odkaz RSS a nemusí správně přihlásit odběr. "
 
 #: dialogs\dlgSleep.html:17
 msgid "Start fading in"
@@ -11161,7 +11092,7 @@ msgstr "(globální nastavení)"
 
 #: controls\serverConfig\devices.html:3
 msgid "Scrobble to last.fm if Scrobbling is enabled"
-msgstr ""
+msgstr "Odesílat informace do last.fm, pokud je Scrobbling zapnutý"
 
 #: dialogs\dlgAddonInstall.html:57
 msgid "Install Now"
@@ -11469,10 +11400,8 @@ msgid "Video Podcasts"
 msgstr "Video Podcast"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
-#, fuzzy
-#| msgid "Convert to"
 msgid "Convert artwork to"
-msgstr "Konvertuj do"
+msgstr "Konvertovat obrázek do"
 
 #: dialogs\dlgAutoConvertRule.html:48
 msgid "Low"
@@ -11568,10 +11497,8 @@ msgid "Select the folders you want to scan for media files:"
 msgstr "Vyberte složky, ve kterých chcete vyhledat mediální soubory:"
 
 #: dialogs\dlgEditView.html:15
-#, fuzzy
-#| msgid "File type"
 msgid "View type"
-msgstr "Typ souboru"
+msgstr "Typ zobrazení"
 
 #: dialogs\dlgMaintainLibrary.html:16
 msgid "Scheduled backup"
@@ -11715,19 +11642,14 @@ msgid "Use multiple CPU cores (if available)"
 msgstr "Používat více CPU jader (když jsou dostupné)"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:38
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It can be set use the default Player settings or customized "
 "for each media Type."
 msgstr ""
 "Tato volba určuje, které soubory budou přehrány, když je spuštěna akce "
-"'Přehraj teď' pro jediný soubor. Standardně je přehrán vybraný soubor a "
-"všechny následující. Alternativou je přehrát pouze vybraný soubor."
+"'Přehraj teď' pro jediný soubor. Lze ji nastavit pomocí výchozího nastavení "
+"přehrávače nebo přizpůsobit pro každý Typ média."
 
 #: dialogs\dlgOptions\pnl_Player.html:90
 msgid "Vertical"
@@ -11764,16 +11686,12 @@ msgid "Eject CD after ripping"
 msgstr "Vysunout CD po čtení"
 
 #: dialogs\dlgEditView.html:44
-#, fuzzy
-#| msgid "View elements"
 msgid "Elements"
-msgstr "Součásti zobrazení"
+msgstr "Prvky"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Get more addons"
 msgid "Find more addons"
-msgstr "Získat další doplňky"
+msgstr "Najít další doplňky"
 
 #: dialogs\videoConvSettings.html:102
 msgid "Preserve aspect ratio"
@@ -11800,10 +11718,8 @@ msgid "Auto-tagging"
 msgstr "Automatické tagování"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
-#, fuzzy
-#| msgid "Play last in MediaMonkey"
 msgid "Queue last in MediaMonkey"
-msgstr "Hraj poslední v MediaMonkey"
+msgstr "Zařaď poslední v MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:16
 msgid "Prevent switching to other application (Alt+Tab, Alt+Esc, Ctrl+Esc)"
@@ -11939,10 +11855,8 @@ msgid "Determines which actions are presented when a disk is inserted"
 msgstr "Určuje, které akce jsou zobrazeny při vložení disku"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
-#, fuzzy
-#| msgid "Display format for 'Track summary'  (e.g. in Player):"
 msgid "'Track summary' format (e.g. in Player, Tracklist):"
-msgstr "Zobrazovací formát pro 'Souhrn skladby' (např. v přehrávači):"
+msgstr "Formát pro 'Souhrn skladby' (např. v přehrávači, seznamu skladeb):"
 
 #: dialogs\dlgOptions\pnl_Player.html:58
 msgid "Transparency"
@@ -12136,10 +12050,8 @@ msgstr ""
 "obrázek."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
-#, fuzzy
-#| msgid "Play next in MediaMonkey"
 msgid "Queue next in MediaMonkey"
-msgstr "Hraj příště v MediaMonkey"
+msgstr "Zařaď jako příští v MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:50
 msgid "'Play now' action:"
@@ -12179,7 +12091,7 @@ msgstr "AccurateRip pro bit-perfect CD Rips."
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Send also Album Artist field, if different from Artist"
-msgstr ""
+msgstr "Odeslat také pole Interpret alba, pokud se liší od pole Interpret"
 
 #: controls\artistAlbums.html:25
 msgid "Albums - live"
