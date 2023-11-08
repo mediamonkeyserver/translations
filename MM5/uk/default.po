@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-06 11:10\n"
-"PO-Revision-Date: 2023-08-02 06:45+0000\n"
+"PO-Revision-Date: 2023-11-09 17:57+0000\n"
 "Last-Translator: Igor Chomko <igorchomko@gmail.com>\n"
 "Language-Team: Ukrainian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/uk/>\n"
@@ -1216,13 +1216,16 @@ msgstr "Випадковий список"
 
 #: actions.js:3338
 msgid "Shuffle disabled. Reverting to unshuffled list."
-msgstr ""
+msgstr "Перетасування вимкнено. Повернення до не перетасованого списку."
 
 #: actions.js:3342
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
 msgstr ""
+"Перетасування вимкнено. Неможливо скасовувати перетасування через "
+"редагування - скористайтеся кнопкою \"Відновити\", щоб відновити зміни у "
+"списку відтворення."
 
 #: actions.js:3354
 msgid "Repeat off"
@@ -1544,10 +1547,8 @@ msgstr "&Відмінити"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4841 controls/filterEditor.js:93 controls/navigationBar.js:338
-#, fuzzy
-#| msgid "Clear search history"
 msgid "Clear history"
-msgstr "Очистити історію пошуку"
+msgstr "Очистити історію"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
 #: actions.js:4855 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
@@ -2124,7 +2125,7 @@ msgstr "Посилання на вебсайт:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2532
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "Для застосування змін потрібно перезапустити MediaMonkey"
 
 #: uitools.js:2534 controls/buttons.js:479 ExceptionHandler.pas:282
 #: ExceptionHandler.pas:318 ResStrings.pas:588
@@ -2133,7 +2134,7 @@ msgstr "Перезавантажити"
 
 #: uitools.js:2838
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "Пошук у вибраних місцях:"
 
 #: uitools.js:2850
 msgid "Please select at least one folder to scan."
@@ -5020,8 +5021,6 @@ msgid "Everywhere"
 msgstr "Скрізь"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
 msgstr "Введіть ім'я"
 
@@ -5065,10 +5064,8 @@ msgstr "Один раз"
 
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:47
-#, fuzzy
-#| msgid "The media '%s' is not inserted."
 msgid "The location %s does not exist."
-msgstr "Носій '%s' не вставлено."
+msgstr "Розташування %s не існує."
 
 #: dialogs/dlgImageSize.js:41
 msgid "Browser & Grid views"
@@ -5493,13 +5490,11 @@ msgstr "Результати сканування"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "відфільтровано або вимкнено в"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "Налаштування синхронізації"
+msgstr "Налаштування бібліотеки"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5510,26 +5505,20 @@ msgid "Search and update took %s"
 msgstr "Пошук та оновлення зайняли %s"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
-msgstr "Імпортовано %d нових файлів"
+msgstr "Додано %d нових файлів"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
 msgstr "Оновлено %d файлів"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "Не вдалося імпортувати %d файлів"
+msgstr "Не вдалося додати %d файлів"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "Оновлено %d файлів"
+msgstr "Пропущено %d файлів"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5808,10 +5797,8 @@ msgstr ""
 "Ця гаряча клавіша %s вже призначена для дії %s! Виберіть іншу гарячу клавішу."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:241
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
-msgstr "Видалити обрану гарячу клавішу?"
+msgstr "Видалити обрані гарячі клавіші?"
 
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
 #: dialogs/dlgOptions/pnl_Hotkeys.js:255
@@ -6792,7 +6779,7 @@ msgstr "Вибрати попередні налаштування"
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:299
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "Перехід на мінімальну ширину для відео YouTube."
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -7395,6 +7382,8 @@ msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
 msgstr ""
+"Не можливо копіювати чи перевірити одну або декілька доріжок. Виберіть "
+"трек(-и), з якого(-их) ви бажаєте повторити спробу:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -8429,10 +8418,8 @@ msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Моніторинг $FAdd$ з $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:1725 MP3Utils.pas:2008
-#, fuzzy
-#| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr "Додавання $FAdd$ з $FTot$ ($Dir$$Str$)"
+msgstr "Сканування $FAdd$ of $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:2083
 msgid "Problem with scanning directory %s."
@@ -9245,16 +9232,12 @@ msgid "Sleep: %d minute"
 msgstr "Сон: %d хвилина"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid ""
-#| "Library database %s can't be opened, please check the file is accessible "
-#| "and is not locked."
 msgid ""
 "Library database %s can't be opened, please check the file is accessible and "
 "is not locked.<br><br>Error: "
 msgstr ""
-"Не вдається відкрити базу даних бібліотеки %s, будь ласка, перевірте, чи "
-"файл доступний і не заблокований."
+"Не вдається відкрити базу даних бібліотеки %s, будь ласка, перевірте чи файл "
+"доступний і не заблокований. "
 
 #. per #17917
 #: UpNp.pas:1961
@@ -9763,19 +9746,13 @@ msgid "Check for updates (when connected)"
 msgstr "Перевірити наявність оновлень (при підключенні)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It applies only when Party mode is active."
 msgstr ""
-"Це визначає які файли відтворюватимуться під час виконання команди "
-"\"Відтворити зараз\" для одного файлу. Типово відтворюється вибраний файл та "
-"інші наступні файли. Альтернатива полягає в тому, що відтворюється лише "
-"вибраний файл."
+"Визначає, які файли відтворюватимуться, коли виконується команда \"Відтворити"
+" зараз\" для окремого файлу. Застосовується лише тоді, коли активовано режим "
+"вечірки."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9969,10 +9946,8 @@ msgid "Minimizes to the Taskbar"
 msgstr "Мінімізується до Панелі завдань"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:21
-#, fuzzy
-#| msgid "Imported"
 msgid "Import"
-msgstr "Імпортовано"
+msgstr "Імпорт"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
@@ -10085,20 +10060,14 @@ msgstr ""
 "вибраного типу."
 
 #: dialogs\dlgOptions\pnl_Player.html:32
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. Party Mode and Playback rule settings can override this "
 "default."
 msgstr ""
-"Це визначає які файли відтворюватимуться під час виконання команди "
-"\"Відтворити зараз\" для одного файлу. Типово відтворюється вибраний файл та "
-"інші наступні файли. Альтернатива полягає в тому, що відтворюється лише "
-"вибраний файл."
+"Цей параметр визначає, які файли відтворюватимуться під час виконання "
+"команди \"Відтворити зараз\" для окремого файлу. Налаштування режиму вечірки "
+"та правил відтворення можуть змінити цей параметр за замовчуванням."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -11731,20 +11700,15 @@ msgid "Use multiple CPU cores (if available)"
 msgstr "Використовувати декілька ядер процесора (за наявності)"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:38
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It can be set use the default Player settings or customized "
 "for each media Type."
 msgstr ""
-"Це визначає які файли відтворюватимуться під час виконання команди "
-"\"Відтворити зараз\" для одного файлу. Типово відтворюється вибраний файл та "
-"інші наступні файли. Альтернатива полягає в тому, що відтворюється лише "
-"вибраний файл."
+"Цей параметр визначає, які файли відтворюватимуться під час виконання "
+"команди \"Відтворити зараз\" для окремого файлу. Його можна встановити за "
+"допомогою типових налаштувань програвача або налаштувати для кожного типу "
+"медіафайлів."
 
 #: dialogs\dlgOptions\pnl_Player.html:90
 msgid "Vertical"
