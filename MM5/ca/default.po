@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2023-11-06 11:10\n"
-"PO-Revision-Date: 2023-10-11 19:31+0000\n"
+"PO-Revision-Date: 2023-11-09 17:57+0000\n"
 "Last-Translator: Jordi Xicola <jxicola@gmail.com>\n"
 "Language-Team: Catalan <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ca/>\n"
@@ -1221,12 +1221,17 @@ msgstr "Llista aleatòria"
 #: actions.js:3338
 msgid "Shuffle disabled. Reverting to unshuffled list."
 msgstr ""
+"La barreja aleatòria està desactivada. S'està tornant a la llista no "
+"barrejada."
 
 #: actions.js:3342
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
 msgstr ""
+"La barreja aleatòria està desactivada. No es pot cancel·lar la barreja a "
+"causa de les edicions: feu servir \"Desfés\" per revertir els canvis a la "
+"llista de reproducció."
 
 #: actions.js:3354
 msgid "Repeat off"
@@ -1548,10 +1553,8 @@ msgstr "&Desfés"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4841 controls/filterEditor.js:93 controls/navigationBar.js:338
-#, fuzzy
-#| msgid "Clear search history"
 msgid "Clear history"
-msgstr "Borra l'històrial de cerca"
+msgstr "Borra l'històrial"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
 #: actions.js:4855 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
@@ -2127,7 +2130,7 @@ msgstr "Enllaç al lloc Web:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2532
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "Cal reiniciar MediaMonkey per aplicar els canvis"
 
 #: uitools.js:2534 controls/buttons.js:479 ExceptionHandler.pas:282
 #: ExceptionHandler.pas:318 ResStrings.pas:588
@@ -2136,7 +2139,7 @@ msgstr "Reinicia"
 
 #: uitools.js:2838
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "Cerca les ubicacions seleccionades:"
 
 #: uitools.js:2850
 msgid "Please select at least one folder to scan."
@@ -5037,10 +5040,8 @@ msgid "Everywhere"
 msgstr "A tot arreu"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
-msgstr "Entre el nom"
+msgstr "Entre el nom per favor"
 
 #: dialogs/dlgErrorLog.js:5
 msgid "Problem"
@@ -5082,10 +5083,8 @@ msgstr "Una vegada"
 
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:47
-#, fuzzy
-#| msgid "The media '%s' is not inserted."
 msgid "The location %s does not exist."
-msgstr "El mitjà '%s' no està inserit."
+msgstr "La ubicació %s no existeix."
 
 #: dialogs/dlgImageSize.js:41
 msgid "Browser & Grid views"
@@ -5516,13 +5515,11 @@ msgstr "Examina els resultats"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "filtrat o desactivat"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "Configuració de sincronització"
+msgstr "Configuració de la biblioteca"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5533,26 +5530,20 @@ msgid "Search and update took %s"
 msgstr "La cerca i l'actualització han trigat %s"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
-msgstr "S'han importat %d fitxers nous"
+msgstr "S'han afegit %d fitxers nous"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
 msgstr "S'han actualitzat %d fitxers"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "No s'han pogut importar %d fitxers"
+msgstr "No s'han pogut afegir %d fitxers"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "S'han actualitzat %d fitxers"
+msgstr "S'han omès %d fitxers"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5839,10 +5830,8 @@ msgstr ""
 "tecla d'accés ràpid diferent."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:241
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
-msgstr "Voleu suprimir la tecla de drecera seleccionada?"
+msgstr "Voleu suprimir les tecles de drecera seleccionada?"
 
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
 #: dialogs/dlgOptions/pnl_Hotkeys.js:255
@@ -6834,7 +6823,7 @@ msgstr "Seleccioneu la predeterminada"
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:299
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "S'està canviant a l'amplada mínima per al vídeo de YouTube."
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -7436,6 +7425,8 @@ msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
 msgstr ""
+"No s'han pogut copiar ni verificar una o més pistes. Seleccioneu les pistes "
+"que voleu tornar a provar:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -8481,10 +8472,8 @@ msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Monitoritzant $FAdd$ de $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:1725 MP3Utils.pas:2008
-#, fuzzy
-#| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr "Afegint $FAdd$ de $FTot$ ($Dir$$Str$)"
+msgstr "Escanejant $FAdd$ de $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:2083
 msgid "Problem with scanning directory %s."
@@ -9272,16 +9261,12 @@ msgid "Sleep: %d minute"
 msgstr "S'aturarà temporalment: %d minuts"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid ""
-#| "Library database %s can't be opened, please check the file is accessible "
-#| "and is not locked."
 msgid ""
 "Library database %s can't be opened, please check the file is accessible and "
 "is not locked.<br><br>Error: "
 msgstr ""
 "La base de dades de la biblioteca %s no es pot obrir, comproveu si el fitxer "
-"és accessible i no està bloquejat."
+"és accessible i no està bloquejat.<br><br>Error: "
 
 #. per #17917
 #: UpNp.pas:1961
@@ -9793,19 +9778,13 @@ msgid "Check for updates (when connected)"
 msgstr "Comproveu si hi ha actualitzacions (quan estigueu connectat)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It applies only when Party mode is active."
 msgstr ""
 "Això determina quins fitxers es reprodueixen quan s'executa l'ordre "
-"\"Reprodueix ara\" per a un sol fitxer. Per defecte, es reprodueix el fitxer "
-"seleccionat i altres posteriors. L’alternativa és que només es reprodueixi "
-"el fitxer seleccionat."
+"\"Reprodueix ara\" per a un sol fitxer. Només s'aplica quan el mode Festa "
+"està actiu."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -10003,10 +9982,8 @@ msgid "Minimizes to the Taskbar"
 msgstr "Es redueix al mínim a la barra de tasques"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:21
-#, fuzzy
-#| msgid "Imported"
 msgid "Import"
-msgstr "Importat"
+msgstr "Importa"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
@@ -10120,20 +10097,14 @@ msgstr ""
 "del tipus seleccionat."
 
 #: dialogs\dlgOptions\pnl_Player.html:32
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. Party Mode and Playback rule settings can override this "
 "default."
 msgstr ""
 "Això determina quins fitxers es reprodueixen quan s'executa l'ordre "
-"\"Reprodueix ara\" per a un sol fitxer. Per defecte, es reprodueix el fitxer "
-"seleccionat i altres posteriors. L’alternativa és que només es reprodueixi "
-"el fitxer seleccionat."
+"\"Reprodueix ara\" per a un sol fitxer. La configuració del mode de festa i "
+"de la regla de reproducció pot anul·lar aquesta predeterminada."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -11792,20 +11763,15 @@ msgid "Use multiple CPU cores (if available)"
 msgstr "Utilitzeu diversos nuclis de CPU (si estan disponibles)"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:38
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It can be set use the default Player settings or customized "
 "for each media Type."
 msgstr ""
 "Això determina quins fitxers es reprodueixen quan s'executa l'ordre "
-"\"Reprodueix ara\" per a un sol fitxer. Per defecte, es reprodueix el fitxer "
-"seleccionat i altres posteriors. L’alternativa és que només es reprodueixi "
-"el fitxer seleccionat."
+"\"Reprodueix ara\" per a un sol fitxer. Es pot configurar mitjançant la "
+"configuració predeterminada del reproductor o personalitzar-se per a cada "
+"tipus de suport."
 
 #: dialogs\dlgOptions\pnl_Player.html:90
 msgid "Vertical"
