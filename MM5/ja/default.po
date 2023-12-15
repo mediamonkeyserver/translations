@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-14 16:15\n"
-"PO-Revision-Date: 2023-11-06 17:41+0000\n"
+"PO-Revision-Date: 2023-12-16 03:52+0000\n"
 "Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ja/>\n"
@@ -86,10 +86,8 @@ msgstr "履歴"
 #: dialogs/dlgOptions.js:39 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:428 maincontent.html:50
-#, fuzzy
-#| msgid "Playing list"
 msgid "'Playing' list"
-msgstr "再生リスト"
+msgstr "「再生中」リスト"
 
 #. load player in timeout to be sure video window is already stretched to full screen
 #: actions.js:58 playerUtils.js:449
@@ -1217,16 +1215,10 @@ msgid "Shuffle disabled. Reverting to unshuffled list."
 msgstr "シャッフルが無効です。シャッフルされていないリストに戻ります。"
 
 #: actions.js:3342
-#, fuzzy
-#| msgid ""
-#| "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
-#| "changes to the Playing list."
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
-msgstr ""
-"シャッフルは無効です。編集のためシャッフルを解除できません。再生リストへの変"
-"更を元に戻すには「元に戻す」を使用してください。"
+msgstr "シャッフルは無効です。編集のためシャッフルを解除できません。「再生中」リストへの変更を元に戻すには「元に戻す」を使用してください。"
 
 #: actions.js:3354
 msgid "Repeat off"
@@ -3725,10 +3717,8 @@ msgstr "通常ウィンドウ"
 
 #: controls/nowplayingview.js:147 controls/nowPlaying/artistBio.js:65
 #: controls/nowPlaying/fullList.js:143
-#, fuzzy
-#| msgid "Show Playing list"
 msgid "Show 'Playing' list"
-msgstr "再生リストを表示"
+msgstr "「再生中」リストを表示"
 
 #. Main context manu of Now Playing view
 #: controls/nowplayingview.js:212
@@ -3769,14 +3759,9 @@ msgid "Internal player"
 msgstr "内蔵プレイヤー"
 
 #: controls/player.js:303
-#, fuzzy
-#| msgid ""
-#| "Shuffles the Playing list and makes default play commands shuffle tracks."
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
-msgstr ""
-"再生リストをシャッフルし、デフォルトの再生コマンドでトラックをシャッフルしま"
-"す。"
+msgstr "「再生中」リストをシャッフルし、デフォルトの再生コマンドでトラックをシャッフルします。"
 
 #: controls/player.js:442
 msgid "Time"
@@ -4558,10 +4543,8 @@ msgid "Also generate playlists on '%s' for:"
 msgstr "'%s'にプレイリストも生成:"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
-#, fuzzy
-#| msgid "Modify metadata as follows when syncing to '%s'"
 msgid "Update files and metadata as follows when syncing to '%s'"
-msgstr "'%s'に同期する際、次のようにメタデータを変更します"
+msgstr "'%s'に同期する際、次のようにメタデータを更新します"
 
 #: controls/nowPlaying/fullList.js:203
 msgid "Click to look up lyrics..."
@@ -4967,28 +4950,20 @@ msgstr "プレイリスト、データベース、ドライブから削除"
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
-#, fuzzy
-#| msgid "Remove from Playing list only"
 msgid "Remove from 'Playing' list only"
-msgstr "再生リストからのみ削除"
+msgstr "「再生中」リストからのみ削除"
 
 #: dialogs/dlgDeleteConfirm.js:135
-#, fuzzy
-#| msgid "Remove from Playing list and"
 msgid "Remove from 'Playing' list and"
-msgstr "再生リストから削除"
+msgstr "「再生中」リストから削除"
 
 #: dialogs/dlgDeleteConfirm.js:160
-#, fuzzy
-#| msgid "Delete from Playing list and the database only"
 msgid "Delete from 'Playing' list and the database only"
-msgstr "再生リストとデータベースからのみ削除"
+msgstr "「再生中」リストとデータベースからのみ削除"
 
 #: dialogs/dlgDeleteConfirm.js:161
-#, fuzzy
-#| msgid "Delete from Playing list, the database and drive"
 msgid "Delete from 'Playing' list, the database and drive"
-msgstr "再生リスト、データベース、ドライブから削除"
+msgstr "「再生中」リスト、データベース、ドライブから削除"
 
 #: dialogs/dlgDeleteConfirm.js:189
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
@@ -7825,11 +7800,11 @@ msgstr "上へ"
 #. using checkMedia removed, #18091
 #: FullPlayer.pas:2339
 msgid "Add %d file(s) to Playing"
-msgstr "%dファイルを再生リストに追加"
+msgstr "%dファイルを「再生中」リストに追加"
 
 #: FullPlayer.pas:2496
 msgid "Clear Playing"
-msgstr "再生リストをクリア"
+msgstr "「再生中」リストをクリア"
 
 #: FullPlayer.pas:2967
 msgid "Currently, there is no output plug-in selected"
@@ -7868,7 +7843,7 @@ msgstr "重複は検出されませんでした。"
 
 #: FullPlayer.pas:5065
 msgid "Do you want to remove %d duplicate(s) Playing?"
-msgstr "%d件の重複した再生を削除しますか？"
+msgstr "%d件の重複した「再生中」を削除しますか？"
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:6702
@@ -8667,7 +8642,7 @@ msgstr "タグの保存"
 #: Normalization.pas:1196
 msgid ""
 "Album leveling is enabled, which will cause %d other tracks to be analyzed."
-msgstr ""
+msgstr "アルバムの音量揃えが有効になっていると、他の%dトラックが分析されます。"
 
 #: Normalization.pas:1396
 msgid "%d of %d (%s)"
@@ -9446,7 +9421,7 @@ msgstr "上限:"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:30
 msgid " If disabled, tag edits will not cause the file to resync"
-msgstr ""
+msgstr " 無効にした場合、タグの編集によってファイルが再同期されることはありません"
 
 #: controls\nowPlaying\fullList.html:44
 msgid "Coming up: "
@@ -9477,19 +9452,13 @@ msgid "This changes the header for each custom field."
 msgstr "各カスタムフィールドのヘッダーが変更されます。"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
-#, fuzzy
-#| msgid ""
-#| "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
-#| "Playing list, remove them from the Playing list and the Library, or "
-#| "delete them from the Playing list, the Library, and the computer system."
 msgid ""
 "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
 "'Playing' list, remove them from the 'Playing' list and the Library, or "
 "delete them from the 'Playing' list, the Library, and the computer system."
 msgstr ""
-"有効にすると、MediaMonkeyは再生リストからトラックを削除するか、再生リストとラ"
-"イブラリからトラックを削除するか、再生リスト、ライブラリ、コンピュータシステ"
-"ムからトラックを削除するかをたずねます。"
+"有効にすると、MediaMonkeyは「再生中」リストからトラックを削除するか、「再生中」リストとライブラリからトラックを削除するか、「再生中」リスト、ラ"
+"イブラリ、コンピュータシステムからトラックを削除するかをたずねます。"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -10029,9 +9998,7 @@ msgid ""
 "If enabled, MediaMonkey will prompt you whether to delete the currently "
 "playing file from the system, since doing so will cause an interruption of "
 "playback."
-msgstr ""
-"有効にすると、MediaMonkey は　再生中のファイルをシステムから削除（これを行う"
-"と再生は途中で停止します）するかどうかたずねます。"
+msgstr "有効にすると、MediaMonkey は再生中のファイルをシステムから削除（これを行うと再生は途中で停止します）するかどうかたずねます。"
 
 #: dialogs\dlgOptions\pnl_Download.html:8
 msgid "Number of concurrent downloads:"
@@ -10135,10 +10102,8 @@ msgstr ""
 "Rock;Folk）。スペースは文字の表示方法を決定します。"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
-#, fuzzy
-#| msgid "previous files in Playing list"
 msgid "previous files in 'Playing' list"
-msgstr "を自動的に記憶する"
+msgstr "「再生中」リストの前のファイル"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
@@ -10261,14 +10226,10 @@ msgid "Add files from:"
 msgstr "ファイル追加元:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:30
-#, fuzzy
-#| msgid ""
-#| "This determines how many previously played tracks will be displayed in "
-#| "the Playing list."
 msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "'Playing' list."
-msgstr "すでに再生されたトラックを再生リストに表示する数を決定します。"
+msgstr "すでに再生されたトラックを「再生中」リストに表示する数を決定します。"
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:4
 msgid "Configure..."
@@ -10452,22 +10413,14 @@ msgid "Update & Next song (Alt-Right)"
 msgstr "更新して次の曲へ (Alt-Right)"
 
 #: dialogs\dlgOptions\pnl_General.html:28
-#, fuzzy
-#| msgid ""
-#| "By default, MediaMonkey minimizes to the taskbar. 'Minimize to "
-#| "MicroPlayer' causes it to appear as a toolbar next to the System tray "
-#| "when minimized. 'Minimize to MiniPlayer', displays 'Playing list' files "
-#| "even when the main application is minimized."
 msgid ""
 "By default, MediaMonkey minimizes to the taskbar. 'Minimize to MicroPlayer' "
 "causes it to appear as a toolbar next to the System tray when minimized. "
 "'Minimize to MiniPlayer', displays 'Playing' list files even when the main "
 "application is minimized."
 msgstr ""
-"デフォルトでは、MediaMonkeyはタスクバーに最小化します。「マイクロプレイヤーに"
-"最小化」 は、最小化するとシステムトレイの横にツールバーとして表示されます。"
-"「ミニプレイヤーに最小化」は、メインアプリケーションが最小化されても、「再生"
-"リスト」ファイルを表示します。"
+"デフォルトでは、MediaMonkeyはタスクバーに最小化します。「マイクロプレイヤーに最小化」 は、最小化するとシステムトレイの横にツールバーとして表示"
+"されます。「ミニプレイヤーに最小化」は、メインアプリケーションが最小化されても「再生中」リストのファイルを表示します。"
 
 #: dialogs\dlgOptions\pnl_Library.html:78
 msgid "Remove unused Attributes (Artist, Album, Composer, ...)"
@@ -10652,10 +10605,8 @@ msgid "Ignore prefixes:"
 msgstr "プレフィックスを無視:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
-#, fuzzy
-#| msgid "upcoming files in Playing list"
 msgid "upcoming files in 'Playing' list"
-msgstr "のファイルを再生リストに追加して維持する"
+msgstr "「再生中」リストの今後のファイル"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:8
 msgid ""
@@ -10772,6 +10723,8 @@ msgid ""
 "image tags. If disabled, artwork is synced to a location that only "
 "MediaMonkey can read."
 msgstr ""
+"画像タグを読み取れないデバイスやアプリケーションのアルバムフォルダにアートワークを保存します。無効にした場合、アートワークはMediaMonkeyのみが読"
+"み込みできる場所に同期されます。"
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Move and rename files to new destination based on file tags"
@@ -11076,7 +11029,7 @@ msgstr "確認ダイアログを表示"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:30
 msgid "Force files to resync whenever the source file has changed (slower)"
-msgstr ""
+msgstr "元のファイルが変更されるたびにファイルを強制的に再同期する（遅い）"
 
 #: dialogs\dlgAbout.html:38
 msgid "Used for developer testing (disables automatic crashlog generation)"
@@ -11195,16 +11148,10 @@ msgid "Bitrate (for max. res.)"
 msgstr "ビットレート（最大解像度）"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
-#, fuzzy
-#| msgid ""
-#| "This turns on the Auto-DJ feature which causes tracks to automatically be "
-#| "added to the Playing list when it runs out."
 msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the 'Playing' list when it runs out."
-msgstr ""
-"オートDJ機能がオンになり、トラックがなくなると自動的に再生リストに追加されま"
-"す。"
+msgstr "オートDJ機能がオンになり、トラックがなくなると自動的に「再生中」リストに追加されます。"
 
 #: dialogs\dlgOptions\pnl_Download.html:16
 msgid "Determines how often MediaMonkey checks for updates"
@@ -11557,10 +11504,8 @@ msgid "Device name"
 msgstr "デバイス名"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
-#, fuzzy
-#| msgid "Sync all Artwork to file folders"
 msgid "Sync artwork to file folders"
-msgstr "すべてのアートワークをファイルのフォルダーに同期"
+msgstr "アートワークをファイルのフォルダーに同期"
 
 #: dialogs\dlgAutoConvertRule.html:49
 msgid "Medium"
@@ -11740,7 +11685,7 @@ msgstr ""
 
 #: controls\deviceConfig\options\pnl_Tagging.html:15
 msgid "Syncs all images using the specified format and size"
-msgstr ""
+msgstr "指定した形式とサイズを使用してすべての画像を同期する"
 
 #: dialogs\dlgAutoOrganizeRule.html:11
 msgid "Organize these files using the following Directory and Filename format"
@@ -11764,16 +11709,10 @@ msgid "Preserve aspect ratio"
 msgstr "アスペクト比を維持する"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:6
-#, fuzzy
-#| msgid ""
-#| "This determines how many tracks Auto-DJ will add to the Playing list when "
-#| "the list begins to empty."
 msgid ""
 "This determines how many tracks Auto-DJ will add to the 'Playing' list when "
 "the list begins to empty."
-msgstr ""
-"ここでは、リストが空になり始めたときにオートDJが再生リストに追加するトラック"
-"数を指定します。"
+msgstr "ここでは、「再生中」リストが空になり始めたときにオートDJがリストに追加するトラック数を指定します。"
 
 #: dialogs\dlgOptions\pnl_Download.html:20
 msgid "Every day"
@@ -12466,10 +12405,8 @@ msgstr ""
 "指定したファイルのデフォルトのディレクトリ/ファイル名形式を設定します。"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
-#, fuzzy
-#| msgid "Confirm desired options on removal of files from the Playing list"
 msgid "Confirm desired options on removal of files from the 'Playing' list"
-msgstr "再生リストからファイルを削除する際に必要なオプションを確認する"
+msgstr "「再生中」リストからファイルを削除する際に必要なオプションを確認する"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -13109,11 +13046,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in Playing list"
-msgstr "を自動的に記憶する"
+msgstr "再生リストの前のファイル"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in Playing list"
-msgstr "のファイルを再生リストに追加して維持する"
+msgstr "再生リストの今後のファイル"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Modify metadata as follows when syncing to '%s'"
