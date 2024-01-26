@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 19:51\n"
+"POT-Creation-Date: 2024-01-26 17:14\n"
 "PO-Revision-Date: 2020-10-01 10:42+0000\n"
 "Last-Translator: Petr Jurik <petr@mediamonkey.com>\n"
 "Language-Team: Norwegian Bokmål <http://translations.mediamonkey.com/"
@@ -41,14 +41,14 @@ msgstr "Avspilling"
 
 #: actions.js:34 viewHandlers.js:3664 viewHandlers.js:4318
 #: controls/albumViewHeader.js:104 controls/artistViewHeader.js:61
-#: controls/buttons.js:459 controls/playlistHeader.js:262
+#: controls/buttons.js:459 controls/playlistHeader.js:265
 #: controls/podcastHeader.js:92 controls\listEditButtons.html:5
 msgid "Edit"
 msgstr "Rediger"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepared menu item for library exports implemented by scripts
-#: actions.js:37 actions.js:5833 dialogs\dlgOptions\pnl_Hotkeys.html:21
+#: actions.js:37 actions.js:5719 dialogs\dlgOptions\pnl_Hotkeys.html:21
 msgid "Export"
 msgstr ""
 
@@ -68,7 +68,7 @@ msgstr "Nedlastinger"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. @ts-ignore
 #: actions.js:49 templates.js:277 controls/player.js:751
-#: controls/trackListView.js:1290 dialogs/dlgAutotag.js:1772
+#: controls/trackListView.js:1290 dialogs/dlgAutotag.js:1802
 #: dialogs/dlgTrackProperties.js:30 ResStrings.pas:493
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:10
 msgid "Artwork"
@@ -249,7 +249,7 @@ msgstr "Minimer til Mikroavspiller"
 msgid "Toggle"
 msgstr ""
 
-#: actions.js:773 HTMLWindow.pas:13161
+#: actions.js:773 HTMLWindow.pas:13167
 msgid "MicroPlayer"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgstr ""
 #. @ts-ignore
 #. to not call 'change' when the filter was already discarded
 #: actions.js:974 actions.js:2253 actions.js:2608 viewHandlers.js:4305
-#: controls/folderTree.js:37 controls/playlistHeader.js:152
+#: controls/folderTree.js:37 controls/playlistHeader.js:155
 #: dialogs/dlgPodcastUnsubscribe.js:8 dialogs/dlgPodcastUnsubscribe.js:16
 #: dialogs/dlgPodcastUnsubscribe.js:17 FullPlayer.pas:4849
 #: controls\serverConfig\devices.html:9
@@ -341,14 +341,14 @@ msgid "Unpin it"
 msgstr ""
 
 #. ask where to save
-#: actions.js:1074 PlaylistManage.pas:4158
+#: actions.js:1074 PlaylistManage.pas:4182
 msgid "Save playlist"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16261 - to be the first in the list after creation
 #. #16261 - to be the first in the list after creation
-#: actions.js:1094 actions.js:7040 actions.js:7068
+#: actions.js:1094 actions.js:6926 actions.js:6954
 #: dialogs\dlgSelectPlaylist.html:11
 msgid "New playlist"
 msgstr "Ny spilleliste"
@@ -357,7 +357,7 @@ msgstr "Ny spilleliste"
 #. navigationHandlers['playlist'].navigate(newplaylist); // navigation is intentionally disabled, so that user can D&D tracks from the current view to the new playlist (#12355)
 #. For screen reader support (aria-label for screen readers to read its state)
 #. For screen reader support (aria-label for screen readers to read its state)
-#: actions.js:1119 actions.js:6315 controls/nowplayingList.js:308
+#: actions.js:1119 actions.js:6201 controls/nowplayingList.js:308
 #: controls/player.js:418 controls/player.js:420 controls/player.js:426
 #: controls/player.js:428 controls/player.js:435 controls/player.js:437
 #: controls/statusbar.js:131 controls/statusbar.js:150 dialogs/dlgOptions.js:39
@@ -445,16 +445,16 @@ msgstr ""
 msgid "Open in Explorer"
 msgstr ""
 
-#: actions.js:1473 actions.js:1483 actions.js:6969 actions.js:6976
+#: actions.js:1473 actions.js:1483 actions.js:6855 actions.js:6862
 #: dialogs\dlgSelectFolder.html:27
 msgid "New folder"
 msgstr "Ny mappe"
 
-#: actions.js:1484 actions.js:6977
+#: actions.js:1484 actions.js:6863
 msgid "New folder name"
 msgstr ""
 
-#: actions.js:1501 controls/mediaTree.js:235
+#: actions.js:1501 controls/mediaTree.js:231
 msgid "Collapse the tree"
 msgstr "Ødelegg treet"
 
@@ -520,11 +520,12 @@ msgstr ""
 #. needs to be assigned due to proper vertical align
 #. this field should not be used for whole album, specific for each track
 #. don't save
+#. width: 24, // defined by icon style, this would soemtimes cause #20508
 #: actions.js:1575 templates.js:1266 templates.js:1310 templates.js:1348
 #: uitools.js:1380 uitools.js:2469 viewHandlers.js:6299
 #: controls/downloadView.js:109 controls/player.js:628
 #: controls/searchEditor.js:878 controls/trackListView.js:104
-#: dialogs/dlgAutotag.js:2039 dialogs/dlgDeletedTracks.js:85
+#: dialogs/dlgAutotag.js:2069 dialogs/dlgDeletedTracks.js:85
 #: dialogs/dlgOptions/pnl_Layouts.js:162
 #: dialogs/dlgOptions/pnl_LayoutToolbar.js:93
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:142
@@ -545,7 +546,7 @@ msgstr "Tittel"
 #: controls/albumViewHeader.js:102 controls/albumViewHeader.js:104
 #: controls/downloadView.js:118 controls/player.js:645 controls/sortBy.js:10
 #: controls/trackListView.js:179 dialogs/dlgArtworkDetail.js:12
-#: dialogs/dlgAutotag.js:2133 dialogs/dlgEditView.js:21
+#: dialogs/dlgAutotag.js:2163 dialogs/dlgEditView.js:21
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:144
 #: dialogs/dlgOptions/pnl_Player.js:56
 #: dialogs/dlgTrackProperties/tabBasic.js:477
@@ -553,7 +554,7 @@ msgstr "Tittel"
 #: layouts/Touch/templates_add.js:33
 #: Scripts/statistics/dialogs/dlgStatistics.js:405
 #: Scripts/statistics/dialogs/dlgStatistics.js:436 Devices.pas:2068
-#: MaskHelper.pas:3128 MediaMonkeyApp.pas:8613 QueryManage.pas:3045
+#: MaskHelper.pas:3128 MediaMonkeyApp.pas:8628 QueryManage.pas:3045
 #: QueryManage.pas:3053 QueryManage.pas:3060 ResStrings.pas:423
 #: ResStrings.pas:436 ResStrings.pas:513
 #: dialogs\dlgTrackProperties\tabBasic.html:93
@@ -566,7 +567,7 @@ msgstr "Album"
 #: uitools.js:1432 viewHandlers.js:8574 controls/artistViewHeader.js:59
 #: controls/artistViewHeader.js:61 controls/downloadView.js:127
 #: controls/player.js:635 controls/trackListView.js:155
-#: dialogs/dlgAutotag.js:2097 dialogs/dlgDeletedTracks.js:94
+#: dialogs/dlgAutotag.js:2127 dialogs/dlgDeletedTracks.js:94
 #: dialogs/dlgMovedFiles.js:113 dialogs/dlgMovedFiles.js:166
 #: dialogs/dlgMovedFiles.js:219 dialogs/dlgOptions/pnl_MetadataLookup.js:143
 #: dialogs/dlgOptions/pnl_Player.js:55 layouts/Touch/templates_add.js:34
@@ -584,7 +585,7 @@ msgstr "Artist"
 #. Don't do this for PS3, because PS3 would not show the content properly then (issue #7676)
 #: actions.js:1629 uitools.js:1462 controls/albumlistView.js:609
 #: controls/sortBy.js:24 controls/trackListView.js:787
-#: dialogs/dlgArtworkDetail.js:13 dialogs/dlgAutotag.js:2176
+#: dialogs/dlgArtworkDetail.js:13 dialogs/dlgAutotag.js:2206
 #: MaskHelper.pas:3127 ResStrings.pas:437 ResStrings.pas:512 UpNp.pas:6119
 #: UpNp.pas:6120
 msgid "Album Artist"
@@ -606,7 +607,7 @@ msgstr "Produsent"
 
 #. this field should not be used for whole album, specific for each track
 #. don't save
-#: actions.js:1683 controls/trackListView.js:1578 dialogs/dlgAutotag.js:2353
+#: actions.js:1683 controls/trackListView.js:1578 dialogs/dlgAutotag.js:2383
 #: MaskHelper.pas:3165 MaskHelper.pas:3605 MaskHelper.pas:3877
 #: QueryManage.pas:4961 ResStrings.pas:504
 msgid "Producer"
@@ -622,7 +623,7 @@ msgstr "Skuespiller(e)"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
-#: actions.js:1719 controls/trackListView.js:1650 dialogs/dlgAutotag.js:2284
+#: actions.js:1719 controls/trackListView.js:1650 dialogs/dlgAutotag.js:2314
 #: MaskHelper.pas:3160 ResStrings.pas:481 ResStrings.pas:535
 #: dialogs\dlgTrackProperties\tabDetails.html:97
 msgid "Publisher"
@@ -631,7 +632,7 @@ msgstr "Utgiver"
 #. online mode only for online source track
 #. don't save
 #: actions.js:1737 uitools.js:1430 controls/trackListView.js:1596
-#: dialogs/dlgAutotag.js:2318 dialogs/dlgOptions/pnl_MetadataLookup.js:150
+#: dialogs/dlgAutotag.js:2348 dialogs/dlgOptions/pnl_MetadataLookup.js:150
 #: MaskHelper.pas:3166 MaskHelper.pas:3610 MaskHelper.pas:3878
 #: QueryManage.pas:1879 QueryManage.pas:3046 QueryManage.pas:3061
 #: ResStrings.pas:505
@@ -643,7 +644,7 @@ msgstr "Regissør"
 #. request for Artists
 #. e.g. XBOX searches for genre's songs (testContentBrowser_XBOX_360_Genre)
 #: actions.js:1755 uitools.js:1534 controls/downloadView.js:163
-#: controls/trackListView.js:308 dialogs/dlgAutotag.js:2208
+#: controls/trackListView.js:308 dialogs/dlgAutotag.js:2238
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:149 helpers/autoTagFramework.js:338
 #: layouts/Touch/templates_add.js:35
 #: Scripts/musicBrainz/helpers/genreDataSource.js:25
@@ -656,7 +657,7 @@ msgstr "Sjanger"
 
 #. online mode only for online source track
 #. don't save
-#: actions.js:1773 uitools.js:1556 uitools.js:1558 dialogs/dlgAutotag.js:2554
+#: actions.js:1773 uitools.js:1556 uitools.js:1558 dialogs/dlgAutotag.js:2584
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:148
 #: layouts/Touch/templates_add.js:36
 #: Scripts/statistics/dialogs/dlgStatistics.js:329 MaskHelper.pas:3130
@@ -668,7 +669,7 @@ msgstr "År"
 #. this field should not be used for whole album, specific for each track
 #: actions.js:1791 actions.js:1809 actions.js:1827 uitools.js:1590
 #: uitools.js:1605 uitools.js:1620 controls/trackListView.js:223
-#: MaskHelper.pas:3135 MediaMonkeyApp.pas:7501 ResStrings.pas:539
+#: MaskHelper.pas:3135 MediaMonkeyApp.pas:7516 ResStrings.pas:539
 msgid "Folder"
 msgstr "Mappe"
 
@@ -882,7 +883,7 @@ msgstr "Avslutt"
 
 #. window.closeWindow();
 #. msg = msg + _('Error') + ': ' + err + '<br><br>';
-#: actions.js:2414 actions.js:2598 actions.js:4884
+#: actions.js:2414 actions.js:2598 actions.js:4775
 msgid "&Properties"
 msgstr "&Egenskaper"
 
@@ -901,7 +902,7 @@ msgid ""
 "If a network location isn't found automatically, you can add one manually."
 msgstr ""
 
-#: actions.js:2457 controls/trackListView.js:848 dialogs/dlgAutotag.js:2600
+#: actions.js:2457 controls/trackListView.js:848 dialogs/dlgAutotag.js:2630
 #: dialogs/dlgDeletedTracks.js:103 dialogs/dlgMovedFiles.js:186
 #: dialogs/dlgMovedFiles.js:239 MaskHelper.pas:3157 QueryManage.pas:4893
 #: ResStrings.pas:438 dialogs\dlgMediaProperties.html:33
@@ -934,7 +935,7 @@ msgstr ""
 msgid "If a media server isn't found automatically, you can add one manually."
 msgstr ""
 
-#: actions.js:2538 UpNp.pas:10361 controls\devicesView.html:36
+#: actions.js:2538 UpNp.pas:10363 controls\devicesView.html:36
 msgid "Device Description file path:"
 msgstr ""
 
@@ -946,7 +947,7 @@ msgstr ""
 msgid "%s cannot be reached"
 msgstr ""
 
-#: actions.js:2556 dialogs/dlgAutotag.js:613 Extensions.pas:900
+#: actions.js:2556 dialogs/dlgAutotag.js:643 Extensions.pas:900
 #: Extensions.pas:911 Extensions.pas:915 Extensions.pas:963 Extensions.pas:1044
 #: Extensions.pas:1073 ResStrings.pas:579 UI.pas:1395
 msgid "Error"
@@ -1060,7 +1061,7 @@ msgstr ""
 #. this is DLNA link to lyrics file, load it
 #: actions.js:2821 viewHandlers.js:2490 viewHandlers.js:4497
 #: controls/mainTabContent.js:252 controls/trackListView.js:1093
-#: BaseMedia.pas:15786 BaseMedia.pas:16432 Filters.pas:2718 Filters.pas:2776
+#: BaseMedia.pas:15790 BaseMedia.pas:16431 Filters.pas:2718 Filters.pas:2776
 #: PodcastManage.pas:937
 msgid "Loading"
 msgstr ""
@@ -1113,13 +1114,13 @@ msgstr ""
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare object for menu generation functions
 #: actions.js:2999 actions.js:3013 actions.js:3016 actions.js:3030
-#: actions.js:3033 actions.js:6198 controls/trackListView.js:1883
-#: MediaMonkeyApp.pas:9071 dialogs\dlgOptions\pnl_OSIntegration.html:8
+#: actions.js:3033 actions.js:6084 controls/trackListView.js:1883
+#: MediaMonkeyApp.pas:9091 dialogs\dlgOptions\pnl_OSIntegration.html:8
 msgid "Play now"
 msgstr ""
 
-#: actions.js:3016 actions.js:3078 actions.js:3126 actions.js:6198
-#: actions.js:6210 actions.js:6225 actions.js:6240
+#: actions.js:3016 actions.js:3078 actions.js:3126 actions.js:6084
+#: actions.js:6096 actions.js:6111 actions.js:6126
 #: controls/trackListView.js:1883 controls/trackListView.js:1895
 #: controls/trackListView.js:1910 controls/trackListView.js:1925
 msgid "shuffled"
@@ -1129,23 +1130,23 @@ msgstr ""
 msgid "shuffled by Album"
 msgstr ""
 
-#: actions.js:3047 actions.js:6225 controls/trackListView.js:1910
+#: actions.js:3047 actions.js:6111 controls/trackListView.js:1910
 #, fuzzy
 #| msgid "Queued"
 msgid "Queue mixed"
 msgstr "I kø"
 
 #: actions.js:3061 actions.js:3075 actions.js:3078 actions.js:3092
-#: actions.js:3095 actions.js:6210 controls/trackListView.js:1895
-#: MediaMonkeyApp.pas:9072 dialogs\dlgOptions\pnl_OSIntegration.html:9
+#: actions.js:3095 actions.js:6096 controls/trackListView.js:1895
+#: MediaMonkeyApp.pas:9092 dialogs\dlgOptions\pnl_OSIntegration.html:9
 #, fuzzy
 #| msgid "Queued"
 msgid "Queue next"
 msgstr "I kø"
 
 #: actions.js:3109 actions.js:3123 actions.js:3126 actions.js:3140
-#: actions.js:3143 actions.js:6240 controls/trackListView.js:1925
-#: MediaMonkeyApp.pas:9073 dialogs\dlgOptions\pnl_OSIntegration.html:10
+#: actions.js:3143 actions.js:6126 controls/trackListView.js:1925
+#: MediaMonkeyApp.pas:9093 dialogs\dlgOptions\pnl_OSIntegration.html:10
 #, fuzzy
 #| msgid "Queued"
 msgid "Queue last"
@@ -1300,13 +1301,14 @@ msgstr ""
 #. radiogroup: 'search_mode',
 #: actions.js:3644 controls/playingListContainer.js:115
 #: controls/searchBar.js:572 dialogs/dlgOptions.js:149
+#: Scripts/vis_milkshake/vis_milkshake.js:89
 #: controls\serverConfig\devices.html:9
 msgid "Options"
 msgstr "Alternativer"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. @ts-ignore
-#: actions.js:3644 actions.js:4408 controls/player.js:72 controls/player.js:992
+#: actions.js:3644 actions.js:4299 controls/player.js:72 controls/player.js:992
 #: dialogs/dlgOptions.js:32 dialogs/dlgOptions.js:70 maincontent.html:62
 msgid "Player"
 msgstr "Avspiller"
@@ -1335,21 +1337,8 @@ msgstr ""
 msgid "New tab"
 msgstr ""
 
-#: actions.js:3774 actions.js:4031
-#, fuzzy
-#| msgid "File length"
-msgid "File list"
-msgstr "Fillengde"
-
-#. @ts-ignore
-#. Use progress to notify user about the current action
-#: actions.js:3855 actions.js:3873 Scripts/exportPlaylists/actions_add.js:63
-#: Scripts/statistics/dialogs/dlgStatistics.js:610
-msgid "Exporting"
-msgstr ""
-
-#: actions.js:3888 actions.js:3918 actions.js:7024 actions.js:7054
-#: actions.js:7068
+#: actions.js:3775 actions.js:3805 actions.js:6910 actions.js:6940
+#: actions.js:6954
 msgid "Send to"
 msgstr "Send til"
 
@@ -1357,60 +1346,68 @@ msgstr "Send til"
 #. root items insert directly to presetColumns, so we will not need to move them here later
 #. to hide the filter on view switch
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: actions.js:3905 controls/columntracklist.js:283 controls/filterEditor.js:124
+#: actions.js:3792 controls/columntracklist.js:283 controls/filterEditor.js:124
 #: controls/tracklistFilter.js:450
 msgid "Recently used"
 msgstr ""
 
-#: actions.js:3954
+#: actions.js:3841
 msgid "sync"
 msgstr ""
 
-#: actions.js:3979
+#: actions.js:3866
 msgid "Folder (&Move)"
 msgstr "Mappe (&Flytt)"
 
-#: actions.js:3988
+#: actions.js:3875
 msgid "Folder (&Copy)"
 msgstr "Mappe (&Kopier)"
 
-#: actions.js:3997
+#: actions.js:3884
 msgid "Folder (Rip/Con&vert)"
 msgstr "Mappe (Importer/Kon&verter)"
 
 #. online mode only for online source track
-#: actions.js:4011 uitools.js:1576 helpers/autoDJ.js:25 Devices.pas:2058
+#: actions.js:3898 uitools.js:1576 helpers/autoDJ.js:25 Devices.pas:2058
 #: Devices.pas:13538 Devices.pas:15981 FormatsManage.pas:5536
 #: FormatsManage.pas:5568 FormatsManage.pas:5578 MaskHelper.pas:3125
 #: QueryManage.pas:4802 ResStrings.pas:538
 msgid "Playlist"
 msgstr "Spilleliste"
 
-#: actions.js:4020
+#: actions.js:3907
 msgid "M3U/XSPF playlist"
 msgstr ""
 
-#: actions.js:4031
+#. if not uninstalled
+#: actions.js:3920
 msgid "Report"
 msgstr ""
 
-#: actions.js:4049
+#: actions.js:3920 Scripts/export/actions_add.js:391
+#, fuzzy
+#| msgid "File length"
+msgid "File list"
+msgstr "Fillengde"
+
+#. @ts-ignore
+#: actions.js:3940
 msgid "E-Mail"
 msgstr "Epost"
 
-#: actions.js:4072
+#: actions.js:3963
 msgid "Find &more from same"
 msgstr ""
 
-#: actions.js:4085
+#: actions.js:3976
 msgid "Anal&yze volume"
 msgstr ""
 
-#: actions.js:4106
+#: actions.js:3997
 msgid "&Level Track volume"
 msgstr ""
 
-#: actions.js:4114
+#: actions.js:4005
 msgid ""
 "Leveling Track volume irreversibly modifies the track. Are you sure you want "
 "to level the volume of the selected Tracks?"
@@ -1419,54 +1416,54 @@ msgstr ""
 "volumet på de valgte sporene?"
 
 #. @ts-ignore
-#: actions.js:4138
+#: actions.js:4029
 msgid "Analyze waveform"
 msgstr ""
 
-#: actions.js:4156
+#: actions.js:4047
 #, fuzzy
 #| msgid "Play selected files only"
 msgid "Display only selected folder's content"
 msgstr "Spill av valgte filer kun"
 
-#: actions.js:4156
+#: actions.js:4047
 msgid "Display folder content recursively"
 msgstr ""
 
-#: actions.js:4178
+#: actions.js:4069
 msgid "View filter"
 msgstr ""
 
 #. "Any text"
-#: actions.js:4223 QueryManage.pas:2862 QueryManage.pas:2866 ResStrings.pas:544
+#: actions.js:4114 QueryManage.pas:2862 QueryManage.pas:2866 ResStrings.pas:544
 msgid "contains"
 msgstr "inneholder"
 
 #. radiogroup: 'search_mode',
-#: actions.js:4285 controls/searchBar.js:555
+#: actions.js:4176 controls/searchBar.js:555
 msgid "Advanced search"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that it is right most to the includeSubfolders action (with iconPriority 10)
-#: actions.js:4307 actions.js:4346 controls\mainTabContent.html:3
+#: actions.js:4198 actions.js:4237 controls\mainTabContent.html:3
 msgid "Left panel"
 msgstr ""
 
-#: actions.js:4360 controls\mainTabContent.html:4
+#: actions.js:4251 controls\mainTabContent.html:4
 msgid "Media Tree"
 msgstr "Medietre"
 
-#: actions.js:4445 actions.js:4474 maincontent.html:49
+#: actions.js:4336 actions.js:4365 maincontent.html:49
 msgid "Right panel"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. became visible, update
 #. dont save sync, it will be saved async
-#: actions.js:4488 templates.js:583 controls/lyricsWindow.js:79
+#: actions.js:4379 templates.js:583 controls/lyricsWindow.js:79
 #: controls/nowplayingview.js:29 controls/trackListView.js:1086
-#: dialogs/dlgAutotag.js:2491 dialogs/dlgOptions.js:74
+#: dialogs/dlgAutotag.js:2521 dialogs/dlgOptions.js:74
 #: dialogs/dlgTrackProperties.js:26
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:156 MaskHelper.pas:3175
 #: ResStrings.pas:471 dialogs\dlgOptions\pnl_MetadataLookup.html:14
@@ -1477,7 +1474,7 @@ msgstr "Sangtekster"
 #. it is a list
 #. we want to always save lyrics when clicked manually by user
 #. swap the selected part and order part for X seconds per suggestion in #19285
-#: actions.js:4532 viewHandlers.js:7872 controls/artWindow.js:1756
+#: actions.js:4423 viewHandlers.js:7872 controls/artWindow.js:1756
 #: controls/nowplayingList.js:250 controls/playingListContainer.js:115
 #: controls/statusbar.js:131 controls/statusbar.js:134
 #: dialogs/dlgEditView.js:609
@@ -1489,7 +1486,7 @@ msgstr ""
 #. to load the new image thumb
 #. to show "[Deezer Preview]" text on player (#17288)
 #. to show "[Spotify Preview]" text on player (#17288)
-#: actions.js:4575 controls/artWindow.js:585 dialogs/dlgOptions.js:74
+#: actions.js:4466 controls/artWindow.js:585 dialogs/dlgOptions.js:74
 #: dialogs/dlgOptions/pnl_Layouts.js:360
 #: Scripts/deezer/helpers/cloudServices_add.js:412
 #: Scripts/spotify/helpers/cloudServices_add.js:362 maincontent.html:53
@@ -1497,285 +1494,285 @@ msgid "Preview"
 msgstr "Forhåndsvisning"
 
 #. was visible only for displaying visualization or video
-#: actions.js:4625 Extensions.pas:1589 Extensions.pas:1590 Extensions.pas:1591
+#: actions.js:4516 Extensions.pas:1589 Extensions.pas:1590 Extensions.pas:1591
 #: Extensions.pas:1592
 msgid "&Visualization"
 msgstr "&Visualisering"
 
-#: actions.js:4681
+#: actions.js:4572
 msgid "Refresh"
 msgstr "Oppdater"
 
 #. @ts-ignore
-#: actions.js:4702 dialogs/dlgOptions.js:16
+#: actions.js:4593 dialogs/dlgOptions.js:16
 msgid "Party Mode"
 msgstr "Festmodus"
 
 #. is listened e.g. by Player component to update player controls disabled state
-#: actions.js:4760
+#: actions.js:4651
 msgid "&Clear"
 msgstr "&Fjern"
 
-#: actions.js:4771
+#: actions.js:4662
 msgid "Clea&n (remove inaccessible)"
 msgstr "Rydd (fjern utilgjengelige)"
 
-#: actions.js:4782
+#: actions.js:4673
 msgid "Remove &duplicates"
 msgstr ""
 
-#: actions.js:4793
+#: actions.js:4684
 msgid "&Randomize list"
 msgstr ""
 
-#: actions.js:4804 FullPlayer.pas:4903
+#: actions.js:4695 FullPlayer.pas:4903
 msgid "Reverse list"
 msgstr ""
 
 #. Label for screen readers ("Undo" is not translated, only "&Undo")
-#: actions.js:4815 controls/navigationBar.js:302
+#: actions.js:4706 controls/navigationBar.js:302
 msgid "&Undo"
 msgstr "&Angre"
 
 #. just to get it on the top of the MRU list
 #. to init the menu
-#: actions.js:4841 controls/filterEditor.js:93 controls/navigationBar.js:344
+#: actions.js:4732 controls/filterEditor.js:93 controls/navigationBar.js:344
 msgid "Clear history"
 msgstr ""
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
-#: actions.js:4855 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
+#: actions.js:4746 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
 msgid "&Redo"
 msgstr "&Gjør om"
 
 #. open edit properties dialog
-#: actions.js:4915
+#: actions.js:4806
 msgid "Previous view"
 msgstr ""
 
 #. forward is added here via redoNavbarButton script
-#: actions.js:4934
+#: actions.js:4825
 msgid "Fit video to window on resize"
 msgstr ""
 
-#: actions.js:4950
+#: actions.js:4841
 msgid "Zoom to 50%"
 msgstr "Zoom til 50%"
 
-#: actions.js:4964
+#: actions.js:4855
 msgid "Zoom to 100%"
 msgstr "Zoom til 100%"
 
-#: actions.js:4978
+#: actions.js:4869
 msgid "Zoom to 150%"
 msgstr "Zoom til 150%"
 
-#: actions.js:4992
+#: actions.js:4883
 msgid "Zoom to 200%"
 msgstr "Zoom til 200%"
 
-#: actions.js:5007
+#: actions.js:4898
 msgid "Zoom in"
 msgstr "Zoom inn"
 
-#: actions.js:5020
+#: actions.js:4911
 msgid "Zoom out"
 msgstr "Zoom ut"
 
 #. @ts-ignore
-#: actions.js:5055
+#: actions.js:4946
 msgid "Original AR"
 msgstr ""
 
-#: actions.js:5127 dialogs\dlgMoveAccompFiles.html:16
+#: actions.js:5018 dialogs\dlgMoveAccompFiles.html:16
 msgid "Move"
 msgstr "Flytt"
 
-#: actions.js:5137
+#: actions.js:5028
 msgid "Move left"
 msgstr "Flytt til venstre"
 
-#: actions.js:5150
+#: actions.js:5041
 msgid "Move right"
 msgstr "Flytt til høyre"
 
-#: actions.js:5163 controls\listEditButtons.html:2
+#: actions.js:5054 controls\listEditButtons.html:2
 msgid "Move up"
 msgstr "Gå opp"
 
-#: actions.js:5176 controls\listEditButtons.html:3
+#: actions.js:5067 controls\listEditButtons.html:3
 msgid "Move down"
 msgstr "Flytt ned"
 
-#: actions.js:5189 Scripts\caseChecker\dialogs\dlgCaseChecker.html:57
+#: actions.js:5080 Scripts\caseChecker\dialogs\dlgCaseChecker.html:57
 msgid "Reset changes"
 msgstr ""
 
 #. to load the new image thumb
-#: actions.js:5204 controls/artWindow.js:627
+#: actions.js:5095 controls/artWindow.js:627
 msgid "Save thumbnail"
 msgstr "Lagre miniatyrbilde"
 
-#: actions.js:5208
+#: actions.js:5099
 msgid "Generate the thumbnail:"
 msgstr ""
 
-#: actions.js:5210
+#: actions.js:5101
 msgid "Automatically"
 msgstr "Automatisk"
 
-#: actions.js:5213
+#: actions.js:5104
 msgid "Use current video frame"
 msgstr ""
 
-#: actions.js:5225
+#: actions.js:5116
 msgid "Audio streams"
 msgstr ""
 
 #. fill info about subtitle stream
-#: actions.js:5252 BaseMedia.pas:4933
+#: actions.js:5143 BaseMedia.pas:4933
 msgid "Subtitles"
 msgstr "Undertekster"
 
-#: actions.js:5261 dialogs/dlgOptions/pnl_Hotkeys.js:288
+#: actions.js:5152 dialogs/dlgOptions/pnl_Hotkeys.js:288
 msgid "Open file"
 msgstr ""
 
-#: actions.js:5269
+#: actions.js:5160
 msgid "Subtitle files"
 msgstr "Undertekstfiler"
 
-#: actions.js:5269
+#: actions.js:5160
 msgid "Select subtitle file"
 msgstr ""
 
 #. rejected - closed by cancel
-#: actions.js:5285 viewHandlers.js:5543
+#: actions.js:5176 viewHandlers.js:5543
 msgid "Enable"
 msgstr "Aktiver"
 
 #. reset
-#: actions.js:5307 controls/downloadView.js:136 ResStrings.pas:453
+#: actions.js:5198 controls/downloadView.js:136 ResStrings.pas:453
 msgid "Size"
 msgstr "Størrelse"
 
-#: actions.js:5312
+#: actions.js:5203
 msgid "Small"
 msgstr "Liten"
 
-#: actions.js:5328 dialogs\dlgOptions\pnl_Performance.html:32
+#: actions.js:5219 dialogs\dlgOptions\pnl_Performance.html:32
 msgid "Normal"
 msgstr "Normal"
 
-#: actions.js:5344
+#: actions.js:5235
 msgid "Large"
 msgstr "Stor"
 
-#: actions.js:5360
+#: actions.js:5251
 msgid "Extra large"
 msgstr ""
 
-#: actions.js:5423 controls\playlistHeader.html:9
+#: actions.js:5314 controls\playlistHeader.html:8
 msgid "Play normally"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. adds shuffle menu commands to button context menu
 #. nodeUtils
-#: actions.js:5449 uitools.js:2327 viewHandlers.js:3281
-#: controls\playlistHeader.html:10
+#: actions.js:5340 uitools.js:2327 viewHandlers.js:3281
+#: controls\playlistHeader.html:9
 msgid "Play shuffled"
 msgstr ""
 
-#: actions.js:5481 uitools.js:2328 viewHandlers.js:3312
+#: actions.js:5372 uitools.js:2328 viewHandlers.js:3312
 msgid "Play shuffled (by Album)"
 msgstr ""
 
 #. prepared menu item for library reports implemented by scripts
-#: actions.js:5814 Extensions.pas:1594
+#: actions.js:5705 Extensions.pas:1594
 msgid "Reports"
 msgstr ""
 
-#: actions.js:5846
+#: actions.js:5732
 msgid "&File"
 msgstr "&Fil"
 
-#: actions.js:5892 viewHandlers.js:5408 controls/searchView.js:318
+#: actions.js:5778 viewHandlers.js:5408 controls/searchView.js:318
 #: dialogs/dlgOptions.js:119 DBStructure.pas:2059 GlobVars.pas:2100
 #: UPnPTreeHelper.pas:1894
 #: controls\deviceConfig\options\pnl_FileLocations.html:33
 msgid "Podcasts"
 msgstr "Podcaster"
 
-#: actions.js:5920
+#: actions.js:5806
 msgid "&Edit"
 msgstr "&Rediger"
 
-#: actions.js:5988
+#: actions.js:5874
 msgid "&View"
 msgstr "&Vis"
 
-#: actions.js:6027 dialogs/dlgOptions.js:82
+#: actions.js:5913 dialogs/dlgOptions.js:82
 msgid "Skin"
 msgstr "Skinn"
 
-#: actions.js:6042 dialogs\dlgMP3Settings.html:41
+#: actions.js:5928 dialogs\dlgMP3Settings.html:41
 msgid "Mode"
 msgstr ""
 
-#: actions.js:6057
+#: actions.js:5943
 msgid "Main panel view"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16702 ... remove cancelSelection action as it is already in Edit menu
-#: actions.js:6081 dialogs\dlgTrackProperties.html:12
+#: actions.js:5967 dialogs\dlgTrackProperties.html:12
 msgid "Previous"
 msgstr ""
 
-#: actions.js:6115 dialogs\dlgTrackProperties.html:12
+#: actions.js:6001 dialogs\dlgTrackProperties.html:12
 msgid "Next"
 msgstr ""
 
-#: actions.js:6159
+#: actions.js:6045
 msgid "&Play"
 msgstr "&Spill av"
 
-#: actions.js:6353
+#: actions.js:6239
 msgid "Edit tags"
 msgstr ""
 
 #. some items placed by scripts here
-#: actions.js:6386
+#: actions.js:6272
 msgid "&Tools"
 msgstr "Verk&tøy"
 
-#: actions.js:6459
+#: actions.js:6345
 msgid "MediaMonkey Gold"
 msgstr ""
 
-#: actions.js:6466
+#: actions.js:6352
 msgid "Get MediaMonkey Gold"
 msgstr ""
 
 #. assume always called with this = action
-#: actions.js:6842 actions.js:6920
+#: actions.js:6728 actions.js:6806
 msgid "Move to"
 msgstr ""
 
-#: actions.js:6845 actions.js:6924
+#: actions.js:6731 actions.js:6810
 msgid "Copy to"
 msgstr ""
 
-#: actions.js:6848 actions.js:6928
+#: actions.js:6734 actions.js:6814
 msgid "Convert to"
 msgstr ""
 
-#: actions.js:7153
+#: actions.js:7039
 msgid "No tracks found"
 msgstr ""
 
-#: actions.js:7167
+#: actions.js:7053
 msgid ""
 "This will update the tags of the selected files so that they match your "
 "Library. Are you sure you want to proceed?"
@@ -1783,7 +1780,7 @@ msgstr ""
 "Dette vil oppdatere taggene av valgte filer slik at de samsvarer med ditt "
 "Bibliotek. Er du sikker på at du vil fortsette?"
 
-#: actions.js:7170
+#: actions.js:7056
 msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
@@ -1812,9 +1809,9 @@ msgstr ""
 #: dialogs/dlgMediaProperties.js:5 dialogs/dlgTrackProperties/tabDetails.js:54
 #: helpers/autoTagFramework.js:268 ArtistsManage.pas:1269
 #: ArtistsManage.pas:3430 ArtistsManage.pas:3673 BaseMedia.pas:4982
-#: BaseMedia.pas:16029 BaseMedia.pas:17802 BaseMedia.pas:17808 Filters.pas:3472
+#: BaseMedia.pas:16033 BaseMedia.pas:17801 BaseMedia.pas:17807 Filters.pas:3472
 #: PodcastManage.pas:988 PodcastManage.pas:1320 PodcastManage.pas:2789
-#: ResStrings.pas:364 UpNp.pas:10980
+#: ResStrings.pas:364 UpNp.pas:10982
 msgid "Unknown"
 msgstr "Ukjent"
 
@@ -1950,7 +1947,7 @@ msgstr "Aspektradio"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. fixed: true,
 #. for the content browser on the 'Summary' page
-#: templates.js:368 controls/deviceConfig.js:377 dialogs/dlgAutotag.js:1773
+#: templates.js:368 controls/deviceConfig.js:377 dialogs/dlgAutotag.js:1803
 #: MaskHelper.pas:3188 MaskHelper.pas:3712 MaskHelper.pas:3901
 #: ResStrings.pas:494 dialogs\dlgEditView.html:37
 msgid "Summary"
@@ -1988,7 +1985,7 @@ msgstr ""
 #. so it is not fetched again
 #: templates.js:583 viewHandlers.js:8487 viewHandlers.js:8574
 #: controls/albumViewHeader.js:618 controls/artistViewHeader.js:504
-#: controls/searchView.js:583 controls/viewHeader.js:181
+#: controls/searchView.js:591 controls/viewHeader.js:181
 #: helpers/artistDataSource.js:78 helpers/autoTagFramework.js:278
 #: helpers/autoTagFramework.js:280 helpers/autoTagFramework.js:282
 #: helpers/seriesDataSource.js:60
@@ -2023,7 +2020,7 @@ msgstr "Vurdering"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
 #: templates.js:1294 templates.js:1332 templates.js:1371
-#: controls/trackListView.js:236 dialogs/dlgAutotag.js:2587
+#: controls/trackListView.js:236 dialogs/dlgAutotag.js:2617
 #: dialogs/dlgTrackProperties/tabDetails.js:48
 #: Scripts/statistics/dialogs/dlgStatistics.js:179
 #: Scripts/statistics/dialogs/dlgStatistics.js:332
@@ -2112,7 +2109,7 @@ msgid "Registration"
 msgstr "Registrering"
 
 #. we need at least one song to work with
-#: uitools.js:2397 dialogs/dlgTrackProperties.js:165 MP3Utils.pas:1243
+#: uitools.js:2397 dialogs/dlgTrackProperties.js:165 MP3Utils.pas:1247
 msgid "Please select one or more files for this operation."
 msgstr ""
 
@@ -2162,12 +2159,12 @@ msgid "GB"
 msgstr "GB"
 
 #. available to stream from cloud
-#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2563
+#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2564
 #: ResStrings.pas:571
 msgid "Various"
 msgstr "Forskjellige"
 
-#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2564
+#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2565
 msgid "Various Artists"
 msgstr "Forskjellige artister"
 
@@ -2393,7 +2390,7 @@ msgstr "&Fjern"
 #. remove newly created playlist when edit is canceled for newly created playlist without a change (item 3 in #14005)
 #: viewHandlers.js:3420 viewHandlers.js:5523 controls/albumViewHeader.js:262
 #: controls/artistViewHeader.js:169 controls/folderTree.js:54
-#: controls/genreViewHeader.js:29 controls/playlistHeader.js:96
+#: controls/genreViewHeader.js:29 controls/playlistHeader.js:98
 #: controls/trackListView.js:1980
 msgid "Rename"
 msgstr "Gi nytt navn"
@@ -2408,11 +2405,11 @@ msgstr ""
 msgid "playlists"
 msgstr ""
 
-#: viewHandlers.js:3787 controls/playlistHeader.js:156
+#: viewHandlers.js:3787 controls/playlistHeader.js:159
 msgid "Are you sure you want to remove playlist \"%s\" ?"
 msgstr ""
 
-#: viewHandlers.js:3789 controls/playlistHeader.js:158 PlaylistManage.pas:913
+#: viewHandlers.js:3789 controls/playlistHeader.js:161 PlaylistManage.pas:913
 msgid ""
 "This playlist is a parent of other playlists. Deleting it will also remove "
 "its children. Are you sure you want to delete it?"
@@ -2431,7 +2428,7 @@ msgid "Copying to %s:"
 msgstr "Kopierer til %s:"
 
 #. to not notify less often and improve performance for thousands of tracks
-#: viewHandlers.js:4080 MediaManage.pas:4113 MediaManage.pas:4194
+#: viewHandlers.js:4080 MediaManage.pas:4119 MediaManage.pas:4200
 #, fuzzy
 #| msgid "Copying to %s:"
 msgid "Moving to %s:"
@@ -2563,7 +2560,7 @@ msgstr ""
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
 #. #15626
-#: viewHandlers.js:5100 MediaManage.pas:6454 MusicUtils.pas:685
+#: viewHandlers.js:5100 MediaManage.pas:6460 MusicUtils.pas:685
 #: controls\devicesView.html:24
 msgid "Media Servers"
 msgstr "Medieservere"
@@ -2694,7 +2691,7 @@ msgstr ""
 #. searchView.localListen(LV, 'itemview', uitools.defaultItemAction); // disabled due to #15867
 #. don't save
 #. addFieldPair('publisher', _('Publisher'), FIELD_AUDIO);
-#: viewHandlers.js:6474 controls/searchView.js:219 dialogs/dlgAutotag.js:2249
+#: viewHandlers.js:6474 controls/searchView.js:219 dialogs/dlgAutotag.js:2279
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:153 MaskHelper.pas:3214
 #: UPnPTreeHelper.pas:1887
 msgid "Actors"
@@ -2909,7 +2906,7 @@ msgstr ""
 #. don't save
 #: controls/albumlistView.js:606 controls/sortBy.js:17
 #: controls/trackListView.js:256 controls/serverConfig/server.js:106
-#: dialogs/dlgAutotag.js:2520 dialogs/dlgOptions/pnl_MetadataLookup.js:147
+#: dialogs/dlgAutotag.js:2550 dialogs/dlgOptions/pnl_MetadataLookup.js:147
 #: MaskHelper.pas:3147 MaskHelper.pas:3569 MaskHelper.pas:3870
 #: QueryManage.pas:4910 QueryManage.pas:5049 QueryManage.pas:5050
 #: ResStrings.pas:487 dialogs\dlgTrackProperties\tabBasic.html:140
@@ -3120,7 +3117,7 @@ msgstr ""
 
 #. search link is present only if searching artwork in album a not on web (when searchMissingArtwork is false)
 #. artwork was not loaded - file was already deleted or artwork removed from tag outside MM5, or file with artwork overwritten
-#: controls/artWindow.js:1225 MediaMonkeyApp.pas:8372
+#: controls/artWindow.js:1225 MediaMonkeyApp.pas:8387
 msgid "Artwork not found"
 msgstr ""
 
@@ -3432,11 +3429,11 @@ msgstr "uavspilte episoder"
 #. Try to find an already rendered group header
 #. #17949: Change to "Expand" in the future when it's translated
 #: controls/devicesView.js:154 controls/listview.js:1372
-#: controls/searchView.js:696 controls/treeview.js:87
+#: controls/searchView.js:704 controls/treeview.js:87
 msgid "Show all"
 msgstr ""
 
-#: controls/devicesView.js:156 controls/searchView.js:698
+#: controls/devicesView.js:156 controls/searchView.js:706
 msgid "Show less"
 msgstr ""
 
@@ -3450,7 +3447,7 @@ msgstr "Fortsett alt"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that screen tests are user independent
 #: controls/downloadView.js:79 controls/serverConfig/server.js:114
-#: dialogs/dlgAutotag.js:2614 dialogs/dlgOptions/pnl_MediaServers.js:59
+#: dialogs/dlgAutotag.js:2644 dialogs/dlgOptions/pnl_MediaServers.js:59
 #: helpers/searchCommon.js:112 helpers/searchCommon.js:1126
 #: helpers/searchCommon.js:1159 helpers/searchCommon.js:1205 ResStrings.pas:483
 #: controls\serverConfig\server.html:22
@@ -3487,7 +3484,7 @@ msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. update the download status and path
-#: controls/equalizer.js:24 MediaMonkeyApp.pas:8611 MediaMonkeyApp.pas:8613
+#: controls/equalizer.js:24 MediaMonkeyApp.pas:8626 MediaMonkeyApp.pas:8628
 #: MusicUtils.pas:850 controls\autoConvertConfig.html:11
 msgid "dB"
 msgstr "dB"
@@ -3531,7 +3528,7 @@ msgstr "Format"
 
 #. @ts-ignore
 #. #16568 - item 2
-#: controls/filterEditor.js:116 controls/playlistHeader.js:258
+#: controls/filterEditor.js:116 controls/playlistHeader.js:261
 msgid "Hide editor"
 msgstr ""
 
@@ -3580,15 +3577,15 @@ msgid "Close popup"
 msgstr ""
 
 #. this.closeBtnOnHover = true;
-#: controls/maintabs.js:27
+#: controls/maintabs.js:28
 msgid "Close tab"
 msgstr ""
 
-#: controls/maintabs.js:36
+#: controls/maintabs.js:40
 msgid "Close other tabs"
 msgstr ""
 
-#: controls/maintabs.js:48
+#: controls/maintabs.js:58
 msgid "Close tabs to the right"
 msgstr ""
 
@@ -3621,17 +3618,17 @@ msgid "Sample:"
 msgstr "Utvalg:"
 
 #. Set the node path for the new tab with the contents of the item that was clicked
-#: controls/mediaTree.js:205
+#: controls/mediaTree.js:201
 msgid "Show all subnodes"
 msgstr ""
 
 #. to hide the expand marks for corresponding nodes
-#: controls/mediaTree.js:218
+#: controls/mediaTree.js:214
 msgid "Scroll to match when typing in tree"
 msgstr ""
 
 #. toggle:
-#: controls/mediaTree.js:227
+#: controls/mediaTree.js:223
 msgid "Focus tree nodes when browsing content"
 msgstr ""
 
@@ -3662,7 +3659,7 @@ msgid "Continuously"
 msgstr ""
 
 #. #17177
-#: controls/monitoredFoldersView.js:14 MediaMonkeyApp.pas:9134
+#: controls/monitoredFoldersView.js:14 MediaMonkeyApp.pas:9154
 msgid "Auto detection"
 msgstr ""
 
@@ -3788,7 +3785,7 @@ msgstr ""
 msgid "Seek bar"
 msgstr "Søkeknapp"
 
-#: controls/player.js:208 UpNp.pas:13131
+#: controls/player.js:208 UpNp.pas:13133
 msgid "Internal player"
 msgstr ""
 
@@ -3849,13 +3846,13 @@ msgstr ""
 msgid "Drag and drop or Send tracks to the playlist to populate it."
 msgstr ""
 
-#: controls/playlistHeader.js:105
+#: controls/playlistHeader.js:111
 msgid "Edit in Playlist Panel"
 msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to live update tracks -- is listened e.g. by viewHandlers.tracklistBase.onShow
-#: controls/playlistHeader.js:300 controls/trackListView.js:916
+#: controls/playlistHeader.js:303 controls/trackListView.js:916
 #: dialogs/dlgTrackProperties/tabDetails.js:62 MaskHelper.pas:3187
 #: MaskHelper.pas:3707 MaskHelper.pas:3900 ResStrings.pas:458
 #: dialogs\dlgTrackProperties\tabDetails.html:242
@@ -4017,7 +4014,7 @@ msgstr "Tilfeldig album"
 
 #. set loaded flag
 #. show results immediatelly
-#: controls/searchView.js:597 controls/searchView.js:658
+#: controls/searchView.js:605 controls/searchView.js:666
 msgid "No results found"
 msgstr ""
 
@@ -4199,7 +4196,7 @@ msgstr "Bithastighet"
 msgid "Media"
 msgstr "Media"
 
-#: controls/trackListView.js:645 MP3Utils.pas:4450
+#: controls/trackListView.js:645 MP3Utils.pas:4454
 #: dialogs\dlgTrackProperties\tabCustom.html:107
 msgid "Extended tags"
 msgstr ""
@@ -4271,7 +4268,7 @@ msgstr "Utvidelse"
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:931 dialogs/dlgTrackProperties/tabDetails.js:61
 #: MaskHelper.pas:3161 MaskHelper.pas:3589 MaskHelper.pas:3874
-#: MediaMonkeyApp.pas:6361 QueryManage.pas:5047 QueryManage.pas:5048
+#: MediaMonkeyApp.pas:6376 QueryManage.pas:5047 QueryManage.pas:5048
 #: ResStrings.pas:459 dialogs\dlgTrackProperties\tabDetails.html:234
 msgid "Added"
 msgstr "Lagt til"
@@ -4284,7 +4281,7 @@ msgstr "Original dato"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
-#: controls/trackListView.js:1059 dialogs/dlgAutotag.js:2456
+#: controls/trackListView.js:1059 dialogs/dlgAutotag.js:2486
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:155 MaskHelper.pas:3197
 #: ResStrings.pas:470 ResStrings.pas:528
 #: dialogs\dlgTrackProperties\tabBasic.html:203
@@ -4300,7 +4297,7 @@ msgstr ""
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
-#: controls/trackListView.js:1166 dialogs/dlgAutotag.js:2001
+#: controls/trackListView.js:1166 dialogs/dlgAutotag.js:2031
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:146
 #: dialogs/dlgTrackProperties/tabBasic.js:480 MaskHelper.pas:3866
 #: ResStrings.pas:446 ResStrings.pas:517
@@ -4334,7 +4331,7 @@ msgid "Original Lyricist"
 msgstr "Original låtskriver"
 
 #. don't save
-#: controls/trackListView.js:1255 dialogs/dlgAutotag.js:2387 Covers.pas:777
+#: controls/trackListView.js:1255 dialogs/dlgAutotag.js:2417 Covers.pas:777
 #: MaskHelper.pas:3148 QueryManage.pas:3047 QueryManage.pas:3055
 #: QueryManage.pas:3062 ResStrings.pas:477 ResStrings.pas:531
 msgid "Lyricist"
@@ -4348,7 +4345,7 @@ msgstr "Gruppering"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, summary has own artwork field
-#: controls/trackListView.js:1434 dialogs/dlgAutotag.js:1963
+#: controls/trackListView.js:1434 dialogs/dlgAutotag.js:1993
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:145
 #: dialogs/dlgTrackProperties/tabBasic.js:481
 #: dialogs/dlgTrackProperties/tabBasic.js:498 MaskHelper.pas:3833
@@ -4408,7 +4405,7 @@ msgstr "Skuespiller(e)"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
-#: controls/trackListView.js:1685 dialogs/dlgAutotag.js:2421
+#: controls/trackListView.js:1685 dialogs/dlgAutotag.js:2451
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:154 MaskHelper.pas:3173
 #: MaskHelper.pas:3642 MaskHelper.pas:3886 ResStrings.pas:502
 #: UPnPTreeHelper.pas:1903 dialogs\dlgTrackProperties\tabDetails.html:42
@@ -4613,7 +4610,7 @@ msgstr "MAC-addresse"
 msgid "IP address"
 msgstr "IP-addresse"
 
-#: controls/serverConfig/devices.js:59 UpNp.pas:10363
+#: controls/serverConfig/devices.js:59 UpNp.pas:10365
 msgid "Last access"
 msgstr ""
 
@@ -4801,57 +4798,57 @@ msgstr ""
 msgid "Lookups completed"
 msgstr ""
 
-#: dialogs/dlgAutotag.js:613 dialogs/dlgOptions.js:107
+#: dialogs/dlgAutotag.js:643 dialogs/dlgOptions.js:107
 msgid "Metadata lookup"
 msgstr "Metadata oppslag"
 
-#: dialogs/dlgAutotag.js:613 helpers/autoTagFramework.js:286
+#: dialogs/dlgAutotag.js:643 helpers/autoTagFramework.js:286
 msgid "Fail"
 msgstr ""
 
 #. Dialog was already presented
-#: dialogs/dlgAutotag.js:613 hpCDEBurner.pas:1503
+#: dialogs/dlgAutotag.js:643 hpCDEBurner.pas:1503
 #, fuzzy
 #| msgid "Error"
 msgid "Error code"
 msgstr "Feil"
 
-#: dialogs/dlgAutotag.js:626
+#: dialogs/dlgAutotag.js:656
 msgid "Auto-tag more / faster with"
 msgstr ""
 
-#: dialogs/dlgAutotag.js:642
+#: dialogs/dlgAutotag.js:672
 msgid "Press F5 to re-sort/re-group tracks"
 msgstr ""
 
 #. Old value first, to match behavior of auto-tag
-#: dialogs/dlgAutotag.js:1080 Scripts/caseChecker/dialogs/dlgCaseChecker.js:631
+#: dialogs/dlgAutotag.js:1110 Scripts/caseChecker/dialogs/dlgCaseChecker.js:631
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:760
 msgid "old value"
 msgstr ""
 
-#: dialogs/dlgAutotag.js:1777 dialogs/dlgChooseFields.js:9
+#: dialogs/dlgAutotag.js:1807 dialogs/dlgChooseFields.js:9
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:230
 msgid "Choose fields"
 msgstr "Velg felt"
 
-#: dialogs/dlgAutotag.js:2758
+#: dialogs/dlgAutotag.js:2788
 msgid "track(s) matched"
 msgstr ""
 
-#: dialogs/dlgAutotag.js:2760
+#: dialogs/dlgAutotag.js:2790
 msgid "track(s) failed"
 msgstr ""
 
-#: dialogs/dlgAutotag.js:2786
+#: dialogs/dlgAutotag.js:2816
 msgid "Conflict"
 msgstr ""
 
-#: dialogs/dlgAutotag.js:2787
+#: dialogs/dlgAutotag.js:2817
 msgid "Original value"
 msgstr ""
 
-#: dialogs/dlgAutotag.js:2788 dialogs/dlgTrackProperties/tabCustom.js:161
+#: dialogs/dlgAutotag.js:2818 dialogs/dlgTrackProperties/tabCustom.js:161
 msgid "New value"
 msgstr ""
 
@@ -4860,7 +4857,7 @@ msgid "Tag from filename"
 msgstr ""
 
 #. another thread is preparing the list
-#: dialogs/dlgAutotagFromFilename.js:390 MP3Utils.pas:1266
+#: dialogs/dlgAutotagFromFilename.js:390 MP3Utils.pas:1270
 #: Normalization.pas:1353
 msgid "Preparing list of files"
 msgstr ""
@@ -4906,7 +4903,7 @@ msgid "Icon"
 msgstr "Ikon"
 
 #: dialogs/dlgCollectionOptions.js:383
-#: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 MediaMonkeyApp.pas:7501
+#: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 MediaMonkeyApp.pas:7516
 msgid "not found!"
 msgstr ""
 
@@ -5155,7 +5152,7 @@ msgstr ""
 msgid "YouTube"
 msgstr ""
 
-#: dialogs/dlgMediaProperties.js:191
+#: dialogs/dlgMediaProperties.js:203
 msgid ""
 "Location change is complete and will take effect after MediaMonkey restarts."
 msgstr ""
@@ -5399,8 +5396,8 @@ msgstr ""
 #: dialogs/dlgOGGSettings.js:5 dialogs/dlgOGGSettings.js:56
 #: dialogs/dlgWAVSettings.js:23 dialogs/dlgWAVSettings.js:37
 #: dialogs/dlgWAVSettings.js:51 dialogs/dlgOptions/pnl_LayoutPreview.js:33
-#: helpers/docking.js:349 helpers/docking.js:354 helpers/docking.js:577
-#: MediaMonkeyApp.pas:9083 ResStrings.pas:370
+#: helpers/docking.js:359 helpers/docking.js:364 helpers/docking.js:587
+#: MediaMonkeyApp.pas:9103 ResStrings.pas:370
 msgid "Default"
 msgstr "Standard"
 
@@ -5898,7 +5895,7 @@ msgstr ""
 msgid "Separator"
 msgstr ""
 
-#: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10351
+#: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10353
 #: controls\serverConfig\server.html:5
 msgid "Server name"
 msgstr ""
@@ -6262,7 +6259,7 @@ msgid "tracks"
 msgstr "spor"
 
 #. sources object, this is the list of all sources, addons can add its own source to this list
-#: helpers/autoDJ.js:16 Filters.pas:3441 MediaMonkeyApp.pas:9056
+#: helpers/autoDJ.js:16 Filters.pas:3441 MediaMonkeyApp.pas:9076
 #: ResStrings.pas:420
 msgid "Entire Library"
 msgstr "Hele biblioteket"
@@ -6647,8 +6644,14 @@ msgstr ""
 msgid "Generated by "
 msgstr "Generert av"
 
-#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
-#. export canceled, delete file
+#. @ts-ignore
+#. Use progress to notify user about the current action
+#: Scripts/export/actions_add.js:477 Scripts/export/actions_add.js:495
+#: Scripts/exportPlaylists/actions_add.js:63
+#: Scripts/statistics/dialogs/dlgStatistics.js:610
+msgid "Exporting"
+msgstr ""
+
 #: Scripts/exportPlaylists/actions_add.js:2
 msgid "Export all playlists"
 msgstr ""
@@ -6830,7 +6833,11 @@ msgstr ""
 msgid "Sync root"
 msgstr "Synkroniser"
 
-#: Scripts/vis_milkshake/vis_milkshake.js:254
+#: Scripts/vis_milkshake/vis_milkshake.js:87
+msgid "Milkshake requires Hardware Acceleration to be enabled"
+msgstr ""
+
+#: Scripts/vis_milkshake/vis_milkshake.js:267
 #, fuzzy
 #| msgid "Use presets"
 msgid "Select preset"
@@ -6878,12 +6885,12 @@ msgstr "Alle spillelister"
 msgid "%d files to be tagged"
 msgstr "%d filer å tagge"
 
-#: BaseApp.pas:7467
+#: BaseApp.pas:7469
 msgid "There are background processes running. Terminate them?"
 msgstr ""
 
 #. we don't know parent playlist id yet
-#: BaseMedia.pas:4207 Importers.pas:150 M3Umanage.pas:647 MP3Utils.pas:1599
+#: BaseMedia.pas:4207 Importers.pas:150 M3Umanage.pas:647 MP3Utils.pas:1603
 msgid "Imported Playlists"
 msgstr ""
 
@@ -6903,24 +6910,24 @@ msgstr "kryptert"
 msgid "fps"
 msgstr "fps"
 
-#: BaseMedia.pas:15400
+#: BaseMedia.pas:15404
 msgid "%d database entries to be updated"
 msgstr ""
 
-#: BaseMedia.pas:15786 Filters.pas:2776
+#: BaseMedia.pas:15790 Filters.pas:2776
 msgid "list"
 msgstr ""
 
-#: BaseMedia.pas:16432 Filters.pas:2718 ResStrings.pas:392
+#: BaseMedia.pas:16431 Filters.pas:2718 ResStrings.pas:392
 msgid "albums"
 msgstr "album"
 
-#: BaseMedia.pas:20063
+#: BaseMedia.pas:20062
 msgid "Reorder track(s)"
 msgstr ""
 
 #. for tracks<=current track does copy instead of move
-#: BaseMedia.pas:20071
+#: BaseMedia.pas:20070
 msgid "Reorder/copy track(s)"
 msgstr ""
 
@@ -7109,7 +7116,7 @@ msgstr ""
 #. Get exclusive access to the DB
 #. VACUUM fails with "out of memory" exception on large databases (7 GB, 2.2 million of tracks)
 #: DatabaseManage.pas:953 DatabaseManage.pas:1909 DatabaseManage.pas:1911
-#: DatabaseManage.pas:1917 MP3Utils.pas:4450
+#: DatabaseManage.pas:1917 MP3Utils.pas:4454
 msgid "Checking database structure"
 msgstr ""
 
@@ -7526,7 +7533,7 @@ msgstr ""
 
 #. show the addon's config immediatelly (so that users are aware)
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
-#: Extensions.pas:1039 UpNp.pas:11855
+#: Extensions.pas:1039 UpNp.pas:11857
 msgid "%s was successfully installed."
 msgstr "%s ble installert suksessfullt."
 
@@ -7733,7 +7740,7 @@ msgstr "ABR"
 msgid "Max. bitrate"
 msgstr "Maks. bithastighet"
 
-#: FormatsHandler.pas:3402 FormatsHandler.pas:3641 MediaMonkeyApp.pas:7546
+#: FormatsHandler.pas:3402 FormatsHandler.pas:3641 MediaMonkeyApp.pas:7561
 msgid "MediaMonkey is unable to encode this format."
 msgstr "MediaMonkey klarer ikke å enkode dette formatet."
 
@@ -7958,8 +7965,8 @@ msgid "No configuration"
 msgstr "Ingen konfigurasjon"
 
 #. read data to a temporary buffer
-#: GeneralDecoder.pas:771 GeneralDecoder.pas:775 MediaMonkeyApp.pas:4582
-#: MediaMonkeyApp.pas:4585
+#: GeneralDecoder.pas:771 GeneralDecoder.pas:775 MediaMonkeyApp.pas:4595
+#: MediaMonkeyApp.pas:4598
 msgid "Problem while decoding file %s"
 msgstr "Problem ved dekoding av fil %s"
 
@@ -8170,7 +8177,7 @@ msgid ""
 msgstr ""
 
 #. do not show this message when app is launching.
-#: HTMLWindow.pas:13161
+#: HTMLWindow.pas:13167
 #, fuzzy
 #| msgid ""
 #| "Minimizes to the MicroPlayer if it is enabled (right-click on the System "
@@ -8322,130 +8329,130 @@ msgstr "Spilt #"
 msgid "Skipped#"
 msgstr "Hoppet over #"
 
-#: MediaManage.pas:2914
+#: MediaManage.pas:2915
 msgid "An error occured while moving file %s to %s. Do you want to try again?"
 msgstr "En feil oppstod ved flytting av fil %s til %s. Vil du prøve igjen?"
 
-#: MediaManage.pas:3058
+#: MediaManage.pas:3059
 msgid "Moving file %d of %d (%s)"
 msgstr "Flytter fil %d av %d (%s)"
 
-#: MediaManage.pas:3060
+#: MediaManage.pas:3061
 msgid "Copying file %d of %d (%s)"
 msgstr "Kopierer fil %d av %d (%s)"
 
-#: MediaManage.pas:3220
+#: MediaManage.pas:3221
 msgid "Could not find file %s, it will not be %s."
 msgstr "Kunne ikke finne filen %s, den vil ikke bli %s."
 
-#: MediaManage.pas:3221
+#: MediaManage.pas:3222
 msgid "moved"
 msgstr "flyttet"
 
-#: MediaManage.pas:3221
+#: MediaManage.pas:3222
 msgid "copied"
 msgstr "kopiert"
 
-#: MediaManage.pas:3848
+#: MediaManage.pas:3854
 msgid "Moving file $src$ to $dest$"
 msgstr "Flytter fil $src$ til $dest$"
 
-#: MediaManage.pas:3850
+#: MediaManage.pas:3856
 msgid "Copying file $src$ to $dest$"
 msgstr "Kopierer fil $src$ til $dest$"
 
-#: MediaManage.pas:4069
+#: MediaManage.pas:4075
 msgid "The media '%s' is not inserted."
 msgstr ""
 
-#: MediaManage.pas:4148
+#: MediaManage.pas:4154
 msgid "Cannot rename directory %s to %s."
 msgstr "Kan ikke gi nytt navn for plassering %s til %s."
 
 #. #10283
 #. if we are going to tag a file that is playing, let's do it as quickly as possible
-#: MediaManage.pas:4388 MP3Utils.pas:3816
+#: MediaManage.pas:4394 MP3Utils.pas:3820
 msgid "Tag update failed: %s is inaccessible."
 msgstr ""
 
-#: MediaManage.pas:5630 MediaMonkeyApp.pas:5507
+#: MediaManage.pas:5636 MediaMonkeyApp.pas:5522
 #, fuzzy
 #| msgid "Conversion of file %s failed"
 msgid "Creating folder \"%s\" failed"
 msgstr "Konvertering av fil %s feilet"
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
-#: MediaMonkeyApp.pas:5201
+#: MediaMonkeyApp.pas:5214
 msgid "Deleted %d files from %d"
 msgstr ""
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
-#: MediaMonkeyApp.pas:5259
+#: MediaMonkeyApp.pas:5273
 msgid "Removed %d files from %d"
 msgstr ""
 
-#: MediaMonkeyApp.pas:5510 QueryManage.pas:4305
+#: MediaMonkeyApp.pas:5525 QueryManage.pas:4305
 msgid "is not accessible"
 msgstr "er ikke tilgjengelig"
 
-#: MediaMonkeyApp.pas:6365
+#: MediaMonkeyApp.pas:6380
 msgid "Updated"
 msgstr ""
 
-#: MediaMonkeyApp.pas:6369 QueryManage.pas:5053 QueryManage.pas:5054
+#: MediaMonkeyApp.pas:6384 QueryManage.pas:5053 QueryManage.pas:5054
 msgid "Skipped"
 msgstr ""
 
-#: MediaMonkeyApp.pas:6381
+#: MediaMonkeyApp.pas:6396
 msgid "Scan log"
 msgstr ""
 
-#: MediaMonkeyApp.pas:6382
+#: MediaMonkeyApp.pas:6397
 msgid "Operation"
 msgstr ""
 
-#: MediaMonkeyApp.pas:7345
+#: MediaMonkeyApp.pas:7360
 msgid "Lifetime"
 msgstr "Livstid"
 
-#: MediaMonkeyApp.pas:7385 ResStrings.pas:372
+#: MediaMonkeyApp.pas:7400 ResStrings.pas:372
 msgid "Unregistered"
 msgstr "Uregistrert"
 
-#: MediaMonkeyApp.pas:7387
+#: MediaMonkeyApp.pas:7402
 msgid "Trial version"
 msgstr ""
 
-#: MediaMonkeyApp.pas:7389
+#: MediaMonkeyApp.pas:7404
 msgid "Standard edition"
 msgstr ""
 
 #. #16581
-#: MediaMonkeyApp.pas:7851
+#: MediaMonkeyApp.pas:7866
 msgid "Open tray"
 msgstr "Åpne skuff"
 
-#: MediaMonkeyApp.pas:8611
+#: MediaMonkeyApp.pas:8626
 msgid "Track"
 msgstr "Spor"
 
-#: MediaMonkeyApp.pas:8616 QueryManage.pas:4942
+#: MediaMonkeyApp.pas:8631 QueryManage.pas:4942
 msgid "Leveling"
 msgstr "Utjevning"
 
-#: MediaMonkeyApp.pas:9074
+#: MediaMonkeyApp.pas:9094
 msgid "Edit Properties"
 msgstr "Rediger egenskaper"
 
-#: MediaMonkeyApp.pas:9084
+#: MediaMonkeyApp.pas:9104
 msgid "Clear list & play selected + subsequent"
 msgstr "Tøm liste & spill av valgte + tilhørende"
 
-#: MediaMonkeyApp.pas:9085
+#: MediaMonkeyApp.pas:9105
 msgid "Clear list & play selected only"
 msgstr "Tøm liste & spill av valgte kun"
 
-#: MediaMonkeyApp.pas:9086
+#: MediaMonkeyApp.pas:9106
 msgid "Play selected files only"
 msgstr "Spill av valgte filer kun"
 
@@ -8475,15 +8482,15 @@ msgstr "Fjerner %s tagger %d av %d (%s)"
 msgid "Locate Moved/Missing Files"
 msgstr "Lokaliser flyttede/savnede filer"
 
-#: MP3Utils.pas:463 MP3Utils.pas:2726
+#: MP3Utils.pas:463 MP3Utils.pas:2730
 msgid "Error scanning directory"
 msgstr "Feil ved skanning av direktorat"
 
-#: MP3Utils.pas:463 MP3Utils.pas:2726
+#: MP3Utils.pas:463 MP3Utils.pas:2730
 msgid "This directory is used exclusively for:"
 msgstr "Denne lokasjon er kun brukt for:"
 
-#: MP3Utils.pas:1252
+#: MP3Utils.pas:1256
 msgid ""
 "This assists you in locating files that have been moved to other locations, "
 "and is only available with the Gold version."
@@ -8491,72 +8498,72 @@ msgstr ""
 "Dette gjelper deg ved å finne filer som har blitt flyttet fra andre "
 "lokasjoner og er kun tilgjengelig med Gold versjon."
 
-#: MP3Utils.pas:1292
+#: MP3Utils.pas:1296
 msgid "Scanning for moved files in %s (%d files scanned)."
 msgstr "Skanner etter flyttede filer i %s (%s filer skannet)."
 
 #. There are yet tracks to be found, try the second pass
-#: MP3Utils.pas:1370
+#: MP3Utils.pas:1374
 msgid "Scanning for moved files - 2nd pass (%d of %d files scanned)."
 msgstr "Søker etter flyttede filer - 2. passering (%d av %d filer skannet)."
 
-#: MP3Utils.pas:1464
+#: MP3Utils.pas:1468
 msgid "Updating file %d of %d."
 msgstr "Oppdaterer fil %d av %d."
 
 #. fail of this isn't a reason for terminating scanning
-#: MP3Utils.pas:1703 MP3Utils.pas:2933 MP3Utils.pas:2954
+#: MP3Utils.pas:1707 MP3Utils.pas:2937 MP3Utils.pas:2958
 msgid "Error scanning file"
 msgstr "Feil ved skanning av fil"
 
-#: MP3Utils.pas:1703 MP3Utils.pas:2954
+#: MP3Utils.pas:1707 MP3Utils.pas:2958
 msgid "error occured while scanning"
 msgstr "feil oppstod ved skanning"
 
-#: MP3Utils.pas:1725 MP3Utils.pas:2008
+#: MP3Utils.pas:1729 MP3Utils.pas:2012
 msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Overvåker $FAdd$ of $FTot$ ($Dir$$Str$)"
 
-#: MP3Utils.pas:1725 MP3Utils.pas:2008
+#: MP3Utils.pas:1729 MP3Utils.pas:2012
 #, fuzzy
 #| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Legger til $FAdd$ av $FTot$ ($Dir$$Str$)"
 
-#: MP3Utils.pas:2083
+#: MP3Utils.pas:2087
 msgid "Problem with scanning directory %s."
 msgstr "Problem ved skanning av plassering %s."
 
-#: MP3Utils.pas:2852
+#: MP3Utils.pas:2856
 msgid "file is too short or too small"
 msgstr ""
 
-#: MP3Utils.pas:2933
+#: MP3Utils.pas:2937
 msgid "error while reading file info"
 msgstr "feil ved lesing av filinfo"
 
 #. wrong file format, no neeed for next attempt
-#: MP3Utils.pas:3847
+#: MP3Utils.pas:3851
 msgid "Tag update failed: %s has wrong format."
 msgstr ""
 
 #. No need to check
-#: MP3Utils.pas:3915
+#: MP3Utils.pas:3919
 msgid ""
 "One or more of the selected files are inaccessible and cannot be tagged. "
 "Save artwork to the folder instead."
 msgstr ""
 
-#: MP3Utils.pas:4058 Normalization.pas:2157
+#: MP3Utils.pas:4062 Normalization.pas:2157
 msgid ""
 "The media '%s' is not inserted. It must be inserted to access the file %s"
 msgstr ""
 
-#: MP3Utils.pas:4621
+#: MP3Utils.pas:4625
 msgid "trial"
 msgstr "prøveversjon"
 
-#: MP3Utils.pas:4623
+#: MP3Utils.pas:4627
 msgid "trial-expired"
 msgstr "prøveversjon-utløpt"
 
@@ -8566,11 +8573,11 @@ msgstr "Kalkulerer signaturer..."
 
 #. 401769 = 31.12.2999 23:59:59
 #. 401769 = 31.12.2999 23:59:59
-#: MusicUtils.pas:872 Utils.pas:4503
+#: MusicUtils.pas:872 Utils.pas:4510
 msgid "Today"
 msgstr "Idag"
 
-#: MusicUtils.pas:879 Utils.pas:4510
+#: MusicUtils.pas:879 Utils.pas:4517
 msgid "Yesterday"
 msgstr "Igår"
 
@@ -9423,7 +9430,7 @@ msgstr "Tilgang avvist"
 
 #. #18189 - to advance to next track when screen is dimmed (and player seekbar rendering inactive)
 #. to not show "turned off or inaccessible" message, but just skip to the next file
-#: UpNp.pas:8566 UpNp.pas:9115 UpNp.pas:12902
+#: UpNp.pas:8566 UpNp.pas:9117 UpNp.pas:12904
 msgid "Buffering on"
 msgstr ""
 
@@ -9436,40 +9443,40 @@ msgstr ""
 msgid "Stopping on"
 msgstr ""
 
-#: UpNp.pas:9395
+#: UpNp.pas:9397
 msgid "Multi-zone"
 msgstr ""
 
-#: UpNp.pas:10353
+#: UpNp.pas:10355
 msgid "Manufacturer"
 msgstr "Produsent"
 
-#: UpNp.pas:10355
+#: UpNp.pas:10357
 msgid "Model name"
 msgstr ""
 
-#: UpNp.pas:10357
+#: UpNp.pas:10359
 msgid "Model number"
 msgstr ""
 
-#: UpNp.pas:10359
+#: UpNp.pas:10361
 msgid "Model description"
 msgstr ""
 
-#: UpNp.pas:11345
+#: UpNp.pas:11347
 msgid "The link/URL has not been entered in a valid format"
 msgstr "Linken/URL-en er ikke skrevet i et gyldig format"
 
 #. try again after 1 second as in some environments the router re-configuration (OpenPort) makes temporal issues
-#: UpNp.pas:11368
+#: UpNp.pas:11370
 msgid "The link/URL entered does not point to a media server device"
 msgstr "Linken/URL-en viser ikke til en mediaserverenhet"
 
-#: UpNp.pas:12969
+#: UpNp.pas:12971
 msgid "Playing to %s has failed"
 msgstr ""
 
-#: UpNp.pas:12969
+#: UpNp.pas:12971
 msgid "The format is probably unsupported by the device."
 msgstr ""
 
