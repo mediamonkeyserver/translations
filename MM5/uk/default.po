@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 17:14\n"
+"POT-Creation-Date: 2024-02-16 10:39\n"
 "PO-Revision-Date: 2024-01-29 07:42+0000\n"
 "Last-Translator: Igor Chomko <igorchomko@gmail.com>\n"
 "Language-Team: Ukrainian <http://translations.mediamonkey.com/projects/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.18.2\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
@@ -36,7 +36,7 @@ msgid "Tools"
 msgstr "Інструменти"
 
 #. update interval, smaller interval, bigger CPU load
-#: actions.js:31 controls/player.js:134
+#: actions.js:31 controls/player.js:160
 msgid "Playback"
 msgstr "Відтворити"
 
@@ -49,7 +49,7 @@ msgstr "Редагувати"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepared menu item for library exports implemented by scripts
-#: actions.js:37 actions.js:5719 dialogs\dlgOptions\pnl_Hotkeys.html:21
+#: actions.js:37 actions.js:5853 dialogs\dlgOptions\pnl_Hotkeys.html:21
 msgid "Export"
 msgstr "Експорт"
 
@@ -68,7 +68,7 @@ msgstr "Завантаження"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. @ts-ignore
-#: actions.js:49 templates.js:277 controls/player.js:751
+#: actions.js:49 templates.js:277 controls/player.js:828
 #: controls/trackListView.js:1290 dialogs/dlgAutotag.js:1802
 #: dialogs/dlgTrackProperties.js:30 ResStrings.pas:493
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:10
@@ -83,7 +83,7 @@ msgstr "Історія"
 #. "fake" menu button in flex, so the height is set appropriately (real menu button is positioned absolutely with no impact on automatic header height)
 #. adding not canceled
 #: actions.js:55 controls/nowplayingList.js:308 controls/nowplayingList.js:311
-#: controls/player.js:695 controls/statusbar.js:150 controls/statusbar.js:153
+#: controls/player.js:772 controls/statusbar.js:150 controls/statusbar.js:153
 #: dialogs/dlgOptions.js:39 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:428 maincontent.html:50
@@ -246,7 +246,7 @@ msgstr "Мінімізувати до МікроПрогравача"
 msgid "Toggle"
 msgstr "Перемкнути"
 
-#: actions.js:773 HTMLWindow.pas:13167
+#: actions.js:773 HTMLWindow.pas:13177
 msgid "MicroPlayer"
 msgstr "Мікропрогравач"
 
@@ -275,7 +275,7 @@ msgstr "Інструменти"
 msgid "Full screen"
 msgstr "Повноекранний режим"
 
-#: actions.js:897 controls/player.js:557
+#: actions.js:897 controls/player.js:634
 msgid "Exit fullscreen"
 msgstr "Вийти з повноекранного режиму"
 
@@ -306,7 +306,7 @@ msgstr "Пошук зображення"
 #: actions.js:974 actions.js:2253 actions.js:2608 viewHandlers.js:4305
 #: controls/folderTree.js:37 controls/playlistHeader.js:155
 #: dialogs/dlgPodcastUnsubscribe.js:8 dialogs/dlgPodcastUnsubscribe.js:16
-#: dialogs/dlgPodcastUnsubscribe.js:17 FullPlayer.pas:4849
+#: dialogs/dlgPodcastUnsubscribe.js:17 FullPlayer.pas:4869
 #: controls\serverConfig\devices.html:9
 msgid "Remove"
 msgstr "Вилучити"
@@ -343,7 +343,7 @@ msgstr "Зберегти список відтворення"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16261 - to be the first in the list after creation
 #. #16261 - to be the first in the list after creation
-#: actions.js:1094 actions.js:6926 actions.js:6954
+#: actions.js:1094 actions.js:7065 actions.js:7093
 #: dialogs\dlgSelectPlaylist.html:11
 msgid "New playlist"
 msgstr "Новий список відтворення"
@@ -352,15 +352,15 @@ msgstr "Новий список відтворення"
 #. navigationHandlers['playlist'].navigate(newplaylist); // navigation is intentionally disabled, so that user can D&D tracks from the current view to the new playlist (#12355)
 #. For screen reader support (aria-label for screen readers to read its state)
 #. For screen reader support (aria-label for screen readers to read its state)
-#: actions.js:1119 actions.js:6201 controls/nowplayingList.js:308
-#: controls/player.js:418 controls/player.js:420 controls/player.js:426
-#: controls/player.js:428 controls/player.js:435 controls/player.js:437
+#: actions.js:1119 actions.js:6340 controls/nowplayingList.js:308
+#: controls/player.js:495 controls/player.js:497 controls/player.js:503
+#: controls/player.js:505 controls/player.js:512 controls/player.js:514
 #: controls/statusbar.js:131 controls/statusbar.js:150 dialogs/dlgOptions.js:39
 #: dialogs\dlgOptions\pnl_AutoDJ.html:3
 msgid "Auto-DJ"
 msgstr "Авто-Діджей"
 
-#: actions.js:1137 FullPlayer.pas:5069
+#: actions.js:1137 FullPlayer.pas:5089
 msgid "Remove duplicates"
 msgstr "Видалити дублікати"
 
@@ -370,7 +370,7 @@ msgstr "Видалити дублікати"
 msgid "Save new order"
 msgstr "Зберегти нову послідовність"
 
-#: actions.js:1184
+#: actions.js:1184 dialogs/dlgAutoorganize.js:19
 msgid "Organi&ze files"
 msgstr "Впорядку&вати файли"
 
@@ -438,12 +438,12 @@ msgstr "&Додати/Пересканувати файли у Бібліоте�
 msgid "Open in Explorer"
 msgstr "Відкрити у Провіднику"
 
-#: actions.js:1473 actions.js:1483 actions.js:6855 actions.js:6862
+#: actions.js:1473 actions.js:1483 actions.js:6994 actions.js:7001
 #: dialogs\dlgSelectFolder.html:27
 msgid "New folder"
 msgstr "Нова тека"
 
-#: actions.js:1484 actions.js:6863
+#: actions.js:1484 actions.js:7002
 msgid "New folder name"
 msgstr "Ім'я нової теки"
 
@@ -482,7 +482,7 @@ msgstr "Альбоми"
 #: controls/genreArtists.js:204 controls/searchView.js:8
 #: controls/yearArtists.js:170 controls/yearArtists.js:189
 #: Scripts/deezer/viewHandlers_add.js:3
-#: Scripts/statistics/dialogs/dlgStatistics.js:173 UpNp.pas:6429 UpNp.pas:6434
+#: Scripts/statistics/dialogs/dlgStatistics.js:173 UpNp.pas:6403 UpNp.pas:6408
 #: UPnPTreeHelper.pas:1885 UPnPTreeHelper.pas:1886 controls\homeView.html:7
 msgid "Artists"
 msgstr "Виконавці"
@@ -516,7 +516,7 @@ msgstr "Закріплено"
 #. width: 24, // defined by icon style, this would soemtimes cause #20508
 #: actions.js:1575 templates.js:1266 templates.js:1310 templates.js:1348
 #: uitools.js:1380 uitools.js:2469 viewHandlers.js:6299
-#: controls/downloadView.js:109 controls/player.js:628
+#: controls/downloadView.js:109 controls/player.js:705
 #: controls/searchEditor.js:878 controls/trackListView.js:104
 #: dialogs/dlgAutotag.js:2069 dialogs/dlgDeletedTracks.js:85
 #: dialogs/dlgOptions/pnl_Layouts.js:162
@@ -537,7 +537,7 @@ msgstr "Назва"
 #: actions.js:1593 templates.js:1280 templates.js:1328 templates.js:1359
 #: uitools.js:1404 viewHandlers.js:8487 controls/albumlistView.js:602
 #: controls/albumViewHeader.js:102 controls/albumViewHeader.js:104
-#: controls/downloadView.js:118 controls/player.js:645 controls/sortBy.js:10
+#: controls/downloadView.js:118 controls/player.js:722 controls/sortBy.js:10
 #: controls/trackListView.js:179 dialogs/dlgArtworkDetail.js:12
 #: dialogs/dlgAutotag.js:2163 dialogs/dlgEditView.js:21
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:144
@@ -547,7 +547,7 @@ msgstr "Назва"
 #: layouts/Touch/templates_add.js:33
 #: Scripts/statistics/dialogs/dlgStatistics.js:405
 #: Scripts/statistics/dialogs/dlgStatistics.js:436 Devices.pas:2068
-#: MaskHelper.pas:3128 MediaMonkeyApp.pas:8628 QueryManage.pas:3045
+#: MaskHelper.pas:3128 MediaMonkeyApp.pas:8632 QueryManage.pas:3045
 #: QueryManage.pas:3053 QueryManage.pas:3060 ResStrings.pas:423
 #: ResStrings.pas:436 ResStrings.pas:513
 #: dialogs\dlgTrackProperties\tabBasic.html:93
@@ -559,7 +559,7 @@ msgstr "Альбом"
 #: actions.js:1611 templates.js:1273 templates.js:1320 templates.js:1353
 #: uitools.js:1432 viewHandlers.js:8574 controls/artistViewHeader.js:59
 #: controls/artistViewHeader.js:61 controls/downloadView.js:127
-#: controls/player.js:635 controls/trackListView.js:155
+#: controls/player.js:712 controls/trackListView.js:155
 #: dialogs/dlgAutotag.js:2127 dialogs/dlgDeletedTracks.js:94
 #: dialogs/dlgMovedFiles.js:113 dialogs/dlgMovedFiles.js:166
 #: dialogs/dlgMovedFiles.js:219 dialogs/dlgOptions/pnl_MetadataLookup.js:143
@@ -579,8 +579,8 @@ msgstr "Виконавець"
 #: actions.js:1629 uitools.js:1462 controls/albumlistView.js:609
 #: controls/sortBy.js:24 controls/trackListView.js:787
 #: dialogs/dlgArtworkDetail.js:13 dialogs/dlgAutotag.js:2206
-#: MaskHelper.pas:3127 ResStrings.pas:437 ResStrings.pas:512 UpNp.pas:6119
-#: UpNp.pas:6120
+#: MaskHelper.pas:3127 ResStrings.pas:437 ResStrings.pas:512 UpNp.pas:6093
+#: UpNp.pas:6094
 msgid "Album Artist"
 msgstr "Виконавець Альбому"
 
@@ -593,7 +593,7 @@ msgstr "Композитор"
 
 #. to show full value like 6.245689785 (and not '6.25 dB' via utils.formatNormalization)
 #: actions.js:1665 controls/trackListView.js:1148 Covers.pas:774
-#: MaskHelper.pas:3132 MaskHelper.pas:3559 MaskHelper.pas:3868
+#: MaskHelper.pas:3132 MaskHelper.pas:3559 MaskHelper.pas:3873
 #: ResStrings.pas:489
 msgid "Conductor"
 msgstr "Диригент"
@@ -601,14 +601,14 @@ msgstr "Диригент"
 #. this field should not be used for whole album, specific for each track
 #. don't save
 #: actions.js:1683 controls/trackListView.js:1578 dialogs/dlgAutotag.js:2383
-#: MaskHelper.pas:3165 MaskHelper.pas:3605 MaskHelper.pas:3877
+#: MaskHelper.pas:3165 MaskHelper.pas:3605 MaskHelper.pas:3882
 #: QueryManage.pas:4961 ResStrings.pas:504
 msgid "Producer"
 msgstr "Продюсер"
 
 #. online mode only for online source track
 #: actions.js:1701 uitools.js:1510 MaskHelper.pas:3169 MaskHelper.pas:3627
-#: MaskHelper.pas:3883
+#: MaskHelper.pas:3888
 msgid "Actor"
 msgstr "Актор"
 
@@ -624,7 +624,7 @@ msgstr "Видавець"
 #. don't save
 #: actions.js:1737 uitools.js:1430 controls/trackListView.js:1596
 #: dialogs/dlgAutotag.js:2348 dialogs/dlgOptions/pnl_MetadataLookup.js:150
-#: MaskHelper.pas:3166 MaskHelper.pas:3610 MaskHelper.pas:3878
+#: MaskHelper.pas:3166 MaskHelper.pas:3610 MaskHelper.pas:3883
 #: QueryManage.pas:1879 QueryManage.pas:3046 QueryManage.pas:3061
 #: ResStrings.pas:505
 msgid "Director"
@@ -641,8 +641,8 @@ msgstr "Режисер"
 #: Scripts/musicBrainz/helpers/genreDataSource.js:25
 #: Scripts/statistics/dialogs/dlgStatistics.js:466
 #: Scripts/statistics/dialogs/dlgStatistics.js:493 MaskHelper.pas:3129
-#: ResStrings.pas:426 ResStrings.pas:442 ResStrings.pas:515 UpNp.pas:6427
-#: UpNp.pas:6440
+#: ResStrings.pas:426 ResStrings.pas:442 ResStrings.pas:515 UpNp.pas:6401
+#: UpNp.pas:6414
 msgid "Genre"
 msgstr "Жанр"
 
@@ -660,7 +660,7 @@ msgstr "Рік"
 #. this field should not be used for whole album, specific for each track
 #: actions.js:1791 actions.js:1809 actions.js:1827 uitools.js:1590
 #: uitools.js:1605 uitools.js:1620 controls/trackListView.js:223
-#: MaskHelper.pas:3135 MediaMonkeyApp.pas:7516 ResStrings.pas:539
+#: MaskHelper.pas:3135 MediaMonkeyApp.pas:7520 ResStrings.pas:539
 msgid "Folder"
 msgstr "Тека"
 
@@ -673,7 +673,7 @@ msgstr "Бібліотека"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not process updateValues() when just setting up the source
 #. The first line will show 'All' items
-#: actions.js:1809 actions.js:3390 uitools.js:1605 viewHandlers.js:8258
+#: actions.js:1809 actions.js:3522 uitools.js:1605 viewHandlers.js:8258
 #: controls/buttons.js:428 controls/deviceContentSequencer.js:17
 #: controls/tracklistFilter.js:676 controls/deviceConfig/syncToDevice.js:312
 #: controls/deviceConfig/syncToDevice.js:314 dialogs/dlgExtensions.js:39
@@ -779,8 +779,9 @@ msgstr "Це створить резервну копію поточної ба�
 
 #: actions.js:2123 actions.js:2155 actions.js:2191 actions.js:2573
 #: uitools.js:2542 dialogs/dlgOptions/pnl_MediaTree.js:206
+#: dialogs/dlgTrackProperties/tabArtwork.js:184
 #: Scripts/autoIncTrack/actions_add.js:23
-#: Scripts/syncToFolder/viewHandlers_add.js:7
+#: Scripts/syncToFolder/viewHandlers_add.js:7 UpNp.pas:1956
 msgid "Do you want to proceed?"
 msgstr "Бажаєте продовжити?"
 
@@ -882,7 +883,7 @@ msgstr "Вий&ти"
 
 #. window.closeWindow();
 #. msg = msg + _('Error') + ': ' + err + '<br><br>';
-#: actions.js:2414 actions.js:2598 actions.js:4775
+#: actions.js:2414 actions.js:2598 actions.js:4907
 msgid "&Properties"
 msgstr "&Властивості"
 
@@ -936,7 +937,7 @@ msgid "If a media server isn't found automatically, you can add one manually."
 msgstr ""
 "Якщо мультимедійний сервер не знайдено автоматично, його можна додати вручну."
 
-#: actions.js:2538 UpNp.pas:10363 controls\devicesView.html:36
+#: actions.js:2538 UpNp.pas:10337 controls\devicesView.html:36
 msgid "Device Description file path:"
 msgstr "Шлях до файлу Опису Пристрою:"
 
@@ -950,7 +951,7 @@ msgstr "%s поза досяжністю"
 
 #: actions.js:2556 dialogs/dlgAutotag.js:643 Extensions.pas:900
 #: Extensions.pas:911 Extensions.pas:915 Extensions.pas:963 Extensions.pas:1044
-#: Extensions.pas:1073 ResStrings.pas:579 UI.pas:1395
+#: Extensions.pas:1073 ResStrings.pas:579 SQLiteDB.pas:646 UI.pas:1395
 msgid "Error"
 msgstr "Помилка"
 
@@ -1071,7 +1072,7 @@ msgstr "Автоматично надсилати журнали збоїв"
 #. this is DLNA link to lyrics file, load it
 #: actions.js:2821 viewHandlers.js:2490 viewHandlers.js:4497
 #: controls/mainTabContent.js:252 controls/trackListView.js:1093
-#: BaseMedia.pas:15790 BaseMedia.pas:16431 Filters.pas:2718 Filters.pas:2776
+#: BaseMedia.pas:15790 BaseMedia.pas:16431 Filters.pas:2729 Filters.pas:2787
 #: PodcastManage.pas:937
 msgid "Loading"
 msgstr "Завантаження"
@@ -1080,29 +1081,36 @@ msgstr "Завантаження"
 msgid "E&qualizer"
 msgstr "Е&квалайзер"
 
-#: actions.js:2867
+#: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
+#: dialogs\dlgSpeedPitch.html:13
+#, fuzzy
+#| msgid "Adjust video"
+msgid "Adjust speed"
+msgstr "Налаштувати відео"
+
+#: actions.js:2999
 msgid "&Rip Audio CD"
 msgstr "&Видобути з аудіо компакт-диску"
 
 #. to break the loop (#19401)
-#: actions.js:2915 CDUtils.pas:794 ResStrings.pas:371
+#: actions.js:3047 CDUtils.pas:794 ResStrings.pas:371
 msgid "Audio CD"
 msgstr "Аудіо CD"
 
-#: actions.js:2915 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:38
+#: actions.js:3047 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:38
 msgid "Burn"
 msgstr "Записати"
 
-#: actions.js:2936 dialogs/dlgCDDBResult.js:8
+#: actions.js:3068 dialogs/dlgCDDBResult.js:8
 msgid "Lookup Audio CD metadata"
 msgstr "Пошук метаданих аудіо компакт-дисків"
 
 #. = check all drives
-#: actions.js:2951
+#: actions.js:3083
 msgid "Eject"
 msgstr "Витягти"
 
-#: actions.js:2963
+#: actions.js:3095
 msgid "&Options"
 msgstr "&Налаштування"
 
@@ -1110,113 +1118,113 @@ msgstr "&Налаштування"
 #. it is our own version, saving using app.setValue
 #. prepare menu items for 'Playing' list
 #. checkable: true,
-#: actions.js:2975 controls/artWindow.js:784 controls/artWindow.js:793
-#: controls/player.js:992 controls/playingListContainer.js:103
+#: actions.js:3107 controls/artWindow.js:784 controls/artWindow.js:793
+#: controls/player.js:1071 controls/playingListContainer.js:103
 #: controls/playingListContainer.js:199 dialogs/dlgOptions.js:66
 #: Extensions.pas:1596
 msgid "Layout"
 msgstr "Структура"
 
-#: actions.js:2987 dialogs/dlgExtensions.js:10
+#: actions.js:3119 dialogs/dlgExtensions.js:10
 msgid "Addons"
 msgstr "Додатки"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare object for menu generation functions
-#: actions.js:2999 actions.js:3013 actions.js:3016 actions.js:3030
-#: actions.js:3033 actions.js:6084 controls/trackListView.js:1883
-#: MediaMonkeyApp.pas:9091 dialogs\dlgOptions\pnl_OSIntegration.html:8
+#: actions.js:3131 actions.js:3145 actions.js:3148 actions.js:3162
+#: actions.js:3165 actions.js:6218 controls/trackListView.js:1883
+#: MediaMonkeyApp.pas:9095 dialogs\dlgOptions\pnl_OSIntegration.html:8
 msgid "Play now"
 msgstr "Відтворити зараз"
 
-#: actions.js:3016 actions.js:3078 actions.js:3126 actions.js:6084
-#: actions.js:6096 actions.js:6111 actions.js:6126
+#: actions.js:3148 actions.js:3210 actions.js:3258 actions.js:6218
+#: actions.js:6230 actions.js:6245 actions.js:6260
 #: controls/trackListView.js:1883 controls/trackListView.js:1895
 #: controls/trackListView.js:1910 controls/trackListView.js:1925
 msgid "shuffled"
 msgstr "перетасоване"
 
-#: actions.js:3033 actions.js:3095 actions.js:3143
+#: actions.js:3165 actions.js:3227 actions.js:3275
 msgid "shuffled by Album"
 msgstr "перетасовано за Альбомом"
 
-#: actions.js:3047 actions.js:6111 controls/trackListView.js:1910
+#: actions.js:3179 actions.js:6245 controls/trackListView.js:1910
 msgid "Queue mixed"
 msgstr "Змішана черга"
 
-#: actions.js:3061 actions.js:3075 actions.js:3078 actions.js:3092
-#: actions.js:3095 actions.js:6096 controls/trackListView.js:1895
-#: MediaMonkeyApp.pas:9092 dialogs\dlgOptions\pnl_OSIntegration.html:9
+#: actions.js:3193 actions.js:3207 actions.js:3210 actions.js:3224
+#: actions.js:3227 actions.js:6230 controls/trackListView.js:1895
+#: MediaMonkeyApp.pas:9096 dialogs\dlgOptions\pnl_OSIntegration.html:9
 msgid "Queue next"
 msgstr "Наступним у черзі"
 
-#: actions.js:3109 actions.js:3123 actions.js:3126 actions.js:3140
-#: actions.js:3143 actions.js:6126 controls/trackListView.js:1925
-#: MediaMonkeyApp.pas:9093 dialogs\dlgOptions\pnl_OSIntegration.html:10
+#: actions.js:3241 actions.js:3255 actions.js:3258 actions.js:3272
+#: actions.js:3275 actions.js:6260 controls/trackListView.js:1925
+#: MediaMonkeyApp.pas:9097 dialogs\dlgOptions\pnl_OSIntegration.html:10
 msgid "Queue last"
 msgstr "Останнім в черзі"
 
-#: actions.js:3157 controls/player.js:147 FileAssoc.pas:740
+#: actions.js:3289 controls/player.js:173 FileAssoc.pas:740
 msgid "Play"
 msgstr "Відтворити"
 
 #. force display, if playing to external player
-#: actions.js:3174 controls/downloadView.js:43 controls/player.js:238
+#: actions.js:3306 controls/downloadView.js:43 controls/player.js:268
 msgid "Pause"
 msgstr "Пауза"
 
-#: actions.js:3191 Win7ToolsImpl.pas:1900
+#: actions.js:3323 Win7ToolsImpl.pas:1900
 msgid "Play/Pause"
 msgstr "Запуск/Пауза"
 
-#: actions.js:3205 Win7ToolsImpl.pas:1901
+#: actions.js:3337 Win7ToolsImpl.pas:1901
 msgid "Stop"
 msgstr "Стоп"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. stop should be active even if playback is paused
-#: actions.js:3219 actions.js:3223 actions.js:3350 controls/baseVis.js:126
-#: controls/player.js:307 controls/player.js:317 controls/player.js:334
-#: controls/player.js:385 controls/player.js:394 controls/player.js:405
-#: controls/player.js:420 controls/player.js:428 controls/player.js:437
+#: actions.js:3351 actions.js:3355 actions.js:3482 controls/baseVis.js:126
+#: controls/player.js:341 controls/player.js:351 controls/player.js:368
+#: controls/player.js:419 controls/player.js:428 controls/player.js:439
+#: controls/player.js:497 controls/player.js:505 controls/player.js:514
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:9
 msgid "Off"
 msgstr "Вимкнуто"
 
 #. stop should be active even if playback is paused
-#: actions.js:3223 actions.js:3244 actions.js:3267 actions.js:3287
+#: actions.js:3355 actions.js:3376 actions.js:3399 actions.js:3419
 msgid "Stop after"
 msgstr "Зупинити після"
 
-#: actions.js:3241 actions.js:3244
+#: actions.js:3373 actions.js:3376
 msgid "Current file"
 msgstr "Поточний файл"
 
 #. stop should be active even if playback is paused
-#: actions.js:3264 actions.js:3267
+#: actions.js:3396 actions.js:3399
 msgid "Every file"
 msgstr "Кожен файл"
 
-#: actions.js:3299
+#: actions.js:3431
 msgid "Crossfade"
 msgstr "Перехресне затухання"
 
 #. For screen reader support (aria-label for screen readers to read its state)
-#: actions.js:3317 controls/player.js:305 controls/player.js:307
-#: controls/player.js:315 controls/player.js:317
+#: actions.js:3449 controls/player.js:339 controls/player.js:341
+#: controls/player.js:349 controls/player.js:351
 msgid "Shuffle"
 msgstr "Перемішати"
 
 #. was changed or canceled, not shuffle already
-#: actions.js:3337 FullPlayer.pas:4962
+#: actions.js:3469 FullPlayer.pas:4982
 msgid "Randomize list"
 msgstr "Випадковий список"
 
-#: actions.js:3338
+#: actions.js:3470
 msgid "Shuffle disabled. Reverting to unshuffled list."
 msgstr "Перетасування вимкнено. Повернення до не перетасованого списку."
 
-#: actions.js:3342
+#: actions.js:3474
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
@@ -1225,88 +1233,88 @@ msgstr ""
 "редагування - скористайтеся кнопкою \"Відновити\", щоб відновити зміни у "
 "списку \"Відтворення\"."
 
-#: actions.js:3354
+#: actions.js:3486
 msgid "Repeat off"
 msgstr "Вимкнути повторення"
 
-#: actions.js:3370
+#: actions.js:3502
 msgid "One"
 msgstr "Одна"
 
 #. Screen reader support
-#: actions.js:3374 controls/player.js:330 controls/player.js:365
+#: actions.js:3506 controls/player.js:364 controls/player.js:399
 msgid "Repeat one"
 msgstr "Повторити одну"
 
-#: actions.js:3394 controls/player.js:332 controls/player.js:367
+#: actions.js:3526 controls/player.js:366 controls/player.js:401
 msgid "Repeat all"
 msgstr "Повторити все"
 
-#: actions.js:3410 controls/player.js:334 controls/player.js:369
+#: actions.js:3542 controls/player.js:368 controls/player.js:403
 msgid "Repeat"
 msgstr "Повторити"
 
-#: actions.js:3422
+#: actions.js:3554
 msgid "Level playback volume"
 msgstr "Вирівняти гучність відтворення"
 
 #. #17191
-#: actions.js:3439 Win7ToolsImpl.pas:1902
+#: actions.js:3571 Win7ToolsImpl.pas:1902
 msgid "Next file"
 msgstr "Наступний файл"
 
-#: actions.js:3453 Win7ToolsImpl.pas:1899
+#: actions.js:3585 Win7ToolsImpl.pas:1899
 msgid "Previous file"
 msgstr "Попередній файл"
 
-#: actions.js:3467
+#: actions.js:3599
 msgid "Volume up"
 msgstr "Збільшити гучність"
 
-#: actions.js:3481
+#: actions.js:3613
 msgid "Volume down"
 msgstr "Зменшити гучність"
 
-#: actions.js:3495
+#: actions.js:3627
 msgid "Skip 5 seconds backward"
 msgstr "Пропустити 5 секунд назад"
 
-#: actions.js:3510
+#: actions.js:3642
 msgid "Skip 5 seconds forward"
 msgstr "Пропустити 5 секунд вперед"
 
-#: actions.js:3525
+#: actions.js:3657
 msgid "S&leep"
 msgstr "Режим с&ну"
 
-#: actions.js:3539
+#: actions.js:3671 dialogs/dlgAutotagFromFilename.js:84
 msgid "&Tag from filename"
 msgstr "&Теґ з імені файлу"
 
 #. whenLoaded promise is awaited directly in the dialog
-#: actions.js:3563
+#: actions.js:3695
 msgid "&Auto-tag"
 msgstr "&Автотеґування"
 
-#: actions.js:3596
+#: actions.js:3728
 msgid "Configure current &output plug-in"
 msgstr "Конфігурувати поточний плагін &виходу"
 
-#: actions.js:3608
+#: actions.js:3740
 msgid "Configure current &input plug-in"
 msgstr "Конфігурувати поточний додаток &входу"
 
-#: actions.js:3620 dialogs/dlgWizard.js:18
+#: actions.js:3752 dialogs/dlgWizard.js:18
 msgid "Share media"
 msgstr "Спільний доступ до медіафайлів"
 
-#: actions.js:3632
+#: actions.js:3764
 msgid "Configure Collections and nodes"
 msgstr "Кофігурувати Колекції та вузли"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode',
-#: actions.js:3644 controls/playingListContainer.js:115
+#: actions.js:3776 controls/playingListContainer.js:115
 #: controls/searchBar.js:572 dialogs/dlgOptions.js:149
 #: Scripts/vis_milkshake/vis_milkshake.js:89
 #: controls\serverConfig\devices.html:9
@@ -1315,37 +1323,38 @@ msgstr "Налаштування"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. @ts-ignore
-#: actions.js:3644 actions.js:4299 controls/player.js:72 controls/player.js:992
-#: dialogs/dlgOptions.js:32 dialogs/dlgOptions.js:70 maincontent.html:62
+#: actions.js:3776 actions.js:4431 controls/player.js:77
+#: controls/player.js:1071 dialogs/dlgOptions.js:32 dialogs/dlgOptions.js:70
+#: maincontent.html:62
 msgid "Player"
 msgstr "Програвач"
 
-#: actions.js:3656 controls/player.js:198
+#: actions.js:3788 controls/player.js:228
 #: dialogs\dlgOptions\pnl_Streaming.html:3
 msgid "Play to"
 msgstr "Відтворювати до"
 
-#: actions.js:3665
+#: actions.js:3797
 msgid "Select all"
 msgstr "Вибрати все"
 
 #. and set focus (#13206 - item 4)
-#: actions.js:3699
+#: actions.js:3831
 msgid "Focus tracklist on currently playing item"
 msgstr "Зосередити список доріжок на поточному відтворюваному елементі"
 
 #. and set focus (#13206 - item 4)
-#: actions.js:3734
+#: actions.js:3866
 msgid "Cancel selection"
 msgstr "Скасувати вибір"
 
 #. janky way of setting "new tab" label (No collections or nodes have the "add" icon by default)
-#: actions.js:3760 controls/tabs.js:258
+#: actions.js:3892 controls/tabs.js:258
 msgid "New tab"
 msgstr "Нова вкладка"
 
-#: actions.js:3775 actions.js:3805 actions.js:6910 actions.js:6940
-#: actions.js:6954
+#: actions.js:3907 actions.js:3937 actions.js:7049 actions.js:7079
+#: actions.js:7093
 msgid "Send to"
 msgstr "Надіслати до"
 
@@ -1353,66 +1362,66 @@ msgstr "Надіслати до"
 #. root items insert directly to presetColumns, so we will not need to move them here later
 #. to hide the filter on view switch
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: actions.js:3792 controls/columntracklist.js:283 controls/filterEditor.js:124
+#: actions.js:3924 controls/columntracklist.js:283 controls/filterEditor.js:124
 #: controls/tracklistFilter.js:450
 msgid "Recently used"
 msgstr "Нещодавно використане"
 
-#: actions.js:3841
+#: actions.js:3973
 msgid "sync"
 msgstr "синхронізація"
 
-#: actions.js:3866
+#: actions.js:3998
 msgid "Folder (&Move)"
 msgstr "Тека (&Перемістити)"
 
-#: actions.js:3875
+#: actions.js:4007
 msgid "Folder (&Copy)"
 msgstr "Тека (&Копія)"
 
-#: actions.js:3884
+#: actions.js:4016
 msgid "Folder (Rip/Con&vert)"
 msgstr "Тека (Копіювати/Пере&творити)"
 
 #. online mode only for online source track
-#: actions.js:3898 uitools.js:1576 helpers/autoDJ.js:25 Devices.pas:2058
+#: actions.js:4030 uitools.js:1576 helpers/autoDJ.js:25 Devices.pas:2058
 #: Devices.pas:13538 Devices.pas:15981 FormatsManage.pas:5536
 #: FormatsManage.pas:5568 FormatsManage.pas:5578 MaskHelper.pas:3125
 #: QueryManage.pas:4802 ResStrings.pas:538
 msgid "Playlist"
 msgstr "Список відтворення"
 
-#: actions.js:3907
+#: actions.js:4039
 msgid "M3U/XSPF playlist"
 msgstr "Список відтворення M3U/XSPF"
 
 #. if not uninstalled
-#: actions.js:3920
+#: actions.js:4052
 msgid "Report"
 msgstr "Звіт"
 
-#: actions.js:3920 Scripts/export/actions_add.js:391
+#: actions.js:4052 Scripts/export/actions_add.js:391
 msgid "File list"
 msgstr "Список файлів"
 
 #. @ts-ignore
-#: actions.js:3940
+#: actions.js:4072
 msgid "E-Mail"
 msgstr "Ел.пошта"
 
-#: actions.js:3963
+#: actions.js:4095
 msgid "Find &more from same"
 msgstr "Знайти &більше від того самого"
 
-#: actions.js:3976
+#: actions.js:4108
 msgid "Anal&yze volume"
 msgstr "Анал&ізувати гучність"
 
-#: actions.js:3997
+#: actions.js:4129
 msgid "&Level Track volume"
 msgstr "&Вирівняти гучність Доріжки"
 
-#: actions.js:4005
+#: actions.js:4137
 msgid ""
 "Leveling Track volume irreversibly modifies the track. Are you sure you want "
 "to level the volume of the selected Tracks?"
@@ -1421,50 +1430,50 @@ msgstr ""
 "бажаєте вирівняти гучність обраних Доріжок?"
 
 #. @ts-ignore
-#: actions.js:4029
+#: actions.js:4161
 msgid "Analyze waveform"
 msgstr "Аналіз форми сигналу"
 
-#: actions.js:4047
+#: actions.js:4179
 msgid "Display only selected folder's content"
 msgstr "Показувати лише вміст вибраної теки"
 
-#: actions.js:4047
+#: actions.js:4179
 msgid "Display folder content recursively"
 msgstr "Показувати вміст теки рекурсивно"
 
-#: actions.js:4069
+#: actions.js:4201
 msgid "View filter"
 msgstr "Показати фільтр"
 
 #. "Any text"
-#: actions.js:4114 QueryManage.pas:2862 QueryManage.pas:2866 ResStrings.pas:544
+#: actions.js:4246 QueryManage.pas:2862 QueryManage.pas:2866 ResStrings.pas:544
 msgid "contains"
 msgstr "містить"
 
 #. radiogroup: 'search_mode',
-#: actions.js:4176 controls/searchBar.js:555
+#: actions.js:4308 controls/searchBar.js:555
 msgid "Advanced search"
 msgstr "Розширений пошук"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that it is right most to the includeSubfolders action (with iconPriority 10)
-#: actions.js:4198 actions.js:4237 controls\mainTabContent.html:3
+#: actions.js:4330 actions.js:4369 controls\mainTabContent.html:3
 msgid "Left panel"
 msgstr "Ліва панель"
 
-#: actions.js:4251 controls\mainTabContent.html:4
+#: actions.js:4383 controls\mainTabContent.html:4
 msgid "Media Tree"
 msgstr "Медіа Дерево"
 
-#: actions.js:4336 actions.js:4365 maincontent.html:49
+#: actions.js:4468 actions.js:4497 maincontent.html:49
 msgid "Right panel"
 msgstr "Права панель"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. became visible, update
 #. dont save sync, it will be saved async
-#: actions.js:4379 templates.js:583 controls/lyricsWindow.js:79
+#: actions.js:4511 templates.js:583 controls/lyricsWindow.js:79
 #: controls/nowplayingview.js:29 controls/trackListView.js:1086
 #: dialogs/dlgAutotag.js:2521 dialogs/dlgOptions.js:74
 #: dialogs/dlgTrackProperties.js:26
@@ -1477,7 +1486,7 @@ msgstr "Текст пісні"
 #. it is a list
 #. we want to always save lyrics when clicked manually by user
 #. swap the selected part and order part for X seconds per suggestion in #19285
-#: actions.js:4423 viewHandlers.js:7872 controls/artWindow.js:1756
+#: actions.js:4555 viewHandlers.js:7872 controls/artWindow.js:1756
 #: controls/nowplayingList.js:250 controls/playingListContainer.js:115
 #: controls/statusbar.js:131 controls/statusbar.js:134
 #: dialogs/dlgEditView.js:609
@@ -1489,7 +1498,7 @@ msgstr "Відтворення"
 #. to load the new image thumb
 #. to show "[Deezer Preview]" text on player (#17288)
 #. to show "[Spotify Preview]" text on player (#17288)
-#: actions.js:4466 controls/artWindow.js:585 dialogs/dlgOptions.js:74
+#: actions.js:4598 controls/artWindow.js:585 dialogs/dlgOptions.js:74
 #: dialogs/dlgOptions/pnl_Layouts.js:360
 #: Scripts/deezer/helpers/cloudServices_add.js:412
 #: Scripts/spotify/helpers/cloudServices_add.js:362 maincontent.html:53
@@ -1497,285 +1506,286 @@ msgid "Preview"
 msgstr "Попередній перегляд"
 
 #. was visible only for displaying visualization or video
-#: actions.js:4516 Extensions.pas:1589 Extensions.pas:1590 Extensions.pas:1591
+#: actions.js:4648 Extensions.pas:1589 Extensions.pas:1590 Extensions.pas:1591
 #: Extensions.pas:1592
 msgid "&Visualization"
 msgstr "&Візуалізація"
 
-#: actions.js:4572
+#: actions.js:4704
 msgid "Refresh"
 msgstr "Оновити"
 
 #. @ts-ignore
-#: actions.js:4593 dialogs/dlgOptions.js:16
+#: actions.js:4725 dialogs/dlgOptions.js:16
 msgid "Party Mode"
 msgstr "Режим Вечірки"
 
 #. is listened e.g. by Player component to update player controls disabled state
-#: actions.js:4651
+#: actions.js:4783
 msgid "&Clear"
 msgstr "&Очистити"
 
-#: actions.js:4662
+#: actions.js:4794
 msgid "Clea&n (remove inaccessible)"
 msgstr "Очисти&ти (вилучити недоступні)"
 
-#: actions.js:4673
+#: actions.js:4805
 msgid "Remove &duplicates"
 msgstr "Вилучити &дублікати"
 
-#: actions.js:4684
+#: actions.js:4816
 msgid "&Randomize list"
 msgstr "&Випадковий список"
 
-#: actions.js:4695 FullPlayer.pas:4903
+#: actions.js:4827 FullPlayer.pas:4923
 msgid "Reverse list"
 msgstr "Зворотний список"
 
 #. Label for screen readers ("Undo" is not translated, only "&Undo")
-#: actions.js:4706 controls/navigationBar.js:302
+#: actions.js:4838 controls/navigationBar.js:302
 msgid "&Undo"
 msgstr "&Відмінити"
 
 #. just to get it on the top of the MRU list
 #. to init the menu
-#: actions.js:4732 controls/filterEditor.js:93 controls/navigationBar.js:344
+#: actions.js:4864 controls/filterEditor.js:93 controls/navigationBar.js:344
 msgid "Clear history"
 msgstr "Очистити історію"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
-#: actions.js:4746 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
+#: actions.js:4878 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
 msgid "&Redo"
 msgstr "&Повторити"
 
 #. open edit properties dialog
-#: actions.js:4806
+#: actions.js:4938
 msgid "Previous view"
 msgstr "Попередній вигляд"
 
 #. forward is added here via redoNavbarButton script
-#: actions.js:4825
+#: actions.js:4957
 msgid "Fit video to window on resize"
 msgstr "Пристосувати відео до вікна при зміні розміру"
 
-#: actions.js:4841
+#: actions.js:4973
 msgid "Zoom to 50%"
 msgstr "Збільшити на 50%"
 
-#: actions.js:4855
+#: actions.js:4987
 msgid "Zoom to 100%"
 msgstr "Збільшити на 100%"
 
-#: actions.js:4869
+#: actions.js:5001
 msgid "Zoom to 150%"
 msgstr "Збільшити на 150%"
 
-#: actions.js:4883
+#: actions.js:5015
 msgid "Zoom to 200%"
 msgstr "Збільшити на 200%"
 
-#: actions.js:4898
+#: actions.js:5030
 msgid "Zoom in"
 msgstr "Збільшити"
 
-#: actions.js:4911
+#: actions.js:5043
 msgid "Zoom out"
 msgstr "Зменшити"
 
 #. @ts-ignore
-#: actions.js:4946
+#: actions.js:5078
 msgid "Original AR"
 msgstr "Початкові пропорції"
 
-#: actions.js:5018 dialogs\dlgMoveAccompFiles.html:16
+#: actions.js:5150 dialogs\dlgMoveAccompFiles.html:16
 msgid "Move"
 msgstr "Перемістити"
 
-#: actions.js:5028
+#: actions.js:5160
 msgid "Move left"
 msgstr "Перемістити ліворуч"
 
-#: actions.js:5041
+#: actions.js:5173
 msgid "Move right"
 msgstr "Перемістити праворуч"
 
-#: actions.js:5054 controls\listEditButtons.html:2
+#: actions.js:5186 controls\listEditButtons.html:2
 msgid "Move up"
 msgstr "Перемістити вгору"
 
-#: actions.js:5067 controls\listEditButtons.html:3
+#: actions.js:5199 controls\listEditButtons.html:3
 msgid "Move down"
 msgstr "Перемістити вниз"
 
-#: actions.js:5080 Scripts\caseChecker\dialogs\dlgCaseChecker.html:57
+#: actions.js:5212 Scripts\caseChecker\dialogs\dlgCaseChecker.html:57
 msgid "Reset changes"
 msgstr "Скинути зміни"
 
 #. to load the new image thumb
-#: actions.js:5095 controls/artWindow.js:627
+#: actions.js:5227 controls/artWindow.js:627
 msgid "Save thumbnail"
 msgstr "Зберегти мініатюру"
 
-#: actions.js:5099
+#: actions.js:5231
 msgid "Generate the thumbnail:"
 msgstr "Створити мініатюру:"
 
-#: actions.js:5101
+#: actions.js:5233
 msgid "Automatically"
 msgstr "Автоматично"
 
-#: actions.js:5104
+#: actions.js:5236
 msgid "Use current video frame"
 msgstr "Використати поточний відеокадр"
 
-#: actions.js:5116
+#: actions.js:5248
 msgid "Audio streams"
 msgstr "Аудіопотоки"
 
 #. fill info about subtitle stream
-#: actions.js:5143 BaseMedia.pas:4933
+#: actions.js:5275 BaseMedia.pas:4933
 msgid "Subtitles"
 msgstr "Субтитри"
 
-#: actions.js:5152 dialogs/dlgOptions/pnl_Hotkeys.js:288
+#: actions.js:5284 dialogs/dlgOptions/pnl_Hotkeys.js:288
 msgid "Open file"
 msgstr "Відкрити файл"
 
-#: actions.js:5160
+#: actions.js:5292
 msgid "Subtitle files"
 msgstr "Файли субтитрів"
 
-#: actions.js:5160
+#: actions.js:5292
 msgid "Select subtitle file"
 msgstr "Вибрати файл субтитрів"
 
+#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. rejected - closed by cancel
-#: actions.js:5176 viewHandlers.js:5543
+#: actions.js:5308 viewHandlers.js:5543 dialogs\dlgSpeedPitch.html:11
 msgid "Enable"
 msgstr "Увімкнути"
 
 #. reset
-#: actions.js:5198 controls/downloadView.js:136 ResStrings.pas:453
+#: actions.js:5330 controls/downloadView.js:136 ResStrings.pas:453
 msgid "Size"
 msgstr "Розмір"
 
-#: actions.js:5203
+#: actions.js:5335
 msgid "Small"
 msgstr "Маленький"
 
-#: actions.js:5219 dialogs\dlgOptions\pnl_Performance.html:32
+#: actions.js:5351 dialogs\dlgOptions\pnl_Performance.html:32
 msgid "Normal"
 msgstr "Звичайний"
 
-#: actions.js:5235
+#: actions.js:5367
 msgid "Large"
 msgstr "Великий"
 
-#: actions.js:5251
+#: actions.js:5383
 msgid "Extra large"
 msgstr "Дуже великий"
 
-#: actions.js:5314 controls\playlistHeader.html:8
+#: actions.js:5446 controls\playlistHeader.html:8
 msgid "Play normally"
 msgstr "Відтворити звичайно"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. adds shuffle menu commands to button context menu
 #. nodeUtils
-#: actions.js:5340 uitools.js:2327 viewHandlers.js:3281
+#: actions.js:5472 uitools.js:2327 viewHandlers.js:3281
 #: controls\playlistHeader.html:9
 msgid "Play shuffled"
 msgstr "Відтворити перетасовані"
 
-#: actions.js:5372 uitools.js:2328 viewHandlers.js:3312
+#: actions.js:5504 uitools.js:2328 viewHandlers.js:3312
 msgid "Play shuffled (by Album)"
 msgstr "Відтворити перетасовані (за Альбомом)"
 
 #. prepared menu item for library reports implemented by scripts
-#: actions.js:5705 Extensions.pas:1594
+#: actions.js:5839 Extensions.pas:1594
 msgid "Reports"
 msgstr "Звіти"
 
-#: actions.js:5732
+#: actions.js:5866
 msgid "&File"
 msgstr "&Файл"
 
-#: actions.js:5778 viewHandlers.js:5408 controls/searchView.js:318
+#: actions.js:5912 viewHandlers.js:5408 controls/searchView.js:318
 #: dialogs/dlgOptions.js:119 DBStructure.pas:2059 GlobVars.pas:2100
 #: UPnPTreeHelper.pas:1894
 #: controls\deviceConfig\options\pnl_FileLocations.html:33
 msgid "Podcasts"
 msgstr "Подкасти"
 
-#: actions.js:5806
+#: actions.js:5940
 msgid "&Edit"
 msgstr "&Редагувати"
 
-#: actions.js:5874
+#: actions.js:6008
 msgid "&View"
 msgstr "&Вигляд"
 
-#: actions.js:5913 dialogs/dlgOptions.js:82
+#: actions.js:6047 dialogs/dlgOptions.js:82
 msgid "Skin"
 msgstr "Оболонка"
 
-#: actions.js:5928 dialogs\dlgMP3Settings.html:41
+#: actions.js:6062 dialogs\dlgMP3Settings.html:41
 msgid "Mode"
 msgstr "Режим"
 
-#: actions.js:5943
+#: actions.js:6077
 msgid "Main panel view"
 msgstr "Вигляд головної панелі"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16702 ... remove cancelSelection action as it is already in Edit menu
-#: actions.js:5967 dialogs\dlgTrackProperties.html:12
+#: actions.js:6101 dialogs\dlgTrackProperties.html:12
 msgid "Previous"
 msgstr "Попередній"
 
-#: actions.js:6001 dialogs\dlgTrackProperties.html:12
+#: actions.js:6135 dialogs\dlgTrackProperties.html:12
 msgid "Next"
 msgstr "Далі"
 
-#: actions.js:6045
+#: actions.js:6179
 msgid "&Play"
 msgstr "&Відтворити"
 
-#: actions.js:6239
+#: actions.js:6378
 msgid "Edit tags"
 msgstr "Редагувати теґи"
 
 #. some items placed by scripts here
-#: actions.js:6272
+#: actions.js:6411
 msgid "&Tools"
 msgstr "&Інструменти"
 
-#: actions.js:6345
+#: actions.js:6484
 msgid "MediaMonkey Gold"
 msgstr "MediaMonkey Gold"
 
-#: actions.js:6352
+#: actions.js:6491
 msgid "Get MediaMonkey Gold"
 msgstr "Отримати MediaMonkey Gold"
 
 #. assume always called with this = action
-#: actions.js:6728 actions.js:6806
+#: actions.js:6867 actions.js:6945
 msgid "Move to"
 msgstr "Перемістити до"
 
-#: actions.js:6731 actions.js:6810
+#: actions.js:6870 actions.js:6949
 msgid "Copy to"
 msgstr "Копіювати до"
 
-#: actions.js:6734 actions.js:6814
+#: actions.js:6873 actions.js:6953
 msgid "Convert to"
 msgstr "Перетворити на"
 
-#: actions.js:7039
+#: actions.js:7178
 msgid "No tracks found"
 msgstr "Доріжок не знайдено"
 
-#: actions.js:7053
+#: actions.js:7192
 msgid ""
 "This will update the tags of the selected files so that they match your "
 "Library. Are you sure you want to proceed?"
@@ -1783,7 +1793,7 @@ msgstr ""
 "Це оновить теґи вибраних файлів, щоб вони відповідали вашій бібліотеці. Ви "
 "дійсно бажаєте продовжити?"
 
-#: actions.js:7056
+#: actions.js:7195
 msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
@@ -1812,9 +1822,9 @@ msgstr "елемент (-ти)"
 #: dialogs/dlgMediaProperties.js:5 dialogs/dlgTrackProperties/tabDetails.js:54
 #: helpers/autoTagFramework.js:268 ArtistsManage.pas:1269
 #: ArtistsManage.pas:3430 ArtistsManage.pas:3673 BaseMedia.pas:4982
-#: BaseMedia.pas:16033 BaseMedia.pas:17801 BaseMedia.pas:17807 Filters.pas:3472
+#: BaseMedia.pas:16033 BaseMedia.pas:17801 BaseMedia.pas:17807 Filters.pas:3483
 #: PodcastManage.pas:988 PodcastManage.pas:1320 PodcastManage.pas:2789
-#: ResStrings.pas:364 UpNp.pas:10982
+#: ResStrings.pas:364 UpNp.pas:10956
 msgid "Unknown"
 msgstr "Невідомо"
 
@@ -1869,7 +1879,7 @@ msgstr "Додаток виводу DirectSound для MediaMonkey"
 #: dialogs/dlgWAVSettings.js:20 dialogs/dlgTrackProperties/tabDetails.js:84
 #: BaseMedia.pas:4832 FormatsHandler.pas:3019 FormatsHandler.pas:3027
 #: FormatsHandler.pas:3036 FormatsHandler.pas:3054 FormatsManage.pas:4524
-#: FormatsManage.pas:4529 WinAmpPlugins.pas:5282
+#: FormatsManage.pas:4529 WinAmpPlugins.pas:5321
 #: dialogs\videoConvSettings.html:176
 msgid "Hz"
 msgstr "Гц"
@@ -1878,7 +1888,7 @@ msgstr "Гц"
 msgid "channels"
 msgstr "канали"
 
-#: out_WASAPI_configDlg.js:7 WinAmpPlugins.pas:5284
+#: out_WASAPI_configDlg.js:7 WinAmpPlugins.pas:5323
 msgid "bits"
 msgstr "біти"
 
@@ -1944,7 +1954,7 @@ msgstr "Пропорції"
 #. fixed: true,
 #. for the content browser on the 'Summary' page
 #: templates.js:368 controls/deviceConfig.js:377 dialogs/dlgAutotag.js:1803
-#: MaskHelper.pas:3188 MaskHelper.pas:3712 MaskHelper.pas:3901
+#: MaskHelper.pas:3188 MaskHelper.pas:3712 MaskHelper.pas:3906
 #: ResStrings.pas:494 dialogs\dlgEditView.html:37
 msgid "Summary"
 msgstr "Підсумок"
@@ -1992,7 +2002,7 @@ msgstr "Триває пошук"
 
 #. online track not present in the library - toast message and add to the library
 #. online track not present in the library - toast message and add to the library
-#: templates.js:808 controls/player.js:665
+#: templates.js:808 controls/player.js:742
 msgid "Track was added to the Library"
 msgstr "Доріжка була додана до бібліотеки"
 
@@ -2000,13 +2010,13 @@ msgstr "Доріжка була додана до бібліотеки"
 #. el.innerText = sd.album;
 #. this field should not be used for whole album, specific for each track
 #: templates.js:1287 templates.js:1314 templates.js:1364 viewHandlers.js:6916
-#: controls/albumlistView.js:613 controls/player.js:655
+#: controls/albumlistView.js:613 controls/player.js:732
 #: controls/trackListView.js:386
 #: Scripts/statistics/dialogs/dlgStatistics.js:331
 #: Scripts/statistics/dialogs/dlgStatistics.js:404
 #: Scripts/statistics/dialogs/dlgStatistics.js:519
 #: Scripts/statistics/dialogs/dlgStatistics.js:565 MaskHelper.pas:3149
-#: MaskHelper.pas:3579 MaskHelper.pas:3872 QueryManage.pas:5041
+#: MaskHelper.pas:3579 MaskHelper.pas:3877 QueryManage.pas:5041
 #: QueryManage.pas:5042 ResStrings.pas:448 UPnPTreeHelper.pas:1925
 #: Win7ToolsImpl.pas:1903 Win7ToolsImpl.pas:1904
 #: dialogs\dlgTrackProperties\tabBasic.html:56
@@ -2087,7 +2097,7 @@ msgstr "Введіть пароль"
 #: controls/trackListView.js:1537 controls/deviceConfig/syncToDevice.js:22
 #: dialogs/dlgTrackProperties/tabBasic.js:514 helpers/seriesDataSource.js:176
 #: helpers/seriesDataSource.js:257 MaskHelper.pas:3164 MaskHelper.pas:3600
-#: MaskHelper.pas:3876 QueryManage.pas:1882 QueryManage.pas:3045
+#: MaskHelper.pas:3881 QueryManage.pas:1882 QueryManage.pas:3045
 #: QueryManage.pas:3048 QueryManage.pas:3060 ResStrings.pas:498
 #: UPnPTreeHelper.pas:1895
 msgid "Series"
@@ -2151,12 +2161,12 @@ msgid "GB"
 msgstr "Гбайт"
 
 #. available to stream from cloud
-#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2564
+#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2572
 #: ResStrings.pas:571
 msgid "Various"
 msgstr "Різноманітні"
 
-#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2565
+#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2573
 msgid "Various Artists"
 msgstr "Різні Виконавці"
 
@@ -2192,7 +2202,7 @@ msgstr "Список (за Альбомом)"
 msgid "List (by Series)"
 msgstr "Список (за Серіями)"
 
-#. to be always pre-sorted by content (grouped by signature/fingerprint)
+#. to be always pre-sorted by content (grouped by signature/fingerprint) // #20580
 #: viewHandlers.js:348
 msgid "List (by Content)"
 msgstr "Список (за Вмістом)"
@@ -2362,7 +2372,7 @@ msgstr "Інформаційні канали"
 
 #. #18158
 #: viewHandlers.js:1962 viewHandlers.js:5479 controls/maskedit.js:77
-#: helpers/mediaSync.js:2892 WinAmpPlugins.pas:5289
+#: helpers/mediaSync.js:2892 WinAmpPlugins.pas:5328
 msgid "Configure"
 msgstr "Конфігурувати"
 
@@ -2421,7 +2431,7 @@ msgid "Copying to %s:"
 msgstr "Копіювання до %s:"
 
 #. to not notify less often and improve performance for thousands of tracks
-#: viewHandlers.js:4080 MediaManage.pas:4119 MediaManage.pas:4200
+#: viewHandlers.js:4080 MediaManage.pas:4127 MediaManage.pas:4208
 msgid "Moving to %s:"
 msgstr "Переміщення до %s:"
 
@@ -2543,7 +2553,7 @@ msgstr "Ви впевнені, що хочете вилучити %d вибра�
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
 #. #15626
-#: viewHandlers.js:5100 MediaManage.pas:6460 MusicUtils.pas:685
+#: viewHandlers.js:5100 MediaManage.pas:6468 MusicUtils.pas:687
 #: controls\devicesView.html:24
 msgid "Media Servers"
 msgstr "Медіа Сервери"
@@ -2556,7 +2566,7 @@ msgstr "Сервер недоступний, спробуйте пізніше"
 #. and get the list of tracks already scanned into library (to merge) -- to be able to indicate which tracks are already in the library
 #. prefer the default Music collection when there are more music collections (#17051)
 #. prefer the default Music collection when there are more music collections (#16929)
-#: viewHandlers.js:5378 Filters.pas:2076 Filters.pas:2229 GlobVars.pas:2099
+#: viewHandlers.js:5378 Filters.pas:2087 Filters.pas:2240 GlobVars.pas:2099
 #: controls\deviceConfig\options\pnl_FileLocations.html:9
 msgid "Music"
 msgstr "Музика"
@@ -2887,7 +2897,7 @@ msgstr "низхідний"
 #: controls/albumlistView.js:606 controls/sortBy.js:17
 #: controls/trackListView.js:256 controls/serverConfig/server.js:106
 #: dialogs/dlgAutotag.js:2550 dialogs/dlgOptions/pnl_MetadataLookup.js:147
-#: MaskHelper.pas:3147 MaskHelper.pas:3569 MaskHelper.pas:3870
+#: MaskHelper.pas:3147 MaskHelper.pas:3569 MaskHelper.pas:3875
 #: QueryManage.pas:4910 QueryManage.pas:5049 QueryManage.pas:5050
 #: ResStrings.pas:487 dialogs\dlgTrackProperties\tabBasic.html:140
 msgid "Date"
@@ -2978,7 +2988,7 @@ msgid "album image"
 msgstr "зображення альбому"
 
 #. to refetch image after DS change
-#: controls/albumViewHeader.js:698 controls/listview.js:1372
+#: controls/albumViewHeader.js:698 controls/listview.js:1374
 #: dialogs/dlgDeleteConfirm.js:28
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:23 CDDBUtils.pas:1345
 #: CDDBUtils.pas:1410
@@ -3058,11 +3068,11 @@ msgstr "Невідомий Виконавець"
 msgid "Remove image"
 msgstr "Вилучити зображення"
 
-#: controls/artWindow.js:639 controls/nowPlaying/fullList.js:107
+#: controls/artWindow.js:639 controls/nowPlaying/fullList.js:115
 msgid "Save image"
 msgstr "Зберегти зображення"
 
-#: controls/artWindow.js:651 controls/nowPlaying/fullList.js:123
+#: controls/artWindow.js:651 controls/nowPlaying/fullList.js:131
 #: controls/nowPlaying/largeLyrics.js:64
 msgid "Save lyrics"
 msgstr "Зберегти текст"
@@ -3091,7 +3101,7 @@ msgstr "Дозволити редагування"
 
 #. search link is present only if searching artwork in album a not on web (when searchMissingArtwork is false)
 #. artwork was not loaded - file was already deleted or artwork removed from tag outside MM5, or file with artwork overwritten
-#: controls/artWindow.js:1225 MediaMonkeyApp.pas:8387
+#: controls/artWindow.js:1225 MediaMonkeyApp.pas:8391
 msgid "Artwork not found"
 msgstr "Обкладинки не знайдено"
 
@@ -3156,20 +3166,20 @@ msgstr ""
 "Автоматична зміна заготованих візуалізацій для візуалізацій, що підтримують "
 "заготовини, наприклад Milkshake"
 
-#: controls/baseVis.js:125 controls/player.js:305 controls/player.js:315
-#: controls/player.js:383 controls/player.js:392 controls/player.js:403
-#: controls/player.js:418 controls/player.js:426 controls/player.js:435
+#: controls/baseVis.js:125 controls/player.js:339 controls/player.js:349
+#: controls/player.js:417 controls/player.js:426 controls/player.js:437
+#: controls/player.js:495 controls/player.js:503 controls/player.js:512
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:5
 msgid "On"
 msgstr "Вкл."
 
 #. prevent only for known types, where we know for sure it is needed
-#: controls/buttons.js:391 MusicUtils.pas:385 ResStrings.pas:365
+#: controls/buttons.js:391 MusicUtils.pas:387 ResStrings.pas:365
 #: ResStrings.pas:582
 msgid "Yes"
 msgstr "Так"
 
-#: controls/buttons.js:396 MusicUtils.pas:383 ResStrings.pas:366
+#: controls/buttons.js:396 MusicUtils.pas:385 ResStrings.pas:366
 #: ResStrings.pas:583
 msgid "No"
 msgstr "Ні"
@@ -3259,7 +3269,7 @@ msgid "Choose columns"
 msgstr "Вибрати стовпці"
 
 #. undefined
-#: controls/columntracklist.js:175 FullPlayer.pas:2597
+#: controls/columntracklist.js:175 FullPlayer.pas:2617
 msgid "Sort"
 msgstr "Сортувати"
 
@@ -3408,7 +3418,7 @@ msgstr "невідтворені епізоди"
 #. syncable servers already appear in the 'Storage & Services' as device profiles
 #. Try to find an already rendered group header
 #. #17949: Change to "Expand" in the future when it's translated
-#: controls/devicesView.js:154 controls/listview.js:1372
+#: controls/devicesView.js:154 controls/listview.js:1374
 #: controls/searchView.js:704 controls/treeview.js:87
 msgid "Show all"
 msgstr "Показати все"
@@ -3462,17 +3472,17 @@ msgstr "порожній"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. update the download status and path
-#: controls/equalizer.js:24 MediaMonkeyApp.pas:8626 MediaMonkeyApp.pas:8628
-#: MusicUtils.pas:850 controls\autoConvertConfig.html:11
+#: controls/equalizer.js:24 MediaMonkeyApp.pas:8630 MediaMonkeyApp.pas:8632
+#: MusicUtils.pas:852 controls\autoConvertConfig.html:11
 msgid "dB"
 msgstr "дБ"
 
 #. we set left/right channel to the same value
 #. For screen reader support (aria-label for screen readers to read its state)
 #. For screen reader support (aria-label for screen readers to read its state)
-#: controls/equalizer.js:56 controls/player.js:373 controls/player.js:383
-#: controls/player.js:385 controls/player.js:392 controls/player.js:394
-#: controls/player.js:403 controls/player.js:405
+#: controls/equalizer.js:56 controls/player.js:407 controls/player.js:417
+#: controls/player.js:419 controls/player.js:426 controls/player.js:428
+#: controls/player.js:437 controls/player.js:439 dialogs/dlgEqualizer.js:5
 msgid "Equalizer"
 msgstr "Еквалайзер"
 
@@ -3529,28 +3539,28 @@ msgid "Add new"
 msgstr "Додати новий"
 
 #. expand/collapse icons:
-#: controls/listview.js:1375 controls/treeview.js:79
+#: controls/listview.js:1377 controls/treeview.js:79
 msgid "Collapse"
 msgstr "Згорнути"
 
 #. supress toast messages when we are placed into a view, search bar is taking it
-#: controls/listview.js:2655
+#: controls/listview.js:2657
 msgid "Scroll to"
 msgstr "Прокрутити до"
 
-#: controls/listview.js:2655
+#: controls/listview.js:2657
 msgid "Use %s for the next match"
 msgstr "Використати %s для наступного збігу"
 
 #. it just looped through all the controls to find that there is still the same (and single) occurence -- don't consider this as search failure (#15185 - item 11)
-#: controls/listview.js:2658 controls/searchBar.js:391
+#: controls/listview.js:2660 controls/searchBar.js:391
 #: controls/searchBar.js:393
 msgid "phrase not found"
 msgstr "фразу не знайдено"
 
 #. eslint-disable-next-line no-cond-assign
 #. not cleared yet
-#: controls/listview.js:4851 controls/listview.js:4855
+#: controls/listview.js:4853 controls/listview.js:4857
 msgid "Close popup"
 msgstr "Закрити спливне вікно"
 
@@ -3638,7 +3648,7 @@ msgid "Continuously"
 msgstr "Безперервно"
 
 #. #17177
-#: controls/monitoredFoldersView.js:14 MediaMonkeyApp.pas:9154
+#: controls/monitoredFoldersView.js:14 MediaMonkeyApp.pas:9158
 msgid "Auto detection"
 msgstr "Автоматичне виявлення"
 
@@ -3678,7 +3688,7 @@ msgstr "Переглянути елементи"
 #. to hide mutual exclusive sub-view before showing our sub-view
 #. list
 #. add manage views entry
-#: controls/multiview.js:284 controls/player.js:72 helpers/views.js:339
+#: controls/multiview.js:284 controls/player.js:77 helpers/views.js:339
 #: dialogs\dlgAutoConvertRule.html:39
 msgid "Customize"
 msgstr "Налаштувати"
@@ -3722,7 +3732,7 @@ msgid "Normal window"
 msgstr "Звичайне вікно"
 
 #: controls/nowplayingview.js:147 controls/nowPlaying/artistBio.js:65
-#: controls/nowPlaying/fullList.js:143
+#: controls/nowPlaying/fullList.js:151
 msgid "Show 'Playing' list"
 msgstr "Показати список \"Відтворення.\""
 
@@ -3747,63 +3757,77 @@ msgstr "Скасувати повноекранний режим"
 msgid "Choose layout"
 msgstr "Вибрати розташування"
 
-#: controls/player.js:135 dialogs\dlgOptions\pnl_MetadataLookup.html:53
+#: controls/player.js:161 dialogs\dlgOptions\pnl_MetadataLookup.html:53
 msgid "Metadata"
 msgstr "Метадані"
 
-#: controls/player.js:136
+#: controls/player.js:162
 msgid "Controls"
 msgstr "Елементи управління"
 
 #. to speed reflows during time actualization
-#: controls/player.js:137 controls/player.js:483
+#: controls/player.js:163 controls/player.js:560
 msgid "Seek bar"
 msgstr "Панель пошуку"
 
-#: controls/player.js:208 UpNp.pas:13133
+#: controls/player.js:238 UpNp.pas:13116
 msgid "Internal player"
 msgstr "Внутрішній програвач"
 
-#: controls/player.js:303
+#: controls/player.js:337
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
 msgstr ""
 "Перемішує список \"Відтворення\" й змушує типові команди відтворення "
 "перемішувати доріжки."
 
-#: controls/player.js:442
+#: controls/player.js:459
+msgid "Speed"
+msgstr ""
+
+#: controls/player.js:463
+#, fuzzy
+#| msgid "Switch"
+msgid "Pitch"
+msgstr "Перейти"
+
+#: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
+msgid "semitones"
+msgstr ""
+
+#: controls/player.js:519
 msgid "Time"
 msgstr "Час"
 
 #. to speed reflows during time actualization
-#: controls/player.js:462
+#: controls/player.js:539
 msgid "Remaining time"
 msgstr "Час, що залишився"
 
-#: controls/player.js:528
+#: controls/player.js:605
 msgid "Waveform bar"
 msgstr "Панель форми хвилі"
 
-#: controls/player.js:566
+#: controls/player.js:643
 msgid "Visualizer"
 msgstr "Візуалізатор"
 
-#: controls/player.js:570 skins\Black Monkey\player.html:44
+#: controls/player.js:647 skins\Black Monkey\player.html:44
 msgid "Volume bar"
 msgstr "Смужка гучності"
 
-#: controls/player.js:579 controls/player.js:584 controls/player.js:590
+#: controls/player.js:656 controls/player.js:661 controls/player.js:667
 #: helpers/trayIcon.js:103
 msgid "Volume"
 msgstr "Гучність"
 
 #. this field should not be used for whole album, specific for each track
-#: controls/player.js:604 controls/trackListView.js:1479
+#: controls/player.js:681 controls/trackListView.js:1479
 msgid "Track summary"
 msgstr "Звіт про доріжку"
 
 #. Use audio voice message (if exists), see details in #14538
-#: controls/player.js:1106
+#: controls/player.js:1185
 msgid ""
 "Audio streaming is limited to 30 minutes in the free version of MediaMonkey. "
 "Please consider upgrading to a Gold license."
@@ -3811,7 +3835,7 @@ msgstr ""
 "Потокове передавання аудіо обмежується 30 хвилинами у безкоштовній версії "
 "MediaMonkey. Будь ласка, розгляньте можливість оновлення до ліцензії Gold."
 
-#: controls/player.js:1124 controls\windowtitle.html:4
+#: controls/player.js:1203 controls\windowtitle.html:4
 msgid "MediaMonkey"
 msgstr "MediaMonkey"
 
@@ -3835,7 +3859,7 @@ msgstr "Редагувати на панелі списку відтворенн
 #. to live update tracks -- is listened e.g. by viewHandlers.tracklistBase.onShow
 #: controls/playlistHeader.js:303 controls/trackListView.js:916
 #: dialogs/dlgTrackProperties/tabDetails.js:62 MaskHelper.pas:3187
-#: MaskHelper.pas:3707 MaskHelper.pas:3900 ResStrings.pas:458
+#: MaskHelper.pas:3707 MaskHelper.pas:3905 ResStrings.pas:458
 #: dialogs\dlgTrackProperties\tabDetails.html:242
 msgid "Timestamp"
 msgstr "Часова позначка"
@@ -3843,7 +3867,7 @@ msgstr "Часова позначка"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. data source already cleared
 #: controls/podcastHeader.js:173 MaskHelper.pas:3191 MaskHelper.pas:3727
-#: MaskHelper.pas:3904 QueryManage.pas:3054 ResStrings.pas:503
+#: MaskHelper.pas:3909 QueryManage.pas:3054 ResStrings.pas:503
 #: dialogs\dlgAddonInstall.html:38
 msgid "Author"
 msgstr "Автор"
@@ -4149,13 +4173,13 @@ msgstr "Ім'я файлу"
 #: Scripts/statistics/dialogs/dlgStatistics.js:435
 #: Scripts/statistics/dialogs/dlgStatistics.js:492
 #: Scripts/statistics/dialogs/dlgStatistics.js:564 MaskHelper.pas:3178
-#: MaskHelper.pas:3667 MaskHelper.pas:3891 ResStrings.pas:443
+#: MaskHelper.pas:3667 MaskHelper.pas:3896 ResStrings.pas:443
 msgid "Played #"
 msgstr "Відтворено #"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:355 MaskHelper.pas:3180 MaskHelper.pas:3672
-#: MaskHelper.pas:3893 ResStrings.pas:445 Win7ToolsImpl.pas:2199
+#: MaskHelper.pas:3898 ResStrings.pas:445 Win7ToolsImpl.pas:2199
 msgid "Last Played"
 msgstr "Останнє відтворення"
 
@@ -4178,7 +4202,7 @@ msgstr "Швидкість потоку"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:441 MaskHelper.pas:3181 MaskHelper.pas:3682
-#: MaskHelper.pas:3895 ResStrings.pas:425 ResStrings.pas:451
+#: MaskHelper.pas:3900 ResStrings.pas:425 ResStrings.pas:451
 msgid "Media"
 msgstr "Носій"
 
@@ -4189,7 +4213,7 @@ msgstr "Розширені теґи"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:671 MaskHelper.pas:3182 MaskHelper.pas:3677
-#: MaskHelper.pas:3894
+#: MaskHelper.pas:3899
 msgid "Filesize"
 msgstr "Розмір файлу"
 
@@ -4213,8 +4237,8 @@ msgstr "Частота вибірки"
 #. Songs.Author
 #: controls/trackListView.js:725 dialogs/dlgTrackProperties/tabDetails.js:85
 #: FormatsHandler.pas:3020 FormatsHandler.pas:3037 FormatsHandler.pas:3055
-#: MaskHelper.pas:3183 MaskHelper.pas:3687 MaskHelper.pas:3896
-#: QueryManage.pas:4953 ResStrings.pas:457 WinAmpPlugins.pas:5286
+#: MaskHelper.pas:3183 MaskHelper.pas:3687 MaskHelper.pas:3901
+#: QueryManage.pas:4953 ResStrings.pas:457 WinAmpPlugins.pas:5325
 #: dialogs\dlgOGGSettings.html:63
 msgid "Channels"
 msgstr "Канали"
@@ -4222,7 +4246,7 @@ msgstr "Канали"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. qeid(mainElement, 'lbl_norm').innerText = utils.getNormalizeText(track.normalizeTrack, track.normalizeAlbum);
 #: controls/trackListView.js:742 dialogs/dlgTrackProperties/tabDetails.js:90
-#: MaskHelper.pas:3184 MaskHelper.pas:3692 MaskHelper.pas:3897
+#: MaskHelper.pas:3184 MaskHelper.pas:3692 MaskHelper.pas:3902
 #: ResStrings.pas:387 ResStrings.pas:455 dialogs\dlgSupportedFormat.html:38
 msgid "Bit depth"
 msgstr "Глибина біта"
@@ -4234,7 +4258,7 @@ msgstr "Гучність доріжки"
 
 #. source
 #: controls/trackListView.js:809 helpers/lyricsSearch.js:616
-#: MaskHelper.pas:3177 MaskHelper.pas:3662 MaskHelper.pas:3890
+#: MaskHelper.pas:3177 MaskHelper.pas:3662 MaskHelper.pas:3895
 #: QueryManage.pas:4993
 msgid "Source"
 msgstr "Джерело"
@@ -4253,7 +4277,7 @@ msgstr "Розширення"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:931 dialogs/dlgTrackProperties/tabDetails.js:61
-#: MaskHelper.pas:3161 MaskHelper.pas:3589 MaskHelper.pas:3874
+#: MaskHelper.pas:3161 MaskHelper.pas:3589 MaskHelper.pas:3879
 #: MediaMonkeyApp.pas:6376 QueryManage.pas:5047 QueryManage.pas:5048
 #: ResStrings.pas:459 dialogs\dlgTrackProperties\tabDetails.html:234
 msgid "Added"
@@ -4261,7 +4285,7 @@ msgstr "Додано"
 
 #. Songs.Lyricist
 #: controls/trackListView.js:963 MaskHelper.pas:3159 MaskHelper.pas:3584
-#: MaskHelper.pas:3873 QueryManage.pas:4965 ResStrings.pas:488
+#: MaskHelper.pas:3878 QueryManage.pas:4965 ResStrings.pas:488
 msgid "Original Date"
 msgstr "Початкова дата"
 
@@ -4285,7 +4309,7 @@ msgstr "Об'єм альбому"
 #. don't save
 #: controls/trackListView.js:1166 dialogs/dlgAutotag.js:2031
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:146
-#: dialogs/dlgTrackProperties/tabBasic.js:480 MaskHelper.pas:3866
+#: dialogs/dlgTrackProperties/tabBasic.js:480 MaskHelper.pas:3871
 #: ResStrings.pas:446 ResStrings.pas:517
 #: dialogs\dlgTrackProperties\tabBasic.html:104
 msgid "Disc #"
@@ -4322,7 +4346,7 @@ msgid "Lyricist"
 msgstr "Лірик"
 
 #: controls/trackListView.js:1273 MaskHelper.pas:3146 MaskHelper.pas:3564
-#: MaskHelper.pas:3869 QueryManage.pas:4926 ResStrings.pas:492
+#: MaskHelper.pas:3874 QueryManage.pas:4926 ResStrings.pas:492
 #: dialogs\dlgTrackProperties\tabDetails.html:5
 msgid "Grouping"
 msgstr "Групування"
@@ -4340,19 +4364,19 @@ msgstr "Доріжка #"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:1453 MaskHelper.pas:3179 MaskHelper.pas:3767
-#: MaskHelper.pas:3912 ResStrings.pas:444
+#: MaskHelper.pas:3922 ResStrings.pas:444
 msgid "Skipped #"
 msgstr "Пропущено #"
 
 #. this field should not be used for whole album, specific for each track
 #. TODO: HTML: get the dimensions a better way?
 #: controls/trackListView.js:1493 Covers.pas:1308 MaskHelper.pas:3189
-#: MaskHelper.pas:3717 MaskHelper.pas:3902 ResStrings.pas:495
+#: MaskHelper.pas:3717 MaskHelper.pas:3907 ResStrings.pas:495
 msgid "Resolution"
 msgstr "Роздільна здатність"
 
 #: controls/trackListView.js:1506 FormatsHandler.pas:2998 MaskHelper.pas:3190
-#: MaskHelper.pas:3722 MaskHelper.pas:3903 ResStrings.pas:496
+#: MaskHelper.pas:3722 MaskHelper.pas:3908 ResStrings.pas:496
 #: dialogs\videoConvSettings.html:87
 msgid "Framerate"
 msgstr "Частота кадрів"
@@ -4360,25 +4384,25 @@ msgstr "Частота кадрів"
 #. assign duration only if we don't have a better way to find it (issue #8948)
 #: controls/trackListView.js:1519 dialogs/dlgTrackProperties/tabBasic.js:506
 #: DBStructure.pas:2059 MaskHelper.pas:3163 MaskHelper.pas:3594
-#: MaskHelper.pas:3875 PodcastManage.pas:3044 QueryManage.pas:3053
+#: MaskHelper.pas:3880 PodcastManage.pas:3044 QueryManage.pas:3053
 #: QueryManage.pas:3060 ResStrings.pas:497
 msgid "Podcast"
 msgstr "Подкаст"
 
 #: controls/trackListView.js:1559 dialogs/dlgTrackProperties/tabBasic.js:516
-#: MaskHelper.pas:3167 MaskHelper.pas:3615 MaskHelper.pas:3879
+#: MaskHelper.pas:3167 MaskHelper.pas:3615 MaskHelper.pas:3884
 #: ResStrings.pas:500 ResStrings.pas:506
 msgid "Episode #"
 msgstr "Епізод #"
 
 #: controls/trackListView.js:1614 dialogs/dlgTrackProperties/tabBasic.js:515
-#: MaskHelper.pas:3168 MaskHelper.pas:3622 MaskHelper.pas:3881
+#: MaskHelper.pas:3168 MaskHelper.pas:3622 MaskHelper.pas:3886
 #: ResStrings.pas:501 ResStrings.pas:507
 msgid "Season #"
 msgstr "Сезон #"
 
 #: controls/trackListView.js:1632 MaskHelper.pas:3192 MaskHelper.pas:3732
-#: MaskHelper.pas:3905 QueryManage.pas:1885 ResStrings.pas:490
+#: MaskHelper.pas:3910 QueryManage.pas:1885 ResStrings.pas:490
 msgid "Screenwriter"
 msgstr "Сценарист"
 
@@ -4391,21 +4415,21 @@ msgstr "Актор(и)"
 #. don't save
 #: controls/trackListView.js:1685 dialogs/dlgAutotag.js:2451
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:154 MaskHelper.pas:3173
-#: MaskHelper.pas:3642 MaskHelper.pas:3886 ResStrings.pas:502
+#: MaskHelper.pas:3642 MaskHelper.pas:3891 ResStrings.pas:502
 #: UPnPTreeHelper.pas:1903 dialogs\dlgTrackProperties\tabDetails.html:42
 msgid "Parental Rating"
 msgstr "Батьківський Рейтинг"
 
-#: controls/trackListView.js:1702
+#: controls/trackListView.js:1702 dialogs/dlgSpeedPitch.js:33
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:323 MaskHelper.pas:3171
-#: MaskHelper.pas:3632 MaskHelper.pas:3884 QueryManage.pas:4931
+#: MaskHelper.pas:3632 MaskHelper.pas:3889 QueryManage.pas:4931
 #: dialogs\dlgMediaProperties.html:11
 msgid "Type"
 msgstr "Тип"
 
 #: controls/trackListView.js:1715 MaskHelper.pas:3176 MaskHelper.pas:3657
-#: MaskHelper.pas:3889 QueryManage.pas:4927 QueryManage.pas:5061
+#: MaskHelper.pas:3894 QueryManage.pas:4927 QueryManage.pas:5061
 #: QueryManage.pas:5062 dialogs\dlgTrackProperties\tabClassification.html:50
 msgid "Initial Key"
 msgstr "Початковий ключ"
@@ -4421,7 +4445,7 @@ msgid "Encoder"
 msgstr "Кодувальник"
 
 #: controls/trackListView.js:1766 MaskHelper.pas:3196 MaskHelper.pas:3737
-#: MaskHelper.pas:3906 ResStrings.pas:473
+#: MaskHelper.pas:3911 ResStrings.pas:473
 #: dialogs\dlgTrackProperties\tabDetails.html:119
 msgid "Copyright"
 msgstr "Авторські права"
@@ -4558,9 +4582,10 @@ msgstr "Також генерувати списки відтворення на
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Update files and metadata as follows when syncing to '%s'"
-msgstr "Оновити файли та метадані під час синхронізації до '%s' наступним чином"
+msgstr ""
+"Оновити файли та метадані під час синхронізації до '%s' наступним чином"
 
-#: controls/nowPlaying/fullList.js:203
+#: controls/nowPlaying/fullList.js:211
 msgid "Click to look up lyrics..."
 msgstr "Клацніть, щоб знайти тексти пісень ..."
 
@@ -4587,16 +4612,16 @@ msgid "Enabled"
 msgstr "Увімкнено"
 
 #: controls/serverConfig/devices.js:26 controls/serverConfig/server.js:122
-#: UpNp.pas:5830
+#: UpNp.pas:5804
 msgid "MAC address"
 msgstr "MAC адреса"
 
 #: controls/serverConfig/devices.js:34 controls/serverConfig/server.js:130
-#: UpNp.pas:5831 UpNp.pas:5837 controls\serverConfig\server.html:9
+#: UpNp.pas:5805 UpNp.pas:5811 controls\serverConfig\server.html:9
 msgid "IP address"
 msgstr "IP-адреса"
 
-#: controls/serverConfig/devices.js:59 UpNp.pas:10365
+#: controls/serverConfig/devices.js:59 UpNp.pas:10339
 msgid "Last access"
 msgstr "Останній доступ"
 
@@ -4607,17 +4632,15 @@ msgstr "Автоматично"
 #. 192.168.X.X can be reached (case A)
 #: controls/serverConfig/server.js:33
 msgid ""
-"%s appears running normally, if you still can't access server on the other "
-"machines/devices click Help."
+"%s seems to be working correctly. See Help, if you're unable to access the "
+"server from other devices."
 msgstr ""
-"%s здається, працює нормально, якщо ви все ще не можете отримати доступ до "
-"сервера на інших комп'ютерах/пристроях, натисніть кнопку Допомога."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
 msgstr "Сервер не працює"
 
-#: controls/serverConfig/server.js:138 UpNp.pas:5838
+#: controls/serverConfig/server.js:138 UpNp.pas:5812
 msgid "Client name"
 msgstr "Ім'я клієнта"
 
@@ -4725,10 +4748,6 @@ msgstr "Аудіоканали"
 msgid "Audio bit depth"
 msgstr "Бітова глибина звуку"
 
-#: dialogs/dlgAutoorganize.js:19
-msgid "Organize"
-msgstr "Впорядкувати"
-
 #: dialogs/dlgAutoorganize.js:177 dialogs\dlgAutoorganize.html:34
 msgid "Delete emptied folders"
 msgstr "Видалити порожні теки"
@@ -4835,10 +4854,6 @@ msgstr "Вихідне значення"
 msgid "New value"
 msgstr "Нове значення"
 
-#: dialogs/dlgAutotagFromFilename.js:84
-msgid "Tag from filename"
-msgstr "Теґ з імені файлу"
-
 #. another thread is preparing the list
 #: dialogs/dlgAutotagFromFilename.js:390 MP3Utils.pas:1270
 #: Normalization.pas:1353
@@ -4886,7 +4901,7 @@ msgid "Icon"
 msgstr "Піктограма"
 
 #: dialogs/dlgCollectionOptions.js:383
-#: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 MediaMonkeyApp.pas:7516
+#: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 MediaMonkeyApp.pas:7520
 msgid "not found!"
 msgstr "не знайдено!"
 
@@ -5370,7 +5385,7 @@ msgstr "Відмовити"
 #: dialogs/dlgWAVSettings.js:23 dialogs/dlgWAVSettings.js:37
 #: dialogs/dlgWAVSettings.js:51 dialogs/dlgOptions/pnl_LayoutPreview.js:33
 #: helpers/docking.js:359 helpers/docking.js:364 helpers/docking.js:587
-#: MediaMonkeyApp.pas:9103 ResStrings.pas:370
+#: MediaMonkeyApp.pas:9107 ResStrings.pas:370
 msgid "Default"
 msgstr "За замовчуванням"
 
@@ -5583,6 +5598,12 @@ msgstr "Нічого"
 msgid "Sleep timer can be used only with Gold!"
 msgstr "Таймер сну можна використовувати лише з Gold!"
 
+#: dialogs/dlgSpeedPitch.js:11
+#, fuzzy
+#| msgid "Adjust video"
+msgid "Adjust pitch"
+msgstr "Налаштувати відео"
+
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
 msgstr "Встановити формати"
@@ -5619,8 +5640,8 @@ msgid "Please confirm the following changes:"
 msgstr "Будь ласка, підтвердьте наступні зміни:"
 
 #. Button text
-#: dialogs/dlgTrackProperties.js:18 ExceptionHandler.pas:326 UpNp.pas:5829
-#: UpNp.pas:5836
+#: dialogs/dlgTrackProperties.js:18 ExceptionHandler.pas:326 UpNp.pas:5803
+#: UpNp.pas:5810
 msgid "Details"
 msgstr "Подробиці"
 
@@ -5862,7 +5883,7 @@ msgstr "Нова назва для розташованих елементів"
 msgid "Separator"
 msgstr "Розділювач"
 
-#: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10353
+#: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10327
 #: controls\serverConfig\server.html:5
 msgid "Server name"
 msgstr "Ім'я сервера"
@@ -5964,21 +5985,21 @@ msgstr "Використовувати апаратне прискорення, 
 msgid "(requires restart)"
 msgstr "(потрібен перезапуск)"
 
-#: dialogs/dlgOptions/pnl_PlaybackRules.js:71
+#: dialogs/dlgOptions/pnl_PlaybackRules.js:74
 msgid "Gap"
 msgstr "Проміжок"
 
-#: dialogs/dlgOptions/pnl_PlaybackRules.js:72
+#: dialogs/dlgOptions/pnl_PlaybackRules.js:75
 msgid "Overlap"
 msgstr "Перекривати"
 
-#: dialogs/dlgOptions/pnl_PlaybackRules.js:73
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:26
+#: dialogs/dlgOptions/pnl_PlaybackRules.js:76
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:28
 msgid "Gap/Overlap"
 msgstr "Проміжок/перекриття"
 
 #. Unsupported by <NameofCurrentOutputPlugin>. Please change "Audio Output" ("plug-ins").
-#: dialogs/dlgOptions/pnl_PlaybackRules.js:126
+#: dialogs/dlgOptions/pnl_PlaybackRules.js:129
 msgid "Unsupported by %s."
 msgstr "Не підтримується через %s."
 
@@ -6038,9 +6059,12 @@ msgid "Automatically analyzes volume of tracks as a background process"
 msgstr "Автоматично аналізує гучність доріжок як фоновий процес"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:184
+#, fuzzy
+#| msgid ""
+#| "The change in artwork at %s will apply to %d other file(s) on the album. "
+#| "Do you want to proceed?"
 msgid ""
-"The change in artwork at %s will apply to %d other file(s) on the album. Do "
-"you want to proceed?"
+"The change in artwork at %s will apply to %d other file(s) on the album."
 msgstr ""
 "Зміна обкладинки на %s буде застосована до %d інших файлів в альбомі. "
 "Бажаєте продовжити?"
@@ -6209,7 +6233,7 @@ msgid "tracks"
 msgstr "доріжки"
 
 #. sources object, this is the list of all sources, addons can add its own source to this list
-#: helpers/autoDJ.js:16 Filters.pas:3441 MediaMonkeyApp.pas:9076
+#: helpers/autoDJ.js:16 Filters.pas:3452 MediaMonkeyApp.pas:9080
 #: ResStrings.pas:420
 msgid "Entire Library"
 msgstr "Вся Бібліотека"
@@ -6245,7 +6269,7 @@ msgstr "Розташовано"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to accept <Skip> as used in MM4 (and renamed to <Ignore> in MM5)
-#: helpers/autoTagFramework.js:288 MaskHelper.pas:3851
+#: helpers/autoTagFramework.js:288 MaskHelper.pas:3856
 #: dialogs\dlgAutotag.html:20
 msgid "Skip"
 msgstr "Пропустити"
@@ -6829,7 +6853,7 @@ msgstr "Всі списки відтворення"
 msgid "%d files to be tagged"
 msgstr "%d файлів для позначення теґами"
 
-#: BaseApp.pas:7469
+#: BaseApp.pas:7486
 msgid "There are background processes running. Terminate them?"
 msgstr "Запущені фонові процеси. Зупинити їх?"
 
@@ -6858,11 +6882,11 @@ msgstr "fps"
 msgid "%d database entries to be updated"
 msgstr "%d записів у базі даних, які потрібно оновити"
 
-#: BaseMedia.pas:15790 Filters.pas:2776
+#: BaseMedia.pas:15790 Filters.pas:2787
 msgid "list"
 msgstr "список"
 
-#: BaseMedia.pas:16431 Filters.pas:2718 ResStrings.pas:392
+#: BaseMedia.pas:16431 Filters.pas:2729 ResStrings.pas:392
 msgid "albums"
 msgstr "альбоми"
 
@@ -7096,7 +7120,7 @@ msgstr "Вилучення файлу %s (%d з %d)"
 msgid "%d of %d folders processed"
 msgstr "Оброблено %d з %d тек"
 
-#: dblistutils.pas:1509 UpNp.pas:6254 UPnPTreeHelper.pas:1909 WebUtils.pas:2037
+#: dblistutils.pas:1509 UpNp.pas:6228 UPnPTreeHelper.pas:1909 WebUtils.pas:2037
 #: WebUtils.pas:2061
 msgid "Unknown Title"
 msgstr "Невідома Назва"
@@ -7488,7 +7512,7 @@ msgstr "Недійсний Додаток: дійсний лише для MediaM
 
 #. show the addon's config immediatelly (so that users are aware)
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
-#: Extensions.pas:1039 UpNp.pas:11857
+#: Extensions.pas:1039 UpNp.pas:11833
 msgid "%s was successfully installed."
 msgstr "%s успішно встановлено."
 
@@ -7676,14 +7700,14 @@ msgstr "ABR"
 msgid "Max. bitrate"
 msgstr "Макс. швидкість потоку"
 
-#: FormatsHandler.pas:3402 FormatsHandler.pas:3641 MediaMonkeyApp.pas:7561
+#: FormatsHandler.pas:3402 FormatsHandler.pas:3641 MediaMonkeyApp.pas:7565
 msgid "MediaMonkey is unable to encode this format."
 msgstr "MediaMonkey не вдається кодувати цей формат."
 
 #. DRM
 #. accessible without error and does not play, was probably already stopped, exit, it could lead to error #17661 otherwise
 #. DRM
-#: FormatsManage.pas:1264 FullPlayer.pas:4462 GeneralDecoder.pas:442
+#: FormatsManage.pas:1264 FullPlayer.pas:4482 GeneralDecoder.pas:442
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
 msgstr "Файл %s неможливо декодувати. Можливо, це пов'язано з обмеженнями DRM."
 
@@ -7697,7 +7721,7 @@ msgid "Converting file %d of %d"
 msgstr "Перетворення файлу %d з %d"
 
 #. TODOWIN8
-#: FormatsManage.pas:1420 FormatsManage.pas:1937 UpNp.pas:4867
+#: FormatsManage.pas:1420 FormatsManage.pas:1937 UpNp.pas:4841
 msgid ""
 "There isn't enough free space to convert all files. Please clear space in "
 "the temporary directory"
@@ -7830,60 +7854,63 @@ msgid "above"
 msgstr "вище"
 
 #. using checkMedia removed, #18091
-#: FullPlayer.pas:2339
+#: FullPlayer.pas:2357
 msgid "Add %d file(s) to Playing"
 msgstr "Додати %d файлів до Відтворення"
 
-#: FullPlayer.pas:2496
+#: FullPlayer.pas:2514
 msgid "Clear Playing"
 msgstr "Очистити Відтворення"
 
-#: FullPlayer.pas:2967
+#: FullPlayer.pas:2987
 msgid "Currently, there is no output plug-in selected"
 msgstr "Наразі не вибрано жодного плагіна виводу"
 
-#: FullPlayer.pas:2981
+#: FullPlayer.pas:3001
 msgid "Currently no input plug-in is in use (no file is playing)."
 msgstr "Наразі плагін вводу не використовується (не відтворюється жоден файл)."
 
 #. run in separate thread, as caller could be terminated too fast and message would not be shown
 #. no audio hw
-#: FullPlayer.pas:4316 GeneralDecoder.pas:447
+#: FullPlayer.pas:4336 GeneralDecoder.pas:447
 msgid "No audio hardware found"
 msgstr "Аудіоапаратне забезпечення не знайдено"
 
 #. test accessibility first
-#: FullPlayer.pas:4453
+#: FullPlayer.pas:4473
 msgid "Playback failed: %s is inaccessible."
 msgstr "Помилка відтворення: %s недоступний."
 
 #. try to find missing codecs
 #. try to catch some known errors and handle them
-#: FullPlayer.pas:4470 FullPlayer.pas:4474 FullPlayer.pas:4477
+#: FullPlayer.pas:4490 FullPlayer.pas:4494 FullPlayer.pas:4497
 msgid "Playback failed: %s cannot decode %s."
 msgstr "Помилка відтворення: %s не може декодувати %s."
 
-#: FullPlayer.pas:4734
+#: FullPlayer.pas:4754
 msgid "Clean"
 msgstr "Очистити"
 
 #. this song already was in the playlist
-#: FullPlayer.pas:5061
+#: FullPlayer.pas:5081
 msgid "No duplicates were detected."
 msgstr "Дублікатів не виявлено."
 
-#: FullPlayer.pas:5065
+#: FullPlayer.pas:5085
 msgid "Do you want to remove %d duplicate(s) Playing?"
 msgstr "Видалити %d дублікатів, що відтворюються?"
 
 #. lock, so the track to delete won't be scanned again
-#: FullPlayer.pas:6702
+#: FullPlayer.pas:6795
+#, fuzzy
+#| msgid ""
+#| "The operation will be finished after the end of playback of the current "
+#| "track."
 msgid ""
-"The operation will be finished after the end of playback of the current "
-"track."
+"The operation will complete after the the current file finishes playing."
 msgstr "Дію буде закінчено після завершення відтворення поточної доріжки."
 
-#: FullPlayer.pas:7162
+#: FullPlayer.pas:7255
 msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
@@ -7891,11 +7918,11 @@ msgstr ""
 "Зараз відтворюється файл %s. Видалення призведе до переривання відтворення. "
 "Ви дійсно бажаєте видалити його?"
 
-#: FullPlayer.pas:8237
+#: FullPlayer.pas:8336
 msgid "Computing waveform for file %s"
 msgstr "Обчислення форми сигналу для файлу %s"
 
-#: FullPlayer.pas:8798 WinAmpPlugins.pas:2897
+#: FullPlayer.pas:8897 WinAmpPlugins.pas:2913
 msgid "No configuration"
 msgstr "Немає конфігурації"
 
@@ -8102,7 +8129,7 @@ msgstr ""
 "цифровими правами, що не дозволяє записати диск."
 
 #. do not show this message when app is launching.
-#: HTMLWindow.pas:13167
+#: HTMLWindow.pas:13177
 msgid ""
 "The MicroPlayer is not yet enabled. To enable it, right-click on the "
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
@@ -8163,7 +8190,7 @@ msgstr "Обробка списків відтворення"
 msgid "Auto Number"
 msgstr "Автоматичний номер"
 
-#: MaskHelper.pas:3162 MaskHelper.pas:3574 MaskHelper.pas:3871
+#: MaskHelper.pas:3162 MaskHelper.pas:3574 MaskHelper.pas:3876
 msgid "Target Extension"
 msgstr "Цільове розширення"
 
@@ -8171,15 +8198,15 @@ msgstr "Цільове розширення"
 msgid "Sample Rate"
 msgstr "Частота вибірки"
 
-#: MaskHelper.pas:3174 MaskHelper.pas:3647 MaskHelper.pas:3887
+#: MaskHelper.pas:3174 MaskHelper.pas:3647 MaskHelper.pas:3892
 msgid "Involved People"
 msgstr "Залучені Люди"
 
-#: MaskHelper.pas:3185 MaskHelper.pas:3697 MaskHelper.pas:3898
+#: MaskHelper.pas:3185 MaskHelper.pas:3697 MaskHelper.pas:3903
 msgid "Track Volume"
 msgstr "Гучність Доріжки"
 
-#: MaskHelper.pas:3186 MaskHelper.pas:3702 MaskHelper.pas:3899
+#: MaskHelper.pas:3186 MaskHelper.pas:3702 MaskHelper.pas:3904
 msgid "Album Volume"
 msgstr "Album Volume"
 
@@ -8211,74 +8238,74 @@ msgstr "Як користуватися масками"
 msgid "Track#"
 msgstr "Доріжка#"
 
-#: MaskHelper.pas:3867
+#: MaskHelper.pas:3872
 msgid "Disc#"
 msgstr "Диск#"
 
-#: MaskHelper.pas:3880
+#: MaskHelper.pas:3885
 msgid "Episode#"
 msgstr "Епізод#"
 
-#: MaskHelper.pas:3882
+#: MaskHelper.pas:3887
 msgid "Season#"
 msgstr "Сезон#"
 
-#: MaskHelper.pas:3892
+#: MaskHelper.pas:3897
 msgid "Played#"
 msgstr "Відтворено#"
 
-#: MaskHelper.pas:3913
+#: MaskHelper.pas:3923
 msgid "Skipped#"
 msgstr "Пропущено#"
 
-#: MediaManage.pas:2915
+#: MediaManage.pas:2923
 msgid "An error occured while moving file %s to %s. Do you want to try again?"
 msgstr ""
 "Під час переміщення файла %s до %s сталася помилка. Хочете спробувати ще раз?"
 
-#: MediaManage.pas:3059
+#: MediaManage.pas:3067
 msgid "Moving file %d of %d (%s)"
 msgstr "Переміщення файлу %d з %d (%s)"
 
-#: MediaManage.pas:3061
+#: MediaManage.pas:3069
 msgid "Copying file %d of %d (%s)"
 msgstr "Копіювання файлу %d з %d (%s)"
 
-#: MediaManage.pas:3221
+#: MediaManage.pas:3229
 msgid "Could not find file %s, it will not be %s."
 msgstr "Не вдалося знайти файл %s, він не буде %s."
 
-#: MediaManage.pas:3222
+#: MediaManage.pas:3230
 msgid "moved"
 msgstr "переміщено"
 
-#: MediaManage.pas:3222
+#: MediaManage.pas:3230
 msgid "copied"
 msgstr "скопійовано"
 
-#: MediaManage.pas:3854
+#: MediaManage.pas:3862
 msgid "Moving file $src$ to $dest$"
 msgstr "Переміщення файлу $src$ до $dest$"
 
-#: MediaManage.pas:3856
+#: MediaManage.pas:3864
 msgid "Copying file $src$ to $dest$"
 msgstr "Копіювання файлу $src$ до $dest$"
 
-#: MediaManage.pas:4075
+#: MediaManage.pas:4083
 msgid "The media '%s' is not inserted."
 msgstr "Носій '%s' не вставлено."
 
-#: MediaManage.pas:4154
+#: MediaManage.pas:4162
 msgid "Cannot rename directory %s to %s."
 msgstr "Неможливо перейменувати каталог %s на %s."
 
 #. #10283
 #. if we are going to tag a file that is playing, let's do it as quickly as possible
-#: MediaManage.pas:4394 MP3Utils.pas:3820
+#: MediaManage.pas:4402 MP3Utils.pas:3820
 msgid "Tag update failed: %s is inaccessible."
 msgstr "Помилка оновлення тегу: %s недоступний."
 
-#: MediaManage.pas:5636 MediaMonkeyApp.pas:5522
+#: MediaManage.pas:5644 MediaMonkeyApp.pas:5522
 msgid "Creating folder \"%s\" failed"
 msgstr "Спроба створення теки \"%s\" зазнала невдачі"
 
@@ -8312,48 +8339,48 @@ msgstr "Журнал сканування"
 msgid "Operation"
 msgstr "Дія"
 
-#: MediaMonkeyApp.pas:7360
+#: MediaMonkeyApp.pas:7364
 msgid "Lifetime"
 msgstr "Пожиттєво"
 
-#: MediaMonkeyApp.pas:7400 ResStrings.pas:372
+#: MediaMonkeyApp.pas:7404 ResStrings.pas:372
 msgid "Unregistered"
 msgstr "Незареєстрований"
 
-#: MediaMonkeyApp.pas:7402
+#: MediaMonkeyApp.pas:7406
 msgid "Trial version"
 msgstr "Пробна версія"
 
-#: MediaMonkeyApp.pas:7404
+#: MediaMonkeyApp.pas:7408
 msgid "Standard edition"
 msgstr "Стандартне видання"
 
 #. #16581
-#: MediaMonkeyApp.pas:7866
+#: MediaMonkeyApp.pas:7870
 msgid "Open tray"
 msgstr "&Відкрити панель"
 
-#: MediaMonkeyApp.pas:8626
+#: MediaMonkeyApp.pas:8630
 msgid "Track"
 msgstr "Доріжка"
 
-#: MediaMonkeyApp.pas:8631 QueryManage.pas:4942
+#: MediaMonkeyApp.pas:8635 QueryManage.pas:4942
 msgid "Leveling"
 msgstr "Вирівнювання"
 
-#: MediaMonkeyApp.pas:9094
+#: MediaMonkeyApp.pas:9098
 msgid "Edit Properties"
 msgstr "Редагувати Властивості"
 
-#: MediaMonkeyApp.pas:9104
+#: MediaMonkeyApp.pas:9108
 msgid "Clear list & play selected + subsequent"
 msgstr "Очистити список & виконати обраний + наступний"
 
-#: MediaMonkeyApp.pas:9105
+#: MediaMonkeyApp.pas:9109
 msgid "Clear list & play selected only"
 msgstr "Очистити список і відтворити лише вибрані"
 
-#: MediaMonkeyApp.pas:9106
+#: MediaMonkeyApp.pas:9110
 msgid "Play selected files only"
 msgstr "Відтворити лише обрані файли"
 
@@ -8472,31 +8499,23 @@ msgstr "пробне"
 msgid "trial-expired"
 msgstr "пробний вичерпано"
 
-#: MusicUtils.pas:521 MusicUtils.pas:550
+#: MusicUtils.pas:523 MusicUtils.pas:552
 msgid "Calculating signatures..."
 msgstr "Обчислення підписів..."
 
 #. 401769 = 31.12.2999 23:59:59
 #. 401769 = 31.12.2999 23:59:59
-#: MusicUtils.pas:872 Utils.pas:4510
+#: MusicUtils.pas:874 Utils.pas:4510
 msgid "Today"
 msgstr "Сьогодні"
 
-#: MusicUtils.pas:879 Utils.pas:4517
+#: MusicUtils.pas:881 Utils.pas:4517
 msgid "Yesterday"
 msgstr "Вчора"
 
-#: MusicUtils.pas:963
+#: MusicUtils.pas:965
 msgid " stars"
 msgstr " зірки"
-
-#: MusicUtils.pas:2223
-msgid ""
-"This kind of audio conversion is not implemented yet. Channels: %d "
-"(required: %d), Bits per sample: %d (required: %d)"
-msgstr ""
-"Цей тип перетворення аудіо ще не реалізовано. Канали: %d (потрібно: %d), "
-"Біти за вибірку: %d (потрібно: %d)"
 
 # SOME DESCRIPTIVE TITLE.
 #. tempo tag constant
@@ -8712,7 +8731,7 @@ msgstr "Здається, це не каталог OPML."
 #. eliminate the word
 #. Replace OR operator by ; (it has the same meaning)
 #: QueryManage.pas:2436 QueryManage.pas:2691 QueryManage.pas:2695
-#: QueryManage.pas:7859 QueryManage.pas:8015
+#: QueryManage.pas:7861 QueryManage.pas:8017
 msgid "OR"
 msgstr "OR"
 
@@ -8901,7 +8920,7 @@ msgstr "найменш часто"
 msgid "Original date"
 msgstr "Початкова дата"
 
-#: QueryManage.pas:8224 QueryManage.pas:8233
+#: QueryManage.pas:8226 QueryManage.pas:8235
 msgid "Present"
 msgstr "Присутній"
 
@@ -9249,19 +9268,23 @@ msgid "Sleep: %d minute"
 msgstr "Сон: %d хвилина"
 
 #: SQLiteDB.pas:646
-msgid ""
-"Library database %s can't be opened, please check the file is accessible and "
-"is not locked.<br><br>Error: "
-msgstr ""
-"Не вдається відкрити базу даних бібліотеки %s, будь ласка, перевірте чи файл "
-"доступний і не заблокований. "
+#, fuzzy
+#| msgid "The file %s cannot be created."
+msgid "Database file %s cannot be accessed."
+msgstr "Файл %s не може бути створений."
 
 #. per #17917
-#: UpNp.pas:1961
+#: UpNp.pas:1956
+#, fuzzy
+#| msgid ""
+#| "Your network connection is set to 'Public'. This usually sets your device "
+#| "to not be discoverable by other devices on the network.If you're at home "
+#| "then you might want to switch to 'Private' instead. Do you wish to "
+#| "proceed?"
 msgid ""
-"Your network connection is set to 'Public'. This usually sets your device to "
-"not be discoverable by other devices on the network.If you're at home then "
-"you might want to switch to 'Private' instead. Do you wish to proceed?"
+"Your network connection is set to 'Public'. This usually causes your machine "
+"to not be discoverable by other devices on the network. If you're on a home "
+"network, you may want to switch your network connection to 'Private'."
 msgstr ""
 "Ваше мережеве з'єднання налаштоване в режимі \"Загальнодоступне\". Зазвичай "
 "це означає, що ваш пристрій не може бути виявлений іншими пристроями в "
@@ -9269,19 +9292,19 @@ msgstr ""
 "на \"Приватне\". Бажаєте продовжити?"
 
 #. #13718 - item 1
-#: UpNp.pas:2504
+#: UpNp.pas:2499
 msgid "Casting"
 msgstr "Транслювання на пристрій"
 
-#: UpNp.pas:3748
+#: UpNp.pas:3726
 msgid "MediaMonkey Library"
 msgstr "Бібліотека MediaMonkey"
 
-#: UpNp.pas:4043
+#: UpNp.pas:4020
 msgid "Media server '%s' could not start: port %d is already in use."
 msgstr "Медіа сервер '%s' не вдалося запустити: порт %d уже використовується."
 
-#: UpNp.pas:4044
+#: UpNp.pas:4021
 msgid ""
 "Check whether another instance of MediaMonkey is already running or change "
 "the port# in Options > Media Sharing."
@@ -9289,11 +9312,11 @@ msgstr ""
 "Перевірте, чи не запущений інший екземпляр MediaMonkey, або змініть номер "
 "порту в меню Налаштування > Спільний доступ до мультимедіа."
 
-#: UpNp.pas:4504
+#: UpNp.pas:4478
 msgid "Denied"
 msgstr "Відмовлено"
 
-#: UpNp.pas:4506
+#: UpNp.pas:4480
 msgid "Accepted"
 msgstr "Прийнято"
 
@@ -9301,82 +9324,82 @@ msgstr "Прийнято"
 #. this is request to (un)check this item on the sync list for particular device
 #. to make the log nicer
 #. it is container, 'path/Artist/ABBA'
-#: UpNp.pas:4817 UpNp.pas:5615 UpNp.pas:6467
+#: UpNp.pas:4791 UpNp.pas:5589 UpNp.pas:6441
 #: controls\deviceConfig\options\pnl_FileLocations.html:73
 msgid "Root directory"
 msgstr "Кореневий каталог"
 
-#: UpNp.pas:4888
+#: UpNp.pas:4862
 msgid "Output from MediaMonkey Player"
 msgstr "Виведення з програвача MediaMonkey"
 
-#: UpNp.pas:5831 UpNp.pas:5837
+#: UpNp.pas:5805 UpNp.pas:5811
 msgid "This is an external IP address!"
 msgstr "Це зовнішня IP-адреса!"
 
-#: UpNp.pas:5833 UpNp.pas:5840
+#: UpNp.pas:5807 UpNp.pas:5814
 msgid "Do you want to grant it access?"
 msgstr "Бажаєте надати йому доступ?"
 
 #. Access is not allowed, ask user to allow access
-#: UpNp.pas:5967
+#: UpNp.pas:5941
 msgid "A device [MAC address: %s] is attempting to access the %s"
 msgstr "Пристрій [MAC-адреса: %s] намагається отримати доступ до %s"
 
 #. WiFi sync
-#: UpNp.pas:5993
+#: UpNp.pas:5967
 msgid "Access denied"
 msgstr "У доступі відмовлено"
 
 #. #18189 - to advance to next track when screen is dimmed (and player seekbar rendering inactive)
 #. to not show "turned off or inaccessible" message, but just skip to the next file
-#: UpNp.pas:8566 UpNp.pas:9117 UpNp.pas:12904
+#: UpNp.pas:8540 UpNp.pas:9091 UpNp.pas:12887
 msgid "Buffering on"
 msgstr "Буферизація увімкнена"
 
-#: UpNp.pas:8633
+#: UpNp.pas:8607
 msgid "Connecting to"
 msgstr "Підключення до"
 
 #. some players (e.g. Samsung) requires Stop before setting another track (#10298: Next has no effect when player is Samsung TV)
-#: UpNp.pas:8728
+#: UpNp.pas:8702
 msgid "Stopping on"
 msgstr "Зупинка увімкнена"
 
-#: UpNp.pas:9397
+#: UpNp.pas:9371
 msgid "Multi-zone"
 msgstr "Багатозонна"
 
-#: UpNp.pas:10355
+#: UpNp.pas:10329
 msgid "Manufacturer"
 msgstr "Виробник"
 
-#: UpNp.pas:10357
+#: UpNp.pas:10331
 msgid "Model name"
 msgstr "Назва моделі"
 
-#: UpNp.pas:10359
+#: UpNp.pas:10333
 msgid "Model number"
 msgstr "Номер моделі"
 
-#: UpNp.pas:10361
+#: UpNp.pas:10335
 msgid "Model description"
 msgstr "Опис моделі"
 
-#: UpNp.pas:11347
+#: UpNp.pas:11321
 msgid "The link/URL has not been entered in a valid format"
 msgstr "Посилання/URL-адреса не було введено в дійсному форматі"
 
 #. try again after 1 second as in some environments the router re-configuration (OpenPort) makes temporal issues
-#: UpNp.pas:11370
+#: UpNp.pas:11344
 msgid "The link/URL entered does not point to a media server device"
 msgstr "Введене посилання/URL-адреса не вказує на пристрій медіа сервера"
 
-#: UpNp.pas:12971
+#: UpNp.pas:12954
 msgid "Playing to %s has failed"
 msgstr "Помилка відтворення на %s"
 
-#: UpNp.pas:12971
+#: UpNp.pas:12954
 msgid "The format is probably unsupported by the device."
 msgstr "Формат, ймовірно, не підтримується пристроєм."
 
@@ -9426,11 +9449,11 @@ msgid "&Load Playlist"
 msgstr "&Завантажити Список відтворення"
 
 #. make sure CD_Reader is the first
-#: WinAmpPlugins.pas:3193
+#: WinAmpPlugins.pas:3215
 msgid "Plug-in %s could not be opened."
 msgstr "Не вдалося відкрити плагін %s."
 
-#: WinAmpPlugins.pas:5290
+#: WinAmpPlugins.pas:5329
 msgid ""
 "Current audio configuration cannot play %s. Verify that your sound drivers "
 "are properly installed or try to change/re-configure the output plugin."
@@ -9446,10 +9469,6 @@ msgstr "WMA не підтримується. Спочатку потрібно �
 #: controls\searchEditor.html:30
 msgid "Limit to"
 msgstr "Обмежити до"
-
-#: controls\deviceConfig\options\pnl_Tagging.html:30
-msgid " If disabled, tag edits will not cause the file to resync"
-msgstr " Якщо вимкнено, редагування тегів не призведе пере синхронізації файлу"
 
 #: controls\nowPlaying\fullList.html:44
 msgid "Coming up: "
@@ -9777,6 +9796,10 @@ msgstr ""
 "\"Відтворити зараз\" для окремого файлу. Застосовується лише тоді, коли "
 "активовано режим вечірки."
 
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:8
+msgid "Enable speed adjustment"
+msgstr ""
+
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
 "This causes MediaMonkey to save .m3u files in a format that preserves non-"
@@ -9820,6 +9843,13 @@ msgstr ""
 #: controls\deviceConfig\options\pnl_Playlists.html:14
 msgid "Selected folder nodes"
 msgstr "Вибрані вузли тек"
+
+#: controls\deviceConfig\options\pnl_Tagging.html:30
+msgid ""
+"On sync, metadata for edited tags are always synced. This option "
+"additionally causes edited tracks to be recopied (useful for devices running "
+"3rd-party players)."
+msgstr ""
 
 #: dialogs\dlgEditView.html:23
 msgid "Sorting"
@@ -10401,7 +10431,7 @@ msgstr "MusicBrainz"
 msgid "Total lockdown"
 msgstr "Загальний карантин"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:20
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:22
 msgid "Fade in"
 msgstr "Затухання в"
 
@@ -10487,7 +10517,7 @@ msgstr "Freedb (CDDBP)"
 msgid "Saves the change without confirmation."
 msgstr "Зберігає зміни без підтвердження."
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:14
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:16
 msgid "Fade out"
 msgstr "Затухати"
 
@@ -10574,7 +10604,7 @@ msgstr "Додати виняток брандмауера Windows"
 msgid "Disable repositioning of dialogs and controls"
 msgstr "Вимкнути зміну положення діалогових вікон та елементів керування"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:43
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:45
 msgid "Choose how the 'Track summary' field displays for each content Type"
 msgstr ""
 "Виберіть спосіб зображення поля \"Відомості про доріжку\" для кожного типу "
@@ -10852,7 +10882,7 @@ msgstr "Ця опція повністю приховує панель меню.
 msgid "Allows music to be lowered/paused for announcements during a party"
 msgstr "Дозволяє зменшувати/призупиняти музику для оголошень під час вечірки"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:10
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Removes gaps introduced by some lossy encoders"
 msgstr "Усуває прогалини, внесені деякими кодерами з втратами"
 
@@ -11631,11 +11661,11 @@ msgstr "Типова дія"
 msgid "Player controls"
 msgstr "Елементи керування Програвачем"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:34
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:36
 msgid "Increase play counter at:"
 msgstr "Збільшити лічильник відтворення на:"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:25
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:27
 msgid "Sets the size of the gap or overlap between tracks"
 msgstr "Встановлює розмір проміжку або перекриття між доріжками"
 
@@ -11735,7 +11765,7 @@ msgstr "Перетворення"
 msgid "Use multiple CPU cores (if available)"
 msgstr "Використовувати декілька ядер процесора (за наявності)"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:38
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:40
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It can be set use the default Player settings or customized "
@@ -11950,7 +11980,7 @@ msgstr "Джерела"
 msgid "Determines which actions are presented when a disk is inserted"
 msgstr "Визначає, які дії буде показано під час вставлення диска"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:44
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:46
 msgid "'Track summary' format (e.g. in Player, Tracklist):"
 msgstr ""
 "Формат \"Короткий зміст треку\"\" (наприклад, у програвачі, трек-листі):"
@@ -12036,7 +12066,7 @@ msgstr ""
 "Підвищення продуктивності деяких завдань коштом використання декількох ядер "
 "ЦП"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:12
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:14
 msgid "Crossfading"
 msgstr "Перехресне затухання"
 
@@ -12339,7 +12369,7 @@ msgstr "Тимчасовий каталог:"
 msgid ".nfo files, Path and Filenames"
 msgstr ".nfo файли, шлях та імена файлів"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:10
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Remove silence at the beginning / end of track"
 msgstr "Видалити тишу на початку/в кінці доріжки"
 
@@ -12486,10 +12516,6 @@ msgstr "Коли формат є"
 msgid "File type"
 msgstr "Тип файлу"
 
-#: dialogs\dlgEditView.html:19
-msgid "Use in"
-msgstr "Використовувати в"
-
 #: dialogs\dlgRegisterGold.html:32
 msgid "If you don't have a license key, you can"
 msgstr "Якщо у вас немає ліцензійного ключа, ви можете"
@@ -12508,7 +12534,8 @@ msgstr "Встановіть типовий формат каталогу / ім
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the 'Playing' list"
-msgstr "Підтвердити бажані параметри видалення файлів зі списку \"Відтворення\""
+msgstr ""
+"Підтвердити бажані параметри видалення файлів зі списку \"Відтворення\""
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -13169,6 +13196,40 @@ msgstr "Початкова Назва"
 #: dialogs\dlgTrackProperties\tabDetails.html:64
 msgid "Original title"
 msgstr "Оригінальна назва"
+
+#~ msgid ""
+#~ "%s appears running normally, if you still can't access server on the "
+#~ "other machines/devices click Help."
+#~ msgstr ""
+#~ "%s здається, працює нормально, якщо ви все ще не можете отримати доступ "
+#~ "до сервера на інших комп'ютерах/пристроях, натисніть кнопку Допомога."
+
+#~ msgid "Organize"
+#~ msgstr "Впорядкувати"
+
+#~ msgid "Tag from filename"
+#~ msgstr "Теґ з імені файлу"
+
+#~ msgid ""
+#~ "This kind of audio conversion is not implemented yet. Channels: %d "
+#~ "(required: %d), Bits per sample: %d (required: %d)"
+#~ msgstr ""
+#~ "Цей тип перетворення аудіо ще не реалізовано. Канали: %d (потрібно: %d), "
+#~ "Біти за вибірку: %d (потрібно: %d)"
+
+#~ msgid ""
+#~ "Library database %s can't be opened, please check the file is accessible "
+#~ "and is not locked.<br><br>Error: "
+#~ msgstr ""
+#~ "Не вдається відкрити базу даних бібліотеки %s, будь ласка, перевірте чи "
+#~ "файл доступний і не заблокований. "
+
+#~ msgid " If disabled, tag edits will not cause the file to resync"
+#~ msgstr ""
+#~ " Якщо вимкнено, редагування тегів не призведе пере синхронізації файлу"
+
+#~ msgid "Use in"
+#~ msgstr "Використовувати в"
 
 #~ msgid "'Play Now' Action:"
 #~ msgstr "Дія для 'Виконати Зараз':"

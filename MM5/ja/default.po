@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 17:14\n"
+"POT-Creation-Date: 2024-02-16 10:39\n"
 "PO-Revision-Date: 2024-01-15 21:32+0000\n"
 "Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
@@ -35,7 +35,7 @@ msgid "Tools"
 msgstr "ツール"
 
 #. update interval, smaller interval, bigger CPU load
-#: actions.js:31 controls/player.js:134
+#: actions.js:31 controls/player.js:160
 msgid "Playback"
 msgstr "再生"
 
@@ -48,7 +48,7 @@ msgstr "編集"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepared menu item for library exports implemented by scripts
-#: actions.js:37 actions.js:5719 dialogs\dlgOptions\pnl_Hotkeys.html:21
+#: actions.js:37 actions.js:5853 dialogs\dlgOptions\pnl_Hotkeys.html:21
 msgid "Export"
 msgstr "エクスポート"
 
@@ -67,7 +67,7 @@ msgstr "ダウンロード"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. @ts-ignore
-#: actions.js:49 templates.js:277 controls/player.js:751
+#: actions.js:49 templates.js:277 controls/player.js:828
 #: controls/trackListView.js:1290 dialogs/dlgAutotag.js:1802
 #: dialogs/dlgTrackProperties.js:30 ResStrings.pas:493
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:10
@@ -82,7 +82,7 @@ msgstr "履歴"
 #. "fake" menu button in flex, so the height is set appropriately (real menu button is positioned absolutely with no impact on automatic header height)
 #. adding not canceled
 #: actions.js:55 controls/nowplayingList.js:308 controls/nowplayingList.js:311
-#: controls/player.js:695 controls/statusbar.js:150 controls/statusbar.js:153
+#: controls/player.js:772 controls/statusbar.js:150 controls/statusbar.js:153
 #: dialogs/dlgOptions.js:39 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:428 maincontent.html:50
@@ -246,7 +246,7 @@ msgstr "マイクロプレイヤーに最小化"
 msgid "Toggle"
 msgstr "トグル"
 
-#: actions.js:773 HTMLWindow.pas:13167
+#: actions.js:773 HTMLWindow.pas:13177
 msgid "MicroPlayer"
 msgstr "マイクロプレイヤー"
 
@@ -275,7 +275,7 @@ msgstr "ツールバー"
 msgid "Full screen"
 msgstr "フルスクリーン"
 
-#: actions.js:897 controls/player.js:557
+#: actions.js:897 controls/player.js:634
 msgid "Exit fullscreen"
 msgstr "全画面表示を終える"
 
@@ -306,7 +306,7 @@ msgstr "画像を探す"
 #: actions.js:974 actions.js:2253 actions.js:2608 viewHandlers.js:4305
 #: controls/folderTree.js:37 controls/playlistHeader.js:155
 #: dialogs/dlgPodcastUnsubscribe.js:8 dialogs/dlgPodcastUnsubscribe.js:16
-#: dialogs/dlgPodcastUnsubscribe.js:17 FullPlayer.pas:4849
+#: dialogs/dlgPodcastUnsubscribe.js:17 FullPlayer.pas:4869
 #: controls\serverConfig\devices.html:9
 msgid "Remove"
 msgstr "削除"
@@ -343,7 +343,7 @@ msgstr "プレイリストを保存"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16261 - to be the first in the list after creation
 #. #16261 - to be the first in the list after creation
-#: actions.js:1094 actions.js:6926 actions.js:6954
+#: actions.js:1094 actions.js:7065 actions.js:7093
 #: dialogs\dlgSelectPlaylist.html:11
 msgid "New playlist"
 msgstr "新規プレイリスト"
@@ -352,15 +352,15 @@ msgstr "新規プレイリスト"
 #. navigationHandlers['playlist'].navigate(newplaylist); // navigation is intentionally disabled, so that user can D&D tracks from the current view to the new playlist (#12355)
 #. For screen reader support (aria-label for screen readers to read its state)
 #. For screen reader support (aria-label for screen readers to read its state)
-#: actions.js:1119 actions.js:6201 controls/nowplayingList.js:308
-#: controls/player.js:418 controls/player.js:420 controls/player.js:426
-#: controls/player.js:428 controls/player.js:435 controls/player.js:437
+#: actions.js:1119 actions.js:6340 controls/nowplayingList.js:308
+#: controls/player.js:495 controls/player.js:497 controls/player.js:503
+#: controls/player.js:505 controls/player.js:512 controls/player.js:514
 #: controls/statusbar.js:131 controls/statusbar.js:150 dialogs/dlgOptions.js:39
 #: dialogs\dlgOptions\pnl_AutoDJ.html:3
 msgid "Auto-DJ"
 msgstr "オートDJ"
 
-#: actions.js:1137 FullPlayer.pas:5069
+#: actions.js:1137 FullPlayer.pas:5089
 msgid "Remove duplicates"
 msgstr "重複を除去"
 
@@ -370,7 +370,7 @@ msgstr "重複を除去"
 msgid "Save new order"
 msgstr "新しい順序を保存"
 
-#: actions.js:1184
+#: actions.js:1184 dialogs/dlgAutoorganize.js:19
 msgid "Organi&ze files"
 msgstr "ファイルの整理(&Z)"
 
@@ -439,12 +439,12 @@ msgstr "ライブラリにファイルを追加 / 再スキャン(&A)"
 msgid "Open in Explorer"
 msgstr "エクスプローラーで開く"
 
-#: actions.js:1473 actions.js:1483 actions.js:6855 actions.js:6862
+#: actions.js:1473 actions.js:1483 actions.js:6994 actions.js:7001
 #: dialogs\dlgSelectFolder.html:27
 msgid "New folder"
 msgstr "新しいフォルダー"
 
-#: actions.js:1484 actions.js:6863
+#: actions.js:1484 actions.js:7002
 msgid "New folder name"
 msgstr "新しいフォルダー名"
 
@@ -483,7 +483,7 @@ msgstr "アルバム"
 #: controls/genreArtists.js:204 controls/searchView.js:8
 #: controls/yearArtists.js:170 controls/yearArtists.js:189
 #: Scripts/deezer/viewHandlers_add.js:3
-#: Scripts/statistics/dialogs/dlgStatistics.js:173 UpNp.pas:6429 UpNp.pas:6434
+#: Scripts/statistics/dialogs/dlgStatistics.js:173 UpNp.pas:6403 UpNp.pas:6408
 #: UPnPTreeHelper.pas:1885 UPnPTreeHelper.pas:1886 controls\homeView.html:7
 msgid "Artists"
 msgstr "アーティスト"
@@ -517,7 +517,7 @@ msgstr "ピン留め"
 #. width: 24, // defined by icon style, this would soemtimes cause #20508
 #: actions.js:1575 templates.js:1266 templates.js:1310 templates.js:1348
 #: uitools.js:1380 uitools.js:2469 viewHandlers.js:6299
-#: controls/downloadView.js:109 controls/player.js:628
+#: controls/downloadView.js:109 controls/player.js:705
 #: controls/searchEditor.js:878 controls/trackListView.js:104
 #: dialogs/dlgAutotag.js:2069 dialogs/dlgDeletedTracks.js:85
 #: dialogs/dlgOptions/pnl_Layouts.js:162
@@ -538,7 +538,7 @@ msgstr "タイトル"
 #: actions.js:1593 templates.js:1280 templates.js:1328 templates.js:1359
 #: uitools.js:1404 viewHandlers.js:8487 controls/albumlistView.js:602
 #: controls/albumViewHeader.js:102 controls/albumViewHeader.js:104
-#: controls/downloadView.js:118 controls/player.js:645 controls/sortBy.js:10
+#: controls/downloadView.js:118 controls/player.js:722 controls/sortBy.js:10
 #: controls/trackListView.js:179 dialogs/dlgArtworkDetail.js:12
 #: dialogs/dlgAutotag.js:2163 dialogs/dlgEditView.js:21
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:144
@@ -548,7 +548,7 @@ msgstr "タイトル"
 #: layouts/Touch/templates_add.js:33
 #: Scripts/statistics/dialogs/dlgStatistics.js:405
 #: Scripts/statistics/dialogs/dlgStatistics.js:436 Devices.pas:2068
-#: MaskHelper.pas:3128 MediaMonkeyApp.pas:8628 QueryManage.pas:3045
+#: MaskHelper.pas:3128 MediaMonkeyApp.pas:8632 QueryManage.pas:3045
 #: QueryManage.pas:3053 QueryManage.pas:3060 ResStrings.pas:423
 #: ResStrings.pas:436 ResStrings.pas:513
 #: dialogs\dlgTrackProperties\tabBasic.html:93
@@ -560,7 +560,7 @@ msgstr "アルバム"
 #: actions.js:1611 templates.js:1273 templates.js:1320 templates.js:1353
 #: uitools.js:1432 viewHandlers.js:8574 controls/artistViewHeader.js:59
 #: controls/artistViewHeader.js:61 controls/downloadView.js:127
-#: controls/player.js:635 controls/trackListView.js:155
+#: controls/player.js:712 controls/trackListView.js:155
 #: dialogs/dlgAutotag.js:2127 dialogs/dlgDeletedTracks.js:94
 #: dialogs/dlgMovedFiles.js:113 dialogs/dlgMovedFiles.js:166
 #: dialogs/dlgMovedFiles.js:219 dialogs/dlgOptions/pnl_MetadataLookup.js:143
@@ -580,8 +580,8 @@ msgstr "アーティスト"
 #: actions.js:1629 uitools.js:1462 controls/albumlistView.js:609
 #: controls/sortBy.js:24 controls/trackListView.js:787
 #: dialogs/dlgArtworkDetail.js:13 dialogs/dlgAutotag.js:2206
-#: MaskHelper.pas:3127 ResStrings.pas:437 ResStrings.pas:512 UpNp.pas:6119
-#: UpNp.pas:6120
+#: MaskHelper.pas:3127 ResStrings.pas:437 ResStrings.pas:512 UpNp.pas:6093
+#: UpNp.pas:6094
 msgid "Album Artist"
 msgstr "アルバムアーティスト"
 
@@ -594,7 +594,7 @@ msgstr "作曲者"
 
 #. to show full value like 6.245689785 (and not '6.25 dB' via utils.formatNormalization)
 #: actions.js:1665 controls/trackListView.js:1148 Covers.pas:774
-#: MaskHelper.pas:3132 MaskHelper.pas:3559 MaskHelper.pas:3868
+#: MaskHelper.pas:3132 MaskHelper.pas:3559 MaskHelper.pas:3873
 #: ResStrings.pas:489
 msgid "Conductor"
 msgstr "指揮者"
@@ -602,14 +602,14 @@ msgstr "指揮者"
 #. this field should not be used for whole album, specific for each track
 #. don't save
 #: actions.js:1683 controls/trackListView.js:1578 dialogs/dlgAutotag.js:2383
-#: MaskHelper.pas:3165 MaskHelper.pas:3605 MaskHelper.pas:3877
+#: MaskHelper.pas:3165 MaskHelper.pas:3605 MaskHelper.pas:3882
 #: QueryManage.pas:4961 ResStrings.pas:504
 msgid "Producer"
 msgstr "プロデューサー"
 
 #. online mode only for online source track
 #: actions.js:1701 uitools.js:1510 MaskHelper.pas:3169 MaskHelper.pas:3627
-#: MaskHelper.pas:3883
+#: MaskHelper.pas:3888
 msgid "Actor"
 msgstr "出演者"
 
@@ -625,7 +625,7 @@ msgstr "発行者"
 #. don't save
 #: actions.js:1737 uitools.js:1430 controls/trackListView.js:1596
 #: dialogs/dlgAutotag.js:2348 dialogs/dlgOptions/pnl_MetadataLookup.js:150
-#: MaskHelper.pas:3166 MaskHelper.pas:3610 MaskHelper.pas:3878
+#: MaskHelper.pas:3166 MaskHelper.pas:3610 MaskHelper.pas:3883
 #: QueryManage.pas:1879 QueryManage.pas:3046 QueryManage.pas:3061
 #: ResStrings.pas:505
 msgid "Director"
@@ -642,8 +642,8 @@ msgstr "ディレクター"
 #: Scripts/musicBrainz/helpers/genreDataSource.js:25
 #: Scripts/statistics/dialogs/dlgStatistics.js:466
 #: Scripts/statistics/dialogs/dlgStatistics.js:493 MaskHelper.pas:3129
-#: ResStrings.pas:426 ResStrings.pas:442 ResStrings.pas:515 UpNp.pas:6427
-#: UpNp.pas:6440
+#: ResStrings.pas:426 ResStrings.pas:442 ResStrings.pas:515 UpNp.pas:6401
+#: UpNp.pas:6414
 msgid "Genre"
 msgstr "ジャンル"
 
@@ -661,7 +661,7 @@ msgstr "録音年"
 #. this field should not be used for whole album, specific for each track
 #: actions.js:1791 actions.js:1809 actions.js:1827 uitools.js:1590
 #: uitools.js:1605 uitools.js:1620 controls/trackListView.js:223
-#: MaskHelper.pas:3135 MediaMonkeyApp.pas:7516 ResStrings.pas:539
+#: MaskHelper.pas:3135 MediaMonkeyApp.pas:7520 ResStrings.pas:539
 msgid "Folder"
 msgstr "フォルダー"
 
@@ -674,7 +674,7 @@ msgstr "ライブラリ"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not process updateValues() when just setting up the source
 #. The first line will show 'All' items
-#: actions.js:1809 actions.js:3390 uitools.js:1605 viewHandlers.js:8258
+#: actions.js:1809 actions.js:3522 uitools.js:1605 viewHandlers.js:8258
 #: controls/buttons.js:428 controls/deviceContentSequencer.js:17
 #: controls/tracklistFilter.js:676 controls/deviceConfig/syncToDevice.js:312
 #: controls/deviceConfig/syncToDevice.js:314 dialogs/dlgExtensions.js:39
@@ -780,8 +780,9 @@ msgstr "現在のデータベースのバックアップを作成します"
 
 #: actions.js:2123 actions.js:2155 actions.js:2191 actions.js:2573
 #: uitools.js:2542 dialogs/dlgOptions/pnl_MediaTree.js:206
+#: dialogs/dlgTrackProperties/tabArtwork.js:184
 #: Scripts/autoIncTrack/actions_add.js:23
-#: Scripts/syncToFolder/viewHandlers_add.js:7
+#: Scripts/syncToFolder/viewHandlers_add.js:7 UpNp.pas:1956
 msgid "Do you want to proceed?"
 msgstr "続行しますか？"
 
@@ -883,7 +884,7 @@ msgstr "閉じる(&X)"
 
 #. window.closeWindow();
 #. msg = msg + _('Error') + ': ' + err + '<br><br>';
-#: actions.js:2414 actions.js:2598 actions.js:4775
+#: actions.js:2414 actions.js:2598 actions.js:4907
 msgid "&Properties"
 msgstr "プロパティ(&P)"
 
@@ -935,7 +936,7 @@ msgstr "メディアサーバーを手動で追加"
 msgid "If a media server isn't found automatically, you can add one manually."
 msgstr "メディアサーバーが自動的に見つからない場合、手動で追加できます。"
 
-#: actions.js:2538 UpNp.pas:10363 controls\devicesView.html:36
+#: actions.js:2538 UpNp.pas:10337 controls\devicesView.html:36
 msgid "Device Description file path:"
 msgstr "デバイスの説明ファイルパス:"
 
@@ -949,7 +950,7 @@ msgstr "%sに接続できませんでした"
 
 #: actions.js:2556 dialogs/dlgAutotag.js:643 Extensions.pas:900
 #: Extensions.pas:911 Extensions.pas:915 Extensions.pas:963 Extensions.pas:1044
-#: Extensions.pas:1073 ResStrings.pas:579 UI.pas:1395
+#: Extensions.pas:1073 ResStrings.pas:579 SQLiteDB.pas:646 UI.pas:1395
 msgid "Error"
 msgstr "エラー"
 
@@ -1067,7 +1068,7 @@ msgstr "クラッシュログを自動的に送信"
 #. this is DLNA link to lyrics file, load it
 #: actions.js:2821 viewHandlers.js:2490 viewHandlers.js:4497
 #: controls/mainTabContent.js:252 controls/trackListView.js:1093
-#: BaseMedia.pas:15790 BaseMedia.pas:16431 Filters.pas:2718 Filters.pas:2776
+#: BaseMedia.pas:15790 BaseMedia.pas:16431 Filters.pas:2729 Filters.pas:2787
 #: PodcastManage.pas:937
 msgid "Loading"
 msgstr "読み込み中"
@@ -1076,29 +1077,36 @@ msgstr "読み込み中"
 msgid "E&qualizer"
 msgstr "イコライザー(&Q)"
 
-#: actions.js:2867
+#: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
+#: dialogs\dlgSpeedPitch.html:13
+#, fuzzy
+#| msgid "Adjust video"
+msgid "Adjust speed"
+msgstr "動画の調整"
+
+#: actions.js:2999
 msgid "&Rip Audio CD"
 msgstr "オーディオCDのリッピング(&R)"
 
 #. to break the loop (#19401)
-#: actions.js:2915 CDUtils.pas:794 ResStrings.pas:371
+#: actions.js:3047 CDUtils.pas:794 ResStrings.pas:371
 msgid "Audio CD"
 msgstr "オーディオCD"
 
-#: actions.js:2915 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:38
+#: actions.js:3047 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:38
 msgid "Burn"
 msgstr "ディスク書き込み"
 
-#: actions.js:2936 dialogs/dlgCDDBResult.js:8
+#: actions.js:3068 dialogs/dlgCDDBResult.js:8
 msgid "Lookup Audio CD metadata"
 msgstr "オーディオCDメタデータを探す"
 
 #. = check all drives
-#: actions.js:2951
+#: actions.js:3083
 msgid "Eject"
 msgstr "取り出し"
 
-#: actions.js:2963
+#: actions.js:3095
 msgid "&Options"
 msgstr "オプション(&O)"
 
@@ -1106,113 +1114,113 @@ msgstr "オプション(&O)"
 #. it is our own version, saving using app.setValue
 #. prepare menu items for 'Playing' list
 #. checkable: true,
-#: actions.js:2975 controls/artWindow.js:784 controls/artWindow.js:793
-#: controls/player.js:992 controls/playingListContainer.js:103
+#: actions.js:3107 controls/artWindow.js:784 controls/artWindow.js:793
+#: controls/player.js:1071 controls/playingListContainer.js:103
 #: controls/playingListContainer.js:199 dialogs/dlgOptions.js:66
 #: Extensions.pas:1596
 msgid "Layout"
 msgstr "レイアウト"
 
-#: actions.js:2987 dialogs/dlgExtensions.js:10
+#: actions.js:3119 dialogs/dlgExtensions.js:10
 msgid "Addons"
 msgstr "アドオン"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare object for menu generation functions
-#: actions.js:2999 actions.js:3013 actions.js:3016 actions.js:3030
-#: actions.js:3033 actions.js:6084 controls/trackListView.js:1883
-#: MediaMonkeyApp.pas:9091 dialogs\dlgOptions\pnl_OSIntegration.html:8
+#: actions.js:3131 actions.js:3145 actions.js:3148 actions.js:3162
+#: actions.js:3165 actions.js:6218 controls/trackListView.js:1883
+#: MediaMonkeyApp.pas:9095 dialogs\dlgOptions\pnl_OSIntegration.html:8
 msgid "Play now"
 msgstr "今すぐ再生"
 
-#: actions.js:3016 actions.js:3078 actions.js:3126 actions.js:6084
-#: actions.js:6096 actions.js:6111 actions.js:6126
+#: actions.js:3148 actions.js:3210 actions.js:3258 actions.js:6218
+#: actions.js:6230 actions.js:6245 actions.js:6260
 #: controls/trackListView.js:1883 controls/trackListView.js:1895
 #: controls/trackListView.js:1910 controls/trackListView.js:1925
 msgid "shuffled"
 msgstr "シャッフル"
 
-#: actions.js:3033 actions.js:3095 actions.js:3143
+#: actions.js:3165 actions.js:3227 actions.js:3275
 msgid "shuffled by Album"
 msgstr "アルバムでシャッフル"
 
-#: actions.js:3047 actions.js:6111 controls/trackListView.js:1910
+#: actions.js:3179 actions.js:6245 controls/trackListView.js:1910
 msgid "Queue mixed"
 msgstr "再生キューに混在させる"
 
-#: actions.js:3061 actions.js:3075 actions.js:3078 actions.js:3092
-#: actions.js:3095 actions.js:6096 controls/trackListView.js:1895
-#: MediaMonkeyApp.pas:9092 dialogs\dlgOptions\pnl_OSIntegration.html:9
+#: actions.js:3193 actions.js:3207 actions.js:3210 actions.js:3224
+#: actions.js:3227 actions.js:6230 controls/trackListView.js:1895
+#: MediaMonkeyApp.pas:9096 dialogs\dlgOptions\pnl_OSIntegration.html:9
 msgid "Queue next"
 msgstr "次に再生"
 
-#: actions.js:3109 actions.js:3123 actions.js:3126 actions.js:3140
-#: actions.js:3143 actions.js:6126 controls/trackListView.js:1925
-#: MediaMonkeyApp.pas:9093 dialogs\dlgOptions\pnl_OSIntegration.html:10
+#: actions.js:3241 actions.js:3255 actions.js:3258 actions.js:3272
+#: actions.js:3275 actions.js:6260 controls/trackListView.js:1925
+#: MediaMonkeyApp.pas:9097 dialogs\dlgOptions\pnl_OSIntegration.html:10
 msgid "Queue last"
 msgstr "最後に再生"
 
-#: actions.js:3157 controls/player.js:147 FileAssoc.pas:740
+#: actions.js:3289 controls/player.js:173 FileAssoc.pas:740
 msgid "Play"
 msgstr "再生"
 
 #. force display, if playing to external player
-#: actions.js:3174 controls/downloadView.js:43 controls/player.js:238
+#: actions.js:3306 controls/downloadView.js:43 controls/player.js:268
 msgid "Pause"
 msgstr "一時停止"
 
-#: actions.js:3191 Win7ToolsImpl.pas:1900
+#: actions.js:3323 Win7ToolsImpl.pas:1900
 msgid "Play/Pause"
 msgstr "再生 / 一時停止"
 
-#: actions.js:3205 Win7ToolsImpl.pas:1901
+#: actions.js:3337 Win7ToolsImpl.pas:1901
 msgid "Stop"
 msgstr "停止"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. stop should be active even if playback is paused
-#: actions.js:3219 actions.js:3223 actions.js:3350 controls/baseVis.js:126
-#: controls/player.js:307 controls/player.js:317 controls/player.js:334
-#: controls/player.js:385 controls/player.js:394 controls/player.js:405
-#: controls/player.js:420 controls/player.js:428 controls/player.js:437
+#: actions.js:3351 actions.js:3355 actions.js:3482 controls/baseVis.js:126
+#: controls/player.js:341 controls/player.js:351 controls/player.js:368
+#: controls/player.js:419 controls/player.js:428 controls/player.js:439
+#: controls/player.js:497 controls/player.js:505 controls/player.js:514
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:9
 msgid "Off"
 msgstr "オフ"
 
 #. stop should be active even if playback is paused
-#: actions.js:3223 actions.js:3244 actions.js:3267 actions.js:3287
+#: actions.js:3355 actions.js:3376 actions.js:3399 actions.js:3419
 msgid "Stop after"
 msgstr "このあとで停止"
 
-#: actions.js:3241 actions.js:3244
+#: actions.js:3373 actions.js:3376
 msgid "Current file"
 msgstr "現在のファイル"
 
 #. stop should be active even if playback is paused
-#: actions.js:3264 actions.js:3267
+#: actions.js:3396 actions.js:3399
 msgid "Every file"
 msgstr "すべてのファイル"
 
-#: actions.js:3299
+#: actions.js:3431
 msgid "Crossfade"
 msgstr "クロスフェード"
 
 #. For screen reader support (aria-label for screen readers to read its state)
-#: actions.js:3317 controls/player.js:305 controls/player.js:307
-#: controls/player.js:315 controls/player.js:317
+#: actions.js:3449 controls/player.js:339 controls/player.js:341
+#: controls/player.js:349 controls/player.js:351
 msgid "Shuffle"
 msgstr "シャッフル"
 
 #. was changed or canceled, not shuffle already
-#: actions.js:3337 FullPlayer.pas:4962
+#: actions.js:3469 FullPlayer.pas:4982
 msgid "Randomize list"
 msgstr "リストをランダム化"
 
-#: actions.js:3338
+#: actions.js:3470
 msgid "Shuffle disabled. Reverting to unshuffled list."
 msgstr "シャッフルが無効です。シャッフルされていないリストに戻ります。"
 
-#: actions.js:3342
+#: actions.js:3474
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
@@ -1220,88 +1228,88 @@ msgstr ""
 "シャッフルは無効です。編集のためシャッフルを解除できません。「再生中」リスト"
 "への変更を元に戻すには「元に戻す」を使用してください。"
 
-#: actions.js:3354
+#: actions.js:3486
 msgid "Repeat off"
 msgstr "リピートオフ"
 
-#: actions.js:3370
+#: actions.js:3502
 msgid "One"
 msgstr "一曲のみ"
 
 #. Screen reader support
-#: actions.js:3374 controls/player.js:330 controls/player.js:365
+#: actions.js:3506 controls/player.js:364 controls/player.js:399
 msgid "Repeat one"
 msgstr "一曲をリピート"
 
-#: actions.js:3394 controls/player.js:332 controls/player.js:367
+#: actions.js:3526 controls/player.js:366 controls/player.js:401
 msgid "Repeat all"
 msgstr "すべてリピート"
 
-#: actions.js:3410 controls/player.js:334 controls/player.js:369
+#: actions.js:3542 controls/player.js:368 controls/player.js:403
 msgid "Repeat"
 msgstr "リピート"
 
-#: actions.js:3422
+#: actions.js:3554
 msgid "Level playback volume"
 msgstr "再生音量を揃える"
 
 #. #17191
-#: actions.js:3439 Win7ToolsImpl.pas:1902
+#: actions.js:3571 Win7ToolsImpl.pas:1902
 msgid "Next file"
 msgstr "次のファイル"
 
-#: actions.js:3453 Win7ToolsImpl.pas:1899
+#: actions.js:3585 Win7ToolsImpl.pas:1899
 msgid "Previous file"
 msgstr "前のファイル"
 
-#: actions.js:3467
+#: actions.js:3599
 msgid "Volume up"
 msgstr "音量アップ"
 
-#: actions.js:3481
+#: actions.js:3613
 msgid "Volume down"
 msgstr "音量ダウン"
 
-#: actions.js:3495
+#: actions.js:3627
 msgid "Skip 5 seconds backward"
 msgstr "5 秒戻す"
 
-#: actions.js:3510
+#: actions.js:3642
 msgid "Skip 5 seconds forward"
 msgstr "5 秒進める"
 
-#: actions.js:3525
+#: actions.js:3657
 msgid "S&leep"
 msgstr "スリープ(&L)"
 
-#: actions.js:3539
+#: actions.js:3671 dialogs/dlgAutotagFromFilename.js:84
 msgid "&Tag from filename"
 msgstr "ファイル名からタグ付け(&T)"
 
 #. whenLoaded promise is awaited directly in the dialog
-#: actions.js:3563
+#: actions.js:3695
 msgid "&Auto-tag"
 msgstr "自動タグ(&A)"
 
-#: actions.js:3596
+#: actions.js:3728
 msgid "Configure current &output plug-in"
 msgstr "出力プラグインの設定(&O)"
 
-#: actions.js:3608
+#: actions.js:3740
 msgid "Configure current &input plug-in"
 msgstr "入力プラグインの設定(&I)"
 
-#: actions.js:3620 dialogs/dlgWizard.js:18
+#: actions.js:3752 dialogs/dlgWizard.js:18
 msgid "Share media"
 msgstr "メディアの共有化"
 
-#: actions.js:3632
+#: actions.js:3764
 msgid "Configure Collections and nodes"
 msgstr "コレクションとノードを設定"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode',
-#: actions.js:3644 controls/playingListContainer.js:115
+#: actions.js:3776 controls/playingListContainer.js:115
 #: controls/searchBar.js:572 dialogs/dlgOptions.js:149
 #: Scripts/vis_milkshake/vis_milkshake.js:89
 #: controls\serverConfig\devices.html:9
@@ -1310,37 +1318,38 @@ msgstr "オプション"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. @ts-ignore
-#: actions.js:3644 actions.js:4299 controls/player.js:72 controls/player.js:992
-#: dialogs/dlgOptions.js:32 dialogs/dlgOptions.js:70 maincontent.html:62
+#: actions.js:3776 actions.js:4431 controls/player.js:77
+#: controls/player.js:1071 dialogs/dlgOptions.js:32 dialogs/dlgOptions.js:70
+#: maincontent.html:62
 msgid "Player"
 msgstr "プレイヤー"
 
-#: actions.js:3656 controls/player.js:198
+#: actions.js:3788 controls/player.js:228
 #: dialogs\dlgOptions\pnl_Streaming.html:3
 msgid "Play to"
 msgstr "…で再生"
 
-#: actions.js:3665
+#: actions.js:3797
 msgid "Select all"
 msgstr "すべて選択"
 
 #. and set focus (#13206 - item 4)
-#: actions.js:3699
+#: actions.js:3831
 msgid "Focus tracklist on currently playing item"
 msgstr "トラックリストの現在再生中のアイテムにフォーカス"
 
 #. and set focus (#13206 - item 4)
-#: actions.js:3734
+#: actions.js:3866
 msgid "Cancel selection"
 msgstr "選択をキャンセル"
 
 #. janky way of setting "new tab" label (No collections or nodes have the "add" icon by default)
-#: actions.js:3760 controls/tabs.js:258
+#: actions.js:3892 controls/tabs.js:258
 msgid "New tab"
 msgstr "新規タブ"
 
-#: actions.js:3775 actions.js:3805 actions.js:6910 actions.js:6940
-#: actions.js:6954
+#: actions.js:3907 actions.js:3937 actions.js:7049 actions.js:7079
+#: actions.js:7093
 msgid "Send to"
 msgstr "送る"
 
@@ -1348,66 +1357,66 @@ msgstr "送る"
 #. root items insert directly to presetColumns, so we will not need to move them here later
 #. to hide the filter on view switch
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: actions.js:3792 controls/columntracklist.js:283 controls/filterEditor.js:124
+#: actions.js:3924 controls/columntracklist.js:283 controls/filterEditor.js:124
 #: controls/tracklistFilter.js:450
 msgid "Recently used"
 msgstr "最近使用した"
 
-#: actions.js:3841
+#: actions.js:3973
 msgid "sync"
 msgstr "同期"
 
-#: actions.js:3866
+#: actions.js:3998
 msgid "Folder (&Move)"
 msgstr "フォルダー（移動）(&M)"
 
-#: actions.js:3875
+#: actions.js:4007
 msgid "Folder (&Copy)"
 msgstr "フォルダー（コピー）(&C)"
 
-#: actions.js:3884
+#: actions.js:4016
 msgid "Folder (Rip/Con&vert)"
 msgstr "フォルダー（リッピング / 変換）(&V)"
 
 #. online mode only for online source track
-#: actions.js:3898 uitools.js:1576 helpers/autoDJ.js:25 Devices.pas:2058
+#: actions.js:4030 uitools.js:1576 helpers/autoDJ.js:25 Devices.pas:2058
 #: Devices.pas:13538 Devices.pas:15981 FormatsManage.pas:5536
 #: FormatsManage.pas:5568 FormatsManage.pas:5578 MaskHelper.pas:3125
 #: QueryManage.pas:4802 ResStrings.pas:538
 msgid "Playlist"
 msgstr "プレイリスト"
 
-#: actions.js:3907
+#: actions.js:4039
 msgid "M3U/XSPF playlist"
 msgstr "M3U/XSPFプレイリスト"
 
 #. if not uninstalled
-#: actions.js:3920
+#: actions.js:4052
 msgid "Report"
 msgstr "レポート"
 
-#: actions.js:3920 Scripts/export/actions_add.js:391
+#: actions.js:4052 Scripts/export/actions_add.js:391
 msgid "File list"
 msgstr "ファイルリスト"
 
 #. @ts-ignore
-#: actions.js:3940
+#: actions.js:4072
 msgid "E-Mail"
 msgstr "E-Mail"
 
-#: actions.js:3963
+#: actions.js:4095
 msgid "Find &more from same"
 msgstr "同じものを検索"
 
-#: actions.js:3976
+#: actions.js:4108
 msgid "Anal&yze volume"
 msgstr "音量の解析(&Y)"
 
-#: actions.js:3997
+#: actions.js:4129
 msgid "&Level Track volume"
 msgstr "トラック音量を揃える(&L)"
 
-#: actions.js:4005
+#: actions.js:4137
 msgid ""
 "Leveling Track volume irreversibly modifies the track. Are you sure you want "
 "to level the volume of the selected Tracks?"
@@ -1416,50 +1425,50 @@ msgstr ""
 "えをしてよろしいですか？"
 
 #. @ts-ignore
-#: actions.js:4029
+#: actions.js:4161
 msgid "Analyze waveform"
 msgstr "波形の解析"
 
-#: actions.js:4047
+#: actions.js:4179
 msgid "Display only selected folder's content"
 msgstr "選択したフォルダーのコンテンツのみを表示"
 
-#: actions.js:4047
+#: actions.js:4179
 msgid "Display folder content recursively"
 msgstr "フォルダーの内容を再帰的に表示する"
 
-#: actions.js:4069
+#: actions.js:4201
 msgid "View filter"
 msgstr "フィルターを表示"
 
 #. "Any text"
-#: actions.js:4114 QueryManage.pas:2862 QueryManage.pas:2866 ResStrings.pas:544
+#: actions.js:4246 QueryManage.pas:2862 QueryManage.pas:2866 ResStrings.pas:544
 msgid "contains"
 msgstr "含む"
 
 #. radiogroup: 'search_mode',
-#: actions.js:4176 controls/searchBar.js:555
+#: actions.js:4308 controls/searchBar.js:555
 msgid "Advanced search"
 msgstr "高度な検索"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that it is right most to the includeSubfolders action (with iconPriority 10)
-#: actions.js:4198 actions.js:4237 controls\mainTabContent.html:3
+#: actions.js:4330 actions.js:4369 controls\mainTabContent.html:3
 msgid "Left panel"
 msgstr "左パネル"
 
-#: actions.js:4251 controls\mainTabContent.html:4
+#: actions.js:4383 controls\mainTabContent.html:4
 msgid "Media Tree"
 msgstr "メディアツリー"
 
-#: actions.js:4336 actions.js:4365 maincontent.html:49
+#: actions.js:4468 actions.js:4497 maincontent.html:49
 msgid "Right panel"
 msgstr "右パネル"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. became visible, update
 #. dont save sync, it will be saved async
-#: actions.js:4379 templates.js:583 controls/lyricsWindow.js:79
+#: actions.js:4511 templates.js:583 controls/lyricsWindow.js:79
 #: controls/nowplayingview.js:29 controls/trackListView.js:1086
 #: dialogs/dlgAutotag.js:2521 dialogs/dlgOptions.js:74
 #: dialogs/dlgTrackProperties.js:26
@@ -1472,7 +1481,7 @@ msgstr "歌詞"
 #. it is a list
 #. we want to always save lyrics when clicked manually by user
 #. swap the selected part and order part for X seconds per suggestion in #19285
-#: actions.js:4423 viewHandlers.js:7872 controls/artWindow.js:1756
+#: actions.js:4555 viewHandlers.js:7872 controls/artWindow.js:1756
 #: controls/nowplayingList.js:250 controls/playingListContainer.js:115
 #: controls/statusbar.js:131 controls/statusbar.js:134
 #: dialogs/dlgEditView.js:609
@@ -1484,7 +1493,7 @@ msgstr "再生中"
 #. to load the new image thumb
 #. to show "[Deezer Preview]" text on player (#17288)
 #. to show "[Spotify Preview]" text on player (#17288)
-#: actions.js:4466 controls/artWindow.js:585 dialogs/dlgOptions.js:74
+#: actions.js:4598 controls/artWindow.js:585 dialogs/dlgOptions.js:74
 #: dialogs/dlgOptions/pnl_Layouts.js:360
 #: Scripts/deezer/helpers/cloudServices_add.js:412
 #: Scripts/spotify/helpers/cloudServices_add.js:362 maincontent.html:53
@@ -1492,285 +1501,286 @@ msgid "Preview"
 msgstr "プレビュー"
 
 #. was visible only for displaying visualization or video
-#: actions.js:4516 Extensions.pas:1589 Extensions.pas:1590 Extensions.pas:1591
+#: actions.js:4648 Extensions.pas:1589 Extensions.pas:1590 Extensions.pas:1591
 #: Extensions.pas:1592
 msgid "&Visualization"
 msgstr "視覚効果(&V)"
 
-#: actions.js:4572
+#: actions.js:4704
 msgid "Refresh"
 msgstr "更新"
 
 #. @ts-ignore
-#: actions.js:4593 dialogs/dlgOptions.js:16
+#: actions.js:4725 dialogs/dlgOptions.js:16
 msgid "Party Mode"
 msgstr "パーティーモード"
 
 #. is listened e.g. by Player component to update player controls disabled state
-#: actions.js:4651
+#: actions.js:4783
 msgid "&Clear"
 msgstr "クリア(&C)"
 
-#: actions.js:4662
+#: actions.js:4794
 msgid "Clea&n (remove inaccessible)"
 msgstr "クリーン（アクセスできないものを削除）(&N)"
 
-#: actions.js:4673
+#: actions.js:4805
 msgid "Remove &duplicates"
 msgstr "重複しているものを削除(&D)"
 
-#: actions.js:4684
+#: actions.js:4816
 msgid "&Randomize list"
 msgstr "リストをランダム化(&R)"
 
-#: actions.js:4695 FullPlayer.pas:4903
+#: actions.js:4827 FullPlayer.pas:4923
 msgid "Reverse list"
 msgstr "リストを反転"
 
 #. Label for screen readers ("Undo" is not translated, only "&Undo")
-#: actions.js:4706 controls/navigationBar.js:302
+#: actions.js:4838 controls/navigationBar.js:302
 msgid "&Undo"
 msgstr "元に戻す(&U)"
 
 #. just to get it on the top of the MRU list
 #. to init the menu
-#: actions.js:4732 controls/filterEditor.js:93 controls/navigationBar.js:344
+#: actions.js:4864 controls/filterEditor.js:93 controls/navigationBar.js:344
 msgid "Clear history"
 msgstr "履歴をクリア"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
-#: actions.js:4746 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
+#: actions.js:4878 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
 msgid "&Redo"
 msgstr "やり直す(&R)"
 
 #. open edit properties dialog
-#: actions.js:4806
+#: actions.js:4938
 msgid "Previous view"
 msgstr "前のものを表示"
 
 #. forward is added here via redoNavbarButton script
-#: actions.js:4825
+#: actions.js:4957
 msgid "Fit video to window on resize"
 msgstr "サイズ変更時のウィンドウに動画を合わせる"
 
-#: actions.js:4841
+#: actions.js:4973
 msgid "Zoom to 50%"
 msgstr "50％にズーム"
 
-#: actions.js:4855
+#: actions.js:4987
 msgid "Zoom to 100%"
 msgstr "100％にズーム"
 
-#: actions.js:4869
+#: actions.js:5001
 msgid "Zoom to 150%"
 msgstr "150％にズーム"
 
-#: actions.js:4883
+#: actions.js:5015
 msgid "Zoom to 200%"
 msgstr "200％にズーム"
 
-#: actions.js:4898
+#: actions.js:5030
 msgid "Zoom in"
 msgstr "ズームイン"
 
-#: actions.js:4911
+#: actions.js:5043
 msgid "Zoom out"
 msgstr "ズームアウト"
 
 #. @ts-ignore
-#: actions.js:4946
+#: actions.js:5078
 msgid "Original AR"
 msgstr "オリジナルAR"
 
-#: actions.js:5018 dialogs\dlgMoveAccompFiles.html:16
+#: actions.js:5150 dialogs\dlgMoveAccompFiles.html:16
 msgid "Move"
 msgstr "移動"
 
-#: actions.js:5028
+#: actions.js:5160
 msgid "Move left"
 msgstr "左へ移動"
 
-#: actions.js:5041
+#: actions.js:5173
 msgid "Move right"
 msgstr "右へ移動"
 
-#: actions.js:5054 controls\listEditButtons.html:2
+#: actions.js:5186 controls\listEditButtons.html:2
 msgid "Move up"
 msgstr "上に移動"
 
-#: actions.js:5067 controls\listEditButtons.html:3
+#: actions.js:5199 controls\listEditButtons.html:3
 msgid "Move down"
 msgstr "下に移動"
 
-#: actions.js:5080 Scripts\caseChecker\dialogs\dlgCaseChecker.html:57
+#: actions.js:5212 Scripts\caseChecker\dialogs\dlgCaseChecker.html:57
 msgid "Reset changes"
 msgstr "変更のリセット"
 
 #. to load the new image thumb
-#: actions.js:5095 controls/artWindow.js:627
+#: actions.js:5227 controls/artWindow.js:627
 msgid "Save thumbnail"
 msgstr "サムネイルの保存"
 
-#: actions.js:5099
+#: actions.js:5231
 msgid "Generate the thumbnail:"
 msgstr "サムネイルの生成:"
 
-#: actions.js:5101
+#: actions.js:5233
 msgid "Automatically"
 msgstr "自動的に"
 
-#: actions.js:5104
+#: actions.js:5236
 msgid "Use current video frame"
 msgstr "現在の動画フレームから"
 
-#: actions.js:5116
+#: actions.js:5248
 msgid "Audio streams"
 msgstr "オーディオストリーム"
 
 #. fill info about subtitle stream
-#: actions.js:5143 BaseMedia.pas:4933
+#: actions.js:5275 BaseMedia.pas:4933
 msgid "Subtitles"
 msgstr "字幕"
 
-#: actions.js:5152 dialogs/dlgOptions/pnl_Hotkeys.js:288
+#: actions.js:5284 dialogs/dlgOptions/pnl_Hotkeys.js:288
 msgid "Open file"
 msgstr "ファイルを開く"
 
-#: actions.js:5160
+#: actions.js:5292
 msgid "Subtitle files"
 msgstr "字幕ファイル"
 
-#: actions.js:5160
+#: actions.js:5292
 msgid "Select subtitle file"
 msgstr "字幕ファイルを選択"
 
+#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. rejected - closed by cancel
-#: actions.js:5176 viewHandlers.js:5543
+#: actions.js:5308 viewHandlers.js:5543 dialogs\dlgSpeedPitch.html:11
 msgid "Enable"
 msgstr "有効にする"
 
 #. reset
-#: actions.js:5198 controls/downloadView.js:136 ResStrings.pas:453
+#: actions.js:5330 controls/downloadView.js:136 ResStrings.pas:453
 msgid "Size"
 msgstr "サイズ"
 
-#: actions.js:5203
+#: actions.js:5335
 msgid "Small"
 msgstr "小"
 
-#: actions.js:5219 dialogs\dlgOptions\pnl_Performance.html:32
+#: actions.js:5351 dialogs\dlgOptions\pnl_Performance.html:32
 msgid "Normal"
 msgstr "通常"
 
-#: actions.js:5235
+#: actions.js:5367
 msgid "Large"
 msgstr "大"
 
-#: actions.js:5251
+#: actions.js:5383
 msgid "Extra large"
 msgstr "特大"
 
-#: actions.js:5314 controls\playlistHeader.html:8
+#: actions.js:5446 controls\playlistHeader.html:8
 msgid "Play normally"
 msgstr "通常の再生"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. adds shuffle menu commands to button context menu
 #. nodeUtils
-#: actions.js:5340 uitools.js:2327 viewHandlers.js:3281
+#: actions.js:5472 uitools.js:2327 viewHandlers.js:3281
 #: controls\playlistHeader.html:9
 msgid "Play shuffled"
 msgstr "シャッフルして再生"
 
-#: actions.js:5372 uitools.js:2328 viewHandlers.js:3312
+#: actions.js:5504 uitools.js:2328 viewHandlers.js:3312
 msgid "Play shuffled (by Album)"
 msgstr "シャッフルして再生（アルバムごと）"
 
 #. prepared menu item for library reports implemented by scripts
-#: actions.js:5705 Extensions.pas:1594
+#: actions.js:5839 Extensions.pas:1594
 msgid "Reports"
 msgstr "レポート"
 
-#: actions.js:5732
+#: actions.js:5866
 msgid "&File"
 msgstr "ファイル(&F)"
 
-#: actions.js:5778 viewHandlers.js:5408 controls/searchView.js:318
+#: actions.js:5912 viewHandlers.js:5408 controls/searchView.js:318
 #: dialogs/dlgOptions.js:119 DBStructure.pas:2059 GlobVars.pas:2100
 #: UPnPTreeHelper.pas:1894
 #: controls\deviceConfig\options\pnl_FileLocations.html:33
 msgid "Podcasts"
 msgstr "ポッドキャスト"
 
-#: actions.js:5806
+#: actions.js:5940
 msgid "&Edit"
 msgstr "編集(&E)"
 
-#: actions.js:5874
+#: actions.js:6008
 msgid "&View"
 msgstr "表示(&V)"
 
-#: actions.js:5913 dialogs/dlgOptions.js:82
+#: actions.js:6047 dialogs/dlgOptions.js:82
 msgid "Skin"
 msgstr "スキン"
 
-#: actions.js:5928 dialogs\dlgMP3Settings.html:41
+#: actions.js:6062 dialogs\dlgMP3Settings.html:41
 msgid "Mode"
 msgstr "モード"
 
-#: actions.js:5943
+#: actions.js:6077
 msgid "Main panel view"
 msgstr "メインパネルビュー"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16702 ... remove cancelSelection action as it is already in Edit menu
-#: actions.js:5967 dialogs\dlgTrackProperties.html:12
+#: actions.js:6101 dialogs\dlgTrackProperties.html:12
 msgid "Previous"
 msgstr "前へ"
 
-#: actions.js:6001 dialogs\dlgTrackProperties.html:12
+#: actions.js:6135 dialogs\dlgTrackProperties.html:12
 msgid "Next"
 msgstr "次へ"
 
-#: actions.js:6045
+#: actions.js:6179
 msgid "&Play"
 msgstr "再生(&P)"
 
-#: actions.js:6239
+#: actions.js:6378
 msgid "Edit tags"
 msgstr "タグを編集"
 
 #. some items placed by scripts here
-#: actions.js:6272
+#: actions.js:6411
 msgid "&Tools"
 msgstr "ツール(&T)"
 
-#: actions.js:6345
+#: actions.js:6484
 msgid "MediaMonkey Gold"
 msgstr "MediaMonkey Gold"
 
-#: actions.js:6352
+#: actions.js:6491
 msgid "Get MediaMonkey Gold"
 msgstr "MediaMonkey Goldの取得"
 
 #. assume always called with this = action
-#: actions.js:6728 actions.js:6806
+#: actions.js:6867 actions.js:6945
 msgid "Move to"
 msgstr "移動"
 
-#: actions.js:6731 actions.js:6810
+#: actions.js:6870 actions.js:6949
 msgid "Copy to"
 msgstr "コピー"
 
-#: actions.js:6734 actions.js:6814
+#: actions.js:6873 actions.js:6953
 msgid "Convert to"
 msgstr "変換"
 
-#: actions.js:7039
+#: actions.js:7178
 msgid "No tracks found"
 msgstr "トラックが見つかりません"
 
-#: actions.js:7053
+#: actions.js:7192
 msgid ""
 "This will update the tags of the selected files so that they match your "
 "Library. Are you sure you want to proceed?"
@@ -1778,7 +1788,7 @@ msgstr ""
 "選択したファイルのタグがライブラリと一致するように更新されます。続けてよろし"
 "いですか？"
 
-#: actions.js:7056
+#: actions.js:7195
 msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
@@ -1807,9 +1817,9 @@ msgstr "アイテム"
 #: dialogs/dlgMediaProperties.js:5 dialogs/dlgTrackProperties/tabDetails.js:54
 #: helpers/autoTagFramework.js:268 ArtistsManage.pas:1269
 #: ArtistsManage.pas:3430 ArtistsManage.pas:3673 BaseMedia.pas:4982
-#: BaseMedia.pas:16033 BaseMedia.pas:17801 BaseMedia.pas:17807 Filters.pas:3472
+#: BaseMedia.pas:16033 BaseMedia.pas:17801 BaseMedia.pas:17807 Filters.pas:3483
 #: PodcastManage.pas:988 PodcastManage.pas:1320 PodcastManage.pas:2789
-#: ResStrings.pas:364 UpNp.pas:10982
+#: ResStrings.pas:364 UpNp.pas:10956
 msgid "Unknown"
 msgstr "不明"
 
@@ -1863,7 +1873,7 @@ msgstr "MediaMonkey DirectSound 出力プラグイン"
 #: dialogs/dlgWAVSettings.js:20 dialogs/dlgTrackProperties/tabDetails.js:84
 #: BaseMedia.pas:4832 FormatsHandler.pas:3019 FormatsHandler.pas:3027
 #: FormatsHandler.pas:3036 FormatsHandler.pas:3054 FormatsManage.pas:4524
-#: FormatsManage.pas:4529 WinAmpPlugins.pas:5282
+#: FormatsManage.pas:4529 WinAmpPlugins.pas:5321
 #: dialogs\videoConvSettings.html:176
 msgid "Hz"
 msgstr "Hz"
@@ -1872,7 +1882,7 @@ msgstr "Hz"
 msgid "channels"
 msgstr "チャンネル"
 
-#: out_WASAPI_configDlg.js:7 WinAmpPlugins.pas:5284
+#: out_WASAPI_configDlg.js:7 WinAmpPlugins.pas:5323
 msgid "bits"
 msgstr "ビット"
 
@@ -1938,7 +1948,7 @@ msgstr "アスペクト比"
 #. fixed: true,
 #. for the content browser on the 'Summary' page
 #: templates.js:368 controls/deviceConfig.js:377 dialogs/dlgAutotag.js:1803
-#: MaskHelper.pas:3188 MaskHelper.pas:3712 MaskHelper.pas:3901
+#: MaskHelper.pas:3188 MaskHelper.pas:3712 MaskHelper.pas:3906
 #: ResStrings.pas:494 dialogs\dlgEditView.html:37
 msgid "Summary"
 msgstr "概要"
@@ -1986,7 +1996,7 @@ msgstr "検索中"
 
 #. online track not present in the library - toast message and add to the library
 #. online track not present in the library - toast message and add to the library
-#: templates.js:808 controls/player.js:665
+#: templates.js:808 controls/player.js:742
 msgid "Track was added to the Library"
 msgstr "トラックがライブラリに追加されました"
 
@@ -1994,13 +2004,13 @@ msgstr "トラックがライブラリに追加されました"
 #. el.innerText = sd.album;
 #. this field should not be used for whole album, specific for each track
 #: templates.js:1287 templates.js:1314 templates.js:1364 viewHandlers.js:6916
-#: controls/albumlistView.js:613 controls/player.js:655
+#: controls/albumlistView.js:613 controls/player.js:732
 #: controls/trackListView.js:386
 #: Scripts/statistics/dialogs/dlgStatistics.js:331
 #: Scripts/statistics/dialogs/dlgStatistics.js:404
 #: Scripts/statistics/dialogs/dlgStatistics.js:519
 #: Scripts/statistics/dialogs/dlgStatistics.js:565 MaskHelper.pas:3149
-#: MaskHelper.pas:3579 MaskHelper.pas:3872 QueryManage.pas:5041
+#: MaskHelper.pas:3579 MaskHelper.pas:3877 QueryManage.pas:5041
 #: QueryManage.pas:5042 ResStrings.pas:448 UPnPTreeHelper.pas:1925
 #: Win7ToolsImpl.pas:1903 Win7ToolsImpl.pas:1904
 #: dialogs\dlgTrackProperties\tabBasic.html:56
@@ -2081,7 +2091,7 @@ msgstr "パスワードを入力してください"
 #: controls/trackListView.js:1537 controls/deviceConfig/syncToDevice.js:22
 #: dialogs/dlgTrackProperties/tabBasic.js:514 helpers/seriesDataSource.js:176
 #: helpers/seriesDataSource.js:257 MaskHelper.pas:3164 MaskHelper.pas:3600
-#: MaskHelper.pas:3876 QueryManage.pas:1882 QueryManage.pas:3045
+#: MaskHelper.pas:3881 QueryManage.pas:1882 QueryManage.pas:3045
 #: QueryManage.pas:3048 QueryManage.pas:3060 ResStrings.pas:498
 #: UPnPTreeHelper.pas:1895
 msgid "Series"
@@ -2145,12 +2155,12 @@ msgid "GB"
 msgstr "GB"
 
 #. available to stream from cloud
-#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2564
+#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2572
 #: ResStrings.pas:571
 msgid "Various"
 msgstr "様々なアーティスト"
 
-#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2565
+#: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2573
 msgid "Various Artists"
 msgstr "様々なアーティスト"
 
@@ -2186,7 +2196,7 @@ msgstr "リスト（アルバム別）"
 msgid "List (by Series)"
 msgstr "リスト（シリーズ別）"
 
-#. to be always pre-sorted by content (grouped by signature/fingerprint)
+#. to be always pre-sorted by content (grouped by signature/fingerprint) // #20580
 #: viewHandlers.js:348
 msgid "List (by Content)"
 msgstr "リスト（コンテンツ別）"
@@ -2356,7 +2366,7 @@ msgstr "フィード"
 
 #. #18158
 #: viewHandlers.js:1962 viewHandlers.js:5479 controls/maskedit.js:77
-#: helpers/mediaSync.js:2892 WinAmpPlugins.pas:5289
+#: helpers/mediaSync.js:2892 WinAmpPlugins.pas:5328
 msgid "Configure"
 msgstr "設定"
 
@@ -2414,7 +2424,7 @@ msgid "Copying to %s:"
 msgstr "%sにコピー中:"
 
 #. to not notify less often and improve performance for thousands of tracks
-#: viewHandlers.js:4080 MediaManage.pas:4119 MediaManage.pas:4200
+#: viewHandlers.js:4080 MediaManage.pas:4127 MediaManage.pas:4208
 msgid "Moving to %s:"
 msgstr "%sに移動しています:"
 
@@ -2536,7 +2546,7 @@ msgstr "%d個の選択されたプレイリストを%sから削除してもよ�
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
 #. #15626
-#: viewHandlers.js:5100 MediaManage.pas:6460 MusicUtils.pas:685
+#: viewHandlers.js:5100 MediaManage.pas:6468 MusicUtils.pas:687
 #: controls\devicesView.html:24
 msgid "Media Servers"
 msgstr "メディアサーバー"
@@ -2549,7 +2559,7 @@ msgstr "利用可能なサーバーがありません。しばらくしてから
 #. and get the list of tracks already scanned into library (to merge) -- to be able to indicate which tracks are already in the library
 #. prefer the default Music collection when there are more music collections (#17051)
 #. prefer the default Music collection when there are more music collections (#16929)
-#: viewHandlers.js:5378 Filters.pas:2076 Filters.pas:2229 GlobVars.pas:2099
+#: viewHandlers.js:5378 Filters.pas:2087 Filters.pas:2240 GlobVars.pas:2099
 #: controls\deviceConfig\options\pnl_FileLocations.html:9
 msgid "Music"
 msgstr "音楽"
@@ -2880,7 +2890,7 @@ msgstr "降順"
 #: controls/albumlistView.js:606 controls/sortBy.js:17
 #: controls/trackListView.js:256 controls/serverConfig/server.js:106
 #: dialogs/dlgAutotag.js:2550 dialogs/dlgOptions/pnl_MetadataLookup.js:147
-#: MaskHelper.pas:3147 MaskHelper.pas:3569 MaskHelper.pas:3870
+#: MaskHelper.pas:3147 MaskHelper.pas:3569 MaskHelper.pas:3875
 #: QueryManage.pas:4910 QueryManage.pas:5049 QueryManage.pas:5050
 #: ResStrings.pas:487 dialogs\dlgTrackProperties\tabBasic.html:140
 msgid "Date"
@@ -2971,7 +2981,7 @@ msgid "album image"
 msgstr "アルバム画像"
 
 #. to refetch image after DS change
-#: controls/albumViewHeader.js:698 controls/listview.js:1372
+#: controls/albumViewHeader.js:698 controls/listview.js:1374
 #: dialogs/dlgDeleteConfirm.js:28
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:23 CDDBUtils.pas:1345
 #: CDDBUtils.pas:1410
@@ -3051,11 +3061,11 @@ msgstr "アーティスト不明"
 msgid "Remove image"
 msgstr "画像の削除"
 
-#: controls/artWindow.js:639 controls/nowPlaying/fullList.js:107
+#: controls/artWindow.js:639 controls/nowPlaying/fullList.js:115
 msgid "Save image"
 msgstr "画像を保存"
 
-#: controls/artWindow.js:651 controls/nowPlaying/fullList.js:123
+#: controls/artWindow.js:651 controls/nowPlaying/fullList.js:131
 #: controls/nowPlaying/largeLyrics.js:64
 msgid "Save lyrics"
 msgstr "歌詞を保存"
@@ -3084,7 +3094,7 @@ msgstr "編集を許可"
 
 #. search link is present only if searching artwork in album a not on web (when searchMissingArtwork is false)
 #. artwork was not loaded - file was already deleted or artwork removed from tag outside MM5, or file with artwork overwritten
-#: controls/artWindow.js:1225 MediaMonkeyApp.pas:8387
+#: controls/artWindow.js:1225 MediaMonkeyApp.pas:8391
 msgid "Artwork not found"
 msgstr "アートワークが見つかりません"
 
@@ -3147,20 +3157,20 @@ msgstr "背景画像"
 msgid "Automatic preset change"
 msgstr "自動プリセット変更"
 
-#: controls/baseVis.js:125 controls/player.js:305 controls/player.js:315
-#: controls/player.js:383 controls/player.js:392 controls/player.js:403
-#: controls/player.js:418 controls/player.js:426 controls/player.js:435
+#: controls/baseVis.js:125 controls/player.js:339 controls/player.js:349
+#: controls/player.js:417 controls/player.js:426 controls/player.js:437
+#: controls/player.js:495 controls/player.js:503 controls/player.js:512
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:5
 msgid "On"
 msgstr "オン"
 
 #. prevent only for known types, where we know for sure it is needed
-#: controls/buttons.js:391 MusicUtils.pas:385 ResStrings.pas:365
+#: controls/buttons.js:391 MusicUtils.pas:387 ResStrings.pas:365
 #: ResStrings.pas:582
 msgid "Yes"
 msgstr "はい"
 
-#: controls/buttons.js:396 MusicUtils.pas:383 ResStrings.pas:366
+#: controls/buttons.js:396 MusicUtils.pas:385 ResStrings.pas:366
 #: ResStrings.pas:583
 msgid "No"
 msgstr "いいえ"
@@ -3250,7 +3260,7 @@ msgid "Choose columns"
 msgstr "列の選択"
 
 #. undefined
-#: controls/columntracklist.js:175 FullPlayer.pas:2597
+#: controls/columntracklist.js:175 FullPlayer.pas:2617
 msgid "Sort"
 msgstr "ソート"
 
@@ -3397,7 +3407,7 @@ msgstr "未再生のエピソード"
 #. syncable servers already appear in the 'Storage & Services' as device profiles
 #. Try to find an already rendered group header
 #. #17949: Change to "Expand" in the future when it's translated
-#: controls/devicesView.js:154 controls/listview.js:1372
+#: controls/devicesView.js:154 controls/listview.js:1374
 #: controls/searchView.js:704 controls/treeview.js:87
 msgid "Show all"
 msgstr "すべて表示"
@@ -3451,17 +3461,17 @@ msgstr "空"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. update the download status and path
-#: controls/equalizer.js:24 MediaMonkeyApp.pas:8626 MediaMonkeyApp.pas:8628
-#: MusicUtils.pas:850 controls\autoConvertConfig.html:11
+#: controls/equalizer.js:24 MediaMonkeyApp.pas:8630 MediaMonkeyApp.pas:8632
+#: MusicUtils.pas:852 controls\autoConvertConfig.html:11
 msgid "dB"
 msgstr "dB"
 
 #. we set left/right channel to the same value
 #. For screen reader support (aria-label for screen readers to read its state)
 #. For screen reader support (aria-label for screen readers to read its state)
-#: controls/equalizer.js:56 controls/player.js:373 controls/player.js:383
-#: controls/player.js:385 controls/player.js:392 controls/player.js:394
-#: controls/player.js:403 controls/player.js:405
+#: controls/equalizer.js:56 controls/player.js:407 controls/player.js:417
+#: controls/player.js:419 controls/player.js:426 controls/player.js:428
+#: controls/player.js:437 controls/player.js:439 dialogs/dlgEqualizer.js:5
 msgid "Equalizer"
 msgstr "イコライザー"
 
@@ -3518,28 +3528,28 @@ msgid "Add new"
 msgstr "新規追加"
 
 #. expand/collapse icons:
-#: controls/listview.js:1375 controls/treeview.js:79
+#: controls/listview.js:1377 controls/treeview.js:79
 msgid "Collapse"
 msgstr "折りたたむ"
 
 #. supress toast messages when we are placed into a view, search bar is taking it
-#: controls/listview.js:2655
+#: controls/listview.js:2657
 msgid "Scroll to"
 msgstr "スクロール先"
 
-#: controls/listview.js:2655
+#: controls/listview.js:2657
 msgid "Use %s for the next match"
 msgstr "次の該当したものに%sを使う"
 
 #. it just looped through all the controls to find that there is still the same (and single) occurence -- don't consider this as search failure (#15185 - item 11)
-#: controls/listview.js:2658 controls/searchBar.js:391
+#: controls/listview.js:2660 controls/searchBar.js:391
 #: controls/searchBar.js:393
 msgid "phrase not found"
 msgstr "フレーズが見つかりません"
 
 #. eslint-disable-next-line no-cond-assign
 #. not cleared yet
-#: controls/listview.js:4851 controls/listview.js:4855
+#: controls/listview.js:4853 controls/listview.js:4857
 msgid "Close popup"
 msgstr "ポップアップを閉じる"
 
@@ -3630,7 +3640,7 @@ msgid "Continuously"
 msgstr "連続ループ"
 
 #. #17177
-#: controls/monitoredFoldersView.js:14 MediaMonkeyApp.pas:9154
+#: controls/monitoredFoldersView.js:14 MediaMonkeyApp.pas:9158
 msgid "Auto detection"
 msgstr "自動検出"
 
@@ -3670,7 +3680,7 @@ msgstr "要素を表示"
 #. to hide mutual exclusive sub-view before showing our sub-view
 #. list
 #. add manage views entry
-#: controls/multiview.js:284 controls/player.js:72 helpers/views.js:339
+#: controls/multiview.js:284 controls/player.js:77 helpers/views.js:339
 #: dialogs\dlgAutoConvertRule.html:39
 msgid "Customize"
 msgstr "カスタマイズ"
@@ -3714,7 +3724,7 @@ msgid "Normal window"
 msgstr "通常ウィンドウ"
 
 #: controls/nowplayingview.js:147 controls/nowPlaying/artistBio.js:65
-#: controls/nowPlaying/fullList.js:143
+#: controls/nowPlaying/fullList.js:151
 msgid "Show 'Playing' list"
 msgstr "「再生中」リストを表示"
 
@@ -3739,63 +3749,77 @@ msgstr "フルスクリーン表示をキャンセル"
 msgid "Choose layout"
 msgstr "レイアウトを選択"
 
-#: controls/player.js:135 dialogs\dlgOptions\pnl_MetadataLookup.html:53
+#: controls/player.js:161 dialogs\dlgOptions\pnl_MetadataLookup.html:53
 msgid "Metadata"
 msgstr "メタデータ"
 
-#: controls/player.js:136
+#: controls/player.js:162
 msgid "Controls"
 msgstr "コントロール"
 
 #. to speed reflows during time actualization
-#: controls/player.js:137 controls/player.js:483
+#: controls/player.js:163 controls/player.js:560
 msgid "Seek bar"
 msgstr "シークバー"
 
-#: controls/player.js:208 UpNp.pas:13133
+#: controls/player.js:238 UpNp.pas:13116
 msgid "Internal player"
 msgstr "内蔵プレイヤー"
 
-#: controls/player.js:303
+#: controls/player.js:337
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
 msgstr ""
 "「再生中」リストをシャッフルし、デフォルトの再生コマンドでトラックをシャッフ"
 "ルします。"
 
-#: controls/player.js:442
+#: controls/player.js:459
+msgid "Speed"
+msgstr ""
+
+#: controls/player.js:463
+#, fuzzy
+#| msgid "Switch"
+msgid "Pitch"
+msgstr "切り替え"
+
+#: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
+msgid "semitones"
+msgstr ""
+
+#: controls/player.js:519
 msgid "Time"
 msgstr "時間"
 
 #. to speed reflows during time actualization
-#: controls/player.js:462
+#: controls/player.js:539
 msgid "Remaining time"
 msgstr "残り時間"
 
-#: controls/player.js:528
+#: controls/player.js:605
 msgid "Waveform bar"
 msgstr "波形バー"
 
-#: controls/player.js:566
+#: controls/player.js:643
 msgid "Visualizer"
 msgstr "ビジュアライザー"
 
-#: controls/player.js:570 skins\Black Monkey\player.html:44
+#: controls/player.js:647 skins\Black Monkey\player.html:44
 msgid "Volume bar"
 msgstr "音量バー"
 
-#: controls/player.js:579 controls/player.js:584 controls/player.js:590
+#: controls/player.js:656 controls/player.js:661 controls/player.js:667
 #: helpers/trayIcon.js:103
 msgid "Volume"
 msgstr "音量"
 
 #. this field should not be used for whole album, specific for each track
-#: controls/player.js:604 controls/trackListView.js:1479
+#: controls/player.js:681 controls/trackListView.js:1479
 msgid "Track summary"
 msgstr "トラックの概要"
 
 #. Use audio voice message (if exists), see details in #14538
-#: controls/player.js:1106
+#: controls/player.js:1185
 msgid ""
 "Audio streaming is limited to 30 minutes in the free version of MediaMonkey. "
 "Please consider upgrading to a Gold license."
@@ -3803,7 +3827,7 @@ msgstr ""
 "オーディオストリーミングは、無料版のMediaMonkeyでは30分に制限されています。"
 "Goldライセンスへのアップグレードを検討してください。"
 
-#: controls/player.js:1124 controls\windowtitle.html:4
+#: controls/player.js:1203 controls\windowtitle.html:4
 msgid "MediaMonkey"
 msgstr "MediaMonkey"
 
@@ -3827,7 +3851,7 @@ msgstr "プレイリストパネルで編集"
 #. to live update tracks -- is listened e.g. by viewHandlers.tracklistBase.onShow
 #: controls/playlistHeader.js:303 controls/trackListView.js:916
 #: dialogs/dlgTrackProperties/tabDetails.js:62 MaskHelper.pas:3187
-#: MaskHelper.pas:3707 MaskHelper.pas:3900 ResStrings.pas:458
+#: MaskHelper.pas:3707 MaskHelper.pas:3905 ResStrings.pas:458
 #: dialogs\dlgTrackProperties\tabDetails.html:242
 msgid "Timestamp"
 msgstr "タイムスタンプ"
@@ -3835,7 +3859,7 @@ msgstr "タイムスタンプ"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. data source already cleared
 #: controls/podcastHeader.js:173 MaskHelper.pas:3191 MaskHelper.pas:3727
-#: MaskHelper.pas:3904 QueryManage.pas:3054 ResStrings.pas:503
+#: MaskHelper.pas:3909 QueryManage.pas:3054 ResStrings.pas:503
 #: dialogs\dlgAddonInstall.html:38
 msgid "Author"
 msgstr "著者"
@@ -4139,13 +4163,13 @@ msgstr "ファイル名"
 #: Scripts/statistics/dialogs/dlgStatistics.js:435
 #: Scripts/statistics/dialogs/dlgStatistics.js:492
 #: Scripts/statistics/dialogs/dlgStatistics.js:564 MaskHelper.pas:3178
-#: MaskHelper.pas:3667 MaskHelper.pas:3891 ResStrings.pas:443
+#: MaskHelper.pas:3667 MaskHelper.pas:3896 ResStrings.pas:443
 msgid "Played #"
 msgstr "再生回数"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:355 MaskHelper.pas:3180 MaskHelper.pas:3672
-#: MaskHelper.pas:3893 ResStrings.pas:445 Win7ToolsImpl.pas:2199
+#: MaskHelper.pas:3898 ResStrings.pas:445 Win7ToolsImpl.pas:2199
 msgid "Last Played"
 msgstr "最終再生"
 
@@ -4168,7 +4192,7 @@ msgstr "ビットレート"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:441 MaskHelper.pas:3181 MaskHelper.pas:3682
-#: MaskHelper.pas:3895 ResStrings.pas:425 ResStrings.pas:451
+#: MaskHelper.pas:3900 ResStrings.pas:425 ResStrings.pas:451
 msgid "Media"
 msgstr "メディア"
 
@@ -4179,7 +4203,7 @@ msgstr "拡張タグ"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:671 MaskHelper.pas:3182 MaskHelper.pas:3677
-#: MaskHelper.pas:3894
+#: MaskHelper.pas:3899
 msgid "Filesize"
 msgstr "ファイルサイズ"
 
@@ -4203,8 +4227,8 @@ msgstr "サンプルレート"
 #. Songs.Author
 #: controls/trackListView.js:725 dialogs/dlgTrackProperties/tabDetails.js:85
 #: FormatsHandler.pas:3020 FormatsHandler.pas:3037 FormatsHandler.pas:3055
-#: MaskHelper.pas:3183 MaskHelper.pas:3687 MaskHelper.pas:3896
-#: QueryManage.pas:4953 ResStrings.pas:457 WinAmpPlugins.pas:5286
+#: MaskHelper.pas:3183 MaskHelper.pas:3687 MaskHelper.pas:3901
+#: QueryManage.pas:4953 ResStrings.pas:457 WinAmpPlugins.pas:5325
 #: dialogs\dlgOGGSettings.html:63
 msgid "Channels"
 msgstr "チャンネル"
@@ -4212,7 +4236,7 @@ msgstr "チャンネル"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. qeid(mainElement, 'lbl_norm').innerText = utils.getNormalizeText(track.normalizeTrack, track.normalizeAlbum);
 #: controls/trackListView.js:742 dialogs/dlgTrackProperties/tabDetails.js:90
-#: MaskHelper.pas:3184 MaskHelper.pas:3692 MaskHelper.pas:3897
+#: MaskHelper.pas:3184 MaskHelper.pas:3692 MaskHelper.pas:3902
 #: ResStrings.pas:387 ResStrings.pas:455 dialogs\dlgSupportedFormat.html:38
 msgid "Bit depth"
 msgstr "ビット深度"
@@ -4224,7 +4248,7 @@ msgstr "トラック音量"
 
 #. source
 #: controls/trackListView.js:809 helpers/lyricsSearch.js:616
-#: MaskHelper.pas:3177 MaskHelper.pas:3662 MaskHelper.pas:3890
+#: MaskHelper.pas:3177 MaskHelper.pas:3662 MaskHelper.pas:3895
 #: QueryManage.pas:4993
 msgid "Source"
 msgstr "ソース"
@@ -4243,7 +4267,7 @@ msgstr "拡張子"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:931 dialogs/dlgTrackProperties/tabDetails.js:61
-#: MaskHelper.pas:3161 MaskHelper.pas:3589 MaskHelper.pas:3874
+#: MaskHelper.pas:3161 MaskHelper.pas:3589 MaskHelper.pas:3879
 #: MediaMonkeyApp.pas:6376 QueryManage.pas:5047 QueryManage.pas:5048
 #: ResStrings.pas:459 dialogs\dlgTrackProperties\tabDetails.html:234
 msgid "Added"
@@ -4251,7 +4275,7 @@ msgstr "追加"
 
 #. Songs.Lyricist
 #: controls/trackListView.js:963 MaskHelper.pas:3159 MaskHelper.pas:3584
-#: MaskHelper.pas:3873 QueryManage.pas:4965 ResStrings.pas:488
+#: MaskHelper.pas:3878 QueryManage.pas:4965 ResStrings.pas:488
 msgid "Original Date"
 msgstr "オリジナル日付"
 
@@ -4275,7 +4299,7 @@ msgstr "アルバム音量"
 #. don't save
 #: controls/trackListView.js:1166 dialogs/dlgAutotag.js:2031
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:146
-#: dialogs/dlgTrackProperties/tabBasic.js:480 MaskHelper.pas:3866
+#: dialogs/dlgTrackProperties/tabBasic.js:480 MaskHelper.pas:3871
 #: ResStrings.pas:446 ResStrings.pas:517
 #: dialogs\dlgTrackProperties\tabBasic.html:104
 msgid "Disc #"
@@ -4312,7 +4336,7 @@ msgid "Lyricist"
 msgstr "作詞者"
 
 #: controls/trackListView.js:1273 MaskHelper.pas:3146 MaskHelper.pas:3564
-#: MaskHelper.pas:3869 QueryManage.pas:4926 ResStrings.pas:492
+#: MaskHelper.pas:3874 QueryManage.pas:4926 ResStrings.pas:492
 #: dialogs\dlgTrackProperties\tabDetails.html:5
 msgid "Grouping"
 msgstr "グループ化"
@@ -4330,19 +4354,19 @@ msgstr "トラック番号"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:1453 MaskHelper.pas:3179 MaskHelper.pas:3767
-#: MaskHelper.pas:3912 ResStrings.pas:444
+#: MaskHelper.pas:3922 ResStrings.pas:444
 msgid "Skipped #"
 msgstr "スキップ回数"
 
 #. this field should not be used for whole album, specific for each track
 #. TODO: HTML: get the dimensions a better way?
 #: controls/trackListView.js:1493 Covers.pas:1308 MaskHelper.pas:3189
-#: MaskHelper.pas:3717 MaskHelper.pas:3902 ResStrings.pas:495
+#: MaskHelper.pas:3717 MaskHelper.pas:3907 ResStrings.pas:495
 msgid "Resolution"
 msgstr "解像度"
 
 #: controls/trackListView.js:1506 FormatsHandler.pas:2998 MaskHelper.pas:3190
-#: MaskHelper.pas:3722 MaskHelper.pas:3903 ResStrings.pas:496
+#: MaskHelper.pas:3722 MaskHelper.pas:3908 ResStrings.pas:496
 #: dialogs\videoConvSettings.html:87
 msgid "Framerate"
 msgstr "フレームレート"
@@ -4350,25 +4374,25 @@ msgstr "フレームレート"
 #. assign duration only if we don't have a better way to find it (issue #8948)
 #: controls/trackListView.js:1519 dialogs/dlgTrackProperties/tabBasic.js:506
 #: DBStructure.pas:2059 MaskHelper.pas:3163 MaskHelper.pas:3594
-#: MaskHelper.pas:3875 PodcastManage.pas:3044 QueryManage.pas:3053
+#: MaskHelper.pas:3880 PodcastManage.pas:3044 QueryManage.pas:3053
 #: QueryManage.pas:3060 ResStrings.pas:497
 msgid "Podcast"
 msgstr "ポッドキャスト"
 
 #: controls/trackListView.js:1559 dialogs/dlgTrackProperties/tabBasic.js:516
-#: MaskHelper.pas:3167 MaskHelper.pas:3615 MaskHelper.pas:3879
+#: MaskHelper.pas:3167 MaskHelper.pas:3615 MaskHelper.pas:3884
 #: ResStrings.pas:500 ResStrings.pas:506
 msgid "Episode #"
 msgstr "エピソード番号"
 
 #: controls/trackListView.js:1614 dialogs/dlgTrackProperties/tabBasic.js:515
-#: MaskHelper.pas:3168 MaskHelper.pas:3622 MaskHelper.pas:3881
+#: MaskHelper.pas:3168 MaskHelper.pas:3622 MaskHelper.pas:3886
 #: ResStrings.pas:501 ResStrings.pas:507
 msgid "Season #"
 msgstr "シーズン番号"
 
 #: controls/trackListView.js:1632 MaskHelper.pas:3192 MaskHelper.pas:3732
-#: MaskHelper.pas:3905 QueryManage.pas:1885 ResStrings.pas:490
+#: MaskHelper.pas:3910 QueryManage.pas:1885 ResStrings.pas:490
 msgid "Screenwriter"
 msgstr "脚本家"
 
@@ -4381,21 +4405,21 @@ msgstr "出演者"
 #. don't save
 #: controls/trackListView.js:1685 dialogs/dlgAutotag.js:2451
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:154 MaskHelper.pas:3173
-#: MaskHelper.pas:3642 MaskHelper.pas:3886 ResStrings.pas:502
+#: MaskHelper.pas:3642 MaskHelper.pas:3891 ResStrings.pas:502
 #: UPnPTreeHelper.pas:1903 dialogs\dlgTrackProperties\tabDetails.html:42
 msgid "Parental Rating"
 msgstr "視聴年齢制限"
 
-#: controls/trackListView.js:1702
+#: controls/trackListView.js:1702 dialogs/dlgSpeedPitch.js:33
 #: Scripts/statistics/dialogs/dlgStatistics.js:172
 #: Scripts/statistics/dialogs/dlgStatistics.js:323 MaskHelper.pas:3171
-#: MaskHelper.pas:3632 MaskHelper.pas:3884 QueryManage.pas:4931
+#: MaskHelper.pas:3632 MaskHelper.pas:3889 QueryManage.pas:4931
 #: dialogs\dlgMediaProperties.html:11
 msgid "Type"
 msgstr "タイプ"
 
 #: controls/trackListView.js:1715 MaskHelper.pas:3176 MaskHelper.pas:3657
-#: MaskHelper.pas:3889 QueryManage.pas:4927 QueryManage.pas:5061
+#: MaskHelper.pas:3894 QueryManage.pas:4927 QueryManage.pas:5061
 #: QueryManage.pas:5062 dialogs\dlgTrackProperties\tabClassification.html:50
 msgid "Initial Key"
 msgstr "初期キー"
@@ -4411,7 +4435,7 @@ msgid "Encoder"
 msgstr "エンコーダ"
 
 #: controls/trackListView.js:1766 MaskHelper.pas:3196 MaskHelper.pas:3737
-#: MaskHelper.pas:3906 ResStrings.pas:473
+#: MaskHelper.pas:3911 ResStrings.pas:473
 #: dialogs\dlgTrackProperties\tabDetails.html:119
 msgid "Copyright"
 msgstr "著作権"
@@ -4548,7 +4572,7 @@ msgstr "'%s'にプレイリストも生成:"
 msgid "Update files and metadata as follows when syncing to '%s'"
 msgstr "'%s'に同期する際、次のようにメタデータを更新します"
 
-#: controls/nowPlaying/fullList.js:203
+#: controls/nowPlaying/fullList.js:211
 msgid "Click to look up lyrics..."
 msgstr "クリックして歌詞を検索..."
 
@@ -4575,16 +4599,16 @@ msgid "Enabled"
 msgstr "有効"
 
 #: controls/serverConfig/devices.js:26 controls/serverConfig/server.js:122
-#: UpNp.pas:5830
+#: UpNp.pas:5804
 msgid "MAC address"
 msgstr "MACアドレス"
 
 #: controls/serverConfig/devices.js:34 controls/serverConfig/server.js:130
-#: UpNp.pas:5831 UpNp.pas:5837 controls\serverConfig\server.html:9
+#: UpNp.pas:5805 UpNp.pas:5811 controls\serverConfig\server.html:9
 msgid "IP address"
 msgstr "IPアドレス"
 
-#: controls/serverConfig/devices.js:59 UpNp.pas:10365
+#: controls/serverConfig/devices.js:59 UpNp.pas:10339
 msgid "Last access"
 msgstr "最終アクセス"
 
@@ -4595,17 +4619,15 @@ msgstr "自動処理"
 #. 192.168.X.X can be reached (case A)
 #: controls/serverConfig/server.js:33
 msgid ""
-"%s appears running normally, if you still can't access server on the other "
-"machines/devices click Help."
+"%s seems to be working correctly. See Help, if you're unable to access the "
+"server from other devices."
 msgstr ""
-"%sは正常に動作しているようですが、それでも他のマシン/デバイスのサーバーにアク"
-"セスできない場合は、[ヘルプ]をクリックしてください。"
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
 msgstr "サーバーが稼働していません"
 
-#: controls/serverConfig/server.js:138 UpNp.pas:5838
+#: controls/serverConfig/server.js:138 UpNp.pas:5812
 msgid "Client name"
 msgstr "クライアント名"
 
@@ -4713,10 +4735,6 @@ msgstr "オーディオチャンネル"
 msgid "Audio bit depth"
 msgstr "オーディオビット深度"
 
-#: dialogs/dlgAutoorganize.js:19
-msgid "Organize"
-msgstr "整理"
-
 #: dialogs/dlgAutoorganize.js:177 dialogs\dlgAutoorganize.html:34
 msgid "Delete emptied folders"
 msgstr "空のフォルダーを削除"
@@ -4823,10 +4841,6 @@ msgstr "元の値"
 msgid "New value"
 msgstr "新しい値"
 
-#: dialogs/dlgAutotagFromFilename.js:84
-msgid "Tag from filename"
-msgstr "ファイル名からタグ付け"
-
 #. another thread is preparing the list
 #: dialogs/dlgAutotagFromFilename.js:390 MP3Utils.pas:1270
 #: Normalization.pas:1353
@@ -4874,7 +4888,7 @@ msgid "Icon"
 msgstr "アイコン"
 
 #: dialogs/dlgCollectionOptions.js:383
-#: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 MediaMonkeyApp.pas:7516
+#: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 MediaMonkeyApp.pas:7520
 msgid "not found!"
 msgstr "見つかりませんでした！"
 
@@ -5357,7 +5371,7 @@ msgstr "通知解除"
 #: dialogs/dlgWAVSettings.js:23 dialogs/dlgWAVSettings.js:37
 #: dialogs/dlgWAVSettings.js:51 dialogs/dlgOptions/pnl_LayoutPreview.js:33
 #: helpers/docking.js:359 helpers/docking.js:364 helpers/docking.js:587
-#: MediaMonkeyApp.pas:9103 ResStrings.pas:370
+#: MediaMonkeyApp.pas:9107 ResStrings.pas:370
 msgid "Default"
 msgstr "デフォルト"
 
@@ -5571,6 +5585,12 @@ msgstr "なし"
 msgid "Sleep timer can be used only with Gold!"
 msgstr "スリープタイマーはGoldバージョンでのみ使用できます！"
 
+#: dialogs/dlgSpeedPitch.js:11
+#, fuzzy
+#| msgid "Adjust video"
+msgid "Adjust pitch"
+msgstr "動画の調整"
+
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
 msgstr "形式の設定"
@@ -5607,8 +5627,8 @@ msgid "Please confirm the following changes:"
 msgstr "次の変更を確認して下さい:"
 
 #. Button text
-#: dialogs/dlgTrackProperties.js:18 ExceptionHandler.pas:326 UpNp.pas:5829
-#: UpNp.pas:5836
+#: dialogs/dlgTrackProperties.js:18 ExceptionHandler.pas:326 UpNp.pas:5803
+#: UpNp.pas:5810
 msgid "Details"
 msgstr "詳細"
 
@@ -5850,7 +5870,7 @@ msgstr "新しいレイアウト名"
 msgid "Separator"
 msgstr "分割記号"
 
-#: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10353
+#: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10327
 #: controls\serverConfig\server.html:5
 msgid "Server name"
 msgstr "サーバー名"
@@ -5952,21 +5972,21 @@ msgstr "利用可能な場合はハードウェアアクセラレーションを
 msgid "(requires restart)"
 msgstr "(要再起動)"
 
-#: dialogs/dlgOptions/pnl_PlaybackRules.js:71
+#: dialogs/dlgOptions/pnl_PlaybackRules.js:74
 msgid "Gap"
 msgstr "間隔"
 
-#: dialogs/dlgOptions/pnl_PlaybackRules.js:72
+#: dialogs/dlgOptions/pnl_PlaybackRules.js:75
 msgid "Overlap"
 msgstr "オーバーラップ"
 
-#: dialogs/dlgOptions/pnl_PlaybackRules.js:73
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:26
+#: dialogs/dlgOptions/pnl_PlaybackRules.js:76
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:28
 msgid "Gap/Overlap"
 msgstr "間隔/オーバーラップ"
 
 #. Unsupported by <NameofCurrentOutputPlugin>. Please change "Audio Output" ("plug-ins").
-#: dialogs/dlgOptions/pnl_PlaybackRules.js:126
+#: dialogs/dlgOptions/pnl_PlaybackRules.js:129
 msgid "Unsupported by %s."
 msgstr "%sはサポートされていません。"
 
@@ -6026,9 +6046,12 @@ msgid "Automatically analyzes volume of tracks as a background process"
 msgstr "トラックの音量解析をバックグラウンドプロセスとして自動的に行います"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:184
+#, fuzzy
+#| msgid ""
+#| "The change in artwork at %s will apply to %d other file(s) on the album. "
+#| "Do you want to proceed?"
 msgid ""
-"The change in artwork at %s will apply to %d other file(s) on the album. Do "
-"you want to proceed?"
+"The change in artwork at %s will apply to %d other file(s) on the album."
 msgstr ""
 "%sのアートワークの変更は、アルバム上の%d個の他のファイルに適用されます。続行"
 "しますか？"
@@ -6197,7 +6220,7 @@ msgid "tracks"
 msgstr "トラック"
 
 #. sources object, this is the list of all sources, addons can add its own source to this list
-#: helpers/autoDJ.js:16 Filters.pas:3441 MediaMonkeyApp.pas:9076
+#: helpers/autoDJ.js:16 Filters.pas:3452 MediaMonkeyApp.pas:9080
 #: ResStrings.pas:420
 msgid "Entire Library"
 msgstr "全ライブラリ"
@@ -6233,7 +6256,7 @@ msgstr "所在地"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to accept <Skip> as used in MM4 (and renamed to <Ignore> in MM5)
-#: helpers/autoTagFramework.js:288 MaskHelper.pas:3851
+#: helpers/autoTagFramework.js:288 MaskHelper.pas:3856
 #: dialogs\dlgAutotag.html:20
 msgid "Skip"
 msgstr "スキップ"
@@ -6818,7 +6841,7 @@ msgstr "全プレイリスト"
 msgid "%d files to be tagged"
 msgstr "%d ファイルをタグ付け"
 
-#: BaseApp.pas:7469
+#: BaseApp.pas:7486
 msgid "There are background processes running. Terminate them?"
 msgstr "バックグラウンドプロセスが実行されています。終了しますか？"
 
@@ -6847,11 +6870,11 @@ msgstr "FPS"
 msgid "%d database entries to be updated"
 msgstr "%d個のデータベースエントリを更新する"
 
-#: BaseMedia.pas:15790 Filters.pas:2776
+#: BaseMedia.pas:15790 Filters.pas:2787
 msgid "list"
 msgstr "リスト"
 
-#: BaseMedia.pas:16431 Filters.pas:2718 ResStrings.pas:392
+#: BaseMedia.pas:16431 Filters.pas:2729 ResStrings.pas:392
 msgid "albums"
 msgstr "アルバム"
 
@@ -7083,7 +7106,7 @@ msgstr "ファイル%sを削除しています(%d/%d)"
 msgid "%d of %d folders processed"
 msgstr "%d/%dフォルダーが処理されました"
 
-#: dblistutils.pas:1509 UpNp.pas:6254 UPnPTreeHelper.pas:1909 WebUtils.pas:2037
+#: dblistutils.pas:1509 UpNp.pas:6228 UPnPTreeHelper.pas:1909 WebUtils.pas:2037
 #: WebUtils.pas:2061
 msgid "Unknown Title"
 msgstr "タイトル不明"
@@ -7471,7 +7494,7 @@ msgstr "無効なアドオン: MediaMonkey 4.xにのみ有効です"
 
 #. show the addon's config immediatelly (so that users are aware)
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
-#: Extensions.pas:1039 UpNp.pas:11857
+#: Extensions.pas:1039 UpNp.pas:11833
 msgid "%s was successfully installed."
 msgstr "%sは正常にインストールされました。"
 
@@ -7659,14 +7682,14 @@ msgstr "ABR"
 msgid "Max. bitrate"
 msgstr "最大ビットレート"
 
-#: FormatsHandler.pas:3402 FormatsHandler.pas:3641 MediaMonkeyApp.pas:7561
+#: FormatsHandler.pas:3402 FormatsHandler.pas:3641 MediaMonkeyApp.pas:7565
 msgid "MediaMonkey is unable to encode this format."
 msgstr "MediaMonkeyはこの形式のエンコードはできません。"
 
 #. DRM
 #. accessible without error and does not play, was probably already stopped, exit, it could lead to error #17661 otherwise
 #. DRM
-#: FormatsManage.pas:1264 FullPlayer.pas:4462 GeneralDecoder.pas:442
+#: FormatsManage.pas:1264 FullPlayer.pas:4482 GeneralDecoder.pas:442
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
 msgstr "ファイル%sはデコードできません。DRMの制限による可能性があります。"
 
@@ -7680,7 +7703,7 @@ msgid "Converting file %d of %d"
 msgstr "ファイル%d/%dを変換しています"
 
 #. TODOWIN8
-#: FormatsManage.pas:1420 FormatsManage.pas:1937 UpNp.pas:4867
+#: FormatsManage.pas:1420 FormatsManage.pas:1937 UpNp.pas:4841
 msgid ""
 "There isn't enough free space to convert all files. Please clear space in "
 "the temporary directory"
@@ -7813,61 +7836,64 @@ msgid "above"
 msgstr "上へ"
 
 #. using checkMedia removed, #18091
-#: FullPlayer.pas:2339
+#: FullPlayer.pas:2357
 msgid "Add %d file(s) to Playing"
 msgstr "%dファイルを「再生中」リストに追加"
 
-#: FullPlayer.pas:2496
+#: FullPlayer.pas:2514
 msgid "Clear Playing"
 msgstr "「再生中」リストをクリア"
 
-#: FullPlayer.pas:2967
+#: FullPlayer.pas:2987
 msgid "Currently, there is no output plug-in selected"
 msgstr "現在、出力プラグインは選択されていません"
 
-#: FullPlayer.pas:2981
+#: FullPlayer.pas:3001
 msgid "Currently no input plug-in is in use (no file is playing)."
 msgstr ""
 "現在、入力プラグインは使用されていません（ファイルは再生されていません）。"
 
 #. run in separate thread, as caller could be terminated too fast and message would not be shown
 #. no audio hw
-#: FullPlayer.pas:4316 GeneralDecoder.pas:447
+#: FullPlayer.pas:4336 GeneralDecoder.pas:447
 msgid "No audio hardware found"
 msgstr "オーディオハードウェアが見つかりません"
 
 #. test accessibility first
-#: FullPlayer.pas:4453
+#: FullPlayer.pas:4473
 msgid "Playback failed: %s is inaccessible."
 msgstr "再生に失敗しました: %sはアクセスできません。"
 
 #. try to find missing codecs
 #. try to catch some known errors and handle them
-#: FullPlayer.pas:4470 FullPlayer.pas:4474 FullPlayer.pas:4477
+#: FullPlayer.pas:4490 FullPlayer.pas:4494 FullPlayer.pas:4497
 msgid "Playback failed: %s cannot decode %s."
 msgstr "再生に失敗しました: %sは%sをデコードできません。"
 
-#: FullPlayer.pas:4734
+#: FullPlayer.pas:4754
 msgid "Clean"
 msgstr "消去"
 
 #. this song already was in the playlist
-#: FullPlayer.pas:5061
+#: FullPlayer.pas:5081
 msgid "No duplicates were detected."
 msgstr "重複は検出されませんでした。"
 
-#: FullPlayer.pas:5065
+#: FullPlayer.pas:5085
 msgid "Do you want to remove %d duplicate(s) Playing?"
 msgstr "%d件の重複した「再生中」を削除しますか？"
 
 #. lock, so the track to delete won't be scanned again
-#: FullPlayer.pas:6702
+#: FullPlayer.pas:6795
+#, fuzzy
+#| msgid ""
+#| "The operation will be finished after the end of playback of the current "
+#| "track."
 msgid ""
-"The operation will be finished after the end of playback of the current "
-"track."
+"The operation will complete after the the current file finishes playing."
 msgstr "この操作は、現在のトラックの再生が終了した後に終了します。"
 
-#: FullPlayer.pas:7162
+#: FullPlayer.pas:7255
 msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
@@ -7875,11 +7901,11 @@ msgstr ""
 "ファイル%sが再生されています。削除すると再生が中断されます。削除してもよろし"
 "いですか？"
 
-#: FullPlayer.pas:8237
+#: FullPlayer.pas:8336
 msgid "Computing waveform for file %s"
 msgstr "ファイル%sの波形を計算しています"
 
-#: FullPlayer.pas:8798 WinAmpPlugins.pas:2897
+#: FullPlayer.pas:8897 WinAmpPlugins.pas:2913
 msgid "No configuration"
 msgstr "設定がありません"
 
@@ -8086,7 +8112,7 @@ msgstr ""
 "れており、ディスクが書き込まれないようになっています。"
 
 #. do not show this message when app is launching.
-#: HTMLWindow.pas:13167
+#: HTMLWindow.pas:13177
 msgid ""
 "The MicroPlayer is not yet enabled. To enable it, right-click on the "
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
@@ -8147,7 +8173,7 @@ msgstr "プレイリストの処理中"
 msgid "Auto Number"
 msgstr "自動番号"
 
-#: MaskHelper.pas:3162 MaskHelper.pas:3574 MaskHelper.pas:3871
+#: MaskHelper.pas:3162 MaskHelper.pas:3574 MaskHelper.pas:3876
 msgid "Target Extension"
 msgstr "対象とする拡張子"
 
@@ -8155,15 +8181,15 @@ msgstr "対象とする拡張子"
 msgid "Sample Rate"
 msgstr "サンプルレート"
 
-#: MaskHelper.pas:3174 MaskHelper.pas:3647 MaskHelper.pas:3887
+#: MaskHelper.pas:3174 MaskHelper.pas:3647 MaskHelper.pas:3892
 msgid "Involved People"
 msgstr "関係者"
 
-#: MaskHelper.pas:3185 MaskHelper.pas:3697 MaskHelper.pas:3898
+#: MaskHelper.pas:3185 MaskHelper.pas:3697 MaskHelper.pas:3903
 msgid "Track Volume"
 msgstr "トラック音量"
 
-#: MaskHelper.pas:3186 MaskHelper.pas:3702 MaskHelper.pas:3899
+#: MaskHelper.pas:3186 MaskHelper.pas:3702 MaskHelper.pas:3904
 msgid "Album Volume"
 msgstr "アルバム音量"
 
@@ -8195,73 +8221,73 @@ msgstr "マスクの使い方"
 msgid "Track#"
 msgstr "トラック#"
 
-#: MaskHelper.pas:3867
+#: MaskHelper.pas:3872
 msgid "Disc#"
 msgstr "ディスク#"
 
-#: MaskHelper.pas:3880
+#: MaskHelper.pas:3885
 msgid "Episode#"
 msgstr "エピソード#"
 
-#: MaskHelper.pas:3882
+#: MaskHelper.pas:3887
 msgid "Season#"
 msgstr "シーズン#"
 
-#: MaskHelper.pas:3892
+#: MaskHelper.pas:3897
 msgid "Played#"
 msgstr "再生回数"
 
-#: MaskHelper.pas:3913
+#: MaskHelper.pas:3923
 msgid "Skipped#"
 msgstr "スキップ回数"
 
-#: MediaManage.pas:2915
+#: MediaManage.pas:2923
 msgid "An error occured while moving file %s to %s. Do you want to try again?"
 msgstr "ファイル%sを%sに移動中にエラーが発生しました。もう一度やり直しますか？"
 
-#: MediaManage.pas:3059
+#: MediaManage.pas:3067
 msgid "Moving file %d of %d (%s)"
 msgstr "ファイル%d/%d (%s)を移動しています"
 
-#: MediaManage.pas:3061
+#: MediaManage.pas:3069
 msgid "Copying file %d of %d (%s)"
 msgstr "ファイル%d/%d (%s)をコピーしています"
 
-#: MediaManage.pas:3221
+#: MediaManage.pas:3229
 msgid "Could not find file %s, it will not be %s."
 msgstr "ファイル%sが見つかりませんでした。%sではないと思われます。"
 
-#: MediaManage.pas:3222
+#: MediaManage.pas:3230
 msgid "moved"
 msgstr "移動済み"
 
-#: MediaManage.pas:3222
+#: MediaManage.pas:3230
 msgid "copied"
 msgstr "コピー済み"
 
-#: MediaManage.pas:3854
+#: MediaManage.pas:3862
 msgid "Moving file $src$ to $dest$"
 msgstr "ファイル$src$を$dest$に移動しています"
 
-#: MediaManage.pas:3856
+#: MediaManage.pas:3864
 msgid "Copying file $src$ to $dest$"
 msgstr "ファイル$src$を$dest$にコピーしています"
 
-#: MediaManage.pas:4075
+#: MediaManage.pas:4083
 msgid "The media '%s' is not inserted."
 msgstr "メディア'%s'が挿入されていません。"
 
-#: MediaManage.pas:4154
+#: MediaManage.pas:4162
 msgid "Cannot rename directory %s to %s."
 msgstr "ディレクトリ%sを%sに名前を変更できません。"
 
 #. #10283
 #. if we are going to tag a file that is playing, let's do it as quickly as possible
-#: MediaManage.pas:4394 MP3Utils.pas:3820
+#: MediaManage.pas:4402 MP3Utils.pas:3820
 msgid "Tag update failed: %s is inaccessible."
 msgstr "タグの更新に失敗しました: %sはアクセスできません。"
 
-#: MediaManage.pas:5636 MediaMonkeyApp.pas:5522
+#: MediaManage.pas:5644 MediaMonkeyApp.pas:5522
 msgid "Creating folder \"%s\" failed"
 msgstr "フォルダー\"%s\"の作成に失敗しました"
 
@@ -8295,48 +8321,48 @@ msgstr "ログをスキャン"
 msgid "Operation"
 msgstr "オペレーション"
 
-#: MediaMonkeyApp.pas:7360
+#: MediaMonkeyApp.pas:7364
 msgid "Lifetime"
 msgstr "生涯ライセンス"
 
-#: MediaMonkeyApp.pas:7400 ResStrings.pas:372
+#: MediaMonkeyApp.pas:7404 ResStrings.pas:372
 msgid "Unregistered"
 msgstr "未登録"
 
-#: MediaMonkeyApp.pas:7402
+#: MediaMonkeyApp.pas:7406
 msgid "Trial version"
 msgstr "試用版"
 
-#: MediaMonkeyApp.pas:7404
+#: MediaMonkeyApp.pas:7408
 msgid "Standard edition"
 msgstr "通常版"
 
 #. #16581
-#: MediaMonkeyApp.pas:7866
+#: MediaMonkeyApp.pas:7870
 msgid "Open tray"
 msgstr "トレイを開く"
 
-#: MediaMonkeyApp.pas:8626
+#: MediaMonkeyApp.pas:8630
 msgid "Track"
 msgstr "トラック"
 
-#: MediaMonkeyApp.pas:8631 QueryManage.pas:4942
+#: MediaMonkeyApp.pas:8635 QueryManage.pas:4942
 msgid "Leveling"
 msgstr "音量揃え"
 
-#: MediaMonkeyApp.pas:9094
+#: MediaMonkeyApp.pas:9098
 msgid "Edit Properties"
 msgstr "プロパティ編集"
 
-#: MediaMonkeyApp.pas:9104
+#: MediaMonkeyApp.pas:9108
 msgid "Clear list & play selected + subsequent"
 msgstr "リストをクリアして、選択したものと後続を再生"
 
-#: MediaMonkeyApp.pas:9105
+#: MediaMonkeyApp.pas:9109
 msgid "Clear list & play selected only"
 msgstr "リストをクリアして、選択したもののみ再生"
 
-#: MediaMonkeyApp.pas:9106
+#: MediaMonkeyApp.pas:9110
 msgid "Play selected files only"
 msgstr "選択ファイルの再生のみ"
 
@@ -8459,31 +8485,23 @@ msgstr "試用"
 msgid "trial-expired"
 msgstr "試用期限切れ"
 
-#: MusicUtils.pas:521 MusicUtils.pas:550
+#: MusicUtils.pas:523 MusicUtils.pas:552
 msgid "Calculating signatures..."
 msgstr "署名を計算しています..."
 
 #. 401769 = 31.12.2999 23:59:59
 #. 401769 = 31.12.2999 23:59:59
-#: MusicUtils.pas:872 Utils.pas:4510
+#: MusicUtils.pas:874 Utils.pas:4510
 msgid "Today"
 msgstr "今日"
 
-#: MusicUtils.pas:879 Utils.pas:4517
+#: MusicUtils.pas:881 Utils.pas:4517
 msgid "Yesterday"
 msgstr "昨日"
 
-#: MusicUtils.pas:963
+#: MusicUtils.pas:965
 msgid " stars"
 msgstr " 星"
-
-#: MusicUtils.pas:2223
-msgid ""
-"This kind of audio conversion is not implemented yet. Channels: %d "
-"(required: %d), Bits per sample: %d (required: %d)"
-msgstr ""
-"この種類のオーディオ変換はまだ実装されていません。チャンネル： %d （必要： "
-"%d ）、サンプルあたりのビット数： %d （必要： %d ）"
 
 # SOME DESCRIPTIVE TITLE.
 #. tempo tag constant
@@ -8698,7 +8716,7 @@ msgstr "OPMLディレクトリではないようです。"
 #. eliminate the word
 #. Replace OR operator by ; (it has the same meaning)
 #: QueryManage.pas:2436 QueryManage.pas:2691 QueryManage.pas:2695
-#: QueryManage.pas:7859 QueryManage.pas:8015
+#: QueryManage.pas:7861 QueryManage.pas:8017
 msgid "OR"
 msgstr "または"
 
@@ -8887,7 +8905,7 @@ msgstr "最も使われていない"
 msgid "Original date"
 msgstr "オリジナル日付"
 
-#: QueryManage.pas:8224 QueryManage.pas:8233
+#: QueryManage.pas:8226 QueryManage.pas:8235
 msgid "Present"
 msgstr "現在"
 
@@ -9235,39 +9253,43 @@ msgid "Sleep: %d minute"
 msgstr "スリープ: %d 分"
 
 #: SQLiteDB.pas:646
-msgid ""
-"Library database %s can't be opened, please check the file is accessible and "
-"is not locked.<br><br>Error: "
-msgstr ""
-"ライブラリデータベース%sを開くことができません。ファイルがアクセス可能でロッ"
-"クされていないことを確認してください。<br><br>エラー: "
+#, fuzzy
+#| msgid "The file %s cannot be created."
+msgid "Database file %s cannot be accessed."
+msgstr "ファイル%sを作成できません。"
 
 #. per #17917
-#: UpNp.pas:1961
+#: UpNp.pas:1956
+#, fuzzy
+#| msgid ""
+#| "Your network connection is set to 'Public'. This usually sets your device "
+#| "to not be discoverable by other devices on the network.If you're at home "
+#| "then you might want to switch to 'Private' instead. Do you wish to "
+#| "proceed?"
 msgid ""
-"Your network connection is set to 'Public'. This usually sets your device to "
-"not be discoverable by other devices on the network.If you're at home then "
-"you might want to switch to 'Private' instead. Do you wish to proceed?"
+"Your network connection is set to 'Public'. This usually causes your machine "
+"to not be discoverable by other devices on the network. If you're on a home "
+"network, you may want to switch your network connection to 'Private'."
 msgstr ""
 "ネットワーク接続が「パブリック」に設定されています。通常はデバイスがネット"
 "ワーク上の他のデバイスに検出されないように設定します。あなたが自宅にいる場合"
 "は、代わりに「プライベート」に切り替えることをお勧めします。続行しますか？"
 
 #. #13718 - item 1
-#: UpNp.pas:2504
+#: UpNp.pas:2499
 msgid "Casting"
 msgstr "キャスティング(Casting)"
 
-#: UpNp.pas:3748
+#: UpNp.pas:3726
 msgid "MediaMonkey Library"
 msgstr "MediaMonkey ライブラリ"
 
-#: UpNp.pas:4043
+#: UpNp.pas:4020
 msgid "Media server '%s' could not start: port %d is already in use."
 msgstr ""
 "メディアサーバー'%s'を起動できませんでした:ポート%dは既に使用されています。"
 
-#: UpNp.pas:4044
+#: UpNp.pas:4021
 msgid ""
 "Check whether another instance of MediaMonkey is already running or change "
 "the port# in Options > Media Sharing."
@@ -9275,11 +9297,11 @@ msgstr ""
 "MediaMonkeyの別のインスタンスが既に実行されているか確認するか、「オプション」"
 "＞「メディア共有」でポート番号を変更します。"
 
-#: UpNp.pas:4504
+#: UpNp.pas:4478
 msgid "Denied"
 msgstr "拒否"
 
-#: UpNp.pas:4506
+#: UpNp.pas:4480
 msgid "Accepted"
 msgstr "承諾"
 
@@ -9287,82 +9309,82 @@ msgstr "承諾"
 #. this is request to (un)check this item on the sync list for particular device
 #. to make the log nicer
 #. it is container, 'path/Artist/ABBA'
-#: UpNp.pas:4817 UpNp.pas:5615 UpNp.pas:6467
+#: UpNp.pas:4791 UpNp.pas:5589 UpNp.pas:6441
 #: controls\deviceConfig\options\pnl_FileLocations.html:73
 msgid "Root directory"
 msgstr "ルートディレクトリ"
 
-#: UpNp.pas:4888
+#: UpNp.pas:4862
 msgid "Output from MediaMonkey Player"
 msgstr "MediaMonkeyプレイヤーから出力"
 
-#: UpNp.pas:5831 UpNp.pas:5837
+#: UpNp.pas:5805 UpNp.pas:5811
 msgid "This is an external IP address!"
 msgstr "外部IPアドレスです！"
 
-#: UpNp.pas:5833 UpNp.pas:5840
+#: UpNp.pas:5807 UpNp.pas:5814
 msgid "Do you want to grant it access?"
 msgstr "アクセスを許可しますか？"
 
 #. Access is not allowed, ask user to allow access
-#: UpNp.pas:5967
+#: UpNp.pas:5941
 msgid "A device [MAC address: %s] is attempting to access the %s"
 msgstr "デバイス[MACアドレス: %s]が%sにアクセスしようとしています"
 
 #. WiFi sync
-#: UpNp.pas:5993
+#: UpNp.pas:5967
 msgid "Access denied"
 msgstr "アクセス拒否"
 
 #. #18189 - to advance to next track when screen is dimmed (and player seekbar rendering inactive)
 #. to not show "turned off or inaccessible" message, but just skip to the next file
-#: UpNp.pas:8566 UpNp.pas:9117 UpNp.pas:12904
+#: UpNp.pas:8540 UpNp.pas:9091 UpNp.pas:12887
 msgid "Buffering on"
 msgstr "バッファー中"
 
-#: UpNp.pas:8633
+#: UpNp.pas:8607
 msgid "Connecting to"
 msgstr "接続しています"
 
 #. some players (e.g. Samsung) requires Stop before setting another track (#10298: Next has no effect when player is Samsung TV)
-#: UpNp.pas:8728
+#: UpNp.pas:8702
 msgid "Stopping on"
 msgstr "停止中"
 
-#: UpNp.pas:9397
+#: UpNp.pas:9371
 msgid "Multi-zone"
 msgstr "マルチゾーン"
 
-#: UpNp.pas:10355
+#: UpNp.pas:10329
 msgid "Manufacturer"
 msgstr "メーカー"
 
-#: UpNp.pas:10357
+#: UpNp.pas:10331
 msgid "Model name"
 msgstr "モデル名"
 
-#: UpNp.pas:10359
+#: UpNp.pas:10333
 msgid "Model number"
 msgstr "モデルの番号"
 
-#: UpNp.pas:10361
+#: UpNp.pas:10335
 msgid "Model description"
 msgstr "モデルの説明"
 
-#: UpNp.pas:11347
+#: UpNp.pas:11321
 msgid "The link/URL has not been entered in a valid format"
 msgstr "リンク/URLが有効な形式で入力されていません"
 
 #. try again after 1 second as in some environments the router re-configuration (OpenPort) makes temporal issues
-#: UpNp.pas:11370
+#: UpNp.pas:11344
 msgid "The link/URL entered does not point to a media server device"
 msgstr "入力されたリンク/URLはメディアサーバーデバイスを指していません"
 
-#: UpNp.pas:12971
+#: UpNp.pas:12954
 msgid "Playing to %s has failed"
 msgstr "%sへの再生に失敗しました"
 
-#: UpNp.pas:12971
+#: UpNp.pas:12954
 msgid "The format is probably unsupported by the device."
 msgstr "この形式はおそらくデバイスによってサポートされていません。"
 
@@ -9412,11 +9434,11 @@ msgid "&Load Playlist"
 msgstr "プレイリストを読み込む(&L)"
 
 #. make sure CD_Reader is the first
-#: WinAmpPlugins.pas:3193
+#: WinAmpPlugins.pas:3215
 msgid "Plug-in %s could not be opened."
 msgstr "プラグイン%sを開けませんでした。"
 
-#: WinAmpPlugins.pas:5290
+#: WinAmpPlugins.pas:5329
 msgid ""
 "Current audio configuration cannot play %s. Verify that your sound drivers "
 "are properly installed or try to change/re-configure the output plugin."
@@ -9433,11 +9455,6 @@ msgstr ""
 #: controls\searchEditor.html:30
 msgid "Limit to"
 msgstr "上限:"
-
-#: controls\deviceConfig\options\pnl_Tagging.html:30
-msgid " If disabled, tag edits will not cause the file to resync"
-msgstr ""
-" 無効にした場合、タグの編集によってファイルが再同期されることはありません"
 
 #: controls\nowPlaying\fullList.html:44
 msgid "Coming up: "
@@ -9761,6 +9778,10 @@ msgstr ""
 "「今すぐ再生」コマンドが単一のファイルに対して実行されたときに再生されるファ"
 "イルを指定します。パーティーモードがアクティブである時のみ適用されます。"
 
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:8
+msgid "Enable speed adjustment"
+msgstr ""
+
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
 "This causes MediaMonkey to save .m3u files in a format that preserves non-"
@@ -9802,6 +9823,13 @@ msgstr ""
 #: controls\deviceConfig\options\pnl_Playlists.html:14
 msgid "Selected folder nodes"
 msgstr "選択したフォルダーノード"
+
+#: controls\deviceConfig\options\pnl_Tagging.html:30
+msgid ""
+"On sync, metadata for edited tags are always synced. This option "
+"additionally causes edited tracks to be recopied (useful for devices running "
+"3rd-party players)."
+msgstr ""
 
 #: dialogs\dlgEditView.html:23
 msgid "Sorting"
@@ -10375,7 +10403,7 @@ msgstr "MusicBrainz"
 msgid "Total lockdown"
 msgstr "総ロックダウン"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:20
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:22
 msgid "Fade in"
 msgstr "フェードイン"
 
@@ -10455,7 +10483,7 @@ msgstr "FreeDB (CDDBP)"
 msgid "Saves the change without confirmation."
 msgstr "確認せずに変更を保存します。"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:14
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:16
 msgid "Fade out"
 msgstr "フェードアウト"
 
@@ -10541,7 +10569,7 @@ msgstr "Windowsファイアウォールの例外を追加"
 msgid "Disable repositioning of dialogs and controls"
 msgstr "ダイアログとコントロールの再配置を無効にする"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:43
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:45
 msgid "Choose how the 'Track summary' field displays for each content Type"
 msgstr "各コンテンツタイプの「トラックの概要」フィールドの表示方法を選択します"
 
@@ -10812,7 +10840,7 @@ msgid "Allows music to be lowered/paused for announcements during a party"
 msgstr ""
 "パーティー中のお知らせのために音楽を下げたり一時停止したりすることができます"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:10
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Removes gaps introduced by some lossy encoders"
 msgstr "一部の損失の多いエンコーダによって導入されたギャップを削除します"
 
@@ -11567,11 +11595,11 @@ msgstr "デフォルトの動作"
 msgid "Player controls"
 msgstr "プレイヤーコントロール"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:34
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:36
 msgid "Increase play counter at:"
 msgstr "再生回数を増やす:"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:25
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:27
 msgid "Sets the size of the gap or overlap between tracks"
 msgstr "トラック間のギャップまたはオーバーラップのサイズを設定"
 
@@ -11667,7 +11695,7 @@ msgstr "変換"
 msgid "Use multiple CPU cores (if available)"
 msgstr "複数のCPUコアを使用する（利用可能な場合）"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:38
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:40
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It can be set use the default Player settings or customized "
@@ -11878,7 +11906,7 @@ msgstr "ソース"
 msgid "Determines which actions are presented when a disk is inserted"
 msgstr "ディスクを挿入したときに提示される動作を指定します"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:44
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:46
 msgid "'Track summary' format (e.g. in Player, Tracklist):"
 msgstr "「トラックの概要」の形式（プレイヤー、トラックリストなど）:"
 
@@ -11960,7 +11988,7 @@ msgstr "バックグラウンドでのメタデータの検索"
 msgid "Improve performance of some tasks by utilizing multiple CPU cores"
 msgstr "複数のCPUコアを利用して、一部のタスクのパフォーマンスを向上させる"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:12
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:14
 msgid "Crossfading"
 msgstr "クロスフェード"
 
@@ -12256,7 +12284,7 @@ msgstr "一時ディレクトリ:"
 msgid ".nfo files, Path and Filenames"
 msgstr ".nfoファイル、パスとファイル名"
 
-#: dialogs\dlgOptions\pnl_PlaybackRules.html:10
+#: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Remove silence at the beginning / end of track"
 msgstr "トラックの先頭/末尾の無音部分を取り除く"
 
@@ -12404,10 +12432,6 @@ msgstr "形式が以下の時:"
 #: dialogs\dlgChooseFields.html:10
 msgid "File type"
 msgstr "ファイルの種類"
-
-#: dialogs\dlgEditView.html:19
-msgid "Use in"
-msgstr "使用場所"
 
 #: dialogs\dlgRegisterGold.html:32
 msgid "If you don't have a license key, you can"
@@ -13086,6 +13110,40 @@ msgstr "オリジナルタイトル"
 #: dialogs\dlgTrackProperties\tabDetails.html:64
 msgid "Original title"
 msgstr "オリジナルタイトル"
+
+#~ msgid ""
+#~ "%s appears running normally, if you still can't access server on the "
+#~ "other machines/devices click Help."
+#~ msgstr ""
+#~ "%sは正常に動作しているようですが、それでも他のマシン/デバイスのサーバーに"
+#~ "アクセスできない場合は、[ヘルプ]をクリックしてください。"
+
+#~ msgid "Organize"
+#~ msgstr "整理"
+
+#~ msgid "Tag from filename"
+#~ msgstr "ファイル名からタグ付け"
+
+#~ msgid ""
+#~ "This kind of audio conversion is not implemented yet. Channels: %d "
+#~ "(required: %d), Bits per sample: %d (required: %d)"
+#~ msgstr ""
+#~ "この種類のオーディオ変換はまだ実装されていません。チャンネル： %d （必"
+#~ "要： %d ）、サンプルあたりのビット数： %d （必要： %d ）"
+
+#~ msgid ""
+#~ "Library database %s can't be opened, please check the file is accessible "
+#~ "and is not locked.<br><br>Error: "
+#~ msgstr ""
+#~ "ライブラリデータベース%sを開くことができません。ファイルがアクセス可能で"
+#~ "ロックされていないことを確認してください。<br><br>エラー: "
+
+#~ msgid " If disabled, tag edits will not cause the file to resync"
+#~ msgstr ""
+#~ " 無効にした場合、タグの編集によってファイルが再同期されることはありません"
+
+#~ msgid "Use in"
+#~ msgstr "使用場所"
 
 #~ msgid "'Play Now' Action:"
 #~ msgstr "「今すぐ再生」の動作:"
