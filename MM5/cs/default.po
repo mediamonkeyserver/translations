@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2024-01-29 07:42+0000\n"
+"PO-Revision-Date: 2024-02-17 10:42+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/cs/>\n"
@@ -1079,10 +1079,8 @@ msgstr "E&kvalizér"
 
 #: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "Nastavit video"
+msgstr "Upravit rychlost"
 
 #: actions.js:2999
 msgid "&Rip Audio CD"
@@ -3771,17 +3769,15 @@ msgstr ""
 
 #: controls/player.js:459
 msgid "Speed"
-msgstr ""
+msgstr "Rychlost"
 
 #: controls/player.js:463
-#, fuzzy
-#| msgid "Switch"
 msgid "Pitch"
-msgstr "Zvolit alternativní"
+msgstr "Výška tónu"
 
 #: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
-msgstr ""
+msgstr "půltóny"
 
 #: controls/player.js:519
 msgid "Time"
@@ -4614,6 +4610,8 @@ msgid ""
 "%s seems to be working correctly. See Help, if you're unable to access the "
 "server from other devices."
 msgstr ""
+"Zdá se, že %s funguje správně. Pokud nemáte přístup k serveru z jiných "
+"zařízení, podívejte se do Nápovědy."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
@@ -5578,10 +5576,8 @@ msgid "Sleep timer can be used only with Gold!"
 msgstr "Časovač lze použít pouze v MediaMonkey Gold!"
 
 #: dialogs/dlgSpeedPitch.js:11
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust pitch"
-msgstr "Nastavit video"
+msgstr "Upravit výšku tónu"
 
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
@@ -6038,15 +6034,9 @@ msgid "Automatically analyzes volume of tracks as a background process"
 msgstr "Automaticky analyzuje hlasitost skladeb jako proces na pozadí"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:184
-#, fuzzy
-#| msgid ""
-#| "The change in artwork at %s will apply to %d other file(s) on the album. "
-#| "Do you want to proceed?"
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
-msgstr ""
-"Změna obrázku %s se bude vztahovat na %d další(ch) soubor(ů) v albu. Chcete "
-"pokračovat?"
+msgstr "Změna obrázku %s se bude vztahovat na %d další(ch) soubor(ů) v albu."
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -7869,10 +7859,6 @@ msgstr "Chcete odstranit %d duplicit v Přehrávání?"
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:6795
-#, fuzzy
-#| msgid ""
-#| "The operation will be finished after the end of playback of the current "
-#| "track."
 msgid ""
 "The operation will complete after the the current file finishes playing."
 msgstr "Operace bude dokončena po ukončení přehrávání aktuální skladby."
@@ -9233,27 +9219,19 @@ msgid "Sleep: %d minute"
 msgstr "Spánek: %d minuta"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "Database file %s cannot be accessed."
-msgstr "Soubor %s nemohl být vytvořen."
+msgstr "Databázový soubor %s není přístupný."
 
 #. per #17917
 #: UpNp.pas:1956
-#, fuzzy
-#| msgid ""
-#| "Your network connection is set to 'Public'. This usually sets your device "
-#| "to not be discoverable by other devices on the network.If you're at home "
-#| "then you might want to switch to 'Private' instead. Do you wish to "
-#| "proceed?"
 msgid ""
 "Your network connection is set to 'Public'. This usually causes your machine "
 "to not be discoverable by other devices on the network. If you're on a home "
 "network, you may want to switch your network connection to 'Private'."
 msgstr ""
 "Síťové připojení je nastaveno na „Veřejné“. To obvykle způsobí, že vaše "
-"zařízení nebude rozpoznatelné jinými zařízeními v síti. Pokud jste doma, "
-"můžete místo toho přepnout na „Soukromé“. Přejete si pokračovat?"
+"zařízení nebude rozpoznatelné jinými zařízeními v síti. Pokud jste na domácí "
+"síti, můžete místo toho přepnout na „Soukromé“."
 
 #. #13718 - item 1
 #: UpNp.pas:2499
@@ -9758,7 +9736,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
-msgstr ""
+msgstr "Povolit nastavení rychlosti"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9810,6 +9788,9 @@ msgid ""
 "additionally causes edited tracks to be recopied (useful for devices running "
 "3rd-party players)."
 msgstr ""
+"Při synchronizaci jsou metadata upravených tagů vždy synchronizována. Tato "
+"možnost navíc způsobí, že upravené skladby budou znovu zkopírovány (užitečné "
+"pro zařízení s přehrávači třetích stran)."
 
 #: dialogs\dlgEditView.html:23
 msgid "Sorting"
