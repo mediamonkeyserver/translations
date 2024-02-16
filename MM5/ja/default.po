@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2024-01-15 21:32+0000\n"
+"PO-Revision-Date: 2024-02-17 10:42+0000\n"
 "Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ja/>\n"
@@ -1079,10 +1079,8 @@ msgstr "イコライザー(&Q)"
 
 #: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "動画の調整"
+msgstr "速度調整"
 
 #: actions.js:2999
 msgid "&Rip Audio CD"
@@ -3775,17 +3773,15 @@ msgstr ""
 
 #: controls/player.js:459
 msgid "Speed"
-msgstr ""
+msgstr "再生速度"
 
 #: controls/player.js:463
-#, fuzzy
-#| msgid "Switch"
 msgid "Pitch"
-msgstr "切り替え"
+msgstr "ピッチ"
 
 #: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
-msgstr ""
+msgstr "半音"
 
 #: controls/player.js:519
 msgid "Time"
@@ -4621,7 +4617,8 @@ msgstr "自動処理"
 msgid ""
 "%s seems to be working correctly. See Help, if you're unable to access the "
 "server from other devices."
-msgstr ""
+msgstr "%sは正常に動作しているようです。他のデバイスからサーバーにアクセスできない場"
+"合、ヘルプを参照してください。"
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
@@ -5586,10 +5583,8 @@ msgid "Sleep timer can be used only with Gold!"
 msgstr "スリープタイマーはGoldバージョンでのみ使用できます！"
 
 #: dialogs/dlgSpeedPitch.js:11
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust pitch"
-msgstr "動画の調整"
+msgstr "ピッチの調整"
 
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
@@ -6046,15 +6041,9 @@ msgid "Automatically analyzes volume of tracks as a background process"
 msgstr "トラックの音量解析をバックグラウンドプロセスとして自動的に行います"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:184
-#, fuzzy
-#| msgid ""
-#| "The change in artwork at %s will apply to %d other file(s) on the album. "
-#| "Do you want to proceed?"
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
-msgstr ""
-"%sのアートワークの変更は、アルバム上の%d個の他のファイルに適用されます。続行"
-"しますか？"
+msgstr "%sのアートワークの変更は、アルバム上の%d個の他のファイルに適用されます。"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6790,10 +6779,8 @@ msgid "Sync root"
 msgstr "ルートを同期"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:87
-#, fuzzy
-#| msgid "Use hardware acceleration when available"
 msgid "Milkshake requires Hardware Acceleration to be enabled"
-msgstr "利用可能な場合はハードウェアアクセラレーションを使用する"
+msgstr "ミルクシェイクを有効にするには、ハードウェアアクセラレーションが必要です"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:267
 msgid "Select preset"
@@ -7885,13 +7872,9 @@ msgstr "%d件の重複した「再生中」を削除しますか？"
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:6795
-#, fuzzy
-#| msgid ""
-#| "The operation will be finished after the end of playback of the current "
-#| "track."
 msgid ""
 "The operation will complete after the the current file finishes playing."
-msgstr "この操作は、現在のトラックの再生が終了した後に終了します。"
+msgstr "現在のトラックの再生が終了した後にこの操作は完了します。"
 
 #: FullPlayer.pas:7255
 msgid ""
@@ -9253,27 +9236,20 @@ msgid "Sleep: %d minute"
 msgstr "スリープ: %d 分"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "Database file %s cannot be accessed."
-msgstr "ファイル%sを作成できません。"
+msgstr "データベースファイル%sにアクセスできません。"
 
 #. per #17917
 #: UpNp.pas:1956
-#, fuzzy
-#| msgid ""
-#| "Your network connection is set to 'Public'. This usually sets your device "
-#| "to not be discoverable by other devices on the network.If you're at home "
-#| "then you might want to switch to 'Private' instead. Do you wish to "
-#| "proceed?"
 msgid ""
 "Your network connection is set to 'Public'. This usually causes your machine "
 "to not be discoverable by other devices on the network. If you're on a home "
 "network, you may want to switch your network connection to 'Private'."
 msgstr ""
-"ネットワーク接続が「パブリック」に設定されています。通常はデバイスがネット"
-"ワーク上の他のデバイスに検出されないように設定します。あなたが自宅にいる場合"
-"は、代わりに「プライベート」に切り替えることをお勧めします。続行しますか？"
+"ネットワーク接続が「パブリック」に設定されています。これにより、通常、ネット"
+"ワーク上の他のデバイスがマシンを検出できなくなります。ホームネットワークを使"
+"用している場合は、ネットワーク接続を「プライベート」に切り替えることをお勧め"
+"します。"
 
 #. #13718 - item 1
 #: UpNp.pas:2499
@@ -9780,7 +9756,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
-msgstr ""
+msgstr "速度調整を有効にする"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9830,6 +9806,9 @@ msgid ""
 "additionally causes edited tracks to be recopied (useful for devices running "
 "3rd-party players)."
 msgstr ""
+"同期時に、編集されたタグのメタデータは常に同期されます。このオプションは、編"
+"集したトラックを再コピーすることもできます（サードパーティプレーヤーを実行し"
+"ているデバイスで役に立ちます）。"
 
 #: dialogs\dlgEditView.html:23
 msgid "Sorting"
