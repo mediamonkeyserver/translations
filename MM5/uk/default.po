@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2024-01-29 07:42+0000\n"
+"PO-Revision-Date: 2024-02-22 18:42+0000\n"
 "Last-Translator: Igor Chomko <igorchomko@gmail.com>\n"
 "Language-Team: Ukrainian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/uk/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.18.2\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
@@ -1083,10 +1083,8 @@ msgstr "Е&квалайзер"
 
 #: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "Налаштувати відео"
+msgstr "Відрегулювати швидкість"
 
 #: actions.js:2999
 msgid "&Rip Audio CD"
@@ -3783,17 +3781,15 @@ msgstr ""
 
 #: controls/player.js:459
 msgid "Speed"
-msgstr ""
+msgstr "Швидкість"
 
 #: controls/player.js:463
-#, fuzzy
-#| msgid "Switch"
 msgid "Pitch"
-msgstr "Перейти"
+msgstr "Висота тону"
 
 #: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
-msgstr ""
+msgstr "півтони"
 
 #: controls/player.js:519
 msgid "Time"
@@ -4635,6 +4631,8 @@ msgid ""
 "%s seems to be working correctly. See Help, if you're unable to access the "
 "server from other devices."
 msgstr ""
+"%s, здається, працює коректно. Якщо ви не можете отримати доступ до сервера "
+"з інших пристроїв, перегляньте Довідку."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
@@ -5599,10 +5597,8 @@ msgid "Sleep timer can be used only with Gold!"
 msgstr "Таймер сну можна використовувати лише з Gold!"
 
 #: dialogs/dlgSpeedPitch.js:11
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust pitch"
-msgstr "Налаштувати відео"
+msgstr "Відрегулювати висоту тону"
 
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
@@ -6059,15 +6055,9 @@ msgid "Automatically analyzes volume of tracks as a background process"
 msgstr "Автоматично аналізує гучність доріжок як фоновий процес"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:184
-#, fuzzy
-#| msgid ""
-#| "The change in artwork at %s will apply to %d other file(s) on the album. "
-#| "Do you want to proceed?"
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
-msgstr ""
-"Зміна обкладинки на %s буде застосована до %d інших файлів в альбомі. "
-"Бажаєте продовжити?"
+msgstr "Зміна обкладинки у %s буде застосована до %d інших файлів альбому."
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -7902,13 +7892,9 @@ msgstr "Видалити %d дублікатів, що відтворюютьс�
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:6795
-#, fuzzy
-#| msgid ""
-#| "The operation will be finished after the end of playback of the current "
-#| "track."
 msgid ""
 "The operation will complete after the the current file finishes playing."
-msgstr "Дію буде закінчено після завершення відтворення поточної доріжки."
+msgstr "Операцію буде закінчено після припинення відтворення поточного файлу."
 
 #: FullPlayer.pas:7255
 msgid ""
@@ -9268,28 +9254,20 @@ msgid "Sleep: %d minute"
 msgstr "Сон: %d хвилина"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "Database file %s cannot be accessed."
-msgstr "Файл %s не може бути створений."
+msgstr "Доступ до файлу бази даних %s неможливий."
 
 #. per #17917
 #: UpNp.pas:1956
-#, fuzzy
-#| msgid ""
-#| "Your network connection is set to 'Public'. This usually sets your device "
-#| "to not be discoverable by other devices on the network.If you're at home "
-#| "then you might want to switch to 'Private' instead. Do you wish to "
-#| "proceed?"
 msgid ""
 "Your network connection is set to 'Public'. This usually causes your machine "
 "to not be discoverable by other devices on the network. If you're on a home "
 "network, you may want to switch your network connection to 'Private'."
 msgstr ""
-"Ваше мережеве з'єднання налаштоване в режимі \"Загальнодоступне\". Зазвичай "
-"це означає, що ваш пристрій не може бути виявлений іншими пристроями в "
-"мережі. Якщо ви перебуваєте вдома, можливо, вам варто змінити налаштування "
-"на \"Приватне\". Бажаєте продовжити?"
+"Ваше мережеве з'єднання налаштоване як \"Загальнодоступне\". Зазвичай це "
+"призводить до того, що ваш комп'ютер не може бути виявлений іншими "
+"пристроями у мережі. Якщо ви користуєтеся домашньою мережею, можливо, ви "
+"захочете перемикнути мережеве підключення на \"Приватне\"."
 
 #. #13718 - item 1
 #: UpNp.pas:2499
@@ -9798,7 +9776,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
-msgstr ""
+msgstr "Увімкнути регулювання швидкості"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9850,6 +9828,9 @@ msgid ""
 "additionally causes edited tracks to be recopied (useful for devices running "
 "3rd-party players)."
 msgstr ""
+"При синхронізації метадані для відредагованих теґів завжди синхронізуються. "
+"Ця опція додатково призводить до повторного копіювання відредагованих "
+"доріжок (корисно для пристроїв, на яких встановлено сторонні програвачі)."
 
 #: dialogs\dlgEditView.html:23
 msgid "Sorting"
