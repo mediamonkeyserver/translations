@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2024-02-01 14:42+0000\n"
+"PO-Revision-Date: 2024-02-29 03:42+0000\n"
 "Last-Translator: Lee <pcsori@gmail.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ko/>\n"
@@ -1079,10 +1079,8 @@ msgstr "이퀄라이저(&Q)"
 
 #: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "비디오 조정"
+msgstr "속도 조정"
 
 #: actions.js:2999
 msgid "&Rip Audio CD"
@@ -3766,17 +3764,15 @@ msgstr "'재생' 목록을 섞고 기본 재생 명령이 트랙을 섞도록 �
 
 #: controls/player.js:459
 msgid "Speed"
-msgstr ""
+msgstr "속도"
 
 #: controls/player.js:463
-#, fuzzy
-#| msgid "Switch"
 msgid "Pitch"
-msgstr "전환"
+msgstr "음높이"
 
 #: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
-msgstr ""
+msgstr "반음"
 
 #: controls/player.js:519
 msgid "Time"
@@ -4602,7 +4598,8 @@ msgstr "자동"
 msgid ""
 "%s seems to be working correctly. See Help, if you're unable to access the "
 "server from other devices."
-msgstr ""
+msgstr "%s이(가) 올바르게 작동하는 것 같습니다. 다른 장치에서 서버에 액세스할 수 "
+"없는 경우 도움말을 참조하십시오."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
@@ -5564,10 +5561,8 @@ msgid "Sleep timer can be used only with Gold!"
 msgstr "수면 타이머는 Gold에서만 사용할 수 있음!"
 
 #: dialogs/dlgSpeedPitch.js:11
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust pitch"
-msgstr "비디오 조정"
+msgstr "음높이 조정"
 
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
@@ -6016,15 +6011,9 @@ msgid "Automatically analyzes volume of tracks as a background process"
 msgstr "트랙 볼륨을 백그라운드 프로세스로 자동 분석"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:184
-#, fuzzy
-#| msgid ""
-#| "The change in artwork at %s will apply to %d other file(s) on the album. "
-#| "Do you want to proceed?"
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
-msgstr ""
-"%s의 삽화 변경 사항은 앨범에 있는 %d개의 다른 파일에 적용됩니다. 진행하시겠습"
-"니까?"
+msgstr "%s의 삽화 변경 사항은 앨범에 있는 %d개의 다른 파일에 적용됩니다."
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -7839,10 +7828,6 @@ msgstr "%d 중복 재생을 제거하시겠습니까?"
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:6795
-#, fuzzy
-#| msgid ""
-#| "The operation will be finished after the end of playback of the current "
-#| "track."
 msgid ""
 "The operation will complete after the the current file finishes playing."
 msgstr "현재 트랙의 재생이 끝나면 작업이 완료됩니다."
@@ -9201,27 +9186,19 @@ msgid "Sleep: %d minute"
 msgstr "취침예약: %d 분"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "Database file %s cannot be accessed."
-msgstr "%s 파일을 만들 수 없습니다."
+msgstr "데이터베이스 파일 %s에 액세스할 수 없습니다."
 
 #. per #17917
 #: UpNp.pas:1956
-#, fuzzy
-#| msgid ""
-#| "Your network connection is set to 'Public'. This usually sets your device "
-#| "to not be discoverable by other devices on the network.If you're at home "
-#| "then you might want to switch to 'Private' instead. Do you wish to "
-#| "proceed?"
 msgid ""
 "Your network connection is set to 'Public'. This usually causes your machine "
 "to not be discoverable by other devices on the network. If you're on a home "
 "network, you may want to switch your network connection to 'Private'."
 msgstr ""
-"네트워크 연결이 '공개'로 설정되어 있습니다. 이렇게 하면 일반적으로 네트워크"
-"의 다른 장치에서 장치를 검색할 수 없도록 설정됩니다. 집에 있는 경우 대신 '비"
-"공개'로 전환할 수 있습니다. 계속하시겠습니까?"
+"네트워크 연결이 '공개'로 설정되어 있습니다. 이렇게 하면 일반적으로 "
+"네트워크의 다른 장치에서 내 컴퓨터를 검색할 수 없습니다. 홈 네트워크를 "
+"사용하는 경우 네트워크 연결을 '비공개'로 전환하는 것이 좋습니다."
 
 #. #13718 - item 1
 #: UpNp.pas:2499
@@ -9719,7 +9696,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
-msgstr ""
+msgstr "속도 조정 활성화"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9767,6 +9744,8 @@ msgid ""
 "additionally causes edited tracks to be recopied (useful for devices running "
 "3rd-party players)."
 msgstr ""
+"동기화 시 편집된 태그의 메타데이터는 항상 동기화됩니다. 이 옵션을 사용하면 "
+"편집된 트랙이 다시 복사됩니다(타사 플레이어를 실행하는 장치에 유용함)."
 
 #: dialogs\dlgEditView.html:23
 msgid "Sorting"
@@ -11591,7 +11570,7 @@ msgstr "변환"
 
 #: dialogs\dlgOptions\pnl_Performance.html:3
 msgid "Use multiple CPU cores (if available)"
-msgstr "여러 CPU 코어 사용(사용 가능한 경우)"
+msgstr "다중 CPU 코어 사용 (가능한 경우)"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:40
 msgid ""
