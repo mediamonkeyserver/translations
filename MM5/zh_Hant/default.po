@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2024-03-08 21:43+0000\n"
-"Last-Translator: Hulen <shift0106@gmail.com>\n"
+"PO-Revision-Date: 2024-03-09 14:52+0000\n"
+"Last-Translator: Ming-Yuan Lee <arsphile@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://translations.mediamonkey.com/"
 "projects/mediamonkey-5-x/application/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -87,7 +87,7 @@ msgstr "歷史記錄"
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:428 maincontent.html:50
 msgid "'Playing' list"
-msgstr "播放清單"
+msgstr "'播放' 清單"
 
 #. load player in timeout to be sure video window is already stretched to full screen
 #: actions.js:58 playerUtils.js:449
@@ -96,11 +96,11 @@ msgstr "調整影片"
 
 #: actions.js:61
 msgid "Rating selected file(s)"
-msgstr "評等已選擇的檔案"
+msgstr "評等所選擇的檔案"
 
 #: actions.js:64
 msgid "Rating now playing file"
-msgstr "評等現在播放的檔案"
+msgstr "評等正在播放的檔案"
 
 #: actions.js:75 actions.js:83 uitools.js:2457
 msgid "Add bookmark"
@@ -255,11 +255,11 @@ msgstr "完整視窗"
 
 #: actions.js:790 dialogs\dlgOptions\pnl_General.html:39
 msgid "Minimize to MiniPlayer"
-msgstr "縮小至迷你播放器"
+msgstr "縮小至 MiniPlayer"
 
 #: actions.js:824
 msgid "MiniPlayer"
-msgstr "迷你播放器"
+msgstr "MiniPlayer"
 
 #: actions.js:841
 msgid "Menu bar"
@@ -1072,7 +1072,7 @@ msgstr "調整速度"
 
 #: actions.js:2999
 msgid "&Rip Audio CD"
-msgstr "擷取音樂 CD(&R)"
+msgstr "翻錄音訊光碟(&R)"
 
 #. to break the loop (#19401)
 #: actions.js:3047 CDUtils.pas:794 ResStrings.pas:371
@@ -1085,7 +1085,7 @@ msgstr "燒錄"
 
 #: actions.js:3068 dialogs/dlgCDDBResult.js:8
 msgid "Lookup Audio CD metadata"
-msgstr "尋找音訊 CD 中繼資料"
+msgstr "查詢音訊光碟元數據"
 
 #. = check all drives
 #: actions.js:3083
@@ -1138,7 +1138,7 @@ msgstr "佇列混合"
 #: actions.js:3227 actions.js:6230 controls/trackListView.js:1895
 #: MediaMonkeyApp.pas:9096 dialogs\dlgOptions\pnl_OSIntegration.html:9
 msgid "Queue next"
-msgstr "下一個佇列"
+msgstr "佇列下一首"
 
 #: actions.js:3241 actions.js:3255 actions.js:3258 actions.js:3272
 #: actions.js:3275 actions.js:6260 controls/trackListView.js:1925
@@ -1203,7 +1203,6 @@ msgid "Randomize list"
 msgstr "隨機清單(&R)"
 
 #: actions.js:3470
-#, fuzzy
 msgid "Shuffle disabled. Reverting to unshuffled list."
 msgstr "隨機播放已停用。回復至未打亂的清單。"
 
@@ -1211,7 +1210,7 @@ msgstr "隨機播放已停用。回復至未打亂的清單。"
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
-msgstr "隨機播放已停用。由於已編輯過，無法取消隨機播放 - 請使用 '還原' 來復原 '播放' "
+msgstr "隨機播放已停用。由於已編輯過，無法取消隨機播放 - 請使用 '復原' 來恢復 '播放' "
 "清單的變更。"
 
 #: actions.js:3486
@@ -1237,7 +1236,7 @@ msgstr "重複播放"
 
 #: actions.js:3554
 msgid "Level playback volume"
-msgstr "均衡化播放音量"
+msgstr "均化播放音量"
 
 #. #17191
 #: actions.js:3571 Win7ToolsImpl.pas:1902
@@ -1269,8 +1268,6 @@ msgid "S&leep"
 msgstr "睡眠(&L)"
 
 #: actions.js:3671 dialogs/dlgAutotagFromFilename.js:84
-#, fuzzy
-#| msgid "Auto-&tag from filename"
 msgid "&Tag from filename"
 msgstr "從檔案名稱取得標籤(&T)"
 
@@ -1364,7 +1361,7 @@ msgstr "資料夾 (複製)(&M)"
 
 #: actions.js:4016
 msgid "Folder (Rip/Con&vert)"
-msgstr "資料夾 擷取/轉換(&V)"
+msgstr "資料夾 (翻錄/轉換)(&V)"
 
 #. online mode only for online source track
 #: actions.js:4030 uitools.js:1576 helpers/autoDJ.js:25 Devices.pas:2058
@@ -1402,14 +1399,13 @@ msgstr "分析音量(&Y)"
 
 #: actions.js:4129
 msgid "&Level Track volume"
-msgstr "均衡化曲目音量(&L)"
+msgstr "均化曲目音量(&L)"
 
 #: actions.js:4137
 msgid ""
 "Leveling Track volume irreversibly modifies the track. Are you sure you want "
 "to level the volume of the selected Tracks?"
-msgstr ""
-"均衡化曲目的音量後將無法逆向改變曲目. 您是否確定要均化所選擇曲目的音量?"
+msgstr "均化曲目音量後將無法逆向變更曲目。您確定要均化所選擇曲目的音量？"
 
 #. @ts-ignore
 #: actions.js:4161
@@ -1418,7 +1414,7 @@ msgstr "分析波形"
 
 #: actions.js:4179
 msgid "Display only selected folder's content"
-msgstr "僅播放所選擇的檔案"
+msgstr "僅顯示所選擇資料夾的內容"
 
 #: actions.js:4179
 msgid "Display folder content recursively"
@@ -1541,7 +1537,6 @@ msgstr "重做(&R)"
 
 #. open edit properties dialog
 #: actions.js:4938
-#, fuzzy
 msgid "Previous view"
 msgstr "之前的檢視"
 
@@ -1772,13 +1767,13 @@ msgstr "未找到曲目"
 msgid ""
 "This will update the tags of the selected files so that they match your "
 "Library. Are you sure you want to proceed?"
-msgstr "更新所選擇檔案的標籤以符合您的媒體櫃. 您是否確定要進行?"
+msgstr "將更新所選擇檔案的標籤，以便它們與您的資料庫相符。您確定要繼續嗎？"
 
 #: actions.js:7195
 msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
-msgstr "您是否確定要從所選擇的檔案中移除 %s 標籤 (檔案屬性不會從媒體櫃被移除)?"
+msgstr "您確定要從所選擇的檔案中移除 %s 標籤 (檔案屬性不會從資料庫被移除)?"
 
 #. Public methods
 #: dndutils.js:238
@@ -1811,7 +1806,7 @@ msgstr "未知"
 msgid ""
 "Select which device to use. 'Default' uses whatever device is configured by "
 "the operating system for playback."
-msgstr "選擇要使用的裝置。「預設」使用哪個裝置是由作業系統所指定來播放的裝置。"
+msgstr "選擇要使用的裝置。'預設' 使用哪個裝置是由作業系統所指定來播放的裝置。"
 
 #: out_MMDS_configDlg.js:38
 msgid "Disable only in the case of audio problems"
@@ -1831,7 +1826,7 @@ msgstr "平滑暫停"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Crossfades during seek operation"
-msgstr "在搜尋操作期間的交叉淡入淡出效果"
+msgstr "在搜尋作業期間交叉淡入淡出"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Smooth seek"
@@ -2091,7 +2086,7 @@ msgstr "註冊"
 #. we need at least one song to work with
 #: uitools.js:2397 dialogs/dlgTrackProperties.js:165 MP3Utils.pas:1247
 msgid "Please select one or more files for this operation."
-msgstr "請為此操作選擇一個或多個檔案。"
+msgstr "請為此作業選擇一個或多個檔案。"
 
 #. hide full window player and switcher
 #. TODO: add links to stations
@@ -3109,7 +3104,7 @@ msgstr "播放時對背景進行動畫處理"
 
 #: controls/backgroundImage.js:132
 msgid "Cycle Artist images"
-msgstr "輪播表演者圖片"
+msgstr "輪播演出者圖片"
 
 #: controls/backgroundImage.js:143
 msgid "Artwork (blurred)"
@@ -3318,13 +3313,12 @@ msgid "Sync profile"
 msgstr "同步設定檔"
 
 #: controls/deviceContentRandomizer.js:9
-#, fuzzy
 msgid ""
 "Sync a random subset of the selected files filling the target to the set "
 "limit. This is useful for syncing random tracks to a device/location that "
 "cannot contain your entire library."
 msgstr "將所選檔案的隨機子集同步到目標，以填充設定的限制。這對於將隨機音軌同步到無法"
-"容納整個音樂庫的裝置/位置非常有用。"
+"容納整個資料庫的裝置/位置非常有用。"
 
 #: controls/deviceContentRandomizer.js:9
 msgid "Sync random subset of selected files up to target capacity"
@@ -3471,9 +3465,8 @@ msgstr "平衡:"
 
 #. }]);
 #: controls/feedlistview.js:53
-#, fuzzy
 msgid "feed"
-msgstr "feed"
+msgstr "投入"
 
 #: controls/filetypetree.js:40 dialogs/dlgSupportedFormats.js:31
 #: dialogs\dlgAutoConvertRule.html:33
@@ -3516,7 +3509,7 @@ msgstr "捲動到"
 
 #: controls/listview.js:2657
 msgid "Use %s for the next match"
-msgstr "對下一個相符項目使用 %s"
+msgstr "對下一個相符項使用 %s"
 
 #. it just looped through all the controls to find that there is still the same (and single) occurence -- don't consider this as search failure (#15185 - item 11)
 #: controls/listview.js:2660 controls/searchBar.js:391
@@ -3740,20 +3733,17 @@ msgid "Internal player"
 msgstr "內建播放器"
 
 #: controls/player.js:337
-#, fuzzy
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
-msgstr "打亂「播放」清單，並使預設播放命令隨機播放音軌。"
+msgstr "打亂 '播放' 清單，並使預設播放命令隨機播放音軌。"
 
 #: controls/player.js:459
 msgid "Speed"
 msgstr "速度"
 
 #: controls/player.js:463
-#, fuzzy
-#| msgid "Switch"
 msgid "Pitch"
-msgstr "切換"
+msgstr "音高"
 
 #: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
@@ -3806,13 +3796,12 @@ msgstr "MediaMonkey"
 #. needed for context menu actions
 #: controls/playerSwitch.js:25 controls/playerSwitch.js:30
 msgid "Switch to mini/micro player"
-msgstr "切換到迷你/微型播放器"
+msgstr "切換到 mini/micro 播放器"
 
 #. so that it is not called too often when typing
 #: controls/playlistEditor.js:44
-#, fuzzy
 msgid "Drag and drop or Send tracks to the playlist to populate it."
-msgstr "將音軌拖曳或傳送到播放清單中以填入播放清單。"
+msgstr "將音軌拖曳或傳送到播放清單中。"
 
 #: controls/playlistHeader.js:111
 msgid "Edit in Playlist Panel"
@@ -3885,8 +3874,6 @@ msgid "primary sort field"
 msgstr "主要排序欄位"
 
 #: controls/searchBar.js:488 dialogs/dlgOptions/pnl_Search.js:57
-#, fuzzy
-#| msgid "All fields"
 msgid "all fields"
 msgstr "所有欄位"
 
@@ -3906,36 +3893,36 @@ msgstr "+Foo | 找到以 Foo 開頭的詞 (區分大小寫，例如 Football)"
 
 #: controls/searchBar.js:725
 msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
-msgstr ""
+msgstr "\"Foo\" | 尋找整個單字  (例: FOO 或 fóo)"
 
 #: controls/searchBar.js:726
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
-msgstr ""
+msgstr "\"foo bar\" | 尋找包含片語 foo bar 的符合項 (例: foo barman)"
 
 #: controls/searchBar.js:727
 msgid "foo bar | finds matches with foo and bar"
-msgstr ""
+msgstr "foo bar | 尋找與 foo 和 bar 的符合項"
 
 #: controls/searchBar.js:728
 msgid "foo OR bar | finds matches with either foo or bar"
-msgstr ""
+msgstr "foo OR bar | 尋找與 foo 或 bar 的符合項"
 
 #: controls/searchBar.js:729
 msgid "foo -bar | finds matches with foo and not bar"
-msgstr ""
+msgstr "foo -bar | 尋找與 foo 而不是 bar 的符合項"
 
 #: controls/searchBar.js:730
 msgid "fieldname:foo | restricts search to a specific field. For example:"
-msgstr ""
+msgstr "fieldname:foo | 將搜尋限制在特定字段。例如:"
 
 #: controls/searchBar.js:731
 msgid ""
 "artist:floy | finds words beginning with floy (in Artist) e.g. Pink Floyd"
-msgstr ""
+msgstr "artist:floy | 尋找以 floy 開頭的單字 (在演出者中)，例: Pink Floyd"
 
 #: controls/searchBar.js:732
 msgid "year:2000..2006 | finds matches in range 2000 to 2006"
-msgstr ""
+msgstr "year:2000..2006 | 尋找 2000 年到 2006 年範圍內的符合項"
 
 #: controls/searchBar.js:733
 msgid "rating: 4.. | finds matches with 4 stars or more"
@@ -4139,10 +4126,8 @@ msgstr "上次播放"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:371 QueryManage.pas:4937
-#, fuzzy
-#| msgid "Skipped"
 msgid "Last Skipped"
-msgstr "跳過"
+msgstr "最後跳過"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. bitrate
@@ -4286,10 +4271,8 @@ msgstr "原創的演出者"
 #: controls/trackListView.js:1220 MaskHelper.pas:3156 ResStrings.pas:480
 #: ResStrings.pas:491 ResStrings.pas:534
 #: dialogs\dlgTrackProperties\tabDetails.html:64
-#, fuzzy
-#| msgid "Original"
 msgid "Original Album"
-msgstr "原創的"
+msgstr "原創專輯"
 
 #: controls/trackListView.js:1237 MaskHelper.pas:3155 ResStrings.pas:479
 #: ResStrings.pas:533 dialogs\dlgTrackProperties\tabDetails.html:75
@@ -4443,7 +4426,7 @@ msgstr "「%s」上支援的格式"
 #: controls/clientConfig/autoConvert.js:9
 #: controls/serverConfig/autoConvert.js:7
 msgid "Level volume when sharing audio"
-msgstr "共用音訊時均衡化音量"
+msgstr "共用音訊時均化音量"
 
 #: controls/deviceConfig/options.js:9
 msgid "File Locations"
@@ -4494,7 +4477,7 @@ msgstr "目的上的格式"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:10
 msgid "Level volume when syncing audio"
-msgstr "同步音訊時均衡化音量"
+msgstr "同步音訊時均化音量"
 
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:12
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:25
@@ -4538,7 +4521,7 @@ msgstr "也在「%s」上為以下項目產生播放清單："
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Update files and metadata as follows when syncing to '%s'"
-msgstr "當同步到「%s」時，請依照以下方式更新檔案和中繼資料"
+msgstr "當同步到 '%s' 時，請依照以下方式更新檔案和元數據"
 
 #: controls/nowPlaying/fullList.js:211
 msgid "Click to look up lyrics..."
@@ -4758,7 +4741,7 @@ msgstr "查詢已完成"
 
 #: dialogs/dlgAutotag.js:643 dialogs/dlgOptions.js:107
 msgid "Metadata lookup"
-msgstr "中繼資料查詢"
+msgstr "元數據查詢"
 
 #: dialogs/dlgAutotag.js:643 helpers/autoTagFramework.js:286
 msgid "Fail"
@@ -4770,9 +4753,8 @@ msgid "Error code"
 msgstr "錯誤"
 
 #: dialogs/dlgAutotag.js:656
-#, fuzzy
 msgid "Auto-tag more / faster with"
-msgstr "使用以下方式進行更多/更快的自動標籤"
+msgstr "使用以下方式自動標記更多/更快"
 
 #: dialogs/dlgAutotag.js:672
 msgid "Press F5 to re-sort/re-group tracks"
@@ -4868,9 +4850,8 @@ msgstr "轉換檔案"
 msgid ""
 "CD Ripping is supported in the free version of MediaMonkey, however, "
 "verification via AccurateRip is only included with the Gold version. "
-msgstr ""
-"CD擷取功能在免費版的MediaMonkey有支援, 不過, 透過AccurateRip的驗證功能則只有"
-"在黃金版才包含."
+msgstr "MediaMonkey 的免費版本支援光碟翻錄，但僅 Gold 版本包含透過 AccurateRip "
+"進行驗證。 "
 
 #: dialogs/dlgDeleteConfirm.js:9
 msgid "Confirmation"
@@ -4935,28 +4916,20 @@ msgstr "從播放清單、資料庫和磁碟機中刪除"
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
-#, fuzzy
-#| msgid "Remove from Playing list only"
 msgid "Remove from 'Playing' list only"
-msgstr "僅從播放清單中移除"
+msgstr "僅從 '播放' 清單中移除"
 
 #: dialogs/dlgDeleteConfirm.js:135
-#, fuzzy
-#| msgid "Remove from Playing list and"
 msgid "Remove from 'Playing' list and"
-msgstr "從播放清單中移除, 然後"
+msgstr "從 '播放' 清單中移除, 然後"
 
 #: dialogs/dlgDeleteConfirm.js:160
-#, fuzzy
-#| msgid "Delete from Playing list and the database only"
 msgid "Delete from 'Playing' list and the database only"
-msgstr "僅從播放清單和資料庫中刪除"
+msgstr "僅從 '播放' 清單和資料庫中刪除"
 
 #: dialogs/dlgDeleteConfirm.js:161
-#, fuzzy
-#| msgid "Delete from Playing list, the database and drive"
 msgid "Delete from 'Playing' list, the database and drive"
-msgstr "從播放清單、資料庫和磁碟機中刪除"
+msgstr "從 '播放' 清單、資料庫和磁碟中刪除"
 
 #: dialogs/dlgDeleteConfirm.js:189
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
@@ -4964,7 +4937,7 @@ msgstr "您是否確定想要從 %s 中移除 %d 檔案?"
 
 #: dialogs/dlgDeletedTracks.js:8
 msgid "Remove unavailable files"
-msgstr "移除不需要的檔案?"
+msgstr "移除不可用的檔案"
 
 #: dialogs/dlgDeletedTracks.js:62
 msgid ""
@@ -4981,27 +4954,23 @@ msgstr "同步設定"
 
 #: dialogs/dlgEditView.js:386 dialogs\dlgOptions\pnl_LayoutToolbar.html:8
 msgid "Available"
-msgstr ""
+msgstr "可用"
 
 #: dialogs/dlgEditView.js:387
 msgid "Displayed"
 msgstr "顯示"
 
 #: dialogs/dlgEditView.js:399
-#, fuzzy
 msgid "Configure View"
-msgstr "設定檢視"
+msgstr "配置檢視"
 
 #: dialogs/dlgEditView.js:584
-#, fuzzy
 msgid "Everywhere"
 msgstr "任何地方"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
-msgstr "輸入名稱"
+msgstr "請輸入名稱"
 
 #: dialogs/dlgErrorLog.js:5
 msgid "Problem"
@@ -5043,10 +5012,8 @@ msgstr "一次"
 
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:47
-#, fuzzy
-#| msgid "The media '%s' is not inserted."
 msgid "The location %s does not exist."
-msgstr "未插入媒體 %s."
+msgstr "位置 %s 不存在。"
 
 #: dialogs/dlgImageSize.js:41
 msgid "Browser & Grid views"
@@ -5114,7 +5081,6 @@ msgid "Migration Wizard"
 msgstr "移轉精靈"
 
 #: dialogs/dlgMigrateWizard.js:12
-#, fuzzy
 msgid ""
 "A %s was detected. It can be used to store and share portions of your "
 "library with multiple MediaMonkey clients even if this instance of "
@@ -5174,7 +5140,7 @@ msgstr "將「%s」內容掃瞄到本地資料庫"
 
 #: dialogs/dlgMoveAccompFiles.js:6
 msgid "Accompanying files"
-msgstr "正在附加文件"
+msgstr "正在附加檔案"
 
 #: dialogs/dlgMovedFiles.js:123 dialogs/dlgMovedFiles.js:176
 #: dialogs/dlgMovedFiles.js:229 dialogs/dlgOptions/pnl_DSPModules.js:48
@@ -5217,11 +5183,11 @@ msgstr "標準: VBR ~192 kbps - 非常高品質+"
 
 #: dialogs/dlgMP3Settings.js:8 MP3Manage.pas:264
 msgid "Extreme (fast): VBR ~256 kbps - Near CD Quality"
-msgstr "極致 (快): VBR ~256 kbps - Near CD Quality"
+msgstr "極致 (快): VBR ~256 kbps - 接近光碟品質"
 
 #: dialogs/dlgMP3Settings.js:8 MP3Manage.pas:263
 msgid "Extreme: VBR ~256 kbps - Near CD Quality+"
-msgstr "極致: VBR ~256 kbps - Near CD Quality+"
+msgstr "極致: VBR ~256 kbps - 接近光碟品質+"
 
 #: dialogs/dlgMP3Settings.js:9 MP3Manage.pas:265
 msgid "Insane: CBR ~320 kbps - Highest Quality"
@@ -5237,7 +5203,7 @@ msgstr "短波: ABR ~24 kbps 單音"
 
 #: dialogs/dlgMP3Settings.js:10 MP3Manage.pas:249
 msgid "AM: ABR ~40 kbps mono "
-msgstr "AM: ABR ~40 kbps 單音"
+msgstr "AM: ABR ~40 kbps 單音 "
 
 #: dialogs/dlgMP3Settings.js:10 MP3Manage.pas:250
 msgid "Voice: ABR ~56 kbps mono"
@@ -5253,7 +5219,7 @@ msgstr "Hifi: ABR ~160 kbps"
 
 #: dialogs/dlgMP3Settings.js:11 MP3Manage.pas:253
 msgid "Near-CD: ABR ~192 kbps"
-msgstr "接近CD: ABR ~192 kbps"
+msgstr "接近光碟: ABR ~192 kbps"
 
 #: dialogs/dlgMP3Settings.js:11 MP3Manage.pas:254
 msgid "Studio: ABR ~256 kbps"
@@ -5377,7 +5343,7 @@ msgstr "串流"
 
 #: dialogs/dlgOptions.js:43
 msgid "Volume leveling"
-msgstr "音量靜音"
+msgstr "音量均化"
 
 #: dialogs/dlgOptions.js:47 dialogs\dlgOptions\pnl_Player.html:33
 msgid "Playback rules"
@@ -5400,7 +5366,6 @@ msgid "Audio Output"
 msgstr "音訊輸出"
 
 #: dialogs/dlgOptions.js:95
-#, fuzzy
 msgid "Collections & Views"
 msgstr "集合與檢視"
 
@@ -5467,13 +5432,11 @@ msgstr "掃描結果"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "篩選或停用"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "同步設定"
+msgstr "資料庫設定"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5484,8 +5447,6 @@ msgid "Search and update took %s"
 msgstr "搜尋與更新花費了 %s"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
 msgstr "匯入 %d 新檔案"
 
@@ -5494,16 +5455,12 @@ msgid "Updated %d files"
 msgstr "更新 %d 檔案"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "匯入 %d 檔案失敗"
+msgstr "增加 %d 檔案失敗"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "更新 %d 檔案"
+msgstr "跳過 %d 檔案"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5572,10 +5529,8 @@ msgid "Sleep timer can be used only with Gold!"
 msgstr "睡眠計時器只有 Gold 版本可以使用!"
 
 #: dialogs/dlgSpeedPitch.js:11
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust pitch"
-msgstr "調整影片"
+msgstr "調整音高"
 
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
@@ -5692,7 +5647,8 @@ msgid ""
 "The MediaMonkey Player supports DSP Audio effect plug-ins that are "
 "compatible with Winamp 2. They generally enhance and/or modify the audio in "
 "some way."
-msgstr ""
+msgstr "MediaMonkey 播放器支援與 Winamp 2 相容的 DSP "
+"音訊效果外掛程式。它們通常以某種方式增強和/或修改音訊。"
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:13
 #: dialogs/dlgOptions/pnl_InputPlugins.js:12
@@ -5712,6 +5668,10 @@ msgid ""
 "have to install to the Winamp directory and then manually copy the "
 "installed .dll file(s) to the Program Files/MediaMonkey/Plug-ins directory."
 msgstr ""
+"1) 如果外掛元件附帶安裝程式，安裝程式通常會選擇預設目錄/Program Files/"
+"Winamp。將其更改為 /Program Files/MediaMonkey。如果您無法變更安裝目錄，"
+"則必須安裝到 Winamp 目錄，然後手動將安裝的 .dll 檔案複製到 Program Files/"
+"MediaMonkey/Plug-ins 目錄中。"
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:17
 #: dialogs/dlgOptions/pnl_InputPlugins.js:16
@@ -5721,6 +5681,8 @@ msgid ""
 "MediaMonkey/Plugins directory, and follow the instructions provided with the "
 "plug-in."
 msgstr ""
+"2) 如果外掛元件是 .dll，只需將 .dll 複製到 Program Files/MediaMonkey/Plugins "
+"目錄中，然後按照外掛元件提供的說明進行操作即可。"
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:19
 #: dialogs/dlgOptions/pnl_InputPlugins.js:18
@@ -5728,13 +5690,13 @@ msgstr ""
 msgid ""
 "Once the plug-in is installed, you can access it from the plug-ins pane, and "
 "press the Configure button."
-msgstr ""
+msgstr "安裝外掛元件後，您可以從外掛元件窗格存取它，然後按下 [配置] 鈕。"
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:19
 msgid ""
 "For DSP Audio Effect plug-ins, you can also set the order in which the "
 "plugins process the audio using the up/down arrows."
-msgstr ""
+msgstr "對於 DSP 音訊效果外掛元件，您也可以使用上/下箭頭設定外掛元件處理音訊的順序。"
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:39
 msgid "Plug-in description"
@@ -5767,11 +5729,9 @@ msgstr "整體的"
 #: dialogs/dlgOptions/pnl_Hotkeys.js:214
 msgid ""
 "This hotkey %s is already assigned to action %s! Choose a different hotkey."
-msgstr ""
+msgstr "該快速鍵 %s 已分配給 %s 操作！選擇不同的快速鍵。"
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:241
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
 msgstr "刪除選取的快速鍵？"
 
@@ -5784,7 +5744,8 @@ msgstr "刪除選取的快速鍵？"
 msgid ""
 "The MediaMonkey Player supports Input plug-ins that are compatible with "
 "Winamp 2. They generally add support for new audio formats."
-msgstr ""
+msgstr "MediaMonkey 播放器支援與 Winamp 2 "
+"相容的輸入外掛元件。它們通常會新增對新音訊格式的支援。"
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:14
 msgid "Player panel not found."
@@ -5835,10 +5796,8 @@ msgid "New layout name"
 msgstr "新配置名稱"
 
 #: dialogs/dlgOptions/pnl_LayoutToolbar.js:58
-#, fuzzy
-#| msgid "narrator"
 msgid "Separator"
-msgstr "朗讀程式"
+msgstr "分隔符號"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10327
 #: controls\serverConfig\server.html:5
@@ -5908,7 +5867,7 @@ msgstr "歌詞來源"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:97
 msgid "Auto-tag metadata sources"
-msgstr "自動標籤中繼資料來源"
+msgstr "自動標記元數據來源"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:141
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:197
@@ -5928,7 +5887,8 @@ msgstr "要尋找的標籤"
 msgid ""
 "The MediaMonkey Player supports Output plug-ins that are compatible with "
 "Winamp 2. They generally control how MediaMonkey outputs audio."
-msgstr ""
+msgstr "MediaMonkey 播放器支援與 Winamp 2 相容的輸出外掛元件。它們通常控制 "
+"MediaMonkey 輸出音訊的方式。"
 
 #: dialogs/dlgOptions/pnl_Performance.js:41
 msgid "Use hardware acceleration when available"
@@ -5945,7 +5905,7 @@ msgstr "間距"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:75
 msgid "Overlap"
-msgstr ""
+msgstr "交疊"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:76
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:28
@@ -5959,15 +5919,15 @@ msgstr "%s 不支援。"
 
 #: dialogs/dlgOptions/pnl_Search.js:9
 msgid "When typing in a view:"
-msgstr ""
+msgstr "在視圖中輸入時:"
 
 #: dialogs/dlgOptions/pnl_Search.js:36 dialogs/dlgOptions/pnl_Search.js:37
 msgid "Ignore diacritics"
-msgstr ""
+msgstr "忽略變音符號"
 
 #: dialogs/dlgOptions/pnl_Search.js:36
 msgid "Match beginning of words"
-msgstr ""
+msgstr "符合單字開頭"
 
 #: dialogs/dlgOptions/pnl_Search.js:36 dialogs/dlgOptions/pnl_Search.js:37
 msgid "faster"
@@ -5979,17 +5939,15 @@ msgstr "僅搜尋完整的字"
 
 #: dialogs/dlgOptions/pnl_Search.js:38 dialogs/dlgOptions/pnl_Search.js:39
 msgid "Respect diacritics"
-msgstr ""
+msgstr "考慮變音符號"
 
 #: dialogs/dlgOptions/pnl_Search.js:38
 msgid "Match within words"
-msgstr ""
+msgstr "單詞內符合"
 
 #: dialogs/dlgOptions/pnl_Search.js:58
-#, fuzzy
-#| msgid "'Play now' action:"
 msgid "Take no action"
-msgstr "「立即播放」操作："
+msgstr "不採取行動"
 
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:2
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:3
@@ -6017,7 +5975,7 @@ msgstr "作為背景處理程序自動分析曲目數量"
 #: dialogs/dlgTrackProperties/tabArtwork.js:184
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
-msgstr ""
+msgstr "%s 處的圖稿變更將應用於專輯中的 %d 個其他檔案。"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6079,11 +6037,11 @@ msgstr "作者"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:498
 msgid "part"
-msgstr ""
+msgstr "部分"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:498
 msgid "chapter"
-msgstr ""
+msgstr "章節"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:523
 msgid "ensemble"
@@ -6091,11 +6049,11 @@ msgstr "樂團"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:523
 msgid "soloist"
-msgstr ""
+msgstr "獨奏家"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:524
 msgid "period"
-msgstr ""
+msgstr "時期"
 
 #: dialogs/dlgTrackProperties/tabCustom.js:45
 msgid "Tag name"
@@ -6152,14 +6110,12 @@ msgid "Local storage"
 msgstr "本地儲存"
 
 #: dialogs/dlgWizard/pnlScan.js:155
-#, fuzzy
-#| msgid "Move Library content only"
 msgid "Media Server content is read-only."
-msgstr "僅移動媒體櫃內容"
+msgstr "媒體櫃內容為唯讀。"
 
 #: dialogs/dlgWizard/pnlScan.js:155
 msgid "You might want to add the content via a 'Network' location instead."
-msgstr ""
+msgstr "您可能想要透過 '網路' 位置新增內容。"
 
 #: dialogs/dlgWizard/pnlScan.js:155
 msgid "Are you sure you want to proceed?"
@@ -6254,17 +6210,17 @@ msgstr "2x / 天"
 #: helpers/mediaSync.js:683 helpers/mediaSync.js:2592
 msgid ""
 "On sync, the database is updated with links to files and playlists from '%s'"
-msgstr ""
+msgstr "同步時，資料庫將更新為 '%s' 中的檔案和播放清單的鏈接"
 
 #: helpers/mediaSync.js:684
 msgid "Only include content that matches files already in the database"
-msgstr ""
+msgstr "僅包含與資料庫中已存在檔案相符的內容"
 
 #: helpers/mediaSync.js:685
 msgid ""
 "On sync, the database is only updated with links to files & playlists from "
 "'%s' that match files already in the database"
-msgstr ""
+msgstr "同步時，資料庫僅更新為 '%s' 中與資料庫中已存在檔案符合的檔案和播放清單的鏈接"
 
 #: helpers/mediaSync.js:686
 msgid "Download '%s' content that is not accessible locally"
@@ -6274,15 +6230,15 @@ msgstr "下載本地無法存取的「%s」內容"
 msgid ""
 "Downloads files and playlists from '%s' that are not accessible via the "
 "local drive or network"
-msgstr ""
+msgstr "從 '%s' 下載無法透過本機磁碟或網路存取的檔案和播放清單"
 
 #: helpers/mediaSync.js:688
 msgid "Sync '%s' metadata to the Library"
-msgstr "將「%s」中繼資料同步到媒體櫃"
+msgstr "將 '%s' 元數據同步到資料庫"
 
 #: helpers/mediaSync.js:689
 msgid "Update metadata for matching tracks and playlists"
-msgstr "更新相符曲目和播放清單的中繼資料"
+msgstr "更新相符曲目和播放清單的元數據"
 
 #: helpers/mediaSync.js:815 helpers/mediaSync.js:3268
 msgid "Scanning"
@@ -6306,7 +6262,7 @@ msgstr "選擇要保持同步的檔案："
 msgid ""
 "Once installed, you may initiate Wi-Fi sync from the device (USB sync is not "
 "reliable on some devices)."
-msgstr ""
+msgstr "安裝後，您可以從裝置啟動 Wi-Fi 同步 (USB 同步在某些裝置上不可靠)。"
 
 #: helpers/mediaSync.js:972
 msgid ""
@@ -6347,7 +6303,7 @@ msgstr "自動同步之後, 自動解除連接裝置"
 
 #: helpers/mediaSync.js:984
 msgid "Allow %s to remotely sync with the"
-msgstr ""
+msgstr "允許 %s 遠端同步與"
 
 #: helpers/mediaSync.js:1011
 msgid ""
@@ -6375,7 +6331,7 @@ msgstr "將內容設定為儲存在「%s」上"
 msgid ""
 "This content will be copied (by default) to '%s' so that it can be shared "
 "with other clients"
-msgstr ""
+msgstr "該內容將被複製 (預設) 到 '%s'，以便與其他客戶端共享"
 
 #. to refresh the values set in the wizard
 #: helpers/mediaSync.js:2526
@@ -6435,11 +6391,11 @@ msgstr "(複製 裝置 -> 電腦, %d / %d: %s)"
 
 #: helpers/mediaSync.js:3632
 msgid "Copying"
-msgstr ""
+msgstr "正在複製"
 
 #: helpers/mediaSync.js:3634
 msgid "Matching"
-msgstr ""
+msgstr "正在匹配"
 
 #. waiting for file conversion
 #: helpers/mediaSync.js:3700
@@ -6462,7 +6418,7 @@ msgstr "準備播放清單"
 #. #17023 / item 1:
 #: helpers/mediaSync.js:3875 helpers/mediaSync.js:4030 CDUtils.pas:794
 msgid "Reading metadata"
-msgstr "讀取中繼資料"
+msgstr "讀取元數據"
 
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:3911
@@ -6473,7 +6429,7 @@ msgstr "正在等待同步連線"
 #. release sync lock and finish
 #: helpers/mediaSync.js:3959 helpers/mediaSync.js:3971
 msgid "Uploading metadata"
-msgstr "讀取中繼資料"
+msgstr "上傳元數據"
 
 #. scans content internally (e.g. for 'usb'  handler -- or uses the last "synced" content for other handlers without scanContent method)
 #: helpers/mediaSync.js:4029
@@ -6496,7 +6452,8 @@ msgstr "其他系列"
 #. helper function for preparing track item
 #: helpers/seriesDataSource.js:238
 msgid "Specials"
-msgstr ""
+msgstr "劇集中季號的特殊數值，適用於不屬於標準季的集數。使用如 TVDB《六人行》最終季 "
+"15 年後的重聚 '特別' 節目。"
 
 #. visibilityCheck option is a color to compare the chosen color against, to ensure visibility of all elements
 #: helpers/skinConfig.js:222
@@ -6522,7 +6479,7 @@ msgstr "自動增加曲目 #s"
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
-msgstr ""
+msgstr "將按順序修改 %d 個所選擇音軌的 track# 欄位。"
 
 #: Scripts/autoIncTrack/actions_add.js:23
 msgid "Start numbering from:"
@@ -6558,7 +6515,7 @@ msgstr "持續時間"
 #: Scripts/export/actions_add.js:138
 #: Scripts/statistics/dialogs/dlgStatistics.js:587
 msgid "Generated by "
-msgstr "產生來自於"
+msgstr "產生來自於 "
 
 #. @ts-ignore
 #. Use progress to notify user about the current action
@@ -6585,7 +6542,7 @@ msgstr "匯出訂閱的播客"
 msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
-msgstr ""
+msgstr "MediaMonkey 從各個網站尋找圖片。請選擇接受或拒絕 cookie。"
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1509
@@ -6602,17 +6559,15 @@ msgstr "下載內容時發生錯誤。按一下以便再試一次。"
 msgid ""
 "No matching content online. Please verify the spelling of existing metadata "
 "or edit the entry in "
-msgstr ""
+msgstr "網路上沒有符合的內容。請驗證現有元數據的拼字或編輯條目 "
 
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:31
-#, fuzzy
-#| msgid "During Recording"
 msgid "recording"
-msgstr "在錄製當中"
+msgstr "正在錄製"
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
-msgstr ""
+msgstr "下一個檢視"
 
 #: Scripts/statistics/actions_add.js:2
 msgid "Statistics"
@@ -6721,17 +6676,16 @@ msgstr "設定為同步目的"
 msgid ""
 "This will create a new sync profile for this drive/folder so that you can "
 "sync files to this location as if it were a portable device."
-msgstr ""
+msgstr "將為該磁碟/資料夾建立一個新的同步配置文件，以便您可以將檔案同步到該位置，就如"
+"同它是便攜式裝置。"
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:230
 msgid "Sync root"
 msgstr "同步"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:87
-#, fuzzy
-#| msgid "Use hardware acceleration when available"
 msgid "Milkshake requires Hardware Acceleration to be enabled"
-msgstr "使用硬體加速 (如果可用)"
+msgstr "需要啟用硬體加速"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:267
 msgid "Select preset"
@@ -6740,7 +6694,7 @@ msgstr "使用預置"
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:299
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "切換到 YouTube 影片的最小寬度。"
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -6828,15 +6782,15 @@ msgstr "重新排序/複製曲目"
 #. LS: following changed to toast message because of #19274
 #: CDDBUtils.pas:258
 msgid "There was an error while connecting to "
-msgstr ""
+msgstr "出現錯誤，當連接到 "
 
 #: CDDBUtils.pas:260
 msgid "There was an error while connecting to Freedb: "
-msgstr "當連線到Freedb時出現了一個錯誤:"
+msgstr "當連線到 Freedb 時出現了錯誤: "
 
 #: CDDBUtils.pas:510 CDDBUtils.pas:976
 msgid "Retrieving result %d of %d"
-msgstr ""
+msgstr "檢索結果中 %d 之 %d"
 
 #: CDDBUtils.pas:752
 msgid "Opening connection"
@@ -6856,7 +6810,7 @@ msgstr "用於Freedb檢索的媒體無法使用."
 
 #: CDDBUtils.pas:1917
 msgid "Please select an Audio CD before requesting information from Freedb."
-msgstr "從Freedb要求資訊之前, 請選擇一張音樂CD."
+msgstr "從 Freedb 請求資訊前，請選擇一張音訊光碟。"
 
 #: CDDBUtils.pas:1934
 msgid "Requesting information for %s (%d of %d)"
@@ -6864,7 +6818,7 @@ msgstr "要求 %s 的資訊 (%d / %d)"
 
 #: CDDBUtils.pas:1982 CDDBUtils.pas:2007
 msgid "This Audio CD was not found in Freedb."
-msgstr "在Freedb未發現此音樂CD."
+msgstr "在 Freedb 未發現此音訊光碟。"
 
 #. not found
 #: CDUtils.pas:1449 CDUtils.pas:1452 CDUtils.pas:1455 CDUtils.pas:1462
@@ -6888,11 +6842,11 @@ msgstr "(錯誤解析的驗證檔)"
 msgid ""
 "Track %s verified with confidence number %d (number of people matched your "
 "rip)"
-msgstr "曲目 %s 以信任數目 %d 來驗證 (符合你擷取的人員數目)"
+msgstr "曲目 %s 以置信度 %d 驗證 (符合您翻錄的人員數目)"
 
 #: CDUtils.pas:1462
 msgid "this CD doesn't exist in the database"
-msgstr "此 CD 在資料庫中不存在"
+msgstr "此光碟不存在於資料庫中"
 
 #: CDUtils.pas:1485
 msgid "Requesting data from AccurateRip.com database"
@@ -6902,12 +6856,12 @@ msgstr "要求來自於 AccurateRip.com 資料庫的資料"
 #. we are not getting results for too long, ask user what to do...
 #: CDUtils.pas:1590 CDUtils.pas:1832
 msgid "Error ripping track"
-msgstr "錯誤擷取曲目"
+msgstr "翻錄曲目錯誤"
 
 #. track doesn't exist or is a data track
 #: CDUtils.pas:1687
 msgid "The CD-ROM unit %s: does not contain track number %d."
-msgstr "CD-ROM單元 %s: 沒有包含曲目編號 %d."
+msgstr "CD-ROM 單元 %s: 沒有包含曲目編號 %d。"
 
 #: CDUtils.pas:1873
 msgid ""
@@ -6916,10 +6870,8 @@ msgid ""
 msgstr "具有 %d 不穩定錯誤當讀取碟片 %d. 它非常可能是聲音資料受損導致."
 
 #: CDUtils.pas:1926
-#, fuzzy
-#| msgid "Drive %s is running out of space."
 msgid "Drive %s is currently in use."
-msgstr "磁碟機 %s 空間不足。"
+msgstr "磁碟 %s 目前正在使用。"
 
 #: Covers.pas:767
 msgid "Not specified"
@@ -7003,7 +6955,7 @@ msgstr "存放在 %s"
 msgid ""
 "All links to the image %s have been removed from the Library. Would you like "
 "to delete it from the drive as well?"
-msgstr ""
+msgstr "所有連結到圖片 %s 已經從媒體櫃中被移除。您是否同時要從電腦中刪除它？"
 
 #. Get exclusive access to the DB
 #. VACUUM fails with "out of memory" exception on large databases (7 GB, 2.2 million of tracks)
@@ -7018,7 +6970,7 @@ msgstr "資料庫似乎已損壞. 嘗試修復它嗎?"
 
 #: DatabaseManage.pas:3168
 msgid "Do you really want to remove %d tracks from Virtual CD?"
-msgstr "您是否真的要從虛擬 CD 中移除 %d 曲目?"
+msgstr "您是否要從虛擬光碟中移除 %d 曲目?"
 
 #: DatabaseManage.pas:3227
 msgid "Do you really want to remove %d previews?"
@@ -7153,7 +7105,7 @@ msgstr "正在更新到資料庫版本 %d.%d.%d"
 msgid ""
 "This version of MediaMonkey supports new tag(s) (%s). Would you like to "
 "rescan files now in order to read these tags?"
-msgstr ""
+msgstr "此版本 MediaMonkey 支援新標籤 (%s)。您想現在重新掃描檔案以讀取這些標籤嗎？"
 
 #: DBStructure.pas:971
 msgid ""
@@ -7217,6 +7169,12 @@ msgid ""
 "MediaMonkey, it's recommended that you initially sync over USB to preserve "
 "your existing sync configuration."
 msgstr ""
+"%s 正在首次嘗試與 MediaMonkey 資料庫同步。\n"
+"\n"
+"\n"
+"\n"
+"注意: 如果您先前已將此裝置與早期版本的 MediaMonkey 同步，建議您先透過 USB "
+"進行同步，以保留現有的同步配置。"
 
 #: Devices.pas:10039
 msgid "No / I'll sync over USB instead"
@@ -7225,20 +7183,21 @@ msgstr "No / I'll sync over USB instead"
 #. capacity is unknown (e.g. Google Music)
 #: Devices.pas:11439
 msgid "Needed: %s, available: %s, to be freed: %s"
-msgstr ""
+msgstr "需要: %s，可用: %s，待釋放: %s"
 
 #: Devices.pas:11442
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
-msgstr ""
+msgstr "裝置上沒有足夠的空間可以同步所選擇的檔案。您是否要刪除現存的檔案以清出一些空"
+"間？"
 
 #. Clear tracks on the device
 #: Devices.pas:11458
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
-msgstr ""
+msgstr "裝置上沒有足夠的空間可以同步所選擇的檔案。您是否要繼續？"
 
 #: Devices.pas:11980 FileUtils.pas:820 ResStrings.pas:569
 msgid "Insufficient space available."
@@ -7283,7 +7242,8 @@ msgstr "檔案 %s 已經存在. 您是否要取代它?"
 msgid ""
 "Some components of filename %s exceed the 64 character limit for CDs. "
 "Continue renaming without editing filenames?"
-msgstr "部分檔案名稱 %s 超過CD的64字元限制. 您是否不要編輯檔名而要繼續此更名?"
+msgstr "檔案名稱 %s 的某些部分超出了光碟的 64 "
+"個字元限制。繼續重新命名而不編輯檔案名稱嗎？"
 
 #: ErrHandlers.pas:160
 msgid ""
@@ -7312,7 +7272,7 @@ msgstr "結果"
 msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
-msgstr ""
+msgstr "無法翻錄或驗證一首或多首曲目。選擇您想要重試的曲目:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -7322,12 +7282,12 @@ msgstr "曲目已經由 AccurateRip.com 資料庫驗證後產生以下結果:"
 
 #: ErrHandlers.pas:390
 msgid "Ripping results"
-msgstr "擷取結果"
+msgstr "翻錄結果"
 
 #. #18222
 #: ErrHandlers.pas:403
 msgid "There was a problem leveling volume for the following track(s):"
-msgstr "轉換以下的檔案時, 發生了一個問題:"
+msgstr "以下的曲目在均化音量時，發生了問題:"
 
 #. #18222
 #: ErrHandlers.pas:416
@@ -7367,7 +7327,8 @@ msgstr "MediaMonkey無法解讀這個格式."
 msgid ""
 "The trial version of the %s is limited to a 30-day trial period. For "
 "unrestricted use please upgrade to MediaMonkey Gold. Do you want to upgrade?"
-msgstr ""
+msgstr "%s 試用版僅限 30 天的試用期。如需無限制使用，請升級至 MediaMonkey "
+"Gold。您想升級嗎？"
 
 #. #18222
 #: ErrHandlers.pas:509
@@ -7390,7 +7351,7 @@ msgstr "呼叫堆疊"
 
 #: ExceptionHandler.pas:493
 msgid "There was a runtime error in Addon"
-msgstr ""
+msgstr "附加元件中出現運行時錯誤"
 
 #: ExceptionHandler.pas:493
 msgid "Do you want to disable this addon?"
@@ -7398,7 +7359,7 @@ msgstr "您是否真的要停用此附加元件？"
 
 #: Extensions.pas:911
 msgid "Invalid Addon: only valid for MediaMonkey 4.x"
-msgstr ""
+msgstr "附加元件無效: 僅對 MediaMonkey 4.x 有效"
 
 #. show the addon's config immediatelly (so that users are aware)
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
@@ -7433,8 +7394,6 @@ msgid "Skins"
 msgstr "面板"
 
 #: Extensions.pas:1584
-#, fuzzy
-#| msgid "Icon"
 msgid "Icons"
 msgstr "圖示"
 
@@ -7454,17 +7413,13 @@ msgstr "在 MediaMonkey 中播放(&P)"
 
 #. #19167
 #: FileAssoc.pas:735
-#, fuzzy
-#| msgid "Play &next in MediaMonkey"
 msgid "Queue &next in MediaMonkey"
-msgstr "在MediaMonkey中播放下一首(&n)"
+msgstr "在 MediaMonkey 中佇列下一首(&n)"
 
 #. #19167
 #: FileAssoc.pas:736
-#, fuzzy
-#| msgid "Play &last in MediaMonkey"
 msgid "Queue &last in MediaMonkey"
-msgstr "在MediaMonkey中播放上一首(&l)"
+msgstr "在 MediaMonkey 中佇列上一首(&L)"
 
 #: FileAssoc.pas:737
 msgid "Sync device"
@@ -7472,7 +7427,7 @@ msgstr "同步裝置"
 
 #: FileAssoc.pas:738
 msgid "Play Audio CD"
-msgstr "播放音樂 CD"
+msgstr "播放音訊光碟"
 
 #: FileAssoc.pas:739
 msgid "Burn CD/DVD/BD"
@@ -7480,7 +7435,7 @@ msgstr "燒錄 CD/DVD/BD"
 
 #: FileAssoc.pas:741
 msgid "Rip Audio CD"
-msgstr "擷取音樂 CD(&R)"
+msgstr "翻錄音訊光碟"
 
 #: FileAssoc.pas:743
 msgid "&Install MediaMonkey package"
@@ -7493,7 +7448,7 @@ msgstr "iPod"
 
 #: FileAssoc.pas:956
 msgid "Play CD with MediaMonkey"
-msgstr "以 MediaMonkey 播放 CD"
+msgstr "以 MediaMonkey 播放光碟"
 
 #: FileAssoc.pas:969
 msgid "Play DVD with MediaMonkey"
@@ -7532,7 +7487,7 @@ msgstr "媒體伺服器快取"
 
 #: FileUtils.pas:2372
 msgid "Virtual CD content"
-msgstr "虛擬 CD 內容"
+msgstr "虛擬光碟內容"
 
 #: FileUtils.pas:2375 UPnPTreeHelper.pas:1906
 msgid "Previews"
@@ -7623,7 +7578,7 @@ msgstr "沒有足夠的空間來轉換所有的檔案. 請清除在暫存目錄�
 
 #: FormatsManage.pas:1449
 msgid "ripping"
-msgstr "擷取"
+msgstr "翻錄"
 
 #. AAC MPEG4 Low Complexity
 #: FormatsManage.pas:2970
@@ -7638,7 +7593,7 @@ msgstr "LAME 音訊編碼器"
 #. BY_QUALITY
 #: FormatsManage.pas:3004
 msgid "Vorbis"
-msgstr ""
+msgstr "Vorbis"
 
 #. Windows Media Audio Codec
 #: FormatsManage.pas:3016
@@ -7756,17 +7711,17 @@ msgstr "清除正在播放的"
 
 #: FullPlayer.pas:2987
 msgid "Currently, there is no output plug-in selected"
-msgstr "目前, 沒有任一輸出外掛插件被選取"
+msgstr "目前沒有任一輸出外掛元件被選取"
 
 #: FullPlayer.pas:3001
 msgid "Currently no input plug-in is in use (no file is playing)."
-msgstr "目前, 沒有任一輸入外掛插件在使用中 (沒有檔案正在播放)."
+msgstr "目前沒有任一輸入外掛元件在使用中 (沒有檔案正在播放)。"
 
 #. run in separate thread, as caller could be terminated too fast and message would not be shown
 #. no audio hw
 #: FullPlayer.pas:4336 GeneralDecoder.pas:447
 msgid "No audio hardware found"
-msgstr ""
+msgstr "未找到音訊硬體"
 
 #. test accessibility first
 #: FullPlayer.pas:4473
@@ -7796,7 +7751,7 @@ msgstr "您是否要刪除 %d 個正在播放的重複項目?"
 #: FullPlayer.pas:6795
 msgid ""
 "The operation will complete after the the current file finishes playing."
-msgstr ""
+msgstr "目前檔案播放完畢後，作業完成。"
 
 #: FullPlayer.pas:7255
 msgid ""
@@ -8008,16 +7963,16 @@ msgstr "正在從網路快取檔案"
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disc from being burnt."
-msgstr ""
+msgstr "燒錄失敗！因為某些曲目由數位版權管理機制 (Digital Rights Management) "
+"所保護，所以無法燒錄光碟。"
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13177
 msgid ""
 "The MicroPlayer is not yet enabled. To enable it, right-click on the "
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
-msgstr ""
-"假如開啟的話, 會最小化到微型播放器 (在系統工作列上按下滑鼠右鍵, 並點選 '工具"
-"列')."
+msgstr "MicroPlayer 尚未啟用。要啟用它，請右鍵點擊任務欄，按一下 '工具列' 並啟用 "
+"'MediaMonkey Player'。"
 
 #: Importers.pas:232
 msgid ""
@@ -8026,6 +7981,9 @@ msgid ""
 "manually, please export the iTunes XML library via iTunes and select it "
 "below."
 msgstr ""
+"MediaMonkey 無法從 iTunes 資料庫匯入元數據。若要自動解決此問題，請執行 "
+"iTunes 並啟用 '共用 iTunes 資料庫 XML...'。若要手動執行此操作，請透過 iTunes "
+"匯出 iTunes XML 資料庫並在下方選擇它。"
 
 #: Importers.pas:271
 msgid "Importing data from iTunes..."
@@ -8089,7 +8047,7 @@ msgstr "專輯音量"
 
 #: MaskHelper.pas:3206
 msgid "Splitter"
-msgstr ""
+msgstr "切割器"
 
 #: MaskHelper.pas:3210
 msgid "Auto number"
@@ -8109,7 +8067,7 @@ msgstr "曲目資料夾"
 
 #: MaskHelper.pas:3228
 msgid "How to use masks"
-msgstr ""
+msgstr "如何使用遮罩"
 
 #: MaskHelper.pas:3834
 msgid "Track#"
@@ -8213,7 +8171,7 @@ msgstr "掃描記錄檔"
 
 #: MediaMonkeyApp.pas:6397
 msgid "Operation"
-msgstr ""
+msgstr "作業"
 
 #: MediaMonkeyApp.pas:7364
 msgid "Lifetime"
@@ -8242,7 +8200,7 @@ msgstr "曲目"
 
 #: MediaMonkeyApp.pas:8635 QueryManage.pas:4942
 msgid "Leveling"
-msgstr "均衡化"
+msgstr "均化"
 
 #: MediaMonkeyApp.pas:9098
 msgid "Edit Properties"
@@ -8328,10 +8286,8 @@ msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "監控 $FAdd$ / $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:1729 MP3Utils.pas:2012
-#, fuzzy
-#| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr "正在加入 $FAdd$ / $FTot$ ($Dir$$Str$)"
+msgstr "正在掃描 $FAdd$ / $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:2087
 msgid "Problem with scanning directory %s."
@@ -8355,7 +8311,7 @@ msgstr "標記更新失敗: %s 的格式錯誤."
 msgid ""
 "One or more of the selected files are inaccessible and cannot be tagged. "
 "Save artwork to the folder instead."
-msgstr ""
+msgstr "一個或更多的已選檔案無法存取也無法被標記，取代為儲存專輯圖片到資料夾。"
 
 #: MP3Utils.pas:4062 Normalization.pas:2157
 msgid ""
@@ -8535,7 +8491,7 @@ msgstr "評等最高 (6 小時)"
 #. default auto-playlist name
 #: NewDBCreate.pas:1281
 msgid "Most played (50)"
-msgstr ""
+msgstr "最多播放 (50)"
 
 #
 #. default auto-playlist name
@@ -8560,7 +8516,7 @@ msgstr "正在儲存標籤"
 #: Normalization.pas:1196
 msgid ""
 "Album leveling is enabled, which will cause %d other tracks to be analyzed."
-msgstr ""
+msgstr "專輯音量均化已啟用，將導致 %d 個其他曲目被分析。"
 
 #: Normalization.pas:1396
 msgid "%d of %d (%s)"
@@ -8569,15 +8525,15 @@ msgstr "%d / %d (%s)"
 #. otherwise could result in write lock after read lock assertion when SD item is changed in CalcNormalization (crash C0040000)
 #: Normalization.pas:1896
 msgid "Leveling volume %d of %d (%s)"
-msgstr "均衡化音量 %d / %d (%s)"
+msgstr "均化音量 %d / %d (%s)"
 
 #: Normalization.pas:1926
 msgid "Track volume may be leveled only for MP3 files."
-msgstr ""
+msgstr "曲目音量僅可在 MP3 檔案被均化。"
 
 #: Normalization.pas:1949
 msgid "Calculating leveling coefficients"
-msgstr ""
+msgstr "計算均化係數"
 
 #: PlaylistManage.pas:1202
 msgid "Duplicate file(s) detected:"
@@ -8615,7 +8571,7 @@ msgstr "可存取的"
 
 #: QueryManage.pas:4312
 msgid "is in Virtual CD"
-msgstr "有存在虛擬CD"
+msgstr "位於虛擬光碟中"
 
 #: QueryManage.pas:4319
 msgid "has preview"
@@ -8651,7 +8607,7 @@ msgstr "有專輯圖片"
 
 #: QueryManage.pas:4375
 msgid "has no Artwork"
-msgstr ""
+msgstr "無專輯圖片"
 
 #: QueryManage.pas:4425
 msgid "Is synced to"
@@ -8706,7 +8662,7 @@ msgstr "線上"
 
 #: QueryManage.pas:4556
 msgid "Local"
-msgstr ""
+msgstr "本地"
 
 #. Create 'any field' condition
 #: QueryManage.pas:4882
@@ -8714,10 +8670,8 @@ msgid "Any text"
 msgstr "任何文字"
 
 #: QueryManage.pas:4914
-#, fuzzy
-#| msgid "My Rating"
 msgid "Album Rating"
-msgstr "我的評等"
+msgstr "專輯評等"
 
 #: QueryManage.pas:4919
 msgid "# Tracks by Artist"
@@ -8762,7 +8716,7 @@ msgstr "隨機專輯 (自動更新)"
 #: QueryManage.pas:5041 QueryManage.pas:5055 QueryManage.pas:5057
 #: QueryManage.pas:5059 QueryManage.pas:5061
 msgid "highest"
-msgstr ""
+msgstr "最高"
 
 #: QueryManage.pas:5042 QueryManage.pas:5056 QueryManage.pas:5058
 #: QueryManage.pas:5060 QueryManage.pas:5062
@@ -8777,15 +8731,15 @@ msgstr "最近的"
 #: QueryManage.pas:5044 QueryManage.pas:5048 QueryManage.pas:5050
 #: QueryManage.pas:5052
 msgid "least recent"
-msgstr ""
+msgstr "最近的"
 
 #: QueryManage.pas:5045 QueryManage.pas:5053
 msgid "most often"
-msgstr ""
+msgstr "最常"
 
 #: QueryManage.pas:5046 QueryManage.pas:5054
 msgid "least often"
-msgstr ""
+msgstr "最不常"
 
 #: QueryManage.pas:5051 QueryManage.pas:5052
 #: dialogs\dlgTrackProperties\tabBasic.html:158
@@ -8817,7 +8771,7 @@ msgstr "進度"
 
 #: ResStrings.pas:378
 msgid "Approx. bitrate"
-msgstr ""
+msgstr "大略的位元率"
 
 #: ResStrings.pas:379
 msgid "Average bitrate"
@@ -8845,7 +8799,7 @@ msgstr "編碼的品質"
 
 #: ResStrings.pas:388
 msgid "Auto-added "
-msgstr ""
+msgstr "自動新增 "
 
 #: ResStrings.pas:389
 msgid "Added "
@@ -8957,11 +8911,11 @@ msgstr "分析音量"
 
 #: ResStrings.pas:558
 msgid "No Audio CD was found. Please insert a CD."
-msgstr "沒有發現任何音樂CD. 請插入一張CD."
+msgstr "沒有發現任何音訊光碟，請插入光碟。"
 
 #: ResStrings.pas:560
 msgid "Table of Contents of CD-ROM %s: was not read successfully."
-msgstr "CD-ROM %s 的目錄: 沒有成功地讀取."
+msgstr "CD-ROM %s 的目錄: 未成功讀取。"
 
 #: ResStrings.pas:562
 msgid "There was a problem querying the database: "
@@ -8972,6 +8926,8 @@ msgid ""
 "Files from the following locations are currently inaccessible:\n"
 "%sPlease reconnect the drive or insert the CDs."
 msgstr ""
+"目前無法存取以下位置的檔案:\n"
+"%s 請重新連接磁碟或插入光碟。"
 
 #: ResStrings.pas:567
 msgid "Time-out error occured while connecting to Freedb."
@@ -9049,7 +9005,7 @@ msgstr "繼續(&N)"
 
 #: ResStrings.pas:866
 msgid "&Erase CD"
-msgstr "清除 CD(&E)"
+msgstr "抹除光碟(&E)"
 
 #: ResStrings.pas:867
 msgid "&Open tray"
@@ -9059,7 +9015,7 @@ msgstr "開啟托盤(&O)"
 msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
-msgstr ""
+msgstr "除非先將其抹除，否則無法在插入的光碟上進行寫入。您是否要在燒錄之前抹除它？"
 
 #: ResStrings.pas:870
 msgid "Please insert a disc to be burned..."
@@ -9067,7 +9023,7 @@ msgstr "請插入要燒錄的光碟..."
 
 #: ResStrings.pas:873
 msgid "Error erasing the CDRW."
-msgstr "掃描問題目錄"
+msgstr "抹除 CDRW 時發生錯誤。"
 
 #: ResStrings.pas:875
 msgid "Burning was not successful"
@@ -9082,10 +9038,8 @@ msgid "Re-burn this disc?"
 msgstr "重新燒錄這份光碟?"
 
 #: ResStrings.pas:879
-#, fuzzy
-#| msgid "Could not write the image layout to the disk."
 msgid "Could not write the image layout to the disc."
-msgstr "無法將映像配置寫入磁碟."
+msgstr "無法將圖像佈局寫入光碟。"
 
 #: ResStrings.pas:880
 msgid "Burning was terminated."
@@ -9136,10 +9090,8 @@ msgid "Sleep: %d minute"
 msgstr "睡眠: %d 分鐘"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "Database file %s cannot be accessed."
-msgstr "無法建立檔案 %s。"
+msgstr "無法存取資料庫檔案 %s。"
 
 #. per #17917
 #: UpNp.pas:1956
@@ -9147,12 +9099,14 @@ msgid ""
 "Your network connection is set to 'Public'. This usually causes your machine "
 "to not be discoverable by other devices on the network. If you're on a home "
 "network, you may want to switch your network connection to 'Private'."
-msgstr ""
+msgstr "您的網路連線設定為 "
+"'公共'。這通常會導致您的電腦無法被網路上的其他裝置發現。如果您使用家庭網路，"
+"您可能需要將網路連線切換為 '個人'。"
 
 #. #13718 - item 1
 #: UpNp.pas:2499
 msgid "Casting"
-msgstr ""
+msgstr "投射"
 
 #: UpNp.pas:3726
 msgid "MediaMonkey Library"
@@ -9188,10 +9142,8 @@ msgid "Root directory"
 msgstr "根目錄"
 
 #: UpNp.pas:4862
-#, fuzzy
-#| msgid "MediaMonkey Player"
 msgid "Output from MediaMonkey Player"
-msgstr "MediaMonkey 播放器"
+msgstr "從 MediaMonkey 播放器輸出"
 
 #: UpNp.pas:5805 UpNp.pas:5811
 msgid "This is an external IP address!"
@@ -9215,7 +9167,7 @@ msgstr "存取拒絕"
 #. to not show "turned off or inaccessible" message, but just skip to the next file
 #: UpNp.pas:8540 UpNp.pas:9091 UpNp.pas:12887
 msgid "Buffering on"
-msgstr ""
+msgstr "緩衝於"
 
 #: UpNp.pas:8607
 msgid "Connecting to"
@@ -9311,13 +9263,14 @@ msgstr "載入播放清單(&L)"
 #. make sure CD_Reader is the first
 #: WinAmpPlugins.pas:3215
 msgid "Plug-in %s could not be opened."
-msgstr "外掛插件 %s 無法被打開."
+msgstr "外掛元件 %s 無法被開啟。"
 
 #: WinAmpPlugins.pas:5329
 msgid ""
 "Current audio configuration cannot play %s. Verify that your sound drivers "
 "are properly installed or try to change/re-configure the output plugin."
-msgstr ""
+msgstr "目前音訊配置無法播放 "
+"%s。驗證您的聲音驅動程式是否已正確安裝或嘗試變更/重新配置輸出接頭。"
 
 #: WMAUtils.pas:332
 msgid "WMA is not supported. The codec must first be installed."
@@ -9325,7 +9278,7 @@ msgstr "不支援 WMA。必須先安裝轉碼器。"
 
 #: controls\searchEditor.html:30
 msgid "Limit to"
-msgstr ""
+msgstr "限制在"
 
 #: controls\nowPlaying\fullList.html:44
 msgid "Coming up: "
@@ -9356,18 +9309,13 @@ msgid "This changes the header for each custom field."
 msgstr "這將變更每個自訂欄位的標頭。"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
-#, fuzzy
-#| msgid ""
-#| "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
-#| "playlist, remove them from the playlist and the library, or delete them "
-#| "from the playlist, the library, and the computer system."
 msgid ""
 "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
 "'Playing' list, remove them from the 'Playing' list and the Library, or "
 "delete them from the 'Playing' list, the Library, and the computer system."
 msgstr ""
-"假如開啟的話, MediaMonkey將會提示您是否要從播放清單中移除曲目, 同時從播放清單"
-"與媒體櫃中移除, 或從播放清單,媒體櫃,電腦中刪除."
+"若啟用，MediaMonkey 將提示您是否從 '正在播放' 清單中移除曲目，從 '正在播放' "
+"清單和資料庫中移除，或從 '正在播放' 清單、資料庫和電腦中刪除。"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -9391,7 +9339,7 @@ msgstr ""
 #: dialogs\dlgOptions\pnl_PartyMode.html:2
 msgid ""
 "If enabled, will prompt for a password when attempting to exit Party Mode."
-msgstr ""
+msgstr "若開啟此功能，離開派對模式會出現提示要求輸入密碼。"
 
 #: dialogs\dlgOptions\pnl_Performance.html:37
 msgid "Enable smooth scrolling"
@@ -9421,7 +9369,7 @@ msgstr "最近觀看系列"
 msgid ""
 "Describes directories other than the above that are scanned for media when "
 "syncing. Limit the directories scanned so as not to hurt performance."
-msgstr ""
+msgstr "描述同步時掃描媒體的除上述目錄之外的目錄。限制掃描的目錄以免影響效能。"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:38
 msgid ""
@@ -9455,7 +9403,7 @@ msgstr "全部確認"
 
 #: dialogs\dlgConvertFormat.html:38
 msgid "Rip type"
-msgstr "擷取類型"
+msgstr "翻錄類型"
 
 #: dialogs\dlgPodcastSubscription.html:61
 msgid ""
@@ -9468,7 +9416,7 @@ msgstr "音訊格式"
 
 #: dialogs\dlgOptions\pnl_General.html:38
 msgid "Minimizes to the MiniPlayer"
-msgstr "最小化到迷你播放器"
+msgstr "最小化到 MiniPlayer"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:15
 msgid "Causes the Hotkey to function even when MediaMonkey isn't in focus"
@@ -9486,7 +9434,7 @@ msgstr "掃描完成後顯示掃描結果對話框。"
 msgid ""
 "Saves auto-converted content to a temporary cache so that it can be re-used, "
 "as needed."
-msgstr ""
+msgstr "若有需要，將自動轉換後的內容儲存在暫存快取中以便再利用。"
 
 #: dialogs\dlgOptions\pnl_Performance.html:31
 msgid "Lower"
@@ -9498,7 +9446,7 @@ msgstr "不透明"
 
 #: dialogs\dlgOptions\pnl_Player.html:30
 msgid "Default 'Play now' action"
-msgstr "預設「立即播放」操作"
+msgstr "預設 '立即播放' 操作"
 
 #: dialogs\dlgOptions\pnl_Player.html:43
 msgid "Indicates how long the Pop-up should display"
@@ -9513,7 +9461,8 @@ msgid ""
 "If enabled, MediaMonkey adjusts volume to the Player's Target volume, using "
 "previously analyzed volume leveling coefficients. It has no effect on tracks "
 "that do not have such a coefficient."
-msgstr ""
+msgstr "若開啟，MediaMonkey 會調整音量至播放器的目標音量，此目標音量是利用先前分析後"
+"的音量均化係數。對沒有此類係數的曲目是沒有影響的。"
 
 #: controls\windowtitle.html:17
 msgid "Restore window"
@@ -9539,13 +9488,14 @@ msgstr "高"
 msgid ""
 "Writes track information to the CD so that devices that support CD-Text can "
 "display it during playback."
-msgstr ""
+msgstr "寫入曲目資訊到光碟中，如此當裝置播放時就可支援 CD-Text 顯示。"
 
 #: dialogs\dlgBurn.html:28
 msgid ""
 "Improves performance by converting tracks on the fly to Audio CD format. "
 "Disable if burns are failing."
-msgstr ""
+msgstr "透過將曲目即時轉換 (on the fly) "
+"為音訊光碟格式來提高效能。如果燒錄失敗則停用。"
 
 #: dialogs\dlgSleep.html:28
 msgid "Action at end:"
@@ -9581,7 +9531,7 @@ msgstr "音量分析"
 
 #: dialogs\dlgOptions\pnl_Search.html:9
 msgid "Show results only after pressing ENTER"
-msgstr ""
+msgstr "僅在按 [ENTER] 鍵後顯示結果"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:14
 msgid "ID3v1 and v2.3 tags"
@@ -9593,7 +9543,7 @@ msgstr "音訊/視訊"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:18
 msgid "Level playback volume to:"
-msgstr "均衡化播放音量至:"
+msgstr "均化播放音量至:"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:13
 msgid "Cache"
@@ -9628,21 +9578,15 @@ msgid "Check for updates (when connected)"
 msgstr "檢查更新 (當連線時)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the Play Now command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It applies only when Party mode is active."
-msgstr ""
-"用來決定當現在播放的命令正在單一曲目下執行時, 哪些曲目會被播放. 預設值為所選"
-"擇曲目與其他順序在這首曲之後的曲目, 也可以是僅播放所選擇的曲目."
+msgstr "決定對單一檔案執行 '立即播放' "
+"命令時播放哪些檔案。僅在派對模式處於活動狀態時適用。"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
-msgstr ""
+msgstr "啟用速度調整"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9657,11 +9601,11 @@ msgstr ""
 msgid ""
 "full auto-tagging functionality (faster, unlimited lookups, and background "
 "lookups)"
-msgstr ""
+msgstr "完整的自動標記功能 (更快、無限的查詢和背景查詢)"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:47
 msgid "Customize case for these phrases mid-string"
-msgstr ""
+msgstr "自訂這些片語中字串大小寫"
 
 #: controls\windowtitle.html:16
 msgid "Maximize window"
@@ -9690,13 +9634,12 @@ msgid ""
 "On sync, metadata for edited tags are always synced. This option "
 "additionally causes edited tracks to be recopied (useful for devices running "
 "3rd-party players)."
-msgstr ""
+msgstr "同步時，已編輯標籤的元數據始終同步。此選項也會導致重新複製已編輯的曲目 "
+"(對於執行第三方播放器的裝置很有用)。"
 
 #: dialogs\dlgEditView.html:23
-#, fuzzy
-#| msgid "Exporting"
 msgid "Sorting"
-msgstr "匯出"
+msgstr "正在排序"
 
 #: dialogs\dlgMaintainLibrary.html:24
 msgid "Retain backups:"
@@ -9720,15 +9663,15 @@ msgstr "避免最近的單曲被刪除."
 
 #: dialogs\dlgSupportedFormat.html:52
 msgid "Max"
-msgstr ""
+msgstr "最大"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:27
 msgid "Confirm sync operation when there's not enough space available"
-msgstr "在可用空間不足時確認同步操作"
+msgstr "在可用空間不足時確認同步作業"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:7
 msgid "Active layout"
-msgstr ""
+msgstr "活動中的佈局"
 
 #: dialogs\dlgOptions\pnl_Library.html:52
 msgid "Ignore files smaller than"
@@ -9744,7 +9687,7 @@ msgstr "水平"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:9
 msgid "Play all audio tracks as single stream to external players (gaplessly)"
-msgstr ""
+msgstr "將所有音軌作為單一串流播放到外部播放器 (無縫)"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:85
 msgid ""
@@ -9759,18 +9702,19 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:36
 msgid "Level ripped tracks:"
-msgstr "均衡化擷取曲目:"
+msgstr "均化翻錄曲目:"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:37
 msgid "Capitalize common abbreviations"
-msgstr ""
+msgstr "常用縮寫大寫"
 
 #: controls\autoConvertConfig.html:7
 msgid ""
 "Adjusts the volume of files to the chosen level (lossless only for MP3 "
 "files). Mainly for older devices that can't adjust volume on the fly via "
 "Replay Gain tags."
-msgstr ""
+msgstr "調整檔案音量至所選位準 (無損僅適用於 MP3 "
+"檔案)。主要適用於無法透過重播增益標籤即時調整音量的舊裝置。"
 
 #: controls\devicesView.html:31
 msgid ""
@@ -9804,6 +9748,8 @@ msgid ""
 "'Beatles' will appear directly adjacent to one another if this is enabled "
 "and 'the' is configured."
 msgstr ""
+"這會導致 MediaMonkey 在排序時忽略指定的前綴 (以 ',' 分隔多個前綴)。例如，"
+"若啟用並且設定 'the'，則 'The Beatles' 和 'Beatles' 將直接相鄰顯示。"
 
 #: dialogs\dlgOptions\pnl_General.html:29
 msgid "Minimization settings:"
@@ -9822,10 +9768,8 @@ msgid "Minimizes to the Taskbar"
 msgstr "最小化到工作列"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:21
-#, fuzzy
-#| msgid "Imported"
 msgid "Import"
-msgstr "已匯入"
+msgstr "匯入"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
@@ -9881,7 +9825,7 @@ msgstr "只有評等低於"
 
 #: dialogs\dlgSupportedFormat.html:108
 msgid "Width"
-msgstr ""
+msgstr "寬度"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:12
 msgid ""
@@ -9897,9 +9841,8 @@ msgid ""
 "If enabled, MediaMonkey will prompt you whether to delete the currently "
 "playing file from the system, since doing so will cause an interruption of "
 "playback."
-msgstr ""
-"假如開啟的話, MediaMonkey將會提示您是否要從系統中刪除現有播放的檔案, 這樣做會"
-"造成播放中斷."
+msgstr "若啟用，MediaMonkey "
+"將提示您是否從系統中刪除目前播放的檔案，因為會導致播放中斷。"
 
 #: dialogs\dlgOptions\pnl_Download.html:8
 msgid "Number of concurrent downloads:"
@@ -9916,9 +9859,9 @@ msgid ""
 "priority of these background tasks. By default it is set to 'Lower' so that "
 "these tasks don't slow down other operations."
 msgstr ""
-"MediaMonkey可以在背景執行許多的作業, 像是擷取CD, 轉檔, 標籤, 均化音量等等. 這"
-"個選項設定了這些背景作業的優先順序. 在預設值裡它是設為'較低的'好讓這些作業不"
-"會使其他運作變慢."
+"MediaMonkey 在背景執行許多作業，例如: 光碟翻錄、轉換、標記、音量均化等。此選"
+"項設定這些背景任務的優先順序。預設情況下，它設定為 "
+"'較低'，以便這些任務不會減慢其他作業的速度。"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:5
 msgid ""
@@ -9927,18 +9870,12 @@ msgid ""
 msgstr "對選擇類型的檔案儲存播放位置 (這對有聲書很不錯)"
 
 #: dialogs\dlgOptions\pnl_Player.html:32
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the Play Now command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. Party Mode and Playback rule settings can override this "
 "default."
-msgstr ""
-"用來決定當現在播放的命令正在單一曲目下執行時, 哪些曲目會被播放. 預設值為所選"
-"擇曲目與其他順序在這首曲之後的曲目, 也可以是僅播放所選擇的曲目."
+msgstr "決定對單一檔案執行 '立即播放' "
+"命令時播放哪些檔案。派對模式和播放規則設定可覆蓋此預設值。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -9984,7 +9921,7 @@ msgstr "總是保持"
 
 #: dialogs\dlgSupportedFormat.html:122
 msgid "Height"
-msgstr ""
+msgstr "最高"
 
 #: dialogs\dlgSupportedFormats.html:10
 msgid "Select formats supported on the target"
@@ -10001,10 +9938,8 @@ msgid ""
 msgstr "這裡指定什麼樣的風格要用來在單一欄位中表示多重數值 (如: 搖滾;鄉村)."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
-#, fuzzy
-#| msgid "previous files in Playing list"
 msgid "previous files in 'Playing' list"
-msgstr "播放清單中的先前檔案"
+msgstr "'正在播放' 清單中的先前檔案"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
@@ -10026,9 +9961,9 @@ msgid ""
 "folder that isn't monitored, as doing so would result in the file being "
 "removed from the Library entirely."
 msgstr ""
-"假如您期望有檔案從監控的資料夾中移除或刪除時讓媒體櫃能夠精簡, 可以開啟這個選"
-"項. 這是極度有幫助的, 但是如果您無法確定您不曾從不被監控的資料夾中移除檔案, "
-"就應該開啟此項目."
+"如果您希望從資料庫中刪除已從受監視資料夾中移動或刪除的任何檔案，請啟用此選項"
+"。這非常有用，但只有當您確信永遠不會將檔案移動到不受監控的資料夾時才應啟用，"
+"因為會導致檔案從資料庫中完全移除。"
 
 #: dialogs\dlgOptions\pnl_Library.html:172
 msgid "Scan file directories for Artwork"
@@ -10039,7 +9974,8 @@ msgid ""
 "If your network uses a proxy server, you'll need to configure these settings "
 "to enable Freedb HTTP connections and media streaming. If you don't know the "
 "proxy server settings, check with your administrator."
-msgstr ""
+msgstr "若您的網路使用代理伺服器，則需要設定這些設定以啟用 Freedb HTTP "
+"連線和媒體串流。若您不知道代理伺服器設置，請諮詢您的管理員。"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:43
 msgid "When files are playing:"
@@ -10048,7 +9984,7 @@ msgstr "當檔案正在播放:"
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid ""
 "Prevents Auto-DJ from adding tracks while this Type of content is playing"
-msgstr ""
+msgstr "避免 Auto-DJ 在播放此類內容時增加曲目"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:56
 msgid "(Unknown)"
@@ -10056,20 +9992,21 @@ msgstr "(未知)"
 
 #: controls\artistAlbums.html:34
 msgid "EPs"
-msgstr ""
+msgstr "EP"
 
 #: controls\deviceConfig\syncFromDevice.html:15
 msgid ""
 "Syncs updated metadata such as ratings and play counts from the device to "
 "the PC."
-msgstr "將更新的中繼資料同步到 PC (例如裝置上的評等和播放計數)。"
+msgstr "同步更新的元數據到電腦 ，例如: 裝置上的評等和播放計數。"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:23
 msgid ""
 " Relative paths store file links in a playlist in relation to playlist's "
 "location, allowing the playlist and content to be moved to other locations "
 "without breaking the links."
-msgstr ""
+msgstr " 相對路徑在播放清單中儲存與播放清單位置相關的檔案連結，允許將播放清單和內容移"
+"動到其他位置而不破壞連結。"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:28
 msgid "Use only the first Genre when multiple Genres exist"
@@ -10093,7 +10030,7 @@ msgstr "每首曲目"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "Verifies ripped tracks against the AccurateRip.com database"
-msgstr "透過AccurateRip.com資料庫驗證擷取完的曲目"
+msgstr "依據 AccurateRip.com 資料庫驗證翻錄的曲目"
 
 #: dialogs\dlgMP3Settings.html:50
 msgid "Use advanced settings"
@@ -10119,7 +10056,7 @@ msgstr "加入檔案從："
 msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "'Playing' list."
-msgstr ""
+msgstr "決定 '播放' 清單中將顯示多少先前播放的曲目。"
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:4
 msgid "Configure..."
@@ -10133,7 +10070,7 @@ msgstr "編輯快速鍵"
 msgid ""
 "Hotkeys let you define keyboard shortcuts to accomplish various actions. "
 "Select [New Hotkey] to create a new shortcut."
-msgstr ""
+msgstr "快速鍵可讓您定義鍵盤捷徑來完成各種操作。選擇 [新快速鍵] 以建立新的捷徑。"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:13
 msgid "Looks up lyrics if they're missing"
@@ -10165,7 +10102,7 @@ msgstr "從廣播串流提交曲目"
 
 #: controls\devicesView.html:32
 msgid "Server IP address:port: "
-msgstr "伺服器 IP 位址:連接埠："
+msgstr "伺服器 IP 位址:連接埠: "
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Lookup settings"
@@ -10190,7 +10127,7 @@ msgstr "僅更新空白欄位"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Encode tracks with volume leveled"
-msgstr "以均衡化音量來進行曲目編碼"
+msgstr "以均化音量來進行曲目編碼"
 
 #: dialogs\dlgMovedFiles.html:38
 msgid "Update"
@@ -10234,11 +10171,11 @@ msgstr "將檔案加入到媒體櫃時"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:33
 msgid "MusicBrainz"
-msgstr ""
+msgstr "MusicBrainz"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:7
 msgid "Total lockdown"
-msgstr ""
+msgstr "完全鎖住"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:22
 msgid "Fade in"
@@ -10257,7 +10194,7 @@ msgstr "進階媒體櫃管理工具可說明更高效地組織媒體櫃:"
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Auto-sync playlists and new files from the device to the PC"
-msgstr ""
+msgstr "自動將播放清單和新檔案從裝置同步到電腦"
 
 #: dialogs\dlgAddonInstall.html:48
 msgid "I accept the terms in the license agreement"
@@ -10267,7 +10204,7 @@ msgstr "我接受授權合約中的條款"
 msgid ""
 "Determines whether groups of tracks are treated as compilation albums or as "
 "individual tracks"
-msgstr ""
+msgstr "決定將曲目組視為合輯專輯或是單獨曲目"
 
 #: dialogs\dlgAutotagFromFilename.html:13
 msgid "Filename format:"
@@ -10296,6 +10233,9 @@ msgid ""
 "'Minimize to MiniPlayer', displays 'Playing' list files even when the main "
 "application is minimized."
 msgstr ""
+"預設情況下，MediaMonkey 最小化到工作列。'最小化到 MicroPlayer' "
+"會使其在最小化時顯示於系統工具列。'最小化到 MiniPlayer'，即使應用程式最小化，"
+"也會顯示 '正在播放' 清單檔案。"
 
 #: dialogs\dlgOptions\pnl_Library.html:78
 msgid "Remove unused Attributes (Artist, Album, Composer, ...)"
@@ -10307,7 +10247,7 @@ msgstr "快取自動轉換內容到:"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:34
 msgid "Freedb (CDDBP)"
-msgstr ""
+msgstr "Freedb (CDDBP)"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:11
 msgid "Saves the change without confirmation."
@@ -10335,7 +10275,7 @@ msgstr "專輯 - 原聲帶"
 
 #: controls\artistAlbums.html:31
 msgid "Singles"
-msgstr ""
+msgstr "單曲"
 
 #: dialogs\dlgAddonInstall.html:34
 msgid "Product type"
@@ -10343,11 +10283,11 @@ msgstr "產品類型"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Level Track volume"
-msgstr "均衡化曲目音量(&L)"
+msgstr "均化曲目音量"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "Verify ripped tracks"
-msgstr "驗證擷取後曲目"
+msgstr "驗證翻錄後曲目"
 
 #: dialogs\dlgMovedFiles.html:17
 msgid "Unlocatable files"
@@ -10358,16 +10298,16 @@ msgid ""
 "When enabled, MediaMonkey will prompt you whether to proceed with a rename "
 "operation if the resulting filename contains more than the 64-character "
 "limit that is standard for a CD."
-msgstr ""
-"當開啟時, 假如更改的檔名超過了標準CD對於64字元的限制, MediaMonkey將會提示您是"
-"否要進行一個更名的動作."
+msgstr "啟用後，如果產生的檔案名稱包含的內容超過光碟標準的 64 個字元限制，"
+"MediaMonkey 將提示您是否繼續進行重新命名作業。"
 
 #: dialogs\dlgOptions\pnl_Download.html:26
 msgid ""
 "Choose a directory and filename mask to which podcasts should be saved. If a "
 "filename mask is not chosen, then the podcast's original filename will be "
 "used"
-msgstr ""
+msgstr "選擇要儲存播客的目錄和檔案名稱遮罩。若未選擇檔案名稱遮罩，則將使用播客的原始"
+"檔案名稱"
 
 #: dialogs\dlgOptions\pnl_General.html:13
 msgid "Include addons"
@@ -10381,7 +10321,8 @@ msgstr "縮小至工作列"
 msgid ""
 "Enabling this option speeds up all scans subsequent to the initial one by "
 "only re-adding files that have changed in size or timestamp."
-msgstr ""
+msgstr "啟用此選項僅重新新增已變更大小或時間戳記的檔案，從而加快初始掃描之後的所有掃"
+"描速度。"
 
 #: dialogs\dlgOptions\pnl_Library.html:63
 msgid "Update file info from tags when rescanning files"
@@ -10397,7 +10338,7 @@ msgstr "關閉對話與控制的重新定位"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:45
 msgid "Choose how the 'Track summary' field displays for each content Type"
-msgstr ""
+msgstr "選擇每個內容類型的 '曲目摘要' 欄位的顯示方式"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:6
 msgid "Ignore Shuffle"
@@ -10475,26 +10416,22 @@ msgid "Ignore prefixes:"
 msgstr "忽略前綴："
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
-#, fuzzy
-#| msgid "upcoming files in Playing list"
 msgid "upcoming files in 'Playing' list"
-msgstr "播放清單中即將出現的檔案"
+msgstr "'正在播放' 清單中即將播放的檔案"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:8
 msgid ""
 "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
 "playlist, remove them from the playlist and the library, or delete them from "
 "the playlist, the library, and the computer system."
-msgstr ""
-"假如開啟的話, MediaMonkey將會提示您是否要從播放清單中移除曲目, 同時從播放清單"
-"與媒體櫃中移除, 或從播放清單,媒體櫃,電腦中刪除."
+msgstr "若啟用，MediaMonkey 將提示您是否從播放清單中移除曲目，從播放清單和資料庫中移"
+"除，或從播放清單、資料庫和電腦中刪除。"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:23
 msgid ""
 "If enabled, MediaMonkey will prompt you whenever an edit operation modifies "
 "more than 50 files at once."
-msgstr ""
-"假如開啟的話, MediaMonkey將會提示您是否編輯的動作要一次修改超過50個檔案."
+msgstr "若啟用，每當編輯作業一次修改超過 50 個檔案時，MediaMonkey 就會提示您。"
 
 #: dialogs\dlgOptions\pnl_Download.html:4
 msgid "Default download location:"
@@ -10531,7 +10468,7 @@ msgstr "選擇哪個節點來啟用媒體樹狀結構, 以及用來編輯收藏�
 msgid ""
 "Prefer faster metadata lookups when possible (instead of slower audio "
 "fingerprinting)"
-msgstr "盡可能選擇更快的中繼資料查詢 (而不是較慢的聲紋辨識)"
+msgstr "儘可能選擇更快的元數據查詢 (而不是較慢的聲紋識別)"
 
 #: dialogs\dlgOptions\pnl_Player.html:42
 msgid "Displays file information and associated artwork"
@@ -10544,18 +10481,18 @@ msgid ""
 "Digital Media Server. If you wish to play content from MediaMonkey's "
 "library, you must also enable Media Sharing."
 msgstr ""
-"讓MediaMonkey當作是一個Digital Media Renderer, 如此它可以從Digital Media "
-"Controller來播放內容. 假如你想要從MediaMonkey媒體櫃播放內容, 你也必須啟用媒體"
-"分享."
+"讓 MediaMonkey 充當數位媒體渲染器 (Digital Media Renderer)，"
+"以便它可以播放來自數位媒體控制器 (Digital Media Controller) 的內容，"
+"該控制器從數位媒體伺服器 (Digital Media Server) 檢索內容。若您希望播放 "
+"MediaMonkey 資料庫中的內容，您也必須啟用媒體共用。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:54
 msgid ""
 "This option is useful if you wish to automatically create playlists of newly "
 "added files to your library. The main use of this is if you wish to export "
 "playlists of newly added files to a portable device."
-msgstr ""
-"假如您期望能自動建立最新增加曲目的播放清單到媒體櫃中, 這個選項是非常有幫助"
-"的. 主要會用到此選項是當您期望匯出最新增加曲目的播放清單到可攜式的裝置中."
+msgstr "若您希望自動建立新的新增到資料庫中檔案的播放清單，則此選項非常有用。其主要用"
+"途是如果您希望將新的新增檔案的播放清單匯出到可攜式裝置。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:55
 msgid "Create playlists of tracks newly added to the library"
@@ -10582,7 +10519,8 @@ msgid ""
 "Saves artwork to album folders, for devices and applications that can't read "
 "image tags. If disabled, artwork is synced to a location that only "
 "MediaMonkey can read."
-msgstr ""
+msgstr "對於無法讀取圖片標籤的裝置和應用程式，將專輯圖片儲存到相簿資料夾。若停用，"
+"專輯圖片將同步到只有 MediaMonkey 可以讀取的位置。"
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Move and rename files to new destination based on file tags"
@@ -10597,10 +10535,8 @@ msgid "Reset to default"
 msgstr "重設為預設值"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Install as service"
 msgid "Install addon from file"
-msgstr "安裝為服務"
+msgstr "從檔案安裝附加元件"
 
 #: dialogs\dlgMP3Settings.html:95
 msgid "Strict ISO compliance"
@@ -10626,20 +10562,19 @@ msgstr "下載更多 DSP 外掛程式..."
 msgid ""
 "Minimizes to the MicroPlayer if it is enabled (right-click on the System "
 "Task bar, and click 'Toolbars')."
-msgstr ""
-"假如開啟的話, 會最小化到微型播放器 (在系統工作列上按下滑鼠右鍵, 並點選 '工具"
-"列')."
+msgstr "若啟用，則最小化為 MicroPlayer (右鍵點擊系統工作列，然後按一下 '工具列')。"
 
 #: dialogs\dlgOptions\pnl_Library.html:171
 msgid ""
 "This setting determines whether MediaMonkey searches file directories for "
 "artwork and links it to tracks as they are added to the Library."
-msgstr ""
+msgstr "此設定將決定 MediaMonkey "
+"是否在檔案目錄中搜尋專輯圖片並將其連結到新增至資料庫中的曲目。"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:88
 msgid ""
 "For groups of tracks, avoid compilations (treat as individual tracks instead)"
-msgstr ""
+msgstr "對於曲目組，避免視為合輯 (而是單獨的曲目)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:9
 msgid "This option completely hides the menu bar."
@@ -10651,7 +10586,7 @@ msgstr "在派對中, 讓音樂在台上宣佈時能夠降低聲音/暫停"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Removes gaps introduced by some lossy encoders"
-msgstr ""
+msgstr "移除來自一些有損編碼器產生的落差"
 
 #: dialogs\dlgOptions\pnl_Search.html:25
 msgid "Search the following fields via the Search bar:"
@@ -10667,7 +10602,7 @@ msgstr "套用"
 
 #: controls\deviceConfig\syncFromDevice.html:15
 msgid "Auto-Sync file metadata from the device to the PC"
-msgstr ""
+msgstr "自動將檔案元數據從裝置同步到電腦"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:41
 msgid "prefix for each playlist type"
@@ -10679,11 +10614,11 @@ msgstr "修正不穩定的讀取"
 
 #: dialogs\dlgErrorLog.html:14
 msgid "Warning will disappear in:"
-msgstr ""
+msgstr "警告將消失於:"
 
 #: dialogs\dlgPodcastSubscription.html:23
 msgid "This is not a valid RSS link and may not subscribe correctly. "
-msgstr ""
+msgstr "這不是有效的 RSS 連結，可能無法正確訂閱。 "
 
 #: dialogs\dlgSleep.html:17
 msgid "Start fading in"
@@ -10736,14 +10671,15 @@ msgid ""
 "characters appear. Some players may have trouble reading Unicode tags, "
 "though."
 msgstr ""
-"假如你有檔案是非英語字碼, 你將要啟用 accii + Unicode 來儲存成ascii, 以避免出"
-"現非拉丁字碼. 但某些播放器對於支援unicode的標籤會有問題."
+"若您的檔案包含非英文字元，則需要啟用 ascii + Unicode，這會以 ascii "
+"格式儲存標籤，除非出現非拉丁字元。不過，有些玩家可能在讀取 Unicode "
+"標籤時遇到困難。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:57
 msgid ""
 "If enabled, a warning is provided whenever duplicate files are added to a "
 "playlist."
-msgstr "假如啟用的話, 當有重製的曲目被新增到播放清單時, 會提出一個警示."
+msgstr "若啟用，每當將重複檔案新增至播放清單時都會發出警告。"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:56
 msgid "Clipping prevention"
@@ -10783,7 +10719,8 @@ msgid ""
 "This speeds up CD Ripping by encoding audio to the chosen format as it is "
 "being extracted from the CD-ROM. For some older drives, this should be "
 "disabled as it may reduce the quality of encoded files."
-msgstr ""
+msgstr "從 CD-ROM 提取音訊時，可將音訊編碼為所選格式，從而加快光碟翻錄速度。對於某些"
+"較舊的設備，應停用此功能，因為它可能會降低編碼檔案的品質。"
 
 #: dialogs\dlgSleep.html:24
 msgid "% of current volume"
@@ -10791,13 +10728,13 @@ msgstr "目前音量的 %"
 
 #: dialogs\dlgSupportedFormat.html:71
 msgid "Levels"
-msgstr ""
+msgstr "均化位準"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:5
 msgid ""
 "If enabled, MediaMonkey will prompt you whether to move the entire folder or "
 "only Library content within."
-msgstr ""
+msgstr "若啟用，MediaMonkey 將提示您是移動整個資料夾或其中的資料庫內容。"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:23
 msgid "Deletes existing Hotkey"
@@ -10815,7 +10752,8 @@ msgstr "Freedb (HTTP)"
 msgid ""
 "Configure which server to use. The main server is entered by default, "
 "although you may want to change this to a server closer to your location."
-msgstr ""
+msgstr "配置使用的伺服器。預設輸入主伺服器，但您可能希望將其變更為更靠近您位置的伺服"
+"器。"
 
 #: dialogs\dlgOptions\pnl_Performance.html:27
 msgid "Priority for background tasks"
@@ -10851,7 +10789,8 @@ msgid ""
 "This value is used as the basis for displaying the volume leveling "
 "adjustment that appears in the Filelist. It also determines the volume to "
 "which tracks are leveled when 'Level Track volume' is used."
-msgstr ""
+msgstr "此數值用於顯示曲目清單中出現的音量均化調整的基礎。它還決定在使用 "
+"'均化曲目音量' 功能時所期望的音量。"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:20
 msgid "File name"
@@ -10871,7 +10810,7 @@ msgstr "顯示確認對話框"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:30
 msgid "Force files to resync whenever the source file has changed (slower)"
-msgstr ""
+msgstr "當來源檔案發生變更時強制檔案重新同步 (速度較慢)"
 
 #: dialogs\dlgAbout.html:38
 msgid "Used for developer testing (disables automatic crashlog generation)"
@@ -10879,7 +10818,7 @@ msgstr "開發人員測試 (停用自動產生當機日誌)"
 
 #: dialogs\dlgBurn.html:13
 msgid "Burn tracks with volume leveled"
-msgstr "以均衡化音量來進行曲目編碼"
+msgstr "以均化音量來進行曲目編碼"
 
 #: dialogs\dlgConvertFormat.html:49
 msgid "On the fly encoding"
@@ -10895,7 +10834,7 @@ msgstr "僅有在它們曾經被聽過"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:18
 msgid "Confirm rename operations that exceed 64 character CD limit"
-msgstr "確認重新命名的動作，即使超過 CD 的 64 個字元限制"
+msgstr "確認重新命名作業，即使超過光碟的 64 個字元限制"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:24
 msgid "Confirm modifications to more than 50 files at once"
@@ -10908,10 +10847,13 @@ msgid ""
 "tracks are duplicates (i.e. they have matching signatures) they will appear "
 "in the Files to Edit - Duplicate Content view."
 msgstr ""
+"將為每個音軌的音訊內容建立一個數位簽章 "
+"(標籤被忽略)，以便可以唯一辨識每個音軌。若任何兩個音軌重複 "
+"(即它們具有符合的簽章)，它們將出現在 '編輯的檔案 - 重複內容' 視圖中。"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:21
 msgid "Audio CD playback"
-msgstr "音訊 CD 播放"
+msgstr "音訊光碟播放"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:15
 msgid "This prevents users from exiting MediaMonkey by switching applications."
@@ -10927,7 +10869,7 @@ msgstr "啟用音量、播放/暫停控制"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:66
 msgid "Only analyze files with unknown Leveling Adjustment"
-msgstr "只分析具有未知音量調整的檔案"
+msgstr "只分析具有未知音量均化調整的檔案"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:150
 msgid "Play counter"
@@ -10935,7 +10877,7 @@ msgstr "播放計數器"
 
 #: dialogs\dlgWizard\pnlScan.html:8
 msgid "Scan the following locations for media: "
-msgstr "掃瞄下列位置的媒體:"
+msgstr "掃描下列位置的媒體: "
 
 #: controls\deviceConfig.html:8
 msgid "Sync now"
@@ -10947,7 +10889,7 @@ msgstr "(全域設定)"
 
 #: controls\serverConfig\devices.html:3
 msgid "Scrobble to last.fm if Scrobbling is enabled"
-msgstr ""
+msgstr "若啟用 Scrobbling，則 Scrobble 到 last.fm"
 
 #: dialogs\dlgAddonInstall.html:57
 msgid "Install Now"
@@ -10989,7 +10931,7 @@ msgstr "位元率 (適用於最大解析度)"
 msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the 'Playing' list when it runs out."
-msgstr ""
+msgstr "開啟 Auto-DJ 功能，當曲目用完時，該功能會自動將曲目新增至 '播放' 清單。"
 
 #: dialogs\dlgOptions\pnl_Download.html:16
 msgid "Determines how often MediaMonkey checks for updates"
@@ -11020,7 +10962,7 @@ msgstr "當編輯屬性時同時更新標籤"
 msgid ""
 "This value determines playback volume (for track(s) that have been analyzed) "
 "if 'Level playback volume' is enabled."
-msgstr ""
+msgstr "若啟用 '均化播放音量'，則該數值會決定播放音量 (針對已分析的曲目)。"
 
 #: dialogs\dlgWizard\pnlRegistration.html:10
 msgid "analyze volume automatically"
@@ -11056,7 +10998,7 @@ msgstr "同步播放清單 (建議)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:39
 msgid "Organize playlists using:"
-msgstr ""
+msgstr "使用以下方式組織播放清單:"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:29
 msgid "Use only the first value when multiple Artists / Composers exist"
@@ -11092,7 +11034,7 @@ msgstr "顯示掃描結果對話框"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:92
 msgid "Replace existing information if confidence > "
-msgstr ""
+msgstr "若有信心，則替換現有資訊 > "
 
 #: dialogs\dlgOptions\pnl_Performance.html:30
 msgid "Lowest"
@@ -11116,7 +11058,7 @@ msgstr "多重圖片的格式:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:65
 msgid "This sets the default location where associated artwork is stored."
-msgstr ""
+msgstr "將設定儲存關聯專輯圖片的預設位置。"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:70
 msgid "Director(s)"
@@ -11200,10 +11142,15 @@ msgid ""
 "would only occur if tags are not kept up-to-date and in synch with the "
 "Library)."
 msgstr ""
+"這會導致重新新增的所有檔案 (透過點擊 [新增檔案...] "
+"手動新增或檔案監控器自動新增) 都會被更新，甚至是資料庫中已存在的檔案。其效果"
+"是，如果其他應用程式已用於修改標籤，則資料庫將根據從標籤蒐集的資訊進行更新。"
+"這樣做的缺點是，最新的檔案屬性可能會被標籤中的過時資訊覆蓋 "
+"(只有當標籤未保持最新且與資料庫同步時才會發生這種情況)。"
 
 #: dialogs\dlgOptions\pnl_OutputPlugins.html:10
 msgid "Download more output plug-ins..."
-msgstr "下載更多的輸出外掛插件..."
+msgstr "下載更多的輸出外掛元件..."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:6
 msgid "Prevents users from making any changes"
@@ -11219,7 +11166,7 @@ msgstr "串流"
 
 #: dialogs\dlgWizard\pnlRegistration.html:39
 msgid "Registered to :"
-msgstr "尚未授權"
+msgstr "註冊給 :"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:43
 msgid "Customize case for these phrases"
@@ -11242,10 +11189,8 @@ msgid "Video Podcasts"
 msgstr "影片播客"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
-#, fuzzy
-#| msgid "Convert to"
 msgid "Convert artwork to"
-msgstr "轉換到"
+msgstr "轉換專輯圖片到"
 
 #: dialogs\dlgAutoConvertRule.html:48
 msgid "Low"
@@ -11330,10 +11275,8 @@ msgid "Device name"
 msgstr "裝置名稱"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
-#, fuzzy
-#| msgid "Sync all Artwork to file folders"
 msgid "Sync artwork to file folders"
-msgstr "同步所有專輯圖片到檔案資料夾"
+msgstr "同步專輯圖片到檔案資料夾"
 
 #: dialogs\dlgAutoConvertRule.html:49
 msgid "Medium"
@@ -11344,10 +11287,8 @@ msgid "Select the folders you want to scan for media files:"
 msgstr "選擇要掃描媒體檔案的資料夾："
 
 #: dialogs\dlgEditView.html:15
-#, fuzzy
-#| msgid "File type"
 msgid "View type"
-msgstr "檔案類型"
+msgstr "檢視類型"
 
 #: dialogs\dlgMaintainLibrary.html:16
 msgid "Scheduled backup"
@@ -11383,7 +11324,7 @@ msgstr "增加播放計數器："
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:27
 msgid "Sets the size of the gap or overlap between tracks"
-msgstr ""
+msgstr "設定音軌之間間隙或交疊的大小"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:43
 msgid "Use Unicode (UTF-8 encoding) for M3U playlists"
@@ -11391,17 +11332,17 @@ msgstr "於 M3U 播放清單中使用 Unicode (UTF-8 編碼)"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:7
 msgid "Level playback / sync volume:"
-msgstr "均衡化播放 / 同步音量:"
+msgstr "均化播放 / 同步音量:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:47
 msgid "Target volume for ripping Audio CDs:"
-msgstr "擷取音訊 CD 的目標音量:"
+msgstr "翻錄音訊光碟的目標音量:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:68
 msgid ""
 "Analyzes the relative volume of tracks on a per Album basis, and saves the "
 "leveling co-efficient."
-msgstr ""
+msgstr "分析每張專輯中曲目的相對音量，並儲存均化係數。"
 
 #: dialogs\dlgWizard\pnlShare.html:4
 msgid ""
@@ -11410,6 +11351,9 @@ msgid ""
 "g. MediaMonkey for Android) sync wirelessly. You'll be prompted to grant "
 "access for each remote device that attempts to connect."
 msgstr ""
+"讓網路上的 UPnP/DLNA 用戶端 (電視、DVD 播放器、xBox、PlayStation 等) 存取 "
+"MediaMonkey 資料庫，並讓其他 MediaMonkey 用戶端 (例如 Android 版 MediaMonkey)"
+" 進行無線同步。系統將提示您為嘗試連線的每個遠端裝置授予存取權限。"
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:80
 msgid ""
@@ -11421,7 +11365,7 @@ msgstr ""
 
 #: dialogs\dlgBurn.html:14
 msgid "Level volume"
-msgstr "均衡化曲目音量"
+msgstr "均化音量"
 
 #: dialogs\dlgLogin.html:13
 msgid "Username"
@@ -11449,20 +11393,20 @@ msgstr "轉碼器"
 
 #: dialogs\dlgOptions\pnl_InputPlugins.html:10
 msgid "Download more input plug-ins..."
-msgstr "下載更多的輸入外掛插件..."
+msgstr "下載更多的輸入外掛元件..."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:26
 msgid "Audio CD metadata lookup"
-msgstr "音訊 CD 中繼資料查詢"
+msgstr "音訊光碟元數據查詢"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:85
 msgid ""
 "For individual tracks, recommend albums instead of singles from the same time"
-msgstr ""
+msgstr "對於單一曲目，推薦專輯而不是同一時間的單曲"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:29
 msgid "Audio CD ripping"
-msgstr "音訊 CD 擷取"
+msgstr "音訊光碟翻錄"
 
 #: dialogs\dlgOptions\pnl_Performance.html:12
 msgid "Conversion"
@@ -11473,18 +11417,12 @@ msgid "Use multiple CPU cores (if available)"
 msgstr "使用多個 CPU 核心 (如果可用)"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:40
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the Play Now command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It can be set use the default Player settings or customized "
 "for each media Type."
-msgstr ""
-"用來決定當現在播放的命令正在單一曲目下執行時, 哪些曲目會被播放. 預設值為所選"
-"擇曲目與其他順序在這首曲之後的曲目, 也可以是僅播放所選擇的曲目."
+msgstr "決定對單一檔案執行 '立即播放' 命令時播放哪些檔案。可以使用預設的播放器設定進"
+"行設置，也可針對每種媒體類型進行自訂。"
 
 #: dialogs\dlgOptions\pnl_Player.html:90
 msgid "Vertical"
@@ -11504,10 +11442,15 @@ msgid ""
 "unselected content should be used carefully if the remote location contains "
 "new/modified content that isn't in the local database."
 msgstr ""
+"刪除同步清單中未選擇的遠端內容 "
+"(所有未選擇的內容或僅存在於本機資料庫中的未選擇的內容)。"
+"同步遠端內容後會發生刪除 (若該選項可用/啟動)。一般來說，應啟用刪除以防止遠端"
+"位置上出現重複內容，但如果遠端位置包含本機資料庫中沒有的新內容/修改內容，"
+"則應謹慎使用刪除 '所有' 未選擇內容的選項。"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:15
 msgid "Syncs all images using the specified format and size"
-msgstr ""
+msgstr "使用指定的格式和大小同步所有圖片"
 
 #: dialogs\dlgAutoOrganizeRule.html:11
 msgid "Organize these files using the following Directory and Filename format"
@@ -11515,19 +11458,15 @@ msgstr "根據以下的規則來組織檔案"
 
 #: dialogs\dlgConvertFormat.html:45
 msgid "Eject CD after ripping"
-msgstr "擷取之後退出CD片"
+msgstr "翻錄後退出光碟"
 
 #: dialogs\dlgEditView.html:44
-#, fuzzy
-#| msgid "View elements"
 msgid "Elements"
-msgstr "檢視元素"
+msgstr "元素"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Get more addons"
 msgid "Find more addons"
-msgstr "取得更多附加元件"
+msgstr "尋找更多附加元件"
 
 #: dialogs\videoConvSettings.html:102
 msgid "Preserve aspect ratio"
@@ -11537,7 +11476,7 @@ msgstr "鎖定長寬比例"
 msgid ""
 "This determines how many tracks Auto-DJ will add to the 'Playing' list when "
 "the list begins to empty."
-msgstr ""
+msgstr "決定當清單變空時，Auto-DJ 將增加到 '播放' 清單中的曲目數量。"
 
 #: dialogs\dlgOptions\pnl_Download.html:20
 msgid "Every day"
@@ -11558,10 +11497,8 @@ msgid "Auto-tagging"
 msgstr "自動標籤"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
-#, fuzzy
-#| msgid "Play last in MediaMonkey"
 msgid "Queue last in MediaMonkey"
-msgstr "在 MediaMonkey 中播放上一首"
+msgstr "在 MediaMonkey 中佇列上一首"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:16
 msgid "Prevent switching to other application (Alt+Tab, Alt+Esc, Ctrl+Esc)"
@@ -11569,7 +11506,7 @@ msgstr "防止切換到其他應用程式 (Alt+Tab, Alt+Esc, Ctrl+Esc)"
 
 #: dialogs\dlgOptions\pnl_Performance.html:36
 msgid "This enables smooth scrolling of lists."
-msgstr ""
+msgstr "使清單能夠平滑捲動。"
 
 #: dialogs\dlgOptions\pnl_Player.html:49
 msgid "Indicates how long the Pop-up should take to fade out"
@@ -11580,7 +11517,8 @@ msgid ""
 "Clipping prevention ensures that volume leveling doesn't clip the audio "
 "track. It does so by limiting the volume adjustment when possible clipping "
 "is detected."
-msgstr ""
+msgstr "防止修剪功能可確保音量均化不會修剪音軌。它透過在檢測到可能的修剪時限制音量調"
+"整來實現。"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:168
 msgid "Conductor(s)"
@@ -11618,7 +11556,7 @@ msgstr "版本"
 
 #: dialogs\dlgBurn.html:23
 msgid "Write CD-Text"
-msgstr ""
+msgstr "寫入 CD-Text"
 
 #: dialogs\dlgConvertFormat.html:56
 msgid "Output files"
@@ -11659,7 +11597,8 @@ msgid ""
 "This prevents tracks that are less than a specified size (KB) or time "
 "(seconds) from being added to the Library, since it's unlikely that you "
 "really want such files to appear in your Library."
-msgstr ""
+msgstr "這可以防止將小於指定大小 (KB) 或時間 (秒) 的曲目新增至資料庫中，因為您不太可"
+"能真正希望此類不合要求的檔案出現在資料庫中。"
 
 #: dialogs\dlgOptions\pnl_Library.html:5
 msgid "Add/Scan settings"
@@ -11671,13 +11610,11 @@ msgstr "來源"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:15
 msgid "Determines which actions are presented when a disk is inserted"
-msgstr ""
+msgstr "決定插入磁碟時顯示哪些操作"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:46
-#, fuzzy
-#| msgid "Display format for 'Track summary'  (e.g. in Player):"
 msgid "'Track summary' format (e.g. in Player, Tracklist):"
-msgstr "「曲目摘要」的顯示格式 (例如在播放器中)："
+msgstr "'曲目摘要' 格式 (例如: 在播放器、曲目清單中):"
 
 #: dialogs\dlgOptions\pnl_Player.html:58
 msgid "Transparency"
@@ -11746,7 +11683,7 @@ msgstr "每週"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:4
 msgid "Background metadata lookup"
-msgstr "背景中繼資料查詢"
+msgstr "背景元數據查詢"
 
 #: dialogs\dlgOptions\pnl_Performance.html:2
 msgid "Improve performance of some tasks by utilizing multiple CPU cores"
@@ -11767,7 +11704,7 @@ msgstr "檢查更新"
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid ""
 "Shows a confirmation dialog with a list of the files that will be affected"
-msgstr ""
+msgstr "顯示確認對話框，其中包含受影響的檔案清單"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:10
 msgid "Remove artwork from tags if larger than:"
@@ -11791,7 +11728,7 @@ msgstr "防止網路問題損壞燒錄"
 
 #: dialogs\dlgConvertFormat.html:12
 msgid "Record CD track(s) to your hard drive"
-msgstr "錄製CD曲目到您的硬碟"
+msgstr "錄製光碟曲目到您的硬碟"
 
 #: dialogs\dlgMovedFiles.html:15
 msgid "Files Located in New Locations"
@@ -11803,7 +11740,7 @@ msgstr "位元率 (最大)"
 
 #: dialogs\dlgOGGSettings.html:36
 msgid " kbps"
-msgstr ""
+msgstr " kbps"
 
 #: dialogs\dlgPodcastSubscription.html:99
 msgid "Displays all episodes including those that have previously been deleted"
@@ -11829,10 +11766,10 @@ msgid ""
 "Properties and then Tags' is if it is known in advance that tags are "
 "inaccurate, and filenames contain more accurate data."
 msgstr ""
-"可能需要去界定是否要使用'標籤然後推論屬性'的功能, 或者反過來亦然, 標籤包含了"
-"更多精確的資訊, 所以選擇'標籤然後推論屬性'的功能後會從標籤匯入曲目屬性, 並且"
-"會從推論屬性匯入所遺失的資訊. 會用到此功能的時機是假如事先知道標籤是不正確"
-"的, 而在檔名中可以獲取更正確的資訊時."
+"可以指定是否使用 '標記後推斷屬性'，反之亦然。通常，標籤包含更準確的訊息，"
+"因此選擇 '標記後推斷屬性' "
+"將從標籤匯入屬性，然後將從推斷屬性匯入任何缺少的訊息。唯一需要使用 "
+"'推斷屬性後標記' 的情況是，若事先知道標籤不準確，且檔案名稱包含更準確的資料。"
 
 #: dialogs\dlgOptions\pnl_Library.html:85
 msgid ""
@@ -11843,10 +11780,10 @@ msgid ""
 "incorrect). Once you've verified the data, you can update the tags manually--"
 "see Synchronizing Your Tags."
 msgstr ""
-"以防萬一標籤沒有包含太過資訊, 假如這個選項開啟, MediaMonkey可以獲取更多的資"
-"訊, 像是演出者, 標題, 或是從檔名而來的專輯. 要注意的是, 推論屬性是儲存於資料"
-"庫中, 並沒有儲存於檔案標籤中 (以免資訊是錯誤的). 一旦您已經驗證過資料後, 您可"
-"以手動更新標籤 -請見同步您的標籤."
+"若標籤不包含太多訊息，啟用此選項，MediaMonkey "
+"可以從檔案名稱中獲取一些訊息，例如: "
+"演出者、標題或專輯。請注意，推斷的屬性儲存在資料庫中，但不會儲存到檔案標籤中 "
+"(以防資訊不正確)。驗證資料後，您可以手動更新標籤 -- 請參閱同步您的標籤。"
 
 #: dialogs\dlgOptions\pnl_Library.html:174
 msgid ""
@@ -11854,14 +11791,12 @@ msgid ""
 msgstr "對於那些沒有專輯圖片的影片來自動產生縮圖."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
-#, fuzzy
-#| msgid "Play next in MediaMonkey"
 msgid "Queue next in MediaMonkey"
-msgstr "在 MediaMonkey 中播放下一首"
+msgstr "在 MediaMonkey 中佇列下一首"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:50
 msgid "'Play now' action:"
-msgstr "「立即播放」操作："
+msgstr "'立即播放' 操作："
 
 #: dialogs\dlgOptions\pnl_Performance.html:40
 msgid ""
@@ -11882,17 +11817,17 @@ msgid ""
 "Album. 'per Track' levels each track independently, preferable when Albums "
 "are rarely played as a whole."
 msgstr ""
-"決定要用來均衡化音量所使用的方法. '每張專輯'均衡法是基於專輯的共同因子, 並保"
-"留每首曲目的相對音量之差異. 而'每首曲目'均衡法是將每首曲目獨立開來均衡音量, "
-"當專輯很少整張欣賞實比較適用."
+"決定調整播放和裝置同步均化音量的方法。'每張專輯' 均化基於專輯音量係數 "
+"(若可用)，保留專輯上曲目的相對音量差異。 '每軌' "
+"獨立地均化每條音軌，當專輯很少作為一個整體播放時，這是更好的選擇。"
 
 #: dialogs\dlgWizard\pnlRegistration.html:14
 msgid "AccurateRip for bit-perfect CD Rips."
-msgstr ""
+msgstr "AccurateRip 用於位元完美的光碟翻錄。"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Send also Album Artist field, if different from Artist"
-msgstr ""
+msgstr "若與演出者不同，也發送專輯演出者欄位"
 
 #: controls\artistAlbums.html:25
 msgid "Albums - live"
@@ -11907,7 +11842,8 @@ msgid ""
 "Sync profiles contain default settings that allow a device or storage "
 "location to sync correctly. They don't include user-settings such as which "
 "content will sync."
-msgstr ""
+msgstr "同步設置檔包含允許裝置或儲存位置正確同步的預設設定。它們不包含用戶設定，例如"
+"要同步的內容。"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:35
 msgid "Destination directory"
@@ -11917,7 +11853,8 @@ msgstr "目的目錄"
 msgid ""
 "Create playlists to more easily navigate tracks on a device. This is useful "
 "for older players or car stereos that don't have a media database."
-msgstr ""
+msgstr "建立播放清單以更輕鬆地導航裝置上的曲目。這對於沒有媒體資料庫的舊播放器或汽車"
+"音響非常有用。"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:11
 msgid "Selected Album nodes"
@@ -11931,12 +11868,13 @@ msgid ""
 "fingerprint. Change the recommendations if needed, and select which tracks "
 "to tag."
 msgstr ""
+"自動標記根據標題和曲目長度尋找曲目元數據 (例如演出者、曲風、專輯)，"
+"並根據專輯尋找專輯元數據 (例如專輯演出者、日期)。若標題遺失，則會透過音訊指紋"
+"進行查詢。若需要，請更改建議，並選擇要標記的曲目。"
 
 #: dialogs\dlgAutotagFromFilename.html:10
-#, fuzzy
-#| msgid "Update tags when editing properties"
 msgid "Update tags based on existing filenames"
-msgstr "當編輯屬性時同時更新標籤"
+msgstr "依據現有檔案名稱更新標籤"
 
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s), replacing the originals"
@@ -11980,7 +11918,7 @@ msgstr "資料庫"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:6
 msgid "Looks up artist image if it's missing"
-msgstr ""
+msgstr "若演出者圖片遺失則查詢"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:9
 msgid "Looks up artwork if it's missing"
@@ -12038,7 +11976,7 @@ msgstr "消除曲目開始 / 結束時的無聲"
 msgid ""
 "Custom Auto-conversion rules to convert files on-the-fly so that they can "
 "play on any device."
-msgstr ""
+msgstr "自訂自動轉換規則可即時轉換檔案，以便它們可以在任何裝置上播放。"
 
 #: dialogs\dlgWizard\pnlRegistration.html:15
 msgid "Plus improved performance and tuning options, Sleep timer, etc."
@@ -12046,7 +11984,7 @@ msgstr "此外，還改進了效能和調整選項、睡眠計時器等."
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Recommends Artwork and track metadata for newly imported tracks"
-msgstr ""
+msgstr "為新導入的曲目推薦專輯圖片和曲目元數據"
 
 #: controls\devicesView.html:4
 msgid "Devices"
@@ -12108,6 +12046,9 @@ msgid ""
 "where a music collection is arranged in such a manner that each collection "
 "of tracks has an associated playlist that defines the Album."
 msgstr ""
+"此設定定義如何將專輯標題和曲目編號屬性新增至資料庫中。選項包括 '僅標籤'、"
+"'標籤然後播放清單' 和' 播放清單然後標籤'。應始終使用 '僅標籤'，除非音樂集合的"
+"排列方式使得每個曲目集合都有一個定義專輯的關聯播放清單。"
 
 #: dialogs\dlgOptions\pnl_Library.html:175
 msgid "Generate thumbnails for videos"
@@ -12115,7 +12056,7 @@ msgstr "產生影片的縮圖"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:38
 msgid "Determines which actions are available in the Explorer context-menu"
-msgstr ""
+msgstr "決定檔案管理器關聯式功能表中可用的操作"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:12
 msgid "This option causes MediaMonkey to take up the entire screen."
@@ -12127,7 +12068,7 @@ msgstr "只有在無作用時"
 
 #: dialogs\dlgOptions\pnl_Player.html:48
 msgid "Causes the Pop-up to fade-out smoothly"
-msgstr ""
+msgstr "使彈出式視窗平滑淡出"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:34
 msgid "Modify timestamp when updating tags"
@@ -12182,17 +12123,16 @@ msgid "Set the default directory / filename format for specified files."
 msgstr "為特定曲目設定預設的目錄/檔名格式"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
-#, fuzzy
-#| msgid "Confirm desired options on removal of files from the Playing list"
 msgid "Confirm desired options on removal of files from the 'Playing' list"
-msgstr "確認從播放清單中移除檔案所要的選項"
+msgstr "確認從 '正在播放' 清單中移除檔案所需的選項"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
 "This determines what the default behavior is when a file is double-clicked "
 "or [enter] is pressed. Options are Play Now, Queue Next, Queue Last, or Edit "
 "Properties."
-msgstr ""
+msgstr "決定雙擊檔案或按 [enter] 鍵時的預設行為。選項包含 '立即播放'、'佇列下一首'、"
+"'佇列最後一首' 或 '編輯屬性'。"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:21
 msgid ""
@@ -12218,7 +12158,7 @@ msgstr "緩慢淡出:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:27
 msgid "Target volume for leveling tracks:"
-msgstr "已均衡化曲目的目標音量:"
+msgstr "均化曲目的目標音量:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:72
 msgid "Automatically analyze volume of unanalyzed files:"
@@ -12276,7 +12216,7 @@ msgstr "秒"
 msgid ""
 "Automatically removes attributes (e.g. Artist) that are no longer associated "
 "with any files from the Library."
-msgstr ""
+msgstr "自動移除不再與資料庫中任何檔案關聯的屬性 (例如: 演出者)。"
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:17
 msgid "Maximum cache size"
@@ -12304,7 +12244,7 @@ msgstr "編劇"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:36
 msgid "Lowercase common short words"
-msgstr ""
+msgstr "小寫常用片語"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:23
 msgid "Recommended changes to capitalization"
@@ -12414,7 +12354,7 @@ msgstr "自動"
 
 # Convert dialog, Format settings box for FLAC
 msgid "Compression level"
-msgstr "壓縮品質"
+msgstr "壓縮等級"
 
 # Installer
 msgid "Warning: This will overwrite an existing %s installation!"
@@ -12456,6 +12396,10 @@ msgid ""
 "none of your data is left behind. The downside is that it isn't optimized "
 "for your particular PC (e.g. no Start menu entry)."
 msgstr ""
+"這讓您能夠在任何電腦上使用的便攜式設備上運行 MediaMonkey。%n插入USB "
+"隨身碟或可攜式硬碟時，您可以像在自己的電腦上一樣存取 "
+"MediaMonkey，%n卸除裝置後，不會有資料遺留。"
+"缺點是它沒有針對您的特定電腦進行最佳化 (例如: 沒有 '開始' 功能表入口)。"
 
 msgid "portable"
 msgstr "便攜式"
@@ -12470,7 +12414,7 @@ msgstr "播放失敗: %s 無法解碼."
 
 #: dialogs\dlgCollectionOptions.html:50
 msgid "Sub-nodes and Views"
-msgstr ""
+msgstr "子節點和視圖"
 
 #: dialogs/dlgOptions.js:63
 msgid "Audio DSP"
@@ -12484,7 +12428,7 @@ msgstr "分析以下曲目的音量時出現問題:"
 msgid ""
 "Displays a warning if a file in the Playing queue is inaccessible (e.g. if "
 "it's on a CD that isn't inserted)."
-msgstr ""
+msgstr "若播放佇列中的檔案無法存取 (例如: 位於未插入的光碟上)，則顯示警告。"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:50
 msgid "Show warning when file to be played is not accessible"
@@ -12498,7 +12442,8 @@ msgstr "媒體櫃位置節點"
 msgid ""
 "The Folders node only displays/edits metadata in file tags. To view/edit "
 "metadata that is in the database, use the %s"
-msgstr ""
+msgstr "資料夾節點僅顯示/編輯檔案標籤中的元數據。要檢視/編輯資料庫中的元數據，請使用 "
+"%s"
 
 #. prepared menu item for reports implemented by scripts
 #: actions.js:5474
@@ -12523,7 +12468,7 @@ msgstr "XML (*.xml)|*.xml|所有檔案 (*.*)|*.*"
 
 #: Scripts/export/actions_add.js:331
 msgid "File List (CS&V)"
-msgstr "檔案清單 (CS&V)"
+msgstr "檔案清單 (CSV)(&V)"
 
 #: Scripts/export/actions_add.js:341
 msgid "CSV (*.csv)|*.csv|All files (*.*)|*.*"
@@ -12554,6 +12499,9 @@ msgid ""
 "here, you can edit them and merge to one album by setting the same album, "
 "album artist and year."
 msgstr ""
+"若您有不同演出者的多首曲目，但實際上屬於一張專輯，MediaMonkey 可以協助您組織"
+"它們。它們顯示在此，您可以透過設定相同的專輯、專輯演出者和年份來編輯它們並合"
+"併到一張專輯中。"
 
 #: dialogs\dlgOptions\pnl_Search.html:21
 msgid "Causes search for 'an' to not return files containing 'another'"
@@ -12566,7 +12514,7 @@ msgstr "自訂這些單詞的大小寫"
 # string till 5.0.2 version only
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:253
 msgid "Old Value: "
-msgstr ""
+msgstr "舊數值: "
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disable crossfading"
@@ -12587,7 +12535,7 @@ msgstr "安全地移除裝置"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:20
 msgid "Set sources"
-msgstr ""
+msgstr "設定來源"
 
 #: actions.js:3159
 msgid "Play mixed"
@@ -12597,7 +12545,7 @@ msgstr "混合播放"
 #: actions.js:3210 MediaMonkeyApp.pas:9057
 #: dialogs\dlgOptions\pnl_OSIntegration.html:9
 msgid "Play next"
-msgstr "播放下一個"
+msgstr "播放下一首"
 
 #: actions.js:3225 actions.js:3240 actions.js:3243 actions.js:3259
 #: actions.js:3262 MediaMonkeyApp.pas:9058
@@ -12639,14 +12587,15 @@ msgstr "%s 播放器已關閉或無法存取."
 
 #: dialogs\dlgAutotagFromFilename.html:9
 msgid "Auto-tag allows you to update tags based on existing filenames"
-msgstr ""
+msgstr "自動標記可讓您根據現有檔案名稱更新標籤"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
 "This determines what the default behavior is when a file is double-clicked "
 "or [enter] is pressed. Options are Play Now, Play Next, Play Last, or Edit "
 "Properties."
-msgstr ""
+msgstr "決定雙擊檔案或按 [enter] 鍵時的預設行為。選項包含 '立即播放'、'播放下一首'、"
+"'播放最後一首' 或 '編輯屬性'。"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
 msgid "Display format for 'Track summary'  (e.g. in Player):"
@@ -12670,7 +12619,7 @@ msgstr "匯入 %d 檔案失敗"
 
 #: ErrHandlers.pas:388
 msgid "There was a problem ripping or verifying the following track(s):"
-msgstr "擷取或驗證以下曲目時, 發生了一個問題:"
+msgstr "翻錄或驗證以下曲目時，發生了問題:"
 
 #: MediaMonkeyApp.pas:6334
 msgid "Imported"
@@ -12685,11 +12634,12 @@ msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. By default the selected file and others subsequent to it "
 "play. The alternative is that only the selected file plays."
-msgstr ""
+msgstr "決定對單一檔案執行 '立即播放' 命令時播放哪些檔案。預設情況下，播放所選擇的檔"
+"案及其後續檔案。也可以是僅播放所選擇的檔案。"
 
 #: dialogs\dlgOptions\pnl_Performance.html:18
 msgid "Ripping"
-msgstr "擷取"
+msgstr "翻錄"
 
 #: actions.js:55 controls/nowplayingList.js:308 controls/nowplayingList.js:311
 #: controls/player.js:695 controls/statusbar.js:148 controls/statusbar.js:151
@@ -12703,12 +12653,12 @@ msgstr "播放清單"
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
-msgstr ""
+msgstr "禁用隨機播放。由於編輯而無法取消播放 - 使用 '復原' 恢復播放清單的變更。"
 
 #: controls/player.js:303
 msgid ""
 "Shuffles the Playing list and makes default play commands shuffle tracks."
-msgstr ""
+msgstr "隨機播放播放清單並使預設播放命令隨機播放曲目。"
 
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from Playing list only"
@@ -12730,24 +12680,25 @@ msgstr "從播放清單、資料庫和磁碟機中刪除"
 msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the Playing list when it runs out."
-msgstr ""
+msgstr "這會開啟 Auto-DJ 功能，當曲目用完時，會自動將曲目新增至播放清單。"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:6
 msgid ""
 "This determines how many tracks Auto-DJ will add to the Playing list when "
 "the list begins to empty."
-msgstr ""
+msgstr "決定當清單開始變空時，Auto-DJ 將會新增到播放清單中的曲目數量。"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:5
 msgid "Copies tagged artwork to folders for devices that don't read image tags"
-msgstr ""
+msgstr "對於無法讀取專輯圖片標籤的裝置，複製已標記的專輯圖片到資料夾中"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
 msgid ""
 "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
 "Playing list, remove them from the Playing list and the Library, or delete "
 "them from the Playing list, the Library, and the computer system."
-msgstr ""
+msgstr "若啟用，MediaMonkey 將提示您是否從播放清單中移除曲目，從播放清單和資料庫中移"
+"除，或從播放清單、資料庫和電腦中刪除。"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the Playing list"
@@ -12761,7 +12712,7 @@ msgstr "同步所有專輯圖片到檔案資料夾"
 msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "Playing list."
-msgstr ""
+msgstr "決定播放清單中將顯示多少先前播放過的曲目。"
 
 #: dialogs\dlgOptions\pnl_General.html:28
 msgid ""
@@ -12770,6 +12721,9 @@ msgid ""
 "'Minimize to MiniPlayer', displays 'Playing list' files even when the main "
 "application is minimized."
 msgstr ""
+"預設情況下，MediaMonkey 最小化到工作列。'最小化到 MicroPlayer' "
+"會使其在最小化時顯示為系統工具列。 '最小化到 "
+"MiniPlayer'，即使應用程式最小化，也會顯示 '播放清單' 檔案。"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in Playing list"
@@ -12781,7 +12735,7 @@ msgstr "播放清單中即將出現的檔案"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Modify metadata as follows when syncing to '%s'"
-msgstr ""
+msgstr "同步到 '%s' 時修改元數據如下"
 
 #: controls/trackListView.js:1220 MaskHelper.pas:3156 ResStrings.pas:480
 #: ResStrings.pas:491 ResStrings.pas:534
