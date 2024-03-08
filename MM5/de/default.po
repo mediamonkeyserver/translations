@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2023-12-19 16:25+0000\n"
-"Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
+"PO-Revision-Date: 2024-03-08 07:34+0000\n"
+"Last-Translator: Enrico Balke <enrico.balke@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -1092,10 +1092,8 @@ msgstr "E&qualizer"
 
 #: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "Video einrichten"
+msgstr "Tempo anpassen"
 
 #: actions.js:2999
 msgid "&Rip Audio CD"
@@ -2147,7 +2145,7 @@ msgstr "Neu starten"
 
 #: uitools.js:2848
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "Zu durchsuchende Verzeichnisse wählen:"
 
 #: uitools.js:2860
 msgid "Please select at least one folder to scan."
@@ -3742,8 +3740,6 @@ msgstr "Normales Fenster"
 
 #: controls/nowplayingview.js:147 controls/nowPlaying/artistBio.js:65
 #: controls/nowPlaying/fullList.js:151
-#, fuzzy
-#| msgid "Show Playing list"
 msgid "Show 'Playing' list"
 msgstr "Abspielliste anzeigen"
 
@@ -3794,17 +3790,15 @@ msgstr ""
 
 #: controls/player.js:459
 msgid "Speed"
-msgstr ""
+msgstr "Tempo"
 
 #: controls/player.js:463
-#, fuzzy
-#| msgid "Switch"
 msgid "Pitch"
-msgstr "Wechseln"
+msgstr "Tonhöhe"
 
 #: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
-msgstr ""
+msgstr "Halbtöne"
 
 #: controls/player.js:519
 msgid "Time"
@@ -4614,7 +4608,7 @@ msgstr "Schriftgröße"
 #. ODS('--- saving ' + JSON.stringify(fromObject));
 #: controls/serverConfig/autoConvert.js:3
 msgid "Convert the following formats when playing remotely"
-msgstr "Konvertiere folgende Formate bei Abspielen über das Netzwerk"
+msgstr "Konvertiere folgende Formate beim Abspielen über das Netzwerk"
 
 #: controls/serverConfig/autoConvert.js:6
 msgid "Supported formats on UPnP/DLNA clients"
@@ -4649,6 +4643,8 @@ msgid ""
 "%s seems to be working correctly. See Help, if you're unable to access the "
 "server from other devices."
 msgstr ""
+"%s scheint optimal zu funktionieren. Schaue in die Hilfe, wenn du den Server "
+"von anderen Geräten aus nicht erreichen kannst."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
@@ -7268,7 +7264,7 @@ msgstr ""
 
 #: DBStructure.pas:276
 msgid "Updating to database version %d.%d.%d"
-msgstr "Auf Datenbankversion %d. %d. %d aktualisieren"
+msgstr "Auf Datenbankversion %d.%d.%d aktualisieren"
 
 #. BPS was added in the past, check a offer rescan
 #: DBStructure.pas:828
@@ -9854,7 +9850,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
-msgstr ""
+msgstr "Anpassung des Tempos ermöglichen"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9907,6 +9903,8 @@ msgid ""
 "additionally causes edited tracks to be recopied (useful for devices running "
 "3rd-party players)."
 msgstr ""
+"Metadaten und Tags werden immer synchronisiert. Bearbeitete Dateien werden "
+"damit erneut kopiert (hilfreich bei Geräten mit alternativen Player)."
 
 #: dialogs\dlgEditView.html:23
 msgid "Sorting"
