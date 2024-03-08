@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2022-10-04 03:49+0000\n"
+"PO-Revision-Date: 2024-03-08 16:04+0000\n"
 "Last-Translator: Hulen <shift0106@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://translations.mediamonkey.com/"
 "projects/mediamonkey-5-x/application/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -372,10 +372,8 @@ msgid "Save new order"
 msgstr "儲存新排序"
 
 #: actions.js:1184 dialogs/dlgAutoorganize.js:19
-#, fuzzy
-#| msgid "Auto-organi&ze files"
 msgid "Organi&ze files"
-msgstr "自動整理檔案(&Z)"
+msgstr "整理檔案(&Z)"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. whenLoaded promise is awaited directly in the dialog
@@ -942,7 +940,7 @@ msgstr "裝置描述檔路徑："
 #: actions.js:2555 controls/serverConfig/server.js:43
 #: controls/serverConfig/server.js:52
 msgid "%s cannot be reached"
-msgstr ""
+msgstr "%s 無法連線"
 
 #: actions.js:2556 dialogs/dlgAutotag.js:643 Extensions.pas:900
 #: Extensions.pas:911 Extensions.pas:915 Extensions.pas:963 Extensions.pas:1044
@@ -958,13 +956,14 @@ msgstr "設定遠端存取"
 msgid ""
 "This will auto-configure rules on your router to allow the %s UPnP/DLNA "
 "server to be accessible from a public/external network."
-msgstr ""
+msgstr "這將自動在您的路由器上設定規則，允許 %s UPnP/DLNA 伺服器從公共/外部網路存取。"
 
 #: actions.js:2573
 msgid ""
 "Configuration is via UPnP/NAT-PMP which only works if this device is on the "
 "same network as the router."
-msgstr ""
+msgstr "設定是透過 UPnP/NAT-PMP "
+"進行的，只有在此裝置與路由器位於同一個網路上時才能正常運作。"
 
 #: actions.js:2578
 msgid "Configuring remote access"
@@ -978,7 +977,8 @@ msgstr "已成功設定對 %s 的遠端 UPnP/DLNA 存取。"
 msgid ""
 "If you want to use another UPnP/DLNA client to remotely access %s, enter the "
 "following server destination to the client:"
-msgstr ""
+msgstr "如果您想使用其他 UPnP/DLNA 客戶端遠端存取 "
+"%s，請將以下伺服器目的地輸入到客戶端中："
 
 #: actions.js:2583
 msgid "Remote access to %s cannot be auto-configured via UPnP/NAT-PMP"
@@ -1069,10 +1069,8 @@ msgstr "等化器(&Q)"
 
 #: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "調整影片"
+msgstr "調整速度"
 
 #: actions.js:2999
 msgid "&Rip Audio CD"
@@ -1135,26 +1133,20 @@ msgid "shuffled by Album"
 msgstr "依專輯隨機播放"
 
 #: actions.js:3179 actions.js:6245 controls/trackListView.js:1910
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue mixed"
-msgstr "排序"
+msgstr "佇列混合"
 
 #: actions.js:3193 actions.js:3207 actions.js:3210 actions.js:3224
 #: actions.js:3227 actions.js:6230 controls/trackListView.js:1895
 #: MediaMonkeyApp.pas:9096 dialogs\dlgOptions\pnl_OSIntegration.html:9
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue next"
-msgstr "排序"
+msgstr "下一個佇列"
 
 #: actions.js:3241 actions.js:3255 actions.js:3258 actions.js:3272
 #: actions.js:3275 actions.js:6260 controls/trackListView.js:1925
 #: MediaMonkeyApp.pas:9097 dialogs\dlgOptions\pnl_OSIntegration.html:10
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue last"
-msgstr "排序"
+msgstr "上一個佇列"
 
 #: actions.js:3289 controls/player.js:173 FileAssoc.pas:740
 msgid "Play"
@@ -1213,14 +1205,17 @@ msgid "Randomize list"
 msgstr "隨機清單(&R)"
 
 #: actions.js:3470
+#, fuzzy
 msgid "Shuffle disabled. Reverting to unshuffled list."
-msgstr ""
+msgstr "隨機播放已停用。回復至未打亂的清單。"
 
 #: actions.js:3474
+#, fuzzy
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
-msgstr ""
+msgstr "隨機播放已停用。由於已編輯過，無法取消隨機播放 - "
+"請使用「還原」來復原播放清單的變更。"
 
 #: actions.js:3486
 msgid "Repeat off"
@@ -1280,7 +1275,7 @@ msgstr "睡眠(&L)"
 #, fuzzy
 #| msgid "Auto-&tag from filename"
 msgid "&Tag from filename"
-msgstr "從檔案名稱自動標籤(&T)"
+msgstr "從檔案名稱取得標籤(&T)"
 
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:3695
@@ -1539,10 +1534,8 @@ msgstr "復原(&U)"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4864 controls/filterEditor.js:93 controls/navigationBar.js:344
-#, fuzzy
-#| msgid "Clear search history"
 msgid "Clear history"
-msgstr "清除搜尋記錄"
+msgstr "清除歷史記錄"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
 #: actions.js:4878 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
@@ -1551,8 +1544,9 @@ msgstr "重做(&R)"
 
 #. open edit properties dialog
 #: actions.js:4938
+#, fuzzy
 msgid "Previous view"
-msgstr ""
+msgstr "之前的檢視"
 
 #. forward is added here via redoNavbarButton script
 #: actions.js:4957
@@ -1586,7 +1580,7 @@ msgstr "縮小"
 #. @ts-ignore
 #: actions.js:5078
 msgid "Original AR"
-msgstr ""
+msgstr "原始長寬比"
 
 #: actions.js:5150 dialogs\dlgMoveAccompFiles.html:16
 msgid "Move"
@@ -1627,7 +1621,7 @@ msgstr "自動地"
 
 #: actions.js:5236
 msgid "Use current video frame"
-msgstr ""
+msgstr "使用目前的影像畫面"
 
 #: actions.js:5248
 msgid "Audio streams"
@@ -1678,10 +1672,8 @@ msgid "Extra large"
 msgstr "超大"
 
 #: actions.js:5446 controls\playlistHeader.html:8
-#, fuzzy
-#| msgid "Play now"
 msgid "Play normally"
-msgstr "立刻播放"
+msgstr "正常播放"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. adds shuffle menu commands to button context menu
@@ -1822,11 +1814,11 @@ msgstr "未知"
 msgid ""
 "Select which device to use. 'Default' uses whatever device is configured by "
 "the operating system for playback."
-msgstr ""
+msgstr "選擇要使用的裝置。「預設」使用哪個裝置是由作業系統所指定來播放的裝置。"
 
 #: out_MMDS_configDlg.js:38
 msgid "Disable only in the case of audio problems"
-msgstr ""
+msgstr "只有當聲音問題的情況下才關閉"
 
 #: out_MMDS_configDlg.js:38
 msgid "Enable hardware acceleration"
@@ -1842,7 +1834,7 @@ msgstr "平滑暫停"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Crossfades during seek operation"
-msgstr ""
+msgstr "在搜尋操作期間的交叉淡入淡出效果"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Smooth seek"
@@ -2107,10 +2099,8 @@ msgstr "請為此操作選擇一個或多個檔案。"
 #. hide full window player and switcher
 #. TODO: add links to stations
 #: uitools.js:2452 viewHandlers.js:7646 viewHandlers.js:7740
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Edit bookmark"
-msgstr "加入書籤"
+msgstr "編輯書籤"
 
 #: uitools.js:2464
 msgid "Website link:"
@@ -2119,7 +2109,7 @@ msgstr "網站連結："
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2542
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "為了套用變更，您需要重新啟動 MediaMonkey。"
 
 #: uitools.js:2544 controls/buttons.js:479 ExceptionHandler.pas:284
 #: ExceptionHandler.pas:320 ResStrings.pas:588
@@ -2128,7 +2118,7 @@ msgstr "重新啟動"
 
 #: uitools.js:2848
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "搜尋選擇的位置："
 
 #: uitools.js:2860
 msgid "Please select at least one folder to scan."
@@ -2233,7 +2223,7 @@ msgstr "瀏覽器"
 #. onHide: inherited from Tracklist
 #: viewHandlers.js:412
 msgid "Grid (videos)"
-msgstr ""
+msgstr "網格 (影片)"
 
 #. onHide: inherited from TracklistBase
 #. due to #15522
@@ -2247,7 +2237,7 @@ msgstr ""
 #: viewHandlers.js:1076 viewHandlers.js:1131 viewHandlers.js:1222
 #: viewHandlers.js:1785
 msgid "Grid"
-msgstr ""
+msgstr "網格"
 
 #. onHide: inherited from TracklistBase
 #. notifyTotalCountChange: true, //LS: replaced by statusBar sub-view
@@ -2280,7 +2270,7 @@ msgstr "已釘選清單"
 
 #: viewHandlers.js:486 controls\audiobookCollectionView.html:10
 msgid "In progress"
-msgstr ""
+msgstr "正在處理"
 
 #: viewHandlers.js:490 controls\videoCollectionView.html:3
 msgid "Recently watched"
@@ -2329,7 +2319,7 @@ msgstr "收藏瀏覽器"
 
 #: viewHandlers.js:980
 msgid "Categories"
-msgstr ""
+msgstr "類別"
 
 #: viewHandlers.js:1011
 msgid "Tabbed view"
@@ -2343,21 +2333,21 @@ msgstr "曲風"
 #. add title line
 #: viewHandlers.js:1369 controls/relatedArtists.js:25
 msgid "Related Artists"
-msgstr ""
+msgstr "相關演出者"
 
 #. so that the default focus control is searched within subViews below
 #: viewHandlers.js:1539
 msgid "Grid (by Album)"
-msgstr ""
+msgstr "網格 (依專輯)"
 
 #. cancel/free/unregister the dataSource
 #: viewHandlers.js:1632
 msgid "Grid (by Series)"
-msgstr ""
+msgstr "網格 (依系列)"
 
 #: viewHandlers.js:1762
 msgid "Feeds"
-msgstr ""
+msgstr "Feeds"
 
 #. #18158
 #: viewHandlers.js:1962 viewHandlers.js:5479 controls/maskedit.js:77
@@ -2603,7 +2593,7 @@ msgstr "年份"
 #. hasTreeChildren: false, // enabled in the tree so that individual years are accessible under decades (#15056)
 #: viewHandlers.js:5697
 msgid "Years (orig.)"
-msgstr ""
+msgstr "年份 (原始)"
 
 #. @ts-ignore
 #: viewHandlers.js:5819 controls/albumViewHeader.js:726 CDUtils.pas:1056
@@ -2678,7 +2668,7 @@ msgstr "演員"
 
 #: viewHandlers.js:6480
 msgid "actor"
-msgstr ""
+msgstr "演員"
 
 #: viewHandlers.js:6487 UPnPTreeHelper.pas:1902
 msgid "Publishers"
@@ -2726,7 +2716,7 @@ msgstr "拉丁 & 加勒比海"
 
 #: viewHandlers.js:6788
 msgid "Electronic"
-msgstr ""
+msgstr "電子"
 
 #: viewHandlers.js:6793
 msgid "Country"
@@ -2750,12 +2740,12 @@ msgstr "古典音樂"
 
 #: viewHandlers.js:6814
 msgid "World"
-msgstr ""
+msgstr "世界"
 
 #. node.addChildren(list, 'files_to_edit_default');
 #: viewHandlers.js:7224
 msgid "Album Artist is not the same across tracks on an album."
-msgstr ""
+msgstr "專輯中各曲目的專輯圖片並不相同。"
 
 #. #19480
 #: viewHandlers.js:7276
@@ -2763,13 +2753,14 @@ msgid ""
 "This finds all tracks with tags that don't match the database, highlighting "
 "the mismatched values. If tracks don't show highlighted fields, try enabling "
 "additional columns."
-msgstr ""
+msgstr "這會找出所有標籤與資料庫不符的音軌，並醒目提示不相符的數值。如果音軌未顯示醒"
+"目提示的欄位，請嘗試啟用其他欄位。"
 
 #: viewHandlers.js:7283
 msgid ""
 "This node finds all content for which tracks have duplicate hashes or "
 "fingerprints."
-msgstr ""
+msgstr "此節點尋找所有具有重複雜湊或指紋的音軌內容。"
 
 #. to respect order served by content
 #: viewHandlers.js:7290
@@ -2843,16 +2834,12 @@ msgstr "收藏"
 
 #. other windows are fetching this value (e.g. in uitools.showExtensions)
 #: controls/addonListView.js:85
-#, fuzzy
-#| msgid "Install Now"
 msgid "Install"
-msgstr "立即安裝"
+msgstr "安裝"
 
 #: controls/addonListView.js:87
-#, fuzzy
-#| msgid "Installing update"
 msgid "Install update"
-msgstr "正在安裝更新"
+msgstr "安裝更新"
 
 #. failure
 #: controls/addonListView.js:142
@@ -2876,7 +2863,7 @@ msgstr "遞增"
 #: controls/albumlistView.js:129 controls/gridview.js:1184
 #: controls/videoGrid.js:87
 msgid "descending"
-msgstr ""
+msgstr "遞增"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, specific for each track
@@ -2913,7 +2900,7 @@ msgstr "更新屬性"
 
 #: controls/albumViewHeader.js:175
 msgid "Release"
-msgstr ""
+msgstr "發行"
 
 #: controls/albumViewHeader.js:202 controls/artistViewHeader.js:121
 #: controls/seriesViewHeader.js:146 controls/nowPlaying/artistBio.js:80
@@ -3115,6 +3102,8 @@ msgid ""
 "conversion rules. To convert content on-the-fly to different formats or to "
 "higher/lower bitrates, please upgrade to MediaMonkey Gold."
 msgstr ""
+"MediaMonkey 的標準版本允許您使用預設的自動轉換規則。如果您想要即時將內容轉換"
+"為不同格式或更高/更低的位元率，請升級到 MediaMonkey Gold 版本。"
 
 #. this.localListen(this.imgloader, 'load', this.imgLoaded.bind(this));
 #: controls/backgroundImage.js:118
