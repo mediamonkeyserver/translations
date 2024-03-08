@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2024-03-08 16:04+0000\n"
+"PO-Revision-Date: 2024-03-08 16:12+0000\n"
 "Last-Translator: Massimo Castiglia <massimocastiglia@alice.it>\n"
 "Language-Team: Italian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/it/>\n"
@@ -5530,16 +5530,12 @@ msgid "Updated %d files"
 msgstr "Sono stati aggiornati %d file"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "L'importazione di %d file non è riuscita"
+msgstr "Impossibile aggiungere %d file"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "Sono stati aggiornati %d file"
+msgstr "%d file saltati"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5608,10 +5604,8 @@ msgid "Sleep timer can be used only with Gold!"
 msgstr "Il timer di spegnimento può essere utilizzato solo con Gold!"
 
 #: dialogs/dlgSpeedPitch.js:11
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust pitch"
-msgstr "Regola il video"
+msgstr "Regola il tono"
 
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
@@ -5826,10 +5820,8 @@ msgstr ""
 "tasto di scelta rapida diverso."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:241
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
-msgstr "Eliminare il tasto di scelta rapida selezionato?"
+msgstr "Eliminare i tasti di scelta rapida selezionati?"
 
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
 #: dialogs/dlgOptions/pnl_Hotkeys.js:255
@@ -6077,15 +6069,10 @@ msgstr ""
 "Analizza automaticamente il volume delle tracce come processo in background"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:184
-#, fuzzy
-#| msgid ""
-#| "The change in artwork at %s will apply to %d other file(s) on the album. "
-#| "Do you want to proceed?"
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
 msgstr ""
-"La modifica dell'artwork in %s verrà applicata a altri %d file dell'album. "
-"Vuoi procedere?"
+"La modifica dell'artwork in %s verrà applicata ad altri %d file dell'album."
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6827,10 +6814,8 @@ msgid "Sync root"
 msgstr "Destinazione di sincronizzazione"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:87
-#, fuzzy
-#| msgid "Use hardware acceleration when available"
 msgid "Milkshake requires Hardware Acceleration to be enabled"
-msgstr "Usa l'accelerazione hardware quando disponibile"
+msgstr "Milkshake richiede l'abilitazione dell'accelerazione hardware"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:267
 msgid "Select preset"
@@ -6839,7 +6824,7 @@ msgstr "Selezione preimpostazioni"
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:299
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "Passaggio alla larghezza minima per i video di YouTube."
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -7451,6 +7436,8 @@ msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
 msgstr ""
+"Impossibile copiare o verificare una o più tracce. Seleziona le tracce che "
+"desideri riprovare:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -7944,14 +7931,11 @@ msgstr "Vuoi rimuovere %d duplicati in riproduzione?"
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:6795
-#, fuzzy
-#| msgid ""
-#| "The operation will be finished after the end of playback of the current "
-#| "track."
 msgid ""
 "The operation will complete after the the current file finishes playing."
 msgstr ""
-"L'operazione terminerà al termine della riproduzione della traccia corrente."
+"L'operazione verrà completata al termine della riproduzione del file "
+"corrente."
 
 #: FullPlayer.pas:7255
 msgid ""
@@ -8499,10 +8483,8 @@ msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Monitoraggio dei file, $FAdd$ su $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:1729 MP3Utils.pas:2012
-#, fuzzy
-#| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr "Aggiunto $FAdd$ su $FTot$ ($Dir$$Str$)"
+msgstr "Scansione di $FAdd$ di $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:2087
 msgid "Problem with scanning directory %s."
@@ -8735,6 +8717,8 @@ msgstr "Salvataggio etichette"
 msgid ""
 "Album leveling is enabled, which will cause %d other tracks to be analyzed."
 msgstr ""
+"Il livellamento dell'album è abilitato e ciò comporterà l'analisi di altre "
+"%d tracce."
 
 #: Normalization.pas:1396
 msgid "%d of %d (%s)"
