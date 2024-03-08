@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2023-10-15 18:45+0000\n"
-"Last-Translator: SandroMar <sanmarc.60@gmail.com>\n"
+"PO-Revision-Date: 2024-03-08 16:04+0000\n"
+"Last-Translator: Massimo Castiglia <massimocastiglia@alice.it>\n"
 "Language-Team: Italian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -86,10 +86,8 @@ msgstr "Cronologia"
 #: dialogs/dlgOptions.js:39 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:428 maincontent.html:50
-#, fuzzy
-#| msgid "Playing list"
 msgid "'Playing' list"
-msgstr "Elenco di riproduzione"
+msgstr "Scaletta"
 
 #. load player in timeout to be sure video window is already stretched to full screen
 #: actions.js:58 playerUtils.js:449
@@ -1087,10 +1085,8 @@ msgstr "E&qualizzatore"
 
 #: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "Regola il video"
+msgstr "Regola velocità"
 
 #: actions.js:2999
 msgid "&Rip Audio CD"
@@ -1226,13 +1222,16 @@ msgstr "Casualizza la lista"
 
 #: actions.js:3470
 msgid "Shuffle disabled. Reverting to unshuffled list."
-msgstr ""
+msgstr "Riproduzione casuale disabilitata! Ritorno all'elenco non casuale."
 
 #: actions.js:3474
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
 msgstr ""
+"Riproduzione casuale disabilitata. Impossibile annullare la riproduzione "
+"casuale a causa di modifiche - usa 'Disfai' per annullare le modifiche alla "
+"Scaletta."
 
 #: actions.js:3486
 msgid "Repeat off"
@@ -2133,7 +2132,7 @@ msgstr "Link sito Web:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2542
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "MediaMonkey deve essere riavviato per applicare le modifiche"
 
 #: uitools.js:2544 controls/buttons.js:479 ExceptionHandler.pas:284
 #: ExceptionHandler.pas:320 ResStrings.pas:588
@@ -2142,7 +2141,7 @@ msgstr "Riavvia"
 
 #: uitools.js:2848
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "Cerca nelle posizioni selezionate:"
 
 #: uitools.js:2860
 msgid "Please select at least one folder to scan."
@@ -3738,10 +3737,8 @@ msgstr "Finestra normale"
 
 #: controls/nowplayingview.js:147 controls/nowPlaying/artistBio.js:65
 #: controls/nowPlaying/fullList.js:151
-#, fuzzy
-#| msgid "Show Playing list"
 msgid "Show 'Playing' list"
-msgstr "Mostra elenco di riproduzione"
+msgstr "Mostra la Scaletta"
 
 #. Main context manu of Now Playing view
 #: controls/nowplayingview.js:212
@@ -3782,28 +3779,23 @@ msgid "Internal player"
 msgstr "Lettore interno"
 
 #: controls/player.js:337
-#, fuzzy
-#| msgid ""
-#| "Shuffles the Playing list and makes default play commands shuffle tracks."
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
 msgstr ""
-"Mescola l'elenco di riproduzione e imposta i comandi di riproduzione "
-"predefiniti per la riproduzione casuale delle tracce."
+"Mescola nella Scaletta e fa sì che i comandi di riproduzione predefiniti "
+"mescolino i brani."
 
 #: controls/player.js:459
 msgid "Speed"
-msgstr ""
+msgstr "Velocità"
 
 #: controls/player.js:463
-#, fuzzy
-#| msgid "Switch"
 msgid "Pitch"
-msgstr "Cambia"
+msgstr "Intonazione"
 
 #: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
-msgstr ""
+msgstr "semitoni"
 
 #: controls/player.js:519
 msgid "Time"
@@ -4340,10 +4332,8 @@ msgstr "Artista originale"
 #: controls/trackListView.js:1220 MaskHelper.pas:3156 ResStrings.pas:480
 #: ResStrings.pas:491 ResStrings.pas:534
 #: dialogs\dlgTrackProperties\tabDetails.html:64
-#, fuzzy
-#| msgid "Original AR"
 msgid "Original Album"
-msgstr "Aspect Ratio originale"
+msgstr "Album originale"
 
 #: controls/trackListView.js:1237 MaskHelper.pas:3155 ResStrings.pas:479
 #: ResStrings.pas:533 dialogs\dlgTrackProperties\tabDetails.html:75
@@ -4591,10 +4581,9 @@ msgid "Also generate playlists on '%s' for:"
 msgstr "Genera playlist anche su '%s' per:"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
-#, fuzzy
-#| msgid "Modify metadata as follows when syncing to '%s'"
 msgid "Update files and metadata as follows when syncing to '%s'"
-msgstr "Modifica i metadati come indicato durante la sincronizzazione con '%s'"
+msgstr ""
+"Aggiorna file e metadati come segue durante la sincronizzazione con '%s'"
 
 #: controls/nowPlaying/fullList.js:211
 msgid "Click to look up lyrics..."
@@ -4646,6 +4635,8 @@ msgid ""
 "%s seems to be working correctly. See Help, if you're unable to access the "
 "server from other devices."
 msgstr ""
+"%s sembra funzionare correttamente. Consulta la Guida se non riesci ad "
+"accedere al server da altri dispositivi."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
@@ -4992,28 +4983,20 @@ msgstr "Elimina dalla playlist, dal database e dall'unità"
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
-#, fuzzy
-#| msgid "Remove from Playing list only"
 msgid "Remove from 'Playing' list only"
-msgstr "Rimuovi solo dall'elenco di riproduzione"
+msgstr "Rimuovi solo dalla Scaletta"
 
 #: dialogs/dlgDeleteConfirm.js:135
-#, fuzzy
-#| msgid "Remove from Playing list and"
 msgid "Remove from 'Playing' list and"
-msgstr "Rimuovi dall'elenco di riproduzione e"
+msgstr "Rimuovi dalla Scaletta e"
 
 #: dialogs/dlgDeleteConfirm.js:160
-#, fuzzy
-#| msgid "Delete from Playing list and the database only"
 msgid "Delete from 'Playing' list and the database only"
-msgstr "Elimina solo dall'elenco di riproduzione e dal database"
+msgstr "Elimina solo dalla Scaletta e dal database"
 
 #: dialogs/dlgDeleteConfirm.js:161
-#, fuzzy
-#| msgid "Delete from Playing list, the database and drive"
 msgid "Delete from 'Playing' list, the database and drive"
-msgstr "Elimina dall'elenco di riproduzione, dal database e dall'unità"
+msgstr "Elimina dalla Scaletta, dal database e dall'unità"
 
 #: dialogs/dlgDeleteConfirm.js:189
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
@@ -5053,10 +5036,8 @@ msgid "Everywhere"
 msgstr "Ovunque"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
-msgstr "Inserisci nome"
+msgstr "Inserisci il nome"
 
 #: dialogs/dlgErrorLog.js:5
 msgid "Problem"
@@ -5098,10 +5079,8 @@ msgstr "Una volta"
 
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:47
-#, fuzzy
-#| msgid "The media '%s' is not inserted."
 msgid "The location %s does not exist."
-msgstr "Il supporto '%s' non è inserito."
+msgstr "La posizione %s non esiste."
 
 #: dialogs/dlgImageSize.js:41
 msgid "Browser & Grid views"
@@ -5528,13 +5507,11 @@ msgstr "Risultati della scansione"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "filtrato o disabilitato in"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "Impostazioni di sincronizzazione"
+msgstr "Impostazioni Libreria"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5545,10 +5522,8 @@ msgid "Search and update took %s"
 msgstr "Ricerca e aggiornamento hanno richiesto %s"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
-msgstr "Sono stati importati %d nuovi file"
+msgstr "Aggiunti %d nuovi file"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
