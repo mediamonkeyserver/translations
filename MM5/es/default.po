@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2023-10-27 15:10+0000\n"
+"PO-Revision-Date: 2024-03-08 16:04+0000\n"
 "Last-Translator: Leandro Botella Penalva <darklbp@outlook.com>\n"
 "Language-Team: Spanish <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -86,10 +86,8 @@ msgstr "Historial"
 #: dialogs/dlgOptions.js:39 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:428 maincontent.html:50
-#, fuzzy
-#| msgid "Playing list"
 msgid "'Playing' list"
-msgstr "Lista en reproducción"
+msgstr "Lista 'en reproducción'"
 
 #. load player in timeout to be sure video window is already stretched to full screen
 #: actions.js:58 playerUtils.js:449
@@ -373,7 +371,7 @@ msgstr "Guardar nuevo orden"
 
 #: actions.js:1184 dialogs/dlgAutoorganize.js:19
 msgid "Organi&ze files"
-msgstr "Organi&zar ficheros"
+msgstr "Organi&zar archivos"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. whenLoaded promise is awaited directly in the dialog
@@ -1089,10 +1087,8 @@ msgstr "&Ecualizador"
 
 #: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "Ajustar vídeo"
+msgstr "Ajustar velocidad"
 
 #: actions.js:2999
 msgid "&Rip Audio CD"
@@ -1148,11 +1144,11 @@ msgstr "Reproducir ahora"
 #: controls/trackListView.js:1883 controls/trackListView.js:1895
 #: controls/trackListView.js:1910 controls/trackListView.js:1925
 msgid "shuffled"
-msgstr "mezclado"
+msgstr "aleatorio"
 
 #: actions.js:3165 actions.js:3227 actions.js:3275
 msgid "shuffled by Album"
-msgstr "mezclado por Álbum"
+msgstr "aleatorio por Álbum"
 
 #: actions.js:3179 actions.js:6245 controls/trackListView.js:1910
 msgid "Queue mixed"
@@ -1219,7 +1215,7 @@ msgstr "Fundido cruzado"
 #: actions.js:3449 controls/player.js:339 controls/player.js:341
 #: controls/player.js:349 controls/player.js:351
 msgid "Shuffle"
-msgstr "Mezclar"
+msgstr "Aleatorio"
 
 #. was changed or canceled, not shuffle already
 #: actions.js:3469 FullPlayer.pas:4982
@@ -1228,13 +1224,15 @@ msgstr "Aleatorizar lista"
 
 #: actions.js:3470
 msgid "Shuffle disabled. Reverting to unshuffled list."
-msgstr ""
+msgstr "Aleatorio desactivado. Revirtiendo a lista sin aleatorizar."
 
 #: actions.js:3474
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
 msgstr ""
+"Aleatorio desactivado. Imposible quitar aleatorio debido a ediciones - usa "
+"'Deshacer' para revertir cambios a la lista 'En reproducción'."
 
 #: actions.js:3486
 msgid "Repeat off"
@@ -1292,7 +1290,7 @@ msgstr "S&uspender"
 
 #: actions.js:3671 dialogs/dlgAutotagFromFilename.js:84
 msgid "&Tag from filename"
-msgstr "E&tiquetar desde nombre de fichero"
+msgstr "E&tiquetar desde nombre de archivo"
 
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:3695
@@ -1552,10 +1550,8 @@ msgstr "Des&hacer"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4864 controls/filterEditor.js:93 controls/navigationBar.js:344
-#, fuzzy
-#| msgid "Clear search history"
 msgid "Clear history"
-msgstr "Vaciar historial de búsqueda"
+msgstr "Vaciar historial"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
 #: actions.js:4878 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
@@ -1700,11 +1696,11 @@ msgstr "Reproducir de forma normal"
 #: actions.js:5472 uitools.js:2327 viewHandlers.js:3281
 #: controls\playlistHeader.html:9
 msgid "Play shuffled"
-msgstr "Reproducir mezclado"
+msgstr "Reproducir aleatorio"
 
 #: actions.js:5504 uitools.js:2328 viewHandlers.js:3312
 msgid "Play shuffled (by Album)"
-msgstr "Reproducir mezclado (por Álbum)"
+msgstr "Reproducir aleatorio (por Álbum)"
 
 #. prepared menu item for library reports implemented by scripts
 #: actions.js:5839 Extensions.pas:1594
@@ -2136,7 +2132,7 @@ msgstr "Enlace del sitio web:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2542
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "MediaMonkey necesita reiniciarse para aplicar los cambios"
 
 #: uitools.js:2544 controls/buttons.js:479 ExceptionHandler.pas:284
 #: ExceptionHandler.pas:320 ResStrings.pas:588
@@ -2145,7 +2141,7 @@ msgstr "Reiniciar"
 
 #: uitools.js:2848
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "Buscar en las ubicaciones seleccionadas:"
 
 #: uitools.js:2860
 msgid "Please select at least one folder to scan."
@@ -3753,10 +3749,8 @@ msgstr "Ventana normal"
 
 #: controls/nowplayingview.js:147 controls/nowPlaying/artistBio.js:65
 #: controls/nowPlaying/fullList.js:151
-#, fuzzy
-#| msgid "Show Playing list"
 msgid "Show 'Playing' list"
-msgstr "Mostrar Lista en reproducción"
+msgstr "Mostrar lista 'En reproducción'"
 
 #. Main context manu of Now Playing view
 #: controls/nowplayingview.js:212
@@ -3797,28 +3791,23 @@ msgid "Internal player"
 msgstr "Reproductor interno"
 
 #: controls/player.js:337
-#, fuzzy
-#| msgid ""
-#| "Shuffles the Playing list and makes default play commands shuffle tracks."
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
 msgstr ""
-"Mezcla la Lista en reproducción y hace que los comandos predeterminados de "
-"reproducción mezclen pistas."
+"Mezcla la lista 'En reproducción' y hace que los comandos predeterminados de "
+"reproducción aleatoricen las pistas."
 
 #: controls/player.js:459
 msgid "Speed"
-msgstr ""
+msgstr "Velocidad"
 
 #: controls/player.js:463
-#, fuzzy
-#| msgid "Switch"
 msgid "Pitch"
-msgstr "Cambiar"
+msgstr "Tono"
 
 #: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
-msgstr ""
+msgstr "semitonos"
 
 #: controls/player.js:519
 msgid "Time"
@@ -4355,10 +4344,8 @@ msgstr "Intérprete Original"
 #: controls/trackListView.js:1220 MaskHelper.pas:3156 ResStrings.pas:480
 #: ResStrings.pas:491 ResStrings.pas:534
 #: dialogs\dlgTrackProperties\tabDetails.html:64
-#, fuzzy
-#| msgid "Original AR"
 msgid "Original Album"
-msgstr "RA Original"
+msgstr "Álbum original"
 
 #: controls/trackListView.js:1237 MaskHelper.pas:3155 ResStrings.pas:479
 #: ResStrings.pas:533 dialogs\dlgTrackProperties\tabDetails.html:75
@@ -4611,10 +4598,10 @@ msgid "Also generate playlists on '%s' for:"
 msgstr "Generar también listas de reproducción en '%s' para:"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
-#, fuzzy
-#| msgid "Modify metadata as follows when syncing to '%s'"
 msgid "Update files and metadata as follows when syncing to '%s'"
-msgstr "Modificar metadatos de la siguiente forma cuando se sincronice a '%s'"
+msgstr ""
+"Actualizar archivos y metadatos de la siguiente forma cuando se sincronice a "
+"'%s'"
 
 #: controls/nowPlaying/fullList.js:211
 msgid "Click to look up lyrics..."
@@ -4666,6 +4653,8 @@ msgid ""
 "%s seems to be working correctly. See Help, if you're unable to access the "
 "server from other devices."
 msgstr ""
+"%s parece que funciona correctamente. Consulta Ayuda, si no puedes acceder "
+"al servidor desde otros dispositivos."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
@@ -5013,29 +5002,21 @@ msgstr ""
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
-#, fuzzy
-#| msgid "Remove from Playing list only"
 msgid "Remove from 'Playing' list only"
-msgstr "Eliminar solo de la Lista en reproducción"
+msgstr "Eliminar solo de la lista 'En reproducción'"
 
 #: dialogs/dlgDeleteConfirm.js:135
-#, fuzzy
-#| msgid "Remove from Playing list and"
 msgid "Remove from 'Playing' list and"
-msgstr "Eliminar de la Lista en reproducción y"
+msgstr "Eliminar de la lista 'En reproducción' y"
 
 #: dialogs/dlgDeleteConfirm.js:160
-#, fuzzy
-#| msgid "Delete from Playing list and the database only"
 msgid "Delete from 'Playing' list and the database only"
-msgstr "Eliminar solo de la Lista en reproducción y de la base de datos"
+msgstr "Eliminar solo de la lista 'En reproducción' y de la base de datos"
 
 #: dialogs/dlgDeleteConfirm.js:161
-#, fuzzy
-#| msgid "Delete from Playing list, the database and drive"
 msgid "Delete from 'Playing' list, the database and drive"
 msgstr ""
-"Eliminar de la Lista en reproducción, de la base de datos y de la unidad"
+"Eliminar de la lista 'En reproducción', de la base de datos y de la unidad"
 
 #: dialogs/dlgDeleteConfirm.js:189
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
@@ -5077,10 +5058,8 @@ msgid "Everywhere"
 msgstr "En todos los sitios"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
-msgstr "Introduce nombre"
+msgstr "Por favor, introduce un nombre"
 
 #: dialogs/dlgErrorLog.js:5
 msgid "Problem"
@@ -5122,10 +5101,8 @@ msgstr "Una vez"
 
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:47
-#, fuzzy
-#| msgid "The media '%s' is not inserted."
 msgid "The location %s does not exist."
-msgstr "El medio '%s' no está insertado."
+msgstr "La ubicación %s no existe."
 
 #: dialogs/dlgImageSize.js:41
 msgid "Browser & Grid views"
@@ -5447,7 +5424,7 @@ msgstr "Ajustes OGG"
 
 #: dialogs/dlgOptions.js:8
 msgid "Hotkeys"
-msgstr "Teclas de acceso directo"
+msgstr "Teclas de acceso rápido"
 
 #: dialogs/dlgOptions.js:12
 msgid "Confirmations"
@@ -5554,13 +5531,11 @@ msgstr "Examinar los resultados"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "filtrado o desactivado en"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "Ajustes de sincronización"
+msgstr "ajustes de Biblioteca"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5571,26 +5546,20 @@ msgid "Search and update took %s"
 msgstr "La búsqueda y actualización tardó %s"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
-msgstr "Se importaron %d nuevos archivos"
+msgstr "Añadidos %d nuevos archivos"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
 msgstr "Se actualizaron %d archivos"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "No se pudieron importar %d archivos"
+msgstr "Fallo al añadir %d archivos"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "Se actualizaron %d archivos"
+msgstr "Saltados %d archivos"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5659,10 +5628,8 @@ msgid "Sleep timer can be used only with Gold!"
 msgstr "¡El temporizador de suspensión solo se puede usar con Gold!"
 
 #: dialogs/dlgSpeedPitch.js:11
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust pitch"
-msgstr "Ajustar vídeo"
+msgstr "Ajustar tono"
 
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
@@ -5813,9 +5780,9 @@ msgid ""
 msgstr ""
 "1) Si el plug-in es proporcionado con un instalador, el instalador "
 "normalmente elige un directorio por defecto de /Program Files/Winamp. Cambia "
-"esto a /Program Files/MediaMonkey. Si no puedes cambiar el directorio de la "
+"esto a /Program Files/MediaMonkey. Si no puedes cambiar el directorio de "
 "instalación, tendrás que instalar en el directorio de Winamp y después "
-"copiar manualmente el/los fichero(s) .dll instalado(s) al directorio de "
+"copiar manualmente el/los archivo(s) .dll instalado(s) al directorio de "
 "Program Files/MediaMonkey/Plug-ins."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:17
@@ -5884,10 +5851,8 @@ msgstr ""
 "tecla de acceso directo distinta."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:241
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
-msgstr "¿Eliminar la tecla de acceso directo seleccionada?"
+msgstr "¿Eliminar las teclas de acceso rápido seleccionadas?"
 
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
 #: dialogs/dlgOptions/pnl_Hotkeys.js:255
@@ -6135,15 +6100,11 @@ msgstr ""
 "plano"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:184
-#, fuzzy
-#| msgid ""
-#| "The change in artwork at %s will apply to %d other file(s) on the album. "
-#| "Do you want to proceed?"
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
 msgstr ""
-"Este cambio de arte en %s se aplicará también a otro(s) %d fichero(s) en el "
-"álbum. ¿Quieres proceder?"
+"Este cambio de arte en %s se aplicará también a otro(s) %d archivo(s) en el "
+"álbum."
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6884,10 +6845,8 @@ msgid "Sync root"
 msgstr "Sincronizar raíz"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:87
-#, fuzzy
-#| msgid "Use hardware acceleration when available"
 msgid "Milkshake requires Hardware Acceleration to be enabled"
-msgstr "Usar aceleración por hardware cuando esté disponible"
+msgstr "Milkshake requiere que la Aceleración por Hardware esté activada"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:267
 msgid "Select preset"
@@ -6896,7 +6855,7 @@ msgstr "Seleccionar preajuste"
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:299
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "Cambiando a anchura mínima para vídeos de YouTube."
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -7319,7 +7278,7 @@ msgid ""
 "rescan files now in order to read these tags?"
 msgstr ""
 "Esta versión de MediaMonkey soporta nueva(s) etiqueta(s) (%s). ¿Quieres "
-"analizar de nuevo los ficheros para leer estas etiquetas?"
+"analizar de nuevo los archivos para leer estas etiquetas?"
 
 #: DBStructure.pas:971
 msgid ""
@@ -7504,6 +7463,8 @@ msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
 msgstr ""
+"Una o más pistas no pudieron ser copiadas o verificadas. Selecciona la(s) "
+"pista(s) que quieres reintentar:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -7995,15 +7956,10 @@ msgstr "¿Quieres eliminar %d duplicado(s) de Reproduciendo?"
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:6795
-#, fuzzy
-#| msgid ""
-#| "The operation will be finished after the end of playback of the current "
-#| "track."
 msgid ""
 "The operation will complete after the the current file finishes playing."
 msgstr ""
-"La operación habrá finalizado cuando termine la reproducción de la pista "
-"actual."
+"La operación se completará tras finalizar la reproducción del archivo actual."
 
 #: FullPlayer.pas:7255
 msgid ""
@@ -8553,10 +8509,8 @@ msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Monitoreando $FAdd$ de $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:1729 MP3Utils.pas:2012
-#, fuzzy
-#| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr "Añadiendo $FAdd$ de $FTot$ ($Dir$$Str$)"
+msgstr "Escaneando $FAdd$ de $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:2087
 msgid "Problem with scanning directory %s."
@@ -8790,6 +8744,8 @@ msgstr "Guardando etiquetas"
 msgid ""
 "Album leveling is enabled, which will cause %d other tracks to be analyzed."
 msgstr ""
+"La nivelación de álbum está activada, por lo que provocará que sean "
+"analizadas otras %d pistas."
 
 #: Normalization.pas:1396
 msgid "%d of %d (%s)"
@@ -9335,7 +9291,7 @@ msgstr "Preparando pista %d de %d (%s)"
 
 #: ResStrings.pas:883
 msgid "Problem while decoding file %s, burning terminated"
-msgstr "Problema mientras se descodificaba el fichero %s, grabación terminada"
+msgstr "Problema mientras se descodificaba el archivo %s, grabación terminada"
 
 #: ResStrings.pas:884
 msgid "Burning ... (Phase: %s)%s"
@@ -9370,28 +9326,19 @@ msgid "Sleep: %d minute"
 msgstr "Suspensión: %d minuto"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "Database file %s cannot be accessed."
-msgstr "El archivo %s no puede crearse."
+msgstr "No se puede acceder al archivo de base de datos %s."
 
 #. per #17917
 #: UpNp.pas:1956
-#, fuzzy
-#| msgid ""
-#| "Your network connection is set to 'Public'. This usually sets your device "
-#| "to not be discoverable by other devices on the network.If you're at home "
-#| "then you might want to switch to 'Private' instead. Do you wish to "
-#| "proceed?"
 msgid ""
 "Your network connection is set to 'Public'. This usually causes your machine "
 "to not be discoverable by other devices on the network. If you're on a home "
 "network, you may want to switch your network connection to 'Private'."
 msgstr ""
-"Tu conexión de red está establecida como 'Pública'. Esto suele configurar tu "
-"dispositivo para que no sea descubierto por otros dispositivos en la red. Si "
-"estás en casa quizás quieras cambiarla en su lugar a 'Privada'. ¿Quieres "
-"continuar?"
+"Tu conexión de red está establecida como 'Pública'. Esto suele provocar que "
+"tu dispositivo no sea detectable por otros dispositivos en la red. Si estás "
+"en una red doméstica, tal vez quieras cambiar tu conexión de red a 'Privada'."
 
 #. #13718 - item 1
 #: UpNp.pas:2499
@@ -9603,19 +9550,14 @@ msgid "This changes the header for each custom field."
 msgstr "Esto cambia la cabecera para cada campo personalizado."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
-#, fuzzy
-#| msgid ""
-#| "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
-#| "Playing list, remove them from the Playing list and the Library, or "
-#| "delete them from the Playing list, the Library, and the computer system."
 msgid ""
 "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
 "'Playing' list, remove them from the 'Playing' list and the Library, or "
 "delete them from the 'Playing' list, the Library, and the computer system."
 msgstr ""
 "Si se activa, MediaMonkey te preguntará si quieres eliminar las pistas de la "
-"Lista en reproducción, eliminarlas de la Lista en reproducción y de la "
-"Biblioteca, o eliminarlas de la Lista en reproducción, de la Biblioteca y "
+"lista 'En reproducción', eliminarlas de la lista 'En reproducción' y de la "
+"Biblioteca, o eliminarlas de la lista 'En reproducción', de la Biblioteca y "
 "del ordenador."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
@@ -9899,23 +9841,17 @@ msgid "Check for updates (when connected)"
 msgstr "Comprobar actualizaciones (cuando estés conectado/a)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It applies only when Party mode is active."
 msgstr ""
 "Esto determina que archivos son reproducidos cuando se ejecuta el comando "
-"'Reproducir ahora' para un único archivo. Por defecto se reproduce el "
-"archivo seleccionado y otros posteriores. La alternativa es que solo se "
-"reproduzca el archivo seleccionado."
+"'Reproducir ahora' para un único archivo. Solo aplica cuando el modo Fiesta "
+"está activo."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
-msgstr ""
+msgstr "Activar ajuste de velocidad"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9968,6 +9904,10 @@ msgid ""
 "additionally causes edited tracks to be recopied (useful for devices running "
 "3rd-party players)."
 msgstr ""
+"En la sincronización, los metadatos para las etiquetas editadas son siempre "
+"sincronizados. Esta opción causa adicionalmente que las pistas editadas sean "
+"copiadas de nuevo (útil para dispositivos que ejecuten reproductores de "
+"terceros)."
 
 #: dialogs\dlgEditView.html:23
 msgid "Sorting"
@@ -10114,10 +10054,8 @@ msgid "Minimizes to the Taskbar"
 msgstr "Minimiza a la Barra de Tareas"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:21
-#, fuzzy
-#| msgid "Imported"
 msgid "Import"
-msgstr "Importado"
+msgstr "Importar"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
@@ -10226,20 +10164,14 @@ msgstr ""
 "del tipo seleccionado."
 
 #: dialogs\dlgOptions\pnl_Player.html:32
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. Party Mode and Playback rule settings can override this "
 "default."
 msgstr ""
 "Esto determina que archivos son reproducidos cuando se ejecuta el comando "
-"'Reproducir ahora' para un único archivo. Por defecto se reproduce el "
-"archivo seleccionado y otros posteriores. La alternativa es que solo se "
-"reproduzca el archivo seleccionado."
+"'Reproducir ahora' para un único archivo. El Modo Fiesta y los ajustes de "
+"reglas de Reproducción puede anular este valor predeterminado."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -10307,10 +10239,8 @@ msgstr ""
 "muestra el carácter."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
-#, fuzzy
-#| msgid "previous files in Playing list"
 msgid "previous files in 'Playing' list"
-msgstr "archivos previos en la Lista en reproducción"
+msgstr "archivos previos en la lista 'En reproducción'"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
@@ -10435,16 +10365,12 @@ msgid "Add files from:"
 msgstr "Añadir archivos de:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:30
-#, fuzzy
-#| msgid ""
-#| "This determines how many previously played tracks will be displayed in "
-#| "the Playing list."
 msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "'Playing' list."
 msgstr ""
-"Esto determina cuantas pistas anteriormente reproducidas se mostrarán en la "
-"Lista en reproducción."
+"Esto determina cuántas pistas anteriormente reproducidas se mostrarán en la "
+"lista 'En reproducción'."
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:4
 msgid "Configure..."
@@ -10459,8 +10385,8 @@ msgid ""
 "Hotkeys let you define keyboard shortcuts to accomplish various actions. "
 "Select [New Hotkey] to create a new shortcut."
 msgstr ""
-"Las teclas de acceso directo te permiten definir atajos del teclado para "
-"realizar varias acciones. Selecciona [Nueva Tecla de Acceso Directo] para "
+"Las teclas de acceso rápido te permiten definir atajos del teclado para "
+"realizar varias acciones. Selecciona [Nueva Tecla de Acceso Rápido] para "
 "crear un nuevo atajo."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:13
@@ -10630,12 +10556,6 @@ msgid "Update & Next song (Alt-Right)"
 msgstr "Actualizar y Siguiente canción (Alt-Der)"
 
 #: dialogs\dlgOptions\pnl_General.html:28
-#, fuzzy
-#| msgid ""
-#| "By default, MediaMonkey minimizes to the taskbar. 'Minimize to "
-#| "MicroPlayer' causes it to appear as a toolbar next to the System tray "
-#| "when minimized. 'Minimize to MiniPlayer', displays 'Playing list' files "
-#| "even when the main application is minimized."
 msgid ""
 "By default, MediaMonkey minimizes to the taskbar. 'Minimize to MicroPlayer' "
 "causes it to appear as a toolbar next to the System tray when minimized. "
@@ -10645,7 +10565,7 @@ msgstr ""
 "Por defecto, MediaMonkey se minimiza a la barra de tareas. 'Minimizar a "
 "MicroReproductor' hace que al minimizarse aparezca como una barra de "
 "herramientas al lado de la bandeja del Sistema. 'Minimizar a "
-"MiniReproductor', muestra los archivos de la 'Lista en reproducción' incluso "
+"MiniReproductor', muestra los archivos de la lista 'En reproducción' incluso "
 "cuando la aplicación principal está minimizada."
 
 #: dialogs\dlgOptions\pnl_Library.html:78
@@ -10763,7 +10683,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:6
 msgid "Ignore Shuffle"
-msgstr "Ignorar Mezclado"
+msgstr "Ignorar Aleatorio"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:79
 msgid "First image per Album/Series:"
@@ -10840,10 +10760,8 @@ msgid "Ignore prefixes:"
 msgstr "Ignorar prefijos:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
-#, fuzzy
-#| msgid "upcoming files in Playing list"
 msgid "upcoming files in 'Playing' list"
-msgstr "archivos próximos en la Lista en reproducción"
+msgstr "archivos próximos en la lista 'En reproducción'"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:8
 msgid ""
@@ -10964,6 +10882,9 @@ msgid ""
 "image tags. If disabled, artwork is synced to a location that only "
 "MediaMonkey can read."
 msgstr ""
+"Guarda el arte en las carpetas de álbumes, para dispositivos y aplicaciones "
+"que no pueden leer etiquetas de imagen. Si está desactivado, el arte se "
+"sincroniza a una ubicación donde solo MediaMonkey puede leer."
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Move and rename files to new destination based on file tags"
@@ -11280,6 +11201,8 @@ msgstr "Mostrar diálogo de confirmación"
 #: controls\deviceConfig\options\pnl_Tagging.html:30
 msgid "Force files to resync whenever the source file has changed (slower)"
 msgstr ""
+"Fuerza la resincronización de archivos cuando el archivo de origen ha "
+"cambiado (más lento)"
 
 #: dialogs\dlgAbout.html:38
 msgid "Used for developer testing (disables automatic crashlog generation)"
@@ -11402,16 +11325,12 @@ msgid "Bitrate (for max. res.)"
 msgstr "Bitrate (para más. res.)"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
-#, fuzzy
-#| msgid ""
-#| "This turns on the Auto-DJ feature which causes tracks to automatically be "
-#| "added to the Playing list when it runs out."
 msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the 'Playing' list when it runs out."
 msgstr ""
 "Esto activa la característica Auto-DJ la cual hace que las pistas se añadan "
-"automáticamente a la Lista en reproducción cuando esta se agote."
+"automáticamente a la lista 'En reproducción' cuando esta se agote."
 
 #: dialogs\dlgOptions\pnl_Download.html:16
 msgid "Determines how often MediaMonkey checks for updates"
@@ -11777,10 +11696,8 @@ msgid "Device name"
 msgstr "Nombre del dispositivo"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
-#, fuzzy
-#| msgid "Sync all Artwork to file folders"
 msgid "Sync artwork to file folders"
-msgstr "Sincronizar todo el Arte a las carpetas de los archivos"
+msgstr "Sincronizar arte a las carpetas de archivos"
 
 #: dialogs\dlgAutoConvertRule.html:49
 msgid "Medium"
@@ -11929,20 +11846,15 @@ msgid "Use multiple CPU cores (if available)"
 msgstr "Usar múltiples núcleos de la CPU (si hay disponibles)"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:40
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It can be set use the default Player settings or customized "
 "for each media Type."
 msgstr ""
 "Esto determina que archivos son reproducidos cuando se ejecuta el comando "
-"'Reproducir ahora' para un único archivo. Por defecto se reproduce el "
-"archivo seleccionado y otros posteriores. La alternativa es que solo se "
-"reproduzca el archivo seleccionado."
+"'Reproducir ahora' para un único archivo. Esto puede establecerse para usar "
+"los ajustes por defecto del Reproductor o personalizado para cada Tipo "
+"multimedia."
 
 #: dialogs\dlgOptions\pnl_Player.html:90
 msgid "Vertical"
@@ -11974,7 +11886,7 @@ msgstr ""
 
 #: controls\deviceConfig\options\pnl_Tagging.html:15
 msgid "Syncs all images using the specified format and size"
-msgstr ""
+msgstr "Sincroniza todas las imágenes usando el formato y tamaño especificados"
 
 #: dialogs\dlgAutoOrganizeRule.html:11
 msgid "Organize these files using the following Directory and Filename format"
@@ -11999,15 +11911,11 @@ msgid "Preserve aspect ratio"
 msgstr "Preservar relación de aspecto"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:6
-#, fuzzy
-#| msgid ""
-#| "This determines how many tracks Auto-DJ will add to the Playing list when "
-#| "the list begins to empty."
 msgid ""
 "This determines how many tracks Auto-DJ will add to the 'Playing' list when "
 "the list begins to empty."
 msgstr ""
-"Esto determina cuantas pistas añadirá Auto-DJ a la Lista en reproducción "
+"Esto determina cuantas pistas añadirá Auto-DJ a la lista 'En reproducción' "
 "cuando la lista se empiece a vaciar."
 
 #: dialogs\dlgOptions\pnl_Download.html:20
@@ -12553,7 +12461,7 @@ msgstr "Directorio temporal:"
 
 #: dialogs\dlgOptions\pnl_Library.html:150
 msgid ".nfo files, Path and Filenames"
-msgstr "archivos .nfo, Ruta y Nombre de Fichero"
+msgstr "archivos .nfo, Ruta y Nombre de Archivo"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Remove silence at the beginning / end of track"
@@ -12723,11 +12631,10 @@ msgstr ""
 "los archivos seleccionados."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
-#, fuzzy
-#| msgid "Confirm desired options on removal of files from the Playing list"
 msgid "Confirm desired options on removal of files from the 'Playing' list"
 msgstr ""
-"Confirmar opciones deseadas al eliminar archivos de la Lista en reproducción"
+"Confirmar opciones deseadas al eliminar archivos de la lista 'En "
+"reproducción'"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -12759,7 +12666,7 @@ msgid ""
 "Causes files of the selected type to not be played when Shuffle is enabled."
 msgstr ""
 "Hace que los archivos del tipo seleccionado no se reproduzcan cuando esté "
-"activada el Orden al azar."
+"activado el Aleatorio."
 
 #: dialogs\dlgOptions\pnl_Player.html:48
 msgid "Slow fade-out:"
@@ -13181,7 +13088,7 @@ msgstr "Reproducir último"
 
 #: actions.js:3665
 msgid "Auto-&tag from filename"
-msgstr "Auto-e&tiquetar desde nombre de fichero"
+msgstr "Auto-e&tiquetar desde nombre de archivo"
 
 #: dialogs/dlgAutotagFromFilename.js:83
 msgid "Auto-tag from filename"
@@ -13290,13 +13197,15 @@ msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
 msgstr ""
+"Aleatorio desactivado. Imposible quitar aleatorio debido a ediciones - usa "
+"'Deshacer' para revertir cambios a la Lista en reproducción."
 
 #: controls/player.js:303
 msgid ""
 "Shuffles the Playing list and makes default play commands shuffle tracks."
 msgstr ""
-"Mezcla la Lista en reproducción y hace que los comandos predeterminados de "
-"reproducción mezclen pistas."
+"Aleatoriza la Lista en reproducción y hace que los comandos predeterminados "
+"de reproducción aleatoricen pistas."
 
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from Playing list only"
