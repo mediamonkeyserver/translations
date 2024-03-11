@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2024-03-11 11:21+0000\n"
+"PO-Revision-Date: 2024-03-11 11:42+0000\n"
 "Last-Translator: Johan Vestlund <johan@gnirpla.se>\n"
 "Language-Team: Swedish <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/sv/>\n"
@@ -7546,6 +7546,9 @@ msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
 msgstr ""
+"Det finns inte tillräckligt med utrymme på enheten för att synkronisera "
+"valda filer. Vill du rensa tillräckligt med utrymme genom att ta bort "
+"befintliga filer?"
 
 #. Clear tracks on the device
 #: Devices.pas:11458
@@ -7553,6 +7556,8 @@ msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
 msgstr ""
+"Det finns inte tillräckligt med utrymme på enheten för att synkronisera "
+"valda filer. Vill du fortsätta?"
 
 #: Devices.pas:11980 FileUtils.pas:820 ResStrings.pas:569
 msgid "Insufficient space available."
@@ -7560,22 +7565,22 @@ msgstr "Otillräckligt utrymme tillgängligt."
 
 #: Devices.pas:11982 Devices.pas:12301 Devices.pas:16060 Devices.pas:16069
 msgid "Problem while copying file %s to %s"
-msgstr ""
+msgstr "Problem vid kopiering av fil %s till %s"
 
 #. e.g. to know it when the tracks are part of a playlist that need to be modified (e.g. on MMS)
 #: Devices.pas:12933
 msgid "File %s is not supported by the device"
-msgstr ""
+msgstr "Filen %s stöds inte av enheten"
 
 #. no track being converted, see the tracks being downloaded from cloud
 #: Devices.pas:15383
 msgid "downloading"
-msgstr ""
+msgstr "laddar ner"
 
 #. track has failed to convert
 #: Devices.pas:15834
 msgid "Conversion of file %s failed"
-msgstr ""
+msgstr "Konvertering av filen %s misslyckades"
 
 #: ErrHandlers.pas:116
 msgid "File %s is read-only. Do you want to change it?"
@@ -7624,23 +7629,26 @@ msgstr ""
 #. e.g. for the confidence numbers after AccurateRip verification (#17023 - item 3)
 #: ErrHandlers.pas:385
 msgid "Result"
-msgstr ""
+msgstr "Resultat"
 
 #: ErrHandlers.pas:388
 msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
 msgstr ""
+"Ett eller flera spår kunde inte läsas/rippas eller verifieras. Välj spår om "
+"du vill försöka igen:"
 
 #: ErrHandlers.pas:389
 msgid ""
 "Track(s) have been verified against AccurateRip.com database with the "
 "following results:"
 msgstr ""
+"Spår har verifierats mot AccurateRip.com-databasen med följande resultat:"
 
 #: ErrHandlers.pas:390
 msgid "Ripping results"
-msgstr ""
+msgstr "Avkopierings-/rippningsresultat"
 
 #. #18222
 #: ErrHandlers.pas:403
@@ -7659,22 +7667,22 @@ msgstr "Ett problem uppstod när filen %s skulle uppdateras."
 #. #18222
 #: ErrHandlers.pas:430
 msgid "There was a problem converting the following file(s):"
-msgstr ""
+msgstr "Problem att konvertera följande fil(er):"
 
 #. #18222
 #: ErrHandlers.pas:444 Extensions.pas:886
 msgid "There was a problem downloading the following file(s):"
-msgstr ""
+msgstr "Problem att ladda ned följande fil(er):"
 
 #. #18222
 #: ErrHandlers.pas:458
 msgid "There was a problem scanning the following item(s):"
-msgstr ""
+msgstr "Problem med att skanna följande objekt:"
 
 #. #18222
 #: ErrHandlers.pas:471
 msgid "There was a problem synchronizing the following item(s):"
-msgstr ""
+msgstr "Problem vid synkronisering av följande objekt:"
 
 #. seconds
 #. splitting or decoding failed
@@ -7683,69 +7691,74 @@ msgstr ""
 #: ErrHandlers.pas:484 FormatsHandler.pas:3400 FormatsHandler.pas:3411
 #: GeneralDecoder.pas:433
 msgid "MediaMonkey is unable to decode this format."
-msgstr ""
+msgstr "MediaMonkey kan inte avkoda detta format."
 
 #: ErrHandlers.pas:496
 msgid ""
 "The trial version of the %s is limited to a 30-day trial period. For "
 "unrestricted use please upgrade to MediaMonkey Gold. Do you want to upgrade?"
 msgstr ""
+"Provversionen av %s är begränsad till en 30-dagars provperiod, men du kan få "
+"tillgång till obegränsad användning om du uppgraderar till MediaMonkey Gold. "
+"Vill du uppgradera?"
 
 #. #18222
 #: ErrHandlers.pas:509
 msgid "There was a problem organizing the following file(s):"
-msgstr ""
+msgstr "Problem med att organisera följande fil(er):"
 
 #: ExceptionHandler.pas:285
 msgid "Restart in Safe mode"
-msgstr ""
+msgstr "Starta om i felsäkert läge"
 
 #. set buttons captions
 #: ExceptionHandler.pas:319
 msgid "Disable & Restart"
-msgstr ""
+msgstr "Inaktivera och starta om"
 
 #. Pointer not needed.
 #: ExceptionHandler.pas:344
 msgid "Callstack"
-msgstr ""
+msgstr "Callstack"
 
 #: ExceptionHandler.pas:493
 msgid "There was a runtime error in Addon"
-msgstr ""
+msgstr "Det uppstod ett körningsfel i tillägget"
 
 #: ExceptionHandler.pas:493
 msgid "Do you want to disable this addon?"
-msgstr ""
+msgstr "Vill du inaktivera detta tillägg?"
 
 #: Extensions.pas:911
 msgid "Invalid Addon: only valid for MediaMonkey 4.x"
-msgstr ""
+msgstr "Ogiltigt tillägg: fungerar endast för MediaMonkey 4.x"
 
 #. show the addon's config immediatelly (so that users are aware)
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
 #: Extensions.pas:1039 UpNp.pas:11833
 msgid "%s was successfully installed."
-msgstr ""
+msgstr "%s har installerats."
 
 #: Extensions.pas:1044
 msgid "%s was not installed."
-msgstr ""
+msgstr "%s installerades inte."
 
 #: Extensions.pas:1058
 msgid ""
 "This action will uninstall '%s'.\n"
 "Do you wish to continue?"
 msgstr ""
+"Den här åtgärden avinstallerar \"%s\".\n"
+"Vill du fortsätta?"
 
 #: Extensions.pas:1352 Extensions.pas:1372 Extensions.pas:1378
 #: Extensions.pas:1450
 msgid "No update available"
-msgstr ""
+msgstr "Ingen uppdatering tillgänglig"
 
 #: Extensions.pas:1360 dialogs\dlgExtensions.html:15
 msgid "Fetching update info"
-msgstr ""
+msgstr "Hämtar uppdateringsinformation"
 
 #. standardize (#17808):
 #: Extensions.pas:1583 Extensions.pas:1587
@@ -7756,11 +7769,11 @@ msgstr "Skins"
 
 #: Extensions.pas:1584
 msgid "Icons"
-msgstr ""
+msgstr "Ikoner"
 
 #: Extensions.pas:1586 dialogs\dlgSupportedFormat.html:67
 msgid "Profiles"
-msgstr ""
+msgstr "Profiler"
 
 #: Extensions.pas:1593
 msgid "Tweaks"
