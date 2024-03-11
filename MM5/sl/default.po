@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-16 10:39\n"
-"PO-Revision-Date: 2022-10-03 08:12+0000\n"
+"PO-Revision-Date: 2024-03-11 16:08+0000\n"
 "Last-Translator: Marko Mahnic <mahnic.marko@gmail.com>\n"
 "Language-Team: Slovenian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/sl/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.2.2\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -87,10 +87,8 @@ msgstr "Zgodovina"
 #: dialogs/dlgOptions.js:39 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:428 maincontent.html:50
-#, fuzzy
-#| msgid "Playing list"
 msgid "'Playing' list"
-msgstr "Seznam predvajanja"
+msgstr "Seznam 'Predvajanje'"
 
 #. load player in timeout to be sure video window is already stretched to full screen
 #: actions.js:58 playerUtils.js:449
@@ -373,10 +371,8 @@ msgid "Save new order"
 msgstr "Shrani novo ureditev"
 
 #: actions.js:1184 dialogs/dlgAutoorganize.js:19
-#, fuzzy
-#| msgid "Auto-organi&ze files"
 msgid "Organi&ze files"
-msgstr "Samodejno ure&di datoteke"
+msgstr "Ure&di datoteke"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. whenLoaded promise is awaited directly in the dialog
@@ -601,7 +597,7 @@ msgstr "Skladatelj"
 #: MaskHelper.pas:3132 MaskHelper.pas:3559 MaskHelper.pas:3873
 #: ResStrings.pas:489
 msgid "Conductor"
-msgstr "Skladatelj"
+msgstr "Dirigent"
 
 #. this field should not be used for whole album, specific for each track
 #. don't save
@@ -1087,10 +1083,8 @@ msgstr "Ize&načevalnik"
 
 #: actions.js:2854 controls/player.js:466 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "Prilagodi video"
+msgstr "Prilagodi hitrost"
 
 #: actions.js:2999
 msgid "&Rip Audio CD"
@@ -1153,26 +1147,20 @@ msgid "shuffled by Album"
 msgstr "naključno glede na album"
 
 #: actions.js:3179 actions.js:6245 controls/trackListView.js:1910
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue mixed"
-msgstr "V vrsti"
+msgstr "Kjerkoli v vrsti"
 
 #: actions.js:3193 actions.js:3207 actions.js:3210 actions.js:3224
 #: actions.js:3227 actions.js:6230 controls/trackListView.js:1895
 #: MediaMonkeyApp.pas:9096 dialogs\dlgOptions\pnl_OSIntegration.html:9
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue next"
-msgstr "V vrsti"
+msgstr "Naslednji v vrsti"
 
 #: actions.js:3241 actions.js:3255 actions.js:3258 actions.js:3272
 #: actions.js:3275 actions.js:6260 controls/trackListView.js:1925
 #: MediaMonkeyApp.pas:9097 dialogs\dlgOptions\pnl_OSIntegration.html:10
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue last"
-msgstr "V vrsti"
+msgstr "Zadnji v vrsti"
 
 #: actions.js:3289 controls/player.js:173 FileAssoc.pas:740
 msgid "Play"
@@ -1233,12 +1221,17 @@ msgstr "Naključno uredi seznam"
 #: actions.js:3470
 msgid "Shuffle disabled. Reverting to unshuffled list."
 msgstr ""
+"Naključno predvajanje onemogočeno. Vrnitev na seznam predvajanja po vrstnem "
+"redu."
 
 #: actions.js:3474
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
 msgstr ""
+"Naključno predvajanje onemogočeno. Zaradi vaših sprememb naključnega "
+"predvajanja ni mogoče razveljaviti – uporabite 'Razveljavi', da povrnete "
+"spremembe na seznamu 'Predvajanje'."
 
 #: actions.js:3486
 msgid "Repeat off"
@@ -1295,10 +1288,8 @@ msgid "S&leep"
 msgstr "S&panje"
 
 #: actions.js:3671 dialogs/dlgAutotagFromFilename.js:84
-#, fuzzy
-#| msgid "Auto-&tag from filename"
 msgid "&Tag from filename"
-msgstr "Samodejno &označi iz imena datoteke"
+msgstr "&Označi iz imena datoteke"
 
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:3695
@@ -1558,10 +1549,8 @@ msgstr "&Razveljavi"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4864 controls/filterEditor.js:93 controls/navigationBar.js:344
-#, fuzzy
-#| msgid "Clear search history"
 msgid "Clear history"
-msgstr "Izbriši zgodovino iskanja"
+msgstr "Izbriši zgodovino"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
 #: actions.js:4878 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
@@ -1697,10 +1686,8 @@ msgid "Extra large"
 msgstr "Zelo veliko"
 
 #: actions.js:5446 controls\playlistHeader.html:8
-#, fuzzy
-#| msgid "Play now"
 msgid "Play normally"
-msgstr "Predvajaj zdaj"
+msgstr "Predvajaj neposredno"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. adds shuffle menu commands to button context menu
@@ -2132,10 +2119,8 @@ msgstr "Za to dejanje izberite eno ali več datotek."
 #. hide full window player and switcher
 #. TODO: add links to stations
 #: uitools.js:2452 viewHandlers.js:7646 viewHandlers.js:7740
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Edit bookmark"
-msgstr "Dodaj zaznamek"
+msgstr "Uredi zaznamek"
 
 #: uitools.js:2464
 msgid "Website link:"
@@ -2144,7 +2129,7 @@ msgstr "Povezava do spletne strani:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2542
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "MediaMonkey je treba ponovno zagnati za potrditev sprememb"
 
 #: uitools.js:2544 controls/buttons.js:479 ExceptionHandler.pas:284
 #: ExceptionHandler.pas:320 ResStrings.pas:588
@@ -2153,7 +2138,7 @@ msgstr "Ponovno zaženi"
 
 #: uitools.js:2848
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "Išči po izbranih lokacijah:"
 
 #: uitools.js:2860
 msgid "Please select at least one folder to scan."
@@ -2679,7 +2664,7 @@ msgstr "Skladatelji"
 
 #: viewHandlers.js:6441
 msgid "composer"
-msgstr "Skladatelj"
+msgstr "skladatelj"
 
 #: viewHandlers.js:6448 controls/searchView.js:119 UPnPTreeHelper.pas:1892
 msgid "Conductors"
@@ -2878,16 +2863,12 @@ msgstr "Zbirke"
 
 #. other windows are fetching this value (e.g. in uitools.showExtensions)
 #: controls/addonListView.js:85
-#, fuzzy
-#| msgid "Install Now"
 msgid "Install"
-msgstr "Namesti zdaj"
+msgstr "Namesti"
 
 #: controls/addonListView.js:87
-#, fuzzy
-#| msgid "Installing update"
 msgid "Install update"
-msgstr "Nameščanje posodobitve"
+msgstr "Namesti posodobitev"
 
 #. failure
 #: controls/addonListView.js:142
@@ -3752,10 +3733,8 @@ msgstr "Običajno okno"
 
 #: controls/nowplayingview.js:147 controls/nowPlaying/artistBio.js:65
 #: controls/nowPlaying/fullList.js:151
-#, fuzzy
-#| msgid "Show Playing list"
 msgid "Show 'Playing' list"
-msgstr "Pokaži seznam predvajanja"
+msgstr "Pokaži seznam 'Predvajanje'"
 
 #. Main context manu of Now Playing view
 #: controls/nowplayingview.js:212
@@ -3799,20 +3778,20 @@ msgstr "Notranji predvajalnik"
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
 msgstr ""
+"Premeša seznam 'Predvajanje' in nastavi privzete ukaze za naključno "
+"predvajanje skladb."
 
 #: controls/player.js:459
 msgid "Speed"
-msgstr ""
+msgstr "hitrost predvajanja"
 
 #: controls/player.js:463
-#, fuzzy
-#| msgid "Switch"
 msgid "Pitch"
-msgstr "Zamenjaj"
+msgstr "Višina tona"
 
 #: controls/player.js:463 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
-msgstr ""
+msgstr "poltoni"
 
 #: controls/player.js:519
 msgid "Time"
@@ -3942,13 +3921,11 @@ msgstr "Drsenje do zadetka"
 
 #: controls/searchBar.js:462 dialogs/dlgOptions/pnl_Search.js:56
 msgid "primary sort field"
-msgstr ""
+msgstr "primarno polje za razvrščanje"
 
 #: controls/searchBar.js:488 dialogs/dlgOptions/pnl_Search.js:57
-#, fuzzy
-#| msgid "All fields"
 msgid "all fields"
-msgstr "Vsa polja"
+msgstr "vsa polja"
 
 #. LS: seems to be valid also for active list searching (e.g. in Music > All Tracks) -- i.e. this.searchType == 'activelist'
 #: controls/searchBar.js:719
@@ -3957,13 +3934,10 @@ msgstr "Nasveti za iskanje"
 
 #. following variants are not supported in word infix mode (see #17395)
 #: controls/searchBar.js:722
-#, fuzzy
-#| msgid ""
-#| "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
 msgstr ""
-"+Foo | poišče besede, ki se začnejo z Foo (z velikimi in malimi črkami, npr. "
-"Football (nogomet))"
+"foo | poišče besede, ki se začnejo z foo (z velikimi in malimi črkami, npr. "
+"Bar Food ali fóObar)"
 
 #: controls/searchBar.js:723
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
@@ -3973,7 +3947,7 @@ msgstr ""
 
 #: controls/searchBar.js:725
 msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
-msgstr ""
+msgstr "\"Foo\" | najde cele besede  (npr. FOO ali fóo)"
 
 #: controls/searchBar.js:726
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
@@ -4209,10 +4183,8 @@ msgstr "Nazadnje predvajano"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:371 QueryManage.pas:4937
-#, fuzzy
-#| msgid "Skipped"
 msgid "Last Skipped"
-msgstr "Preskočeno"
+msgstr "Nazadnje preskočeno"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. bitrate
@@ -4356,10 +4328,8 @@ msgstr "Izvirni izvajalec"
 #: controls/trackListView.js:1220 MaskHelper.pas:3156 ResStrings.pas:480
 #: ResStrings.pas:491 ResStrings.pas:534
 #: dialogs\dlgTrackProperties\tabDetails.html:64
-#, fuzzy
-#| msgid "Original AR"
 msgid "Original Album"
-msgstr "Izvirno razmerje višina/širina"
+msgstr "Album v izvirni obliki"
 
 #: controls/trackListView.js:1237 MaskHelper.pas:3155 ResStrings.pas:479
 #: ResStrings.pas:533 dialogs\dlgTrackProperties\tabDetails.html:75
@@ -4607,10 +4577,9 @@ msgid "Also generate playlists on '%s' for:"
 msgstr "Na '% s' ustvari tudi sezname predvajanja za:"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
-#, fuzzy
-#| msgid "Modify metadata as follows when syncing to '%s'"
 msgid "Update files and metadata as follows when syncing to '%s'"
-msgstr "Pri sinhronizaciji z '%s' spremeni metapodatke tako"
+msgstr ""
+"Pri sinhronizaciji z '%s' posodobi datoteke in metapodatke na naslednji način"
 
 #: controls/nowPlaying/fullList.js:211
 msgid "Click to look up lyrics..."
@@ -4662,10 +4631,12 @@ msgid ""
 "%s seems to be working correctly. See Help, if you're unable to access the "
 "server from other devices."
 msgstr ""
+"Zdi se, da %s deluje pravilno. Če ne morete dostopati do strežnika iz drugih "
+"naprav, glejte razdelek 'Pomoč'."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
-msgstr ""
+msgstr "Strežnik ne deluje"
 
 #: controls/serverConfig/server.js:138 UpNp.pas:5812
 msgid "Client name"
@@ -5006,28 +4977,20 @@ msgstr "Izbriši iz seznama predvajanja, zbirke podatkov in pogona"
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
-#, fuzzy
-#| msgid "Remove from Playing list only"
 msgid "Remove from 'Playing' list only"
-msgstr "Odstrani samo iz seznama predvajanja"
+msgstr "Odstrani samo iz seznama 'Predvajanje'"
 
 #: dialogs/dlgDeleteConfirm.js:135
-#, fuzzy
-#| msgid "Remove from Playing list and"
 msgid "Remove from 'Playing' list and"
-msgstr "Odstrani iz seznama predvajanja in"
+msgstr "Odstrani iz seznama 'Predvajanje' in"
 
 #: dialogs/dlgDeleteConfirm.js:160
-#, fuzzy
-#| msgid "Delete from Playing list and the database only"
 msgid "Delete from 'Playing' list and the database only"
-msgstr "Odstrani samo iz seznama predvajanja in zbirke podatkov"
+msgstr "Odstrani samo iz seznama 'Predvajanje' in zbirke podatkov"
 
 #: dialogs/dlgDeleteConfirm.js:161
-#, fuzzy
-#| msgid "Delete from Playing list, the database and drive"
 msgid "Delete from 'Playing' list, the database and drive"
-msgstr "Odstrani iz seznama predvajanja, zbirke podatkov in pogona"
+msgstr "Odstrani iz seznama 'Predvajanje', zbirke podatkov in pogona"
 
 #: dialogs/dlgDeleteConfirm.js:189
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
@@ -5067,8 +5030,6 @@ msgid "Everywhere"
 msgstr "Povsod"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
 msgstr "Vnesite ime"
 
@@ -5112,10 +5073,8 @@ msgstr "Enkrat"
 
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:47
-#, fuzzy
-#| msgid "The media '%s' is not inserted."
 msgid "The location %s does not exist."
-msgstr "Medij '%s' ni vstavljen."
+msgstr "Lokacija %s ne obstaja."
 
 #: dialogs/dlgImageSize.js:41
 msgid "Browser & Grid views"
@@ -5540,13 +5499,11 @@ msgstr "Skeniraj rezultate"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "filtrirano ali onemogočeno v"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "Sinhronizacija nastavitev"
+msgstr "Nastavitve knjižnice"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5557,26 +5514,20 @@ msgid "Search and update took %s"
 msgstr "Iskanje in posodobitev je trajalo %s"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
-msgstr "Uvoženih %d novih datotek"
+msgstr "Dodanih je bilo toliko novih datotek: %d"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
 msgstr "Posodobljenih %d datotek"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "Uvažanje %d datotek ni uspelo"
+msgstr "Toliko datotek ni bilo mogoče dodati: %d"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "Posodobljenih %d datotek"
+msgstr "Preskočenih datotek: %d"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5645,10 +5596,8 @@ msgid "Sleep timer can be used only with Gold!"
 msgstr "Časovnik za spanje lahko uporabljate samo v različici Gold!"
 
 #: dialogs/dlgSpeedPitch.js:11
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust pitch"
-msgstr "Prilagodi video"
+msgstr "Prilagodi višino tona"
 
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
@@ -5860,10 +5809,8 @@ msgstr ""
 "bližnjično tipko."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:241
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
-msgstr "Želite izbrisati izbrano bližnjično tipko?"
+msgstr "Želite izbrisati izbrane bližnjične tipke?"
 
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
 #: dialogs/dlgOptions/pnl_Hotkeys.js:255
@@ -5929,10 +5876,8 @@ msgid "New layout name"
 msgstr "Ime nove postavitve"
 
 #: dialogs/dlgOptions/pnl_LayoutToolbar.js:58
-#, fuzzy
-#| msgid "narrator"
 msgid "Separator"
-msgstr "pripovedovalec"
+msgstr "Ločevalnik"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:35 UpNp.pas:10327
 #: controls\serverConfig\server.html:5
@@ -6083,10 +6028,8 @@ msgid "Match within words"
 msgstr "Ujemanje znotraj besed"
 
 #: dialogs/dlgOptions/pnl_Search.js:58
-#, fuzzy
-#| msgid "'Play now' action:"
 msgid "Take no action"
-msgstr "Dejanje 'Predvajaj zdaj':"
+msgstr "Ne ukrepaj"
 
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:2
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:3
@@ -6115,6 +6058,8 @@ msgstr "Samodejno analizira obseg skladb kot proces v ozadju"
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
 msgstr ""
+"Sprememba naslovnice pri %s bo vplivala tudi na toliko drugih datotek v "
+"albumu: %d."
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6249,14 +6194,12 @@ msgid "Local storage"
 msgstr "Lokalni pomnilnik"
 
 #: dialogs/dlgWizard/pnlScan.js:155
-#, fuzzy
-#| msgid "Move Library content only"
 msgid "Media Server content is read-only."
-msgstr "Premakni samo vsebino Knjižnice"
+msgstr "Vsebina medijskega strežnika je samo za branje."
 
 #: dialogs/dlgWizard/pnlScan.js:155
 msgid "You might want to add the content via a 'Network' location instead."
-msgstr ""
+msgstr "Morda boste namesto tega želeli dodati vsebino prek lokacije 'Omrežje'."
 
 #: dialogs/dlgWizard/pnlScan.js:155
 msgid "Are you sure you want to proceed?"
@@ -6730,10 +6673,8 @@ msgstr ""
 "ali uredite vnos v "
 
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:31
-#, fuzzy
-#| msgid "During Recording"
 msgid "recording"
-msgstr "Med snemanjem"
+msgstr "snemanje"
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
@@ -6855,10 +6796,8 @@ msgid "Sync root"
 msgstr "Pot sinhronizacije"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:87
-#, fuzzy
-#| msgid "Use hardware acceleration when available"
 msgid "Milkshake requires Hardware Acceleration to be enabled"
-msgstr "Omogoči strojno pospeševanje, če je na voljo"
+msgstr "Milkshake zahteva, da je omogočeno strojno pospeševanje"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:267
 msgid "Select preset"
@@ -6867,7 +6806,7 @@ msgstr "Izberi privzeto"
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:299
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "Preklop na najmanjšo širino YouTube videoposnetka."
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -7047,10 +6986,8 @@ msgstr ""
 "zelo verjetno pokvarjeni."
 
 #: CDUtils.pas:1926
-#, fuzzy
-#| msgid "Drive %s is running out of space."
 msgid "Drive %s is currently in use."
-msgstr "Na pogonu %s zmanjkuje prostora."
+msgstr "Pogon %s je trenutno v uporabi."
 
 #: Covers.pas:767
 msgid "Not specified"
@@ -7290,6 +7227,8 @@ msgid ""
 "This version of MediaMonkey supports new tag(s) (%s). Would you like to "
 "rescan files now in order to read these tags?"
 msgstr ""
+"Ta različica MediaMonkey podpira nove oznake (%s). Ali želite zdaj ponovno "
+"pregledati datoteke, da boste lahko prebrali te oznake?"
 
 #: DBStructure.pas:971
 msgid ""
@@ -7469,6 +7408,8 @@ msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
 msgstr ""
+"Ene ali več skladb ni bilo mogoče kopirati ali preveriti. Izberite skladbo/"
+"skladbe za ponovni poskus:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -7593,10 +7534,8 @@ msgid "Skins"
 msgstr "Preobleke"
 
 #: Extensions.pas:1584
-#, fuzzy
-#| msgid "Icon"
 msgid "Icons"
-msgstr "Ikona"
+msgstr "Ikone"
 
 #: Extensions.pas:1586 dialogs\dlgSupportedFormat.html:67
 msgid "Profiles"
@@ -7614,17 +7553,13 @@ msgstr "&Predvajaj v MediaMonkey"
 
 #. #19167
 #: FileAssoc.pas:735
-#, fuzzy
-#| msgid "Play &next in MediaMonkey"
 msgid "Queue &next in MediaMonkey"
-msgstr "Predvajaj &naslednje v MediaMonkey"
+msgstr "&Naslednji v vrsti v MediaMonkey"
 
 #. #19167
 #: FileAssoc.pas:736
-#, fuzzy
-#| msgid "Play &last in MediaMonkey"
 msgid "Queue &last in MediaMonkey"
-msgstr "Predvajaj &zadnje v MediaMonkey"
+msgstr "&Zadnji v vrsti v MediaMonkey"
 
 #: FileAssoc.pas:737
 msgid "Sync device"
@@ -7961,7 +7896,7 @@ msgstr "Ali želite iz Predvaja se odstraniti toliko dvojnikov: %d?"
 #: FullPlayer.pas:6795
 msgid ""
 "The operation will complete after the the current file finishes playing."
-msgstr ""
+msgstr "Postopek se bo zaključil po končanem predvajanju trenutne datoteke."
 
 #: FullPlayer.pas:7255
 msgid ""
@@ -8174,10 +8109,6 @@ msgid "Caching files from network"
 msgstr "Predpomnjenje datotek iz omrežja"
 
 #: hpCDEBurner.pas:2226
-#, fuzzy
-#| msgid ""
-#| "Burn operation failed! Some of the tracks are protected by Digital Rights "
-#| "Management, preventing the disk from being burnt."
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disc from being burnt."
@@ -8513,10 +8444,8 @@ msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Spremljanje $FAdd$ of $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:1729 MP3Utils.pas:2012
-#, fuzzy
-#| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr "Dodajanje $FAdd$ of $FTot$ ($Dir$$Str$)"
+msgstr "Preverjanje $FAdd$ od $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:2087
 msgid "Problem with scanning directory %s."
@@ -8748,6 +8677,8 @@ msgstr "Shranjevanje oznak"
 msgid ""
 "Album leveling is enabled, which will cause %d other tracks to be analyzed."
 msgstr ""
+"Omogočeno je uravnavanje glasnosti albuma, kar bo povzročilo analizo toliko "
+"drugih skladb: %d."
 
 #: Normalization.pas:1396
 msgid "%d of %d (%s)"
@@ -8901,10 +8832,8 @@ msgid "Any text"
 msgstr "Vsako besedilo"
 
 #: QueryManage.pas:4914
-#, fuzzy
-#| msgid "My Rating"
 msgid "Album Rating"
-msgstr "Moja ocena"
+msgstr "Ocena albuma"
 
 #: QueryManage.pas:4919
 msgid "# Tracks by Artist"
@@ -9260,7 +9189,7 @@ msgstr "Vstavite medij za zapisovanje ..."
 
 #: ResStrings.pas:873
 msgid "Error erasing the CDRW."
-msgstr "Napaka pri brisanju medija (CD-RW)"
+msgstr "Napaka pri brisanju medija CD-RW."
 
 #: ResStrings.pas:875
 msgid "Burning was not successful"
@@ -9275,10 +9204,8 @@ msgid "Re-burn this disc?"
 msgstr "Ali želite ponoviti zapisovanje na medij?"
 
 #: ResStrings.pas:879
-#, fuzzy
-#| msgid "Could not write the image layout to the disk."
 msgid "Could not write the image layout to the disc."
-msgstr "Postavitve slike ni bilo mogoče zapisati na medij."
+msgstr "Postavitve slike ni bilo mogoče zapisati na ploščo."
 
 #: ResStrings.pas:880
 msgid "Burning was terminated."
@@ -9329,10 +9256,8 @@ msgid "Sleep: %d minute"
 msgstr "Spanje: %d minuta"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "Database file %s cannot be accessed."
-msgstr "Datoteka %s ne more biti ustvarjena."
+msgstr "Ni dostopa do datoteke zbirke podatkov %s."
 
 #. per #17917
 #: UpNp.pas:1956
@@ -9341,6 +9266,9 @@ msgid ""
 "to not be discoverable by other devices on the network. If you're on a home "
 "network, you may want to switch your network connection to 'Private'."
 msgstr ""
+"Vaše omrežje je nastavljeno kot 'Javno'. To običajno povzroči, da vaše "
+"naprave ne morejo odkriti druge naprave v omrežju. Če ste v domačem omrežju, "
+"boste morda želeli preklopiti omrežno povezavo na 'Zasebno'."
 
 #. #13718 - item 1
 #: UpNp.pas:2499
@@ -9382,10 +9310,8 @@ msgid "Root directory"
 msgstr "Korenska mapa"
 
 #: UpNp.pas:4862
-#, fuzzy
-#| msgid "MediaMonkey Player"
 msgid "Output from MediaMonkey Player"
-msgstr "MediaMonkey predvajalnik"
+msgstr "Reprodukcija iz predvajalnika MediaMonkey"
 
 #: UpNp.pas:5805 UpNp.pas:5811
 msgid "This is an external IP address!"
@@ -9553,19 +9479,15 @@ msgid "This changes the header for each custom field."
 msgstr "To spremeni glavo za vsako polje po meri."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
-#, fuzzy
-#| msgid ""
-#| "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
-#| "Playing list, remove them from the Playing list and the Library, or "
-#| "delete them from the Playing list, the Library, and the computer system."
 msgid ""
 "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
 "'Playing' list, remove them from the 'Playing' list and the Library, or "
 "delete them from the 'Playing' list, the Library, and the computer system."
 msgstr ""
 "Če je omogočeno, vas bo MediaMonkey vprašal ali želite odstraniti skladbe iz "
-"seznama predvajanja, iz seznama predvajanja in knjižnice, ali pa jih želite "
-"izbrisati iz seznama predvajanja, knjižnice in računalniškega sistema."
+"seznama 'Predvajanje', iz seznama 'Predvajanje' in knjižnice, ali pa jih "
+"želite izbrisati iz seznama 'Predvajanje', knjižnice in računalniškega "
+"sistema."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -9794,7 +9716,7 @@ msgstr "Analiza glasnosti"
 
 #: dialogs\dlgOptions\pnl_Search.html:9
 msgid "Show results only after pressing ENTER"
-msgstr ""
+msgstr "Prikaži rezultate šele po pritisku na tipko ENTER"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:14
 msgid "ID3v1 and v2.3 tags"
@@ -9842,22 +9764,16 @@ msgid "Check for updates (when connected)"
 msgstr "Preveri za posodobitve (pri vzpostavljeni povezavi)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It applies only when Party mode is active."
 msgstr ""
-"Določa katere datoteke se predvajajo, ko je aktiviran ukaz 'Predvajaj zdaj' "
-"za posamezno datoteko. Privzeto se predvaja izbrana datoteka in druge, ki ji "
-"sledijo. Druga možnost je, da se predvaja samo izbrana datoteka."
+"Določa, katere datoteke se predvajajo, ko se za eno datoteko zažene ukaz "
+"'Predvajaj zdaj'. Uporablja se samo, če je aktiven način zabave."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
-msgstr ""
+msgstr "Omogoči nastavitev hitrosti"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9909,12 +9825,13 @@ msgid ""
 "additionally causes edited tracks to be recopied (useful for devices running "
 "3rd-party players)."
 msgstr ""
+"Pri sinhronizaciji se metapodatki za urejene oznake vedno sinhronizirajo. To "
+"dodatno omogoča ponovno kopiranje urejenih skladb (uporabno za naprave z "
+"drugimi predvajalniki)."
 
 #: dialogs\dlgEditView.html:23
-#, fuzzy
-#| msgid "Exporting"
 msgid "Sorting"
-msgstr "Izvažanje"
+msgstr "Razvrščanje"
 
 #: dialogs\dlgMaintainLibrary.html:24
 msgid "Retain backups:"
@@ -9963,6 +9880,8 @@ msgstr "Horizontalno"
 #: dialogs\dlgOptions\pnl_Streaming.html:9
 msgid "Play all audio tracks as single stream to external players (gaplessly)"
 msgstr ""
+"Predvajaj vse zvočne posnetke zunanjim predvajalnikom kot en sam pretok ("
+"brez vrzeli)"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:85
 msgid ""
@@ -10047,10 +9966,8 @@ msgid "Minimizes to the Taskbar"
 msgstr "Minimizira v opravilno vrstico"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:21
-#, fuzzy
-#| msgid "Imported"
 msgid "Import"
-msgstr "Uvoženo"
+msgstr "Uvozi"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
@@ -10156,19 +10073,14 @@ msgstr ""
 "datotek."
 
 #: dialogs\dlgOptions\pnl_Player.html:32
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. Party Mode and Playback rule settings can override this "
 "default."
 msgstr ""
-"Določa katere datoteke se predvajajo, ko je aktiviran ukaz 'Predvajaj zdaj' "
-"za posamezno datoteko. Privzeto se predvaja izbrana datoteka in druge, ki ji "
-"sledijo. Druga možnost je, da se predvaja samo izbrana datoteka."
+"Določa katere datoteke se predvajajo, ko se za eno datoteko zažene ukaz "
+"'Predvajaj zdaj'. Nastavitve pravil za način zabave in predvajanje lahko "
+"preglasijo to privzeto nastavitev."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -10235,10 +10147,8 @@ msgstr ""
 "(npr. rock; folk). Presledki določajo, kako je znak prikazan."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
-#, fuzzy
-#| msgid "previous files in Playing list"
 msgid "previous files in 'Playing' list"
-msgstr "prejšnje datoteke na seznamu predvajanja"
+msgstr "prejšnje datoteke na seznamu 'Predvajanje'"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
@@ -10362,15 +10272,11 @@ msgid "Add files from:"
 msgstr "Dodaj datoteke iz:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:30
-#, fuzzy
-#| msgid ""
-#| "This determines how many previously played tracks will be displayed in "
-#| "the Playing list."
 msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "'Playing' list."
 msgstr ""
-"To določa, koliko predvajanih skladb bo prikazano na seznamu predvajanja."
+"Določa, koliko že predvajanih skladb bo prikazanih na seznamu 'Predvajanje'."
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:4
 msgid "Configure..."
@@ -10551,12 +10457,6 @@ msgid "Update & Next song (Alt-Right)"
 msgstr "Posodobi &naslednjo pesem (desna tipka Alt)"
 
 #: dialogs\dlgOptions\pnl_General.html:28
-#, fuzzy
-#| msgid ""
-#| "By default, MediaMonkey minimizes to the taskbar. 'Minimize to "
-#| "MicroPlayer' causes it to appear as a toolbar next to the System tray "
-#| "when minimized. 'Minimize to MiniPlayer', displays 'Playing list' files "
-#| "even when the main application is minimized."
 msgid ""
 "By default, MediaMonkey minimizes to the taskbar. 'Minimize to MicroPlayer' "
 "causes it to appear as a toolbar next to the System tray when minimized. "
@@ -10566,7 +10466,7 @@ msgstr ""
 "MediaMonkey se privzeto minimizira v opravilno vrstico. 'Minimiziraj v Mikro "
 "predvajalnik' prikaže orodno vrstico poleg sistemskega pladnja, ko je "
 "program minimiziran. 'Minimiziraj v Mini predvajalnik' prikaže datoteke kot "
-"'Seznam predvajanja', tudi če je osnovni program minimiziran."
+"seznam 'Predvajanje', tudi če je osnovni program minimiziran."
 
 #: dialogs\dlgOptions\pnl_Library.html:78
 msgid "Remove unused Attributes (Artist, Album, Composer, ...)"
@@ -10758,10 +10658,8 @@ msgid "Ignore prefixes:"
 msgstr "Prezri predpone:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
-#, fuzzy
-#| msgid "upcoming files in Playing list"
 msgid "upcoming files in 'Playing' list"
-msgstr "prihajajočih datotek na seznamu predvajanja"
+msgstr "prihajajoče datoteke na seznamu 'Predvajanje'"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:8
 msgid ""
@@ -10880,6 +10778,9 @@ msgid ""
 "image tags. If disabled, artwork is synced to a location that only "
 "MediaMonkey can read."
 msgstr ""
+"Shrani naslovnico v mape albuma, za naprave in aplikacije, ki ne morejo "
+"brati slikovnih oznak. Če je onemogočeno, se naslovnica sinhronizira z "
+"lokacijo, ki jo lahko prebere samo MediaMonkey."
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Move and rename files to new destination based on file tags"
@@ -10894,10 +10795,8 @@ msgid "Reset to default"
 msgstr "Ponastavi na privzeto"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Install as service"
 msgid "Install addon from file"
-msgstr "Namesti kot storitev"
+msgstr "Namesti dodatek iz datoteke"
 
 #: dialogs\dlgMP3Settings.html:95
 msgid "Strict ISO compliance"
@@ -10984,7 +10883,7 @@ msgstr "Opozorilo bo izginilo v:"
 
 #: dialogs\dlgPodcastSubscription.html:23
 msgid "This is not a valid RSS link and may not subscribe correctly. "
-msgstr ""
+msgstr "Povezava RSS ni veljavna in se nanjo morda ne bo možno naročiti. "
 
 #: dialogs\dlgSleep.html:17
 msgid "Start fading in"
@@ -11193,6 +11092,8 @@ msgstr "Pokaži potrditveno pogovorno okno"
 #: controls\deviceConfig\options\pnl_Tagging.html:30
 msgid "Force files to resync whenever the source file has changed (slower)"
 msgstr ""
+"Prisili ponovno sinhronizacijo datotek vsakič, ko se izvorna datoteka "
+"spremeni (počasneje)"
 
 #: dialogs\dlgAbout.html:38
 msgid "Used for developer testing (disables automatic crashlog generation)"
@@ -11275,6 +11176,8 @@ msgstr "(globalne nastavitve)"
 #: controls\serverConfig\devices.html:3
 msgid "Scrobble to last.fm if Scrobbling is enabled"
 msgstr ""
+"Pošiljanje podatkov o predvajanih skladbah na Last.fm, če je funkcija "
+"Scrobble aktivirana"
 
 #: dialogs\dlgAddonInstall.html:57
 msgid "Install Now"
@@ -11313,16 +11216,12 @@ msgid "Bitrate (for max. res.)"
 msgstr "Bitna hitrost (za največ. loč.)"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
-#, fuzzy
-#| msgid ""
-#| "This turns on the Auto-DJ feature which causes tracks to automatically be "
-#| "added to the Playing list when it runs out."
 msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the 'Playing' list when it runs out."
 msgstr ""
 "S tem se vklopi funkcija Samodejni DJ, zaradi katere se skladbe samodejno "
-"dodajo na seznam predvajanja, ko jih zmanjka."
+"dodajo na seznam 'Predvajanje', ko jih zmanjka."
 
 #: dialogs\dlgOptions\pnl_Download.html:16
 msgid "Determines how often MediaMonkey checks for updates"
@@ -11592,10 +11491,8 @@ msgid "Video Podcasts"
 msgstr "Video podkasti"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:16
-#, fuzzy
-#| msgid "Convert to"
 msgid "Convert artwork to"
-msgstr "Pretvori v"
+msgstr "Pretvori naslovnico v"
 
 #: dialogs\dlgAutoConvertRule.html:48
 msgid "Low"
@@ -11684,10 +11581,8 @@ msgid "Device name"
 msgstr "Ime naprave"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
-#, fuzzy
-#| msgid "Sync all Artwork to file folders"
 msgid "Sync artwork to file folders"
-msgstr "Sinhroniziraj vse naslovnice v datotečne mape"
+msgstr "Sinhroniziraj naslovnico v datotečne mape"
 
 #: dialogs\dlgAutoConvertRule.html:49
 msgid "Medium"
@@ -11698,10 +11593,8 @@ msgid "Select the folders you want to scan for media files:"
 msgstr "Izberite mape, ki jih želite pregledati za predstavnostne datoteke:"
 
 #: dialogs\dlgEditView.html:15
-#, fuzzy
-#| msgid "File type"
 msgid "View type"
-msgstr "Vrsta datoteke"
+msgstr "Način pogleda"
 
 #: dialogs\dlgMaintainLibrary.html:16
 msgid "Scheduled backup"
@@ -11834,19 +11727,14 @@ msgid "Use multiple CPU cores (if available)"
 msgstr "Uporabi več jeder CPE (če so na voljo)"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:40
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the 'Play now' command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It can be set use the default Player settings or customized "
 "for each media Type."
 msgstr ""
 "Določa katere datoteke se predvajajo, ko je aktiviran ukaz 'Predvajaj zdaj' "
-"za posamezno datoteko. Privzeto se predvaja izbrana datoteka in druge, ki ji "
-"sledijo. Druga možnost je, da se predvaja samo izbrana datoteka."
+"za posamezno datoteko. Uporabite lahko privzete nastavitve predvajalnika ali "
+"prilagodite nastavitve za vsako vrsto predstavnosti."
 
 #: dialogs\dlgOptions\pnl_Player.html:90
 msgid "Vertical"
@@ -11876,7 +11764,7 @@ msgstr ""
 
 #: controls\deviceConfig\options\pnl_Tagging.html:15
 msgid "Syncs all images using the specified format and size"
-msgstr ""
+msgstr "Sinhronizira vse slike z uporabo določenega formata in velikosti"
 
 #: dialogs\dlgAutoOrganizeRule.html:11
 msgid "Organize these files using the following Directory and Filename format"
@@ -11888,32 +11776,24 @@ msgid "Eject CD after ripping"
 msgstr "Izvrzi CD po kopiranju skladb"
 
 #: dialogs\dlgEditView.html:44
-#, fuzzy
-#| msgid "View elements"
 msgid "Elements"
-msgstr "Pokaži predmete"
+msgstr "Predmeti"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Get more addons"
 msgid "Find more addons"
-msgstr "Več dodatkov"
+msgstr "Poišči več dodatkov"
 
 #: dialogs\videoConvSettings.html:102
 msgid "Preserve aspect ratio"
 msgstr "Ohrani razmerje"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:6
-#, fuzzy
-#| msgid ""
-#| "This determines how many tracks Auto-DJ will add to the Playing list when "
-#| "the list begins to empty."
 msgid ""
 "This determines how many tracks Auto-DJ will add to the 'Playing' list when "
 "the list begins to empty."
 msgstr ""
-"Določa, koliko skladb bo funkcija Samodejni DJ dodala na seznam predvajanja, "
-"ko se bo seznam začel prazniti."
+"Določa, koliko skladb bo funkcija Samodejni DJ dodala na seznam "
+"'Predvajanje', ko se bo seznam začel prazniti."
 
 #: dialogs\dlgOptions\pnl_Download.html:20
 msgid "Every day"
@@ -11936,10 +11816,8 @@ msgid "Auto-tagging"
 msgstr "Samodejno označevanje"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
-#, fuzzy
-#| msgid "Play last in MediaMonkey"
 msgid "Queue last in MediaMonkey"
-msgstr "Predvajaj zadnje v MediaMonkey"
+msgstr "Zadnji v vrsti v MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:16
 msgid "Prevent switching to other application (Alt+Tab, Alt+Esc, Ctrl+Esc)"
@@ -12062,10 +11940,9 @@ msgid "Determines which actions are presented when a disk is inserted"
 msgstr "Določi katera dejanja so na voljo, ko vstavite CD/DVD"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:46
-#, fuzzy
-#| msgid "Display format for 'Track summary'  (e.g. in Player):"
 msgid "'Track summary' format (e.g. in Player, Tracklist):"
-msgstr "Prikaz oblike zapisa za 'Povzetek skladbe'  (npr. v predvajalniku):"
+msgstr ""
+"Oblika zapisa 'Povzetek skladbe' (npr. v predvajalniku, seznamu skladb):"
 
 #: dialogs\dlgOptions\pnl_Player.html:58
 msgid "Transparency"
@@ -12256,10 +12133,8 @@ msgstr ""
 "Samodejno generira thumbnails datoteke za video posnetke brez naslovnic."
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
-#, fuzzy
-#| msgid "Play next in MediaMonkey"
 msgid "Queue next in MediaMonkey"
-msgstr "Predvajaj naslednje v MediaMonkey"
+msgstr "Naslednji v vrsti v MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:50
 msgid "'Play now' action:"
@@ -12300,7 +12175,7 @@ msgstr "AccurateRip za bitno popolno kopiranje s CD-ja."
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Send also Album Artist field, if different from Artist"
-msgstr ""
+msgstr "Pošlji tudi polje izvajalca albuma, če se razlikuje od izvajalca"
 
 #: controls\artistAlbums.html:25
 msgid "Albums - live"
@@ -12352,12 +12227,8 @@ msgstr ""
 "skladbe, ki jih želite označiti."
 
 #: dialogs\dlgAutotagFromFilename.html:10
-#, fuzzy
-#| msgid "Auto-tag allows you to update tags based on existing filenames"
 msgid "Update tags based on existing filenames"
-msgstr ""
-"Samodejno označevanje omogoča posodobitev oznak glede na že obstoječa imena "
-"datotek"
+msgstr "Posodobi oznake na podlagi obstoječih imen datotek"
 
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s), replacing the originals"
@@ -12614,25 +12485,18 @@ msgid "Set the default directory / filename format for specified files."
 msgstr "Nastavi privzeto mapo / obliko imena datoteke za določene datoteke."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
-#, fuzzy
-#| msgid "Confirm desired options on removal of files from the Playing list"
 msgid "Confirm desired options on removal of files from the 'Playing' list"
 msgstr ""
-"Potrdi željene možnosti pri odstranjevanju datotek iz seznama predvajanja"
+"Potrdi željene možnosti pri odstranjevanju datotek iz seznama 'Predvajanje'"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
-#, fuzzy
-#| msgid ""
-#| "This determines what the default behavior is when a file is double-"
-#| "clicked or [enter] is pressed. Options are Play Now, Play Next, Play "
-#| "Last, or Edit Properties."
 msgid ""
 "This determines what the default behavior is when a file is double-clicked "
 "or [enter] is pressed. Options are Play Now, Queue Next, Queue Last, or Edit "
 "Properties."
 msgstr ""
-"To določa privzeto vedenje, ko dvokliknete datoteko ali pritisnete [enter]. "
-"Možnosti so Predvajaj zdaj, Predvajaj naslednje, Predvajaj zadnje ali Uredi "
+"Določa privzeto vedenje, ko dvokliknete datoteko ali pritisnete [enter]. "
+"Možnosti so Predvajaj zdaj, Naslednji v vrsti, Zadnji v vrsti ali Uredi "
 "lastnosti."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:21
@@ -13177,11 +13041,16 @@ msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
 msgstr ""
+"Naključno predvajanje onemogočeno. Zaradi vaših sprememb naključnega "
+"predvajanja ni mogoče razveljaviti – uporabite 'Razveljavi', da povrnete "
+"spremembe na seznamu 'Predvajanje'."
 
 #: controls/player.js:303
 msgid ""
 "Shuffles the Playing list and makes default play commands shuffle tracks."
 msgstr ""
+"Premeša seznam 'Predvajanje' in nastavi privzete ukaze za naključno "
+"predvajanje skladb."
 
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from Playing list only"
