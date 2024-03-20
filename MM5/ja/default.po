@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-18 19:33\n"
-"PO-Revision-Date: 2024-03-14 13:45+0000\n"
+"PO-Revision-Date: 2024-03-22 16:55+0000\n"
 "Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ja/>\n"
@@ -454,7 +454,7 @@ msgstr "ツリーを閉じる"
 
 #: actions.js:1530 actions.js:1550 actions.js:1570 actions.js:1580
 msgid "Go to the %s node"
-msgstr "%sノードへ"
+msgstr "\"%s\"ノードへ"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to search the default focus control within other subViews
@@ -703,7 +703,7 @@ msgstr "ライブラリに追加"
 #. device/cloud track in library (issue #14272)
 #: actions.js:1946
 msgid "Adding from %s:"
-msgstr "%sから追加:"
+msgstr "\"%s\"から追加:"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. track to be added to library (e.g. online youtube track)
@@ -717,7 +717,7 @@ msgstr "ダウンロード"
 #. show log when the scan was manually initiated (#15360)
 #: actions.js:2022 helpers/mediaSync.js:4195
 msgid "Initializing download from %s"
-msgstr "%sからのダウンロードを初期値にする"
+msgstr "\"%s\"からのダウンロードを初期値にする"
 
 #. ordinary url track/episode to download
 #: actions.js:2039 DatabaseManage.pas:1078
@@ -808,8 +808,8 @@ msgid ""
 "current database and MediaMonkey will be automatically restarted when "
 "finished!"
 msgstr ""
-"%sからデータベースを復元したいですか？<br>この作業では現在のデータベースを削"
-"除し、作業が完了するとMediaMonkeyは自動的に再起動します！"
+"\"%s\"からデータベースを復元したいですか？<br>この作業では現在のデータベース"
+"を削除し、作業が完了するとMediaMonkeyは自動的に再起動します！"
 
 #: actions.js:2184
 msgid "Restore FAILED!"
@@ -946,7 +946,7 @@ msgstr "デバイスの説明ファイルパス:"
 #: actions.js:2570 controls/serverConfig/server.js:43
 #: controls/serverConfig/server.js:52
 msgid "%s cannot be reached"
-msgstr "%sに接続できませんでした"
+msgstr "\"%s\"に接続できませんでした"
 
 #: actions.js:2571 dialogs/dlgAutotag.js:643 Extensions.pas:900
 #: Extensions.pas:911 Extensions.pas:915 Extensions.pas:963 Extensions.pas:1044
@@ -962,9 +962,8 @@ msgstr "リモートアクセスの設定"
 msgid ""
 "This will auto-configure rules on your router to allow the %s UPnP/DLNA "
 "server to be accessible from a public/external network."
-msgstr ""
-"パブリック/外部のネットワークから %s UPnP/DLNAサーバーに接続できるようにあな"
-"たのルーターの規定を自動設定します。"
+msgstr "パブリック/外部のネットワークから、\"%s\"UPnP"
+"/DLNAサーバーに接続できるように、あなたのルーターの規定を自動設定します。"
 
 #: actions.js:2588
 msgid ""
@@ -980,19 +979,18 @@ msgstr "リモートアクセスの設定"
 
 #: actions.js:2595
 msgid "Remote UPnP/DLNA access to %s was successfuly configured."
-msgstr "%sへのUPnP/DLNAリモートアクセスの設定に成功しました。"
+msgstr "\"%s\"へのUPnP/DLNAリモートアクセスの設定に成功しました。"
 
 #: actions.js:2595
 msgid ""
 "If you want to use another UPnP/DLNA client to remotely access %s, enter the "
 "following server destination to the client:"
-msgstr ""
-"リモートアクセス%sへのほかのUPnP/DLNAクライアントを使用したい場合、クライアン"
-"トのサーバー宛先を入力してください:"
+msgstr "リモートアクセス\"%s\"へのほかのUPnP/DLNAクライアントを使用したい場合、クライ"
+"アントのサーバー宛先を入力してください:"
 
 #: actions.js:2598
 msgid "Remote access to %s cannot be auto-configured via UPnP/NAT-PMP"
-msgstr "%sへのリモートアクセスは UPnP/NAT-PMP経由で自動設定できませんでした"
+msgstr "\"%s\"へのリモートアクセスは、UPnP/NAT-PMP経由で自動設定できませんでした"
 
 #: actions.js:2600 helpers/mediaSync.js:393 CDUtils.pas:1464 WebUtils.pas:6218
 msgid "There is a problem with your internet connection."
@@ -1008,7 +1006,7 @@ msgstr ""
 
 #: actions.js:2602
 msgid "port %d to IP address %s"
-msgstr "IPアドレス%sへのポート%d"
+msgstr "IPアドレス\"%s\"へのポート%d"
 
 #: actions.js:2636
 msgid "Update all podcasts"
@@ -1197,7 +1195,7 @@ msgstr "現在のファイル"
 #. stop should be active even if playback is paused
 #: actions.js:3411 actions.js:3414
 msgid "Every file"
-msgstr "すべてのファイル"
+msgstr "ファイルごと"
 
 #: actions.js:3446
 msgid "Crossfade"
@@ -1791,9 +1789,8 @@ msgstr ""
 msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
-msgstr ""
-"選択したファイルから%sタグを削除してもよろしいですか（ファイルのプロパティは"
-"ライブラリから削除されません）？"
+msgstr "選択したファイルから\"%s\"タグを削除してもよろしいですか"
+"（ファイルのプロパティはライブラリから削除されません）？"
 
 #. Public methods
 #: dndutils.js:238
@@ -2420,21 +2417,21 @@ msgstr "%d件の選択したプレイリストを削除してもよろしいで�
 #. to not initiate too many stream url requests (would result in too many download threads)
 #: viewHandlers.js:4082 helpers/mediaSync.js:3207
 msgid "Copying to %s:"
-msgstr "%sにコピー中:"
+msgstr "\"%s\"にコピー中:"
 
 #. to not notify less often and improve performance for thousands of tracks
 #: viewHandlers.js:4084 MediaManage.pas:4127 MediaManage.pas:4208
 msgid "Moving to %s:"
-msgstr "%sに移動しています:"
+msgstr "\"%s\"に移動しています:"
 
 #. to refresh also the drag from area (if not refreshed automatically)
 #: viewHandlers.js:4147
 msgid "Do you really want to move '%s'?"
-msgstr "'%s'を移動してよろしいですか？"
+msgstr "\"%s\"を移動してよろしいですか？"
 
 #: viewHandlers.js:4149
 msgid "Do you really want to copy '%s'?"
-msgstr "'%s'をコピーしてよろしいですか？"
+msgstr "\"%s\"をコピーしてよろしいですか？"
 
 #: viewHandlers.js:4155
 msgid "Copy Library content only"
@@ -2536,11 +2533,11 @@ msgstr "動画"
 
 #: viewHandlers.js:5031 viewHandlers.js:5281
 msgid "Are you sure you want to remove playlist \"%s\" from %s?"
-msgstr "プレイリスト\"%s\"を%sから削除してもよろしいですか？"
+msgstr "プレイリスト\"%s\"を\"%s\"から削除してもよろしいですか？"
 
 #: viewHandlers.js:5034 viewHandlers.js:5284
 msgid "Are you sure you want to remove %d selected playlists from %s?"
-msgstr "%d個の選択されたプレイリストを%sから削除してもよろしいですか？"
+msgstr "%d個の選択されたプレイリストを\"%s\"から削除してもよろしいですか？"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
@@ -3539,7 +3536,7 @@ msgstr "スクロール先"
 
 #: controls/listview.js:2661
 msgid "Use %s for the next match"
-msgstr "次の該当したものに%sを使う"
+msgstr "次の該当したものに\"%s\"を使う"
 
 #. it just looped through all the controls to find that there is still the same (and single) occurence -- don't consider this as search failure (#15185 - item 11)
 #: controls/listview.js:2664 controls/searchBar.js:391
@@ -3875,9 +3872,8 @@ msgstr ""
 msgid ""
 "You are not subscribed to any podcast currently. To subscribe a podcast go "
 "to %s"
-msgstr ""
-"現在、ポッドキャストを購読していません。ポッドキャストを購読するには%sに移動"
-"してください"
+msgstr "現在、ポッドキャストを購読していません。ポッドキャストを購読するには\"%"
+"s\"に移動してください"
 
 #: controls/podcastSubscribeTutorial.js:23
 msgid "or"
@@ -4445,7 +4441,7 @@ msgstr "波形の更新"
 
 #: controls/clientConfig/autoConvert.js:5
 msgid "Convert the following formats when playing %s content remotely"
-msgstr "%sコンテンツをリモートで再生する場合は、次の形式に変換します"
+msgstr "\"%s\"コンテンツをリモートで再生する場合は、次の形式に変換します"
 
 #: controls/clientConfig/autoConvert.js:6
 #: controls/serverConfig/autoConvert.js:4
@@ -4460,7 +4456,7 @@ msgstr "ストリーミング形式"
 #: controls/clientConfig/autoConvert.js:8
 #: controls/deviceConfig/options/pnl_AutoConversion.js:9
 msgid "Supported formats on '%s'"
-msgstr "'%s'でサポートされている形式"
+msgstr "\"%s\"でサポートされている形式"
 
 #: controls/clientConfig/autoConvert.js:9
 #: controls/serverConfig/autoConvert.js:7
@@ -4496,15 +4492,15 @@ msgstr "追加したいフォルダーのパスを入力:"
 
 #: controls/deviceConfig/syncToDevice.js:182
 msgid "Add library content to '%s'"
-msgstr "'%s'にライブラリコンテンツを追加"
+msgstr "\"%s\"にライブラリコンテンツを追加"
 
 #: controls/deviceConfig/syncToDevice.js:530
 msgid "Delete other files and playlists from '%s'"
-msgstr "'%s'から他のファイルとプレイリストを削除"
+msgstr "\"%s\"から他のファイルとプレイリストを削除"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:6
 msgid "Convert the following formats when syncing to '%s'"
-msgstr "'%s'に同期するときに次の形式に変換します"
+msgstr "\"%s\"に同期するときに次の形式に変換します"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:7
 msgid "Format in Library"
@@ -4544,23 +4540,23 @@ msgstr "画像ファイルの選択"
 
 #: controls/deviceConfig/options/pnl_FileLocations.js:17
 msgid "Save files to the following locations on '%s'"
-msgstr "'%s'に続く場所にファイルを保存"
+msgstr "\"%s\"に続く場所にファイルを保存"
 
 #: controls/deviceConfig/options/pnl_FileLocations.js:50
 msgid "Enforce use of the sync mask for files already on '%s'"
-msgstr "'%s'にすでにあるファイルの同期マスクの使用を強制します"
+msgstr "\"%s\"にすでにあるファイルの同期マスクの使用を強制します"
 
 #: controls/deviceConfig/options/pnl_FileLocations.js:53
 msgid "Other locations on '%s' to scan for media files"
-msgstr "メディアファイルをスキャンする'%s'の他の場所"
+msgstr "メディアファイルをスキャンする\"%s\"の他の場所"
 
 #: controls/deviceConfig/options/pnl_Playlists.js:9
 msgid "Also generate playlists on '%s' for:"
-msgstr "'%s'にプレイリストも生成:"
+msgstr "\"%s\"にプレイリストも生成:"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Update files and metadata as follows when syncing to '%s'"
-msgstr "'%s'に同期する際、次のようにメタデータを更新します"
+msgstr "\"%s\"に同期する際、次のようにメタデータを更新します"
 
 #: controls/nowPlaying/fullList.js:211
 msgid "Click to look up lyrics..."
@@ -5056,7 +5052,7 @@ msgstr "一度だけ"
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:47
 msgid "The location %s does not exist."
-msgstr "場所%sが存在しません。"
+msgstr "場所\"%s\"が存在しません。"
 
 #: dialogs/dlgImageSize.js:41
 msgid "Browser & Grid views"
@@ -5071,7 +5067,7 @@ msgstr "サインイン"
 
 #: dialogs/dlgLogin.js:20
 msgid "Please enter your username and password to sign in '%s'"
-msgstr "'%s'にサインインするためのユーザー名とパスワードを入力してください"
+msgstr "\"%s\"にサインインするためのユーザー名とパスワードを入力してください"
 
 #: dialogs/dlgLogin.js:46
 msgid "Your username or password is incorrect, try it again."
@@ -5131,26 +5127,25 @@ msgid ""
 "and accessed via MediaMonkey as if the content were local, as long as the "
 "server is accessible. If not, content can be cached locally."
 msgstr ""
-"%sが検出されました。これは、このMediaMonkeyインスタンスが実行されていない場合"
-"でも、複数のMediaMonkeyクライアントとライブラリの一部を保存して共有するために"
-"使用できます。MediaMonkeyサーバー上のコンテンツは、サーバーにアクセス可能であ"
-"れば、コンテンツがローカルにあるかのようにMediaMonkeyを介して管理およびアクセ"
-"スできます。そうでない場合、コンテンツはローカルにキャッシュできます。"
+"\"%s\"が検出されました。これは、このMediaMonkeyインスタンスが実行されていない"
+"場合でも、複数のMediaMonkeyクライアントとライブラリの一部を保存して共有するた"
+"めに使用できます。MediaMonkeyサーバー上のコンテンツは、サーバーにアクセス可能"
+"であれば、コンテンツがローカルにあるかのようにMediaMonkeyを介して管理およびア"
+"クセスできます。そうでない場合、コンテンツはローカルにキャッシュできます。"
 
 #: dialogs/dlgMigrateWizard.js:19
 msgid ""
 "By default, this wizard migrates all MediaMonkey data and content to the %s"
-msgstr ""
-"デフォルトでは、このウィザードはすべてのMediaMonkeyデータとコンテンツを%sに移"
-"行します"
+msgstr "デフォルトでは、このウィザードはすべてのMediaMonkeyデータとコンテンツを\"%"
+"s\"に移行します"
 
 #: dialogs/dlgMigrateWizard.js:20
 msgid "Retain local cache of %s content"
-msgstr "%sコンテンツのローカルキャッシュを保持する"
+msgstr "\"%s\"コンテンツのローカルキャッシュを保持する"
 
 #: dialogs/dlgMigrateWizard.js:35
 msgid "Fine-tune which content to store on %s..."
-msgstr "%sに保存するコンテンツを微調整..."
+msgstr "\"%s\"に保存するコンテンツを微調整..."
 
 #: dialogs/dlgMigrateWizard.js:92 QueryManage.pas:4557 QueryManage.pas:4558
 msgid "Cloud"
@@ -5158,15 +5153,15 @@ msgstr "クラウド"
 
 #: dialogs/dlgMigrateWizard.js:98 dialogs/dlgMigrateWizard.js:100
 msgid "%s will be moved to %s (%s)"
-msgstr "%sは%s (%s)に移動されます"
+msgstr "\"%s\"は\"%s (%s)\"に移動されます"
 
 #: dialogs/dlgMigrateWizard.js:103 dialogs/dlgMigrateWizard.js:105
 msgid "%s will be copied to %s (%s)"
-msgstr "%sは%s (%s)にコピーされます"
+msgstr "\"%s\"は\"%s (%s)\"にコピーされます"
 
 #: dialogs/dlgMigrateWizard.js:108
 msgid "%s will be scanned and shared via %s"
-msgstr "%sはスキャンされ、%sを介して共有されます"
+msgstr "\"%s\"はスキャンされ、\"%s\"を介して共有されます"
 
 #: dialogs/dlgMigrateWizard.js:112
 msgid "Checking for files on the server"
@@ -5182,7 +5177,7 @@ msgstr "サーバーエラー"
 #: dialogs/dlgMigrateWizard.js:154 helpers/mediaSync.js:682
 #: helpers/mediaSync.js:2591
 msgid "Scan '%s' content to the local database"
-msgstr "ローカルデータベースへ'%s'コンテンツをスキャンする"
+msgstr "ローカルデータベースへ\"%s\"コンテンツをスキャンする"
 
 #: dialogs/dlgMoveAccompFiles.js:6
 msgid "Accompanying files"
@@ -5638,7 +5633,7 @@ msgstr "ファイルのプロパティ"
 #: dialogs/dlgTrackProperties.js:238 Devices.pas:12910 Devices.pas:15578
 #: Devices.pas:15868 FormatsManage.pas:855 Normalization.pas:1617
 msgid "File %s is inaccessible"
-msgstr "ファイル%sにアクセスできません"
+msgstr "ファイル\"%s\"にアクセスできません"
 
 #: dialogs/dlgWAVSettings.js:12
 msgid "WAV settings"
@@ -6038,8 +6033,7 @@ msgstr "トラックの音量解析をバックグラウンドプロセスとし
 #: dialogs/dlgTrackProperties/tabArtwork.js:184
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
-msgstr ""
-"%sのアートワークの変更は、アルバム上の%d個の他のファイルに適用されます。"
+msgstr "\"%s\"のアートワークの変更は、アルバム上の%d個の他のファイルに適用されます。"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6255,9 +6249,8 @@ msgstr "１日２回"
 #: helpers/mediaSync.js:683 helpers/mediaSync.js:2592
 msgid ""
 "On sync, the database is updated with links to files and playlists from '%s'"
-msgstr ""
-"同期時に、'%s'からのファイルとプレイリストへのリンクでデータベースが更新され"
-"ます"
+msgstr "同期時に、\"%"
+"s\"からのファイルとプレイリストへのリンクでデータベースが更新されます"
 
 #: helpers/mediaSync.js:684
 msgid "Only include content that matches files already in the database"
@@ -6267,25 +6260,23 @@ msgstr "既にデータベースにあるファイルに一致するコンテン
 msgid ""
 "On sync, the database is only updated with links to files & playlists from "
 "'%s' that match files already in the database"
-msgstr ""
-"同期時に、データベースはデータベース内の既存のファイルと一致する'%s'からの"
-"ファイルとプレイリストへのリンクでのみ更新されます"
+msgstr "同期時に、データベースはデータベース内の既存のファイルと一致する\"%"
+"s\"からのファイルとプレイリストへのリンクでのみ更新されます"
 
 #: helpers/mediaSync.js:686
 msgid "Download '%s' content that is not accessible locally"
-msgstr "ローカルでアクセスできない'%s'コンテンツをダウンロード"
+msgstr "ローカルでアクセスできない\"%s\"コンテンツをダウンロード"
 
 #: helpers/mediaSync.js:687
 msgid ""
 "Downloads files and playlists from '%s' that are not accessible via the "
 "local drive or network"
-msgstr ""
-"ローカルドライブまたはネットワーク経由でアクセスできない'%s'からファイルとプ"
-"レイリストをダウンロードします"
+msgstr "ローカルドライブまたはネットワーク経由でアクセスできない\"%"
+"s\"からファイルとプレイリストをダウンロードします"
 
 #: helpers/mediaSync.js:688
 msgid "Sync '%s' metadata to the Library"
-msgstr "'%s'メタデータをライブラリに同期"
+msgstr "\"%s\"メタデータをライブラリに同期"
 
 #: helpers/mediaSync.js:689
 msgid "Update metadata for matching tracks and playlists"
@@ -6384,15 +6375,14 @@ msgstr "更新しています"
 #. continuously (polling method, TODO: do this via notifications from MMS?)
 #: helpers/mediaSync.js:2486 helpers/mediaSync.js:2593
 msgid "Set content to store on '%s'"
-msgstr "'%s'に保存するコンテンツを設定"
+msgstr "\"%s\"に保存するコンテンツを設定"
 
 #: helpers/mediaSync.js:2489
 msgid ""
 "This content will be copied (by default) to '%s' so that it can be shared "
 "with other clients"
-msgstr ""
-"このコンテンツは、他のクライアントと共有できるように、'%s'に（デフォルトで）"
-"コピーされます"
+msgstr "このコンテンツは、他のクライアントと共有できるように、\"%s\"に"
+"（デフォルトで）コピーされます"
 
 #. to refresh the values set in the wizard
 #: helpers/mediaSync.js:2526
@@ -6925,7 +6915,7 @@ msgstr "（検証ファイルの解析エラー）"
 msgid ""
 "Track %s verified with confidence number %d (number of people matched your "
 "rip)"
-msgstr "トラック%sが信頼数%dで確認されました（あなたのリッピングに一致した数)"
+msgstr "トラック%sは信頼度数値%dで確認済みです（あなたのリッピングに一致した数)"
 
 #: CDUtils.pas:1462
 msgid "this CD doesn't exist in the database"
@@ -7034,15 +7024,14 @@ msgstr "タグに保存されている"
 #. %s for image file name
 #: Covers.pas:1281
 msgid "Stored in %s"
-msgstr "%sに保存されている"
+msgstr "%sに保存されています"
 
 #: Covers.pas:3175
 msgid ""
 "All links to the image %s have been removed from the Library. Would you like "
 "to delete it from the drive as well?"
-msgstr ""
-"画像%sへのすべてのリンクが解除されました。PC からこの画像を削除してよろしいで"
-"すか？"
+msgstr "画像\"%s\"へのすべてのリンクが解除されました。PC "
+"からこの画像を削除してよろしいですか？"
 
 #. Get exclusive access to the DB
 #. VACUUM fails with "out of memory" exception on large databases (7 GB, 2.2 million of tracks)
@@ -7073,7 +7062,7 @@ msgstr "%d個のファイルを削除してもよろしいですか？"
 
 #: DatabaseManage.pas:3319
 msgid "Removing file %s (%d of %d)"
-msgstr "ファイル%sを削除しています(%d/%d)"
+msgstr "ファイル\"%s\"を削除しています(%d/%d)"
 
 #: dblistutils.pas:1220
 msgid "%d of %d folders processed"
@@ -7202,9 +7191,8 @@ msgstr ""
 msgid ""
 "Library database %s can't be opened, would you like to create a new local "
 "Library?"
-msgstr ""
-"ライブラリデータベース%sを開けませんでした。新しいローカルライブラリを作成し"
-"ますか？"
+msgstr "ライブラリデータベース\"%s\"を開けませんでした"
+"。新しいローカルライブラリを作成しますか？"
 
 #: DBStructure.pas:2060 controls\deviceConfig\options\pnl_FileLocations.html:25
 msgid "Audiobook"
@@ -7221,7 +7209,7 @@ msgstr "%sから%sに追加されました"
 
 #: Devices.pas:3757
 msgid "Remove '%s' entries from the Library?"
-msgstr "'%s'エントリをライブラリから削除しますか？"
+msgstr "\"%s\"エントリをライブラリから削除しますか？"
 
 #: Devices.pas:3762
 msgid "Delete downloaded content"
@@ -7229,7 +7217,7 @@ msgstr "ダウンロードしたコンテンツを削除"
 
 #: Devices.pas:3904
 msgid "Cannot remove directory %s."
-msgstr "ディレクトリ%sを削除できません。"
+msgstr "ディレクトリ\"%s\"を削除できません。"
 
 #: Devices.pas:5234
 msgid "Are you sure you want to reset this profile to its default settings?"
@@ -7237,7 +7225,7 @@ msgstr "このプロフィールをデフォルト設定にリセットしても
 
 #: Devices.pas:8656
 msgid "The device '%s' cannot be stopped now as it appears to be in use."
-msgstr "デバイス'%s'が使用中らしいので、現在停止できません。"
+msgstr "デバイス\"%s\"が現在使用中のようなので、今は停止できません。"
 
 #: Devices.pas:8657
 msgid "Problem Ejecting %s"
@@ -7262,13 +7250,13 @@ msgid ""
 "MediaMonkey, it's recommended that you initially sync over USB to preserve "
 "your existing sync configuration."
 msgstr ""
-"%sはMediaMonkeyライブラリと初めて同期しようとしています。\n"
+"\"%s\"はMediaMonkeyライブラリと初めて同期しようとしています。\n"
 "\n"
 "\n"
 "\n"
 "注:以前にこのデバイスをかつてのバージョンのMediaMonkeyと同期したことがある場"
-"合は、既存の同期設定を保持するために最初にUSB経由で同期することをお勧めしま"
-"す。"
+"合は、既存の同期設定を保持するために最初にUSB経由で同期することをお勧めします"
+"。"
 
 #: Devices.pas:10038
 msgid "No / I'll sync over USB instead"
@@ -7277,7 +7265,7 @@ msgstr "いいえ/代わりにUSB経由で同期します"
 #. capacity is unknown (e.g. Google Music)
 #: Devices.pas:11439
 msgid "Needed: %s, available: %s, to be freed: %s"
-msgstr "必要: %s 利用可能: %s 解放: %s"
+msgstr "必要:%s 利用可能:%s 解放:%s"
 
 #: Devices.pas:11442
 msgid ""
@@ -7302,12 +7290,12 @@ msgstr "空き容量が不足しています。"
 
 #: Devices.pas:11982 Devices.pas:12301 Devices.pas:16060 Devices.pas:16069
 msgid "Problem while copying file %s to %s"
-msgstr "ファイル%sを%sにコピー中に問題が発生しました"
+msgstr "ファイル\"%s\"を\"%s\"にコピー中に問題が発生しました"
 
 #. e.g. to know it when the tracks are part of a playlist that need to be modified (e.g. on MMS)
 #: Devices.pas:12933
 msgid "File %s is not supported by the device"
-msgstr "ファイル%sはデバイスによってサポートされていません"
+msgstr "ファイル\"%s\"はデバイスによってサポートされていません"
 
 #. no track being converted, see the tracks being downloaded from cloud
 #: Devices.pas:15383
@@ -7317,50 +7305,48 @@ msgstr "ダウンロード"
 #. track has failed to convert
 #: Devices.pas:15834
 msgid "Conversion of file %s failed"
-msgstr "ファイル%sの変換に失敗しました"
+msgstr "ファイル\"%s\"の変換に失敗しました"
 
 #: ErrHandlers.pas:116
 msgid "File %s is read-only. Do you want to change it?"
-msgstr "ファイル%sは読み取り専用です。属性を変更しますか？"
+msgstr "ファイル\"%s\"は読み取り専用です。属性を変更しますか？"
 
 #: ErrHandlers.pas:130
 msgid "The read-only attribute cannot be removed from the file %s."
-msgstr "ファイル%sの読み取り専用属性を解除できません。"
+msgstr "ファイル\"%s\"の読み取り専用属性を解除できません。"
 
 #: ErrHandlers.pas:137
 msgid "There was a problem updating the tag for file %s."
-msgstr "ファイル%sのタグの更新中に問題が発生しました。"
+msgstr "ファイル\"%s\"のタグの更新中に問題が発生しました。"
 
 #: ErrHandlers.pas:144
 msgid "File %s already exists. Do you want to replace it?"
-msgstr "ファイル%sはすでに存在します。置き換えますか？"
+msgstr "ファイル\"%s\"はすでに存在します。置き換えますか？"
 
 #: ErrHandlers.pas:152
 msgid ""
 "Some components of filename %s exceed the 64 character limit for CDs. "
 "Continue renaming without editing filenames?"
-msgstr ""
-"ファイル名%sの一部のコンポーネントは、CDの64文字の制限を超えています。ファイ"
-"ル名を編集せずに名前を変更しますか？"
+msgstr "ファイル名\"%s\"の一部のコンポーネントは"
+"、CDの64文字の制限を超えています。ファイル名を編集せずに名前を変更しますか？"
 
 #: ErrHandlers.pas:160
 msgid ""
 "Cannot delete %s. Access is denied. The file may be in use or you may not "
 "have access rights."
-msgstr ""
-"%sを削除できません。アクセスが拒否されました。ファイルが使用されているか、ア"
-"クセス権がない可能性があります。"
+msgstr "\"%s\"を削除できません。アクセスが拒否されました。ファイルが使用されているか"
+"、アクセス権がない可能性があります。"
 
 #: ErrHandlers.pas:168 FileUtils.pas:821
 msgid "Problem with copying file %s to %s."
-msgstr "ファイル%sを%sにコピーする際に問題が発生しました。"
+msgstr "ファイル\"%s\"を\"%s\"にコピーする際に問題が発生しました。"
 
 #: ErrHandlers.pas:176
 msgid ""
 "File %s cannot be opened:\n"
 "%s"
 msgstr ""
-"ファイル%sを開くことができません:\n"
+"ファイル\"%s\"を開くことができません:\n"
 "%s"
 
 #. e.g. for the confidence numbers after AccurateRip verification (#17023 - item 3)
@@ -7480,7 +7466,7 @@ msgid ""
 "This action will uninstall '%s'.\n"
 "Do you wish to continue?"
 msgstr ""
-"この操作は'%s'をアンインストールします。\n"
+"この操作は\"%s\"をアンインストールします。\n"
 "続けてよろしいですか？"
 
 #: Extensions.pas:1352 Extensions.pas:1372 Extensions.pas:1378
@@ -7581,7 +7567,7 @@ msgstr "ファイルが利用できないか、アクセス権限がない可能
 
 #: FileUtils.pas:643
 msgid "Cannot create file %s."
-msgstr "ファイル%sを作成できません。"
+msgstr "ファイル\"%s\"を作成できません。"
 
 #: FileUtils.pas:2070
 msgid "Unknown error"
@@ -7600,10 +7586,8 @@ msgid "Previews"
 msgstr "プレビュー"
 
 #: FileUtils.pas:2580
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "The directory %s cannot be created."
-msgstr "ファイル%sを作成できません。"
+msgstr "ディレクトリ\"%s\"を作成できません。"
 
 #: FileUtils.pas:2815
 msgid "Drive %s is running out of space."
@@ -7674,11 +7658,11 @@ msgstr "MediaMonkeyはこの形式のエンコードはできません。"
 #. DRM
 #: FormatsManage.pas:1264 FullPlayer.pas:4497 GeneralDecoder.pas:442
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
-msgstr "ファイル%sはデコードできません。DRMの制限による可能性があります。"
+msgstr "ファイル\"%s\"はデコードできません。DRMの制限による可能性があります。"
 
 #: FormatsManage.pas:1266
 msgid "File %s was not successfully created."
-msgstr "ファイル%sは正常に作成されませんでした。"
+msgstr "ファイル\"%s\"は正常に作成されませんでした。"
 
 #. Check whether album gain needs to be calculated:
 #: FormatsManage.pas:1409 FormatsManage.pas:1485
@@ -7852,7 +7836,7 @@ msgstr "再生に失敗しました: %sはアクセスできません。"
 #: FullPlayer.pas:4505 FullPlayer.pas:4509 FullPlayer.pas:4512
 #: FullPlayer.pas:4515
 msgid "Playback failed: %s cannot decode %s."
-msgstr "再生に失敗しました: %sは%sをデコードできません。"
+msgstr "再生に失敗しました: %sは\"%s\"をデコードできません。"
 
 #: FullPlayer.pas:4770
 msgid "Clean"
@@ -7877,13 +7861,12 @@ msgstr "現在のトラックの再生が終了した後にこの操作は完了
 msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
-msgstr ""
-"ファイル%sが再生されています。削除すると再生が中断されます。削除してもよろし"
-"いですか？"
+msgstr "ファイル\"%s\"が再生されています"
+"。削除すると再生が中断されます。削除してもよろしいですか？"
 
 #: FullPlayer.pas:8352
 msgid "Computing waveform for file %s"
-msgstr "ファイル%sの波形を計算しています"
+msgstr "ファイル\"%s\"の波形を計算しています"
 
 #: FullPlayer.pas:8913 WinAmpPlugins.pas:2913
 msgid "No configuration"
@@ -7893,15 +7876,13 @@ msgstr "設定がありません"
 #: GeneralDecoder.pas:771 GeneralDecoder.pas:775 MediaMonkeyApp.pas:4595
 #: MediaMonkeyApp.pas:4598
 msgid "Problem while decoding file %s"
-msgstr "ファイル%sのデコード中に問題が発生しました"
+msgstr "ファイル\"%s\"のデコード中に問題が発生しました"
 
 #: GlobVars.pas:1859
-#, fuzzy
-#| msgid "Do you want to use the database and settings from %s ?"
 msgid ""
 "Do you want to use the database and settings from an existing installation "
 "of MediaMonkey?"
-msgstr "%sのデータベースと設定を使用しますか？"
+msgstr "MediaMonkeyの既存のインストールからデータベースと設定を使用しますか？"
 
 #: GlobVars.pas:1859 controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Import settings"
@@ -8040,19 +8021,19 @@ msgstr ""
 
 #: hpCDEBurner.pas:1181
 msgid "Disc %s (copy %d) burned successfully."
-msgstr "ディスク%s （コピー%d）が正常に書き込まれました。"
+msgstr "ディスク\"%s\"（コピー%d）が正常に書き込まれました。"
 
 #: hpCDEBurner.pas:1183
 msgid "Disc %s burned successfully."
-msgstr "ディスク%sが正常に書き込まれました。"
+msgstr "ディスク\"%s\"が正常に書き込まれました。"
 
 #: hpCDEBurner.pas:1189
 msgid "Disc %s (copy %d) burn failed"
-msgstr "ディスク%s （コピー%d）の書き込みに失敗しました"
+msgstr "ディスク\"%s\"（コピー%d）の書き込みに失敗しました"
 
 #: hpCDEBurner.pas:1191
 msgid "Disc %s burn failed"
-msgstr "ディスク%sの書き込みに失敗しました"
+msgstr "ディスク\"%s\"の書き込みに失敗しました"
 
 #. TODOWIN8
 #: hpCDEBurner.pas:1476
@@ -8227,7 +8208,8 @@ msgstr "スキップ回数"
 
 #: MediaManage.pas:2923
 msgid "An error occured while moving file %s to %s. Do you want to try again?"
-msgstr "ファイル%sを%sに移動中にエラーが発生しました。もう一度やり直しますか？"
+msgstr "ファイル\"%s\"を\"%s\"に移動中にエラーが発生しました"
+"。もう一度やり直しますか？"
 
 #: MediaManage.pas:3067
 msgid "Moving file %d of %d (%s)"
@@ -8239,7 +8221,7 @@ msgstr "ファイル%d/%d (%s)をコピーしています"
 
 #: MediaManage.pas:3229
 msgid "Could not find file %s, it will not be %s."
-msgstr "ファイル%sが見つかりませんでした。%sではないと思われます。"
+msgstr "ファイル\"%s\"が見つからないため、%sされません。"
 
 #: MediaManage.pas:3230
 msgid "moved"
@@ -8259,17 +8241,17 @@ msgstr "ファイル$src$を$dest$にコピーしています"
 
 #: MediaManage.pas:4083
 msgid "The media '%s' is not inserted."
-msgstr "メディア'%s'が挿入されていません。"
+msgstr "メディア\"%s\"が挿入されていません。"
 
 #: MediaManage.pas:4162
 msgid "Cannot rename directory %s to %s."
-msgstr "ディレクトリ%sを%sに名前を変更できません。"
+msgstr "ディレクトリ\"%s\"を\"%s\"に名前を変更できません。"
 
 #. #10283
 #. if we are going to tag a file that is playing, let's do it as quickly as possible
 #: MediaManage.pas:4402 MP3Utils.pas:3820
 msgid "Tag update failed: %s is inaccessible."
-msgstr "タグの更新に失敗しました: %sはアクセスできません。"
+msgstr "タグの更新に失敗しました: \"%s\"はアクセスできません。"
 
 #: MediaManage.pas:5644 MediaMonkeyApp.pas:5522
 msgid "Creating folder \"%s\" failed"
@@ -8352,7 +8334,7 @@ msgstr "選択ファイルの再生のみ"
 
 #: MetadataStorageHandler.pas:1610
 msgid "Problem while updating playlist %s: %s"
-msgstr "プレイリスト%sの更新中に問題が発生しました: %s"
+msgstr "プレイリスト\"%s: %s\"の更新中に問題が発生しました"
 
 #: MP3Manage.pas:255
 msgid "Compatible: CBR   96 kbps - Fair Quality"
@@ -8372,7 +8354,7 @@ msgstr ""
 
 #: MP3Manage.pas:3687
 msgid "Removing %s tags %d of %d (%s)"
-msgstr "%sタグ%d/%d (%s)を削除しています"
+msgstr "%sタグ%d/%d(%s)を削除しています"
 
 #: MP3Utils.pas:252
 msgid "Locate Moved/Missing Files"
@@ -8396,9 +8378,8 @@ msgstr ""
 
 #: MP3Utils.pas:1296
 msgid "Scanning for moved files in %s (%d files scanned)."
-msgstr ""
-"%sで移動されたファイルをスキャンしています（%dファイルがスキャンされまし"
-"た）。"
+msgstr "\"%s\"に移動されたファイルをスキャンしています"
+"（%dファイルがスキャンされました）。"
 
 #. There are yet tracks to be found, try the second pass
 #: MP3Utils.pas:1374
@@ -8430,7 +8411,7 @@ msgstr "$FAdd$/$FTot$ ($Dir$$Str$)のスキャン中"
 
 #: MP3Utils.pas:2087
 msgid "Problem with scanning directory %s."
-msgstr "ディレクトリ%sのスキャンに問題があります。"
+msgstr "ディレクトリ\"%s\"のスキャンに問題があります。"
 
 #: MP3Utils.pas:2856
 msgid "file is too short or too small"
@@ -8443,7 +8424,7 @@ msgstr "ファイル情報の読み込み中にエラーが発生しました"
 #. wrong file format, no neeed for next attempt
 #: MP3Utils.pas:3851
 msgid "Tag update failed: %s has wrong format."
-msgstr "タグの更新に失敗しました: %sの形式が間違っています。"
+msgstr "タグの更新に失敗しました: \"%s\"の形式が間違っています。"
 
 #. No need to check
 #: MP3Utils.pas:3919
@@ -8457,9 +8438,8 @@ msgstr ""
 #: MP3Utils.pas:4062 Normalization.pas:2161
 msgid ""
 "The media '%s' is not inserted. It must be inserted to access the file %s"
-msgstr ""
-"メディア'%s'が挿入されていません。ファイル%sにアクセスするには挿入する必要が"
-"あります"
+msgstr "メディア\"%s\"が挿入されていません。ファイル\"%"
+"s\"にアクセスするには挿入する必要があります"
 
 #: MP3Utils.pas:4625
 msgid "trial"
@@ -8662,10 +8642,8 @@ msgid ""
 msgstr "アルバムの音量揃えが有効になっていると、他の%dトラックが分析されます。"
 
 #: Normalization.pas:1200
-#, fuzzy
-#| msgid "Exclude folders:"
 msgid "Exclude these tracks"
-msgstr "除外フォルダー:"
+msgstr "これらのトラックを除外"
 
 #: Normalization.pas:1400
 msgid "%d of %d (%s)"
@@ -9066,7 +9044,7 @@ msgstr "オーディオCDが見つかりませんでした。CDを挿入して�
 
 #: ResStrings.pas:562
 msgid "Table of Contents of CD-ROM %s: was not read successfully."
-msgstr "CD-ROM %s:のコンテンツテーブルの読み取りに失敗しました。"
+msgstr "CD-ROM\"%s\"のTOCの読み取りに失敗しました。"
 
 #: ResStrings.pas:564
 msgid "There was a problem querying the database: "
@@ -9204,11 +9182,11 @@ msgstr "書き込みが正常に完了しました"
 
 #: ResStrings.pas:884
 msgid "Preparing track %d of %d (%s)"
-msgstr "トラック%d/%d (%s)を準備しています"
+msgstr "トラック%d/%d(%s)を準備しています"
 
 #: ResStrings.pas:885
 msgid "Problem while decoding file %s, burning terminated"
-msgstr "ファイル%sのデコード中に問題が発生し、書き込み処理が中断されました"
+msgstr "ファイル\"%s\"のデコード中に問題が発生し、書き込み処理が中断されました"
 
 #: ResStrings.pas:886
 msgid "Burning ... (Phase: %s)%s"
@@ -9244,7 +9222,7 @@ msgstr "スリープ: %d 分"
 
 #: SQLiteDB.pas:646
 msgid "Database file %s cannot be accessed."
-msgstr "データベースファイル%sにアクセスできません。"
+msgstr "データベースファイル\"%s\"にアクセスできません。"
 
 #. per #17917
 #: UpNp.pas:1956
@@ -9264,8 +9242,7 @@ msgstr "MediaMonkey ライブラリ"
 
 #: UpNp.pas:4024
 msgid "Media server '%s' could not start: port %d is already in use."
-msgstr ""
-"メディアサーバー'%s'を起動できませんでした:ポート%dは既に使用されています。"
+msgstr "メディアサーバー\"%s\"を起動できませんでした:ポート%dは既に使用されています。"
 
 #: UpNp.pas:4025
 msgid ""
@@ -9392,7 +9369,7 @@ msgstr "オリジナル年"
 
 #: WebUtils.pas:4392
 msgid "The file %s cannot be created."
-msgstr "ファイル%sを作成できません。"
+msgstr "ファイル\"%s\"を作成できません。"
 
 #: WebUtils.pas:6036
 msgid "Searching for updates..."
@@ -10858,16 +10835,12 @@ msgid "Warning will disappear in:"
 msgstr "警告を消す秒数:"
 
 #: dialogs\dlgMovedFiles.html:24
-#, fuzzy
-#| msgid "this CD doesn't exist in the database"
 msgid "Update selected files in the database"
-msgstr "このCDはデータベースに存在しません"
+msgstr "データベース内の選択したファイルを更新する"
 
 #: dialogs\dlgMovedFiles.html:31
-#, fuzzy
-#| msgid "Delete from the database only"
 msgid "Remove selected files from the database"
-msgstr "データベースからのみ削除"
+msgstr "データベースから選択したファイルを削除する"
 
 #: dialogs\dlgPodcastSubscription.html:23
 msgid "This is not a valid RSS link and may not subscribe correctly. "
@@ -12701,9 +12674,8 @@ msgstr "警告:既存の%sインストールを上書きします！"
 msgid ""
 "The directory %s already exists. Would you like to install to that directory "
 "anyway?"
-msgstr ""
-"ディレクトリ%sは既に存在します。それでもそのディレクトリにインストールします"
-"か？"
+msgstr "ディレクトリ\"%s\"は既に存在します"
+"。それでもそのディレクトリにインストールしますか？"
 
 msgid "Installation type:"
 msgstr "インストールタイプ:"
@@ -12751,7 +12723,7 @@ msgstr "ポータブル版ではない"
 
 #: FullPlayer.pas:4079
 msgid "Playback failed: %s cannot be decoded."
-msgstr "再生に失敗しました: %sをデコードできません。"
+msgstr "再生に失敗しました: %sはデコードできません。"
 
 #: dialogs\dlgCollectionOptions.html:50
 msgid "Sub-nodes and Views"
@@ -13097,7 +13069,7 @@ msgstr "再生リストの今後のファイル"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Modify metadata as follows when syncing to '%s'"
-msgstr "'%s'に同期する際、次のようにメタデータを変更します"
+msgstr "\"%s\"に同期する際、次のようにメタデータを変更します"
 
 #: controls/trackListView.js:1220 MaskHelper.pas:3156 ResStrings.pas:480
 #: ResStrings.pas:491 ResStrings.pas:534
