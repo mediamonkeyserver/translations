@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-18 19:33\n"
-"PO-Revision-Date: 2024-03-18 18:35+0000\n"
+"PO-Revision-Date: 2024-03-22 16:55+0000\n"
 "Last-Translator: Timo Beil <Timo-Beil@gmx.de>\n"
 "Language-Team: German <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/de/>\n"
@@ -255,7 +255,7 @@ msgstr "Vollbild"
 
 #: actions.js:790 dialogs\dlgOptions\pnl_General.html:39
 msgid "Minimize to MiniPlayer"
-msgstr "In Mini-Player minimieren"
+msgstr "Zu Mini-Player wechseln"
 
 #: actions.js:824
 msgid "MiniPlayer"
@@ -687,7 +687,7 @@ msgstr "Alle"
 
 #: actions.js:1842 uitools.js:1623
 msgid "Explorer"
-msgstr "Explorer"
+msgstr "Datei-Explorer"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #17811
@@ -3728,7 +3728,7 @@ msgstr "Unterknoten"
 #. timeout to auto hide switcher buttons
 #: controls/nowplayingview.js:15
 msgid "Album Art"
-msgstr "Coverbild"
+msgstr "Bilder"
 
 #: controls/nowplayingview.js:22
 msgid "Artist Bio"
@@ -6854,7 +6854,7 @@ msgstr "Alle Wiedergabelisten"
 
 #: BackgroundStuff.pas:283
 msgid "%d files to be tagged"
-msgstr "%d Dateien zu taggen"
+msgstr "Noch %d Dateien zu taggen"
 
 #: BaseApp.pas:7490
 msgid "There are background processes running. Terminate them?"
@@ -7310,13 +7310,13 @@ msgid ""
 "MediaMonkey, it's recommended that you initially sync over USB to preserve "
 "your existing sync configuration."
 msgstr ""
-"%s versucht das erste Mal mit dem MediaMonkey Archiv zu synchronisieren.\n"
+"%s versucht das erste Mal mit dem MediaMonkey-Archiv zu synchronisieren.\n"
 "\n"
 "\n"
 "\n"
-"Achtung: Wenn dieses Gerät bereits mit einer älteren MediaMonkey-Versionen "
+"Achtung: Wenn dieses Gerät bereits mit einer älteren MediaMonkey-Version "
 "synchronisiert wurde, sollte die initiale Synchronisation über USB "
-"durchgeführt werden, um die Synchronisationskonfiguration zu erhalten."
+"durchgeführt werden, um die bestehende Sync.-konfiguration zu behalten."
 
 #: Devices.pas:10038
 msgid "No / I'll sync over USB instead"
@@ -7649,10 +7649,8 @@ msgid "Previews"
 msgstr "Vorschauen"
 
 #: FileUtils.pas:2580
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "The directory %s cannot be created."
-msgstr "Die Datei %s konnte nicht erstellt werden."
+msgstr "Der Ordner %s kann nicht erstellt werden."
 
 #: FileUtils.pas:2815
 msgid "Drive %s is running out of space."
@@ -7945,12 +7943,12 @@ msgid "Problem while decoding file %s"
 msgstr "Problem beim Dekodieren der Datei %s"
 
 #: GlobVars.pas:1859
-#, fuzzy
-#| msgid "Do you want to use the database and settings from %s ?"
 msgid ""
 "Do you want to use the database and settings from an existing installation "
 "of MediaMonkey?"
-msgstr "Möchten Sie die Datenbank und Einstellungen von %s übernehmen?"
+msgstr ""
+"Möchten Sie Datenbank und Einstellungen von einer bestehenden MediaMonkey-"
+"Installation übernehmen?"
 
 #: GlobVars.pas:1859 controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Import settings"
@@ -8151,8 +8149,8 @@ msgid ""
 "The MicroPlayer is not yet enabled. To enable it, right-click on the "
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
 msgstr ""
-"Der MicroPlayer ist noch nicht aktiviert. Nach Rechtsklick auf die "
-"Taskleiste und \"Symbolleisten\" aktivieren Sie \"MediaMonkey Player\"."
+"Bis Win 10: Der MicroPlayer ist noch nicht aktiviert. Nach Rechtsklick auf "
+"die Taskleiste und \"Symbolleisten\" aktivieren Sie \"MediaMonkey Player\"."
 
 #: Importers.pas:232
 msgid ""
@@ -8444,8 +8442,8 @@ msgid ""
 "This assists you in locating files that have been moved to other locations, "
 "and is only available with the Gold version."
 msgstr ""
-"Hilft Ihnen beim Finden verschobener Dateien. Ordner-Überwachung und Finden "
-"verschobener Dateien sind nur in der Gold-Version verfügbar."
+"Hilft Ihnen beim Finden von Dateien, die zu anderen Speicherorten verschoben "
+"wurden. (Erfordert Lizenz für die Gold-Version)."
 
 #: MP3Utils.pas:1296
 msgid "Scanning for moved files in %s (%d files scanned)."
@@ -8715,10 +8713,8 @@ msgstr ""
 "werden."
 
 #: Normalization.pas:1200
-#, fuzzy
-#| msgid "Exclude folders:"
 msgid "Exclude these tracks"
-msgstr "Ordner ausschließen:"
+msgstr "Diese Tracks ausschließen"
 
 #: Normalization.pas:1400
 msgid "%d of %d (%s)"
@@ -9531,9 +9527,9 @@ msgid ""
 "'Playing' list, remove them from the 'Playing' list and the Library, or "
 "delete them from the 'Playing' list, the Library, and the computer system."
 msgstr ""
-"Aktiviert die Abfrage ob Sie die Tracks entweder nur aus der Abspielliste, "
-"aus Abspielliste und Archiv oder aus Abspielliste, Archiv und die Medien-"
-"Datei vom Computer löschen möchten."
+"Aktiviert folgende Löschabfragen: A) nur aus der Abspielliste entfernen, B) "
+"aus Abspielliste und Archiv entfernen oder C) aus Abspielliste und Archiv "
+"entfernen und Medien-Datei vom Computer löschen."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -9641,7 +9637,7 @@ msgstr "Audioformat"
 
 #: dialogs\dlgOptions\pnl_General.html:38
 msgid "Minimizes to the MiniPlayer"
-msgstr "Wechselt in den MiniPlayer"
+msgstr "Wechselt in den Mini-Player"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:15
 msgid "Causes the Hotkey to function even when MediaMonkey isn't in focus"
@@ -9730,7 +9726,7 @@ msgid ""
 "Improves performance by converting tracks on the fly to Audio CD format. "
 "Disable if burns are failing."
 msgstr ""
-"Verbessert die Leistung, indem die Daten nicht erst in ein Image, sondern "
+"Erhöht die Geschwindigkeit, indem die Daten nicht erst in ein Image, sondern "
 "sofort auf das Medium geschrieben werden. Deaktivieren Sie es, wenn der "
 "Brennvorgang fehlschlägt."
 
@@ -10728,9 +10724,9 @@ msgid ""
 "playlist, remove them from the playlist and the library, or delete them from "
 "the playlist, the library, and the computer system."
 msgstr ""
-"Aktiviert die Abfrage, ob Sie die Tracks nur aus der Wiedergabeliste löschen "
-"wollen, aus Wiedergabeliste und Archiv oder aus Wiedergabeliste Archiv und "
-"von der Festplatte."
+"Aktiviert folgende Löschabfragen: A) nur aus der Wiedergabeliste entfernen, "
+"B) aus Wiedergabeliste und Archiv entfernen oder C) aus Wiedergabeliste und "
+"Archiv entfernen und Medien-Datei vom Computer löschen."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:23
 msgid ""
@@ -10941,16 +10937,12 @@ msgid "Warning will disappear in:"
 msgstr "Warnung verschwindet in:"
 
 #: dialogs\dlgMovedFiles.html:24
-#, fuzzy
-#| msgid "this CD doesn't exist in the database"
 msgid "Update selected files in the database"
-msgstr "Die CD ist nicht in der Datenbank vorhanden"
+msgstr "Gewählte Dateien in der Datenbank aktualiseren"
 
 #: dialogs\dlgMovedFiles.html:31
-#, fuzzy
-#| msgid "Delete from the database only"
 msgid "Remove selected files from the database"
-msgstr "Nur aus der Datenbank entfernen"
+msgstr "Gewählte Dateien aus der Datenbank entfernen"
 
 #: dialogs\dlgPodcastSubscription.html:23
 msgid "This is not a valid RSS link and may not subscribe correctly. "
@@ -11177,7 +11169,7 @@ msgstr "Datei(en) mit angepasster Lautstärke brennen"
 
 #: dialogs\dlgConvertFormat.html:49
 msgid "On the fly encoding"
-msgstr "Gleichzeitiges Kodieren"
+msgstr "\"On the fly\" Kodieren"
 
 #: dialogs\dlgPodcastSubscription.html:77
 msgid "Prevents episodes that haven't been listened to from being deleted."
@@ -12507,7 +12499,7 @@ msgstr "Mit dieser Einstellung füllt MediaMonkey den gesamten Bildschirm aus."
 
 #: dialogs\dlgOptions\pnl_Player.html:52
 msgid "Only when inactive"
-msgstr "Nur bei nicht aktivem oder minimierten Fenster"
+msgstr "Nur bei nicht aktivem oder minimiertem Fenster"
 
 #: dialogs\dlgOptions\pnl_Player.html:48
 msgid "Causes the Pop-up to fade-out smoothly"
