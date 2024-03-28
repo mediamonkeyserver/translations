@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-18 19:33\n"
-"PO-Revision-Date: 2021-07-12 11:24+0000\n"
+"PO-Revision-Date: 2024-03-30 19:55+0000\n"
 "Last-Translator: Chao Xia <gxiachao@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <http://translations.mediamonkey.com/"
 "projects/mediamonkey-5-x/application/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -50,7 +50,7 @@ msgstr "编辑"
 #. prepared menu item for library exports implemented by scripts
 #: actions.js:37 actions.js:5874 dialogs\dlgOptions\pnl_Hotkeys.html:21
 msgid "Export"
-msgstr ""
+msgstr "导出"
 
 #: actions.js:40
 msgid "Window"
@@ -86,8 +86,6 @@ msgstr "历史记录"
 #: dialogs/dlgOptions.js:39 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:429 maincontent.html:50
-#, fuzzy
-#| msgid "Playing list"
 msgid "'Playing' list"
 msgstr "正在播放列表"
 
@@ -228,11 +226,11 @@ msgstr ""
 
 #: actions.js:687
 msgid "Maximize"
-msgstr ""
+msgstr "最大化"
 
 #: actions.js:699
 msgid "Minimize"
-msgstr ""
+msgstr "最小化"
 
 #: actions.js:711 helpers/trayIcon.js:68
 msgid "Restore"
@@ -253,7 +251,7 @@ msgstr ""
 
 #: actions.js:773 actions.js:824 controls/nowplayingview.js:150
 msgid "Full window"
-msgstr ""
+msgstr "完整窗口"
 
 #: actions.js:790 dialogs\dlgOptions\pnl_General.html:39
 msgid "Minimize to MiniPlayer"
@@ -268,15 +266,13 @@ msgid "Menu bar"
 msgstr ""
 
 #: actions.js:856 dialogs/dlgOptions.js:86
-#, fuzzy
-#| msgid "Tools"
 msgid "Toolbar"
-msgstr "工具"
+msgstr "工具栏"
 
 #. switch visibility
 #: actions.js:886 controls/nowplayingview.js:153
 msgid "Full screen"
-msgstr ""
+msgstr "全屏幕"
 
 #: actions.js:897 controls/player.js:675
 msgid "Exit fullscreen"
@@ -321,7 +317,7 @@ msgstr ""
 
 #: actions.js:1014 controls/artWindow.js:803
 msgid "Show image"
-msgstr ""
+msgstr "显示图片"
 
 #. selectTab: 'tabArtwork'
 #. selectTab: 'tabArtwork'
@@ -341,7 +337,7 @@ msgstr ""
 #. ask where to save
 #: actions.js:1074 PlaylistManage.pas:4182
 msgid "Save playlist"
-msgstr ""
+msgstr "保存播放列表"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16261 - to be the first in the list after creation
@@ -387,19 +383,19 @@ msgstr ""
 
 #: actions.js:1237
 msgid "Clean ID3v&1 tags"
-msgstr ""
+msgstr "清除ID3v1标签"
 
 #: actions.js:1251
 msgid "Clean ID3v&2 tags"
-msgstr ""
+msgstr "清除ID3v2标签"
 
 #: actions.js:1265
 msgid "&Clean ID3v1 and v2 tags"
-msgstr ""
+msgstr "清除ID3v1/v2标签...(&C)"
 
 #: actions.js:1279
 msgid "Con&vert format"
-msgstr ""
+msgstr "转换格式(&V)"
 
 #: actions.js:1302 actions.js:1309
 msgid "&Open URL or File"
@@ -3342,10 +3338,8 @@ msgstr "文件"
 
 #. we are still calculating, let it known in the UI:
 #: controls/deviceConfig.js:283
-#, fuzzy
-#| msgid "Calculating signatures..."
 msgid "Calculating"
-msgstr "计算签名..."
+msgstr "正在计算"
 
 #: controls/deviceConfig.js:289 controls/deviceConfig.js:290
 #: controls/deviceConfig/summary.js:59
@@ -4111,23 +4105,23 @@ msgstr "移除字段"
 #. copy from tracklist menu, set tracklist for menu to our ds
 #: controls/trackListView.js:12 dialogs\dlgOptions\pnl_Appearance.html:31
 msgid "Custom 1"
-msgstr "自定义 1:"
+msgstr "自定义 1"
 
 #: controls/trackListView.js:13 dialogs\dlgOptions\pnl_Appearance.html:33
 msgid "Custom 2"
-msgstr "自定义 2:"
+msgstr "自定义 2"
 
 #: controls/trackListView.js:14 dialogs\dlgOptions\pnl_Appearance.html:35
 msgid "Custom 3"
-msgstr "自定义 3:"
+msgstr "自定义 3"
 
 #: controls/trackListView.js:15 dialogs\dlgOptions\pnl_Appearance.html:37
 msgid "Custom 4"
-msgstr "自定义 4:"
+msgstr "自定义 4"
 
 #: controls/trackListView.js:16 dialogs\dlgOptions\pnl_Appearance.html:39
 msgid "Custom 5"
-msgstr "自定义 5:"
+msgstr "自定义 5"
 
 #: controls/trackListView.js:17 dialogs\dlgOptions\pnl_Appearance.html:41
 msgid "Custom 6"
@@ -4369,7 +4363,7 @@ msgstr "已跳过 #"
 #: controls/trackListView.js:1493 Covers.pas:1308 MaskHelper.pas:3189
 #: MaskHelper.pas:3717 MaskHelper.pas:3907 ResStrings.pas:497
 msgid "Resolution"
-msgstr "分辨率:"
+msgstr "分辨率"
 
 #: controls/trackListView.js:1506 FormatsHandler.pas:2998 MaskHelper.pas:3190
 #: MaskHelper.pas:3722 MaskHelper.pas:3908 ResStrings.pas:498
@@ -4471,7 +4465,7 @@ msgstr "PC上的格式"
 #: controls/clientConfig/autoConvert.js:7
 #: controls/serverConfig/autoConvert.js:5
 msgid "Streaming format"
-msgstr "流格式:"
+msgstr "流媒体格式"
 
 #: controls/clientConfig/autoConvert.js:8
 #: controls/deviceConfig/options/pnl_AutoConversion.js:9
@@ -4687,10 +4681,8 @@ msgid "This addon is incompatible with current version of MediaMonkey"
 msgstr "有一个新版本的MediaMonkey可下载"
 
 #: dialogs/dlgAddonInstall.js:20
-#, fuzzy
-#| msgid "Please upgrade to MediaMonkey Gold for this feature!"
 msgid "Please update to MediaMonkey %s or higher."
-msgstr "请升级到 MediaMonkey Gold 以使用此功能!"
+msgstr "请更新到 MediaMonkey %s 或更高版本。"
 
 #. afterImageDownload(); // close old message and enable apply button
 #. downloading original image failed
@@ -4911,9 +4903,7 @@ msgstr "转换文件"
 msgid ""
 "CD Ripping is supported in the free version of MediaMonkey, however, "
 "verification via AccurateRip is only included with the Gold version. "
-msgstr ""
-"CD 翻录功能在 MediaMonkey 免费版中支持, 不过,  AccurateRip 验证功能仅在 Gold "
-"版中包含. "
+msgstr "MediaMonkey 免费版支持CD 翻录，但仅在Gold版包含AccurateRip 验证功能。 "
 
 #: dialogs/dlgDeleteConfirm.js:9
 msgid "Confirmation"
@@ -5004,10 +4994,8 @@ msgid "Are you sure you want to remove %d files from the ''%s'' ?"
 msgstr "您是否确定想要从媒体库中移除 %d 文件?"
 
 #: dialogs/dlgDeletedTracks.js:8
-#, fuzzy
-#| msgid "Remove Unavailable files ?"
 msgid "Remove unavailable files"
-msgstr "移除不需要的文件?"
+msgstr "移除不可用的文件"
 
 #: dialogs/dlgDeletedTracks.js:62
 msgid ""
@@ -5197,10 +5185,8 @@ msgid "%s will be scanned and shared via %s"
 msgstr ""
 
 #: dialogs/dlgMigrateWizard.js:112
-#, fuzzy
-#| msgid "Checking for new version..."
 msgid "Checking for files on the server"
-msgstr "检查是否有新版本..."
+msgstr "检查服务器上的文件"
 
 #. this will force also the 'Sign in' dialog (if needed)
 #: dialogs/dlgMigrateWizard.js:123
@@ -5732,10 +5718,8 @@ msgid "Directory"
 msgstr "目录"
 
 #: dialogs/dlgOptions/pnl_AutoOrganize.js:49
-#, fuzzy
-#| msgid "Filename format:"
 msgid "File Format"
-msgstr "文件名格式:"
+msgstr "文件格式"
 
 #: dialogs/dlgOptions/pnl_Download.js:23
 msgid "Last check:"
@@ -5826,10 +5810,8 @@ msgid ""
 msgstr ""
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:252
-#, fuzzy
-#| msgid "Delete emptied folders"
 msgid "Delete selected hotkeys?"
-msgstr "删除已清空的目录"
+msgstr "删除已选择的快捷键？"
 
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
 #: dialogs/dlgOptions/pnl_Hotkeys.js:266
@@ -6200,10 +6182,8 @@ msgid "Local storage"
 msgstr ""
 
 #: dialogs/dlgWizard/pnlScan.js:155
-#, fuzzy
-#| msgid "Move Library content only"
 msgid "Media Server content is read-only."
-msgstr "仅移动媒体库内容"
+msgstr "媒体服务器内容是只读的。"
 
 #: dialogs/dlgWizard/pnlScan.js:155
 msgid "You might want to add the content via a 'Network' location instead."
@@ -6386,7 +6366,7 @@ msgstr "当设备连接时, 同时自动同步"
 #: helpers/mediaSync.js:977
 msgid ""
 "Causes the device to automatically disconnect after auto-sync has completed."
-msgstr "让设备在自动同步完成之后弹出"
+msgstr "让设备在自动同步完成之后自动断开连接。"
 
 #: helpers/mediaSync.js:977
 msgid "Automatically unmount device after Auto-Sync"
@@ -6515,10 +6495,8 @@ msgstr ""
 
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:3911
-#, fuzzy
-#| msgid "Cannot create connection."
 msgid "Waiting for sync connection"
-msgstr "不能创建连接."
+msgstr "等待同步连接"
 
 #. acquire our sync lock
 #. release sync lock and finish
@@ -7331,7 +7309,7 @@ msgstr "没有足够的空间可用."
 
 #: Devices.pas:11982 Devices.pas:12301 Devices.pas:16060 Devices.pas:16069
 msgid "Problem while copying file %s to %s"
-msgstr "问题来自于复制文件 %s 到 %s."
+msgstr "问题来自于复制文件 %s 到 %s"
 
 #. e.g. to know it when the tracks are part of a playlist that need to be modified (e.g. on MMS)
 #: Devices.pas:12933
@@ -7766,7 +7744,7 @@ msgstr "WMA Pro"
 #. Windows Media Audio Voice Codec
 #: FormatsManage.pas:3028
 msgid "WMA Speech"
-msgstr "WMA Speech"
+msgstr "WMA 语音"
 
 #. Windows Media Audio Lossless Codec
 #: FormatsManage.pas:3052
@@ -8045,10 +8023,8 @@ msgid "seconds remaining"
 msgstr ""
 
 #: hpCDEBurner.pas:978
-#, fuzzy
-#| msgid "Calculating signatures..."
 msgid "Simulating"
-msgstr "计算签名..."
+msgstr "正在模拟"
 
 #: hpCDEBurner.pas:979 hpCDEBurner.pas:981
 #, fuzzy
@@ -8121,10 +8097,8 @@ msgid "Burn error"
 msgstr "现在安装"
 
 #: hpCDEBurner.pas:1500
-#, fuzzy
-#| msgid "The file %s cannot be created."
 msgid "Selected tracks cannot be accessed!"
-msgstr "文件 %s 不能创建."
+msgstr "选择的曲目不能访问！"
 
 #: hpCDEBurner.pas:1628 hpCDEBurner.pas:2509
 msgid "Burning ... (%s)"
@@ -8208,10 +8182,8 @@ msgid "Target Extension"
 msgstr "扩展"
 
 #: MaskHelper.pas:3172
-#, fuzzy
-#| msgid "Sample:"
 msgid "Sample Rate"
-msgstr "采样:"
+msgstr "采样率"
 
 #: MaskHelper.pas:3174 MaskHelper.pas:3647 MaskHelper.pas:3892
 msgid "Involved People"
@@ -8722,10 +8694,8 @@ msgid ""
 msgstr ""
 
 #: Normalization.pas:1200
-#, fuzzy
-#| msgid "Exclude folders:"
 msgid "Exclude these tracks"
-msgstr "排除文件夹:"
+msgstr "排除这些曲目"
 
 #: Normalization.pas:1400
 msgid "%d of %d (%s)"
@@ -9559,8 +9529,8 @@ msgid ""
 "highly organized directory structure, in which case 'Filename + Path' will "
 "yield better results."
 msgstr ""
-"属性可以通过 '文件名' 或 '文件名+路径' 推测. 一般而言, 最好仅从文件名推测, 除"
-"非曲目是以目录结构来存储的,  '文件名+路径' 这样的方式会有更好的效果."
+"属性可以通过 '文件名' 或 '文件名+路径' 推测. 一般而言, 最好仅从文件名推测, "
+"除非曲目是以目录结构来存储的, '文件名+路径' 这样的方式会有更好的效果."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:2
 msgid ""
@@ -9735,10 +9705,8 @@ msgid "Shows the MediaMonkey icon in the system tray"
 msgstr "显示MediaMonkey的图标在系统工具栏"
 
 #: dialogs\dlgOptions\pnl_Library.html:127
-#, fuzzy
-#| msgid "File Properties"
 msgid "Video properties:"
-msgstr "文件属性"
+msgstr "视频属性："
 
 #: dialogs\dlgOptions\pnl_Library.html:66
 msgid "Only for files with changed timestamp or size"
@@ -10102,7 +10070,7 @@ msgstr ""
 msgid ""
 "Saves playback position (great for Audiobooks) for files of the selected "
 "type."
-msgstr "对选择类型的文件储存播放位置 (这对有声书很不错)"
+msgstr "对选择类型的文件保存播放位置 (这对有声书很不错)"
 
 #: dialogs\dlgOptions\pnl_Player.html:32
 #, fuzzy
@@ -10697,10 +10665,8 @@ msgid ""
 msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:10
-#, fuzzy
-#| msgid "Check for new episodes:"
 msgid "Also checks for new beta builds."
-msgstr "检查是否有新的单曲:"
+msgstr "同时检查新的测试版。"
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid ""
@@ -11418,10 +11384,8 @@ msgid "Streams"
 msgstr "串流"
 
 #: dialogs\dlgWizard\pnlRegistration.html:39
-#, fuzzy
-#| msgid "Unregistered"
 msgid "Registered to :"
-msgstr "尚未授权"
+msgstr "注册给："
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:43
 msgid "Customize case for these phrases"
@@ -11562,10 +11526,8 @@ msgid "Infer properties from:"
 msgstr ""
 
 #: dialogs\dlgOptions\pnl_Library.html:85
-#, fuzzy
-#| msgid "Inferred properties then tags"
 msgid "Infer properties:"
-msgstr "推论属性然后标签"
+msgstr "推断属性："
 
 #: dialogs\dlgOptions\pnl_MediaTree.html:2
 msgid "Edit and configure nodes to display:"
@@ -11631,7 +11593,7 @@ msgstr ""
 
 #: dialogs\dlgNewVersion.html:8
 msgid "There is a new version of MediaMonkey available."
-msgstr "有一个新版本的MediaMonkey可下载"
+msgstr "有新版本 MediaMonkey 可用。"
 
 #: dialogs\dlgNewVersion.html:19
 msgid "Description of the new version:"
@@ -11751,7 +11713,7 @@ msgstr "每天"
 msgid ""
 "If enabled, MediaMonkey will check (over the internet) whether a newer "
 "version exists."
-msgstr "如果启用, MediaMonkey会连上因特网去核对是否有更新版本"
+msgstr "如果启用，MediaMonkey会通过互联网检查是否有新版本。"
 
 #: dialogs\dlgOptions\pnl_General.html:13
 #, fuzzy
@@ -12365,7 +12327,7 @@ msgstr ""
 
 #: dialogs\dlgAddonInstall.html:51
 msgid "You should only install software from sources that you trust."
-msgstr "您应该只安装来自于您信任来源的软件"
+msgstr "您应该只安装来自于您信任来源的软件。"
 
 #: dialogs\dlgAutoConvertRule.html:18
 msgid "When the format is"
@@ -12517,10 +12479,8 @@ msgid "Lowercase common short words"
 msgstr ""
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:23
-#, fuzzy
-#| msgid "Recommended changes to capitalization:"
 msgid "Recommended changes to capitalization"
-msgstr "建议更改为大写:"
+msgstr "建议更改为大写"
 
 #, fuzzy
 #| msgid "WAV settings"
