@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-18 19:33\n"
-"PO-Revision-Date: 2024-03-30 19:55+0000\n"
+"PO-Revision-Date: 2024-04-07 12:55+0000\n"
 "Last-Translator: Johan Vestlund <johan@gnirpla.se>\n"
 "Language-Team: Swedish <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/sv/>\n"
@@ -24,11 +24,12 @@ msgstr ""
 #: actions.js:22 dialogs/dlgOptions.js:5
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:63
 msgid "General"
-msgstr "Generellt"
+msgstr "Allmänt"
 
 #: actions.js:25 controls/menuToggleButton.js:26
+#, fuzzy
 msgid "View"
-msgstr "Visa"
+msgstr "Visa ELLER Vy"
 
 #: actions.js:28
 msgid "Tools"
@@ -87,7 +88,7 @@ msgstr "Historik"
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:429 maincontent.html:50
 msgid "'Playing' list"
-msgstr "Spela-nu-lista"
+msgstr "Uppspelningslista"
 
 #. load player in timeout to be sure video window is already stretched to full screen
 #: actions.js:58 playerUtils.js:449
@@ -115,7 +116,7 @@ msgstr "Redigera Samling"
 #: dialogs/dlgOptions/pnl_Performance.js:29
 #: dialogs/dlgOptions/pnl_VolumeLeveling.js:17
 msgid "Please upgrade to MediaMonkey Gold for this feature!"
-msgstr "Vänligen uppgradera till MediaMonkey Gold för denna funktion!"
+msgstr "Var vänlig att uppgradera till MediaMonkey Gold för denna funktion!"
 
 #: actions.js:135
 msgid "Enter registration key for MediaMonkey Gold"
@@ -1171,11 +1172,11 @@ msgstr "Pausa"
 
 #: actions.js:3338 Win7ToolsImpl.pas:1900
 msgid "Play/Pause"
-msgstr "Spela/Pausa"
+msgstr "Spela/Paus"
 
 #: actions.js:3352 Win7ToolsImpl.pas:1901
 msgid "Stop"
-msgstr "Stoppa"
+msgstr "Stopp"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. stop should be active even if playback is paused
@@ -1203,7 +1204,7 @@ msgstr "Varje fil"
 
 #: actions.js:3446
 msgid "Crossfade"
-msgstr "Crossfade"
+msgstr "Tonande spårövergång"
 
 #. For screen reader support (aria-label for screen readers to read its state)
 #: actions.js:3464 controls/player.js:380 controls/player.js:382
@@ -1226,7 +1227,7 @@ msgid ""
 "changes to the 'Playing' list."
 msgstr ""
 "Blanda inaktiverat. Det går inte att blanda på grund av redigeringar - "
-"använd \"Ångra\" för att återställa ändringar i listan \"Spelar\"."
+"använd \"Ångra\" för att återställa ändringar i uppspelningslistan."
 
 #: actions.js:3501
 msgid "Repeat off"
@@ -1251,7 +1252,7 @@ msgstr "Upprepa"
 
 #: actions.js:3569
 msgid "Level playback volume"
-msgstr "Ljudstyrkereglering"
+msgstr "Reglera uppspelningsljudstyrka"
 
 #. #17191
 #: actions.js:3586 Win7ToolsImpl.pas:1902
@@ -1272,7 +1273,7 @@ msgstr "Sänk volym"
 
 #: actions.js:3642
 msgid "Skip 5 seconds backward"
-msgstr "Hoppa bak 5 sekunder"
+msgstr "Hoppa bakåt 5 sekunder"
 
 #: actions.js:3657
 msgid "Skip 5 seconds forward"
@@ -1293,11 +1294,11 @@ msgstr "&Auto-Tag"
 
 #: actions.js:3743
 msgid "Configure current &output plug-in"
-msgstr "Konfigurera aktuell &output-plugin"
+msgstr "Konfigurera aktuell &utgångsplugin"
 
 #: actions.js:3755
 msgid "Configure current &input plug-in"
-msgstr "Konfigurera aktuell input-plugin"
+msgstr "Konfigurera aktuell &ingångsplugin"
 
 #: actions.js:3767 dialogs/dlgWizard.js:18
 msgid "Share media"
@@ -1393,8 +1394,9 @@ msgstr "M3U/XSPF-spellista"
 
 #. if not uninstalled
 #: actions.js:4067
+#, fuzzy
 msgid "Report"
-msgstr "Rapportera"
+msgstr "Rapportera eller rappor"
 
 #: actions.js:4067 Scripts/export/actions_add.js:391
 msgid "File list"
@@ -1850,9 +1852,10 @@ msgstr "Mjuk paus"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Crossfades during seek operation"
-msgstr "Crossfade vid sökning"
+msgstr "Tonande spårövergångar vid sökning"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
+#, fuzzy
 msgid "Smooth seek"
 msgstr "Enkel sökning"
 
@@ -1866,7 +1869,7 @@ msgstr "Mjukt stopp"
 
 #: out_MMDS_configDlg.js:74
 msgid "MediaMonkey DirectSound Output plug-in"
-msgstr "MediaMonkey direktljudutgångsplugin"
+msgstr "MediaMonkey DirectSound utgångsplugin"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare sampleRate dropDown
@@ -1936,7 +1939,7 @@ msgstr "Avancerat"
 
 #: out_WASAPI_configDlg.js:180
 msgid "MediaMonkey WASAPI Output plug-in"
-msgstr "MediaMonkey WASAPI-videoutgång plug-in"
+msgstr "MediaMonkey WASAPI utgångsplugin"
 
 #: playerUtils.js:452
 msgid "Zoom"
@@ -2332,7 +2335,7 @@ msgstr "Statusfält"
 
 #: viewHandlers.js:966
 msgid "Collection browser"
-msgstr "Urvalslista"
+msgstr "Samlingslista"
 
 #: viewHandlers.js:980
 msgid "Categories"
@@ -2718,7 +2721,7 @@ msgstr "R&B och soul"
 #. occasion tag constant
 #: viewHandlers.js:6778 NewDBCreate.pas:1250
 msgid "Dance"
-msgstr "Dance"
+msgstr "Dans"
 
 #: viewHandlers.js:6782
 msgid "Blues"
@@ -3480,7 +3483,7 @@ msgstr "dB"
 #: controls/player.js:460 controls/player.js:467 controls/player.js:469
 #: controls/player.js:478 controls/player.js:480 dialogs/dlgEqualizer.js:5
 msgid "Equalizer"
-msgstr "Equalizer"
+msgstr "Frekvenskurvevariator"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #17112
@@ -3502,13 +3505,15 @@ msgstr "Balans:"
 
 #. }]);
 #: controls/feedlistview.js:53
+#, fuzzy
 msgid "feed"
-msgstr "Mata"
+msgstr "Mata eller matning"
 
 #: controls/filetypetree.js:40 dialogs/dlgSupportedFormats.js:31
 #: dialogs\dlgAutoConvertRule.html:33
+#, fuzzy
 msgid "Format"
-msgstr "Format"
+msgstr "Format eller formattera"
 
 #. @ts-ignore
 #. #16568 - item 2
@@ -3598,8 +3603,9 @@ msgid "Filenames can be defined using mask variables or statically"
 msgstr "Filnamn kan definieras med hjälp av maskvariabler eller statiskt"
 
 #: controls/maskEditWizard.js:81
+#, fuzzy
 msgid "Sample:"
-msgstr "Prov:"
+msgstr "Sampel:"
 
 #. Set the node path for the new tab with the contents of the item that was clicked
 #: controls/mediaTree.js:201
@@ -3623,8 +3629,9 @@ msgstr "Välj alternativ"
 
 #. data.subViews = oldPreset.subViews;
 #: controls/menuToggleButton.js:66 controls/multiview.js:180
+#, fuzzy
 msgid "Views"
-msgstr "Visa"
+msgstr "Visa eller vyer"
 
 #. this._oppositeX = value;
 #. e.g. Spotify does not support deletion
@@ -3729,7 +3736,7 @@ msgstr "Normalt fönster"
 #: controls/nowplayingview.js:159 controls/nowPlaying/artistBio.js:65
 #: controls/nowPlaying/fullList.js:151
 msgid "Show 'Playing' list"
-msgstr "Visa avspelningslista"
+msgstr "Visa uppspelningslista"
 
 #. Main context manu of Now Playing view
 #: controls/nowplayingview.js:224
@@ -3772,11 +3779,12 @@ msgstr "Intern spelare"
 #: controls/player.js:378
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
-msgstr "Blandar avspelningslistan och infogar nya spår på slumpmässiga platser."
+msgstr ""
+"Blandar uppspelningslistan och infogar nya spår på slumpmässiga platser."
 
 #: controls/player.js:500
 msgid "Speed"
-msgstr "Hastighet/tempo"
+msgstr "Hastighet"
 
 #: controls/player.js:504
 msgid "Pitch"
@@ -4420,7 +4428,7 @@ msgstr "ISRC"
 #: controls/trackListView.js:1749 ResStrings.pas:476 ResStrings.pas:531
 #: dialogs\dlgTrackProperties\tabDetails.html:108
 msgid "Encoder"
-msgstr "Encoder"
+msgstr "Kodare"
 
 #: controls/trackListView.js:1766 MaskHelper.pas:3196 MaskHelper.pas:3737
 #: MaskHelper.pas:3911 ResStrings.pas:475
@@ -4434,7 +4442,7 @@ msgstr "Copyright"
 #: controls/trackListView.js:2189 controls/trackListView.js:2195
 #: dialogs\dlgDelay.html:13
 msgid "in"
-msgstr "om"
+msgstr "i"
 
 #. ODS('--- cancelled getWave');
 #: controls/waveform.js:95
@@ -4673,7 +4681,7 @@ msgstr "Detta tillägg är inte kompatibelt med aktuell version av MediaMonkey"
 
 #: dialogs/dlgAddonInstall.js:20
 msgid "Please update to MediaMonkey %s or higher."
-msgstr "Var vänlig uppdatera till MediaMonkey %s eller högre."
+msgstr "Var god uppdatera till MediaMonkey %s eller högre."
 
 #. afterImageDownload(); // close old message and enable apply button
 #. downloading original image failed
@@ -4685,7 +4693,7 @@ msgstr "Bildnedladdning misslyckades"
 #: dialogs/dlgAutoConvertRule.js:89 FormatsManage.pas:4476
 #: FormatsManage.pas:4510 FormatsManage.pas:4566 controls\searchEditor.html:12
 msgid "Any"
-msgstr "Alla"
+msgstr "Vilken som helst"
 
 #: dialogs/dlgAutoConvertRule.js:90 FormatsManage.pas:4489
 msgid "Incompatible"
@@ -4697,7 +4705,7 @@ msgstr "Autokonverteringsregel"
 
 #: dialogs/dlgAutoConvertRule.js:147
 msgid "Video bitrate"
-msgstr "Videobildfrekvens"
+msgstr "Videobithastighet"
 
 #: dialogs/dlgAutoConvertRule.js:148 dialogs\dlgSupportedFormat.html:94
 msgid "Frame rate"
@@ -4725,7 +4733,7 @@ msgstr "Ljudkanaler"
 
 #: dialogs/dlgAutoConvertRule.js:154
 msgid "Audio bit depth"
-msgstr "Ljudupplösning"
+msgstr "Ljudbitdjup"
 
 #: dialogs/dlgAutoorganize.js:179 dialogs\dlgAutoorganize.html:34
 msgid "Delete emptied folders"
@@ -4759,7 +4767,7 @@ msgstr "Slå upp via fingeravtryck..."
 
 #: dialogs/dlgAutotag.js:49
 msgid "Auto-tag"
-msgstr "Automatisk tagg"
+msgstr "Autotagg"
 
 #: dialogs/dlgAutotag.js:144 dialogs/dlgAutotag.js:157 DBStructure.pas:861
 msgid "File %d of %d processing"
@@ -4850,7 +4858,7 @@ msgstr "Mediedelning"
 
 #: dialogs/dlgCollectionOptions.js:57
 msgid "Collection Options"
-msgstr "Inställningar: Urval"
+msgstr "Samlingsinställningar"
 
 #. add new sync storage target (profile):
 #: dialogs/dlgCollectionOptions.js:83 dialogs/dlgCollectionOptions.js:137
@@ -4931,7 +4939,7 @@ msgstr "Ta endast bort från Spellista"
 
 #: dialogs/dlgDeleteConfirm.js:86
 msgid "Remove from the Playlist and"
-msgstr "Ta endast bort från Spellistan"
+msgstr "Ta bort från spellistan och"
 
 #. per #15029
 #: dialogs/dlgDeleteConfirm.js:96 dialogs/dlgDeleteConfirm.js:145
@@ -4951,28 +4959,28 @@ msgstr "Ta bort alla kopior och ta bort från databasen"
 
 #: dialogs/dlgDeleteConfirm.js:110
 msgid "Delete from the Playlist and database only"
-msgstr "Ta endast bort från Spellistan och Mediabiblioteket"
+msgstr "Ta endast bort från Spellistan och Mediadatabasen"
 
 #: dialogs/dlgDeleteConfirm.js:111
 msgid "Delete from the Playlist, database and drive"
-msgstr "Ta bort från spellistan, databasen och enheten"
+msgstr "Ta bort från spellistan, databasen och enhet"
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from 'Playing' list only"
-msgstr "Ta endast bort från avspelningslista"
+msgstr "Ta endast bort från uppspelningslista"
 
 #: dialogs/dlgDeleteConfirm.js:135
 msgid "Remove from 'Playing' list and"
-msgstr "Ta bort från avspelningslista och"
+msgstr "Ta bort från uppspelningslista och"
 
 #: dialogs/dlgDeleteConfirm.js:160
 msgid "Delete from 'Playing' list and the database only"
-msgstr "Ta endast bort från avspelningslistan och databasen"
+msgstr "Ta endast bort från uppspelningslistan och databasen"
 
 #: dialogs/dlgDeleteConfirm.js:161
 msgid "Delete from 'Playing' list, the database and drive"
-msgstr "Ta bort från \"Spelar\"-listan, databasen och enheten"
+msgstr "Ta bort från uppspelningslistan, databasen och enheten"
 
 #: dialogs/dlgDeleteConfirm.js:189
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
@@ -5060,7 +5068,7 @@ msgstr "Platsen %s finns inte."
 
 #: dialogs/dlgImageSize.js:41
 msgid "Browser & Grid views"
-msgstr "Webbläsarfavoriter"
+msgstr "Utforskare & rutnätsvyer"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. promise canceled
@@ -5197,101 +5205,103 @@ msgstr "Fil"
 
 #: dialogs/dlgMP3Settings.js:4
 msgid "Compatible: CBR  96 kbps - Fair Quality"
-msgstr "Kompatibel: CBR   96 kbps - Hygglig kvalitet"
+msgstr "Kompatibel: KBH/CBR   96 kbps - Hygglig kvalitet"
 
 #: dialogs/dlgMP3Settings.js:4 MP3Manage.pas:256
 msgid "Compatible: CBR 128 kbps - Average Quality"
-msgstr "Kompatibel: CBR 128 kbps - Medelbra Kvalitet"
+msgstr "Kompatibel: KBH/CBR 128 kbps - Medelbra Kvalitet"
 
 #: dialogs/dlgMP3Settings.js:5 MP3Manage.pas:257
 msgid "Compatible: CBR 160 kbps - Good Quality"
-msgstr "Kompatibel: CBR 160 kbps - Bra Kvalitet"
+msgstr "Kompatibel: KBH/CBR 160 kbps - Bra Kvalitet"
 
 #: dialogs/dlgMP3Settings.js:5 MP3Manage.pas:260
 msgid "Medium (fast): VBR ~160 kbps - High Quality"
-msgstr "Medium (snabb): VBR ~160 kbps - Hög Kvalitet"
+msgstr "Medium (snabb): VBH(VBR) ~160 kbps - Hög Kvalitet"
 
 #: dialogs/dlgMP3Settings.js:6 MP3Manage.pas:259
 msgid "Medium: VBR ~160 kbps - High Quality+"
-msgstr "Medium: VBR ~160 kbps - Hög Kvalitet+"
+msgstr "Medium: VBH(VBR) ~160 kbps - Hög Kvalitet+"
 
 #: dialogs/dlgMP3Settings.js:6 MP3Manage.pas:258
 msgid "Compatible: CBR 192 kbps - High Quality+"
-msgstr "Kompatibel: CBR 192 kbps - Hög Kvalitet+"
+msgstr "Kompatibel: KBH/CBR 192 kbps - Hög Kvalitet+"
 
 #: dialogs/dlgMP3Settings.js:7 MP3Manage.pas:262
 msgid "Standard (fast): VBR ~192 kbps - Very High Quality"
-msgstr "Standard (snabb): VBR ~192 kbps - Mycket Hög Kvalitet"
+msgstr "Standard (snabb): VBH(VBR) ~192 kbps - Mycket Hög Kvalitet"
 
 #: dialogs/dlgMP3Settings.js:7 MP3Manage.pas:261
 msgid "Standard: VBR ~192 kbps - Very High Quality+"
-msgstr "Standard: VBR ~192 kbps - Mycket Hög Kvalitet+"
+msgstr "Standard: VBH(VBR) ~192 kbps - Mycket Hög Kvalitet+"
 
 #: dialogs/dlgMP3Settings.js:8 MP3Manage.pas:264
 msgid "Extreme (fast): VBR ~256 kbps - Near CD Quality"
-msgstr "Extrem (snabb): VBR ~256 kbps - Nära CD-Kvalitet"
+msgstr "Extrem (snabb): VBH(VBR) ~256 kbps - Nära CD-Kvalitet"
 
 #: dialogs/dlgMP3Settings.js:8 MP3Manage.pas:263
 msgid "Extreme: VBR ~256 kbps - Near CD Quality+"
-msgstr "Extrem: VBR ~256 kbps - Nära CD-Kvalitet+"
+msgstr "Extrem: VBH(VBR) ~256 kbps - Nära CD-Kvalitet+"
 
 #: dialogs/dlgMP3Settings.js:9 MP3Manage.pas:265
 msgid "Insane: CBR ~320 kbps - Highest Quality"
-msgstr "Galen: CBR ~320 kbps - Högsta Kvalitet"
+msgstr "Galen: KBH/CBR ~320 kbps - Högsta Kvalitet"
 
 #: dialogs/dlgMP3Settings.js:9 MP3Manage.pas:247
 msgid "Phone: ABR ~16 kbps mono"
-msgstr "Telefon: ABR ~16 kbps mono"
+msgstr "Telefon: GBH/ABR ~16 kbps mono"
 
 #: dialogs/dlgMP3Settings.js:9 MP3Manage.pas:248
 msgid "Short Wave: ABR ~24 kbps mono"
-msgstr "Kortvåg: ABR ~24 kbps mono"
+msgstr "Kortvåg: GBH/ABR ~24 kbps mono"
 
 #: dialogs/dlgMP3Settings.js:10 MP3Manage.pas:249
 msgid "AM: ABR ~40 kbps mono "
-msgstr "AM: ABR ~40 kbps mono "
+msgstr "AM: GBH/ABR ~40 kbps mono "
 
 #: dialogs/dlgMP3Settings.js:10 MP3Manage.pas:250
 msgid "Voice: ABR ~56 kbps mono"
-msgstr "Röst: ABR ~56 kbps mono"
+msgstr "Röst: GBH/ABR ~56 kbps mono"
 
 #: dialogs/dlgMP3Settings.js:10 MP3Manage.pas:251
 msgid "Tape: ABR ~112 kbps"
-msgstr "Band: ABR ~112 kbps"
+msgstr "Band: GBH/ABR ~112 kbps"
 
 #: dialogs/dlgMP3Settings.js:10 MP3Manage.pas:252
 msgid "Hifi: ABR ~160 kbps"
-msgstr "Hifi: ABR ~160 kbps"
+msgstr "Hifi: GBH/ABR ~160 kbps"
 
 #: dialogs/dlgMP3Settings.js:11 MP3Manage.pas:253
 msgid "Near-CD: ABR ~192 kbps"
-msgstr "Nära CD: ABR ~192 kbps"
+msgstr "Nära CD: GBH/ABR ~192 kbps"
 
 #: dialogs/dlgMP3Settings.js:11 MP3Manage.pas:254
 msgid "Studio: ABR ~256 kbps"
-msgstr "Studio: ABR ~256 kbps"
+msgstr "Studio: GBH/ABR ~256 kbps"
 
 #: dialogs/dlgMP3Settings.js:13
 msgid "Constant bitrate (CBR - most compatible)"
-msgstr "Konstant Bitrate (CBR - mest kompatibel)"
+msgstr "Konstant bithastighet/Constant bitrate (KBH/CBR - mest kompatibel)"
 
 #: dialogs/dlgMP3Settings.js:13
 msgid "Variable bitrate (VBR - most efficient)"
-msgstr "Variabel Bitrate (VBR - effektivast)"
+msgstr "Variabel bithastighet (VBH(VBR)- effektivast)"
 
 #: dialogs/dlgMP3Settings.js:14
 msgid "Average bitrate (ABR - controlled/efficient)"
-msgstr "Genomsnittlig Bitrate (ABR - kontrollerad/effektiv)"
+msgstr "Genomsnittlig Bithastighet (GBH/ABR - kontrollerad/effektiv)"
 
 #: dialogs/dlgMP3Settings.js:16 ResStrings.pas:403
 msgid "Stereo"
 msgstr "Stereo"
 
 #: dialogs/dlgMP3Settings.js:16
+#, fuzzy
 msgid "Joint stereo"
 msgstr "Joint stereo"
 
 #: dialogs/dlgMP3Settings.js:16
+#, fuzzy
 msgid "Dual channel"
 msgstr "Dual channel"
 
@@ -5334,7 +5344,7 @@ msgstr "MP3-inställningar"
 #: dialogs/dlgMP3Settings.js:97 ResStrings.pas:386
 #: dialogs\dlgMP3Settings.html:31
 msgid "VBR Quality"
-msgstr "VBR-kvalitet"
+msgstr "VBH(VBR)kvalitet"
 
 #: dialogs/dlgMP3Settings.js:107 FormatsHandler.pas:3034 ResStrings.pas:381
 msgid "Avg. bitrate"
@@ -5401,15 +5411,15 @@ msgstr "Codecar"
 
 #: dialogs/dlgOptions.js:51
 msgid "Input"
-msgstr "Input"
+msgstr "Ingång"
 
 #: dialogs/dlgOptions.js:51 dialogs/dlgOptions.js:55
 msgid "plug-ins"
-msgstr "plugins"
+msgstr "plugin"
 
 #: dialogs/dlgOptions.js:55
 msgid "Audio Output"
-msgstr "Ljud-output"
+msgstr "Ljud-utgång"
 
 #: dialogs/dlgOptions.js:95
 msgid "Collections & Views"
@@ -5421,7 +5431,7 @@ msgstr "Fält"
 
 #: dialogs/dlgOptions.js:103
 msgid "Tags & playlists"
-msgstr "ID3-taggar och spellistor"
+msgstr "Taggar och spellistor"
 
 #: dialogs/dlgOptions.js:111
 msgid "Auto-organize"
@@ -5575,7 +5585,7 @@ msgstr "Ingenting"
 
 #: dialogs/dlgSleep.js:59
 msgid "Sleep timer can be used only with Gold!"
-msgstr "Sömntimer kan endast användas med MM guld!"
+msgstr "Strömsparlägestimer kan endast användas med MM guld!"
 
 #: dialogs/dlgSpeedPitch.js:11
 msgid "Adjust pitch"
@@ -5659,7 +5669,7 @@ msgstr "Installationsguiden"
 
 #: dialogs/dlgWizard.js:244
 msgid "Please try again"
-msgstr "Var vänlig försök igen"
+msgstr "Var god försök igen"
 
 #: dialogs/dlgOptions/pnl_AutoDJ.js:9 dialogs/dlgOptions/pnl_AutoDJ.js:51
 #: ResStrings.pas:368 dialogs\dlgOptions\pnl_AutoDJ.html:9
@@ -5673,13 +5683,13 @@ msgstr "Organisera filer automatiskt (under skanningar eller redigeringar)"
 #: dialogs/dlgOptions/pnl_AutoOrganize.js:15
 msgid "For auto-organize functionality, please upgrade to MediaMonkey Gold!"
 msgstr ""
-"För automatisk organisering av funktionalitet, var vänlig uppgradera till "
+"För automatisk organisering av funktionalitet, var god uppgradera till "
 "MediaMonkey Gold!"
 
 #: dialogs/dlgOptions/pnl_AutoOrganize.js:33
 #: dialogs\dlgCollectionOptions.html:49
 msgid "Criteria"
-msgstr "Kriterier"
+msgstr "Kriterie"
 
 #: dialogs/dlgOptions/pnl_AutoOrganize.js:41 Devices.pas:2060
 #: MaskHelper.pas:3207
@@ -5700,7 +5710,7 @@ msgid ""
 "compatible with Winamp 2. They generally enhance and/or modify the audio in "
 "some way."
 msgstr ""
-"MediaMonkey Player stöder DSP Audio effect plug-in som är kompatibla med "
+"MediaMonkey Player stöder DSP Audio effect plugin som är kompatibla med "
 "Winamp 2. De förbättrar och/eller modifierar i allmänhet ljudet på något "
 "sätt."
 
@@ -5758,8 +5768,8 @@ msgid ""
 "For DSP Audio Effect plug-ins, you can also set the order in which the "
 "plugins process the audio using the up/down arrows."
 msgstr ""
-"För DSP Audio Effect-insticksprogram kan du också ställa in den ordning i "
-"vilken insticksprogrammen bearbetar ljudet med hjälp av upp/ner-pilarna."
+"För DSP Audio Effect-plugin kan du också ställa in den ordning i vilken "
+"plugin-programmen bearbetar ljudet med hjälp av upp/ner-pilarna."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:39
 msgid "Plug-in description"
@@ -5797,7 +5807,7 @@ msgstr ""
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:252
 msgid "Delete selected hotkeys?"
-msgstr "Radera tömda mappar?"
+msgstr "Radera valda snabbtangenter?"
 
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
 #: dialogs/dlgOptions/pnl_Hotkeys.js:266
@@ -5809,12 +5819,12 @@ msgid ""
 "The MediaMonkey Player supports Input plug-ins that are compatible with "
 "Winamp 2. They generally add support for new audio formats."
 msgstr ""
-"MediaMonkey stöder Input plug-in som är kompatibla med Winamp 2. De lägger i "
+"MediaMonkey stöder ingångsplugin som är kompatibla med Winamp 2. De lägger i "
 "allmänhet till stöd för nya ljudformat."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:14
 msgid "Player panel not found."
-msgstr "Spelarpanelen hittades inte."
+msgstr "Spelarpanel hittades inte."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:18
 msgid "Player control not found."
@@ -5826,7 +5836,7 @@ msgstr "Spelarlayout kan inte ställas in."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:12
 msgid "Preview control not found."
-msgstr "Förhandsgranskningskontroll hittades inte."
+msgstr "Kontroll för förhandsgranskning hittades inte."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:24
 msgid "Preview layout cannot be set."
@@ -5895,9 +5905,10 @@ msgid ""
 "MediaMonkey is not running and you are not logged into your account. Please "
 "input your account (%s) password:"
 msgstr ""
-"När du installerar MediaMonkey som tjänst kan du surfa på mediaservern även "
-"om MediaMonkey inte körs och du inte är inloggad på ditt konto. Vänligen "
-"ange ditt kontolösenord (%s):"
+"Om MediaMonkey-servern är installerad som en tjänst kan du komma åt "
+"mediefilerna via DLNA även om MediaMonkey inte körs eller om du inte är "
+"inloggad. Det är bara datorn som behöver startas. Ange lösenordet för ditt "
+"användarkonto (%s):"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:63
 #: dialogs/dlgOptions/pnl_MediaTree.js:64
@@ -5934,7 +5945,7 @@ msgstr "Källor till låttexter"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:97
 msgid "Auto-tag metadata sources"
-msgstr "Märk metadatakällor automatiskt"
+msgstr "Autotagga metadatakällor"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:141
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:197
@@ -5944,7 +5955,7 @@ msgstr "Albumsammanfattning"
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:231 Extensions.pas:1595
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:3
 msgid "Tags"
-msgstr "ID3-taggar"
+msgstr "Taggar"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:232
 msgid "Tags to look up"
@@ -5955,12 +5966,12 @@ msgid ""
 "The MediaMonkey Player supports Output plug-ins that are compatible with "
 "Winamp 2. They generally control how MediaMonkey outputs audio."
 msgstr ""
-"MediaMonkey Player stöder Output plug-in som är kompatibla med Winamp 2. De "
+"MediaMonkey Player stöder utgångsplugin som är kompatibla med Winamp 2. De "
 "styr i allmänhet hur MediaMonkey matar ut ljud."
 
 #: dialogs/dlgOptions/pnl_Performance.js:41
 msgid "Use hardware acceleration when available"
-msgstr "Använd maskinvaruacceleration när den är tillgänglig"
+msgstr "Använd maskinvaruacceleration om sådan finns"
 
 #: dialogs/dlgOptions/pnl_Performance.js:41
 #: dialogs\dlgOptions\pnl_Appearance.html:10
@@ -5969,7 +5980,7 @@ msgstr "(kräver omstart)"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:74
 msgid "Gap"
-msgstr "Mellanrum mellan låtar"
+msgstr "Spårmellanrum"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:75
 msgid "Overlap"
@@ -6007,7 +6018,7 @@ msgstr "Sök endast hela ord"
 
 #: dialogs/dlgOptions/pnl_Search.js:38 dialogs/dlgOptions/pnl_Search.js:39
 msgid "Respect diacritics"
-msgstr "Respektera diakritiska tecken (accenter m.m.)"
+msgstr "Tag hänsyn till diakritiska tecken (accenter m.m.)"
 
 #: dialogs/dlgOptions/pnl_Search.js:38
 msgid "Match within words"
@@ -6033,7 +6044,8 @@ msgstr "ASCII + UTF-8 (vid behov)"
 
 #: dialogs/dlgOptions/pnl_VolumeLeveling.js:6
 msgid "Automatically analyze volume of unanalyzed files"
-msgstr "Analysera automatiskt ljudstyrkan hos oanalyserade filer"
+msgstr ""
+"Analysera automatiskt ljudstyrkan för filer som inte redan är kontrollerade"
 
 #: dialogs/dlgOptions/pnl_VolumeLeveling.js:17
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:71
@@ -6083,7 +6095,7 @@ msgstr "berättare"
 #: dialogs/dlgTrackProperties/tabBasic.js:495
 #: dialogs/dlgTrackProperties/tabBasic.js:497
 msgid "performer"
-msgstr "skådespelare"
+msgstr "uppläsare"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:496
 msgid "book title"
@@ -6142,7 +6154,7 @@ msgstr "Aldrig"
 #: dialogs/dlgTrackProperties/tabLyrics.js:50
 #: dialogs/dlgTrackProperties/tabLyrics.js:54
 msgid "Searching for missing lyrics"
-msgstr "Söker efter saknade texter"
+msgstr "Söker efter saknade sångtexter"
 
 #: dialogs/dlgWizard/pnlRegistration.js:20
 msgid ""
@@ -6247,7 +6259,7 @@ msgstr "Fjärrinnehåll"
 
 #: helpers/mediaSync.js:591 helpers/mediaSync.js:2475
 msgid "Library content"
-msgstr "Bibliotekinnehåll"
+msgstr "Biblioteksinnehåll"
 
 #: helpers/mediaSync.js:612
 msgid "Hourly"
@@ -6266,8 +6278,7 @@ msgstr ""
 
 #: helpers/mediaSync.js:684
 msgid "Only include content that matches files already in the database"
-msgstr ""
-"Inkludera endast innehåll som matchar filer som redan finns i databasen"
+msgstr "Inkludera endast innehåll som matchar filer som redan finns i databasen"
 
 #: helpers/mediaSync.js:685
 msgid ""
@@ -6359,8 +6370,8 @@ msgstr "Automatisk synkronisering så snart enheten är ansluten"
 msgid ""
 "Causes the device to automatically disconnect after auto-sync has completed."
 msgstr ""
-"Gör att enheten kopplas från automatiskt efter att automatisk synkronisering "
-"har slutförts."
+"Gör att enheten kopplas från automatiskt efter det att automatisk "
+"synkronisering har slutförts."
 
 #: helpers/mediaSync.js:977
 msgid "Automatically unmount device after Auto-Sync"
@@ -6465,8 +6476,9 @@ msgid "Copying"
 msgstr "Kopierar"
 
 #: helpers/mediaSync.js:3634
+#, fuzzy
 msgid "Matching"
-msgstr "Matchande"
+msgstr "Matchande eller Matchar"
 
 #. waiting for file conversion
 #: helpers/mediaSync.js:3700
@@ -6513,26 +6525,24 @@ msgstr "Parkoppling"
 
 #: helpers/seriesDataSource.js:60
 msgid "series"
-msgstr "Serier"
+msgstr "serier"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #: helpers/seriesDataSource.js:108
 msgid "Another series"
-msgstr "En annan serie"
+msgstr "Andra serier"
 
 #. helper function for preparing track item
 #: helpers/seriesDataSource.js:238
 msgid "Specials"
-msgstr "Specialepisod"
+msgstr "Specialepisoder"
 
 #. visibilityCheck option is a color to compare the chosen color against, to ensure visibility of all elements
 #: helpers/skinConfig.js:222
 msgid ""
 "The color combination you chose would result in text being unreadable. "
 "Please choose a different color combination."
-msgstr ""
-"Välj en annan färgkombination. Den du valde skulle resultera i att texten "
-"blir oläslig."
+msgstr "Välj en annan färgkombination. Den du valde skulle göra texten oläslig."
 
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:6
 msgid "Side by side"
@@ -6616,8 +6626,8 @@ msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
-"MediaMonkey slår upp bilder från olika webbplatser. Var vänlig att välja om "
-"du vill acceptera eller avvisa kakor för bilder som ska slås upp."
+"MediaMonkey slår upp bilder från olika webbplatser. Var god välj om du vill "
+"acceptera eller avvisa kakor för bilder som ska slås upp."
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1509
@@ -6635,12 +6645,12 @@ msgid ""
 "No matching content online. Please verify the spelling of existing metadata "
 "or edit the entry in "
 msgstr ""
-"Inget matchande innehåll online. Vänligen verifiera stavningen av befintliga "
-"metadata eller redigera posten i "
+"Inget matchande innehåll online. Var god kontrollera stavningen av "
+"befintliga metadata eller redigera posten i "
 
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:31
 msgid "recording"
-msgstr "inspelning pågår"
+msgstr "spelar in"
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
@@ -6722,7 +6732,7 @@ msgstr "Topp %d album"
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:433
 msgid "Top %d Albums played"
-msgstr "Top %d Album som spelats"
+msgstr "Top %d spelade album"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:463
@@ -6732,7 +6742,7 @@ msgstr "Topp %d genrer"
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:490
 msgid "Top %d Genres played"
-msgstr "Top %d genrer som spelats"
+msgstr "Top %d spelade genrer"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:516
@@ -6749,7 +6759,7 @@ msgstr "Betyg spelade"
 #: Scripts/statistics/dialogs/dlgStatistics.js:600
 #: Scripts/statistics/dialogs/dlgStatistics.js:615
 msgid "MediaMonkey Music Library Statistics"
-msgstr "Statistik för Mediabiblioteket"
+msgstr "MediaMonkeymusikbiblioteksstatistik"
 
 #: Scripts/swapArtistTitle/actions_add.js:4
 #: Scripts/swapArtistTitle/actions_add.js:18
@@ -6775,7 +6785,7 @@ msgstr "Synkroniseringsrotkatalog"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:87
 msgid "Milkshake requires Hardware Acceleration to be enabled"
-msgstr "Milkshake kräver maskinvaruacceleration för att aktiveras"
+msgstr "Milkshake kräver maskinvaruacceleration för att kunna köras"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:267
 msgid "Select preset"
@@ -6900,8 +6910,7 @@ msgstr "Mediat för Freedb-efterfrågan är inte tillgängligt."
 
 #: CDDBUtils.pas:1917
 msgid "Please select an Audio CD before requesting information from Freedb."
-msgstr ""
-"Vänligen välj en Ljud-CD innan information från Freedb kan efterfrågas."
+msgstr "Var god välj en Ljud-CD innan du frågar Freedb om information."
 
 #: CDDBUtils.pas:1934
 msgid "Requesting information for %s (%d of %d)"
@@ -6934,12 +6943,12 @@ msgid ""
 "Track %s verified with confidence number %d (number of people matched your "
 "rip)"
 msgstr ""
-"Spåra %s verifierat med konfidensnummer %d (antal personer matchade din "
-"kopia/Rip)"
+"Spår %s verifierat med konfidensnummer %d (antal personer matchade din kopia/"
+"rip)"
 
 #: CDUtils.pas:1462
 msgid "this CD doesn't exist in the database"
-msgstr "den här CD-skivan finns inte i databasen"
+msgstr "den här CDn finns inte i databasen"
 
 #: CDUtils.pas:1485
 msgid "Requesting data from AccurateRip.com database"
@@ -6966,7 +6975,7 @@ msgstr ""
 
 #: CDUtils.pas:1926
 msgid "Drive %s is currently in use."
-msgstr "Enheten %s används för närvarande."
+msgstr "Enhet %s används för närvarande."
 
 #: Covers.pas:767
 msgid "Not specified"
@@ -6990,27 +6999,27 @@ msgstr "Mediaetikett"
 
 #: Covers.pas:772
 msgid "Lead Artist"
-msgstr "Huvudartisten"
+msgstr "Huvudartist"
 
 #: Covers.pas:775
 msgid "Band"
-msgstr "Bandet"
+msgstr "Band"
 
 #: Covers.pas:778
 msgid "Recording Location"
-msgstr "Inspelningsplatsen"
+msgstr "Inspelningsplats"
 
 #: Covers.pas:779
 msgid "During Recording"
-msgstr "Under inspelningen"
+msgstr "Under inspelning"
 
 #: Covers.pas:780
 msgid "During Performance"
-msgstr "Under framförandet"
+msgstr "Under framförande"
 
 #: Covers.pas:781
 msgid "Video Screen Capture"
-msgstr "Från video"
+msgstr "Videoskärmuppfångning"
 
 #: Covers.pas:782
 msgid "Illustration"
@@ -7018,7 +7027,7 @@ msgstr "Illustration"
 
 #: Covers.pas:783
 msgid "Band Logotype"
-msgstr "Bandets logotyp"
+msgstr "Bandlogotyp"
 
 #: Covers.pas:784
 msgid "Publisher Logotype"
@@ -7144,7 +7153,7 @@ msgstr "Ej grupperade album med flera artister"
 
 #: dblistutils.pas:1528
 msgid "Dead Links"
-msgstr "Saknade filer"
+msgstr "Döda länkar"
 
 #: dblistutils.pas:1530
 msgid "Unanalyzed Volume"
@@ -7156,7 +7165,7 @@ msgstr "Oorganiserade filer"
 
 #: dblistutils.pas:1532
 msgid "DB / Tag mismatches"
-msgstr "Databas- /taggfelmatchningar"
+msgstr "Databas- /taggmatchningsfel"
 
 #: dblistutils.pas:1533
 msgid "Duplicate Titles"
@@ -7164,7 +7173,7 @@ msgstr "Dublett-titlar"
 
 #: dblistutils.pas:1534
 msgid "Duplicate Titles/Artists"
-msgstr "Duplicerade titlar/artister"
+msgstr "Dublett-titlar/artister"
 
 #: dblistutils.pas:1536
 msgid "Unclassified Files"
@@ -7184,7 +7193,7 @@ msgstr "Okänt Tillfälle"
 
 #: dblistutils.pas:1540
 msgid "Unknown Quality"
-msgstr "Okänd Kvalitet"
+msgstr "Okänd kvalitet"
 
 #. in order to skip all -- when user canceled DB upgrade
 #: DBStructure.pas:275
@@ -7239,7 +7248,7 @@ msgstr "Ta bort nedladdat innehåll"
 
 #: Devices.pas:3904
 msgid "Cannot remove directory %s."
-msgstr "Det går inte att ta bort katalogen %s."
+msgstr "Det går inte att ta bort katalog %s."
 
 #: Devices.pas:5234
 msgid "Are you sure you want to reset this profile to its default settings?"
@@ -7249,7 +7258,7 @@ msgstr ""
 
 #: Devices.pas:8656
 msgid "The device '%s' cannot be stopped now as it appears to be in use."
-msgstr "Enheten \"%s\" kan inte stoppas nu eftersom den verkar vara i bruk."
+msgstr "Enheten \"%s\" kan inte stoppas nu , ty den verkar vara i bruk."
 
 #: Devices.pas:8657
 msgid "Problem Ejecting %s"
@@ -7278,9 +7287,9 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-"Obs! Om du tidigare har synkroniserat den här enheten med tidigare versioner "
-"av MediaMonkey rekommenderas du att först synkronisera via USB för att "
-"bevara din befintliga synkroniseringskonfiguration."
+"Obs! Om du tidigare har synkroniserat den här enheten med äldre versioner av "
+"MediaMonkey är det rekommendabelt att först synkronisera via USB för att "
+"bevara befintlig synkroniseringskonfiguration."
 
 #: Devices.pas:10038
 msgid "No / I'll sync over USB instead"
@@ -7297,8 +7306,8 @@ msgid ""
 "like to clear enough space by deleting existing files?"
 msgstr ""
 "Det finns inte tillräckligt med utrymme på enheten för att synkronisera "
-"valda filer. Vill du rensa tillräckligt med utrymme genom att ta bort "
-"befintliga filer?"
+"valda filer. Vill du göra tillräcklig plats genom att ta bort befintliga "
+"filer?"
 
 #. Clear tracks on the device
 #: Devices.pas:11458
@@ -7311,7 +7320,7 @@ msgstr ""
 
 #: Devices.pas:11980 FileUtils.pas:821 ResStrings.pas:571
 msgid "Insufficient space available."
-msgstr "Otillräckligt utrymme tillgängligt."
+msgstr "Utrymmet räcker inte."
 
 #: Devices.pas:11982 Devices.pas:12301 Devices.pas:16060 Devices.pas:16069
 msgid "Problem while copying file %s to %s"
@@ -7334,15 +7343,15 @@ msgstr "Konvertering av filen %s misslyckades"
 
 #: ErrHandlers.pas:116
 msgid "File %s is read-only. Do you want to change it?"
-msgstr "Filen %s är markerad som read-only. Vill du ändra den?"
+msgstr "Filen %s är skrivskyddad. Vill du ändra det?"
 
 #: ErrHandlers.pas:130
 msgid "The read-only attribute cannot be removed from the file %s."
-msgstr "Read-only-attributet för filen %s kan inte tas bort."
+msgstr "Skrivskyddet för filen %s kan inte tas bort."
 
 #: ErrHandlers.pas:137
 msgid "There was a problem updating the tag for file %s."
-msgstr "Ett problem uppstod när filen %s skulle uppdateras."
+msgstr "Ett problem uppstod när taggen för filen %s skulle uppdateras."
 
 #: ErrHandlers.pas:144
 msgid "File %s already exists. Do you want to replace it?"
@@ -7353,20 +7362,20 @@ msgid ""
 "Some components of filename %s exceed the 64 character limit for CDs. "
 "Continue renaming without editing filenames?"
 msgstr ""
-"Några delar av filnamnet %s överskrider 64-teckensgränsen för CD-skivor. "
-"Fortsätta utan att redigera filnamn?"
+"Filnamnet %s överskrider 64-teckensgränsen för CD-skivor. Fortsätt utan att "
+"redigera filnamn?"
 
 #: ErrHandlers.pas:160
 msgid ""
 "Cannot delete %s. Access is denied. The file may be in use or you may not "
 "have access rights."
 msgstr ""
-"Kan inte radera %s. Åtkomst nekad. Filen kankse användsm eller så har du "
-"inte tillräckliga rättigheter."
+"Kan inte radera %s. Åtkomst nekad. Filen kanske används eller så har du inte "
+"tillräckliga rättigheter."
 
 #: ErrHandlers.pas:168 FileUtils.pas:821
 msgid "Problem with copying file %s to %s."
-msgstr "Ett problem uppstod när filen %s skulle kopieras till %s."
+msgstr "Problem uppstod när filen %s skulle kopieras till %s."
 
 #: ErrHandlers.pas:176
 msgid ""
@@ -7374,6 +7383,7 @@ msgid ""
 "%s"
 msgstr ""
 "Filen %s kan inte öppnas:\n"
+"\n"
 "%s"
 
 #. e.g. for the confidence numbers after AccurateRip verification (#17023 - item 3)
@@ -7403,7 +7413,7 @@ msgstr "Avkopierings-/rippningsresultat"
 #. #18222
 #: ErrHandlers.pas:403
 msgid "There was a problem leveling volume for the following track(s):"
-msgstr "Problem att autojustera ljudstyrka på följande spår:"
+msgstr "Problem att justera ljudstyrka på följande spår:"
 
 #. #18222
 #: ErrHandlers.pas:416
@@ -7423,12 +7433,12 @@ msgstr "Problem att ladda ned följande fil(er):"
 #. #18222
 #: ErrHandlers.pas:458
 msgid "There was a problem scanning the following item(s):"
-msgstr "Problem med att skanna följande objekt:"
+msgstr "Problem med att skanna följande enhet(er):"
 
 #. #18222
 #: ErrHandlers.pas:471
 msgid "There was a problem synchronizing the following item(s):"
-msgstr "Problem vid synkronisering av följande objekt:"
+msgstr "Problem vid synkronisering av följande enhet(er):"
 
 #. seconds
 #. splitting or decoding failed
@@ -7465,7 +7475,7 @@ msgstr "Inaktivera och starta om"
 #. Pointer not needed.
 #: ExceptionHandler.pas:348
 msgid "Callstack"
-msgstr "Callstack"
+msgstr "Anropsstack"
 
 #: ExceptionHandler.pas:497
 msgid "There was a runtime error in Addon"
@@ -7520,6 +7530,7 @@ msgid "Profiles"
 msgstr "Profiler"
 
 #: Extensions.pas:1593
+#, fuzzy
 msgid "Tweaks"
 msgstr "Anpassningar"
 
@@ -7578,8 +7589,8 @@ msgid ""
 "MediaMonkey is all-in-one audio jukebox application that can organize your "
 "digital music collection."
 msgstr ""
-"MediaMonkey kan organisera din digitala musiksamling; en allt-i-ett-"
-"jukeboxapplikation."
+"MediaMonkey är en allt-i-ett-jukeboxapplikation som kan organisera din "
+"digitala musiksamling."
 
 #: FileAssoc.pas:1135
 msgid "MediaMonkey Addon file"
@@ -7595,7 +7606,7 @@ msgstr "Filen är otillgänglig eller så har du inte tillåtelse att använda d
 
 #: FileUtils.pas:643
 msgid "Cannot create file %s."
-msgstr "Kan inte skapa filen %s."
+msgstr "Kan inte skapa fil %s."
 
 #: FileUtils.pas:2070
 msgid "Unknown error"
@@ -7641,7 +7652,7 @@ msgstr "Original"
 
 #: FormatsHandler.pas:2986
 msgid "Max size"
-msgstr "Maximal storlek"
+msgstr "Maxstorlek"
 
 #: FormatsHandler.pas:2988 dialogs\videoConvSettings.html:68
 msgid "Conversion quality"
@@ -7650,28 +7661,28 @@ msgstr "Omvandlingskvalitet"
 #. will be replaced by FriendlyName
 #: FormatsHandler.pas:3006
 msgid "Audio codec"
-msgstr "Ljud-codec"
+msgstr "Ljud-kodec"
 
 #. type of bitrate
 #: FormatsHandler.pas:3015
 msgid "CBR 1 pass"
-msgstr "CBR-1-pass"
+msgstr "KBH/CBR-1-pass"
 
 #: FormatsHandler.pas:3017
 msgid "CBR 2 pass"
-msgstr "CBR-2-pass"
+msgstr "KBH/CBR-2-pass"
 
 #: FormatsHandler.pas:3025 dialogs\dlgTrackProperties\tabDetails.html:225
 msgid "VBR"
-msgstr "VBR"
+msgstr "VBH(VBR)"
 
 #: FormatsHandler.pas:3026 dialogs\dlgWAVSettings.html:21
 msgid "Bits per sample"
-msgstr "Bitdjup"
+msgstr "Bitar per sampel"
 
 #: FormatsHandler.pas:3033
 msgid "ABR"
-msgstr "ABR"
+msgstr "GBH/ABR"
 
 #: FormatsHandler.pas:3035
 msgid "Max. bitrate"
@@ -7687,11 +7698,11 @@ msgstr "MediaMonkey kan inte koda detta format."
 #: FormatsManage.pas:1264 FullPlayer.pas:4497 GeneralDecoder.pas:442
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
 msgstr ""
-"Filen %s kan inte avkodas. Det är möjligen på grund av DRM-restriktioner."
+"Filen %s kan inte avkodas. Det är troligen på grund av DRM-restriktioner."
 
 #: FormatsManage.pas:1266
 msgid "File %s was not successfully created."
-msgstr "Filen %s kunde inte skapas korrekt."
+msgstr "Fil %s kunde inte skapas korrekt."
 
 #. Check whether album gain needs to be calculated:
 #: FormatsManage.pas:1409 FormatsManage.pas:1485
@@ -7705,11 +7716,12 @@ msgid ""
 "the temporary directory"
 msgstr ""
 "Det finns inte tillräckligt med ledigt utrymme för att konvertera alla "
-"filer. Vänligen rensa utrymme i den tillfälliga katalogen"
+"filer. Var god rensa utrymme i den tillfälliga katalogen"
 
 #: FormatsManage.pas:1449
+#, fuzzy
 msgid "ripping"
-msgstr "Avläsning/rippning"
+msgstr "Avläsning/rippning/extrahera"
 
 #. AAC MPEG4 Low Complexity
 #: FormatsManage.pas:2970
@@ -7719,7 +7731,7 @@ msgstr "AAC"
 #. MP3
 #: FormatsManage.pas:2979
 msgid "LAME Audio Encoder"
-msgstr "LAME Audio Encoder"
+msgstr "LAME ljudkodare"
 
 #. BY_QUALITY
 #: FormatsManage.pas:3004
@@ -7796,7 +7808,7 @@ msgstr "Mellan %d och %d"
 
 #: FormatsManage.pas:4552 FormatsManage.pas:4556
 msgid "bits per sample"
-msgstr "Bitdjup"
+msgstr "bitar per sampel"
 
 #. video stream
 #: FormatsManage.pas:4563 FormatsManage.pas:5118
@@ -7838,15 +7850,15 @@ msgstr "Lägg till %d fil(er) för uppspelning"
 
 #: FullPlayer.pas:2515
 msgid "Clear Playing"
-msgstr "Rensa spellista"
+msgstr "Rensa uppspelningslista"
 
 #: FullPlayer.pas:2988
 msgid "Currently, there is no output plug-in selected"
-msgstr "För närvarande är ingen output-plugin vald"
+msgstr "För närvarande är ingen utgångsplugin vald"
 
 #: FullPlayer.pas:3002
 msgid "Currently no input plug-in is in use (no file is playing)."
-msgstr "Ingen input-plugin används just nu (inget spår spelas)."
+msgstr "Ingen Ingångsplugin används just nu (inget spår spelas)."
 
 #. run in separate thread, as caller could be terminated too fast and message would not be shown
 #. no audio hw
@@ -7857,7 +7869,7 @@ msgstr "Ingen ljudhårdvara hittades"
 #. test accessibility first
 #: FullPlayer.pas:4488
 msgid "Playback failed: %s is inaccessible."
-msgstr "Uppspelning misslyckades: %s är otillgänglig."
+msgstr "Uppspelning misslyckades: %s är inte tillgänglig."
 
 #. try to find missing codecs
 #. try to catch some known errors and handle them
@@ -7873,7 +7885,7 @@ msgstr "Rensa"
 #. this song already was in the playlist
 #: FullPlayer.pas:5097
 msgid "No duplicates were detected."
-msgstr "Inga dubbletter upptäcktes."
+msgstr "Det fanns inga dubbletter."
 
 #: FullPlayer.pas:5101
 msgid "Do you want to remove %d duplicate(s) Playing?"
@@ -7932,40 +7944,47 @@ msgid "Video Podcast"
 msgstr "Videopodcast"
 
 #: Hotkeys.pas:740
+#, fuzzy
 msgid "Browser Back"
 msgstr "Webbläsare tillbaka"
 
 #: Hotkeys.pas:741
+#, fuzzy
 msgid "Browser Forward"
 msgstr "Webbläsare framåt"
 
 #: Hotkeys.pas:742
+#, fuzzy
 msgid "Browser Refresh"
 msgstr "Uppdatera webbläsare"
 
 #: Hotkeys.pas:743
+#, fuzzy
 msgid "Browser Stop"
 msgstr "Webbläsarstopp"
 
 #: Hotkeys.pas:744
+#, fuzzy
 msgid "Browser Search"
 msgstr "Webbläsarsökning"
 
 #: Hotkeys.pas:745
+#, fuzzy
 msgid "Browser Favorites"
 msgstr "Webbläsarfavoriter"
 
 #: Hotkeys.pas:746
+#, fuzzy
 msgid "Browser Home"
 msgstr "Webbläsarstartsida"
 
 #: Hotkeys.pas:747
 msgid "Media Next"
-msgstr "Media nästa"
+msgstr "Nästa media"
 
 #: Hotkeys.pas:748
 msgid "Media Previous"
-msgstr "Media föregående"
+msgstr "Föregående media"
 
 #: Hotkeys.pas:749
 msgid "Media Stop"
@@ -8069,7 +8088,7 @@ msgstr "Bränning av skiva %s misslyckades"
 #. TODOWIN8
 #: hpCDEBurner.pas:1476
 msgid "Re-burn disc"
-msgstr "Bränn skivan igen"
+msgstr "Bränn skiva igen"
 
 #: hpCDEBurner.pas:1483
 msgid "Burn disc %d"
@@ -8126,7 +8145,7 @@ msgid ""
 msgstr ""
 "MediaMonkey kan inte importera metadata från din iTunes-databas. För att "
 "lösa detta automatiskt, kör iTunes och aktivera \"Dela iTunes-bibliotek "
-"XML...\". För att göra det manuellt, vänligen exportera iTunes XML-"
+"XML...\". För att göra det manuellt, var god exportera iTunes XML-"
 "biblioteket via iTunes och välj det nedan."
 
 #: Importers.pas:271
@@ -8228,15 +8247,15 @@ msgstr "Avsnitt#"
 #
 #: MaskHelper.pas:3887
 msgid "Season#"
-msgstr "Säsong"
+msgstr "Säsong#"
 
 #: MaskHelper.pas:3897
 msgid "Played#"
-msgstr "Spelad ggr"
+msgstr "Spelad#"
 
 #: MaskHelper.pas:3923
 msgid "Skipped#"
-msgstr "Överhoppad ggr"
+msgstr "Överhoppad#"
 
 #: MediaManage.pas:2923
 msgid "An error occured while moving file %s to %s. Do you want to try again?"
@@ -8249,35 +8268,35 @@ msgstr "Flyttar fil %d av %d (%s)"
 
 #: MediaManage.pas:3069
 msgid "Copying file %d of %d (%s)"
-msgstr "Kopierar filen %d av %d (%s)"
+msgstr "Kopierar fil %d av %d (%s)"
 
 #: MediaManage.pas:3229
 msgid "Could not find file %s, it will not be %s."
-msgstr "Kunde inte hitta filen %s, den kommer inte att %s."
+msgstr "Kunde inte hitta fil %s, den kommer inte att %s."
 
 #: MediaManage.pas:3230
 msgid "moved"
-msgstr "flyttas"
+msgstr "flyttad"
 
 #: MediaManage.pas:3230
 msgid "copied"
-msgstr "kopieras"
+msgstr "kopierad"
 
 #: MediaManage.pas:3862
 msgid "Moving file $src$ to $dest$"
-msgstr "Flyttar filen $src$ till $dest$"
+msgstr "Flyttar fil $src$ till $dest$"
 
 #: MediaManage.pas:3864
 msgid "Copying file $src$ to $dest$"
-msgstr "Kopierar filen $src$ till $dest$"
+msgstr "Kopierar fil $src$ till $dest$"
 
 #: MediaManage.pas:4083
 msgid "The media '%s' is not inserted."
-msgstr "Media \"%s\" är inte tillgänglig."
+msgstr "Media \"%s\" är inte ilagd."
 
 #: MediaManage.pas:4162
 msgid "Cannot rename directory %s to %s."
-msgstr "Kan inte döpa om mappen %s till %s."
+msgstr "Kan inte döpa om mapp %s till %s."
 
 #. #10283
 #. if we are going to tag a file that is playing, let's do it as quickly as possible
@@ -8309,7 +8328,7 @@ msgstr "Uppdaterad"
 
 #: MediaMonkeyApp.pas:6384 QueryManage.pas:5057 QueryManage.pas:5058
 msgid "Skipped"
-msgstr "Hoppade över"
+msgstr "Överhoppad"
 
 #: MediaMonkeyApp.pas:6396
 msgid "Scan log"
@@ -8346,7 +8365,7 @@ msgstr "Spår"
 
 #: MediaMonkeyApp.pas:8635 QueryManage.pas:4946
 msgid "Leveling"
-msgstr "Volymjustering"
+msgstr "Ljudstyrkejustering"
 
 #: MediaMonkeyApp.pas:9100
 msgid "Edit Properties"
@@ -8370,7 +8389,7 @@ msgstr "Problem vid uppdatering av spellista %s: %s"
 
 #: MP3Manage.pas:255
 msgid "Compatible: CBR   96 kbps - Fair Quality"
-msgstr "Kompatibel: CBR   96 kbps - Hygglig kvalitet"
+msgstr "Kompatibel: KBH/CBR  96 kbps - Hygglig kvalitet"
 
 #: MP3Manage.pas:1420
 msgid "Preset"
@@ -8462,7 +8481,7 @@ msgid ""
 "Save artwork to the folder instead."
 msgstr ""
 "En eller flera av de valda filerna är otillgängliga och kan inte taggas. "
-"Spara teckningar i mappen istället."
+"Spara bilder i mappen istället."
 
 #: MP3Utils.pas:4062 Normalization.pas:2161
 msgid ""
@@ -8589,7 +8608,7 @@ msgstr "Rejv"
 #. occasion tag constant
 #: NewDBCreate.pas:1254
 msgid "Romantic"
-msgstr "Romantisk"
+msgstr "Romantik"
 
 #
 #. occasion tag constant
@@ -8601,31 +8620,31 @@ msgstr "Säsongsbunden"
 #. quality tag constant
 #: NewDBCreate.pas:1256
 msgid "Excellent copy"
-msgstr "Högsta kvalitet"
+msgstr "Superb kopia"
 
 #
 #. quality tag constant
 #: NewDBCreate.pas:1257
 msgid "Very good copy"
-msgstr "Mycket bra kvalitet"
+msgstr "Mycket bra kopia"
 
 #
 #. quality tag constant
 #: NewDBCreate.pas:1258
 msgid "Good copy"
-msgstr "Bra kvalitet"
+msgstr "Bra kopia"
 
 #
 #. quality tag constant
 #: NewDBCreate.pas:1259
 msgid "Fair copy"
-msgstr "Godkänd kvalitet"
+msgstr "Godkänd kopia"
 
 #
 #. quality tag constant
 #: NewDBCreate.pas:1260
 msgid "Poor copy"
-msgstr "Dålig kvalitet"
+msgstr "Dålig kopia"
 
 #
 #. default auto-playlist name
@@ -8668,7 +8687,9 @@ msgstr "Sparar taggar"
 #: Normalization.pas:1199
 msgid ""
 "Album leveling is enabled, which will cause %d other tracks to be analyzed."
-msgstr "Albumutjämning är aktiverad, vilket gör att %d andra spår analyseras."
+msgstr ""
+"Albumljudstyrkejustering är aktiverad, vilket gör att %d andra spår "
+"analyseras."
 
 #: Normalization.pas:1200
 msgid "Exclude these tracks"
@@ -8689,7 +8710,7 @@ msgstr "Ljudstyrka kan endast justeras på MP3-spår."
 
 #: Normalization.pas:1953
 msgid "Calculating leveling coefficients"
-msgstr "Kalkylerar ljudstyrkekoeffecienter"
+msgstr "Analyserar ljudstyrkekoeffecienter"
 
 #: PlaylistManage.pas:1202
 msgid "Duplicate file(s) detected:"
@@ -8703,7 +8724,7 @@ msgstr "Är du säker på att du vill lägga till spår till spellistan?"
 #. This podcast is being downloaded
 #: PodcastManage.pas:881 PodcastManage.pas:1246
 msgid "Updating podcast"
-msgstr "Uppdatera podcaster"
+msgstr "Uppdatera podcastar"
 
 #. And cache its content on HDD
 #: PodcastManage.pas:997
@@ -8727,7 +8748,7 @@ msgstr "är tillgänglig"
 
 #: QueryManage.pas:4316
 msgid "is in Virtual CD"
-msgstr "finns i Virtuell CD"
+msgstr "finns på Virtuell CD"
 
 #: QueryManage.pas:4323
 msgid "has preview"
@@ -8759,19 +8780,19 @@ msgstr "är inte ljudbok"
 
 #: QueryManage.pas:4372
 msgid "has Artwork"
-msgstr "har albumbilder"
+msgstr "har bilder"
 
 #: QueryManage.pas:4379
 msgid "has no Artwork"
-msgstr "har inte albumbilder"
+msgstr "har inte bilder"
 
 #: QueryManage.pas:4429
 msgid "Is synced to"
-msgstr "Synkroniseras med"
+msgstr "Är synkroniserad mot"
 
 #: QueryManage.pas:4438
 msgid "Isn't synced to"
-msgstr "Synkroniseras inte med"
+msgstr "Är inte synkroniserad mot"
 
 #: QueryManage.pas:4446
 msgid "> (days ago)"
@@ -8814,7 +8835,7 @@ msgstr "nedladdad"
 
 #: QueryManage.pas:4559
 msgid "Online"
-msgstr "Online"
+msgstr "Uppkopplad"
 
 #: QueryManage.pas:4560
 msgid "Local"
@@ -8823,7 +8844,7 @@ msgstr "Lokal"
 #. Create 'any field' condition
 #: QueryManage.pas:4886
 msgid "Any text"
-msgstr "Vilken text som helst"
+msgstr "Valfri text"
 
 #: QueryManage.pas:4918
 msgid "Album Rating"
@@ -8895,7 +8916,7 @@ msgstr "oftast"
 
 #: QueryManage.pas:5050 QueryManage.pas:5058
 msgid "least often"
-msgstr "Sällsyntast"
+msgstr "sällsyntast"
 
 #: QueryManage.pas:5055 QueryManage.pas:5056
 #: dialogs\dlgTrackProperties\tabBasic.html:158
@@ -8925,7 +8946,7 @@ msgstr "Varning"
 
 #: ResStrings.pas:377
 msgid "Progress"
-msgstr "Progressframdrift"
+msgstr "framdrift"
 
 #: ResStrings.pas:379
 msgid "Approx. bitrate"
@@ -8989,7 +9010,7 @@ msgstr "Diskett"
 
 #: ResStrings.pas:407
 msgid "HD"
-msgstr "Hårddisk"
+msgstr "Disk"
 
 #: ResStrings.pas:408
 msgid "net"
@@ -9167,7 +9188,7 @@ msgstr "Rad&era CD"
 
 #: ResStrings.pas:869
 msgid "&Open tray"
-msgstr "Öppna lucka"
+msgstr "&Öppna lucka"
 
 #: ResStrings.pas:871
 msgid ""
@@ -9199,7 +9220,7 @@ msgstr "Bränna om den här skivan?"
 
 #: ResStrings.pas:881
 msgid "Could not write the image layout to the disc."
-msgstr "Kunde inte skriva image-layouten till disken."
+msgstr "Kunde inte skriva avbildningen till disken."
 
 #: ResStrings.pas:882
 msgid "Burning was terminated."
@@ -9393,7 +9414,7 @@ msgstr "Författare"
 
 #: UPnPTreeHelper.pas:1901
 msgid "Original Year"
-msgstr "Originalets år"
+msgstr "Originalår"
 
 #: WebUtils.pas:4392
 msgid "The file %s cannot be created."
@@ -9432,7 +9453,7 @@ msgid ""
 msgstr ""
 "Aktuell ljudkonfiguration kan inte spela %s. Kontrollera att dina "
 "ljuddrivrutiner är korrekt installerade eller försök att ändra/konfigurera "
-"om utdatatillägget."
+"om utgångsplugin-programmet."
 
 #: WMAUtils.pas:332
 msgid "WMA is not supported. The codec must first be installed."
@@ -9477,9 +9498,9 @@ msgid ""
 "delete them from the 'Playing' list, the Library, and the computer system."
 msgstr ""
 "Om alternativet är valt så kommer MediaMonkey att fråga om du vill ta bort "
-"spår från \"spellistan\", ta bort dem från \"spellistan\" och "
-"mediabiblioteket, eller ta bort dem från \"spellistan\", mediabiblioteket "
-"och datorn."
+"spår från uppspelningslistan, ta bort dem från uppspelnings och "
+"mediabiblioteket, eller ta bort dem från uppspelningslistan\", "
+"mediabiblioteket och datorn."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -9509,7 +9530,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Performance.html:37
 msgid "Enable smooth scrolling"
-msgstr "Aktivera smidig rullning"
+msgstr "Aktivera mjuk rullning"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:21
 msgid "ID3v2 text encoding:"
@@ -9721,7 +9742,7 @@ msgstr "Audio/Video"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:18
 msgid "Level playback volume to:"
-msgstr "Spelljudstyrka:"
+msgstr "Sätt spelljudstyrka till:"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:13
 msgid "Cache"
@@ -9741,7 +9762,7 @@ msgstr "Inställningar"
 
 #: dialogs\dlgMP3Settings.html:92
 msgid "Use bit reservoir"
-msgstr "Använd 'bit reservoir' "
+msgstr "Använd ”bitreservoar”"
 
 #: dialogs\dlgPodcastSubscription.html:71
 msgid "1 week"
@@ -9749,7 +9770,7 @@ msgstr "1 vecka"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:9
 msgid "Confirm desired options on removal of files from Playlist"
-msgstr "Visa bekräftelsedialog vid borttagning av Spår från Spellista"
+msgstr "Visa bekräftelsedialog vid borttagning av spår från spellista"
 
 #: dialogs\dlgOptions\pnl_General.html:7
 msgid "Check for updates (when connected)"
@@ -9761,7 +9782,7 @@ msgid ""
 "a single file. It applies only when Party mode is active."
 msgstr ""
 "Detta bestämmer vilka filer som spelas upp när kommandot \"Spela nu\" körs "
-"för en enstaka fil. Den gäller endast när partyläget är aktivt."
+"för en enstaka fil. Gäller endast för partyläge."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
@@ -9774,8 +9795,8 @@ msgid ""
 "playlists."
 msgstr ""
 "Detta gör att MediaMonkey sparar .m3u-filer i ett format som bibehåller icke-"
-"engelska tecken. Observera att vissa spelare kanske inte stödjer Unicode ."
-"m3u-spellistor."
+"engelska tecken. Observera att vissa spelare inte stödjer Unicode .m3u-"
+"spellistor."
 
 #: dialogs\dlgWizard\pnlRegistration.html:8
 msgid ""
@@ -9818,12 +9839,13 @@ msgid ""
 "3rd-party players)."
 msgstr ""
 "Vid synkronisering synkroniseras alltid metadata för redigerade taggar. "
-"Detta alternativ medför dessutom att redigerade spår kopieras på nytt "
-"(användbart för enheter som kör 3: e parts spelare)."
+"Detta alternativ medför även att redigerade spår kopieras på nytt ("
+"användbart för enheter som kör 3: e partsspelare)."
 
 #: dialogs\dlgEditView.html:23
+#, fuzzy
 msgid "Sorting"
-msgstr "Sortering"
+msgstr "Sortering eller sortera"
 
 #: dialogs\dlgMaintainLibrary.html:24
 msgid "Retain backups:"
@@ -9966,7 +9988,7 @@ msgstr "Importera"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
-msgstr "ID3-taggar, sen spellistor"
+msgstr "Taggar, sedan spellistor"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
 msgid "Default action for files:"
@@ -9982,7 +10004,7 @@ msgstr "Meddela last.fm om att spela spår"
 
 #: controls\searchEditor.html:14
 msgid "of the following criteria"
-msgstr "av följande kriterier"
+msgstr "enligt följande kriterier"
 
 #: controls\deviceConfig\syncToDevice.html:22
 msgid "Unselected Library files"
@@ -10092,7 +10114,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:3
 msgid "Target volume levels"
-msgstr "Önskad ljudstyrka"
+msgstr "Önskade ljudstyrkor"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:125
 msgid "Album artist(s)"
@@ -10108,7 +10130,7 @@ msgstr "Resulterande mappar och filnamn:"
 
 #: dialogs\dlgAutotag.html:20
 msgid "Allow compilations"
-msgstr "Tillåt urval"
+msgstr "Tillåt urval ELLER?"
 
 #: dialogs\dlgAutotag.html:20
 msgid "Tag & Continue"
@@ -10116,7 +10138,7 @@ msgstr "Tagga och fortsätt"
 
 #: dialogs\dlgMaintainLibrary.html:13
 msgid "Backup and Restore"
-msgstr "Säkerhetskopiering och återställning"
+msgstr "Säkerhetskopiera och återställ"
 
 #: dialogs\dlgPodcastSubscription.html:85
 msgid "Always retain the"
@@ -10144,7 +10166,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in 'Playing' list"
-msgstr "tidigare filer i \"Spelar\" -listan"
+msgstr "tidigare filer i uppspelningslistan"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
@@ -10167,14 +10189,14 @@ msgid ""
 "removed from the Library entirely."
 msgstr ""
 "Ange detta val om du vill att alla spår som har flyttats eller raderats från "
-"en övervakad mapp skall rensas från Mediabiblioteket. Detta är mycket "
-"användbart, men skall endast användas om du aldrig flyttar spår till en "
+"en övervakad mapp även ska rensas från Mediabiblioteket. Detta är mycket "
+"användbart, men ska endast användas om du aldrig flyttar spår till en "
 "oövervakad mapp, eftersom spåret då kommer att tas bort från "
 "Mediabiblioteket helt och hållet."
 
 #: dialogs\dlgOptions\pnl_Library.html:172
 msgid "Scan file directories for Artwork"
-msgstr "Skanna filkataloger för Albumbilder"
+msgstr "Skanna filkataloger för bilder"
 
 #: dialogs\dlgOptions\pnl_Network.html:2
 msgid ""
@@ -10182,9 +10204,9 @@ msgid ""
 "to enable Freedb HTTP connections and media streaming. If you don't know the "
 "proxy server settings, check with your administrator."
 msgstr ""
-"Om ditt nätverk använder en proxy-server måste du konfigurera dessa "
-"inställningar för att kunna använda Freedb HTTP-anslutningar och MP3-/OGG-"
-"streaming. Om du inte vet inställningarna för proxy, kontakta din "
+"Om ditt nätverk använder en proxy-server behöver du konfigurera dessa "
+"inställningar för att kunna använda Freedb HTTP-anslutningar och "
+"mediaströmning. Om du inte vet inställningarna för proxy, kontakta din "
 "systemadministratör."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:43
@@ -10245,7 +10267,7 @@ msgstr "per spår"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "Verifies ripped tracks against the AccurateRip.com database"
-msgstr "Verifierar avkopierad/rippade spår mot AccurateRip.com-databasen"
+msgstr "Verifierar avkopierade/rippade spår mot AccurateRip.com-databasen"
 
 #: dialogs\dlgMP3Settings.html:50
 msgid "Use advanced settings"
@@ -10272,7 +10294,8 @@ msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "'Playing' list."
 msgstr ""
-"Anger hur många tidigare spelade spår som skall ligga kvar i spellistan."
+"Anger hur många tidigare spelade spår som skall ligga kvar i "
+"uppspelningslistan."
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:4
 msgid "Configure..."
@@ -10334,8 +10357,7 @@ msgstr ""
 #: controls\deviceConfig\options\pnl_FileLocations.html:6
 msgid ""
 "Choose the Directory/Filename format to be used for files on the device."
-msgstr ""
-"Välj det katalog-/filnamnsformat som ska användas för filer på enheten."
+msgstr "Välj det katalog-/filnamnsformat som ska användas för filer på enheten."
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:86
 msgid "Describes any other directories that should be scanned for media."
@@ -10347,7 +10369,7 @@ msgstr "Uppdatera endast tomma fält"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Encode tracks with volume leveled"
-msgstr "Koda spåren med volymjustering"
+msgstr "Koda spåren med ljudstyrkejustering"
 
 #: dialogs\dlgMovedFiles.html:38
 msgid "Update"
@@ -10359,7 +10381,7 @@ msgstr "Önskad bithastighet"
 
 #: dialogs\dlgOGGSettings.html:38
 msgid "Limit minimal bitrate"
-msgstr "Begränsa lägsta bitrate"
+msgstr "Begränsa lägsta bithastighet"
 
 #: dialogs\dlgPodcastSubscription.html:44
 msgid "Login"
@@ -10375,7 +10397,7 @@ msgstr "Visa logg"
 
 #: dialogs\dlgTrackProperties.html:13
 msgid "Update & Previous song (Alt-Left)"
-msgstr "Uppdatera & Föregående spår (Alt+Pil vänster)"
+msgstr "Uppdatera & Föregående spår (Alt+vänsterpil)"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:3
 msgid "Confirm desired options on copy of Library folders"
@@ -10405,16 +10427,15 @@ msgstr "Tona in"
 msgid ""
 "Plays videos via the system's default video player instead of in MediaMonkey"
 msgstr ""
-"Spelar upp videor via systemets standardvideospelare istället för i "
-"MediaMonkey"
+"Spela videor via systemets standardvideospelare istället för i MediaMonkey"
 
 #: dialogs\dlgWizard\pnlRegistration.html:6
 msgid ""
 "Advanced Library management tools to help organize your library more "
 "efficiently:"
 msgstr ""
-"Avancerade bibliotekshanteringsverktyg som hjälper dig att organisera ditt "
-"bibliotek mer effektivt:"
+"Avancerade bibliotekshanteringsverktyg för hjälp att organisera biblioteket "
+"effektivare:"
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Auto-sync playlists and new files from the device to the PC"
@@ -10451,7 +10472,7 @@ msgstr "Genererad bild"
 
 #: dialogs\dlgTrackProperties.html:14
 msgid "Update & Next song (Alt-Right)"
-msgstr "Uppdatera & Nästa spår (Alt+Pil höger)"
+msgstr "Uppdatera & Nästa spår (Alt+högerpil)"
 
 #: dialogs\dlgOptions\pnl_General.html:28
 msgid ""
@@ -10460,10 +10481,10 @@ msgid ""
 "'Minimize to MiniPlayer', displays 'Playing' list files even when the main "
 "application is minimized."
 msgstr ""
-"Som standard minimeras MediaMonkey till aktivitetsfältet. \"Minimera till "
-"Microspelare\" gör att det visas som ett verktygsfält bredvid systemfältet "
-"när det minimeras. \"Minimera till Minispelare\", visar spellista även när "
-"huvudapplikationen är minimerad."
+"Som standard minimeras MediaMonkey till aktivitetsfältet. När den minimeras "
+"med \"Minimera till Microspelare\" visas den som ett verktygsfält bredvid "
+"systemfältet. Vid \"Minimera till Minispelare\", visas uppspelningslistan "
+"även när huvudapplikationen är minimerad."
 
 #: dialogs\dlgOptions\pnl_Library.html:78
 msgid "Remove unused Attributes (Artist, Album, Composer, ...)"
@@ -10487,7 +10508,7 @@ msgstr "Tona ut"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:58
 msgid "Warn when duplicate files are added"
-msgstr "Visa varning när dubletter läggs till"
+msgstr "Varna när dubletter läggs till"
 
 #: dialogs\dlgTrackProperties\tabCustom.html:105
 msgid "Edit extended tags"
@@ -10546,19 +10567,19 @@ msgstr "Inkludera tillägg"
 
 #: dialogs\dlgOptions\pnl_General.html:33
 msgid "Minimize to taskbar"
-msgstr "Minimera till startlisten"
+msgstr "Minimera till startlist"
 
 #: dialogs\dlgOptions\pnl_Library.html:65
 msgid ""
 "Enabling this option speeds up all scans subsequent to the initial one by "
 "only re-adding files that have changed in size or timestamp."
 msgstr ""
-"Genom att aktivera detta val påskyndas indexeringen av filer genom att "
-"endast indexera filer som har ändrad storlek eller datumstämpel."
+"Vid aktivering av detta val påskyndas indexeringen av filer genom att endast "
+"indexera filer som har ändrad storlek eller datumstämpel."
 
 #: dialogs\dlgOptions\pnl_Library.html:63
 msgid "Update file info from tags when rescanning files"
-msgstr "Uppdatera spårinformation från ID3-taggar när filerna indexeras om"
+msgstr "Uppdatera spårinformation från taggar vid skanning av filer"
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:10
 msgid "Add Windows firewall exception"
@@ -10624,7 +10645,7 @@ msgstr "Alla andra mediefiler"
 
 #: dialogs\dlgAddArtwork.html:33
 msgid "Image filename"
-msgstr "Bildfilnamn"
+msgstr "Avbildningsfilnamn"
 
 #: dialogs\dlgAutoConvertRule.html:11
 msgid "Convert the following content:"
@@ -10652,7 +10673,7 @@ msgstr "Ignorera prefix:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in 'Playing' list"
-msgstr "kommande filer i \"Spelar\" -listan"
+msgstr "kommande filer i uppspelningslistan"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:8
 msgid ""
@@ -10692,19 +10713,19 @@ msgstr "Kontrollerar även om det finns nya betaversioner."
 msgid ""
 "This option forces a maximum of one MediaMonkey window to be open at any "
 "time."
-msgstr "Detta gör att endast en instans av MediaMonkey åt gången kan köras."
+msgstr "Detta gör att endast en instans av MediaMonkey kan köras åt gången."
 
 #: dialogs\dlgOptions\pnl_Library.html:94
 msgid "Inferred properties then tags"
-msgstr "Gissad information, sen ID3-taggar"
+msgstr "Härledda egenskaper, sen taggar"
 
 #: dialogs\dlgOptions\pnl_MediaTree.html:1
 msgid ""
 "Choose which nodes to enable in the Media Tree, and edit the properties of "
 "Collections."
 msgstr ""
-"Välj vilka noder som ska aktiveras i mediaträdet och redigera egenskaperna "
-"för samlingar."
+"Välj vilka noder som ska visas i mediaträdet och redigera egenskaperna för "
+"samlingar."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:96
 msgid ""
@@ -10716,7 +10737,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Player.html:42
 msgid "Displays file information and associated artwork"
-msgstr "Visar filinformation och tillhörande bilder"
+msgstr "Visar filinformation med tillhörande bilder"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:13
 msgid ""
@@ -10725,7 +10746,7 @@ msgid ""
 "Digital Media Server. If you wish to play content from MediaMonkey's "
 "library, you must also enable Media Sharing."
 msgstr ""
-"Låter MediaMonkey bete sig som en Digital Media Renderer så att den kan "
+"Låter MediaMonkey bete sig som en Digital Media Renderare så att den kan "
 "spela upp innehåll från en Digital Media Controller som hämtar innehåll från "
 "en Digital Media Server. Om du vill spela upp innehåll från MediaMonkeys "
 "bibliotek måste du också aktivera Mediedelning."
@@ -10742,7 +10763,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:55
 msgid "Create playlists of tracks newly added to the library"
-msgstr "Skapa spellistor för nyligen tillagda spår"
+msgstr "Skapa spellistor för spår nyligen tillagda i biblioteket"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:127
 msgid "Producer(s)"
@@ -10805,14 +10826,14 @@ msgstr "Visa bekräftelsedialog vid flytt av mappar i Mediabiblioteket"
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:9
 msgid "Download more DSP plug-ins..."
-msgstr "Ladda ner fler DSP-plugins..."
+msgstr "Ladda ner fler DSP-plugin..."
 
 #: dialogs\dlgOptions\pnl_General.html:35
 msgid ""
 "Minimizes to the MicroPlayer if it is enabled (right-click on the System "
 "Task bar, and click 'Toolbars')."
 msgstr ""
-"Minimeras till Microspelare om den är aktiverad (högerklicka på systemets "
+"Om Mikrospelare är vald minimeras den till sådan (högerklicka på systemets "
 "aktivitetsfält och klicka på \"Verktygsfält\")."
 
 #: dialogs\dlgOptions\pnl_Library.html:171
@@ -10820,8 +10841,8 @@ msgid ""
 "This setting determines whether MediaMonkey searches file directories for "
 "artwork and links it to tracks as they are added to the Library."
 msgstr ""
-"Inställningen avgör om MediaMonkey ska söka i mappen efter Albumbilder och "
-"länka dem till spår som läggs till i Mediabiblioteket."
+"Inställningen avgör om MediaMonkey ska söka i mappen efter bilder och länka "
+"dem till spår som läggs till i Mediabiblioteket."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:88
 msgid ""
@@ -10856,7 +10877,7 @@ msgstr "Tillämpa"
 
 #: controls\deviceConfig\syncFromDevice.html:15
 msgid "Auto-Sync file metadata from the device to the PC"
-msgstr "Autosynkronisera filmetadata från enheten till datorn"
+msgstr "Autosynkronisera metadata från enheten till datorn"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:41
 msgid "prefix for each playlist type"
@@ -10868,7 +10889,7 @@ msgstr "Jitterkorrigerad läsning"
 
 #: dialogs\dlgErrorLog.html:14
 msgid "Warning will disappear in:"
-msgstr "Varning kommer att försvinna om:"
+msgstr "Varning försvinner efter:"
 
 #: dialogs\dlgMovedFiles.html:24
 msgid "Update selected files in the database"
@@ -10886,7 +10907,7 @@ msgstr ""
 
 #: dialogs\dlgSleep.html:17
 msgid "Start fading in"
-msgstr "Böra tona efter"
+msgstr "Börja tona in"
 
 #: dialogs\dlgOptions\pnl_Addons.html:2
 msgid "Manage Addons"
@@ -10906,7 +10927,7 @@ msgstr "Filnamn + Sökväg"
 
 #: dialogs\dlgOptions\pnl_Network.html:3
 msgid "Proxy server settings"
-msgstr "Proxy-inställningar"
+msgstr "Proxyserver-inställningar"
 
 #: dialogs\dlgOptions\pnl_Network.html:4
 msgid "Use proxy server"
@@ -10926,7 +10947,7 @@ msgstr "Acceptera inmatning/kontroll av MediaMonkey-spelare via UPnP/DLNA"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:7
 msgid "Store MP3 file properties using:"
-msgstr "Lagra spårinformation i:"
+msgstr "Lagra MP3-filegenskaper med:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:19
 msgid ""
@@ -10935,9 +10956,9 @@ msgid ""
 "characters appear. Some players may have trouble reading Unicode tags, "
 "though."
 msgstr ""
-"Om du har filer med icke-latinska tecken kan du aktivera ascii + Unicode, "
-"som sparar taggar i ascii utom i de fall där icke-latinska tecken visas. "
-"Vissa spelare kan dock ha problem med att läsa Unicode-taggar."
+"Med ASCII + Unicode lagras ID3v2-taggar normalt som ASCII. Ifall icke-ASCII-"
+"tecken förekommer, t.ex. i titeln, används Unicode automatiskt. Notera att "
+"vissa spelare har svårt att läsa Unicode-taggar."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:57
 msgid ""
@@ -10995,8 +11016,9 @@ msgid "% of current volume"
 msgstr "% av nuvarande volym"
 
 #: dialogs\dlgSupportedFormat.html:71
+#, fuzzy
 msgid "Levels"
-msgstr "Ljudstyrka"
+msgstr "Ljudstyrka ELLER?"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:5
 msgid ""
@@ -11016,7 +11038,7 @@ msgstr "Hoppa över klipp kortare än"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:35
 msgid "Freedb (HTTP)"
-msgstr "Freedb (http)"
+msgstr "Freedb (HTTP)"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:39
 msgid ""
@@ -11097,7 +11119,7 @@ msgstr "Justera ljudstyrka vid bränning"
 
 #: dialogs\dlgConvertFormat.html:49
 msgid "On the fly encoding"
-msgstr "'On-the-fly'-omkodning"
+msgstr "Kodning i farten"
 
 #: dialogs\dlgPodcastSubscription.html:77
 msgid "Prevents episodes that haven't been listened to from being deleted."
@@ -11134,8 +11156,8 @@ msgstr "Ljud-CD-uppspelning"
 #: dialogs\dlgOptions\pnl_PartyMode.html:15
 msgid "This prevents users from exiting MediaMonkey by switching applications."
 msgstr ""
-"Detta alternativet hindrar användarna från att lämna MediaMonkey genom att "
-"växla program."
+"Detta förhindrar användarna från att lämna MediaMonkey genom att växla "
+"program."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:10
 msgid "Hide menu bar"
@@ -11179,7 +11201,7 @@ msgstr "Säker läsning (tar extra tid)"
 
 #: dialogs\dlgMovedFiles.html:16
 msgid "Unmoved files"
-msgstr "Filer som inte har flyttats"
+msgstr "Oflyttade filer"
 
 #: dialogs\dlgPodcastSubscription.html:72
 msgid "2 weeks"
@@ -11199,7 +11221,7 @@ msgstr "Visa borttagna avsnittslänkar"
 
 #: dialogs\dlgSleep.html:32
 msgid "Cancel Sleep"
-msgstr "Avsluta strömsparläge"
+msgstr "Ångra strömsparläge"
 
 #: dialogs\videoConvSettings.html:59
 msgid "Bitrate (for max. res.)"
@@ -11211,7 +11233,7 @@ msgid ""
 "added to the 'Playing' list when it runs out."
 msgstr ""
 "Detta aktiverar Auto-DJ-funktionen som gör att spår automatiskt läggs till i "
-"\"Spela\" -listan när den tar slut."
+"uppspelningslistan när den tar slut."
 
 #: dialogs\dlgOptions\pnl_Download.html:16
 msgid "Determines how often MediaMonkey checks for updates"
@@ -11238,7 +11260,7 @@ msgstr "Popup-filinformation:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:31
 msgid "Update tags when editing properties"
-msgstr "Uppdatera ID3-taggar när spårinformationen redigeras"
+msgstr "Uppdatera taggar när informationen redigeras"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:21
 msgid ""
@@ -11250,13 +11272,12 @@ msgstr ""
 
 #: dialogs\dlgWizard\pnlRegistration.html:10
 msgid "analyze volume automatically"
-msgstr "analysera volymen automatiskt"
+msgstr "analysera ljudstyrka automatiskt"
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Lookup missing information via Auto-tag (Registered users only)"
 msgstr ""
-"Sök efter saknad information via automatisk tagg (endast registrerade "
-"användare)"
+"Sök efter saknad information med auto-tagg (endast registrerade användare)"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:3
 msgid "Scrobbler submission state"
@@ -11333,7 +11354,7 @@ msgstr "Ignorera Auto-DJ vid spelning"
 
 #: dialogs\dlgOptions\pnl_Player.html:67
 msgid "Transparent"
-msgstr "Transparent"
+msgstr "Genomskinlig"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:18
 msgid "Renderer name:"
@@ -11353,7 +11374,7 @@ msgstr "Regissör(er)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:42
 msgid "subdirectory for each playlist type"
-msgstr "undermapp för varje spelliste-typ"
+msgstr "undermapp för varje spellistetyp"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:29
 msgid "This format is used by some newer devices"
@@ -11381,7 +11402,7 @@ msgstr "Skanna nu"
 
 #: dialogs\dlgSleep.html:10
 msgid "Play audio for"
-msgstr "Spela i"
+msgstr "Spela ljud för"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:4
 msgid "Split multiple-value fields with:"
@@ -11409,15 +11430,15 @@ msgstr "Manuellt"
 
 #: dialogs\dlgOptions\pnl_Download.html:3
 msgid "Choose the location where downloaded content is saved by default"
-msgstr "Välj den plats där nedladdat innehåll sparas som standard"
+msgstr "Välj den plats där nedladdat innehåll ska sparas som standard"
 
 #: dialogs\dlgOptions\pnl_General.html:44
 msgid "Close to tray"
-msgstr "Stäng till aktivitetsfältet"
+msgstr "Avsluta i meddelandefältet"
 
 #: dialogs\dlgOptions\pnl_Library.html:121
 msgid "Tags only"
-msgstr "Endast ID3-taggar"
+msgstr "Endast Taggar"
 
 #: dialogs\dlgOptions\pnl_Library.html:62
 msgid ""
@@ -11430,16 +11451,18 @@ msgid ""
 "would only occur if tags are not kept up-to-date and in synch with the "
 "Library)."
 msgstr ""
-"Detta gör att alla spår som läggs till på nytt (antingen manuellt via 'Lägg "
-"till spår...' eller automatiskt via Övervaka filer) får sin information "
-"uppdaterad. Om andra applikationer har ändrat ID3-taggarna kommer "
-"mediabiblioteket att uppdateras med denna information. En risk finns att "
-"aktuell spårinformation kan skrivas över med gammal information (gäller "
-"endast ifall ID3-taggarna inte är synkroniserade med mediabiblioteket)."
+"Detta gör att alla filer som läggs till igen (antingen manuellt genom att "
+"klicka på \"Lägg till filer...\" eller automatiskt via filövervakaren) "
+"uppdateras - även de som redan finns i databasen. Effekten är att om andra "
+"program har använts för att ändra taggar, kommer biblioteket att uppdateras "
+"baserat på information som samlats in från taggarna. Nackdelen med detta är "
+"att uppdaterade filegenskaper kan skrivas över med inaktuell information "
+"från taggar (detta kan endast inträffa om taggarna inte hålls uppdaterade "
+"och synkroniserade med biblioteket)."
 
 #: dialogs\dlgOptions\pnl_OutputPlugins.html:10
 msgid "Download more output plug-ins..."
-msgstr "Ladda ner fler output-plugins..."
+msgstr "Ladda ner fler utgångsplugin..."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:6
 msgid "Prevents users from making any changes"
@@ -11507,7 +11530,7 @@ msgstr "Skaffa fler tillägg"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:7
 msgid "Automatically maintain at least"
-msgstr "Lägg automatiskt till minst"
+msgstr "Underhåll automatiskt minst"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:20
 msgid "Choose where Auto-DJ should add tracks from"
@@ -11520,7 +11543,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Library.html:93
 msgid "Tags then inferred properties"
-msgstr "ID3-taggar, sen gissad information"
+msgstr "Taggar, sen gissad information"
 
 #: dialogs\dlgOptions\pnl_Library.html:70
 msgid "Analyze files for duplicates (takes extra time)"
@@ -11528,7 +11551,7 @@ msgstr "Hitta dubbletter (tar extra tid)"
 
 #: dialogs\dlgOptions\pnl_Library.html:74
 msgid "Remove unavailable items"
-msgstr "Ta bort spår som inte längre finns"
+msgstr "Ta bort otillgängliga poster"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:40
 msgid "Show context-menu actions for:"
@@ -11536,7 +11559,7 @@ msgstr "Visa kontextmenyåtgärder för:"
 
 #: dialogs\dlgOptions\pnl_Performance.html:29
 msgid "Idle"
-msgstr "Vänteprocess"
+msgstr "Vänteläge"
 
 #: dialogs\dlgWizard\pnlRegistration.html:11
 msgid "use custom Collections for sub-libraries"
@@ -11555,6 +11578,7 @@ msgid "Logout from last.fm service"
 msgstr "Logga ut från last.fm-tjänsten"
 
 #: controls\equalizer.html:7
+#, fuzzy
 msgid "Enable equalizer"
 msgstr "Använd Equalizer"
 
@@ -11576,7 +11600,7 @@ msgstr "Medium"
 
 #: dialogs\dlgChooseFolders.html:12
 msgid "Select the folders you want to scan for media files:"
-msgstr "Välj de mappar du vill söka mediefiler i:"
+msgstr "Välj de mappar du vill skanna mediefiler i:"
 
 #: dialogs\dlgEditView.html:15
 msgid "View type"
@@ -11588,7 +11612,7 @@ msgstr "Schemalagd säkerhetskopiering"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:9
 msgid "Choose the action for which a Hotkey should be created"
-msgstr "Välj åtgärd för snabbtangent"
+msgstr "Välj den åtgärd för vilken en snabbtangent ska skapas"
 
 #: dialogs\dlgOptions\pnl_Library.html:101
 msgid "Infer properties from:"
@@ -11608,7 +11632,7 @@ msgstr "Standardåtgärd"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:28
 msgid "Player controls"
-msgstr "Spelarknappar"
+msgstr "Spelarkontroller"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:36
 msgid "Increase play counter at:"
@@ -11624,7 +11648,7 @@ msgstr "Använd Unicode (UTF-8-kodning) i M3U-spellistor"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:7
 msgid "Level playback / sync volume:"
-msgstr "Ljudstyrka uppspelning /synkronisering:"
+msgstr "Metod för att justera uppspelnings-/synkroniseringsljudstyrka:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:47
 msgid "Target volume for ripping Audio CDs:"
@@ -11645,8 +11669,8 @@ msgid ""
 "g. MediaMonkey for Android) sync wirelessly. You'll be prompted to grant "
 "access for each remote device that attempts to connect."
 msgstr ""
-"Låt UPnP/DLNA-klienter (TV-apparater, DVD-spelare, xBox, PlayStations, etc.) "
-"på ditt nätverk komma åt MediaMonkey-biblioteket och låt andra MediaMonkey-"
+"Låt UPnP/DLNA-klienter (TV-apparater, DVD-spelare, xBox, PlayStations, m.fl.)"
+" på ditt nätverk komma åt MediaMonkey-biblioteket och låt andra MediaMonkey-"
 "klienter (t.ex. MediaMonkey för Android) synkronisera trådlöst. Du kommer "
 "att bli ombedd att bevilja åtkomst för varje fjärrenhet som försöker ansluta."
 
@@ -11688,7 +11712,7 @@ msgstr "Codec"
 
 #: dialogs\dlgOptions\pnl_InputPlugins.html:10
 msgid "Download more input plug-ins..."
-msgstr "Ladda ner fler input-plugins..."
+msgstr "Ladda ner fler ingångsplugin..."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:26
 msgid "Audio CD metadata lookup"
@@ -11698,7 +11722,7 @@ msgstr "Uppslagning av ljud-CD-metadata"
 msgid ""
 "For individual tracks, recommend albums instead of singles from the same time"
 msgstr ""
-"För enskilda spår, rekommendera album istället för singlar från samma era"
+"För enskilda spår, rekommenderas album istället för singlar från samma era"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:29
 msgid "Audio CD ripping"
@@ -11745,9 +11769,9 @@ msgstr ""
 "den lokala databasen). Radering sker efter att fjärrinnehåll har "
 "synkroniserats (om det alternativet är tillgängligt/aktiverat). I allmänhet "
 "bör radering aktiveras för att förhindra dubbletter på fjärrplatsen, men "
-"alternativet att ta bort \"allt\" omarkerat innehåll bör användas försiktigt "
-"om fjärrplatsen innehåller nytt/ändrat innehåll som inte finns i den lokala "
-"databasen."
+"alternativet att ta bort \"allt\" omarkerat innehåll bör användas med "
+"försiktighet om fjärrplatsen innehåller nytt/ändrat innehåll som inte finns "
+"i den lokala databasen."
 
 #: controls\deviceConfig\options\pnl_Tagging.html:15
 msgid "Syncs all images using the specified format and size"
@@ -11790,8 +11814,8 @@ msgid ""
 "If enabled, MediaMonkey will check (over the internet) whether a newer "
 "version exists."
 msgstr ""
-"Låter MediaMonkey kontrollera om en ny version av programmet finns "
-"tillgänglig över Internet."
+"Om aktiverad kommer MediaMonkey att kontrollera om en ny version av "
+"programmet finns tillgänglig över Internet."
 
 #: dialogs\dlgOptions\pnl_General.html:13
 msgid "Also checks for addon updates."
@@ -11799,7 +11823,7 @@ msgstr "Sök också efter tilläggsuppdateringar."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:50
 msgid "Auto-tagging"
-msgstr "Automatisk märkning"
+msgstr "Automatisk taggning"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
 msgid "Queue last in MediaMonkey"
@@ -11875,7 +11899,7 @@ msgstr "Målfiler"
 msgid ""
 "The following accompanying files were found. Please select those which you "
 "would like to move."
-msgstr "Följande tillhörande filer hittades. Vänligen välj de du vill flytta."
+msgstr "Följande tillhörande filer hittades. Välj de du vill flytta."
 
 #: dialogs\dlgNewVersion.html:12
 msgid "New version"
@@ -11907,9 +11931,9 @@ msgid ""
 "(seconds) from being added to the Library, since it's unlikely that you "
 "really want such files to appear in your Library."
 msgstr ""
-"Detta förhindrar spår som är mindre än en viss storlek (i kB) eller kortare "
-"( i sekunder) från att läggas till i mediabiblioteket, då det är osannolikt "
-"att du vill ha sådana filer i ditt mediabibliotek."
+"Detta förhindrar spår som är mindre än en viss storlek (i kB) eller kortare ("
+" i sekunder) från att läggas till i mediabiblioteket, då du förmodligen inte "
+"vill ha sådana filer i ditt mediabibliotek."
 
 #: dialogs\dlgOptions\pnl_Library.html:5
 msgid "Add/Scan settings"
@@ -11928,8 +11952,9 @@ msgid "'Track summary' format (e.g. in Player, Tracklist):"
 msgstr "\"Spårsammanfattning\" -format (i t.ex. spelare el spellista):"
 
 #: dialogs\dlgOptions\pnl_Player.html:58
+#, fuzzy
 msgid "Transparency"
-msgstr "Transparent"
+msgstr "Genomskinlighet"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:65
 msgid ""
@@ -11938,10 +11963,10 @@ msgid ""
 "number of tracks analyzed does not affect volume analysis results, there is "
 "little reason to disable this function."
 msgstr ""
-"Alternativet gör att Analysera volym-kommandot körs endast på spår som inte "
-"ännu har en beräknad nivåkoeffecient. Eftersom antalet analyserade spår inte "
-"påverkar analysresultaten finns det ingen egentlig anledning att slå av "
-"denna funktion."
+"Alternativet gör att Analysera volym-kommandot endast utförs på spår som "
+"inte ännu har en beräknad nivåkoeffecient. Det finns egentligen ingen "
+"anledning att slå av denna funktion, eftersom antalet analyserade spår inte "
+"påverkar analysresultatet."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:69
 msgid "When analyzing Track volume, also analyze Album volume"
@@ -11949,19 +11974,21 @@ msgstr "Analysera albumljudstyrka också när spårljudstyrka analyseras"
 
 #: samples\genreTextLayour.html:3
 msgid "Alternative Rock"
-msgstr "Alternativ rock"
+msgstr "Alternativrock"
 
 #: maincontent.html:42
+#, fuzzy
 msgid "Top panel"
 msgstr "Översta panel"
 
 #: controls\mainTabContent.html:25
+#, fuzzy
 msgid "Main panel (bottom)"
 msgstr "Huvudpanel (botten)"
 
 #: controls\searchEditor.html:34
 msgid "megabytes"
-msgstr "megabyte"
+msgstr "Megabyte"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:9
 msgid ""
@@ -12009,7 +12036,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:14
 msgid "Crossfading"
-msgstr "Crossfading"
+msgstr "Tonande spårövergång"
 
 #: dialogs\dlgOptions\pnl_Player.html:38
 msgid "Pop-up display"
@@ -12035,8 +12062,8 @@ msgid ""
 "Increases the play counter for items played via this server. This may not be "
 "accurate for partially played tracks."
 msgstr ""
-"Ökar spelräknaren för objekt som spelas via den här servern. Detta kanske "
-"inte är korrekt för delvis spelade spår."
+"Ökar spelräknaren för objekt som spelas via den här servern. Delvis spelade "
+"spår kanske inte blir exakt rätt."
 
 #: dialogs\dlgAddArtwork.html:29
 msgid "Image location"
@@ -12079,6 +12106,7 @@ msgid "Playlists (M3U, XSPF) then Tags"
 msgstr "Spellistor (M3U, XSPF) och sedan taggar"
 
 #: dialogs\dlgOptions\pnl_Library.html:87
+#, fuzzy
 msgid ""
 "It is possible to specify whether to use 'Tags and then inferred "
 "properties', or vice versa. Generally, Tags contain more accurate "
@@ -12088,12 +12116,11 @@ msgid ""
 "Properties and then Tags' is if it is known in advance that tags are "
 "inaccurate, and filenames contain more accurate data."
 msgstr ""
-"Det är möjligt att ange om 'ID3-tag, sen gissad information' eller vice "
-"versa ska användas. Generellt så innehåller ID3-taggen korrektare "
-"information, så att välja 'ID3-tag, sedan gissad information' hämtar info "
-"från ID3-taggen, och sedan tas eventuella saknade fält från den gissade "
-"informationen. Det omvända bör du endast använda i de fall då du med "
-"säkerhet vet att filnamnen är korrektare än ID3."
+"Det är möjligt att ange om 'Taggar, sedan filnamn' eller om vice versa ska "
+"användas. Generellt sett så innehåller taggar korrektare information, så att "
+"välja 'Taggar, sedan filnamn' hämtar info från taggar, och sedan tas "
+"eventuella saknade fält från filnamn. Det omvända bör du endast användas i "
+"de fall då du med säkerhet vet att filnamnen är mer korrekta."
 
 #: dialogs\dlgOptions\pnl_Library.html:85
 msgid ""
@@ -12104,12 +12131,12 @@ msgid ""
 "incorrect). Once you've verified the data, you can update the tags manually--"
 "see Synchronizing Your Tags."
 msgstr ""
-"I de fall där ID3-taggen inte innehåller särskilt mycket information kan "
-"MediaMonkey hämta information såsom Artist, Titel eller Album från filnamnet "
+"I de fall där taggarna inte innehåller särskilt mycket information, kan "
+"MediaMonkey hämta information från filnamnet såsom Artist, Titel eller Album "
 "om detta alternativ är aktiverat. Notera dock att denna information endast "
-"sparas i databasen, och inte i ID3-taggen (ifall informationen är "
-"inkorrekt). När du har verifierat informationen kan du uppdatera ID3-taggen "
-"manuellt (se Synkronisera dina ID3-taggar)."
+"sparas i databasen, och inte i ID3-taggen (ifall informationen är inkorrekt)"
+". När du har verifierat informationen kan du uppdatera ID3-taggen manuellt ("
+"se Synkronisera dina ID3-taggar)."
 
 #: dialogs\dlgOptions\pnl_Library.html:174
 msgid ""
@@ -12150,11 +12177,12 @@ msgstr ""
 "Bestämmer metod för att justera ljudstyrka för uppspelning och "
 "enhetssynkronisering. \"Per album\" -nivåer baseras på "
 "albumvolymkoefficienten (om tillgänglig), vilket bevarar relativa "
-"volymskillnader för spår på ett album. \"Per spår\" -nivåer justerar varje "
-"spår självständigt, vilket är att föredra när album sällan spelas som en "
-"helhet."
+"ljudstyrkeskillnader för spår på ett album. \"Per spår\" -nivåer justerar "
+"varje spår självständigt, vilket är att föredra i de fall där album sällan "
+"spelas som en helhet."
 
 #: dialogs\dlgWizard\pnlRegistration.html:14
+#, fuzzy
 msgid "AccurateRip for bit-perfect CD Rips."
 msgstr "AccurateRip för exakta CD-avläsningar/rippar."
 
@@ -12189,9 +12217,8 @@ msgid ""
 "Create playlists to more easily navigate tracks on a device. This is useful "
 "for older players or car stereos that don't have a media database."
 msgstr ""
-"Skapa spellistor för att lättare navigera spår på en enhet. Detta är "
-"användbart för äldre spelare eller bilstereoapparater som inte har en "
-"mediedatabas."
+"Skapa spellistor för att lättare hitta spår på en enhet. Detta är användbart "
+"för äldre spelare eller bilstereoapparater som inte har en mediedatabas."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:11
 msgid "Selected Album nodes"
@@ -12207,8 +12234,9 @@ msgid ""
 msgstr ""
 "Automatisk taggning söker upp spårmetadata (t.ex. artist, genre, album) "
 "baserat på titel och spårlängd, och albummetadata (t.ex. albumartist, datum) "
-"baserat på albumet. Om titeln saknas slås den upp via ett ljudfingeravtryck. "
-"Ändra rekommendationerna vid behov och välj vilka spår som ska taggas."
+"baserat på albumet. Om titeln saknas, så slås den upp via ett "
+"ljudfingeravtryck. Ändra rekommendationerna vid behov och välj vilka spår "
+"som ska taggas."
 
 #: dialogs\dlgAutotagFromFilename.html:10
 msgid "Update tags based on existing filenames"
@@ -12224,7 +12252,7 @@ msgstr "Lösenord"
 
 #: dialogs\dlgMP3Settings.html:84
 msgid "VBR method"
-msgstr "VBR-metod"
+msgstr "VBH(VBR)-metod"
 
 #: dialogs\dlgMP3Settings.html:9
 msgid "Use presets"
@@ -12232,7 +12260,7 @@ msgstr "Använd förinställningar"
 
 #: dialogs\dlgOGGSettings.html:43
 msgid "Limit maximal bitrate"
-msgstr "Begränsa högsta bitrate"
+msgstr "Begränsa högsta bithastighet"
 
 #: dialogs\videoConvSettings.html:49
 msgid "large"
@@ -12244,7 +12272,7 @@ msgstr "Exkludera mappar:"
 
 #: dialogs\dlgOptions\pnl_General.html:3
 msgid "Interface language:"
-msgstr "Språk:"
+msgstr "Gränssnittsspråk:"
 
 #: dialogs\dlgOptions\pnl_General.html:16
 msgid "Submit anonymous usage statistics to help improve the software"
@@ -12300,7 +12328,7 @@ msgstr "Passa storlek exakt"
 
 #: dialogs\dlgOptions\pnl_General.html:47
 msgid "Temporary directory:"
-msgstr "Temp-mapp:"
+msgstr "Tillfällig mapp:"
 
 #: dialogs\dlgOptions\pnl_Library.html:150
 msgid ".nfo files, Path and Filenames"
@@ -12348,11 +12376,11 @@ msgstr "Visa index för kategorier med många poster"
 
 #: controls\serverConfig\server.html:5
 msgid "The server name as it appears to other DLNA devices"
-msgstr "Servernamnet som det visas för andra DLNA-enheter"
+msgstr "Servernamnet såsom det visas för andra DLNA-enheter"
 
 #: dialogs\dlgAutotagFromFilename.html:28
 msgid "Remove underscores"
-msgstr "Ta bort understreck"
+msgstr "Ta bort radunderstreck"
 
 #: dialogs\dlgChooseFields.html:16
 msgid "Columns"
@@ -12386,11 +12414,12 @@ msgid ""
 "where a music collection is arranged in such a manner that each collection "
 "of tracks has an associated playlist that defines the Album."
 msgstr ""
-"Inställningen anger hur albumtitlar och spårinformation läggs till "
-"mediabiblioteket. Alternativen är 'Endast ID3-taggar', \"ID3-taggar, sen "
-"spellistor\" och \"Spellistor, sen ID3-taggar\". 'Endast ID3-taggar' bör "
-"alltid användas utom i de fall då spårens information endast ligger i en "
-"medföljande spellista."
+"Den här inställningen definierar hur albumtitlar och egenskaper för "
+"spårnummer läggs till i biblioteket. Alternativen är \"Endast taggar\", "
+"\"Taggar, sedan spellistor\" och \"Spellistor, sedan taggar\". \"Endast "
+"taggar\" ska alltid användas, förutom i fall där en musiksamling är "
+"arrangerad på ett sådant sätt att varje samling spår har en tillhörande "
+"spellista som definierar albumet."
 
 #: dialogs\dlgOptions\pnl_Library.html:175
 msgid "Generate thumbnails for videos"
@@ -12402,7 +12431,7 @@ msgstr "Bestämmer vilka åtgärder som är tillgängliga i Utforskarens snabbme
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:12
 msgid "This option causes MediaMonkey to take up the entire screen."
-msgstr "Detta val visar MediaMonkey över hela skärmen."
+msgstr "Detta val gör att MediaMonkey tar upp hela skärmen."
 
 #: dialogs\dlgOptions\pnl_Player.html:52
 msgid "Only when inactive"
@@ -12414,7 +12443,7 @@ msgstr "Mjuk uttoning av popup-fönstret"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:34
 msgid "Modify timestamp when updating tags"
-msgstr "Uppdatera datumstämpeln när ID3-taggen ändras"
+msgstr "Uppdatera datumstämpeln när taggar ändras"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:214
 msgid "Last played"
@@ -12458,7 +12487,7 @@ msgstr "Om du inte har en licensnyckel så kan du"
 
 #: dialogs\dlgSleep.html:14
 msgid "Fade volume"
-msgstr "Tona volym"
+msgstr "Tona ut volym"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:29
 msgid "Rename custom fields (requires restart)"
@@ -12470,7 +12499,7 @@ msgstr "Ange standardformat för katalog / filnamn för angivna filer."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the 'Playing' list"
-msgstr "Visa bekräftelsedialog vid borttagning av spår från spellista"
+msgstr "Visa bekräftelsedialog vid borttagning av spår från uppspelningslista"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -12516,7 +12545,7 @@ msgstr "Analysera automatiskt ljudstyrkan hos oanalyserade filer:"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:150
 msgid "Composer(s)"
-msgstr "Kompositörer"
+msgstr "Kompositör(er)"
 
 #: controls\searchEditor.html:35
 msgid "minutes"
@@ -12540,7 +12569,7 @@ msgstr "Bildtyp"
 
 #: dialogs\dlgBurn.html:26
 msgid "Cache files from network"
-msgstr "Hämtar filer från nätverk"
+msgstr "Hämta filer från nätverk"
 
 #: dialogs\dlgDelay.html:15
 msgid "seconds"
@@ -12552,7 +12581,7 @@ msgstr "Lägg till >"
 
 #: dialogs\dlgSleep.html:22
 msgid "Fade to"
-msgstr "Tona till"
+msgstr "Tona ned till"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:15
 msgid "Confirm deletion of currently playing file"
@@ -12588,7 +12617,7 @@ msgstr "Sökläge:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:13
 msgid "ID3v2.4 tags"
-msgstr "ID3v2-taggar"
+msgstr "ID3v2.4-taggar"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:185
 msgid "Screenwriter(s)"
@@ -12596,7 +12625,7 @@ msgstr "Manusförfattare"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:36
 msgid "Lowercase common short words"
-msgstr "Gemensamma korta ord med små bokstäver"
+msgstr "Vanliga korta ord med små bokstäver"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:23
 msgid "Recommended changes to capitalization"
@@ -12633,7 +12662,7 @@ msgid "WMA settings"
 msgstr "WMA-inställningar"
 
 msgid "Desktop"
-msgstr "Skrivbordet"
+msgstr "Skrivbord"
 
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
@@ -12664,17 +12693,17 @@ msgstr "AAC-inställningar"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
-msgstr "Variabel bithastighet (VBR)"
+msgstr "Variabel bithastighet (VBH(VBR))"
 
 msgid "Average bitrate (ABR)"
-msgstr "Genomsnittlig bithastighet (Abr)"
+msgstr "Genomsnittlig bithastighet (GBH/ABR)"
 
 # WMA plug-in
 msgid "Constant bitrate (CBR) 1-pass"
-msgstr "Konstant bithastighet (CBR) 1-pass"
+msgstr "Konstant bithastighet/Constant bitrate (KBH/CBR)) 1-pass"
 
 msgid "Constant bitrate (CBR) 2-pass"
-msgstr "Konstant bithastighet (CBR) 2-pass"
+msgstr "Konstant bithastighet/Constant bitrate (KBH/CBR)) 2-pass"
 
 # Hotkeys
 msgid "Media Fast Forward"
@@ -12684,10 +12713,10 @@ msgid "Media Rewind"
 msgstr "Medieåterspolning"
 
 msgid "Media Pause"
-msgstr "Paus"
+msgstr "Media Paus"
 
 msgid "Media Play"
-msgstr "Spela"
+msgstr "Spela media"
 
 msgid "Show Log File"
 msgstr "Visa loggfil"
@@ -12700,7 +12729,7 @@ msgid "Output audio device"
 msgstr "Ljudutgång"
 
 msgid "MediaMonkey Video plug-in"
-msgstr "MediaMonkey Video plug-in"
+msgstr "MediaMonkey Video-plugin"
 
 # MP3 setup, Advanced setup, Sample Rate box
 msgid "Auto"
@@ -12780,21 +12809,22 @@ msgstr "Ljud DSP"
 
 #: ErrHandlers.pas:413
 msgid "There was a problem analyzing volume for the following track(s):"
-msgstr "Det var problem att analysera ljudstyrkan för följande spår:"
+msgstr "Det gick inte att analysera ljudstyrkan för följande spår:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:50
 msgid ""
 "Displays a warning if a file in the Playing queue is inaccessible (e.g. if "
 "it's on a CD that isn't inserted)."
 msgstr ""
-"Visar en varning om ett spår i den aktuella spellistan inte är tillgänglig ("
-"t.ex om det ligger på en CD som inte är laddad i CD-spelaren)."
+"Visar en varning om ett spår i den aktuella uppspelningslistan inte är "
+"tillgänglig (t.ex om det ligger på en CD som inte är laddad i CD-spelaren)."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:50
 msgid "Show warning when file to be played is not accessible"
 msgstr "Visa varning när filen som ska spelas inte är tillgänglig"
 
 #: viewHandlers.js:4581 viewHandlers.js:4826
+#, fuzzy
 msgid "library Location node"
 msgstr "biblioteknodens plats"
 
@@ -12829,7 +12859,7 @@ msgstr "XML (*.xml)|*.xml|Alla filer (*.*)|*.*"
 
 #: Scripts/export/actions_add.js:331
 msgid "File List (CS&V)"
-msgstr "Filförteckning (CS&V)"
+msgstr "Fillista (CS&V)"
 
 #: Scripts/export/actions_add.js:341
 msgid "CSV (*.csv)|*.csv|All files (*.*)|*.*"
@@ -12852,10 +12882,11 @@ msgid ""
 "This specifies what character is used to denote multiple values within a "
 "single field (e.g. Rock;Folk)."
 msgstr ""
-"Detta anger vilket tecken som används för att beteckna flera värden inom ett "
-"enda fält (t.ex. Rock;Folk)."
+"Detta anger vilket tecken som används för att särskilja flera värden inom "
+"ett enda fält (t.ex. Rock;Folk)."
 
 #: viewHandlers.js:7115
+#, fuzzy
 msgid ""
 "If you have multiple tracks by different artists, that actually belong to a "
 "single album, MediaMonkey can help you organise them. They are displayed "
@@ -12885,7 +12916,7 @@ msgstr "Gammalt Värde: "
 # string till 5.0.2 version only
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disable crossfading"
-msgstr "Inaktivera crossfading"
+msgstr "Inaktivera tonande spårövergångar"
 
 # string till 5.0.2 version only
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:93
@@ -12895,7 +12926,7 @@ msgstr "Tona in i nytt spår"
 # string till 5.0.2 version only
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disables crossfading for files of the selected type."
-msgstr "Inaktiverar crossfading för filer av den valda typen."
+msgstr "Inaktiverar tonade spårövergångar för filer av den valda typen."
 
 #: controls\deviceConfig\summary.html:10
 msgid "Safely remove device"
@@ -12947,11 +12978,11 @@ msgstr "Spela här&näst i MediaMonkey"
 
 #: ResStrings.pas:879
 msgid "Could not write the image layout to the disk."
-msgstr "Kunde inte skriva image-layouten till disken."
+msgstr "Kunde inte skriva avbildningen till disken."
 
 #: dialogs\dlgAutotagFromFilename.html:9
 msgid "Auto-tag allows you to update tags based on existing filenames"
-msgstr "Auto-Tag låter dig uppdatera ID3-taggar baserat på filnamn"
+msgstr "Auto-Tag låter dig uppdatera taggar baserat på filnamn"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -12969,7 +13000,8 @@ msgstr "Visningsformat för \"Spårsammanfattning\"  (t.ex. i spelare):"
 
 #: uitools.js:2495
 msgid "MediaMonkey will reload (which may terminate existing processes)."
-msgstr "MediaMonkey laddas om (avslutar eventuella pågående processer)."
+msgstr ""
+"MediaMonkey kommer att laddas om (avslutar eventuella pågående processer)."
 
 #: dialogs/dlgScanResults.js:23
 msgid "Imported %d new files"
@@ -13015,20 +13047,22 @@ msgstr "Avläsning/rippning"
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:103
 #: ResStrings.pas:428 dialogs\dlgOptions\pnl_AutoDJ.html:31
 msgid "Playing list"
-msgstr "'Spelande' lista"
+msgstr "uppspelningslista"
 
 #: actions.js:3342
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
 msgstr ""
-"Blanda inaktiverad. Det går inte att blanda på grund av redigeringar - "
-"använd \"Ångra\" för att återställa ändringar i listan \"Spelar\"."
+"Blanda inaktiverad. Det går inte att backa blandning på grund av "
+"redigeringar - använd \"Ångra\" för att återställa ändringar i spellistan."
 
 #: controls/player.js:303
 msgid ""
 "Shuffles the Playing list and makes default play commands shuffle tracks."
-msgstr "Blandar spellistan och lägger in nya spår i spellistan slumpmässigt."
+msgstr ""
+"Blandar spellistan och lägger till nya spår i spellistan på slumpmässiga "
+"platser."
 
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from Playing list only"
@@ -13052,7 +13086,7 @@ msgid ""
 "added to the Playing list when it runs out."
 msgstr ""
 "Detta aktiverar Auto-DJ-funktionen som gör att spår automatiskt läggs till i "
-"\"Spela\" -listan när den tar slut."
+"uppspelningslistan när den tar slut."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:6
 msgid ""
@@ -13101,8 +13135,8 @@ msgid ""
 msgstr ""
 "Som standard minimeras MediaMonkey till aktivitetsfältet. \"Minimera till "
 "Microspelare\" gör att det visas som ett verktygsfält bredvid systemfältet "
-"när det minimeras. \"Minimera till Minispelare\", visar spellista även när "
-"huvudapplikationen är minimerad."
+"när det minimeras. \"Minimera till Minispelare\", visar uppspelningslista "
+"även när huvudapplikationen är minimerad."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in Playing list"
