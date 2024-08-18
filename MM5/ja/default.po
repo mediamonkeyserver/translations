@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-17 16:56\n"
-"PO-Revision-Date: 2024-07-17 21:33+0000\n"
-"Last-Translator: rusty <rs@mediamonkey.com>\n"
+"PO-Revision-Date: 2024-08-19 15:50+0000\n"
+"Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ja/>\n"
 "Language: ja\n"
@@ -1289,7 +1289,7 @@ msgstr "ファイル名からタグ付け(&T)"
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:3730
 msgid "&Auto-tag"
-msgstr "自動タグ(&A)"
+msgstr "自動タグ付け(&A)"
 
 #: actions.js:3763
 msgid "Configure current &output plug-in"
@@ -2953,7 +2953,7 @@ msgstr "コメントを編集"
 #: controls/seriesViewHeader.js:311 dialogs/dlgTrackProperties.js:670
 #: Scripts/swapArtistTitle/actions_add.js:15
 msgid "Are you sure that you want to modify %d files ?"
-msgstr "%dファイルを修正してよろしいですか？"
+msgstr "%d個のファイルを修正してよろしいですか？"
 
 #: controls/albumViewHeader.js:455 controls/artistViewHeader.js:429
 #: controls/seriesViewHeader.js:314 dialogs/dlgDeleteConfirm.js:226
@@ -4771,11 +4771,11 @@ msgstr "フィンガープリントを使用して検索..."
 
 #: dialogs/dlgAutotag.js:50
 msgid "Auto-tag"
-msgstr "自動タグ"
+msgstr "自動タグ付け"
 
 #: dialogs/dlgAutotag.js:145 dialogs/dlgAutotag.js:158 DBStructure.pas:861
 msgid "File %d of %d processing"
-msgstr "ファイル%d/%d処理中"
+msgstr "ファイル%d/%dの処理中"
 
 #: dialogs/dlgAutotag.js:255 PlaylistManage.pas:1219 ResStrings.pas:583
 msgid "Confirm"
@@ -5501,7 +5501,7 @@ msgstr "ライブラリ設定"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
-msgstr "ライブラリには現在%dファイルあります"
+msgstr "ライブラリには現在%d個のファイルがあります"
 
 #: dialogs/dlgScanResults.js:69
 msgid "Search and update took %s"
@@ -5509,19 +5509,19 @@ msgstr "検索と更新に%s掛かりました"
 
 #: dialogs/dlgScanResults.js:70
 msgid "Added %d new files"
-msgstr "%dの新規ファイルを追加しました"
+msgstr "%d個の新規ファイルを追加しました"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
-msgstr "%dファイルを更新"
+msgstr "%d個のファイルを更新しました"
 
 #: dialogs/dlgScanResults.js:72
 msgid "Failed to add %d files"
-msgstr "%dファイルのインポートに失敗しました"
+msgstr "%d個のファイルのインポートに失敗しました"
 
 #: dialogs/dlgScanResults.js:73
 msgid "Skipped %d files"
-msgstr "%dファイルを更新しました"
+msgstr "%d個のファイルを飛ばしました"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5945,7 +5945,7 @@ msgstr "歌詞の出典"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:99
 msgid "Auto-tag metadata sources"
-msgstr "メタデータソースに自動タグを付ける"
+msgstr "メタデータソースに自動でタグを付ける"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:148
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:204
@@ -6847,7 +6847,7 @@ msgstr "全プレイリスト"
 
 #: BackgroundStuff.pas:283
 msgid "%d files to be tagged"
-msgstr "%d ファイルをタグ付け"
+msgstr "%d個のファイルをタグ付け"
 
 #: BaseApp.pas:7704
 msgid "There are background processes running. Terminate them?"
@@ -7840,7 +7840,7 @@ msgstr "上へ"
 #. using checkMedia removed, #18091
 #: FullPlayer.pas:2358
 msgid "Add %d file(s) to Playing"
-msgstr "%dファイルを「再生中」リストに追加"
+msgstr "%d個のファイルを「再生中」リストに追加"
 
 #: FullPlayer.pas:2515
 msgid "Clear Playing"
@@ -8415,9 +8415,8 @@ msgstr ""
 
 #: MP3Utils.pas:1296
 msgid "Scanning for moved files in %s (%d files scanned)."
-msgstr ""
-"\"%s\"に移動されたファイルをスキャンしています（%dファイルがスキャンされまし"
-"た）。"
+msgstr "\"%s\"に移動されたファイルをスキャンしています"
+"（%d個のファイルがスキャンされました）。"
 
 #. There are yet tracks to be found, try the second pass
 #: MP3Utils.pas:1374
@@ -11240,7 +11239,7 @@ msgstr "音量を自動的に分析する"
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Lookup missing information via Auto-tag (Registered users only)"
-msgstr "自動タグを介して欠落している情報を検索します（登録ユーザーのみ）"
+msgstr "自動タグ付けを介して欠落している情報を検索します（登録ユーザーのみ）"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:3
 msgid "Scrobbler submission state"
@@ -12168,11 +12167,11 @@ msgid ""
 "fingerprint. Change the recommendations if needed, and select which tracks "
 "to tag."
 msgstr ""
-"自動タグは、タイトルとトラックの長さに基づいてトラックメタデータ（例：アー"
-"ティスト、ジャンル、アルバム）を検索し、アルバムに基づいてアルバムメタデータ"
-"（例：アルバムアーティスト、日付）を検索します。タイトルが見つからない場合"
-"は、オーディオフィンガープリントを利用して検索されます。必要に応じて推奨事項"
-"を変更し、タグ付けするトラックを選択します。"
+"自動タグ付けは、タイトルとトラックの長さに基づいてトラックメタデータ（例：ア"
+"ーティスト、ジャンル、アルバム）を検索し、アルバムに基づいてアルバムメタデー"
+"タ（例：アルバムアーティスト、日付）を検索します。タイトルが見つからない場合"
+"は、音響指紋を利用して検索されます。必要に応じて推奨事項を変更し、タグ付けす"
+"るトラックを選択します。"
 
 #: dialogs\dlgAutotagFromFilename.html:10
 msgid "Update tags based on existing filenames"
@@ -12920,7 +12919,7 @@ msgstr "イメージレイアウトをディスクに書き込めませんでし
 
 #: dialogs\dlgAutotagFromFilename.html:9
 msgid "Auto-tag allows you to update tags based on existing filenames"
-msgstr "自動タグを使用すると、既存のファイル名に基づいてタグを更新できます"
+msgstr "自動タグ付けを使用すると、既存のファイル名に基づいてタグを更新できます"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -12943,15 +12942,15 @@ msgstr ""
 
 #: dialogs/dlgScanResults.js:23
 msgid "Imported %d new files"
-msgstr "%dの新規ファイルをインポート"
+msgstr "%d個の新規ファイルをインポート"
 
 #: dialogs/dlgScanResults.js:25
 msgid "Did not import %d files (did not match import criteria)"
-msgstr "%dファイルをインポートしませんでした（インポート条件に一致せず）"
+msgstr "%d個のファイルをインポートしませんでした（インポート条件に一致せず）"
 
 #: dialogs/dlgScanResults.js:26
 msgid "Failed to import %d files"
-msgstr "%dファイルのインポートに失敗"
+msgstr "%d個のファイルのインポートに失敗しました"
 
 #: ErrHandlers.pas:388
 msgid "There was a problem ripping or verifying the following track(s):"
