@@ -233,6 +233,7 @@
     <string name="track_cannot_be_stored">Failed to save (%1$s)</string>
     <string name="track_cannot_be_downloaded">Failed to download (%1$s)</string>
     <string name="track_cannot_be_converted">Failed to convert (%1$s)</string>
+    <string name="track_cannot_be_uploaded">Failed to upload (%1$s)</string>
     <string name="track_unsupported">Unsupported format (%1$s)</string>
     <string name="widget_full">MediaMonkey Full 4x2</string>
     <string name="widget_full44">MediaMonkey Large 4x4</string>
@@ -347,6 +348,7 @@
     <string name="add_directory_to_library">Add folder</string>
     <string name="choose_library_folders_title">Choose library folders</string>
     <string name="choose_library_folders_details">Choose which folders to include in the library.</string>
+    <string name="choose_library_folders_details_with_warning">Choose which folders to include in the library and correct access permissions.</string>
     <string name="logs_details">Details (required):</string>
     <string name="logs_details_details">Please describe the problem and what triggered it.</string>
     <string name="logs_ticket_id">Log ID:</string>
@@ -528,8 +530,8 @@
     <string name="storage_tree_uri_permission_hint_1">A file browser will open the folder requiring access.</string>
     <string name="storage_tree_uri_permission_hint_2">Click \"Use this folder\" or \"Select\" to choose the folder.</string>
 
-    <string name="storage_permission_title">Grant access to external storage</string>
-    <string name="storage_permission_details">MediaMonkey requires write permission to some folders.</string>
+    <string name="storage_permission_title">Grant access to storage</string>
+    <string name="storage_permission_details">MediaMonkey requires folder write permission to function optimally!</string>
     <string name="remove">Remove</string>
     <string name="media_monkey_player">MediaMonkey player</string>
     <string name="database_compressing">Database compressing…</string>
@@ -747,11 +749,13 @@
     <string name="device_destination">Device destination</string>
     <string name="add">Add</string>
     <string name="invalid_url_format">Invalid url format</string>
+    <string name="unsupported_uri">Unsupported uri</string>
     <string name="stored_media_server_is_unavailable">Saved media server is inaccessible.</string>
     <string name="recreating_tracklist">Recreating Playing queue…</string>
     <string name="password">Password</string>
     <string name="username">Username</string>
     <string name="login">Login</string>
+    <string name="mounting_storage">Storage mounting…</string>
     <string name="mounted_storages_notification_title">Mounted storage: %s</string>
     <string name="mounted_storages_notification_description">Scan for updated media files?</string>
     <string name="postpone">Postpone</string>
@@ -882,7 +886,7 @@
     <string name="destination_file_locations">Destination File locations</string>
     <string name="reconnect">Reconnect</string>
     <string name="sync_setting_wizard">Sync configuration wizard</string>
-    <string name="presync_summary">Review settings</string>
+    <string name="review_settings">Review settings</string>
     <string name="bidirectional_folders">Bidirectional folders</string>
     <string name="content">Content</string>
     <string name="no_sync_server">No sync server</string>
@@ -928,7 +932,7 @@
     <string name="database_maintenance">Database maintenance</string>
     <string name="backup_info_description">The folder is used for USB synchronization with older versions of MediaMonkey for Windows.</string>
     <string name="grant_access_to_mediamonkey">Grant access to MediaMonkey folder</string>
-    <string name="grant_access_to_mediamonkey_details">MediaMonkey requires write permission MediaMonkey folder for backup &amp; USB sync support.</string>
+    <string name="grant_access_to_mediamonkey_details">MediaMonkey requires write permissions for backup &amp; USB sync.</string>
     <string name="debuging">Debugging</string>
     <string name="partly">Partly</string>
     <string name="no_content_to_sync">No content to sync</string>
@@ -1053,5 +1057,17 @@
     <string name="missing_folders_info">The folder name is automatically copied to the clipboard when you click on \'CREATE &amp; GRANT\'.</string>
     <string name="tree_permission_missing_folders_description">Tap the \'Create folder\' button, and enter or \'Paste\' the new folder name (MediaMonkey copies
         the folder name to the clipboard).</string>
-    <string name="test" translatable="false">test</string>
+    <string name="moved">Moved</string>
+    <string name="skip_sync_review">Skip sync review</string>
+    <string name="skip_sync_review_description">Skip the sync review page before syncing. Disable to adjust sync settings before each sync.</string>
+    <string name="no_results_found">No results found</string>
+    <string name="v3_synchronization">MM5 metadata scanning</string>
+    <string name="do_not_ask_again">"Do not ask again "</string>
+    <string name="filter">Filter</string>
+    <string name="original">Original</string>
+    <string name="access_to_video">Allow access to videos</string>
+    <string name="access_to_video_description">To scan videos MediaMonkey needs access to the Android video library.</string>
+    <string name="preferences_were_recovered_from_backup">Preferences have been restored from backup.</string>
+    <string name="removing_sync_destination">This folder is configured as a sync destination (on the sync server) and will be recreated on the next sync operation.</string>
+    <string name="do_you_want_to_proceed">Do you want to proceed?</string>
 </resources>
