@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-17 16:56\n"
-"PO-Revision-Date: 2025-01-28 04:15+0000\n"
+"PO-Revision-Date: 2025-01-29 04:50+0000\n"
 "Last-Translator: Ming-Yuan Lee <arsphile@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://translations.mediamonkey.com/"
 "projects/mediamonkey-5-x/application/zh_Hant/>\n"
@@ -255,7 +255,7 @@ msgstr "完整視窗"
 
 #: actions.js:790 dialogs\dlgOptions\pnl_General.html:39
 msgid "Minimize to MiniPlayer"
-msgstr "縮小至 MiniPlayer"
+msgstr "最小化至 MiniPlayer"
 
 #: actions.js:824
 msgid "MiniPlayer"
@@ -1188,7 +1188,7 @@ msgstr "目前檔案"
 #. stop should be active even if playback is paused
 #: actions.js:3428 actions.js:3431
 msgid "Every file"
-msgstr "所有檔案"
+msgstr "每一個檔案"
 
 #: actions.js:3463
 msgid "Crossfade"
@@ -2109,7 +2109,7 @@ msgstr "網站連結:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2549
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr "為了套用變更，您需要重新啟動 MediaMonkey"
+msgstr "MediaMonkey 需要重新啟動，才能套用變更"
 
 #: uitools.js:2551 controls/buttons.js:485 ExceptionHandler.pas:292
 #: ExceptionHandler.pas:328 ResStrings.pas:590
@@ -2751,8 +2751,7 @@ msgid ""
 "This finds all tracks with tags that don't match the database, highlighting "
 "the mismatched values. If tracks don't show highlighted fields, try enabling "
 "additional columns."
-msgstr ""
-"找出所有標籤與資料庫不符的曲目，並醒目提示不相符的數值。若曲目未顯示醒目提示"
+msgstr "找出所有標籤與資料庫不符的曲目，並醒目提示不相符的數值。若曲目未顯示醒目提示"
 "的欄位，請嘗試啟用其他欄位。"
 
 #: viewHandlers.js:7316
@@ -3334,9 +3333,8 @@ msgid ""
 "Sync a random subset of the selected files filling the target to the set "
 "limit. This is useful for syncing random tracks to a device/location that "
 "cannot contain your entire library."
-msgstr ""
-"將所選檔案的隨機子集同步到目標，以填充設定的限制。這對於將隨機音軌同步到無法"
-"容納整個媒體櫃的 裝置/位置 非常有用。"
+msgstr "將所選檔案的隨機子集同步到目標，以填充設定的限制。"
+"這對於將隨機音軌同步到無法容納整個媒體櫃的 裝置/位置 非常有用。"
 
 #: controls/deviceContentRandomizer.js:9
 msgid "Sync random subset of selected files up to target capacity"
@@ -3440,7 +3438,7 @@ msgstr "網址"
 #: controls/downloadView.js:154 controls/maskedit.js:95
 #: controls/maskEditWizard.js:6 controls\deviceConfig\syncFromDevice.html:9
 msgid "Destination"
-msgstr "目標位置"
+msgstr "目的地位置"
 
 #. check empty value
 #: controls/dropdown.js:560 dialogs/dlgAutotag.js:49
@@ -5098,10 +5096,10 @@ msgid ""
 "and accessed via MediaMonkey as if the content were local, as long as the "
 "server is accessible. If not, content can be cached locally."
 msgstr ""
-"偵測到一個 %s。即使此 MediaMonkey 實例未執行，也可以用來儲存和分享您的媒體櫃"
-"的部分內容給多個 MediaMonkey 客戶端。只要伺服器可以存取，MediaMonkey 伺服器上"
-"的內容可以透過 MediaMonkey 進行管理和存取，就像內容是本機的一樣。若無法存取，"
-"內容可以在本機進行快取。"
+"檢測到 %s。可用於儲存媒體櫃的部分內容，並與多個 MediaMonkey 客戶端分享，即使 "
+"MediaMonkey 實例未執行也是如此。只要伺服器可存取，就可以透過 MediaMonkey "
+"管理和存取 MediaMonkey "
+"伺服器上的內容，就像內容是本機內容一樣。若無法存取，內容可以在本機進行快取。"
 
 #: dialogs/dlgMigrateWizard.js:19
 msgid ""
@@ -7132,9 +7130,8 @@ msgstr "正在更新到資料庫版本 %d.%d.%d"
 msgid ""
 "This version of MediaMonkey supports new tag(s) (%s). Would you like to "
 "rescan files now in order to read these tags?"
-msgstr ""
-"此版本 MediaMonkey 支援新標籤 (%s)。您是否要現在重新掃描檔案以讀取這些標籤"
-"嗎？"
+msgstr "此版本 MediaMonkey 支援新標籤 "
+"(%s)。您是否要現在重新掃描檔案以讀取這些標籤嗎？"
 
 #: DBStructure.pas:971
 msgid ""
@@ -7218,9 +7215,8 @@ msgstr "需要: %s，可用: %s，待釋放: %s"
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
-msgstr ""
-"裝置上無足夠的空間可以同步所選取的檔案。您是否要刪除現存的檔案以清出一些空"
-"間？"
+msgstr "裝置上無足夠的空間可以同步所選取的檔案。您是否要刪除現存的檔案以清出一些空間"
+"？"
 
 #. Clear tracks on the device
 #: Devices.pas:11465
@@ -8057,7 +8053,7 @@ msgstr "自動編號"
 
 #: MaskHelper.pas:3159 MaskHelper.pas:3571 MaskHelper.pas:3873
 msgid "Target Extension"
-msgstr "目標延伸"
+msgstr "目標副檔名"
 
 #: MaskHelper.pas:3169
 msgid "Sample Rate"
@@ -8222,7 +8218,7 @@ msgstr "標準版"
 #. #16581
 #: MediaMonkeyApp.pas:7917
 msgid "Open tray"
-msgstr "開啟系統匣"
+msgstr "開啟托盤"
 
 #: MediaMonkeyApp.pas:8677
 msgid "Track"
@@ -9040,7 +9036,7 @@ msgstr "抹除光碟(&E)"
 
 #: ResStrings.pas:872
 msgid "&Open tray"
-msgstr "開啟系統匣(&O)"
+msgstr "開啟托盤(&O)"
 
 #: ResStrings.pas:874
 msgid ""
@@ -9147,9 +9143,8 @@ msgstr "媒體伺服器 '%s' 無法啟動: 連接埠 %d 已在使用中。"
 msgid ""
 "Check whether another instance of MediaMonkey is already running or change "
 "the port# in Options > Media Sharing."
-msgstr ""
-"檢查 MediaMonkey 的另一個實例是否已在執行，或在 [選項] > [媒體分享] 中變更連"
-"接埠號。"
+msgstr "檢查是否有另一個 MediaMonkey 已在執行，或在 [選項] > [媒體分享] "
+"中變更連接埠號。"
 
 #: UpNp.pas:4482
 msgid "Denied"
@@ -9488,8 +9483,7 @@ msgid ""
 "If enabled, MediaMonkey adjusts volume to the Player's Target volume, using "
 "previously analyzed volume leveling coefficients. It has no effect on tracks "
 "that do not have such a coefficient."
-msgstr ""
-"若開啟，MediaMonkey 會調整音量至播放器的目標音量，此目標音量是利用先前分析後"
+msgstr "若開啟，MediaMonkey 會調整音量至播放器的目標音量，此目標音量是利用先前分析後"
 "的音量均化係數。對無此類係數的曲目是無影響的。"
 
 #: controls\windowtitle.html:17
@@ -9534,7 +9528,7 @@ msgstr "自動保留"
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid "Allow just one instance of MediaMonkey"
-msgstr "僅允許一個 MediaMonkey 實例"
+msgstr "僅允許執行一個 MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_General.html:25
 msgid "Shows the MediaMonkey icon in the system tray"
@@ -10337,8 +10331,7 @@ msgid ""
 "Choose a directory and filename mask to which podcasts should be saved. If a "
 "filename mask is not chosen, then the podcast's original filename will be "
 "used"
-msgstr ""
-"選擇要儲存播客的目錄和檔案名稱遮罩。若未選擇檔案名稱遮罩，則將使用播客的原始"
+msgstr "選擇要儲存播客的目錄和檔案名稱遮罩。若未選擇檔案名稱遮罩，則將使用播客的原始"
 "檔案名稱"
 
 #: dialogs\dlgOptions\pnl_General.html:13
@@ -10347,7 +10340,7 @@ msgstr "包含外掛程式"
 
 #: dialogs\dlgOptions\pnl_General.html:33
 msgid "Minimize to taskbar"
-msgstr "縮小至工作列"
+msgstr "最小化至工作列"
 
 #: dialogs\dlgOptions\pnl_Library.html:65
 msgid ""
@@ -10430,7 +10423,7 @@ msgstr "轉換以下內容:"
 
 #: dialogs\dlgAutoorganize.html:11
 msgid "Copy files to new destination based on file tags"
-msgstr "依檔案標籤將檔案複製到新的目標位置"
+msgstr "依檔案標籤將檔案複製到新的目的地位置"
 
 #: dialogs\dlgBurn.html:17
 msgid "per Album"
@@ -10486,7 +10479,7 @@ msgstr "一併檢查新的測試版。"
 msgid ""
 "This option forces a maximum of one MediaMonkey window to be open at any "
 "time."
-msgstr "此選項強迫 MediaMonkey 在每次開啟時的視窗最大化。"
+msgstr "此選項強制在任何時間最多開啟一個 MediaMonkey 視窗。"
 
 #: dialogs\dlgOptions\pnl_Library.html:94
 msgid "Inferred properties then tags"
@@ -10515,10 +10508,10 @@ msgid ""
 "Digital Media Server. If you wish to play content from MediaMonkey's "
 "library, you must also enable Media Sharing."
 msgstr ""
-"讓 MediaMonkey 作為數位媒體渲染器 (Digital Media Renderer)，以便可以播放來自"
-"數位媒體控制器 (Digital Media Controller) 的內容，該控制器從數位媒體伺服器 "
-"(Digital Media Server) 檢索內容。若您希望播放 MediaMonkey 媒體櫃中的內容，您"
-"也必須啟用 '媒體分享'。"
+"讓 MediaMonkey 作為數位媒體渲染器 (Digital Media Renderer)，"
+"以便可以播放來自數位媒體控制器 (Digital Media Controller) 的內容，"
+"該控制器從數位媒體伺服器 (Digital Media Server) 檢索內容。若您希望播放 "
+"MediaMonkey 媒體櫃中的內容，您也必須啟用 '媒體分享'。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:54
 msgid ""
@@ -10560,7 +10553,7 @@ msgstr ""
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Move and rename files to new destination based on file tags"
-msgstr "依檔案標籤將檔案移動並重新命名到新目標位置"
+msgstr "依檔案標籤將檔案移動並重新命名到新目的地位置"
 
 #: dialogs\dlgCollectionOptions.html:13
 msgid "Collection name"
@@ -10676,7 +10669,7 @@ msgstr "管理外掛程式"
 
 #: dialogs\dlgOptions\pnl_General.html:19
 msgid "Show splash screen at startup"
-msgstr "啟動時顯示啟動畫面"
+msgstr "顯示啟動畫面"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:19
 msgid "Available elements"
@@ -11245,7 +11238,7 @@ msgstr "低"
 
 #: dialogs\dlgConvertFormat.html:11
 msgid "Convert file(s) to new destination"
-msgstr "轉換檔案到新的目標位置"
+msgstr "轉換檔案到新的目的地位置"
 
 #: dialogs\dlgMediaProperties.html:15
 msgid "Serial"
@@ -11913,7 +11906,7 @@ msgstr "依現有檔案名稱更新標籤"
 
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s), replacing the originals"
-msgstr "轉換檔案，並取代原始檔"
+msgstr "轉換檔案，並取代原始檔案"
 
 #: dialogs\dlgLogin.html:17
 msgid "Password"
