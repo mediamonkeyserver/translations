@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-17 16:56\n"
-"PO-Revision-Date: 2025-03-17 15:25+0000\n"
+"PO-Revision-Date: 2025-03-17 19:56+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Arabic <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ar/>\n"
@@ -12287,14 +12287,19 @@ msgid ""
 "where a music collection is arranged in such a manner that each collection "
 "of tracks has an associated playlist that defines the Album."
 msgstr ""
+"هذا الإعداد يحدد كيفية إضافة عناوين الألبومات وخصائص رقم المسار إلى المكتبة. "
+"الخيارات هي 'الوسوم فقط'، 'الوسوم ثم قوائم التشغيل'، و'قوائم التشغيل ثم "
+"الوسوم'. يجب دائمًا استخدام 'الوسوم فقط'، باستثناء الحالات التي يكون فيها "
+"مجموعة الموسيقى مرتبة بطريقة تحتوي كل مجموعة على قائمة تشغيل مرتبطة تعرف "
+"الألبوم."
 
 #: dialogs\dlgOptions\pnl_Library.html:175
 msgid "Generate thumbnails for videos"
-msgstr ""
+msgstr "إنشاء صور مصغرة للفيديوهات"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:38
 msgid "Determines which actions are available in the Explorer context-menu"
-msgstr ""
+msgstr "يحدد الإجراءات المتاحة في قائمة سياق المستكشف"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:12
 msgid "This option causes MediaMonkey to take up the entire screen."
@@ -12306,7 +12311,7 @@ msgstr "فقط عندما يكون ذلك غير نشط"
 
 #: dialogs\dlgOptions\pnl_Player.html:48
 msgid "Causes the Pop-up to fade-out smoothly"
-msgstr ""
+msgstr "يتسبب في تلاشي المنبثق بسلاسة"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:34
 msgid "Modify timestamp when updating tags"
@@ -12314,15 +12319,15 @@ msgstr "قم بتغيير تاريخ الملف أثناء تحديث العلا
 
 #: dialogs\dlgTrackProperties\tabDetails.html:214
 msgid "Last played"
-msgstr ""
+msgstr "آخر تشغيل"
 
 #: dialogs\dlgWizard\pnlRegistration.html:9
 msgid "organize files automatically"
-msgstr ""
+msgstr "تنظيم الملفات تلقائيًا"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:38
 msgid "Fix quotes and apostrophes"
-msgstr ""
+msgstr "إصلاح علامات الاقتباس والفواصل العلوية"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:29
 msgid ""
@@ -12334,7 +12339,7 @@ msgstr ""
 
 #: controls\nowPlaying\fullList.html:30
 msgid "Save lyrics to tag"
-msgstr ""
+msgstr "حفظ كلمات الأغاني في الوسوم"
 
 #: dialogs\dlgAddonInstall.html:51
 msgid "You should only install software from sources that you trust."
@@ -12342,33 +12347,31 @@ msgstr "يجب تثبيت برامج من مصادر موثوق بها فقط."
 
 #: dialogs\dlgAutoConvertRule.html:18
 msgid "When the format is"
-msgstr ""
+msgstr "عندما يكون التنسيق"
 
 #: dialogs\dlgChooseFields.html:10
 msgid "File type"
-msgstr ""
+msgstr "نوع الملف"
 
 #: dialogs\dlgRegisterGold.html:32
 msgid "If you don't have a license key, you can"
-msgstr ""
+msgstr "إذا لم يكن لديك مفتاح ترخيص، يمكنك"
 
 #: dialogs\dlgSleep.html:14
 msgid "Fade volume"
-msgstr ""
+msgstr "تلاشي الصوت"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:29
 msgid "Rename custom fields (requires restart)"
-msgstr ""
+msgstr "إعادة تسمية الحقول المخصصة (يحتاج إلى إعادة تشغيل)"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:2
 msgid "Set the default directory / filename format for specified files."
-msgstr ""
+msgstr "تعيين تنسيق الدليل / اسم الملف الافتراضي للملفات المحددة."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
-#, fuzzy
-#| msgid "Confirm desired options on move of Library folders"
 msgid "Confirm desired options on removal of files from the 'Playing' list"
-msgstr "تأكيد الخيارات عند نقل الدلائل مكتبة"
+msgstr "تأكيد الخيارات المرغوبة عند إزالة الملفات من قائمة \"قيد التشغيل\""
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -12376,6 +12379,9 @@ msgid ""
 "or [enter] is pressed. Options are Play Now, Queue Next, Queue Last, or Edit "
 "Properties."
 msgstr ""
+"هذا يحدد ما هو السلوك الافتراضي عند النقر المزدوج على ملف أو الضغط على "
+"[enter]. الخيارات هي تشغيل الآن، إدراج لاحقًا، إدراج في النهاية، أو تحرير "
+"الخصائص."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:21
 msgid ""
@@ -12383,19 +12389,22 @@ msgid ""
 "stopping or switching tracks; changing volume, balance or equalizer "
 "settings; and re-ordering / removing files, or adding multiple files at once."
 msgstr ""
+"هذا يجعل MediaMonkey يعمل مثل جهاز جوكبوكس، مما يمنع المستخدمين من إيقاف أو "
+"تبديل المسارات؛ تغيير مستوى الصوت، التوازن أو إعدادات المعادل؛ وإعادة ترتيب /"
+" إزالة الملفات، أو إضافة ملفات متعددة دفعة واحدة."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:13
 msgid "Show in full screen mode"
-msgstr ""
+msgstr "عرض في وضع الشاشة الكاملة"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:6
 msgid ""
 "Causes files of the selected type to not be played when Shuffle is enabled."
-msgstr ""
+msgstr "يتسبب في عدم تشغيل الملفات من النوع المحدد عند تمكين التبديل العشوائي."
 
 #: dialogs\dlgOptions\pnl_Player.html:48
 msgid "Slow fade-out:"
-msgstr ""
+msgstr "تلاشي بطيء:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:27
 msgid "Target volume for leveling tracks:"
@@ -12403,11 +12412,11 @@ msgstr "مستوى هدف تخزين المسارات:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:72
 msgid "Automatically analyze volume of unanalyzed files:"
-msgstr ""
+msgstr "تحليل مستوى الصوت تلقائيًا للملفات غير المحللة:"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:150
 msgid "Composer(s)"
-msgstr ""
+msgstr "المؤلفون"
 
 #: controls\searchEditor.html:35
 msgid "minutes"
@@ -12415,23 +12424,23 @@ msgstr "دقائق"
 
 #: controls\deviceConfig\summary.html:10
 msgid "Menu"
-msgstr ""
+msgstr "القائمة"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:23
 msgid "Image:"
-msgstr ""
+msgstr "صورة:"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:2
 msgid "Sync playlists automatically"
-msgstr ""
+msgstr "مزامنة قوائم التشغيل تلقائيًا"
 
 #: dialogs\dlgAddArtwork.html:20
 msgid "Image type"
-msgstr ""
+msgstr "نوع الصورة"
 
 #: dialogs\dlgBurn.html:26
 msgid "Cache files from network"
-msgstr ""
+msgstr "ملفات ذاكرة التخزين المؤقت من الشبكة"
 
 #: dialogs\dlgDelay.html:15
 msgid "seconds"
@@ -12439,7 +12448,7 @@ msgstr "ثانية"
 
 #: dialogs\dlgSelectFromList.html:13
 msgid "Add >"
-msgstr ""
+msgstr "إضافة >"
 
 #: dialogs\dlgSleep.html:22
 msgid "Fade to"
@@ -12447,7 +12456,7 @@ msgstr "أن ترفض "
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:15
 msgid "Confirm deletion of currently playing file"
-msgstr ""
+msgstr "تأكيد حذف الملف \"قيد التشغيل\" حاليًا"
 
 #: dialogs\dlgOptions\pnl_Library.html:59
 msgid "Seconds"
@@ -12458,49 +12467,46 @@ msgid ""
 "Automatically removes attributes (e.g. Artist) that are no longer associated "
 "with any files from the Library."
 msgstr ""
+"إزالة تلقائية للسمات (مثل الفنان) التي لم تعد مرتبطة بأي ملفات من المكتبة."
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:17
 msgid "Maximum cache size"
-msgstr ""
+msgstr "أقصى حجم للذاكرة المؤقتة"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:3
 msgid "Secure Party Mode with password:"
-msgstr ""
+msgstr "وضع الحزب الآمن بكلمة مرور:"
 
 #: dialogs\dlgOptions\pnl_Player.html:100
 msgid "Use default external videoplayer"
-msgstr ""
+msgstr "استخدام مشغل الفيديو الخارجي الافتراضي"
 
 #: dialogs\dlgOptions\pnl_Search.html:3
 msgid "Search mode:"
-msgstr ""
+msgstr "وضع البحث:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:13
 msgid "ID3v2.4 tags"
-msgstr ""
+msgstr "علامات ID3v2.4"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:185
 msgid "Screenwriter(s)"
-msgstr ""
+msgstr "كاتب السيناريو"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:36
 msgid "Lowercase common short words"
-msgstr ""
+msgstr "تحويل الحروف إلى صغيرة لكلمات مختصرة شائعة"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:23
 msgid "Recommended changes to capitalization"
-msgstr ""
+msgstr "التغييرات الموصى بها لتحسين الحالة"
 
-#, fuzzy
-#| msgid "WAV settings"
 msgid "AIFF settings"
-msgstr "معلمات WAV"
+msgstr "إعدادات AIFF"
 
 # FLAC enc/dec
-#, fuzzy
-#| msgid "FLAC settings"
 msgid "ALAC settings"
-msgstr "معلمات FLAC"
+msgstr "إعدادات ALAC"
 
 # FLAC enc/dec
 msgid "FLAC settings"
@@ -12520,12 +12526,10 @@ msgstr "أبطأ"
 
 # FLAC encoder level description
 msgid "Bigger number - more compression, slower"
-msgstr ""
+msgstr "رقم أكبر - المزيد من الضغط، أبطأ"
 
-#, fuzzy
-#| msgid "WAV settings"
 msgid "WMA settings"
-msgstr "معلمات WAV"
+msgstr "إعدادات WMA"
 
 msgid "Desktop"
 msgstr "مكتب"
@@ -12542,10 +12546,10 @@ msgid "QuickTime"
 msgstr "كويك تايم"
 
 msgid "Quicktime is needed to play M4A and other AAC tracks."
-msgstr ""
+msgstr "يلزم برنامج Quicktime لتشغيل مسارات M4A وأخرى بتنسيق AAC."
 
 msgid "New version of Quicktime is needed to play M4A and other AAC tracks."
-msgstr ""
+msgstr "يحتاج إلى إصدار جديد من Quicktime لتشغيل مسارات M4A وأخرى بتنسيق AAC."
 
 msgid "Do you want to download it?"
 msgstr "هل تريد تحميل؟"
@@ -12554,10 +12558,8 @@ msgid "Mid/Side stereo"
 msgstr "ستيريو منتصف جانبية"
 
 # FLAC enc/dec
-#, fuzzy
-#| msgid "FLAC settings"
 msgid "AAC settings"
-msgstr "معلمات FLAC"
+msgstr "إعدادات AAC"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
@@ -12594,58 +12596,50 @@ msgstr "تنظيف ذاكرة التخزين المؤقت"
 
 # f_video plugin
 msgid "Output audio device"
-msgstr ""
+msgstr "جهاز إخراج الصوت"
 
 msgid "MediaMonkey Video plug-in"
-msgstr ""
+msgstr "ملحق فيديو MediaMonkey"
 
 # MP3 setup, Advanced setup, Sample Rate box
 msgid "Auto"
-msgstr ""
+msgstr "تلقائي"
 
 # Convert dialog, Format settings box for FLAC
 msgid "Compression level"
-msgstr ""
+msgstr "مستوى الضغط"
 
 # Installer
 msgid "Warning: This will overwrite an existing %s installation!"
-msgstr ""
+msgstr "تحذير: ستحل هذه محل تثبيت %s الموجود!"
 
 msgid ""
 "The directory %s already exists. Would you like to install to that directory "
 "anyway?"
-msgstr ""
+msgstr "الدليل %s موجود بالفعل. هل ترغب في التثبيت في هذا الدليل على أية حال؟"
 
 msgid "Installation type:"
-msgstr ""
+msgstr "نوع التثبيت:"
 
-#, fuzzy
-#| msgid "Download"
 msgid "Download language"
-msgstr "تحميل"
+msgstr "تحميل اللغة"
 
 # From installer
 msgid "Downloading language files for:"
-msgstr ""
+msgstr "تحميل ملفات اللغة لـ:"
 
 # From installer
 msgid "Failed to download language files for:"
-msgstr ""
+msgstr "فشل تحميل ملفات اللغة لـ:"
 
-#, fuzzy
-#| msgid "Error ripping track"
 msgid "Error parsing parameter"
-msgstr "خطأ في استخراج المدرج"
+msgstr "خطأ في تحليل المعلمة"
 
-#, fuzzy
-#| msgid "Install Now"
 msgid "Install error"
-msgstr "تثبيت الآن"
+msgstr "خطأ في التثبيت"
 
-#, fuzzy
-#| msgid "Product installation"
 msgid "Portable Installation"
-msgstr "تثبيت المنتج"
+msgstr "تثبيت محمول"
 
 # From installer
 msgid ""
@@ -12655,98 +12649,99 @@ msgid ""
 "none of your data is left behind. The downside is that it isn't optimized "
 "for your particular PC (e.g. no Start menu entry)."
 msgstr ""
+"يتيح لك هذا تشغيل MediaMonkey على جهاز محمول يمكنك استخدامه على أي كمبيوتر "
+"شخصي.%nعند توصيل محرك فلاش USB أو محرك قرص صلب محمول، يمكنك الوصول إلى "
+"MediaMonkey كما تفعل على جهاز الكمبيوتر الشخصي الخاص بك،%nوعند فصله، لا يبقى "
+"أي من بياناتك متبقيًا. الجانب السلبي هو أنه ليس محسنًا لجهاز الكمبيوتر "
+"الشخصي الخاص بك (مثل عدم وجود إدخال في قائمة البدء)."
 
-#, fuzzy
-#| msgid "Configure"
 msgid "portable"
-msgstr "تكوين"
+msgstr "محمول"
 
 # From installer
 msgid "non-portable"
-msgstr ""
+msgstr "غير محمول"
 
 #: FullPlayer.pas:4079
 msgid "Playback failed: %s cannot be decoded."
-msgstr ""
+msgstr "فشل التشغيل: لا يمكن فك تشفير %s."
 
 #: dialogs\dlgCollectionOptions.html:50
 msgid "Sub-nodes and Views"
-msgstr ""
+msgstr "العقد الفرعية والعروض"
 
 #: dialogs/dlgOptions.js:63
-#, fuzzy
-#| msgid "Audio CD"
 msgid "Audio DSP"
-msgstr "قرص مضغوط صوتي"
+msgstr "DSP الصوت"
 
 #: ErrHandlers.pas:413
 msgid "There was a problem analyzing volume for the following track(s):"
-msgstr ""
+msgstr "كانت هناك مشكلة في تحليل مستوى الصوت للمسار(ات) التالية:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:50
 msgid ""
 "Displays a warning if a file in the Playing queue is inaccessible (e.g. if "
 "it's on a CD that isn't inserted)."
 msgstr ""
+"يعرض تحذيرًا إذا كان الملف في قائمة انتظار التشغيل غير قابل للوصول (مثلًا "
+"إذا كان على قرص مضغوط غير مُدخل)."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:50
 msgid "Show warning when file to be played is not accessible"
-msgstr ""
+msgstr "عرض تحذير عندما يكون الملف المراد تشغيله غير قابل للولوج"
 
 #: viewHandlers.js:4581 viewHandlers.js:4826
 msgid "library Location node"
-msgstr ""
+msgstr "عقدة موقع المكتبة"
 
 #: viewHandlers.js:4582 viewHandlers.js:4826
 msgid ""
 "The Folders node only displays/edits metadata in file tags. To view/edit "
 "metadata that is in the database, use the %s"
 msgstr ""
+"تعرض/تحرر عقدة المجلدات فقط بيانات التعريف في وسوم الملفات. لعرض/تحرير "
+"بيانات التعريف الموجودة في قاعدة البيانات، استخدم %s"
 
 #. prepared menu item for reports implemented by scripts
 #: actions.js:5474
 msgid "Create reports"
-msgstr ""
+msgstr "إنشاء تقارير"
 
 #: Scripts/export/actions_add.js:31
 msgid "File List (&HTML)"
-msgstr ""
+msgstr "قائمة الملفات (&HTML)"
 
 #: Scripts/export/actions_add.js:41
 msgid "HTML (*.htm)|*.htm|All files (*.*)|*.*"
-msgstr ""
+msgstr "HTML (*.htm)|*.htm|كل الملفات (*.*)|*.*"
 
 #: Scripts/export/actions_add.js:173
 msgid "File List (&XML)"
-msgstr ""
+msgstr "قائمة الملفات (&XML)"
 
 #: Scripts/export/actions_add.js:183
 msgid "XML (*.xml)|*.xml|All files (*.*)|*.*"
-msgstr ""
+msgstr "XML (*.xml)|*.xml|كل الملفات (*.*)|*.*"
 
 #: Scripts/export/actions_add.js:331
 msgid "File List (CS&V)"
-msgstr ""
+msgstr "قائمة الملفات (CS&V)"
 
 #: Scripts/export/actions_add.js:341
 msgid "CSV (*.csv)|*.csv|All files (*.*)|*.*"
-msgstr ""
+msgstr "CSV (*.csv)|*.csv|كل الملفات (*.*)|*.*"
 
 #: MaskHelper.pas:3123
-#, fuzzy
-#| msgid "Track #"
 msgid "Track title"
-msgstr "رقم المسار"
+msgstr "عنوان المسار"
 
 #: MaskHelper.pas:3127
-#, fuzzy
-#| msgid "# Tracks by Artist"
 msgid "Track artist"
-msgstr "عدد المسارات الفنان"
+msgstr "فنان المسار"
 
 #: MaskHelper.pas:3128
 msgid "Video actors"
-msgstr ""
+msgstr "ممثلين الفيديو"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:3
 msgid ""
@@ -12763,68 +12758,69 @@ msgid ""
 "here, you can edit them and merge to one album by setting the same album, "
 "album artist and year."
 msgstr ""
+"إذا كان لديك مسارات متعددة لفنانين مختلفين، تنتمي في الواقع إلى ألبوم واحد، "
+"يمكن أن تساعدك MediaMonkey في تنظيمها. يتم عرضها هنا، يمكنك تعديلها ودمجها "
+"في ألبوم واحد بتعيين نفس الألبوم، فنان الألبوم والسنة."
 
 #: dialogs\dlgOptions\pnl_Search.html:21
 msgid "Causes search for 'an' to not return files containing 'another'"
-msgstr ""
+msgstr "يمنع البحث عن 'an' من إرجاع الملفات التي تحتوي على 'another'"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:42
 msgid "Customize case for these words"
-msgstr ""
+msgstr "تخصيص الحروف لهذه الكلمات"
 
 # string till 5.0.2 version only
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:253
 msgid "Old Value: "
-msgstr ""
+msgstr "القيمة القديمة: "
 
 # string till 5.0.2 version only
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disable crossfading"
-msgstr ""
+msgstr "تعطيل التلاشي المتقاطع"
 
 # string till 5.0.2 version only
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:93
 msgid "Fade in new track"
-msgstr ""
+msgstr "تلاشي المسار الجديد"
 
 # string till 5.0.2 version only
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disables crossfading for files of the selected type."
-msgstr ""
+msgstr "تعطيل التلاشي المتقاطع للملفات من النوع المحدد."
 
 #: controls\deviceConfig\summary.html:10
-#, fuzzy
-#| msgid "Safely &remove device"
 msgid "Safely remove device"
-msgstr "قم بإزالة الجهاز بأمان"
+msgstr "إزالة الجهاز بأمان"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:20
 msgid "Set sources"
-msgstr ""
+msgstr "تعيين المصادر"
 
 #: actions.js:3159
 msgid "Play mixed"
-msgstr ""
+msgstr "تشغيل مختلط"
 
 #: actions.js:3174 actions.js:3189 actions.js:3192 actions.js:3207
 #: actions.js:3210 MediaMonkeyApp.pas:9057
 #: dialogs\dlgOptions\pnl_OSIntegration.html:9
 msgid "Play next"
-msgstr ""
+msgstr "تشغيل لاحقًا"
 
 #: actions.js:3225 actions.js:3240 actions.js:3243 actions.js:3259
 #: actions.js:3262 MediaMonkeyApp.pas:9058
 #: dialogs\dlgOptions\pnl_OSIntegration.html:10
 msgid "Play last"
-msgstr ""
+msgstr "تشغيل في النهاية"
 
 #: actions.js:3665
 msgid "Auto-&tag from filename"
-msgstr ""
+msgstr "تطبيق الوسوم تلقائيًا-&من الاسم الملف"
 
 #: dialogs/dlgAutotagFromFilename.js:83
 msgid "Auto-tag from filename"
-msgstr ""
+msgstr "تطبيق الوسوم تلقائيًا من الاسم الملف"
 
 #: FileAssoc.pas:735
 msgid "Play &next in MediaMonkey"
@@ -12836,19 +12832,20 @@ msgstr "تشغيل آخر في MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
 msgid "Play last in MediaMonkey"
-msgstr ""
+msgstr "تشغيل في النهاية في MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
 msgid "Play next in MediaMonkey"
-msgstr ""
+msgstr "تشغيل لاحقًا في MediaMonkey"
 
 #: ResStrings.pas:879
 msgid "Could not write the image layout to the disk."
-msgstr ""
+msgstr "تعذر كتابة تخطيط الصورة على القرص."
 
 #: dialogs\dlgAutotagFromFilename.html:9
 msgid "Auto-tag allows you to update tags based on existing filenames"
 msgstr ""
+"يتيح لك تطبيق الوسوم تلقائيًا تحديث الوسوم بناءً على الأسماء الملفات الموجودة"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -12856,34 +12853,37 @@ msgid ""
 "or [enter] is pressed. Options are Play Now, Play Next, Play Last, or Edit "
 "Properties."
 msgstr ""
+"هذا يحدد ما هو السلوك الافتراضي عند النقر المزدوج على ملف أو الضغط على "
+"[enter]. الخيارات هي تشغيل الآن، تشغيل لاحقًا، تشغيل في النهاية، أو تحرير "
+"الخصائص."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
 msgid "Display format for 'Track summary'  (e.g. in Player):"
-msgstr ""
+msgstr "تنسيق العرض لـ 'ملخص المسار' (مثلًا في المشغل):"
 
 #: uitools.js:2495
 msgid "MediaMonkey will reload (which may terminate existing processes)."
-msgstr ""
+msgstr "سيتم إعادة تحميل MediaMonkey (مما قد يؤدي إلى إنهاء العمليات الجارية)."
 
 #: dialogs/dlgScanResults.js:23
 msgid "Imported %d new files"
-msgstr ""
+msgstr "تم استيراد %d ملفات جديدة"
 
 #: dialogs/dlgScanResults.js:25
 msgid "Did not import %d files (did not match import criteria)"
-msgstr ""
+msgstr "لم يتم استيراد %d ملفات (لم تتطابق مع معايير الاستيراد)"
 
 #: dialogs/dlgScanResults.js:26
 msgid "Failed to import %d files"
-msgstr ""
+msgstr "فشل استيراد %d ملفات"
 
 #: ErrHandlers.pas:388
 msgid "There was a problem ripping or verifying the following track(s):"
-msgstr ""
+msgstr "كانت هناك مشكلة في نسخ أو التحقق من المسار(ات) التالية:"
 
 #: MediaMonkeyApp.pas:6334
 msgid "Imported"
-msgstr ""
+msgstr "تم الاستيراد"
 
 #: MP3Utils.pas:1719 MP3Utils.pas:2002
 msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
@@ -12895,10 +12895,13 @@ msgid ""
 "a single file. By default the selected file and others subsequent to it "
 "play. The alternative is that only the selected file plays."
 msgstr ""
+"هذا يحدد ما هي الملفات التي يتم تشغيلها عند تشغيل أمر 'تشغيل الآن' لملف "
+"واحد. بشكل افتراضي، يتم تشغيل الملف المحدد والملفات التالية له. البديل هو أن "
+"الملف المحدد فقط هو الذي يتم تشغيله."
 
 #: dialogs\dlgOptions\pnl_Performance.html:18
 msgid "Ripping"
-msgstr ""
+msgstr "نسخ"
 
 #: actions.js:55 controls/nowplayingList.js:308 controls/nowplayingList.js:311
 #: controls/player.js:695 controls/statusbar.js:148 controls/statusbar.js:151
@@ -12906,50 +12909,58 @@ msgstr ""
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:103
 #: ResStrings.pas:428 dialogs\dlgOptions\pnl_AutoDJ.html:31
 msgid "Playing list"
-msgstr ""
+msgstr "قائمة \"قيد التشغيل\""
 
 #: actions.js:3342
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
 msgstr ""
+"التبديل العشوائي معطل. غير قادر على إزالة التبديل العشوائي بسبب التعديلات - "
+"استخدم 'تراجع' لإعادة التغييرات إلى قائمة \"قيد التشغيل\"."
 
 #: controls/player.js:303
 msgid ""
 "Shuffles the Playing list and makes default play commands shuffle tracks."
 msgstr ""
+"يبدل قائمة \"قيد التشغيل\" ويجعل أوامر التشغيل الافتراضية تبدل المسارات بشكل "
+"عشوائي."
 
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from Playing list only"
-msgstr ""
+msgstr "إزالة من قائمة \"قيد التشغيل\" فقط"
 
 #: dialogs/dlgDeleteConfirm.js:135
 msgid "Remove from Playing list and"
-msgstr ""
+msgstr "إزالة من قائمة \"قيد التشغيل\" و"
 
 #: dialogs/dlgDeleteConfirm.js:160
 msgid "Delete from Playing list and the database only"
-msgstr ""
+msgstr "حذف من قائمة \"قيد التشغيل\" ومن قاعدة البيانات فقط"
 
 #: dialogs/dlgDeleteConfirm.js:161
 msgid "Delete from Playing list, the database and drive"
-msgstr ""
+msgstr "حذف من قائمة \"قيد التشغيل\"، قاعدة البيانات والقرص الصلب"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the Playing list when it runs out."
 msgstr ""
+"يقوم بتفعيل ميزة Auto-DJ التي تسبب في إضافة المسارات تلقائيًا إلى قائمة \"قيد"
+" التشغيل\" عند نفادها."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:6
 msgid ""
 "This determines how many tracks Auto-DJ will add to the Playing list when "
 "the list begins to empty."
 msgstr ""
+"يحدد هذا عدد المسارات التي سيضيفها Auto-DJ إلى قائمة \"قيد التشغيل\" عند "
+"البدء في النفاد."
 
 #: controls\deviceConfig\options\pnl_Tagging.html:5
 msgid "Copies tagged artwork to folders for devices that don't read image tags"
-msgstr ""
+msgstr "يُنسخ العمل الفني الموسوم إلى مجلدات للأجهزة التي لا تقرأ وسوم الصور"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
 msgid ""
@@ -12957,20 +12968,25 @@ msgid ""
 "Playing list, remove them from the Playing list and the Library, or delete "
 "them from the Playing list, the Library, and the computer system."
 msgstr ""
+"إذا تم تمكينه، سيطلب منك MediaMonkey إزالة المسارات من قائمة \"قيد التشغيل\"،"
+" إزالتها من قائمة \"قيد التشغيل\" ومن المكتبة، أو حذفها من قائمة \"قيد "
+"التشغيل\"، من المكتبة، ومن النظام الحاسوبي."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the Playing list"
-msgstr ""
+msgstr "تأكيد الخيارات المرغوبة عند إزالة الملفات من قائمة \"قيد التشغيل\""
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
 msgid "Sync all Artwork to file folders"
-msgstr ""
+msgstr "مزامنة جميع الأعمال الفنية إلى مجلدات الملفات"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:30
 msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "Playing list."
 msgstr ""
+"يحدد هذا عدد المسارات التي تم تشغيلها سابقًا والتي ستُعرض في قائمة \"قيد "
+"التشغيل\"."
 
 #: dialogs\dlgOptions\pnl_General.html:28
 msgid ""
@@ -12979,18 +12995,22 @@ msgid ""
 "'Minimize to MiniPlayer', displays 'Playing list' files even when the main "
 "application is minimized."
 msgstr ""
+"بشكل افتراضي، يتم تصغير MediaMonkey إلى شريط المهام. يسبب 'التصغير إلى "
+"MicroPlayer' ظهوره كأداة بجانب علبة النظام عند التصغير. 'التصغير إلى "
+"MiniPlayer'، يعرض ملفات قائمة \"قيد التشغيل\" حتى عندما تكون التطبيق الرئيسي "
+"مصغرًا."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in Playing list"
-msgstr ""
+msgstr "الملفات السابقة في قائمة \"قيد التشغيل\""
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in Playing list"
-msgstr ""
+msgstr "الملفات القادمة في قائمة \"قيد التشغيل\""
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Modify metadata as follows when syncing to '%s'"
-msgstr ""
+msgstr "تعديل بيانات التعريف كما يلي عند المزامنة إلى '%s'"
 
 #: controls/trackListView.js:1220 MaskHelper.pas:3156 ResStrings.pas:480
 #: ResStrings.pas:491 ResStrings.pas:534
@@ -12999,15 +13019,15 @@ msgstr "العنوان الأصلي"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:64
 msgid "Original title"
-msgstr ""
+msgstr "العنوان الأصلي"
 
 #: UpNp.pas:2499
 msgid "Casting"
-msgstr ""
+msgstr "الإخراج"
 
 #: actions.js:2170
 msgid "This will restore the database from a backup."
-msgstr ""
+msgstr "سيقوم باستعادة قاعدة البيانات من النسخة الاحتياطية."
 
 #: FileAssoc.pas:734
 msgid "&Play in MediaMonkey"
@@ -13015,39 +13035,31 @@ msgstr "تشغيل في MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:44
 msgid "Play in MediaMonkey"
-msgstr ""
+msgstr "تشغيل في MediaMonkey"
 
 #: FileAssoc.pas:735
-#, fuzzy
-#| msgid "Play &next in MediaMonkey"
 msgid "Queue &next in MediaMonkey"
-msgstr "تشغيل بعد في MediaMonkey"
+msgstr "إدراج &اللاحق في MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
-#, fuzzy
-#| msgid "Play &next in MediaMonkey"
 msgid "Queue next in MediaMonkey"
-msgstr "تشغيل بعد في MediaMonkey"
+msgstr "إدراج لاحقًا في MediaMonkey"
 
 #: FileAssoc.pas:736
-#, fuzzy
-#| msgid "Play &last in MediaMonkey"
 msgid "Queue &last in MediaMonkey"
-msgstr "تشغيل آخر في MediaMonkey"
+msgstr "إدراج &الأخير في MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
-#, fuzzy
-#| msgid "Play &last in MediaMonkey"
 msgid "Queue last in MediaMonkey"
-msgstr "تشغيل آخر في MediaMonkey"
+msgstr "إدراج في النهاية في MediaMonkey"
 
 #: dialogs\dlgOptions\pnl_Performance.html:37
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "تفعيل التمرير السلس"
 
 #: dialogs\dlgOptions\pnl_Performance.html:36
 msgid "This enables smooth scrolling of lists."
-msgstr ""
+msgstr "يتيح هذا التمرير السلس للقوائم."
 
 #, fuzzy
 #~| msgid "Fade to"
