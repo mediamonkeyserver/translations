@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-17 16:56\n"
-"PO-Revision-Date: 2024-03-30 19:55+0000\n"
-"Last-Translator: Chao Xia <gxiachao@gmail.com>\n"
+"PO-Revision-Date: 2025-03-18 09:16+0000\n"
+"Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Chinese (Simplified) <http://translations.mediamonkey.com/"
 "projects/mediamonkey-5-x/application/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.6.1\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -222,7 +222,7 @@ msgstr "显示所有专辑曲目"
 
 #: actions.js:659
 msgid "Collapse albums"
-msgstr ""
+msgstr "折叠专辑"
 
 #: actions.js:687
 msgid "Maximize"
@@ -243,11 +243,11 @@ msgstr "缩小至微型播放器"
 #. #16384
 #: actions.js:773 actions.js:824 controls/menuToggleButton.js:65
 msgid "Toggle"
-msgstr ""
+msgstr "切换"
 
 #: actions.js:773 HTMLWindow.pas:13344
 msgid "MicroPlayer"
-msgstr ""
+msgstr "微型播放器"
 
 #: actions.js:773 actions.js:824 controls/nowplayingview.js:150
 msgid "Full window"
@@ -259,11 +259,11 @@ msgstr "缩小至迷你播放器"
 
 #: actions.js:824
 msgid "MiniPlayer"
-msgstr ""
+msgstr "迷你播放器"
 
 #: actions.js:841
 msgid "Menu bar"
-msgstr ""
+msgstr "菜单栏"
 
 #: actions.js:856 dialogs/dlgOptions.js:86
 msgid "Toolbar"
@@ -276,7 +276,7 @@ msgstr "全屏幕"
 
 #: actions.js:897 controls/player.js:679
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "退出全屏"
 
 #: actions.js:916
 msgid "Pause all"
@@ -297,7 +297,7 @@ msgstr "全部取消"
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:44
 #: dialogs\dlgTrackProperties\tabArtwork.html:8
 msgid "Lookup image"
-msgstr ""
+msgstr "查找图像"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. @ts-ignore
@@ -313,7 +313,7 @@ msgstr "移除"
 #. @ts-ignore
 #: actions.js:995
 msgid "Save image as"
-msgstr ""
+msgstr "图像另存为"
 
 #: actions.js:1014 controls/artWindow.js:839
 msgid "Show image"
@@ -326,13 +326,13 @@ msgstr "显示图片"
 #: controls/artistViewHeader.js:260 controls/genreViewHeader.js:73
 #: controls/seriesViewHeader.js:228
 msgid "Pin it"
-msgstr ""
+msgstr "固定"
 
 #: actions.js:1053 controls/albumViewHeader.js:331
 #: controls/artistViewHeader.js:275 controls/genreViewHeader.js:88
 #: controls/seriesViewHeader.js:243
 msgid "Unpin it"
-msgstr ""
+msgstr "取消固定"
 
 #. ask where to save
 #: actions.js:1074 PlaylistManage.pas:4184
@@ -361,25 +361,23 @@ msgstr "Auto-DJ"
 
 #: actions.js:1137 FullPlayer.pas:5109
 msgid "Remove duplicates"
-msgstr ""
+msgstr "移除重复项"
 
 #. duplicate
 #. to reset the sort to the default per #18252
 #: actions.js:1166 uitools.js:710
 msgid "Save new order"
-msgstr ""
+msgstr "保存新顺序"
 
 #: actions.js:1199 dialogs/dlgAutoorganize.js:19
-#, fuzzy
-#| msgid "Unorganized Files"
 msgid "Organi&ze files"
-msgstr "未整理的文件"
+msgstr "组织文件"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:1223 dialogs\dlgOptions\pnl_MetadataLookup.html:11
 msgid "Update tags"
-msgstr ""
+msgstr "更新标签"
 
 #: actions.js:1237
 msgid "Clean ID3v&1 tags"
@@ -409,7 +407,7 @@ msgstr "输入URL或是位在因特网上的多媒体文件路径, 您的电脑,
 
 #: actions.js:1331
 msgid "&Download file"
-msgstr ""
+msgstr "下载文件"
 
 #: actions.js:1338
 msgid "Enter URL"
@@ -417,25 +415,25 @@ msgstr "输入URL"
 
 #: actions.js:1339
 msgid "Enter a link to a file you want to download:"
-msgstr ""
+msgstr "输入要下载的文件链接："
 
 #. inits download of this track (adds to download queue)
 #: actions.js:1358 actions.js:1365
 msgid "Add directory"
-msgstr ""
+msgstr "添加目录"
 
 #: actions.js:1366
 msgid "Enter a link to a podcast OPML directory, to include in the list:"
-msgstr ""
+msgstr "输入要包含在列表中的播客 OPML 目录链接："
 
 #: actions.js:1428
 msgid "&Add/Rescan files to the Library"
-msgstr ""
+msgstr "添加/重新扫描文件到媒体库"
 
 #. try to find initPath from selected tracks, #19080
 #: actions.js:1475
 msgid "Open in Explorer"
-msgstr ""
+msgstr "在资源管理器中打开"
 
 #: actions.js:1488 actions.js:1498 actions.js:7060 actions.js:7067
 #: dialogs\dlgSelectFolder.html:27
@@ -444,7 +442,7 @@ msgstr "新增文件夹"
 
 #: actions.js:1499 actions.js:7068
 msgid "New folder name"
-msgstr ""
+msgstr "新文件夹名称"
 
 #: actions.js:1516 controls/mediaTree.js:238
 msgid "Collapse the tree"
@@ -452,7 +450,7 @@ msgstr "收合树状结构"
 
 #: actions.js:1530 actions.js:1550 actions.js:1570 actions.js:1580
 msgid "Go to the %s node"
-msgstr ""
+msgstr "转到 %s 节点"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to search the default focus control within other subViews
@@ -503,7 +501,7 @@ msgstr "播放列表"
 #: actions.js:1580 viewHandlers.js:7809
 #: controls\audiobookCollectionView.html:18
 msgid "Pinned"
-msgstr ""
+msgstr "已固定"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. '    <div data-bind="text: trackFormat.length" class="paddingColumnSmall flex right semitransparent"></div>' +
@@ -609,8 +607,6 @@ msgstr "制片"
 #. online mode only for online source track
 #: actions.js:1716 uitools.js:1514 MaskHelper.pas:3166 MaskHelper.pas:3624
 #: MaskHelper.pas:3885
-#, fuzzy
-#| msgid "Actor(s)"
 msgid "Actor"
 msgstr "演员"
 
@@ -688,23 +684,23 @@ msgstr "全部"
 
 #: actions.js:1842 uitools.js:1624
 msgid "Explorer"
-msgstr ""
+msgstr "资源管理器"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #17811
 #: actions.js:1860 uitools.js:2857 dialogs/dlgMovedFiles.js:15
 #: dialogs\dlgDeletedTracks.html:15
 msgid "Locate moved/missing files"
-msgstr ""
+msgstr "定位已移动/丢失的文件"
 
 #: actions.js:1879
 msgid "Add to Library"
-msgstr ""
+msgstr "添加到媒体库"
 
 #. device/cloud track in library (issue #14272)
 #: actions.js:1946
 msgid "Adding from %s:"
-msgstr ""
+msgstr "从 %s 添加中："
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. track to be added to library (e.g. online youtube track)
@@ -718,23 +714,23 @@ msgstr "下载"
 #. show log when the scan was manually initiated (#15360)
 #: actions.js:2022 helpers/mediaSync.js:4195
 msgid "Initializing download from %s"
-msgstr ""
+msgstr "从 %s 初始化下载"
 
 #. ordinary url track/episode to download
 #: actions.js:2039 DatabaseManage.pas:1078
 msgid "Rebuild full-text search index"
-msgstr ""
+msgstr "重建全文搜索索引"
 
 #: actions.js:2042
 msgid ""
 "Rebuilds full-text search index. This might be useful if searching via "
 "search bar doesn't work right."
-msgstr ""
+msgstr "重建全文搜索索引。如果通过搜索栏搜索不正确，可能会有用。"
 
 #. default
 #: actions.js:2056
 msgid "Optimize database"
-msgstr ""
+msgstr "优化数据库"
 
 #: actions.js:2059
 msgid "Optimizes the database to improve performance"
@@ -747,36 +743,34 @@ msgstr "优化数据库来提升效能"
 #: DatabaseManage.pas:1795 DatabaseManage.pas:1812 DatabaseManage.pas:1829
 #: DatabaseManage.pas:1856 DatabaseManage.pas:1862
 msgid "Rebuild database"
-msgstr ""
+msgstr "重建数据库"
 
 #: actions.js:2072
 msgid ""
 "Rebuilds the database. This might be useful if database is corrupted or "
 "contains inconsistent data."
-msgstr ""
+msgstr "重建数据库。如果数据库损坏或包含不一致的数据，可能会有用。"
 
 #. default
 #: actions.js:2082
 msgid "Clean URL cache"
-msgstr ""
+msgstr "清理 URL 缓存"
 
 #. default
 #: actions.js:2095 dialogs/dlgMaintainLibrary.js:8
 msgid "Manage database"
-msgstr ""
+msgstr "管理数据库"
 
 #
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to refresh the view after DB maintenance (mainly for 'Rebuild Database' option)
 #: actions.js:2132 actions.js:2143 dialogs\dlgMaintainLibrary.html:28
-#, fuzzy
-#| msgid "Background"
 msgid "Backup"
-msgstr "背景"
+msgstr "备份"
 
 #: actions.js:2137
 msgid "This will create a backup of the current database"
-msgstr ""
+msgstr "这将创建当前数据库的备份"
 
 #: actions.js:2137 actions.js:2199 actions.js:2581 uitools.js:2549
 #: dialogs/dlgOptions/pnl_MediaTree.js:206
@@ -784,56 +778,57 @@ msgstr ""
 #: Scripts/autoIncTrack/actions_add.js:23
 #: Scripts/syncToFolder/viewHandlers_add.js:7 UpNp.pas:1956
 msgid "Do you want to proceed?"
-msgstr ""
+msgstr "你想继续吗？"
 
 #: actions.js:2146
 msgid "Backup is complete."
-msgstr ""
+msgstr "备份完成。"
 
 #: actions.js:2151
 msgid "Backup FAILED!"
-msgstr ""
+msgstr "备份失败！"
 
 #: actions.js:2166 dialogs\dlgMaintainLibrary.html:34
 msgid "Restore from backup"
-msgstr ""
+msgstr "从备份中恢复"
 
 #: actions.js:2173
 msgid ""
 "Are you sure you want to restore database from %s?<br>This will delete "
 "current database and MediaMonkey will be automatically restarted when "
 "finished!"
-msgstr ""
+msgstr "您确定要从 %s 恢复数据库吗？<br>这将删除当前数据库，恢复完成后 MediaMonkey "
+"将自动重启！"
 
 #: actions.js:2179
 msgid "Restore FAILED!"
-msgstr ""
+msgstr "恢复失败！"
 
 #: actions.js:2195 dialogs\dlgMaintainLibrary.html:35
 msgid "Clear database"
-msgstr ""
+msgstr "清空数据库"
 
 #: actions.js:2199
 msgid ""
 "This will delete all Library data, Playlists, and Collections but will not "
 "delete any of your files or configuration data."
-msgstr ""
+msgstr "这将删除所有媒体库数据、播放列表和收藏，但不会删除您的任何文件或配置数据。"
 
 #: actions.js:2205
 msgid "Clear FAILED! Old database restored."
-msgstr ""
+msgstr "清空失败！旧数据库已恢复。"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode', // per #16067
 #: actions.js:2219 controls/searchBar.js:541
 #: dialogs\dlgOptions\pnl_Search.html:22
 msgid "Global search"
-msgstr ""
+msgstr "全局搜索"
 
 #. OR we could show the search dialog:
 #: actions.js:2246
 msgid "Delete (permanent)"
-msgstr ""
+msgstr "删除（永久）"
 
 #. @ts-ignore
 #: actions.js:2282
@@ -851,12 +846,12 @@ msgstr "贴上"
 #. #16261 - to be the first in the list after creation
 #: actions.js:2356 actions.js:2368
 msgid "New AutoPlay&list"
-msgstr ""
+msgstr "新的自动播放列表"
 
 #. #16261 - to be the first in the list after creation
 #: actions.js:2378 actions.js:2390
 msgid "New pla&ylist"
-msgstr ""
+msgstr "新的播放列表"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. navigationHandlers['playlist'].navigate(newplaylist); // navigation is intentionally disabled, so that user can D&D tracks from the current view to the new playlist (#12355)
@@ -868,7 +863,7 @@ msgstr ""
 #: controls/nowplayingview.js:381 helpers/dockableDialog.js:29
 #: controls\devicesView.html:40
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: actions.js:2410
 msgid "E&xit"
@@ -883,17 +878,17 @@ msgstr "属性(&P)"
 #. open edit properties dialog
 #: actions.js:2447
 msgid "Subscribe to new podcast"
-msgstr ""
+msgstr "订阅新播客"
 
 #: actions.js:2458 actions.js:2464 dialogs/dlgChooseFolders.js:21
 #: dialogs/dlgNetworkFolder.js:10
 msgid "Add folders"
-msgstr ""
+msgstr "添加文件夹"
 
 #: actions.js:2465
 msgid ""
 "If a network location isn't found automatically, you can add one manually."
-msgstr ""
+msgstr "如果网络位置没有自动找到，您可以手动添加。"
 
 #: actions.js:2465 controls/trackListView.js:852 dialogs/dlgAutotag.js:2635
 #: dialogs/dlgDeletedTracks.js:103 dialogs/dlgMovedFiles.js:187
@@ -904,7 +899,7 @@ msgstr "路径"
 
 #: actions.js:2481 dialogs\dlgWizard\pnlScan.html:10
 msgid "Add location"
-msgstr ""
+msgstr "添加位置"
 
 #. media servers added per suggestions in #13971 - item 2)
 #: actions.js:2488 viewHandlers.js:4874 dialogs/dlgMediaProperties.js:26
@@ -914,23 +909,23 @@ msgstr "网络"
 
 #: actions.js:2496 dialogs/dlgWizard/pnlScan.js:143 QueryManage.pas:4561
 msgid "Media server"
-msgstr ""
+msgstr "媒体服务器"
 
 #: actions.js:2504 dialogs/dlgWizard/pnlScan.js:180
 msgid "Cloud storage"
-msgstr ""
+msgstr "云存储"
 
 #: actions.js:2538 actions.js:2545
 msgid "Add media server manually"
-msgstr ""
+msgstr "手动添加媒体服务器"
 
 #: actions.js:2546
 msgid "If a media server isn't found automatically, you can add one manually."
-msgstr ""
+msgstr "如果没有自动找到媒体服务器，您可以手动添加。"
 
 #: actions.js:2546 UpNp.pas:10372 controls\devicesView.html:35
 msgid "Device Description file path:"
-msgstr ""
+msgstr "设备描述文件路径："
 
 #. no message needed in case of success (as the new server just appears in the list)
 #. 127.0.0.1 can be reached, but 192.168.X.X can't (case B)
@@ -938,7 +933,7 @@ msgstr ""
 #: actions.js:2563 controls/serverConfig/server.js:43
 #: controls/serverConfig/server.js:52
 msgid "%s cannot be reached"
-msgstr ""
+msgstr "%s 无法访问"
 
 #: actions.js:2564 dialogs/dlgAutotag.js:650 Extensions.pas:960
 #: Extensions.pas:971 Extensions.pas:975 Extensions.pas:1025
@@ -949,60 +944,62 @@ msgstr "错误"
 
 #: actions.js:2573
 msgid "Configure remote access"
-msgstr ""
+msgstr "配置远程访问"
 
 #: actions.js:2581
 msgid ""
 "This will auto-configure rules on your router to allow the %s UPnP/DLNA "
 "server to be accessible from a public/external network."
-msgstr ""
+msgstr "这将自动配置路由器上的规则，以允许 %s UPnP/DLNA 服务器从公共/外部网络访问。"
 
 #: actions.js:2581
 msgid ""
 "Configuration is via UPnP/NAT-PMP which only works if this device is on the "
 "same network as the router."
-msgstr ""
+msgstr "配置通过 UPnP/NAT-PMP 进行，仅在此设备与路由器处于同一网络时才有效。"
 
 #: actions.js:2586
 msgid "Configuring remote access"
-msgstr ""
+msgstr "正在配置远程访问"
 
 #: actions.js:2588
 msgid "Remote UPnP/DLNA access to %s was successfuly configured."
-msgstr ""
+msgstr "成功配置了对 %s 的远程 UPnP/DLNA 访问。"
 
 #: actions.js:2588
 msgid ""
 "If you want to use another UPnP/DLNA client to remotely access %s, enter the "
 "following server destination to the client:"
-msgstr ""
+msgstr "如果你想使用另一个 UPnP/DLNA 客户端远程访问 "
+"%s，请在客户端中输入以下服务器目的地："
 
 #: actions.js:2591
 msgid "Remote access to %s cannot be auto-configured via UPnP/NAT-PMP"
-msgstr ""
+msgstr "无法通过 UPnP/NAT-PMP 自动配置对 %s 的远程访问"
 
 #: actions.js:2593 helpers/mediaSync.js:393 BaseApp.pas:7464 CDUtils.pas:1464
 #: WebUtils.pas:6281
 msgid "There is a problem with your internet connection."
-msgstr ""
+msgstr "您的互联网连接有问题。"
 
 #: actions.js:2595
 msgid ""
 "To resolve, enable UPnP/NAT-PMP in your router configuration or manually "
 "configure port forwarding on your router and try again"
-msgstr ""
+msgstr "要解决这个问题，请在路由器配置中启用 UPnP/NAT-PMP "
+"或手动配置路由器上的端口转发，然后重试"
 
 #: actions.js:2595
 msgid "port %d to IP address %s"
-msgstr ""
+msgstr "端口 %d 到 IP 地址 %s"
 
 #: actions.js:2629
 msgid "Update all podcasts"
-msgstr ""
+msgstr "更新所有播客"
 
 #: actions.js:2643
 msgid "Update podcast"
-msgstr ""
+msgstr "更新播客"
 
 #: actions.js:2655 viewHandlers.js:4385 UPnPTreeHelper.pas:1899
 msgid "Subscriptions"
@@ -1014,22 +1011,20 @@ msgid "&Help"
 msgstr "帮助(&H)"
 
 #: actions.js:2692 controls\windowtitle.html:14
-#, fuzzy
-#| msgid "Content"
 msgid "Help Content"
-msgstr "内容"
+msgstr "帮助内容"
 
 #: actions.js:2704
 msgid "On-line Forum"
-msgstr ""
+msgstr "在线论坛"
 
 #: actions.js:2716
 msgid "Technical Support"
-msgstr ""
+msgstr "技术支持"
 
 #: actions.js:2728 dialogs\dlgExtensions.html:20
 msgid "Check for updates"
-msgstr ""
+msgstr "检查更新"
 
 #: actions.js:2741
 msgid "&About"
@@ -1037,19 +1032,19 @@ msgstr "关于(&A)"
 
 #: actions.js:2753
 msgid "Debug"
-msgstr ""
+msgstr "调试"
 
 #: actions.js:2760
 msgid "Send logs"
-msgstr ""
+msgstr "发送日志"
 
 #: actions.js:2767 actions.js:2776
 msgid "Change freeze timeout"
-msgstr ""
+msgstr "更改冻结超时时间"
 
 #: actions.js:2807
 msgid "Submit crash logs automatically"
-msgstr ""
+msgstr "自动提交崩溃日志"
 
 #. hide old progress and start new (otherwise old status stay always visible)
 #. show progress 500 ms later (when loading still not finished) -- issue #13898
@@ -1059,7 +1054,7 @@ msgstr ""
 #: BaseMedia.pas:15889 BaseMedia.pas:16530 Filters.pas:2738 Filters.pas:2796
 #: PodcastManage.pas:937
 msgid "Loading"
-msgstr ""
+msgstr "加载中"
 
 #: actions.js:2837
 msgid "E&qualizer"
@@ -1067,14 +1062,12 @@ msgstr "均衡器(&q)"
 
 #: actions.js:2865 controls/player.js:507 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "调整影片"
+msgstr "调整速度"
 
 #: actions.js:3010
 msgid "&Rip Audio CD"
-msgstr ""
+msgstr "音轨抓取 CD"
 
 #. to break the loop (#19401)
 #: actions.js:3058 CDUtils.pas:794 ResStrings.pas:372
@@ -1083,16 +1076,16 @@ msgstr "音乐CD"
 
 #: actions.js:3058 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:38
 msgid "Burn"
-msgstr ""
+msgstr "刻录"
 
 #: actions.js:3079 dialogs/dlgCDDBResult.js:8 CDDBUtils.pas:663
 msgid "Lookup Audio CD metadata"
-msgstr ""
+msgstr "查找音轨光盘元数据"
 
 #. = check all drives
 #: actions.js:3094
 msgid "Eject"
-msgstr ""
+msgstr "弹出"
 
 #: actions.js:3106
 msgid "&Options"
@@ -1107,12 +1100,12 @@ msgstr "选项(&O)"
 #: controls/playingListContainer.js:205 dialogs/dlgOptions.js:66
 #: Extensions.pas:1669
 msgid "Layout"
-msgstr ""
+msgstr "布局"
 
 #: actions.js:3130 dialogs/dlgExtensions.js:10
 #: dialogs\dlgMaintainLibrary.html:32
 msgid "Addons"
-msgstr ""
+msgstr "插件"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare object for menu generation functions
@@ -1120,40 +1113,34 @@ msgstr ""
 #: actions.js:3182 actions.js:6279 controls/trackListView.js:1892
 #: MediaMonkeyApp.pas:9144 dialogs\dlgOptions\pnl_OSIntegration.html:8
 msgid "Play now"
-msgstr ""
+msgstr "立即播放"
 
 #: actions.js:3162 actions.js:3236 actions.js:3290 actions.js:6279
 #: actions.js:6294 actions.js:6311 actions.js:6328
 #: controls/trackListView.js:1892 controls/trackListView.js:1907
 #: controls/trackListView.js:1924 controls/trackListView.js:1941
 msgid "shuffled"
-msgstr ""
+msgstr "随机播放"
 
 #: actions.js:3182 actions.js:3256 actions.js:3307
 msgid "shuffled by Album"
-msgstr ""
+msgstr "按专辑随机播放"
 
 #: actions.js:3199 actions.js:6311 controls/trackListView.js:1924
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue mixed"
-msgstr "排序"
+msgstr "队列混合"
 
 #: actions.js:3216 actions.js:3233 actions.js:3236 actions.js:3253
 #: actions.js:3256 actions.js:6294 controls/trackListView.js:1907
 #: MediaMonkeyApp.pas:9145 dialogs\dlgOptions\pnl_OSIntegration.html:9
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue next"
-msgstr "排序"
+msgstr "下一首队列"
 
 #: actions.js:3273 actions.js:3287 actions.js:3290 actions.js:3304
 #: actions.js:3307 actions.js:6328 controls/trackListView.js:1941
 #: MediaMonkeyApp.pas:9146 dialogs\dlgOptions\pnl_OSIntegration.html:10
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue last"
-msgstr "排序"
+msgstr "最后一首队列"
 
 #: actions.js:3321 controls/player.js:173 FileAssoc.pas:740
 msgid "Play"
@@ -1185,20 +1172,20 @@ msgstr "关"
 #. stop should be active even if playback is paused
 #: actions.js:3387 actions.js:3408 actions.js:3431 actions.js:3451
 msgid "Stop after"
-msgstr ""
+msgstr "停止于"
 
 #: actions.js:3405 actions.js:3408
 msgid "Current file"
-msgstr ""
+msgstr "当前文件"
 
 #. stop should be active even if playback is paused
 #: actions.js:3428 actions.js:3431
 msgid "Every file"
-msgstr ""
+msgstr "每个文件"
 
 #: actions.js:3463
 msgid "Crossfade"
-msgstr ""
+msgstr "淡入淡出"
 
 #. For screen reader support (aria-label for screen readers to read its state)
 #: actions.js:3481 controls/player.js:380 controls/player.js:382
@@ -1209,42 +1196,43 @@ msgstr "无序播放"
 #. was changed or canceled, not shuffle already
 #: actions.js:3501 FullPlayer.pas:5001
 msgid "Randomize list"
-msgstr ""
+msgstr "随机列表"
 
 #: actions.js:3502
 msgid "Shuffle disabled. Reverting to unshuffled list."
-msgstr ""
+msgstr "已禁用随机播放。恢复到未随机播放列表。"
 
 #: actions.js:3506
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
-msgstr ""
+msgstr "已禁用随机播放。无法取消由于编辑导致的随机播放 - "
+"使用“撤消”恢复“正在播放列表”的更改。"
 
 #: actions.js:3518
 msgid "Repeat off"
-msgstr ""
+msgstr "重复关闭"
 
 #: actions.js:3534
 msgid "One"
-msgstr ""
+msgstr "一个"
 
 #. Screen reader support
 #: actions.js:3538 controls/player.js:405 controls/player.js:440
 msgid "Repeat one"
-msgstr ""
+msgstr "重复一个"
 
 #: actions.js:3558 controls/player.js:407 controls/player.js:442
 msgid "Repeat all"
-msgstr ""
+msgstr "重复全部"
 
 #: actions.js:3574 controls/player.js:409 controls/player.js:444
 msgid "Repeat"
-msgstr ""
+msgstr "重复"
 
 #: actions.js:3586
 msgid "Level playback volume"
-msgstr ""
+msgstr "音量播放均衡"
 
 #. #17191
 #: actions.js:3606 Win7ToolsImpl.pas:1902
@@ -1257,32 +1245,32 @@ msgstr "前一个文件"
 
 #: actions.js:3634
 msgid "Volume up"
-msgstr ""
+msgstr "音量增加"
 
 #: actions.js:3648
 msgid "Volume down"
-msgstr ""
+msgstr "音量减少"
 
 #: actions.js:3662
 msgid "Skip 5 seconds backward"
-msgstr ""
+msgstr "向后跳过 5 秒"
 
 #: actions.js:3677
 msgid "Skip 5 seconds forward"
-msgstr ""
+msgstr "向前跳过 5 秒"
 
 #: actions.js:3692
 msgid "S&leep"
-msgstr ""
+msgstr "睡眠"
 
 #: actions.js:3706 dialogs/dlgAutotagFromFilename.js:84
 msgid "&Tag from filename"
-msgstr ""
+msgstr "从文件名标记"
 
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:3730
 msgid "&Auto-tag"
-msgstr ""
+msgstr "自动标记"
 
 #: actions.js:3763
 msgid "Configure current &output plug-in"
@@ -1294,11 +1282,11 @@ msgstr "配置目前的输入插件(&i)"
 
 #: actions.js:3787 dialogs/dlgWizard.js:18
 msgid "Share media"
-msgstr ""
+msgstr "共享媒体"
 
 #: actions.js:3799
 msgid "Configure Collections and nodes"
-msgstr ""
+msgstr "配置收藏和节点"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode',
@@ -1320,11 +1308,11 @@ msgstr "播放器"
 #: actions.js:3823 controls/player.js:227
 #: dialogs\dlgOptions\pnl_Streaming.html:3
 msgid "Play to"
-msgstr ""
+msgstr "播放到"
 
 #: actions.js:3834
 msgid "Select all"
-msgstr ""
+msgstr "全选"
 
 #. and set focus (#13206 - item 4)
 #: actions.js:3868
@@ -1334,12 +1322,12 @@ msgstr "焦点定位到当前播放项的曲目列表"
 #. and set focus (#13206 - item 4)
 #: actions.js:3903
 msgid "Cancel selection"
-msgstr ""
+msgstr "取消选择"
 
 #. janky way of setting "new tab" label (No collections or nodes have the "add" icon by default)
 #: actions.js:3929 controls/tabs.js:259
 msgid "New tab"
-msgstr ""
+msgstr "新标签"
 
 #: actions.js:3944 actions.js:3974 actions.js:7115 actions.js:7145
 #: actions.js:7159
@@ -1353,11 +1341,11 @@ msgstr "发送至"
 #: actions.js:3961 controls/columntracklist.js:298 controls/filterEditor.js:124
 #: controls/tracklistFilter.js:450
 msgid "Recently used"
-msgstr ""
+msgstr "最近使用"
 
 #: actions.js:4010
 msgid "sync"
-msgstr ""
+msgstr "同步"
 
 #: actions.js:4035
 msgid "Folder (&Move)"
@@ -1382,18 +1370,16 @@ msgstr "播放列表"
 
 #: actions.js:4076
 msgid "M3U/XSPF playlist"
-msgstr ""
+msgstr "M3U/XSPF 播放列表"
 
 #. if not uninstalled
 #: actions.js:4089
 msgid "Report"
-msgstr ""
+msgstr "报告"
 
 #: actions.js:4089 Scripts/export/actions_add.js:391
-#, fuzzy
-#| msgid "File length"
 msgid "File list"
-msgstr "文件长度"
+msgstr "文件列表"
 
 #. @ts-ignore
 #: actions.js:4109
@@ -1402,15 +1388,15 @@ msgstr "电子邮件"
 
 #: actions.js:4132
 msgid "Find &more from same"
-msgstr ""
+msgstr "查找同类文件"
 
 #: actions.js:4145
 msgid "Anal&yze volume"
-msgstr ""
+msgstr "分析音量"
 
 #: actions.js:4166
 msgid "&Level Track volume"
-msgstr ""
+msgstr "音轨音量均衡"
 
 #: actions.js:4174
 msgid ""
@@ -1422,21 +1408,19 @@ msgstr ""
 #. @ts-ignore
 #: actions.js:4198
 msgid "Analyze waveform"
-msgstr ""
+msgstr "分析波形"
 
 #: actions.js:4216
-#, fuzzy
-#| msgid "Play selected files only"
 msgid "Display only selected folder's content"
-msgstr "仅播放所选择的文件"
+msgstr "仅显示所选文件夹的内容"
 
 #: actions.js:4216
 msgid "Display folder content recursively"
-msgstr ""
+msgstr "递归显示文件夹内容"
 
 #: actions.js:4238
 msgid "View filter"
-msgstr ""
+msgstr "查看筛选器"
 
 #. "Any text"
 #: actions.js:4283 QueryManage.pas:2866 QueryManage.pas:2870 ResStrings.pas:546
@@ -1446,13 +1430,13 @@ msgstr "包含"
 #. radiogroup: 'search_mode',
 #: actions.js:4345 controls/searchBar.js:555
 msgid "Advanced search"
-msgstr ""
+msgstr "高级搜索"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that it is right most to the includeSubfolders action (with iconPriority 10)
 #: actions.js:4367 actions.js:4408 controls\mainTabContent.html:3
 msgid "Left panel"
-msgstr ""
+msgstr "左面板"
 
 #: actions.js:4429 controls\mainTabContent.html:4
 msgid "Media Tree"
@@ -1460,7 +1444,7 @@ msgstr "媒体树状结构"
 
 #: actions.js:4514 actions.js:4543 maincontent.html:49
 msgid "Right panel"
-msgstr ""
+msgstr "右面板"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. became visible, update
@@ -1483,7 +1467,7 @@ msgstr "歌词"
 #: controls/statusbar.js:131 controls/statusbar.js:134
 #: dialogs/dlgEditView.js:609
 msgid "Playing"
-msgstr ""
+msgstr "正在播放"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. no layout preset, use default
@@ -1524,15 +1508,15 @@ msgstr "清除(移除无法存取的)(&n)"
 
 #: actions.js:4861
 msgid "Remove &duplicates"
-msgstr ""
+msgstr "移除重复项"
 
 #: actions.js:4872
 msgid "&Randomize list"
-msgstr ""
+msgstr "随机播放列表"
 
 #: actions.js:4883 FullPlayer.pas:4941
 msgid "Reverse list"
-msgstr ""
+msgstr "反向列表"
 
 #. Label for screen readers ("Undo" is not translated, only "&Undo")
 #: actions.js:4894 controls/navigationBar.js:302
@@ -1542,10 +1526,8 @@ msgstr "撤销(&U)"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4920 controls/filterEditor.js:93 controls/navigationBar.js:344
-#, fuzzy
-#| msgid "History"
 msgid "Clear history"
-msgstr "历史记录"
+msgstr "清除历史"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
 #: actions.js:4934 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
@@ -1555,12 +1537,12 @@ msgstr "重做(&R)"
 #. open edit properties dialog
 #: actions.js:4994
 msgid "Previous view"
-msgstr ""
+msgstr "上一个视图"
 
 #. forward is added here via redoNavbarButton script
 #: actions.js:5013
 msgid "Fit video to window on resize"
-msgstr ""
+msgstr "调整窗口大小以适应视频"
 
 #: actions.js:5029
 msgid "Zoom to 50%"
@@ -1589,7 +1571,7 @@ msgstr "缩小"
 #. @ts-ignore
 #: actions.js:5134
 msgid "Original AR"
-msgstr ""
+msgstr "原始 AR"
 
 #: actions.js:5206 dialogs\dlgMoveAccompFiles.html:16
 msgid "Move"
@@ -1613,7 +1595,7 @@ msgstr "向下移动"
 
 #: actions.js:5268 Scripts\caseChecker\dialogs\dlgCaseChecker.html:57
 msgid "Reset changes"
-msgstr ""
+msgstr "重置更改"
 
 #. to load the new image thumb
 #: actions.js:5283 controls/artWindow.js:663
@@ -1622,7 +1604,7 @@ msgstr "保存缩略图"
 
 #: actions.js:5287
 msgid "Generate the thumbnail:"
-msgstr ""
+msgstr "生成缩略图："
 
 #: actions.js:5289
 msgid "Automatically"
@@ -1630,11 +1612,11 @@ msgstr "自动地"
 
 #: actions.js:5292
 msgid "Use current video frame"
-msgstr ""
+msgstr "使用当前视频帧"
 
 #: actions.js:5304
 msgid "Audio streams"
-msgstr ""
+msgstr "音频流"
 
 #. fill info about subtitle stream
 #: actions.js:5331 BaseMedia.pas:4979
@@ -1643,7 +1625,7 @@ msgstr "字幕"
 
 #: actions.js:5340 dialogs/dlgOptions/pnl_Hotkeys.js:303
 msgid "Open file"
-msgstr ""
+msgstr "打开文件"
 
 #: actions.js:5348
 msgid "Subtitle files"
@@ -1651,7 +1633,7 @@ msgstr "字幕文件"
 
 #: actions.js:5348
 msgid "Select subtitle file"
-msgstr ""
+msgstr "选择字幕文件"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. rejected - closed by cancel
@@ -1678,11 +1660,11 @@ msgstr "大的"
 
 #: actions.js:5439
 msgid "Extra large"
-msgstr ""
+msgstr "超大"
 
 #: actions.js:5502 controls\playlistHeader.html:8
 msgid "Play normally"
-msgstr ""
+msgstr "正常播放"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. adds shuffle menu commands to button context menu
@@ -1690,16 +1672,16 @@ msgstr ""
 #: actions.js:5528 uitools.js:2331 viewHandlers.js:3301
 #: controls\playlistHeader.html:9
 msgid "Play shuffled"
-msgstr ""
+msgstr "随机播放"
 
 #: actions.js:5560 uitools.js:2332 viewHandlers.js:3334
 msgid "Play shuffled (by Album)"
-msgstr ""
+msgstr "按专辑随机播放"
 
 #. prepared menu item for library reports implemented by scripts
 #: actions.js:5895 Extensions.pas:1667
 msgid "Reports"
-msgstr ""
+msgstr "报告"
 
 #: actions.js:5922
 msgid "&File"
@@ -1726,17 +1708,17 @@ msgstr "面板"
 
 #: actions.js:6118 dialogs\dlgMP3Settings.html:41
 msgid "Mode"
-msgstr ""
+msgstr "模式"
 
 #: actions.js:6133
 msgid "Main panel view"
-msgstr ""
+msgstr "主面板视图"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16702 ... remove cancelSelection action as it is already in Edit menu
 #: actions.js:6157 dialogs\dlgTrackProperties.html:12
 msgid "Previous"
-msgstr ""
+msgstr "上一个"
 
 #: actions.js:6191 dialogs\dlgTrackProperties.html:12
 msgid "Next"
@@ -1748,7 +1730,7 @@ msgstr "播放(&P)"
 
 #: actions.js:6438
 msgid "Edit tags"
-msgstr ""
+msgstr "编辑标签"
 
 #. some items placed by scripts here
 #: actions.js:6471
@@ -1757,28 +1739,28 @@ msgstr "工具(&T)"
 
 #: actions.js:6544
 msgid "MediaMonkey Gold"
-msgstr ""
+msgstr "MediaMonkey 金装版"
 
 #: actions.js:6551
 msgid "Get MediaMonkey Gold"
-msgstr ""
+msgstr "获得 MediaMonkey 金装版"
 
 #. assume always called with this = action
 #: actions.js:6933 actions.js:7011
 msgid "Move to"
-msgstr ""
+msgstr "移动到"
 
 #: actions.js:6936 actions.js:7015
 msgid "Copy to"
-msgstr ""
+msgstr "复制到"
 
 #: actions.js:6939 actions.js:7019
 msgid "Convert to"
-msgstr ""
+msgstr "转换为"
 
 #: actions.js:7244
 msgid "No tracks found"
-msgstr ""
+msgstr "未找到音轨"
 
 #: actions.js:7258
 msgid ""
@@ -1795,7 +1777,7 @@ msgstr "您是否确定要从所选择的文件中移除 %s 标签 (文件属性
 #. Public methods
 #: dndutils.js:238
 msgid "item(s)"
-msgstr ""
+msgstr "项"
 
 #. add remaining disabled stars
 #. LS: previsouly was as 'var utils = app.utils' in templateFormats.js
@@ -1823,45 +1805,43 @@ msgstr "未知"
 msgid ""
 "Select which device to use. 'Default' uses whatever device is configured by "
 "the operating system for playback."
-msgstr ""
+msgstr "选择要使用的设备。“默认”使用操作系统配置的设备进行播放。"
 
 #: out_MMDS_configDlg.js:38
 msgid "Disable only in the case of audio problems"
-msgstr ""
+msgstr "仅在音频问题的情况下禁用"
 
 #: out_MMDS_configDlg.js:38
 msgid "Enable hardware acceleration"
-msgstr ""
+msgstr "启用硬件加速"
 
 #: out_MMDS_configDlg.js:44 out_WASAPI_configDlg.js:86
 msgid "Fades in and out on Pause/Play"
-msgstr ""
+msgstr "在暂停/播放时淡入和淡出"
 
 #: out_MMDS_configDlg.js:44 out_WASAPI_configDlg.js:86
 msgid "Smooth pause"
-msgstr ""
+msgstr "平滑暂停"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Crossfades during seek operation"
-msgstr ""
+msgstr "在查找操作期间交叉淡入淡出"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Smooth seek"
-msgstr ""
+msgstr "平滑查找"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:98
 msgid "Fades out on Stop"
-msgstr ""
+msgstr "在停止时淡出"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:98
 msgid "Smooth stop"
-msgstr ""
+msgstr "平滑停止"
 
 #: out_MMDS_configDlg.js:74
-#, fuzzy
-#| msgid "MediaMonkey Video plug-in"
 msgid "MediaMonkey DirectSound Output plug-in"
-msgstr "MediaMonkey 影像插件"
+msgstr "MediaMonkey DirectSound 输出插件"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepare sampleRate dropDown
@@ -1877,7 +1857,7 @@ msgstr "Hz"
 
 #: out_WASAPI_configDlg.js:6 FormatsManage.pas:4542 FormatsManage.pas:4546
 msgid "channels"
-msgstr ""
+msgstr "通道"
 
 #: out_WASAPI_configDlg.js:7 WinAmpPlugins.pas:5355
 msgid "bits"
@@ -1885,15 +1865,15 @@ msgstr "bits"
 
 #: out_WASAPI_configDlg.js:14
 msgid "Automatic choice of format (per track)"
-msgstr ""
+msgstr "自动选择格式（每音轨）"
 
 #: out_WASAPI_configDlg.js:15
 msgid "Use format of original track"
-msgstr ""
+msgstr "使用原始音轨的格式"
 
 #: out_WASAPI_configDlg.js:74
 msgid "Prevents audio from other applications"
-msgstr ""
+msgstr "防止其他应用程序的音频干扰"
 
 #: out_WASAPI_configDlg.js:74 out_WASAPI_configDlg.js:130
 #: out_WASAPI_configDlg.js:151
@@ -1902,25 +1882,23 @@ msgstr "专属模式"
 
 #: out_WASAPI_configDlg.js:108
 msgid "Event driven Exclusive mode (recommended)"
-msgstr ""
+msgstr "事件驱动的独占模式（推荐）"
 
 #: out_WASAPI_configDlg.js:114
 msgid "Event driven Shared mode (recommended)"
-msgstr ""
+msgstr "事件驱动的共享模式（推荐）"
 
 #: out_WASAPI_configDlg.js:120
-#, fuzzy
-#| msgid "Minimal bitrate"
 msgid "Minimal buffer sizes"
-msgstr "最小的比特率"
+msgstr "最小化缓冲区大小"
 
 #: out_WASAPI_configDlg.js:125
 msgid "Pull mode (event driven)"
-msgstr ""
+msgstr "拉模式（事件驱动）"
 
 #: out_WASAPI_configDlg.js:138 out_WASAPI_configDlg.js:159
 msgid "Shared mode"
-msgstr ""
+msgstr "共享模式"
 
 #: out_WASAPI_configDlg.js:146
 msgid "Push mode"
@@ -1932,10 +1910,8 @@ msgid "Advanced"
 msgstr "高级"
 
 #: out_WASAPI_configDlg.js:180
-#, fuzzy
-#| msgid "MediaMonkey Video plug-in"
 msgid "MediaMonkey WASAPI Output plug-in"
-msgstr "MediaMonkey 影像插件"
+msgstr "MediaMonkey WASAPI 输出插件"
 
 #: playerUtils.js:452
 msgid "Zoom"
@@ -1957,7 +1933,7 @@ msgstr "摘要"
 #. to allow context menu
 #: templates.js:538
 msgid "Open Link in New Tab"
-msgstr ""
+msgstr "在新标签中打开链接"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. for correct cleaning
@@ -1966,14 +1942,14 @@ msgstr ""
 #: templates.js:575 controls/artWindow.js:1816 controls/artWindow.js:1910
 #: controls/viewHeader.js:66 dialogs\dlgAutotagCover.html:29
 msgid "Lookup"
-msgstr ""
+msgstr "查找"
 
 #. to refresh also the layout (for the newly found lyrics)
 #: templates.js:578 controls/artWindow.js:1279
 #: dialogs/dlgTrackProperties/tabLyrics.js:63
 #: dialogs/dlgTrackProperties/tabLyrics.js:68
 msgid "Lyrics not found"
-msgstr ""
+msgstr "未找到歌词"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. already cleaned
@@ -1994,13 +1970,13 @@ msgstr ""
 #: Scripts/musicBrainz/helpers/genreDataSource.js:25
 #: dialogs\dlgSearchImage.html:17
 msgid "Searching"
-msgstr ""
+msgstr "搜索中"
 
 #. online track not present in the library - toast message and add to the library
 #. online track not present in the library - toast message and add to the library
 #: templates.js:813 controls/player.js:787
 msgid "Track was added to the Library"
-msgstr ""
+msgstr "音轨已添加到媒体库"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. el.innerText = sd.album;
@@ -2036,7 +2012,7 @@ msgstr "长度"
 #. was fast object, we need to find the correct one
 #: templates.js:2075 dialogs/dlgSearchImage.js:284
 msgid "Show full size"
-msgstr ""
+msgstr "显示完整大小"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. row node items used e.g. when showing sub-containers + items in "List view" mode (e.g. playlists, folders)
@@ -2057,23 +2033,21 @@ msgstr "kbps"
 #. no image
 #: templates.js:3378
 msgid "Season"
-msgstr ""
+msgstr "季"
 
 #: templates.js:3381
 msgid "Disc"
-msgstr ""
+msgstr "唱片片"
 
 #. clear promises of previous popup content
 #: templates.js:3824
 msgid "The feed is no longer available"
-msgstr ""
+msgstr "此订阅源不再可用"
 
 #. otherwise no install was needed (already installed the same version)
 #: uitools.js:813
-#, fuzzy
-#| msgid "%s was successfully installed."
 msgid "%s installed successfully."
-msgstr "安装完成."
+msgstr "%s 安装成功。"
 
 #. reload whole skin
 #: uitools.js:834
@@ -2083,11 +2057,11 @@ msgstr "请重新启动MediaMonkey来完成这个安装."
 #. we are entering party mode
 #: uitools.js:1150
 msgid "Exit Party Mode"
-msgstr ""
+msgstr "退出派对模式"
 
 #: uitools.js:1157 uitools.js:1158
 msgid "Enter password"
-msgstr ""
+msgstr "输入密码"
 
 #. isNavbarExpandable: false, // #20803
 #. force rebind
@@ -2104,7 +2078,7 @@ msgstr "系列"
 #. more than one preset is defined, place separator betweeen presets and 'touch' mode
 #: uitools.js:1795
 msgid "No playlist found"
-msgstr ""
+msgstr "未找到播放列表"
 
 #: uitools.js:2385 dialogs/dlgWizard.js:22
 msgid "Registration"
@@ -2113,37 +2087,35 @@ msgstr "登录"
 #. we need at least one song to work with
 #: uitools.js:2401 dialogs/dlgTrackProperties.js:179 MP3Utils.pas:1247
 msgid "Please select one or more files for this operation."
-msgstr ""
+msgstr "请选择一个或多个文件进行此操作。"
 
 #. hide full window player and switcher
 #. TODO: add links to stations
 #: uitools.js:2459 viewHandlers.js:7679 viewHandlers.js:7773
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Edit bookmark"
-msgstr "新增书签"
+msgstr "编辑书签"
 
 #: uitools.js:2471
 msgid "Website link:"
-msgstr ""
+msgstr "网站链接："
 
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2549
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "MediaMonkey 需要重启以应用更改"
 
 #: uitools.js:2551 controls/buttons.js:485 ExceptionHandler.pas:292
 #: ExceptionHandler.pas:328 ResStrings.pas:590
 msgid "Restart"
-msgstr ""
+msgstr "重启"
 
 #: uitools.js:2858
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "搜索所选位置："
 
 #: uitools.js:2870
 msgid "Please select at least one folder to scan."
-msgstr ""
+msgstr "请至少选择一个文件夹进行扫描。"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RS_Unknown
@@ -2168,7 +2140,7 @@ msgstr "多重的"
 
 #: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2577
 msgid "Various Artists"
-msgstr ""
+msgstr "合集艺术家"
 
 #. is listened by ColumnBrowser sub-view
 #. Don't forget for VCD tracks:
@@ -2196,16 +2168,16 @@ msgstr "列表"
 
 #: viewHandlers.js:312 controls/nowplayingview.js:58
 msgid "List (by Album)"
-msgstr ""
+msgstr "列表（按专辑）"
 
 #: viewHandlers.js:339
 msgid "List (by Series)"
-msgstr ""
+msgstr "列表（按系列）"
 
 #. to be always pre-sorted by content (grouped by signature/fingerprint) // #20580
 #: viewHandlers.js:348
 msgid "List (by Content)"
-msgstr ""
+msgstr "列表（按内容）"
 
 #. #18256
 #: viewHandlers.js:358
@@ -2226,7 +2198,7 @@ msgstr "重制内容"
 #. disableStateStoring: true, // store state so focused node is restored
 #: viewHandlers.js:390 viewHandlers.js:2377 controls/playingListContainer.js:6
 msgid "Simplified list"
-msgstr ""
+msgstr "简化列表"
 
 #. onHide: inherited from Tracklist
 #. we need to ensure that the 'Info panel' is shown to show the auto-playlist criteria editor (#15522 / #16928)
@@ -2238,12 +2210,12 @@ msgstr ""
 #: viewHandlers.js:1842 viewHandlers.js:1940 viewHandlers.js:2071
 #: viewHandlers.js:2256
 msgid "Browser"
-msgstr ""
+msgstr "浏览器"
 
 #. onHide: inherited from Tracklist
 #: viewHandlers.js:412
 msgid "Grid (videos)"
-msgstr ""
+msgstr "网格（视频）"
 
 #. onHide: inherited from TracklistBase
 #. due to #15522
@@ -2257,7 +2229,7 @@ msgstr ""
 #: viewHandlers.js:1078 viewHandlers.js:1133 viewHandlers.js:1224
 #: viewHandlers.js:1793
 msgid "Grid"
-msgstr ""
+msgstr "网格"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. onHide: inherited from TracklistBase
@@ -2271,40 +2243,40 @@ msgstr ""
 #: viewHandlers.js:2086 viewHandlers.js:2263
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:18
 msgid "Info panel"
-msgstr ""
+msgstr "信息面板"
 
 #. new tracklist
 #: viewHandlers.js:470
 msgid "Media Nodes"
-msgstr ""
+msgstr "媒体节点"
 
 #: viewHandlers.js:474
 msgid "Suggested Artists"
-msgstr ""
+msgstr "推荐艺术家"
 
 #: viewHandlers.js:478
 msgid "Suggested Albums"
-msgstr ""
+msgstr "推荐专辑"
 
 #: viewHandlers.js:482
 msgid "Pinned list"
-msgstr ""
+msgstr "已固定列表"
 
 #: viewHandlers.js:486 controls\audiobookCollectionView.html:10
 msgid "In progress"
-msgstr ""
+msgstr "进行中"
 
 #: viewHandlers.js:490 controls\videoCollectionView.html:3
 msgid "Recently watched"
-msgstr ""
+msgstr "最近观看"
 
 #: viewHandlers.js:494 controls\tvCollectionView.html:10
 msgid "Recently added"
-msgstr ""
+msgstr "最近添加"
 
 #: viewHandlers.js:498
 msgid "Column filter"
-msgstr ""
+msgstr "列筛选器"
 
 #. relations are always taken from online data
 #. we currently can't search online audiobooks
@@ -2315,7 +2287,7 @@ msgstr ""
 #: Scripts/statistics/dialogs/dlgStatistics.js:465
 #: Scripts/statistics/dialogs/dlgStatistics.js:518
 msgid "Tracks"
-msgstr ""
+msgstr "曲目"
 
 #. LS: to construct parent path when folder is sub to Pinned node (#18985) or a Location folder sub to collection (#16881)
 #: viewHandlers.js:812 viewHandlers.js:900
@@ -2333,19 +2305,19 @@ msgstr "文件夹"
 #. #15738: item 3
 #: viewHandlers.js:914 dialogs/dlgOptions/pnl_LayoutPlaying.js:27
 msgid "Status bar"
-msgstr ""
+msgstr "状态栏"
 
 #: viewHandlers.js:966
 msgid "Collection browser"
-msgstr ""
+msgstr "收藏浏览器"
 
 #: viewHandlers.js:980
 msgid "Categories"
-msgstr ""
+msgstr "分类"
 
 #: viewHandlers.js:1011
 msgid "Tabbed view"
-msgstr ""
+msgstr "选项卡视图"
 
 #: viewHandlers.js:1224 viewHandlers.js:6858 controls/searchView.js:153
 #: Scripts/statistics/dialogs/dlgStatistics.js:175 AutoOrganize.pas:1605
@@ -2355,21 +2327,21 @@ msgstr "风格"
 #. add title line
 #: viewHandlers.js:1373 controls/relatedArtists.js:26
 msgid "Related Artists"
-msgstr ""
+msgstr "相关艺术家"
 
 #. so that the default focus control is searched within subViews below
 #: viewHandlers.js:1547
 msgid "Grid (by Album)"
-msgstr ""
+msgstr "网格（按专辑）"
 
 #. cancel/free/unregister the dataSource
 #: viewHandlers.js:1640
 msgid "Grid (by Series)"
-msgstr ""
+msgstr "网格（按系列）"
 
 #: viewHandlers.js:1770
 msgid "Feeds"
-msgstr ""
+msgstr "订阅源"
 
 #. #18158
 #: viewHandlers.js:1971 viewHandlers.js:5505 controls/maskedit.js:77
@@ -2380,7 +2352,7 @@ msgstr "配置"
 #. add title line
 #: viewHandlers.js:2029 controls/relatedGenres.js:24
 msgid "Related Genres"
-msgstr ""
+msgstr "相关风格"
 
 #. default visibility defined by nodeHandler:
 #: viewHandlers.js:2997
@@ -2401,16 +2373,16 @@ msgstr "改变名称"
 #. inheritance, this way we creates 'PlaylistBase' node handler class, 'Playlist' and 'Playlists' inherits from it when creating nodeHandlers.playlist(s) instances below
 #: viewHandlers.js:3667
 msgid "playlist"
-msgstr ""
+msgstr "播放列表"
 
 #. sub-views hidden by default
 #: viewHandlers.js:3769
 msgid "playlists"
-msgstr ""
+msgstr "播放列表"
 
 #: viewHandlers.js:3811 controls/playlistHeader.js:159
 msgid "Are you sure you want to remove playlist \"%s\" ?"
-msgstr ""
+msgstr "你确定要移除播放列表“%s”吗？"
 
 #: viewHandlers.js:3813 controls/playlistHeader.js:161 PlaylistManage.pas:913
 msgid ""
@@ -2422,7 +2394,7 @@ msgstr ""
 
 #: viewHandlers.js:3816
 msgid "Are you sure you want to remove %d selected playlists ?"
-msgstr ""
+msgstr "你确定要移除 %d 个选定的播放列表吗？"
 
 #. #15926 - S4
 #. to not initiate too many stream url requests (would result in too many download threads)
@@ -2432,23 +2404,17 @@ msgstr "复制到 %s:"
 
 #. to not notify less often and improve performance for thousands of tracks
 #: viewHandlers.js:4106 MediaManage.pas:4134 MediaManage.pas:4215
-#, fuzzy
-#| msgid "Copying to %s:"
 msgid "Moving to %s:"
-msgstr "复制到 %s:"
+msgstr "移动到 %s："
 
 #. to refresh also the drag from area (if not refreshed automatically)
 #: viewHandlers.js:4169
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to move '%s'?"
-msgstr "您是否真的要移除 %d 预览?"
+msgstr "你真的想移动“%s”吗？"
 
 #: viewHandlers.js:4171
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to copy '%s'?"
-msgstr "您是否真的要移除 %d 预览?"
+msgstr "你真的想复制“%s”吗？"
 
 #: viewHandlers.js:4177
 msgid "Copy Library content only"
@@ -2469,7 +2435,7 @@ msgstr "移除所有内容"
 #. it's list
 #: viewHandlers.js:4310
 msgid "&Unsubscribe"
-msgstr ""
+msgstr "取消订阅"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this._playlist.deleteAsync(); // remove newly created playlist when there was no edit change (item 3a in #13530)
@@ -2481,12 +2447,12 @@ msgstr "取消订阅"
 
 #: viewHandlers.js:4431
 msgid "Unsubscribed"
-msgstr ""
+msgstr "已取消订阅"
 
 #. assignment to tracklist
 #: viewHandlers.js:4482 viewHandlers.js:7031
 msgid "Are you sure you want to remove \"%s\" ?"
-msgstr ""
+msgstr "你确定要移除“%s”吗？"
 
 #. e.g. db folders
 #. requiredColumns: 'playOrder',
@@ -2496,7 +2462,7 @@ msgstr ""
 #: viewHandlers.js:5089 viewHandlers.js:7480
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:275
 msgid "folder"
-msgstr ""
+msgstr "文件夹"
 
 #: viewHandlers.js:4500 controls/podcastSubscribeTutorial.js:23
 msgid "Podcast Directories"
@@ -2504,7 +2470,7 @@ msgstr "播客目录"
 
 #: viewHandlers.js:4515
 msgid "Unplayed"
-msgstr ""
+msgstr "未播放"
 
 #. 1500 ms (as 'commonChange' is called every 1000 ms during scan/edits)
 #. folder, library, playlist, nowplaying, device
@@ -2514,36 +2480,32 @@ msgstr "您是否确定要永久删除 "
 
 #: viewHandlers.js:4617
 msgid "selected folders"
-msgstr ""
+msgstr "选定文件夹"
 
 #: viewHandlers.js:4624
-#, fuzzy
-#| msgid "Are you sure you want to remove %d file from the Library?"
 msgid "Are you sure you want to move the selected folders to the recycle bin?"
-msgstr "您是否确定想要从媒体库中移除 %d 文件?"
+msgstr "你确定要将选定的文件夹移动到回收站吗？"
 
 #: viewHandlers.js:4626
-#, fuzzy
-#| msgid "Are you sure you want to remove %d file from the Library?"
 msgid "Are you sure you want to move the folder \"%s\" to the recycle bin?"
-msgstr "您是否确定想要从媒体库中移除 %d 文件?"
+msgstr "你确定要将文件夹“%s”移动到回收站吗？"
 
 #: viewHandlers.js:4936
 msgid "Are you sure you want to remove \"%s\"?"
-msgstr ""
+msgstr "你确定要移除“%s”吗？"
 
 #: viewHandlers.js:4939
 msgid "Are you sure you want to remove %d selected items?"
-msgstr ""
+msgstr "你确定要移除 %d 个选定的项目吗？"
 
 #. to get fresh tracklist on F5 (view.refresh)
 #: viewHandlers.js:4977 viewHandlers.js:5380 ResStrings.pas:433
 msgid "All files"
-msgstr ""
+msgstr "所有文件"
 
 #: viewHandlers.js:4984
 msgid "All videos"
-msgstr ""
+msgstr "所有视频"
 
 #: viewHandlers.js:4990 FormatsManage.pas:4479 FormatsManage.pas:4492
 msgid "video"
@@ -2551,11 +2513,11 @@ msgstr "影片"
 
 #: viewHandlers.js:5053 viewHandlers.js:5303
 msgid "Are you sure you want to remove playlist \"%s\" from %s?"
-msgstr ""
+msgstr "你确定要从 %s 中移除播放列表“%s”吗？"
 
 #: viewHandlers.js:5056 viewHandlers.js:5306
 msgid "Are you sure you want to remove %d selected playlists from %s?"
-msgstr ""
+msgstr "你确定要从 %s 中移除 %d 个选定的播放列表吗？"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
@@ -2594,11 +2556,11 @@ msgstr "删除"
 
 #: viewHandlers.js:5527
 msgid "Are you sure you want to remove profile \"%s\" ?"
-msgstr ""
+msgstr "你确定要移除配置文件“%s”吗？"
 
 #: viewHandlers.js:5567
 msgid "Disable"
-msgstr ""
+msgstr "禁用"
 
 #. toggle
 #: viewHandlers.js:5589
@@ -2612,7 +2574,7 @@ msgstr "安全地移除设备(&r)"
 #. e.g. tracklist or albumlist, add its tracks at once:
 #: viewHandlers.js:5670
 msgid "Devices & Services"
-msgstr ""
+msgstr "设备和服务"
 
 #. timeout to accomodate when there is many devices added just during startup in one second -- to reduce unnecessary refreshNodeChildren() calling
 #: viewHandlers.js:5705 Scripts/statistics/dialogs/dlgStatistics.js:176
@@ -2622,7 +2584,7 @@ msgstr "年份"
 #. hasTreeChildren: false, // enabled in the tree so that individual years are accessible under decades (#15056)
 #: viewHandlers.js:5723
 msgid "Years (orig.)"
-msgstr ""
+msgstr "原始年份"
 
 #. @ts-ignore
 #: viewHandlers.js:5846 controls/albumViewHeader.js:735 CDUtils.pas:1056
@@ -2637,56 +2599,54 @@ msgstr "未知的系列"
 
 #: viewHandlers.js:6395 viewHandlers.js:6408 UPnPTreeHelper.pas:1888
 msgid "Album Artists"
-msgstr ""
+msgstr "专辑艺术家"
 
 #. detect hovered item
 #: viewHandlers.js:6401 viewHandlers.js:6414 viewHandlers.js:6437
 #: controls/artistGrid.js:176 controls/statusbar.js:98
 #: helpers/artistDataSource.js:78
 msgid "artist"
-msgstr ""
+msgstr "艺术家"
 
 #: viewHandlers.js:6428
 msgid "Contributing artists"
-msgstr ""
+msgstr "贡献艺术家"
 
 #: viewHandlers.js:6431
-#, fuzzy
-#| msgid "Artists"
 msgid "Artists only"
-msgstr "艺术家"
+msgstr "仅艺术家"
 
 #: viewHandlers.js:6451 UPnPTreeHelper.pas:1893
 msgid "Directors"
-msgstr ""
+msgstr "导演"
 
 #: viewHandlers.js:6457
 msgid "director"
-msgstr ""
+msgstr "导演"
 
 #: viewHandlers.js:6464 controls/searchView.js:80 UPnPTreeHelper.pas:1889
 msgid "Composers"
-msgstr ""
+msgstr "作曲家"
 
 #: viewHandlers.js:6470
 msgid "composer"
-msgstr ""
+msgstr "作曲家"
 
 #: viewHandlers.js:6477 controls/searchView.js:119 UPnPTreeHelper.pas:1892
 msgid "Conductors"
-msgstr ""
+msgstr "指挥家"
 
 #: viewHandlers.js:6483
 msgid "conductor"
-msgstr ""
+msgstr "指挥家"
 
 #: viewHandlers.js:6490 controls/searchView.js:253 UPnPTreeHelper.pas:1891
 msgid "Producers"
-msgstr ""
+msgstr "制作人"
 
 #: viewHandlers.js:6496
 msgid "producer"
-msgstr ""
+msgstr "制作人"
 
 #. searchView.localListen(LV, 'itemview', uitools.defaultItemAction); // disabled due to #15867
 #. don't save
@@ -2695,38 +2655,38 @@ msgstr ""
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:160 MaskHelper.pas:3211
 #: UPnPTreeHelper.pas:1887
 msgid "Actors"
-msgstr ""
+msgstr "演员"
 
 #: viewHandlers.js:6509
 msgid "actor"
-msgstr ""
+msgstr "演员"
 
 #: viewHandlers.js:6516 UPnPTreeHelper.pas:1902
 msgid "Publishers"
-msgstr ""
+msgstr "出版商"
 
 #: viewHandlers.js:6522
 msgid "publisher"
-msgstr ""
+msgstr "出版商"
 
 #. hide it until we get a message via this.statusMessage (it doesn't look good to show empty status bar)
 #: viewHandlers.js:6782 controls/statusbar.js:98
 #: dialogs/dlgTrackProperties/tabBasic.js:527
 msgid "genre"
-msgstr ""
+msgstr "流派"
 
 #: viewHandlers.js:6788
 msgid "Pop"
-msgstr ""
+msgstr "流行"
 
 #. defines word prefixes to be included within the particular genre(s)
 #: viewHandlers.js:6792
 msgid "Rock"
-msgstr ""
+msgstr "摇滚"
 
 #: viewHandlers.js:6796
 msgid "R&B and soul"
-msgstr ""
+msgstr "R&B 和灵魂"
 
 #. occasion tag constant
 #: viewHandlers.js:6800 NewDBCreate.pas:1250
@@ -2735,48 +2695,48 @@ msgstr "跳舞"
 
 #: viewHandlers.js:6804
 msgid "Blues"
-msgstr ""
+msgstr "布鲁斯"
 
 #: viewHandlers.js:6808
 msgid "Jazz"
-msgstr ""
+msgstr "爵士"
 
 #: viewHandlers.js:6812
 msgid "Latin & Caribbean"
-msgstr ""
+msgstr "拉丁和加勒比"
 
 #: viewHandlers.js:6817
 msgid "Electronic"
-msgstr ""
+msgstr "电子"
 
 #: viewHandlers.js:6822
 msgid "Country"
-msgstr ""
+msgstr "乡村"
 
 #: viewHandlers.js:6826
 msgid "Folk"
-msgstr ""
+msgstr "民谣"
 
 #: viewHandlers.js:6830
 msgid "Easy listening"
-msgstr ""
+msgstr "轻音乐"
 
 #: viewHandlers.js:6834
 msgid "Comedy"
-msgstr ""
+msgstr "喜剧"
 
 #: viewHandlers.js:6838 controls\deviceConfig\options\pnl_FileLocations.html:17
 msgid "Classical"
-msgstr ""
+msgstr "古典"
 
 #: viewHandlers.js:6843
 msgid "World"
-msgstr ""
+msgstr "世界"
 
 #. node.addChildren(list, 'files_to_edit_default');
 #: viewHandlers.js:7257
 msgid "Album Artist is not the same across tracks on an album."
-msgstr ""
+msgstr "专辑艺术家在专辑中的音轨不相同。"
 
 #. #19480
 #: viewHandlers.js:7309
@@ -2784,22 +2744,23 @@ msgid ""
 "This finds all tracks with tags that don't match the database, highlighting "
 "the mismatched values. If tracks don't show highlighted fields, try enabling "
 "additional columns."
-msgstr ""
+msgstr "这会查找所有与数据库标记不匹配的音轨，并突出显示不一致的值。如果音轨未显示突"
+"出显示的字段，请尝试启用其他列。"
 
 #: viewHandlers.js:7316
 msgid ""
 "This node finds all content for which tracks have duplicate hashes or "
 "fingerprints."
-msgstr ""
+msgstr "此节点查找所有音轨哈希或指纹重复的内容。"
 
 #. to respect order served by content
 #: viewHandlers.js:7323
 msgid "Artwork is not the same across tracks on an album."
-msgstr ""
+msgstr "艺术在专辑中的音轨不相同。"
 
 #: viewHandlers.js:7326
 msgid "Files have been deleted or moved."
-msgstr ""
+msgstr "文件已删除或移动。"
 
 #: viewHandlers.js:7329 UPnPTreeHelper.pas:1908
 msgid "Files to Edit"
@@ -2846,14 +2807,12 @@ msgid "Web"
 msgstr "因特网"
 
 #: viewHandlers.js:7693 viewHandlers.js:7787
-#, fuzzy
-#| msgid "Remove image"
 msgid "Remove bookmark"
-msgstr "移除影像"
+msgstr "移除书签"
 
 #: viewHandlers.js:7728 viewHandlers.js:7730 GlobVars.pas:2089
 msgid "Radio"
-msgstr ""
+msgstr "电台"
 
 #. needed e.g. because of #13492
 #: viewHandlers.js:8210 controls/multiview.js:181
@@ -2866,21 +2825,17 @@ msgstr "收藏"
 
 #. other windows are fetching this value (e.g. in uitools.showExtensions)
 #: controls/addonListView.js:85
-#, fuzzy
-#| msgid "Install Now"
 msgid "Install"
-msgstr "现在安装"
+msgstr "安装"
 
 #: controls/addonListView.js:87
-#, fuzzy
-#| msgid "Install Now"
 msgid "Install update"
-msgstr "现在安装"
+msgstr "安装更新"
 
 #. failure
 #: controls/addonListView.js:142
 msgid "Installing update"
-msgstr ""
+msgstr "正在安装更新"
 
 #. to allow pasting artwork
 #. So that this div can be drawn above a scrollbar
@@ -2894,12 +2849,12 @@ msgstr "排序顺序"
 #: controls/albumlistView.js:129 controls/gridview.js:1189
 #: controls/videoGrid.js:87
 msgid "ascending"
-msgstr ""
+msgstr "升序"
 
 #: controls/albumlistView.js:129 controls/gridview.js:1189
 #: controls/videoGrid.js:87
 msgid "descending"
-msgstr ""
+msgstr "降序"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, specific for each track
@@ -2916,11 +2871,11 @@ msgstr "日期"
 #. so correct value for new DS can be set
 #: controls/albumTracklist.js:95
 msgid "Season %s"
-msgstr ""
+msgstr "季 %s"
 
 #: controls/albumTracklist.js:97
 msgid "Disc %s"
-msgstr ""
+msgstr "唱片片 %s"
 
 #. @ts-ignore
 #. @ts-ignore
@@ -2928,39 +2883,37 @@ msgstr ""
 #: controls/albumViewHeader.js:176 controls/artistViewHeader.js:59
 #: controls/artistViewHeader.js:61
 msgid "Switch"
-msgstr ""
+msgstr "切换"
 
 #: controls/albumViewHeader.js:152 controls/artistViewHeader.js:100
 msgid "Update properties"
-msgstr ""
+msgstr "更新属性"
 
 #: controls/albumViewHeader.js:176
 msgid "Release"
-msgstr ""
+msgstr "发布"
 
 #: controls/albumViewHeader.js:203 controls/artistViewHeader.js:121
 #: controls/seriesViewHeader.js:146 controls/nowPlaying/artistBio.js:80
 msgid "Choose different language"
-msgstr ""
+msgstr "选择不同的语言"
 
 #: controls/albumViewHeader.js:227 controls/artistViewHeader.js:145
 msgid "Edit in Wikipedia"
-msgstr ""
+msgstr "在维基百科编辑"
 
 #: controls/albumViewHeader.js:239
 msgid "Edit album in MusicBrainz"
-msgstr ""
+msgstr "在 MusicBrainz 编辑专辑"
 
 #: controls/albumViewHeader.js:251
 msgid "Edit release in MusicBrainz"
-msgstr ""
+msgstr "在 MusicBrainz 编辑发行"
 
 #: controls/albumViewHeader.js:276 controls/artistViewHeader.js:182
 #: controls/seriesViewHeader.js:188
-#, fuzzy
-#| msgid "Artist Comment"
 msgid "Edit comment"
-msgstr "艺术家备注"
+msgstr "编辑评论"
 
 #. reload view, album cloud be merged
 #. id or mbgid changed, reload view
@@ -2992,12 +2945,12 @@ msgstr "以后, 不用再询问我"
 #: helpers/artistDataSource.js:140 helpers/artistDataSource.js:158
 #: helpers/seriesDataSource.js:176 helpers/seriesDataSource.js:257
 msgid "Getting"
-msgstr ""
+msgstr "获取"
 
 #: controls/albumViewHeader.js:543 controls/albumViewHeader.js:571
 #: controls/albumViewHeader.js:597
 msgid "album image"
-msgstr ""
+msgstr "专辑图像"
 
 #. to refetch image after DS change
 #: controls/albumViewHeader.js:707 controls/listview.js:1393
@@ -3005,56 +2958,54 @@ msgstr ""
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:23 CDDBUtils.pas:1354
 #: CDDBUtils.pas:1419
 msgid "track"
-msgstr ""
+msgstr "曲目"
 
 #. to properly handle scrollbars of Scroller per the LV content.
 #. to properly handle scrollbars of Scroller per the LV content.
 #. to properly handle scrollbars of Scroller per the LV content
 #: controls/artistTracks.js:19 controls/genreTracks.js:31
 #: controls/yearTracks.js:28
-#, fuzzy
-#| msgid "per Track"
 msgid "Top Tracks"
-msgstr "每首曲目"
+msgstr "热门曲目"
 
 #: controls/artistTracks.js:22 controls/genreTracks.js:31
 msgid "Show all tracks"
-msgstr ""
+msgstr "显示所有曲目"
 
 #: controls/artistTracks.js:23 controls/genreTracks.js:31
 #: controls/yearTracks.js:28
 msgid "Loading all tracks"
-msgstr ""
+msgstr "加载所有曲目"
 
 #: controls/artistTracks.js:26 controls/artistTracks.js:27
 #: controls/artistTracks.js:225 controls/genreTracks.js:33
 #: controls/genreTracks.js:251 controls/yearTracks.js:229
 msgid "All tracks"
-msgstr ""
+msgstr "所有曲目"
 
 #: controls/artistTracks.js:30 controls/genreTracks.js:33
 #: controls/yearTracks.js:30
 msgid "Show Top Tracks only"
-msgstr ""
+msgstr "仅显示热门曲目"
 
 #: controls/artistTracks.js:36
 msgid "Tracks (unclassified)"
-msgstr ""
+msgstr "（未分类）曲目"
 
 #. Youtube track, allow searching it on Youtube
 #: controls/artistTracks.js:39 dialogs/dlgTrackProperties/tabBasic.js:159
 #: dialogs/dlgTrackProperties/tabBasic.js:198
 msgid "Show more from YouTube"
-msgstr ""
+msgstr "从 YouTube 显示更多"
 
 #: controls/artistTracks.js:40
 msgid "Loading more from YouTube"
-msgstr ""
+msgstr "从 YouTube 加载更多"
 
 #. #20968
 #: controls/artistTracks.js:87
 msgid "Add to MusicBrainz"
-msgstr ""
+msgstr "添加到 MusicBrainz"
 
 #. prepare right sort string for new data source
 #. prepare right sort string for new data source
@@ -3062,26 +3013,24 @@ msgstr ""
 #: controls/artistTracks.js:221 controls/genreTracks.js:247
 #: controls/yearTracks.js:225
 msgid "show all %d tracks"
-msgstr ""
+msgstr "显示所有 %d 曲目"
 
 #: controls/artistTracks.js:223 controls/genreTracks.js:249
 #: controls/yearTracks.js:227
 msgid "All %d tracks"
-msgstr ""
+msgstr "所有 %d 曲目"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. no online tracks found, probably MB server timout/failed connection
 #: controls/artistTracks.js:413
 #: Scripts/imageSearch/helpers/searchTools_add.js:90
 #: Scripts/imageSearch/helpers/searchTools_add.js:123
-#, fuzzy
-#| msgid "Download"
 msgid "Download error"
-msgstr "下载"
+msgstr "下载错误"
 
 #: controls/artistViewHeader.js:157
 msgid "Edit in MusicBrainz"
-msgstr ""
+msgstr "在 MusicBrainz 中编辑"
 
 #. @ts-ignore
 #: controls/artistViewHeader.js:559 dblistutils.pas:1529
@@ -3095,16 +3044,16 @@ msgstr "移除影像"
 
 #: controls/artWindow.js:675 controls/nowPlaying/fullList.js:115
 msgid "Save image"
-msgstr ""
+msgstr "保存图像"
 
 #: controls/artWindow.js:687 controls/nowPlaying/fullList.js:131
 #: controls/nowPlaying/largeLyrics.js:65
 msgid "Save lyrics"
-msgstr ""
+msgstr "保存歌词"
 
 #: controls/artWindow.js:705
 msgid "Images"
-msgstr ""
+msgstr "图像"
 
 #: controls/artWindow.js:719 FormatsManage.pas:5542 FormatsManage.pas:5574
 msgid "Image"
@@ -3113,31 +3062,31 @@ msgstr "影像"
 #. to load the new image thumb
 #: controls/artWindow.js:744
 msgid "No images"
-msgstr ""
+msgstr "没有图像"
 
 #: controls/artWindow.js:756 controls/trackListView.js:50
 msgid "Properties"
-msgstr ""
+msgstr "属性"
 
 #: controls/artWindow.js:860
 msgid "Allow edits"
-msgstr ""
+msgstr "允许编辑"
 
 #. search link is present only if searching artwork in album a not on web (when searchMissingArtwork is false)
 #. artwork was not loaded - file was already deleted or artwork removed from tag outside MM5, or file with artwork overwritten
 #: controls/artWindow.js:1491 MediaMonkeyApp.pas:8438
 msgid "Artwork not found"
-msgstr ""
+msgstr "未找到艺术作品"
 
 #. min size of art window
 #: controls/artWindow.js:1670
 msgid "Artwork only"
-msgstr ""
+msgstr "仅限艺术作品"
 
 #. to load the new image thumb
 #: controls/artWindow.js:1757 dialogs/dlgTrackProperties.js:14
 msgid "Basic"
-msgstr ""
+msgstr "基本的"
 
 #: controls/artWindow.js:2062 controls/statusbar.js:114
 #: controls/statusbar.js:140 controls/statusbar.js:167
@@ -3152,40 +3101,40 @@ msgid ""
 "conversion rules. To convert content on-the-fly to different formats or to "
 "higher/lower bitrates, please upgrade to MediaMonkey Gold."
 msgstr ""
+"MediaMonkey 的标准版本允许您使用默认的自动转换规则。要即时将内容转换为不同格"
+"式或更高/更低的比特率，请升级到 MediaMonkey 金装版。"
 
 #. this.localListen(this.imgloader, 'load', this.imgLoaded.bind(this));
 #: controls/backgroundImage.js:118
 msgid "Animate background on playback"
-msgstr ""
+msgstr "播放时动态背景"
 
 #: controls/backgroundImage.js:132
 msgid "Cycle Artist images"
-msgstr ""
+msgstr "循环艺术家图像"
 
 #: controls/backgroundImage.js:143
 msgid "Artwork (blurred)"
-msgstr ""
+msgstr "艺术（模糊）"
 
 #: controls/backgroundImage.js:154
 msgid "Artwork (darken)"
-msgstr ""
+msgstr "艺术（暗）"
 
 #: controls/backgroundImage.js:165
 msgid "Artwork (original)"
-msgstr ""
+msgstr "艺术（原始）"
 
 #
 #. this.typeActions = [this.showArtistsAction, this.showAlbumAction];
 #: controls/backgroundImage.js:178
-#, fuzzy
-#| msgid "Background"
 msgid "Background image"
-msgstr "背景"
+msgstr "背景图像"
 
 #. F10 - toggle automatic preset change
 #: controls/baseVis.js:135 controls/baseVis.js:136
 msgid "Automatic preset change"
-msgstr ""
+msgstr "自动预设更改"
 
 #: controls/baseVis.js:135 controls/player.js:380 controls/player.js:390
 #: controls/player.js:458 controls/player.js:467 controls/player.js:478
@@ -3220,7 +3169,7 @@ msgstr "取消"
 
 #: controls/buttons.js:418
 msgid "Abort"
-msgstr ""
+msgstr "中止"
 
 #: controls/buttons.js:424 dialogs/dlgErrorLog.js:135
 msgid "Retry"
@@ -3229,15 +3178,15 @@ msgstr "重试"
 #. #16618
 #: controls/buttons.js:429 ExceptionHandler.pas:329 ResStrings.pas:525
 msgid "Ignore"
-msgstr ""
+msgstr "忽略"
 
 #: controls/buttons.js:439
 msgid "No to all"
-msgstr ""
+msgstr "全部否"
 
 #: controls/buttons.js:444
 msgid "Yes to all"
-msgstr ""
+msgstr "全部是"
 
 #: controls/buttons.js:449 FullPlayer.pas:4516 MaskHelper.pas:3291
 #: UpNp.pas:8781 dialogs\dlgErrorLog.html:20
@@ -3250,11 +3199,11 @@ msgstr "全部确认"
 
 #: controls/buttons.js:470
 msgid "Edit to All"
-msgstr ""
+msgstr "全部编辑"
 
 #: controls/buttons.js:475
 msgid "Ignore to All"
-msgstr ""
+msgstr "全部忽略"
 
 #. moved to worker because of #14831
 #: controls/buttons.js:480 FormatsHandler.pas:3451 ResStrings.pas:589
@@ -3263,7 +3212,7 @@ msgstr "查找遗失的编码解码器"
 
 #: controls/buttons.js:490 ResStrings.pas:591
 msgid "Connect"
-msgstr ""
+msgstr "连接"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. do not use innerHTML for line values, mask values usually contains < >
@@ -3274,12 +3223,12 @@ msgstr "浏览"
 
 #: controls/buttons.js:500
 msgid "Register/Purchase"
-msgstr ""
+msgstr "注册/购买"
 
 #. load values:
 #: controls/clientConfig.js:74 controls/serverConfig.js:88
 msgid "Shared content"
-msgstr ""
+msgstr "共享内容"
 
 #: controls/clientConfig.js:78 controls/serverConfig.js:92
 #: controls/deviceConfig/options.js:5 dialogs\dlgOptions\pnl_Performance.html:6
@@ -3298,17 +3247,17 @@ msgstr "排序"
 
 #: controls/columntracklist.js:201
 msgid "Automatic column widths"
-msgstr ""
+msgstr "自动列宽"
 
 #: controls/columntracklist.js:226
 msgid "Hide column"
-msgstr ""
+msgstr "隐藏列"
 
 #. root items insert directly to presetColumns, so we will not need to move them here later
 #: controls/columntracklist.js:299 controls/maskedit.js:230
 #: controls/tracklistFilter.js:451
 msgid "All fields"
-msgstr ""
+msgstr "所有字段"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. not used and will be visible
@@ -3323,17 +3272,17 @@ msgstr "其他"
 #. this listeners are unregistered when dataSource is changed
 #: controls/control.js:1391
 msgid "Getting data"
-msgstr ""
+msgstr "获取数据"
 
 #. Add Inspect Element popup command (chromium 39 or later)
 #: controls/control.js:1484
 msgid "Inspect Element"
-msgstr ""
+msgstr "检查元素"
 
 #. _this._lastMousePos.x, _this._lastMousePos.y
 #: controls/control.js:1498
 msgid "Open DevTools in Chrome"
-msgstr ""
+msgstr "在 Chrome 中打开开发者工具"
 
 #. so that is not used for another dataSource meanwhile (or destroyed)
 #: controls/deviceConfig.js:54
@@ -3362,26 +3311,27 @@ msgstr "剩余"
 
 #: controls/deviceConfig.js:381
 msgid "Sync list (Library --> Device)"
-msgstr ""
+msgstr "同步列表（媒体库 --> 设备）"
 
 #: controls/deviceConfig.js:385
 msgid "Sync list (Device --> Library)"
-msgstr ""
+msgstr "同步列表（设备 --> 媒体库）"
 
 #: controls/deviceConfig.js:389
 msgid "Sync profile"
-msgstr ""
+msgstr "同步配置文件"
 
 #: controls/deviceContentRandomizer.js:9
 msgid ""
 "Sync a random subset of the selected files filling the target to the set "
 "limit. This is useful for syncing random tracks to a device/location that "
 "cannot contain your entire library."
-msgstr ""
+msgstr "同步选定文件的随机子集，填满目标至设定的限制。这对同步随机音轨到无法容纳您整"
+"个资料库的设备/位置很有用。"
 
 #: controls/deviceContentRandomizer.js:9
 msgid "Sync random subset of selected files up to target capacity"
-msgstr ""
+msgstr "将选定文件的随机子集同步至目标容量"
 
 #: controls/deviceContentRandomizer.js:12
 msgid "This gives preference to tracks with higher ratings."
@@ -3439,18 +3389,16 @@ msgstr "无法播放的单曲"
 #: controls/devicesView.js:157 controls/listview.js:1393
 #: controls/searchView.js:704 controls/treeview.js:87
 msgid "Show all"
-msgstr ""
+msgstr "显示全部"
 
 #: controls/devicesView.js:159 controls/searchView.js:706
 msgid "Show less"
-msgstr ""
+msgstr "显示更少"
 
 #. override to prevent from restore on LV descendant, it would assert in ListView.RestoreState  (dataSource == null)
 #: controls/downloadView.js:23
-#, fuzzy
-#| msgid "Resume all"
 msgid "Resume"
-msgstr "全部恢复"
+msgstr "继续"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that screen tests are user independent
@@ -3488,7 +3436,7 @@ msgstr "目标位置"
 #. check empty value
 #: controls/dropdown.js:560 dialogs/dlgAutotag.js:49
 msgid "empty"
-msgstr ""
+msgstr "空"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. update the download status and path
@@ -3522,12 +3470,12 @@ msgstr "居中"
 
 #: controls/equalizer.js:136 controls\equalizer.html:2
 msgid "Balance:"
-msgstr ""
+msgstr "余额："
 
 #. }]);
 #: controls/feedlistview.js:53
 msgid "feed"
-msgstr ""
+msgstr "订阅源"
 
 #: controls/filetypetree.js:40 dialogs/dlgSupportedFormats.js:31
 #: dialogs\dlgAutoConvertRule.html:33
@@ -3538,15 +3486,15 @@ msgstr "格式"
 #. #16568 - item 2
 #: controls/filterEditor.js:116 controls/playlistHeader.js:261
 msgid "Hide editor"
-msgstr ""
+msgstr "隐藏编辑器"
 
 #: controls/filterEditor.js:129 controls\equalizer.html:9
 msgid "Reset"
-msgstr ""
+msgstr "重置"
 
 #: controls/filterEditor.js:137
 msgid "Save as AutoPlaylist..."
-msgstr ""
+msgstr "另存为自动播放列表..."
 
 #. @ts-ignore
 #: controls/genreViewHeader.js:159 dblistutils.pas:1538 UPnPTreeHelper.pas:1916
@@ -3556,62 +3504,62 @@ msgstr "未知的风格"
 #. this method can be overrided if necessary
 #: controls/itemsListView.js:112
 msgid "Add new"
-msgstr ""
+msgstr "添加新项"
 
 #. expand/collapse icons:
 #: controls/listview.js:1396 controls/treeview.js:79
 msgid "Collapse"
-msgstr ""
+msgstr "折叠"
 
 #. supress toast messages when we are placed into a view, search bar is taking it
 #: controls/listview.js:2710
 msgid "Scroll to"
-msgstr ""
+msgstr "滚动到"
 
 #: controls/listview.js:2710
 msgid "Use %s for the next match"
-msgstr ""
+msgstr "使用 %s 进行下一个匹配"
 
 #. it just looped through all the controls to find that there is still the same (and single) occurence -- don't consider this as search failure (#15185 - item 11)
 #: controls/listview.js:2713 controls/searchBar.js:391
 #: controls/searchBar.js:393
 msgid "phrase not found"
-msgstr ""
+msgstr "未找到短语"
 
 #. eslint-disable-next-line no-cond-assign
 #. not cleared yet
 #: controls/listview.js:4916 controls/listview.js:4920
 msgid "Close popup"
-msgstr ""
+msgstr "关闭弹窗"
 
 #. this.closeBtnOnHover = true;
 #: controls/maintabs.js:28
 msgid "Close tab"
-msgstr ""
+msgstr "关闭标签页"
 
 #: controls/maintabs.js:40
 msgid "Close other tabs"
-msgstr ""
+msgstr "关闭其他标签页"
 
 #: controls/maintabs.js:58
 msgid "Close tabs to the right"
-msgstr ""
+msgstr "关闭右侧的标签页"
 
 #: controls/maskEditWizard.js:70
 msgid "Main directory:"
-msgstr ""
+msgstr "主目录："
 
 #: controls/maskEditWizard.js:70
 msgid "Statically defined root folder"
-msgstr ""
+msgstr "静态定义的根文件夹"
 
 #: controls/maskEditWizard.js:75
 msgid "Subdirectories"
-msgstr ""
+msgstr "子目录"
 
 #: controls/maskEditWizard.js:75
 msgid "Subdirectories can be defined statically or using mask variables"
-msgstr ""
+msgstr "子目录可以静态定义或使用掩码变量"
 
 #: controls/maskEditWizard.js:78 dialogs\dlgOptions\pnl_Library.html:105
 msgid "Filenames"
@@ -3619,7 +3567,7 @@ msgstr "文件名"
 
 #: controls/maskEditWizard.js:78
 msgid "Filenames can be defined using mask variables or statically"
-msgstr ""
+msgstr "文件名可以使用掩码变量或静态定义"
 
 #: controls/maskEditWizard.js:81
 msgid "Sample:"
@@ -3628,55 +3576,53 @@ msgstr "采样:"
 #. Set the node path for the new tab with the contents of the item that was clicked
 #: controls/mediaTree.js:208
 msgid "Show all subnodes"
-msgstr ""
+msgstr "显示所有子节点"
 
 #. to hide the expand marks for corresponding nodes
 #: controls/mediaTree.js:221
 msgid "Scroll to match when typing in tree"
-msgstr ""
+msgstr "输入在树中匹配时滚动到匹配项"
 
 #. toggle:
 #: controls/mediaTree.js:230
 msgid "Focus tree nodes when browsing content"
-msgstr ""
+msgstr "浏览内容时聚焦树节点"
 
 #. do not notify about focus of this LV
 #: controls/menuToggleButton.js:26
 msgid "Choose alternate"
-msgstr ""
+msgstr "选择替代"
 
 #. data.subViews = oldPreset.subViews;
 #: controls/menuToggleButton.js:65 controls/multiview.js:180
 msgid "Views"
-msgstr ""
+msgstr "视图"
 
 #. this._oppositeX = value;
 #. e.g. Spotify does not support deletion
 #: controls/monitoredFoldersView.js:13 helpers/mediaSync.js:610
 msgid "Manual"
-msgstr ""
+msgstr "手动"
 
 #: controls/monitoredFoldersView.js:13 dialogs/dlgChooseFolders.js:14
 #: helpers/mediaSync.js:611
 msgid "At startup"
-msgstr ""
+msgstr "启动时"
 
 #: controls/monitoredFoldersView.js:13 dialogs/dlgChooseFolders.js:15
 #: helpers/mediaSync.js:2479
 msgid "Continuously"
-msgstr ""
+msgstr "不断地"
 
 #. #17177
 #: controls/monitoredFoldersView.js:14 MediaMonkeyApp.pas:9209
 msgid "Auto detection"
-msgstr ""
+msgstr "自动检测"
 
 #. _this.dataSource.deleteSelected();
 #: controls/monitoredFoldersView.js:171
-#, fuzzy
-#| msgid "Rating selected file(s)"
 msgid "Remove selected folder(s)"
-msgstr "星级已选择的文件"
+msgstr "删除选定的文件夹"
 
 #. second mouse click in less than 3 seconds starts editing
 #: controls/monitoredFoldersView.js:231 GlobVars.pas:2084
@@ -3686,19 +3632,19 @@ msgstr "古典音乐"
 #. get scan type text
 #: controls/monitoredFoldersView.js:280
 msgid "Schedule"
-msgstr ""
+msgstr "计划"
 
 #. dummy header icons here to take the space of the icons of individual rows bellow:
 #: controls/monitoredFoldersView.js:296
 msgid "Media Type"
-msgstr ""
+msgstr "媒体类型"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #18235#c64849
 #: controls/multiview.js:219 controls/sortBy.js:60
 #: controls\searchEditor.html:44
 msgid "Sort by"
-msgstr ""
+msgstr "排序依据"
 
 #. permanent (always enabled) sub-view
 #: controls/multiview.js:254
