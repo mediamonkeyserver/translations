@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-17 16:56\n"
-"PO-Revision-Date: 2025-03-21 10:53+0000\n"
+"PO-Revision-Date: 2025-03-21 11:06+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Hungarian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/hu/>\n"
@@ -6546,23 +6546,22 @@ msgid "Scanning %s:"
 msgstr "%s vizsgálata:"
 
 #: helpers/searchCommon.js:380
-#, fuzzy
 msgid "Pairing"
 msgstr "Párosítás"
 
 #: helpers/seriesDataSource.js:60
 msgid "series"
-msgstr ""
+msgstr "sorozat"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #: helpers/seriesDataSource.js:108
 msgid "Another series"
-msgstr ""
+msgstr "Másik sorozat"
 
 #. helper function for preparing track item
 #: helpers/seriesDataSource.js:238
 msgid "Specials"
-msgstr ""
+msgstr "Különlegességek"
 
 #. visibilityCheck option is a color to compare the chosen color against, to ensure visibility of all elements
 #: helpers/skinConfig.js:227
@@ -6570,6 +6569,8 @@ msgid ""
 "The color combination you chose would result in text being unreadable. "
 "Please choose a different color combination."
 msgstr ""
+"Az Ön által választott színkombináció szöveg olvashatatlanságát "
+"eredményezné. Kérjük, válasszon másik színkombinációt."
 
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:6
 msgid "Side by side"
@@ -6578,7 +6579,7 @@ msgstr "Egymás mellett"
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:46
 #: dialogs\dlgTrackProperties\tabLyrics.html:11
 msgid "Lookup lyrics"
-msgstr ""
+msgstr "Dalszövegek keresése"
 
 #: Scripts/autoIncTrack/actions_add.js:4 Scripts/autoIncTrack/actions_add.js:21
 msgid "Auto-increment Track #s"
@@ -6589,20 +6590,20 @@ msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
 msgstr ""
+"Ez módosítani fogja a szám# mezőt a kiválasztott %d számokhoz sorrendben."
 
 #: Scripts/autoIncTrack/actions_add.js:23
 msgid "Start numbering from:"
 msgstr "Számozás kezdése innen:"
 
 #: Scripts/caseChecker/actions_add.js:2 Scripts/caseChecker/actions_add.js:12
-#, fuzzy
 msgid "Case Checker"
-msgstr "Írásmódellenőrzés"
+msgstr "Kisbetűs/Nagybetűs ellenőrző"
 
 #. Make sure there are tracks loaded
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:470
 msgid "Select tracks to be updated"
-msgstr ""
+msgstr "Válassza ki a frissítendő számokat"
 
 #: Scripts/export/actions_add.js:39 Scripts/export/actions_add.js:51
 msgid "MediaMonkey Filelist"
@@ -6640,22 +6641,24 @@ msgstr "Exportálás"
 
 #: Scripts/exportPlaylists/actions_add.js:2
 msgid "Export all playlists"
-msgstr ""
+msgstr "Minden lejátszási lista exportálása"
 
 #. Open inifile and get last used directory
 #: Scripts/exportPlaylists/actions_add.js:41
 msgid "Select where to export all M3U files"
-msgstr ""
+msgstr "Válassza ki, hova exportálja az összes M3U fájlt"
 
 #: Scripts/exportPodcasts/actions_add.js:2
 msgid "Export subscribed podcasts"
-msgstr ""
+msgstr "Feliratkozott podcastok exportálása"
 
 #: Scripts/imageSearch/helpers/searchTools_add.js:248
 msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
+"A MediaMonkey különböző weboldalakról keres képeket. Kérjük, válasszon, hogy "
+"elfogadja vagy elutasítja a képek kereséséhez szükséges cookie-kat."
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1512
@@ -6669,19 +6672,16 @@ msgstr "Hiba a tartalom letöltésekor. Kattintson az újrapróbálkozáshoz."
 
 #. correct cleaning including listeners
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1560
-#, fuzzy
 msgid ""
 "No matching content online. Please verify the spelling of existing metadata "
 "or edit the entry in "
 msgstr ""
-"Nincs egyező tartalom az interneten. Kérjük ellenőrizze a meglévő metaadatok "
-"helyesírását, vagy szerkessze a bejegyzést "
+"Nem található egyezés az online tartalommal. Kérjük, ellenőrizze a meglévő "
+"metaadatok helyesírását vagy szerkessze az bejegyzést "
 
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:31
-#, fuzzy
-#| msgid "During Recording"
 msgid "recording"
-msgstr "Felvétel közben"
+msgstr "felvétel"
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
@@ -6718,90 +6718,70 @@ msgid "File size"
 msgstr "Fájlméret"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:322
-#, fuzzy
-#| msgid "Average bitrate"
 msgid "Averages"
-msgstr "Átlagos bitráta"
+msgstr "Átlagok"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:324
-#, fuzzy
-#| msgid "# Tracks by Artist"
 msgid "Tracks per Artist"
-msgstr "# db szám az előadótól"
+msgstr "Számok előadónként"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:325
-#, fuzzy
-#| msgid "# Tracks in Album"
 msgid "Tracks per Album"
-msgstr "# db szám az albumban"
+msgstr "Számok albumonként"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:326
 msgid "Tracks per Genre"
-msgstr ""
+msgstr "Számok műfajonként"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:327
 msgid "Tracks per Year"
-msgstr ""
+msgstr "Számok évenként"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:328
-#, fuzzy
-#| msgid "Bitrate"
 msgid "Bitrate (kbps)"
-msgstr "Bitráta"
+msgstr "Bitráta (kbps)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
-#, fuzzy
-#| msgid "Track %s failed to verify"
 msgid "Tracks played per day"
-msgstr "A(z) %s számot nem sikerült ellenőrizni"
+msgstr "Naponta lejátszott számok"
 
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:340
-#, fuzzy
-#| msgid "Artists"
 msgid "Top %d Artists"
-msgstr "Szerzők"
+msgstr "Top %d előadók"
 
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:373
 msgid "Top %d Artists played"
-msgstr ""
+msgstr "Top %d lejátszott előadók"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:402
-#, fuzzy
-#| msgid "per Album"
 msgid "Top %d Albums"
-msgstr "albumonként"
+msgstr "Top %d albumok"
 
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:433
 msgid "Top %d Albums played"
-msgstr ""
+msgstr "Top %d lejátszott albumok"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:463
-#, fuzzy
-#| msgid "Genres"
 msgid "Top %d Genres"
-msgstr "Műfajok"
+msgstr "Top %d műfajok"
 
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:490
 msgid "Top %d Genres played"
-msgstr ""
+msgstr "Top %d játszott műfajok"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:516
-#, fuzzy
-#| msgid "Rating"
 msgid "Ratings"
-msgstr "Értékelés"
+msgstr "Értékelések"
 
 #. rating played
 #: Scripts/statistics/dialogs/dlgStatistics.js:562
-#, fuzzy
-#| msgid "Rating now playing file"
 msgid "Ratings played"
 msgstr "Lejátszott értékelések"
 
@@ -6814,40 +6794,37 @@ msgstr "MediaMonkey Zenetár statisztika"
 #: Scripts/swapArtistTitle/actions_add.js:4
 #: Scripts/swapArtistTitle/actions_add.js:18
 msgid "Swap Artist and Title"
-msgstr ""
+msgstr "Előadó és cím felcserélése"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:2
 msgid "Set as sync target"
-msgstr ""
+msgstr "Beállítás szinkronizálási célként"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:7
 msgid ""
 "This will create a new sync profile for this drive/folder so that you can "
 "sync files to this location as if it were a portable device."
 msgstr ""
+"Ez létrehoz egy új szinkronizálási profilt ehhez a meghajtóhoz/mappához, "
+"hogy fájlokat szinkronizálhasson erre a helyre, mintha hordozható eszköz "
+"lenne."
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:231
-#, fuzzy
-#| msgid "Sync"
 msgid "Sync root"
-msgstr "Szinkronizálás"
+msgstr "Szinkronizálás gyökér"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:87
-#, fuzzy
-#| msgid "Enable hardware acceleration"
 msgid "Milkshake requires Hardware Acceleration to be enabled"
-msgstr "Hardveres gyorsítás engedélyezése"
+msgstr "A Milkshake-nek szüksége van a hardveres gyorsítás bekapcsolására"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:267
-#, fuzzy
-#| msgid "Use presets"
 msgid "Select preset"
-msgstr "Előbeállítások használata"
+msgstr "Válasszon előre beállítottat"
 
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:297
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "Váltás minimum szélességre a YouTube videóhoz."
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -6864,11 +6841,11 @@ msgstr "YouTube lekérdezés nem sikerül: "
 #: MetadataStorageHandler.pas:1549 MetadataStorageHandler.pas:1550
 #: MetadataStorageHandler.pas:1611
 msgid "Problem while updating file %s: %s"
-msgstr ""
+msgstr "Hiba a fájl frissítése közben: %s: %s"
 
 #: AndroidDBHandler.pas:1326 AndroidDBHandler.pas:1328 Devices.pas:15979
 msgid "Problem while deleting file %s: %s"
-msgstr ""
+msgstr "Hiba a fájl törlése közben: %s: %s"
 
 #: ArtistsManage.pas:1203 AutoOrganize.pas:1593
 msgid "All Genres"
@@ -6888,19 +6865,18 @@ msgstr "%d fájl címkézése"
 
 #: BaseApp.pas:7704
 msgid "There are background processes running. Terminate them?"
-msgstr ""
+msgstr "Háttérfolyamatok futnak. Megszakítja őket?"
 
 #. we don't know parent playlist id yet
 #: BaseMedia.pas:4253 Importers.pas:150 M3Umanage.pas:647 MP3Utils.pas:1603
 msgid "Imported Playlists"
-msgstr ""
+msgstr "Importált lejátszási listák"
 
 #: BaseMedia.pas:4875
 msgid "Channel"
 msgstr "Csatorna"
 
 #: BaseMedia.pas:4891 BaseMedia.pas:4963
-#, fuzzy
 msgid "encrypted"
 msgstr "titkosított"
 
@@ -6914,11 +6890,11 @@ msgstr "fps"
 
 #: BaseMedia.pas:15503
 msgid "%d database entries to be updated"
-msgstr ""
+msgstr "%d adatbázis-bejegyzés frissítése szükséges"
 
 #: BaseMedia.pas:15889 Filters.pas:2796
 msgid "list"
-msgstr ""
+msgstr "lista"
 
 #: BaseMedia.pas:16530 Filters.pas:2738 ResStrings.pas:393
 msgid "albums"
@@ -6926,17 +6902,17 @@ msgstr "album"
 
 #: BaseMedia.pas:20171
 msgid "Reorder track(s)"
-msgstr ""
+msgstr "Szám(ok) újrarendezése"
 
 #. for tracks<=current track does copy instead of move
 #: BaseMedia.pas:20179
 msgid "Reorder/copy track(s)"
-msgstr ""
+msgstr "Szám(ok) újrarendezése/másolása"
 
 #. LS: following changed to toast message because of #19274
 #: CDDBUtils.pas:258
 msgid "There was an error while connecting to "
-msgstr ""
+msgstr "Hiba történt a kapcsolat során "
 
 #: CDDBUtils.pas:260
 msgid "There was an error while connecting to Freedb: "
@@ -6944,11 +6920,11 @@ msgstr "Hiba történt a Freedb-hez való kapcsolódáskor: "
 
 #: CDDBUtils.pas:510 CDDBUtils.pas:985
 msgid "Retrieving result %d of %d"
-msgstr ""
+msgstr "Eredmény %d/%d lekérése"
 
 #: CDDBUtils.pas:761
 msgid "Opening connection"
-msgstr ""
+msgstr "Kapcsolat megnyitása"
 
 #: CDDBUtils.pas:777
 msgid "Cannot create connection."
@@ -6969,7 +6945,7 @@ msgstr ""
 
 #: CDDBUtils.pas:1943
 msgid "Requesting information for %s (%d of %d)"
-msgstr ""
+msgstr "Információkérés %s esetében (%d/%d)"
 
 #: CDDBUtils.pas:1991 CDDBUtils.pas:2016
 msgid "This Audio CD was not found in Freedb."
@@ -6987,7 +6963,7 @@ msgstr "(a szám nincs benne az adatbázisban)"
 
 #: CDUtils.pas:1452
 msgid "(bad rip or the database has partial/inaccurate data)"
-msgstr ""
+msgstr "(rossz rip vagy az adatbázis részleges/pontatlan adatokat tartalmaz)"
 
 #: CDUtils.pas:1455
 msgid "(error parsing verification file)"
@@ -7003,7 +6979,7 @@ msgstr ""
 
 #: CDUtils.pas:1462
 msgid "this CD doesn't exist in the database"
-msgstr ""
+msgstr "ez a CD nem létezik az adatbázisban"
 
 #: CDUtils.pas:1485
 msgid "Requesting data from AccurateRip.com database"
@@ -7029,9 +7005,8 @@ msgstr ""
 "hangadat sérült."
 
 #: CDUtils.pas:1926
-#, fuzzy
 msgid "Drive %s is currently in use."
-msgstr "A(z) %s meghajtó kifogy a szabad helyből."
+msgstr "A %s meghajtó jelenleg használatban van."
 
 #: Covers.pas:767
 msgid "Not specified"
@@ -7094,15 +7069,13 @@ msgid "Unsaved image"
 msgstr "Nem mentett kép"
 
 #: Covers.pas:1275
-#, fuzzy
-#| msgid "Save image"
 msgid "Save to tag"
-msgstr "Kép mentése"
+msgstr "Mentés címkébe"
 
 #. %s for image file name
 #: Covers.pas:1277
 msgid "Save to: %s"
-msgstr ""
+msgstr "Mentés ide: %s"
 
 #: Covers.pas:1279
 msgid "Stored in tag"
@@ -7118,6 +7091,8 @@ msgid ""
 "All links to the image %s have been removed from the Library. Would you like "
 "to delete it from the drive as well?"
 msgstr ""
+"Az összes %s kép hivatkozása eltávolításra került a könyvtárból. Törölni "
+"szeretné a meghajtóról is?"
 
 #. Get exclusive access to the DB
 #. VACUUM fails with "out of memory" exception on large databases (7 GB, 2.2 million of tracks)
@@ -7139,16 +7114,12 @@ msgid "Do you really want to remove %d previews?"
 msgstr "Biztosan eltávolít %d előnézetet?"
 
 #: DatabaseManage.pas:3296
-#, fuzzy
-#| msgid "Are you sure you want to remove %d files from the Library?"
 msgid "Are you sure you want to remove %d file(s) from the Library?"
-msgstr "Bizotsan törli a(z) fájlokat a médiatárból?"
+msgstr "Biztosan szeretné eltávolítani a/z %d fájlt a könyvtárból?"
 
 #: DatabaseManage.pas:3297
-#, fuzzy
-#| msgid "Are you sure you want to delete %d files?"
 msgid "Are you sure you want to delete %d file(s)?"
-msgstr "Biztosan törli a %d fájlokat?"
+msgstr "Biztosan szeretné törölni a/z %d fájlt?"
 
 #: DatabaseManage.pas:3319
 msgid "Removing file %s (%d of %d)"
@@ -7156,7 +7127,7 @@ msgstr "%s fájl törlése (%d / %d)"
 
 #: dblistutils.pas:1239
 msgid "%d of %d folders processed"
-msgstr ""
+msgstr "A feldolgozott mappák száma: %d/%d"
 
 #: dblistutils.pas:1528 UpNp.pas:6232 UPnPTreeHelper.pas:1909 WebUtils.pas:2043
 #: WebUtils.pas:2067
@@ -7209,7 +7180,7 @@ msgstr "Több előadós album"
 
 #: dblistutils.pas:1544
 msgid "Ungrouped Multiple Artist Albums"
-msgstr ""
+msgstr "Csoportolatlan Több Előadós Albumok"
 
 #: dblistutils.pas:1547
 msgid "Dead Links"
@@ -7233,7 +7204,7 @@ msgstr "Címek duplikálása"
 
 #: dblistutils.pas:1553
 msgid "Duplicate Titles/Artists"
-msgstr ""
+msgstr "Duplikált Címek/Előadók"
 
 #: dblistutils.pas:1555
 msgid "Unclassified Files"
@@ -7266,7 +7237,7 @@ msgstr ""
 
 #: DBStructure.pas:276
 msgid "Updating to database version %d.%d.%d"
-msgstr ""
+msgstr "Adatbázis verzió frissítése %d.%d.%d"
 
 #. BPS was added in the past, check a offer rescan
 #: DBStructure.pas:828
@@ -7274,12 +7245,16 @@ msgid ""
 "This version of MediaMonkey supports new tag(s) (%s). Would you like to "
 "rescan files now in order to read these tags?"
 msgstr ""
+"Ez a MediaMonkey verzió új címkék (%s) támogatását tartalmazza. Szeretné "
+"most újra beolvasni a fájlokat, hogy ezeket a címkéket olvassa?"
 
 #: DBStructure.pas:971
 msgid ""
 "Library database %s can't be opened, would you like to create a new local "
 "Library?"
 msgstr ""
+"A könyvtári adatbázis %s nem nyitható meg, szeretne újat létrehozni helyi "
+"könyvtárként?"
 
 #: DBStructure.pas:2060 controls\deviceConfig\options\pnl_FileLocations.html:25
 msgid "Audiobook"
@@ -7292,11 +7267,11 @@ msgstr "Nemrég hozzáadott tartalom"
 #. "Added from {Device Title} on 2012-11-14"
 #: Devices.pas:3026
 msgid "Added from %s on %s"
-msgstr ""
+msgstr "Hozzáadva innen: %s %s-on/én"
 
 #: Devices.pas:3757
 msgid "Remove '%s' entries from the Library?"
-msgstr ""
+msgstr "Eltávolítja a(z) '%s' bejegyzéseket a könyvtárból?"
 
 #: Devices.pas:3762
 msgid "Delete downloaded content"
@@ -7304,15 +7279,16 @@ msgstr "Letöltött tartalom törlése"
 
 #: Devices.pas:3904
 msgid "Cannot remove directory %s."
-msgstr ""
+msgstr "Nem távolítható el az %s könyvtár."
 
 #: Devices.pas:5236 Settings.pas:1654
 msgid "Are you sure you want to reset this profile to its default settings?"
-msgstr ""
+msgstr "Biztosan visszaállítja ezt a profilt az alapértelmezett beállításaira?"
 
 #: Devices.pas:8663
 msgid "The device '%s' cannot be stopped now as it appears to be in use."
 msgstr ""
+"Az eszköz '%s' most nem állítható meg, úgy tűnik, hogy használatban van."
 
 #: Devices.pas:8664
 msgid "Problem Ejecting %s"
@@ -7339,21 +7315,30 @@ msgid ""
 "MediaMonkey, it's recommended that you initially sync over USB to preserve "
 "your existing sync configuration."
 msgstr ""
+"%s megpróbál szinkronizálni a MediaMonkey könyvtárával első alkalommal.\n"
+"\n"
+"\n"
+"\n"
+"Megjegyzés: Ha korábbi MediaMonkey verziókkal már szinkronizálta ezt az "
+"eszközt, ajánlott először USB-n keresztül szinkronizálni, hogy megőrizze a "
+"meglévő szinkronizálási konfigurációját."
 
 #: Devices.pas:10045
 msgid "No / I'll sync over USB instead"
-msgstr ""
+msgstr "Nem / Inkább USB-n keresztül szinkronizálok"
 
 #. capacity is unknown (e.g. Google Music)
 #: Devices.pas:11446
 msgid "Needed: %s, available: %s, to be freed: %s"
-msgstr ""
+msgstr "Szükséges: %s, elérhető: %s, felszabadítandó: %s"
 
 #: Devices.pas:11449
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
 msgstr ""
+"Nincs elegendő tárhely az eszközön a kiválasztott fájlok szinkronizálásához. "
+"Szeretne elegendő helyet felszabadítani létező fájlok törlésével?"
 
 #. Clear tracks on the device
 #: Devices.pas:11465
@@ -7361,6 +7346,8 @@ msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
 msgstr ""
+"Nincs elegendő tárhely az eszközön a kiválasztott fájlok szinkronizálásához. "
+"Folytatja?"
 
 #: Devices.pas:12006 FileUtils.pas:822 ResStrings.pas:571
 msgid "Insufficient space available."
@@ -7418,9 +7405,8 @@ msgstr ""
 "használják, vagy nincsen hozzáférési joga."
 
 #: ErrHandlers.pas:168 FileUtils.pas:822
-#, fuzzy
 msgid "Problem with copying file %s to %s."
-msgstr "Probléma a(z) %s fájl %s helyre másolásakor."
+msgstr "Hiba lépett fel a %s fájl %s helyre való másolása során."
 
 #: ErrHandlers.pas:176
 msgid ""
@@ -7440,6 +7426,8 @@ msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
 msgstr ""
+"Nem sikerült egy vagy több fájlt ripelni vagy ellenőrizni. Válassza ki "
+"azokat a számokat, amelyeket újra próbálna:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -7455,17 +7443,13 @@ msgstr "Rippelés eredményei"
 
 #. #18222
 #: ErrHandlers.pas:403
-#, fuzzy
-#| msgid "There was a problem converting the following file(s):"
 msgid "There was a problem leveling volume for the following track(s):"
-msgstr "Probléma lépett fel a következő fájl(ok) konvertálásakor:"
+msgstr "Gond volt a következő szám(ok) hangerejének kiegyenlítésével:"
 
 #. #18222
 #: ErrHandlers.pas:416
-#, fuzzy
-#| msgid "There was a problem converting the following file(s):"
 msgid "There was a problem processing audio for the following track(s):"
-msgstr "Probléma lépett fel a következő fájl(ok) konvertálásakor:"
+msgstr "Gond volt a következő szám(ok) feldolgozása során:"
 
 #. #18222
 #: ErrHandlers.pas:430
@@ -7521,7 +7505,7 @@ msgstr "Letiltás és újraindítás"
 #. Pointer not needed.
 #: ExceptionHandler.pas:352
 msgid "Callstack"
-msgstr ""
+msgstr "Híváskövetés"
 
 #: ExceptionHandler.pas:501
 msgid "There was a runtime error in Addon"
@@ -7559,30 +7543,25 @@ msgid "No update available"
 msgstr "Nincs elérhető frissítés"
 
 #: Extensions.pas:1427 dialogs\dlgExtensions.html:15
-#, fuzzy
 msgid "Fetching update info"
-msgstr "Frissítés ellenőrzése"
+msgstr "Frissítési információk lekérése"
 
 #. standardize (#17808):
 #: Extensions.pas:1656 Extensions.pas:1660
-#, fuzzy
-#| msgid "Skin"
 msgid "Skins"
-msgstr "Téma"
+msgstr "Bőrfelületek"
 
 #: Extensions.pas:1657
-#, fuzzy
-#| msgid "Icon"
 msgid "Icons"
-msgstr "Ikon"
+msgstr "Ikonok"
 
 #: Extensions.pas:1659 dialogs\dlgSupportedFormat.html:67
 msgid "Profiles"
-msgstr ""
+msgstr "Profilok"
 
 #: Extensions.pas:1666
 msgid "Tweaks"
-msgstr ""
+msgstr "Finomhangolások"
 
 #: FileAssoc.pas:737
 msgid "Sync device"
@@ -7601,10 +7580,8 @@ msgid "Rip Audio CD"
 msgstr "Audió CD rippelése"
 
 #: FileAssoc.pas:743
-#, fuzzy
-#| msgid "&Install MediaMonkey package"
 msgid "&Install MediaMonkey package"
-msgstr "MediaMonkey csomag &telepítése"
+msgstr "&Telepítse a MediaMonkey csomagot"
 
 #. This is localized, user sees it when iPod is connected under Vista
 #: FileAssoc.pas:831
@@ -7612,16 +7589,12 @@ msgid "iPod"
 msgstr "iPod"
 
 #: FileAssoc.pas:956
-#, fuzzy
-#| msgid "Play CD with MediaMonkey"
 msgid "Play CD with MediaMonkey"
-msgstr "CD lejátszása a Mediamonkey-val"
+msgstr "CD lejátszása a MediaMonkey-val"
 
 #: FileAssoc.pas:969
-#, fuzzy
-#| msgid "Play DVD with MediaMonkey"
 msgid "Play DVD with MediaMonkey"
-msgstr "DVD lejátszása a Mediamonkey-val"
+msgstr "DVD lejátszása a MediaMonkey-val"
 
 #. issue #10108, if only "MediaMonkey" would be there then it won't appear in 'Set default programs' when both MM8 & MMW are installed (because of same app name)
 #: FileAssoc.pas:1071
@@ -7667,15 +7640,12 @@ msgid "Previews"
 msgstr "Előnézetek"
 
 #: FileUtils.pas:2581
-#, fuzzy
-#| msgid "%s cannot be reached"
 msgid "The directory %s cannot be created."
-msgstr "%s nem elérhető"
+msgstr "A könyvtár %s nem hozható létre."
 
 #: FileUtils.pas:2816
-#, fuzzy
 msgid "Drive %s is running out of space."
-msgstr "A(z) %s meghajtó kifogy a szabad helyből."
+msgstr "A %s meghajtón fogytán a hely."
 
 #: FileUtils.pas:2817
 msgid "Please free up space for MediaMonkey to function properly."
@@ -7766,7 +7736,7 @@ msgstr ""
 
 #: FormatsManage.pas:1449
 msgid "ripping"
-msgstr ""
+msgstr "rip"
 
 #. AAC MPEG4 Low Complexity
 #: FormatsManage.pas:2970
@@ -7853,7 +7823,7 @@ msgstr "Eközött: %d és %d"
 
 #: FormatsManage.pas:4552 FormatsManage.pas:4556
 msgid "bits per sample"
-msgstr ""
+msgstr "bitek mintánként"
 
 #. video stream
 #: FormatsManage.pas:4563 FormatsManage.pas:5118
@@ -7891,11 +7861,11 @@ msgstr "felett"
 #. using checkMedia removed, #18091
 #: FullPlayer.pas:2358
 msgid "Add %d file(s) to Playing"
-msgstr ""
+msgstr "%d fájl(ok) hozzáadása a Lejátszáshoz"
 
 #: FullPlayer.pas:2515
 msgid "Clear Playing"
-msgstr ""
+msgstr "Lejátszás törlése"
 
 #: FullPlayer.pas:2988
 msgid "Currently, there is no output plug-in selected"
@@ -7910,23 +7880,23 @@ msgstr ""
 #. no audio hw
 #: FullPlayer.pas:4344 GeneralDecoder.pas:450
 msgid "No audio hardware found"
-msgstr ""
+msgstr "Nincs hanghardver található"
 
 #. test accessibility first
 #: FullPlayer.pas:4489
 msgid "Playback failed: %s is inaccessible."
-msgstr ""
+msgstr "Lejátszás sikertelen: %s nem elérhető."
 
 #. try to find missing codecs
 #. try to catch some known errors and handle them
 #: FullPlayer.pas:4506 FullPlayer.pas:4510 FullPlayer.pas:4513
 #: FullPlayer.pas:4516
 msgid "Playback failed: %s cannot decode %s."
-msgstr ""
+msgstr "Lejátszás sikertelen: %s nem képes dekódolni %s."
 
 #: FullPlayer.pas:4772
 msgid "Clean"
-msgstr ""
+msgstr "Tisztítani"
 
 #. this song already was in the playlist
 #: FullPlayer.pas:5101
@@ -7935,13 +7905,14 @@ msgstr "Nem találhatók duplikátumok."
 
 #: FullPlayer.pas:5105
 msgid "Do you want to remove %d duplicate(s) Playing?"
-msgstr ""
+msgstr "Eltávolítja a%d duplikálódott (játszott) fájlt?"
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:6813
 msgid ""
 "The operation will complete after the the current file finishes playing."
 msgstr ""
+"A művelet akkor fejeződik be, amikor az aktuális fájl lejátszása véget ér."
 
 #: FullPlayer.pas:7273
 msgid ""
@@ -7953,7 +7924,7 @@ msgstr ""
 
 #: FullPlayer.pas:8367
 msgid "Computing waveform for file %s"
-msgstr ""
+msgstr "Hanggörbe számítása a %s fájlhoz"
 
 #: FullPlayer.pas:8928 WinAmpPlugins.pas:2916
 msgid "No configuration"
@@ -7970,6 +7941,8 @@ msgid ""
 "Do you want to use the database and settings from an existing installation "
 "of MediaMonkey?"
 msgstr ""
+"Szeretné használni a MediaMonkey meglévő telepítésének adatbázisát és "
+"beállításait?"
 
 #: GlobVars.pas:1866 controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Import settings"
@@ -8062,48 +8035,40 @@ msgstr "HID kulcs"
 
 #: hpCDEBurner.pas:843
 msgid "Erase disc"
-msgstr ""
+msgstr "Lemez törlése"
 
 #: hpCDEBurner.pas:847
 msgid "Try another disc"
-msgstr ""
+msgstr "Próbáljon meg egy másik lemezt"
 
 #. 2 minutes
 #: hpCDEBurner.pas:957
 msgid "minutes remaining"
-msgstr ""
+msgstr "hátralévő perc"
 
 #: hpCDEBurner.pas:959
 msgid "seconds remaining"
-msgstr ""
+msgstr "hátralévő másodperc"
 
 #: hpCDEBurner.pas:978
-#, fuzzy
-#| msgid "Calculating signatures..."
 msgid "Simulating"
-msgstr "Szignatúrák számolása..."
+msgstr "Szimuláció"
 
 #: hpCDEBurner.pas:979 hpCDEBurner.pas:981
-#, fuzzy
-#| msgid "Exporting"
 msgid "Writing"
-msgstr "Exportálás"
+msgstr "Írás"
 
 #: hpCDEBurner.pas:980
-#, fuzzy
-#| msgid "Close"
 msgid "Closing"
-msgstr "Bezárás"
+msgstr "Lezárás"
 
 #: hpCDEBurner.pas:982 ResStrings.pas:877
 msgid "Erasing"
-msgstr ""
+msgstr "Törlés"
 
 #: hpCDEBurner.pas:983
-#, fuzzy
-#| msgid "Cannot create connection."
 msgid "Waiting for a new disc"
-msgstr "Várakozás kapcsolatra szinkronizáláshoz"
+msgstr "Új lemezre várakozás"
 
 #. Check for termination, but give a warning:
 #: hpCDEBurner.pas:1005
@@ -8111,80 +8076,75 @@ msgid ""
 "Terminating a Disc burn will create an unreadable disc. Are you sure you "
 "want to proceed?"
 msgstr ""
+"Egy lemezírás megszakítása olvashatatlan lemezt hoz létre. Biztosan "
+"folytatni szeretné?"
 
 #: hpCDEBurner.pas:1181
-#, fuzzy
-#| msgid "%s was successfully installed."
 msgid "Disc %s (copy %d) burned successfully."
-msgstr "%s telepítése sikeres."
+msgstr "A %s lemez (másolat %d) sikeresen kiírva."
 
 #: hpCDEBurner.pas:1183
-#, fuzzy
-#| msgid "%s was successfully installed."
 msgid "Disc %s burned successfully."
-msgstr "%s telepítése sikeres."
+msgstr "A %s lemez sikeresen kiírva."
 
 #: hpCDEBurner.pas:1189
 msgid "Disc %s (copy %d) burn failed"
-msgstr ""
+msgstr "A %s lemez (másolat %d) írása sikertelen"
 
 #: hpCDEBurner.pas:1191
 msgid "Disc %s burn failed"
-msgstr ""
+msgstr "A %s lemez írása sikertelen"
 
 #. TODOWIN8
 #: hpCDEBurner.pas:1476
 msgid "Re-burn disc"
-msgstr ""
+msgstr "Újraírja a lemezt"
 
 #: hpCDEBurner.pas:1483
 msgid "Burn disc %d"
-msgstr ""
+msgstr "%d lemez írása"
 
 #: hpCDEBurner.pas:1486
 msgid "Burn another copy"
-msgstr ""
+msgstr "Újabb másolat írása"
 
 #: hpCDEBurner.pas:1497
 msgid "Could not set the required speed"
-msgstr ""
+msgstr "A szükséges sebesség nem állítható be"
 
 #: hpCDEBurner.pas:1500
-#, fuzzy
-#| msgid "Server error"
 msgid "Burn error"
-msgstr "Kiszolgálói hiba"
+msgstr "Írási hiba"
 
 #: hpCDEBurner.pas:1500
 msgid "Selected tracks cannot be accessed!"
-msgstr ""
+msgstr "A kiválasztott számok nem elérhetők!"
 
 #: hpCDEBurner.pas:1628 hpCDEBurner.pas:2509
 msgid "Burning ... (%s)"
-msgstr ""
+msgstr "Írás folyamatban... (%s)"
 
 #: hpCDEBurner.pas:1631 hpCDEBurner.pas:1731
 msgid "Caching files from network"
-msgstr ""
+msgstr "Fájlok gyorsítótárazása a hálózatról"
 
 #: hpCDEBurner.pas:2226
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disc from being burnt."
 msgstr ""
+"Az írási művelet nem sikerült! Néhány számot a Digital Rights Management "
+"védett, megakadályozva a lemez kiírását."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13344
-#, fuzzy
-#| msgid ""
-#| "Minimizes to the MicroPlayer if it is enabled (right-click on the System "
-#| "Task bar, and click 'Toolbars')."
 msgid ""
 "The MicroPlayer is not yet enabled. To enable it, right-click on the "
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
 msgstr ""
-"Mikro lejátszóra kicsinyít, ha az engedélyezett (jobb gombos kattintás a "
-"tálcán, ott az Eszköztárak menüpont)."
+"A MicroPlayer még nincs engedélyezve. Engedélyezéséhez kattintson jobb "
+"gombbal a tálcára, kattintson az 'Eszköztárak' elemre, és engedélyezze a "
+"'MediaMonkey lejátszót'."
 
 #: Importers.pas:232
 msgid ""
@@ -8193,6 +8153,10 @@ msgid ""
 "manually, please export the iTunes XML library via iTunes and select it "
 "below."
 msgstr ""
+"A MediaMonkey nem tud importálni metaadatokat az iTunes adatbázisából. A "
+"probléma automatikus megoldásához futtassa az iTunes-t, és engedélyezze az "
+"'iTunes könyvtár XML-je megosztása...' opciót. Manuálisan exportálja az "
+"iTunes XML könyvtárat az iTunes programból, majd válassza ki alább."
 
 #: Importers.pas:271
 msgid "Importing data from iTunes..."
@@ -8224,21 +8188,19 @@ msgstr "J. River Media Center"
 
 #: M3Umanage.pas:535
 msgid "Updating track numbers"
-msgstr ""
+msgstr "Számok frissítése"
 
 #: M3Umanage.pas:614
 msgid "Processing playlists"
-msgstr ""
+msgstr "Lejátszási listák feldolgozása"
 
 #: MaskHelper.pas:3120 ResStrings.pas:539
 msgid "Auto Number"
 msgstr "Auto számozás"
 
 #: MaskHelper.pas:3159 MaskHelper.pas:3571 MaskHelper.pas:3873
-#, fuzzy
-#| msgid "Extension"
 msgid "Target Extension"
-msgstr "Kiterjesztés"
+msgstr "Célkiterjesztés"
 
 #: MaskHelper.pas:3169
 msgid "Sample Rate"
@@ -8246,51 +8208,39 @@ msgstr "Mintavételi ráta"
 
 #: MaskHelper.pas:3171 MaskHelper.pas:3644 MaskHelper.pas:3889
 msgid "Involved People"
-msgstr ""
+msgstr "Közreműködő személyek"
 
 #: MaskHelper.pas:3182 MaskHelper.pas:3694 MaskHelper.pas:3900
-#, fuzzy
-#| msgid "Volume"
 msgid "Track Volume"
-msgstr "Hangerő"
+msgstr "Szám hangereje"
 
 #: MaskHelper.pas:3183 MaskHelper.pas:3699 MaskHelper.pas:3901
-#, fuzzy
-#| msgid "Album Comment"
 msgid "Album Volume"
-msgstr "Album megjegyzés"
+msgstr "Album hangereje"
 
 #: MaskHelper.pas:3203
 msgid "Splitter"
-msgstr ""
+msgstr "Osztozó"
 
 #: MaskHelper.pas:3207
-#, fuzzy
-#| msgid "Auto Number"
 msgid "Auto number"
-msgstr "Auto számozás"
+msgstr "Automatikus szám"
 
 #: MaskHelper.pas:3208
-#, fuzzy
-#| msgid "Random Album"
 msgid "Random number"
-msgstr "Véletlenszerű album"
+msgstr "Véletlenszerű szám"
 
 #: MaskHelper.pas:3209
-#, fuzzy
-#| msgid "Playlist"
 msgid "Playlist name"
-msgstr "Lejátszási lista"
+msgstr "Lejátszási lista neve"
 
 #: MaskHelper.pas:3212
-#, fuzzy
-#| msgid "New folder"
 msgid "Track folder"
-msgstr "Új mappa"
+msgstr "Szám mappa"
 
 #: MaskHelper.pas:3225
 msgid "How to use masks"
-msgstr ""
+msgstr "Maszkok használata"
 
 #: MaskHelper.pas:3831
 msgid "Track#"
@@ -8301,28 +8251,20 @@ msgid "Disc#"
 msgstr "Lemez száma"
 
 #: MaskHelper.pas:3882
-#, fuzzy
-#| msgid "Episode #"
 msgid "Episode#"
-msgstr "Epizód"
+msgstr "Epizód#"
 
 #: MaskHelper.pas:3884
-#, fuzzy
-#| msgid "Season #"
 msgid "Season#"
-msgstr "Évad"
+msgstr "Évad#"
 
 #: MaskHelper.pas:3894
-#, fuzzy
-#| msgid "Played #"
 msgid "Played#"
-msgstr "Lejátszások száma"
+msgstr "Lejátszott szám#"
 
 #: MaskHelper.pas:3920
-#, fuzzy
-#| msgid "Skipped #"
 msgid "Skipped#"
-msgstr "Átugorva ennyiszer"
+msgstr "Kihagyott szám#"
 
 #: MediaManage.pas:2927
 msgid "An error occured while moving file %s to %s. Do you want to try again?"
@@ -8360,7 +8302,7 @@ msgstr "Fájl másolása innen: $src$ ide: $dest$"
 
 #: MediaManage.pas:4090
 msgid "The media '%s' is not inserted."
-msgstr ""
+msgstr "A(z) '%s' médium nincs behelyezve."
 
 #: MediaManage.pas:4169
 msgid "Cannot rename directory %s to %s."
@@ -8370,23 +8312,21 @@ msgstr "A(z) %s mappát nem lehet átnevezni erre: %s."
 #. if we are going to tag a file that is playing, let's do it as quickly as possible
 #: MediaManage.pas:4409 MP3Utils.pas:3822
 msgid "Tag update failed: %s is inaccessible."
-msgstr ""
+msgstr "Címke frissítése sikertelen: %s nem elérhető."
 
 #: MediaManage.pas:5648 MediaMonkeyApp.pas:5547
-#, fuzzy
-#| msgid "Conversion of file %s failed"
 msgid "Creating folder \"%s\" failed"
-msgstr "A(z) %s fájl konvertálása nem sikerült"
+msgstr "A(z) \"%s\" mappa létrehozása sikertelen"
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
 #: MediaMonkeyApp.pas:5239
 msgid "Deleted %d files from %d"
-msgstr ""
+msgstr "%d fájl törölve %d-ből"
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
 #: MediaMonkeyApp.pas:5298
 msgid "Removed %d files from %d"
-msgstr ""
+msgstr "%d fájl eltávolítva %d-ból"
 
 #: MediaMonkeyApp.pas:5550 QueryManage.pas:4309
 msgid "is not accessible"
@@ -8394,19 +8334,19 @@ msgstr "nem hozzáférhető"
 
 #: MediaMonkeyApp.pas:6423
 msgid "Updated"
-msgstr ""
+msgstr "Frissítve"
 
 #: MediaMonkeyApp.pas:6427 QueryManage.pas:5057 QueryManage.pas:5058
 msgid "Skipped"
-msgstr ""
+msgstr "Kihagyva"
 
 #: MediaMonkeyApp.pas:6439
 msgid "Scan log"
-msgstr ""
+msgstr "Beolvasási napló"
 
 #: MediaMonkeyApp.pas:6440
 msgid "Operation"
-msgstr ""
+msgstr "Művelet"
 
 #: MediaMonkeyApp.pas:7411
 msgid "Lifetime"
@@ -8418,16 +8358,16 @@ msgstr "Nem regisztrált"
 
 #: MediaMonkeyApp.pas:7453
 msgid "Trial version"
-msgstr ""
+msgstr "Próba verzió"
 
 #: MediaMonkeyApp.pas:7455
 msgid "Standard edition"
-msgstr ""
+msgstr "Standard kiadás"
 
 #. #16581
 #: MediaMonkeyApp.pas:7917
 msgid "Open tray"
-msgstr ""
+msgstr "Tálca megnyitása"
 
 #: MediaMonkeyApp.pas:8677
 msgid "Track"
@@ -8455,7 +8395,7 @@ msgstr "Csak a kijelölt fájlok lejátszása"
 
 #: MetadataStorageHandler.pas:1610
 msgid "Problem while updating playlist %s: %s"
-msgstr ""
+msgstr "Hiba a lejátszási lista %s frissítése közben: %s"
 
 #: MP3Manage.pas:255
 msgid "Compatible: CBR   96 kbps - Fair Quality"
@@ -8463,13 +8403,15 @@ msgstr "Kompatíbilis: CBR   96 kbps - Elégséges minőség"
 
 #: MP3Manage.pas:1416
 msgid "Preset"
-msgstr ""
+msgstr "Előre beállított"
 
 #: MP3Manage.pas:1513
 msgid ""
 "To enable advanced codec options (e.g. higher or lower bitrates), please "
 "upgrade to MediaMonkey Gold."
 msgstr ""
+"Az előrehaladott kodek lehetőségek engedélyezéséhez (pl. magasabb vagy "
+"alacsonyabb bitráták), frissítse MediaMonkey Gold-ra."
 
 #: MP3Manage.pas:3685
 msgid "Removing %s tags %d of %d (%s)"
@@ -8485,7 +8427,7 @@ msgstr "Hiba a mappa vizsgálatakor"
 
 #: MP3Utils.pas:463 MP3Utils.pas:2730
 msgid "This directory is used exclusively for:"
-msgstr ""
+msgstr "Ez a könyvtár kizárólag a következő célokra van fenntartva:"
 
 #: MP3Utils.pas:1256
 msgid ""
@@ -8522,10 +8464,8 @@ msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgstr "Ellenőrzés $FAdd$ / $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:1729 MP3Utils.pas:2012
-#, fuzzy
-#| msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr "Hozzáadás $FAdd$ ebből: $FTot$ ($Dir$$Str$)"
+msgstr "Feltárás $FAdd$/$FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:2087
 msgid "Problem with scanning directory %s."
@@ -8542,7 +8482,7 @@ msgstr "hiba a fájl-információ olvasásakor"
 #. wrong file format, no neeed for next attempt
 #: MP3Utils.pas:3853
 msgid "Tag update failed: %s has wrong format."
-msgstr ""
+msgstr "Címke frissítése sikertelen: %s hibás formátumban van."
 
 #. No need to check
 #: MP3Utils.pas:3921
@@ -8550,11 +8490,14 @@ msgid ""
 "One or more of the selected files are inaccessible and cannot be tagged. "
 "Save artwork to the folder instead."
 msgstr ""
+"Egy vagy több kiválasztott fájl nem érhető el és nem címkézhető. Grafikát "
+"mentse a mappába helyette."
 
 #: MP3Utils.pas:4064 Normalization.pas:2159
 msgid ""
 "The media '%s' is not inserted. It must be inserted to access the file %s"
 msgstr ""
+"A(z) '%s' médium nincs behelyezve. Be kell helyezni a(z) %s fájl eléréséhez."
 
 #: MP3Utils.pas:4627
 msgid "trial"
@@ -8717,14 +8660,13 @@ msgstr "Gyenge másolat"
 #. default auto-playlist name
 #: NewDBCreate.pas:1265
 msgid "Accessible tracks"
-msgstr ""
+msgstr "Elérhető számok"
 
 #
 #. default auto-playlist name
 #: NewDBCreate.pas:1273
-#, fuzzy
 msgid "Top rated (6 hrs)"
-msgstr "Legjobbra értékelt (6 óra)"
+msgstr "Legjobban értékelt (6 óra)"
 
 #
 #. default auto-playlist name
@@ -8735,16 +8677,14 @@ msgstr "Legtöbbet játszott (50)"
 #
 #. default auto-playlist name
 #: NewDBCreate.pas:1288
-#, fuzzy
 msgid "Unrated (1GB)"
-msgstr "Nem értékelt (1 GB)"
+msgstr "Nem értékelt (1GB)"
 
 #
 #. default auto-playlist name
 #: NewDBCreate.pas:1296
-#, fuzzy
 msgid "Recently added (1GB)"
-msgstr "Nemrég hozzáadott (1 GB)"
+msgstr "Nemrég hozzáadott (1GB)"
 
 #: Normalization.pas:362
 msgid "Generating thumbnail $act$ of $tot$ ($name$)"
@@ -8752,18 +8692,18 @@ msgstr "Miniatűr előállítása $act$ / $tot$ ($name$)"
 
 #: Normalization.pas:452
 msgid "Saving tags"
-msgstr ""
+msgstr "Címkék mentése"
 
 #: Normalization.pas:1198
 msgid ""
 "Album leveling is enabled, which will cause %d other tracks to be analyzed."
 msgstr ""
+"Az album kiegyenlítése engedélyezett, ami miatt %d másik számot is elemezni "
+"kell."
 
 #: Normalization.pas:1199
-#, fuzzy
-#| msgid "Exclude folders:"
 msgid "Exclude these tracks"
-msgstr "Mappák kivétele:"
+msgstr "Ezeket a számokat kizárja"
 
 #: Normalization.pas:1399
 msgid "%d of %d (%s)"
@@ -8776,11 +8716,11 @@ msgstr "Hangerőkiegyenlítés %d / %d (%s)"
 
 #: Normalization.pas:1928
 msgid "Track volume may be leveled only for MP3 files."
-msgstr ""
+msgstr "A szám hangereje csak MP3 fájlok esetében lehet kiegyenlítve."
 
 #: Normalization.pas:1951
 msgid "Calculating leveling coefficients"
-msgstr ""
+msgstr "Kiegyenlítő együtthatók kiszámítása"
 
 #: PlaylistManage.pas:1202
 msgid "Duplicate file(s) detected:"
@@ -8793,9 +8733,8 @@ msgstr "Biztosan hozzáadja a számo(ka)t a lejátszási listához?"
 
 #. This podcast is being downloaded
 #: PodcastManage.pas:881 PodcastManage.pas:1246
-#, fuzzy
 msgid "Updating podcast"
-msgstr "Podcast frissítése folyamatban"
+msgstr "Podcast frissítése"
 
 #. And cache its content on HDD
 #: PodcastManage.pas:997
@@ -8855,7 +8794,7 @@ msgstr "van grafikája"
 
 #: QueryManage.pas:4379
 msgid "has no Artwork"
-msgstr ""
+msgstr "nincs grafika"
 
 #: QueryManage.pas:4429
 msgid "Is synced to"
@@ -8902,26 +8841,24 @@ msgstr "egyenlő"
 
 #: QueryManage.pas:4558
 msgid "downloaded"
-msgstr ""
+msgstr "letöltve"
 
 #: QueryManage.pas:4559
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 #: QueryManage.pas:4560
 msgid "Local"
-msgstr ""
+msgstr "Helyi"
 
 #. Create 'any field' condition
 #: QueryManage.pas:4886
 msgid "Any text"
-msgstr ""
+msgstr "Bármilyen szöveg"
 
 #: QueryManage.pas:4918
-#, fuzzy
-#| msgid "My Rating"
 msgid "Album Rating"
-msgstr "Értékelésem"
+msgstr "Album értékelés"
 
 #: QueryManage.pas:4923
 msgid "# Tracks by Artist"
@@ -8945,19 +8882,19 @@ msgstr "Album megjegyzés"
 
 #: QueryManage.pas:5007
 msgid "Sync state"
-msgstr ""
+msgstr "Szinkronizálási állapot"
 
 #: QueryManage.pas:5041
 msgid "Random track"
-msgstr ""
+msgstr "Véletlenszerű szám"
 
 #: QueryManage.pas:5042
 msgid "Random track (auto-refresh)"
-msgstr ""
+msgstr "Véletlenszerű szám (automatikus frissítés)"
 
 #: QueryManage.pas:5043
 msgid "Random album"
-msgstr ""
+msgstr "Véletlenszerű album"
 
 #: QueryManage.pas:5044
 msgid "Random album (auto-refresh)"
@@ -9071,7 +9008,7 @@ msgstr "Nincs kiszámolva"
 
 #: ResStrings.pas:398
 msgid "User-installed"
-msgstr ""
+msgstr "Felhasználó által telepített"
 
 #: ResStrings.pas:400
 msgid "and"
@@ -9170,13 +9107,12 @@ msgid "There was a problem querying the database: "
 msgstr "Probléma történt az adatbázis lekérdezésekor: "
 
 #: ResStrings.pas:567
-#, fuzzy
 msgid ""
 "Files from the following locations are currently inaccessible:\n"
 "%sPlease reconnect the drive or insert the CDs."
 msgstr ""
-"A következő helyekről származó fájlok jelenleg nem érhetők el:\n"
-"%sCsatlakoztassa újra a meghajtót, vagy helyezze be a CD-ket."
+"A következő helyekről származó fájlok jelenleg nem elérhetők:\n"
+"%sKérjük, csatlakoztassa újra a meghajtót vagy helyezze be a CD-ket."
 
 #: ResStrings.pas:569
 msgid "Time-out error occured while connecting to Freedb."
@@ -9249,79 +9185,68 @@ msgid "%d unplayed episodes"
 msgstr "%d nem játszott epizód"
 
 #: ResStrings.pas:870
-#, fuzzy
-#| msgid "Continue"
 msgid "Co&ntinue"
-msgstr "Folytatás"
+msgstr "To&vább"
 
 #: ResStrings.pas:871
 msgid "&Erase CD"
-msgstr ""
+msgstr "&CD törlése"
 
 #: ResStrings.pas:872
 msgid "&Open tray"
-msgstr ""
+msgstr "&Tálca megnyitása"
 
 #: ResStrings.pas:874
 msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
 msgstr ""
+"A behelyezett lemez nem írható, amíg nem törölik. Szeretné törölni, mielőtt "
+"megírná?"
 
 #: ResStrings.pas:875
 msgid "Please insert a disc to be burned..."
-msgstr ""
+msgstr "Kérjük, helyezzen be egy írható lemezt..."
 
 #: ResStrings.pas:878
-#, fuzzy
-#| msgid "Error scanning directory"
 msgid "Error erasing the CDRW."
-msgstr "Hiba a mappa vizsgálatakor"
+msgstr "Hiba a CDRW törlése közben."
 
 #: ResStrings.pas:880
-#, fuzzy
-#| msgid "File %s was not successfully created."
 msgid "Burning was not successful"
-msgstr "A(z) %s fájlt nem sikerült létrehozni."
+msgstr "Az írás nem volt sikeres"
 
 #: ResStrings.pas:882
-#, fuzzy
 msgid "The layout could not be set."
-msgstr "A következő bővítményt nem sikerült megnyitni: %s."
+msgstr "A formázást nem lehetett meghatározni."
 
 #: ResStrings.pas:883
 msgid "Re-burn this disc?"
-msgstr ""
+msgstr "Újraírja ezt a lemezt?"
 
 #: ResStrings.pas:884
 msgid "Could not write the image layout to the disc."
-msgstr ""
+msgstr "Nem lehet azonos képformátumot írni a lemezre."
 
 #: ResStrings.pas:885
 msgid "Burning was terminated."
-msgstr ""
+msgstr "Az írás megszakadt."
 
 #: ResStrings.pas:886
-#, fuzzy
-#| msgid "%s was successfully installed."
 msgid "Burn completed successfully"
-msgstr "%s telepítése sikeres."
+msgstr "Az írás sikeresen befejeződött"
 
 #: ResStrings.pas:887
-#, fuzzy
-#| msgid "Removing %s tags %d of %d (%s)"
 msgid "Preparing track %d of %d (%s)"
-msgstr "%s címke eltávolítása %d / %d (%s)"
+msgstr "%d/%d szám előkészítése (%s)"
 
 #: ResStrings.pas:888
-#, fuzzy
-#| msgid "Problem while decoding file %s"
 msgid "Problem while decoding file %s, burning terminated"
-msgstr "Probléma a következő fájl dekódolásakor %s"
+msgstr "Hiba történt a %s fájl dekódolása során, írás megszakítva"
 
 #: ResStrings.pas:889
 msgid "Burning ... (Phase: %s)%s"
-msgstr ""
+msgstr "Írás folyamatban... (Fázis: %s)%s"
 
 #: Settings.pas:1387
 msgid "MediaMonkey Player"
@@ -9352,14 +9277,8 @@ msgid "Sleep: %d minute"
 msgstr "Elalvás: %d perc"
 
 #: SQLiteDB.pas:646
-#, fuzzy
-#| msgid ""
-#| "File %s cannot be opened:\n"
-#| "%s"
 msgid "Database file %s cannot be accessed."
-msgstr ""
-"A(z) %s fájl nem nyitható meg:\n"
-"%s"
+msgstr "Az adatbázis fájl %s nem érhető el."
 
 #. per #17917
 #: UpNp.pas:1956
@@ -9368,6 +9287,10 @@ msgid ""
 "to not be discoverable by other devices on the network. If you're on a home "
 "network, you may want to switch your network connection to 'Private'."
 msgstr ""
+"A hálózati kapcsolata 'Nyilvános'-ra van állítva. Ez általában azt "
+"eredményezi, hogy a gép nem felfedezhető más hálózati eszközök által. Ha "
+"otthoni hálózatról van szó, érdemes lehet a hálózati kapcsolatot 'Privát'-ra "
+"váltani."
 
 #: UpNp.pas:3730
 msgid "MediaMonkey Library"
@@ -9376,12 +9299,15 @@ msgstr "MediaMonkey Médiatár"
 #: UpNp.pas:4024
 msgid "Media server '%s' could not start: port %d is already in use."
 msgstr ""
+"A(z) '%s' médiaszerver nem tudott elindulni: a %d port már használatban van."
 
 #: UpNp.pas:4025
 msgid ""
 "Check whether another instance of MediaMonkey is already running or change "
 "the port# in Options > Media Sharing."
 msgstr ""
+"Ellenőrizze, hogy egy másik MediaMonkey példány már nem fut-e, vagy "
+"változtasson a port# a Beállítások > Média megosztás lehetőségnél."
 
 #: UpNp.pas:4482
 msgid "Denied"
@@ -9401,10 +9327,8 @@ msgid "Root directory"
 msgstr "Gyökérkönyvtár"
 
 #: UpNp.pas:4866
-#, fuzzy
-#| msgid "MediaMonkey Player"
 msgid "Output from MediaMonkey Player"
-msgstr "MediaMonkey Lejátszó"
+msgstr "Kimenet a MediaMonkey lejátszóból"
 
 #: UpNp.pas:5809 UpNp.pas:5815
 msgid "This is an external IP address!"
@@ -9428,7 +9352,7 @@ msgstr "Hozzáférés megtagadva"
 #. to not show "turned off or inaccessible" message, but just skip to the next file
 #: UpNp.pas:8545 UpNp.pas:9097 UpNp.pas:12927
 msgid "Buffering on"
-msgstr ""
+msgstr "Pufferelés be"
 
 #: UpNp.pas:8612
 msgid "Connecting to"
@@ -9437,16 +9361,15 @@ msgstr "Kapcsolódás ehhez:"
 #. some players (e.g. Samsung) requires Stop before setting another track (#10298: Next has no effect when player is Samsung TV)
 #: UpNp.pas:8707
 msgid "Stopping on"
-msgstr ""
+msgstr "Megállítás be"
 
 #: UpNp.pas:8781 UpNp.pas:8581
 msgid "The %s player is turned off or inaccessible."
 msgstr "A(z) %s lejátszó ki van kapcsolva vagy nem elérhető."
 
 #: UpNp.pas:9377
-#, fuzzy
 msgid "Multi-zone"
-msgstr "Több zóna"
+msgstr "Multi-zóna"
 
 #: UpNp.pas:10364
 msgid "Manufacturer"
@@ -9462,24 +9385,24 @@ msgstr "Modell száma"
 
 #: UpNp.pas:10370
 msgid "Model description"
-msgstr ""
+msgstr "Modellleírás"
 
 #: UpNp.pas:11356
 msgid "The link/URL has not been entered in a valid format"
-msgstr ""
+msgstr "A link/URL nincs érvényes formátumban megadva"
 
 #. try again after 1 second as in some environments the router re-configuration (OpenPort) makes temporal issues
 #: UpNp.pas:11379
 msgid "The link/URL entered does not point to a media server device"
-msgstr ""
+msgstr "A megadott link/URL nem mutat egy médiaszerver eszközre"
 
 #: UpNp.pas:12994
 msgid "Playing to %s has failed"
-msgstr ""
+msgstr "Nem sikerült lejátszani a %s"
 
 #: UpNp.pas:12994
 msgid "The format is probably unsupported by the device."
-msgstr ""
+msgstr "Valószínűleg a formátum nem támogatott az eszköz által."
 
 #: UPnPTreeHelper.pas:873
 msgid "My Documents"
@@ -9495,7 +9418,7 @@ msgstr "Nyilvános"
 
 #: UPnPTreeHelper.pas:1890
 msgid "Authors"
-msgstr ""
+msgstr "Szerzők"
 
 #: UPnPTreeHelper.pas:1901
 msgid "Original Year"
@@ -9503,13 +9426,11 @@ msgstr "Eredeti év"
 
 #: WebUtils.pas:4397
 msgid "The file %s cannot be created."
-msgstr ""
+msgstr "A(z) %s fájl nem hozható létre."
 
 #: WebUtils.pas:6097
-#, fuzzy
-#| msgid "Search and update took %s"
 msgid "Searching for updates..."
-msgstr "A keresés és frissítés eddig tartott: %s"
+msgstr "Frissítések keresése..."
 
 #: WebUtils.pas:6154
 msgid "Checking for new version..."
@@ -9517,11 +9438,11 @@ msgstr "Új verzió ellenőrzése..."
 
 #: WebUtils.pas:6252
 msgid "MediaMonkey %s is the current version"
-msgstr ""
+msgstr "A MediaMonkey %s az aktuális verzió"
 
 #: WebUtils.pas:6281
 msgid "MediaMonkey could not check for updates;"
-msgstr ""
+msgstr "A MediaMonkey nem tudta ellenőrizni a frissítéseket;"
 
 #. JumpList.Tasks.AddShellLink( _('Minimize to MiniPlayer'), '/w7t=gomini', Application.ExeName, 0);
 #: Win7ToolsImpl.pas:2187
@@ -9530,27 +9451,29 @@ msgstr "Lejátszási lista &betöltése"
 
 #. make sure CD_Reader is the first
 #: WinAmpPlugins.pas:3218
-#, fuzzy
 msgid "Plug-in %s could not be opened."
-msgstr "A következő bővítményt nem sikerült megnyitni: %s."
+msgstr "A %s plugin nem nyitható meg."
 
 #: WinAmpPlugins.pas:5361
 msgid ""
 "Current audio configuration cannot play %s. Verify that your sound drivers "
 "are properly installed or try to change/re-configure the output plugin."
 msgstr ""
+"A jelenlegi audió konfiguráció nem képes lejátszani a %s-t. Ellenőrizze, "
+"hogy a hangmeghajtók megfelelően telepítve vannak, vagy próbálja meg módosí"
+"tani/újrakonfigurálni a kimeneti plugint."
 
 #: WMAUtils.pas:332
 msgid "WMA is not supported. The codec must first be installed."
-msgstr ""
+msgstr "A WMA nem támogatott. Először telepíteni kell a kodeket."
 
 #: controls\searchEditor.html:30
 msgid "Limit to"
-msgstr ""
+msgstr "Korlátozni"
 
 #: controls\nowPlaying\fullList.html:44
 msgid "Coming up: "
-msgstr ""
+msgstr "Hamarosan következik: "
 
 #: dialogs\dlgAutoConvertRule.html:29
 msgid "To the following format:"
@@ -9566,40 +9489,34 @@ msgstr "Az ennél régebbi epizódok törlése:"
 
 #: dialogs\dlgRegisterGold.html:19
 msgid "License key"
-msgstr ""
+msgstr "Licenckulcs"
 
 #: dialogs\videoConvSettings.html:40
 msgid "Output quality"
-msgstr ""
+msgstr "Kimeneti minőség"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:28
 msgid "This changes the header for each custom field."
-msgstr ""
+msgstr "Ez minden egyes egyéni mező fejlécét megváltoztatja."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
-#, fuzzy
-#| msgid ""
-#| "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
-#| "playlist, remove them from the playlist and the library, or delete them "
-#| "from the playlist, the library, and the computer system."
 msgid ""
 "If enabled, MediaMonkey will prompt you whether to remove tracks from the "
 "'Playing' list, remove them from the 'Playing' list and the Library, or "
 "delete them from the 'Playing' list, the Library, and the computer system."
 msgstr ""
-"Ha engedélyezi, akkor a MediaMonkey rákérdez, hogy eltávolítsa-e a számokat "
-"a lejátszási litából, a lejátszási listából és a médiatárból, vagy törölje-e "
-"őket a lejátszási listából, a médiatárból és a számítógépről."
+"Ha engedélyezve van, a MediaMonkey kérdezi, hogy a számokat el akarja-e "
+"távolítani a 'Lejátszás' listából, valamint a 'Lejátszás' listából és a "
+"könyvtárból, vagy a 'Lejátszás' listából, a könyvtárból és a számítógépes "
+"rendszerről."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
 msgstr "Egy létező gyorsbillentyű változtatásait alkalmazza"
 
 #: dialogs\dlgOptions\pnl_Library.html:147
-#, fuzzy
-#| msgid "Unmoved files"
 msgid ".nfo files"
-msgstr "Át nem helyezett fájlok"
+msgstr ".nfo fájlok"
 
 #: dialogs\dlgOptions\pnl_Library.html:99
 msgid ""
@@ -9617,7 +9534,7 @@ msgstr ""
 #: dialogs\dlgOptions\pnl_PartyMode.html:2
 msgid ""
 "If enabled, will prompt for a password when attempting to exit Party Mode."
-msgstr ""
+msgstr "Ha engedélyezve van, a Party üzemmód elhagyását kérdés jelszó nélkül."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:21
 msgid "ID3v2 text encoding:"
@@ -9625,7 +9542,7 @@ msgstr "ID3v2 szöveg kódolása:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:12
 msgid "ID3v2.3 tags"
-msgstr ""
+msgstr "ID3v2.3 címkék"
 
 #: controls\devicesView.html:39
 msgid "Add"
@@ -9633,17 +9550,20 @@ msgstr "Hozzáadás"
 
 #: controls\playlistHeader.html:7
 msgid "Discard changes"
-msgstr ""
+msgstr "Változások elvetése"
 
 #: controls\tvCollectionView.html:3
 msgid "Recently watched series"
-msgstr ""
+msgstr "Nemrég nézett sorozatok"
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:82
 msgid ""
 "Describes directories other than the above that are scanned for media when "
 "syncing. Limit the directories scanned so as not to hurt performance."
 msgstr ""
+"Leírja az egyebek közül azokat a könyvtárakat, amelyeket média "
+"szinkronizáláskor beolvas. Korlátozza a beolvasott könyvtárakat, ne rontsák "
+"a teljesítményt."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:38
 msgid ""
@@ -9651,6 +9571,9 @@ msgid ""
 "separate directories, or are simply prefaced with text indicating whether it "
 "is an Album or Artist."
 msgstr ""
+"Ez határozza meg, hogy a lejátszási listák az Albumok, Előadók számára külön "
+"könyvtárakba mentődnek-e, vagy egyszerűen csak szöveges előljáróval "
+"ellátottak-e, jelezve, hogy Albumról vagy Előadóról van-e szó."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "Use Linux folder separator ('/' instead of '\\')"
@@ -9662,19 +9585,19 @@ msgstr "Kiterjesztett M3U használata"
 
 #: controls\serverConfig\server.html:12
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: dialogs\dlgAbout.html:31
 msgid "License"
-msgstr ""
+msgstr "Licenc"
 
 #: dialogs\dlgAutotag.html:20
 msgid "Confirm All"
-msgstr ""
+msgstr "Összes megerősítése"
 
 #: dialogs\dlgConvertFormat.html:38
 msgid "Rip type"
-msgstr ""
+msgstr "Rip típus"
 
 #: dialogs\dlgPodcastSubscription.html:61
 msgid ""
@@ -9685,31 +9608,34 @@ msgstr ""
 
 #: dialogs\dlgSupportedFormat.html:26
 msgid "Audio format"
-msgstr ""
+msgstr "Hang formátum"
 
 #: dialogs\dlgOptions\pnl_General.html:38
 msgid "Minimizes to the MiniPlayer"
 msgstr "Mini lejátszóra kicsinyítés"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:15
-#, fuzzy
 msgid "Causes the Hotkey to function even when MediaMonkey isn't in focus"
 msgstr ""
-"Ezáltal a billentyűparancs akkor is működik, ha a MediaMonkey nincs fókuszban"
+"Az lehetővé teszi a gyorsbillentyű használatát akkor is, ha a MediaMonkey "
+"nem áll a középpontban."
 
 #: dialogs\dlgOptions\pnl_InputPlugins.html:4
 msgid "About..."
-msgstr ""
+msgstr "Rólunk..."
 
 #: dialogs\dlgOptions\pnl_Library.html:81
 msgid "Show scan results dialog when scan is done."
 msgstr ""
+"Mutassa a beolvasási eredmények párbeszédpanelt, amikor a beolvasás kész."
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:11
 msgid ""
 "Saves auto-converted content to a temporary cache so that it can be re-used, "
 "as needed."
 msgstr ""
+"Mentés az automatikusan konvertált tartalom ideglenes tárhelyébe, hogy "
+"szükség esetén újra felhasználható legyen."
 
 #: dialogs\dlgOptions\pnl_Performance.html:31
 msgid "Lower"
@@ -9721,7 +9647,7 @@ msgstr "Nem átlátszó"
 
 #: dialogs\dlgOptions\pnl_Player.html:30
 msgid "Default 'Play now' action"
-msgstr ""
+msgstr "Alapértelmezett 'Lejátszás most' művelet"
 
 #: dialogs\dlgOptions\pnl_Player.html:43
 msgid "Indicates how long the Pop-up should display"
@@ -9729,7 +9655,7 @@ msgstr "Megmutatja, hogy mennyi ideig jelenjenek meg az előreugró ablakok"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:15
 msgid "ID3v1 and v2.4 tags"
-msgstr ""
+msgstr "ID3v1, és v2.4 címkék"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:18
 msgid ""
@@ -9737,14 +9663,17 @@ msgid ""
 "previously analyzed volume leveling coefficients. It has no effect on tracks "
 "that do not have such a coefficient."
 msgstr ""
+"Ha be van kapcsolva, a MediaMonkey igazítja a hangerőt a lejátszó "
+"célhangerejéhez, korábban elemzett hangerő-kiegyenlítő együtthatók alapján. "
+"Nincs hatása a számokra, amelyeknek nincs ilyen együtthatója."
 
 #: controls\windowtitle.html:17
 msgid "Restore window"
-msgstr ""
+msgstr "Ablak visszaállítása"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:24
 msgid "Max. resolution"
-msgstr ""
+msgstr "Maximális felbontás"
 
 #: controls\serverConfig\devices.html:4
 msgid "Share automatically with all new devices"
@@ -9765,12 +9694,16 @@ msgid ""
 "Writes track information to the CD so that devices that support CD-Text can "
 "display it during playback."
 msgstr ""
+"Információk írása a CD-re, hogy az eszközök, amelyek támogatják a CD-"
+"szöveget, megjelenítsék azt lejátszás közben."
 
 #: dialogs\dlgBurn.html:28
 msgid ""
 "Improves performance by converting tracks on the fly to Audio CD format. "
 "Disable if burns are failing."
 msgstr ""
+"Javítja a teljesítményt azáltal, hogy valós időben konvertálja a számokat "
+"Audio CD formátumra. Tiltsa le, ha az írások meghiúsulnak."
 
 #: dialogs\dlgSleep.html:28
 msgid "Action at end:"
@@ -9794,7 +9727,7 @@ msgstr "Videó tulajdonságok:"
 
 #: dialogs\dlgOptions\pnl_Library.html:66
 msgid "Only for files with changed timestamp or size"
-msgstr ""
+msgstr "Csak az időbélyegzővel vagy mérettel megváltozott fájlok esetében"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:18
 msgid "This locks the current configuration of Party Mode."
@@ -9802,37 +9735,35 @@ msgstr "Ezzel zárolhatóak a parti mód jelenlegi beállításai."
 
 #: dialogs\dlgOptions\pnl_Performance.html:18
 msgid "Volume analysis"
-msgstr ""
+msgstr "Hangerőelemzés"
 
 #: dialogs\dlgOptions\pnl_Search.html:9
 msgid "Show results only after pressing ENTER"
-msgstr ""
+msgstr "Csak az eredmények megjelenése az ENTER gomb megnyomása után"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:14
 msgid "ID3v1 and v2.3 tags"
-msgstr ""
+msgstr "ID3v1 és v2.3 címkék"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:76
 msgid "Audio/Video"
-msgstr ""
+msgstr "Hang/Videó"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:18
 msgid "Level playback volume to:"
-msgstr ""
+msgstr "Lejátszási hangerő beállítása a következőhöz:"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:13
 msgid "Cache"
-msgstr ""
+msgstr "Gyorsítótár"
 
 #: Scripts\statistics\dialogs\dlgStatistics.html:24
 msgid "Fetching data"
-msgstr ""
+msgstr "Adatok lekérése"
 
 #: dialogs\dlgAutoOrganizeRule.html:9
-#, fuzzy
-#| msgid "Criteria"
 msgid "File Criteria"
-msgstr "Feltételek"
+msgstr "Fájlkritériumok"
 
 #: dialogs\dlgConvertFormat.html:31
 msgid "Settings"
@@ -9855,23 +9786,16 @@ msgid "Check for updates (when connected)"
 msgstr "Frissítések keresése (ha van kapcsolat)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the Play Now command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It applies only when Party mode is active."
 msgstr ""
-"Ez határozza meg, hogy mely számokat játssza le, mikor egyetlen szám esetén "
-"a Lejátszás most parancs fut. Alapértelmezésként a kiválasztott számot és az "
-"utána következőket játssza le a program. Alternatíva, hogy csak a kijelölt "
-"számokat játssza le."
+"Ez határozza meg, milyen fájlok játszódnak le, amikor a 'Lejátszás most' "
+"parancs fut egyetlen fájl esetében. Csak akkor érvényes, ha Party módban van."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
-msgstr ""
+msgstr "Engedélyezze a sebességbeállítást"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:42
 msgid ""
@@ -9889,18 +9813,22 @@ msgid ""
 "full auto-tagging functionality (faster, unlimited lookups, and background "
 "lookups)"
 msgstr ""
+"teljes autó-címkézési funkcionalitás (gyorsabb, korlátlan keresések és "
+"háttérben történő keresések)"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:47
 msgid "Customize case for these phrases mid-string"
 msgstr ""
+"Középső láncszemre újrabeállíthatja ezeket a kifejezések kis/nagybetűs "
+"alakját"
 
 #: controls\windowtitle.html:16
 msgid "Maximize window"
-msgstr ""
+msgstr "Ablak maximalizálása"
 
 #: controls\clientConfig\autoConvert.html:2
 msgid "Customize for this device"
-msgstr ""
+msgstr "Saját eszközhöz igazíthatja"
 
 #: controls\deviceConfig\syncFromDevice.html:8
 msgid ""
@@ -9908,10 +9836,13 @@ msgid ""
 "Note that content already synced from the PC to the Device will update "
 "within the existing locations."
 msgstr ""
+"Válassza ki a mappát a PC-n, ahol az új tartalom az eszközről szinkronizálva "
+"lesz. Vegye figyelembe, hogy a PC-ről az eszközre már szinkronizált tartalom "
+"frissítésre kerül a meglévő helyekre."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:14
 msgid "Selected folder nodes"
-msgstr ""
+msgstr "Kiválasztott mappavázak"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:30
 msgid ""
@@ -9919,16 +9850,18 @@ msgid ""
 "additionally causes edited tracks to be recopied (useful for devices running "
 "3rd-party players)."
 msgstr ""
+"Szinkronizáláskor az újraszerkesztett címkék metaadatai mindig "
+"szinkronizálódnak. Ez az opció olyan létrehozott számok újbóli másolását is "
+"jelenti, amelyek harmadik féltől származó lejátszókat futtató eszközökön "
+"hasznosak."
 
 #: dialogs\dlgEditView.html:23
-#, fuzzy
-#| msgid "Exporting"
 msgid "Sorting"
-msgstr "Exportálás"
+msgstr "Rendezés"
 
 #: dialogs\dlgMaintainLibrary.html:25
 msgid "Retain backups:"
-msgstr ""
+msgstr "Mentések megőrzése:"
 
 #: dialogs\dlgMP3Settings.html:18
 msgid "Use manual settings"
@@ -9948,21 +9881,19 @@ msgstr "Megakadályozza a legutóbbi epizódok törlését."
 
 #: dialogs\dlgSupportedFormat.html:52
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:27
 msgid "Confirm sync operation when there's not enough space available"
-msgstr ""
+msgstr "Szinkronizálási művelet megerősítése, ha nincs elegendő elérhető hely"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:7
 msgid "Active layout"
-msgstr ""
+msgstr "Aktív elrendezés"
 
 #: dialogs\dlgOptions\pnl_Library.html:52
-#, fuzzy
-#| msgid "Ignore files shorter than"
 msgid "Ignore files smaller than"
-msgstr "Az ennél kisebb fájlok mellőzése:"
+msgstr "Hagyja figyelmen kívül a kisebb fájlokat"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:35
 msgid "When playback is stopped:"
@@ -9975,6 +9906,8 @@ msgstr "Vízszintes"
 #: dialogs\dlgOptions\pnl_Streaming.html:9
 msgid "Play all audio tracks as single stream to external players (gaplessly)"
 msgstr ""
+"Minden audio számot egyszeri folyamként játsszon le külső lejátszóknak ("
+"szünet nélkül)"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:85
 msgid ""
@@ -9994,7 +9927,7 @@ msgstr "Rippelt számok kiegyenlítése:"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:37
 msgid "Capitalize common abbreviations"
-msgstr ""
+msgstr "Közismert rövidítések nagybetűsítése"
 
 #: controls\autoConvertConfig.html:7
 msgid ""
@@ -10002,27 +9935,31 @@ msgid ""
 "files). Mainly for older devices that can't adjust volume on the fly via "
 "Replay Gain tags."
 msgstr ""
+"A fájlok hangerőjét a választott szintre állítja (veszteségmentes csak MP3 "
+"fájloknál). Főként régebbi eszközöknél használják, amelyek nem tudnak "
+"hangerőt szabályozni a repülőgépű mozgásjelzéseken keresztül."
 
 #: controls\devicesView.html:30
 msgid ""
 "For example 192.168.1.130:55963. You can find this in the server's settings."
 msgstr ""
+"Például 192.168.1.130:55963. Ezt megtalálhatja a kiszolgáló beállításaiban."
 
 #: controls\searchEditor.html:9
 msgid "Match"
-msgstr ""
+msgstr "Megfelelés"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:18
 msgid "Playlist format"
-msgstr ""
+msgstr "Lejátszási lista formátuma"
 
 #: controls\serverConfig\devices.html:2
 msgid "Update play count when playing remotely"
-msgstr ""
+msgstr "Lejátszási szám frissítése távoli lejátszáskor"
 
 #: dialogs\dlgAutoorganize.html:37
 msgid "Trim long paths/filenames"
-msgstr ""
+msgstr "Hosszú utak/fájlnevek levágása"
 
 #: dialogs\dlgMovedFiles.html:9
 msgid "Update the Library with the new location for the following files:"
@@ -10035,6 +9972,10 @@ msgid ""
 "'Beatles' will appear directly adjacent to one another if this is enabled "
 "and 'the' is configured."
 msgstr ""
+"Ez okozza, hogy a MediaMonkey figyelmen kívül hagyja a megadott előtagokat "
+"sorba rendezéskor (válasszuk el az előtagokat ','-gal). Például 'Beatles' és "
+"'Beatles' közel egymáshoz jelenik meg, ha ez be van kapcsolva, és az 'a' van "
+"konfigurálva."
 
 #: dialogs\dlgOptions\pnl_General.html:29
 msgid "Minimization settings:"
@@ -10053,10 +9994,8 @@ msgid "Minimizes to the Taskbar"
 msgstr "Lekicsinyítés a tálcára"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:21
-#, fuzzy
-#| msgid "Exporting"
 msgid "Import"
-msgstr "Exportálás"
+msgstr "Importálás"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
@@ -10064,23 +10003,23 @@ msgstr "Címkék, utána lejátszási listák"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
 msgid "Default action for files:"
-msgstr ""
+msgstr "Alapértelmezett művelet a fájloknál:"
 
 #: dialogs\dlgOptions\pnl_Player.html:23
 msgid "From other applications..."
-msgstr ""
+msgstr "Más alkalmazásokból..."
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:18
 msgid "Notify last.fm about playing tracks"
-msgstr ""
+msgstr "Értesítés a last.fm-nek a lejátszott számokról"
 
 #: controls\searchEditor.html:14
 msgid "of the following criteria"
-msgstr ""
+msgstr "a következő kritériumok közül"
 
 #: controls\deviceConfig\syncToDevice.html:22
 msgid "Unselected Library files"
-msgstr ""
+msgstr "Nem kiválasztott könyvtári fájlok"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "This format is used by some devices"
@@ -10096,11 +10035,11 @@ msgstr "Alkalmazás az albumban/sorozatban minden fájlra"
 
 #: dialogs\dlgAddonInstall.html:12
 msgid "This action will install the following product"
-msgstr ""
+msgstr "Ez a művelet a következő terméket fogja telepíteni"
 
 #: dialogs\dlgBurn.html:35
 msgid "Sound alert after the burn process"
-msgstr ""
+msgstr "Hangjelzés az égetési folyamat után"
 
 #: dialogs\dlgPodcastSubscription.html:62
 msgid "On update, download"
@@ -10112,7 +10051,7 @@ msgstr "Csak ha az értékelés kisebb, mint"
 
 #: dialogs\dlgSupportedFormat.html:108
 msgid "Width"
-msgstr ""
+msgstr "Szélesség"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:12
 msgid ""
@@ -10142,23 +10081,16 @@ msgid "Download podcasts to:"
 msgstr "Podcastok letöltése ide:"
 
 #: dialogs\dlgOptions\pnl_Performance.html:26
-#, fuzzy
-#| msgid ""
-#| "MediaMonkey performs numerous operations such as CD Ripping, Conversion, "
-#| "Tagging, Volume Levelling, etc. in the background. This option sets the "
-#| "priority of these background tasks. By default it is set to 'Lower' so "
-#| "that these tasks don't slow down other operations."
 msgid ""
 "MediaMonkey performs numerous operations such as CD Ripping, Conversion, "
 "Tagging, Volume Leveling, etc. in the background. This option sets the "
 "priority of these background tasks. By default it is set to 'Lower' so that "
 "these tasks don't slow down other operations."
 msgstr ""
-"A MediaMonkey számos műveletet hajt végre a háttérben, mint a CD-rippelés, a "
-"konvertálás, a címkekezelés, a hangerő normalizálás stb. Ezzel a "
-"lehetőséggel állíthatja be ezeknek a háttérfeladatoknak a prioritását. Az "
-"alapértelmezés az 'Alacsonyabb', mert így nem lassítják le a többi "
-"alkalmazás futását ezek a feladatok."
+"A MediaMonkey számos műveletet, mint a CD ripelés, átalakítás, címkézési, "
+"hangerő-kiegyenlítést, stb. végez a háttérben. Ez az opció határozza meg "
+"ezen háttérfeladatok prioritását. Alapértelmezés szerint 'Alacsonyabb'-ra "
+"állítva, hogy ezek a feladatok ne lassítsák le más műveleteket."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:5
 msgid ""
@@ -10169,20 +10101,14 @@ msgstr ""
 "esetében."
 
 #: dialogs\dlgOptions\pnl_Player.html:32
-#, fuzzy
-#| msgid ""
-#| "This determines what files are played when the Play Now command is run "
-#| "for a single file. By default the selected file and others subsequent to "
-#| "it play. The alternative is that only the selected file plays."
 msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. Party Mode and Playback rule settings can override this "
 "default."
 msgstr ""
-"Ez határozza meg, hogy mely számokat játssza le, mikor egyetlen szám esetén "
-"a Lejátszás most parancs fut. Alapértelmezésként a kiválasztott számot és az "
-"utána következőket játssza le a program. Alternatíva, hogy csak a kijelölt "
-"számokat játssza le."
+"Ez határozza meg, milyen fájlok játszódnak le, amikor a 'Lejátszás most' "
+"parancs fut egyetlen fájl esetében. A Party mód és a Lejátszás szabály "
+"beállításai felülbírálhatják ezt az alapértelmezett beállítást."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -10198,7 +10124,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:3
 msgid "Target volume levels"
-msgstr ""
+msgstr "Célhangerő szintek"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:125
 msgid "Album artist(s)"
@@ -10206,7 +10132,7 @@ msgstr "Album előadó(i)"
 
 #: controls\searchView.html:8
 msgid "My Library"
-msgstr ""
+msgstr "Könyvtáram"
 
 #: dialogs\dlgAutoorganize.html:27
 msgid "Resulting directories and filenames:"
@@ -10214,15 +10140,15 @@ msgstr "Keletkező mappák és fájlnevek:"
 
 #: dialogs\dlgAutotag.html:20
 msgid "Allow compilations"
-msgstr ""
+msgstr "Összeállítások engedélyezése"
 
 #: dialogs\dlgAutotag.html:20
 msgid "Tag & Continue"
-msgstr ""
+msgstr "Címke & folytatás"
 
 #: dialogs\dlgMaintainLibrary.html:14
 msgid "Backup and Restore"
-msgstr ""
+msgstr "Biztonsági mentés és visszaállítás"
 
 #: dialogs\dlgPodcastSubscription.html:85
 msgid "Always retain the"
@@ -10230,45 +10156,40 @@ msgstr "Mindig őrizze meg a(z)"
 
 #: dialogs\dlgSupportedFormat.html:122
 msgid "Height"
-msgstr ""
+msgstr "Magasság"
 
 #: dialogs\dlgSupportedFormats.html:10
 msgid "Select formats supported on the target"
-msgstr ""
+msgstr "Válasszon formátumokat, amelyeket a cél támogat"
 
 #: dialogs\videoConvSettings.html:47
 msgid "small"
-msgstr ""
+msgstr "kicsi"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:3
-#, fuzzy
-#| msgid ""
-#| "This specifies what character is used to denote multiple values within a "
-#| "single field (e.g. Rock;Folk)."
 msgid ""
 "This specifies a single character used to enter multiple values within a "
 "field (e.g. Rock;Folk). Spaces determine how the character is displayed."
 msgstr ""
-"Ez meghatározza, milyen karaktert használ a program egy mezőn belül szereplő "
-"több érték jelölésére (pl. Rock;Folk)."
+"Ez egy egykaraktert határoz meg, amely több érték beírására szolgál egy "
+"mezőbe (pl. Rock;Folk). A szóközök határozzák meg, hogyan jelenik meg a "
+"karakter."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in 'Playing' list"
-msgstr ""
+msgstr "korábbi fájlok a 'Lejátszás' listán"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
 msgstr "Auto-DJ engedélyezése"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:4
-#, fuzzy
-#| msgid "Configure current &input plug-in"
 msgid "Configure layout (current tab)"
-msgstr "A jelenlegi &bemeneti bővítmény beállítása"
+msgstr "Kisebb kiválasztandó elrendezés (aktuális fül)"
 
 #: dialogs\dlgOptions\pnl_Library.html:89
 msgid "Use"
-msgstr ""
+msgstr "Használja"
 
 #: dialogs\dlgOptions\pnl_Library.html:73
 msgid ""
@@ -10294,6 +10215,10 @@ msgid ""
 "to enable Freedb HTTP connections and media streaming. If you don't know the "
 "proxy server settings, check with your administrator."
 msgstr ""
+"Ha a hálózata proxy szervert használ, akkor konfigurálnia kell ezeket a "
+"beállításokat, hogy engedélyezze a Freedb HTTP kapcsolatok és média "
+"streamelés működését. Ha nem tudja a proxy szerver beállításait, kérdezze "
+"meg a rendszergazdát."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:43
 msgid "When files are playing:"
@@ -10303,20 +10228,24 @@ msgstr "Lejátszáskor:"
 msgid ""
 "Prevents Auto-DJ from adding tracks while this Type of content is playing"
 msgstr ""
+"Megakadályozza, hogy az Auto-DJ számokat adjon hozzá, miközben ez a "
+"tartalomtípus lejátszásra kerül"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:56
 msgid "(Unknown)"
-msgstr ""
+msgstr "(Ismeretlen)"
 
 #: controls\artistAlbums.html:34
 msgid "EPs"
-msgstr ""
+msgstr "EP-k"
 
 #: controls\deviceConfig\syncFromDevice.html:15
 msgid ""
 "Syncs updated metadata such as ratings and play counts from the device to "
 "the PC."
 msgstr ""
+"Szinkronizálja a frissített metaadatokat, mint értékeléseket és lejátszási "
+"számlálókat a készülékről a PC-re."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:23
 msgid ""
@@ -10324,6 +10253,9 @@ msgid ""
 "location, allowing the playlist and content to be moved to other locations "
 "without breaking the links."
 msgstr ""
+" A relatív útvonalak tárolják a fájllinkeket egy lejátszási listában a "
+"lejátszási lista helyéhez viszonyítva, lehetővé téve a lejátszási listák és "
+"tartalmak átvitelét más helyekre anélkül, hogy a linkek megtörnének."
 
 #: controls\deviceConfig\options\pnl_Tagging.html:28
 msgid "Use only the first Genre when multiple Genres exist"
@@ -10331,7 +10263,7 @@ msgstr "Több műfaj esetén csak az első használata"
 
 #: controls\serverConfig\server.html:14
 msgid "Check"
-msgstr ""
+msgstr "Ellenőrzés"
 
 #: dialogs\dlgAutoConvertRule.html:22
 msgid "If any of the following conditions are true:"
@@ -10339,7 +10271,7 @@ msgstr "Ha a következő feltételek közül bármelyik igaz:"
 
 #: dialogs\dlgAutoConvertRule.html:44
 msgid "Quality profile"
-msgstr ""
+msgstr "Minőségi profil"
 
 #: dialogs\dlgBurn.html:16
 msgid "per Track"
@@ -10355,15 +10287,15 @@ msgstr "Speciális beállítások használata"
 
 #: dialogs\dlgPodcastSubscription.html:59
 msgid "Customize subscription rules for this podcast"
-msgstr ""
+msgstr "Testreszabási előfizetési szabályok e podcast számára"
 
 #: dialogs\dlgRegisterGold.html:33
 msgid "purchase MediaMonkey Gold here"
-msgstr ""
+msgstr "a MediaMonkey Gold vásárlása itt"
 
 #: dialogs\dlgSelectFromList.html:13
 msgid "< Remove"
-msgstr ""
+msgstr "< Eltávolítás"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:21
 msgid "Add files from:"
@@ -10374,10 +10306,12 @@ msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "'Playing' list."
 msgstr ""
+"Ez határozza meg, mennyi korábban lejátszott szám lesz megjelenítve a "
+"'Lejátszás' listában."
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:4
 msgid "Configure..."
-msgstr ""
+msgstr "Konfigurálás..."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:5
 msgid "Edit hotkey"
@@ -10388,55 +10322,58 @@ msgid ""
 "Hotkeys let you define keyboard shortcuts to accomplish various actions. "
 "Select [New Hotkey] to create a new shortcut."
 msgstr ""
+"A gyorsbillentyűk lehetőséget biztosítanak arra, hogy billentyűparancsokat "
+"meghatározzon különböző műveletek elvégzéséhez. Válasszon [Új "
+"gyorsbillentyű]-t, hogy új parancsot hozzon létre."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:13
 msgid "Looks up lyrics if they're missing"
-msgstr ""
+msgstr "Ha hiányoznak a dalszövegek, akkor megkeresi őket"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:59
 msgid "Associate file types with MediaMonkey..."
-msgstr ""
+msgstr "Fájl típusok társítása a MediaMonkey-val..."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:22
 msgid "Disable Player controls and track reordering"
-msgstr ""
+msgstr "Lejátszóvezérlés és szám újrarendezés letiltása"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:14
 msgid "DLNA Settings"
-msgstr ""
+msgstr "DLNA Beállítások"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:32
 msgid "Scrobble content that"
-msgstr ""
+msgstr "Scrobble tartalom, amely"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:24
 msgid "Submit tracks from Radio streams"
-msgstr ""
+msgstr "Küldje el a számokat a Radio streamekről"
 
 #: controls\devicesView.html:31
 msgid "Server IP address:port: "
-msgstr ""
+msgstr "Szerver IP cím:port: "
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Lookup settings"
-msgstr ""
+msgstr "Nézz fel beállítások"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:11
 msgid "Resets this sync profile to its default settings"
 msgstr ""
+"Visszaállítja ezt a szinkronizálási profilt az alapértelmezett beállításaira"
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:6
-#, fuzzy
-#| msgid "Set the default directory / filename format for specified files."
 msgid ""
 "Choose the Directory/Filename format to be used for files on the device."
 msgstr ""
-"Az alapértelmezett mappa / fájlnév formátumot állítja be a meghatározott "
-"fájloknál."
+"Kiválaszthatja a könyvtár/formátum nevét, amelyet a fájloknál szeretne "
+"használni az eszközön."
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:86
 msgid "Describes any other directories that should be scanned for media."
 msgstr ""
+"Leírja azokat az egyéb könyvtárakat, amelyeket be kell olvasni a médiáért."
 
 #: dialogs\dlgAutotagFromFilename.html:27
 msgid "Update empty fields only"
@@ -10448,11 +10385,11 @@ msgstr "Sávok kódolása kiegyenlített hangerővel"
 
 #: dialogs\dlgMovedFiles.html:38
 msgid "Update"
-msgstr ""
+msgstr "Frissítés"
 
 #: dialogs\dlgOGGSettings.html:34
 msgid "Nominal bitrate"
-msgstr ""
+msgstr "Névad bitráta"
 
 #: dialogs\dlgOGGSettings.html:38
 msgid "Limit minimal bitrate"
@@ -10460,15 +10397,15 @@ msgstr "Minimális bitráta limitálása"
 
 #: dialogs\dlgPodcastSubscription.html:44
 msgid "Login"
-msgstr ""
+msgstr "Bejelentkezés"
 
 #: dialogs\dlgPodcastSubscription.html:97
 msgid "On download, tag episodes based on data from podcast feed"
-msgstr ""
+msgstr "Letöltéskor, szám epizódok címkézése podcast-csatorna adatain alapulva"
 
 #: dialogs\dlgScanResults.html:11
 msgid "View log"
-msgstr ""
+msgstr "Napló megtekintése"
 
 #: dialogs\dlgTrackProperties.html:13
 msgid "Update & Previous song (Alt-Left)"
@@ -10484,46 +10421,50 @@ msgstr "Minden óra"
 
 #: dialogs\dlgOptions\pnl_Library.html:3
 msgid "When adding files to the Library"
-msgstr ""
+msgstr "Fájlok hozzáadása a könyvtárhoz"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:36
 msgid "MusicBrainz"
-msgstr ""
+msgstr "MusicBrainz"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:7
 msgid "Total lockdown"
-msgstr ""
+msgstr "Teljes zárolás"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:22
-#, fuzzy
-#| msgid "Fade to"
 msgid "Fade in"
-msgstr "Ide halkítani:"
+msgstr "Bevezetés"
 
 #: dialogs\dlgOptions\pnl_Player.html:100
 msgid ""
 "Plays videos via the system's default video player instead of in MediaMonkey"
 msgstr ""
+"A videókat a rendszer alapértelmezett videolejátszóján keresztül játsza le a "
+"MediaMonkey helyett"
 
 #: dialogs\dlgWizard\pnlRegistration.html:6
 msgid ""
 "Advanced Library management tools to help organize your library more "
 "efficiently:"
 msgstr ""
+"Fejlett Könyvtárkezelő eszköz, hogy hatékonyabban szervezhesse könyvtárát:"
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Auto-sync playlists and new files from the device to the PC"
 msgstr ""
+"Automatikus szinkronizáló lejátszási listák és új fájlok az eszközről a PC-re"
 
 #: dialogs\dlgAddonInstall.html:48
 msgid "I accept the terms in the license agreement"
-msgstr ""
+msgstr "Elfogadom a licencszerződés feltételeit"
 
 #: dialogs\dlgAutotag.html:23
 msgid ""
 "Determines whether groups of tracks are treated as compilation albums or as "
 "individual tracks"
 msgstr ""
+"Meghatározza, hogy a számok csoportját összeállítási albumokként, vagy "
+"egyedi számokként kezelik-e"
 
 #: dialogs\dlgAutotagFromFilename.html:13
 msgid "Filename format:"
@@ -10531,15 +10472,15 @@ msgstr "Fájlnév formátum:"
 
 #: dialogs\dlgBurn.html:10
 msgid "Drive"
-msgstr ""
+msgstr "Meghajtó"
 
 #: dialogs\dlgMP3Settings.html:22
 msgid "Type of bitrate"
-msgstr ""
+msgstr "Bitráta típusa"
 
 #: dialogs\dlgSearchImage.html:23
 msgid "Generated image"
-msgstr ""
+msgstr "Generált kép"
 
 #: dialogs\dlgTrackProperties.html:14
 msgid "Update & Next song (Alt-Right)"
@@ -10552,6 +10493,11 @@ msgid ""
 "'Minimize to MiniPlayer', displays 'Playing' list files even when the main "
 "application is minimized."
 msgstr ""
+"Alapértelmezés szerint a MediaMonkey a tálcára minimalizálódik. A "
+"'Minimalizálás a MicroPlayer'-re azt eredményezi, hogy eszköztárként jelenik "
+"meg a rendszer tálca mellett, amikor minimalizálják. A 'Minimalizálás a "
+"MiniPlayer'-re azt eredményezi, hogy megjeleníti a 'Lejátszás' listát még "
+"akkor is, ha a főalkalmazás minimalizálva van."
 
 #: dialogs\dlgOptions\pnl_Library.html:78
 msgid "Remove unused Attributes (Artist, Album, Composer, ...)"
@@ -10564,17 +10510,15 @@ msgstr "Az automatikusan konvertált tartalom gyorsítótárazása ide:"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:37
 msgid "Freedb (CDDBP)"
-msgstr ""
+msgstr "Freedb (CDDBP)"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:11
 msgid "Saves the change without confirmation."
-msgstr ""
+msgstr "Elmenti a változtatást megerősítés nélkül."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:16
-#, fuzzy
-#| msgid "Fade to"
 msgid "Fade out"
-msgstr "Ide halkítani:"
+msgstr "Kikapcsolás"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:58
 msgid "Warn when duplicate files are added"
@@ -10582,27 +10526,27 @@ msgstr "Figyelmeztetés duplikált fájlok hozzáadásakor"
 
 #: dialogs\dlgTrackProperties\tabCustom.html:105
 msgid "Edit extended tags"
-msgstr ""
+msgstr "Kiterjesztett címkék szerkesztése"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:10
 msgid "Logout"
-msgstr ""
+msgstr "Kijelentkezés"
 
 #: controls\artistAlbums.html:28
 msgid "Albums - soundtrack"
-msgstr ""
+msgstr "Albumok - filmzene"
 
 #: controls\artistAlbums.html:31
 msgid "Singles"
-msgstr ""
+msgstr "Egyének"
 
 #: dialogs\dlgAddonInstall.html:34
 msgid "Product type"
-msgstr ""
+msgstr "Terméktípus"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Level Track volume"
-msgstr ""
+msgstr "Szám hangerő beállítása"
 
 #: dialogs\dlgConvertFormat.html:48
 msgid "Verify ripped tracks"
@@ -10628,12 +10572,13 @@ msgid ""
 "filename mask is not chosen, then the podcast's original filename will be "
 "used"
 msgstr ""
+"Válasszon egy könyvtárat és fájlnév maszkot, amelyhez a podcastnak mentenie "
+"kell. Ha nem választanak fájlnév maszkot, akkor a podcast eredeti fájlneve "
+"lesz használva"
 
 #: dialogs\dlgOptions\pnl_General.html:13
-#, fuzzy
-#| msgid "Configure"
 msgid "Include addons"
-msgstr "Beállítás"
+msgstr "Addons tartalmazása"
 
 #: dialogs\dlgOptions\pnl_General.html:33
 msgid "Minimize to taskbar"
@@ -10644,14 +10589,18 @@ msgid ""
 "Enabling this option speeds up all scans subsequent to the initial one by "
 "only re-adding files that have changed in size or timestamp."
 msgstr ""
+"Ennek az opciónak az engedélyezése felgyorsítja az összes beolvasást az első "
+"után azzal, hogy csak a méretében vagy az időbélyegében megváltozott "
+"fájlokat adja hozzá újra."
 
 #: dialogs\dlgOptions\pnl_Library.html:63
 msgid "Update file info from tags when rescanning files"
 msgstr ""
+"A fájlinformációk frissítése a címkékből, amikor újra beolvassa a fájlokat"
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:10
 msgid "Add Windows firewall exception"
-msgstr ""
+msgstr "Windows tűzfal kivétel hozzáadása"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:19
 msgid "Disable repositioning of dialogs and controls"
@@ -10660,6 +10609,8 @@ msgstr "A párbeszédablakok és vezérlők áthelyezésének letiltása"
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:45
 msgid "Choose how the 'Track summary' field displays for each content Type"
 msgstr ""
+"Válassza ki, hogyan jelenjen meg a 'Szám összefoglaló' mező minden egyes "
+"tartalomtípushoz"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:6
 msgid "Ignore Shuffle"
@@ -10681,37 +10632,39 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabDetails.html:130
 msgid "Start time"
-msgstr ""
+msgstr "Kezdési idő"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:139
 msgid "Stop time"
-msgstr ""
+msgstr "Leállítási idő"
 
 #: dialogs\dlgWizard\pnlRegistration.html:13
 msgid ""
 "Unlimited streaming and casting (the free version is limited to 30 minutes "
 "at a time)."
 msgstr ""
+"Korlátlan streamelés és casting (az ingyenes verzió 30 percig engedélyezi "
+"egyenként)."
 
 #: controls\devicesView.html:18
 msgid "No storage configured."
-msgstr ""
+msgstr "Nincs tárhely konfigurálva."
 
 #: controls\devicesView.html:13
 msgid "Storage and Services"
-msgstr ""
+msgstr "Tárhely és Szolgáltatások"
 
 #: controls\equalizer.html:9
 msgid "Save Preset..."
-msgstr ""
+msgstr "Előre beállított mentése..."
 
 #: controls\deviceConfig\syncToDevice.html:23
 msgid "All other media files"
-msgstr ""
+msgstr "Minden más médiafájl"
 
 #: dialogs\dlgAddArtwork.html:33
 msgid "Image filename"
-msgstr ""
+msgstr "Kép fájlnév"
 
 #: dialogs\dlgAutoConvertRule.html:11
 msgid "Convert the following content:"
@@ -10726,22 +10679,20 @@ msgid "per Album"
 msgstr "albumonként"
 
 #: dialogs\dlgBurn.html:29
-#, fuzzy
-#| msgid "On the fly encoding"
 msgid "On the fly audio burning"
-msgstr "Azonnali kódolás"
+msgstr "Valós idejű hang írása"
 
 #: dialogs\dlgMP3Settings.html:70
 msgid "Bitrate (min)"
-msgstr ""
+msgstr "Bitráta (min.)"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:12
 msgid "Ignore prefixes:"
-msgstr ""
+msgstr "Előtagok figyelmen kívül hagyása:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in 'Playing' list"
-msgstr ""
+msgstr "Más fájlok a 'Lejátszás' listában"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:8
 msgid ""
@@ -10770,12 +10721,12 @@ msgid ""
 "Allows you to choose MediaMonkey's language. Close and restart MediaMonkey "
 "for the change to take effect."
 msgstr ""
+"Lehetővé teszi, hogy kiválassza a MediaMonkey nyelvét. Zárja be és indítsa "
+"újra a MediaMonkey-t a változtatás hatásához."
 
 #: dialogs\dlgOptions\pnl_General.html:10
-#, fuzzy
-#| msgid "Check for new episodes:"
 msgid "Also checks for new beta builds."
-msgstr "Új epizódok ellenőrzése:"
+msgstr "Új béta verziók ellenőrzését is"
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid ""
@@ -10801,6 +10752,8 @@ msgid ""
 "Prefer faster metadata lookups when possible (instead of slower audio "
 "fingerprinting)"
 msgstr ""
+"Inkább gyorsabb metaadat-keresési lehetőségeket választja, ha lehetséges ("
+"ahelyett, hogy lassabb hang-ujjlenyomatot készítene)"
 
 #: dialogs\dlgOptions\pnl_Player.html:42
 msgid "Displays file information and associated artwork"
@@ -10832,6 +10785,7 @@ msgstr ""
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:55
 msgid "Create playlists of tracks newly added to the library"
 msgstr ""
+"Lejátszási listák létrehozása a könyvtárba újonnan hozzáadott zeneszámokból"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:127
 msgid "Producer(s)"
@@ -10839,15 +10793,17 @@ msgstr "Producer(ek)"
 
 #: controls\autoConvertConfig.html:9
 msgid "Target volume level"
-msgstr ""
+msgstr "Cél hangerő szint"
 
 #: controls\devicesView.html:8
 msgid "No devices configured. You can connect a device via USB or Wi-Fi."
 msgstr ""
+"Nincsenek konfigurált eszközök. Csatlakoztathatja az eszközt USB-n vagy Wi-"
+"Fi-n keresztül."
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Syncs files from the selected folders on the device to the PC."
-msgstr ""
+msgstr "Fájlokat szinkronizál az eszközön kiválasztott mappákból a PC-re."
 
 #: controls\deviceConfig\options\pnl_Tagging.html:5
 msgid ""
@@ -10855,6 +10811,9 @@ msgid ""
 "image tags. If disabled, artwork is synced to a location that only "
 "MediaMonkey can read."
 msgstr ""
+"Műalkotás mentése album mappákba olyan eszközök és alkalmazások számára, "
+"amelyek nem tudják olvasni a képcímkéket. Ha le van tiltva, a műalkotás egy "
+"olyan helyre kerül szinkronizálásra, amelyet csak a MediaMonkey tud olvasni."
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Move and rename files to new destination based on file tags"
@@ -10862,17 +10821,15 @@ msgstr "Fájlok áthelyezése és átnevezése új helyre a fájlcímkék alapj�
 
 #: dialogs\dlgCollectionOptions.html:13
 msgid "Collection name"
-msgstr ""
+msgstr "Gyűjtemény neve"
 
 #: dialogs\dlgCollectionOptions.html:81
 msgid "Reset to default"
-msgstr ""
+msgstr "Alapértelmezett visszaállítása"
 
 #: dialogs\dlgExtensions.html:20
-#, fuzzy
-#| msgid "Install as service"
 msgid "Install addon from file"
-msgstr "Telepítés szolgáltatásként"
+msgstr "Addons fájlból telepítése"
 
 #: dialogs\dlgMP3Settings.html:95
 msgid "Strict ISO compliance"
@@ -10883,10 +10840,8 @@ msgid "1 day"
 msgstr "1 nap"
 
 #: dialogs\dlgOptions\pnl_Addons.html:2
-#, fuzzy
-#| msgid "Configure"
 msgid "Configure Addons"
-msgstr "Beállítás"
+msgstr "Addons konfigurálása"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:6
 msgid "Confirm desired options on move of Library folders"
@@ -10909,15 +10864,20 @@ msgid ""
 "This setting determines whether MediaMonkey searches file directories for "
 "artwork and links it to tracks as they are added to the Library."
 msgstr ""
+"Ez a beállítás meghatározza, hogy a MediaMonkey keres-e fájlkönyvtárakat a "
+"grafika számára, és összekapcsolja-e azokat a számokkal, amint a könyvtárhoz "
+"adják őket."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:92
 msgid ""
 "For groups of tracks, avoid compilations (treat as individual tracks instead)"
 msgstr ""
+"Számok csoportjainál elkerüli az összeállításokat (egyedi számokként kezelik "
+"helyettük)"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:9
 msgid "This option completely hides the menu bar."
-msgstr ""
+msgstr "Ez az opció teljesen elrejti a menüsort."
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:24
 msgid "Allows music to be lowered/paused for announcements during a party"
@@ -10926,10 +10886,8 @@ msgstr ""
 "közleményekhez"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
-#, fuzzy
 msgid "Removes gaps introduced by some lossy encoders"
-msgstr ""
-"Eltávolítja a hézagokat, amelyeket némely veszteséges kódoló hozott létre"
+msgstr "Eltávolítja az egyes veszteségmentes enkódok által bevezetett hézagokat"
 
 #: dialogs\dlgOptions\pnl_Search.html:25
 msgid "Search the following fields via the Search bar:"
@@ -10937,15 +10895,15 @@ msgstr "Keresés a következő mezőkben a keresősávból:"
 
 #: dialogs\dlgTrackProperties\tabArtwork.html:8
 msgid "Apply to all selected"
-msgstr ""
+msgstr "Alkalmazás minden kiválasztottra"
 
 #: controls\deviceConfig.html:8
 msgid "Apply"
-msgstr ""
+msgstr "Alkalmaz"
 
 #: controls\deviceConfig\syncFromDevice.html:15
 msgid "Auto-Sync file metadata from the device to the PC"
-msgstr ""
+msgstr "Fájl metaadatok automatikus szinkronizálása az eszközről a PC-re"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:41
 msgid "prefix for each playlist type"
@@ -10957,23 +10915,20 @@ msgstr "Jitter-korrigált olvasás"
 
 #: dialogs\dlgErrorLog.html:14
 msgid "Warning will disappear in:"
-msgstr ""
+msgstr "Figyelmeztetés eltűnik:"
 
 #: dialogs\dlgMovedFiles.html:24
-#, fuzzy
-#| msgid "Delete from the database only"
 msgid "Update selected files in the database"
-msgstr "Törlés csak az adatbázisból"
+msgstr "Kiválasztott fájlok frissítése az adatbázisban"
 
 #: dialogs\dlgMovedFiles.html:31
-#, fuzzy
-#| msgid "Delete from the database only"
 msgid "Remove selected files from the database"
-msgstr "Törlés csak az adatbázisból"
+msgstr "Kiválasztott fájlok eltávolítása az adatbázisból"
 
 #: dialogs\dlgPodcastSubscription.html:23
 msgid "This is not a valid RSS link and may not subscribe correctly. "
 msgstr ""
+"Ez nem érvényes RSS link lehet, és lehet, hogy nem helyesen iratkozik fel. "
 
 #: dialogs\dlgSleep.html:17
 msgid "Start fading in"
@@ -10981,7 +10936,7 @@ msgstr "Halkítás kezdése"
 
 #: dialogs\dlgOptions\pnl_Addons.html:2
 msgid "Manage Addons"
-msgstr ""
+msgstr "Addons kezelése"
 
 #: dialogs\dlgOptions\pnl_General.html:19
 msgid "Show splash screen at startup"
@@ -10989,7 +10944,7 @@ msgstr "Üdvözlőképernyő megjelenítése indításkor"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:19
 msgid "Available elements"
-msgstr ""
+msgstr "Elérhető elemek"
 
 #: dialogs\dlgOptions\pnl_Library.html:106
 msgid "Filenames + Path"
