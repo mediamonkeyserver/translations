@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-17 16:56\n"
-"PO-Revision-Date: 2020-12-29 16:55+0000\n"
-"Last-Translator: Bogáromi Zoltán <bogaromi@msn.com>\n"
+"PO-Revision-Date: 2025-03-21 10:53+0000\n"
+"Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Hungarian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/hu/>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 5.6.1\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -49,8 +49,6 @@ msgstr "Szerkesztés"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. prepared menu item for library exports implemented by scripts
 #: actions.js:37 actions.js:5909 dialogs\dlgOptions\pnl_Hotkeys.html:21
-#, fuzzy
-#| msgid "Exporting"
 msgid "Export"
 msgstr "Exportálás"
 
@@ -88,10 +86,8 @@ msgstr "Előzmények"
 #: dialogs/dlgOptions.js:39 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:429 maincontent.html:50
-#, fuzzy
-#| msgid "Playlist"
 msgid "'Playing' list"
-msgstr "Lejátszási lista"
+msgstr "'Lejátszási' lista"
 
 #. load player in timeout to be sure video window is already stretched to full screen
 #: actions.js:58 playerUtils.js:449
@@ -225,7 +221,6 @@ msgid "Show all album tracks"
 msgstr "Összes szám megjelenítése az albumon"
 
 #: actions.js:659
-#, fuzzy
 msgid "Collapse albums"
 msgstr "Albumok összecsukása"
 
@@ -271,10 +266,8 @@ msgid "Menu bar"
 msgstr "Menüsor"
 
 #: actions.js:856 dialogs/dlgOptions.js:86
-#, fuzzy
-#| msgid "Tools"
 msgid "Toolbar"
-msgstr "Eszközök"
+msgstr "Eszköztár"
 
 #. switch visibility
 #: actions.js:886 controls/nowplayingview.js:153
@@ -319,7 +312,6 @@ msgstr "Eltávolítás"
 
 #. @ts-ignore
 #: actions.js:995
-#, fuzzy
 msgid "Save image as"
 msgstr "Kép mentése másként"
 
@@ -369,7 +361,7 @@ msgstr "Auto-DJ"
 
 #: actions.js:1137 FullPlayer.pas:5109
 msgid "Remove duplicates"
-msgstr ""
+msgstr "Duplikáltak eltávolítása"
 
 #. duplicate
 #. to reset the sort to the default per #18252
@@ -378,10 +370,8 @@ msgid "Save new order"
 msgstr "Új rendezés mentése"
 
 #: actions.js:1199 dialogs/dlgAutoorganize.js:19
-#, fuzzy
-#| msgid "Auto-organi&ze files"
 msgid "Organi&ze files"
-msgstr "Fájlok automatikus &rendezése"
+msgstr "Fájlok organi&zálása"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. whenLoaded promise is awaited directly in the dialog
@@ -427,7 +417,7 @@ msgstr "URL megadása"
 
 #: actions.js:1339
 msgid "Enter a link to a file you want to download:"
-msgstr ""
+msgstr "Adja meg a letöltendő fájl linkjét:"
 
 #. inits download of this track (adds to download queue)
 #: actions.js:1358 actions.js:1365
@@ -446,9 +436,8 @@ msgstr "Fájlok újraellenőrzése/hozzá&adása a médiatárhoz"
 
 #. try to find initPath from selected tracks, #19080
 #: actions.js:1475
-#, fuzzy
 msgid "Open in Explorer"
-msgstr "Megnyitás Fájlkezelőben"
+msgstr "Megnyitás a Felfedezőben"
 
 #: actions.js:1488 actions.js:1498 actions.js:7060 actions.js:7067
 #: dialogs\dlgSelectFolder.html:27
@@ -457,7 +446,7 @@ msgstr "Új mappa"
 
 #: actions.js:1499 actions.js:7068
 msgid "New folder name"
-msgstr ""
+msgstr "Új mappa neve"
 
 #: actions.js:1516 controls/mediaTree.js:238
 msgid "Collapse the tree"
@@ -465,7 +454,7 @@ msgstr "Navigációs fa összecsukása"
 
 #: actions.js:1530 actions.js:1550 actions.js:1570 actions.js:1580
 msgid "Go to the %s node"
-msgstr ""
+msgstr "Ugrás a %s csomópontra"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to search the default focus control within other subViews
@@ -515,9 +504,8 @@ msgstr "Lejátszási listák"
 
 #: actions.js:1580 viewHandlers.js:7809
 #: controls\audiobookCollectionView.html:18
-#, fuzzy
 msgid "Pinned"
-msgstr "Rögzített"
+msgstr "Kitűzött"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. '    <div data-bind="text: trackFormat.length" class="paddingColumnSmall flex right semitransparent"></div>' +
@@ -623,10 +611,8 @@ msgstr "Producer"
 #. online mode only for online source track
 #: actions.js:1716 uitools.js:1514 MaskHelper.pas:3166 MaskHelper.pas:3624
 #: MaskHelper.pas:3885
-#, fuzzy
-#| msgid "Actor(s)"
 msgid "Actor"
-msgstr "Színész(ek)"
+msgstr "Színész"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
@@ -717,9 +703,8 @@ msgstr "Hozzáadás a Médiatárhoz"
 
 #. device/cloud track in library (issue #14272)
 #: actions.js:1946
-#, fuzzy
 msgid "Adding from %s:"
-msgstr "Hozzáadás %s helyről:"
+msgstr "Hozzáadása innen: %s:"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. track to be added to library (e.g. online youtube track)
@@ -788,10 +773,8 @@ msgstr "Adatbázis kezelése"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to refresh the view after DB maintenance (mainly for 'Rebuild Database' option)
 #: actions.js:2132 actions.js:2143 dialogs\dlgMaintainLibrary.html:28
-#, fuzzy
-#| msgid "Background"
 msgid "Backup"
-msgstr "Aláfestő"
+msgstr "Biztonsági mentés"
 
 #: actions.js:2137
 msgid "This will create a backup of the current database"
@@ -818,14 +801,13 @@ msgid "Restore from backup"
 msgstr "Visszaállítás biztonsági mentésből"
 
 #: actions.js:2173
-#, fuzzy
 msgid ""
 "Are you sure you want to restore database from %s?<br>This will delete "
 "current database and MediaMonkey will be automatically restarted when "
 "finished!"
 msgstr ""
-"Biztosan visszaállítja az adatbázist innen: %s?<br>Ezzel törli a jelenlegi "
-"adatbázist, és a MediaMonkey automatikusan újraindul, ha elkészült!"
+"Biztosan vissza kívánja állítani az adatbázist a(z) %s-ből?<br>Ez törli a "
+"jelenlegi adatbázist, és a MediaMonkey automatikusan újraindul!"
 
 #: actions.js:2179
 msgid "Restore FAILED!"
@@ -1048,10 +1030,8 @@ msgid "&Help"
 msgstr "&Súgó"
 
 #: actions.js:2692 controls\windowtitle.html:14
-#, fuzzy
-#| msgid "Content"
 msgid "Help Content"
-msgstr "Tartalom"
+msgstr "Súgó tartalom"
 
 #: actions.js:2704
 msgid "On-line Forum"
@@ -1079,7 +1059,7 @@ msgstr "Napló küldése"
 
 #: actions.js:2767 actions.js:2776
 msgid "Change freeze timeout"
-msgstr ""
+msgstr "Fagyási idő megváltoztatása"
 
 #: actions.js:2807
 msgid "Submit crash logs automatically"
@@ -1101,10 +1081,8 @@ msgstr "Han&gszínszabályzó"
 
 #: actions.js:2865 controls/player.js:507 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "Videó beállítása"
+msgstr "Sebesség beállítása"
 
 #: actions.js:3010
 msgid "&Rip Audio CD"
@@ -1117,7 +1095,7 @@ msgstr "Audió CD"
 
 #: actions.js:3058 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:38
 msgid "Burn"
-msgstr ""
+msgstr "Írás"
 
 #: actions.js:3079 dialogs/dlgCDDBResult.js:8 CDDBUtils.pas:663
 msgid "Lookup Audio CD metadata"
@@ -1126,7 +1104,7 @@ msgstr "Audió CD metaadat felkeresése"
 #. = check all drives
 #: actions.js:3094
 msgid "Eject"
-msgstr ""
+msgstr "Kiadás"
 
 #: actions.js:3106
 msgid "&Options"
@@ -1161,33 +1139,27 @@ msgstr "Lejátszás most"
 #: controls/trackListView.js:1892 controls/trackListView.js:1907
 #: controls/trackListView.js:1924 controls/trackListView.js:1941
 msgid "shuffled"
-msgstr ""
+msgstr "keverve"
 
 #: actions.js:3182 actions.js:3256 actions.js:3307
 msgid "shuffled by Album"
-msgstr ""
+msgstr "Album által keverve"
 
 #: actions.js:3199 actions.js:6311 controls/trackListView.js:1924
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue mixed"
-msgstr "Várólistán"
+msgstr "Vegyes sorban"
 
 #: actions.js:3216 actions.js:3233 actions.js:3236 actions.js:3253
 #: actions.js:3256 actions.js:6294 controls/trackListView.js:1907
 #: MediaMonkeyApp.pas:9145 dialogs\dlgOptions\pnl_OSIntegration.html:9
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue next"
-msgstr "Várólistán"
+msgstr "Sorban következő"
 
 #: actions.js:3273 actions.js:3287 actions.js:3290 actions.js:3304
 #: actions.js:3307 actions.js:6328 controls/trackListView.js:1941
 #: MediaMonkeyApp.pas:9146 dialogs\dlgOptions\pnl_OSIntegration.html:10
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue last"
-msgstr "Várólistán"
+msgstr "Sorban utolsó"
 
 #: actions.js:3321 controls/player.js:173 FileAssoc.pas:740
 msgid "Play"
@@ -1213,14 +1185,13 @@ msgstr "Leállítás"
 #: controls/player.js:460 controls/player.js:469 controls/player.js:480
 #: controls/player.js:538 controls/player.js:546 controls/player.js:555
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:9
-#, fuzzy
 msgid "Off"
-msgstr "Off"
+msgstr "Ki"
 
 #. stop should be active even if playback is paused
 #: actions.js:3387 actions.js:3408 actions.js:3431 actions.js:3451
 msgid "Stop after"
-msgstr ""
+msgstr "Megállás utána"
 
 #: actions.js:3405 actions.js:3408
 msgid "Current file"
@@ -1233,7 +1204,7 @@ msgstr "Minden fájl"
 
 #: actions.js:3463
 msgid "Crossfade"
-msgstr ""
+msgstr "Átúszás"
 
 #. For screen reader support (aria-label for screen readers to read its state)
 #: actions.js:3481 controls/player.js:380 controls/player.js:382
@@ -1244,17 +1215,20 @@ msgstr "Összekeverés"
 #. was changed or canceled, not shuffle already
 #: actions.js:3501 FullPlayer.pas:5001
 msgid "Randomize list"
-msgstr ""
+msgstr "Lista véletlenszerűsítése"
 
 #: actions.js:3502
 msgid "Shuffle disabled. Reverting to unshuffled list."
-msgstr ""
+msgstr "A keverés letiltva. Visszatérés a nem kevert listához."
 
 #: actions.js:3506
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
 msgstr ""
+"A keverés letiltva. Nem lehet visszaállítani a kevert listát a szerkesztések "
+"miatt - használja a 'Visszavonás' lehetőséget a változtatások "
+"visszavonásához a 'Lejátszási' listában."
 
 #: actions.js:3518
 msgid "Repeat off"
@@ -1292,11 +1266,11 @@ msgstr "Előző fájl"
 
 #: actions.js:3634
 msgid "Volume up"
-msgstr ""
+msgstr "Hangerő fel"
 
 #: actions.js:3648
 msgid "Volume down"
-msgstr ""
+msgstr "Hangerő le"
 
 #: actions.js:3662
 msgid "Skip 5 seconds backward"
@@ -1311,10 +1285,8 @@ msgid "S&leep"
 msgstr "Ela&lvás"
 
 #: actions.js:3706 dialogs/dlgAutotagFromFilename.js:84
-#, fuzzy
-#| msgid "Auto-&tag from filename"
 msgid "&Tag from filename"
-msgstr "Auto-&címkézés fájlnévből"
+msgstr "&Tag fájlnév alapján"
 
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:3730
@@ -1335,7 +1307,7 @@ msgstr "Média megosztása"
 
 #: actions.js:3799
 msgid "Configure Collections and nodes"
-msgstr ""
+msgstr "Gyűjtemények és csomópontok konfigurálása"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode',
@@ -1357,7 +1329,7 @@ msgstr "Lejátszó"
 #: actions.js:3823 controls/player.js:227
 #: dialogs\dlgOptions\pnl_Streaming.html:3
 msgid "Play to"
-msgstr ""
+msgstr "Lejátszás ide"
 
 #: actions.js:3834
 msgid "Select all"
@@ -1394,7 +1366,7 @@ msgstr "Nemrég használt"
 
 #: actions.js:4010
 msgid "sync"
-msgstr ""
+msgstr "szinkronizálás"
 
 #: actions.js:4035
 msgid "Folder (&Move)"
@@ -1423,16 +1395,12 @@ msgstr "M3U/XSPF lejátszási lista"
 
 #. if not uninstalled
 #: actions.js:4089
-#, fuzzy
-#| msgid "Exporting"
 msgid "Report"
-msgstr "Exportálás"
+msgstr "Jelentés"
 
 #: actions.js:4089 Scripts/export/actions_add.js:391
-#, fuzzy
-#| msgid "File length"
 msgid "File list"
-msgstr "Fájl hossza"
+msgstr "Fájl lista"
 
 #. @ts-ignore
 #: actions.js:4109
@@ -1462,18 +1430,15 @@ msgstr ""
 #. @ts-ignore
 #: actions.js:4198
 msgid "Analyze waveform"
-msgstr ""
+msgstr "Hulámforma elemzése"
 
 #: actions.js:4216
-#, fuzzy
-#| msgid "Play selected files only"
 msgid "Display only selected folder's content"
-msgstr "Csak a kijelölt fájlok lejátszása"
+msgstr "Csak a kiválasztott mappa tartalmának megjelenítése"
 
 #: actions.js:4216
-#, fuzzy
 msgid "Display folder content recursively"
-msgstr "Mappatartalom ismétlődő megjelenítése"
+msgstr "Mappa tartalmának rekurzív megjelenítése"
 
 #: actions.js:4238
 msgid "View filter"
@@ -1524,7 +1489,7 @@ msgstr "Dalszöveg"
 #: controls/statusbar.js:131 controls/statusbar.js:134
 #: dialogs/dlgEditView.js:609
 msgid "Playing"
-msgstr ""
+msgstr "Lejátszás alatt"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. no layout preset, use default
@@ -1583,10 +1548,8 @@ msgstr "&Visszavonás"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4920 controls/filterEditor.js:93 controls/navigationBar.js:344
-#, fuzzy
-#| msgid "Play History"
 msgid "Clear history"
-msgstr "Lejátszási előzmények"
+msgstr "Előzmények törlése"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
 #: actions.js:4934 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
@@ -1674,9 +1637,8 @@ msgid "Use current video frame"
 msgstr "A jelenlegi videó képkocka használata"
 
 #: actions.js:5304
-#, fuzzy
 msgid "Audio streams"
-msgstr "Audió sávok"
+msgstr "Hangfolyamok"
 
 #. fill info about subtitle stream
 #: actions.js:5331 BaseMedia.pas:4979
@@ -1723,10 +1685,8 @@ msgid "Extra large"
 msgstr "Extra nagy"
 
 #: actions.js:5502 controls\playlistHeader.html:8
-#, fuzzy
-#| msgid "Play now"
 msgid "Play normally"
-msgstr "Lejátszás most"
+msgstr "Normál lejátszás"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. adds shuffle menu commands to button context menu
@@ -1734,16 +1694,16 @@ msgstr "Lejátszás most"
 #: actions.js:5528 uitools.js:2331 viewHandlers.js:3301
 #: controls\playlistHeader.html:9
 msgid "Play shuffled"
-msgstr ""
+msgstr "Keverve lejátszás"
 
 #: actions.js:5560 uitools.js:2332 viewHandlers.js:3334
 msgid "Play shuffled (by Album)"
-msgstr ""
+msgstr "Keverve lejátszás (Album szerint)"
 
 #. prepared menu item for library reports implemented by scripts
 #: actions.js:5895 Extensions.pas:1667
 msgid "Reports"
-msgstr ""
+msgstr "Jelentések"
 
 #: actions.js:5922
 msgid "&File"
@@ -1780,7 +1740,7 @@ msgstr "Fő panel nézet"
 #. #16702 ... remove cancelSelection action as it is already in Edit menu
 #: actions.js:6157 dialogs\dlgTrackProperties.html:12
 msgid "Previous"
-msgstr ""
+msgstr "Előző"
 
 #: actions.js:6191 dialogs\dlgTrackProperties.html:12
 msgid "Next"
@@ -1810,21 +1770,19 @@ msgstr "MediaMonkey Gold megszerzése"
 #. assume always called with this = action
 #: actions.js:6933 actions.js:7011
 msgid "Move to"
-msgstr ""
+msgstr "Áthelyezés ide"
 
 #: actions.js:6936 actions.js:7015
 msgid "Copy to"
-msgstr ""
+msgstr "Másolás ide"
 
 #: actions.js:6939 actions.js:7019
 msgid "Convert to"
-msgstr ""
+msgstr "Átalakítás ide"
 
 #: actions.js:7244
-#, fuzzy
-#| msgid "No results found"
 msgid "No tracks found"
-msgstr "Nem található eredmény"
+msgstr "Nincsenek számok találhatók"
 
 #: actions.js:7258
 msgid ""
@@ -1845,7 +1803,7 @@ msgstr ""
 #. Public methods
 #: dndutils.js:238
 msgid "item(s)"
-msgstr ""
+msgstr "elem (ek)"
 
 #. add remaining disabled stars
 #. LS: previsouly was as 'var utils = app.utils' in templateFormats.js
@@ -1895,7 +1853,7 @@ msgstr "Finom szünet"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Crossfades during seek operation"
-msgstr ""
+msgstr "Átúszások a keresési művelet során"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Smooth seek"
@@ -1903,7 +1861,7 @@ msgstr "Finom pozícionálás"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:98
 msgid "Fades out on Stop"
-msgstr ""
+msgstr "Fokozatos elhalkítás a megállításkor"
 
 #: out_MMDS_configDlg.js:56 out_WASAPI_configDlg.js:98
 msgid "Smooth stop"
@@ -1959,14 +1917,12 @@ msgid "Event driven Shared mode (recommended)"
 msgstr "Eseményvezérelt megosztott mód (ajánlott)"
 
 #: out_WASAPI_configDlg.js:120
-#, fuzzy
-#| msgid "Minimal bitrate"
 msgid "Minimal buffer sizes"
-msgstr "Minimális bitráta"
+msgstr "Minimális puffer méretek"
 
 #: out_WASAPI_configDlg.js:125
 msgid "Pull mode (event driven)"
-msgstr ""
+msgstr "Húzó mód (eseményalapú)"
 
 #: out_WASAPI_configDlg.js:138 out_WASAPI_configDlg.js:159
 msgid "Shared mode"
@@ -2084,7 +2040,7 @@ msgstr "Hossz"
 #. was fast object, we need to find the correct one
 #: templates.js:2075 dialogs/dlgSearchImage.js:284
 msgid "Show full size"
-msgstr ""
+msgstr "Teljes méret megjelenítése"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. row node items used e.g. when showing sub-containers + items in "List view" mode (e.g. playlists, folders)
@@ -2109,19 +2065,17 @@ msgstr "Évad"
 
 #: templates.js:3381
 msgid "Disc"
-msgstr ""
+msgstr "Lemez"
 
 #. clear promises of previous popup content
 #: templates.js:3824
 msgid "The feed is no longer available"
-msgstr ""
+msgstr "A hírcsatorna már nem elérhető"
 
 #. otherwise no install was needed (already installed the same version)
 #: uitools.js:813
-#, fuzzy
-#| msgid "%s was successfully installed."
 msgid "%s installed successfully."
-msgstr "%s telepítése sikeres."
+msgstr "%s sikeresen telepítve."
 
 #. reload whole skin
 #: uitools.js:834
@@ -2166,10 +2120,8 @@ msgstr "Kérjük válasszon legalább egy fájlt ehhez a művelethez."
 #. hide full window player and switcher
 #. TODO: add links to stations
 #: uitools.js:2459 viewHandlers.js:7679 viewHandlers.js:7773
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Edit bookmark"
-msgstr "Könyvjelző hozzáadása"
+msgstr "Könyvjelző szerkesztése"
 
 #: uitools.js:2471
 msgid "Website link:"
@@ -2178,7 +2130,7 @@ msgstr "Hivatkozás a weboldalra:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2549
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "A MediaMonkey újraindítása szükséges a változások alkalmazásához"
 
 #: uitools.js:2551 controls/buttons.js:485 ExceptionHandler.pas:292
 #: ExceptionHandler.pas:328 ResStrings.pas:590
@@ -2187,7 +2139,7 @@ msgstr "Újraindítás"
 
 #: uitools.js:2858
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "Keresse a kiválasztott helyeken:"
 
 #: uitools.js:2870
 msgid "Please select at least one folder to scan."
@@ -2216,7 +2168,7 @@ msgstr "Változatos"
 
 #: utils.js:310 helpers/searchCommon.js:139 MediaManage.pas:2577
 msgid "Various Artists"
-msgstr ""
+msgstr "Különböző művészek"
 
 #. is listened by ColumnBrowser sub-view
 #. Don't forget for VCD tracks:
@@ -2244,16 +2196,16 @@ msgstr "Lista"
 
 #: viewHandlers.js:312 controls/nowplayingview.js:58
 msgid "List (by Album)"
-msgstr ""
+msgstr "Lista (Album szerint)"
 
 #: viewHandlers.js:339
 msgid "List (by Series)"
-msgstr ""
+msgstr "Lista (Sorozat szerint)"
 
 #. to be always pre-sorted by content (grouped by signature/fingerprint) // #20580
 #: viewHandlers.js:348
 msgid "List (by Content)"
-msgstr ""
+msgstr "Lista (Tartalom szerint)"
 
 #. #18256
 #: viewHandlers.js:358
@@ -2274,7 +2226,6 @@ msgstr "Duplikált tartalom"
 
 #. disableStateStoring: true, // store state so focused node is restored
 #: viewHandlers.js:390 viewHandlers.js:2377 controls/playingListContainer.js:6
-#, fuzzy
 msgid "Simplified list"
 msgstr "Egyszerűsített lista"
 
@@ -2288,12 +2239,12 @@ msgstr "Egyszerűsített lista"
 #: viewHandlers.js:1842 viewHandlers.js:1940 viewHandlers.js:2071
 #: viewHandlers.js:2256
 msgid "Browser"
-msgstr ""
+msgstr "Böngésző"
 
 #. onHide: inherited from Tracklist
 #: viewHandlers.js:412
 msgid "Grid (videos)"
-msgstr ""
+msgstr "Grid (videók)"
 
 #. onHide: inherited from TracklistBase
 #. due to #15522
@@ -2307,7 +2258,7 @@ msgstr ""
 #: viewHandlers.js:1078 viewHandlers.js:1133 viewHandlers.js:1224
 #: viewHandlers.js:1793
 msgid "Grid"
-msgstr ""
+msgstr "Rács"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. onHide: inherited from TracklistBase
@@ -2321,40 +2272,40 @@ msgstr ""
 #: viewHandlers.js:2086 viewHandlers.js:2263
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:18
 msgid "Info panel"
-msgstr ""
+msgstr "Információs panel"
 
 #. new tracklist
 #: viewHandlers.js:470
 msgid "Media Nodes"
-msgstr ""
+msgstr "Média csomópontok"
 
 #: viewHandlers.js:474
 msgid "Suggested Artists"
-msgstr ""
+msgstr "Javasolt előadók"
 
 #: viewHandlers.js:478
 msgid "Suggested Albums"
-msgstr ""
+msgstr "Javasolt albumok"
 
 #: viewHandlers.js:482
 msgid "Pinned list"
-msgstr ""
+msgstr "Kitűzött lista"
 
 #: viewHandlers.js:486 controls\audiobookCollectionView.html:10
 msgid "In progress"
-msgstr ""
+msgstr "Folyamatban"
 
 #: viewHandlers.js:490 controls\videoCollectionView.html:3
 msgid "Recently watched"
-msgstr ""
+msgstr "Nemrég nézett"
 
 #: viewHandlers.js:494 controls\tvCollectionView.html:10
 msgid "Recently added"
-msgstr ""
+msgstr "Nemrég hozzáadott"
 
 #: viewHandlers.js:498
 msgid "Column filter"
-msgstr ""
+msgstr "Oszlop szűrő"
 
 #. relations are always taken from online data
 #. we currently can't search online audiobooks
@@ -2365,7 +2316,7 @@ msgstr ""
 #: Scripts/statistics/dialogs/dlgStatistics.js:465
 #: Scripts/statistics/dialogs/dlgStatistics.js:518
 msgid "Tracks"
-msgstr ""
+msgstr "Számok"
 
 #. LS: to construct parent path when folder is sub to Pinned node (#18985) or a Location folder sub to collection (#16881)
 #: viewHandlers.js:812 viewHandlers.js:900
@@ -2383,19 +2334,19 @@ msgstr "Mappák"
 #. #15738: item 3
 #: viewHandlers.js:914 dialogs/dlgOptions/pnl_LayoutPlaying.js:27
 msgid "Status bar"
-msgstr ""
+msgstr "Állapotsor"
 
 #: viewHandlers.js:966
 msgid "Collection browser"
-msgstr ""
+msgstr "Gyűjtemény böngésző"
 
 #: viewHandlers.js:980
 msgid "Categories"
-msgstr ""
+msgstr "Kategóriák"
 
 #: viewHandlers.js:1011
 msgid "Tabbed view"
-msgstr ""
+msgstr "Füles nézet"
 
 #: viewHandlers.js:1224 viewHandlers.js:6858 controls/searchView.js:153
 #: Scripts/statistics/dialogs/dlgStatistics.js:175 AutoOrganize.pas:1605
@@ -2405,21 +2356,21 @@ msgstr "Műfajok"
 #. add title line
 #: viewHandlers.js:1373 controls/relatedArtists.js:26
 msgid "Related Artists"
-msgstr ""
+msgstr "Kapcsolódó előadók"
 
 #. so that the default focus control is searched within subViews below
 #: viewHandlers.js:1547
 msgid "Grid (by Album)"
-msgstr ""
+msgstr "Rács (Album szerint)"
 
 #. cancel/free/unregister the dataSource
 #: viewHandlers.js:1640
 msgid "Grid (by Series)"
-msgstr ""
+msgstr "Rács (Sorozat szerint)"
 
 #: viewHandlers.js:1770
 msgid "Feeds"
-msgstr ""
+msgstr "Hírcsatornák"
 
 #. #18158
 #: viewHandlers.js:1971 viewHandlers.js:5505 controls/maskedit.js:77
@@ -2430,7 +2381,7 @@ msgstr "Beállítás"
 #. add title line
 #: viewHandlers.js:2029 controls/relatedGenres.js:24
 msgid "Related Genres"
-msgstr ""
+msgstr "Kapcsolódó műfajok"
 
 #. default visibility defined by nodeHandler:
 #: viewHandlers.js:2997
@@ -2451,16 +2402,16 @@ msgstr "Átnevezés"
 #. inheritance, this way we creates 'PlaylistBase' node handler class, 'Playlist' and 'Playlists' inherits from it when creating nodeHandlers.playlist(s) instances below
 #: viewHandlers.js:3667
 msgid "playlist"
-msgstr ""
+msgstr "lejátszási lista"
 
 #. sub-views hidden by default
 #: viewHandlers.js:3769
 msgid "playlists"
-msgstr ""
+msgstr "lejátszási listák"
 
 #: viewHandlers.js:3811 controls/playlistHeader.js:159
 msgid "Are you sure you want to remove playlist \"%s\" ?"
-msgstr ""
+msgstr "Biztosan el kívánja távolítani a \"%s\" lejátszási listát?"
 
 #: viewHandlers.js:3813 controls/playlistHeader.js:161 PlaylistManage.pas:913
 msgid ""
@@ -2472,33 +2423,27 @@ msgstr ""
 
 #: viewHandlers.js:3816
 msgid "Are you sure you want to remove %d selected playlists ?"
-msgstr ""
+msgstr "Biztosan el kívánja távolítani a %d kiválasztott lejátszási listát?"
 
 #. #15926 - S4
 #. to not initiate too many stream url requests (would result in too many download threads)
 #: viewHandlers.js:4104 helpers/mediaSync.js:3207
-#, fuzzy
 msgid "Copying to %s:"
-msgstr "Másolás ide: %s"
+msgstr "Másolás ide: %s:"
 
 #. to not notify less often and improve performance for thousands of tracks
 #: viewHandlers.js:4106 MediaManage.pas:4134 MediaManage.pas:4215
-#, fuzzy
 msgid "Moving to %s:"
-msgstr "Másolás ide: %s"
+msgstr "Áthelyezés ide: %s:"
 
 #. to refresh also the drag from area (if not refreshed automatically)
 #: viewHandlers.js:4169
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to move '%s'?"
-msgstr "Biztosan eltávolít %d előnézetet?"
+msgstr "Biztosan át kívánja helyezni a(z) '%s'-t?"
 
 #: viewHandlers.js:4171
-#, fuzzy
-#| msgid "Do you really want to remove %d previews?"
 msgid "Do you really want to copy '%s'?"
-msgstr "Biztosan eltávolít %d előnézetet?"
+msgstr "Biztosan másolni kívánja a(z) '%s'-t?"
 
 #: viewHandlers.js:4177
 msgid "Copy Library content only"
@@ -2519,7 +2464,7 @@ msgstr "Minden tartalom áthelyezése"
 #. it's list
 #: viewHandlers.js:4310
 msgid "&Unsubscribe"
-msgstr ""
+msgstr "&Leiratkozás"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this._playlist.deleteAsync(); // remove newly created playlist when there was no edit change (item 3a in #13530)
@@ -2531,12 +2476,12 @@ msgstr "Leiratkozás"
 
 #: viewHandlers.js:4431
 msgid "Unsubscribed"
-msgstr ""
+msgstr "Leiratkozott"
 
 #. assignment to tracklist
 #: viewHandlers.js:4482 viewHandlers.js:7031
 msgid "Are you sure you want to remove \"%s\" ?"
-msgstr ""
+msgstr "Biztosan el kívánja távolítani a(z) \"%s\" ?"
 
 #. e.g. db folders
 #. requiredColumns: 'playOrder',
@@ -2546,7 +2491,7 @@ msgstr ""
 #: viewHandlers.js:5089 viewHandlers.js:7480
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:275
 msgid "folder"
-msgstr ""
+msgstr "mappa"
 
 #: viewHandlers.js:4500 controls/podcastSubscribeTutorial.js:23
 msgid "Podcast Directories"
@@ -2554,7 +2499,7 @@ msgstr "Podcast mappák"
 
 #: viewHandlers.js:4515
 msgid "Unplayed"
-msgstr ""
+msgstr "Nem játszott"
 
 #. 1500 ms (as 'commonChange' is called every 1000 ms during scan/edits)
 #. folder, library, playlist, nowplaying, device
@@ -2564,27 +2509,23 @@ msgstr "Biztosan véglegesen törölni szeretné "
 
 #: viewHandlers.js:4617
 msgid "selected folders"
-msgstr ""
+msgstr "kiválasztott mappák"
 
 #: viewHandlers.js:4624
-#, fuzzy
-#| msgid "Are you sure you want to remove %d file from the Library?"
 msgid "Are you sure you want to move the selected folders to the recycle bin?"
-msgstr "Bizotsan törli a(z) fájlt a médiatárból?"
+msgstr "Biztosan a kiválasztott mappákat a lomtárba kívánja helyezni?"
 
 #: viewHandlers.js:4626
-#, fuzzy
-#| msgid "Are you sure you want to remove %d file from the Library?"
 msgid "Are you sure you want to move the folder \"%s\" to the recycle bin?"
-msgstr "Bizotsan törli a(z) fájlt a médiatárból?"
+msgstr "Biztosan a(z) \"%s\" mappát a lomtárba kívánja helyezni?"
 
 #: viewHandlers.js:4936
 msgid "Are you sure you want to remove \"%s\"?"
-msgstr ""
+msgstr "Biztosan el kívánja távolítani a(z) \"%s\" ?"
 
 #: viewHandlers.js:4939
 msgid "Are you sure you want to remove %d selected items?"
-msgstr ""
+msgstr "Biztosan el kívánja távolítani a %d kiválasztott elemet?"
 
 #. to get fresh tracklist on F5 (view.refresh)
 #: viewHandlers.js:4977 viewHandlers.js:5380 ResStrings.pas:433
@@ -2593,7 +2534,7 @@ msgstr "Minden fájl"
 
 #: viewHandlers.js:4984
 msgid "All videos"
-msgstr ""
+msgstr "Összes videó"
 
 #: viewHandlers.js:4990 FormatsManage.pas:4479 FormatsManage.pas:4492
 msgid "video"
@@ -2601,11 +2542,13 @@ msgstr "videó"
 
 #: viewHandlers.js:5053 viewHandlers.js:5303
 msgid "Are you sure you want to remove playlist \"%s\" from %s?"
-msgstr ""
+msgstr "Biztosan el kívánja távolítani a \"%s\" lejátszási listát a(z) %s-ből?"
 
 #: viewHandlers.js:5056 viewHandlers.js:5306
 msgid "Are you sure you want to remove %d selected playlists from %s?"
 msgstr ""
+"Biztosan el kívánja távolítani a %d kiválasztott lejátszási listát a(z) "
+"%s-ből?"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
@@ -2644,11 +2587,11 @@ msgstr "Törlés"
 
 #: viewHandlers.js:5527
 msgid "Are you sure you want to remove profile \"%s\" ?"
-msgstr ""
+msgstr "Biztosan el kívánja távolítani a(z) \"%s\" profilt ?"
 
 #: viewHandlers.js:5567
 msgid "Disable"
-msgstr ""
+msgstr "Letiltás"
 
 #. toggle
 #: viewHandlers.js:5589
@@ -2662,7 +2605,7 @@ msgstr "Eszköz biztonságos &eltávolítása"
 #. e.g. tracklist or albumlist, add its tracks at once:
 #: viewHandlers.js:5670
 msgid "Devices & Services"
-msgstr ""
+msgstr "Eszközök és szolgáltatások"
 
 #. timeout to accomodate when there is many devices added just during startup in one second -- to reduce unnecessary refreshNodeChildren() calling
 #: viewHandlers.js:5705 Scripts/statistics/dialogs/dlgStatistics.js:176
@@ -2672,7 +2615,7 @@ msgstr "Évek"
 #. hasTreeChildren: false, // enabled in the tree so that individual years are accessible under decades (#15056)
 #: viewHandlers.js:5723
 msgid "Years (orig.)"
-msgstr ""
+msgstr "Évek (eredeti)"
 
 #. @ts-ignore
 #: viewHandlers.js:5846 controls/albumViewHeader.js:735 CDUtils.pas:1056
@@ -2687,56 +2630,54 @@ msgstr "Ismeretlen sorozat"
 
 #: viewHandlers.js:6395 viewHandlers.js:6408 UPnPTreeHelper.pas:1888
 msgid "Album Artists"
-msgstr ""
+msgstr "Album művészek"
 
 #. detect hovered item
 #: viewHandlers.js:6401 viewHandlers.js:6414 viewHandlers.js:6437
 #: controls/artistGrid.js:176 controls/statusbar.js:98
 #: helpers/artistDataSource.js:78
 msgid "artist"
-msgstr ""
+msgstr "előadó"
 
 #: viewHandlers.js:6428
 msgid "Contributing artists"
-msgstr ""
+msgstr "Közreműködő előadók"
 
 #: viewHandlers.js:6431
-#, fuzzy
-#| msgid "Artists"
 msgid "Artists only"
-msgstr "Szerzők"
+msgstr "Csak előadók"
 
 #: viewHandlers.js:6451 UPnPTreeHelper.pas:1893
 msgid "Directors"
-msgstr ""
+msgstr "Rendezők"
 
 #: viewHandlers.js:6457
 msgid "director"
-msgstr ""
+msgstr "rendező"
 
 #: viewHandlers.js:6464 controls/searchView.js:80 UPnPTreeHelper.pas:1889
 msgid "Composers"
-msgstr ""
+msgstr "Zeneszerzők"
 
 #: viewHandlers.js:6470
 msgid "composer"
-msgstr ""
+msgstr "zeneszerző"
 
 #: viewHandlers.js:6477 controls/searchView.js:119 UPnPTreeHelper.pas:1892
 msgid "Conductors"
-msgstr ""
+msgstr "Karmesterek"
 
 #: viewHandlers.js:6483
 msgid "conductor"
-msgstr ""
+msgstr "karmester"
 
 #: viewHandlers.js:6490 controls/searchView.js:253 UPnPTreeHelper.pas:1891
 msgid "Producers"
-msgstr ""
+msgstr "Producerek"
 
 #: viewHandlers.js:6496
 msgid "producer"
-msgstr ""
+msgstr "producer"
 
 #. searchView.localListen(LV, 'itemview', uitools.defaultItemAction); // disabled due to #15867
 #. don't save
@@ -2745,19 +2686,19 @@ msgstr ""
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:160 MaskHelper.pas:3211
 #: UPnPTreeHelper.pas:1887
 msgid "Actors"
-msgstr ""
+msgstr "Színészek"
 
 #: viewHandlers.js:6509
 msgid "actor"
-msgstr ""
+msgstr "színész"
 
 #: viewHandlers.js:6516 UPnPTreeHelper.pas:1902
 msgid "Publishers"
-msgstr ""
+msgstr "Kiadók"
 
 #: viewHandlers.js:6522
 msgid "publisher"
-msgstr ""
+msgstr "kiadó"
 
 #. hide it until we get a message via this.statusMessage (it doesn't look good to show empty status bar)
 #: viewHandlers.js:6782 controls/statusbar.js:98
@@ -2812,9 +2753,8 @@ msgid "Easy listening"
 msgstr "Könnyen hallgatható"
 
 #: viewHandlers.js:6834
-#, fuzzy
 msgid "Comedy"
-msgstr "Vígjáték"
+msgstr "Komédia"
 
 #: viewHandlers.js:6838 controls\deviceConfig\options\pnl_FileLocations.html:17
 msgid "Classical"
@@ -2827,7 +2767,7 @@ msgstr "Világ zene"
 #. node.addChildren(list, 'files_to_edit_default');
 #: viewHandlers.js:7257
 msgid "Album Artist is not the same across tracks on an album."
-msgstr ""
+msgstr "Az album előadója nem ugyanaz a számokon."
 
 #. #19480
 #: viewHandlers.js:7309
@@ -2836,21 +2776,26 @@ msgid ""
 "the mismatched values. If tracks don't show highlighted fields, try enabling "
 "additional columns."
 msgstr ""
+"Ez minden olyan számot megtalál, amelynek címkéi nem egyeznek az "
+"adatbázissal, kiemelve a nem egyező értékeket. Ha a számokon nem látszanak "
+"kiemelt mezők, próbáljon meg további oszlopokat engedélyezni."
 
 #: viewHandlers.js:7316
 msgid ""
 "This node finds all content for which tracks have duplicate hashes or "
 "fingerprints."
 msgstr ""
+"Ez a csomópont minden olyan tartalmat megtalál, amelynek a számainak "
+"duplikált hash-e vagy ujjlenyomata van."
 
 #. to respect order served by content
 #: viewHandlers.js:7323
 msgid "Artwork is not the same across tracks on an album."
-msgstr ""
+msgstr "A grafika nem ugyanaz az albumon található számokon."
 
 #: viewHandlers.js:7326
 msgid "Files have been deleted or moved."
-msgstr ""
+msgstr "A fájlok törölve vagy áthelyezve lettek."
 
 #: viewHandlers.js:7329 UPnPTreeHelper.pas:1908
 msgid "Files to Edit"
@@ -2897,10 +2842,8 @@ msgid "Web"
 msgstr "Web"
 
 #: viewHandlers.js:7693 viewHandlers.js:7787
-#, fuzzy
-#| msgid "Remove image"
 msgid "Remove bookmark"
-msgstr "Kép eltávolítása"
+msgstr "Könyvjelző eltávolítása"
 
 #: viewHandlers.js:7728 viewHandlers.js:7730 GlobVars.pas:2089
 msgid "Radio"
@@ -2917,14 +2860,10 @@ msgstr "Gyűjtemények"
 
 #. other windows are fetching this value (e.g. in uitools.showExtensions)
 #: controls/addonListView.js:85
-#, fuzzy
-#| msgid "Install Now"
 msgid "Install"
-msgstr "Telepítés most"
+msgstr "Telepítés"
 
 #: controls/addonListView.js:87
-#, fuzzy
-#| msgid "Installing update"
 msgid "Install update"
 msgstr "Frissítés telepítése"
 
@@ -2966,7 +2905,6 @@ msgstr "Dátum"
 
 #. so correct value for new DS can be set
 #: controls/albumTracklist.js:95
-#, fuzzy
 msgid "Season %s"
 msgstr "Évad %s"
 
@@ -2980,7 +2918,7 @@ msgstr "Lemez %s"
 #: controls/albumViewHeader.js:176 controls/artistViewHeader.js:59
 #: controls/artistViewHeader.js:61
 msgid "Switch"
-msgstr ""
+msgstr "Váltás"
 
 #: controls/albumViewHeader.js:152 controls/artistViewHeader.js:100
 msgid "Update properties"
@@ -2992,7 +2930,6 @@ msgstr "Kiadás"
 
 #: controls/albumViewHeader.js:203 controls/artistViewHeader.js:121
 #: controls/seriesViewHeader.js:146 controls/nowPlaying/artistBio.js:80
-#, fuzzy
 msgid "Choose different language"
 msgstr "Válasszon másik nyelvet"
 
@@ -3010,10 +2947,8 @@ msgstr "Kiadás szerkesztése a MusicBrainz-ben"
 
 #: controls/albumViewHeader.js:276 controls/artistViewHeader.js:182
 #: controls/seriesViewHeader.js:188
-#, fuzzy
-#| msgid "Artist Comment"
 msgid "Edit comment"
-msgstr "Szerzői megjegyzés"
+msgstr "Megjegyzés szerkesztése"
 
 #. reload view, album cloud be merged
 #. id or mbgid changed, reload view
@@ -3045,13 +2980,12 @@ msgstr "Ne kérdezzen újra"
 #: helpers/artistDataSource.js:140 helpers/artistDataSource.js:158
 #: helpers/seriesDataSource.js:176 helpers/seriesDataSource.js:257
 msgid "Getting"
-msgstr ""
+msgstr "Beszerzés"
 
 #: controls/albumViewHeader.js:543 controls/albumViewHeader.js:571
 #: controls/albumViewHeader.js:597
-#, fuzzy
 msgid "album image"
-msgstr "albumkép"
+msgstr "album kép"
 
 #. to refetch image after DS change
 #: controls/albumViewHeader.js:707 controls/listview.js:1393
@@ -3066,50 +3000,42 @@ msgstr "szám"
 #. to properly handle scrollbars of Scroller per the LV content
 #: controls/artistTracks.js:19 controls/genreTracks.js:31
 #: controls/yearTracks.js:28
-#, fuzzy
-#| msgid "per Track"
 msgid "Top Tracks"
-msgstr "számonként"
+msgstr "Legjobb számok"
 
 #: controls/artistTracks.js:22 controls/genreTracks.js:31
-#, fuzzy
-#| msgid "show all %d tracks"
 msgid "Show all tracks"
-msgstr "az összes %d szám megjelenítése"
+msgstr "Összes szám megjelenítése"
 
 #: controls/artistTracks.js:23 controls/genreTracks.js:31
 #: controls/yearTracks.js:28
-#, fuzzy
-#| msgid "show all %d tracks"
 msgid "Loading all tracks"
-msgstr "az összes %d szám megjelenítése"
+msgstr "Összes szám betöltése"
 
 #: controls/artistTracks.js:26 controls/artistTracks.js:27
 #: controls/artistTracks.js:225 controls/genreTracks.js:33
 #: controls/genreTracks.js:251 controls/yearTracks.js:229
 msgid "All tracks"
-msgstr ""
+msgstr "Összes szám"
 
 #: controls/artistTracks.js:30 controls/genreTracks.js:33
 #: controls/yearTracks.js:30
 msgid "Show Top Tracks only"
-msgstr ""
+msgstr "Csak a legjobb számok megjelenítése"
 
 #: controls/artistTracks.js:36
 msgid "Tracks (unclassified)"
-msgstr ""
+msgstr "Számok (nem osztályozottak)"
 
 #. Youtube track, allow searching it on Youtube
 #: controls/artistTracks.js:39 dialogs/dlgTrackProperties/tabBasic.js:159
 #: dialogs/dlgTrackProperties/tabBasic.js:198
 msgid "Show more from YouTube"
-msgstr ""
+msgstr "Több megjelenítése a YouTube-ról"
 
 #: controls/artistTracks.js:40
-#, fuzzy
-#| msgid "Find &more from same"
 msgid "Loading more from YouTube"
-msgstr "Több ugyanilyen keresése"
+msgstr "Több betöltése a YouTube-ról"
 
 #. #20968
 #: controls/artistTracks.js:87
@@ -3134,10 +3060,8 @@ msgstr "Az összes %d szám"
 #: controls/artistTracks.js:413
 #: Scripts/imageSearch/helpers/searchTools_add.js:90
 #: Scripts/imageSearch/helpers/searchTools_add.js:123
-#, fuzzy
-#| msgid "Download"
 msgid "Download error"
-msgstr "Letöltés"
+msgstr "Letöltési hiba"
 
 #: controls/artistViewHeader.js:157
 msgid "Edit in MusicBrainz"
@@ -3187,18 +3111,17 @@ msgstr "Szerkesztés engedélyezése"
 #. artwork was not loaded - file was already deleted or artwork removed from tag outside MM5, or file with artwork overwritten
 #: controls/artWindow.js:1491 MediaMonkeyApp.pas:8438
 msgid "Artwork not found"
-msgstr ""
+msgstr "Kép nem található"
 
 #. min size of art window
 #: controls/artWindow.js:1670
 msgid "Artwork only"
-msgstr ""
+msgstr "Csak kép"
 
 #. to load the new image thumb
 #: controls/artWindow.js:1757 dialogs/dlgTrackProperties.js:14
-#, fuzzy
 msgid "Basic"
-msgstr "Alap"
+msgstr "Alapvető"
 
 #: controls/artWindow.js:2062 controls/statusbar.js:114
 #: controls/statusbar.js:140 controls/statusbar.js:167
@@ -3208,16 +3131,15 @@ msgstr "Kijelölt"
 
 #. Pinned row:
 #: controls/autoConvertConfig.js:91
-#, fuzzy
 msgid ""
 "The standard version of MediaMonkey allows you to use the default auto-"
 "conversion rules. To convert content on-the-fly to different formats or to "
 "higher/lower bitrates, please upgrade to MediaMonkey Gold."
 msgstr ""
-"A MediaMonkey standard verziója lehetővé teszi az alapértelmezett auto-"
-"konvertálási szabályok használatát. A tartalom menet közben történő, "
-"különböző formátumokba, alacsonyabb vagy magasabb bitrátába konvertálásához "
-"kérjük váltson MediaMonkey Gold verzióra."
+"A MediaMonkey standard verziója lehetővé teszi az alapértelmezett "
+"automatikus átalakítási szabályok használatát. A tartalom különböző "
+"formátumokban vagy magasabb/alacsonyabb bitrátákon történő konvertálására "
+"való frissítés a MediaMonkey Gold-ra."
 
 #. this.localListen(this.imgloader, 'load', this.imgLoaded.bind(this));
 #: controls/backgroundImage.js:118
@@ -3226,32 +3148,30 @@ msgstr "Háttér animálása lejátszáskor"
 
 #: controls/backgroundImage.js:132
 msgid "Cycle Artist images"
-msgstr ""
+msgstr "Előadói képek körforgása"
 
 #: controls/backgroundImage.js:143
 msgid "Artwork (blurred)"
-msgstr ""
+msgstr "Kép (elmosódott)"
 
 #: controls/backgroundImage.js:154
 msgid "Artwork (darken)"
-msgstr ""
+msgstr "Kép (sötétítve)"
 
 #: controls/backgroundImage.js:165
 msgid "Artwork (original)"
-msgstr ""
+msgstr "Kép (eredeti)"
 
 #
 #. this.typeActions = [this.showArtistsAction, this.showAlbumAction];
 #: controls/backgroundImage.js:178
-#, fuzzy
-#| msgid "Background"
 msgid "Background image"
-msgstr "Aláfestő"
+msgstr "Háttérkép"
 
 #. F10 - toggle automatic preset change
 #: controls/baseVis.js:135 controls/baseVis.js:136
 msgid "Automatic preset change"
-msgstr ""
+msgstr "Automatikus előbeállítás váltás"
 
 #: controls/baseVis.js:135 controls/player.js:380 controls/player.js:390
 #: controls/player.js:458 controls/player.js:467 controls/player.js:478
@@ -3294,9 +3214,8 @@ msgstr "Ismét"
 
 #. #16618
 #: controls/buttons.js:429 ExceptionHandler.pas:329 ResStrings.pas:525
-#, fuzzy
 msgid "Ignore"
-msgstr "Kihagyás"
+msgstr "Figyelmen kívül hagy"
 
 #: controls/buttons.js:439
 msgid "No to all"
@@ -3390,7 +3309,7 @@ msgstr "Más"
 #. this listeners are unregistered when dataSource is changed
 #: controls/control.js:1391
 msgid "Getting data"
-msgstr ""
+msgstr "Adatok megszerzése"
 
 #. Add Inspect Element popup command (chromium 39 or later)
 #: controls/control.js:1484
@@ -3419,10 +3338,8 @@ msgstr "fájl"
 
 #. we are still calculating, let it known in the UI:
 #: controls/deviceConfig.js:283
-#, fuzzy
-#| msgid "Calculating signatures..."
 msgid "Calculating"
-msgstr "Szignatúrák számolása..."
+msgstr "Számítás"
 
 #: controls/deviceConfig.js:289 controls/deviceConfig.js:290
 #: controls/deviceConfig/summary.js:59
@@ -3447,6 +3364,10 @@ msgid ""
 "limit. This is useful for syncing random tracks to a device/location that "
 "cannot contain your entire library."
 msgstr ""
+"Véletlenszerűen szinkronizálja a kiválasztott fájlok egy részét, amely "
+"megtölti a célállomást a meghatározott határig. Ez hasznos a véletlenszerű "
+"számok szinkronizálásához egy eszközre/helyszínre, amely nem tudja "
+"tartalmazni az egész könyvtárát."
 
 #: controls/deviceContentRandomizer.js:9
 msgid "Sync random subset of selected files up to target capacity"
@@ -3518,10 +3439,8 @@ msgstr "Kevesebb megjelenítése"
 
 #. override to prevent from restore on LV descendant, it would assert in ListView.RestoreState  (dataSource == null)
 #: controls/downloadView.js:23
-#, fuzzy
-#| msgid "Resume all"
 msgid "Resume"
-msgstr "Az összes folytatása"
+msgstr "Folytatás"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that screen tests are user independent
@@ -3593,12 +3512,12 @@ msgstr "Közép"
 
 #: controls/equalizer.js:136 controls\equalizer.html:2
 msgid "Balance:"
-msgstr ""
+msgstr "Egyensúly:"
 
 #. }]);
 #: controls/feedlistview.js:53
 msgid "feed"
-msgstr ""
+msgstr "hírcsatorna"
 
 #: controls/filetypetree.js:40 dialogs/dlgSupportedFormats.js:31
 #: dialogs\dlgAutoConvertRule.html:33
@@ -3636,9 +3555,8 @@ msgstr "Összecsukás"
 
 #. supress toast messages when we are placed into a view, search bar is taking it
 #: controls/listview.js:2710
-#, fuzzy
 msgid "Scroll to"
-msgstr "Görgetés ehhez"
+msgstr "Görgetés"
 
 #: controls/listview.js:2710
 msgid "Use %s for the next match"
@@ -3666,9 +3584,8 @@ msgid "Close other tabs"
 msgstr "Másik fülek bezárása"
 
 #: controls/maintabs.js:58
-#, fuzzy
 msgid "Close tabs to the right"
-msgstr "Jobbra található fülek bezárása"
+msgstr "Lapok bezárása jobbra"
 
 #: controls/maskEditWizard.js:70
 msgid "Main directory:"
@@ -3683,18 +3600,16 @@ msgid "Subdirectories"
 msgstr "Almappák"
 
 #: controls/maskEditWizard.js:75
-#, fuzzy
 msgid "Subdirectories can be defined statically or using mask variables"
-msgstr "Az almappákat statikusan vagy maszk változókkal lehet megadni"
+msgstr "Almappákat statikusan vagy maszkváltozókkal lehet meghatározni"
 
 #: controls/maskEditWizard.js:78 dialogs\dlgOptions\pnl_Library.html:105
 msgid "Filenames"
 msgstr "Fájlnevek"
 
 #: controls/maskEditWizard.js:78
-#, fuzzy
 msgid "Filenames can be defined using mask variables or statically"
-msgstr "A fájlneveket maszk változókkal vagy statikusan lehet megadni"
+msgstr "Fájlnév megadható maszkváltozókkal vagy statikusan"
 
 #: controls/maskEditWizard.js:81
 msgid "Sample:"
@@ -3703,17 +3618,17 @@ msgstr "Minta:"
 #. Set the node path for the new tab with the contents of the item that was clicked
 #: controls/mediaTree.js:208
 msgid "Show all subnodes"
-msgstr ""
+msgstr "Összes alcsomópont megjelenítése"
 
 #. to hide the expand marks for corresponding nodes
 #: controls/mediaTree.js:221
 msgid "Scroll to match when typing in tree"
-msgstr ""
+msgstr "Görgetés a fa meglévő szövegéhez írás közben"
 
 #. toggle:
 #: controls/mediaTree.js:230
 msgid "Focus tree nodes when browsing content"
-msgstr ""
+msgstr "Fa csomópontokra fókuszálás a tartalom böngészésekor"
 
 #. do not notify about focus of this LV
 #: controls/menuToggleButton.js:26
@@ -3748,10 +3663,8 @@ msgstr "Automatikus felismerés"
 
 #. _this.dataSource.deleteSelected();
 #: controls/monitoredFoldersView.js:171
-#, fuzzy
-#| msgid "Rating selected file(s)"
 msgid "Remove selected folder(s)"
-msgstr "Kijelölt fájl(ok) értékelése"
+msgstr "Kiválasztott mappa(a)(k) eltávolítása"
 
 #. second mouse click in less than 3 seconds starts editing
 #: controls/monitoredFoldersView.js:231 GlobVars.pas:2084
@@ -3772,15 +3685,13 @@ msgstr "Médiatípus"
 #. #18235#c64849
 #: controls/multiview.js:219 controls/sortBy.js:60
 #: controls\searchEditor.html:44
-#, fuzzy
 msgid "Sort by"
-msgstr "Rendezés eszerint"
+msgstr "Rendezés szerint"
 
 #. permanent (always enabled) sub-view
 #: controls/multiview.js:254
-#, fuzzy
 msgid "View elements"
-msgstr "Nézet elemei"
+msgstr "Nézeti elemek"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to hide mutual exclusive sub-view before showing our sub-view
@@ -3798,9 +3709,8 @@ msgstr "Képméret"
 
 #. to update the search text from the node.dataSource (queryData)
 #: controls/navigationBar.js:140
-#, fuzzy
 msgid "Cancel filter"
-msgstr "Szűrő visszavonása"
+msgstr "Szűrő törlése"
 
 #. add default undo button
 #: controls/navigationBar.js:297
@@ -3813,16 +3723,16 @@ msgstr "Kattintás jobb gombbal az előzményekhez."
 #: controls/navigationBar.js:603 controls/navigationBar.js:604
 #: dialogs\dlgCollectionOptions.html:51
 msgid "Sub-nodes"
-msgstr ""
+msgstr "Alcsomópontok"
 
 #. timeout to auto hide switcher buttons
 #: controls/nowplayingview.js:15
 msgid "Album Art"
-msgstr ""
+msgstr "Album borító"
 
 #: controls/nowplayingview.js:22
 msgid "Artist Bio"
-msgstr ""
+msgstr "Előadó életrajz"
 
 #. full window -> normal
 #. full screen -> normal
@@ -3832,10 +3742,8 @@ msgstr "Normál ablak"
 
 #: controls/nowplayingview.js:159 controls/nowPlaying/artistBio.js:65
 #: controls/nowPlaying/fullList.js:151
-#, fuzzy
-#| msgid "&Load Playlist"
 msgid "Show 'Playing' list"
-msgstr "Lejátszási lista &betöltése"
+msgstr "'Lejátszási' lista megjelenítése"
 
 #. Main context manu of Now Playing view
 #: controls/nowplayingview.js:224
@@ -3879,18 +3787,20 @@ msgstr "Belső lejátszó"
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
 msgstr ""
+"A 'Lejátszási' listát összekeveri, és alapértelmezett lejátszási parancsokat "
+"ad, hogy számokat keverjenek össze."
 
 #: controls/player.js:500
 msgid "Speed"
-msgstr ""
+msgstr "Sebesség"
 
 #: controls/player.js:504
 msgid "Pitch"
-msgstr ""
+msgstr "Hangmagasság"
 
 #: controls/player.js:504 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
-msgstr ""
+msgstr "félhangok"
 
 #: controls/player.js:560
 msgid "Time"
@@ -3929,6 +3839,8 @@ msgid ""
 "Audio streaming is limited to 30 minutes in the free version of MediaMonkey. "
 "Please consider upgrading to a Gold license."
 msgstr ""
+"A hangstreaming a MediaMonkey ingyenes verziójában 30 percre korlátozott. "
+"Kérjük, fontolja meg az aranylicencre való frissítést."
 
 #: controls/player.js:1240 controls\windowtitle.html:4
 msgid "MediaMonkey"
@@ -3943,6 +3855,7 @@ msgstr "Váltás mini/mikro lejátszóra"
 #: controls/playlistEditor.js:44
 msgid "Drag and drop or Send tracks to the playlist to populate it."
 msgstr ""
+"Húzza és dobja vagy küldje el a számokat a lejátszási listára a feltöltéshez."
 
 #: controls/playlistHeader.js:111
 msgid "Edit in Playlist Panel"
@@ -3982,10 +3895,8 @@ msgstr ""
 "látogasson el ide: %s"
 
 #: controls/podcastSubscribeTutorial.js:23
-#, fuzzy
-#| msgid "Sort"
 msgid "or"
-msgstr "Rendezés"
+msgstr "vagy"
 
 #: controls/podcastSubscribeTutorial.js:23
 msgid "Subscribe to a podcast manually by entering the feed link"
@@ -3999,7 +3910,7 @@ msgstr "Értékelés eltávolítása"
 #. to avoid stealing focus by resetting it to new view
 #: controls/searchBar.js:445 dialogs/dlgOptions/pnl_Search.js:55
 msgid "Filters matches"
-msgstr ""
+msgstr "Szűrők egyezései"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. in case of collection search we need to change view at first
@@ -4016,13 +3927,11 @@ msgstr "Görgetés a találathoz"
 
 #: controls/searchBar.js:462 dialogs/dlgOptions/pnl_Search.js:56
 msgid "primary sort field"
-msgstr ""
+msgstr "elsődleges rendezési mező"
 
 #: controls/searchBar.js:488 dialogs/dlgOptions/pnl_Search.js:57
-#, fuzzy
-#| msgid "All fields"
 msgid "all fields"
-msgstr "Minden mező"
+msgstr "összes mező"
 
 #. LS: seems to be valid also for active list searching (e.g. in Music > All Tracks) -- i.e. this.searchType == 'activelist'
 #: controls/searchBar.js:719
@@ -4031,61 +3940,59 @@ msgstr "Keresési tippek"
 
 #. following variants are not supported in word infix mode (see #17395)
 #: controls/searchBar.js:722
-#, fuzzy
 msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
-msgstr ""
-"+Foo | a Foo-val kezdődő szavak keresése (kis-nagybetű érzékeny, pl. "
-"Football)"
+msgstr "foo | megtalálja a foo-val kezdődő szavakat (pl. Bar étel vagy fóO bár)"
 
 #: controls/searchBar.js:723
-#, fuzzy
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
-"+Foo | a Foo-val kezdődő szavak keresése (kis-nagybetű érzékeny, pl. "
+"+Foo | megtalálja a Foo-val (nagybetű-érzékeny) kezdődő szavakat (pl. "
 "Football)"
 
 #: controls/searchBar.js:725
 msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
-msgstr ""
+msgstr "\"Foo\" | teljes szavak találata (pl. FOO vagy fóo)"
 
 #: controls/searchBar.js:726
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
 msgstr ""
+"\"foo bar\" | egyezik a foo bar kifejezést tartalmazó találatokkal (pl. foo "
+"barman)"
 
 #: controls/searchBar.js:727
 msgid "foo bar | finds matches with foo and bar"
-msgstr ""
+msgstr "foo bar | foo és bar egyezései"
 
 #: controls/searchBar.js:728
 msgid "foo OR bar | finds matches with either foo or bar"
-msgstr ""
+msgstr "foo OR bar | foo vagy bar egyezései"
 
 #: controls/searchBar.js:729
 msgid "foo -bar | finds matches with foo and not bar"
-msgstr ""
+msgstr "foo -bar | foo találatai bar nélkül"
 
 #: controls/searchBar.js:730
 msgid "fieldname:foo | restricts search to a specific field. For example:"
-msgstr ""
+msgstr "fieldname:foo | egy mezőre korlátozza a keresést. Például:"
 
 #: controls/searchBar.js:731
 msgid ""
 "artist:floy | finds words beginning with floy (in Artist) e.g. Pink Floyd"
 msgstr ""
+"artist:floy | floy-al kezdődő szavakat keres (az előadóban) pl. Pink Floyd"
 
 #: controls/searchBar.js:732
 msgid "year:2000..2006 | finds matches in range 2000 to 2006"
-msgstr ""
+msgstr "year:2000..2006 | 2000 és 2006 közötti találatokat keres"
 
 #: controls/searchBar.js:733
 msgid "rating: 4.. | finds matches with 4 stars or more"
-msgstr ""
+msgstr "rating: 4.. | 4 vagy annál több csillagos találatokat keres"
 
 #. #16537
 #: controls/searchEditor.js:591
-#, fuzzy
 msgid "click to set"
-msgstr "kattintson a megadáshoz"
+msgstr "kattintson a beállításhoz"
 
 #. insert 'Match [Any/All]...'
 #: controls/searchEditor.js:759
@@ -4094,7 +4001,7 @@ msgstr "Beágyazott feltétel"
 
 #: controls/searchEditor.js:790
 msgid "Classification & Custom"
-msgstr ""
+msgstr "Osztályozás és egyéni"
 
 #: controls/searchEditor.js:794
 msgid "Others"
@@ -4128,7 +4035,7 @@ msgstr "Nem található eredmény"
 #. force to reload local image
 #: controls/seriesViewHeader.js:93
 msgid "Wrong series?"
-msgstr ""
+msgstr "Rossz sorozat?"
 
 #: controls/seriesViewHeader.js:126
 msgid "Enter name"
@@ -4278,10 +4185,8 @@ msgstr "Legutoljára lejátszva"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:374 QueryManage.pas:4941
-#, fuzzy
-#| msgid "Skipped #"
 msgid "Last Skipped"
-msgstr "Átugorva ennyiszer"
+msgstr "Legutóbb kihagyott"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. bitrate
@@ -4301,7 +4206,6 @@ msgstr "Média"
 
 #: controls/trackListView.js:649 MP3Utils.pas:4456
 #: dialogs\dlgTrackProperties\tabCustom.html:107
-#, fuzzy
 msgid "Extended tags"
 msgstr "Bővített címkék"
 
@@ -4419,10 +4323,8 @@ msgstr "Eredeti előadó"
 #: controls/trackListView.js:1224 MaskHelper.pas:3153 ResStrings.pas:482
 #: ResStrings.pas:493 ResStrings.pas:536
 #: dialogs\dlgTrackProperties\tabDetails.html:64
-#, fuzzy
-#| msgid "Original AR"
 msgid "Original Album"
-msgstr "Eredeti képarány"
+msgstr "Eredeti album"
 
 #: controls/trackListView.js:1241 MaskHelper.pas:3152 ResStrings.pas:481
 #: ResStrings.pas:535 dialogs\dlgTrackProperties\tabDetails.html:75
@@ -4523,7 +4425,7 @@ msgstr "Típus"
 #: MaskHelper.pas:3891 QueryManage.pas:4931 QueryManage.pas:5065
 #: QueryManage.pas:5066 dialogs\dlgTrackProperties\tabClassification.html:42
 msgid "Initial Key"
-msgstr ""
+msgstr "Kezdő kulcs"
 
 #: controls/trackListView.js:1736 MaskHelper.pas:3191 ResStrings.pas:478
 #: ResStrings.pas:532 dialogs\dlgTrackProperties\tabDetails.html:86
@@ -4557,6 +4459,7 @@ msgstr "Hangforma frissítése"
 #: controls/clientConfig/autoConvert.js:5
 msgid "Convert the following formats when playing %s content remotely"
 msgstr ""
+"Az alábbi formátumok átalakítása a(z) %s tartalom távoli lejátszása esetén"
 
 #: controls/clientConfig/autoConvert.js:6
 #: controls/serverConfig/autoConvert.js:4
@@ -4580,7 +4483,7 @@ msgstr "Hangerő kiegyenlítése hang megosztásakor"
 
 #: controls/deviceConfig/options.js:9
 msgid "File Locations"
-msgstr ""
+msgstr "Fájlhelyek"
 
 #: controls/deviceConfig/options.js:13
 msgid "Tagging"
@@ -4603,31 +4506,31 @@ msgstr "Mappa hozzáadása"
 #: controls/deviceConfig/syncFromDevice.js:46
 #: controls/deviceConfig/options/pnl_FileLocations.js:69
 msgid "Enter folder path that you want to add:"
-msgstr ""
+msgstr "Adja meg a hozzáadni kívánt mappa elérési útját:"
 
 #: controls/deviceConfig/syncToDevice.js:192
 msgid "Add library content to '%s'"
-msgstr ""
+msgstr "Könyvtártartalom hozzáadása a(z) '%s'-hez"
 
 #: controls/deviceConfig/syncToDevice.js:541
 msgid "Delete other files and playlists from '%s'"
-msgstr ""
+msgstr "Más fájlok és lejátszási listák törlése a(z) '%s'-ből"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:6
 msgid "Convert the following formats when syncing to '%s'"
-msgstr ""
+msgstr "Az alábbi formátumok átalakítása a(z) '%s' szinkronizálásakor"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:7
 msgid "Format in Library"
-msgstr ""
+msgstr "Formátum a könyvtárban"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:8
 msgid "Format on the target"
-msgstr ""
+msgstr "Formátum a célállomáson"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:10
 msgid "Level volume when syncing audio"
-msgstr ""
+msgstr "Hangerő szintezése audió szinkronizáláskor"
 
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:13
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:27
@@ -4646,7 +4549,7 @@ msgstr "Jelölje ki a MediaMonkey eszközkonfigurációs fájlt"
 #: Scripts/exportPodcasts/actions_add.js:11
 #: Scripts\statistics\dialogs\dlgStatistics.html:27
 msgid "Save as"
-msgstr ""
+msgstr "Mentés másként"
 
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:90
 #: dialogs/dlgSearchImage.js:244 dialogs/dlgTrackProperties/tabArtwork.js:182
@@ -4655,40 +4558,44 @@ msgstr "Képfájlok kiválaszása"
 
 #: controls/deviceConfig/options/pnl_FileLocations.js:17
 msgid "Save files to the following locations on '%s'"
-msgstr ""
+msgstr "Fájlok mentése a következő helyekre a(z) '%s'-n"
 
 #: controls/deviceConfig/options/pnl_FileLocations.js:52
 msgid "Enforce use of the sync mask for files already on '%s'"
 msgstr ""
+"A szinkronizálási maszk használatának érvényesítése a már a(z) '%s'-en lévő "
+"fájlok esetében"
 
 #: controls/deviceConfig/options/pnl_FileLocations.js:55
 msgid "Other locations on '%s' to scan for media files"
-msgstr ""
+msgstr "Más helyek a(z) '%s'-en médiafájlok kereséséhez"
 
 #: controls/deviceConfig/options/pnl_Playlists.js:9
 msgid "Also generate playlists on '%s' for:"
-msgstr ""
+msgstr "Lejátszási listák létrehozása a(z) '%s'-en a következők számára:"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Update files and metadata as follows when syncing to '%s'"
 msgstr ""
+"Fájlok és metaadatok frissítése a következők szerint a(z) '%s' "
+"szinkronizálásakor"
 
 #: controls/nowPlaying/fullList.js:211
 msgid "Click to look up lyrics..."
-msgstr ""
+msgstr "Klikkeljen a dalszövegek kereséséhez..."
 
 #: controls/nowPlaying/largeLyrics.js:108
 msgid "Reset to original"
-msgstr ""
+msgstr "Visszaállítás az eredetire"
 
 #: controls/nowPlaying/largeLyrics.js:129
 msgid "Font size"
-msgstr ""
+msgstr "Betűméret"
 
 #. ODS('--- saving ' + JSON.stringify(fromObject));
 #: controls/serverConfig/autoConvert.js:3
 msgid "Convert the following formats when playing remotely"
-msgstr ""
+msgstr "Az alábbi formátumok átalakítása távoli lejátszás során"
 
 #: controls/serverConfig/autoConvert.js:6
 msgid "Supported formats on UPnP/DLNA clients"
@@ -4711,11 +4618,11 @@ msgstr "IP cím"
 
 #: controls/serverConfig/devices.js:59 UpNp.pas:10374
 msgid "Last access"
-msgstr ""
+msgstr "Utolsó hozzáférés"
 
 #: controls/serverConfig/server.js:3 dialogs/dlgOptions/pnl_MediaServers.js:53
 msgid "Automatic"
-msgstr ""
+msgstr "Automatikus"
 
 #. 192.168.X.X can be reached (case A)
 #: controls/serverConfig/server.js:33
@@ -4723,10 +4630,12 @@ msgid ""
 "%s seems to be working correctly. See Help, if you're unable to access the "
 "server from other devices."
 msgstr ""
+"%s úgy tűnik, hogy megfelelően működik. Lásd a súgót, ha más eszközökről nem "
+"tud csatlakozni a kiszolgálóhoz."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
-msgstr ""
+msgstr "A kiszolgáló nem fut"
 
 #: controls/serverConfig/server.js:139 UpNp.pas:5816
 msgid "Client name"
@@ -4743,7 +4652,7 @@ msgstr "A MediaMonkey névjegye"
 
 #: dialogs/dlgAbout.js:12
 msgid "Portable mode"
-msgstr ""
+msgstr "Hordozható mód"
 
 #: dialogs/dlgAddArtwork.js:5 dialogs\dlgOptions\pnl_TagsAndPlaylists.html:68
 msgid "Save image to tag (if possible) otherwise save to file folder"
@@ -4759,16 +4668,16 @@ msgstr "Kép mentése címkébe (ha lehetséges) és a mappába"
 
 #: dialogs/dlgAddArtwork.js:28
 msgid "Add cover"
-msgstr ""
+msgstr "Borító hozzáadása"
 
 #: dialogs/dlgAddonConfig.js:18
 msgid "Addon Configuration"
-msgstr ""
+msgstr "Addon konfiguráció"
 
 #: dialogs/dlgAddonConfig.js:51 dialogs/dlgOptions/pnl_LayoutSkin.js:132
 #: Extensions.pas:960 Extensions.pas:975 Extensions.pas:1025
 msgid "Invalid Addon!"
-msgstr ""
+msgstr "Érvénytelen Addon!"
 
 #: dialogs/dlgAddonInstall.js:6
 msgid "Product installation"
@@ -4776,17 +4685,13 @@ msgstr "Termék telepítése"
 
 #: dialogs/dlgAddonInstall.js:39 dialogs/dlgAddonInstall.js:46
 #: Scripts/imageSearch/helpers/searchTools_add.js:71
-#, fuzzy
-#| msgid "There is a new version of MediaMonkey available."
 msgid "This addon is incompatible with current version of MediaMonkey"
-msgstr "A MediaMonkey újabb verziója elérhető."
+msgstr "Ez az addon nem kompatibilis a MediaMonkey jelenlegi verziójával"
 
 #: dialogs/dlgAddonInstall.js:40
 #: Scripts/imageSearch/helpers/searchTools_add.js:71
-#, fuzzy
-#| msgid "Please upgrade to MediaMonkey Gold for this feature!"
 msgid "Please update to MediaMonkey %s or higher."
-msgstr "Ehhez a funkcióhoz váltson MediaMonkey Gold verzióra!"
+msgstr "Kérjük, frissítsen a MediaMonkey %s vagy magasabbra."
 
 #. afterImageDownload(); // close old message and enable apply button
 #. downloading original image failed
@@ -4892,23 +4797,20 @@ msgstr "%d - %d / %d sáv"
 
 #: dialogs/dlgAutotag.js:485
 msgid "Lookups completed"
-msgstr ""
+msgstr "Lekérések befejezve"
 
 #: dialogs/dlgAutotag.js:650 dialogs/dlgOptions.js:107
-#, fuzzy
 msgid "Metadata lookup"
-msgstr "Metaadat felkeresés"
+msgstr "Metaadatok lekérdezése"
 
 #: dialogs/dlgAutotag.js:650 helpers/autoTagFramework.js:286
 msgid "Fail"
-msgstr ""
+msgstr "Hiba"
 
 #. Dialog was already presented
 #: dialogs/dlgAutotag.js:650 hpCDEBurner.pas:1503
-#, fuzzy
-#| msgid "Error"
 msgid "Error code"
-msgstr "Hiba"
+msgstr "Hibakód"
 
 #: dialogs/dlgAutotag.js:663
 msgid "Auto-tag more / faster with"
@@ -4954,7 +4856,7 @@ msgstr "Új érték"
 #: dialogs/dlgAutotagFromFilename.js:390 MP3Utils.pas:1270
 #: Normalization.pas:1356
 msgid "Preparing list of files"
-msgstr ""
+msgstr "Fájlok listájának előkészítése"
 
 #: dialogs/dlgCDDBResult.js:12
 msgid "Choose an Album"
@@ -4978,7 +4880,6 @@ msgstr "Letiltva"
 
 #: dialogs/dlgCollectionOptions.js:84 dialogs/dlgCollectionOptions.js:136
 #: dialogs/dlgOptions/pnl_MediaTree.js:18
-#, fuzzy
 msgid "Visible always"
 msgstr "Mindig látható"
 
@@ -5000,20 +4901,19 @@ msgstr "Ikon"
 #: dialogs/dlgCollectionOptions.js:383
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 MediaMonkeyApp.pas:7567
 msgid "not found!"
-msgstr ""
+msgstr "nem található!"
 
 #: dialogs/dlgConvertFormat.js:29
 msgid "Convert Files"
 msgstr "Fájlok konvertálása"
 
 #: dialogs/dlgConvertFormat.js:58
-#, fuzzy
 msgid ""
 "CD Ripping is supported in the free version of MediaMonkey, however, "
 "verification via AccurateRip is only included with the Gold version. "
 msgstr ""
-"A CD rippelés a MediaMonkey ingyenes verziójában is támogatott, azonban az "
-"ellenőrzés az AccurateRip segítségével csak a Gold verzióval lehetséges. "
+"CD Ripping támogatott a MediaMonkey ingyenes verziójában, az AccurateRip "
+"általi visszaigazolás azonban csak az arany verzióban érhető el. "
 
 #: dialogs/dlgDeleteConfirm.js:9
 msgid "Confirmation"
@@ -5049,9 +4949,8 @@ msgid "Remove from the Playlist only"
 msgstr "Törlés csak a lejátszási listáról"
 
 #: dialogs/dlgDeleteConfirm.js:86
-#, fuzzy
 msgid "Remove from the Playlist and"
-msgstr "Eltávolítás a lejátszási listából és"
+msgstr "Törölje a lejátszási listáról és"
 
 #. per #15029
 #: dialogs/dlgDeleteConfirm.js:96 dialogs/dlgDeleteConfirm.js:145
@@ -5079,39 +4978,28 @@ msgstr "Törlés a lejátszási listából, az adatbázisból és a meghajtóró
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
-#, fuzzy
-#| msgid "Remove from the Playlist only"
 msgid "Remove from 'Playing' list only"
-msgstr "Törlés csak a lejátszási listáról"
+msgstr "Csak a 'Lejátszási' listáról távolítsa el"
 
 #: dialogs/dlgDeleteConfirm.js:135
-#, fuzzy
 msgid "Remove from 'Playing' list and"
-msgstr "Eltávolítás a lejátszási listából és"
+msgstr "Távolítsa el a 'Lejátszási' listáról és"
 
 #: dialogs/dlgDeleteConfirm.js:160
-#, fuzzy
-#| msgid "Delete from the Playlist and database only"
 msgid "Delete from 'Playing' list and the database only"
-msgstr "Törlés csak a lejátszási listából és az adatbázisból"
+msgstr "Törölje a 'Lejátszási' listáról és az adatbázisból csak"
 
 #: dialogs/dlgDeleteConfirm.js:161
-#, fuzzy
-#| msgid "Delete from the Playlist, database and drive"
 msgid "Delete from 'Playing' list, the database and drive"
-msgstr "Törlés a lejátszási listából, az adatbázisból és a meghajtóról"
+msgstr "Törölje a 'Lejátszási' listáról, az adatbázisból és a meghajtóról"
 
 #: dialogs/dlgDeleteConfirm.js:189
-#, fuzzy
-#| msgid "Are you sure you want to remove %d files from the Library?"
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
-msgstr "Bizotsan törli a(z) fájlokat a médiatárból?"
+msgstr "Biztosan törölni kívánja a(z) %d fájlt a(z) ''%s'' ?"
 
 #: dialogs/dlgDeletedTracks.js:8
-#, fuzzy
-#| msgid "Remove Unavailable files ?"
 msgid "Remove unavailable files"
-msgstr "Törölje a nem elérhető fájlokat?"
+msgstr "Eltávolíthatatlan fájlok eltávolítása"
 
 #: dialogs/dlgDeletedTracks.js:62
 msgid ""
@@ -5139,15 +5027,12 @@ msgid "Configure View"
 msgstr "Nézet beállítása"
 
 #: dialogs/dlgEditView.js:584
-#, fuzzy
 msgid "Everywhere"
-msgstr "Mindenütt"
+msgstr "Mindenhol"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
-msgstr "Adja meg a nevet"
+msgstr "Kérjük, adjon meg nevet"
 
 #: dialogs/dlgErrorLog.js:5
 msgid "Problem"
@@ -5163,10 +5048,8 @@ msgid "Item"
 msgstr "Elem"
 
 #: dialogs/dlgExtensions.js:47 ResStrings.pas:396
-#, fuzzy
-#| msgid "Configure"
 msgid "Configurable"
-msgstr "Beállítás"
+msgstr "Konfigurálható"
 
 #: dialogs/dlgExtensions.js:52
 msgid "MediaMonkey installation files (*.mmip)|*.*ip"
@@ -5191,15 +5074,12 @@ msgstr "Egyszer"
 
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:45
-#, fuzzy
 msgid "The location %s does not exist."
-msgstr "A következő bővítményt nem sikerült megnyitni: %s."
+msgstr "A hely %s nem létezik."
 
 #: dialogs/dlgImageSize.js:39
-#, fuzzy
-#| msgid "Browser Favorites"
 msgid "Browser & Grid views"
-msgstr "Böngésző kedvencek"
+msgstr "Böngésző és rács nézetek"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. promise canceled
@@ -5209,40 +5089,34 @@ msgid "Sign in"
 msgstr "Bejelentkezés"
 
 #: dialogs/dlgLogin.js:19
-#, fuzzy
 msgid "Please enter your username and password to sign in '%s'"
-msgstr "Adja meg felhasználónevét és jelszavát a bejelentkezéshez ide: %s"
+msgstr "Kérjük, adja meg felhasználónevét és jelszavát a '%s' bejelentkezéshez"
 
 #: dialogs/dlgLogin.js:45
 msgid "Your username or password is incorrect, try it again."
 msgstr "A felhasználóneve vagy jelszava helytelen, próbálja újra."
 
 #: dialogs/dlgMaintainLibrary.js:3 helpers/mediaSync.js:614
-#, fuzzy
 msgid "Daily"
-msgstr "Naponta"
+msgstr "Napi"
 
 #: dialogs/dlgMaintainLibrary.js:3 helpers/mediaSync.js:615
-#, fuzzy
 msgid "Weekly"
-msgstr "Hetente"
+msgstr "Heti"
 
 #: dialogs/dlgMaintainLibrary.js:3 helpers/mediaSync.js:616
-#, fuzzy
 msgid "Monthly"
-msgstr "Havonta"
+msgstr "Havi"
 
 #: dialogs/dlgManageViews.js:17 helpers/views.js:340
 msgid "Manage views"
 msgstr "Nézetek kezelése"
 
 #: dialogs/dlgMediaProperties.js:11 ResStrings.pas:413
-#, fuzzy
 msgid "Removable"
-msgstr "Hordozható"
+msgstr "Eltávolítható"
 
 #: dialogs/dlgMediaProperties.js:14
-#, fuzzy
 msgid "Fixed"
 msgstr "Rögzített"
 
@@ -5252,7 +5126,7 @@ msgstr "Távoli"
 
 #: dialogs/dlgMediaProperties.js:32
 msgid "UUID"
-msgstr ""
+msgstr "UUID"
 
 #: dialogs/dlgMediaProperties.js:35 ResStrings.pas:418
 msgid "YouTube"
@@ -5262,11 +5136,13 @@ msgstr "YouTube"
 msgid ""
 "Location change is complete and will take effect after MediaMonkey restarts."
 msgstr ""
+"A helyváltozás megtörtént, és hatása a MediaMonkey újraindítása után lesz "
+"érvényes."
 
 #. to be sure that only our 'click' event handler will be used (to be sure that setResult(res) is called also for Cancel button)
 #: dialogs/dlgMigrateWizard.js:4
 msgid "Migration Wizard"
-msgstr ""
+msgstr "Áthelyezési varázsló"
 
 #: dialogs/dlgMigrateWizard.js:12
 msgid ""
@@ -5276,19 +5152,26 @@ msgid ""
 "and accessed via MediaMonkey as if the content were local, as long as the "
 "server is accessible. If not, content can be cached locally."
 msgstr ""
+"Egy %s észlelve lett. Ez használható a könyvtár részleteinek tárolására és "
+"megosztására több MediaMonkey klienssel, akkor is, ha ez a MediaMonkey példa "
+"nem fut. A MediaMonkey szerveren található tartalom kezelhető és elérhető a "
+"MediaMonkey által, mintha a tartalom helyileg lenne, amíg a szerver "
+"hozzáférhető. Ha nem, a tartalom helyileg is gyorsítótárazható."
 
 #: dialogs/dlgMigrateWizard.js:19
 msgid ""
 "By default, this wizard migrates all MediaMonkey data and content to the %s"
 msgstr ""
+"Alapértelmezés szerint ez a varázsló minden MediaMonkey adatot és tartalmat "
+"áthelyez a(z) %s-ra"
 
 #: dialogs/dlgMigrateWizard.js:20
 msgid "Retain local cache of %s content"
-msgstr ""
+msgstr "Helyi cache megtartása a(z) %s tartalomról"
 
 #: dialogs/dlgMigrateWizard.js:35
 msgid "Fine-tune which content to store on %s..."
-msgstr ""
+msgstr "Finomhangolja, melyik tartalmat tárolja a(z) %s..."
 
 #: dialogs/dlgMigrateWizard.js:92 QueryManage.pas:4557 QueryManage.pas:4558
 msgid "Cloud"
@@ -5296,21 +5179,19 @@ msgstr "Felhő"
 
 #: dialogs/dlgMigrateWizard.js:98 dialogs/dlgMigrateWizard.js:100
 msgid "%s will be moved to %s (%s)"
-msgstr ""
+msgstr "A(z) %s át lesz helyezve a(z) %s-re (%s)"
 
 #: dialogs/dlgMigrateWizard.js:103 dialogs/dlgMigrateWizard.js:105
 msgid "%s will be copied to %s (%s)"
-msgstr ""
+msgstr "A(z) %s a(z) %s-re lesz másolva (%s)"
 
 #: dialogs/dlgMigrateWizard.js:108
 msgid "%s will be scanned and shared via %s"
-msgstr ""
+msgstr "A(z) %s be lesz olvasva és megosztásra kerül a(z) %s által"
 
 #: dialogs/dlgMigrateWizard.js:112
-#, fuzzy
-#| msgid "Checking for new version..."
 msgid "Checking for files on the server"
-msgstr "Fájlok keresése a kiszolgálón"
+msgstr "Keresés a fájlok között a szerveren"
 
 #. this will force also the 'Sign in' dialog (if needed)
 #: dialogs/dlgMigrateWizard.js:123
@@ -5322,7 +5203,7 @@ msgstr "Kiszolgálói hiba"
 #: dialogs/dlgMigrateWizard.js:154 helpers/mediaSync.js:682
 #: helpers/mediaSync.js:2591
 msgid "Scan '%s' content to the local database"
-msgstr ""
+msgstr "'%s' tartalom beolvasása a helyi adatbázisba"
 
 #: dialogs/dlgMoveAccompFiles.js:6
 msgid "Accompanying files"
@@ -5495,7 +5376,7 @@ msgstr "Új verzió elérhető"
 
 #: dialogs/dlgNewVersion.js:13 dialogs\dlgNewVersion.html:26
 msgid "Dismiss"
-msgstr ""
+msgstr "Elutasítás"
 
 #. prepare channels dropDown
 #. prepare bps dropDown
@@ -5525,17 +5406,15 @@ msgstr "Teljesítmény"
 
 #: dialogs/dlgOptions.js:35
 msgid "Streaming"
-msgstr ""
+msgstr "Folytatás"
 
 #: dialogs/dlgOptions.js:43
-#, fuzzy
-#| msgid "Volume Mute"
 msgid "Volume leveling"
-msgstr "Hang némítása"
+msgstr "Hangerő szintezése"
 
 #: dialogs/dlgOptions.js:47 dialogs\dlgOptions\pnl_Player.html:33
 msgid "Playback rules"
-msgstr ""
+msgstr "Lejátszási szabályok"
 
 #: dialogs/dlgOptions.js:51 Extensions.pas:1658
 msgid "Codecs"
@@ -5592,9 +5471,8 @@ msgid "Global podcast options"
 msgstr "Általános podcast beállítások"
 
 #: dialogs/dlgPodcastUnsubscribe.js:12
-#, fuzzy
 msgid "Are you sure you want to unsubscribe"
-msgstr "Biztosan leiratkozik"
+msgstr "Biztosan le szeretne iratkozni"
 
 #: dialogs/dlgRegisterGold.js:8
 msgid "Register MediaMonkey Gold"
@@ -5625,13 +5503,11 @@ msgstr "Vizsgálat eredménye"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "szűrt vagy letiltott a(z)"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "Szinkronizálási beállítások"
+msgstr "Könyvtári beállítások"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5642,26 +5518,20 @@ msgid "Search and update took %s"
 msgstr "A keresés és frissítés eddig tartott: %s"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
-msgstr "%d új fájl importálva"
+msgstr "Hozzáadva %d új fájlok"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
 msgstr "%d fájl frissítve"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "Nem sikerült importálni %d fájlt"
+msgstr "Nem sikerült %d fájlokat hozzáadni"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "%d fájl frissítve"
+msgstr "Kihagyott %d fájlok"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5698,10 +5568,8 @@ msgid "Select playlists"
 msgstr "Lejátszási listák kijelölése"
 
 #: dialogs/dlgSleep.js:5
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Sleep settings"
-msgstr "Szinkronizálási beállítások"
+msgstr "Alvási beállítások"
 
 #: dialogs/dlgSleep.js:14
 msgid "Shutdown computer"
@@ -5732,10 +5600,8 @@ msgid "Sleep timer can be used only with Gold!"
 msgstr "Az elalvási időzítőt csak Gold verzióval használhatja!"
 
 #: dialogs/dlgSpeedPitch.js:11
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust pitch"
-msgstr "Videó beállítása"
+msgstr "Hangmagasság beállítása"
 
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
@@ -5755,14 +5621,16 @@ msgstr "Tartalom"
 msgid ""
 "Existing file(s) and playlist(s) to update from the device to the PC (%d)"
 msgstr ""
+"Fennálló fájl(ok) és lejátszási lista(k) az eszközről a PC-re frissítésre "
+"várnak (%d)"
 
 #: dialogs/dlgSyncConfirm.js:25
 msgid "New file(s) and playlist(s) to copy from the device to the PC (%d)"
-msgstr ""
+msgstr "Új fájl(ok) és lejátszási lista(k) másolása az eszközről a PC-re (%d)"
 
 #: dialogs/dlgSyncConfirm.js:38
 msgid "File(s) and playlist(s) to delete from the device (%d)"
-msgstr ""
+msgstr "Fájl(ok) és lejátszási lista(k) törlése az eszközről (%d)"
 
 #: dialogs/dlgSyncConfirm.js:74
 msgid "Auto-sync"
@@ -5809,15 +5677,12 @@ msgid "To get started, add your media files to the library"
 msgstr "A kezdéshez adja hozzá médiafájljait a médiatárhoz"
 
 #: dialogs/dlgWizard.js:31
-#, fuzzy
 msgid "Setup Wizard"
-msgstr "Beállítás varázsló"
+msgstr "Beállítási varázsló"
 
 #: dialogs/dlgWizard.js:100
-#, fuzzy
-#| msgid "Optimize database"
 msgid "Opening database"
-msgstr "Adatbázis optimalizálása"
+msgstr "Adatbázis megnyitása"
 
 #: dialogs/dlgWizard.js:250
 msgid "Please try again"
@@ -5830,7 +5695,7 @@ msgstr "Semmi"
 
 #: dialogs/dlgOptions/pnl_AutoOrganize.js:12
 msgid "Automatically organize files (during scans or edits)"
-msgstr ""
+msgstr "Fájlok automatikus rendezése (ellenőrzések vagy szerkesztések során)"
 
 #: dialogs/dlgOptions/pnl_AutoOrganize.js:15
 msgid "For auto-organize functionality, please upgrade to MediaMonkey Gold!"
@@ -5869,7 +5734,7 @@ msgstr ""
 msgid ""
 "To install a plug-in you'll have to follow either of the following "
 "procedures:"
-msgstr ""
+msgstr "Egy plug-in telepítéséhez kövesse az alábbi eljárások valamelyikét:"
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:15
 #: dialogs/dlgOptions/pnl_InputPlugins.js:14
@@ -5881,6 +5746,11 @@ msgid ""
 "have to install to the Winamp directory and then manually copy the "
 "installed .dll file(s) to the Program Files/MediaMonkey/Plug-ins directory."
 msgstr ""
+"1) Ha a plug-in telepítővel érkezik, a telepítő gyakran a /Program Files/"
+"Winamp alapértelmezett könyvtárat választja. Módosítsa ezt a /Program Files/"
+"MediaMonkey könyvtárra. Ha nem tudja megváltoztatni a telepítési könyvtárat, "
+"telepítse a Winamp könyvtárba, majd manuálisan másolja az installált .dll fá"
+"jlt/fájlokat a Program Files/MediaMonkey/Plug-ins könyvtárba."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:17
 #: dialogs/dlgOptions/pnl_InputPlugins.js:16
@@ -5890,6 +5760,9 @@ msgid ""
 "MediaMonkey/Plugins directory, and follow the instructions provided with the "
 "plug-in."
 msgstr ""
+"2) Ha a plug-in .dll, egyszerűen másolja a .dll-t a Program Files/"
+"MediaMonkey/Plugins könyvtárba, és kövesse a plug-inhez mellékelt "
+"utasításokat."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:19
 #: dialogs/dlgOptions/pnl_InputPlugins.js:18
@@ -5898,18 +5771,20 @@ msgid ""
 "Once the plug-in is installed, you can access it from the plug-ins pane, and "
 "press the Configure button."
 msgstr ""
+"Miután a plug-in telepítve van, elérheti a plug-in paneléből, és nyomja meg "
+"a Konfigurálás gombot."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:19
 msgid ""
 "For DSP Audio Effect plug-ins, you can also set the order in which the "
 "plugins process the audio using the up/down arrows."
 msgstr ""
+"DSP Audio Effect plug-inek esetén beállíthatja a plug-inek sorrendjét, hogy "
+"hogyan dolgozzák fel az audiót a fel/le nyilakkal."
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:39
-#, fuzzy
-#| msgid "Description"
 msgid "Plug-in description"
-msgstr "Leírás"
+msgstr "Plug-in leírás"
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:5
 msgid "Type a keyboard shortcut"
@@ -5939,12 +5814,12 @@ msgstr "Globális"
 msgid ""
 "This hotkey %s is already assigned to action %s! Choose a different hotkey."
 msgstr ""
+"Ez a gyorsbillentyű %s már hozzá van rendelve a %s művelethez! Válasszon "
+"másik gyorsbillentyűt."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:256
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
-msgstr "Törli a kijelölt gyorsbillentyűt?"
+msgstr "Kiválasztott gyorsbillentyűk törlése?"
 
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
 #: dialogs/dlgOptions/pnl_Hotkeys.js:270
@@ -5956,46 +5831,49 @@ msgid ""
 "The MediaMonkey Player supports Input plug-ins that are compatible with "
 "Winamp 2. They generally add support for new audio formats."
 msgstr ""
+"A MediaMonkey lejátszó támogatja a Winamp 2-vel kompatibilis bemeneti plug-"
+"ineket. Ezek általában új hangformátum támogatást adnak hozzá."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:14
 msgid "Player panel not found."
-msgstr ""
+msgstr "Lejátszó panel nem található."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:18
 msgid "Player control not found."
-msgstr ""
+msgstr "Lejátszó vezérlés nem található."
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:30
 msgid "Player layout cannot be set."
-msgstr ""
+msgstr "Lejátszó elrendezés nem állítható be."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:12
 msgid "Preview control not found."
-msgstr ""
+msgstr "Előnézeti vezérlés nem található."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:24
 msgid "Preview layout cannot be set."
-msgstr ""
+msgstr "Előnézeti elrendezés nem állítható be."
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:27
 msgid "This panel element displays details of the playing or selected file"
 msgstr ""
+"Ez a panel elem megjeleníti a lejátszási vagy kiválasztott fájl részleteit"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:31
 msgid "Smallest"
-msgstr ""
+msgstr "Legkisebb"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:32
 msgid "Smaller"
-msgstr ""
+msgstr "Kisebb"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:34
 msgid "Larger"
-msgstr ""
+msgstr "Nagyobb"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:35
 msgid "Largest"
-msgstr ""
+msgstr "Legnagyobb"
 
 #: dialogs/dlgOptions/pnl_Layouts.js:12
 msgid "Add new layout"
@@ -6007,7 +5885,7 @@ msgstr "Új elrendezés neve"
 
 #: dialogs/dlgOptions/pnl_LayoutToolbar.js:58
 msgid "Separator"
-msgstr ""
+msgstr "Elválasztó"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:37 UpNp.pas:10362
 #: controls\serverConfig\server.html:5
@@ -6040,6 +5918,9 @@ msgid ""
 "MediaMonkey is not running and you are not logged into your account. Please "
 "input your account (%s) password:"
 msgstr ""
+"A MediaMonkey szolgáltatásként történő telepítése lehetővé teszi a média "
+"kiszolgáló böngészését, akkor is, ha a MediaMonkey nem fut, és nem "
+"jelentkezett be a fiókjába. Kérjük, írja be a fiókja jelszavát (%s):"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:63
 #: dialogs/dlgOptions/pnl_MediaTree.js:64
@@ -6049,7 +5930,7 @@ msgstr "Látható"
 #. <Add New Collection...> row
 #: dialogs/dlgOptions/pnl_MediaTree.js:132
 msgid "Content to display"
-msgstr ""
+msgstr "Megjelenítendő tartalom"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:166
 msgid "<Add New Collection...>"
@@ -6057,13 +5938,11 @@ msgstr "<Új gyűjtemény hozzáadása...>"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:206
 msgid "This will delete the \"%s\" Collection."
-msgstr ""
+msgstr "Ez törli a(z) \"%s\" gyűjteményt."
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:208
-#, fuzzy
-#| msgid "Edit Collection"
 msgid "Delete Collection"
-msgstr "Gyűjtemény szerkesztése"
+msgstr "Gyűjtemény törlése"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:28
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:29
@@ -6076,14 +5955,12 @@ msgstr "Dalszöveg források"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:99
 msgid "Auto-tag metadata sources"
-msgstr ""
+msgstr "Automatikus címkézés metaadatforrások"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:148
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:204
-#, fuzzy
-#| msgid "Summary"
 msgid "Album Summary"
-msgstr "Összegzés"
+msgstr "Album összefoglaló"
 
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:238 Extensions.pas:1668
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:3
@@ -6096,37 +5973,31 @@ msgstr "Felkeresendő címkék"
 
 #. #20905
 #: dialogs/dlgOptions/pnl_OSIntegration.js:15 FileAssoc.pas:734
-#, fuzzy
-#| msgid "&Play in MediaMonkey"
 msgid "&Play in MediaMonkey %s"
-msgstr "&Lejátszás a MediaMonkey-val"
+msgstr "&Lejátszás MediaMonkey %s-ban"
 
 #. #20905
 #: dialogs/dlgOptions/pnl_OSIntegration.js:16 FileAssoc.pas:735
-#, fuzzy
-#| msgid "Play &next in MediaMonkey"
 msgid "Queue &next in MediaMonkey %s"
-msgstr "Lejátszás &következőként a MediaMonkey-val"
+msgstr "Sorban &következő a MediaMonkey %s-ban"
 
 #. #20905
 #: dialogs/dlgOptions/pnl_OSIntegration.js:17 FileAssoc.pas:736
-#, fuzzy
-#| msgid "Play &last in MediaMonkey"
 msgid "Queue &last in MediaMonkey %s"
-msgstr "Lejátszás &utolsóként a MediaMonkey-val"
+msgstr "Sorban &utolsó a MediaMonkey %s-ban"
 
 #: dialogs/dlgOptions/pnl_OutputPlugins.js:12
 msgid ""
 "The MediaMonkey Player supports Output plug-ins that are compatible with "
 "Winamp 2. They generally control how MediaMonkey outputs audio."
 msgstr ""
+"A MediaMonkey lejátszó támogatja a Winamp 2-vel kompatibilis kimeneti plug-"
+"ineket. Ezek általában azt irányítják, hogyan adja ki a hangot a MediaMonkey."
 
 #. qid('chbSmoothScroll').controlClass.checked = sett.Appearance.SmoothScroll; // removed per #20772
 #: dialogs/dlgOptions/pnl_Performance.js:41
-#, fuzzy
-#| msgid "Enable hardware acceleration"
 msgid "Use hardware acceleration when available"
-msgstr "Hardveres gyorsítás engedélyezése"
+msgstr "Hardvergyorsítás használata, ha elérhető"
 
 #: dialogs/dlgOptions/pnl_Performance.js:41
 #: dialogs\dlgOptions\pnl_Appearance.html:10
@@ -6135,39 +6006,37 @@ msgstr "(újraindítást igényel)"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:84
 msgid "Gap"
-msgstr ""
+msgstr "Hézag"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:85
 msgid "Overlap"
-msgstr ""
+msgstr "Átfedés"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:86
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:28
 msgid "Gap/Overlap"
-msgstr ""
+msgstr "Hézag/Átfedés"
 
 #. Unsupported by <NameofCurrentOutputPlugin>. Please change "Audio Output" ("plug-ins").
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:139
-#, fuzzy
-#| msgid "Supported formats on '%s'"
 msgid "Unsupported by %s."
-msgstr "Támogatott formátumok ezen: %s"
+msgstr "Nem támogatott a(z) %s"
 
 #: dialogs/dlgOptions/pnl_Search.js:9
 msgid "When typing in a view:"
-msgstr ""
+msgstr "Nézetben íráskor:"
 
 #: dialogs/dlgOptions/pnl_Search.js:36 dialogs/dlgOptions/pnl_Search.js:37
 msgid "Ignore diacritics"
-msgstr ""
+msgstr "Ékezetek figyelmen kívül hagyása"
 
 #: dialogs/dlgOptions/pnl_Search.js:36
 msgid "Match beginning of words"
-msgstr ""
+msgstr "Szavak kezdetének egyezése"
 
 #: dialogs/dlgOptions/pnl_Search.js:36 dialogs/dlgOptions/pnl_Search.js:37
 msgid "faster"
-msgstr ""
+msgstr "gyorsabb"
 
 #: dialogs/dlgOptions/pnl_Search.js:37 dialogs/dlgOptions/pnl_Search.js:39
 msgid "Search whole words only"
@@ -6175,17 +6044,15 @@ msgstr "Csak teljes szavak keresése"
 
 #: dialogs/dlgOptions/pnl_Search.js:38 dialogs/dlgOptions/pnl_Search.js:39
 msgid "Respect diacritics"
-msgstr ""
+msgstr "Ékezetek figyelembe vétele"
 
 #: dialogs/dlgOptions/pnl_Search.js:38
 msgid "Match within words"
-msgstr ""
+msgstr "Szavakon belüli egyezés"
 
 #: dialogs/dlgOptions/pnl_Search.js:58
-#, fuzzy
-#| msgid "Select an Action"
 msgid "Take no action"
-msgstr "Művelet kiválasztása"
+msgstr "Ne tegyen semmit"
 
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:2
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:3
@@ -6208,12 +6075,14 @@ msgstr "A nem elemzett számok hangerejének automatikus elemzése"
 #: dialogs/dlgOptions/pnl_VolumeLeveling.js:17
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:71
 msgid "Automatically analyzes volume of tracks as a background process"
-msgstr ""
+msgstr "Automatikusan elemzi a zene hangerőbnövelőjét háttérfolyamatként"
 
 #: dialogs/dlgTrackProperties/tabArtwork.js:209
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
 msgstr ""
+"A képen bekövetkezett változás a(z) %s hatással lesz %d másik fájlra az "
+"albumon."
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6237,77 +6106,61 @@ msgid "Genre(s)"
 msgstr "Műfaj(ok)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:497
-#, fuzzy
-#| msgid "Title"
 msgid "title"
-msgstr "Cím"
+msgstr "cím"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:497
-#, fuzzy
-#| msgid "episode"
 msgid "episode title"
-msgstr "epizód"
+msgstr "epizód cím"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:498
 msgid "narrator"
-msgstr ""
+msgstr "mesélő"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:498
 #: dialogs/dlgTrackProperties/tabBasic.js:500
-#, fuzzy
-#| msgid "Performance"
 msgid "performer"
-msgstr "Teljesítmény"
+msgstr "előadó"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:499
-#, fuzzy
-#| msgid "Track #"
 msgid "book title"
-msgstr "Szám sorszáma"
+msgstr "könyvcím"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:499
-#, fuzzy
-#| msgid "Track #"
 msgid "course title"
-msgstr "Szám sorszáma"
+msgstr "kurzuscím"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:499
-#, fuzzy
-#| msgid "Performance"
 msgid "performance"
-msgstr "Teljesítmény"
+msgstr "előadás"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:500
-#, fuzzy
-#| msgid "Album artist(s)"
 msgid "Album Artist(s)"
-msgstr "Album előadó(i)"
+msgstr "Album előadó(k)"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:500
-#, fuzzy
-#| msgid "Author"
 msgid "author"
-msgstr "Szerző"
+msgstr "szerző"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:501
 msgid "part"
-msgstr ""
+msgstr "rész"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:501
 msgid "chapter"
-msgstr ""
+msgstr "fejezet"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:526
 msgid "ensemble"
-msgstr ""
+msgstr "együttes"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:526
 msgid "soloist"
-msgstr ""
+msgstr "szólista"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:527
 msgid "period"
-msgstr ""
+msgstr "időszak"
 
 #: dialogs/dlgTrackProperties/tabCustom.js:45
 msgid "Tag name"
@@ -6329,13 +6182,12 @@ msgid "Searching for missing lyrics"
 msgstr "Hiányzó dalszöveg keresése"
 
 #: dialogs/dlgWizard/pnlRegistration.js:20
-#, fuzzy
 msgid ""
 "Upgrading to MediaMonkey Gold helps support ongoing development of "
 "MediaMonkey, and gives you the following features:"
 msgstr ""
-"A MediaMonkey Gold verzióra váltás segít támogatni a MediaMonkey folyamatos "
-"fejlesztését, és a következő funkciókat adja Önnek:"
+"A MediaMonkey Gold-ra való frissítés támogatja a MediaMonkey folyamatos "
+"fejlesztését, és a következő funkciókat nyújtja:"
 
 #. and navigate this new profile in the UI:
 #: dialogs/dlgWizard/pnlScan.js:70
@@ -6344,32 +6196,27 @@ msgid "Local storage"
 msgstr "Helyi adattár"
 
 #: dialogs/dlgWizard/pnlScan.js:155
-#, fuzzy
-#| msgid "Move Library content only"
 msgid "Media Server content is read-only."
-msgstr "Csak a médiatár tartalmát helyezze át"
+msgstr "A Media szerver tartalma írásvédett."
 
 #: dialogs/dlgWizard/pnlScan.js:155
 msgid "You might want to add the content via a 'Network' location instead."
-msgstr ""
+msgstr "Lehet, hogy a tartalmat inkább 'Hálózat' helyre kell hozzáadnia."
 
 #: dialogs/dlgWizard/pnlScan.js:155
-#, fuzzy
-#| msgid "Are you sure you want to delete %d file?"
 msgid "Are you sure you want to proceed?"
-msgstr "Biztosan törli a %d fájlt?"
+msgstr "Biztos folytatni akarja?"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #. we have exact gid, do not allow changing it in case search does not find it
 #: helpers/albumDataSource.js:120
 #: Scripts/musicBrainz/helpers/musicBrainz.js:679
-#, fuzzy
 msgid "Don't display info"
-msgstr "Info elrejtése"
+msgstr "Ne jelenítsen meg infot"
 
 #: helpers/artistDataSource.js:18
 msgid "artist info"
-msgstr ""
+msgstr "előadói infó"
 
 #. Follows a _very_ simple parser of XML used by iTunes
 #: helpers/artistDataSource.js:140 helpers/artistDataSource.js:158
@@ -6394,23 +6241,23 @@ msgstr "Gyűjtemény"
 
 #: helpers/autoTagFramework.js:272 helpers/autoTagFramework.js:274
 msgid "Processing"
-msgstr ""
+msgstr "Feldolgozás alatt"
 
 #: helpers/autoTagFramework.js:276
 msgid "Fingerprinting"
-msgstr ""
+msgstr "Ujjlenyomatkészítés"
 
 #: helpers/autoTagFramework.js:280
 msgid "artwork"
-msgstr ""
+msgstr "kép"
 
 #: helpers/autoTagFramework.js:282
 msgid "lyrics"
-msgstr ""
+msgstr "dalszöveg"
 
 #: helpers/autoTagFramework.js:284
 msgid "Located"
-msgstr ""
+msgstr "Található"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to accept <Skip> as used in MM4 (and renamed to <Ignore> in MM5)
@@ -6421,12 +6268,12 @@ msgstr "Átugrás"
 
 #: helpers/autoTagFramework.js:290 dialogs\dlgWizard.html:17
 msgid "Done"
-msgstr ""
+msgstr "Kész"
 
 #. this prevents from unnecessary meta files reading and sync lock acquiring when there is nothing to sync
 #: helpers/mediaSync.js:393
 msgid "There was a problem syncing \"%s\"."
-msgstr ""
+msgstr "Probléma volt a(z) \"%s\" szinkronizálásakor."
 
 #. to update highlighting of playing track etc.
 #. servers.whenLoaded().then(_regProfiles); // commented because of #17638/3a
@@ -6440,44 +6287,52 @@ msgstr "Médiatár tartalom"
 
 #: helpers/mediaSync.js:612
 msgid "Hourly"
-msgstr ""
+msgstr "Óránként"
 
 #: helpers/mediaSync.js:613
 msgid "2x / day"
-msgstr ""
+msgstr "2x / nap"
 
 #: helpers/mediaSync.js:683 helpers/mediaSync.js:2592
 msgid ""
 "On sync, the database is updated with links to files and playlists from '%s'"
 msgstr ""
+"Szinkronizálás során az adatbázis frissül a fájlok és lejátszási listák "
+"hivatkozásaival a(z) '%s' -ból"
 
 #: helpers/mediaSync.js:684
 msgid "Only include content that matches files already in the database"
 msgstr ""
+"Csak a már meglévő fájloknak megfelelő tartalmat vegye bele az adatbázisba"
 
 #: helpers/mediaSync.js:685
 msgid ""
 "On sync, the database is only updated with links to files & playlists from "
 "'%s' that match files already in the database"
 msgstr ""
+"Szinkronizálás során az adatbázist csak a(z) '%s' -beli fájlok és lejátszási "
+"listák hivatkozásaival frissíti, amelyek megfelelnek az adatbázisban lévő "
+"fájloknak"
 
 #: helpers/mediaSync.js:686
 msgid "Download '%s' content that is not accessible locally"
-msgstr ""
+msgstr "A(z) '%s' nem lokálisan elérhető tartalom letöltése"
 
 #: helpers/mediaSync.js:687
 msgid ""
 "Downloads files and playlists from '%s' that are not accessible via the "
 "local drive or network"
 msgstr ""
+"Fájlok és lejátszási listák letöltése a(z) '%s'-ból, amelyek nem érhetők el "
+"a helyi meghajtón vagy hálózaton keresztül"
 
 #: helpers/mediaSync.js:688
 msgid "Sync '%s' metadata to the Library"
-msgstr ""
+msgstr "Szinkronizálja a(z) '%s' metaadatokat a Könyvtárral"
 
 #: helpers/mediaSync.js:689
 msgid "Update metadata for matching tracks and playlists"
-msgstr ""
+msgstr "Metaadatok frissítése a megfelelő számokhoz és lejátszási listákhoz"
 
 #: helpers/mediaSync.js:815 helpers/mediaSync.js:3268
 msgid "Scanning"
@@ -6486,22 +6341,24 @@ msgstr "Vizsgálat"
 #. show toast message that device has been connected (#15402):
 #: helpers/mediaSync.js:817 helpers/mediaSync.js:2890
 msgid "Connected"
-msgstr ""
+msgstr "Csatlakoztatott"
 
 #: helpers/mediaSync.js:819 dblistutils.pas:1548
 msgid "Disconnected"
-msgstr ""
+msgstr "Szétkapcsolt"
 
 #. return track.id.toString(); // we used MMW's track id in MMA, but now seems better to unify this with cloud storages and use targetPath as the identificator
 #: helpers/mediaSync.js:958
 msgid "Choose which files to keep synced:"
-msgstr ""
+msgstr "Válassza ki, mely fájlokat tartsa szinkronizálva:"
 
 #: helpers/mediaSync.js:967
 msgid ""
 "Once installed, you may initiate Wi-Fi sync from the device (USB sync is not "
 "reliable on some devices)."
 msgstr ""
+"Miután telepítette, Wi-Fi szinkronizálást kezdeményezhet az eszközről (USB "
+"szinkronizálás nem megbízható néhány eszközön)."
 
 #: helpers/mediaSync.js:972
 msgid ""
@@ -6509,12 +6366,18 @@ msgid ""
 "granted rights to library content (by default, initial attempts by a device "
 "to connect will trigger a prompt)."
 msgstr ""
+"Lehetőséget biztosít a távoli MediaMonkey ügyfeleknek a Wi-Fi "
+"szinkronizálására, ha nekik is jogot biztosított a könyvtártartalomhoz ("
+"alapértelmezésben, egy eszköz első próbálkozásából történő csatlakozás "
+"esetén egy felugró ablak jelenik meg)."
 
 #: helpers/mediaSync.js:975
 msgid ""
 "Once scanned, MediaMonkey can accurately display the contents of the device. "
 "It may take awhile for some devices, though."
 msgstr ""
+"Miután be lett olvasva, a MediaMonkey pontosan meg tudja jeleníteni az "
+"eszköz tartalmát. Azonban eltarthat egy ideig néhány eszköz esetén."
 
 #: helpers/mediaSync.js:975
 msgid "Scan as soon as the device is connected"
@@ -6543,18 +6406,22 @@ msgstr "Eszköz automatikus leválasztása szinkronizálás után"
 
 #: helpers/mediaSync.js:984
 msgid "Allow %s to remotely sync with the"
-msgstr ""
+msgstr "Lehetővé teszi, hogy a(z) %s távolról szinkronizáljon a"
 
 #: helpers/mediaSync.js:1011
 msgid ""
 "To sync with Android devices, %s should be installed for improved sync "
 "performance."
 msgstr ""
+"Android eszközök szinkronizálásához, a(z) %s kell telepítve legyen a "
+"szinkronizálási teljesítmény javításához."
 
 #. default auth failed, show log-in dialog
 #: helpers/mediaSync.js:2024
 msgid "There was a problem syncing \"%s\". It is turned off or inaccessible."
 msgstr ""
+"Probléma volt a(z) \"%s\" szinkronizálásakor. Ki van kapcsolva vagy nem "
+"elérhető."
 
 #. the track is accessible under the same path on the server -- it is the same track, use it (don't re-upload as it would result in copying file to itself!)
 #. track to upload is available
@@ -6565,22 +6432,24 @@ msgstr "Frissítés"
 #. continuously (polling method, TODO: do this via notifications from MMS?)
 #: helpers/mediaSync.js:2486 helpers/mediaSync.js:2593
 msgid "Set content to store on '%s'"
-msgstr ""
+msgstr "Adott tartalom beállítása a(z) '%s'-en* való tárolásra"
 
 #: helpers/mediaSync.js:2489
 msgid ""
 "This content will be copied (by default) to '%s' so that it can be shared "
 "with other clients"
 msgstr ""
+"Ez a tartalom (alapértelmezés szerint) másolásra kerül a(z) '%s'-re, hogy "
+"más ügyfelekkel osszanak meg"
 
 #. to refresh the values set in the wizard
 #: helpers/mediaSync.js:2526
 msgid "Server is down!"
-msgstr ""
+msgstr "A kiszolgáló leállt!"
 
 #: helpers/mediaSync.js:2528
 msgid "Access is denied"
-msgstr ""
+msgstr "Hozzáférés megtagadva"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. older MMS versions don't have the userInfo yet
@@ -6617,10 +6486,8 @@ msgstr "(Fájlok listájának előkészítése)"
 #. e.g. in case of MM5-MMS sync
 #: helpers/mediaSync.js:3337 helpers/mediaSync.js:3380 hpCDEBurner.pas:977
 #: hpCDEBurner.pas:1628 hpCDEBurner.pas:1635
-#, fuzzy
-#| msgid "Initializating"
 msgid "Initializing"
-msgstr "Inicializálás"
+msgstr "Inicializálás alatt"
 
 #: helpers/mediaSync.js:3474 helpers/mediaSync.js:3768
 msgid "(Removing old content)"
@@ -6636,9 +6503,8 @@ msgid "Copying"
 msgstr "Másolás"
 
 #: helpers/mediaSync.js:3634
-#, fuzzy
 msgid "Matching"
-msgstr "Egyeztetés"
+msgstr "Illesztése"
 
 #. waiting for file conversion
 #: helpers/mediaSync.js:3700
@@ -6665,10 +6531,8 @@ msgstr "Metaadat olvasása"
 
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:3911
-#, fuzzy
-#| msgid "Cannot create connection."
 msgid "Waiting for sync connection"
-msgstr "Várakozás kapcsolatra szinkronizáláshoz"
+msgstr "Szinkronkapcsolat várakozása"
 
 #. acquire our sync lock
 #. release sync lock and finish
