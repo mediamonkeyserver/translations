@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2024-07-17 16:56\n"
-"PO-Revision-Date: 2023-01-16 17:42+0000\n"
-"Last-Translator: Tomer W <weinberg.tomer@gmail.com>\n"
+"PO-Revision-Date: 2025-03-21 11:56+0000\n"
+"Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Hebrew <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/he/>\n"
 "Language: he\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 5.6.1\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -86,10 +86,8 @@ msgstr "היסטוריה"
 #: dialogs/dlgOptions.js:39 dialogs/dlgOptions.js:78
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:429 maincontent.html:50
-#, fuzzy
-#| msgid "Playing list"
 msgid "'Playing' list"
-msgstr "עכשיו מנגן"
+msgstr "'רשימת 'מתנגנים"
 
 #. load player in timeout to be sure video window is already stretched to full screen
 #: actions.js:58 playerUtils.js:449
@@ -372,10 +370,8 @@ msgid "Save new order"
 msgstr "שמור סדר חדש"
 
 #: actions.js:1199 dialogs/dlgAutoorganize.js:19
-#, fuzzy
-#| msgid "Auto-organi&ze files"
 msgid "Organi&ze files"
-msgstr "אירגון אוטומטי לקבצים"
+msgstr "ארגן קבצים"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. whenLoaded promise is awaited directly in the dialog
@@ -769,10 +765,8 @@ msgstr "נהל נתונים"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to refresh the view after DB maintenance (mainly for 'Rebuild Database' option)
 #: actions.js:2132 actions.js:2143 dialogs\dlgMaintainLibrary.html:28
-#, fuzzy
-#| msgid "Background"
 msgid "Backup"
-msgstr "רקע"
+msgstr "גיבוי"
 
 #: actions.js:2137
 msgid "This will create a backup of the current database"
@@ -933,9 +927,8 @@ msgid "If a media server isn't found automatically, you can add one manually."
 msgstr "אם שרת מדיה לא נמצא, תוכל להוסיף אותו ידנית."
 
 #: actions.js:2546 UpNp.pas:10372 controls\devicesView.html:35
-#, fuzzy
 msgid "Device Description file path:"
-msgstr "Device Description file path:"
+msgstr "נתיב קובץ תיאור מכשיר:"
 
 #. no message needed in case of success (as the new server just appears in the list)
 #. 127.0.0.1 can be reached, but 192.168.X.X can't (case B)
@@ -957,11 +950,12 @@ msgid "Configure remote access"
 msgstr "הגדר גישה מרחוק"
 
 #: actions.js:2581
-#, fuzzy
 msgid ""
 "This will auto-configure rules on your router to allow the %s UPnP/DLNA "
 "server to be accessible from a public/external network."
-msgstr "זה יגדיר חוקי גישה מרחוק לנתב שלך, כך שהשרת יהיה זמין גם מרשת חיצונית."
+msgstr ""
+"זה יגדיר באופן אוטומטי חוקים על הראוטר לאפשר לשרת %s UPnP/DLNA להיות נגיש "
+"מרשת ציבורית/חיצונית."
 
 #: actions.js:2581
 msgid ""
@@ -980,13 +974,12 @@ msgid "Remote UPnP/DLNA access to %s was successfuly configured."
 msgstr "גישה מרחוק ל %s הוגדרה בהצלחה."
 
 #: actions.js:2588
-#, fuzzy
 msgid ""
 "If you want to use another UPnP/DLNA client to remotely access %s, enter the "
 "following server destination to the client:"
 msgstr ""
-"If you want to use another UPnP/DLNA client to remotely access %s, enter the "
-"following server destination to the client:"
+"אם אתה רוצה להשתמש בלקוח UPnP/DLNA אחר כדי לגשת מרחוק ל-%s, הכנס את כתובת "
+"השרת הבאה ללקוח:"
 
 #: actions.js:2591
 msgid "Remote access to %s cannot be auto-configured via UPnP/NAT-PMP"
@@ -998,13 +991,12 @@ msgid "There is a problem with your internet connection."
 msgstr "ישנה בעיה בגישה לאינטרנט."
 
 #: actions.js:2595
-#, fuzzy
 msgid ""
 "To resolve, enable UPnP/NAT-PMP in your router configuration or manually "
 "configure port forwarding on your router and try again"
 msgstr ""
-"To resolve, enable UPnP/NAT-PMP in your router configuration or manually "
-"configure port forwarding on your router and try again"
+"כדי לפתור את הבעיה, הפעל UPnP/NAT-PMP בהגדרות הראוטר שלך או הגדר ידנית העברת "
+"פורטים ותנסה שוב"
 
 #: actions.js:2595
 msgid "port %d to IP address %s"
@@ -1048,18 +1040,16 @@ msgid "&About"
 msgstr "אודות"
 
 #: actions.js:2753
-#, fuzzy
 msgid "Debug"
-msgstr "Debug"
+msgstr "ניפוי באגים"
 
 #: actions.js:2760
 msgid "Send logs"
 msgstr "שלח קבצי יומן"
 
 #: actions.js:2767 actions.js:2776
-#, fuzzy
 msgid "Change freeze timeout"
-msgstr "שנה זמן קיפאון"
+msgstr "שנה את זמן ההמתנה לקיפאון"
 
 #: actions.js:2807
 msgid "Submit crash logs automatically"
@@ -1081,10 +1071,8 @@ msgstr "אקולייזר"
 
 #: actions.js:2865 controls/player.js:507 dialogs/dlgSpeedPitch.js:7
 #: dialogs\dlgSpeedPitch.html:13
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust speed"
-msgstr "כיול וידאו"
+msgstr "כוונן מהירות"
 
 #: actions.js:3010
 msgid "&Rip Audio CD"
@@ -1120,9 +1108,8 @@ msgstr "אפשרויות"
 #: controls/player.js:1116 controls/playingListContainer.js:104
 #: controls/playingListContainer.js:205 dialogs/dlgOptions.js:66
 #: Extensions.pas:1669
-#, fuzzy
 msgid "Layout"
-msgstr "מבנה תצוגה"
+msgstr "תצוגה"
 
 #: actions.js:3130 dialogs/dlgExtensions.js:10
 #: dialogs\dlgMaintainLibrary.html:32
@@ -1149,26 +1136,20 @@ msgid "shuffled by Album"
 msgstr "סדר אקראי ע\"פ אלבום"
 
 #: actions.js:3199 actions.js:6311 controls/trackListView.js:1924
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue mixed"
-msgstr "הוכנס לתור"
+msgstr "תורבב"
 
 #: actions.js:3216 actions.js:3233 actions.js:3236 actions.js:3253
 #: actions.js:3256 actions.js:6294 controls/trackListView.js:1907
 #: MediaMonkeyApp.pas:9145 dialogs\dlgOptions\pnl_OSIntegration.html:9
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue next"
-msgstr "הוכנס לתור"
+msgstr "ברשימה הבאה"
 
 #: actions.js:3273 actions.js:3287 actions.js:3290 actions.js:3304
 #: actions.js:3307 actions.js:6328 controls/trackListView.js:1941
 #: MediaMonkeyApp.pas:9146 dialogs\dlgOptions\pnl_OSIntegration.html:10
-#, fuzzy
-#| msgid "Queued"
 msgid "Queue last"
-msgstr "הוכנס לתור"
+msgstr "ברשימה האחרונה"
 
 #: actions.js:3321 controls/player.js:173 FileAssoc.pas:740
 msgid "Play"
@@ -1228,13 +1209,15 @@ msgstr "סדר רשימה באופן אקראי"
 
 #: actions.js:3502
 msgid "Shuffle disabled. Reverting to unshuffled list."
-msgstr ""
+msgstr "ערבול מבוטל. חוזרים לרשימה לא מעורבלת."
 
 #: actions.js:3506
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
 msgstr ""
+"ערבול מבוטל. לא ניתן לבטל ערבול בעקבות עריכות - השתמש ב'בטל' כדי לחזור "
+"לשינויים ברשימת 'מתנגנים'."
 
 #: actions.js:3518
 msgid "Repeat off"
@@ -1291,25 +1274,21 @@ msgid "S&leep"
 msgstr "מצב שינה"
 
 #: actions.js:3706 dialogs/dlgAutotagFromFilename.js:84
-#, fuzzy
-#| msgid "Auto-&tag from filename"
 msgid "&Tag from filename"
-msgstr "צור תגיות משם הקובץ"
+msgstr "תגית לפי שם קובץ"
 
 #. whenLoaded promise is awaited directly in the dialog
 #: actions.js:3730
-#, fuzzy
 msgid "&Auto-tag"
-msgstr "צור תגיות אוטומטית"
+msgstr "תגית אוטומטית"
 
 #: actions.js:3763
 msgid "Configure current &output plug-in"
 msgstr "הגדר את תוסף השמע"
 
 #: actions.js:3775
-#, fuzzy
 msgid "Configure current &input plug-in"
-msgstr "הגדר את תוסף הכניסה"
+msgstr "הגדר את תוסף הקלט הנוכחי"
 
 #: actions.js:3787 dialogs/dlgWizard.js:18
 msgid "Share media"
@@ -1556,10 +1535,8 @@ msgstr "בטל פעולה"
 #. just to get it on the top of the MRU list
 #. to init the menu
 #: actions.js:4920 controls/filterEditor.js:93 controls/navigationBar.js:344
-#, fuzzy
-#| msgid "Play History"
 msgid "Clear history"
-msgstr "הסטוריית השמעה"
+msgstr "נקה היסטוריה"
 
 #. Label for screen readers ("Redo" is not translated, only "&Redo")
 #: actions.js:4934 Scripts/redoNavbarButton/controls/navigationBar_add.js:20
@@ -1695,10 +1672,8 @@ msgid "Extra large"
 msgstr "גדול מאד"
 
 #: actions.js:5502 controls\playlistHeader.html:8
-#, fuzzy
-#| msgid "Play now"
 msgid "Play normally"
-msgstr "נגן עכשיו"
+msgstr "נגן באופן רגיל"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. adds shuffle menu commands to button context menu
@@ -1741,7 +1716,6 @@ msgid "Skin"
 msgstr "מראה"
 
 #: actions.js:6118 dialogs\dlgMP3Settings.html:41
-#, fuzzy
 msgid "Mode"
 msgstr "מצב"
 
@@ -1903,9 +1877,8 @@ msgid "Automatic choice of format (per track)"
 msgstr "בחירה אוטומטית (לכל פריט)"
 
 #: out_WASAPI_configDlg.js:15
-#, fuzzy
 msgid "Use format of original track"
-msgstr "נגן את קובץ המקור"
+msgstr "השתמש בתבנית רצועה מקורי"
 
 #: out_WASAPI_configDlg.js:74
 msgid "Prevents audio from other applications"
@@ -1921,18 +1894,16 @@ msgid "Event driven Exclusive mode (recommended)"
 msgstr "קח בלעדיות זמנית (מומלץ)"
 
 #: out_WASAPI_configDlg.js:114
-#, fuzzy
 msgid "Event driven Shared mode (recommended)"
-msgstr "Event driven Shared mode (recommended)"
+msgstr "מצב משותף מונחה אירועים (מומלץ)"
 
 #: out_WASAPI_configDlg.js:120
 msgid "Minimal buffer sizes"
 msgstr "גודל מינימאלי של זכרון"
 
 #: out_WASAPI_configDlg.js:125
-#, fuzzy
 msgid "Pull mode (event driven)"
-msgstr "Pull mode (event driven)"
+msgstr "מצב משיכה (מונחה אירועים)"
 
 #: out_WASAPI_configDlg.js:138 out_WASAPI_configDlg.js:159
 msgid "Shared mode"
@@ -1948,9 +1919,8 @@ msgid "Advanced"
 msgstr "מתקדם"
 
 #: out_WASAPI_configDlg.js:180
-#, fuzzy
 msgid "MediaMonkey WASAPI Output plug-in"
-msgstr "MediaMonkey WASAPI Output plug-in"
+msgstr "תוסף פלט WASAPI של MediaMonkey"
 
 #: playerUtils.js:452
 msgid "Zoom"
@@ -2120,9 +2090,8 @@ msgid "No playlist found"
 msgstr "לא נמצאו רשימות"
 
 #: uitools.js:2385 dialogs/dlgWizard.js:22
-#, fuzzy
 msgid "Registration"
-msgstr "Registration"
+msgstr "התחברות"
 
 #. we need at least one song to work with
 #: uitools.js:2401 dialogs/dlgTrackProperties.js:179 MP3Utils.pas:1247
@@ -2132,10 +2101,8 @@ msgstr "בחר קובץ אחד או יותר."
 #. hide full window player and switcher
 #. TODO: add links to stations
 #: uitools.js:2459 viewHandlers.js:7679 viewHandlers.js:7773
-#, fuzzy
-#| msgid "Add bookmark"
 msgid "Edit bookmark"
-msgstr "הוסף סימניה"
+msgstr "ערוך סימנייה"
 
 #: uitools.js:2471
 msgid "Website link:"
@@ -2144,7 +2111,7 @@ msgstr "קישור לאתר:"
 #. if (app.dialogs.openedWindowsCount() > 1) { // reloading can always terminate some processes (even when all other windows are closed (e.g. media sync and all processes from JS code)
 #: uitools.js:2549
 msgid "MediaMonkey needs to be restarted to apply the changes"
-msgstr ""
+msgstr "צריכים להפעיל מחדש את MediaMonkey כדי להחיל את השינויים"
 
 #: uitools.js:2551 controls/buttons.js:485 ExceptionHandler.pas:292
 #: ExceptionHandler.pas:328 ResStrings.pas:590
@@ -2153,7 +2120,7 @@ msgstr "הפעל מחדש"
 
 #: uitools.js:2858
 msgid "Search the selected locations:"
-msgstr ""
+msgstr "חפש במיקומים שנבחרו:"
 
 #: uitools.js:2870
 msgid "Please select at least one folder to scan."
@@ -2381,9 +2348,8 @@ msgid "Grid (by Series)"
 msgstr "תצוגת קוביות (לפי סדרה)"
 
 #: viewHandlers.js:1770
-#, fuzzy
 msgid "Feeds"
-msgstr "Feeds"
+msgstr "פידים"
 
 #. #18158
 #: viewHandlers.js:1971 viewHandlers.js:5505 controls/maskedit.js:77
@@ -2521,9 +2487,8 @@ msgid "Are you sure you want to permanently delete "
 msgstr "האם אתה בטוח שברצונך למחוק? "
 
 #: viewHandlers.js:4617
-#, fuzzy
 msgid "selected folders"
-msgstr "תקיות בחורות"
+msgstr "תיקיות נבחרות"
 
 #: viewHandlers.js:4624
 msgid "Are you sure you want to move the selected folders to the recycle bin?"
@@ -2602,9 +2567,8 @@ msgid "Are you sure you want to remove profile \"%s\" ?"
 msgstr "האם אתה בטוח שברצונך להסיר את הפרופיל \"%s\"?"
 
 #: viewHandlers.js:5567
-#, fuzzy
 msgid "Disable"
-msgstr "Disable"
+msgstr "ניטול"
 
 #. toggle
 #: viewHandlers.js:5589
@@ -2612,15 +2576,13 @@ msgid "Sync"
 msgstr "סנכרן"
 
 #: viewHandlers.js:5602
-#, fuzzy
 msgid "Safely &remove device"
-msgstr "הסר Device בבטחה"
+msgstr "הסר מכשיר בצורה בטוחה"
 
 #. e.g. tracklist or albumlist, add its tracks at once:
 #: viewHandlers.js:5670
-#, fuzzy
 msgid "Devices & Services"
-msgstr "Devices & Services"
+msgstr "מכשירים ושירותים"
 
 #. timeout to accomodate when there is many devices added just during startup in one second -- to reduce unnecessary refreshNodeChildren() calling
 #: viewHandlers.js:5705 Scripts/statistics/dialogs/dlgStatistics.js:176
@@ -2849,9 +2811,8 @@ msgstr "וידאו"
 
 #: viewHandlers.js:7633 viewHandlers.js:7635 viewHandlers.js:7716
 #: viewHandlers.js:7718
-#, fuzzy
 msgid "Web"
-msgstr "Web"
+msgstr "אינטרנט"
 
 #: viewHandlers.js:7693 viewHandlers.js:7787
 msgid "Remove bookmark"
@@ -2872,16 +2833,12 @@ msgstr "אוספים"
 
 #. other windows are fetching this value (e.g. in uitools.showExtensions)
 #: controls/addonListView.js:85
-#, fuzzy
-#| msgid "Install Service"
 msgid "Install"
-msgstr "התקן כ Service של ווינדוס"
+msgstr "התקן"
 
 #: controls/addonListView.js:87
-#, fuzzy
-#| msgid "Installing update"
 msgid "Install update"
-msgstr "מתקין עדכון"
+msgstr "התקן עדכון"
 
 #. failure
 #: controls/addonListView.js:142
@@ -3363,34 +3320,30 @@ msgid "Free"
 msgstr "חינם"
 
 #: controls/deviceConfig.js:381
-#, fuzzy
 msgid "Sync list (Library --> Device)"
-msgstr "Sync list (Library --> Device)"
+msgstr "רשימת סינכרון (ספרייה --> מכשיר)"
 
 #: controls/deviceConfig.js:385
-#, fuzzy
 msgid "Sync list (Device --> Library)"
-msgstr "Sync list (Device --> Library)"
+msgstr "רשימת סינכרון (מכשיר --> ספרייה)"
 
 #: controls/deviceConfig.js:389
 msgid "Sync profile"
 msgstr "סנכרן פרופיל"
 
 #: controls/deviceContentRandomizer.js:9
-#, fuzzy
 msgid ""
 "Sync a random subset of the selected files filling the target to the set "
 "limit. This is useful for syncing random tracks to a device/location that "
 "cannot contain your entire library."
 msgstr ""
-"סנכרן תת - קבוצה אקראית של הקבצים שנבחרו שממלאים את היעד למגבלה שנקבעה. "
-"פעולה זו שימושית לסנכרון רצועות אקראיות למכשיר/מיקום שאינו יכול להכיל את כל "
-"הספרייה שלך."
+"סנכרן תת קבוצה אקראית של הקבצים שנבחרו כדי למלא את היעד למגבלה שנקבעה. זה "
+"מועיל לסנכרון רצועות אקראיות למכשיר/מיקום שאינם יכולים להכיל את כל הספרייה "
+"שלך."
 
 #: controls/deviceContentRandomizer.js:9
-#, fuzzy
 msgid "Sync random subset of selected files up to target capacity"
-msgstr "סנכרן תת - קבוצה אקראית של קבצים נבחרים עד לקיבולת היעד"
+msgstr "סנכרן תת קבוצה אקראית של קבצים שנבחרו עד קיבולת היעד"
 
 #: controls/deviceContentRandomizer.js:12
 msgid "This gives preference to tracks with higher ratings."
@@ -3617,9 +3570,8 @@ msgid "Subdirectories"
 msgstr "תת-תקיות"
 
 #: controls/maskEditWizard.js:75
-#, fuzzy
 msgid "Subdirectories can be defined statically or using mask variables"
-msgstr "ניתן להגדיר תת-תקיות בעזרת משתני מסיכה"
+msgstr "ספריות משנה יכולות להיות מוגדרות באופן סטטי או באמצעות וריאציות מסיכה"
 
 #: controls/maskEditWizard.js:78 dialogs\dlgOptions\pnl_Library.html:105
 msgid "Filenames"
@@ -3760,10 +3712,8 @@ msgstr "חלון רגיל"
 
 #: controls/nowplayingview.js:159 controls/nowPlaying/artistBio.js:65
 #: controls/nowPlaying/fullList.js:151
-#, fuzzy
-#| msgid "Show Playing list"
 msgid "Show 'Playing' list"
-msgstr "הצג 'עכשיו מתנגן'"
+msgstr "הצג 'רשימת מתנגנים'"
 
 #. Main context manu of Now Playing view
 #: controls/nowplayingview.js:224
@@ -3806,21 +3756,19 @@ msgstr "נגן פנימי"
 #: controls/player.js:378
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
-msgstr ""
+msgstr "מערבל את 'רשימת מתנגנים' ועושה פקודות משחק ברירת מחדל מערבבות רצועות."
 
 #: controls/player.js:500
 msgid "Speed"
-msgstr ""
+msgstr "מהירות"
 
 #: controls/player.js:504
-#, fuzzy
-#| msgid "Switch"
 msgid "Pitch"
-msgstr "החלף"
+msgstr "גובה"
 
 #: controls/player.js:504 dialogs/dlgSpeedPitch.js:11
 msgid "semitones"
-msgstr ""
+msgstr "חצאי טונים"
 
 #: controls/player.js:560
 msgid "Time"
@@ -3944,11 +3892,9 @@ msgstr "גלול עד התאמה"
 
 #: controls/searchBar.js:462 dialogs/dlgOptions/pnl_Search.js:56
 msgid "primary sort field"
-msgstr ""
+msgstr "שדה סידור ראשי"
 
 #: controls/searchBar.js:488 dialogs/dlgOptions/pnl_Search.js:57
-#, fuzzy
-#| msgid "All fields"
 msgid "all fields"
 msgstr "כל השדות"
 
@@ -3975,14 +3921,12 @@ msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
 msgstr "\"foo bar\" | מוצא התאמות ביטוי מלא עם רווחים"
 
 #: controls/searchBar.js:727
-#, fuzzy
 msgid "foo bar | finds matches with foo and bar"
-msgstr "foo bar | מוצא התאמות עם foo ו - bar"
+msgstr "foo bar | מוצא התאמות עם foo ו-bar"
 
 #: controls/searchBar.js:728
-#, fuzzy
 msgid "foo OR bar | finds matches with either foo or bar"
-msgstr "foo או bar | מוצא התאמות עם foo או bar"
+msgstr "foo OR bar | מוצא התאמות עם או foo או bar"
 
 #: controls/searchBar.js:729
 msgid "foo -bar | finds matches with foo and not bar"
@@ -4201,9 +4145,8 @@ msgstr "הושמע לאחרונה"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:374 QueryManage.pas:4941
-#, fuzzy
 msgid "Last Skipped"
-msgstr "דולגו"
+msgstr "נדחה לאחרונה"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. bitrate
@@ -4340,10 +4283,8 @@ msgstr "יוצר מקורי"
 #: controls/trackListView.js:1224 MaskHelper.pas:3153 ResStrings.pas:482
 #: ResStrings.pas:493 ResStrings.pas:536
 #: dialogs\dlgTrackProperties\tabDetails.html:64
-#, fuzzy
-#| msgid "Original AR"
 msgid "Original Album"
-msgstr "יחס מקור"
+msgstr "אלבום מקורי"
 
 #: controls/trackListView.js:1241 MaskHelper.pas:3152 ResStrings.pas:481
 #: ResStrings.pas:535 dialogs\dlgTrackProperties\tabDetails.html:75
@@ -4448,7 +4389,6 @@ msgstr "מפתח ראשי"
 
 #: controls/trackListView.js:1736 MaskHelper.pas:3191 ResStrings.pas:478
 #: ResStrings.pas:532 dialogs\dlgTrackProperties\tabDetails.html:86
-#, fuzzy
 msgid "ISRC"
 msgstr "ISRC"
 
@@ -4482,9 +4422,8 @@ msgstr "המר את הפורמטים הבאים כאשר תוכן %s מתנגן 
 
 #: controls/clientConfig/autoConvert.js:6
 #: controls/serverConfig/autoConvert.js:4
-#, fuzzy
 msgid "Format on PC"
-msgstr "Format on PC"
+msgstr "תבנית במחשב"
 
 #: controls/clientConfig/autoConvert.js:7
 #: controls/serverConfig/autoConvert.js:5
@@ -4593,10 +4532,8 @@ msgid "Also generate playlists on '%s' for:"
 msgstr "צור גם רשימות ב -' %s 'עבור:"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
-#, fuzzy
-#| msgid "Modify metadata as follows when syncing to '%s'"
 msgid "Update files and metadata as follows when syncing to '%s'"
-msgstr "שנה נתונים כאשר מסנכרן ל '%s'"
+msgstr "עדכן קבצים ונתוני מטה כפי שנעשה בעת סנכרון אל '%s'"
 
 #: controls/nowPlaying/fullList.js:211
 msgid "Click to look up lyrics..."
@@ -4647,11 +4584,11 @@ msgstr "אוטומטי"
 msgid ""
 "%s seems to be working correctly. See Help, if you're unable to access the "
 "server from other devices."
-msgstr ""
+msgstr "%s נראה עובד כראוי. ראה עזרה, אם אתה לא מצליח לגשת לשרת ממכשירים אחרים."
 
 #: controls/serverConfig/server.js:52
 msgid "The server is not running"
-msgstr ""
+msgstr "השרת לא פעיל"
 
 #: controls/serverConfig/server.js:139 UpNp.pas:5816
 msgid "Client name"
@@ -4951,14 +4888,12 @@ msgid "Delete Library content from the database only"
 msgstr "מחק תוכן ספרייה ממסד הנתונים בלבד (לא מהכונן)"
 
 #: dialogs/dlgDeleteConfirm.js:59
-#, fuzzy
 msgid "Delete Library content from the database and drive"
-msgstr "מחק תוכן ספרייה ממסד הנתונים והכונן"
+msgstr "מחק תוכן ספרייה מהמאגר ומהכונן"
 
 #: dialogs/dlgDeleteConfirm.js:60
-#, fuzzy
 msgid "Delete all content from the database and drive"
-msgstr "מחיקת כל התוכן ממסד הנתונים והכונן"
+msgstr "מחק את כל התוכן מהמאגר ומהכונן"
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:83 dialogs/dlgDeleteConfirm.js:109
@@ -4995,28 +4930,20 @@ msgstr "מחק מהרשימה, ממסד הנתונים ומהכונן"
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
-#, fuzzy
-#| msgid "Remove from Playing list only"
 msgid "Remove from 'Playing' list only"
-msgstr "הסר מרשימת \"מתנגן כרגע\""
+msgstr "הסר מרשימת 'מתנגנים' בלבד"
 
 #: dialogs/dlgDeleteConfirm.js:135
-#, fuzzy
-#| msgid "Remove from Playing list and"
 msgid "Remove from 'Playing' list and"
-msgstr "הסר מרשימת \"מתנגן כרגע\" וגם"
+msgstr "הסר מרשימת 'מתנגנים' ו"
 
 #: dialogs/dlgDeleteConfirm.js:160
-#, fuzzy
-#| msgid "Delete from Playing list and the database only"
 msgid "Delete from 'Playing' list and the database only"
-msgstr "הסר מרשימת \"מתנגן כרגע\" וממסד הנתונים"
+msgstr "מחק מרשימת 'מתנגנים' ומהמאגר בלבד"
 
 #: dialogs/dlgDeleteConfirm.js:161
-#, fuzzy
-#| msgid "Delete from Playing list, the database and drive"
 msgid "Delete from 'Playing' list, the database and drive"
-msgstr "הסר מרשימת \"מתנגן כרגע\", ממסד הנתונים והכונן"
+msgstr "מחק מרשימת 'מתנגנים', מהמאגר ומהכונן"
 
 #: dialogs/dlgDeleteConfirm.js:189
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
@@ -5056,10 +4983,8 @@ msgid "Everywhere"
 msgstr "בכל מקום"
 
 #: dialogs/dlgEditView.js:710
-#, fuzzy
-#| msgid "Enter name"
 msgid "Please enter name"
-msgstr "הכנס שם"
+msgstr "אנא הכנס שם"
 
 #: dialogs/dlgErrorLog.js:5
 msgid "Problem"
@@ -5102,7 +5027,7 @@ msgstr "פעם אחת"
 #. terminate the children loop
 #: dialogs/dlgChooseFolders.js:88 dialogs/dlgSelectFolder.js:45
 msgid "The location %s does not exist."
-msgstr ""
+msgstr "המיקום %s לא קיים."
 
 #: dialogs/dlgImageSize.js:39
 msgid "Browser & Grid views"
@@ -5497,7 +5422,6 @@ msgid "Are you sure you want to unsubscribe"
 msgstr "אתה בטוח שברצונך לבטל את הרשמה"
 
 #: dialogs/dlgRegisterGold.js:8
-#, fuzzy
 msgid "Register MediaMonkey Gold"
 msgstr "רשום את MediaMonkey Gold"
 
@@ -5523,13 +5447,11 @@ msgstr "תוצאות הסריקה"
 
 #: dialogs/dlgScanResults.js:44
 msgid "filtered or disabled in"
-msgstr ""
+msgstr "מסונן או מנוטרל ב"
 
 #: dialogs/dlgScanResults.js:49
-#, fuzzy
-#| msgid "Sync settings"
 msgid "Library settings"
-msgstr "הגדרות סנכרון"
+msgstr "הגדרות ספרייה"
 
 #: dialogs/dlgScanResults.js:67
 msgid "Library now has %d files"
@@ -5540,26 +5462,20 @@ msgid "Search and update took %s"
 msgstr "החיפוש והעדכון לקח %s"
 
 #: dialogs/dlgScanResults.js:70
-#, fuzzy
-#| msgid "Imported %d new files"
 msgid "Added %d new files"
-msgstr "יובאו %d קבצים חדשים"
+msgstr "%d קבצים חדשים נוספו"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
 msgstr "עודכנו %d קבצים"
 
 #: dialogs/dlgScanResults.js:72
-#, fuzzy
-#| msgid "Failed to import %d files"
 msgid "Failed to add %d files"
-msgstr "הייבוא של %d קבצים נכשל"
+msgstr "נכשל בהוספת %d קבצים"
 
 #: dialogs/dlgScanResults.js:73
-#, fuzzy
-#| msgid "Updated %d files"
 msgid "Skipped %d files"
-msgstr "עודכנו %d קבצים"
+msgstr "%d קבצים הושמטו"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
@@ -5628,10 +5544,8 @@ msgid "Sleep timer can be used only with Gold!"
 msgstr "ניתן להשתמש בטיימר שינה רק עם גרסת MediaMonkey Gold!"
 
 #: dialogs/dlgSpeedPitch.js:11
-#, fuzzy
-#| msgid "Adjust video"
 msgid "Adjust pitch"
-msgstr "כיול וידאו"
+msgstr "כוונן גובה"
 
 #: dialogs/dlgSupportedFormat.js:9 controls\autoConvertConfig.html:20
 msgid "Set formats"
@@ -5709,10 +5623,8 @@ msgid "Setup Wizard"
 msgstr "אשף ההתקנה"
 
 #: dialogs/dlgWizard.js:100
-#, fuzzy
-#| msgid "Optimize database"
 msgid "Opening database"
-msgstr "מטב את מאגר המידע"
+msgstr "פותח מאגר נתונים"
 
 #: dialogs/dlgWizard.js:250
 msgid "Please try again"
@@ -5843,10 +5755,8 @@ msgid ""
 msgstr "קיצור מקלדת זה %s כבר מוקצה לפעולה %s! בחר קיצור אחר."
 
 #: dialogs/dlgOptions/pnl_Hotkeys.js:256
-#, fuzzy
-#| msgid "Delete selected hotkey ?"
 msgid "Delete selected hotkeys?"
-msgstr "למחוק את הקיצור?"
+msgstr "למחוק קיצורי דרך שנבחרו?"
 
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
 #: dialogs/dlgOptions/pnl_Hotkeys.js:270
@@ -5908,10 +5818,8 @@ msgid "New layout name"
 msgstr "שם לתצוגה החדשה"
 
 #: dialogs/dlgOptions/pnl_LayoutToolbar.js:58
-#, fuzzy
-#| msgid "narrator"
 msgid "Separator"
-msgstr "קריין"
+msgstr "מפריד"
 
 #: dialogs/dlgOptions/pnl_MediaServers.js:37 UpNp.pas:10362
 #: controls\serverConfig\server.html:5
@@ -5998,24 +5906,18 @@ msgstr "תגיות לחיפוש"
 
 #. #20905
 #: dialogs/dlgOptions/pnl_OSIntegration.js:15 FileAssoc.pas:734
-#, fuzzy
-#| msgid "Welcome to MediaMonkey"
 msgid "&Play in MediaMonkey %s"
-msgstr "ברוכים הבאים ל - MediaMonkey"
+msgstr "התחל במדיה מונקי %s"
 
 #. #20905
 #: dialogs/dlgOptions/pnl_OSIntegration.js:16 FileAssoc.pas:735
-#, fuzzy
-#| msgid "Welcome to MediaMonkey"
 msgid "Queue &next in MediaMonkey %s"
-msgstr "ברוכים הבאים ל - MediaMonkey"
+msgstr "תור הבא במדיה מונקי %s"
 
 #. #20905
 #: dialogs/dlgOptions/pnl_OSIntegration.js:17 FileAssoc.pas:736
-#, fuzzy
-#| msgid "Welcome to MediaMonkey"
 msgid "Queue &last in MediaMonkey %s"
-msgstr "ברוכים הבאים ל - MediaMonkey"
+msgstr "תור אחרון במדיה מונקי %s"
 
 #: dialogs/dlgOptions/pnl_OutputPlugins.js:12
 msgid ""
@@ -6082,10 +5984,8 @@ msgid "Match within words"
 msgstr "התאם חלקי מילה"
 
 #: dialogs/dlgOptions/pnl_Search.js:58
-#, fuzzy
-#| msgid "Select an Action"
 msgid "Take no action"
-msgstr "בחר פעולה"
+msgstr "אל תעשה דבר"
 
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:2
 #: dialogs/dlgOptions/pnl_TagsAndPlaylists.js:3
@@ -6113,7 +6013,7 @@ msgstr "בצע איזון ווליום ברקע"
 #: dialogs/dlgTrackProperties/tabArtwork.js:209
 msgid ""
 "The change in artwork at %s will apply to %d other file(s) on the album."
-msgstr ""
+msgstr "השינוי בעטיפה ב-%s יחול על %d קובץ(ים) נוספים באלבום."
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
@@ -6162,9 +6062,8 @@ msgid "course title"
 msgstr "שם הקורס"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:499
-#, fuzzy
 msgid "performance"
-msgstr "ביצוע"
+msgstr "ביצועים"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:500
 msgid "Album Artist(s)"
@@ -6228,19 +6127,17 @@ msgid "Local storage"
 msgstr "אכסון מקומי"
 
 #: dialogs/dlgWizard/pnlScan.js:155
-#, fuzzy
-#| msgid "Move Library content only"
 msgid "Media Server content is read-only."
-msgstr "העבר תוכן ספרייה בלבד"
+msgstr "תוכן שרת מדיה לקריאה בלבד."
 
 #: dialogs/dlgWizard/pnlScan.js:155
 msgid "You might want to add the content via a 'Network' location instead."
-msgstr ""
+msgstr "אולי תרצה להוסיף את התוכן באמצעות מיקום 'רשת' במקום."
 
 # From installer
 #: dialogs/dlgWizard/pnlScan.js:155
 msgid "Are you sure you want to proceed?"
-msgstr ""
+msgstr "האם אתה בטוח שברצונך להמשיך?"
 
 #. we have exact gid, do not allow changing it in case search does not find it
 #. we have exact gid, do not allow changing it in case search does not find it
@@ -6291,9 +6188,8 @@ msgid "lyrics"
 msgstr "מילים"
 
 #: helpers/autoTagFramework.js:284
-#, fuzzy
 msgid "Located"
-msgstr "נמצא\\ממוקם"
+msgstr "נמצא"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to accept <Skip> as used in MM4 (and renamed to <Ignore> in MM5)
@@ -6451,22 +6347,23 @@ msgstr "מעדכן"
 #. continuously (polling method, TODO: do this via notifications from MMS?)
 #: helpers/mediaSync.js:2486 helpers/mediaSync.js:2593
 msgid "Set content to store on '%s'"
-msgstr ""
+msgstr "הגדר את התוכן לאחסן ב-'%s'"
 
 #: helpers/mediaSync.js:2489
 msgid ""
 "This content will be copied (by default) to '%s' so that it can be shared "
 "with other clients"
 msgstr ""
+"תוכן זה יועתק (כברירת מחדל) ל-'%s' כך שניתן יהיה לשתף אותו עם לקוחות אחרים"
 
 #. to refresh the values set in the wizard
 #: helpers/mediaSync.js:2526
 msgid "Server is down!"
-msgstr ""
+msgstr "השרת אינו פועל!"
 
 #: helpers/mediaSync.js:2528
 msgid "Access is denied"
-msgstr ""
+msgstr "הגישה נדחתה"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. older MMS versions don't have the userInfo yet
@@ -6498,7 +6395,7 @@ msgstr "מסיר"
 
 #: helpers/mediaSync.js:3324 helpers/mediaSync.js:3332
 msgid "(Preparing list of files)"
-msgstr ""
+msgstr "(מכין רשימת קבצים)"
 
 #. e.g. in case of MM5-MMS sync
 #: helpers/mediaSync.js:3337 helpers/mediaSync.js:3380 hpCDEBurner.pas:977
@@ -6508,34 +6405,33 @@ msgstr "מאתחל"
 
 #: helpers/mediaSync.js:3474 helpers/mediaSync.js:3768
 msgid "(Removing old content)"
-msgstr ""
+msgstr "(מסיר תוכן ישן)"
 
 #. copies additional track files like artwork or video subtitles
 #: helpers/mediaSync.js:3530
 msgid "(Copying Device -> PC, %d of %d: %s)"
-msgstr ""
+msgstr "(מעתיק מכשיר -> מחשב, %d מתוך %d: %s)"
 
 #: helpers/mediaSync.js:3632
 msgid "Copying"
 msgstr "מעתיק"
 
 #: helpers/mediaSync.js:3634
-#, fuzzy
 msgid "Matching"
-msgstr "מתאימים"
+msgstr "מתאים"
 
 #. waiting for file conversion
 #: helpers/mediaSync.js:3700
 msgid "Downloading file: %s"
-msgstr ""
+msgstr "מוריד קובץ: %s"
 
 #: helpers/mediaSync.js:3702
 msgid "Converting file: %s"
-msgstr ""
+msgstr "ממיר קובץ: %s"
 
 #: helpers/mediaSync.js:3723
 msgid "Copying playlist %s"
-msgstr ""
+msgstr "מעתיק רשימת השמעה %s"
 
 #: helpers/mediaSync.js:3751
 msgid "Preparing playlists"
@@ -6550,7 +6446,7 @@ msgstr "קורא נתונים מהקבצים"
 #. isn't our lock, but is too old, it is safe to replace it
 #: helpers/mediaSync.js:3911
 msgid "Waiting for sync connection"
-msgstr ""
+msgstr "מחכה לחיבור סינכרון"
 
 #. acquire our sync lock
 #. release sync lock and finish
@@ -6587,29 +6483,31 @@ msgid ""
 "The color combination you chose would result in text being unreadable. "
 "Please choose a different color combination."
 msgstr ""
+"שילוב הצבעים שבחרת יגרום לכך שקריאת הטקסט לא תהיה אפשרית. אנא בחר שילוב "
+"צבעים אחר."
 
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:6
 msgid "Side by side"
-msgstr ""
+msgstr "כתף אל כתף"
 
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:46
 #: dialogs\dlgTrackProperties\tabLyrics.html:11
 msgid "Lookup lyrics"
-msgstr ""
+msgstr "חפש מילים לשיר"
 
 #: Scripts/autoIncTrack/actions_add.js:4 Scripts/autoIncTrack/actions_add.js:21
 msgid "Auto-increment Track #s"
-msgstr ""
+msgstr "מספור אוטומטי של רצועות"
 
 #: Scripts/autoIncTrack/actions_add.js:23
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
-msgstr ""
+msgstr "זה ישנה את שדה מספר הרצועה בסדר עוקב עבור %d רצועות שנבחרו."
 
 #: Scripts/autoIncTrack/actions_add.js:23
 msgid "Start numbering from:"
-msgstr ""
+msgstr "התחל במספור מ:"
 
 #: Scripts/caseChecker/actions_add.js:2 Scripts/caseChecker/actions_add.js:12
 msgid "Case Checker"
@@ -6618,7 +6516,7 @@ msgstr "בודק כתיב"
 #. Make sure there are tracks loaded
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:470
 msgid "Select tracks to be updated"
-msgstr ""
+msgstr "בחר רצועות לעדכון"
 
 #: Scripts/export/actions_add.js:39 Scripts/export/actions_add.js:51
 msgid "MediaMonkey Filelist"
@@ -6658,32 +6556,34 @@ msgstr "ייצוא"
 # string till 5.0.1 version only
 #: Scripts/exportPlaylists/actions_add.js:2
 msgid "Export all playlists"
-msgstr ""
+msgstr "ייצא את כל רשימות ההשמעה"
 
 #. Open inifile and get last used directory
 #: Scripts/exportPlaylists/actions_add.js:41
 msgid "Select where to export all M3U files"
-msgstr ""
+msgstr "בחר היכן לייצא את כל קבצי M3U"
 
 #: Scripts/exportPodcasts/actions_add.js:2
 msgid "Export subscribed podcasts"
-msgstr ""
+msgstr "ייצא פודקאסטים מנויים"
 
 #: Scripts/imageSearch/helpers/searchTools_add.js:248
 msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
 msgstr ""
+"MediaMonkey מחפש תמונות מאתרים שונים. אנא בחר לאשר או לדחות עוגיות עבור "
+"תמונות שיש לחפש."
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1512
 msgid "Continue reading at Wikipedia..."
-msgstr ""
+msgstr "המשך לקרוא בוויקיפדיה..."
 
 #. correct cleaning including listeners
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1547
 msgid "Error downloading content. Click to retry."
-msgstr ""
+msgstr "שגיאה בהורדת התוכן. לחץ לנסות שנית."
 
 #. correct cleaning including listeners
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1560
@@ -6691,12 +6591,11 @@ msgid ""
 "No matching content online. Please verify the spelling of existing metadata "
 "or edit the entry in "
 msgstr ""
+"אין תוכן תואם באינטרנט. אנא אמת את איות הנתונים הקיימים או ערוך את הרשומה ב "
 
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:31
-#, fuzzy
-#| msgid "During Recording"
 msgid "recording"
-msgstr "במהלך הקלטה"
+msgstr "הקלטה"
 
 #: Scripts/redoNavbarButton/actions_add.js:2
 msgid "Next view"
@@ -6710,7 +6609,7 @@ msgstr "סטטיסטיקה"
 #: Scripts/statistics/actions_add.js:9
 #: Scripts/statistics/dialogs/dlgStatistics.js:93
 msgid "MediaMonkey Library Statistics"
-msgstr ""
+msgstr "סטטיסטיקה של ספריית MediaMonkey"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:171
 msgid "Totals"
@@ -6738,58 +6637,57 @@ msgstr "ממוצעים"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:324
 msgid "Tracks per Artist"
-msgstr ""
+msgstr "רצועות לאמן"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:325
 msgid "Tracks per Album"
-msgstr ""
+msgstr "רצועות לאלבום"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:326
 msgid "Tracks per Genre"
-msgstr ""
+msgstr "רצועות לז'אנר"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:327
 msgid "Tracks per Year"
-msgstr ""
+msgstr "רצועות לשנה"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:328
-#, fuzzy
 msgid "Bitrate (kbps)"
-msgstr "Bitrate (kbps)"
+msgstr "קצב דו סטרי (kbps)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
 msgid "Tracks played per day"
-msgstr ""
+msgstr "רצועות שהושמעו ביום"
 
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:340
 msgid "Top %d Artists"
-msgstr ""
+msgstr "%d אמנים מובילים"
 
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:373
 msgid "Top %d Artists played"
-msgstr ""
+msgstr "%d אמנים המובילים שהושמעו"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:402
 msgid "Top %d Albums"
-msgstr ""
+msgstr "%d אלבומים מובילים"
 
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:433
 msgid "Top %d Albums played"
-msgstr ""
+msgstr "%d אלבומים שהושמעו מעל לכל"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:463
 msgid "Top %d Genres"
-msgstr ""
+msgstr "%d ז'אנרים מובילים"
 
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:490
 msgid "Top %d Genres played"
-msgstr ""
+msgstr "%d ז'אנרים שהושמעו מעל לכל"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:516
@@ -6805,32 +6703,32 @@ msgstr "השמעות על פי דירוגים"
 #: Scripts/statistics/dialogs/dlgStatistics.js:600
 #: Scripts/statistics/dialogs/dlgStatistics.js:615
 msgid "MediaMonkey Music Library Statistics"
-msgstr ""
+msgstr "סטטיסטיקות של ספריית מוזיקה של MediaMonkey"
 
 #: Scripts/swapArtistTitle/actions_add.js:4
 #: Scripts/swapArtistTitle/actions_add.js:18
 msgid "Swap Artist and Title"
-msgstr ""
+msgstr "החלף בין אמן לכותרת"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:2
 msgid "Set as sync target"
-msgstr ""
+msgstr "הגדר כיעד סינכרון"
 
 #: Scripts/syncToFolder/viewHandlers_add.js:7
 msgid ""
 "This will create a new sync profile for this drive/folder so that you can "
 "sync files to this location as if it were a portable device."
 msgstr ""
+"זה ייצור פרופיל סינכרון חדש לכונן/תיקייה זה כך שתוכל לסנכרן קבצים למיקום זה "
+"כאילו הוא מכשיר נייד."
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:231
 msgid "Sync root"
 msgstr "שורש לסינכרון"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:87
-#, fuzzy
-#| msgid "Use hardware acceleration when available"
 msgid "Milkshake requires Hardware Acceleration to be enabled"
-msgstr "השתמש בהאצת חומרה"
+msgstr "Milkshake דורש שהאצת החומרה תהיה מופעלת"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:267
 msgid "Select preset"
@@ -6839,7 +6737,7 @@ msgstr "בחר אפקט תצוגה"
 #. find first data-dock and increase min-width, if needed
 #: Scripts/youtube/controls/youtubePlayerController.js:297
 msgid "Switching to minimum width for YouTube video."
-msgstr ""
+msgstr "מעבר לרוחב מינימלי עבור וידאו YouTube."
 
 #. prepare innerplayer object
 #: Scripts/youtube/controls/youtubeWindow.js:460
@@ -6849,18 +6747,18 @@ msgstr "תוצאות חיפוש"
 #. url request failed, check for quota exceeded
 #: Scripts/youtube/helpers/youtubeHelper.js:61
 msgid "YouTube query failed: "
-msgstr ""
+msgstr "שאילתת YouTube נכשלה: "
 
 #: AndroidDBHandler.pas:1216 AndroidDBHandler.pas:1218
 #: AndroidDBHandler.pas:1266 AndroidDBHandler.pas:1268
 #: MetadataStorageHandler.pas:1549 MetadataStorageHandler.pas:1550
 #: MetadataStorageHandler.pas:1611
 msgid "Problem while updating file %s: %s"
-msgstr ""
+msgstr "בעיה בעדכון קובץ %s: %s"
 
 #: AndroidDBHandler.pas:1326 AndroidDBHandler.pas:1328 Devices.pas:15979
 msgid "Problem while deleting file %s: %s"
-msgstr ""
+msgstr "בעיה במחיקת קובץ %s: %s"
 
 #: ArtistsManage.pas:1203 AutoOrganize.pas:1593
 msgid "All Genres"
@@ -6876,11 +6774,11 @@ msgstr "כל הרשימות"
 
 #: BackgroundStuff.pas:283
 msgid "%d files to be tagged"
-msgstr ""
+msgstr "%d קבצים לסימון"
 
 #: BaseApp.pas:7704
 msgid "There are background processes running. Terminate them?"
-msgstr ""
+msgstr "פועלים תהליכי רקע. לסיים אותם?"
 
 #. we don't know parent playlist id yet
 #: BaseMedia.pas:4253 Importers.pas:150 M3Umanage.pas:647 MP3Utils.pas:1603
@@ -6905,7 +6803,7 @@ msgstr "קצב תמונות (תמונה\\שניה)"
 
 #: BaseMedia.pas:15503
 msgid "%d database entries to be updated"
-msgstr ""
+msgstr "%d רשומות מאגר לעדכון"
 
 #: BaseMedia.pas:15889 Filters.pas:2796
 msgid "list"
@@ -6927,15 +6825,15 @@ msgstr "סדר פריטים מחדש"
 #. LS: following changed to toast message because of #19274
 #: CDDBUtils.pas:258
 msgid "There was an error while connecting to "
-msgstr ""
+msgstr "התרחשה שגיאה בעת התחברות ל "
 
 #: CDDBUtils.pas:260
 msgid "There was an error while connecting to Freedb: "
-msgstr ""
+msgstr "התרחשה שגיאה בעת החיבור ל-Freedb: "
 
 #: CDDBUtils.pas:510 CDDBUtils.pas:985
 msgid "Retrieving result %d of %d"
-msgstr ""
+msgstr "שליפת תוצאה %d מתוך %d"
 
 #: CDDBUtils.pas:761
 msgid "Opening connection"
@@ -6943,80 +6841,82 @@ msgstr "מתחבר"
 
 #: CDDBUtils.pas:777
 msgid "Cannot create connection."
-msgstr ""
+msgstr "לא ניתן ליצור חיבור."
 
 #: CDDBUtils.pas:1327
 msgid "Updating media %s (%d of %d)"
-msgstr ""
+msgstr "מעדכן מדיה %s (%d מתוך %d)"
 
 #: CDDBUtils.pas:1844
 msgid "The media for the Freedb query is unavailable."
-msgstr ""
+msgstr "המדיה עבור שאילת Freedb אינה זמינה."
 
 #: CDDBUtils.pas:1926
 msgid "Please select an Audio CD before requesting information from Freedb."
-msgstr ""
+msgstr "אנא בחר תקליטור שמע לפני בקשת מידע מ-Freedb."
 
 #: CDDBUtils.pas:1943
 msgid "Requesting information for %s (%d of %d)"
-msgstr ""
+msgstr "מבקשים מידע עבור %s (%d מתוך %d)"
 
 #: CDDBUtils.pas:1991 CDDBUtils.pas:2016
 msgid "This Audio CD was not found in Freedb."
-msgstr ""
+msgstr "תקליטור שמע זה לא נמצא ב-Freedb."
 
 #. not found
 #: CDUtils.pas:1449 CDUtils.pas:1452 CDUtils.pas:1455 CDUtils.pas:1462
 #: CDUtils.pas:1464
 msgid "Track %s failed to verify"
-msgstr ""
+msgstr "הרצועה %s נכשלה באימות"
 
 #: CDUtils.pas:1449
 msgid "(track isn't present in database)"
-msgstr ""
+msgstr "(הרצועה אינה קיימת במאגר הנתונים)"
 
 #: CDUtils.pas:1452
 msgid "(bad rip or the database has partial/inaccurate data)"
-msgstr ""
+msgstr "(העתקה גרועה או למאגר נתונים יש נתונים חלקיים/לא מדויקים)"
 
 #: CDUtils.pas:1455
 msgid "(error parsing verification file)"
-msgstr ""
+msgstr "(שגיאה בניתוח קובץ האימות)"
 
 #: CDUtils.pas:1457
 msgid ""
 "Track %s verified with confidence number %d (number of people matched your "
 "rip)"
-msgstr ""
+msgstr "הרצועה %s אומתה עם מספר בטיחות %d (מספר האנשים התאימו להעתקתך)"
 
 #: CDUtils.pas:1462
 msgid "this CD doesn't exist in the database"
-msgstr ""
+msgstr "התקליטור הזה לא קיים במאגר הנתונים"
 
 #: CDUtils.pas:1485
 msgid "Requesting data from AccurateRip.com database"
-msgstr ""
+msgstr "בקשה לנתונים מהמאגר של AccurateRip.com"
 
 #. There was a jitter error
 #. we are not getting results for too long, ask user what to do...
 #: CDUtils.pas:1590 CDUtils.pas:1832
 msgid "Error ripping track"
-msgstr ""
+msgstr "שגיאה בהעתקת רצועה"
 
 #. track doesn't exist or is a data track
 #: CDUtils.pas:1687
 msgid "The CD-ROM unit %s: does not contain track number %d."
-msgstr ""
+msgstr "יחידת ה-CD-ROM %s: לא מכילה מספר רצועה %d."
 
 #: CDUtils.pas:1873
 msgid ""
 "There were %d jitter errors while reading track %d. It is very likely that "
 "audio data is corrupt."
 msgstr ""
+"היו %d שגיאות רעידות בעת קריאת הרצועה %d. יש סבירות גבוהה שהנתונים האודיו "
+"פגומים."
 
 #: CDUtils.pas:1926
 msgid "Drive %s is currently in use."
-msgstr ""
+msgstr "הכונן %s נמצא בשימוש כרגע."
 
 #: Covers.pas:767
 msgid "Not specified"
@@ -7060,7 +6960,7 @@ msgstr "בדמן ההופעה"
 
 #: Covers.pas:781
 msgid "Video Screen Capture"
-msgstr ""
+msgstr "לכידת מסך וידאו"
 
 #: Covers.pas:782
 msgid "Illustration"
@@ -7080,62 +6980,62 @@ msgstr "תמונה לא שמורה"
 
 #: Covers.pas:1275
 msgid "Save to tag"
-msgstr ""
+msgstr "שמור לתג"
 
 #. %s for image file name
 #: Covers.pas:1277
 msgid "Save to: %s"
-msgstr ""
+msgstr "שמור ל: %s"
 
 #: Covers.pas:1279
 msgid "Stored in tag"
-msgstr ""
+msgstr "אוחסן בתג"
 
 #. %s for image file name
 #: Covers.pas:1281
 msgid "Stored in %s"
-msgstr ""
+msgstr "אוחסן ב-%s"
 
 #: Covers.pas:3175
 msgid ""
 "All links to the image %s have been removed from the Library. Would you like "
 "to delete it from the drive as well?"
-msgstr ""
+msgstr "כל הקישורים לתמונה %s הוסרו מהספרייה. האם ברצונך למחוק אותה גם מהכונן?"
 
 #. Get exclusive access to the DB
 #. VACUUM fails with "out of memory" exception on large databases (7 GB, 2.2 million of tracks)
 #: DatabaseManage.pas:953 DatabaseManage.pas:1909 DatabaseManage.pas:1911
 #: DatabaseManage.pas:1917 MP3Utils.pas:4456
 msgid "Checking database structure"
-msgstr ""
+msgstr "בדיקת מבנה המאגר"
 
 #: DatabaseManage.pas:1889
 msgid "The database seems to be corrupted. Attempt to fix it ?"
-msgstr ""
+msgstr "נראה כי המאגר פגום. לנסות לתקן אותו?"
 
 #: DatabaseManage.pas:3174
 msgid "Do you really want to remove %d tracks from Virtual CD?"
-msgstr ""
+msgstr "אתה באמת רוצה להסיר %d רצועות מ-DVD וירטואלי?"
 
 #: DatabaseManage.pas:3233
 msgid "Do you really want to remove %d previews?"
-msgstr ""
+msgstr "אתה באמת רוצה להסיר %d תצוגות מקדימות?"
 
 #: DatabaseManage.pas:3296
 msgid "Are you sure you want to remove %d file(s) from the Library?"
-msgstr ""
+msgstr "האם אתה בטוח שברצונך להסיר %d קובץ/ים מהספרייה?"
 
 #: DatabaseManage.pas:3297
 msgid "Are you sure you want to delete %d file(s)?"
-msgstr ""
+msgstr "האם אתה בטוח שברצונך למחוק %d קובץ/ים?"
 
 #: DatabaseManage.pas:3319
 msgid "Removing file %s (%d of %d)"
-msgstr ""
+msgstr "מסיר קובץ %s (%d מתוך %d)"
 
 #: dblistutils.pas:1239
 msgid "%d of %d folders processed"
-msgstr ""
+msgstr "%d מתוך %d תיקיות עובדו"
 
 #: dblistutils.pas:1528 UpNp.pas:6232 UPnPTreeHelper.pas:1909 WebUtils.pas:2043
 #: WebUtils.pas:2067
@@ -7184,11 +7084,11 @@ msgstr "כריכה לא מוגדרת היטב"
 
 #: dblistutils.pas:1543
 msgid "Multiple Artist Albums"
-msgstr ""
+msgstr "אלבומים של אמנים מרובים"
 
 #: dblistutils.pas:1544
 msgid "Ungrouped Multiple Artist Albums"
-msgstr ""
+msgstr "אלבומים של אמנים מרובים לא מקובצים"
 
 #: dblistutils.pas:1547
 msgid "Dead Links"
@@ -7204,7 +7104,7 @@ msgstr "קבצים לא מאורגנים"
 
 #: dblistutils.pas:1551
 msgid "DB / Tag mismatches"
-msgstr ""
+msgstr "התאמות DB / תג"
 
 #: dblistutils.pas:1552
 msgid "Duplicate Titles"
@@ -7239,11 +7139,11 @@ msgstr "איכות לא ידועה"
 msgid ""
 "Your Library is being upgraded to the latest version. It can take up to "
 "several minutes..."
-msgstr ""
+msgstr "הספרייה שלך משודרגת לגרסה הכי חדשה. זה יכול לקחת עד כמה דקות..."
 
 #: DBStructure.pas:276
 msgid "Updating to database version %d.%d.%d"
-msgstr ""
+msgstr "מעדכן לגרסת מאגר %d.%d.%d"
 
 #. BPS was added in the past, check a offer rescan
 #: DBStructure.pas:828
@@ -7251,12 +7151,14 @@ msgid ""
 "This version of MediaMonkey supports new tag(s) (%s). Would you like to "
 "rescan files now in order to read these tags?"
 msgstr ""
+"גרסה זו של MediaMonkey תומכת בתגים חדשים (%s). האם תרצה לסרוק מחדש קבצים "
+"עכשיו כדי לקרוא תגיות אלה?"
 
 #: DBStructure.pas:971
 msgid ""
 "Library database %s can't be opened, would you like to create a new local "
 "Library?"
-msgstr ""
+msgstr "מאגר ספרייה %s לא יכול להיפתח, האם תרצה ליצור ספרייה מקומית חדשה?"
 
 #: DBStructure.pas:2060 controls\deviceConfig\options\pnl_FileLocations.html:25
 msgid "Audiobook"
@@ -7264,45 +7166,45 @@ msgstr "ספר מוקלט"
 
 #: Devices.pas:3025 M3Umanage.pas:114
 msgid "Recently Added Content"
-msgstr ""
+msgstr "תוכן שנוסף לאחרונה"
 
 #. "Added from {Device Title} on 2012-11-14"
 #: Devices.pas:3026
 msgid "Added from %s on %s"
-msgstr ""
+msgstr "נוסף מ-%s בתאריך %s"
 
 #: Devices.pas:3757
 msgid "Remove '%s' entries from the Library?"
-msgstr ""
+msgstr "הסר כניסות '%s' מהספרייה?"
 
 #: Devices.pas:3762
 msgid "Delete downloaded content"
-msgstr ""
+msgstr "מחק תוכן שהורד"
 
 #: Devices.pas:3904
 msgid "Cannot remove directory %s."
-msgstr ""
+msgstr "לא ניתן למחוק את התיקייה %s."
 
 #: Devices.pas:5236 Settings.pas:1654
 msgid "Are you sure you want to reset this profile to its default settings?"
-msgstr ""
+msgstr "האם אתה בטוח שברצונך לאפס פרופיל זה להגדרות ברירת המחדל שלו?"
 
 #: Devices.pas:8663
 msgid "The device '%s' cannot be stopped now as it appears to be in use."
-msgstr ""
+msgstr "ההתקן '%s' לא יכול להיות מופסק כעת משום שהוא נראה כמשומש."
 
 #: Devices.pas:8664
 msgid "Problem Ejecting %s"
-msgstr ""
+msgstr "בעיה בהיפרדות %s"
 
 #: Devices.pas:10017
 msgid "\"%s\" is attempting to sync with the MediaMonkey Library over WiFi."
-msgstr ""
+msgstr "\"%s\" מנסה לסנכרן עם ספריית MediaMonkey באמצעות WiFi."
 
 #. Lib wasn't found, this is an unknown new device that wants a wireless sync with us, create library for the device
 #: Devices.pas:10036
 msgid "An unknown portable device"
-msgstr ""
+msgstr "מכשיר נייד לא ידוע"
 
 #: Devices.pas:10042
 msgid ""
@@ -7317,38 +7219,40 @@ msgstr ""
 
 #: Devices.pas:10045
 msgid "No / I'll sync over USB instead"
-msgstr ""
+msgstr "לא / אני אסנכרן באמצעות USB במקום"
 
 #. capacity is unknown (e.g. Google Music)
 #: Devices.pas:11446
 msgid "Needed: %s, available: %s, to be freed: %s"
-msgstr ""
+msgstr "נדרש: %s, זמין: %s, שיש להשתחרר: %s"
 
 #: Devices.pas:11449
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
 msgstr ""
+"אין מספיק שטח על המכשיר לסנכרון קבצים שנבחרו. האם ברצונך לפנות מספיק שטח על "
+"ידי מחיקת קבצים קיימים?"
 
 #. Clear tracks on the device
 #: Devices.pas:11465
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
-msgstr ""
+msgstr "אין מספיק שטח על המכשיר לסנכרון קבצים שנבחרו. האם ברצונך להמשיך?"
 
 #: Devices.pas:12006 FileUtils.pas:822 ResStrings.pas:571
 msgid "Insufficient space available."
-msgstr ""
+msgstr "אין מספיק שטח פנוי."
 
 #: Devices.pas:12008 Devices.pas:12327 Devices.pas:16101 Devices.pas:16110
 msgid "Problem while copying file %s to %s"
-msgstr ""
+msgstr "בעיה בהעתקת קובץ %s ל-%s"
 
 #. e.g. to know it when the tracks are part of a playlist that need to be modified (e.g. on MMS)
 #: Devices.pas:12959
 msgid "File %s is not supported by the device"
-msgstr ""
+msgstr "הקובץ %s אינו נתמך על ידי המכשיר"
 
 #. no track being converted, see the tracks being downloaded from cloud
 #: Devices.pas:15424
@@ -7358,45 +7262,50 @@ msgstr "מוריד"
 #. track has failed to convert
 #: Devices.pas:15875
 msgid "Conversion of file %s failed"
-msgstr ""
+msgstr "המרת קובץ %s נכשלה"
 
 #: ErrHandlers.pas:116
 msgid "File %s is read-only. Do you want to change it?"
-msgstr ""
+msgstr "הקובץ %s לקריאה בלבד. האם ברצונך לשנותו?"
 
 #: ErrHandlers.pas:130
 msgid "The read-only attribute cannot be removed from the file %s."
-msgstr ""
+msgstr "תכונת הקריאה בלבד לא יכולה להיות מוסרת מהקובץ %s."
 
 #: ErrHandlers.pas:137
 msgid "There was a problem updating the tag for file %s."
-msgstr ""
+msgstr "הייתה בעיה בעדכון התג עבור הקובץ %s."
 
 #: ErrHandlers.pas:144
 msgid "File %s already exists. Do you want to replace it?"
-msgstr ""
+msgstr "הקובץ %s כבר קיים. האם ברצונך להחליפו?"
 
 #: ErrHandlers.pas:152
 msgid ""
 "Some components of filename %s exceed the 64 character limit for CDs. "
 "Continue renaming without editing filenames?"
 msgstr ""
+"חלק מהמרכיבים של שם הקובץ %s עולים על מגבלת ה-64 תווים לתקליטורים. להמשיך "
+"בשינוי שם ללא עריכת שמות קבצים?"
 
 #: ErrHandlers.pas:160
 msgid ""
 "Cannot delete %s. Access is denied. The file may be in use or you may not "
 "have access rights."
 msgstr ""
+"לא ניתן למחוק %s. הגישה נדחתה. ייתכן שהקובץ בשימוש או שאין לך זכויות גישה."
 
 #: ErrHandlers.pas:168 FileUtils.pas:822
 msgid "Problem with copying file %s to %s."
-msgstr ""
+msgstr "בעיית העתקת קובץ %s ל-%s."
 
 #: ErrHandlers.pas:176
 msgid ""
 "File %s cannot be opened:\n"
 "%s"
 msgstr ""
+"לא ניתן לפתוח את הקובץ %s: \n"
+"%s"
 
 #. e.g. for the confidence numbers after AccurateRip verification (#17023 - item 3)
 #: ErrHandlers.pas:385
@@ -7408,12 +7317,14 @@ msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
 msgstr ""
+"רצועה אחת או יותר לא היו יכולות להיות מועתקים או אומתו. בחר מסלול/ים שברצונך "
+"לנסות שנית:"
 
 #: ErrHandlers.pas:389
 msgid ""
 "Track(s) have been verified against AccurateRip.com database with the "
 "following results:"
-msgstr ""
+msgstr "רצועות אומתו מול AccurateRip.com מאגר נתונים עם התוצאות הבאות:"
 
 #: ErrHandlers.pas:390
 msgid "Ripping results"
@@ -7422,32 +7333,32 @@ msgstr "תוצאות המרה מדיסק"
 #. #18222
 #: ErrHandlers.pas:403
 msgid "There was a problem leveling volume for the following track(s):"
-msgstr ""
+msgstr "הייתה בעיה בהתבקעות עוצמה למסלול(ים) הבאים:"
 
 #. #18222
 #: ErrHandlers.pas:416
 msgid "There was a problem processing audio for the following track(s):"
-msgstr ""
+msgstr "הייתה בעיה בעיבוד אודיו עבור המסלול(ים) הבאים:"
 
 #. #18222
 #: ErrHandlers.pas:430
 msgid "There was a problem converting the following file(s):"
-msgstr ""
+msgstr "הייתה בעיה בהמרת הקובץ/ים הבאים:"
 
 #. #18222
 #: ErrHandlers.pas:444 Extensions.pas:946 MediaMonkeyApp.pas:4065
 msgid "There was a problem downloading the following file(s):"
-msgstr ""
+msgstr "הייתה בעיה בהורדת קובץ/ים הבאים:"
 
 #. #18222
 #: ErrHandlers.pas:458
 msgid "There was a problem scanning the following item(s):"
-msgstr ""
+msgstr "הייתה בעיה בסריקת פריט/ים הבאים:"
 
 #. #18222
 #: ErrHandlers.pas:471
 msgid "There was a problem synchronizing the following item(s):"
-msgstr ""
+msgstr "הייתה בעיה בסנכרון פריט/ים הבאים:"
 
 #. seconds
 #. splitting or decoding failed
@@ -7456,27 +7367,29 @@ msgstr ""
 #: ErrHandlers.pas:484 FormatsHandler.pas:3396 FormatsHandler.pas:3407
 #: GeneralDecoder.pas:436
 msgid "MediaMonkey is unable to decode this format."
-msgstr ""
+msgstr "MediaMonkey לא יכול לפענח פורמט זה."
 
 #: ErrHandlers.pas:496
 msgid ""
 "The trial version of the %s is limited to a 30-day trial period. For "
 "unrestricted use please upgrade to MediaMonkey Gold. Do you want to upgrade?"
 msgstr ""
+"גרסת הניסיון של ה-%s מוגבלת לתקופה של 30 ימים. לשימוש בלתי מוגבל, שדרג ל-"
+"MediaMonkey Gold. האם אתה רוצה לשדרג?"
 
 #. #18222
 #: ErrHandlers.pas:509
 msgid "There was a problem organizing the following file(s):"
-msgstr ""
+msgstr "הייתה בעיה בארגון הקובץ/ים הבאים:"
 
 #: ExceptionHandler.pas:293
 msgid "Restart in Safe mode"
-msgstr ""
+msgstr "הפעל מחדש במצב בטוח"
 
 #. set buttons captions
 #: ExceptionHandler.pas:327
 msgid "Disable & Restart"
-msgstr ""
+msgstr "ניטול והפעלה מחדש"
 
 #. Pointer not needed.
 #: ExceptionHandler.pas:352
@@ -7485,40 +7398,42 @@ msgstr "מחסנית"
 
 #: ExceptionHandler.pas:501
 msgid "There was a runtime error in Addon"
-msgstr ""
+msgstr "הייתה שגיאת זמן ריצה בתוסף"
 
 #: ExceptionHandler.pas:501
 msgid "Do you want to disable this addon?"
-msgstr ""
+msgstr "האם ברצונך לנטרל תוסף זה?"
 
 #: Extensions.pas:971
 msgid "Invalid Addon: only valid for MediaMonkey 4.x"
-msgstr ""
+msgstr "תוסף לא חוקי: מתאים רק ל-MediaMonkey 4.x"
 
 #. show the addon's config immediatelly (so that users are aware)
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
 #: Extensions.pas:1101 UpNp.pas:11868
 msgid "%s was successfully installed."
-msgstr ""
+msgstr "%s הותקן בהצלחה."
 
 #: Extensions.pas:1106
 msgid "%s was not installed."
-msgstr ""
+msgstr "%s לא הותקן."
 
 #: Extensions.pas:1120
 msgid ""
 "This action will uninstall '%s'.\n"
 "Do you wish to continue?"
 msgstr ""
+"פעולה זו תסיר את '%s'.\n"
+"האם ברצונך להמשיך?"
 
 #: Extensions.pas:1419 Extensions.pas:1439 Extensions.pas:1445
 #: Extensions.pas:1520
 msgid "No update available"
-msgstr ""
+msgstr "אין עדכון זמין"
 
 #: Extensions.pas:1427 dialogs\dlgExtensions.html:15
 msgid "Fetching update info"
-msgstr ""
+msgstr "מאחזר מידע על עדכון"
 
 #. standardize (#17808):
 #: Extensions.pas:1656 Extensions.pas:1660
@@ -7526,10 +7441,8 @@ msgid "Skins"
 msgstr "מראה"
 
 #: Extensions.pas:1657
-#, fuzzy
-#| msgid "Icon"
 msgid "Icons"
-msgstr "סמל"
+msgstr "סמלים"
 
 #: Extensions.pas:1659 dialogs\dlgSupportedFormat.html:67
 msgid "Profiles"
@@ -7545,7 +7458,7 @@ msgstr "סנכרן מול מכשיר"
 
 #: FileAssoc.pas:738
 msgid "Play Audio CD"
-msgstr ""
+msgstr "הפעל תקליטור אודיו"
 
 #: FileAssoc.pas:739
 msgid "Burn CD/DVD/BD"
@@ -7553,11 +7466,11 @@ msgstr "צרוב דיסק"
 
 #: FileAssoc.pas:741
 msgid "Rip Audio CD"
-msgstr ""
+msgstr "העתק תקליטור אודיו"
 
 #: FileAssoc.pas:743
 msgid "&Install MediaMonkey package"
-msgstr ""
+msgstr "התקן חבילת MediaMonkey"
 
 #. This is localized, user sees it when iPod is connected under Vista
 #: FileAssoc.pas:831
@@ -7566,11 +7479,11 @@ msgstr "iPod"
 
 #: FileAssoc.pas:956
 msgid "Play CD with MediaMonkey"
-msgstr ""
+msgstr "נגן תקליטור עם MediaMonkey"
 
 #: FileAssoc.pas:969
 msgid "Play DVD with MediaMonkey"
-msgstr ""
+msgstr "נגן DVDs עם MediaMonkey"
 
 #. issue #10108, if only "MediaMonkey" would be there then it won't appear in 'Set default programs' when both MM8 & MMW are installed (because of same app name)
 #: FileAssoc.pas:1071
@@ -7578,10 +7491,12 @@ msgid ""
 "MediaMonkey is all-in-one audio jukebox application that can organize your "
 "digital music collection."
 msgstr ""
+"MediaMonkey הוא תוכנה לג'וקבוקס אודיו הכל ב-אחת שיכולה לארגן את האוסף "
+"הדיגיטלי שלך."
 
 #: FileAssoc.pas:1135
 msgid "MediaMonkey Addon file"
-msgstr ""
+msgstr "קובץ תוסף MediaMonkey"
 
 #: FileAssoc.pas:1137
 msgid "Audio File"
@@ -7589,11 +7504,11 @@ msgstr "קובץ שמע"
 
 #: FileUtils.pas:606 Normalization.pas:1922 Normalization.pas:1983
 msgid "The file is unavailable or you may not have permission to access it."
-msgstr ""
+msgstr "הקובץ אינו זמין או שאין לך הרשאות גישה אליו."
 
 #: FileUtils.pas:644
 msgid "Cannot create file %s."
-msgstr ""
+msgstr "לא ניתן ליצור קובץ %s."
 
 # #-#-#-#-#  htmladd.po (MediaMonkey 5.0)  #-#-#-#-#
 # From installer
@@ -7603,35 +7518,32 @@ msgstr "שגיאה"
 
 #: FileUtils.pas:2371
 msgid "Media Server cache"
-msgstr ""
+msgstr "מטמון שרת המדיה"
 
 #: FileUtils.pas:2374
 msgid "Virtual CD content"
-msgstr ""
+msgstr "תוכן CD וירטואלי"
 
 #: FileUtils.pas:2377 UPnPTreeHelper.pas:1906
-#, fuzzy
 msgid "Previews"
 msgstr "תצוגות מקדימות"
 
 #: FileUtils.pas:2581
-#, fuzzy
-#| msgid "%s cannot be reached"
 msgid "The directory %s cannot be created."
-msgstr "%s לא נגיש"
+msgstr "לא ניתן ליצור את התיקייה %s."
 
 #: FileUtils.pas:2816
 msgid "Drive %s is running out of space."
-msgstr ""
+msgstr "הכונן %s נמצא לקראת סיום שטח."
 
 #: FileUtils.pas:2817
 msgid "Please free up space for MediaMonkey to function properly."
-msgstr ""
+msgstr "אנא פנה שטח ל-MediaMonkey לעבוד כראוי."
 
 #. no subtitles filter
 #: FormatsHandler.pas:2382
 msgid "MediaMonkey is unable to show subtitles."
-msgstr ""
+msgstr "MediaMonkey לא יכול להציג כתוביות."
 
 #: FormatsHandler.pas:2975
 msgid "Video codec"
@@ -7658,11 +7570,11 @@ msgstr "מקודד שמע"
 #. type of bitrate
 #: FormatsHandler.pas:3011
 msgid "CBR 1 pass"
-msgstr ""
+msgstr "CBR 1 מסלול"
 
 #: FormatsHandler.pas:3013
 msgid "CBR 2 pass"
-msgstr ""
+msgstr "CBR 2 מסלול"
 
 #: FormatsHandler.pas:3021 dialogs\dlgTrackProperties\tabDetails.html:225
 msgid "VBR"
@@ -7671,7 +7583,7 @@ msgstr "קצב משתנה"
 #: FormatsHandler.pas:3022 WAVUtils.pas:177 WAVUtils.pas:179
 #: dialogs\dlgWAVSettings.html:21
 msgid "Bits per sample"
-msgstr ""
+msgstr "ביטים לדגימה"
 
 #: FormatsHandler.pas:3029
 msgid "ABR"
@@ -7683,30 +7595,30 @@ msgstr "קצב סיביות מירבי"
 
 #: FormatsHandler.pas:3398 FormatsHandler.pas:3638 MediaMonkeyApp.pas:7612
 msgid "MediaMonkey is unable to encode this format."
-msgstr ""
+msgstr "MediaMonkey לא יכול לקודד פורמט זה."
 
 #. DRM
 #. accessible without error and does not play, was probably already stopped, exit, it could lead to error #17661 otherwise
 #. DRM
 #: FormatsManage.pas:1264 FullPlayer.pas:4498 GeneralDecoder.pas:445
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
-msgstr ""
+msgstr "לא ניתן לפענח את הקובץ %s. ייתכן שזה נובע ממגבלות DRM."
 
 #: FormatsManage.pas:1266
 msgid "File %s was not successfully created."
-msgstr ""
+msgstr "הקובץ %s לא נוצר בהצלחה."
 
 #. Check whether album gain needs to be calculated:
 #: FormatsManage.pas:1409 FormatsManage.pas:1485
 msgid "Converting file %d of %d"
-msgstr ""
+msgstr "ממיר קובץ %d מתוך %d"
 
 #. TODOWIN8
 #: FormatsManage.pas:1420 FormatsManage.pas:1937 UpNp.pas:4845
 msgid ""
 "There isn't enough free space to convert all files. Please clear space in "
 "the temporary directory"
-msgstr ""
+msgstr "אין מספיק שטח פנוי להמרת כל הקבצים. אנא פנה שטח בתיקיית זמנית"
 
 #: FormatsManage.pas:1449
 msgid "ripping"
@@ -7720,7 +7632,7 @@ msgstr "AAC"
 #. MP3
 #: FormatsManage.pas:2979
 msgid "LAME Audio Encoder"
-msgstr ""
+msgstr "מקודד אודיו LAME"
 
 #. BY_QUALITY
 #: FormatsManage.pas:3004
@@ -7749,15 +7661,15 @@ msgstr "WMA (ללא איבוד איכות)"
 
 #: FormatsManage.pas:3073
 msgid "Windows Media Video 7"
-msgstr ""
+msgstr "Windows Media Video 7"
 
 #: FormatsManage.pas:3079
 msgid "Windows Media Video 8"
-msgstr ""
+msgstr "Windows Media Video 8"
 
 #: FormatsManage.pas:3085
 msgid "Windows Media Video 9"
-msgstr ""
+msgstr "Windows Media Video 9"
 
 #: FormatsManage.pas:3106
 msgid "VP8"
@@ -7770,7 +7682,7 @@ msgstr "VP9"
 #. #17515
 #: FormatsManage.pas:3781
 msgid "Unknown (all formats)"
-msgstr ""
+msgstr "לא ידוע (כל הפורמטים)"
 
 #: FormatsManage.pas:4483 FormatsManage.pas:4496
 msgid "audio"
@@ -7793,11 +7705,11 @@ msgstr "מעל %d"
 #: FormatsManage.pas:4556 FormatsManage.pas:4579 FormatsManage.pas:4604
 #: FormatsManage.pas:4617
 msgid "Between %d and %d"
-msgstr ""
+msgstr "בין %d ל-%d"
 
 #: FormatsManage.pas:4552 FormatsManage.pas:4556
 msgid "bits per sample"
-msgstr ""
+msgstr "ביטים לדגימה"
 
 #. video stream
 #: FormatsManage.pas:4563 FormatsManage.pas:5118
@@ -7811,7 +7723,7 @@ msgstr "מעל %.3f"
 
 #: FormatsManage.pas:4591
 msgid "Between %.3f and %.3f"
-msgstr ""
+msgstr "בין %.3f ל-%.3f"
 
 #. width
 #: FormatsManage.pas:4595
@@ -7835,7 +7747,7 @@ msgstr "מעל"
 #. using checkMedia removed, #18091
 #: FullPlayer.pas:2358
 msgid "Add %d file(s) to Playing"
-msgstr ""
+msgstr "הוסף %d קובץ/ים ל'מתנגנים'"
 
 #: FullPlayer.pas:2515
 msgid "Clear Playing"
@@ -7843,29 +7755,29 @@ msgstr "נקה רשימת השמעה"
 
 #: FullPlayer.pas:2988
 msgid "Currently, there is no output plug-in selected"
-msgstr ""
+msgstr "כעת, אין תוסף פלט נבחר"
 
 #: FullPlayer.pas:3002
 msgid "Currently no input plug-in is in use (no file is playing)."
-msgstr ""
+msgstr "כרגע אין תוסף קלט בשימוש (אין קובץ מתנגן)."
 
 #. run in separate thread, as caller could be terminated too fast and message would not be shown
 #. no audio hw
 #: FullPlayer.pas:4344 GeneralDecoder.pas:450
 msgid "No audio hardware found"
-msgstr ""
+msgstr "לא נמצא חומרה לאודיו"
 
 #. test accessibility first
 #: FullPlayer.pas:4489
 msgid "Playback failed: %s is inaccessible."
-msgstr ""
+msgstr "הפעלת השמעה נכשלה: %s אינה נגישה."
 
 #. try to find missing codecs
 #. try to catch some known errors and handle them
 #: FullPlayer.pas:4506 FullPlayer.pas:4510 FullPlayer.pas:4513
 #: FullPlayer.pas:4516
 msgid "Playback failed: %s cannot decode %s."
-msgstr ""
+msgstr "הפעלת השמעה נכשלה: %s לא יכולה לפענח %s."
 
 #: FullPlayer.pas:4772
 msgid "Clean"
@@ -7874,27 +7786,28 @@ msgstr "נקה"
 #. this song already was in the playlist
 #: FullPlayer.pas:5101
 msgid "No duplicates were detected."
-msgstr ""
+msgstr "לא התגלו כפילויות."
 
 #: FullPlayer.pas:5105
 msgid "Do you want to remove %d duplicate(s) Playing?"
-msgstr ""
+msgstr "האם ברצונך להסיר %d כפל(ים) 'מתנגנים'?"
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:6813
 msgid ""
 "The operation will complete after the the current file finishes playing."
-msgstr ""
+msgstr "הפעולה תושלם לאחר שהקובץ הנוכחי יסיים להתנגן."
 
 #: FullPlayer.pas:7273
 msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
 msgstr ""
+"קובץ %s מתנגן עכשיו. מחיקתו תקטע את ההפעלה. האם אתה בטוח שברצונך למחוק אותו?"
 
 #: FullPlayer.pas:8367
 msgid "Computing waveform for file %s"
-msgstr ""
+msgstr "מחשב גל צורה לקובץ %s"
 
 #: FullPlayer.pas:8928 WinAmpPlugins.pas:2916
 msgid "No configuration"
@@ -7904,13 +7817,13 @@ msgstr "אין הגדרות"
 #: GeneralDecoder.pas:778 GeneralDecoder.pas:782 MediaMonkeyApp.pas:4620
 #: MediaMonkeyApp.pas:4623
 msgid "Problem while decoding file %s"
-msgstr ""
+msgstr "בעיה בפענוח הקובץ %s"
 
 #: GlobVars.pas:1866
 msgid ""
 "Do you want to use the database and settings from an existing installation "
 "of MediaMonkey?"
-msgstr ""
+msgstr "האם ברצונך להשתמש במאגר הנתונים וההגדרות של התקנה קיימת של MediaMonkey?"
 
 #: GlobVars.pas:1866 controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Import settings"
@@ -7925,9 +7838,8 @@ msgid "TV"
 msgstr "טלויזיה"
 
 #: GlobVars.pas:2088
-#, fuzzy
 msgid "Video Podcast"
-msgstr "Video Podcast"
+msgstr "פודקאסט וידאו"
 
 #: Hotkeys.pas:740
 msgid "Browser Back"
@@ -8008,7 +7920,7 @@ msgstr "מחק דיסק"
 
 #: hpCDEBurner.pas:847
 msgid "Try another disc"
-msgstr ""
+msgstr "נסה דיסק אחר"
 
 #. 2 minutes
 #: hpCDEBurner.pas:957
@@ -8037,30 +7949,30 @@ msgstr "מוחק"
 
 #: hpCDEBurner.pas:983
 msgid "Waiting for a new disc"
-msgstr ""
+msgstr "מחכה לדיסק חדש"
 
 #. Check for termination, but give a warning:
 #: hpCDEBurner.pas:1005
 msgid ""
 "Terminating a Disc burn will create an unreadable disc. Are you sure you "
 "want to proceed?"
-msgstr ""
+msgstr "סיום חריטת דיסק יצור דיסק בלתי קריא. האם אתה בטוח שברצונך להמשיך?"
 
 #: hpCDEBurner.pas:1181
 msgid "Disc %s (copy %d) burned successfully."
-msgstr ""
+msgstr "דיסק %s (עותק %d) נצרב בהצלחה."
 
 #: hpCDEBurner.pas:1183
 msgid "Disc %s burned successfully."
-msgstr ""
+msgstr "דיסק %s נצרב בהצלחה."
 
 #: hpCDEBurner.pas:1189
 msgid "Disc %s (copy %d) burn failed"
-msgstr ""
+msgstr "דיסק %s (עותק %d) נכשל בצריבה"
 
 #: hpCDEBurner.pas:1191
 msgid "Disc %s burn failed"
-msgstr ""
+msgstr "דיסק %s נכשל בצריבה"
 
 #. TODOWIN8
 #: hpCDEBurner.pas:1476
@@ -8069,15 +7981,15 @@ msgstr "צרוב דיסק שוב"
 
 #: hpCDEBurner.pas:1483
 msgid "Burn disc %d"
-msgstr ""
+msgstr "צרוב דיסק %d"
 
 #: hpCDEBurner.pas:1486
 msgid "Burn another copy"
-msgstr ""
+msgstr "צרוב עותק נוסף"
 
 #: hpCDEBurner.pas:1497
 msgid "Could not set the required speed"
-msgstr ""
+msgstr "לא הצליח לקבוע את המהירות הנדרשת"
 
 #: hpCDEBurner.pas:1500
 msgid "Burn error"
@@ -8085,21 +7997,23 @@ msgstr "תקלה בצריבה"
 
 #: hpCDEBurner.pas:1500
 msgid "Selected tracks cannot be accessed!"
-msgstr ""
+msgstr "לא ניתן לגשת לרצועות שנבחרו!"
 
 #: hpCDEBurner.pas:1628 hpCDEBurner.pas:2509
 msgid "Burning ... (%s)"
-msgstr ""
+msgstr "שורף ... (%s)"
 
 #: hpCDEBurner.pas:1631 hpCDEBurner.pas:1731
 msgid "Caching files from network"
-msgstr ""
+msgstr "ממאגר קבצים מהרשת"
 
 #: hpCDEBurner.pas:2226
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disc from being burnt."
 msgstr ""
+"פעולת צריבה נכשלה! חלק מהרצועות מוגנות על ידי ניהול זכויות דיגיטלי, ולכן לא "
+"ניתן לצרוב את הדיסק."
 
 #. do not show this message when app is launching.
 #: HTMLWindow.pas:13344
@@ -8107,6 +8021,8 @@ msgid ""
 "The MicroPlayer is not yet enabled. To enable it, right-click on the "
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
 msgstr ""
+"MicroPlayer עדיין לא מופעל. כדי להפעיל אותו, לחץ על לחצן העכבר הימני על שורת "
+"המשימות, לחץ על 'סרגלי כלים' והפעל 'נגן MediaMonkey'."
 
 #: Importers.pas:232
 msgid ""
@@ -8115,10 +8031,13 @@ msgid ""
 "manually, please export the iTunes XML library via iTunes and select it "
 "below."
 msgstr ""
+"MediaMonkey לא יכול לייבא נתוני מטה ממאגר iTunes שלך. כדי לפתור זאת באופן "
+"אוטומטי, הפעל את iTunes והפעל 'שתף iTunes ספריית XML...'. כדי לעשות זאת "
+"באופן ידני, ייצא את ספריית ה-XML iTunes דרך iTunes ובחר אותה למטה."
 
 #: Importers.pas:271
 msgid "Importing data from iTunes..."
-msgstr ""
+msgstr "מייבא נתונים מ-iTunes..."
 
 #: Importers.pas:276
 msgid "iTunes"
@@ -8126,7 +8045,7 @@ msgstr "iTunes"
 
 #: Importers.pas:661 Importers.pas:961
 msgid "Importing data from WinAmp..."
-msgstr ""
+msgstr "מייבא נתונים מ-WinAmp..."
 
 #: Importers.pas:666
 msgid "WinAmp"
@@ -8134,19 +8053,19 @@ msgstr "Winamp"
 
 #: Importers.pas:962 Importers.pas:967
 msgid "Windows Media Player"
-msgstr ""
+msgstr "נגן מדיה של Windows"
 
 #: Importers.pas:1153
 msgid "Importing data from J. River Media Center..."
-msgstr ""
+msgstr "מייבא נתונים מ-J. River Media Center..."
 
 #: Importers.pas:1158
 msgid "J. River Media Center"
-msgstr ""
+msgstr "J. River Media Center"
 
 #: M3Umanage.pas:535
 msgid "Updating track numbers"
-msgstr ""
+msgstr "מעדכן מספרי עקבות"
 
 #: M3Umanage.pas:614
 msgid "Processing playlists"
@@ -8198,7 +8117,7 @@ msgstr "נתיב"
 
 #: MaskHelper.pas:3225
 msgid "How to use masks"
-msgstr ""
+msgstr "איך להשתמש בוריאציות"
 
 #: MaskHelper.pas:3831
 msgid "Track#"
@@ -8226,19 +8145,19 @@ msgstr "# דילוגים"
 
 #: MediaManage.pas:2927
 msgid "An error occured while moving file %s to %s. Do you want to try again?"
-msgstr ""
+msgstr "אירעה שגיאה בעת העברת הקובץ %s ל-%s. האם אתה רוצה לנסות שנית?"
 
 #: MediaManage.pas:3071
 msgid "Moving file %d of %d (%s)"
-msgstr ""
+msgstr "מעביר קובץ %d מתוך %d (%s)"
 
 #: MediaManage.pas:3073
 msgid "Copying file %d of %d (%s)"
-msgstr ""
+msgstr "מעתיק קובץ %d מתוך %d (%s)"
 
 #: MediaManage.pas:3236
 msgid "Could not find file %s, it will not be %s."
-msgstr ""
+msgstr "לא ניתן היה למצוא את הקובץ %s, הוא לא יהיה %s."
 
 #: MediaManage.pas:3237
 msgid "moved"
@@ -8250,52 +8169,51 @@ msgstr "הועתק"
 
 #: MediaManage.pas:3869
 msgid "Moving file $src$ to $dest$"
-msgstr ""
+msgstr "מעביר קובץ $src$ ל-$dest$"
 
 #: MediaManage.pas:3871
 msgid "Copying file $src$ to $dest$"
-msgstr ""
+msgstr "מעתיק קובץ $src$ ל-$dest$"
 
 #: MediaManage.pas:4090
 msgid "The media '%s' is not inserted."
-msgstr ""
+msgstr "מדיה '%s' אינה מוזנת."
 
 #: MediaManage.pas:4169
 msgid "Cannot rename directory %s to %s."
-msgstr ""
+msgstr "לא ניתן לשנות שם תיקייה %s ל-%s."
 
 #. #10283
 #. if we are going to tag a file that is playing, let's do it as quickly as possible
 #: MediaManage.pas:4409 MP3Utils.pas:3822
 msgid "Tag update failed: %s is inaccessible."
-msgstr ""
+msgstr "שדרוג תג נכשל: %s אינו נגיש."
 
 #: MediaManage.pas:5648 MediaMonkeyApp.pas:5547
 msgid "Creating folder \"%s\" failed"
-msgstr ""
+msgstr "יצירת תיקייה \"%s\" נכשלה"
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
 #: MediaMonkeyApp.pas:5239
 msgid "Deleted %d files from %d"
-msgstr ""
+msgstr "נמחקו %d קבצים מתוך %d"
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
 #: MediaMonkeyApp.pas:5298
 msgid "Removed %d files from %d"
-msgstr ""
+msgstr "הוסרו %d קבצים מתוך %d"
 
 #: MediaMonkeyApp.pas:5550 QueryManage.pas:4309
 msgid "is not accessible"
-msgstr ""
+msgstr "אינו נגיש"
 
 #: MediaMonkeyApp.pas:6423
 msgid "Updated"
 msgstr "התעדכן"
 
 #: MediaMonkeyApp.pas:6427 QueryManage.pas:5057 QueryManage.pas:5058
-#, fuzzy
 msgid "Skipped"
-msgstr "דולגו"
+msgstr "דלג"
 
 #: MediaMonkeyApp.pas:6439
 msgid "Scan log"
@@ -8340,23 +8258,23 @@ msgstr "ערוך מאפיינים"
 
 #: MediaMonkeyApp.pas:9157
 msgid "Clear list & play selected + subsequent"
-msgstr ""
+msgstr "נקה רשימה והשמע את שנבחר + העוקב"
 
 #: MediaMonkeyApp.pas:9158
 msgid "Clear list & play selected only"
-msgstr ""
+msgstr "נקה רשימה והשמע את שנבחר בלבד"
 
 #: MediaMonkeyApp.pas:9159
 msgid "Play selected files only"
-msgstr ""
+msgstr "השמע קבצים נבחרים בלבד"
 
 #: MetadataStorageHandler.pas:1610
 msgid "Problem while updating playlist %s: %s"
-msgstr ""
+msgstr "בעיה בעדכון רשימת השירים %s: %s"
 
 #: MP3Manage.pas:255
 msgid "Compatible: CBR   96 kbps - Fair Quality"
-msgstr ""
+msgstr "תואם: CBR 96 kbps - איכות הוגנת"
 
 #: MP3Manage.pas:1416
 msgid "Preset"
@@ -8367,75 +8285,77 @@ msgid ""
 "To enable advanced codec options (e.g. higher or lower bitrates), please "
 "upgrade to MediaMonkey Gold."
 msgstr ""
+"כדי להפעיל אפשרויות קידוד מתקדמות (לדוגמה: קצבי ביט נתונים גבוהים או נמוכים "
+"יותר), שדרג ל-MediaMonkey Gold."
 
 #: MP3Manage.pas:3685
 msgid "Removing %s tags %d of %d (%s)"
-msgstr ""
+msgstr "מוסר %s תגים %d מתוך %d (%s)"
 
 #: MP3Utils.pas:252
 msgid "Locate Moved/Missing Files"
-msgstr ""
+msgstr "אתר קבצים שהוזזו \\ נעדרים"
 
 #: MP3Utils.pas:463 MP3Utils.pas:2730
 msgid "Error scanning directory"
-msgstr ""
+msgstr "שגיאה בסריקת תיקייה"
 
 #: MP3Utils.pas:463 MP3Utils.pas:2730
 msgid "This directory is used exclusively for:"
-msgstr ""
+msgstr "תיקייה זו מיועדת באופן בלעדי ל:"
 
 #: MP3Utils.pas:1256
 msgid ""
 "This assists you in locating files that have been moved to other locations, "
 "and is only available with the Gold version."
-msgstr ""
+msgstr "זה מסייע לך לאתר קבצים שהועברו למיקומים אחרים, וזמין רק בגרסת ה-Gold."
 
 #: MP3Utils.pas:1296
 msgid "Scanning for moved files in %s (%d files scanned)."
-msgstr ""
+msgstr "סורק קבצים שהוזזו ב-%s (%d קבצים נסרקו)."
 
 #. There are yet tracks to be found, try the second pass
 #: MP3Utils.pas:1374
 msgid "Scanning for moved files - 2nd pass (%d of %d files scanned)."
-msgstr ""
+msgstr "סריקה לקבצים שהוזזו - מעבר שני (%d מתוך %d קבצים נסרקו)."
 
 #: MP3Utils.pas:1468
 msgid "Updating file %d of %d."
-msgstr ""
+msgstr "מעדכן קובץ %d מתוך %d."
 
 #. fail of this isn't a reason for terminating scanning
 #: MP3Utils.pas:1707 MP3Utils.pas:2937 MP3Utils.pas:2958
 msgid "Error scanning file"
-msgstr ""
+msgstr "שגיאה בסריקת קובץ"
 
 #: MP3Utils.pas:1707 MP3Utils.pas:2958
 msgid "error occured while scanning"
-msgstr ""
+msgstr "שגיאה התרחשה בעת הסריקה"
 
 #: MP3Utils.pas:1729 MP3Utils.pas:2012
 msgid "Monitoring $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr ""
+msgstr "ניטור $FAdd$ מתוך $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:1729 MP3Utils.pas:2012
 msgid "Scanning $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr ""
+msgstr "סריקה $FAdd$ מתוך $FTot$ ($Dir$$Str$)"
 
 #: MP3Utils.pas:2087
 msgid "Problem with scanning directory %s."
-msgstr ""
+msgstr "בעיה בסריקת תיקייה %s."
 
 #: MP3Utils.pas:2856
 msgid "file is too short or too small"
-msgstr ""
+msgstr "קובץ קצר מדי או קטן מדי"
 
 #: MP3Utils.pas:2937
 msgid "error while reading file info"
-msgstr ""
+msgstr "שגיאה בקריאת מידע קובץ"
 
 #. wrong file format, no neeed for next attempt
 #: MP3Utils.pas:3853
 msgid "Tag update failed: %s has wrong format."
-msgstr ""
+msgstr "שדרוג תג נכשל: %s בפורמט שגוי."
 
 #. No need to check
 #: MP3Utils.pas:3921
@@ -8443,11 +8363,13 @@ msgid ""
 "One or more of the selected files are inaccessible and cannot be tagged. "
 "Save artwork to the folder instead."
 msgstr ""
+"אחד או יותר מהקבצים שנבחרו אינם נגישים ולא ניתן לתייג אותם. שמור את הכיסוי "
+"לתיקייה במקום."
 
 #: MP3Utils.pas:4064 Normalization.pas:2159
 msgid ""
 "The media '%s' is not inserted. It must be inserted to access the file %s"
-msgstr ""
+msgstr "מדיה '%s' אינה מוזנת. יש להכניס אותה כדי לגשת לקובץ %s"
 
 #: MP3Utils.pas:4627
 msgid "trial"
@@ -8522,9 +8444,8 @@ msgstr "שלו"
 
 #. mood tag constant
 #: NewDBCreate.pas:1247
-#, fuzzy
 msgid "Morose"
-msgstr "Morose"
+msgstr "עצוב"
 
 #. mood tag constant
 #: NewDBCreate.pas:1248
@@ -8569,7 +8490,7 @@ msgstr "עותק מצויין"
 #. quality tag constant
 #: NewDBCreate.pas:1257
 msgid "Very good copy"
-msgstr ""
+msgstr "העתק טוב מאוד"
 
 #. quality tag constant
 #: NewDBCreate.pas:1258
@@ -8594,12 +8515,12 @@ msgstr "פריטים זמינים"
 #. default auto-playlist name
 #: NewDBCreate.pas:1273
 msgid "Top rated (6 hrs)"
-msgstr ""
+msgstr "מדורג (6 שעות)"
 
 #. default auto-playlist name
 #: NewDBCreate.pas:1281
 msgid "Most played (50)"
-msgstr ""
+msgstr "הושמע ביותר (50)"
 
 #. default auto-playlist name
 #: NewDBCreate.pas:1288
@@ -8609,11 +8530,11 @@ msgstr "לא מדורגים (1GB)"
 #. default auto-playlist name
 #: NewDBCreate.pas:1296
 msgid "Recently added (1GB)"
-msgstr ""
+msgstr "נוסף לאחרונה (1GB)"
 
 #: Normalization.pas:362
 msgid "Generating thumbnail $act$ of $tot$ ($name$)"
-msgstr ""
+msgstr "יצירת תמונה מוקטנת $act$ מתוך $tot$ ($name$)"
 
 #: Normalization.pas:452
 msgid "Saving tags"
@@ -8622,37 +8543,37 @@ msgstr "שומר תגיות"
 #: Normalization.pas:1198
 msgid ""
 "Album leveling is enabled, which will cause %d other tracks to be analyzed."
-msgstr ""
+msgstr "רמת אלבום מופעלת, שתגרום לכך ש-%d רצועות נוספות ינותחו."
 
 #: Normalization.pas:1199
 msgid "Exclude these tracks"
-msgstr ""
+msgstr "הוציא את הרצועות הללו"
 
 #: Normalization.pas:1399
 msgid "%d of %d (%s)"
-msgstr ""
+msgstr "%d מתוך %d (%s)"
 
 #. otherwise could result in write lock after read lock assertion when SD item is changed in CalcNormalization (crash C0040000)
 #: Normalization.pas:1898
 msgid "Leveling volume %d of %d (%s)"
-msgstr ""
+msgstr "כיוון עוצמה %d מתוך %d (%s)"
 
 #: Normalization.pas:1928
 msgid "Track volume may be leveled only for MP3 files."
-msgstr ""
+msgstr "יכול לעבד רק רצועות MP3"
 
 #: Normalization.pas:1951
 msgid "Calculating leveling coefficients"
-msgstr ""
+msgstr "חישוב מקדמי כיוון"
 
 #: PlaylistManage.pas:1202
 msgid "Duplicate file(s) detected:"
-msgstr ""
+msgstr "קבצים כפולים שהתגלו:"
 
 #. new line
 #: PlaylistManage.pas:1214
 msgid "Are you sure you want to add the track(s) to the playlist?"
-msgstr ""
+msgstr "האם אתה בטוח שברצונך להוסיף את הרצועות לרשימת ההשמעה?"
 
 #. This podcast is being downloaded
 #: PodcastManage.pas:881 PodcastManage.pas:1246
@@ -8662,7 +8583,7 @@ msgstr "מעדכן פודקאסט"
 #. And cache its content on HDD
 #: PodcastManage.pas:997
 msgid "It does not seem to be an OPML directory."
-msgstr ""
+msgstr "אין נראה שזה מדריך OPML."
 
 #. eliminate the word
 #. Replace OR operator by ; (it has the same meaning)
@@ -8681,7 +8602,7 @@ msgstr "זמין"
 
 #: QueryManage.pas:4316
 msgid "is in Virtual CD"
-msgstr ""
+msgstr "בתקליטור הווירטואלי"
 
 #: QueryManage.pas:4323
 msgid "has preview"
@@ -8693,7 +8614,7 @@ msgstr "הוא פודקאסט"
 
 #: QueryManage.pas:4337
 msgid "is not podcast"
-msgstr ""
+msgstr "אינו פודקאסט"
 
 #: QueryManage.pas:4344
 msgid "is music"
@@ -8701,7 +8622,7 @@ msgstr "הוא מוזיקה"
 
 #: QueryManage.pas:4351
 msgid "is not music"
-msgstr ""
+msgstr "אינו מוזיקה"
 
 #: QueryManage.pas:4358
 msgid "is audiobook"
@@ -8709,7 +8630,7 @@ msgstr "הוא ספר מוקרא"
 
 #: QueryManage.pas:4365
 msgid "is not audiobook"
-msgstr ""
+msgstr "אינו ספר שמע"
 
 #: QueryManage.pas:4372
 msgid "has Artwork"
@@ -8717,31 +8638,31 @@ msgstr "יש לו כריכה"
 
 #: QueryManage.pas:4379
 msgid "has no Artwork"
-msgstr ""
+msgstr "אין כיסוי"
 
 #: QueryManage.pas:4429
 msgid "Is synced to"
-msgstr ""
+msgstr "סונכרן ל"
 
 #: QueryManage.pas:4438
 msgid "Isn't synced to"
-msgstr ""
+msgstr "לא סונכרן ל"
 
 #: QueryManage.pas:4446
 msgid "> (days ago)"
-msgstr ""
+msgstr "> (ימים לפני)"
 
 #: QueryManage.pas:4453
 msgid "< (days ago)"
-msgstr ""
+msgstr "< (ימים לפני)"
 
 #: QueryManage.pas:4460
 msgid "> (hours ago)"
-msgstr ""
+msgstr "> (שעות לפני)"
 
 #: QueryManage.pas:4467
 msgid "< (hours ago)"
-msgstr ""
+msgstr "< (שעות לפני)"
 
 # #-#-#-#-#  htmladd.po (MediaMonkey 5.0)  #-#-#-#-#
 # temporarily added here
@@ -8780,22 +8701,20 @@ msgid "Any text"
 msgstr "כל טקסט"
 
 #: QueryManage.pas:4918
-#, fuzzy
-#| msgid "My Rating"
 msgid "Album Rating"
-msgstr "הדירוג שלי"
+msgstr "דירוג האלבום"
 
 #: QueryManage.pas:4923
 msgid "# Tracks by Artist"
-msgstr ""
+msgstr "# רצועות לפי אמן"
 
 #: QueryManage.pas:4924
 msgid "# Tracks in Album"
-msgstr ""
+msgstr "# רצועות באלבום"
 
 #: QueryManage.pas:4925
 msgid "# Albums by Artist"
-msgstr ""
+msgstr "# אלבומים לפי אמן"
 
 #: QueryManage.pas:4928
 msgid "Artist Comment"
@@ -8815,7 +8734,7 @@ msgstr "פריט אקראי"
 
 #: QueryManage.pas:5042
 msgid "Random track (auto-refresh)"
-msgstr ""
+msgstr "רצועה אקראית (רענון אוטומטי)"
 
 #: QueryManage.pas:5043
 msgid "Random album"
@@ -8823,7 +8742,7 @@ msgstr "אלבום אקראי"
 
 #: QueryManage.pas:5044
 msgid "Random album (auto-refresh)"
-msgstr ""
+msgstr "אלבום אקראי (רענון אוטומטי)"
 
 #: QueryManage.pas:5045 QueryManage.pas:5059 QueryManage.pas:5061
 #: QueryManage.pas:5063 QueryManage.pas:5065
@@ -8866,7 +8785,7 @@ msgstr "הווה"
 msgid ""
 "To upgrade or to learn more about MediaMonkey Gold, click the 'Upgrade' "
 "button."
-msgstr ""
+msgstr "כדי לשדרג או ללמוד עוד על MediaMonkey Gold, לחץ על לחצן 'שדרג'."
 
 #: RegManage.pas:582
 msgid "Upgrade"
@@ -8938,12 +8857,10 @@ msgid "and"
 msgstr "וגם"
 
 #: ResStrings.pas:406
-#, fuzzy
 msgid "FD"
 msgstr "FD"
 
 #: ResStrings.pas:407
-#, fuzzy
 msgid "HD"
 msgstr "HD"
 
@@ -9005,7 +8922,7 @@ msgstr "לא מכיל"
 
 #: ResStrings.pas:550
 msgid "doesn't start with"
-msgstr ""
+msgstr "לא מתחיל עם"
 
 #: ResStrings.pas:551
 msgid "between"
@@ -9021,25 +8938,27 @@ msgstr "בדוק רמות ווליום"
 
 #: ResStrings.pas:560
 msgid "No Audio CD was found. Please insert a CD."
-msgstr ""
+msgstr "לא נמצא תקליטור אודיו. הכנס תקליטור."
 
 #: ResStrings.pas:562
 msgid "Table of Contents of CD-ROM %s: was not read successfully."
-msgstr ""
+msgstr "תוכן עניינים של CD-ROM %s: לא נקרא בהצלחה."
 
 #: ResStrings.pas:564
 msgid "There was a problem querying the database: "
-msgstr ""
+msgstr "הייתה בעיה בשאילת המאגר: "
 
 #: ResStrings.pas:567
 msgid ""
 "Files from the following locations are currently inaccessible:\n"
 "%sPlease reconnect the drive or insert the CDs."
 msgstr ""
+"קבצים מהמיקומים הבאים אינם נגישים כרגע:\n"
+"%s אנא חבר מחדש את הכונן או הכנס את התקליטורים."
 
 #: ResStrings.pas:569
 msgid "Time-out error occured while connecting to Freedb."
-msgstr ""
+msgstr "שגיאת זמן קצוב התרחשה בעת התחברות ל-Freedb."
 
 #: ResStrings.pas:575
 msgid ""
@@ -9047,6 +8966,9 @@ msgid ""
 "example, browse your classical music collection independently of your other "
 "music. Collections can only be edited with the Gold version."
 msgstr ""
+"אפשרויות מאפשרות לך להגדיר תתי-קבוצות של הספרייה שלך כך שתוכל, למשל, לגלוש "
+"באוספים שלך של מוזיקה קלאסית בנפרד מהמוזיקה האחרת שלך. ניתן לערוך אופציות רק "
+"בגרסת ה-Gold."
 
 #: ResStrings.pas:582
 msgid "Information"
@@ -9058,11 +8980,11 @@ msgstr "שפות"
 
 #: ResStrings.pas:707
 msgid "recent episodes first"
-msgstr ""
+msgstr "פרקים אחרונים קודם"
 
 #: ResStrings.pas:708
 msgid "older episodes first"
-msgstr ""
+msgstr "פרקים ישנים קודם"
 
 #: ResStrings.pas:709
 msgid "all episodes"
@@ -9074,35 +8996,35 @@ msgstr "אין פרקים"
 
 #: ResStrings.pas:720
 msgid "from the past 24 hours"
-msgstr ""
+msgstr "מהיממה האחרונה"
 
 #: ResStrings.pas:721
 msgid "from the past 2 days"
-msgstr ""
+msgstr "מיממה האחרונה"
 
 #: ResStrings.pas:722
 msgid "from the past 3 days"
-msgstr ""
+msgstr "משלושת הימים האחרונים"
 
 #: ResStrings.pas:723
 msgid "from the past week"
-msgstr ""
+msgstr "מהשבוע האחרון"
 
 #: ResStrings.pas:724
 msgid "from the past 2 weeks"
-msgstr ""
+msgstr "מהשבועיים האחרונים"
 
 #: ResStrings.pas:725
 msgid "from the past month"
-msgstr ""
+msgstr "מהחודש האחרון"
 
 #: ResStrings.pas:730
 msgid "1 unplayed episode"
-msgstr ""
+msgstr "פרק לא מושמע אחד"
 
 #: ResStrings.pas:731 ResStrings.pas:732 ResStrings.pas:733 ResStrings.pas:734
 msgid "%d unplayed episodes"
-msgstr ""
+msgstr "%d פרקים לא מושמעים"
 
 #: ResStrings.pas:870
 msgid "Co&ntinue"
@@ -9121,50 +9043,52 @@ msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
 msgstr ""
+"הדיסק המוזן אינו יכול להיכתב עליו אלא אם ימחק קודם. האם ברצונך למחוק אותו "
+"לפני הצריבה?"
 
 #: ResStrings.pas:875
 msgid "Please insert a disc to be burned..."
-msgstr ""
+msgstr "אנא הכנס דיסק לצריבה..."
 
 #: ResStrings.pas:878
 msgid "Error erasing the CDRW."
-msgstr ""
+msgstr "שגיאה במחיקת CDRW."
 
 #: ResStrings.pas:880
 msgid "Burning was not successful"
-msgstr ""
+msgstr "הצריבה לא הצליחה"
 
 #: ResStrings.pas:882
 msgid "The layout could not be set."
-msgstr ""
+msgstr "לא ניתן לקבוע את התבנית"
 
 #: ResStrings.pas:883
 msgid "Re-burn this disc?"
-msgstr ""
+msgstr "לצרוב את הדיסק הזה שנית?"
 
 #: ResStrings.pas:884
 msgid "Could not write the image layout to the disc."
-msgstr ""
+msgstr "לא נשמרה התבנית הדרושה לדיסק."
 
 #: ResStrings.pas:885
 msgid "Burning was terminated."
-msgstr ""
+msgstr "צריבה הופסקה."
 
 #: ResStrings.pas:886
 msgid "Burn completed successfully"
-msgstr ""
+msgstr "צריבה הושלמה בהצלחה"
 
 #: ResStrings.pas:887
 msgid "Preparing track %d of %d (%s)"
-msgstr ""
+msgstr "הכנה לרצועה %d מתוך %d (%s)"
 
 #: ResStrings.pas:888
 msgid "Problem while decoding file %s, burning terminated"
-msgstr ""
+msgstr "בעיה בפענוח קובץ %s, צריבה הופסקה"
 
 #: ResStrings.pas:889
 msgid "Burning ... (Phase: %s)%s"
-msgstr ""
+msgstr "צריבה ... (שלב: %s)%s"
 
 #: Settings.pas:1387
 msgid "MediaMonkey Player"
