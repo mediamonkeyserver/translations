@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-17 16:56\n"
-"PO-Revision-Date: 2025-03-08 13:50+0000\n"
+"PO-Revision-Date: 2025-03-30 05:50+0000\n"
 "Last-Translator: Ming-Yuan Lee <arsphile@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://translations.mediamonkey.com/"
 "projects/mediamonkey-5-x/application/zh_Hant/>\n"
@@ -100,7 +100,7 @@ msgstr "評等所選取的檔案"
 
 #: actions.js:64
 msgid "Rating now playing file"
-msgstr "評等正在播放的檔案"
+msgstr "評等播放中的檔案"
 
 #: actions.js:75 actions.js:83 uitools.js:2464
 msgid "Add bookmark"
@@ -5773,7 +5773,7 @@ msgstr "無法設定預覽配置。"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:27
 msgid "This panel element displays details of the playing or selected file"
-msgstr "此面板元素顯示正在播放的檔案或所選取檔案的詳細資訊"
+msgstr "此面板元素顯示播放中的檔案或所選取檔案的詳細資訊"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:31
 msgid "Smallest"
@@ -7710,7 +7710,7 @@ msgstr "將 %d 個檔案增添到 '播放中' 清單"
 
 #: FullPlayer.pas:2515
 msgid "Clear Playing"
-msgstr "清除正在播放的"
+msgstr "清除播放中的"
 
 #: FullPlayer.pas:2988
 msgid "Currently, there is no output plug-in selected"
@@ -7718,7 +7718,7 @@ msgstr "目前無任一輸出外掛元件被選取"
 
 #: FullPlayer.pas:3002
 msgid "Currently no input plug-in is in use (no file is playing)."
-msgstr "目前無任一輸入外掛元件在使用中 (無檔案正在播放)。"
+msgstr "目前無任一輸入外掛元件在使用中 (無檔案播放中)。"
 
 #. run in separate thread, as caller could be terminated too fast and message would not be shown
 #. no audio hw
@@ -7749,7 +7749,7 @@ msgstr "未偵測到重複項。"
 
 #: FullPlayer.pas:5105
 msgid "Do you want to remove %d duplicate(s) Playing?"
-msgstr "您是否要刪除 %d 個正在播放的重複項目？"
+msgstr "您是否要刪除 %d 個播放中的重複項目？"
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:6813
@@ -7761,7 +7761,7 @@ msgstr "當前檔案播放完畢後，作業完成。"
 msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
-msgstr "檔案 %s 現在正在播放，若刪除將會中斷播放。您確定要刪除嗎？"
+msgstr "檔案 %s 現在播放中，若刪除將會中斷播放。您確定要刪除嗎？"
 
 #: FullPlayer.pas:8367
 msgid "Computing waveform for file %s"
@@ -9416,7 +9416,7 @@ msgstr "最小化到 MiniPlayer"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:15
 msgid "Causes the Hotkey to function even when MediaMonkey isn't in focus"
-msgstr "即使 MediaMonkey 未處於焦點狀態，快速鍵也能正常運作"
+msgstr "即使 MediaMonkey 未處於焦點狀態，快速鍵也能發揮作用"
 
 #: dialogs\dlgOptions\pnl_InputPlugins.html:4
 msgid "About..."
@@ -9833,7 +9833,7 @@ msgid ""
 "playing file from the system, since doing so will cause an interruption of "
 "playback."
 msgstr "若啟用，MediaMonkey "
-"將提示您是否從系統中刪除目前正在播放的檔案，因為會導致播放中斷。"
+"將提示您是否從系統中刪除目前播放中的檔案，因為會導致播放中斷。"
 
 #: dialogs\dlgOptions\pnl_Download.html:8
 msgid "Number of concurrent downloads:"
@@ -9970,7 +9970,7 @@ msgstr "若您的網路使用代理伺服器，則需要設置這些設定以啟
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:43
 msgid "When files are playing:"
-msgstr "檔案正在播放:"
+msgstr "當檔案播放中:"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid ""
@@ -11778,7 +11778,7 @@ msgstr "硬體加速可提高效能和電池壽命，但可能會導致某些系
 #: dialogs\dlgOptions\pnl_Player.html:52
 msgid ""
 "Causes the Pop-up to appear only if MediaMonkey is minimized or inactive"
-msgstr "僅當 MediaMonkey 最小化或不活躍時才會出現彈出式視窗"
+msgstr "僅當 MediaMonkey 最小化或非作用中時才會出現彈出式視窗"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:10
 msgid ""
@@ -11941,7 +11941,7 @@ msgstr ".nfo 檔案、路徑和檔案名稱"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Remove silence at the beginning / end of track"
-msgstr "消除曲目 開頭 / 結尾 處的靜音"
+msgstr "消除曲目 開頭/結尾 處的靜音"
 
 #: dialogs\dlgWizard\pnlRegistration.html:5
 msgid ""
@@ -12035,7 +12035,7 @@ msgstr "此選項會導致 MediaMonkey 佔滿整個螢幕。"
 
 #: dialogs\dlgOptions\pnl_Player.html:52
 msgid "Only when inactive"
-msgstr "僅在不活躍時"
+msgstr "僅在非作用中時"
 
 #: dialogs\dlgOptions\pnl_Player.html:48
 msgid "Causes the Pop-up to fade-out smoothly"
@@ -12181,7 +12181,7 @@ msgstr "減弱至目前音量的"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:15
 msgid "Confirm deletion of currently playing file"
-msgstr "確認刪除目前正在播放的檔案"
+msgstr "確認刪除目前播放中的檔案"
 
 #: dialogs\dlgOptions\pnl_Library.html:59
 msgid "Seconds"
@@ -12444,7 +12444,7 @@ msgstr "XML (*.xml)|*.xml|全部檔案 (*.*)|*.*"
 
 #: Scripts/export/actions_add.js:331
 msgid "File List (CS&V)"
-msgstr "檔案清單 (CSV)(&V)"
+msgstr "檔案清單 (CS&V)"
 
 #: Scripts/export/actions_add.js:341
 msgid "CSV (*.csv)|*.csv|All files (*.*)|*.*"
