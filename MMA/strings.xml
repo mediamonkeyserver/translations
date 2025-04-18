@@ -1,436 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="mediamonkey" translatable="false">MediaMonkey</string>
+    <!-- *  MediaMonkey -->
+
     <string name="mediamonkey_for_android">MediaMonkey for Android</string>
+    <string name="menu_about_mm">About MediaMonkey</string>
+    <string name="mm_version">Version %1$s</string>
+    <string name="welcome_to_media_monkey">Welcome to MediaMonkey</string>
+    <string name="mm_help">MediaMonkey help</string>
+    <string name="mm_help_details">Online documentation</string>
+    <string name="mm_community_forum">Community Forum</string>
+    <string name="mm_community_forum_details">Ask questions, submit bug reports / ideas</string>
+    <string name="troubleshooting">Troubleshooting</string>
+    <string name="outdated_server_title">MediaMonkey for Windows is outdated</string>
+    <string name="outdated_server_description">Your version of MediaMonkey for Windows is outdated.</string>
+    <string name="outdated_server_denied">Please update to version %s.</string>
+    <string name="outdated_server_recommended">Update to version %s is recommended.</string>
+    <string name="google_play_store_not_installed">Google Play Store not found. Desired application cannot be installed.</string>
+    <string name="eula_title">Ventis Media, Inc. End-User License Agreement for MediaMonkey</string>
+
+    <!-- * basic -->
     <string name="yes">Yes</string>
+    <string name="ok">OK</string>
+    <string name="done">Done</string>
+    <string name="agree">Agree</string>
+    <string name="proceed">Proceed</string>
+    <string name="confirm">Confirm</string>
+    <string name="continue_">Continue</string>
+    <!-- final step in launch wizard -->
+    <string name="lets_start">Let\'s start</string>
+    <string name="check">Check</string>
+    <string name="agreement">Agreement</string>
+    <string name="grant">Grant</string>
+    <string name="do_you_want_to_proceed">Do you want to proceed?</string>
+
     <string name="no">No</string>
-    <string name="add_to_playlist">Add to playlist</string>
-    <string name="find_more_from">Find more from</string>
-    <string name="create_new_playlist">Create new playlist</string>
+    <string name="ignore">Ignore</string>
+    <string name="skip">Skip</string>
     <string name="cancel">Cancel</string>
     <string name="close">Close</string>
-    <string name="enter_playlist_name">Enter playlist name:</string>
+    <string name="go_back">Go back</string>
+    <string name="postpone">Postpone</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+
+    <string name="never">never</string>
+    <string name="always">always</string>
+
+    <string name="add">Add</string>
+    <string name="new_">New</string>
+    <string name="create">Create</string>
+    <string name="configure_">Configure…</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="reset">Reset</string>
+    <string name="restart">Restart</string>
+    <string name="settings_recovery">Recover settings</string>
+    <string name="unknown">Unknown</string>
+    <string name="none">None</string>
+    <!-- meaning all content  -->
+    <string name="all">All</string>
+    <string name="install">Install</string>
+    <!-- menu item title to edit e.g. lyrics, media server -->
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="manage">Manage</string>
+    <string name="save_failed">Save failed!</string>
+
+    <!-- when node or folder has no data -->
+    <string name="empty">empty</string>
     <string name="error">Error</string>
-    <string name="no_track_selected">No track selected</string>
-    <string name="media_synchronization">Wi-Fi Sync</string>
-    <string name="select_mm_server">Select sync server</string>
-    <string name="select_mm_server_summary">Choose a new MediaMonkey server to sync with</string>
-    <string name="select_mm_server_summary_selected">Sync server: %1$s</string>
-    <string name="sync_server">Sync server</string>
-    <string name="upnp_download_directory">Download location</string>
-    <string name="upnp_download_directory_summary">Save files to: %1$s</string>
-    <string name="sync_now_anyway">Sync now anyway</string>
-    <string name="sync_now">Sync now</string>
-    <string name="sync">Sync</string>
-    <string name="wifi_disabled">Wi-Fi disabled</string>
-    <string name="wifi_disabled_detail">You need Wi-Fi to connect to a remote server.</string>
-    <string name="wify_sync_root_title">MediaMonkey Library</string>
-    <string name="send_logs">Send logs</string>
-    <string name="send_logs_summary">Submit debug logs for a bug report.</string>
-    <string name="logs_will_be_sent">Preparing debug log…</string>
-    <string name="logs_saved_to">Debug logs saved to %1$s</string>
-    <string name="logs_sent">Debug logs have been uploaded. Thank you!</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="sync_error">Sync error</string>
+
     <string name="enable">Enabled</string>
-    <string name="remove_from_now_playing">Remove from Playing queue</string>
-    <string name="remove_from_now_playing_and_selected_playlists">Remove from Playing queue and selected playlists</string>
-    <string name="delete_from_device">Delete from the device</string>
-    <string name="remove_from_playlist">Remove from playlist</string>
-    <string name="confirm_deletion">Confirm deletion</string>
-    <string name="from_device_">from device?</string>
-    <string name="sync_from_device">Sync from the device</string>
-    <plurals name="delete_tracks_from_device">
-        <item quantity="one">"Delete <xliff:g id="COUNT">%d</xliff:g> track from the device?"</item>
-        <item quantity="other">"Delete <xliff:g id="COUNT">%d</xliff:g> tracks from the device?"</item>
-    </plurals>
-    <plurals name="items_have_been_selected">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> item has been selected."</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> items have been selected."</item>
-    </plurals>
-    <plurals name="playlists_have_been_selected">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> playlist has been selected."</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> playlists have been selected."</item>
-    </plurals>
-    <string name="ip_address">IP address: </string>
-    <string name="artists">Artists</string>
-    <string name="albums">Albums</string>
-    <string name="tracks">Tracks</string>
-    <string name="x_artists">%1$s artists</string>
-    <string name="x_albums">%1$s albums</string>
-    <string name="x_tracks">%1$s tracks</string>
-    <string name="playlists">Playlists</string>
+    <string name="disabled">Disabled</string>
+    <string name="unavailable">Not available</string>
 
-    <string name="something_in_progress">Background task in progress</string>
-    <string name="connecting">Connecting…</string>
-    <string name="unknown_director">Unknown director</string>
-    <string name="unknown_composer">Unknown composer</string>
-    <string name="unknown_artist">Unknown artist</string>
-    <string name="unknown_album">Unknown album</string>
-    <string name="unknown_title">Unknown track</string>
-    <string name="unknown_serie">Unknown series</string>
-    <string name="unknown_genre">Unknown genre</string>
-    <string name="uploading">Uploading</string>
-    <string name="uploading_failed">Track upload failed</string>
-    <string name="uploading_playlists_failed">Playlist upload failed</string>
-
-    <string name="download">Download</string>
-    <string name="downloading">Downloading</string>
-    <plurals name="downloading_finished">
-        <item quantity="one">Downloaded %d track</item>
-        <item quantity="other">Downloaded %d tracks</item>
-    </plurals>
-    <string name="downloading_failed">Track download failed</string>
-
-    <string name="downloading_playlists_failed">Playlist download faile</string>
-
-    <string name="download_canceled">Download canceled</string>
-    <string name="download_canceling">Terminating download…</string>
-    <string name="do_you_really_want_to_cancel_download">Do you really want to cancel the download?</string>
-
-    <string name="available_mb">%d MB available</string>
-    <string name="count_mb" translatable="false">%d MB</string>
-    <string name="delete">Delete</string>
-    <string name="deleting">Deleting</string>
-    <string name="deleting_failed">Deletion failed</string>
-    <string name="updating">Updating</string>
-    <string name="analyzing">Analyzing</string>
-    <string name="initializing">Initializing</string>
-    <string name="database_initialization">Database initialization…</string>
-    <string name="initializing_message">Synchronization is starting…</string>
-    <string name="analyzing_details">Analyzing sync list…</string>
-    <string name="pairing">Matching new files</string>
-    <string name="pairing_details">Checking for new files…</string>
-    <string name="pairing_">Pairing…</string>
-    <string name="uploading_metadata">Updating metadata to server…</string>
-    <string name="downloading_metadata">Updating metadata from server…</string>
-    <string name="finished">Completed successfully</string>
-    <string name="synchronization_failed">Sync incomplete</string>
-    <string name="connection_failed">Connection failed!</string>
-    <string name="connection_is_unavailable">Connection is unavailable!</string>
-    <string name="cancelling">Terminating…</string>
-    <string name="synchronization_terminated">Synchronization terminated.</string>
-    <string name="upnp_browser_service" translatable="false">UPnP Browser service</string>
-    <string name="album">Album</string>
-    <string name="genre">Genre</string>
-    <string name="composer">Composer</string>
-    <string name="playlist">Playlist</string>
-    <string name="folder">Folder</string>
-    <string name="synchronization">Synchronization</string>
-    <string name="released">Released</string>
-    <string name="share">Share…</string>
-    <string name="set_as">Set as…</string>
-    <string name="assign_to_contact">Assign to Contact</string>
-    <string name="upper_first_alarm">Alarm</string>
-    <string name="upper_first_ringtone">Ringtone</string>
-    <plurals name="number_composers">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> composer"</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> composers"</item>
-    </plurals>
-    <plurals name="number_genres">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> genre"</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> genres"</item>
-    </plurals>
-    <plurals name="number_artists">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> artist"</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> artists"</item>
-    </plurals>
-    <plurals name="number_albums">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> album"</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> albums"</item>
-    </plurals>
-    <plurals name="number_tracks">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> track"</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> tracks"</item>
-    </plurals>
-    <plurals name="number_items">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> item"</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> items"</item>
-    </plurals>
-    <plurals name="number_playlists">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> playlist"</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> playlists"</item>
-    </plurals>
-    <plurals name="number_folders">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> folder"</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> folders"</item>
-    </plurals>
-    <plurals name="number_files">
-        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> file"</item>
-        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> files"</item>
-    </plurals>
-    <plurals name="selected_items">
-        <item quantity="zero">"No selected item"</item>
-        <item quantity="one">"selected item"</item>
-        <item quantity="other">"selected items"</item>
-    </plurals>
+    <string name="grant_access">Grant access</string>
+    <string name="send">Send</string>
+    <string name="paste">Paste</string>
+    <!-- QR code button -->
+    <string name="scan">Scan</string>
+    <string name="exit">Exit</string>
+    <string name="settings">Settings</string>
+    <string name="more_info">More info</string>
+    <string name="wizard">Wizard</string>
+    <string name="moved">Moved</string>
     <string name="title">Title</string>
     <string name="details">Details</string>
-    <string name="artist">Artist</string>
-    <string name="enabling_wifi">Wi-Fi is starting\nPlease wait…</string>
-    <string name="connecting_wifi">Connecting to Wi-Fi network\nPlease wait…</string>
-    <string name="composers">Composers</string>
-    <string name="album_artwork">Album artwork</string>
-    <string name="grab_to_move">Grab to re-order items in the list</string>
-    <string name="sync_server_not_available_title">Server not available</string>
-    <string name="sync_server_not_available_message">If you haven\'t yet installed a MediaMonkey sync server, it can be downloaded via: <a href="http://www.mediamonkey.com/android-download">www.mediamonkey.com</a></string>
-    <string name="refresh">Refresh</string>
-    <string name="volume_leveling">Level volume</string>
-    <string name="volume_leveling_summary">Adjusts volume for tracks with volume information.</string>
-    <string name="volume_leveling_label">&quot;Leveling: &quot;</string>
-    <string name="use_to_play_video_title">Use to play video</string>
-    <string name="use_to_play_video_summary">Use MediaMonkey to play video by default</string>
-    <string name="genres">Genres</string>
-    <string name="play_now">Play now</string>
-    <string name="queue_next">Queue next</string>
-    <string name="queue_last">Queue last</string>
-    <string name="no_tracks_to_play">Playing queue is empty</string>
-    <string name="delete_unselected_content_copies_summary">Delete local files and playlists that are on the server but not the sync list.</string>
-    <string name="delete_all_unselected_content_summary">Delete all local files and playlists that aren\'t on the sync list.</string>
-
-    <string name="unable_get_settings">Synchronization refused by remote server.\n Verify that Wi-Fi synchronization is enabled on the remote server.</string>
-    <string name="invalid_paths_on_server">Synchronization refused due to invalid target file locations, defined on the remote server.</string>
-    <string name="finished_with_errors">Completed with errors</string>
-    <string name="search_hint">Search in library</string>
-    <string name="video">Video</string>
-    <string name="podcasts">Podcasts</string>
-    <string name="audiobooks">Audiobooks</string>
-    <string name="loading">Loading…</string>
-    <string name="unsupported_format">Unsupported format</string>
-    <string name="select_all">Select all</string>
-    <string name="search">Search</string>
-    <string name="search_">Search:</string>
-    <string name="ums_activity_title">Connected to computer</string>
-    <string name="ums_activity_message">Please eject the device in order to access the files.</string>
-    <string name="dont_repeat">Repeat disabled</string>
-    <string name="repeat_current">Repeat current track</string>
-    <string name="repeat_all">Repeat all tracks</string>
-    <string name="shuffle_disabled">Shuffle disabled</string>
-    <string name="shuffle_enabled">Shuffle enabled</string>
-    <string name="rename_playlist">Rename playlist</string>
     <string name="type">Type</string>
-    <string name="ok">OK</string>
-    <string name="properties">Properties</string>
-    <string name="music">Music</string>
-    <string name="audiobook">Audiobook</string>
-    <string name="podcast">Podcast</string>
-    <string name="album_total_time_ms">%1$d min %2$d s</string>
-    <string name="album_total_time_hms">%1$d h %2$d min %3$d s</string>
-    <string name="classical_music">Classical music</string>
-    <string name="tv">TV</string>
-    <string name="music_video">Music video</string>
-    <string name="video_podcast">Video podcast</string>
-    <string name="path">&quot;Path: &quot;</string>
-    <string name="length">&quot;Length: &quot;</string>
-    <string name="last_played">&quot;Last played: &quot;</string>
-    <string name="playcount">Played</string>
-    <string name="skipcount">Skipped</string>
-    <string name="size">&quot;Size: &quot;</string>
-    <string name="release_date">Release date </string>
-    <string name="artists_label">Artist(s)</string>
-    <string name="album_artists_label">Album artist(s)</string>
-    <string name="waiting_for_response_first_time">Since this is your first time connecting to the server, you may need to accept the connection on the server in order to proceed.</string>
-    <string name="waiting_for_response">Waiting for the remote server…</string>
-    <string name="waiting_for_autoconversion">Waiting for the file to convert…</string>
-    <string name="track_cannot_be_stored">Failed to save (%1$s)</string>
-    <string name="track_cannot_be_downloaded">Failed to download (%1$s)</string>
-    <string name="track_cannot_be_converted">Failed to convert (%1$s)</string>
-    <string name="track_cannot_be_uploaded">Failed to upload (%1$s)</string>
-    <string name="track_unsupported">Unsupported format (%1$s)</string>
-    <string name="widget_full">MediaMonkey Full 4x2</string>
-    <string name="widget_full44">MediaMonkey Large 4x4</string>
-    <string name="widget_compact">MediaMonkey Compact 4x1</string>
-    <string name="widget_tiny">MediaMonkey Tiny 2x1</string>
-    <string name="wifi_disconnected">Wi-Fi is not connected</string>
-    <string name="playing_queue">Playing queue</string>
-    <string name="empty">empty</string>
-    <string name="play">Play</string>
-    <string name="pause">Pause</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-    <string name="artwork">Artwork</string>
-    <string name="tracks_are_adding_asynchronously">Added tracks to the Playing queue</string>
-    <string name="genre_s_">Genre(s)</string>
-    <string name="composer_s_">Composer(s)</string>
-    <string name="unsynchronized_track">(Unknown)</string>
-    <string name="currently_played_media">Currently playing track</string>
-    <string name="done">Done</string>
-    <string name="waiting_end_of_sync">Sync is waiting for other background operations to complete.</string>
+    <!-- Album released year in Album view header -->
+    <string name="released">Released</string>
+
+    <!-- * store & license -->
+    <string name="menu_go_pro">Go Pro</string>
     <string name="media_monkey_store">MediaMonkey Store</string>
     <string name="media_monkey_amazon_store">MediaMonkey Amazon Store</string>
     <string name="buy">Buy</string>
     <string name="trial_message">This feature is available on a trial basis. Days remaining: </string>
     <string name="other_app_installed_message">Another instance of MediaMonkey was detected on this device. Please uninstall the other MediaMonkey applications to ensure that only one instance of MediaMonkey is installed.</string>
     <string name="google_play_services_not_installed">This version of MediaMonkey for Android requires Google Play Services %1$s or higher. Please update to the latest version.</string>
-    <string name="sync_settings">Sync settings</string>
-
-    <string name="menu_about_mm">About MediaMonkey</string>
-    <string name="menu_go_pro">Go Pro</string>
-    <string name="upgrade">Upgrade</string>
-    <string name="mm_version">Version %1$s</string>
-    <string name="mm_copyright_and_company" translatable="false">&#169; %1$d Ventis Media, Inc.</string>
     <string name="license">License</string>
+    <string name="license_agreement">License agreement</string>
     <string name="standard">Standard</string>
-    <string name="mm_help">MediaMonkey help</string>
-    <string name="mm_help_details">Online documentation</string>
-    <string name="mm_community_forum">Community Forum</string>
-    <string name="mm_community_forum_details">Ask questions, submit bug reports / ideas</string>
-    <string name="prefereneces_updated">Preferences updated</string>
-    <string name="prefereneces_not_updated">Preferences not updated</string>
-    <string name="choose_where_to_sync">Choose where to sync your media files</string>
-    <string name="no_content">&lt;no content&gt;</string>
-    <string name="lyrics_not_available_search">Search for lyrics?</string>
-    <string name="lyrics_not_available">No lyrics.</string>
-    <string name="lyrics_not_found">Lyrics not found.</string>
-    <string name="verify_license">Verifying license…</string>
-    <string name="troubleshooting">Troubleshooting</string>
-    <string name="send_link">Send me the link</string>
-    <string name="send_link_mmw_subject">Link to MediaMonkey sync server</string>
-    <string name="send_link_mmw_message">To sync MediaMonkey for Android, you\'ll want to install MediaMonkey to your desktop. See details at: <a href="http://www.mediamonkey.com/android-download">www.mediamonkey.com</a></string>
-
-    <string name="nothing_to_sync">No storage location is configured to be synced!</string>
-    <string name="everything_is_in_sync">Everything is in sync</string>
-    <string name="syncing">Syncing…</string>
-    <string name="last_synced">Last synced: %1$s</string>
-    <string name="never">never</string>
-    <string name="always">always</string>
-    <string name="main_storage_is_unavailable">Writable storage is unavailable.</string>
-    <string name="unavailable">Not available</string>
-    <string name="selected_item_cant_be_played">Selected item can\'t be played.</string>
-    <string name="storage_not_accessible">Storage not accessible.</string>
-    <string name="htc_sound_enhancer">HTC Sound Enhancer</string>
-    <string name="equalizer">Equalizer</string>
-    <string name="enabled_equalizer">Use equalizer</string>
-    <string name="reset">Reset</string>
-    <string name="restart">Restart</string>
-    <string name="search_lyrics">Search lyrics</string>
-    <string name="sorry_equalizer_is_not_supported">Sorry, the equalizer is not supported on this device.</string>
-    <string name="mediamonkey_ringtone_maker">MediaMonkey Ringtone Maker</string>
-    <string name="mediamonkey_ringtone_maker_summary">This requires the \'MediaMonkey Ringtone Maker\' addon, available at no cost.</string>
-    <string name="install">Install</string>
-    <string name="storage_browser">Storage browser</string>
-    <string name="upnp_category">UPnP</string>
-    <string name="save">Save</string>
-    <string name="search_alternate">Search alternate</string>
-    <string name="lookup">Lookup information</string>
-    <string name="lyrics_search_auto">Lookup missing lyrics</string>
-    <string name="lyrics_search_auto_summary">Find missing lyrics as tracks play.</string>
-    <string name="lookup_update_database">Update database</string>
-    <string name="lookup_update_database_summary">Update the database with looked up content.</string>
-    <string name="searching_">Searching…</string>
-    <string name="edit">Edit</string>
-    <string name="personalize">Configure nodes</string>
-    <string name="provided_by_">Lyrics provided by: %1$s</string>
-    <string name="network_is_not_available">Network is unavailable</string>
-    <string name="playlist_name_is_invalid">Playlist name is invalid!</string>
-    <string name="connection_failed_access_denied">Connection failed: Access denied</string>
-    <string name="deleting_">Deleting…</string>
-    <string name="widget_medium22">MediaMonkey Medium 2x2</string>
-    <string name="scrobble">Scrobble</string>
-    <string name="scrobble_summary">Save play history to last.fm or other services via one of these apps:</string>
-<!--    <string name="scrobble_lastfm">Use Last.fm</string>-->
-<!--    <string name="scrobble_lastfm_summary">Scrobble via Last.fm app</string>-->
-<!--    <string name="scrobble_simplelastfm">Use Simple Last.fm</string>-->
-<!--    <string name="scrobble_simplelastfm_summary">Scrobble via Simple Last.fm app</string>-->
-<!--    <string name="install_lastfm">Install Last.fm</string>-->
-<!--    <string name="installed_lastfm_summary">Download and install Last.fm app</string>-->
-<!--    <string name="install_simplelastfm">Install Simple Last.fm</string>-->
-<!--    <string name="installed_simplelastfm_summary">Download and install Simple Last.fm app</string>-->
-    <string name="scrobble_lastfm" translatable="false">Last.fm</string>
-    <string name="scrobble_pano_scrobbler">Pano Scrobbler for LastFM</string>
-    <string name="unknown">Unknown</string>
-    <string name="folders">Folders</string>
-    <string name="library">Library</string>
-    <string name="files">Files</string>
-    <string name="stop">Stop</string>
-    <string name="processing_tracks">Processing tracks…</string>
-    <string name="no_valid_tracks">No valid tracks!</string>
-    <string name="equalizer_is_unapproachable">Equalizer cannot be accessed at the moment.</string>
-    <string name="compare_atributes_">Compare attributes…%1$s</string>
-    <string name="add_directory_to_library">Add folder</string>
-    <string name="choose_library_folders_title">Choose library folders</string>
-    <string name="choose_library_folders_details">Choose which folders to include in the library.</string>
-    <string name="choose_library_folders_details_with_warning">Choose which folders to include in the library and correct access permissions.</string>
-    <string name="logs_details">Details (required):</string>
-    <string name="logs_details_details">Please describe the problem and what triggered it.</string>
-    <string name="logs_ticket_id">Log ID:</string>
-    <string name="logs_ticket_id_details">Please refer to this ID when communicating about this issue.</string>
-    <string name="logs_info">Debug logs only contain information related to MediaMonkey functionality: MediaMonkey library information (e.g. track names, location, metadata), configuration data, and usage data. This is used solely for the purpose of improving MediaMonkey software.</string>
-    <string name="logs_email">E-mail (optional):</string>
-    <string name="logs_email_details">This allows us to contact you to solve the problem.</string>
-    <string name="please_enter_details">Please describe the problem and what triggered it.</string>
-    <string name="termination_timer_title">Show in notifications bar</string>
-    <string name="termination_timer_summary">When paused/inactive, run in notifications bar for %1$s before closing.</string>
-    <string name="termination_timer_summary_always">When paused/inactive, run in notifications bar.</string>
-    <string name="media_artists">Track Artists</string>
-    <string name="album_artists">Album Artists</string>
-    <string name="artists_and_album_artists">Artists</string>
-    <string name="track_is_unavailable">Track is unavailable</string>
-    <string name="personalize_home_screen">Customize home screen</string>
-    <string name="personalize_home_screen_summary">Choose which icons appear on the home screen.</string>
-    <string name="start">Start</string>
-    <string name="sleep_timer">Sleep Timer</string>
-    <string name="sleep_timer_running">Sleep Timer is running</string>
-    <string name="fade_out_music">Fade out music</string>
-    <string name="fade_out_music_details">Fade to 30% of current volume</string>
-    <string name="play_last_song_completely">Play last song completely</string>
-    <string name="play_last_song_details">Complete playback of current song when timer ends.</string>
-    <string name="timer_value">%1$2dh %2$2dm %3$2ds</string>
-    <string name="timer_short_value">%1$2dh %2$2dm</string>
-    <string name="continue_">Continue</string>
-    <string name="sync_storage" translatable="false">sync_storage_%1$s</string>
-    <string name="jump_time_x_seconds" translatable="false">%1$ss</string>
-    <string name="jump_time_x_minutes" translatable="false">%1$sm</string>
-    <string name="preparing_tracks_for_deletion">Preparing tracks for deletion…</string>
-    <string name="preparing_tracks_to_upload">Preparing tracks to upload…</string>
-    <string name="preparing_download">Preparing download…</string>
-    <string name="syncing_playlists">Syncing playlists…</string>
-    <string name="directory_is_not_included_in_sync_path">To perform this operation, the file must be added to the library.</string>
-    <string name="scan_the_folder_to_the_library">Scan the folder to the library?</string>
-    <string name="library_folders">Library folders</string>
-    <string name="confirm_dialog_notification_title">Confirm updates &amp; deletions?</string>
-    <string name="confirm_dialog_notification_message">Click to show confirmation dialog and continue sync…</string>
-    <string name="search_settings_description">Artists, albums, tracks and video</string>
-    <string name="download_album_art_title">Lookup missing album art</string>
-    <string name="download_album_art_summary">Find missing artwork as tracks play.</string>
-    <string name="info">Info</string>
-    <string name="media_monkey_playlist">Playlist</string>
-    <string name="media_monkey_sync">Synchronization</string>
-    <string name="send_me_copy_of_id">Save a copy of the log ID:</string>
-    <string name="send_me_copy_of_id_details">Shares the log ID to email, SMS, etc. for your own records.</string>
-    <string name="scan_library_title">Check for new/changed media</string>
-    <string name="scan_library_details">Scan library folders to show new/modified content.</string>
-    <string name="scanning_started">Scanning started…</string>
-    <string name="ignore">Ignore</string>
-    <string name="skip">Skip</string>
-    <string name="grant_access">Grant access</string>
-    <string name="go_back">Go back</string>
-    <string name="permission_desc" translatable="false"></string>
-    <string name="permission_label" translatable="false"></string>
-    <string name="share_log_id_subject">MediaMonkey for Android Log</string>
-    <string name="share_log_id_content">Log ID: %1$s\nDescription: %2$s</string>
-    <string name="album_art_cant_be_download">Album art can\'t be downloaded.</string>
-    <string name="playlist_already_exists">Playlist already exists.</string>
-
-
+    <string name="click_to_upgrade_to_pro_version">Tap to upgrade…</string>
     <string name="trial_dialog_title">Help support MediaMonkey!</string>
     <string name="trial_please_consider_upgrading">Please consider upgrading!</string>
     <string name="trial_short_message">Limit: 30 minutes at a time.</string>
     <string name="trial_long_message">Days remaining:</string>
-
     <string name="folder_browser_trial_dialog_message">The Folder Browser can be used on a trial basis.</string>
     <string name="upnp_trial_dialog_message">UPnP/DLNA/Casting can be used on a trial basis.</string>
     <string name="configurable_home_screen_trial_dialog_message">Home screen customization is a Pro feature.</string>
     <string name="wifi_sync_trial_dialog_message_x">Wi-Fi Sync can be used on a trial basis.</string>
     <string name="lyrics_trial_dialog_message">Lyric lookup can be used on trial basis.</string>
-
     <string name="configurable_home_screen_trial_dialog_title">Configurable Home Screen</string>
     <string name="folder_browser_trial_dialog_title">The Folder Browser</string>
-    <string name="lyrics_trial_dialog_title">Lyrics lookup</string>
-    <string name="upnp_trial_dialog_title">UPnP/DLNA</string>
-    <string name="wifi_sync_trial_dialog_title">Wi-Fi Sync</string>
-
-    <string name="lyrics_auto_trial_dialog_title">Lyrics lookup</string>
-    <string name="lyrics_auto_trial_dialog_message">To automatically look up lyrics please consider upgrading.</string>
-
     <string name="wifi_sync_addon">Wi-Fi Sync addon</string>
     <string name="wifi_sync_addon_details">Unlocks wireless synchronization.</string>
     <string name="upnp_trial_addon">Streaming addon</string>
@@ -439,147 +123,694 @@
     <string name="advanced_media_manager_addon_details">Unlocks home screen customization, folder browser.</string>
     <string name="mediamonkey_pro_addon">MediaMonkey Pro</string>
     <string name="mediamonkey_pro_addon_details">Unlocks all of the above!</string>
-
     <string name="congratulations">Congratulations!</string>
     <string name="you_are_now_upgraded_to_mediamonkey_pro">You\'re upgraded to MediaMonkey Pro.</string>
-    <string name="checking_license">Checking license&#8230;</string>
+    <string name="checking_license">Checking license…</string>
     <string name="you_need_to_update_pro_version">Please update MediaMonkey Pro to version %1$s or higher to unlock all extra features.</string>
     <string name="you_need_to_install_pro_version">Please install MediaMonkey Pro to unlock all extra features.</string>
     <string name="update_pro">Update Pro</string>
     <string name="keep_lite">Keep Lite</string>
+    <!-- Google play store is inaccessible-->
+    <string name="no_activity_found_to_handle_intent">Store is inaccessible.</string>
+    <!-- Error toast message during verification in app purchases   -->
+    <string name="billing_service_disconnected">Billing service disconnected.</string>
+
+    <!-- * contextual actions -->
+    <string name="find_more_from">Find more from</string>
+    <string name="share">Share…</string>
+    <string name="set_as">Set as…</string>
+    <string name="upper_first_alarm">Alarm</string>
+    <string name="upper_first_ringtone">Ringtone</string>
+    <string name="assign_to_contact">Assign to Contact</string>
+    <string name="play_now">Play now</string>
+    <string name="queue_next">Queue next</string>
+    <string name="queue_last">Queue last</string>
+    <string name="move_to_end">Move to end</string>
+    <string name="move_to_start">Move to start</string>
+    <string name="add_to">Add to</string>
+    <string name="order_by">Order by…</string>
+    <string name="grid_view">Show grid layout</string>
+    <string name="list_view">Show list layout</string>
+    <string name="contextual_action_supported_for_unknown_items">This action isn\'t supported for unknown items.</string>
+
+    <!-- * Sleep Timer -->
+    <string name="sleep_timer">Sleep Timer</string>
+    <string name="sleep_timer_running">Sleep Timer is running</string>
+    <string name="fade_out_music">Fade out volume</string>
+    <string name="fade_out_music_details">Fade to 30\% of current volume</string>
+    <string name="play_last_song_completely">Play last track completely</string>
+    <string name="play_last_song_details">Complete playback of current track when timer ends.</string>
+    <string name="start">Start</string>
+
+    <!-- * Nodes -->
+    <string name="home">Home</string>
+    <string name="favourite">Favorite</string>
+    <string name="other_content_browsing">Browsing</string>
+
+    <string name="music">Music</string>
+    <string name="media">Media</string>
+
+    <string name="video">Video</string>
+    <string name="videos">Videos</string>
+    <string name="audio">Audio</string>
+
+    <string name="podcast">Podcast</string>
+    <string name="podcasts">Podcasts</string>
+
+    <string name="audiobook">Audiobook</string>
+    <string name="audiobooks">Audiobooks</string>
+
+    <string name="classical_music">Classical music</string>
+    <string name="tv">TV</string>
+    <string name="music_video">Music video</string>
+    <string name="video_podcast">Video podcast</string>
+
+    <string name="years">Years</string>
+    <string name="series">Series</string>
+    <string name="unknown_serie">Unknown series</string>
+    <string name="directors">Directors</string>
+    <string name="unknown_director">Unknown director</string>
+    <string name="producers">Producers</string>
+    <string name="actors">Actors</string>
+    <string name="ratings">Ratings</string>
+    <string name="subscriptions">Subscription</string>
+    <string name="unplayed">Unplayed</string>
+    <string name="location">Location</string>
+    <string name="actor">Actor</string>
+    <string name="director">Director</string>
+    <string name="producer">Producer</string>
+    <string name="publisher">Publisher</string>
+
+
+    <!-- * Genres -->
+    <!-- Used in FindMore contextual action, and Upnp sort dialog -->
+    <string name="genre">Genre</string>
+    <!-- Node name -->
+    <string name="genres">Genres</string>
+    <!-- Properties title, user can put one or more genre -->
+    <string name="genre_s_">Genre(s)</string>
+    <!-- Node name -->
+    <string name="unknown_genre">Unknown genre</string>
+    <!-- In deletion confirm dialog, In view stats bar -->
+    <plurals name="number_genres">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> genre"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> genres"</item>
+    </plurals>
+
+    <!-- * Composers -->
+    <!-- Used in FindMore contextual action -->
+    <string name="composer">Composer</string>
+    <!-- Node name -->
+    <string name="composers">Composers</string>
+    <!-- Properties title, user can put one or more composers -->
+    <string name="composer_s_">Composer(s)</string>
+    <!-- Node name -->
+    <string name="unknown_composer">Unknown composer</string>
+    <plurals name="number_composers">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> composer"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> composers"</item>
+    </plurals>
+
+    <!-- * Tracks -->
+    <!-- Node name -->
+    <string name="tracks">Tracks</string>
+    <plurals name="number_tracks">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> track"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> tracks"</item>
+    </plurals>
+
+    <string name="no_track_selected">No track selected</string>
+    <string name="no_valid_tracks">No valid tracks!</string>
+    <string name="track_is_unavailable">Track is unavailable</string>
+    <string name="missing_tracks">Missing tracks</string>
+    <string name="browse_tracks">Browse tracks</string>
+
+    <!-- * Albums -->
+    <!-- Used in FindMore contextual action, properties title, and Upnp sort dialog -->
+    <string name="album">Album</string>
+    <!-- Node name -->
+    <string name="albums">Albums</string>
+    <string name="unknown_album">Unknown album</string>
+    <plurals name="number_albums">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> album"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> albums"</item>
+    </plurals>
+
+    <!-- * Artists -->
+    <!-- Used in FindMore contextual action, and Upnp sort dialog, Lyrics dialog -->
+    <string name="artist">Artist</string>
+    <!-- Node name -->
+    <string name="artists">Artists</string>
+    <!-- Node name -->
+    <string name="media_artists">Track Artists</string>
+    <!-- Node name -->
+    <string name="album_artists">Album Artists</string>
+    <!-- Properties title -->
+    <string name="artists_label">Artist(s)</string>
+    <string name="album_artists_label">Album artist(s)</string>
+    <string name="unknown_artist">Unknown artist</string>
+
+    <!-- In deletion confirm dialog, In view stats bar, In search result tabs -->
+    <plurals name="number_artists">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> artist"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> artists"</item>
+    </plurals>
+
+    <!-- * Playlists -->
+    <string name="playlist">Playlist</string>
+    <!-- Node name -->
+    <string name="playlists">Playlists</string>
+    <plurals name="number_playlists">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> playlist"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> playlists"</item>
+    </plurals>
+    <string name="create_new_playlist">Create new playlist</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="remove_from_playlist">Remove from playlist</string>
+    <string name="enter_playlist_name">Enter playlist name:</string>
+    <string name="new_playlist">New Playlist</string>
+    <string name="rename_playlist">Rename playlist</string>
+    <string name="playlist_name_is_invalid">Playlist name is invalid!</string>
+    <string name="playlist_already_exists">Playlist already exists.</string>
+    <string name="add_items_to_playlist">Add items to %s playlist?</string>
+
+    <!-- * Items -->
+    <string name="items">Items</string>
+    <plurals name="number_items">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> item"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> items"</item>
+    </plurals>
+    <plurals name="selected_items">
+        <item quantity="one">"selected item"</item>
+        <item quantity="other">"selected items"</item>
+    </plurals>
+    <string name="no_selected_items">No selected item</string>
+
+    <!-- * Files & Folders-->
+    <string name="add_directory_to_library">Add folder</string>
+    <string name="folder">Folder</string>
+    <string name="folders">Folders</string>
+    <string name="files">Files</string>
+    <plurals name="number_files">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> file"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> files"</item>
+    </plurals>
+    <plurals name="number_folders">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> folder"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> folders"</item>
+    </plurals>
+
+    <!-- * No data loaded in library-->
+    <string name="no_files">No files in this folder</string>
+    <string name="no_media">No media</string>
+    <string name="no_items">No items</string>
+    <string name="no_albums">No albums</string>
+    <string name="no_series">No series</string>
+    <string name="no_subscription">No subscription</string>
+    <string name="no_artists">No artists</string>
+    <!-- empty list for unspecific cases -->
+    <string name="no_content">No content</string>
+
+    <!-- * Storage -->
+    <string name="storage">Storage</string>
+    <string name="count_kb">%d KB</string><!-- Kilobyte decimal value-->
+    <string name="count_mb">%d MB</string><!-- Megabyte decimal value-->
+    <string name="count_mb_f">%1.1f MB</string><!-- Megabyte float value-->
+    <string name="count_gb_f">%1.1f GB</string><!-- Gigabyte float value-->
+    <string name="used">used</string><!-- used space on storage-->
+    <string name="free">free</string><!-- used free on storage-->
+    <string name="storage_not_accessible">Storage not accessible.</string>
+    <string name="unavailable_storage">Unavailable storage</string>
+    <string name="unknown_storage">Unknown storage</string>
+    <string name="mounting_storage">Mounting storage…</string>
+    <string name="storage_browser">Storage browser</string>
     <string name="internal_storage">Internal storage</string>
     <string name="external_storage">External storage</string>
     <string name="usb_storage">USB storage</string>
     <string name="sd_storage">SD card</string>
-    <string name="remote_controls">Remote controls</string>
-    <string name="always_respond_to_remote_controls">Always respond to remote buttons</string>
-    <string name="always_respond_to_remote_controls_summary">Respond to bluetooth or other controls whenever possible.</string>
-    <string name="disable_touch_sounds">Disable touch sounds</string>
-    <string name="disable_touch_sounds_summary">Disable system \'touch sounds\' while playing.</string>
     <string name="not_enough_space_on_storage">Not enough space on storage</string>
     <string name="not_enough_space_on_storage_log">%1$s ( %2$s of free space)</string>
     <string name="not_enough_space_on_internal_storage">Not enough space on internal storage. The required minimum amount of available space is %1$d MB.</string>
-    <string name="no_activity_found_to_handle_intent">Store is inaccessible.</string>
+    <string name="mm_specific_folder">MediaMonkey Storage</string>
+    <!-- Whole storage as a folder in the library: StorageName (all) -->
+    <string name="storage_all">%1$s (all)</string>
+
+    <!-- download -->
+    <string name="download">Download</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="downloading">Downloading</string>
+    <string name="upnp_download_directory">Download location</string>
+    <string name="downloading_playlists_failed">Playlist download failed</string>
+    <string name="upnp_download_directory_summary">Save files to: %1$s</string>
+    <string name="downloading_failed">Track download failed</string>
+    <string name="download_canceled">Download canceled</string>
+    <string name="download_canceling">Terminating download…</string>
+    <string name="do_you_really_want_to_cancel_download">Do you really want to cancel the download?</string>
     <string name="your_device_does_not_support_writing_to_sdcard">Your device does not support writing to sdcard.</string>
+    <string name="download_remaining" msgid="3139295890887972718"><xliff:g id="DURATION">%s</xliff:g> to finish</string>
+    <string name="download_tracks">Download tracks</string>
+    <!-- upload -->
+    <string name="uploaded">Uploaded</string>
+    <string name="uploading">Uploading</string>
+    <string name="uploading_playlists_failed">Playlist upload failed</string>
+    <string name="uploading_failed">Track upload failed</string>
+    <string name="to_upload">to upload</string>
+    <!-- delete -->
+    <string name="delete">Delete</string>
+    <string name="deleting">Deleting</string>
+    <string name="deleted">Deleted</string>
+    <string name="deleting_failed">Deletion failed</string>
+    <string name="to_delete">to delete</string>
+    <plurals name="delete_tracks_from_device">
+        <item quantity="one">"Delete <xliff:g id="COUNT">%d</xliff:g> track from the device?"</item>
+        <item quantity="other">"Delete <xliff:g id="COUNT">%d</xliff:g> tracks from the device?"</item>
+    </plurals>
+    <!-- * Delete dialog in playlists view-->
+    <string name="delete_playlist">Delete playlist</string>
+    <string name="delete_playlist_and_tracks">Delete playlist and tracks</string>
+    <!-- * Delete dialog in Now playing view -->
+    <string name="remove_from_now_playing">Remove from Playing queue</string>
+    <string name="remove_from_now_playing_and_selected_playlists">Remove from Playing queue and selected playlists</string>
+    <string name="remove">Remove</string>
+    <!-- Remove dialog title when user edit it -->
+    <string name="confirm_edit">Confirm edit</string>
+    <string name="delete_from_device">Delete from the device</string>
+    <string name="confirm_deletion">Confirm deletion</string>
+    <string name="from_device_">from device?</string>
+    <string name="deleting_tracks_in_x_s">Deleting track(s) in %1$ds</string>
+    <string name="removing_tracks_in_x_s">Removing track(s) in %1$ds</string>
+
+    <string name="or">or</string>
+
+    <!-- Updating -->
+    <string name="update">Update</string>
+    <string name="updated">Updated</string>
+    <string name="updating">Updating</string>
+    <string name="updating_playlist_file">Updating playlist file</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="upgrading_paths_format">Upgrading paths format in database…</string>
+    <string name="checking_tasks_to_process">Updating library…</string>
+    <!-- notification when updating android media store (disabled by default) -->
+    <string name="updating_media_store">Updating database of media</string>
+
+    <!-- selected -->
+    <string name="select_all">Select all</string>
+    <plurals name="playlists_have_been_selected">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> playlist has been selected."</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> playlists have been selected."</item>
+    </plurals>
+    <plurals name="items_have_been_selected">
+        <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> item has been selected."</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> items have been selected."</item>
+    </plurals>
+    <string name="selected_item_cant_be_played">Selected item can\'t be played.</string>
+
+    <!-- * Processing -->
+    <string name="initializing">Initializing</string>
+    <string name="starting_">Starting…</string>
+    <string name="verifying_">Verifying…</string>
+    <string name="database_initialization">Database initialization…</string>
+    <string name="analyzing">Analyzing</string>
+    <string name="analyzing_details">Analyzing sync list…</string>
+    <string name="please_wait_">Please wait…</string>
+    <string name="loading">Loading…</string>
+    <string name="processing_tracks">Processing tracks…</string>
+    <string name="connecting">Connecting…</string>
+    <string name="database_compressing">Database compressing…</string>
+    <string name="something_in_progress">Background task in progress</string>
+    <!-- ** Preparing -->
+    <string name="preparing_">Preparing…</string>
+    <string name="preparing_tracks_for_deletion">Preparing tracks for deletion…</string>
+    <string name="preparing_tracks_to_upload">Preparing tracks to upload…</string>
+    <string name="preparing_download">Preparing download…</string>
+    <!-- when user cancel current processing operation e.g. wifi-sync -->
+    <string name="cancelling">Terminating…</string>
+    <!-- Processing finished -->
+    <string name="finished">Completed successfully</string>
+    <string name="all_done_no_background_task">Background task completed.</string>
+    <string name="idle">Idle</string>
+
+    <!-- * Network -->
+    <string name="wifi_disabled">Wi-Fi disabled</string>
+    <string name="wifi_disconnected">Wi-Fi is not connected</string>
+    <string name="wifi_disabled_detail">You need Wi-Fi to connect to a remote server.</string>
+    <string name="connection_failed">Connection failed!</string>
+    <string name="connection_is_unavailable">Connection is unavailable!</string>
+    <string name="connection_lost">connection lost</string>
+    <string name="connection_recovered">connection recovered</string>
+    <string name="enabling_wifi">Wi-Fi is starting</string>
+    <string name="connecting_wifi">Connecting to Wi-Fi network</string>
+    <string name="network_is_not_available">Network is unavailable</string>
+    <string name="ip_address">IP address: </string>
+    <string name="server_ip_address">Server address(IP or Domain)</string>
+    <string name="port" translatable="false">Port</string>
+    <string name="device_description_file_path">Device Description file path</string>
+    <string name="protocol">Protocol</string>
+    <string name="invalid_url_format">Invalid url format</string>
+    <string name="unsupported_uri">Unsupported URI</string>
+    <string name="connection_failed_access_denied">Connection failed: Access denied</string>
+    <string name="no_connection">No connection</string>
+    <string name="turn_on">Turn on</string><!-- not used -->
+    <string name="reconnect">Reconnect</string>
+    <!-- * Synchronization  -->
+    <string name="synchronization">Synchronization</string>
+    <string name="sync_server_not_available_title">Server not available</string>
+    <string name="waiting_end_of_sync">Sync is waiting for other background operations to complete.</string>
+    <string name="sync_settings">Sync settings</string>
+    <string name="everything_is_in_sync">Everything is in sync</string>
+    <string name="syncing">Syncing…</string>
+    <string name="last_synced">Last synced: %1$s</string>
+    <!-- searching available server to sync  -->
+    <string name="searching_sync_server">Searching sync server…</string>
+    <!-- searching available media server to browse  -->
+    <string name="searching_media_servers">Searching media servers…</string>
+    <!-- searching available device to cast  -->
+    <string name="searching_cast_devices">Searching for cast devices…</string>
+    <string name="no_sync_server">No sync server</string>
+    <string name="server_connected">Server connected</string>
+    <string name="server_disconnected">Server disconnected</string>
+    <string name="connecting_to_server">Connecting to server…</string>
+    <string name="server_not_responding">Server Not Responding</string>
+
+    <!-- * MediaStore sync -->
+    <string name="action_scanning_library_files">Scanning folders for media</string>
+    <string name="scanning_started">Scanning started…</string>
+    <string name="removing_deselected_media_from_library">Removing items from the database…</string>
+
+    <!-- * USB sync --> <!-- V3 sync -->
+    <string name="updating_library_with_sync_data">Updating library with synced data</string>
+    <string name="usb_sync_description">Checking whether a new USB sync is needed.</string>
+
+    <!-- * UPnP  -->
+    <string name="upnp_trial_dialog_title">UPnP/DLNA</string>
+    <string name="upnp_category" translatable="false">UPnP</string>
+    <!-- Visible as notification in very rare cases.
+         Used when MMA browses UPnP content or need to process UPnP commands and Upnp service is running. -->
+    <string name="upnp_browser_service" translatable="false">UPnP Browser</string>
+    <string name="browser_not_found">Unable to find a web browser</string>
+    <string name="add_media_server">Add media server</string>
+    <string name="stored_media_server_is_unavailable">Saved media server is inaccessible.</string>
+    <string name="media_server">Media Server</string>
+    <string name="media_servers">Media servers</string>
+    <string name="no_media_server">No media server</string>
+    <string name="media_servers_not_found_message">Could not find any Media server on the network.</string>
+    <string name="more_than_x_items">More than %d items</string>
+    <string name="upnp_service_disconnected">UPnP service disconnected.</string>
+
+    <!-- * For UPnP MMS server login purpose, currently unused-->
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+
+    <!-- * Casting (UPnP & chromecast)  -->
+    <string name="renderer_changed">Casting to: %1$s</string>
+    <string name="volume_">Volume %1$d</string>
+    <string name="casting">Casting</string>
+    <string name="cast_to">Cast to</string>
+    <string name="stop_casting">Stop casting</string>
+    <string name="renderer">Renderer</string>
+    <string name="no_cast_device">No cast device</string>
+    <string name="casting_to_chromecast">Casting to chromecast device</string>
+    <string name="add_client">Add client</string>
+
+    <!-- * WiFi sync  -->
+    <string name="media_synchronization">Wi-Fi Sync</string>
+    <!-- * WiFi sync wizard -->
+    <string name="sync_setting_wizard">Sync configuration wizard</string>
+    <string name="select_server">Select server</string>
+    <string name="select_storage">Select storage</string>
+    <string name="select_content">Select content</string>
+    <string name="no_sync_server_selected">No sync server selected</string>
+    <string name="no_storage_selected">No storage selected</string>
+    <string name="no_storage_enabled">No storage enabled</string>
+    <!-- Browser title of sync server library -->
+    <string name="wify_sync_root_title">MediaMonkey Library</string>
+    <!-- * WiFi sync settings -->
+    <!-- ** Sync settings related to server-->
+    <!-- content of the sync server -->
+    <string name="sync_from_server">Sync from the server</string>
+    <string name="server_content">Server content</string>
+    <string name="sync_from_server_description">Choose content to keep synced.</string>
+    <string name="choose">Choose</string>
+    <!-- ** Sync settings related to device-->
+    <string name="sync_from_device">Sync from the device</string>
+    <string name="file_metadata">File metadata</string>
+    <string name="sync_device_metadata_description">Sync changed metadata such as ratings and play history.</string>
+    <string name="device_content">Device content</string>
+    <string name="sync_device_content_description">Sync playlists and new files to the server (folders must be configured on the server).</string>
+    <string name="bidi_content_title">Bidirectional content</string>
+    <string name="bidi_content_description">"Choose content to keep synced bidirectionally "</string>
+    <string name="show_confirm_dialog">Show confirmation dialog</string>
+    <!-- ** Types of bi-di sync  -->
+    <string name="auto_sync_file_metadata_changes">Auto-Sync file metadata</string>
+    <string name="auto_sync_playlists_and_new_files_to_the_server">Auto-sync playlists and new files to the server</string>
+    <string name="auto_sync_playlists_and_new_files_to_the_server_and_metadata">Auto-sync playlists and new files to the server + file metadata</string>
+    <!-- ** Types of deletion during sync -->
+    <string name="sync_deletion_from_device">Delete from the device</string>
+    <string name="unselected_copies">Unselected server files</string>
+    <string name="delete_unselected_content_copies_summary">Delete local files and playlists that are on the server but not the sync list.</string>
+    <string name="all_unselected_content">All unselected files</string>
+    <string name="delete_all_unselected_content_summary">Delete all local files and playlists that aren\'t on the sync list.</string>
+    <!-- * WiFi sync review -->
+    <string name="review_settings">Review settings</string>
+    <string name="sync_server">Sync server</string>
+    <string name="_online" translatable="false">" - online"</string>
+    <!-- verb -->
+    <string name="change">Change</string>
+    <string name="storage_location_to_sync">Storage locations to sync</string>
+    <string name="advanced_options">Advanced options</string>
+    <!-- ** Advanced sync options -->
+    <string name="verify_paired_files">Check for missing server items</string>
+    <string name="verify_paired_files_description">Verifies whether previously synced files or playlists have been removed from the server (Slow. Only active for this sync).</string>
+    <string name="skip_sync_review">Skip sync review</string>
+    <string name="skip_sync_review_description">Skip the sync review page before syncing. Disable to adjust sync settings before each sync.</string>
+    <string name="error_server_processing_timeout">The server took an unusually long time to process the request.\nIf the server is available, you can retry with extended processing timeouts.</string>
+
+    <!-- * WiFi sync review related to specific storage-->
+    <!-- ** Sync review related sync content & destination location-->
+    <string name="auto_sync_server_content">Sync server content</string>
+    <string name="choosed_server_content">Server content to keep synced</string>
+    <string name="destination_file_locations">Destination File locations</string>
+    <!-- Indicates when only partial content is synced from a category such as Playlists, Albums, etc. -->
+    <string name="partly">Partly</string>
+    <string name="no_content_to_sync">No content to sync</string>
+    <string name="bidirectional_folders">Bidirectional folders</string>
+    <string name="confirmation_required">(Confirmation required)</string>
+    <!-- Action button to start sync of specific storage -->
+    <string name="sync_this_storage">Sync storage</string>
+    <!-- ** WiFi sync buttons -->
+    <!-- action to go sync review/wizard -->
+    <string name="sync">Sync</string>
+    <!-- action to start synchronization  -->
+    <string name="sync_now">Sync now</string>
+    <string name="sync_now_anyway">Sync now anyway</string>
+    <!-- * sync failed buttons -->
+    <string name="retry">Retry</string>
+    <string name="dont_sync">Don\'t sync</string>
+    <string name="select_other_server">Choose other server</string>
+
+    <!-- * WiFi sync pairing process -->
+    <!-- Used as progress title during pairing local files with server files   -->
+    <string name="pairing">Matching new files</string>
+    <!-- Used as progress details when waiting for server response for batch of new files to pair  -->
+    <string name="pairing_details">Checking for new files…</string>
+    <!-- Used as progress details during pairing local files with server files   -->
+    <string name="pairing_">Pairing…</string>
+    <string name="verifying_paired">Verifying paired files</string>
+    <string name="verifying_paired_details">Verifying already paired files…</string>
+    <!-- * WiFi sync process -->
+    <string name="initializing_message">Synchronization is starting…</string>
+    <string name="synchronization_terminated">Synchronization terminated.</string>
+    <string name="synchronization_failed">Sync incomplete</string>
+    <string name="uploading_metadata">Updating metadata to server…</string>
+    <string name="downloading_metadata">Updating metadata from server…</string>
+    <string name="getting_desync_media_to_delete">Preparing list of files to delete…</string>
+    <string name="syncing_playlists">Syncing playlists…</string>
+    <!-- * Notification during sync -->
+    <string name="confirm_dialog_notification_title">Confirm updates &amp; deletions?</string>
+    <string name="confirm_dialog_notification_message">Click to show confirmation dialog and continue sync…</string>
+    <!-- * Confirmation dialog during sync -->
+    <string name="confirmation_dialog_description">Please confirm uploads to the server and deletions from this location.</string>
+    <string name="items_to_be_uploaded_description">Items to upload to the server</string>
+    <string name="items_to_be_deleted_description">Items to delete from this location</string>
+    <!-- * waiting for server response messages -->
+    <string name="waiting_for_response">Waiting for the remote server…</string>
+    <string name="waiting_for_autoconversion">Waiting for the file to convert…</string>
+    <string name="waiting_for_response_first_time">Since this is your first time connecting to the server, you may need to accept the connection on the server in order to proceed.</string>
+    <!-- * sync failed/final messages -->
+    <string name="finished_with_errors">Completed with errors</string>
+    <string name="invalid_paths_on_server">Synchronization refused due to invalid target file locations(s), defined on the remote server.</string>
+    <string name="unable_get_settings">Synchronization refused by remote server.\n Verify that Wi-Fi synchronization is enabled on the remote server.</string>
+    <string name="nothing_to_sync">No storage location is configured to be synced!</string>
+    <string name="connection_failed_hint">Server inaccessible (try restarting the server and then re-running the Sync configuration wizard)</string>
+    <string name="conversion_of_file_is_stalling">Conversion of %s is stalled. Check free space in the server\'s temp folder.</string>
+    <string name="different_sync_server_message">MediaMonkey is configured to sync with a different server. Do you want to use new sync settings from this server (existing settings will be replaced)?</string>
     <string name="media_not_ready_message">An unexpected failure occurred during autoconversion of tracks.</string>
     <string name="sync_settings_not_found_message">An unexpected failure occurred during sync initialization.</string>
     <string name="please_contact_us">To resolve this, we\'ll need your help and additional logs from MediaMonkey for Windows. Please contact us via our
         helpdesk for instructions.</string>
+    <string name="alternative_server">MediaMonkey sync server is not available. Try connecting to a different sync server.</string>
+    <string name="track_cannot_be_stored">Failed to save (%1$s)</string>
 
-    <string name="custom">custom</string>
-    <string name="recreating_database">Recreating database…</string>
-    <string name="updating_database">Updating database…</string>
-    <string name="repairing_database">Repairing database…</string>
+    <!-- Sync error massages related to tracks -->
+    <string name="track_cannot_be_downloaded">Failed to download (%1$s)</string>
+    <string name="track_cannot_be_converted">Failed to convert (%1$s)</string>
+    <string name="track_cannot_be_uploaded">Failed to upload (%1$s)</string>
+    <string name="track_unsupported">Unsupported format (%1$s)</string>
+
+    <!-- Final message when no sync server found and never was set. Currently not used but can be in future. -->
+    <string name="sync_server_not_available_message">"If you haven\'t yet installed a MediaMonkey sync server, it can be downloaded via: "</string>
+    <!-- Link to download MediaMonkey server. Currently not used but can be in future. -->
+    <string name="send_link">Send me the link</string>
+    <string name="send_link_mmw_subject">Link to MediaMonkey sync server</string>
+    <string name="send_link_mmw_message">"To sync MediaMonkey for Android, you need to install a MediaMonkey sync server/desktop. See details at: "</string>
+
+    <!-- * Sync progress info, visible only if user expands info progress panel -->
+    <string name="downloading_sync_setting">Downloading sync setting…</string>
+    <string name="downloading_sync_setting_success">Sync setting downloaded.</string>
+    <string name="downloading_sync_setting_failed">Downloading sync setting failed.</string>
+    <string name="uploading_sync_setting_for_x">Uploading sync setting for %s…</string>
+    <string name="uploading_sync_setting_failed">Uploading sync setting failed.</string>
+    <string name="uploading_sync_setting_success">Sync setting uploaded.</string>
+
+    <!-- Sync progress info like: Updating XX playlists to server -->
+    <string name="to_server">to server</string>
+    <!-- Sync progress info like: Updating XX playlists from server -->
+    <string name="from_server">from server</string>
+    <!-- During sending sync result to sync server -->
+    <string name="finalizing">Completing</string>
+    <string name="finalizing_synchronization_">Completing synchronization…</string>
+
+    <!-- * Debug logs: toast messages  -->
+    <string name="logs_will_be_sent">Preparing debug log…</string>
+    <string name="logs_sent">Debug logs have been uploaded. Thank you!</string>
+    <string name="logs_saved_to">Debug logs saved to %1$s</string>
+    <string name="logs_sent_failed">Failed to send crash log.</string>
+
+    <!-- * Debug logs: Send dialog & Crash dialog -->
+    <string name="logs_info">Debug logs only contain information related to MediaMonkey functionality: MediaMonkey library information (e.g. track names, location, metadata), configuration data, and usage data. This is used solely for the purpose of improving MediaMonkey software.</string>
+    <!-- * Debug logs: Crash dialog -->
+    <string name="logs_crash_info">MediaMonkey has crashed. Sending a debug log will help us resolve this problem.</string>
+    <string name="acra_send_automaticlay_next_time">Don\'t ask next time and send debug logs automatically</string>
+
+    <!-- * Debug logs: Send dialog -->
+    <string name="logs_ticket_id">Log ID:</string>
+    <string name="logs_ticket_id_details">Please refer to this ID when communicating about this issue.</string>
+    <string name="send_me_copy_of_id">Save a copy of the log ID:</string>
+    <string name="send_me_copy_of_id_details">Shares the log ID to email, SMS, etc. for your own records.</string>
+    <string name="logs_details">Details (required):</string>
+    <string name="logs_details_details">Please describe the problem and what triggered it.</string>
+    <string name="logs_email">E-mail (optional):</string>
+    <string name="logs_email_details">This allows us to contact you to solve the problem.</string>
+
+    <!-- * Share Log info to text file, email etc.  -->
+    <string name="share_log_id_subject">MediaMonkey for Android Log</string>
+    <string name="share_log_id_content">Log ID: %1$s\nDescription: %2$s</string><!-- content to store Log id -->
+
+    <!-- * Debug logs: Help preferences  -->
+    <string name="send_logs">Send logs</string>
+    <string name="send_logs_summary">Submit debug logs for a bug report.</string>
+
+    <!-- * Debug logs: General preferences -->
+    <string name="acra_send_automaticlay_title">Send crash logs automatically</string>
+    <string name="acra_send_automaticlay_description">If MediaMonkey crashes, debug logs will be sent to the development team automatically.
+       This will take effect after the app is restarted.
+    </string>
+
+    <!-- * Album artwork  -->
+    <string name="artwork">Artwork</string>
+    <string name="download_album_art_summary">Find missing artwork as tracks play.</string>
+    <string name="download_album_art_title">Lookup missing album art</string>
+    <string name="album_art_cant_be_download">Album art can\'t be downloaded.</string>
+    <string name="artwork_not_available_search">Search for missing artwork?</string>
+
+    <plurals name="removing_album_art_from_tracks">
+        <item quantity="one">Removing album art from track…</item>
+        <item quantity="other">Removing album art from tracks…</item>
+    </plurals>
+    <plurals name="removing_album_art_from_albums">
+        <item quantity="one">Removing album art from album…</item>
+        <item quantity="other">Removing album art from albums…</item>
+    </plurals>
+    <plurals name="removing_album_art_from_database">
+        <item quantity="one">Removing album art from library…</item>
+        <item quantity="other">Removing album art from library…</item>
+    </plurals>
+    <plurals name="prepparing_album_art_to_remove">
+        <item quantity="one">Preparing to remove album art…</item>
+        <item quantity="other">Preparing to remove album art…</item>
+    </plurals>
+    <plurals name="delete_album_art_files">
+        <item quantity="one">Deleting album art file…</item>
+        <item quantity="other">Deleting album art files…</item>
+    </plurals>
+
+    <!-- * Playback  actions-->
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="dont_repeat">Repeat disabled</string>
+    <string name="repeat_current">Repeat current track</string>
+    <string name="repeat_all">Repeat all tracks</string>
+    <string name="shuffle_disabled">Shuffle disabled</string>
+    <string name="shuffle_enabled">Shuffle enabled</string>
     <string name="shuffle_all">Shuffle all</string>
+    <string name="enable_shuffle">Enable shuffle</string>
+    <string name="disable_shuffle">Disable shuffle</string>
+    <string name="play_all">Play all</string>
+    <string name="play_all_shuffle">Play all (shuffled)</string>
+    <!-- * Playback  error messages -->
     <string name="skipping_inaccessible_tracks">Skipping inaccessible tracks</string>
     <string name="skipped_x_track_unsupporeted_by_receiver">Skipped %1$s. It is unsupported by the receiver.</string>
     <string name="skipping_tracks_missing_codec">Skipping tracks (missing codec)</string>
+    <string name="unsupported_format">Unsupported format</string>
     <string name="server_inaccessible_searching">Server inaccessible. Searching…</string>
-    <string name="deleting_tracks_in_x_s">Deleting track(s) in %1$ds</string>
-    <string name="removing_tracks_in_x_s">Removing track(s) in %1$ds</string>
-    <string name="voice_search">Voice search</string>
-    <string name="cant_find_x">Can\'t find \'%1$s\'</string>
-    <string name="unknown_error">Unknown Error</string>
-    <string name="scrobble_dialog_title_x">Uninstall %1$s</string>
-    <string name="scrobble_dialog_message_x">Unfortunatelly %1$s can\'t be disabled from this app. Do you want uninstall it?</string>
-    <string name="uninstall">Uninstall</string>
-    <plurals name="rating_x">
-        <item quantity="one">"<xliff:g id="count">%1$.1f</xliff:g> star"</item>
-        <item quantity="other">"<xliff:g id="count">%1$.1f</xliff:g> stars"</item>
-    </plurals>
-    <plurals name="rating_x_plus">
-        <item quantity="one">"<xliff:g id="count">%1$.1f</xliff:g> star or more"</item>
-        <item quantity="other">"<xliff:g id="count">%1$.1f</xliff:g> stars  or more"</item>
-    </plurals>
-    <plurals name="rating_d">
-        <item quantity="one">"<xliff:g id="count">%d</xliff:g> star"</item>
-        <item quantity="other">"<xliff:g id="count">%d</xliff:g> stars"</item>
-    </plurals>
-    <plurals name="rating_d_plus">
-        <item quantity="one">"<xliff:g id="count">%d</xliff:g> star or more"</item>
-        <item quantity="other">"<xliff:g id="count">%d</xliff:g> stars or more"</item>
-    </plurals>
-    <string name="rating">Rating</string>
-    <string name="bluetooth_lockscreen_warning_message">If the default Android lock screen player is disabled, then MediaMonkey will not work correctly with bluetooth devices.</string>
-    <string name="proceed">Proceed</string>
-    <string name="browser_not_found">Unable to find a web browser</string>
 
-    <string name="outdated_server_title">MediaMonkey for Windows is outdated</string>
-    <string name="outdated_server_description">Your version of MediaMonkey for Windows is outdated.</string>
-    <string name="outdated_server_denied">Please update to version %s.</string>
-    <string name="outdated_server_recommended">Update to version %s is recommended.</string>
-    <string name="google_play_store_not_installed">Google Play Store not found. Desired application cannot be installed.</string>
-    <string name="indexer_alphabet">#ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
-    <string name="rate_title">Rate MediaMonkey</string>
-    <string name="rate_message">If you\'re enjoying MediaMonkey, would you take a moment to rate it? Thanks for Your support!</string>
-    <string name="rate_ok">Rate it!</string>
-    <string name="rate_later">Not now</string>
-    <string name="rate_never">Never</string>
-    <string name="grid_view">Show grid layout</string>
-    <string name="list_view">Show list layout</string>
-
-    <string name="media_monkey_needs_access_to_">MediaMonkey needs access to %s.</string>
-    <string name="media_folders">media folders</string>
-
-    <string name="storage_permission_hint_intro">To grant access:</string>
-    <string name="storage_permission_hint_1">Click the 3 dots menu icon on the following dialog.</string>
-    <string name="storage_permission_hint_2">Select \"Show SD card\" to allow SD card locations to display.</string>
-    <string name="storage_permission_hint_3">Tap the navigation icon on the left to display all storage locations.</string>
-    <string name="storage_permission_hint_4">Choose the location you want to grant access to, typically \"SD card\".</string>
-    <string name="storage_permission_hint_5">Tap \"SELECT\" to grant access.</string>
-    <string name="storage_tree_uri_permission_hint_1">A file browser will open the folder requiring access.</string>
-    <string name="storage_tree_uri_permission_hint_2">Click \"Use this folder\" or \"Select\" to choose the folder.</string>
-
-    <string name="storage_permission_title">Grant access to storage</string>
-    <string name="storage_permission_details">MediaMonkey requires folder write permission to function optimally!</string>
-    <string name="remove">Remove</string>
     <string name="media_monkey_player">MediaMonkey player</string>
-    <string name="database_compressing">Database compressing…</string>
-    <string name="crossfade">Crossfade</string>
-    <string name="crossfade_summary">Crossfade adjacent tracks (unstable on some devices).</string>
-    <string name="gapless">Gapless</string>
-    <string name="gapless_summary">Uninterrupted playback of consecutive audio tracks.</string>
-    <string name="none">None</string>
-    <string name="mm_specific_folder">MediaMonkey Storage</string>
-    <string name="no_files">No files in this folder</string>
-    <string name="no_media">No media</string>
-    <string name="no_items">No items</string>
-    <string name="crossfade_title">Audio transitions: </string>
-    <string name="move_to_end">Move to end</string>
-    <string name="move_to_start">Move to start</string>
-    <string name="play_now_keep">\'Play now\' preserves the queue</string>
-    <string name="play_now_keep_summary">Plays the track without clearing the Playing queue</string>
-    <string name="balance">Balance</string>
-    <string name="left">Left</string>
-    <string name="right">Right</string>
-    <string name="app_failure_message">MediaMonkey can\'t access its application folder. Reboot your device to resolve this.</string>
-    <string name="write_storage_permission_message">To use MediaMonkey please give it access to your media files.</string>
-    <string name="permission_denied">Permission was denied.</string>
-    <string name="write_storage_permission_denied">Permission was denied. Exiting MediaMonkey.</string>
-    <string name="write_settings_touch_sounds_permission_title">Disable touch sounds</string>
-    <string name="write_settings_touch_sounds_permission_message">To disable touch sounds, please give MediaMonkey permission to change system settings.</string>
-    <string name="write_settings_touch_sounds_permission_denied">Permission was denied. System touch sounds cannot be disabled.</string>
-    <string name="write_settings_ringtone_permission_title">Set as…</string>
-    <string name="write_settings_ringtone_permission_message">To set track as ringtone or alarm, please give MediaMonkey permission to change system settings.</string>
-    <string name="write_settings_ringtone_permission_denied">Permission was denied. Track cannot be set as ringtone/alarm.</string>
+    <string name="local_renderer">Local player</string>
+    <!-- action buttons to lock & unlock video controls to avoid unintentional pressing during watching -->
+    <string name="lock">Lock</string>
+    <string name="unlock">Unlock</string>
+    <string name="picture_in_picture">Picture in picture</string>
+    <string name="open_in_fullscreen">Open fullscreen</string>
+    <string name="resume_playback">Resume playback</string>
 
-    <string name="write_contacts_permission_message">To assign ringtone to contact, please give MediaMonkey required permission.</string>
-    <string name="write_contacts_permission_denied">Permission was denied. The ringtone cannot be assigned to contact.</string>
-    <string name="read_uri_permission_denied">Permission denied. File is not readable.</string>
-    <string name="storage_all">%1$s (all)</string>
 
-    <string name="download_remaining" msgid="3139295890887972718"><xliff:g id="DURATION">%s</xliff:g> to finish</string>
-    <string name="renderer_changed">Casting to: %1$s</string>
-    <string name="volume_">Volume %1$d</string>
+    <!-- * Now playing -->
+    <string name="queue">Queue</string>
+    <string name="playing_queue">Playing queue</string>
+    <string name="no_tracks_to_play">Playing queue is empty</string>
+    <string name="tracks_are_adding_asynchronously">Added tracks to the Playing queue</string>
+    <string name="recreating_tracklist">Recreating Playing queue…</string>
+    <string name="return_to_now_playing">Return to Playing queue</string>
+    <string name="art">Art</string>
+    <string name="playing">Playing</string>
+    <!-- remaining time of Now playing list  -->
+    <string name="remains">&quot;Remaining: &quot;</string>
 
-    <string name="need_access_more_info">If permission is not granted, new content will be saved to a private MediaMonkey folder that can\'t be shared with
-        other apps.</string>
-    <string name="storage_permission_ignore_warning">If access isn\'t granted to the requested folders:\n\nMediaMonkey will instead sync content to a
-        MediaMonkey-specific folder that is inaccessible to other music players.</string>
-    <string name="storage_permission_ignore_warning_short">If access isn\'t granted to the requested folders:\n\nMediaMonkey won\'t be able to edit/sync content to those locations!</string>
-    <string name="path_already_writable">Folder %s is already writable.</string>
-    <string name="path_not_requested">Path %s was not requested. Please choose from the list above.</string>
-    <string name="path_invalid">Cannot write to the configured location. MediaMonkey-specific folder will be used instead.</string>
+    <!-- * Lyrics  -->
+    <string name="lyrics">Lyrics</string>
+    <string name="search_lyrics">Search lyrics</string>
+    <string name="lyrics_not_available_search">Search for lyrics?</string>
+    <string name="lyrics_not_available">No lyrics.</string>
+    <string name="lyrics_not_found">Lyrics not found.</string>
+    <string name="provided_by_">Lyrics provided by: %1$s</string>
+    <string name="lyrics_trial_dialog_title">Lyrics lookup</string>
+    <string name="lyrics_auto_trial_dialog_message">To automatically look up lyrics please consider upgrading.</string>
+
+
+    <!-- * Duration, Time & date  -->
+    <string name="duration">Duration</string>
+    <string name="bitrate">Bitrate</string>
+    <!-- hour shortcut-->
+    <string name="hour_unit">h</string>
+    <!-- minute shortcut-->
+    <string name="minute_unit">m</string>
+    <string name="minute_unit_longer">min</string>
+    <!-- second shortcut-->
+    <string name="second_unit">s</string>
 
     <!-- Phrase describing a time duration using seconds [CHAR LIMIT=16] -->
     <plurals name="duration_seconds">
@@ -601,99 +832,252 @@
         <item quantity="one"><xliff:g id="count">%d</xliff:g> day</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> days</item>
     </plurals>
-    <string name="notification_progressbar_enabled">Show seek bar</string>
-    <string name="notification_progressbar_enabled_summary">Displays playback position in the notifications player.</string>
 
-    <string name="_beta_" translatable="false">(beta)</string>
-    <string name="beta" translatable="false">Beta</string>
-    <string name="settings">Settings</string>
-    <string name="exit">Exit</string>
-    <plurals name="removing_album_art_from_tracks">
-        <item quantity="one">Removing album art from track…</item>
-        <item quantity="other">Removing album art from tracks…</item>
-    </plurals>
-    <plurals name="removing_album_art_from_albums">
-        <item quantity="one">Removing album art from album…</item>
-        <item quantity="other">Removing album art from albums…</item>
-    </plurals>
-    <plurals name="prepparing_album_art_to_remove">
-        <item quantity="one">Preparing to remove album art…</item>
-        <item quantity="other">Preparing to remove album art…</item>
-    </plurals>
-    <plurals name="removing_album_art_from_database">
-        <item quantity="one">Removing album art from library…</item>
-        <item quantity="other">Removing album art from library…</item>
-    </plurals>
-    <plurals name="delete_album_art_files">
-        <item quantity="one">Deleting album art file…</item>
-        <item quantity="other">Deleting album arts files…</item>
-    </plurals>
-    <string name="cast_to">Cast to</string>
-    <string name="stop_casting">Stop casting</string>
-    <string name="local_renderer">Local player</string>
-    <string name="casting">Casting</string>
-    <string name="connection_lost">connection lost</string>
-    <string name="connection_recovered">connection recovered</string>
+    <!-- * Search -->
+    <string name="search">Search</string>
+    <string name="search_hint">Search in library</string>
+    <string name="search_alternate">Search alternate</string>
+    <string name="searching_">Searching…</string>
+    <string name="search_on_server">Search on the server…</string>
+    <string name="search_result">Search result</string>
 
-    <string name="lock">Lock</string>
-    <string name="unlock">Unlock</string>
-    <string name="confirm_edit">Confirm edit</string>
-    <string name="renderer">Renderer</string>
-    <string name="register_for_test_builds">Register for test builds</string>
-    <string name="register_for_test_builds_summary">Get updated with the latest MediaMonkey beta builds.</string>
-    <string name="no_cast_device">No cast device</string>
-    <string name="volume_leveling_value_db" translatable="false">%1$.1f dB</string>
+    <string name="lookup">Lookup information</string>
+    <string name="lyrics_search_auto">Lookup missing lyrics</string>
+    <string name="lyrics_search_auto_summary">Find missing lyrics as tracks play.</string>
+    <string name="lookup_update_database">Update database</string><!-- preference title -->
+    <string name="lookup_update_database_summary">Update the database with looked up content.</string>
+    <string name="search_settings_description">Artists, albums, tracks and video</string>
+    <string name="voice_search">Voice search</string>
+    <string name="cant_find_x">Can\'t find \'%1$s\'</string>
+    <string name="no_results_found">No results found</string>
+    <string name="filter">Filter</string>
+    <string name="original">Original</string>
+
+    <!-- * Properties -->
+    <string name="properties">Properties</string>
+    <string name="path">&quot;Path: &quot;</string>
+    <string name="length">&quot;Length: &quot;</string>
+    <string name="last_played">&quot;Last played: &quot;</string>
+    <string name="playcount">Played</string>
+    <string name="skipcount">Skipped</string>
+    <string name="size">&quot;Size: &quot;</string>
+    <string name="release_date">Release date </string>
+    <string name="multiple_audio_types">Multiple audio types</string>
+    <string name="multiple_video_types">Multiple video types</string>
+    <string name="multiple_file_types">Multiple file types</string>
+    <string name="compare_atributes_">Compare attributes…%1$s</string>
+
+    <!-- * Equalizer  -->
+    <string name="equalizer">Equalizer</string>
+    <string name="enabled_equalizer">Use equalizer</string>
+    <string name="sorry_equalizer_is_not_supported">Sorry, the equalizer is not supported on this device.</string>
+    <string name="equalizer_is_unapproachable">Equalizer cannot be accessed at the moment.</string>
+    <string name="custom">custom</string>
+    <string name="balance">Balance</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+
+    <!-- * Ringtone  -->
+    <string name="mediamonkey_ringtone_maker">MediaMonkey Ringtone Maker</string>
+    <string name="mediamonkey_ringtone_maker_summary">This requires the \'MediaMonkey Ringtone Maker\' addon, available at no cost.</string>
+    <string name="write_settings_ringtone_permission_title">Set as…</string><!-- duplicate -->
+    <string name="write_settings_ringtone_permission_message">To set track as ringtone or alarm, please give MediaMonkey permission to change system settings.</string>
+    <string name="write_settings_ringtone_permission_denied">Permission was denied. Track cannot be set as ringtone/alarm.</string>
+
+    <!-- * Widgets  -->
+    <string name="widget_full">MediaMonkey Full 4x2</string>
+    <string name="widget_full44">MediaMonkey Large 4x4</string>
+    <string name="widget_compact">MediaMonkey Compact 4x1</string>
+    <string name="widget_medium22">MediaMonkey Medium 2x2</string>
+    <string name="widget_tiny">MediaMonkey Tiny 2x1</string>
+
+    <!-- * Library  -->
+    <string name="library">Library</string>
+    <string name="choose_library_folders_title">Choose library folders</string>
+    <string name="choose_library_folders_details">Choose which folders to include in the library.</string>
+    <string name="choose_library_folders_details_with_warning">Choose which folders to include in the library and correct access permissions.</string>
+    <string name="directory_is_not_included_in_sync_path">To perform this operation, the file must be added to the library.</string>
+    <string name="scan_the_folder_to_the_library">Scan the folder to the library?</string>
+    <string name="library_folders">Library folders</string>
+    <string name="scan_library_title">Check for new/changed media</string>
+    <string name="scan_library_details">Scan library folders to show new/modified content.</string>
+    <string name="folders_added_to_library">Folders added to library</string>
+
+    <!-- These texts are related when the SD-card is changed and has a different name, but media are found in the same relative paths. -->
+    <string name="unmounted_storages_notification_title">%s couldn\'t be found in their expected location
+        .</string>
+    <string name="unmounted_storages_notification_not_found">Manage library folders to add/remove library folders?</string>
+    <string name="unmounted_storages_notification_similar">It looks like they\'re at %s. Update location?</string>
+
+    <!-- * Database maintenance  -->
+    <string name="recreating_database">Recreating database…</string>
+    <string name="updating_database">Updating database…</string>
+    <string name="repairing_database">Repairing database…</string>
+
+    <!-- * Scrobble  -->
+    <!-- Not sure whether "Scrobble" is translatable -->
+    <string name="scrobble">Scrobble</string>
+    <string name="scrobble_summary">Save play history to last.fm or other services via one of these apps:</string>
+    <string name="scrobble_pano_scrobbler">Pano Scrobbler for LastFM</string>
+    <string name="uninstall">Uninstall</string>
+    <!-- external app, which cannot be disabled only by uninstallation -->
+    <string name="scrobble_dialog_message_x">Unfortunatelly %1$s can\'t be disabled from this app. Do you want uninstall it?</string>
+
+    <string name="lookup_and_scrobble"><![CDATA[Lookup & Scrobble]]></string>
+    <string name="lookup_and_scrobble_summary">Metadata lookup, Scrobbling</string>
+
+    <!-- Ratings  -->
+    <!-- Count of stars as rating(float value for 0.5, 1.5 .. 4.5). "More" means that higher rating is included. -->
+    <string name="rating">Rating</string>
+    <plurals name="rating_x">
+        <item quantity="one">"<xliff:g id="count">%1$.1f</xliff:g> star"</item>
+        <item quantity="other">"<xliff:g id="count">%1$.1f</xliff:g> stars"</item>
+    </plurals>
+    <plurals name="rating_x_plus">
+        <item quantity="one">"<xliff:g id="count">%1$.1f</xliff:g> star or more"</item>
+        <item quantity="other">"<xliff:g id="count">%1$.1f</xliff:g> stars  or more"</item>
+    </plurals>
+    <plurals name="rating_d">
+        <item quantity="one">"<xliff:g id="count">%d</xliff:g> star"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> stars"</item>
+    </plurals>
+    <plurals name="rating_d_plus">
+        <item quantity="one">"<xliff:g id="count">%d</xliff:g> star or more"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> stars or more"</item>
+    </plurals>
+
+    <string name="rating_up">Rating up</string>
+    <string name="rating_down">Rating down</string>
+    <string name="rate_title">Rate MediaMonkey</string>
+    <string name="rate_message">If you\'re enjoying MediaMonkey, would you take a moment to rate it? Thanks for Your support!</string>
+    <string name="rate_ok">Rate it!</string>
+    <string name="rate_later">Not now</string>
+
+
+    <!-- * Preferences  -->
+    <string name="options">Options</string>
+    <!-- * Preferences User interface -->
+    <string name="ui">UI</string>
+    <string name="ui_summary">Themes, notifications, customization</string>
+    <string name="mat_theme">Theme</string>
+    <string name="select_theme">Select theme</string>
+    <string name="material_theme_amber_grey">AmberGrey</string>
+    <string name="material_theme_light_blue_grey">BlueGrey</string>
+    <string name="material_theme_blue_white">BlueWhite</string>
+    <string name="material_theme_amber_black">AmberBlack</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="auto">Auto (follow system)</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select language</string>
+    <string name="get_notified_description">Allow notifications for background processes (disabled)</string> <!-- permission for all notifications since Android 11-->
+    <string name="get_notified_description_rationale">Allow notifications for various background processes.</string>
+    <string name="home_screen">Home screen</string>
+    <string name="personalize">Configure nodes</string>
+    <string name="personalize_home_screen">Customize home screen</string>
+    <string name="personalize_home_screen_summary">Choose which icons appear on the home screen.</string>
+
+    <!-- * Preferences  Playback -->
+    <string name="playback">Playback</string>
+    <string name="playback_summary">Audio settings, Audio devices, Playing queue</string>
+    <string name="crossfade_title">Audio transitions: </string>
+    <string name="crossfade">Crossfade</string>
+    <string name="crossfade_summary">Crossfade adjacent tracks (unstable on some devices).</string>
+    <string name="gapless">Gapless</string>
+    <string name="gapless_summary">Uninterrupted playback of consecutive audio tracks.</string>
+
+    <string name="notification_and_system_sounds"><![CDATA[Notification & System sounds]]></string>
+    <string name="prevent_notification_sounds">Prevent volume changes</string>
+    <string name="prevent_notification_sounds_summary">Prevents notifications from changing volume while playing.</string>
+    <string name="disable_notification_sounds_while_playing">Disable notification sounds</string>
+    <string name="disable_notification_sounds_while_playing_summary">Disables notification sounds while playing.</string>
+
+    <string name="disable_touch_sounds">Disable touch sounds</string>
+    <string name="disable_touch_sounds_summary">Disable system \'touch sounds\' while playing.</string>
+    <string name="write_settings_touch_sounds_permission_message">To disable touch sounds, please give MediaMonkey permission to change system settings.</string>
+    <string name="write_settings_touch_sounds_permission_denied">Permission was denied. System touch sounds cannot be disabled.</string>
+
+    <string name="remote_controls">Remote controls</string>
+    <string name="always_respond_to_remote_controls">Always respond to remote buttons</string>
+    <string name="always_respond_to_remote_controls_summary">Respond to bluetooth or other controls whenever possible.</string>
+    <string name="resume_play_on_connection">Resume play on connection</string>
+    <string name="resume_play_on_connection_summary_none">Don\'t automatically resume playback upon connecting an audio device.</string>
+    <!-- preference description following by list Wired headset/Bluetooth/Dock -->
+    <string name="resume_play_on_connection_summary_list">Automatically resume playback after connecting: %s</string>
+    <!-- preference resume_play_on_connection values -->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="wired_headset">Wired headset</string>
+    <string name="dock">Dock</string>
+    <string name="headset_service_required">Uses HeadsetDock service</string>
+
+    <!-- preference to have some node order for clients like Android Auto as in home screen  -->
+    <string name="use_same_nodes_for_remote_clients">Customize navigation for external apps</string>
+    <string name="use_same_nodes_for_remote_clients_summary">Use the home screen\'s hierarchy for browsing over bluetooth or Android Auto.</string>
+    <string name="remote_list_size_limit_title">Limit list size for external apps</string>
+    <string name="remote_list_size_limit_summary">Displays %s tracks when browsing via Android Auto, Bluetooth, etc.
+        Values > 0 may be incompatible with some devices.</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="use_to_play_video_title">Use to play video</string>
+    <string name="use_to_play_video_summary">Use MediaMonkey to play video by default</string>
+    <string name="play_now_keep">\'Play now\' preserves the queue</string>
+    <string name="play_now_keep_summary">Plays the track without clearing the Playing queue</string>
+    <string name="chromecasting_volume">Google TV Volume control</string>
+    <string name="chromecasting_volume_description">Alternate mechanism if cast volume control fails.</string>
+    <!--* Preferences  Library & Sync -->
+    <string name="library_and_sync"><![CDATA[Library & Sync]]></string>
+    <string name="library_and_sync_summary">Library folders, Wi-Fi sync, UPnP</string>
+
+    <string name="update_playlists_from_other_apps">Update playlists from other apps</string>
+    <string name="update_playlists_from_other_apps_summary">Playlist changes made by other apps will appear in the library when it\'s refreshed. Disable if other apps corrupt synced playlists.</string>
+
     <string name="low_battery">Low battery</string>
     <string name="low_battery_termination_title">End sync on low battery</string>
     <string name="low_battery_termination_summary">End Wi-Fi sync operations on low battery</string>
     <string name="end_wifi_sync_operations_if_power_remains">End Wi-Fi sync if less than %1d %% battery remains.</string>
     <string name="wifi_sync_ended_because_battery_is_low">Wi-Fi Sync ended due to low battery.</string>
-    <string name="upgrading_paths_format">Upgrading paths format in database…</string>
+    <string name="select_mm_server_summary">Choose a new MediaMonkey server to sync with.</string>
+    <string name="select_mm_server_summary_selected">Sync server: %1$s</string>
+    <!-- * Preferences  General -->
+    <string name="general">General</string>
+    <string name="battery">Battery</string>
+    <string name="disable_battery_optimization">Allow MediaMonkey to run in the background</string>
+    <string name="disable_battery_optimization_details">This prevents Android from closing MediaMonkey when it\'s running (casting, syncing, etc.) in the
+        background.</string>
 
-    <string name="alternative_server">MediaMonkey sync server is not available. Try connecting to a different sync server.</string>
-    <string name="play_all">Play all</string>
-    <string name="play_all_shuffle">Play all (shuffled)</string>
-    <string name="no_track_query_found">No track %s found.</string>
-    <string name="progress_counter" translatable="false">%1$d/%2$d</string>
-    <string name="progress_counter_kb" translatable="false">%1$d KB/%2$d KB</string>
-    <string name="percents" translatable="false">%1$d%%</string>
-    <string name="folders_added_to_library">Folders added to library</string>
-    <string name="resume_play_on_connection">Resume play on connection</string>
-    <string name="wired_headset">Wired headset</string>
-    <string name="dock">Dock</string>
-    <string name="all">All</string>
-    <string name="resume_play_on_connection_summary_none">Don\'t automatically resume playback upon connecting an audio device.</string>
-    <string name="resume_play_on_connection_summary_list">Automatically resume playback after connecting: %s</string>
-    <string name="unavailable_storage">Unavailable storage</string>
-    <string name="unknown_storage">Unknown storage</string>
-    <string name="disable_debug_logs">Disable debug logs</string>
-    <string name="disable_debug_logs_summary">Disable all debug logs to improve performance</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="currently_playing_song">Track currently playing</string>
-    <string name="currently_playing_artist">Artist for currently playing track</string>
+    <string name="mm_support">Support</string>
+    <string name="mm_support_details">Knowledge base and helpdesk</string>
+    <string name="help">Help</string>
 
-    <string name="years">Years</string>
-    <string name="series">Series</string>
-    <string name="directors">Directors</string>
-    <string name="producers">Producers</string>
-    <string name="actors">Actors</string>
-    <string name="ratings">Ratings</string>
-    <string name="subscriptions">Subscription</string>
-    <string name="unplayed">Unplayed</string>
-    <string name="browse_tracks">Browse tracks</string>
-    <string name="enable_shuffle">Enable shuffle</string>
-    <string name="disable_shuffle">Disable shuffle</string>
-    <string name="rating_up">Rating up</string>
-    <string name="rating_down">Rating down</string>
-    <string name="unmounted_storages_notification_title">%s couldn\'t be found in their expected location
-        .</string>
-    <string name="unmounted_storages_notification_not_found">Manage library folders to add/remove library folders?</string>
-    <string name="unmounted_storages_notification_similar">It looks like they\'re at %s. Update location?</string>
-    <string name="manage">Manage</string>
-    <string name="update">Update</string>
+    <string name="prefereneces_updated">Preferences updated</string>
+    <string name="prefereneces_not_updated">Preferences not updated</string>
 
+    <string name="draggable_configuration_description">Change node order by tap-holding and dragging items.</string>
+    <string name="visibility_configuration_description">Show as child navigation nodes (e.g. in tabs)</string>
+    <string name="root_visibility_configuration_description">Show as top level navigation nodes (e.g. on the home screen)</string>
+    <string name="info_panel">Status indicator</string>
+    <string name="always_expand_during_processing">Show progress details</string>
+    <string name="always_expand_during_processing_summary">Always expand to show background task details.</string>
+    <!-- * Home screen & navigation preferences -->
+    <string name="state_show_on_low_level">Show in tabs (child)</string>
+    <string name="state_show_on_top_level">Show on home screen (top level)</string>
+    <string name="you_cannot_change_parent_for_subnodes">Subnodes cannot be moved to a new parent.</string>
+    <!-- * Preferences less or equal Android  10 -->
+    <string name="notification_progressbar_enabled">Show seek bar</string>
+    <string name="notification_progressbar_enabled_summary">Displays playback position in the notifications player.</string>
+    <!-- * Preferences - notification  -->
+    <string name="notification">Notifications</string>
+    <string name="termination_timer_title">Show in notifications bar</string>
+    <string name="termination_timer_summary">When paused/inactive, run in notifications bar for %1$s before closing.</string>
+    <string name="termination_timer_summary_always">When paused/inactive, run in notifications bar.</string>
 
+    <string name="playback_notification">Player notification type</string>
+    <string name="playback_notification_small">Small</string>
+    <string name="playback_notification_large">Large</string>
+    <string name="playback_notification_system">System</string>
+    <string name="playback_notification_summary">Displays %s media player in notifications.</string>
+
+    <!-- * Notification - channels  -->
     <string name="sync_channel_name">Sync</string>
     <string name="sync_channel_description">Sync status</string>
     <string name="storage_channel_name">Media library</string>
@@ -704,370 +1088,140 @@
     <string name="common_app_channel_name_description">Album Art, mediastore, etc. updates</string>
     <string name="wired_channel_name">Wired devices</string>
     <string name="wired_channel_name_description">Device connection updates</string>
-    <string name="picture_in_picture">Picture in picture</string>
-    <string name="delete_playlist">Delete playlist</string>
-    <string name="delete_playlist_and_tracks">Delete playlist and tracks</string>
-    <string name="location">Location</string>
-    <string name="order_by">Order by…</string>
-    <string name="actor">Actor</string>
-    <string name="director">Director</string>
-    <string name="producer">Producer</string>
-    <string name="publisher">Publisher</string>
-    <string name="duration">Duration</string>
-    <string name="bitrate">Bitrate</string>
-    <string name="send">Send</string>
-    <string name="acra_send_automaticlay_next_time">Don\'t ask next time and send debug logs automatically.</string>
-    <string name="logs_crash_info">MediaMonkey has crashed. Sending a debug log will help us resolve this problem.</string>
-    <string name="acra_send_automaticlay_title">Send crash logs automatically</string>
-    <string name="acra_send_automaticlay_description">If MediaMonkey crashes, debug logs will be sent to the development team automatically.
-       This will take effect after the app is restarted.
-    </string>
-    <string name="running_service_resume_on_connection_title">Resume play on wired headset or dock connection(running service).</string>
-    <string name="headset_service_required">Uses HeadsetDock service</string>
-    <string name="notification_ms_sync_description">Scanning folders to the library.</string>
+
+    <!-- * Notifications -->
     <string name="notification_background">Background task</string>
     <string name="notification_shorcut_updating">Updating shortcuts.</string>
     <string name="notification_creating_thumbnails">Creating new video thumbnails.</string>
     <string name="notification_storage_updating_title">Updating storage.</string>
-    <string name="preparing_">Preparing…</string>
     <string name="updating_playback_settings">Updating playback settings</string>
     <string name="preparing_playback_service">Preparing playback service</string>
-    <string name="notification_database_initialization">Database initialization</string>
 
-    <string name="remote_list_size_limit_title">Limit list size for external apps</string>
-    <string name="remote_list_size_limit_summary">Displays %s tracks when browsing via Android Auto, Bluetooth, etc.
-        Values > 0 may be incompatible with some devices.</string>
-    <string name="unlimited">Unlimited</string>
-    <string name="missing_tracks">Missing tracks</string>
-    <string name="playback_notification">Player notification type</string>
-    <string name="playback_notification_small">Small</string>
-    <string name="playback_notification_large">Large</string>
-    <string name="playback_notification_system">System</string>
-    <string name="playback_notification_summary">Displays %s media player in notifications.</string>
-
-    <string name="add_media_server">Add media server</string>
-    <string name="device_destination">Device destination</string>
-    <string name="add">Add</string>
-    <string name="invalid_url_format">Invalid url format</string>
-    <string name="unsupported_uri">Unsupported uri</string>
-    <string name="stored_media_server_is_unavailable">Saved media server is inaccessible.</string>
-    <string name="recreating_tracklist">Recreating Playing queue…</string>
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="login">Login</string>
-    <string name="mounting_storage">Storage mounting…</string>
     <string name="mounted_storages_notification_title">Mounted storage: %s</string>
     <string name="mounted_storages_notification_description">Scan for updated media files?</string>
-    <string name="postpone">Postpone</string>
-    <string name="check">Check</string>
-    <string name="favourite">Favorite</string>
-    <string name="videos">Videos</string>
-    <string name="home">Home</string>
-    <string name="other_content_browsing">Browsing</string>
-    <string name="material_theme_amber_grey">AmberGrey</string>
-    <string name="material_theme_light_blue_grey">BlueGrey</string>
-    <string name="material_theme_blue_white">BlueWhite</string>
-    <string name="material_theme_amber_black">AmberBlack</string>
-    <string name="mat_theme">Theme</string>
-    <string name="ui" translatable="false">UI</string>
-    <string name="ui_summary">Themes, notifications, customization</string>
-    <string name="library_and_sync"><![CDATA[Library & Sync]]></string>
-    <string name="library_and_sync_summary">Library folders, Wi-Fi sync, UPnP</string>
-    <string name="lookup_and_scrobble"><![CDATA[Lookup & Scrobble]]></string>
-    <string name="lookup_and_scrobble_summary">Metadata lookup, Scrobbling</string>
-    <string name="playback">Playback</string>
-    <string name="playback_summary">Audio settings, Audio devices, Playing queue</string>
-    <string name="general">General</string>
-    <string name="audio">Audio</string>
-    <string name="confirm">Confirm</string>
-    <string name="download_tracks">Download tracks</string>
-    <string name="notification">Notifications</string>
-    <string name="home_screen">Home screen</string>
-    <string name="show">Show</string>
-    <string name="register">Register</string>
-    <string name="report">Report</string>
-    <string name="hide">Hide</string>
-    <string name="used_space_MB">%d MB used</string>
-    <string name="used_space_GB">%1.1f GB used</string>
-    <string name="free_space_MB">%d MB free</string>
-    <string name="free_space_GB">%1.1f GB free</string>
-    <string name="free_total_space_MB" translatable="false">%d MB / %d MB</string>
-    <string name="free_total_space_GB" translatable="false">%1.1f GB / %1.1f GB</string>
-    <string name="multiple_audio_types">Multiple audio types</string>
-    <string name="multiple_video_types">Multiple video types</string>
-    <string name="multiple_file_types">Multiple file types</string>
-    <string name="no_connection">No connection</string>
-    <string name="turn_on">Turn on</string>
 
-    <string name="track_order">Track order</string>
-    <string name="done_icon">Done icon</string>
-    <string name="popup_menu">Popup menu</string>
-    <string name="crash_before_sending">Sending Crash reports.</string>
-    <string name="crash_sent_succeeded">Crash reports delivered successfully.</string>
-    <string name="crash_sent_failed">Failed to deliver Crash reports.</string>
-    <string name="getting_desync_media_to_delete">Preparing list of files to delete…</string>
-    <string name="casting_to_chromecast">Casting to chromecast device</string>
-    <string name="category">Category</string>
-    <string name="options">Options</string>
-    <string name="settings2">Settings</string>
-    <string name="header_icon">Header icon</string>
-    <string name="media_server">Media Server</string>
-    <string name="media_servers">Media servers</string>
-    <string name="no_media_server">No media server</string>
-    <string name="media_servers_not_found_message">Could not find any Media server on the network.</string>
+    <string name="player_connected">Player connected</string>
+    <string name="player_connected_description">Sharing content with Android Auto/Bluetooth device.</string>
 
-    <string name="new_playlist">New Playlist</string>
-    <string name="create_and_add">Create and add</string>
-    <string name="add_to">Add to</string>
-    <string name="notification_updating_album_artwork">Updating album artwork:</string>
-    <string name="updating_media_store">Updating database of media</string>
-    <string name="usb_sync">USB sync</string>
-    <string name="usb_sync_description">Checking whether a new USB sync is needed.</string>
-    <string name="update_playlists_from_other_apps">Update playlists from other apps</string>
-    <string name="update_playlists_from_other_apps_summary">Playlist changes made by other apps will appear in the library when it\'s refreshed. Disable if other apps corrupt synced playlists.</string>
-    <string name="checking_tasks_to_process">Updating library…</string>
-    <string name="updating_playlist_file">Updating playlist file</string>
-    <string name="media">Media</string>
-    <string name="select_server">Select server</string>
-    <string name="select_storage">Select storage</string>
-    <string name="select_content">Select content</string>
-    <string name="no_sync_server_selected">No sync server selected</string>
-    <string name="no_storage_selected">No storage selected</string>
-    <string name="storage">Storage</string>
-    <string name="return_to_now_playing">Return to Playing queue</string>
-    <string name="expand_to_full_screen_video_player">Full screen</string>
-    <string name="items_to_be_uploaded_description">Items to upload to the server</string>
-    <string name="items_to_be_deleted_description">Items to delete from this location</string>
-    <string name="confirmation_dialog_description">Please confirm uploads to the server and deletions from this location.</string>
-    <string name="items">Items</string>
-    <string name="to_delete">to delete</string>
-    <string name="or">or</string>
-    <string name="to_upload">to upload</string>
-    <string name="search_on_server">Search on the server…</string>
-    <string name="existing">Existing</string>
-    <string name="no_library_tracks">No library tracks</string>
-    <string name="open_in_fullscreen">Open fullscreen</string>
-    <string name="artwork_not_available_search">Search for missing artwork?</string>
-    <string name="lyrics_lookup">Lyrics lookup</string>
-    <string name="artwork_lookup">Artwork_lookup</string>
-    <string name="no_media_found_for_searched_term">No media found for \"%s\"</string>
-    <string name="no_albums_found_for_searched_term">No album found for \"%s\"</string>
-    <string name="draggable_configuration_description">Change node order by tap-holding and dragging items.</string>
-    <string name="visibility_configuration_description">Show as child navigation nodes (e.g. in tabs)</string>
-    <string name="root_visibility_configuration_description">Show as top level navigation nodes (e.g. on the home screen)</string>
-    <string name="home_screen_preferences">Home screen</string>
-    <string name="navigation_preferences">Navigation</string>
-    <string name="info_panel">Status indicator</string>
-    <string name="always_expand_during_processing">Show progress details</string>
-    <string name="always_expand_during_processing_summary">Always expand to show background task details.</string>
-    <string name="all_done_no_background_task">Background task completed.</string>
+    <string name="running_service_resume_on_connection_title">Resume play on wired headset or dock connection(running service).</string>
+    <string name="notification_updating_album_artwork">Updating album artwork</string>
 
-    <string name="action_scanning_library_files">Scanning files into the library</string>
-    <string name="starting_">Starting…</string>
-    <string name="removing_deselected_media_from_library">Removing items from the database…</string>
+    <!-- Volume  -->
+    <string name="volume_leveling">Level volume</string>
+    <string name="volume_leveling_summary">Adjusts volume for tracks with volume information.</string>
+    <string name="volume_leveling_label">&quot;Leveling: &quot;</string>
+    <string name="volume_leveling_value_db" translatable="false">%1$.1f dB</string> <!-- decibel -->
 
-    <string name="auto_sync_server_content">Sync server content</string>
-
-    <string name="auto_sync_file_metadata_changes">Auto-Sync file metadata</string>
-    <string name="auto_sync_playlists_and_new_files_to_the_server">Auto-sync playlists and new files to the server</string>
-    <string name="auto_sync_playlists_and_new_files_to_the_server_and_metadata">Auto-sync playlists and new files to the server + file metadata</string>
-
-    <string name="sync_this_storage">Sync storage</string>
-    <string name="change">Change</string>
-    <string name="storage_location_to_sync">Storage locations to sync</string>
-    <string name="sync_from_server">Sync from the server</string>
-    <string name="file_metadata">File metadata</string>
-    <string name="sync_device_metadata_description">Sync changed metadata such as ratings and play history.</string>
-
-    <string name="device_content">Device content</string>
-    <string name="sync_device_content_description">Sync playlists and new files to the server (folders must be configured on the server).</string>
-    <string name="choosed_server_content">Server content to keep synced</string>
-
-    <string name="destination_file_locations">Destination File locations</string>
-    <string name="reconnect">Reconnect</string>
-    <string name="sync_setting_wizard">Sync configuration wizard</string>
-    <string name="review_settings">Review settings</string>
-    <string name="bidirectional_folders">Bidirectional folders</string>
-    <string name="content">Content</string>
-    <string name="no_sync_server">No sync server</string>
-    <string name="no_storage_enabled">No storage enabled</string>
-    <string name="sync_from_server_description">Choose content to keep synced.</string>
-    <string name="show_confirm_dialog">Show confirmation dialog</string>
-    <string name="server_content">Server content</string>
-    <string name="choose">Choose</string>
-    <string name="sync_deletion_from_device">Delete from the device</string>
-    <string name="downloading_sync_setting">Downloading sync setting…</string>
-    <string name="uploading_sync_setting_for_x">Uploading sync setting for %s…</string>
-    <string name="searching_sync_server">Searching sync server…</string>
-    <string name="searching_media_servers">Searching media servers…</string>
-    <string name="searching_cast_devices">Searching for cast devices…</string>
-    <string name="_online" translatable="false">" - online"</string>
-    <string name="upnp_service_disconnected">Upnp service disconnected</string>
-    <string name="select_other_server">Choose other server</string>
-    <string name="downloading_sync_setting_success">Sync setting downloaded.</string>
-    <string name="downloading_sync_setting_failed">Downloading sync setting failed.</string>
-    <string name="uploading_sync_setting_success">Sync setting uploaded.</string>
-    <string name="uploading_sync_setting_failed">Uploading sync setting failed.</string>
-    <string name="idle">Idle</string>
-    <string name="server_connected">Server connected</string>
-    <string name="server_disconnected">Server disconnected</string>
-    <string name="connecting_to_server">Connecting to server…</string>
-    <string name="no_albums">No albums</string>
-    <string name="no_artists">No artists</string>
-    <string name="no_series">No series</string>
-    <string name="more_than_x_items">More than %d items</string>
-    <!--    <string name="backup_description">To recovery settings from the previous version, grant access to the old MediaMonkey Folder.</string>-->
-    <string name="agreement">Agreement</string>
-    <string name="settings_recovery">Recover settings</string>
+    <!-- Permissions  -->
+    <string name="media_monkey_needs_access_to_">MediaMonkey needs access to %s.</string>
+    <string name="media_folders">media folders</string>
+    <string name="storage_permission_hint_intro">To grant access:</string>
+    <string name="storage_permission_hint_1">Click the 3 dots menu icon on the following dialog.</string>
+    <string name="storage_permission_hint_2">Select \"Show SD card\" to allow SD card locations to display.</string>
+    <string name="storage_permission_hint_3">Tap the navigation icon on the left to display all storage locations.</string>
+    <string name="storage_permission_hint_4">Choose the location you want to grant access to, typically \"SD card\".</string>
+    <string name="storage_permission_hint_5">Tap \"SELECT\" to grant access.</string>
+    <string name="storage_tree_uri_permission_hint_1">A file browser will open the folder requiring access.</string>
+    <string name="storage_tree_uri_permission_hint_2">Click \"Use this folder\" or \"Select\" to choose the folder.</string>
+    <string name="storage_permission_title">Grant access to storage</string>
+    <string name="storage_permission_details">MediaMonkey requires folder write permission to function optimally!</string>
+    <string name="app_failure_message">MediaMonkey can\'t access its application folder. Reboot your device to resolve this.</string>
+    <string name="write_storage_permission_message">To use MediaMonkey please give it access to your media files.</string>
+    <string name="permission_denied">Permission was denied.</string>
+    <string name="write_storage_permission_denied">Permission was denied. Exiting MediaMonkey.</string>
+    <string name="need_access_more_info">If permission is not granted, new content will be saved to a private MediaMonkey folder that can\'t be shared with
+        other apps.</string>
+    <string name="storage_permission_ignore_warning">If access isn\'t granted to the requested folders:\n\nMediaMonkey will instead sync content to a
+        MediaMonkey-specific folder that is inaccessible to other music players.</string>
+    <string name="storage_permission_ignore_warning_short">If access isn\'t granted to the requested folders:\n\nMediaMonkey won\'t be able to edit/sync content to those locations!</string>
+    <!-- Write access to folder is granted via Files manager, this is when the manager returns invalid folder uri -->
+    <string name="invalid_tree_uri">Invalid permission uri %s</string>
+    <string name="path_already_writable">Folder %s is already writable.</string>
+    <string name="path_not_requested">Path %s was not requested. Please choose from the list above.</string>
+    <string name="path_invalid">Cannot write to the configured location. MediaMonkey-specific folder will be used instead.</string>
+    <string name="register_for_test_builds">Register for test builds</string>
+    <string name="register_for_test_builds_summary">Get updated with the latest MediaMonkey beta builds.</string>
     <string name="access_to_media">Access to media</string>
     <string name="access_to_folders">Access to folders</string>
-    <string name="welcome_to_media_monkey">Welcome to MediaMonkey</string>
-    <string name="lets_start">Let\'s start</string>
-    <string name="eula_title">Ventis Media, Inc. End-User License Agreement for MediaMonkey</string>
-    <string name="grant">Grant</string>
-    <string name="no_subscription">No subscription</string>
-    <string name="billing_service_disconnected">Billing service disconnected.</string>
-    <string name="copying_settings_files">copying settings files…</string>
-    <string name="add_server">Add server</string>
-    <string name="database_maintenance">Database maintenance</string>
-    <string name="backup_info_description">The folder is used for USB synchronization with older versions of MediaMonkey for Windows.</string>
+    <string name="backup_info_description">The folder is used for USB synchronization with MediaMonkey desktop.</string>
+    <string name="please_grant_to_proceed">Please grant access to proceed:</string>
+    <string name="mediamonkey_settings_folder">the MediaMonkey settings folder</string>
     <string name="grant_access_to_mediamonkey">Grant access to MediaMonkey folder</string>
     <string name="grant_access_to_mediamonkey_details">MediaMonkey requires write permissions for backup &amp; USB sync.</string>
-    <string name="debuging">Debugging</string>
-    <string name="partly">Partly</string>
-    <string name="no_content_to_sync">No content to sync</string>
-    <string name="navigation">Navigation</string>
-
-    <string name="no_deletion">None</string>
-    <string name="unselected_copies">Unselected server files</string>
-    <string name="all_unselected_content">All unselected files</string>
-
-    <string name="switch_to_wizard">Switch to wizard</string>
-    <string name="skip_this_step_next_time">Skip this step next time</string>
-    <string name="skip_presync_dialog">Skip sync storage selection</string>
-    <string name="skip_presync_dialog_summary">Don\'t prompt to choose storage locations to sync before syncing (use existing settings).</string>
-    <string name="select_storage_to_sync">Select storage locations to sync</string>
-    <string name="license_agreement">License agreement</string>
-    <string name="server_ip_address">Server address(IP or DNS)</string>
-    <string name="port" translatable="false">Port</string>
-    <string name="device_description_file_path">Device Description file path</string>
-    <string name="protocol">Protocol</string>
-    <string name="paste">Paste</string>
-    <string name="scan">Scan</string>
-    <string name="mediamonkey_settings_folder">the MediaMonkey settings folder</string>
-    <string name="please_grant_to_proceed">Please grant access to proceed:</string>
-    <string name="retry">Retry</string>
-    <string name="dont_sync">Don\'t sync</string>
-    <string name="moving_content_from_application_folder">Moving content from application folder</string>
-
-    <!-- Amazon only strings -->
-    <string name="purchase_finished_successfully">Purchase completed successfully!</string>
-    <string name="product_already_owned">Product already owned</string>
-    <string name="failed_should_retry_request">Failed, should retry request</string>
-
-    <string name="purchase_cannot_be_verified_please_retry_later">Purchase cannot be verified, please retry later.</string>
-    <string name="purchase_failed">Purchase failed</string>
-    <string name="invalid_sku">Invalid sku</string>
-    <string name="queue">Queue</string>
-    <string name="lyrics">Lyrics</string>
-    <string name="art">Art</string>
-    <string name="playing">Playing</string>
-    <string name="server_not_responding">Server Not Responding</string>
-    <string name="uploaded">Uploaded</string>
-    <string name="updated">Updated</string>
-    <string name="deleted">Deleted</string>
-    <string name="downloaded">Downloaded</string>
-    <string name="to_server">to server</string>
-    <string name="from_server">from server</string>
+    <string name="preferences_were_recovered_from_backup">Preferences have been restored from backup.</string>
+    <string name="copying_settings_files">copying settings files…</string>
     <string name="create_and_grant">Create &amp; Grant</string>
+    <string name="write_contacts_permission_message">To assign ringtone to contact, please give MediaMonkey required permission.</string>
+    <string name="write_contacts_permission_denied">Permission was denied. The ringtone cannot be assigned to contact.</string>
+    <string name="read_uri_permission_denied">Permission denied. File is not readable.</string>
+    <string name="access_to_video">Allow access to videos</string>
+    <string name="access_to_video_description">To scan videos MediaMonkey needs access to the Android video library.</string>
 
-    <string name="agree">Agree</string>
-    <string name="new_">New</string>
-    <string name="create">Create</string>
-    <string name="add_items_to_playlist">Add items to %s playlist?</string>
-    <string name="invalid_tree_uri">Invalid permission uri %s</string>
-    <string name="battery">Battery</string>
-    <string name="disable_battery_optimization">Allow MediaMonkey to run in the background</string>
-    <string name="disable_battery_optimization_details">This prevents Android from closing MediaMonkey when it\'s running (casting, syncing, etc.) in the
-        background.</string>
-    <string name="confirmation_required">(Confirmation required)</string>
-    <string name="mm_support">Support</string>
-    <string name="mm_support_details">Knowledge base and helpdesk</string>
-    <string name="help">Help</string>
-    <string name="prevent_notification_sounds">Prevent volume changes</string>
-    <string name="prevent_notification_sounds_summary">Prevents notifications from changing volume while playing.</string>
-    <string name="disable_notification_sounds_while_playing">Disable notification sounds</string>
-    <string name="disable_notification_sounds_while_playing_summary">Disables notification sounds while playing.</string>
-    <string name="state_show_on_low_level">Show in tabs (child)</string>
-    <string name="state_show_on_top_level">Show on home screen (top level)</string>
-    <string name="disabled">Disabled</string>
-    <string name="you_cannot_change_parent_for_subnodes">Subnodes cannot be moved to a new parent.</string>
-    <string name="notification_and_system_sounds"><![CDATA[Notification & System sounds]]></string>
-    <string name="click_to_upgrade_to_pro_version">Tap to upgrade…</string>
-    <string name="save_failed">Save failed!</string>
-    <string name="select_theme">Select theme</string>
-    <string name="dark_mode">Dark mode</string>
-    <string name="dark_mode_summary">Dark mode: %s.</string>
-    <string name="off">Off</string>
-    <string name="on">On</string>
-    <string name="auto">Auto (follow system)</string>
+    <!-- Access permission -->
     <string name="artwork_folders_to_add">Artwork folders to add</string>
     <string name="artwork_folders_to_add_description">Tracks have links to artwork that hasn\'t been added to the library. Please add these folders to the library so that artwork displays correctly.</string>
-    <string name="artwork_folders_grant_permission">Tracks have links to artwork that hasn\'t read permission. Please grant access to this folder %s.</string>
+    <string name="artwork_folders_grant_permission">Tracks have links to artwork that cannot be read. Please grant access to this folder %s.</string>
     <string name="storage_permission_message_rationale">MediaMonkey requires access to media files to work. Please give it access to your media files.</string>
     <string name="storage_permission_message_denied_completely">MediaMonkey requires access to media files to work. Unfortunately requests for the permission were denied and it cannot be requested again. To use MediaMonkey go to the application details and grant the permission manually.</string>
-    <string name="resume_playback">Resume playback</string>
     <string name="external_storage_app_all_files_denied_title">OS settings</string>
     <string name="external_storage_app_all_files_denied_description">Access to media files is blocked because \'All files access\' is disabled for the system
         app \'External storage\'.</string>
     <string name="external_storage_app_all_files_denied_solution">
         \n\n To resolve this:
-        \n\n 1 Tap \'Configure...\' to open the \'All files access\' permission settings.
+        \n\n 1 Tap \'Configure…\' to open the \'All files access\' permission settings.
         \n\n 2 Find \'External Storage\' in the app list, and enable it (if it\'s not in the list, tap \'⋮\' > \'Show System Apps\').</string>
-    <string name="more_info">More info</string>
     <string name="no_file_manager_to_grant_access">There is no file manager installed capable of granting folder access.\nPlease install Files by Google.</string>
-    <string name="configure_">Configure…</string>
-    <string name="add_client">Add client</string>
-    <string name="player_connected">Player connected</string>
-    <string name="player_connected_description">Sharing content with Android Auto/Bluetooth device.</string>
-    <string name="use_same_nodes_for_remote_clients">Customize navigation for external apps</string>
-    <string name="use_same_nodes_for_remote_clients_summary">Use the home screen\'s hierarchy for browsing over bluetooth or Android Auto.</string>
-    <string name="contextual_action_supported_for_unknown_items">Contextual action is not supported for unknown items.</string>
-    <string name="chromecasting_volume">Google TV Volume control</string>
-    <string name="chromecasting_volume_description">Alternate mechanism if cast volume control fails.</string>
-    <string name="get_notified_description">Allow notifications for background processes (disabled)</string>
-    <string name="get_notified_description_rationale">Allow notifications for various background processes.</string>
-    <string name="sync_error">Sync error</string>
-    <string name="connection_failed_hint">Server inaccessible (try restarting the server and then re-running the Sync configuration wizard)</string>
-    <string name="conversion_of_file_is_stalling">Conversion of file %s is stalling, check free space in the temporary directory on the server.</string>
-    <string name="different_sync_server">Sync settings</string>
-    <string name="different_sync_server_message">MediaMonkey is configured to sync with a different server. Do you want to use new sync settings from this server (existing settings will be replaced)?</string>
-    <string name="wizard">Wizard</string>
-    <string name="verify_paired_files">Check for missing server items</string>
-    <string name="verify_paired_files_description">Verifies whether previously synced files or playlists have been removed from the server (Slow. Only active for this sync).</string>
-    <string name="verifying_paired">Verifying paired files</string>
-    <string name="verifying_paired_details">Verifying already paired files…</string>
-    <string name="verifying_">Verifying…</string>
-    <string name="advanced_options">Advanced options</string>
-    <string name="finalizing">Finalizing</string>
-    <string name="finalizing_synchronization_">Finalizing synchronization…</string>
-    <string name="bidi_content_title">Bidirectional content</string>
-    <string name="bidi_content_description">"Choose content to keep synced bidirectional "</string>
-    <string name="remains">&quot;Remaining: &quot;</string>
-    <string name="missing_folders_info">The folder name is automatically copied to the clipboard when you click on \'CREATE &amp; GRANT\'.</string>
     <string name="tree_permission_missing_folders_description">Tap the \'Create folder\' button, and enter or \'Paste\' the new folder name (MediaMonkey copies
         the folder name to the clipboard).</string>
-    <string name="moved">Moved</string>
-    <string name="skip_sync_review">Skip sync review</string>
-    <string name="skip_sync_review_description">Skip the sync review page before syncing. Disable to adjust sync settings before each sync.</string>
-    <string name="no_results_found">No results found</string>
-    <string name="v3_synchronization">MM5 metadata scanning</string>
-    <string name="do_not_ask_again">"Do not ask again "</string>
-    <string name="filter">Filter</string>
-    <string name="original">Original</string>
-    <string name="access_to_video">Allow access to videos</string>
-    <string name="access_to_video_description">To scan videos MediaMonkey needs access to the Android video library.</string>
-    <string name="preferences_were_recovered_from_backup">Preferences have been restored from backup.</string>
     <string name="removing_sync_destination">This folder is configured as a sync destination (on the sync server) and will be recreated on the next sync operation.</string>
-    <string name="do_you_want_to_proceed">Do you want to proceed?</string>
+
+    <!-- launch wizard, maintenance  -->
+    <string name="switch_to_wizard">Switch to wizard</string>
+    <string name="database_maintenance">Database maintenance</string>
+    <string name="moving_content_from_application_folder">Moving content from application folder</string>
+
+    <!-- Device specific preferences  -->
+    <string name="htc_sound_enhancer">HTC Sound Enhancer</string>
+
+    <!-- This is used in dialog when no storage is available. Historically it happens when phone was connected to PC. Nowadays at least main storage is
+    usually mounted. So the text is updated. -->
+    <string name="ums_activity_title">No storage available</string>
+    <string name="ums_activity_message">Mount at least one storage to access files.</string>
+
+    <!-- * Dialogs  -->
+    <string name="do_not_ask_again">"Do not ask again "</string>
+
+
+    <!-- * content descriptions (buttons and icons)
+         Users of accessibility services, such as screen readers, rely on content labels to understand the meaning of elements in an interface.
+    -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="currently_playing_artist">Artist for currently playing track</string>
+    <string name="currently_played_media">Currently playing track</string>
+    <string name="done_icon">Done icon</string>
+    <string name="popup_menu">Popup menu</string>
+    <string name="track_order">Track order</string>
+    <string name="category">Category</string>
+    <string name="header_icon">Header icon</string>
+    <string name="navigation">Navigation</string>
+    <string name="album_artwork">Album artwork</string>
+    <string name="grab_to_move">Grab to re-order items in the list</string>
+
+    <!-- * Developer beta preferences -->
+    <string name="disable_debug_logs">Disable debug logs</string>
+    <string name="disable_debug_logs_summary">Disable all debug logs to improve performance</string>
+    <string name="adaptive_colors">Adaptive colors</string>
+    <string name="adaptive_colors_summary">Use adaptive colors in the Albums grid view.</string>
+    <string name="may_decrease_performance">May decrease performance</string>
+
+    <!-- * Amazon only - billing strings -->
+    <string name="purchase_finished_successfully">Purchase completed successfully!</string>
+    <string name="product_already_owned">Product already owned</string>
+    <string name="failed_should_retry_request">Failed. Retry.</string>
+    <string name="purchase_cannot_be_verified_please_retry_later">Purchase cannot be verified, please retry later.</string>
+    <string name="purchase_failed">Purchase failed</string>
+    <string name="invalid_sku">Invalid product</string>
+
+
 </resources>
