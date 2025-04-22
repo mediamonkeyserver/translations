@@ -463,7 +463,7 @@
     <string name="network_is_not_available">Network is unavailable</string>
     <string name="ip_address">IP address: </string>
     <string name="server_ip_address">Server address(IP or Domain)</string>
-    <string name="port" translatable="false">Port</string>
+    <string name="port">Port</string>
     <string name="device_description_file_path">Device Description file path</string>
     <string name="protocol">Protocol</string>
     <string name="invalid_url_format">Invalid url format</string>
@@ -480,7 +480,7 @@
     <string name="everything_is_in_sync">Everything is in sync</string>
     <string name="syncing">Syncing…</string>
     <string name="last_synced">Last synced: %1$s</string>
-    <!-- searching available server to sync  -->
+    <!-- searching for an available sync server -->
     <string name="searching_sync_server">Searching sync server…</string>
     <!-- searching available media server to browse  -->
     <string name="searching_media_servers">Searching media servers…</string>
@@ -574,7 +574,7 @@
     <!-- * WiFi sync review -->
     <string name="review_settings">Review settings</string>
     <string name="sync_server">Sync server</string>
-    <string name="_online" translatable="false">" - online"</string>
+    <string name="_online">online</string>
     <!-- verb -->
     <string name="change">Change</string>
     <string name="storage_location_to_sync">Storage locations to sync</string>
@@ -639,7 +639,7 @@
     <string name="waiting_for_response_first_time">Since this is your first time connecting to the server, you may need to accept the connection on the server in order to proceed.</string>
     <!-- * sync failed/final messages -->
     <string name="finished_with_errors">Completed with errors</string>
-    <string name="invalid_paths_on_server">Synchronization refused due to invalid target file locations(s), defined on the remote server.</string>
+    <string name="invalid_paths_on_server">Synchronization refused due to invalid target file locations(s). Edit the locations on the sync server.</string>
     <string name="unable_get_settings">Synchronization refused by remote server.\n Verify that Wi-Fi synchronization is enabled on the remote server.</string>
     <string name="nothing_to_sync">No storage location is configured to be synced!</string>
     <string name="connection_failed_hint">Server inaccessible (try restarting the server and then re-running the Sync configuration wizard)</string>
@@ -921,7 +921,7 @@
     <string name="scrobble_pano_scrobbler">Pano Scrobbler for LastFM</string>
     <string name="uninstall">Uninstall</string>
     <!-- external app, which cannot be disabled only by uninstallation -->
-    <string name="scrobble_dialog_message_x">Unfortunatelly %1$s can\'t be disabled from this app. Do you want uninstall it?</string>
+    <string name="scrobble_dialog_message_x">%1$s can\'t be disabled from this app. Do you want uninstall it?</string>
 
     <string name="lookup_and_scrobble"><![CDATA[Lookup & Scrobble]]></string>
     <string name="lookup_and_scrobble_summary">Metadata lookup, Scrobbling</string>
@@ -945,6 +945,7 @@
         <item quantity="one">"<xliff:g id="count">%d</xliff:g> star or more"</item>
         <item quantity="other">"<xliff:g id="count">%d</xliff:g> stars or more"</item>
     </plurals>
+
 
     <string name="rating_up">Rating up</string>
     <string name="rating_down">Rating down</string>
@@ -1091,7 +1092,6 @@
 
     <!-- * Notifications -->
     <string name="notification_background">Background task</string>
-    <string name="notification_shorcut_updating">Updating shortcuts.</string>
     <string name="notification_creating_thumbnails">Creating new video thumbnails.</string>
     <string name="notification_storage_updating_title">Updating storage.</string>
     <string name="updating_playback_settings">Updating playback settings</string>
