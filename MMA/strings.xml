@@ -26,10 +26,11 @@
     <string name="proceed">Proceed</string>
     <string name="confirm">Confirm</string>
     <string name="continue_">Continue</string>
-    <!-- final step in launch wizard -->
+    <!-- This is the final step in launch wizard -->
     <string name="lets_start">Let\'s start</string>
     <string name="check">Check</string>
     <string name="agreement">Agreement</string>
+	<!-- This is the text on the button to Grant Access permissions -->
     <string name="grant">Grant</string>
     <string name="do_you_want_to_proceed">Do you want to proceed?</string>
 
@@ -57,16 +58,16 @@
     <string name="settings_recovery">Recover settings</string>
     <string name="unknown">Unknown</string>
     <string name="none">None</string>
-    <!-- meaning all content  -->
+    <!-- Refers to all content  -->
     <string name="all">All</string>
     <string name="install">Install</string>
-    <!-- menu item title to edit e.g. lyrics, media server -->
+    <!-- This is the Edit menu item title used for editing e.g. lyrics, media server -->
     <string name="edit">Edit</string>
     <string name="save">Save</string>
     <string name="manage">Manage</string>
     <string name="save_failed">Save failed!</string>
 
-    <!-- when node or folder has no data -->
+    <!-- When a node or folder has no data it shows as empty -->
     <string name="empty">empty</string>
     <string name="error">Error</string>
     <string name="unknown_error">Unknown Error</string>
@@ -79,17 +80,18 @@
     <string name="grant_access">Grant access</string>
     <string name="send">Send</string>
     <string name="paste">Paste</string>
-    <!-- QR code button -->
+    <!-- Scan button for QR codes -->
     <string name="scan">Scan</string>
     <string name="exit">Exit</string>
     <string name="settings">Settings</string>
     <string name="more_info">More info</string>
+	<!-- Setup wizard -->
     <string name="wizard">Wizard</string>
     <string name="moved">Moved</string>
     <string name="title">Title</string>
     <string name="details">Details</string>
     <string name="type">Type</string>
-    <!-- Album released year in Album view header -->
+    <!-- The year in which an album was released -->
     <string name="released">Released</string>
 
     <!-- * store & license -->
@@ -132,12 +134,13 @@
     <string name="keep_lite">Keep Lite</string>
     <!-- Google play store is inaccessible-->
     <string name="no_activity_found_to_handle_intent">Store is inaccessible.</string>
-    <!-- Error toast message during verification in app purchases   -->
+    <!-- Error message that can appear for a failed purchase due to a failed connection to the Billing service  -->
     <string name="billing_service_disconnected">Billing service disconnected.</string>
 
     <!-- * contextual actions -->
     <string name="find_more_from">Find more from</string>
     <string name="share">Share…</string>
+	<!-- As in 'Set as ringtone' or 'Set as alarm' -->
     <string name="set_as">Set as…</string>
     <string name="upper_first_alarm">Alarm</string>
     <string name="upper_first_ringtone">Ringtone</string>
@@ -203,28 +206,28 @@
 
 
     <!-- * Genres -->
-    <!-- Used in FindMore contextual action, and Upnp sort dialog -->
+    <!-- Used in Find more from Genre, or Sort by Genre -->
     <string name="genre">Genre</string>
-    <!-- Node name -->
+    <!-- Used as the Genres node name -->
     <string name="genres">Genres</string>
-    <!-- Properties title, user can put one or more genre -->
+    <!-- The label for genre in the Properties dialog where one or more genres can be entered -->
     <string name="genre_s_">Genre(s)</string>
     <!-- Node name -->
     <string name="unknown_genre">Unknown genre</string>
-    <!-- In deletion confirm dialog, In view stats bar -->
+    <!-- Used in the Delete confirmation dialog, In view stats bar -->
     <plurals name="number_genres">
         <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> genre"</item>
         <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> genres"</item>
     </plurals>
 
     <!-- * Composers -->
-    <!-- Used in FindMore contextual action -->
+    <!-- Used in Find more from Composer -->
     <string name="composer">Composer</string>
-    <!-- Node name -->
+    <!-- Used as the Composers node name -->
     <string name="composers">Composers</string>
-    <!-- Properties title, user can put one or more composers -->
+    <!-- The label for composer in the Properties dialog, where one or more composers can be entered -->
     <string name="composer_s_">Composer(s)</string>
-    <!-- Node name -->
+    <!-- This is the node name for Unknown composers -->
     <string name="unknown_composer">Unknown composer</string>
     <plurals name="number_composers">
         <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> composer"</item>
@@ -232,7 +235,7 @@
     </plurals>
 
     <!-- * Tracks -->
-    <!-- Node name -->
+    <!-- Used as the Node name for Tracks-->
     <string name="tracks">Tracks</string>
     <plurals name="number_tracks">
         <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> track"</item>
@@ -246,9 +249,9 @@
     <string name="browse_tracks">Browse tracks</string>
 
     <!-- * Albums -->
-    <!-- Used in FindMore contextual action, properties title, and Upnp sort dialog -->
+    <!-- Used in Find more from Album, the Album attribute in Properties, or Sort by Album -->
     <string name="album">Album</string>
-    <!-- Node name -->
+    <!-- The Node name for Albums -->
     <string name="albums">Albums</string>
     <string name="unknown_album">Unknown album</string>
     <plurals name="number_albums">
@@ -257,20 +260,21 @@
     </plurals>
 
     <!-- * Artists -->
-    <!-- Used in FindMore contextual action, and Upnp sort dialog, Lyrics dialog -->
+    <!-- Used in Find more from Artist, Sort by Artist -->
     <string name="artist">Artist</string>
-    <!-- Node name -->
+    <!-- Used as the Node name for Artists representing both Artists and Album Artists -->
     <string name="artists">Artists</string>
-    <!-- Node name -->
+    <!-- Used as the Node name for Track Artists as opposed to the Artist of an Album -->
     <string name="media_artists">Track Artists</string>
-    <!-- Node name -->
+    <!-- Used as the Node name for Album Artists -->
     <string name="album_artists">Album Artists</string>
-    <!-- Properties title -->
+    <!-- The Album Artist attribute in the Properties dialog where one or more Artists can be entered  -->
     <string name="artists_label">Artist(s)</string>
-    <string name="album_artists_label">Album artist(s)</string>
+    <!-- The label for Album Artist in the Properties dialog where one or more Artists can be entered  -->
+	<string name="album_artists_label">Album artist(s)</string>
     <string name="unknown_artist">Unknown artist</string>
 
-    <!-- In deletion confirm dialog, In view stats bar, In search result tabs -->
+    <!-- Shows the number of artists in the deletion confirm dialog, in view stats, in search results -->
     <plurals name="number_artists">
         <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> artist"</item>
         <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> artists"</item>
@@ -278,7 +282,7 @@
 
     <!-- * Playlists -->
     <string name="playlist">Playlist</string>
-    <!-- Node name -->
+    <!-- Used as the Node name for Playlists -->
     <string name="playlists">Playlists</string>
     <plurals name="number_playlists">
         <item quantity="one">"<xliff:g id="COUNT">%d</xliff:g> playlist"</item>
@@ -328,17 +332,22 @@
     <string name="no_series">No series</string>
     <string name="no_subscription">No subscription</string>
     <string name="no_artists">No artists</string>
-    <!-- empty list for unspecific cases -->
+    <!-- Shown when a list is empty and contains no content -->
     <string name="no_content">No content</string>
 
     <!-- * Storage -->
     <string name="storage">Storage</string>
-    <string name="count_kb">%d KB</string><!-- Kilobyte decimal value-->
-    <string name="count_mb">%d MB</string><!-- Megabyte decimal value-->
-    <string name="count_mb_f">%1.1f MB</string><!-- Megabyte float value-->
-    <string name="count_gb_f">%1.1f GB</string><!-- Gigabyte float value-->
-    <string name="used">used</string><!-- used space on storage-->
-    <string name="free">free</string><!-- used free on storage-->
+    <!-- Kilobyte abbreviation-->
+    <string name="kilobyte">KB</string>
+    <!-- Megabyte abbreviation-->
+    <string name="megabyte">MB</string>
+    <!-- Gigabyte abbreviation-->
+    <string name="gigabyte">GB</string>
+
+    <!-- used space on storage-->
+    <string name="used">used</string>
+    <!-- free space on storage-->
+    <string name="free">free</string>
     <string name="storage_not_accessible">Storage not accessible.</string>
     <string name="unavailable_storage">Unavailable storage</string>
     <string name="unknown_storage">Unknown storage</string>
@@ -352,7 +361,7 @@
     <string name="not_enough_space_on_storage_log">%1$s ( %2$s of free space)</string>
     <string name="not_enough_space_on_internal_storage">Not enough space on internal storage. The required minimum amount of available space is %1$d MB.</string>
     <string name="mm_specific_folder">MediaMonkey Storage</string>
-    <!-- Whole storage as a folder in the library: StorageName (all) -->
+    <!-- Entire storage location in the library. e.g. SD Card (all) -->
     <string name="storage_all">%1$s (all)</string>
 
     <!-- download -->
@@ -385,18 +394,19 @@
         <item quantity="one">"Delete <xliff:g id="COUNT">%d</xliff:g> track from the device?"</item>
         <item quantity="other">"Delete <xliff:g id="COUNT">%d</xliff:g> tracks from the device?"</item>
     </plurals>
-    <!-- * Delete dialog in playlists view-->
+    <!-- * Deletion prompt in playlists view-->
     <string name="delete_playlist">Delete playlist</string>
     <string name="delete_playlist_and_tracks">Delete playlist and tracks</string>
-    <!-- * Delete dialog in Now playing view -->
+    <!-- * Prompt for removal rather than deletion of tracks -->
     <string name="remove_from_now_playing">Remove from Playing queue</string>
     <string name="remove_from_now_playing_and_selected_playlists">Remove from Playing queue and selected playlists</string>
     <string name="remove">Remove</string>
-    <!-- Remove dialog title when user edit it -->
+    <!-- This is a dialog title -->
     <string name="confirm_edit">Confirm edit</string>
     <string name="delete_from_device">Delete from the device</string>
     <string name="confirm_deletion">Confirm deletion</string>
     <string name="from_device_">from device?</string>
+	<!-- As in Deleting track in 5 seconds -->
     <string name="deleting_tracks_in_x_s">Deleting track(s) in %1$ds</string>
     <string name="removing_tracks_in_x_s">Removing track(s) in %1$ds</string>
 
@@ -411,7 +421,7 @@
     <string name="upgrading_paths_format">Upgrading paths format in database…</string>
     <string name="checking_tasks_to_process">Updating library…</string>
     <!-- notification when updating android media store (disabled by default) -->
-    <string name="updating_media_store">Updating database of media</string>
+    <string name="updating_media_store">Updating Android media database</string>
 
     <!-- selected -->
     <string name="select_all">Select all</string>
@@ -443,11 +453,12 @@
     <string name="preparing_tracks_for_deletion">Preparing tracks for deletion…</string>
     <string name="preparing_tracks_to_upload">Preparing tracks to upload…</string>
     <string name="preparing_download">Preparing download…</string>
-    <!-- when user cancel current processing operation e.g. wifi-sync -->
+    <!-- Termination status message when the user cancels an ongoing operation e.g. sync -->
     <string name="cancelling">Terminating…</string>
     <!-- Processing finished -->
     <string name="finished">Completed successfully</string>
     <string name="all_done_no_background_task">Background task completed.</string>
+    <!-- There is no processing task in the background. -->
     <string name="idle">Idle</string>
 
     <!-- * Network -->
@@ -462,11 +473,13 @@
     <string name="connecting_wifi">Connecting to Wi-Fi network</string>
     <string name="network_is_not_available">Network is unavailable</string>
     <string name="ip_address">IP address: </string>
-    <string name="server_ip_address">Server address(IP or Domain)</string>
+    <string name="server_ip_address">Server address (IP or Domain)</string>
     <string name="port">Port</string>
+	<!-- The path to a UPnP Device Description File -->
     <string name="device_description_file_path">Device Description file path</string>
     <string name="protocol">Protocol</string>
     <string name="invalid_url_format">Invalid url format</string>
+	<!-- The format of the Uniform Resource Identifier path to a device on the network isn't supported -->
     <string name="unsupported_uri">Unsupported URI</string>
     <string name="connection_failed_access_denied">Connection failed: Access denied</string>
     <string name="no_connection">No connection</string>
@@ -482,9 +495,9 @@
     <string name="last_synced">Last synced: %1$s</string>
     <!-- searching for an available sync server -->
     <string name="searching_sync_server">Searching sync server…</string>
-    <!-- searching available media server to browse  -->
+    <!-- searching for an available media server to browse  -->
     <string name="searching_media_servers">Searching media servers…</string>
-    <!-- searching available device to cast  -->
+    <!-- searching for an available device to cast to  -->
     <string name="searching_cast_devices">Searching for cast devices…</string>
     <string name="no_sync_server">No sync server</string>
     <string name="server_connected">Server connected</string>
@@ -504,8 +517,7 @@
     <!-- * UPnP  -->
     <string name="upnp_trial_dialog_title">UPnP/DLNA</string>
     <string name="upnp_category" translatable="false">UPnP</string>
-    <!-- Visible as notification in very rare cases.
-         Used when MMA browses UPnP content or need to process UPnP commands and Upnp service is running. -->
+    <!-- UPnP Browser may be shown as a notification in some cases -->
     <string name="upnp_browser_service" translatable="false">UPnP Browser</string>
     <string name="browser_not_found">Unable to find a web browser</string>
     <string name="add_media_server">Add media server</string>
@@ -520,6 +532,7 @@
     <!-- * For UPnP MMS server login purpose, currently unused-->
     <string name="password">Password</string>
     <string name="username">Username</string>
+	<!-- This is a Login command i.e. a verb -->
     <string name="login">Login</string>
 
     <!-- * Casting (UPnP & chromecast)  -->
@@ -552,7 +565,7 @@
     <string name="server_content">Server content</string>
     <string name="sync_from_server_description">Choose content to keep synced.</string>
     <string name="choose">Choose</string>
-    <!-- ** Sync settings related to device-->
+    <!-- ** Sync settings related to the device-->
     <string name="sync_from_device">Sync from the device</string>
     <string name="file_metadata">File metadata</string>
     <string name="sync_device_metadata_description">Sync changed metadata such as ratings and play history.</string>
@@ -567,15 +580,18 @@
     <string name="auto_sync_playlists_and_new_files_to_the_server_and_metadata">Auto-sync playlists and new files to the server + file metadata</string>
     <!-- ** Types of deletion during sync -->
     <string name="sync_deletion_from_device">Delete from the device</string>
+	<!-- Files that exist within the server library that have not been selected to be synced -->
     <string name="unselected_copies">Unselected server files</string>
     <string name="delete_unselected_content_copies_summary">Delete local files and playlists that are on the server but not the sync list.</string>
+	<!-- All files that have not been selected to be synced -->
     <string name="all_unselected_content">All unselected files</string>
     <string name="delete_all_unselected_content_summary">Delete all local files and playlists that aren\'t on the sync list.</string>
     <!-- * WiFi sync review -->
     <string name="review_settings">Review settings</string>
+	<!-- The Synchronization server -->
     <string name="sync_server">Sync server</string>
     <string name="_online">online</string>
-    <!-- verb -->
+    <!-- This is a verb as in Change the setting -->
     <string name="change">Change</string>
     <string name="storage_location_to_sync">Storage locations to sync</string>
     <string name="advanced_options">Advanced options</string>
@@ -588,6 +604,7 @@
 
     <!-- * WiFi sync review related to specific storage-->
     <!-- ** Sync review related sync content & destination location-->
+	<!-- The content on the synchronization server -->
     <string name="auto_sync_server_content">Sync server content</string>
     <string name="choosed_server_content">Server content to keep synced</string>
     <string name="destination_file_locations">Destination File locations</string>
@@ -599,9 +616,9 @@
     <!-- Action button to start sync of specific storage -->
     <string name="sync_this_storage">Sync storage</string>
     <!-- ** WiFi sync buttons -->
-    <!-- action to go sync review/wizard -->
+    <!-- This launches the sync operation from the main menu -->
     <string name="sync">Sync</string>
-    <!-- action to start synchronization  -->
+    <!-- This starts synchronization from the wizard or settings -->
     <string name="sync_now">Sync now</string>
     <string name="sync_now_anyway">Sync now anyway</string>
     <!-- * sync failed buttons -->
@@ -610,11 +627,11 @@
     <string name="select_other_server">Choose other server</string>
 
     <!-- * WiFi sync pairing process -->
-    <!-- Used as progress title during pairing local files with server files   -->
+    <!-- Used as progress title while pairing local files with server files   -->
     <string name="pairing">Matching new files</string>
-    <!-- Used as progress details when waiting for server response for batch of new files to pair  -->
+    <!-- Used to show progress when waiting for server response for batch of new files to pair  -->
     <string name="pairing_details">Checking for new files…</string>
-    <!-- Used as progress details during pairing local files with server files   -->
+    <!-- Used to show progress as local files are paired with equivalent files on the sync server -->
     <string name="pairing_">Pairing…</string>
     <string name="verifying_paired">Verifying paired files</string>
     <string name="verifying_paired_details">Verifying already paired files…</string>
@@ -665,13 +682,11 @@
     <string name="send_link_mmw_subject">Link to MediaMonkey sync server</string>
     <string name="send_link_mmw_message">"To sync MediaMonkey for Android, you need to install a MediaMonkey sync server/desktop. See details at: "</string>
 
-    <!-- * Sync progress info, visible only if user expands info progress panel -->
-    <string name="downloading_sync_setting">Downloading sync setting…</string>
-    <string name="downloading_sync_setting_success">Sync setting downloaded.</string>
-    <string name="downloading_sync_setting_failed">Downloading sync setting failed.</string>
-    <string name="uploading_sync_setting_for_x">Uploading sync setting for %s…</string>
-    <string name="uploading_sync_setting_failed">Uploading sync setting failed.</string>
-    <string name="uploading_sync_setting_success">Sync setting uploaded.</string>
+    <!-- * Sync progress info, visible if user expands info progress panel -->
+    <string name="downloading_sync_setting">Downloading sync settings</string>
+    <string name="uploading_sync_setting_for_x">Uploading sync settings for %s</string>
+    <string name="success">Success</string>
+    <string name="failed">Failed</string>
 
     <!-- Sync progress info like: Updating XX playlists to server -->
     <string name="to_server">to server</string>
@@ -770,8 +785,9 @@
 
     <string name="media_monkey_player">MediaMonkey player</string>
     <string name="local_renderer">Local player</string>
-    <!-- action buttons to lock & unlock video controls to avoid unintentional pressing during watching -->
+    <!-- Action button to Lock the UI to prevent accidental button presses -->
     <string name="lock">Lock</string>
+    <!-- Action button to disable the UI Lock --> 
     <string name="unlock">Unlock</string>
     <string name="picture_in_picture">Picture in picture</string>
     <string name="open_in_fullscreen">Open fullscreen</string>
@@ -787,7 +803,7 @@
     <string name="return_to_now_playing">Return to Playing queue</string>
     <string name="art">Art</string>
     <string name="playing">Playing</string>
-    <!-- remaining time of Now playing list  -->
+    <!-- remaining playback time in the Now playing list  -->
     <string name="remains">&quot;Remaining: &quot;</string>
 
     <!-- * Lyrics  -->
@@ -862,9 +878,9 @@
     <string name="skipcount">Skipped</string>
     <string name="size">&quot;Size: &quot;</string>
     <string name="release_date">Release date </string>
-    <string name="multiple_audio_types">Multiple audio types</string>
-    <string name="multiple_video_types">Multiple video types</string>
-    <string name="multiple_file_types">Multiple file types</string>
+
+    <string name="multiple_file_types_selected">Multiple file types selected</string>
+
     <string name="compare_atributes_">Compare attributes…%1$s</string>
 
     <!-- * Equalizer  -->
@@ -872,6 +888,7 @@
     <string name="enabled_equalizer">Use equalizer</string>
     <string name="sorry_equalizer_is_not_supported">Sorry, the equalizer is not supported on this device.</string>
     <string name="equalizer_is_unapproachable">Equalizer cannot be accessed at the moment.</string>
+	<!-- Custom settings rather than the standard presets-->
     <string name="custom">custom</string>
     <string name="balance">Balance</string>
     <string name="left">Left</string>
@@ -903,10 +920,12 @@
     <string name="scan_library_details">Scan library folders to show new/modified content.</string>
     <string name="folders_added_to_library">Folders added to library</string>
 
-    <!-- These texts are related when the SD-card is changed and has a different name, but media are found in the same relative paths. -->
+    <!-- * These texts are related when the SD-card is changed and has a different name, but media are found in the same relative paths. -->
+	<!-- Track x,y,z could not be found in their expected location -->
     <string name="unmounted_storages_notification_title">%s couldn\'t be found in their expected location
         .</string>
     <string name="unmounted_storages_notification_not_found">Manage library folders to add/remove library folders?</string>
+	<!-- It looks like the tracks are at location x. Update the database to reflect the new location? -->
     <string name="unmounted_storages_notification_similar">It looks like they\'re at %s. Update location?</string>
 
     <!-- * Database maintenance  -->
@@ -920,7 +939,7 @@
     <string name="scrobble_summary">Save play history to last.fm or other services via one of these apps:</string>
     <string name="scrobble_pano_scrobbler">Pano Scrobbler for LastFM</string>
     <string name="uninstall">Uninstall</string>
-    <!-- external app, which cannot be disabled only by uninstallation -->
+    <!-- This message is for functionality that can only be disabled by uninstalling an external app -->
     <string name="scrobble_dialog_message_x">%1$s can\'t be disabled from this app. Do you want uninstall it?</string>
 
     <string name="lookup_and_scrobble"><![CDATA[Lookup & Scrobble]]></string>
@@ -929,23 +948,11 @@
     <!-- Ratings  -->
     <!-- Count of stars as rating(float value for 0.5, 1.5 .. 4.5). "More" means that higher rating is included. -->
     <string name="rating">Rating</string>
-    <plurals name="rating_x">
-        <item quantity="one">"<xliff:g id="count">%1$.1f</xliff:g> star"</item>
-        <item quantity="other">"<xliff:g id="count">%1$.1f</xliff:g> stars"</item>
+    <plurals name="number_rating">
+        <item quantity="one">star</item>
+        <item quantity="other">stars</item>
     </plurals>
-    <plurals name="rating_x_plus">
-        <item quantity="one">"<xliff:g id="count">%1$.1f</xliff:g> star or more"</item>
-        <item quantity="other">"<xliff:g id="count">%1$.1f</xliff:g> stars  or more"</item>
-    </plurals>
-    <plurals name="rating_d">
-        <item quantity="one">"<xliff:g id="count">%d</xliff:g> star"</item>
-        <item quantity="other">"<xliff:g id="count">%d</xliff:g> stars"</item>
-    </plurals>
-    <plurals name="rating_d_plus">
-        <item quantity="one">"<xliff:g id="count">%d</xliff:g> star or more"</item>
-        <item quantity="other">"<xliff:g id="count">%d</xliff:g> stars or more"</item>
-    </plurals>
-
+    <string name="rating_plus">stars or more</string>
 
     <string name="rating_up">Rating up</string>
     <string name="rating_down">Rating down</string>
@@ -1004,15 +1011,15 @@
     <string name="always_respond_to_remote_controls_summary">Respond to bluetooth or other controls whenever possible.</string>
     <string name="resume_play_on_connection">Resume play on connection</string>
     <string name="resume_play_on_connection_summary_none">Don\'t automatically resume playback upon connecting an audio device.</string>
-    <!-- preference description following by list Wired headset/Bluetooth/Dock -->
+    <!-- e.g. Automatically resume playback after connecting: Wired headset -->
     <string name="resume_play_on_connection_summary_list">Automatically resume playback after connecting: %s</string>
     <!-- preference resume_play_on_connection values -->
     <string name="bluetooth">Bluetooth</string>
     <string name="wired_headset">Wired headset</string>
     <string name="dock">Dock</string>
-    <string name="headset_service_required">Uses HeadsetDock service</string>
+    <string name="headset_service_required">Runs a background service</string>
 
-    <!-- preference to have some node order for clients like Android Auto as in home screen  -->
+    <!-- This settings applies the nodes from the home screen to clients such as Android Auto -->
     <string name="use_same_nodes_for_remote_clients">Customize navigation for external apps</string>
     <string name="use_same_nodes_for_remote_clients_summary">Use the home screen\'s hierarchy for browsing over bluetooth or Android Auto.</string>
     <string name="remote_list_size_limit_title">Limit list size for external apps</string>
@@ -1046,8 +1053,10 @@
     <string name="disable_battery_optimization_details">This prevents Android from closing MediaMonkey when it\'s running (casting, syncing, etc.) in the
         background.</string>
 
+    <!-- Assistance or Tech support -->
     <string name="mm_support">Support</string>
     <string name="mm_support_details">Knowledge base and helpdesk</string>
+	<!-- Online help -->
     <string name="help">Help</string>
 
     <string name="prefereneces_updated">Preferences updated</string>
@@ -1080,6 +1089,7 @@
 
     <!-- * Notification - channels  -->
     <string name="sync_channel_name">Sync</string>
+	<!-- Status of the synchronization operation -->
     <string name="sync_channel_description">Sync status</string>
     <string name="storage_channel_name">Media library</string>
     <string name="storage_channel_name_description">Library and storage updates</string>
@@ -1103,7 +1113,7 @@
     <string name="player_connected">Player connected</string>
     <string name="player_connected_description">Sharing content with Android Auto/Bluetooth device.</string>
 
-    <string name="running_service_resume_on_connection_title">Resume play on wired headset or dock connection(running service).</string>
+    <string name="running_service_resume_on_connection_title">Resume play on connection (running service).</string>
     <string name="notification_updating_album_artwork">Updating album artwork</string>
 
     <!-- Volume  -->
@@ -1149,7 +1159,6 @@
     <string name="grant_access_to_mediamonkey">Grant access to MediaMonkey folder</string>
     <string name="grant_access_to_mediamonkey_details">MediaMonkey requires write permissions for backup &amp; USB sync.</string>
     <string name="preferences_were_recovered_from_backup">Preferences have been restored from backup.</string>
-    <string name="copying_settings_files">copying settings files…</string>
     <string name="create_and_grant">Create &amp; Grant</string>
     <string name="write_contacts_permission_message">To assign ringtone to contact, please give MediaMonkey required permission.</string>
     <string name="write_contacts_permission_denied">Permission was denied. The ringtone cannot be assigned to contact.</string>
@@ -1201,6 +1210,7 @@
     <string name="currently_played_media">Currently playing track</string>
     <string name="done_icon">Done icon</string>
     <string name="popup_menu">Popup menu</string>
+	<!-- The order of the tracks in a list -->
     <string name="track_order">Track order</string>
     <string name="category">Category</string>
     <string name="header_icon">Header icon</string>
@@ -1215,13 +1225,7 @@
     <string name="adaptive_colors_summary">Use adaptive colors in the Albums grid view.</string>
     <string name="may_decrease_performance">May decrease performance</string>
 
-    <!-- * Amazon only - billing strings -->
-    <string name="purchase_finished_successfully">Purchase completed successfully!</string>
-    <string name="product_already_owned">Product already owned</string>
-    <string name="failed_should_retry_request">Failed. Retry.</string>
-    <string name="purchase_cannot_be_verified_please_retry_later">Purchase cannot be verified, please retry later.</string>
-    <string name="purchase_failed">Purchase failed</string>
-    <string name="invalid_sku">Invalid product</string>
+
 
 
 </resources>
