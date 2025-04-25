@@ -160,9 +160,9 @@
     <string name="sleep_timer">Sleep Timer</string>
     <string name="sleep_timer_running">Sleep Timer is running</string>
     <string name="fade_out_music">Fade out volume</string>
-    <string name="fade_out_music_details">Fade to 30\% of current volume</string>
+    <string name="fade_out_music_details">Fade to 30 \u0025 of current volume</string>
     <string name="play_last_song_completely">Play last track completely</string>
-    <string name="play_last_song_details">Complete playback of current track when timer ends.</string>
+    <string name="play_last_song_details">Finish playing the current track when timer ends.</string>
     <string name="start">Start</string>
 
     <!-- * Nodes -->
@@ -308,7 +308,7 @@
         <item quantity="one">"selected item"</item>
         <item quantity="other">"selected items"</item>
     </plurals>
-    <string name="no_selected_items">No selected item</string>
+    <string name="no_selected_items">No item selected</string>
 
     <!-- * Files & Folders-->
     <string name="add_directory_to_library">Add folder</string>
@@ -600,7 +600,7 @@
     <string name="verify_paired_files_description">Verifies whether previously synced files or playlists have been removed from the server (Slow. Only active for this sync).</string>
     <string name="skip_sync_review">Skip sync review</string>
     <string name="skip_sync_review_description">Skip the sync review page before syncing. Disable to adjust sync settings before each sync.</string>
-    <string name="error_server_processing_timeout">The server took an unusually long time to process the request.\nIf the server is available, you can retry with extended processing timeouts.</string>
+    <string name="error_server_processing_timeout">The server took too long to process the request.\nRetry, or restart the server if it\'s unavailable.</string>
 
     <!-- * WiFi sync review related to specific storage-->
     <!-- ** Sync review related sync content & destination location-->
@@ -749,11 +749,11 @@
     </plurals>
     <plurals name="removing_album_art_from_database">
         <item quantity="one">Removing album art from library…</item>
-        <item quantity="other">Removing album art from library…</item>
+        <item quantity="other">Removing album arts from library…</item>
     </plurals>
     <plurals name="prepparing_album_art_to_remove">
         <item quantity="one">Preparing to remove album art…</item>
-        <item quantity="other">Preparing to remove album art…</item>
+        <item quantity="other">Preparing to remove album arts…</item>
     </plurals>
     <plurals name="delete_album_art_files">
         <item quantity="one">Deleting album art file…</item>
@@ -879,7 +879,7 @@
     <string name="size">&quot;Size: &quot;</string>
     <string name="release_date">Release date </string>
 
-    <string name="multiple_file_types_selected">Multiple file types selected</string>
+    <string name="multiple_file_types_selected">Multiple file Types selected</string>
 
     <string name="compare_atributes_">Compare attributes…%1$s</string>
 
@@ -895,8 +895,8 @@
     <string name="right">Right</string>
 
     <!-- * Ringtone  -->
-    <string name="mediamonkey_ringtone_maker">MediaMonkey Ringtone Maker</string>
-    <string name="mediamonkey_ringtone_maker_summary">This requires the \'MediaMonkey Ringtone Maker\' addon, available at no cost.</string>
+
+    <string name="mediamonkey_ringtone_maker_summary">This requires the %s addon, available at no cost.</string>
     <string name="write_settings_ringtone_permission_title">Set as…</string><!-- duplicate -->
     <string name="write_settings_ringtone_permission_message">To set track as ringtone or alarm, please give MediaMonkey permission to change system settings.</string>
     <string name="write_settings_ringtone_permission_denied">Permission was denied. Track cannot be set as ringtone/alarm.</string>
@@ -946,15 +946,24 @@
     <string name="lookup_and_scrobble_summary">Metadata lookup, Scrobbling</string>
 
     <!-- Ratings  -->
-    <!-- Count of stars as rating(float value for 0.5, 1.5 .. 4.5). "More" means that higher rating is included. -->
+    <!-- Count of stars as rating-->
     <string name="rating">Rating</string>
+
+    <!-- Count of stars as rating for whole numbers(1, 2, 3, 4, 5) -->
     <plurals name="number_rating">
         <item quantity="one">star</item>
         <item quantity="other">stars</item>
     </plurals>
-    <string name="rating_plus">stars or more</string>
+    <!-- Count of stars as rating for decimal values(float value for 0.5 = one, 1.5, 2.5, 3.5 and 4.5) -->
+    <plurals name="number_rating_decimal">
+        <item quantity="one">stars</item>
+        <item quantity="other">stars</item>
+    </plurals>
+    <string name="rating_plus">or more stars</string>
 
+    <!-- Increase rating  -->
     <string name="rating_up">Rating up</string>
+    <!-- Decrease rating  -->
     <string name="rating_down">Rating down</string>
     <string name="rate_title">Rate MediaMonkey</string>
     <string name="rate_message">If you\'re enjoying MediaMonkey, would you take a moment to rate it? Thanks for Your support!</string>
@@ -1145,7 +1154,7 @@
         MediaMonkey-specific folder that is inaccessible to other music players.</string>
     <string name="storage_permission_ignore_warning_short">If access isn\'t granted to the requested folders:\n\nMediaMonkey won\'t be able to edit/sync content to those locations!</string>
     <!-- Write access to folder is granted via Files manager, this is when the manager returns invalid folder uri -->
-    <string name="invalid_tree_uri">Invalid permission uri %s</string>
+    <string name="invalid_tree_uri">Invalid URI: %s</string>
     <string name="path_already_writable">Folder %s is already writable.</string>
     <string name="path_not_requested">Path %s was not requested. Please choose from the list above.</string>
     <string name="path_invalid">Cannot write to the configured location. MediaMonkey-specific folder will be used instead.</string>
@@ -1195,7 +1204,7 @@
     <!-- This is used in dialog when no storage is available. Historically it happens when phone was connected to PC. Nowadays at least main storage is
     usually mounted. So the text is updated. -->
     <string name="ums_activity_title">No storage available</string>
-    <string name="ums_activity_message">Mount at least one storage to access files.</string>
+    <string name="ums_activity_message">Mount storage to access files.</string>
 
     <!-- * Dialogs  -->
     <string name="do_not_ask_again">"Do not ask again "</string>
@@ -1222,10 +1231,13 @@
     <string name="disable_debug_logs">Disable debug logs</string>
     <string name="disable_debug_logs_summary">Disable all debug logs to improve performance</string>
     <string name="adaptive_colors">Adaptive colors</string>
-    <string name="adaptive_colors_summary">Use adaptive colors in the Albums grid view.</string>
+    <string name="adaptive_colors_summary">Use adaptive colors in the album grid.</string>
     <string name="may_decrease_performance">May decrease performance</string>
 
 
-
+    <plurals name="number_test">
+        <item quantity="one">one</item>
+        <item quantity="other">other</item>
+    </plurals>
 
 </resources>

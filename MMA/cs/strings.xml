@@ -148,7 +148,7 @@
   <string name="sleep_timer">Spánek</string>
     <string name="sleep_timer_running">Spánek běží</string>
     <string name="fade_out_music">Utlumit hlasitost</string>
-    <string name="fade_out_music_details">Utlumit hlasitost na 30\% současné hlasitosti</string>
+    <string name="fade_out_music_details">Utlumit hlasitost na 30 \% současné hlasitosti</string>
     <string name="play_last_song_completely">Přehrát poslední skladbu celou</string>
     <string name="play_last_song_details">Dokončit přehrávání aktuální skladby po vypršení času.</string>
     <string name="start">Začít</string>
@@ -582,8 +582,7 @@
     <string name="skip_sync_review">Přeskočit přehled synchronizace</string>
     <string name="skip_sync_review_description">Před synchronizací přeskočí tuto stránku přehledu synchronizace. Nechte vypnuto, chcete-li upravit nastavení
         synchronizace před každou synchronizací.</string>
-    <string name="error_server_processing_timeout">Serveru trvalo zpracování požadavku neobvykle dlouho.\nPokud je server dostupný, můžete zopakovat s
-        prodlouženými časovými limity zpracování.</string>
+    <string name="error_server_processing_timeout">Zpracování požadavku serveru trvalo příliš dlouho.\nZkuste to znovu nebo restartujte server, pokud není k dispozici.</string>
     <!-- * WiFi sync review related to specific storage-->
   <!-- ** Sync review related sync content & destination location-->
   <!-- The content on the synchronization server -->
@@ -724,21 +723,21 @@
     </plurals>
     <plurals name="removing_album_art_from_database">
         <item quantity="one">Odstraňuji obrázek alba z knihovny…</item>
-        <item quantity="few">Odstraňuji obrázeky alba z knihovny…</item>
-        <item quantity="many">Odstraňuji obrázeky alba z knihovny…</item>
-        <item quantity="other">Odstraňuji obrázeky alba z knihovny…</item>
+        <item quantity="few">Odstraňuji obrázky alba z knihovny…</item>
+        <item quantity="many">Odstraňuji obrázky alba z knihovny…</item>
+        <item quantity="other">Odstraňuji obrázky alba z knihovny…</item>
     </plurals>
     <plurals name="prepparing_album_art_to_remove">
         <item quantity="one">Připravují obrázek alba ke smazání…</item>
-        <item quantity="few">Připravují obrázeky alba ke smazání…</item>
-        <item quantity="many">Připravují obrázeky alb ke smazání…</item>
-        <item quantity="other">Připravují obrázeky alb ke smazání…</item>
+        <item quantity="few">Připravují obrázky alba ke smazání…</item>
+        <item quantity="many">Připravují obrázky alb ke smazání…</item>
+        <item quantity="other">Připravují obrázky alb ke smazání…</item>
     </plurals>
     <plurals name="delete_album_art_files">
-        <item quantity="one">Odstraňuji soubor obrázeku alba…</item>
-        <item quantity="few">Odstraňuji soubory obrázeku alba…</item>
-        <item quantity="many">Odstraňuji soubory obrázeku alba…</item>
-        <item quantity="other">Odstraňuji soubory obrázeku alba…</item>
+        <item quantity="one">Odstraňuji soubor obrázku alba…</item>
+        <item quantity="few">Odstraňuji soubory obrázku alba…</item>
+        <item quantity="many">Odstraňuji soubory obrázku alba…</item>
+        <item quantity="other">Odstraňuji soubory obrázku alba…</item>
     </plurals>
     <!-- * Playback  actions-->
   <string name="play">Hrát</string>
@@ -869,8 +868,7 @@
     <string name="left">Levý</string>
     <string name="right">Pravý</string>
     <!-- * Ringtone  -->
-  <string name="mediamonkey_ringtone_maker">MediaMonkey Ringtone Maker</string>
-    <string name="mediamonkey_ringtone_maker_summary">Tato akce vyžaduje rozšíření \'MediaMonkey Ringtone Maker\', které je k dispozici zdarma.</string>
+    <string name="mediamonkey_ringtone_maker_summary">Tato akce vyžaduje rozšíření %s, které je k dispozici zdarma.</string>
     <string name="write_settings_ringtone_permission_title">Nastavit jako…</string>
     <!-- duplicate -->
   <string name="write_settings_ringtone_permission_message">Pro nastavení skladby jako vyzvánění/budík, prosím, povolte MediaMonkey měnit systémová nastavení.</string>
@@ -921,6 +919,13 @@
         <item quantity="many">hvězd</item>
         <item quantity="other">hvězd</item>
     </plurals>
+  <!-- Count of stars with decimal values, values for decesion are rounded up (0.5 -> one) -->
+  <plurals name="number_rating_decimal">
+    <item quantity="one">hvězdy</item>
+    <item quantity="few">hvězdy</item>
+    <item quantity="many">hvězdy</item>
+    <item quantity="other">hvězdy</item>
+  </plurals>
     <string name="rating_plus">a více hvězd</string>
     <string name="rating_up">Zvětšit hodnocení</string>
     <string name="rating_down">Zmenšit hodnocení</string>
@@ -1094,7 +1099,7 @@
         aplikace MediaMonkey, která je pro statní hudební přehrávače nedostupná.</string>
     <string name="storage_permission_ignore_warning_short">Pokud k požadovaným složkám není udělen přístup:\n\nMediaMonkey nebude moci upravovat/synchronizovat obsah do těchto umístění!</string>
     <!-- Write access to folder is granted via Files manager, this is when the manager returns invalid folder uri -->
-  <string name="invalid_tree_uri">Invalid permission uri %s</string>
+  <string name="invalid_tree_uri">Neplatná URI: %s</string>
     <string name="path_already_writable">Pro složku %s již povolen zápis byl.</string>
     <string name="path_not_requested">Složka %s není požadována. Prohlédněte si prosím seznam výše.</string>
     <string name="path_invalid">Nelze zapisovat do nakonfigurovaného umístění. Místo toho se použije složka specifická pro MediaMonkey.</string>
@@ -1143,7 +1148,7 @@
     <!-- This is used in dialog when no storage is available. Historically it happens when phone was connected to PC. Nowadays at least main storage is
     usually mounted. So the text is updated. -->
   <string name="ums_activity_title">Není k dispozici žádné uložiště</string>
-    <string name="ums_activity_message">Pro přístup k souborům připojte alespoň jedno úložiště.</string>
+    <string name="ums_activity_message">Pro přístup k souborům připojte úložiště.</string>
     <!-- * Dialogs  -->
   <string name="do_not_ask_again">"Znovu se neptat "</string>
     <!-- * content descriptions (buttons and icons)
@@ -1166,6 +1171,6 @@
   <string name="disable_debug_logs">Disable debug logs</string>
     <string name="disable_debug_logs_summary">Disable all debug logs to improve performance</string>
     <string name="adaptive_colors">Adaptivní barvy</string>
-    <string name="adaptive_colors_summary">Použijte adaptivní barvy v zobrazení mřížky alb.</string>
+    <string name="adaptive_colors_summary">Použijte adaptivní barvy u mřížkového zobrazení alb.</string>
     <string name="may_decrease_performance">Může snížit výkon</string>
 </resources>
