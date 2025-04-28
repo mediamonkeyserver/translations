@@ -159,7 +159,7 @@
     <string name="no_tracks_to_play">播放列表为空</string>
     <string name="delete_unselected_content_copies_summary">删除服务器上但不在同步列表中的本地文件和播放列表。</string>
     <string name="delete_all_unselected_content_summary">删除不在同步列表中的所有本地文件和播放列表。</string>
-    <string name="invalid_paths_on_server">由于远程服务器上定义的目标文件位置无效，同步被拒绝。</string>
+    <string name="invalid_paths_on_server">由于目标文件位置无效，同步被拒绝。请在同步服务器上编辑位置。</string>
     <string name="finished_with_errors">完成时有错误</string>
     <string name="search_hint">在库中搜索</string>
     <string name="video">视频</string>
@@ -169,7 +169,7 @@
     <string name="search">搜索</string>
     <string name="search_">搜索：</string>
     <string name="ums_activity_title">没有可用存储空间</string>
-    <string name="ums_activity_message">挂载至少一个存储来访问文件。</string>
+    <string name="ums_activity_message">安装存储以访问文件。</string>
     <string name="dont_repeat">禁用重复</string>
     <string name="repeat_current">重复当前曲目</string>
     <string name="shuffle_enabled">启用随机播放</string>
@@ -329,7 +329,7 @@
     <string name="fade_out_music">淡出音乐</string>
     <string name="fade_out_music_details">音量逐渐减小至当前音量的 30%</string>
     <string name="play_last_song_completely">完整播放最后一首歌曲</string>
-    <string name="play_last_song_details">计时器结束时完成当前歌曲的播放。</string>
+    <string name="play_last_song_details">计时器结束时完成播放当前曲目。</string>
     <string name="timer_value">%1$2dh %2$2dm %3$2ds</string>
     <string name="timer_short_value">%1$2dh %2$2dm</string>
     <string name="continue_">继续</string>
@@ -375,7 +375,7 @@
     <string name="wifi_sync_addon_details">解锁无线同步。</string>
     <string name="upnp_trial_addon">流媒体插件</string>
     <string name="sorry_equalizer_is_not_supported">抱歉，此设备不支持均衡器。</string>
-    <string name="mediamonkey_ringtone_maker_summary">这需要免费的“MediaMonkey 铃声制作器”插件。</string>
+    <string name="mediamonkey_ringtone_maker_summary">这需要 %s 插件，可免费使用。</string>
     <string name="trial_please_consider_upgrading">请考虑升级！</string>
     <string name="folder_browser_trial_dialog_message">文件夹浏览器可以试用。</string>
     <string name="configurable_home_screen_trial_dialog_title">可配置的主屏幕</string>
@@ -562,7 +562,7 @@
     <string name="need_access_more_info">如果未授予权限，新内容将被保存到私人 MediaMonkey 文件夹中，该文件夹不能与其他应用程序共享。</string>
     <string name="unlock">解锁</string>
     <string name="confirm_edit">确认编辑</string>
-    <string name="scrobble_dialog_message_x">遗憾的是，无法从此应用禁用 %1$s。要卸载它吗？</string>
+    <string name="scrobble_dialog_message_x">无法从此应用禁用 %1$s。要卸载它吗？</string>
     <string name="app_failure_message">MediaMonkey 无法访问其应用程序文件夹。请重启设备以解决此问题。</string>
     <plurals name="removing_album_art_from_tracks">
         <item quantity="other">正在从曲目中删除专辑封面……</item>
@@ -627,8 +627,8 @@
     <string name="send">发送</string>
     <string name="logs_crash_info">MediaMonkey 已崩溃。发送调试日志将有助于我们解决此问题。</string>
     <string name="acra_send_automaticlay_title">自动发送崩溃日志</string>
-    <string name="running_service_resume_on_connection_title">通过有线耳机或基座连接（正在运行的服务）恢复播放。</string>
-    <string name="headset_service_required">使用 HeadsetDock 服务</string>
+    <string name="running_service_resume_on_connection_title">连接后恢复播放（正在运行的服务）。</string>
+    <string name="headset_service_required">运行后台服务</string>
     <string name="notification_ms_sync_description">扫描文件夹到库。</string>
     <string name="notification_background">后台任务</string>
     <string name="notification_shorcut_updating">更新快捷方式。</string>
@@ -708,7 +708,7 @@
     <string name="create_and_add">创建并添加</string>
     <string name="add_to">添加到</string>
     <string name="notification_updating_album_artwork">更新专辑封面</string>
-    <string name="updating_media_store">更新媒体数据库</string>
+    <string name="updating_media_store">更新 Android 媒体数据库</string>
     <string name="usb_sync">USB 同步</string>
     <string name="usb_sync_description">检查是否需要新的 USB 同步。</string>
     <string name="update_playlists_from_other_apps">从其他应用更新播放列表</string>
@@ -853,8 +853,8 @@
     <string name="change">更改</string>
     <string name="verify_paired_files">检查缺少的服务器项目</string>
     <string name="skip_sync_review_description">同步前跳过同步审核页面。禁用后，每次同步前都会调整同步设置。</string>
-    <string name="error_server_processing_timeout">服务器处理请求的时间异常长。
-\n如果服务器可用，您可以延长处理超时时间重试。</string>
+    <string name="error_server_processing_timeout">服务器处理请求的时间过长。
+\n请重试，如果服务器不可用，请重新启动服务器。</string>
     <string name="auto_sync_server_content">同步服务器内容</string>
     <string name="choosed_server_content">服务器内容保持同步</string>
     <string name="destination_file_locations">目标文件位置</string>
@@ -867,8 +867,8 @@
     <string name="dont_sync">不同步</string>
     <string name="verifying_paired">验证配对文件</string>
     <string name="conversion_of_file_is_stalling">%s 的转换已停止。请检查服务器临时文件夹中的可用空间。</string>
-    <string name="downloading_sync_setting">正在下载同步设置…</string>
-    <string name="uploading_sync_setting_for_x">正在上传 %s 的同步设置…</string>
+    <string name="downloading_sync_setting">正在下载同步设置</string>
+    <string name="uploading_sync_setting_for_x">正在上传 %s 的同步设置</string>
     <string name="to_server">到服务器</string>
     <string name="from_server">从服务器</string>
     <string name="logs_sent_failed">无法发送崩溃日志。</string>
@@ -936,7 +936,7 @@
     <string name="do_not_ask_again">"不再询问 "</string>
     <string name="navigation">导航</string>
     <string name="adaptive_colors">自适应颜色</string>
-    <string name="adaptive_colors_summary">在相册网格视图中使用自适应颜色。</string>
+    <string name="adaptive_colors_summary">在相册网格中使用自适应颜色。</string>
     <string name="may_decrease_performance">可能会降低性能</string>
     <string name="purchase_finished_successfully">购买成功完成！</string>
     <string name="product_already_owned">已拥有产品</string>
@@ -949,7 +949,7 @@
     <string name="different_sync_server_message">MediaMonkey 已配置为与其他服务器同步。是否要使用此服务器的新同步设置（现有设置将被替换）？</string>
     <string name="no_results_found">未找到结果</string>
     <string name="prevent_notification_sounds_summary">防止播放时通知改变音量。</string>
-    <string name="invalid_tree_uri">无效的权限 uri %s</string>
+    <string name="invalid_tree_uri">无效 URI：%s</string>
     <string name="get_notified_description">允许后台进程通知（已禁用）</string>
     <string name="add_items_to_playlist">添加项目到 %s 播放列表？</string>
     <string name="verifying_paired_details">正在验证已配对的文件…</string>
@@ -970,4 +970,22 @@
 \n1 点击“配置…”打开“所有文件访问”权限设置。
 \n
 \n2 在应用列表中找到“外部存储”并启用它（如果它不在列表中，请点击“⋮”&gt;“显示系统应用”）。</string>
+    <string name="port">端口</string>
+    <string name="_online">在线</string>
+    <string name="megabyte">MB</string>
+    <string name="gigabyte">GB</string>
+    <string name="success">成功</string>
+    <string name="failed">失败</string>
+    <string name="multiple_file_types_selected">选择了多种文件类型</string>
+    <plurals name="number_rating_decimal">
+        <item quantity="other">星</item>
+    </plurals>
+    <string name="rating_plus">或更多的星</string>
+    <plurals name="number_test">
+        <item quantity="other">其他</item>
+    </plurals>
+    <string name="kilobyte">KB</string>
+    <plurals name="number_rating">
+        <item quantity="other">星</item>
+    </plurals>
 </resources>
