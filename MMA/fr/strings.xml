@@ -10,7 +10,7 @@
     <string name="create_new_playlist">Créer une nouvelle playlist</string>
     <string name="cancel">Annuler</string>
     <string name="close">Fermer</string>
-    <string name="enter_playlist_name">Saisissez le nom de la playlist :</string>
+    <string name="enter_playlist_name">Saisir le nom de la playlist :</string>
     <string name="error">Erreur</string>
     <string name="media_synchronization">Synchronisation Wi-Fi</string>
     <string name="select_mm_server">Sélectionner un serveur de synchro</string>
@@ -65,7 +65,7 @@
     <string name="unknown_genre">Genre inconnu</string>
     <string name="uploading">Envoi en cours</string>
     <string name="uploading_failed">Échec de l’envoi de la piste</string>
-    <string name="uploading_playlists_failed">Échec de l’envoi de la playlist</string>
+    <string name="uploading_playlists_failed">L’envoi de la playlist échoué</string>
     <string name="download">Télécharger</string>
     <plurals name="downloading_finished">
         <item quantity="one">Téléchargé %d piste</item>
@@ -143,7 +143,7 @@
     <string name="refresh">Rafraîchir</string>
     <string name="volume_leveling">Ajuster le volume</string>
     <string name="volume_leveling_summary">Ajuste le volume des pistes avec informations de volume.</string>
-    <string name="volume_leveling_label">"Ajustement: "</string>
+    <string name="volume_leveling_label">"Ajustement : "</string>
     <string name="use_to_play_video_title">Utiliser pour lire la vidéo</string>
     <string name="use_to_play_video_summary">Utilisez MediaMonkey pour lire la vidéo par défaut</string>
     <string name="genres">Genres</string>
@@ -1029,15 +1029,16 @@
     <string name="invalid_tree_uri">URI invalide : %s</string>
     <string name="access_to_media">Accès aux médias</string>
     <plurals name="number_rating_decimal">
-        <item quantity="one">étoile</item>
-        <item quantity="many">étoiles</item>
-        <item quantity="other">étoiles</item>
+        <item quantity="one">%1$.1f étoile</item>
+        <item quantity="many">%1$.1f étoiles</item>
+        <item quantity="other">%1$.1f étoiles</item>
     </plurals>
     <string name="error_server_processing_timeout">Le serveur a mis trop de temps à traiter la demande.
 \nRéessayez ou redémarrez le serveur s’il est indisponible.</string>
     <plurals name="number_rating">
-        <item quantity="one">étoile</item>
-        <item quantity="many">étoiles</item>
-        <item quantity="other">étoiles</item>
+        <item quantity="one">%d étoile</item>
+        <item quantity="many">%d étoiles</item>
+        <item quantity="other">%d étoiles</item>
     </plurals>
+    <string name="rating_plus">%s étoiles ou plus</string>
 </resources>
