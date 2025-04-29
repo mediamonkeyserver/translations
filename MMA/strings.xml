@@ -749,11 +749,11 @@
     </plurals>
     <plurals name="removing_album_art_from_database">
         <item quantity="one">Removing album art from library…</item>
-        <item quantity="other">Removing album arts from library…</item>
+        <item quantity="other">Removing album art from library…</item>
     </plurals>
     <plurals name="prepparing_album_art_to_remove">
         <item quantity="one">Preparing to remove album art…</item>
-        <item quantity="other">Preparing to remove album arts…</item>
+        <item quantity="other">Preparing to remove album art…</item>
     </plurals>
     <plurals name="delete_album_art_files">
         <item quantity="one">Deleting album art file…</item>
@@ -951,15 +951,16 @@
 
     <!-- Count of stars as rating for whole numbers(1, 2, 3, 4, 5) -->
     <plurals name="number_rating">
-        <item quantity="one">star</item>
-        <item quantity="other">stars</item>
+        <item quantity="one">%d star</item>
+        <item quantity="other">%d stars</item>
     </plurals>
-    <!-- Count of stars as rating for decimal values(float value for 0.5 = one, 1.5, 2.5, 3.5 and 4.5) -->
+    <!--    Represents half-star ratings. For any English string variant to be translated, add .5 to the values shown in brackets next to the english string
+     to understand what the translation should be. e.g. (0) means .5 stars. (1) means 1.5 stars, (2) means 2.5 stars..-->
     <plurals name="number_rating_decimal">
-        <item quantity="one">stars</item>
-        <item quantity="other">stars</item>
+        <item quantity="one">%1$.1f stars</item>
+        <item quantity="other">%1$.1f stars</item>
     </plurals>
-    <string name="rating_plus">or more stars</string>
+    <string name="rating_plus">%s or more stars</string>
 
     <!-- Increase rating  -->
     <string name="rating_up">Rating up</string>
@@ -1233,11 +1234,5 @@
     <string name="adaptive_colors">Adaptive colors</string>
     <string name="adaptive_colors_summary">Use adaptive colors in the album grid.</string>
     <string name="may_decrease_performance">May decrease performance</string>
-
-
-    <plurals name="number_test">
-        <item quantity="one">one</item>
-        <item quantity="other">other</item>
-    </plurals>
 
 </resources>
