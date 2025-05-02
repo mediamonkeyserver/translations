@@ -90,7 +90,7 @@
     <string name="media_monkey_amazon_store">Obchod MediaMonkey pro Amazon</string>
     <string name="buy">Koupit</string>
     <string name="trial_message">Tato funkce je k dispozici na vyzkoušení. Zbývající dny: </string>
-    <string name="other_app_installed_message">Byla zjištěna jiná instance aplikace MediaMonkey na tomto zařízení. Odinstalujte prosím ostatní aplikace MediaMonkey, aby byla nainstalována jen jedna instance MediaMonkey.</string>
+    <string name="other_app_installed_message">Byla zjištěna jiná instance aplikace MediaMonkey na tomto zařízení. Odinstalujte prosím ostatní kopie a ponechte nainstalovanou pouze tuto instanci MediaMonkey.</string>
     <string name="google_play_services_not_installed">Tato verze aplikace MediaMonkey pro Android vyžaduje služby Google Play %1$s nebo vyšší. Aktualizujte prosím na nejnovější verzi.</string>
     <string name="license">Licence</string>
     <string name="license_agreement">Licenční ujednání</string>
@@ -120,7 +120,7 @@
     <string name="checking_license">Ověřování licence…</string>
     <string name="you_need_to_update_pro_version">Aktualizujte prosím MediaMonkey Pro na verzi %1$s nebo větší k odemčení všech prémiových funkcí.</string>
     <string name="you_need_to_install_pro_version">Nainstalujte prosím MediaMonkey Pro k odemčení všech prémiových funkcí.</string>
-    <string name="update_pro">Aktualizuj verzi Pro</string>
+    <string name="update_pro">Přejít na Pro verzi</string>
     <string name="keep_lite">Nechat verzi Lite </string>
     <!-- Google play store is inaccessible-->
   <string name="no_activity_found_to_handle_intent">Obchod je nepřístupný.</string>
@@ -362,7 +362,7 @@
     <string name="download_canceling">Přerušuji stahování…</string>
     <string name="do_you_really_want_to_cancel_download">Opravdu chcete zrušit stahování?</string>
     <string name="your_device_does_not_support_writing_to_sdcard">Vaše zařízení nepodporuje zápis na sdkartu.</string>
-    <string name="download_remaining">Zbývá </string>
+    <string name="download_remaining">Zbývá <xliff:g id="DURATION">%s</xliff:g></string>
     <string name="download_tracks">Stahování skladeb</string>
     <!-- upload -->
   <string name="uploaded">Odesláno</string>
@@ -563,10 +563,10 @@
   <string name="sync_deletion_from_device">Mazání ze zařízení</string>
     <!-- Files that exist within the server library that have not been selected to be synced -->
   <string name="unselected_copies">Nevybrané kopie obsahu</string>
-    <string name="delete_unselected_content_copies_summary">Odstranit nevybrané soubory a playlisty ze zařízení, pokud kopie existují na serveru.</string>
+    <string name="delete_unselected_content_copies_summary">Smazat lokální soubory a playlisty, které jsou na serveru, ale nejsou na seznamu synchronizace.</string>
     <!-- All files that have not been selected to be synced -->
   <string name="all_unselected_content">Všechen nevybraný obsah</string>
-    <string name="delete_all_unselected_content_summary">Odstranit nevybrané soubory a playlisty ze zařízení, i když kopie neexistují na serveru.</string>
+    <string name="delete_all_unselected_content_summary">Smazat všechny lokální soubory a playlisty, které nejsou na seznamu synchronizace.</string>
     <!-- * WiFi sync review -->
   <string name="review_settings">Přehled nastavení</string>
     <!-- The Synchronization server -->
@@ -724,11 +724,13 @@
     <plurals name="removing_album_art_from_database">
         <item quantity="one">Odstraňuji obrázek alba z knihovny…</item>
         <item quantity="few">Odstraňuji obrázky alba z knihovny…</item>
+        <item quantity="many">Odstraňuji obrázky alba z knihovny…</item>
         <item quantity="other">Odstraňuji obrázky alba z knihovny…</item>
     </plurals>
     <plurals name="prepparing_album_art_to_remove">
         <item quantity="one">Připravují obrázek alba ke smazání…</item>
         <item quantity="few">Připravují obrázky alba ke smazání…</item>
+        <item quantity="many">Připravují obrázky alb ke smazání…</item>
         <item quantity="other">Připravují obrázky alb ke smazání…</item>
     </plurals>
     <plurals name="delete_album_art_files">
@@ -916,7 +918,7 @@
         <item quantity="many">%d hvězd</item>
         <item quantity="other">%d hvězd</item>
     </plurals>
-    <plurals name="number_rating_decimal">
+  <plurals name="number_rating_decimal">
         <item quantity="one">%1$.1f hvězdy</item>
         <item quantity="few">%1$.1f hvězdy</item>
         <item quantity="many">%1$.1f hvězdy</item>
@@ -1036,8 +1038,8 @@
     <string name="notification_progressbar_enabled_summary">Zobrazuje pozici přehrávání v oznamovacím přehrávači.</string>
     <!-- * Preferences - notification  -->
   <string name="notification">Oznámení</string>
-    <string name="termination_timer_title">Zobrazit v oznamovací liště</string>
-    <string name="termination_timer_summary">Zobraz ikonu v notifikační liště při pauze/neaktivitě po dobu %1$s.</string>
+    <string name="termination_timer_title">Zobrazit v panelu oznámení</string>
+    <string name="termination_timer_summary">Při pozastavení/nečinnosti, zůstane v panelu oznámení po dobu %1$s před zavřením.</string>
     <string name="termination_timer_summary_always">Při pozastavení/neaktivitě zobraz v notifikační liště.</string>
     <string name="playback_notification">Typ oznámení přehrávače</string>
     <string name="playback_notification_small">Malý</string>
@@ -1103,7 +1105,7 @@
     <string name="register_for_test_builds_summary">Aktualizovat na nejnovější verzi MediaMonkey Beta.</string>
     <string name="access_to_media">Přístup k médiím</string>
     <string name="access_to_folders">Přístup ke složkám</string>
-    <string name="backup_info_description">Složka se používá pro USB synchronizaci s MediaMonkey pro počítač.</string>
+    <string name="backup_info_description">Složka se používá pro USB synchronizaci se serverem MediaMonkey.</string>
     <string name="please_grant_to_proceed">Chcete-li pokračovat, udělte přístup:</string>
     <string name="mediamonkey_settings_folder">složce nastavení MediaMonkey</string>
     <string name="grant_access_to_mediamonkey">Udělte přístup ke složce MediaMonkey</string>

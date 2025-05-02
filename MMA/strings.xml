@@ -100,7 +100,7 @@
     <string name="media_monkey_amazon_store">MediaMonkey Amazon Store</string>
     <string name="buy">Buy</string>
     <string name="trial_message">This feature is available on a trial basis. Days remaining: </string>
-    <string name="other_app_installed_message">Another instance of MediaMonkey was detected on this device. Please uninstall the other MediaMonkey applications to ensure that only one instance of MediaMonkey is installed.</string>
+    <string name="other_app_installed_message">Another instance of MediaMonkey was detected on this device. Please uninstall other copies, leaving only this instance of MediaMonkey installed.</string>
     <string name="google_play_services_not_installed">This version of MediaMonkey for Android requires Google Play Services %1$s or higher. Please update to the latest version.</string>
     <string name="license">License</string>
     <string name="license_agreement">License agreement</string>
@@ -130,7 +130,7 @@
     <string name="checking_license">Checking license…</string>
     <string name="you_need_to_update_pro_version">Please update MediaMonkey Pro to version %1$s or higher to unlock all extra features.</string>
     <string name="you_need_to_install_pro_version">Please install MediaMonkey Pro to unlock all extra features.</string>
-    <string name="update_pro">Update Pro</string>
+    <string name="update_pro">Upgrade to Pro</string>
     <string name="keep_lite">Keep Lite</string>
     <!-- Google play store is inaccessible-->
     <string name="no_activity_found_to_handle_intent">Store is inaccessible.</string>
@@ -152,8 +152,10 @@
     <string name="move_to_start">Move to start</string>
     <string name="add_to">Add to</string>
     <string name="order_by">Order by…</string>
-    <string name="grid_view">Show grid layout</string>
-    <string name="list_view">Show list layout</string>
+    <!-- As in: Show (the items) as a grid (layout) -->
+    <string name="grid_view">Show as grid</string>
+    <!--  As in: Show (the items) as a list (layout) -->
+    <string name="list_view">Show as list</string>
     <string name="contextual_action_supported_for_unknown_items">This action isn\'t supported for unknown items.</string>
 
     <!-- * Sleep Timer -->
@@ -376,7 +378,8 @@
     <string name="download_canceling">Terminating download…</string>
     <string name="do_you_really_want_to_cancel_download">Do you really want to cancel the download?</string>
     <string name="your_device_does_not_support_writing_to_sdcard">Your device does not support writing to sdcard.</string>
-    <string name="download_remaining" msgid="3139295890887972718"><xliff:g id="DURATION">%s</xliff:g> to finish</string>
+    <!-- As in: (time) remaining -->
+    <string name="download_remaining" msgid="3139295890887972718"><xliff:g id="DURATION">%s</xliff:g> remaining</string>
     <string name="download_tracks">Download tracks</string>
     <!-- upload -->
     <string name="uploaded">Uploaded</string>
@@ -418,7 +421,7 @@
     <string name="updating">Updating</string>
     <string name="updating_playlist_file">Updating playlist file</string>
     <string name="upgrade">Upgrade</string>
-    <string name="upgrading_paths_format">Upgrading paths format in database…</string>
+    <string name="upgrading_paths_format">Updating paths format in database…</string>
     <string name="checking_tasks_to_process">Updating library…</string>
     <!-- notification when updating android media store (disabled by default) -->
     <string name="updating_media_store">Updating Android media database</string>
@@ -582,10 +585,10 @@
     <string name="sync_deletion_from_device">Delete from the device</string>
 	<!-- Files that exist within the server library that have not been selected to be synced -->
     <string name="unselected_copies">Unselected server files</string>
-    <string name="delete_unselected_content_copies_summary">Delete local files and playlists that are on the server but not the sync list.</string>
+    <string name="delete_unselected_content_copies_summary">Delete local files and playlists, that are on the server but not the sync list.</string>
 	<!-- All files that have not been selected to be synced -->
     <string name="all_unselected_content">All unselected files</string>
-    <string name="delete_all_unselected_content_summary">Delete all local files and playlists that aren\'t on the sync list.</string>
+    <string name="delete_all_unselected_content_summary">Delete all local files and playlists, that aren\'t on the sync list.</string>
     <!-- * WiFi sync review -->
     <string name="review_settings">Review settings</string>
 	<!-- The Synchronization server -->
@@ -1088,7 +1091,7 @@
     <!-- * Preferences - notification  -->
     <string name="notification">Notifications</string>
     <string name="termination_timer_title">Show in notifications bar</string>
-    <string name="termination_timer_summary">When paused/inactive, run in notifications bar for %1$s before closing.</string>
+    <string name="termination_timer_summary">When paused/inactive, remain in notifications bar for %1$s before closing.</string>
     <string name="termination_timer_summary_always">When paused/inactive, run in notifications bar.</string>
 
     <string name="playback_notification">Player notification type</string>
@@ -1098,7 +1101,7 @@
     <string name="playback_notification_summary">Displays %s media player in notifications.</string>
 
     <!-- * Notification - channels  -->
-    <string name="sync_channel_name">Sync</string>
+    <string name="sync_channel_name">Synchronization</string>
 	<!-- Status of the synchronization operation -->
     <string name="sync_channel_description">Sync status</string>
     <string name="storage_channel_name">Media library</string>
@@ -1163,7 +1166,7 @@
     <string name="register_for_test_builds_summary">Get updated with the latest MediaMonkey beta builds.</string>
     <string name="access_to_media">Access to media</string>
     <string name="access_to_folders">Access to folders</string>
-    <string name="backup_info_description">The folder is used for USB synchronization with MediaMonkey desktop.</string>
+    <string name="backup_info_description">The folder is used for USB synchronization with the MediaMonkey server.</string>
     <string name="please_grant_to_proceed">Please grant access to proceed:</string>
     <string name="mediamonkey_settings_folder">the MediaMonkey settings folder</string>
     <string name="grant_access_to_mediamonkey">Grant access to MediaMonkey folder</string>
