@@ -5,6 +5,7 @@
     <string name="mediamonkey_for_android">MediaMonkey for Android</string>
     <string name="menu_about_mm">About MediaMonkey</string>
     <string name="mm_version">Version %1$s</string>
+    <!--    As in: Welcome to (the) MediaMonkey (app)-->
     <string name="welcome_to_media_monkey">Welcome to MediaMonkey</string>
     <string name="mm_help">MediaMonkey help</string>
     <string name="mm_help_details">Online documentation</string>
@@ -128,7 +129,7 @@
     <string name="wifi_sync_addon">Wi-Fi Sync addon</string>
     <string name="wifi_sync_addon_details">Unlocks wireless synchronization.</string>
     <string name="upnp_trial_addon">Streaming addon</string>
-    <string name="upnp_trial_addon_details">Unlocks UPnP/DLNA streaming and UPnP/DLNA/Chromecast casting.</string>
+    <string name="upnp_trial_addon_details">Unlocks UPnP/DLNA streaming and UPnP/DLNA/Google Cast.</string>
     <string name="advanced_media_manager_addon">Advanced Media Management addon</string>
     <string name="advanced_media_manager_addon_details">Unlocks home screen customization, folder browser.</string>
     <string name="mediamonkey_pro_addon">MediaMonkey Pro</string>
@@ -146,7 +147,7 @@
     <string name="billing_service_disconnected">Billing service disconnected.</string>
 
     <!-- * contextual actions -->
-    <!-- As in: Find more (tracks) from (Artist:U2) -->
+    <!-- As in: Find more (tracks) from (Artist:U2). OR View more from (Artist:Beatles). -->
     <string name="find_more_from">Find more from</string>
     <string name="share">Share…</string>
     <!-- As in  set as ringtone or set as alarm -->
@@ -496,7 +497,7 @@
     <!-- The path to a UPnP Device Description File -->
     <string name="device_description_file_path">Device Description file path</string>
     <string name="protocol">Protocol</string>
-    <string name="invalid_url_format">Invalid url format</string>
+    <string name="invalid_url_format">Invalid URL format</string>
     <!-- The format of the Uniform Resource Identifier path to a device on the network isn't supported -->
     <string name="unsupported_uri">Unsupported URI</string>
     <string name="connection_failed_access_denied">Connection failed: Access denied</string>
@@ -517,7 +518,7 @@
     <!-- searching for an available media server to browse  -->
     <string name="searching_media_servers">Searching media servers…</string>
     <!-- As in: Searching for Google cast or UPnP/DLNA renderer devices.  -->
-    <string name="searching_cast_devices">Searching for cast devices…</string>
+    <string name="searching_cast_devices">Searching for streaming devices…</string>
     <string name="no_sync_server">No sync server</string>
     <string name="server_connected">Server connected</string>
     <string name="server_disconnected">Server disconnected</string>
@@ -561,8 +562,8 @@
     <string name="cast_to">Cast to</string>
     <string name="stop_casting">Stop casting</string>
     <string name="renderer">Renderer</string>
-    <string name="no_cast_device">No cast device</string>
-    <string name="casting_to_chromecast">Casting to chromecast device</string>
+    <string name="no_cast_device">No streaming device</string>
+    <string name="casting_to_chromecast">Casting to Google Cast device</string>
     <string name="add_client">Add client</string>
 
     <!-- * WiFi sync  -->
@@ -595,6 +596,7 @@
     <string name="bidi_content_description">"Choose content to keep synced bidirectionally "</string>
     <string name="show_confirm_dialog">Show confirmation dialog</string>
     <!-- ** Types of bi-di sync  -->
+    <!--    Auto-Sync file metadata (between the device and the server)-->
     <string name="auto_sync_file_metadata_changes">Auto-Sync file metadata</string>
     <string name="auto_sync_playlists_and_new_files_to_the_server">Auto-sync playlists and new files to the server</string>
     <string name="auto_sync_playlists_and_new_files_to_the_server_and_metadata">Auto-sync playlists and new files to the server + file metadata</string>
@@ -618,7 +620,9 @@
     <!-- ** Advanced sync options -->
     <string name="verify_paired_files">Check for missing server items</string>
     <string name="verify_paired_files_description">Verifies whether previously synced files or playlists have been removed from the server (Slow. Only active for this sync).</string>
+    <!--    Skip the sync confirmation/review dialog-->
     <string name="skip_sync_review">Skip sync review</string>
+    <!--    Skip the sync review/confirmation dialog (that normally appears) before syncing. Disable (this option) to adjust sync settings (on each sync operation)-->
     <string name="skip_sync_review_description">Skip the sync review page before syncing. Disable to adjust sync settings before each sync.</string>
     <string name="error_server_processing_timeout">The server took too long to process the request.\nRetry, or restart the server if it\'s unavailable.</string>
 
@@ -647,7 +651,7 @@
     <string name="select_other_server">Choose other server</string>
 
     <!-- * WiFi sync pairing process -->
-    <!-- Used as progress title while pairing local files with server files   -->
+    <!-- Used as progress title while pairing local files with server files. Matching new files (between the client and the server)   -->
     <string name="pairing">Matching new files</string>
     <!-- As in: Checking for (the existence of) new files... (this is used to show progress during file pairing)  -->
     <string name="pairing_details">Checking for new files…</string>
@@ -682,7 +686,7 @@
     <string name="connection_failed_hint">Server inaccessible (try restarting the server and then re-running the Sync configuration wizard)</string>
     <string name="conversion_of_file_is_stalling">Conversion of %s is stalled. Check free space in the server\'s temp folder.</string>
     <string name="different_sync_server_message">MediaMonkey is configured to sync with a different server. Do you want to use new sync settings from this server (existing settings will be replaced)?</string>
-    <string name="media_not_ready_message">An unexpected failure occurred during autoconversion of tracks.</string>
+    <string name="media_not_ready_message">An unexpected failure occurred during auto-conversion of tracks.</string>
     <string name="sync_settings_not_found_message">An unexpected failure occurred during sync initialization.</string>
     <string name="please_contact_us">To resolve this, we\'ll need your help and additional logs from MediaMonkey for Windows. Please contact us via our
         helpdesk for instructions.</string>
@@ -807,7 +811,7 @@
     <string name="local_renderer">Local player</string>
     <!-- Action button to Lock the UI to prevent accidental button presses -->
     <string name="lock">Lock</string>
-    <!-- Action button to disable the UI Lock -->
+    <!-- As in: Unlock the screen, rather than unlock functionality. -->
     <string name="unlock">Unlock</string>
     <string name="picture_in_picture">Picture in picture</string>
     <string name="open_in_fullscreen">Open fullscreen</string>
@@ -893,9 +897,10 @@
     <!-- * Properties -->
     <string name="properties">Properties</string>
     <string name="path">&quot;Path: &quot;</string>
-    <!--    track length is mm:ss-->
+    <!--    Track duration -->
     <string name="length">&quot;Length: &quot;</string>
     <string name="last_played">&quot;Last played: &quot;</string>
+    <!--    (No. of times) Played-->
     <string name="playcount">Played</string>
     <string name="skipcount">Skipped</string>
     <!--    track size in MB or Bytes-->
@@ -1002,10 +1007,10 @@
     <string name="ui_summary">Themes, notifications, customization</string>
     <string name="mat_theme">Theme</string>
     <string name="select_theme">Select theme</string>
-    <string name="material_theme_amber_grey">AmberGrey</string>
-    <string name="material_theme_light_blue_grey">BlueGrey</string>
-    <string name="material_theme_blue_white">BlueWhite</string>
-    <string name="material_theme_amber_black">AmberBlack</string>
+    <string name="material_theme_amber_grey">Amber-Grey</string>
+    <string name="material_theme_light_blue_grey">Blue-Grey</string>
+    <string name="material_theme_blue_white">Blue-White</string>
+    <string name="material_theme_amber_black">Amber-Black</string>
     <string name="dark_mode">Dark mode</string>
     <!--    As in: (the feature is) not enabled/inactive-->
     <string name="off">Off</string>
@@ -1029,6 +1034,7 @@
     <string name="crossfade_title">Audio transitions: </string>
     <string name="crossfade">Crossfade</string>
     <string name="crossfade_summary">Crossfade adjacent tracks (unstable on some devices).</string>
+    <!--    As in: Gapless (playback)-->
     <string name="gapless">Gapless</string>
     <string name="gapless_summary">Uninterrupted playback of consecutive audio tracks.</string>
 
@@ -1043,8 +1049,11 @@
     <string name="write_settings_touch_sounds_permission_message">To disable touch sounds, please give MediaMonkey permission to change system settings.</string>
     <string name="write_settings_touch_sounds_permission_denied">Permission was denied. System touch sounds cannot be disabled.</string>
 
+    <!--    Refers to remote control mechanisms to remotely control the app, rather than TV remotes.-->
     <string name="remote_controls">Remote controls</string>
+    <!--    (Application should) Always respond/react (in response) to remote buttons-->
     <string name="always_respond_to_remote_controls">Always respond to remote buttons</string>
+    <!--    (Application should) Respond/react to bluetooth or other controls whenever possible.-->
     <string name="always_respond_to_remote_controls_summary">Respond to bluetooth or other controls whenever possible.</string>
     <string name="resume_play_on_connection">Resume play on connection</string>
     <string name="resume_play_on_connection_summary_none">Don\'t automatically resume playback upon connecting an audio device.</string>
@@ -1054,6 +1063,7 @@
     <string name="bluetooth">Bluetooth</string>
     <string name="wired_headset">Wired headset</string>
     <string name="dock">Dock</string>
+    <!--    Runs (continuously as) a background service-->
     <string name="headset_service_required">Runs a background service</string>
 
     <!-- This settings applies the nodes from the home screen to clients such as Android Auto -->
