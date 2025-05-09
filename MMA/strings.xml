@@ -115,6 +115,7 @@
     <string name="license_agreement">License agreement</string>
     <string name="standard">Standard</string>
     <string name="click_to_upgrade_to_pro_version">Tap to upgrade…</string>
+    <!-- As in: Support MediaMonkey! -->
     <string name="trial_dialog_title">Help support MediaMonkey!</string>
     <string name="trial_please_consider_upgrading">Please consider upgrading!</string>
     <string name="trial_short_message">Limit: 30 minutes at a time.</string>
@@ -280,9 +281,9 @@
     <string name="artist">Artist</string>
     <!-- Used as the Node name for Artists representing both Artists and Album Artists -->
     <string name="artists">Artists</string>
-    <!-- Used as the Node name for Track Artists as opposed to the Artist of an Album -->
+    <!-- Artists of (a set of) tracks. (It is a Node name). -->
     <string name="media_artists">Track Artists</string>
-    <!-- This is the name of the node representing Album Artists (plural) -->
+    <!-- Artists of (a set of) albums. (It is a Node name). -->
     <string name="album_artists">Album Artists</string>
     <!-- The Album Artist attribute in the Properties dialog where one or more Artists can be entered  -->
     <string name="artists_label">Artist(s)</string>
@@ -386,6 +387,7 @@
     <string name="downloading">Downloading</string>
     <string name="upnp_download_directory">Download location</string>
     <string name="downloading_playlists_failed">Playlist download failed</string>
+    <!--    Save files to: (a folder path)-->
     <string name="upnp_download_directory_summary">Save files to: %1$s</string>
     <string name="downloading_failed">Track download failed</string>
     <string name="download_canceled">Download canceled</string>
@@ -570,6 +572,7 @@
     <string name="media_synchronization">Wi-Fi Sync</string>
     <!-- * WiFi sync wizard -->
     <string name="sync_setting_wizard">Sync configuration wizard</string>
+    <!--    Select a server-->
     <string name="select_server">Select server</string>
     <string name="select_storage">Select storage</string>
     <string name="select_content">Select content</string>
@@ -758,9 +761,12 @@
 
     <!-- * Album artwork  -->
     <string name="artwork">Artwork</string>
+    <!--    Lookup missing artwork online as tracks play.-->
     <string name="download_album_art_summary">Find missing artwork as tracks play.</string>
+    <!--    Lookup album art online for albums that are missing images-->
     <string name="download_album_art_title">Lookup missing album art</string>
     <string name="album_art_cant_be_download">Album art can\'t be downloaded.</string>
+    <!--    Search online for missing artwork?-->
     <string name="artwork_not_available_search">Search for missing artwork?</string>
 
     <plurals name="removing_album_art_from_tracks">
@@ -785,8 +791,10 @@
     </plurals>
 
     <!-- * Playback  actions-->
+    <!--    Play (as opposed to Pause) button-->
     <string name="play">Play</string>
     <string name="pause">Pause</string>
+    <!--    Stop (as opposed to Play / Pause) button-->
     <string name="stop">Stop</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
@@ -802,6 +810,7 @@
     <string name="play_all_shuffle">Play all (shuffled)</string>
     <!-- * Playback  error messages -->
     <string name="skipping_inaccessible_tracks">Skipping inaccessible tracks</string>
+    <!--    Skipped %1$s (track name). The track is unsupported by the audio receiver.-->
     <string name="skipped_x_track_unsupporeted_by_receiver">Skipped %1$s. It is unsupported by the receiver.</string>
     <string name="skipping_tracks_missing_codec">Skipping tracks (missing codec)</string>
     <string name="unsupported_format">Unsupported format</string>
@@ -819,6 +828,7 @@
 
 
     <!-- * Now playing -->
+    <!--    As in: (Playing) Queue-->
     <string name="queue">Queue</string>
     <string name="playing_queue">Playing queue</string>
     <string name="no_tracks_to_play">Playing queue is empty</string>
@@ -826,14 +836,16 @@
     <string name="recreating_tracklist">Recreating Playing queue…</string>
     <string name="return_to_now_playing">Return to Playing queue</string>
     <string name="art">Art</string>
-    <!--    Playing: as in Playing (queue). In this case it is used as a shorthand means of referring to the Playing queue.-->
+    <!--    Playing: as in Playing (queue). In this case it is used as a shorthand means of referring to the Playing queue. (currently) Playing-->
     <string name="playing">Playing</string>
     <!-- remaining playback time in the Now playing list  -->
     <string name="remains">&quot;Remaining: &quot;</string>
 
     <!-- * Lyrics  -->
     <string name="lyrics">Lyrics</string>
+    <!--    Search for lyrics online-->
     <string name="search_lyrics">Search lyrics</string>
+    <!--    Search for lyrics online-->
     <string name="lyrics_not_available_search">Search for lyrics?</string>
     <string name="lyrics_not_available">No lyrics.</string>
     <string name="lyrics_not_found">Lyrics not found.</string>
@@ -875,6 +887,7 @@
     </plurals>
 
     <!-- * Search -->
+    <!--    Search (button)-->
     <string name="search">Search</string>
     <string name="search_hint">Search in library</string>
     <string name="search_alternate">Search alternate</string>
@@ -883,7 +896,9 @@
     <string name="search_result">Search result</string>
 
     <string name="lookup">Lookup information</string>
+    <!--    Lookup missing lyrics online-->
     <string name="lyrics_search_auto">Lookup missing lyrics</string>
+    <!--    Find missing lyrics online as tracks play.-->
     <string name="lyrics_search_auto_summary">Find missing lyrics as tracks play.</string>
     <string name="lookup_update_database">Update database</string><!-- preference title -->
     <string name="lookup_update_database_summary">Update the database with looked up content.</string>
@@ -900,10 +915,11 @@
     <!--    Track duration -->
     <string name="length">&quot;Length: &quot;</string>
     <string name="last_played">&quot;Last played: &quot;</string>
-    <!--    (No. of times) Played-->
+    <!--    As in: (the track was) Played -->
     <string name="playcount">Played</string>
+    <!--    As in: Skipped (10 tracks)-->
     <string name="skipcount">Skipped</string>
-    <!--    track size in MB or Bytes-->
+    <!--    track size in MB or Bytes -->
     <string name="size">&quot;Size: &quot;</string>
     <string name="release_date">Release date </string>
 
@@ -944,6 +960,7 @@
     <string name="directory_is_not_included_in_sync_path">To perform this operation, the file must be added to the library.</string>
     <string name="scan_the_folder_to_the_library">Scan the folder to the library?</string>
     <string name="library_folders">Library folders</string>
+    <!--    Check for new or changed media (files)-->
     <string name="scan_library_title">Check for new/changed media</string>
     <string name="scan_library_details">Scan library folders to show new/modified content.</string>
     <string name="folders_added_to_library">Folders added to library</string>
