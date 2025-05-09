@@ -7,15 +7,15 @@
     <string name="welcome_to_media_monkey">Vítejte v MediaMonkey</string>
     <string name="mm_help">Nápověda k MediaMonkey</string>
     <string name="mm_help_details">Online dokumentace</string>
-    <string name="mm_community_forum">Poskytnout zpětnou vazbu</string>
+    <string name="mm_community_forum">Fórum komunity</string>
     <string name="mm_community_forum_details">Ptejte se, sdílejte hlášení o chybách / nápady.</string>
     <string name="troubleshooting">Poradce</string>
     <string name="outdated_server_title">MediaMonkey pro Windows je zastaralé</string>
     <string name="outdated_server_description">Vaše verze MediaMonkey pro Windows je zastaralá.</string>
-    <string name="outdated_server_denied">Prosím proveďte aktualizaci nejméně na %s.</string>
+    <string name="outdated_server_denied">Aktualizujte prosím na verzi %s.</string>
     <string name="outdated_server_recommended">Doporučujeme se aktualizovat na verzi %s.</string>
     <string name="google_play_store_not_installed">"Google Obchod Play nenalezen. Požadovaná aplikace nemůže být nainstalována."</string>
-    <string name="eula_title">Ventis Media, Inc. End-User License Agreement for MediaMonkey</string>
+    <string name="eula_title">Licenční smlouva s koncovým uživatelem MediaMonkey od Ventis Media, Inc.</string>
     <!-- * basic -->
   <string name="yes">Ano</string>
     <string name="ok">OK</string>
@@ -68,8 +68,8 @@
     <string name="enable">Povolit</string>
     <string name="disabled">Vypnuto</string>
     <string name="unavailable">Nedostupné</string>
-    <string name="grant_access">Povolit zápis</string>
-    <string name="send">Poslat</string>
+    <string name="grant_access">Povolit přístup</string>
+    <string name="send">Odeslat</string>
     <string name="paste">Vložit</string>
     <!-- Scan button for QR codes -->
   <string name="scan">Skenovat</string>
@@ -90,8 +90,9 @@
     <string name="media_monkey_amazon_store">Obchod MediaMonkey pro Amazon</string>
     <string name="buy">Koupit</string>
     <string name="trial_message">Tato funkce je k dispozici na vyzkoušení. Zbývající dny: </string>
-    <string name="other_app_installed_message">Byla zjištěna jiná instance aplikace MediaMonkey na tomto zařízení. Odinstalujte prosím ostatní kopie a ponechte nainstalovanou pouze tuto instanci MediaMonkey.</string>
-    <string name="google_play_services_not_installed">Tato verze aplikace MediaMonkey pro Android vyžaduje služby Google Play %1$s nebo vyšší. Aktualizujte prosím na nejnovější verzi.</string>
+    <string name="other_app_installed_message">Na tomto zařízení byla zjištěna další instance MediaMonkey. Odinstalujte ostatní kopie a ponechte nainstalovanou pouze tuto.</string>
+    <string name="google_play_services_not_installed">Tato verze aplikace MediaMonkey pro Android vyžaduje Google Play Services %1$s nebo vyšší. Aktualizujte
+      prosím na nejnovější verzi.</string>
     <string name="license">Licence</string>
     <string name="license_agreement">Licenční ujednání</string>
     <string name="standard">Standardní</string>
@@ -336,12 +337,12 @@
     <!-- free space on storage-->
   <string name="free">volných</string>
     <string name="storage_not_accessible">Úložiště není dostupné.</string>
-    <string name="unavailable_storage">Neznámé uložiště</string>
-    <string name="unknown_storage">Unknown storage</string>
-    <string name="mounting_storage">Načítání uložiště…</string>
-    <string name="storage_browser">Prohlížeč uložiště</string>
-    <string name="internal_storage">Interní uložiště</string>
-    <string name="external_storage">Externí uložiště</string>
+    <string name="unavailable_storage">Neznámé úložiště</string>
+    <string name="unknown_storage">Neznámé úložiště</string>
+    <string name="mounting_storage">Připojování úložiště…</string>
+    <string name="storage_browser">Prohlížeč úložiště</string>
+    <string name="internal_storage">Interní úložiště</string>
+    <string name="external_storage">Externí úložiště</string>
     <string name="usb_storage">USB úložiště</string>
     <string name="sd_storage">SD karta</string>
     <string name="not_enough_space_on_storage">Nedostatek místa na úložišti</string>
@@ -355,9 +356,9 @@
     <string name="downloaded">Staženo</string>
     <string name="downloading">Stahuji</string>
     <string name="upnp_download_directory">Složka pro stahování</string>
-    <string name="downloading_playlists_failed">Stáhnutí playlistů se nezdařilo</string>
+    <string name="downloading_playlists_failed">Stahování playlistů se nezdařilo</string>
     <string name="upnp_download_directory_summary">Uložit soubory do: %1$s</string>
-    <string name="downloading_failed">Stáhnutí skladeb se nezdařilo</string>
+    <string name="downloading_failed">Stahování skladeb se nezdařilo</string>
     <string name="download_canceled">Stahování zrušeno</string>
     <string name="download_canceling">Přerušuji stahování…</string>
     <string name="do_you_really_want_to_cancel_download">Opravdu chcete zrušit stahování?</string>
@@ -384,7 +385,7 @@
     </plurals>
     <!-- * Deletion prompt in playlists view-->
   <string name="delete_playlist">Smazat playlist</string>
-    <string name="delete_playlist_and_tracks">Delete playlist and tracks</string>
+  <string name="delete_playlist_and_tracks">Smazat playlist a skladby</string>
     <!-- * Prompt for removal rather than deletion of tracks -->
   <string name="remove_from_now_playing">Odstranit z fronty přehrávání</string>
     <string name="remove_from_now_playing_and_selected_playlists">Odstranit z fronty přehrávání a vybraných playlistů</string>
@@ -438,14 +439,14 @@
     <string name="something_in_progress">Probíhá úloha na pozadí</string>
     <!-- ** Preparing -->
   <string name="preparing_">Připravuje se…</string>
-    <string name="preparing_tracks_for_deletion">Přípravuji skladby pro mazání…</string>
-    <string name="preparing_tracks_to_upload">Přípravuji skladby k odeslání…</string>
-    <string name="preparing_download">Přípravuji se ke stahování…</string>
+    <string name="preparing_tracks_for_deletion">Připravuji skladby pro mazání…</string>
+    <string name="preparing_tracks_to_upload">Připravuji skladby k odeslání…</string>
+    <string name="preparing_download">Připravuji stahování…</string>
     <!-- Termination status message when the user cancels an ongoing operation e.g. sync -->
   <string name="cancelling">Přerušuji…</string>
     <!-- Processing finished -->
   <string name="finished">Úspěšně dokončeno</string>
-    <string name="all_done_no_background_task">Úkol na pozadí dokončen.</string>
+    <string name="all_done_no_background_task">Úloha na pozadí dokončena.</string>
     <!-- There is no processing task in the background. -->
   <string name="idle">Nečinný</string>
     <!-- * Network -->
@@ -488,8 +489,8 @@
     <!-- searching for an available device to cast to  -->
   <string name="searching_cast_devices">Vyhledávání streamovacích zařízení…</string>
     <string name="no_sync_server">Žádný synchronizační server</string>
-    <string name="server_connected">Server connected</string>
-    <string name="server_disconnected">Server disconnected</string>
+    <string name="server_connected">Server připojen</string>
+    <string name="server_disconnected">Server odpojen</string>
     <string name="connecting_to_server">Připojování k serveru…</string>
     <string name="server_not_responding">Server neodpovídá</string>
     <!-- * MediaStore sync -->
@@ -506,8 +507,8 @@
   <string name="browser_not_found">Nelze nalézt webový prohlížeč</string>
     <string name="add_media_server">Přidat media server</string>
     <string name="stored_media_server_is_unavailable">Uložený mediální server je nedostupný.</string>
-    <string name="media_server">Media Server</string>
-    <string name="media_servers">Media servers</string>
+    <string name="media_server">Mediální Server</string>
+    <string name="media_servers">Mediální servery</string>
     <string name="no_media_server">Žádný mediální server</string>
     <string name="media_servers_not_found_message">Nelze najít žádné Media servery v síti.</string>
     <string name="more_than_x_items">More than %d items</string>
@@ -520,12 +521,12 @@
     <!-- * Casting (UPnP & chromecast)  -->
   <string name="renderer_changed">Přehrávač změněn na: %1$s</string>
     <string name="volume_">Hlasitost %1$d</string>
-    <string name="casting">Odesílání</string>
-    <string name="cast_to">Odesílat do</string>
+    <string name="casting">Přehrávání</string>
+    <string name="cast_to">Přehrát na</string>
     <string name="stop_casting">Zastavit odesílání</string>
     <string name="renderer">Přehrávač</string>
     <string name="no_cast_device">Žádné streamovací zařízení</string>
-    <string name="casting_to_chromecast">Odesílání do zařízení Google Cast</string>
+    <string name="casting_to_chromecast">Přehrávání na Google Cast zařízení</string>
     <string name="add_client">Přidat klienta</string>
     <!-- * WiFi sync  -->
   <string name="media_synchronization">Wi-Fi synchronizace</string>
@@ -582,7 +583,8 @@
     <string name="skip_sync_review">Přeskočit přehled synchronizace</string>
     <string name="skip_sync_review_description">Před synchronizací přeskočí tuto stránku přehledu synchronizace. Nechte vypnuto, chcete-li upravit nastavení
         synchronizace před každou synchronizací.</string>
-    <string name="error_server_processing_timeout">Zpracování požadavku serveru trvalo příliš dlouho.\nZkuste to znovu nebo restartujte server, pokud není k dispozici.</string>
+    <string name="error_server_processing_timeout">Zpracování požadavku serveru trvalo příliš dlouho.\nZkuste to znovu nebo restartujte server, pokud není
+      dostupný.</string>
     <!-- * WiFi sync review related to specific storage-->
   <!-- ** Sync review related sync content & destination location-->
   <!-- The content on the synchronization server -->
@@ -593,7 +595,7 @@
   <string name="partly">Částečně</string>
     <string name="no_content_to_sync">Žádný obsah k synchronizaci</string>
     <string name="bidirectional_folders">Obousměrné složky</string>
-    <string name="confirmation_required">(Potvrzení vyžadováno)</string>
+    <string name="confirmation_required">(Vyžaduje potvrzení)</string>
     <!-- Action button to start sync of specific storage -->
   <string name="sync_this_storage">Synchronizovat uložiště</string>
     <!-- ** WiFi sync buttons -->
@@ -683,8 +685,8 @@
   <string name="logs_crash_info">MediaMonkey havaroval. Odeslání protokolu ladění nám pomůže vyřešit tento problém.</string>
     <string name="acra_send_automaticlay_next_time">Příště se neptat a odeslat protokol chyb automaticky</string>
     <!-- * Debug logs: Send dialog -->
-  <string name="logs_ticket_id">Log ID:</string>
-    <string name="logs_ticket_id_details">Pro identifikaci tohoto problému během komunikace s vývojáři prosím použijte toto ID.</string>
+  <string name="logs_ticket_id">ID logu:</string>
+    <string name="logs_ticket_id_details">Uveďte toto ID při komunikaci s vývojáři o tomoto problému.</string>
     <string name="send_me_copy_of_id">Uložit kopii ID logu:</string>
     <string name="send_me_copy_of_id_details">Sdílet ID logu přes email, SMS, apod.</string>
     <string name="logs_details">Popis (vyžadováno):</string>
@@ -699,7 +701,7 @@
   <string name="send_logs">Poslat logy</string>
     <string name="send_logs_summary">Odeslat logy pro hlášení o chybě.</string>
     <!-- * Debug logs: General preferences -->
-  <string name="acra_send_automaticlay_title">Automatické posílání protokolů chyb</string>
+  <string name="acra_send_automaticlay_title">Automatické odesílání protokolů chyb</string>
     <string name="acra_send_automaticlay_description">Pokud dojde k selhání aplikace MediaMonkey, protokol ladění bude automaticky odeslán vývojářům.
         Změny se projeví po restartu aplikace.
     </string>
@@ -707,25 +709,25 @@
   <string name="artwork">Obrázek</string>
     <string name="download_album_art_summary">Vyhledat chybějících obrázek alba při přehrávání skladby.</string>
     <string name="download_album_art_title">Vyhledávat chybějící obrázek alba</string>
-    <string name="album_art_cant_be_download">Obrázek nelze stáhnout.</string>
-    <string name="artwork_not_available_search">Chcete najít chybějící obrázek?</string>
+    <string name="album_art_cant_be_download">Obrázek alba nelze stáhnout.</string>
+    <string name="artwork_not_available_search">Vyhledat chybějící obrázek alba?</string>
     <plurals name="removing_album_art_from_tracks">
-        <item quantity="one">Odstraňuji obrázek alba ze skladby…</item>
-        <item quantity="few">Odstraňuji obrázek alba ze skladeb…</item>
-        <item quantity="many">Odstraňuji obrázek alba ze skladeb…</item>
-        <item quantity="other">Odstraňuji obrázek alba ze skladeb…</item>
+        <item quantity="one">Odebírám obrázek alba ze skladby…</item>
+        <item quantity="few">Odebírám obrázek alba ze skladeb…</item>
+        <item quantity="many">Odebírám obrázek alba ze skladeb…</item>
+        <item quantity="other">Odebírám obrázek alba ze skladeb…</item>
     </plurals>
     <plurals name="removing_album_art_from_albums">
-        <item quantity="one">Odstraňuji obrázek alba z alba…</item>
-        <item quantity="few">Odstraňuji obrázek alba z alb…</item>
-        <item quantity="many">Odstraňuji obrázek alba z alb…</item>
-        <item quantity="other">Odstraňuji obrázek alba z alb…</item>
+        <item quantity="one">Odebírám obrázek alba z alba…</item>
+        <item quantity="few">Odebírám obrázek alba z alb…</item>
+        <item quantity="many">Odebírám obrázek alba z alb…</item>
+        <item quantity="other">Odebírám obrázek alba z alb…</item>
     </plurals>
     <plurals name="removing_album_art_from_database">
-        <item quantity="one">Odstraňuji obrázek alba z knihovny…</item>
-        <item quantity="few">Odstraňuji obrázky alba z knihovny…</item>
-        <item quantity="many">Odstraňuji obrázky alba z knihovny…</item>
-        <item quantity="other">Odstraňuji obrázky alba z knihovny…</item>
+        <item quantity="one">Odebírám obrázek alba z knihovny…</item>
+        <item quantity="few">Odebírám obrázky alba z knihovny…</item>
+        <item quantity="many">Odebírám obrázky alba z knihovny…</item>
+        <item quantity="other">Odebírám obrázky alba z knihovny…</item>
     </plurals>
     <plurals name="prepparing_album_art_to_remove">
         <item quantity="one">Připravují obrázek alba ke smazání…</item>
@@ -773,10 +775,10 @@
     <!-- * Now playing -->
   <string name="queue">Fronta</string>
     <string name="playing_queue">Fronta přehrávání</string>
-    <string name="no_tracks_to_play">Fronta "Právě hraje" je prázdná</string>
-    <string name="tracks_are_adding_asynchronously">Skladby byly přidány do fronty "Právě hraje"</string>
+    <string name="no_tracks_to_play">Fronta přehrávání je prázdná</string>
+    <string name="tracks_are_adding_asynchronously">Skladby byly přidány do fronty přehrávání</string>
     <string name="recreating_tracklist">Obnovuji frontu přehrávání…</string>
-    <string name="return_to_now_playing">Zpět k \"Právě hraje\"</string>
+    <string name="return_to_now_playing">Zpět na frontu přehrávání</string>
     <string name="art">Art</string>
     <string name="playing">Přehrávání</string>
     <!-- remaining playback time in the Now playing list  -->
@@ -789,7 +791,7 @@
     <string name="lyrics_not_found">Text písně nebyl nalezen.</string>
     <string name="provided_by_">Text písně poskytnul: %1$s</string>
     <string name="lyrics_trial_dialog_title">Vyhledávání textů písní</string>
-    <string name="lyrics_auto_trial_dialog_message">Zvažte rozšíření pro automatické vyhledávání textů písní.</string>
+    <string name="lyrics_auto_trial_dialog_message">Zvažte upgrade pro automatické vyhledávání textů písní.</string>
     <!-- * Duration, Time & date  -->
   <string name="duration">Doba trvání</string>
     <string name="bitrate">Bitový tok</string>
@@ -918,7 +920,7 @@
         <item quantity="many">%d hvězd</item>
         <item quantity="other">%d hvězd</item>
     </plurals>
-    <plurals name="number_rating_decimal">
+  <plurals name="number_rating_decimal">
         <item quantity="one">%1$.1f hvězdy</item>
         <item quantity="few">%1$.1f hvězdy</item>
         <item quantity="many">%1$.1f hvězdy</item>
@@ -972,7 +974,7 @@
     <string name="disable_touch_sounds_summary">Zakázat dotykové zvuky během přehrávání.</string>
     <string name="write_settings_touch_sounds_permission_message">Pro vypnutí systémových zvuků, prosím, povolte MediaMonkey měnit systémová nastavení
         .</string>
-    <string name="write_settings_touch_sounds_permission_denied">Povolení nebylo uděleno. Systémové zvuky nemohou být vypnuty.</string>
+    <string name="write_settings_touch_sounds_permission_denied">Oprávnění zamítnuto. Systémové zvuky dotyku nelze vypnout.</string>
     <string name="remote_controls">Vzdálené ovládání</string>
     <string name="always_respond_to_remote_controls">Vždy reagovat na vzdálená tlačítka</string>
     <string name="always_respond_to_remote_controls_summary">Reagovat na bluetooth či jiné ovládací prvky, kdykoli je to možné.</string>
@@ -984,7 +986,7 @@
   <string name="bluetooth">Bluetooth</string>
     <string name="wired_headset">Sluchátek</string>
     <string name="dock">Doku</string>
-    <string name="headset_service_required">Spouští službu na pozadí</string>
+    <string name="headset_service_required">Běží jako služba na pozadí</string>
     <!-- This settings applies the nodes from the home screen to clients such as Android Auto -->
   <string name="use_same_nodes_for_remote_clients">Přizpůsobit navigaci pro externí aplikace</string>
     <string name="use_same_nodes_for_remote_clients_summary">Použít hierarchie domovské obrazovky pro procházení přes Bluetooth nebo Android Auto.</string>
@@ -1012,7 +1014,7 @@
     <string name="select_mm_server_summary_selected">Synchronizační server: %1$s</string>
     <!-- * Preferences  General -->
   <string name="general">Obecné</string>
-    <string name="battery">Batterie</string>
+    <string name="battery">Baterie</string>
     <string name="disable_battery_optimization">Povolit MediaMonkey běžet na pozadí</string>
     <string name="disable_battery_optimization_details">Zabrání, aby systém Android zavřel aplikaci MediaMonkey, když je spuštěna na pozadí(casting, synchronizace
         atd.).</string>
@@ -1025,7 +1027,7 @@
     <string name="prefereneces_not_updated">Nastavení nebylo aktualizováno</string>
     <string name="draggable_configuration_description">Změna pořadí uzlů podržením a přetažením položek.</string>
     <string name="visibility_configuration_description">Zobrazit položku v navigaci(např. v záložkách atd.)</string>
-    <string name="root_visibility_configuration_description">Zobrazit jako navigační uzly nejvyšší úrovně (např. na domovské obrazovce)</string>
+    <string name="root_visibility_configuration_description">Zobrazit jako hlavní navigační uzly (např. na domovské obrazovce)</string>
     <string name="info_panel">Stavový indikátor</string>
     <string name="always_expand_during_processing">Zobrazit podrobnosti o průběhu</string>
     <string name="always_expand_during_processing_summary">Vždy rozbalit, aby se zobrazily podrobnosti úlohy na pozadí.</string>
@@ -1071,31 +1073,30 @@
     <string name="running_service_resume_on_connection_title">Pokračovat v přehrávání po připojení (služba na pozadí).</string>
     <string name="notification_updating_album_artwork">Aktualizace obrázku alba</string>
     <!-- Volume  -->
-  <string name="volume_leveling">Vyrovnávat hlasitost</string>
+  <string name="volume_leveling">Vyrovnat hlasitost</string>
     <string name="volume_leveling_summary">Upravuje hlasitost u skladeb s informacemi o hlasitosti.</string>
     <string name="volume_leveling_label">"Vyrovnání hlasitosti: "</string>
     <!-- decibel -->
   <!-- Permissions  -->
   <string name="media_monkey_needs_access_to_">MediaMonkey potřebuje přístup k %s.</string>
     <string name="media_folders">adresářům médií</string>
-    <string name="storage_permission_hint_intro">Pro povolení zápisu:</string>
+    <string name="storage_permission_hint_intro">Pro udělení přístupu:</string>
     <string name="storage_permission_hint_1">Klikněte na ikonu menu na následujícím dialogu.</string>
     <string name="storage_permission_hint_2">Pro zobrazení SD karet v dialogu vyberte \"Zobrazit SD kartu\".</string>
     <string name="storage_permission_hint_3">Pro zobrazení všech úložišť klikněte na navigační ikonu vlevo.</string>
-    <string name="storage_permission_hint_4">Vyberte úložiště, kterému chcete povolit zápis (typicky \"SD karta\").</string>
-    <string name="storage_permission_hint_5">Nyní klikněte na \"VYBERTE ADRESÁŘ\" pro povolení zápisu.</string>
+    <string name="storage_permission_hint_4">Vyberte úložiště, ke kterému chcete povolit přístup (typicky \"SD karta\").</string>
+    <string name="storage_permission_hint_5">Nyní klikněte na \"VYBERTE ADRESÁŘ\" pro povolení přístupu.</string>
     <string name="storage_tree_uri_permission_hint_1">Prohlížeč souborů se otevře ve složce vyžadující přístup.</string>
     <string name="storage_tree_uri_permission_hint_2">Kliknutím na \"Použít tuto složku\" nebo \"Vybrat\" udělíte přístup ke složce.</string>
-    <string name="storage_permission_title">Povolit zápis na úložiště</string>
-    <string name="storage_permission_details">MediaMonkey potřebuje oprávnění k zápisu do složky, aby fungovala optimálně!</string>
+    <string name="storage_permission_title">Povolit přístup na úložiště</string>
+    <string name="storage_permission_details">MediaMonkey potřebuje oprávnění k přístupu do složky, aby fungovala optimálně!</string>
     <string name="app_failure_message">MediaMonkey nemá přístup ke svému adresáři. Pro opravu restartujte své zařízení.</string>
     <string name="write_storage_permission_message">Pro užívání MediaMonkey je nutné povolit přístup k Vašim souborům médií.</string>
     <string name="permission_denied">Povolení nebylo uděleno.</string>
     <string name="write_storage_permission_denied">Povolení nebylo uděleno. Vypínám MediaMonkey.</string>
     <string name="need_access_more_info">Pokud není povolení uděleno, nový obsah se uloží do soukromé složky MediaMonkey, kterou nelze sdílet s jinými aplikacemi.</string>
-    <string name="storage_permission_ignore_warning">V případě, že zápis nepovolíte MediaMonkey bude místo toho synchronizat obsah do speciální složky
-        aplikace MediaMonkey, která je pro statní hudební přehrávače nedostupná.</string>
-    <string name="storage_permission_ignore_warning_short">Pokud k požadovaným složkám není udělen přístup:\n\nMediaMonkey nebude moci upravovat/synchronizovat obsah do těchto umístění!</string>
+    <string name="storage_permission_ignore_warning">Pokud nebude udělen přístup k požadovaným složkám:\n\nMediaMonkey bude synchronizovat obsah do specifické složky MediaMonkey, která není přístupná jiným přehrávačům.</string>
+    <string name="storage_permission_ignore_warning_short">Pokud nebude udělen přístup k požadovaným složkám:\n\nMediaMonkey nebude moci upravovat/synchronizovat obsah do těchto umístění!</string>
     <!-- Write access to folder is granted via Files manager, this is when the manager returns invalid folder uri -->
   <string name="invalid_tree_uri">Neplatná URI: %s</string>
     <string name="path_already_writable">Pro složku %s již povolen zápis byl.</string>
@@ -1140,7 +1141,7 @@
     <!-- launch wizard, maintenance  -->
   <string name="switch_to_wizard">Přepnout na průvodce</string>
     <string name="database_maintenance">Údržba databáze</string>
-    <string name="moving_content_from_application_folder">Přesun obsahu ze složky aplikace</string>
+    <string name="moving_content_from_application_folder">Přesouvání obsahu ze složky aplikace</string>
     <!-- Device specific preferences  -->
   <string name="htc_sound_enhancer">Vylepšení zvuku HTC</string>
     <!-- This is used in dialog when no storage is available. Historically it happens when phone was connected to PC. Nowadays at least main storage is
@@ -1164,10 +1165,10 @@
     <string name="header_icon">Ikona záhlaví</string>
     <string name="navigation">Navigace</string>
     <string name="album_artwork">Obrázek alba</string>
-    <string name="grab_to_move">Uchop k přeskládání položek v seznamu</string>
+    <string name="grab_to_move">Chyť a přesuň pro změnu pořadí položek</string>
     <!-- * Developer beta preferences -->
-  <string name="disable_debug_logs">Disable debug logs</string>
-    <string name="disable_debug_logs_summary">Disable all debug logs to improve performance</string>
+  <string name="disable_debug_logs">Vypnout debug logy</string>
+    <string name="disable_debug_logs_summary">Vypnout všechny debug logy pro lepší výkon</string>
     <string name="adaptive_colors">Adaptivní barvy</string>
     <string name="adaptive_colors_summary">Použijte adaptivní barvy u mřížkového zobrazení alb.</string>
     <string name="may_decrease_performance">Může snížit výkon</string>
