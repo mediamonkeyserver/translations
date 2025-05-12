@@ -13,7 +13,7 @@
     <string name="outdated_server_title">MediaMonkey pro Windows je zastaralé</string>
     <string name="outdated_server_description">Vaše verze MediaMonkey pro Windows je zastaralá.</string>
     <string name="outdated_server_denied">Aktualizujte prosím na verzi %s.</string>
-    <string name="outdated_server_recommended">Doporučujeme se aktualizovat na verzi %s.</string>
+    <string name="outdated_server_recommended">Doporučujeme aktualizovat na verzi %s.</string>
     <string name="google_play_store_not_installed">"Google Obchod Play nenalezen. Požadovaná aplikace nemůže být nainstalována."</string>
     <string name="eula_title">Licenční smlouva s koncovým uživatelem MediaMonkey od Ventis Media, Inc.</string>
     <!-- * basic -->
@@ -80,7 +80,7 @@
   <string name="wizard">Průvodce</string>
     <string name="moved">Přesunuto</string>
     <string name="title">Název</string>
-    <string name="details">Podrobné informace</string>
+    <string name="details">Podrobnosti</string>
     <string name="type">Typ</string>
     <!-- The year in which an album was released -->
   <string name="released">Vydáno</string>
@@ -89,7 +89,7 @@
     <string name="media_monkey_store">Obchod MediaMonkey</string>
     <string name="media_monkey_amazon_store">Obchod MediaMonkey pro Amazon</string>
     <string name="buy">Koupit</string>
-    <string name="trial_message">Tato funkce je k dispozici na vyzkoušení. Zbývající dny: </string>
+    <string name="trial_message">Tato funkce je dostupná na vyzkoušení. Zbývající dny: </string>
     <string name="other_app_installed_message">Na tomto zařízení byla zjištěna další instance MediaMonkey. Odinstalujte ostatní kopie a ponechte nainstalovanou pouze tuto.</string>
     <string name="google_play_services_not_installed">Tato verze aplikace MediaMonkey pro Android vyžaduje Google Play Services %1$s nebo vyšší. Aktualizujte
       prosím na nejnovější verzi.</string>
@@ -126,7 +126,7 @@
     <!-- Google play store is inaccessible-->
   <string name="no_activity_found_to_handle_intent">Obchod je nepřístupný.</string>
     <!-- Error message that can appear for a failed purchase due to a failed connection to the Billing service  -->
-  <string name="billing_service_disconnected">Billing service disconnected.</string>
+  <string name="billing_service_disconnected">Služba účtování odpojena.</string>
     <!-- * contextual actions -->
   <string name="find_more_from">Více od stejného</string>
     <string name="share">Sdílet…</string>
@@ -320,12 +320,12 @@
     <string name="no_items">Žádné položky</string>
     <string name="no_albums">Žádné alba</string>
     <string name="no_series">Žádná série</string>
-    <string name="no_subscription">No subscription</string>
+    <string name="no_subscription">Žádný odběr</string>
     <string name="no_artists">Žádní interpreti</string>
     <!-- Shown when a list is empty and contains no content -->
-  <string name="no_content">Bez obsahu</string>
+  <string name="no_content">Žádný obsah</string>
     <!-- * Storage -->
-  <string name="storage">Uložiště</string>
+  <string name="storage">Úložiště</string>
     <!-- Kilobyte abbreviation-->
   <string name="kilobyte">KB</string>
     <!-- Megabyte abbreviation-->
@@ -495,12 +495,12 @@
     <string name="server_not_responding">Server neodpovídá</string>
     <!-- * MediaStore sync -->
   <string name="action_scanning_library_files">Vyhledávání médií ve složkách</string>
-    <string name="scanning_started">Začalo prohledávání…</string>
+    <string name="scanning_started">Skenování spuštěno…</string>
     <string name="removing_deselected_media_from_library">Odstranění položek z databáze…</string>
     <!-- * USB sync -->
   <!-- V3 sync -->
-  <string name="updating_library_with_sync_data">Aktualizace knihovny se synchronizovanými daty</string>
-    <string name="usb_sync_description">Kontrola, zda je nutná nová synchronizace USB.</string>
+  <string name="updating_library_with_sync_data">Aktualizuji knihovnu synchronizovanými daty</string>
+    <string name="usb_sync_description">Kontroluji, zda je potřeba nová USB synchronizace.</string>
     <!-- * UPnP  -->
   <string name="upnp_trial_dialog_title">UPnP/DLNA</string>
     <!-- UPnP Browser may be shown as a notification in some cases -->
@@ -519,7 +519,7 @@
     <!-- This is a Login command i.e. a verb -->
   <string name="login">Přihlásit se</string>
     <!-- * Casting (UPnP & chromecast)  -->
-  <string name="renderer_changed">Přehrávač změněn na: %1$s</string>
+   <string name="renderer_changed">Přehrávání na: %1$s</string>
     <string name="volume_">Hlasitost %1$d</string>
     <string name="casting">Přehrávání</string>
     <string name="cast_to">Přehrát na</string>
@@ -545,7 +545,7 @@
   <!-- content of the sync server -->
   <string name="sync_from_server">Synchronizovat ze serveru</string>
     <string name="server_content">Obsah serveru</string>
-    <string name="sync_from_server_description">Výběr obsahu, který má být synchronizován.</string>
+    <string name="sync_from_server_description">Vyberte obsah k synchronizaci.</string>
     <string name="choose">Vybrat</string>
     <!-- ** Sync settings related to the device-->
   <string name="sync_from_device">Synchronizovat ze zařízení</string>
@@ -554,19 +554,19 @@
     <string name="device_content">Obsah ze zařízení</string>
     <string name="sync_device_content_description">Synchronizovat playlisty a nové soubory (složky musí být nakonfigurovány na serveru).</string>
     <string name="bidi_content_title">Obousměrný obsah</string>
-    <string name="bidi_content_description">"Vyberte obsah, který chcete synchronizovat obousměrně "</string>
+    <string name="bidi_content_description">"Vyberte obsah k obousměrné synchronizaci "</string>
     <string name="show_confirm_dialog">Zobrazit potvrzovací dialog</string>
     <!-- ** Types of bi-di sync  -->
   <string name="auto_sync_file_metadata_changes">Automatická synchronizace metadat souborů</string>
     <string name="auto_sync_playlists_and_new_files_to_the_server">Automatická synchronizace playlistů a nových souborů</string>
     <string name="auto_sync_playlists_and_new_files_to_the_server_and_metadata">Automatická synchronizace playlistů a nových souborů +  metadat souborů</string>
     <!-- ** Types of deletion during sync -->
-  <string name="sync_deletion_from_device">Mazání ze zařízení</string>
+  <string name="sync_deletion_from_device">Smazat ze zařízení</string>
     <!-- Files that exist within the server library that have not been selected to be synced -->
-  <string name="unselected_copies">Nevybrané kopie obsahu</string>
+  <string name="unselected_copies">Nevybrané serverové soubory</string>
     <string name="delete_unselected_content_copies_summary">Smazat lokální soubory a playlisty, které jsou na serveru, ale nejsou na seznamu synchronizace.</string>
     <!-- All files that have not been selected to be synced -->
-  <string name="all_unselected_content">Všechen nevybraný obsah</string>
+  <string name="all_unselected_content">Všechny nevybrané soubory</string>
     <string name="delete_all_unselected_content_summary">Smazat všechny lokální soubory a playlisty, které nejsou na seznamu synchronizace.</string>
     <!-- * WiFi sync review -->
   <string name="review_settings">Přehled nastavení</string>
@@ -615,7 +615,8 @@
   <string name="pairing_details">Kontroluji nové soubory…</string>
     <!-- Used to show progress as local files are paired with equivalent files on the sync server -->
   <string name="pairing_">Páruji…</string>
-    <string name="verifying_paired">Kontrola chybějících položek nas serveru</string>
+  <!--  * Kontrola chybějících položek na serveru-->
+    <string name="verifying_paired">Ověřování spárovaných souborů</string>
     <string name="verifying_paired_details">Ověřování již spárovaných souborů…</string>
     <!-- * WiFi sync process -->
   <string name="initializing_message">Připravuji synchronizaci…</string>
@@ -642,13 +643,13 @@
     <string name="unable_get_settings">Synchronizace odmítnuta vzdáleným serverem.\n Ověřte, zda je Wi-Fi synchronizace povolena na vzdáleném serveru.</string>
     <string name="nothing_to_sync">Není nastaveno žádné úložiště k synchronizaci!</string>
     <string name="connection_failed_hint">Server je nedostupný (zkuste restartovat server a znovu spustit průvodce konfigurací synchronizace).</string>
-    <string name="conversion_of_file_is_stalling">Konverze %s se zastavila. Zkontrolujte volné místo v dočasném adresáři serveru.</string>
+    <string name="conversion_of_file_is_stalling">Konverze %s se zasekla. Zkontrolujte volné místo v dočasném adresáři serveru.</string>
     <string name="different_sync_server_message">MediaMonkey je nakonfigurován na synchronizaci s jiným serverem. Chcete použít nová nastavení synchronizace z tohoto serveru (stávající nastavení budou nahrazena)?</string>
     <string name="media_not_ready_message">Neočekávaná chyba během autokonverze skladeb.</string>
     <string name="sync_settings_not_found_message">Neočekávaná chyba během inicializace synchronizace.</string>
     <string name="please_contact_us">K vyřešení tohoto problému budeme potřebovat vaši pomoc a další protokoly z aplikace MediaMonkey pro Windows.
         Kontaktujte nás prosím prostřednictvím naší asistenční služby pro získání pokynů.</string>
-    <string name="alternative_server">Spárovaný server MediaMonkey nebyl nalezen. Zkus se připojit k jinému.</string>
+    <string name="alternative_server">Synchronizační server MediaMonkey není dostupný. Zkuste se připojit k jinému synchronizačnímu serveru.</string>
     <string name="track_cannot_be_stored">Nepodařilo se uložit (%1$s)</string>
     <!-- Sync error massages related to tracks -->
   <string name="track_cannot_be_downloaded">Nepodařilo se stáhnout (%1$s)</string>
@@ -656,12 +657,12 @@
     <string name="track_cannot_be_uploaded">Nepodařilo se nahrát (%1$s)</string>
     <string name="track_unsupported">Nepodporovaný formát (%1$s)</string>
     <!-- Final message when no sync server found and never was set. Currently not used but can be in future. -->
-  <string name="sync_server_not_available_message">"Nemáte-li nainstalovaný MediaMonkey synchronizační server, můžete ho stáhnout přes: "</string>
+  <string name="sync_server_not_available_message">"Pokud jste ještě nenainstalovali synchronizační server MediaMonkey, můžete ho stáhnout zde: "</string>
     <!-- Link to download MediaMonkey server. Currently not used but can be in future. -->
   <string name="send_link">Pošlete mi odkaz</string>
     <string name="send_link_mmw_subject">Odkaz na MediaMonkey server pro synchronizaci</string>
     <string name="send_link_mmw_message">"Chcete-li synchronizovat s MediaMonkey pro Android, potřebujete nainstalovat MediaMonkey do vašeho počítače.
-        Podrobnosti naleznete na adrese: "</string>
+        Více na: "</string>
     <!-- * Sync progress info, visible if user expands info progress panel -->
   <string name="downloading_sync_setting">Stahování nastavení synchronizace…</string>
     <string name="uploading_sync_setting_for_x">Nahrávání nastavení synchronizace pro %s…</string>
@@ -717,12 +718,6 @@
         <item quantity="many">Odebírám obrázek alba ze skladeb…</item>
         <item quantity="other">Odebírám obrázek alba ze skladeb…</item>
     </plurals>
-    <plurals name="removing_album_art_from_albums">
-        <item quantity="one">Odebírám obrázek alba z alba…</item>
-        <item quantity="few">Odebírám obrázek alba z alb…</item>
-        <item quantity="many">Odebírám obrázek alba z alb…</item>
-        <item quantity="other">Odebírám obrázek alba z alb…</item>
-    </plurals>
     <plurals name="removing_album_art_from_database">
         <item quantity="one">Odebírám obrázek alba z knihovny…</item>
         <item quantity="few">Odebírám obrázky alba z knihovny…</item>
@@ -743,7 +738,7 @@
     </plurals>
     <!-- * Playback  actions-->
   <string name="play">Hrát</string>
-    <string name="pause">Pauza</string>
+    <string name="pause">Pozastavit</string>
     <string name="stop">Zastavit</string>
     <string name="next">Další</string>
     <string name="previous">Předchozí</string>
@@ -1098,12 +1093,12 @@
     <string name="storage_permission_ignore_warning">Pokud nebude udělen přístup k požadovaným složkám:\n\nMediaMonkey bude synchronizovat obsah do specifické složky MediaMonkey, která není přístupná jiným přehrávačům.</string>
     <string name="storage_permission_ignore_warning_short">Pokud nebude udělen přístup k požadovaným složkám:\n\nMediaMonkey nebude moci upravovat/synchronizovat obsah do těchto umístění!</string>
     <!-- Write access to folder is granted via Files manager, this is when the manager returns invalid folder uri -->
-  <string name="invalid_tree_uri">Neplatná URI: %s</string>
-    <string name="path_already_writable">Pro složku %s již povolen zápis byl.</string>
+  <string name="invalid_tree_uri">Neplatné URI: %s</string>
+    <string name="path_already_writable">Pro složku %s již byl zápis povolen.</string>
     <string name="path_not_requested">Složka %s není požadována. Prohlédněte si prosím seznam výše.</string>
     <string name="path_invalid">Nelze zapisovat do nakonfigurovaného umístění. Místo toho se použije složka specifická pro MediaMonkey.</string>
-    <string name="register_for_test_builds">Stát se testerem</string>
-    <string name="register_for_test_builds_summary">Aktualizovat na nejnovější verzi MediaMonkey Beta.</string>
+    <string name="register_for_test_builds">Registrovat se pro testovací verze</string>
+    <string name="register_for_test_builds_summary">Získejte nejnovější beta verze MediaMonkey.</string>
     <string name="access_to_media">Přístup k médiím</string>
     <string name="access_to_folders">Přístup ke složkám</string>
     <string name="backup_info_description">Složka se používá pro USB synchronizaci se serverem MediaMonkey.</string>
@@ -1155,10 +1150,10 @@
     -->
   <string name="navigation_drawer_open">Otevřít navigační panel</string>
     <string name="navigation_drawer_close">Zavřít navigační panel</string>
-    <string name="currently_playing_artist">Interpret pro aktuálně přehrávanou skladbu</string>
+    <string name="currently_playing_artist">Interpret právě přehrávané skladby</string>
     <string name="currently_played_media">Právě přehrávaná skladba</string>
     <string name="done_icon">Ikonka hotovo</string>
-    <string name="popup_menu">Vyskakovací nabídka</string>
+    <string name="popup_menu">Vyskakovací menu</string>
     <!-- The order of the tracks in a list -->
   <string name="track_order">Pořadí skladby</string>
     <string name="category">Kategorie</string>
