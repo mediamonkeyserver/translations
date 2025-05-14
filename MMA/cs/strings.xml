@@ -142,16 +142,16 @@
     <string name="move_to_start">Na začátek</string>
     <string name="add_to">Přidat do</string>
     <string name="order_by">Seřadit podle…</string>
-    <string name="grid_view">Zobrazit jako dlaždice</string>
+    <string name="grid_view">Zobrazit jako mřížku</string>
     <string name="list_view">Zobrazit jako seznam</string>
     <string name="contextual_action_supported_for_unknown_items">Tato akce není podporována u neznámých položek.</string>
     <!-- * Sleep Timer -->
   <string name="sleep_timer">Spánek</string>
     <string name="sleep_timer_running">Spánek běží</string>
-    <string name="fade_out_music">Utlumit hlasitost</string>
+    <string name="fade_out_music">Postupně ztlumit hlasitost</string>
     <string name="fade_out_music_details">Utlumit hlasitost na 30 \% současné hlasitosti</string>
     <string name="play_last_song_completely">Přehrát poslední skladbu celou</string>
-    <string name="play_last_song_details">Dokončit přehrávání aktuální skladby po vypršení času.</string>
+    <string name="play_last_song_details">Dokončit přehrávání aktuální skladby po skončení časovače.</string>
     <string name="start">Začít</string>
     <!-- * Nodes -->
   <string name="home">Domů</string>
@@ -296,7 +296,7 @@
         <item quantity="many">"vybraných položek"</item>
         <item quantity="other">"vybraných položek"</item>
     </plurals>
-    <string name="no_selected_items">Žádná vybraná pložka</string>
+    <string name="no_selected_items">Není vybrána žádná položka</string>
     <!-- * Files & Folders-->
   <string name="add_directory_to_library">Přidat složku</string>
     <string name="folder">Složka</string>
@@ -405,7 +405,7 @@
     <string name="updating">Aktualizuji</string>
     <string name="updating_playlist_file">Aktualizace souboru seznamu skladeb</string>
     <string name="upgrade">Upgradovat</string>
-    <string name="upgrading_paths_format">Aktualizuji formát cest v databázi…</string>
+    <string name="upgrading_paths_format">Aktualizace formátu cest v databázi…</string>
     <string name="checking_tasks_to_process">Aktualizace knihovny…</string>
     <!-- notification when updating android media store (disabled by default) -->
   <string name="updating_media_store">Aktualizace databáze medií Android</string>
@@ -645,7 +645,7 @@
     <string name="connection_failed_hint">Server je nedostupný (zkuste restartovat server a znovu spustit průvodce konfigurací synchronizace).</string>
     <string name="conversion_of_file_is_stalling">Konverze %s se zasekla. Zkontrolujte volné místo v dočasném adresáři serveru.</string>
     <string name="different_sync_server_message">MediaMonkey je nakonfigurován na synchronizaci s jiným serverem. Chcete použít nová nastavení synchronizace z tohoto serveru (stávající nastavení budou nahrazena)?</string>
-    <string name="media_not_ready_message">Neočekávaná chyba během autokonverze skladeb.</string>
+    <string name="media_not_ready_message">Během automatické konverze skladeb došlo k neočekávané chybě.</string>
     <string name="sync_settings_not_found_message">Neočekávaná chyba během inicializace synchronizace.</string>
     <string name="please_contact_us">K vyřešení tohoto problému budeme potřebovat vaši pomoc a další protokoly z aplikace MediaMonkey pro Windows.
         Kontaktujte nás prosím prostřednictvím naší asistenční služby pro získání pokynů.</string>
@@ -664,8 +664,8 @@
     <string name="send_link_mmw_message">"Chcete-li synchronizovat s MediaMonkey pro Android, potřebujete nainstalovat MediaMonkey do vašeho počítače.
         Více na: "</string>
     <!-- * Sync progress info, visible if user expands info progress panel -->
-  <string name="downloading_sync_setting">Stahování nastavení synchronizace…</string>
-    <string name="uploading_sync_setting_for_x">Nahrávání nastavení synchronizace pro %s…</string>
+  <string name="downloading_sync_setting">Stahuji nastavení synchronizace</string>
+    <string name="uploading_sync_setting_for_x">Nahrávám nastavení synchronizace pro %s</string>
     <string name="success">Proběhlo úspěšně</string>
     <string name="failed">Se nezdařilo</string>
     <!-- Sync progress info like: Updating XX playlists to server -->
@@ -674,7 +674,7 @@
   <string name="from_server">ze serveru</string>
     <!-- During sending sync result to sync server -->
   <string name="finalizing">Dokončování</string>
-    <string name="finalizing_synchronization_">Dokončování synchronizace…</string>
+    <string name="finalizing_synchronization_">Dokončuji synchronizaci…</string>
     <!-- * Debug logs: toast messages  -->
   <string name="logs_will_be_sent">Příprava ladícího protokolu…</string>
     <string name="logs_sent">Ladící protokol byl odeslán vývojářům. Děkujeme!</string>
@@ -725,10 +725,9 @@
         <item quantity="other">Odebírám obrázky alba z knihovny…</item>
     </plurals>
     <plurals name="prepparing_album_art_to_remove">
-        <item quantity="one">Připravují obrázek alba ke smazání…</item>
-        <item quantity="few">Připravují obrázky alba ke smazání…</item>
-        <item quantity="many">Připravují obrázky alb ke smazání…</item>
-        <item quantity="other">Připravují obrázky alb ke smazání…</item>
+        <item quantity="one">Připravuji odstranění obrázku alba…</item>
+        <item quantity="few">Připravuji odstranění obrázků alba…</item>
+        <item quantity="other">Připravuji odstranění obrázků alba…</item>
     </plurals>
     <plurals name="delete_album_art_files">
         <item quantity="one">Odstraňuji soubor obrázku alba…</item>
@@ -852,7 +851,7 @@
     <string name="skipcount">Přeskočeno</string>
     <string name="size">"Velikost: "</string>
     <string name="release_date">Datum vydání </string>
-    <string name="multiple_file_types_selected">Vybráno více typů souborů</string>
+    <string name="multiple_file_types_selected">Vybráno více typů</string>
     <string name="compare_atributes_">Porovnání atributů…%1$s</string>
     <!-- * Equalizer  -->
   <string name="equalizer">Ekvalizér</string>
@@ -935,10 +934,10 @@
     <string name="ui_summary">Témata, oznámení, přizpůsobení</string>
     <string name="mat_theme">Téma</string>
     <string name="select_theme">Vyberte téma</string>
-    <string name="material_theme_amber_grey">Jantarově šedá</string>
-    <string name="material_theme_light_blue_grey">Modrošedá</string>
-    <string name="material_theme_blue_white">Modrá bílá</string>
-    <string name="material_theme_amber_black">Jantarově černá</string>
+    <string name="material_theme_amber_grey">Jantarově-šedá</string>
+    <string name="material_theme_light_blue_grey">Modro-šedá</string>
+    <string name="material_theme_blue_white">Modro-bílá</string>
+    <string name="material_theme_amber_black">Jantarově-černá</string>
     <string name="dark_mode">Tmavý režim</string>
     <string name="off">Vypnutý</string>
     <string name="on">Zapnutý</string>
