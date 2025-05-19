@@ -28,7 +28,7 @@
     <string name="logs_will_be_sent">准备调试日志…</string>
     <string name="logs_saved_to">调试日志保存到 %1$s</string>
     <string name="logs_sent">调试日志已上传。谢谢你！</string>
-    <string name="enable">启用</string>
+    <string name="enable">已启用</string>
     <string name="remove_from_now_playing_and_selected_playlists">从播放列表和所选播放列表中删除</string>
     <string name="delete_from_device">从设备中删除</string>
     <string name="remove_from_playlist">从播放列表中移除</string>
@@ -53,7 +53,7 @@
     <string name="unknown_album">未知专辑</string>
     <string name="unknown_title">未知曲目</string>
     <string name="unknown_serie">未知系列</string>
-    <string name="unknown_genre">未知类型</string>
+    <string name="unknown_genre">未知流派</string>
     <string name="uploading">上传中</string>
     <string name="uploading_failed">曲目上传失败</string>
     <string name="download">下载</string>
@@ -158,7 +158,7 @@
     <string name="queue_last">最后一个队列</string>
     <string name="no_tracks_to_play">播放列表为空</string>
     <string name="delete_unselected_content_copies_summary">删除服务器上但不在同步列表中的本地文件和播放列表。</string>
-    <string name="delete_all_unselected_content_summary">删除不在同步列表中的所有本地文件和播放列表。</string>
+    <string name="delete_all_unselected_content_summary">删除同步列表中没有的所有本地文件和播放列表。</string>
     <string name="invalid_paths_on_server">由于目标文件位置无效，同步被拒绝。请在同步服务器上编辑位置。</string>
     <string name="finished_with_errors">完成时有错误</string>
     <string name="search_hint">在库中搜索</string>
@@ -231,7 +231,7 @@
     <string name="mm_help">MediaMonkey 帮助</string>
     <string name="mm_help_details">在线文档</string>
     <string name="mm_community_forum">社区论坛</string>
-    <string name="mm_community_forum_details">提问、提交错误报告/想法</string>
+    <string name="mm_community_forum_details">提问、错误报告/想法</string>
     <string name="prefereneces_not_updated">首选项未更新</string>
     <string name="sync_server_not_available_message">"如果您尚未安装 MediaMonkey 同步服务器，可以通过以下方式下载： "</string>
     <string name="connecting_wifi">连接到 Wi-Fi 网络</string>
@@ -243,7 +243,7 @@
     <string name="video_podcast">视频播客</string>
     <string name="waiting_for_response_first_time">由于这是您第一次连接服务器，您可能需要接受服务器上的连接才能继续。</string>
     <string name="tracks_are_adding_asynchronously">在播放列表中添加曲目</string>
-    <string name="other_app_installed_message">此设备上检测到另一个 MediaMonkey 实例。请卸载其他 MediaMonkey 应用程序，以确保只安装了一个 MediaMonkey 实例。</string>
+    <string name="other_app_installed_message">此设备上检测到了另一个 MediaMonkey 实例。请卸载其他副本，仅保留此 MediaMonkey 实例。</string>
     <string name="unsupported_format">不支持的格式</string>
     <string name="widget_tiny">MediaMonkey 小 2x1</string>
     <string name="album_total_time_ms">%1$d 分 %2$d 秒</string>
@@ -316,7 +316,7 @@
     <string name="logs_email_details">这使我们能够联系您来解决问题。</string>
     <string name="please_enter_details">请描述问题及其引发的原因。</string>
     <string name="termination_timer_title">在通知栏中显示</string>
-    <string name="termination_timer_summary">暂停/不活动时，在通知栏中运行 %1$s 后再关闭。</string>
+    <string name="termination_timer_summary">暂停/不活动时，在通知栏中保留 %1$s 后再关闭。</string>
     <string name="termination_timer_summary_always">暂停/不活动时，在通知栏中运行。</string>
     <string name="media_artists">曲目艺术家</string>
     <string name="album_artists">专辑艺术家</string>
@@ -390,7 +390,7 @@
     <string name="preparing_tracks_for_deletion">正在准备删除曲目…</string>
     <string name="directory_is_not_included_in_sync_path">要执行此操作，必须将文件添加到库中。</string>
     <string name="storage_permission_hint_5">点击“选择”以授予访问权限。</string>
-    <string name="upnp_trial_addon_details">解锁 UPnP/DLNA 流媒体和 UPnP/DLNA/Chromecast 投射。</string>
+    <string name="upnp_trial_addon_details">解锁 UPnP/DLNA 流媒体和 UPnP/DLNA/Google Cast。</string>
     <string name="advanced_media_manager_addon">高级媒体管理插件</string>
     <string name="advanced_media_manager_addon_details">解锁主屏幕自定义、文件夹浏览器。</string>
     <string name="mediamonkey_pro_addon">MediaMonkey Pro</string>
@@ -400,7 +400,7 @@
     <string name="checking_license">正在检查许可证…</string>
     <string name="you_need_to_update_pro_version">请将 MediaMonkey Pro 更新至版本 %1$s 或更高版本以解锁所有附加功能。</string>
     <string name="you_need_to_install_pro_version">请安装 MediaMonkey Pro 来解锁所有附加功能。</string>
-    <string name="update_pro">更新专业版</string>
+    <string name="update_pro">升级到专业版</string>
     <string name="keep_lite">保持精简版</string>
     <string name="internal_storage">内部存储</string>
     <string name="external_storage">外部存储</string>
@@ -443,8 +443,8 @@
     <string name="rating">星级</string>
     <string name="proceed">继续</string>
     <string name="browser_not_found">无法找到网络浏览器</string>
-    <string name="outdated_server_title">Windows 版 MediaMonkey 已过时</string>
-    <string name="outdated_server_description">您的 Windows 版 MediaMonkey 版本已过时。</string>
+    <string name="outdated_server_title">MediaMonkey for Windows 已过时</string>
+    <string name="outdated_server_description">您的 MediaMonkey for Windows 版本已过时。</string>
     <string name="outdated_server_denied">请更新至版本 %s。</string>
     <string name="outdated_server_recommended">建议更新至版本 %s。</string>
     <string name="google_play_store_not_installed">未找到 Google Play Store。无法安装所需应用程序。</string>
@@ -453,8 +453,8 @@
     <string name="rate_ok">评价一下！</string>
     <string name="rate_later">现在不要</string>
     <string name="rate_never">从不</string>
-    <string name="grid_view">显示网格布局</string>
-    <string name="list_view">显示列表布局</string>
+    <string name="grid_view">显示为网格</string>
+    <string name="list_view">显示为列表</string>
     <string name="media_monkey_needs_access_to_">MediaMonkey 需要访问 %s。</string>
     <string name="media_folders">媒体文件夹</string>
     <string name="storage_permission_hint_intro">授予访问权限：</string>
@@ -539,10 +539,10 @@
     <string name="casting">投射</string>
     <string name="renderer">渲染器</string>
     <string name="register_for_test_builds">注册测试版本</string>
-    <string name="no_cast_device">无投射装置</string>
+    <string name="no_cast_device">没有流媒体设备</string>
     <string name="always_respond_to_remote_controls_summary">尽可能响应蓝牙或其他控制。</string>
     <string name="crossfade_summary">交叉淡入淡出相邻的音轨（在某些设备上不稳定）。</string>
-    <string name="download_remaining" msgid="3139295890887972718"><xliff:g id="DURATION">%s</xliff:g> 完成</string>
+    <string name="download_remaining" msgid="3139295890887972718"><xliff:g id="DURATION">%s</xliff:g> 剩余</string>
     <string name="path_invalid">无法写入配置的位置。将改用 MediaMonkey 特定的文件夹。</string>
     <string name="register_for_test_builds_summary">获取最新的 MediaMonkey 测试版更新。</string>
     <string name="disable_touch_sounds_summary">播放时禁用系统“触摸声音”。</string>
@@ -551,7 +551,7 @@
     </plurals>
     <string name="rate_message">如果您喜欢 MediaMonkey，您愿意花点时间给它评分吗？感谢您的支持！</string>
     <string name="storage_permission_hint_3">点击左侧的导航图标，显示所有存储位置。</string>
-    <string name="media_not_ready_message">曲目自动转换期间发生意外故障。</string>
+    <string name="media_not_ready_message">自动转换曲目时发生意外故障。</string>
     <string name="storage_permission_details">MediaMonkey 需要文件夹写入权限才能最佳运行！</string>
     <string name="play_now_keep">“立即播放”保留队列</string>
     <string name="write_contacts_permission_denied">权限被拒绝。无法将铃声指定给联系人。</string>
@@ -573,7 +573,7 @@
     <string name="low_battery_termination_summary">电池电量不足时结束 Wi-Fi 同步操作</string>
     <string name="end_wifi_sync_operations_if_power_remains">如果电池剩余电量少于 %1d %%，则结束 Wi-Fi 同步。</string>
     <string name="wifi_sync_ended_because_battery_is_low">由于电池电量低，Wi-Fi 同步结束。</string>
-    <string name="upgrading_paths_format">正在升级数据库中的路径格式…</string>
+    <string name="upgrading_paths_format">正在更新数据库中的路径格式…</string>
     <string name="alternative_server">MediaMonkey 同步服务器不可用。请尝试连接到其他同步服务器。</string>
     <string name="play_all">全部播放</string>
     <string name="play_all_shuffle">播放全部（随机播放）</string>
@@ -648,7 +648,7 @@
     <string name="playback_notification_summary">在通知中显示 %s 媒体播放器。</string>
     <string name="add_media_server">添加媒体服务器</string>
     <string name="device_destination">设备目标</string>
-    <string name="invalid_url_format">网址格式无效</string>
+    <string name="invalid_url_format">URL 格式无效</string>
     <string name="stored_media_server_is_unavailable">已保存的媒体服务器无法访问。</string>
     <string name="recreating_tracklist">正在重新创建播放队列…</string>
     <string name="password">密码</string>
@@ -696,7 +696,7 @@
     <string name="crash_before_sending">发送崩溃报告。</string>
     <string name="crash_sent_failed">无法发送崩溃报告。</string>
     <string name="getting_desync_media_to_delete">正在准备要删除的文件列表…</string>
-    <string name="casting_to_chromecast">投射至 Chromecast 设备</string>
+    <string name="casting_to_chromecast">投射到 Google Cast 设备</string>
     <string name="category">类别</string>
     <string name="options">选项</string>
     <string name="settings2">设置</string>
@@ -775,7 +775,7 @@
     <string name="server_disconnected">服务器已断开连接</string>
     <string name="protocol">协议</string>
     <string name="help">帮助</string>
-    <string name="disabled">禁用</string>
+    <string name="disabled">已禁用</string>
     <string name="wizard">向导</string>
     <string name="bidi_content_title">双向内容</string>
     <string name="bidi_content_description">"选择要保持双向同步的内容 "</string>
@@ -829,7 +829,7 @@
     <string name="server_ip_address">服务器地址（IP 或域名）</string>
     <string name="searching_sync_server">正在搜索同步服务器…</string>
     <string name="searching_media_servers">正在搜索媒体服务器…</string>
-    <string name="searching_cast_devices">正在搜索投放设备…</string>
+    <string name="searching_cast_devices">正在搜索流媒体设备…</string>
     <string name="server_not_responding">服务器无响应</string>
     <string name="removing_deselected_media_from_library">正在从数据库中删除项目…</string>
     <string name="more_than_x_items">超过 %d 个项目</string>
@@ -964,7 +964,7 @@
     <string name="connection_failed_hint">服务器无法访问（尝试重新启动服务器，然后重新运行同步配置向导）</string>
     <string name="artwork_folders_to_add_description">曲目包含指向尚未添加到库中的艺术作品的链接。请将这些文件夹添加到库中，以便正确显示艺术作品。</string>
     <string name="sync_device_content_description">将播放列表和新文件同步到服务器（必须在服务器上配置文件夹）。</string>
-    <string name="backup_info_description">该文件夹用于与 MediaMonkey 桌面进行 USB 同步。</string>
+    <string name="backup_info_description">该文件夹用于与 MediaMonkey 服务器进行 USB 同步。</string>
     <string name="external_storage_app_all_files_denied_solution">\\nn 解决方法：
 \n
 \n1 点击“配置…”打开“所有文件访问”权限设置。
@@ -978,14 +978,14 @@
     <string name="failed">失败</string>
     <string name="multiple_file_types_selected">选择了多种文件类型</string>
     <plurals name="number_rating_decimal">
-        <item quantity="other">星</item>
+        <item quantity="other">%1$.1f 星</item>
     </plurals>
-    <string name="rating_plus">或更多的星</string>
+    <string name="rating_plus">%s 星或更多</string>
     <plurals name="number_test">
         <item quantity="other">其他</item>
     </plurals>
     <string name="kilobyte">KB</string>
     <plurals name="number_rating">
-        <item quantity="other">星</item>
+        <item quantity="other">%d 星</item>
     </plurals>
 </resources>
