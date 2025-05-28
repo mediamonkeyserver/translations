@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="mediamonkey_for_android">MediaMonkey pour Android</string>
     <string name="no_track_selected">Aucune piste sélectionnée</string>
     <string name="select_mm_server_summary">Choisissez un nouveau serveur MediaMonkey pour synchroniser.</string>
@@ -13,7 +13,6 @@
     <string name="enter_playlist_name">Saisir le nom de la playlist :</string>
     <string name="error">Erreur</string>
     <string name="media_synchronization">Synchro Wi-Fi</string>
-    <string name="select_mm_server">Sélectionner un serveur de synchro</string>
     <string name="select_mm_server_summary_selected">Serveur de synchro : %1$s</string>
     <string name="sync_server">Serveur de synchro</string>
     <string name="upnp_download_directory">Emplacement de téléchargement</string>
@@ -51,9 +50,6 @@
     <string name="artists">Artistes</string>
     <string name="albums">Albums</string>
     <string name="tracks">Pistes</string>
-    <string name="x_artists">%1$s artistes</string>
-    <string name="x_albums">%1$s albums</string>
-    <string name="x_tracks">%1$s pistes</string>
     <string name="playlists">Playlists</string>
     <string name="something_in_progress">Tâche d\'arrière-plan en cours</string>
     <string name="connecting">Connexion…</string>
@@ -61,22 +57,15 @@
     <string name="unknown_composer">Compositeur inconnu</string>
     <string name="unknown_artist">Artiste inconnu</string>
     <string name="unknown_album">Album inconnu</string>
-    <string name="unknown_title">Piste inconnue</string>
     <string name="unknown_genre">Genre inconnu</string>
     <string name="uploading">Envoi en cours</string>
     <string name="uploading_failed">Envoi de la piste échouée</string>
     <string name="uploading_playlists_failed">L’envoi de la playlist échoué</string>
     <string name="download">Télécharger</string>
-    <plurals name="downloading_finished">
-        <item quantity="one">Téléchargé %d piste</item>
-        <item quantity="many">Téléchargé %d pistes</item>
-        <item quantity="other">Téléchargé %d pistes</item>
-    </plurals>
     <string name="downloading_failed">Téléchargement de la piste échouée</string>
     <string name="download_canceled">Téléchargement annulé</string>
     <string name="download_canceling">Arrêt du téléchargement…</string>
     <string name="do_you_really_want_to_cancel_download">Voulez-vous vraiment annuler le téléchargement ?</string>
-    <string name="available_mb">%d Mo disponibles</string>
     <string name="delete">Supprimer</string>
     <string name="deleting">Suppression</string>
     <string name="deleting_failed">Suppression échouée</string>
@@ -216,7 +205,6 @@
     <string name="backup_info_description">Le dossier est utilisé pour la synchro USB avec le serveur MediaMonkey.</string>
     <string name="artwork_folders_to_add">Dossiers des pochettes à ajouter</string>
     <string name="artwork_folders_to_add_description">Des pistes contiennent des liens vers des pochettes non ajoutées à la bibliothèque. Ajoutez ces dossiers pour un affichage correct.</string>
-    <string name="notification_ms_sync_description">Analyse de dossiers pour la bibliothèque.</string>
     <string name="library_and_sync_summary">Dossiers de bibliothèque, Synchro Wi-Fi, UPnP</string>
     <plurals name="selected_items">
         <item quantity="one">élément sélectionné</item>
@@ -226,7 +214,6 @@
     <string name="no_file_manager_to_grant_access">Aucun gestionnaire de fichiers ne permet d’accorder l’accès aux dossiers.
 \nInstallez Files by Google.</string>
     <string name="sync_server_not_available_message">"Si aucun serveur de synchro MediaMonkey n\'est installé, téléchargez-le via : "</string>
-    <string name="missing_folders_info">Le nom du dossier est automatiquement copié dans le presse-papiers lorsque vous cliquez sur « CRÉER et ACCORDER ».</string>
     <string name="removing_sync_destination">Ce dossier est une destination de synchro (sur le serveur) et sera recréé à la prochaine synchro.</string>
     <string name="sync_server_not_available_title">Serveur non disponible</string>
     <string name="play_now">Lire maintenant</string>
@@ -245,7 +232,6 @@
     <string name="unsupported_format">Format non pris en charge</string>
     <string name="select_all">Tout sélectionner</string>
     <string name="search">Recherche</string>
-    <string name="search_">Recherche :</string>
     <string name="ums_activity_title">Aucun stockage disponible</string>
     <string name="dont_repeat">Répétition désactivée</string>
     <string name="repeat_current">Répéter la piste en cours</string>
@@ -259,7 +245,6 @@
     <string name="tracks_are_adding_asynchronously">Pistes ajoutées à la File de lecture</string>
     <string name="playlist_name_is_invalid">Nom de playlist invalide !</string>
     <string name="syncing_playlists">Synchronisation des playlists…</string>
-    <string name="media_monkey_playlist">Playlist</string>
     <string name="playlist_already_exists">La playlist existe déjà.</string>
     <string name="play_now_keep_summary">Lit la piste sans vider la File de lecture</string>
     <string name="delete_playlist">Supprimer la playlist</string>
@@ -283,8 +268,6 @@
 \n Vérifiez que la synchro Wi-Fi est activée sur le serveur distant.</string>
     <string name="audiobook">Livre audio</string>
     <string name="podcast">Podcast</string>
-    <string name="album_total_time_ms">%1$d min %2$d s</string>
-    <string name="album_total_time_hms">%1$d h %2$d min %3$d s</string>
     <string name="tv">TV</string>
     <string name="music_video">Clip musical</string>
     <string name="video_podcast">Podcast vidéo</string>
@@ -319,7 +302,6 @@
     <string name="artwork">Pochette</string>
     <string name="genre_s_">Genre(s)</string>
     <string name="composer_s_">Compositeur(s)</string>
-    <string name="unsynchronized_track">(Inconnu)</string>
     <string name="currently_played_media">Piste en cours</string>
     <string name="done">Fait</string>
     <string name="media_monkey_store">Boutique MediaMonkey</string>
@@ -339,9 +321,7 @@
     <string name="mm_community_forum">Forum communautaire</string>
     <string name="mm_community_forum_details">Posez vos questions, signalez des bugs ou partagez vos idées</string>
     <string name="prefereneces_not_updated">Préférences non mises à jour</string>
-    <string name="choose_where_to_sync">Choisissez où synchroniser vos fichiers multimédias</string>
     <string name="lyrics_not_available">Pas de paroles.</string>
-    <string name="verify_license">Vérification de la licence…</string>
     <string name="troubleshooting">Dépannage</string>
     <string name="send_link">Envoyez-moi le lien</string>
     <string name="send_link_mmw_subject">Lien vers le serveur de synchro MediaMonkey</string>
@@ -350,7 +330,6 @@
     <string name="last_synced">Dernière synchronisation : %1$s</string>
     <string name="never">jamais</string>
     <string name="always">toujours</string>
-    <string name="main_storage_is_unavailable">Le stockage inscriptible n\'est pas disponible.</string>
     <string name="unavailable">Non disponible</string>
     <string name="storage_not_accessible">Stockage inaccessible.</string>
     <string name="equalizer">Égaliseur</string>
@@ -373,7 +352,6 @@
     <string name="personalize">Configurer les nœuds</string>
     <string name="network_is_not_available">Réseau indisponible</string>
     <string name="connection_failed_access_denied">Connexion échouée : accès refusé</string>
-    <string name="deleting_">Suppression…</string>
     <string name="widget_medium22">MediaMonkey Moyen 2x2</string>
     <string name="scrobble">Scrobble</string>
     <string name="scrobble_pano_scrobbler">Pano Scrobbler pour LastFM</string>
@@ -388,7 +366,6 @@
     <string name="logs_details_details">Veuillez décrire le problème et ce qui l\'a déclenché.</string>
     <string name="logs_email">E-mail (facultatif) :</string>
     <string name="logs_email_details">Cela nous permet de vous contacter pour résoudre le problème.</string>
-    <string name="please_enter_details">Veuillez décrire le problème et ce qui l\'a déclenché.</string>
     <string name="termination_timer_title">Afficher dans la barre de notifications</string>
     <string name="termination_timer_summary">En pause/inactif, rester actif dans la barre de notifications pendant %1$s avant de fermer.</string>
     <string name="termination_timer_summary_always">En pause/inactif, rester actif dans la barre de notifications.</string>
@@ -402,7 +379,6 @@
     <string name="send_me_copy_of_id">Enregistrer une copie de l\'ID du journal :</string>
     <string name="share_log_id_subject">Journal MediaMonkey pour Android</string>
     <string name="album_artists">Artistes des Albums</string>
-    <string name="artists_and_album_artists">Artistes</string>
     <string name="track_is_unavailable">Piste non disponible</string>
     <string name="personalize_home_screen">Personnaliser l\'écran d\'accueil</string>
     <string name="start">Démarrer</string>
@@ -411,15 +387,11 @@
     <string name="fade_out_music_details">Fondu à 30 % du volume actuel</string>
     <string name="fade_out_music">Fondu en sortie</string>
     <string name="play_last_song_completely">Lire la dernière piste en entier</string>
-    <string name="timer_value">%1$2dh %2$2dm %3$2ds</string>
-    <string name="timer_short_value">%1$2dh %2$2dm</string>
     <string name="continue_">Continuer</string>
     <string name="preparing_tracks_for_deletion">Préparation des pistes à supprimer…</string>
     <string name="preparing_download">Préparation du téléchargement…</string>
     <string name="directory_is_not_included_in_sync_path">Pour effectuer cette opération, le fichier doit être ajouté à la bibliothèque.</string>
     <string name="search_settings_description">Artistes, albums, pistes et vidéo</string>
-    <string name="info">Info</string>
-    <string name="media_monkey_sync">Synchronisation</string>
     <string name="scan_library_title">Vérifier les médias nouveaux/modifiés</string>
     <string name="scanning_started">Scan démarré…</string>
     <string name="ignore">Ignorer</string>
@@ -429,7 +401,6 @@
     <string name="album_art_cant_be_download">Impossible de télécharger la pochette.</string>
     <string name="disable_touch_sounds_summary">Désactiver \'sons tactiles\' durant lecture.</string>
     <string name="lyrics_trial_dialog_title">Recherche de paroles</string>
-    <string name="lyrics_auto_trial_dialog_title">Recherche de paroles</string>
     <string name="trial_please_consider_upgrading">Envisagez une mise à niveau !</string>
     <string name="trial_short_message">Limite : 30 minutes à la fois.</string>
     <string name="trial_long_message">Jours restants :</string>
@@ -438,7 +409,6 @@
     <string name="lyrics_trial_dialog_message">La recherche des paroles est disponible en essai.</string>
     <string name="configurable_home_screen_trial_dialog_title">Écran d\'accueil configurable</string>
     <string name="upnp_trial_dialog_title">UPnP/DLNA</string>
-    <string name="wifi_sync_trial_dialog_title">Synchro Wi-Fi</string>
     <string name="upnp_trial_addon">Extension de streaming</string>
     <string name="upnp_trial_addon_details">Débloque le streaming UPnP/DLNA et le diffusion UPnP/DLNA/Google Cast.</string>
     <string name="not_enough_space_on_storage_log">%1$s ( %2$s d\'espace libre)</string>
@@ -463,7 +433,6 @@
     <string name="no_activity_found_to_handle_intent">La boutique est inaccessible.</string>
     <string name="your_device_does_not_support_writing_to_sdcard">Votre appareil ne permet pas d’écrire sur la carte SD.</string>
     <string name="media_not_ready_message">Une erreur imprévue s\'est produite lors de conversion auto de pistes.</string>
-    <string name="scrobble_dialog_title_x">Désinstaller %1$s</string>
     <string name="storage_permission_hint_1">Cliquez sur l’icône menu à 3 points dans la boîte de dialogue suivante.</string>
     <string name="sync_settings_not_found_message">Erreur imprévue lors de l\'initialisation de la synchronisation.</string>
     <string name="recreating_database">Recréation de la base de données…</string>
@@ -478,31 +447,14 @@
     <string name="cant_find_x">Impossible de trouver \'%1$s\'</string>
     <string name="unknown_error">Erreur inconnue</string>
     <string name="uninstall">Désinstaller</string>
-    <plurals name="rating_x">
-        <item quantity="one"><xliff:g id="count">%1$.1f</xliff:g> étoile</item>
-        <item quantity="many"><xliff:g id="count">%1$.1f</xliff:g> étoiles</item>
-        <item quantity="other"><xliff:g id="count">%1$.1f</xliff:g> étoiles</item>
-    </plurals>
-    <plurals name="rating_x_plus">
-        <item quantity="one"><xliff:g id="count">%1$.1f</xliff:g> étoile ou plus</item>
-        <item quantity="many"><xliff:g id="count">%1$.1f</xliff:g> étoiles ou plus</item>
-        <item quantity="other"><xliff:g id="count">%1$.1f</xliff:g> étoiles ou plus</item>
-    </plurals>
-    <plurals name="rating_d_plus">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> étoile ou plus</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> étoiles ou plus</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> étoiles ou plus</item>
-    </plurals>
     <string name="rating">Évaluation</string>
     <string name="proceed">Poursuivre</string>
     <string name="browser_not_found">Navigateur Web introuvable</string>
     <string name="outdated_server_title">MediaMonkey pour Windows n\'est pas à jour</string>
     <string name="outdated_server_description">Votre version de MediaMonkey pour Windows n\'est pas à jour.</string>
     <string name="outdated_server_denied">Mettez à jour vers la version %s.</string>
-    <string name="write_settings_touch_sounds_permission_title">Désactiver les \'sons tactiles\'</string>
     <string name="write_settings_touch_sounds_permission_message">Pour désactiver les \'sons tactiles\', autorisez MediaMonkey à modifier les paramètres système.</string>
     <string name="write_settings_touch_sounds_permission_denied">Permission refusée. Les \'sons tactiles\' ne peuvent pas être désactivés.</string>
-    <string name="currently_playing_song">Piste en cours</string>
     <string name="currently_playing_artist">Artiste de la piste en cours</string>
     <string name="disable_debug_logs">Désactiver journaux de débogage</string>
     <string name="disable_debug_logs_summary">Désactiver journaux débogage pour améliorer les performances</string>
@@ -513,16 +465,11 @@
     <string name="to_upload">à envoyer</string>
     <string name="notification_updating_album_artwork">Mise à jour de la pochette d\'album</string>
     <string name="artwork_not_available_search">Rechercher des pochettes manquantes ?</string>
-    <string name="lyrics_lookup">Recherche de paroles</string>
     <string name="uploading_sync_setting_for_x">Envoi paramètres de synchro pour %s</string>
-    <string name="uploading_sync_setting_success">Paramètres de synchro envoyés.</string>
-    <string name="uploading_sync_setting_failed">Échec de l’envoi des paramètres de synchro.</string>
     <string name="show_confirm_dialog">Afficher l\'écran de confirmation</string>
     <string name="uploaded">Envoyé</string>
     <string name="playing">En cours</string>
     <string name="lyrics">Paroles</string>
-    <string name="skip_presync_dialog">Ignorer sélection stockage synchro</string>
-    <string name="skip_presync_dialog_summary">Ne demandez pas de choisir le stockage avant synchronisation (utilisez les paramètres existants).</string>
     <string name="prevent_notification_sounds_summary">Empêche les notifications de modifier le volume pendant la lecture.</string>
     <string name="disable_notification_sounds_while_playing">Désactiver les sons de notification</string>
     <string name="disable_notification_sounds_while_playing_summary">Désactive les sons de notification pendant la lecture.</string>
@@ -556,12 +503,7 @@
     <string name="please_contact_us">Pour résoudre cela, nous aurons besoin de votre aide et de journaux supplémentaires de MediaMonkey pour Windows. Contactez-nous via notre support pour les instructions.</string>
     <string name="skipped_x_track_unsupporeted_by_receiver">Passé %1$s. Il n\'est pas pris en charge par le récepteur.</string>
     <string name="scrobble_dialog_message_x">%1$s ne peut pas être désactivé d\'ici. Voulez-vous le désinstaller ?</string>
-    <plurals name="rating_d">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> étoile</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> étoiles</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> étoiles</item>
-    </plurals>
-    <string name="bluetooth_lockscreen_warning_message">Si le lecteur par défaut de l\'écran de verrouillage Android est désactivé, MediaMonkey ne fonctionnera pas bien avec les appareils Bluetooth.</string>
+
     <string name="send_link_mmw_message">"Pour synchroniser MediaMonkey pour Android, installez MediaMonkey sur votre ordinateur. Voir les détails sur : "</string>
     <string name="edit">Modifier</string>
     <string name="outdated_server_recommended">Mise à jour vers la version %s recommandée.</string>
@@ -571,7 +513,6 @@
     <string name="rate_message">Si vous aimez MediaMonkey, prendriez-vous un moment pour l\'évaluer ? Merci de votre soutien !</string>
     <string name="rate_ok">Évaluez-le !</string>
     <string name="rate_later">Pas maintenant</string>
-    <string name="rate_never">Jamais</string>
     <string name="grid_view">Afficher en grille</string>
     <string name="list_view">Afficher en liste</string>
     <string name="media_monkey_needs_access_to_">MediaMonkey a besoin d\'accéder à %s.</string>
@@ -630,18 +571,13 @@
     <string name="notification_progressbar_enabled_summary">Affiche la position de lecture dans le lecteur de notifications.</string>
     <string name="settings">Paramètres</string>
     <string name="exit">Quitter</string>
-    <plurals name="removing_album_art_from_albums">
-        <item quantity="one">Retrait de la pochette de l\'album…</item>
-        <item quantity="many">Retrait des pochettes des albums…</item>
-        <item quantity="other">Retrait des pochettes des albums…</item>
-    </plurals>
     <plurals name="prepparing_album_art_to_remove">
-        <item quantity="one">Préparation au retrait de la pochette…</item>
+        <item quantity="one" tools:ignore="ImpliedQuantity">Préparation au retrait de la pochette…</item>
         <item quantity="many">Préparation au retrait des pochettes…</item>
         <item quantity="other">Préparation au retrait des pochettes…</item>
     </plurals>
     <plurals name="delete_album_art_files">
-        <item quantity="one">Suppression du fichier de pochette…</item>
+        <item quantity="one" tools:ignore="ImpliedQuantity">Suppression du fichier de pochette…</item>
         <item quantity="many">Suppression des fichiers des pochette…</item>
         <item quantity="other">Suppression des fichiers des pochette…</item>
     </plurals>
@@ -721,7 +657,6 @@
     <string name="storage_permission_message_denied_completely">MediaMonkey nécessite l’accès aux fichiers média. La demande a été refusée et ne peut plus être réitérée. Pour l’utiliser, allez dans les détails de l’application et accordez la permission manuellement.</string>
     <string name="disable_battery_optimization_details">Cela empêche Android de fermer MediaMonkey lorsqu\'il fonctionne en arrière-plan (diffusion, synchro, etc.).</string>
     <string name="connection_failed_hint">Serveur inaccessible (redémarrez-le, puis relancez l’assistant de synchro)</string>
-    <string name="different_sync_server">Paramètres de synchro</string>
     <string name="different_sync_server_message">MediaMonkey est configuré pour un autre serveur. Voulez-vous utiliser les nouveaux paramètres de ce serveur (les paramètres existants seront remplacés) ?</string>
     <string name="contextual_action_supported_for_unknown_items">Action non prise en charge pour éléments inconnus.</string>
     <string name="chromecasting_volume">Contrôle du volume Google TV</string>
@@ -750,7 +685,6 @@
     <string name="preparing_">Préparation…</string>
     <string name="updating_playback_settings">Mise à jour des paramètres de lecture</string>
     <string name="preparing_playback_service">Préparation du service de lecture</string>
-    <string name="notification_database_initialization">Initialisation de la base de données</string>
     <string name="remote_list_size_limit_title">Limiter la taille des listes pour applis externes</string>
     <string name="remote_list_size_limit_summary">Affiche %s pistes via Android Auto, Bluetooth, etc. Valeurs &gt; 0 peuvent être incompatibles avec certains appareils.</string>
     <string name="unlimited">Illimité</string>
@@ -794,30 +728,20 @@
     <string name="action_scanning_library_files">Scan des dossiers pour médias</string>
     <string name="scan">Scanner</string>
     <string name="access_to_video_description">Pour scanner les vidéos, MediaMonkey doit accéder à la bibliothèque vidéo d\'Android.</string>
-    <string name="used_space_MB">%d Mo utilisés</string>
-    <string name="used_space_GB">%1.1f Go utilisés</string>
-    <string name="free_space_MB">%d Mo gratuit</string>
     <string name="hide">Masquer</string>
-    <string name="report">Rapport</string>
     <string name="multiple_audio_types">Plusieurs types audio</string>
     <string name="multiple_video_types">Plusieurs types vidéo</string>
     <string name="multiple_file_types">Plusieurs types de fichiers</string>
     <string name="no_connection">Aucune connexion</string>
     <string name="turn_on">Activer</string>
     <string name="track_order">Ordre des pistes</string>
-    <string name="crash_before_sending">Envoi du rapport de crash.</string>
-    <string name="crash_sent_succeeded">Rapports de crash envoyés.</string>
-    <string name="crash_sent_failed">Échec de l\'envoi du rapport de crash.</string>
     <string name="category">Catégorie</string>
     <string name="options">Options</string>
-    <string name="settings2">Paramètres</string>
     <string name="media_server">Serveur Multimédia</string>
     <string name="media_servers">Serveurs Multimédia</string>
     <string name="no_media_server">Aucun serveur multimédia</string>
     <string name="media_servers_not_found_message">Aucun serveur multimédia trouvé sur le réseau.</string>
-    <string name="create_and_add">Créer et ajouter</string>
     <string name="add_to">Ajouter à</string>
-    <string name="usb_sync">Synchro USB</string>
     <string name="usb_sync_description">Vérification si une nouvelle synchro USB est nécessaire.</string>
     <string name="checking_tasks_to_process">Mise à jour de la bibliothèque…</string>
     <string name="media">Média</string>
@@ -826,16 +750,12 @@
     <string name="select_content">Sélectionner le contenu</string>
     <string name="no_storage_selected">Aucun stockage sélectionné</string>
     <string name="storage">Stockage</string>
-    <string name="expand_to_full_screen_video_player">Plein écran</string>
     <string name="to_delete">à supprimer</string>
     <string name="or">ou</string>
     <string name="search_on_server">Rechercher sur le serveur…</string>
-    <string name="existing">Existant</string>
     <string name="open_in_fullscreen">Ouvrir en plein écran</string>
     <string name="root_visibility_configuration_description">Afficher comme nœuds de niveau supérieur (ex : sur l\'écran d\'accueil)</string>
     <string name="visibility_configuration_description">Afficher comme sous-nœuds (ex : dans les onglets)</string>
-    <string name="home_screen_preferences">Écran d\'accueil</string>
-    <string name="navigation_preferences">Navigation</string>
     <string name="info_panel">Indicateur d\'état</string>
     <string name="always_expand_during_processing">Afficher les détails de progression</string>
     <string name="always_expand_during_processing_summary">Toujours développer pour afficher les tâches en arrière-plan.</string>
@@ -861,8 +781,6 @@
     <string name="searching_cast_devices">Recherche d\'appareils de streaming…</string>
     <string name="upnp_service_disconnected">Service UPnP déconnecté.</string>
     <string name="select_other_server">Choisissez un autre serveur</string>
-    <string name="downloading_sync_setting_success">Paramètre de synchro téléchargé.</string>
-    <string name="downloading_sync_setting_failed">Téléchargement des paramètres de synchro a échoué.</string>
     <string name="server_connected">Serveur connecté</string>
     <string name="server_disconnected">Serveur déconnecté</string>
     <string name="connecting_to_server">Connexion au serveur…</string>
@@ -876,17 +794,13 @@
     <string name="eula_title">Ventis Media, Inc. Contrat de licence d\'utilisateur final pour MediaMonkey</string>
     <string name="grant">Autoriser</string>
     <string name="no_subscription">Aucun abonnement</string>
-    <string name="add_server">Ajouter un serveur</string>
     <string name="database_maintenance">Maintenance de la base de données</string>
     <string name="debuging">Débogage</string>
     <string name="partly">En partie</string>
     <string name="no_content_to_sync">Rien à synchroniser</string>
-    <string name="no_deletion">Aucun</string>
     <string name="unselected_copies">Fichiers du serveur non sélectionnés</string>
     <string name="all_unselected_content">Tous les fichiers non sélectionnés</string>
     <string name="switch_to_wizard">Passer à l\'assistant</string>
-    <string name="skip_this_step_next_time">Passer cette étape la prochaine fois</string>
-    <string name="select_storage_to_sync">Sélectionner les emplacements à synchroniser</string>
     <string name="license_agreement">Contrat de licence</string>
     <string name="server_ip_address">Adresse du serveur (IP ou domaine)</string>
     <string name="device_description_file_path">Chemin du fichier de Description de l\'appareil</string>
@@ -926,7 +840,6 @@
     <string name="save_failed">Échec de l\'enregistrement !</string>
     <string name="select_theme">Sélectionner le thème</string>
     <string name="dark_mode">Mode sombre</string>
-    <string name="dark_mode_summary">Mode sombre : %s.</string>
     <string name="off">Désactivé</string>
     <string name="on">Activé</string>
     <string name="auto">Auto (selon le système)</string>

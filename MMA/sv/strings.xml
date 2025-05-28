@@ -12,7 +12,6 @@
     <string name="error">Fel</string>
     <string name="no_track_selected">Inga spår valda</string>
     <string name="media_synchronization">Wi-Fi sync</string>
-    <string name="select_mm_server">Välj synkserver</string>
     <string name="sync_server">Synkserver</string>
     <string name="upnp_download_directory">Nedladdningsplats</string>
     <string name="upnp_download_directory_summary">Spara filer till: %1$s</string>
@@ -53,9 +52,6 @@
     <string name="artists">Artister</string>
     <string name="albums">Album</string>
     <string name="tracks">Spår</string>
-    <string name="x_artists">%1$s artister</string>
-    <string name="x_albums">%1$s album</string>
-    <string name="x_tracks">%1$s spår</string>
     <string name="playlists">Spellistor</string>
     <string name="something_in_progress">Bakgrundsprocess pågår</string>
     <string name="connecting">Kopplar upp…</string>
@@ -63,7 +59,6 @@
     <string name="unknown_composer">Okänd kompositör</string>
     <string name="unknown_artist">Okänd artist</string>
     <string name="unknown_album">Okänt album</string>
-    <string name="unknown_title">Okänt spår</string>
     <string name="unknown_serie">Okänd serie</string>
     <string name="unknown_genre">Okänd genre</string>
     <string name="uploading">Laddar upp</string>
@@ -71,16 +66,11 @@
     <string name="uploading_playlists_failed">Spellistuppladdning misslyckades</string>
     <string name="download">Ladda ned</string>
     <string name="downloading">Laddar ned</string>
-    <plurals name="downloading_finished">
-        <item quantity="one">Nedladdat %d spår</item>
-        <item quantity="other">Nedladdat %d spår</item>
-    </plurals>
     <string name="downloading_failed">Nedladdning av spår misslyckades</string>
     <string name="downloading_playlists_failed">Nedladdning av spellista misslyckades</string>
     <string name="download_canceled">Nedladdning avbröts</string>
     <string name="download_canceling">Avbryter nedladdning…</string>
     <string name="do_you_really_want_to_cancel_download">Vill du verkligen avbryta nedladdningen?</string>
-    <string name="available_mb">%d MB tillgängliga</string>
     <string name="delete">Ta bort</string>
     <string name="deleting">Tar bort</string>
     <string name="deleting_failed">Borttagning misslyckades</string>
@@ -161,7 +151,6 @@
     <string name="queue_next">Köa nästa</string>
     <string name="queue_last">Köa sist</string>
     <string name="no_tracks_to_play">Spelkö är tom</string>
-    <string name="album_total_time_hms">%1$d h %2$d min %3$d s</string>
     <string name="album_artists_label">Albumartist(er)</string>
     <string name="unable_get_settings">Synkronisering nekades av fjärrserver.
 \n Kontrollera att Wi-Fi synkronisering är påslagen på fjärrservern.</string>
@@ -175,7 +164,6 @@
     <string name="unsupported_format">Format stöds ej</string>
     <string name="select_all">Välj alla</string>
     <string name="search">Sök</string>
-    <string name="search_">Sök:</string>
     <string name="ums_activity_title">Ansluten till dator</string>
     <string name="dont_repeat">Repetition frånkopplad</string>
     <string name="repeat_current">Repetera aktuellt spår</string>
@@ -220,7 +208,6 @@
     <string name="tracks_are_adding_asynchronously">Lagt till spår i spelkö</string>
     <string name="genre_s_">Genre(r)</string>
     <string name="composer_s_">Kompositör(er)</string>
-    <string name="unsynchronized_track">(Okänd)</string>
     <string name="currently_played_media">Nu spelande</string>
     <string name="done">Färdig</string>
     <string name="media_monkey_store">MediaMonkey Store</string>
@@ -241,12 +228,10 @@
     <string name="mm_community_forum_details">Ställ frågor, skicka in felrapporter/förbättringsförslag</string>
     <string name="prefereneces_updated">Inställningar uppdaterade</string>
     <string name="prefereneces_not_updated">Inställningar ej uppdaterade</string>
-    <string name="choose_where_to_sync">Välj till var mediafilerna ska synkroniseras</string>
     <string name="no_content">Inget innehåll</string>
     <string name="lyrics_not_available_search">Leta efter sångtext?</string>
     <string name="lyrics_not_available">Ingen sångtext.</string>
     <string name="lyrics_not_found">Sångtext ej funnen.</string>
-    <string name="verify_license">Verifierar licens…</string>
     <string name="troubleshooting">Felsökning</string>
     <string name="send_link">Skicka länken till mig</string>
     <string name="nothing_to_sync">Inga lagringsytor är konfigurerade för synkning!</string>
@@ -255,12 +240,10 @@
     <string name="last_synced">Senaste synkning: %1$s</string>
     <string name="never">aldrig</string>
     <string name="always">alltid</string>
-    <string name="main_storage_is_unavailable">Skrivbart minne är ej tillgängligt.</string>
     <string name="unavailable">Ej tillgänglig</string>
     <string name="selected_item_cant_be_played">Det valda objektet kan inte spelas upp.</string>
     <string name="storage_not_accessible">Minne ej tillgängligt.</string>
     <string name="htc_sound_enhancer">HTC Ljudförbättrare</string>
-    <string name="artists_and_album_artists">Artister</string>
     <string name="fade_out_music_details">Sänk till 30% av nuvarande ljudstyrka</string>
     <string name="connection_failed_access_denied">Uppkoppling misslyckades: Saknar behörighet</string>
     <string name="download_album_art_summary">Hitta saknad albumbild medans spåren spelas.</string>
@@ -275,7 +258,6 @@
     <string name="skipped_x_track_unsupporeted_by_receiver">Hoppade över %1$s. Stöds inte av mottagaren.</string>
     <string name="scrobble_dialog_message_x">%1$s kan inte frånkopplas från denna app. Vill du avinstallera den?</string>
     <string name="volume_">Ljudstyrka %1$d</string>
-    <string name="write_settings_touch_sounds_permission_title">Slå av beröringsljud</string>
     <string name="write_settings_touch_sounds_permission_message">För att slå av beröringsljud behöver du ge MediaMonkey tillåtelse att ändra systeminställningar.</string>
     <plurals name="prepparing_album_art_to_remove">
         <item quantity="one">Förbereder för att ta bort albumbild…</item>
@@ -302,7 +284,6 @@
     <string name="items_to_be_uploaded_description">Saker att ladda upp till server</string>
     <string name="confirmation_dialog_description">Bekräfta att det är okej att flytta från denna till servern.</string>
     <string name="search_on_server">Sök på server…</string>
-    <string name="crash_sent_failed">Misslyckades med att sända krasch-rapport.</string>
     <string name="auto_sync_server_content">Synka serverinnehåll</string>
     <string name="auto_sync_playlists_and_new_files_to_the_server">Autosynka spellista och nya filer till servern</string>
     <string name="sync_from_server">Synka från servern</string>
@@ -317,9 +298,7 @@
     <string name="server_connected">Serrver ansluten</string>
     <string name="server_disconnected">Server bortkopplad</string>
     <string name="connecting_to_server">Ansluter till server…</string>
-    <string name="add_server">Lägg till server</string>
     <string name="unselected_copies">Ovalda serverfiler</string>
-    <string name="uploading_sync_setting_failed">Det gick inte att läsa in synkroniseringsinställningar.</string>
     <string name="to_server">Till server</string>
     <string name="from_server">från server</string>
     <string name="prevent_notification_sounds">Förhindra ljudstyrkeändringar</string>
@@ -335,7 +314,6 @@
     <string name="state_show_on_top_level">Visa på hemskärm (toppnivå)</string>
     <string name="disabled">Avslagen</string>
     <string name="conversion_of_file_is_stalling">Konvertering av file %s avstannade, kontrollera tillgängligt utrymme i temporärt filbibliotek på servern.</string>
-    <string name="different_sync_server">Synkroniseringsinställningar</string>
     <string name="verify_paired_files">Kontrollera saknade serverfiler</string>
     <string name="verify_paired_files_description">Kontrollerar om tidigare synkroniserade filer eller spellistor har tagits bort från servern (långsam. Endast aktiv för denna synkronisering).</string>
     <string name="chromecasting_volume">Google TV-ljudstyrkekontroll</string>
@@ -343,19 +321,16 @@
     <string name="get_notified_description">Tillåt aviseringar för bakgrundsprocesser (avslagen)</string>
     <string name="skip_sync_review_description">Hoppa över den här synkroniseringsöversiktssidan innan synkronisering. Slå av för att justera synkroniseringsinställningarna före varje synkronisering.</string>
     <string name="synchronization_terminated">Synkronisering avbruten.</string>
-    <string name="album_total_time_ms">%1$d min %2$d s</string>
     <string name="server_inaccessible_searching">Server ej tillgänglig. Söker…</string>
     <string name="server_not_responding">Server svarar inte</string>
     <string name="connection_failed_hint">Har ingen kontakt med servern (försök att starta om servern och kör konfigurationsguiden för synkronisering igen)</string>
     <string name="media_not_ready_message">Ett oväntat fel inträffade vid autokonvertering av spår.</string>
-    <string name="bluetooth_lockscreen_warning_message">Om förvald Android låsskärmsspelare frånkopplas kommer MediaMonkey inte att fungera korrekt med bluetooth-enheter.</string>
     <string name="wifi_disconnected">Ingen WI-Fi ansluten</string>
     <plurals name="number_composers">
         <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> kompositör</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> kompositörer</item>
     </plurals>
     <string name="common_app_channel_name_description">Albumbild, mediastore, osv. uppdateras</string>
-    <string name="no_albums_found_for_searched_term">Inget album funnet för \"%s\"</string>
     <string name="auto_sync_playlists_and_new_files_to_the_server_and_metadata">Autosynka spellista och nya filer till servern + fil-metadata</string>
     <string name="server_ip_address">Serveradress (IP eller DNS)</string>
     <string name="different_sync_server_message">MediaMonkey är konfigurerat att synka mot en annan server. Vill du använda de nya inställningarna från denna server (existerande inställningar byts ut)?</string>
@@ -385,10 +360,6 @@
     <string name="search_settings_description">Artister, album, spår och video</string>
     <plurals name="removing_album_art_from_tracks">
         <item quantity="one">Tar bort albumbild från spår…</item>
-        <item quantity="other"/>
-    </plurals>
-    <plurals name="removing_album_art_from_albums">
-        <item quantity="one">Tar bort albumbild från album…</item>
         <item quantity="other"/>
     </plurals>
     <string name="grab_to_move">Ta tag i för att omsortera listan</string>
@@ -426,7 +397,6 @@
     <string name="mediamonkey_ringtone_maker_summary">Detta kräver %s tillägg, tillgänglig utan kostnad.</string>
     <string name="install">Installera</string>
     <string name="playlist_name_is_invalid">Spellistnamn är felaktigt!</string>
-    <string name="deleting_">Tar bort…</string>
     <string name="widget_medium22">MediaMonkey Medium 2x2</string>
     <string name="scrobble">Skrobbla</string>
     <string name="scrobble_summary">Spara spelhistorik till last.fm eller andra servicar via en av dessa appar:</string>
@@ -445,7 +415,6 @@
     <string name="logs_details_details">Var god och beskriv problemet och hur det uppkom.</string>
     <string name="logs_info">Debugloggar innehåller bara information relaterad till MediaMonkey funktionalitet: MediaMonkey biblioteksinformation (t.ex. spårnamn, sökvägar, metadata), konfiguration, och användningsdata. Detta används enbart för att förbättra MediaMonkeys mjukvara.</string>
     <string name="logs_email_details">Detta gör att vi kan kontakta dig för att lösa problemet.</string>
-    <string name="please_enter_details">Var god beskriv problemet och vad som fick det att hända.</string>
     <string name="termination_timer_title">Visa i aviseringar</string>
     <string name="track_is_unavailable">Spår ej tillgängligt</string>
     <string name="personalize_home_screen">Anpassa hemskärm</string>
@@ -459,8 +428,6 @@
     <string name="library_folders">Biblioteksmappar</string>
     <string name="confirm_dialog_notification_title">Bekräfta uppdateringar och raderingar?</string>
     <string name="confirm_dialog_notification_message">Klicka för att visa bekräftelsedialog och fortsätt synkronisera…</string>
-    <string name="info">Info</string>
-    <string name="media_monkey_playlist">Spellista</string>
     <string name="scanning_started">Skanning startad…</string>
     <string name="ignore">Ignorera</string>
     <string name="skip">Hoppa över</string>
@@ -478,13 +445,9 @@
     <string name="folder_browser_trial_dialog_title">Filhanteraren</string>
     <string name="lyrics_trial_dialog_title">Slå upp låttext</string>
     <string name="upnp_trial_dialog_title">UPnP/DLNA</string>
-    <string name="wifi_sync_trial_dialog_title">Wi-Fi Synk</string>
-    <string name="lyrics_auto_trial_dialog_title">Slå upp sångtext</string>
     <string name="lyrics_auto_trial_dialog_message">Uppgradera om du vill slå upp sångtexter automatiskt.</string>
     <string name="you_need_to_update_pro_version">Var god uppdatera MediaMonkey Pro till version %1$s eller senare för att låsa upp alla extra funktioner.</string>
     <string name="media_artists">Spårartist</string>
-    <string name="timer_value">%1$2dt %2$2dm %3$2ds</string>
-    <string name="timer_short_value">%1$2dt %2$2dm</string>
     <string name="continue_">Fortsätt</string>
     <string name="preparing_tracks_for_deletion">Förebereder spår för borttagning…</string>
     <string name="preparing_tracks_to_upload">Förbereder spår för uppladdning…</string>
@@ -492,7 +455,6 @@
     <string name="syncing_playlists">Synkroniserar spellista…</string>
     <string name="directory_is_not_included_in_sync_path">Filen måste finnas i biblioteket för att kunna utföra denna åtgärd.</string>
     <string name="scan_the_folder_to_the_library">Skanna mappen och lägg till i biblioteket?</string>
-    <string name="media_monkey_sync">Synkronisering</string>
     <string name="send_me_copy_of_id">Spara en kopia av logg ID:</string>
     <string name="send_me_copy_of_id_details">Dela Logg-ID till epost, SMS, etc. för dina egna anteckningar.</string>
     <string name="scan_library_title">Kontrollera efter nya/ändrade media</string>
@@ -539,24 +501,7 @@
     <string name="voice_search">Röstsökning</string>
     <string name="cant_find_x">Hittar inte \'%1$s\'</string>
     <string name="unknown_error">Okänt fel</string>
-    <string name="scrobble_dialog_title_x">Avinstallera %1$s</string>
     <string name="uninstall">Avinstallera</string>
-    <plurals name="rating_x">
-        <item quantity="one"><xliff:g id="count">%1$.1f</xliff:g> stjärna</item>
-        <item quantity="other"><xliff:g id="count">%1$.1f</xliff:g> stjärnor</item>
-    </plurals>
-    <plurals name="rating_x_plus">
-        <item quantity="one"><xliff:g id="count">%1$.1f</xliff:g> stjärna eller fler</item>
-        <item quantity="other"><xliff:g id="count">%1$.1f</xliff:g> stjärnor eller fler</item>
-    </plurals>
-    <plurals name="rating_d">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> stjärna</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> stjärnor</item>
-    </plurals>
-    <plurals name="rating_d_plus">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> stjärna eller fler</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> stjärnor eller fler</item>
-    </plurals>
     <string name="rating">Betyg</string>
     <string name="proceed">Fortsätt</string>
     <string name="browser_not_found">Hittar ingen webläsare</string>
@@ -565,7 +510,6 @@
     <string name="rate_title">Betygsätt MediaMonkey</string>
     <string name="rate_ok">Betygsätt!</string>
     <string name="rate_later">Inte nu</string>
-    <string name="rate_never">Aldrig</string>
     <string name="grid_view">Visa rutnät</string>
     <string name="list_view">Visa som lista</string>
     <string name="media_monkey_needs_access_to_">MediaMonkey behöver åtkomst till %s.</string>
@@ -663,15 +607,12 @@
     <string name="acra_send_automaticlay_title">Skicka krashloggar automatiskt</string>
     <string name="running_service_resume_on_connection_title">"Återuppta spelning vid uppkoppling   (tjänsten körs)."</string>
     <string name="headset_service_required">Använder en bakgrundsprocess</string>
-    <string name="notification_ms_sync_description">Skanna mappar i biblioteket.</string>
     <string name="notification_background">Bakgrundstjänst</string>
-    <string name="notification_shorcut_updating">Uppdaterar kortkommandon.</string>
     <string name="notification_creating_thumbnails">Skapa nya videoförhandsvisningar.</string>
     <string name="notification_storage_updating_title">Uppdaterar arkivet.</string>
     <string name="preparing_">Förbereder…</string>
     <string name="updating_playback_settings">Uppdaterar uppspelningsinställningar</string>
     <string name="preparing_playback_service">Förebereder uppspelningsfunktion</string>
-    <string name="notification_database_initialization">Databasinitiering</string>
     <string name="remote_list_size_limit_title">Begränsa liststorlek för externa applikationer</string>
     <string name="unlimited">Obegränsad</string>
     <string name="missing_tracks">Saknade spår</string>
@@ -731,7 +672,6 @@
     <string name="register_for_test_builds">Registrera dig för testversioner</string>
     <string name="register_for_test_builds_summary">Få de senaste betauppdateringarna av MediaMonkey.</string>
     <string name="end_wifi_sync_operations_if_power_remains">Avsluta Wi-Fi-synkronisering om mindre än %1d %% batteri återstår.</string>
-    <string name="no_track_query_found">Inget spår %s hittades.</string>
     <string name="folders_added_to_library">Mappar tillagda i biblioteket</string>
     <string name="resume_play_on_connection">Återuppta uppspelning vid anslutning</string>
     <string name="wired_headset">Trådbundna hörlurar</string>
@@ -743,7 +683,6 @@
     <string name="unknown_storage">Okänd lagringsutrymme</string>
     <string name="navigation_drawer_open">Öppna navigeringslådan</string>
     <string name="navigation_drawer_close">Stäng navigeringslådan</string>
-    <string name="currently_playing_song">Spår spelas</string>
     <string name="currently_playing_artist">Artist för pågående spelning</string>
     <string name="years">År</string>
     <string name="series">Serier</string>
@@ -751,7 +690,6 @@
     <string name="rating_down">Sänk betyg</string>
     <string name="unmounted_storages_notification_not_found">Hantera biblioteksmappar för att lägga till eller ta bort sådana?</string>
     <string name="unmounted_storages_notification_title">%s kunde inte hittas på förväntad plats.</string>
-    <string name="device_destination">Enhetsdestination</string>
     <string name="add">Lägg till</string>
     <string name="invalid_url_format">Ogiltigt url-format</string>
     <string name="recreating_tracklist">Återskapar spellista…</string>
@@ -782,12 +720,7 @@
     <string name="download_tracks">Ladda ned spår</string>
     <string name="home_screen">Hemskärm</string>
     <string name="show">Visa</string>
-    <string name="register">Register</string>
-    <string name="report">Rapportera</string>
     <string name="hide">Göm</string>
-    <string name="used_space_MB">%d MB använt</string>
-    <string name="free_space_MB">%d MB ledigt</string>
-    <string name="free_space_GB">%1.1f GB ledigt</string>
     <string name="mounted_storages_notification_description">Skanna för att hitta uppdaterade mediafiler?</string>
     <string name="playback_notification_summary">Visar %s mediaspelare i aviseringar.</string>
     <string name="ui_summary">Teman, aviseringar, anpassningar</string>
@@ -800,19 +733,14 @@
     <string name="track_order">Spårordning</string>
     <string name="done_icon">Klarikon</string>
     <string name="popup_menu">Ballongmeny</string>
-    <string name="crash_before_sending">Sänder kraschrapporter.</string>
-    <string name="crash_sent_succeeded">Kraschrapporter överskickade.</string>
     <string name="getting_desync_media_to_delete">Förbereder fillista att ta bort…</string>
     <string name="casting_to_chromecast">Kastar till chromecast-enhet</string>
     <string name="category">Kategori</string>
     <string name="options">Alternativ</string>
-    <string name="settings2">Inställningar</string>
     <string name="header_icon">Titelikon</string>
     <string name="new_playlist">Ny spellista</string>
-    <string name="create_and_add">Skapa och lägg till</string>
     <string name="add_to">Lägg till till</string>
     <string name="updating_media_store">Uppdaterar mediedatabas</string>
-    <string name="usb_sync">USB-synk</string>
     <string name="usb_sync_description">Kontrollerar om en ny USB-synk behövs.</string>
     <string name="update_playlists_from_other_apps">Uppdatera spellistor från andra appar</string>
     <string name="checking_tasks_to_process">Uppdaterar bibliotek…</string>
@@ -823,24 +751,16 @@
     <string name="no_storage_selected">Lagringsutrymme ej valt</string>
     <string name="storage">Lagringsutrymme</string>
     <string name="return_to_now_playing">Återgå till spelkö</string>
-    <string name="expand_to_full_screen_video_player">Full skärm</string>
     <string name="items_to_be_deleted_description">Objekt som ska tas bort från den här platsen</string>
     <string name="items">Objekt</string>
     <string name="to_delete">att ta bort</string>
     <string name="or">eller</string>
     <string name="to_upload">Att ladda upp</string>
-    <string name="existing">Existerande</string>
-    <string name="no_library_tracks">Inga biblioteksspår</string>
     <string name="open_in_fullscreen">Öppna fullskärm</string>
     <string name="artwork_not_available_search">Leta efter saknade albumbilder?</string>
-    <string name="lyrics_lookup">Slå upp sångtext</string>
-    <string name="artwork_lookup">Slå upp albumbild</string>
-    <string name="no_media_found_for_searched_term">Inga media funna för \"%s\"</string>
     <string name="draggable_configuration_description">Ändra nodordning genom att klicka och dra objekt.</string>
     <string name="visibility_configuration_description">Visa som barn-navigeringsnoder (t.ex. i flikar)</string>
     <string name="root_visibility_configuration_description">Visa som toppnivå-navigeringsnod (t.ex. på hemskärm)</string>
-    <string name="home_screen_preferences">Hemskärm</string>
-    <string name="navigation_preferences">Navigering</string>
     <string name="info_panel">Statusindikator</string>
     <string name="always_expand_during_processing">Visa detaljer för framåtskridande</string>
     <string name="always_expand_during_processing_summary">Expandera alltid för att visa bakgrundsprocessdetaljer.</string>
@@ -868,9 +788,6 @@
     <string name="uploading_sync_setting_for_x">Laddar upp synkroniseringsinställning för %s…</string>
     <string name="searching_cast_devices">Söker efter castenheter…</string>
     <string name="upnp_service_disconnected">Plug-and-play-tjänst frånkopplad</string>
-    <string name="downloading_sync_setting_success">Synkroniseringsinställning nedladdad.</string>
-    <string name="downloading_sync_setting_failed">Nedladdning av synkroniseringsinställning misslyckades.</string>
-    <string name="uploading_sync_setting_success">Synkroniseringsinställningen har laddats upp.</string>
     <string name="idle">Vänteläge</string>
     <string name="no_artists">Inga artister</string>
     <string name="no_series">Inga serier</string>
@@ -885,7 +802,6 @@
     <string name="grant">Bidrag</string>
     <string name="no_subscription">Ingen prenumeration</string>
     <string name="billing_service_disconnected">Faktureringstjänsten är frånkopplad.</string>
-    <string name="copying_settings_files">kopierar inställningsfiler…</string>
     <string name="database_maintenance">Databasunderhåll</string>
     <string name="backup_info_description">Mappen används för USB-synkronisering med äldre versioner av MediaMonkey för Windows.</string>
     <string name="grant_access_to_mediamonkey">Ge åtkomst till MediaMonkey-mappen</string>
@@ -894,7 +810,6 @@
     <string name="partly">Delvis</string>
     <string name="no_content_to_sync">Inget innehåll att synkronisera</string>
     <string name="navigation">Navigering</string>
-    <string name="no_deletion">Ingen</string>
     <string name="notification_and_system_sounds">Aviseringar och systemljud</string>
     <string name="configure_">Ställ in…</string>
     <string name="add_client">Lägg till klient</string>
@@ -915,12 +830,10 @@
     <string name="bidi_content_title">Dubbelriktat innehåll</string>
     <string name="bidi_content_description">"Välj innehåll som ska hållas synkroniserat dubbelriktat "</string>
     <string name="remains">"Återstående: "</string>
-    <string name="missing_folders_info">Mappnamn kopieras automatiskt till klippbordet när du klickar \'SKAPA &amp; TILLÅT\'.</string>
     <string name="tree_permission_missing_folders_description">Välj \'skapa mapp\'-knapp, och enter eller \'klistra in\' det nya mappnamnet (MediaMonkey kopierar mappnamn till klippbordet).</string>
     <string name="moved">Flyttad</string>
     <string name="skip_sync_review">Hoppa över synk-förhandsvisning</string>
     <string name="no_results_found">Inga resultat funna</string>
-    <string name="v3_synchronization">MM5 metadata skanning</string>
     <string name="do_not_ask_again">"Fråga inte igen "</string>
     <string name="filter">Filter</string>
     <string name="original">Original</string>
@@ -929,15 +842,10 @@
     <string name="preferences_were_recovered_from_backup">Inställningar har återställts från backup.</string>
     <string name="removing_sync_destination">Denna mapp är konfigurerad som en synkdestination (på synkservern) och kommer att återskapas vid nästa synkronisering.</string>
     <string name="do_you_want_to_proceed">Vill du fortsätta?</string>
-    <string name="used_space_GB">%1.1f GB använt</string>
     <string name="lookup_and_scrobble_summary">Slå upp metadata, Skrobbla</string>
-    <string name="skip_presync_dialog">Hoppa över val av lagringsyta för synkronisering</string>
-    <string name="skip_presync_dialog_summary">Fråga inte om att välja lagringsytor att synkronisera, innan du synkroniserar (använd befintliga inställningar).</string>
-    <string name="select_storage_to_sync">Välj lagringsytor att synkronisera</string>
     <string name="license_agreement">Licensavtal</string>
     <string name="all_unselected_content">Alla omarkerade filer</string>
     <string name="switch_to_wizard">Växla till guiden</string>
-    <string name="skip_this_step_next_time">Hoppa över det här steget nästa gång</string>
     <string name="device_description_file_path">Enhetsbeskrivningsfilsökväg</string>
     <string name="protocol">Protokoll</string>
     <string name="paste">Klistra in</string>
@@ -970,7 +878,6 @@
     <string name="click_to_upgrade_to_pro_version">Tryck för att uppgradera…</string>
     <string name="select_theme">Välj tema</string>
     <string name="dark_mode">Mörkt läge</string>
-    <string name="dark_mode_summary">Mörkt läge: %s.</string>
     <string name="off">Av</string>
     <string name="on">På</string>
     <string name="auto">Auto (följ system)</string>
