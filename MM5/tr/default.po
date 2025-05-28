@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2024-07-17 16:56\n"
-"PO-Revision-Date: 2025-05-27 19:50+0000\n"
+"PO-Revision-Date: 2025-05-28 20:50+0000\n"
 "Last-Translator: By Burhan 2010 <byburhann2010@gmail.com>\n"
 "Language-Team: Turkish <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/tr/>\n"
@@ -149,7 +149,7 @@ msgstr "Kalite"
 
 #: actions.js:287
 msgid "My Rating"
-msgstr ""
+msgstr "Oy Ver"
 
 #: actions.js:307 actions.js:483
 msgid "Rate unknown"
@@ -225,7 +225,7 @@ msgstr ""
 
 #: actions.js:687
 msgid "Maximize"
-msgstr ""
+msgstr "Maksimum"
 
 #: actions.js:699
 msgid "Minimize"
@@ -233,7 +233,7 @@ msgstr ""
 
 #: actions.js:711 helpers/trayIcon.js:68
 msgid "Restore"
-msgstr ""
+msgstr "Geri Yükle"
 
 #: actions.js:726 dialogs\dlgOptions\pnl_General.html:36
 msgid "Minimize to MicroPlayer"
@@ -296,7 +296,7 @@ msgstr ""
 #: Scripts/artAndDetailsLayout/controls/artWindow_add.js:44
 #: dialogs\dlgTrackProperties\tabArtwork.html:8
 msgid "Lookup image"
-msgstr ""
+msgstr "Kapak seç"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. @ts-ignore
@@ -778,7 +778,7 @@ msgstr ""
 #: Scripts/autoIncTrack/actions_add.js:23
 #: Scripts/syncToFolder/viewHandlers_add.js:7 UpNp.pas:1956
 msgid "Do you want to proceed?"
-msgstr ""
+msgstr "Devam etmek istiyor musunuz?"
 
 #: actions.js:2146
 msgid "Backup is complete."
@@ -790,7 +790,7 @@ msgstr ""
 
 #: actions.js:2166 dialogs\dlgMaintainLibrary.html:34
 msgid "Restore from backup"
-msgstr ""
+msgstr "Yedekten geri yükle"
 
 #: actions.js:2173
 msgid ""
@@ -798,10 +798,13 @@ msgid ""
 "current database and MediaMonkey will be automatically restarted when "
 "finished!"
 msgstr ""
+"Veritabanını %s'den geri yüklemek istediğinizden emin misiniz?\"<br>Bu, "
+"mevcut veritabanını silecek ve MediaMonkey bittiğinde otomatik olarak "
+"yeniden başlatılacaktır!"
 
 #: actions.js:2179
 msgid "Restore FAILED!"
-msgstr ""
+msgstr "Geri Yükleme Başarısız!"
 
 #: actions.js:2195 dialogs\dlgMaintainLibrary.html:35
 msgid "Clear database"
@@ -817,7 +820,7 @@ msgstr ""
 
 #: actions.js:2205
 msgid "Clear FAILED! Old database restored."
-msgstr ""
+msgstr "Temizleme BAŞARISIZ! Eski veritabanı geri yüklendi."
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode', // per #16067
@@ -1023,7 +1026,7 @@ msgstr ""
 
 #: actions.js:2728 dialogs\dlgExtensions.html:20
 msgid "Check for updates"
-msgstr ""
+msgstr "Güncellemeleri kontrol edin"
 
 #: actions.js:2741
 msgid "&About"
@@ -1398,13 +1401,16 @@ msgstr ""
 
 #: actions.js:4166
 msgid "&Level Track volume"
-msgstr ""
+msgstr "&Parça Ses Düzeni"
 
 #: actions.js:4174
 msgid ""
 "Leveling Track volume irreversibly modifies the track. Are you sure you want "
 "to level the volume of the selected Tracks?"
 msgstr ""
+"Parça ses seviyesini dengeleme, parçayı geri döndürülemez şekilde "
+"değiştirir. Seçili Parçaların ses seviyesini dengelemek istediğinizden emin "
+"misiniz?"
 
 #. @ts-ignore
 #: actions.js:4198
@@ -1441,7 +1447,7 @@ msgstr "Sol panel"
 
 #: actions.js:4429 controls\mainTabContent.html:4
 msgid "Media Tree"
-msgstr ""
+msgstr "Medya Ağacı"
 
 #: actions.js:4514 actions.js:4543 maincontent.html:49
 msgid "Right panel"
@@ -1682,7 +1688,7 @@ msgstr "Albüm sırasına göre karışık oynat"
 #. prepared menu item for library reports implemented by scripts
 #: actions.js:5895 Extensions.pas:1667
 msgid "Reports"
-msgstr ""
+msgstr "Raporlar"
 
 #: actions.js:5922
 msgid "&File"
@@ -2019,7 +2025,7 @@ msgstr ""
 #. was fast object, we need to find the correct one
 #: templates.js:2075 dialogs/dlgSearchImage.js:284
 msgid "Show full size"
-msgstr ""
+msgstr "Tam Ekran Göster"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. row node items used e.g. when showing sub-containers + items in "List view" mode (e.g. playlists, folders)
@@ -2110,6 +2116,8 @@ msgstr ""
 #: uitools.js:2549
 msgid "MediaMonkey needs to be restarted to apply the changes"
 msgstr ""
+"Değişikliklerin uygulanması için MediaMonkey'in yeniden başlatılması "
+"gerekiyor"
 
 #: uitools.js:2551 controls/buttons.js:485 ExceptionHandler.pas:292
 #: ExceptionHandler.pas:328 ResStrings.pas:590
@@ -2216,7 +2224,7 @@ msgstr "Basitleştirilmiş liste"
 #: viewHandlers.js:1842 viewHandlers.js:1940 viewHandlers.js:2071
 #: viewHandlers.js:2256
 msgid "Browser"
-msgstr ""
+msgstr "Tarayıcı"
 
 #. onHide: inherited from Tracklist
 #: viewHandlers.js:412
@@ -2315,7 +2323,7 @@ msgstr ""
 
 #: viewHandlers.js:966
 msgid "Collection browser"
-msgstr ""
+msgstr "Koleksiyon tarayıcısı"
 
 #: viewHandlers.js:980
 msgid "Categories"
@@ -2420,7 +2428,7 @@ msgstr "Gerçekten '%s' öğesini taşımak istiyor musunuz?"
 
 #: viewHandlers.js:4171
 msgid "Do you really want to copy '%s'?"
-msgstr ""
+msgstr "Gerçekten '%s'i kopyalamak istiyor musunuz?"
 
 #: viewHandlers.js:4177
 msgid "Copy Library content only"
@@ -3229,7 +3237,7 @@ msgstr ""
 #: controls/buttons.js:495 controls/maskedit.js:52
 #: controls\deviceConfig\syncFromDevice.html:11
 msgid "Browse"
-msgstr ""
+msgstr "Gözat"
 
 #: controls/buttons.js:500
 msgid "Register/Purchase"
@@ -3718,7 +3726,7 @@ msgstr ""
 #. Main context manu of Now Playing view
 #: controls/nowplayingview.js:224
 msgid "Show full window"
-msgstr ""
+msgstr "Tam ekran göster"
 
 #: controls/nowplayingview.js:236
 msgid "Show full screen"
@@ -3726,11 +3734,11 @@ msgstr ""
 
 #: controls/nowplayingview.js:250
 msgid "Cancel full window"
-msgstr ""
+msgstr "Tam ekrandan çık"
 
 #: controls/nowplayingview.js:252
 msgid "Cancel full screen"
-msgstr ""
+msgstr "Tam ekranı kapat"
 
 #: controls/nowplayingview.js:268
 msgid "Choose layout"
@@ -3948,7 +3956,7 @@ msgstr ""
 
 #: controls/searchBar.js:733
 msgid "rating: 4.. | finds matches with 4 stars or more"
-msgstr ""
+msgstr "Değerlendirme: 4.. | 4 veya daha fazla yıldıza sahip eşleşmeleri bulur"
 
 #. #16537
 #: controls/searchEditor.js:591
@@ -4723,7 +4731,7 @@ msgstr ""
 
 #: dialogs/dlgAutotag.js:47
 msgid "Find more results..."
-msgstr ""
+msgstr "Daha fazla sonuç bul..."
 
 #: dialogs/dlgAutotag.js:48
 msgid "Lookup via fingerprint..."
@@ -4868,7 +4876,7 @@ msgstr ""
 
 #: dialogs/dlgDeleteConfirm.js:9
 msgid "Confirmation"
-msgstr ""
+msgstr "Onay"
 
 #: dialogs/dlgDeleteConfirm.js:18
 msgid "Are you sure you want to delete"
@@ -4959,7 +4967,7 @@ msgstr ""
 
 #: dialogs/dlgDeletedTracks.js:63
 msgid "Do you want to remove them from the Library?"
-msgstr ""
+msgstr "Bunları Kütüphaneden kaldırmak istiyor musunuz?"
 
 #: dialogs/dlgDeviceConfig.js:4 helpers/mediaSync.js:2595
 msgid "Sync settings"
@@ -5101,6 +5109,11 @@ msgid ""
 "and accessed via MediaMonkey as if the content were local, as long as the "
 "server is accessible. If not, content can be cached locally."
 msgstr ""
+"Bir %s algılandı. Bu MediaMonkey örneği çalışmıyor olsa bile, kitaplığınızın "
+"bölümlerini birden fazla MediaMonkey istemcisiyle depolamak ve paylaşmak "
+"için kullanılabilir. MediaMonkey Sunucusundaki içerik, sunucu erişilebilir "
+"olduğu sürece, içerik yerelmiş gibi MediaMonkey üzerinden yönetilebilir ve "
+"erişilebilir. Değilse, içerik yerel olarak önbelleğe alınabilir."
 
 #: dialogs/dlgMigrateWizard.js:19
 msgid ""
@@ -5340,7 +5353,7 @@ msgstr "Kısayollar"
 
 #: dialogs/dlgOptions.js:12
 msgid "Confirmations"
-msgstr ""
+msgstr "Onaylamalar"
 
 #: dialogs/dlgOptions.js:25
 msgid "Performance"
@@ -6534,13 +6547,13 @@ msgstr ""
 #: Scripts/exportPlaylists/actions_add.js:63
 #: Scripts/statistics/dialogs/dlgStatistics.js:610
 msgid "Exporting"
-msgstr ""
+msgstr "Dışa aktarma"
 
 # #-#-#-#-#  htmladd.po (MediaMonkey 5.0)  #-#-#-#-#
 # string till 5.0.1 version only
 #: Scripts/exportPlaylists/actions_add.js:2
 msgid "Export all playlists"
-msgstr ""
+msgstr "Tüm oynatma listelerini dışa aktar"
 
 #. Open inifile and get last used directory
 #: Scripts/exportPlaylists/actions_add.js:41
@@ -6549,7 +6562,7 @@ msgstr "Tüm M3U dosyalarının nereye aktarılacağını seçin"
 
 #: Scripts/exportPodcasts/actions_add.js:2
 msgid "Export subscribed podcasts"
-msgstr ""
+msgstr "Abone olunan podcast'leri dışa aktar"
 
 #: Scripts/imageSearch/helpers/searchTools_add.js:248
 msgid ""
@@ -6992,7 +7005,7 @@ msgstr ""
 
 #: DatabaseManage.pas:3174
 msgid "Do you really want to remove %d tracks from Virtual CD?"
-msgstr ""
+msgstr "Gerçekten Sanal CD'den %d parçayı kaldırmak istiyor musunuz?"
 
 #: DatabaseManage.pas:3233
 msgid "Do you really want to remove %d previews?"
@@ -7253,7 +7266,7 @@ msgstr ""
 
 #: ErrHandlers.pas:116
 msgid "File %s is read-only. Do you want to change it?"
-msgstr ""
+msgstr "%s dosyası salt okunurdur. Değiştirmek ister misiniz?"
 
 #: ErrHandlers.pas:130
 msgid "The read-only attribute cannot be removed from the file %s."
@@ -7390,7 +7403,7 @@ msgstr "Geçersiz Eklenti: yalnızca MediaMonkey 4.x için geçerlidir"
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
 #: Extensions.pas:1101 UpNp.pas:11868
 msgid "%s was successfully installed."
-msgstr ""
+msgstr "%s başarıyla yüklendi."
 
 #: Extensions.pas:1106
 msgid "%s was not installed."
@@ -7580,7 +7593,7 @@ msgstr ""
 
 #: FormatsManage.pas:1266
 msgid "File %s was not successfully created."
-msgstr ""
+msgstr "%s Dosya oluşturulmadı."
 
 #. Check whether album gain needs to be calculated:
 #: FormatsManage.pas:1409 FormatsManage.pas:1485
@@ -7593,6 +7606,8 @@ msgid ""
 "There isn't enough free space to convert all files. Please clear space in "
 "the temporary directory"
 msgstr ""
+"Tüm dosyaları dönüştürmek için yeterli boş alan yok. Lütfen geçici dizinde "
+"yer açın"
 
 #: FormatsManage.pas:1449
 msgid "ripping"
@@ -8533,7 +8548,7 @@ msgstr ""
 
 #: Normalization.pas:1928
 msgid "Track volume may be leveled only for MP3 files."
-msgstr ""
+msgstr "Parça ses seviyesi yalnızca MP3 dosyaları için ayarlanabilir."
 
 #: Normalization.pas:1951
 msgid "Calculating leveling coefficients"
@@ -8789,7 +8804,7 @@ msgstr ""
 
 #: ResStrings.pas:383
 msgid "Maximal bitrate"
-msgstr ""
+msgstr "Maksimum bit hızı"
 
 #: ResStrings.pas:384
 msgid "Constant bitrate"
@@ -9245,7 +9260,7 @@ msgstr ""
 
 #: WebUtils.pas:6281
 msgid "MediaMonkey could not check for updates;"
-msgstr ""
+msgstr "MediaMonkey güncellemeleri kontrol edemedi;"
 
 #. JumpList.Tasks.AddShellLink( _('Minimize to MiniPlayer'), '/w7t=gomini', Application.ExeName, 0);
 #: Win7ToolsImpl.pas:2187
@@ -9403,7 +9418,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:38
 msgid "Minimizes to the MiniPlayer"
-msgstr ""
+msgstr "Mini Oynatıcıya küçült"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:15
 msgid "Causes the Hotkey to function even when MediaMonkey isn't in focus"
@@ -9456,7 +9471,7 @@ msgstr ""
 
 #: controls\windowtitle.html:17
 msgid "Restore window"
-msgstr ""
+msgstr "Küçült"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:24
 msgid "Max. resolution"
@@ -9496,11 +9511,11 @@ msgstr "Otomatik olarak sakla"
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid "Allow just one instance of MediaMonkey"
-msgstr ""
+msgstr "MediaMonkey'in yalnızca bir örneğine izin ver"
 
 #: dialogs\dlgOptions\pnl_General.html:25
 msgid "Shows the MediaMonkey icon in the system tray"
-msgstr ""
+msgstr "MediaMonkey simgesini sistem tepsisinde gösterir"
 
 #: dialogs\dlgOptions\pnl_Library.html:127
 msgid "Video properties:"
@@ -9561,10 +9576,12 @@ msgstr ""
 #: dialogs\dlgOptions\pnl_Confirmations.html:9
 msgid "Confirm desired options on removal of files from Playlist"
 msgstr ""
+"Dosyaların Oynatma Listesinden kaldırılmasına ilişkin istenen seçenekleri "
+"onaylayın"
 
 #: dialogs\dlgOptions\pnl_General.html:7
 msgid "Check for updates (when connected)"
-msgstr ""
+msgstr "Bağlandığında güncellemeleri kontrol edin"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
 msgid ""
@@ -9603,7 +9620,7 @@ msgstr ""
 
 #: controls\windowtitle.html:16
 msgid "Maximize window"
-msgstr ""
+msgstr "Büyült"
 
 #: controls\clientConfig\autoConvert.html:2
 msgid "Customize for this device"
@@ -9661,7 +9678,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:27
 msgid "Confirm sync operation when there's not enough space available"
-msgstr ""
+msgstr "Yeterli alan olmadığında senkronizasyon işlemini onaylayın"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:7
 msgid "Active layout"
@@ -9744,7 +9761,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:29
 msgid "Minimization settings:"
-msgstr ""
+msgstr "Küçültme ayarları:"
 
 #: dialogs\dlgOptions\pnl_General.html:43
 msgid ""
@@ -9756,7 +9773,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:32
 msgid "Minimizes to the Taskbar"
-msgstr ""
+msgstr "Görev Çubuğuna Küçültür"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:21
 msgid "Import"
@@ -9912,7 +9929,7 @@ msgstr ""
 
 #: dialogs\dlgMaintainLibrary.html:14
 msgid "Backup and Restore"
-msgstr ""
+msgstr "Yedekleme ve Geri Yükleme"
 
 #: dialogs\dlgPodcastSubscription.html:85
 msgid "Always retain the"
@@ -10154,7 +10171,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:3
 msgid "Confirm desired options on copy of Library folders"
-msgstr ""
+msgstr "Kitaplık klasörlerinin kopyalanmasında istenen seçenekleri onaylayın"
 
 #: dialogs\dlgOptions\pnl_Download.html:19
 msgid "Every hour"
@@ -10251,7 +10268,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:11
 msgid "Saves the change without confirmation."
-msgstr ""
+msgstr "Değişikliği onaylamadan kaydeder."
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:16
 msgid "Fade out"
@@ -10309,11 +10326,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:13
 msgid "Include addons"
-msgstr ""
+msgstr "Eklentileri dahil et"
 
 #: dialogs\dlgOptions\pnl_General.html:33
 msgid "Minimize to taskbar"
-msgstr ""
+msgstr "Görev çubuğuna küçült"
 
 #: dialogs\dlgOptions\pnl_Library.html:65
 msgid ""
@@ -10448,13 +10465,15 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:10
 msgid "Also checks for new beta builds."
-msgstr ""
+msgstr "Ayrıca yeni beta sürümlerini de kontrol eder."
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid ""
 "This option forces a maximum of one MediaMonkey window to be open at any "
 "time."
 msgstr ""
+"Bu seçenek, herhangi bir anda en fazla bir MediaMonkey penceresinin açık "
+"olmasını sağlar."
 
 #: dialogs\dlgOptions\pnl_Library.html:94
 msgid "Inferred properties then tags"
@@ -10496,6 +10515,10 @@ msgid ""
 "added files to your library. The main use of this is if you wish to export "
 "playlists of newly added files to a portable device."
 msgstr ""
+"Bu seçenek, kitaplığınıza yeni eklenen dosyaların çalma listelerini otomatik "
+"olarak oluşturmak istiyorsanız kullanışlıdır. Bunun temel kullanımı, yeni "
+"eklenen dosyaların çalma listelerini taşınabilir bir aygıta aktarmak "
+"istemenizdir."
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:55
 msgid "Create playlists of tracks newly added to the library"
@@ -10538,7 +10561,7 @@ msgstr ""
 
 #: dialogs\dlgExtensions.html:20
 msgid "Install addon from file"
-msgstr ""
+msgstr "Eklentiyi dosyadan yükle"
 
 #: dialogs\dlgMP3Settings.html:95
 msgid "Strict ISO compliance"
@@ -10554,7 +10577,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:6
 msgid "Confirm desired options on move of Library folders"
-msgstr ""
+msgstr "Kitaplık klasörlerinin taşınmasında istenilen seçenekleri onaylayın"
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:9
 msgid "Download more DSP plug-ins..."
@@ -10641,11 +10664,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:19
 msgid "Show splash screen at startup"
-msgstr ""
+msgstr "Başlangıçta açılış ekranını göster"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:19
 msgid "Available elements"
-msgstr ""
+msgstr "Mevcut öğeler"
 
 #: dialogs\dlgOptions\pnl_Library.html:106
 msgid "Filenames + Path"
@@ -10689,6 +10712,8 @@ msgid ""
 "If enabled, a warning is provided whenever duplicate files are added to a "
 "playlist."
 msgstr ""
+"Etkinleştirilirse, bir çalma listesine yinelenen dosyalar eklendiğinde bir "
+"uyarı verir."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:56
 msgid "Clipping prevention"
@@ -10700,7 +10725,7 @@ msgstr "Alt panel"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:7
 msgid "Export settings"
-msgstr ""
+msgstr "Ayarları dışa aktar"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:23
 msgid "Force relative paths"
@@ -10815,7 +10840,7 @@ msgstr ""
 
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid "Show confirmation dialog"
-msgstr ""
+msgstr "Onay iletişim kutusunu göster"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:30
 msgid "Force files to resync whenever the source file has changed (slower)"
@@ -10845,11 +10870,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:18
 msgid "Confirm rename operations that exceed 64 character CD limit"
-msgstr ""
+msgstr "64 karakter CD sınırını aşan yeniden adlandırma işlemlerini onaylayın"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:24
 msgid "Confirm modifications to more than 50 files at once"
-msgstr ""
+msgstr "Aynı anda 50'den fazla dosyada değişiklikleri onaylayın"
 
 #: dialogs\dlgOptions\pnl_Library.html:69
 msgid ""
@@ -10952,12 +10977,13 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:25
 msgid "Always show tray icon"
-msgstr ""
+msgstr "Her zaman tepsi simgesini göster"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:12
 msgid ""
 "Drag available elements to a panel to be displayed, or to re-order them."
 msgstr ""
+"Mevcut öğeleri görüntülenecek veya yeniden sıralanacak bir panele sürükleyin."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:7
 msgid "Artist images"
@@ -11125,7 +11151,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:21
 msgid "Confirm scan results"
-msgstr ""
+msgstr "Tarama sonuçlarını onayla"
 
 #: dialogs\dlgOptions\pnl_Download.html:17
 msgid "Check for new episodes:"
@@ -11141,7 +11167,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:44
 msgid "Close to tray"
-msgstr ""
+msgstr "Tepsiye yakın"
 
 #: dialogs\dlgOptions\pnl_Library.html:121
 msgid "Tags only"
@@ -11494,7 +11520,7 @@ msgstr ""
 
 #: dialogs\dlgExtensions.html:20
 msgid "Find more addons"
-msgstr ""
+msgstr "Daha fazla eklenti bul"
 
 #: dialogs\videoConvSettings.html:102
 msgid "Preserve aspect ratio"
@@ -11515,10 +11541,12 @@ msgid ""
 "If enabled, MediaMonkey will check (over the internet) whether a newer "
 "version exists."
 msgstr ""
+"Etkinleştirildiğinde, MediaMonkey (internet üzerinden) daha yeni bir sürümün "
+"mevcut olup olmadığını kontrol edecektir."
 
 #: dialogs\dlgOptions\pnl_General.html:13
 msgid "Also checks for addon updates."
-msgstr ""
+msgstr "Ayrıca eklenti güncellemelerini de kontrol eder."
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:54
 msgid "Auto-tagging"
@@ -11553,7 +11581,7 @@ msgstr ""
 
 #: controls\windowtitle.html:18
 msgid "Close window"
-msgstr ""
+msgstr "Pencereyi kapat"
 
 #: controls\deviceConfig\syncToDevice.html:29
 msgid "Keep this content locally cached"
@@ -11648,6 +11676,10 @@ msgid ""
 "number of tracks analyzed does not affect volume analysis results, there is "
 "little reason to disable this function."
 msgstr ""
+"Bu seçenek, Ses Analizi komutunun yalnızca henüz bir ses katsayısı "
+"hesaplanmamış parçalara uygulanmasını sağlar. Analiz edilen parça sayısının "
+"ses analizi sonuçlarını etkilemediğinden, bu işlevi devre dışı bırakmanın "
+"pek bir nedeni yok."
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:69
 msgid "When analyzing Track volume, also analyze Album volume"
@@ -11659,7 +11691,7 @@ msgstr ""
 
 #: maincontent.html:42
 msgid "Top panel"
-msgstr ""
+msgstr "Üst panel"
 
 #: controls\mainTabContent.html:25
 msgid "Main panel (bottom)"
@@ -11724,6 +11756,7 @@ msgstr "Hangi dosyaların güncelleneceğini seçin"
 msgid ""
 "Shows a confirmation dialog with a list of the files that will be affected"
 msgstr ""
+"Etkilenecek dosyaların listesini içeren bir onay iletişim kutusu gösterir"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:10
 msgid "Remove artwork from tags if larger than:"
@@ -11923,7 +11956,7 @@ msgstr ""
 
 #: dialogs\dlgOGGSettings.html:43
 msgid "Limit maximal bitrate"
-msgstr ""
+msgstr "Maksimum bit hızını sınırla"
 
 #: dialogs\videoConvSettings.html:49
 msgid "large"
@@ -11935,7 +11968,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:3
 msgid "Interface language:"
-msgstr ""
+msgstr "Arayüz dili seç:"
 
 #: dialogs\dlgOptions\pnl_General.html:16
 msgid "Submit anonymous usage statistics to help improve the software"
@@ -11987,7 +12020,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:47
 msgid "Temporary directory:"
-msgstr ""
+msgstr "Geçici dizin:"
 
 #: dialogs\dlgOptions\pnl_Library.html:150
 msgid ".nfo files, Path and Filenames"
@@ -12058,7 +12091,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_General.html:10
 msgid "Include beta builds"
-msgstr ""
+msgstr "Beta sürümlerini dahil et"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:14
 msgid "Type the key combination to activate the selected action"
@@ -12156,6 +12189,8 @@ msgstr ""
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the 'Playing' list"
 msgstr ""
+"Dosyaların 'Oynatma' listesinden kaldırılmasına ilişkin istenen seçenekleri "
+"onaylayın"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -12243,7 +12278,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:15
 msgid "Confirm deletion of currently playing file"
-msgstr ""
+msgstr "Şu anda oynatılan dosyanın silinmesini onaylayın"
 
 #: dialogs\dlgOptions\pnl_Library.html:59
 msgid "Seconds"
@@ -12257,7 +12292,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:17
 msgid "Maximum cache size"
-msgstr ""
+msgstr "Maksimum önbellek boyutu"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:3
 msgid "Secure Party Mode with password:"
@@ -12501,7 +12536,7 @@ msgstr ""
 #. prepared menu item for reports implemented by scripts
 #: actions.js:5474
 msgid "Create reports"
-msgstr ""
+msgstr "Raporlar oluşturun"
 
 # string till 5.0.1 version only
 #: Scripts/export/actions_add.js:31
@@ -12771,10 +12806,16 @@ msgid ""
 "Playing list, remove them from the Playing list and the Library, or delete "
 "them from the Playing list, the Library, and the computer system."
 msgstr ""
+"Etkinleştirildiğinde, MediaMonkey size parçaları Çalma listesinden "
+"kaldırmak, Çalma listesinden ve Kitaplıktan kaldırmak veya Çalma "
+"listesinden, Kitaplıktan ve bilgisayar sisteminden silmek isteyip "
+"istemediğinizi soracaktır."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the Playing list"
 msgstr ""
+"Dosyaların Oynatma listesinden kaldırılmasına ilişkin istenen seçenekleri "
+"onaylayın"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
 msgid "Sync all Artwork to file folders"
@@ -12793,6 +12834,10 @@ msgid ""
 "'Minimize to MiniPlayer', displays 'Playing list' files even when the main "
 "application is minimized."
 msgstr ""
+"Varsayılan olarak, MediaMonkey görev çubuğuna küçültülür. 'MicroPlayer'a "
+"Küçült', küçültüldüğünde Sistem tepsisinin yanında bir araç çubuğu olarak "
+"görünmesini sağlar. 'MiniPlayer'a Küçült', ana uygulama küçültüldüğünde bile "
+"'Çalınan liste' dosyalarını görüntüler."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in Playing list"
@@ -12821,7 +12866,7 @@ msgstr ""
 
 #: actions.js:2170
 msgid "This will restore the database from a backup."
-msgstr ""
+msgstr "Bu, veritabanını bir yedekten geri yükleyecektir."
 
 # #-#-#-#-#  htmladd.po (MediaMonkey 5.0)  #-#-#-#-#
 #  Add list.
