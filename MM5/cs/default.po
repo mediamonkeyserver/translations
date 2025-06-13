@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-29 13:24\n"
+"POT-Creation-Date: 2025-06-13 08:51\n"
 "PO-Revision-Date: 2025-05-30 11:50+0000\n"
 "Last-Translator: Michal Pilař <michal@mediamonkey.com>\n"
 "Language-Team: Czech <http://translations.mediamonkey.com/projects/"
@@ -56,7 +56,7 @@ msgstr "Exportovat"
 msgid "Window"
 msgstr "Okno"
 
-#: actions.js:43 viewHandlers.js:7166 controls/trackListView.js:37
+#: actions.js:43 viewHandlers.js:7170 controls/trackListView.js:37
 #: dialogs/dlgTrackProperties.js:22 UPnPTreeHelper.pas:1922
 msgid "Classification"
 msgstr "Klasifikace"
@@ -110,24 +110,26 @@ msgstr "Přidat záložku"
 msgid "Edit Collection"
 msgstr "Upravit kolekci"
 
-#: actions.js:96 dialogs/dlgOptions/pnl_MediaTree.js:216
-#: dialogs/dlgOptions/pnl_MediaTree.js:248
+#: actions.js:96 dialogs/dlgOptions/pnl_MediaTree.js:225
+#: dialogs/dlgOptions/pnl_MediaTree.js:257
 #: dialogs/dlgOptions/pnl_Performance.js:29
 #: dialogs/dlgOptions/pnl_VolumeLeveling.js:17
 msgid "Please upgrade to MediaMonkey Gold for this feature!"
 msgstr "Zakupte prosím MediaMonkey Gold pro tuto funkcionalitu!"
 
 #: actions.js:135
-msgid "Enter registration key for MediaMonkey Gold"
-msgstr "Zadejte registrační klíč pro MediaMonkey Gold"
+#, fuzzy
+#| msgid "Register MediaMonkey Gold"
+msgid "Register MediaMonkey Gold license"
+msgstr "Registrovat MediaMonkey Gold"
 
-#: actions.js:150 viewHandlers.js:7109 controls/trackListView.js:1009
+#: actions.js:150 viewHandlers.js:7113 controls/trackListView.js:1009
 #: MaskHelper.pas:3160 ResStrings.pas:465 ResStrings.pas:523
 #: UPnPTreeHelper.pas:1924 dialogs\dlgTrackProperties\tabClassification.html:15
 msgid "Mood"
 msgstr "Nálada"
 
-#: actions.js:194 viewHandlers.js:7128 controls/trackListView.js:1027
+#: actions.js:194 viewHandlers.js:7132 controls/trackListView.js:1027
 #: MaskHelper.pas:3161 ResStrings.pas:466 ResStrings.pas:524
 #: UPnPTreeHelper.pas:1925 dialogs\dlgTrackProperties\tabClassification.html:24
 msgid "Occasion"
@@ -135,13 +137,13 @@ msgstr "Příležitost"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. 1500 ms (as 'commonChange' is called every 1000 ms during scan/edits)
-#: actions.js:225 viewHandlers.js:7090 controls/trackListView.js:991
+#: actions.js:225 viewHandlers.js:7094 controls/trackListView.js:991
 #: MaskHelper.pas:3159 ResStrings.pas:467 ResStrings.pas:525
 #: UPnPTreeHelper.pas:1923 dialogs\dlgTrackProperties\tabClassification.html:6
 msgid "Tempo"
 msgstr "Tempo"
 
-#: actions.js:256 viewHandlers.js:7147 controls/trackListView.js:1045
+#: actions.js:256 viewHandlers.js:7151 controls/trackListView.js:1045
 #: FormatsHandler.pas:3028 FormatsHandler.pas:3047 MaskHelper.pas:3162
 #: ResStrings.pas:376 ResStrings.pas:430 ResStrings.pas:480 ResStrings.pas:534
 #: dialogs\dlgOGGSettings.html:22
@@ -245,7 +247,7 @@ msgstr "Minimalizovat do Mikropřehrávače"
 msgid "Toggle"
 msgstr "Přepnout"
 
-#: actions.js:773 HTMLWindow.pas:13733
+#: actions.js:773 HTMLWindow.pas:12933
 msgid "MicroPlayer"
 msgstr "Mikropřehrávač"
 
@@ -335,14 +337,14 @@ msgid "Unpin it"
 msgstr "Odendat"
 
 #. ask where to save
-#: actions.js:1074 PlaylistManage.pas:4350
+#: actions.js:1074 PlaylistManage.pas:4354
 msgid "Save playlist"
 msgstr "Uložit playlist"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16261 - to be the first in the list after creation
 #. #16261 - to be the first in the list after creation
-#: actions.js:1094 actions.js:7158 actions.js:7186
+#: actions.js:1094 actions.js:7158 actions.js:7188
 #: dialogs\dlgSelectPlaylist.html:11
 msgid "New playlist"
 msgstr "Nový playlist"
@@ -464,7 +466,7 @@ msgstr "Jít na uzel %s"
 #. @ts-ignore
 #. @ts-ignore // LS: is the loadedText below used somewhere ?
 #: actions.js:1531 viewHandlers.js:1271 viewHandlers.js:1353
-#: viewHandlers.js:2071 viewHandlers.js:5809 controls/artistAlbums.js:58
+#: viewHandlers.js:2071 viewHandlers.js:5813 controls/artistAlbums.js:58
 #: controls/genreAlbums.js:117 controls/genreAlbums.js:137
 #: controls/searchView.js:44 controls/yearAlbums.js:92
 #: controls/yearAlbums.js:108 Scripts/deezer/viewHandlers_add.js:41
@@ -480,11 +482,11 @@ msgstr "Alba"
 #. request for Albums of an Artist
 #. per #14747 conclusion
 #: actions.js:1551 viewHandlers.js:1293 viewHandlers.js:2060
-#: viewHandlers.js:6419 viewHandlers.js:6422 controls/genreArtists.js:203
+#: viewHandlers.js:6423 viewHandlers.js:6426 controls/genreArtists.js:203
 #: controls/genreArtists.js:226 controls/searchView.js:8
 #: controls/yearArtists.js:159 controls/yearArtists.js:178
 #: Scripts/deezer/viewHandlers_add.js:3
-#: Scripts/statistics/dialogs/dlgStatistics.js:173 UpNp.pas:6433 UpNp.pas:6438
+#: Scripts/statistics/dialogs/dlgStatistics.js:173 UpNp.pas:6448 UpNp.pas:6453
 #: UPnPTreeHelper.pas:1887 UPnPTreeHelper.pas:1888 controls\homeView.html:7
 msgid "Artists"
 msgstr "Interpreti"
@@ -493,7 +495,7 @@ msgstr "Interpreti"
 #. we need to handle move before we actually process drop because of IdPlaylistSong change
 #. baceuse of playlists names like <MM>
 #: actions.js:1571 viewHandlers.js:780 viewHandlers.js:799 viewHandlers.js:814
-#: viewHandlers.js:3999 viewHandlers.js:5357 viewHandlers.js:7640
+#: viewHandlers.js:3999 viewHandlers.js:5361 viewHandlers.js:7644
 #: controls/searchView.js:287 controls/deviceConfig/options.js:17
 #: controls/deviceConfig/syncToDevice.js:324 dialogs/dlgEditView.js:618
 #: Scripts/statistics/dialogs/dlgStatistics.js:177 AutoOrganize.pas:1635
@@ -502,7 +504,7 @@ msgstr "Interpreti"
 msgid "Playlists"
 msgstr "Playlisty"
 
-#: actions.js:1581 viewHandlers.js:7856
+#: actions.js:1581 viewHandlers.js:7860
 #: controls\audiobookCollectionView.html:18
 msgid "Pinned"
 msgstr "Připnuto"
@@ -516,7 +518,7 @@ msgstr "Připnuto"
 #. don't save
 #. width: 24, // defined by icon style, this would soemtimes cause #20508
 #: actions.js:1591 templates.js:1281 templates.js:1325 templates.js:1363
-#: uitools.js:1388 uitools.js:2486 viewHandlers.js:6355
+#: uitools.js:1388 uitools.js:2486 viewHandlers.js:6359
 #: controls/downloadView.js:109 controls/player.js:825
 #: controls/trackListView.js:107 dialogs/dlgAutotag.js:2136
 #: dialogs/dlgDeletedTracks.js:85 dialogs/dlgOptions/pnl_Layouts.js:162
@@ -535,7 +537,7 @@ msgstr "Název"
 #. this field should not be used for whole album, specific for each track
 #. don't save
 #: actions.js:1609 templates.js:1295 templates.js:1343 templates.js:1374
-#: uitools.js:1412 viewHandlers.js:8600 controls/albumlistView.js:602
+#: uitools.js:1412 viewHandlers.js:8604 controls/albumlistView.js:602
 #: controls/albumViewHeader.js:104 controls/albumViewHeader.js:106
 #: controls/downloadView.js:118 controls/player.js:842 controls/sortBy.js:10
 #: controls/trackListView.js:182 dialogs/dlgArtworkDetail.js:12
@@ -547,7 +549,7 @@ msgstr "Název"
 #: layouts/Touch/templates_add.js:33
 #: Scripts/statistics/dialogs/dlgStatistics.js:405
 #: Scripts/statistics/dialogs/dlgStatistics.js:436 Devices.pas:2069
-#: MaskHelper.pas:3137 MediaMonkeyApp.pas:8821 QueryManage.pas:3047
+#: MaskHelper.pas:3137 MediaMonkeyApp.pas:8831 QueryManage.pas:3047
 #: QueryManage.pas:3055 QueryManage.pas:3062 ResStrings.pas:422
 #: ResStrings.pas:435 ResStrings.pas:511
 #: dialogs\dlgTrackProperties\tabBasic.html:93
@@ -557,7 +559,7 @@ msgstr "Album"
 #. this field should not be used for whole album, specific for each track
 #. don't save
 #: actions.js:1627 templates.js:1288 templates.js:1335 templates.js:1368
-#: uitools.js:1440 viewHandlers.js:8694 controls/artistViewHeader.js:59
+#: uitools.js:1440 viewHandlers.js:8698 controls/artistViewHeader.js:59
 #: controls/artistViewHeader.js:61 controls/downloadView.js:127
 #: controls/player.js:832 controls/trackListView.js:158
 #: dialogs/dlgAutotag.js:2194 dialogs/dlgDeletedTracks.js:94
@@ -579,8 +581,8 @@ msgstr "Interpret"
 #: actions.js:1645 uitools.js:1470 controls/albumlistView.js:609
 #: controls/sortBy.js:24 controls/trackListView.js:791
 #: dialogs/dlgArtworkDetail.js:13 dialogs/dlgAutotag.js:2273
-#: MaskHelper.pas:3136 ResStrings.pas:436 ResStrings.pas:510 UpNp.pas:6122
-#: UpNp.pas:6123
+#: MaskHelper.pas:3136 ResStrings.pas:436 ResStrings.pas:510 UpNp.pas:6137
+#: UpNp.pas:6138
 msgid "Album Artist"
 msgstr "Interpret alba"
 
@@ -641,8 +643,8 @@ msgstr "Režisér"
 #: Scripts/musicBrainz/helpers/genreDataSource.js:25
 #: Scripts/statistics/dialogs/dlgStatistics.js:466
 #: Scripts/statistics/dialogs/dlgStatistics.js:493 MaskHelper.pas:3138
-#: ResStrings.pas:425 ResStrings.pas:441 ResStrings.pas:513 UpNp.pas:6431
-#: UpNp.pas:6444
+#: ResStrings.pas:425 ResStrings.pas:441 ResStrings.pas:513 UpNp.pas:6446
+#: UpNp.pas:6459
 msgid "Genre"
 msgstr "Žánr"
 
@@ -660,7 +662,7 @@ msgstr "Rok"
 #. this field should not be used for whole album, specific for each track
 #: actions.js:1807 actions.js:1825 actions.js:1843 uitools.js:1598
 #: uitools.js:1613 uitools.js:1628 controls/trackListView.js:226
-#: MaskHelper.pas:3144 MediaMonkeyApp.pas:7669 ResStrings.pas:537
+#: MaskHelper.pas:3144 MediaMonkeyApp.pas:7679 ResStrings.pas:537
 msgid "Folder"
 msgstr "Složka"
 
@@ -673,7 +675,7 @@ msgstr "Knihovna"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not process updateValues() when just setting up the source
 #. The first line will show 'All' items
-#: actions.js:1825 actions.js:3548 uitools.js:1613 viewHandlers.js:8367
+#: actions.js:1825 actions.js:3548 uitools.js:1613 viewHandlers.js:8371
 #: controls/buttons.js:434 controls/deviceContentSequencer.js:17
 #: controls/tracklistFilter.js:676 controls/deviceConfig/syncToDevice.js:322
 #: controls/deviceConfig/syncToDevice.js:324 dialogs/dlgExtensions.js:49
@@ -771,8 +773,8 @@ msgstr "Správa databáze"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to refresh the view after DB maintenance (mainly for 'Rebuild Database' option)
 #: actions.js:2133 actions.js:2144 DatabaseManage.pas:5450
-#: MediaMonkeyApp.pas:9868 MediaMonkeyApp.pas:9887 MediaMonkeyApp.pas:9899
-#: dialogs\dlgMaintainLibrary.html:33
+#: MediaMonkeyApp.pas:9887 MediaMonkeyApp.pas:9902 MediaMonkeyApp.pas:9922
+#: MediaMonkeyApp.pas:9934 dialogs\dlgMaintainLibrary.html:33
 msgid "Backup"
 msgstr "Záloha"
 
@@ -781,7 +783,7 @@ msgid "This will create a backup of the current database"
 msgstr "Vytvoří zálohu aktuální databáze"
 
 #: actions.js:2138 actions.js:2200 actions.js:2582 uitools.js:2559
-#: dialogs/dlgOptions/pnl_MediaTree.js:197
+#: dialogs/dlgOptions/pnl_MediaTree.js:206
 #: dialogs/dlgTrackProperties/tabArtwork.js:211
 #: Scripts/autoIncTrack/actions_add.js:23
 #: Scripts/syncToFolder/viewHandlers_add.js:7 UpNp.pas:1958
@@ -934,7 +936,7 @@ msgstr "Přidat server médií ručně"
 msgid "If a media server isn't found automatically, you can add one manually."
 msgstr "Není-li mediální server nalezen automaticky, můžete jej přidat ručně."
 
-#: actions.js:2547 UpNp.pas:10436 controls\devicesView.html:35
+#: actions.js:2547 UpNp.pas:10451 controls\devicesView.html:35
 msgid "Device Description file path:"
 msgstr "Cesta k souboru popisu zařízení:"
 
@@ -993,8 +995,8 @@ msgstr ""
 msgid "Remote access to %s cannot be auto-configured via UPnP/NAT-PMP"
 msgstr "Vzdálený přístup k %s nelze automaticky konfigurovat přes UPnP/NAT-PMP"
 
-#: actions.js:2594 helpers/mediaSync.js:393 BaseApp.pas:7593 CDUtils.pas:1483
-#: RegManage.pas:566 WebUtils.pas:6379
+#: actions.js:2594 helpers/mediaSync.js:393 BaseApp.pas:7553 CDUtils.pas:1483
+#: RegManage.pas:705 WebUtils.pas:6379
 msgid "There is a problem with your internet connection."
 msgstr "Nastal problém s internetovým připojením."
 
@@ -1072,7 +1074,7 @@ msgstr "Odeslat záznamy o selhání automaticky"
 #. this is DLNA link to lyrics file, load it
 #: actions.js:2838 viewHandlers.js:2514 viewHandlers.js:4542
 #: controls/mainTabContent.js:254 controls/trackListView.js:1097
-#: BaseMedia.pas:16114 BaseMedia.pas:16756 Filters.pas:2767 Filters.pas:2825
+#: BaseMedia.pas:16114 BaseMedia.pas:16757 Filters.pas:2767 Filters.pas:2825
 #: PodcastManage.pas:954
 msgid "Loading"
 msgstr "Načítání"
@@ -1124,7 +1126,7 @@ msgstr "&Možnosti"
 msgid "Layout"
 msgstr "Rozvržení"
 
-#: actions.js:3139 dialogs/dlgExtensions.js:10 MediaMonkeyApp.pas:9899
+#: actions.js:3139 dialogs/dlgExtensions.js:10 MediaMonkeyApp.pas:9934
 #: dialogs\dlgMaintainLibrary.html:31
 msgid "Addons"
 msgstr "Doplňky"
@@ -1133,7 +1135,7 @@ msgstr "Doplňky"
 #. prepare object for menu generation functions
 #: actions.js:3151 actions.js:3168 actions.js:3171 actions.js:3188
 #: actions.js:3191 actions.js:6306 controls/trackListView.js:1892
-#: MediaMonkeyApp.pas:9286 dialogs\dlgOptions\pnl_OSIntegration.html:8
+#: MediaMonkeyApp.pas:9296 dialogs\dlgOptions\pnl_OSIntegration.html:8
 msgid "Play now"
 msgstr "Přehraj teď"
 
@@ -1154,13 +1156,13 @@ msgstr "Zařaď vmíchaně"
 
 #: actions.js:3225 actions.js:3242 actions.js:3245 actions.js:3262
 #: actions.js:3265 actions.js:6321 controls/trackListView.js:1907
-#: MediaMonkeyApp.pas:9287 dialogs\dlgOptions\pnl_OSIntegration.html:9
+#: MediaMonkeyApp.pas:9297 dialogs\dlgOptions\pnl_OSIntegration.html:9
 msgid "Queue next"
 msgstr "Zařaď jako další"
 
 #: actions.js:3282 actions.js:3296 actions.js:3299 actions.js:3313
 #: actions.js:3316 actions.js:6355 controls/trackListView.js:1941
-#: MediaMonkeyApp.pas:9288 dialogs\dlgOptions\pnl_OSIntegration.html:10
+#: MediaMonkeyApp.pas:9298 dialogs\dlgOptions\pnl_OSIntegration.html:10
 msgid "Queue last"
 msgstr "Zařaď jako poslední"
 
@@ -1337,8 +1339,8 @@ msgstr "Zrušit výběr"
 msgid "New tab"
 msgstr "Nová záložka"
 
-#: actions.js:3942 actions.js:3972 actions.js:7142 actions.js:7172
-#: actions.js:7186
+#: actions.js:3942 actions.js:3972 actions.js:7142 actions.js:7173
+#: actions.js:7188
 msgid "Send to"
 msgstr "Odeslat do"
 
@@ -1370,7 +1372,7 @@ msgstr "Složka (Kon&vertovat)"
 #. online mode only for online source track
 #. result.add( _('Image')); // disabled in course of #20683
 #: actions.js:4094 uitools.js:1584 helpers/autoDJ.js:25 Devices.pas:2059
-#: Devices.pas:13624 Devices.pas:16074 FormatsManage.pas:5544
+#: Devices.pas:13624 Devices.pas:16075 FormatsManage.pas:5544
 #: FormatsManage.pas:5576 FormatsManage.pas:5586 MaskHelper.pas:3134
 #: QueryManage.pas:4815 ResStrings.pas:536
 msgid "Playlist"
@@ -1471,7 +1473,7 @@ msgstr "Slova"
 #. it is a list
 #. we want to always save lyrics when clicked manually by user
 #. swap the selected part and order part for X seconds per suggestion in #19285
-#: actions.js:4629 viewHandlers.js:7953 controls/artWindow.js:2079
+#: actions.js:4629 viewHandlers.js:7957 controls/artWindow.js:2079
 #: controls/nowplayingList.js:255 controls/playingListContainer.js:117
 #: controls/statusbar.js:131 controls/statusbar.js:134
 #: dialogs/dlgEditView.js:609
@@ -1646,7 +1648,7 @@ msgstr "Vybrat soubor titulků"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. rejected - closed by cancel
-#: actions.js:5391 viewHandlers.js:5593 dialogs\dlgSpeedPitch.html:11
+#: actions.js:5391 viewHandlers.js:5597 dialogs\dlgSpeedPitch.html:11
 msgid "Enable"
 msgstr "Zapnout"
 
@@ -1696,7 +1698,7 @@ msgstr "Reporty"
 msgid "&File"
 msgstr "&Soubor"
 
-#: actions.js:5995 viewHandlers.js:5458 controls/searchView.js:318
+#: actions.js:5995 viewHandlers.js:5462 controls/searchView.js:318
 #: dialogs/dlgOptions.js:119 DBStructure.pas:2060 GlobVars.pas:2085
 #: UPnPTreeHelper.pas:1896
 #: controls\deviceConfig\options\pnl_FileLocations.html:33
@@ -1767,11 +1769,11 @@ msgstr "Kopírovat do"
 msgid "Convert to"
 msgstr "Konvertuj do"
 
-#: actions.js:7271
+#: actions.js:7275
 msgid "No tracks found"
 msgstr "Nebyly nalezeny žádné skladby"
 
-#: actions.js:7285
+#: actions.js:7289
 msgid ""
 "This will update the tags of the selected files so that they match your "
 "Library. Are you sure you want to proceed?"
@@ -1779,7 +1781,7 @@ msgstr ""
 "Tato funkce upraví tagy označených souborů tak, aby odpovídaly Vaší "
 "knihovně. Chcete pokračovat?"
 
-#: actions.js:7288
+#: actions.js:7292
 msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
@@ -1809,14 +1811,14 @@ msgstr "Prosím, restartujte MediaMonkey k dokončení instalace."
 #. It seems to be an OPML directory
 #. - In this case we may don't know exact PubDate, but we know another info:
 #: mmstub.js:1653 uitools.js:1564 uitools.js:2625 utils.js:67
-#: viewHandlers.js:6383 viewHandlers.js:6559 viewHandlers.js:6702
+#: viewHandlers.js:6387 viewHandlers.js:6563 viewHandlers.js:6706
 #: controls/rating.js:93 controls/yearViewHeader.js:69
 #: dialogs/dlgMediaProperties.js:5 dialogs/dlgTrackProperties/tabDetails.js:63
 #: helpers/autoTagFramework.js:268 ArtistsManage.pas:1284
 #: ArtistsManage.pas:3449 ArtistsManage.pas:3692 BaseMedia.pas:5032
-#: BaseMedia.pas:16357 BaseMedia.pas:18138 BaseMedia.pas:18144 Filters.pas:3523
+#: BaseMedia.pas:16357 BaseMedia.pas:18143 BaseMedia.pas:18149 Filters.pas:3523
 #: PodcastManage.pas:1005 PodcastManage.pas:1337 PodcastManage.pas:2829
-#: ResStrings.pas:363 UpNp.pas:11055
+#: ResStrings.pas:363 UpNp.pas:11070
 msgid "Unknown"
 msgstr "Neznámý"
 
@@ -1961,7 +1963,8 @@ msgstr "Otevřít odkaz na nové záložce"
 #. due to a bug from MM4
 #. cannot use margin, Chromium then renders header incorrectly
 #: templates.js:582 controls/artWindow.js:1849 controls/artWindow.js:1943
-#: controls/viewHeader.js:68 dialogs\dlgAutotagCover.html:29
+#: controls/viewHeader.js:68 RegManage.pas:587 RegManage.pas:589
+#: dialogs\dlgAutotagCover.html:29
 msgid "Lookup"
 msgstr "Vyhledat"
 
@@ -1982,7 +1985,7 @@ msgstr "Texty nebyly nalezeny"
 #. temporary expand to allow editing of larger texts
 #. not "Another artist"
 #. so it is not fetched again
-#: templates.js:595 viewHandlers.js:8600 viewHandlers.js:8694
+#: templates.js:595 viewHandlers.js:8604 viewHandlers.js:8698
 #: controls/albumViewHeader.js:682 controls/artistViewHeader.js:575
 #: controls/searchView.js:587 controls/viewHeader.js:206
 #: helpers/artistDataSource.js:78 helpers/autoTagFramework.js:278
@@ -2003,7 +2006,7 @@ msgstr "Skladba byla přidána do knihovny"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. el.innerText = sd.album;
 #. this field should not be used for whole album, specific for each track
-#: templates.js:1302 templates.js:1329 templates.js:1379 viewHandlers.js:6972
+#: templates.js:1302 templates.js:1329 templates.js:1379 viewHandlers.js:6976
 #: controls/albumlistView.js:613 controls/player.js:852
 #: controls/trackListView.js:389
 #: Scripts/statistics/dialogs/dlgStatistics.js:331
@@ -2082,7 +2085,7 @@ msgstr "Zadejte heslo"
 
 #. isNavbarExpandable: false, // #20803
 #. force rebind
-#: uitools.js:1410 viewHandlers.js:5831 controls/albumlistView.js:600
+#: uitools.js:1410 viewHandlers.js:5835 controls/albumlistView.js:600
 #: controls/trackListView.js:1541 controls/deviceConfig/syncToDevice.js:23
 #: dialogs/dlgTrackProperties/tabBasic.js:517 helpers/seriesDataSource.js:176
 #: helpers/seriesDataSource.js:257 MaskHelper.pas:3173 MaskHelper.pas:3609
@@ -2108,7 +2111,7 @@ msgstr "Vyberte jeden nebo více souborů pro tuto operaci."
 
 #. hide full window player and switcher
 #. TODO: add links to stations
-#: uitools.js:2469 viewHandlers.js:7712 viewHandlers.js:7820
+#: uitools.js:2469 viewHandlers.js:7716 viewHandlers.js:7824
 msgid "Edit bookmark"
 msgstr "Upravit záložku"
 
@@ -2136,16 +2139,16 @@ msgstr "Vyberte alespoň jednu složku ke skenování."
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RS_Unknown
-#: utils.js:105 FileUtils.pas:2805 ResStrings.pas:451
+#: utils.js:105 FileUtils.pas:2810 ResStrings.pas:451
 #: controls\deviceConfig\options\pnl_Tagging.html:13
 msgid "KB"
 msgstr "KB"
 
-#: utils.js:109 FileUtils.pas:2808 dialogs\dlgOptions\pnl_MediaServers.html:19
+#: utils.js:109 FileUtils.pas:2813 dialogs\dlgOptions\pnl_MediaServers.html:19
 msgid "MB"
 msgstr "MB"
 
-#: utils.js:112 FileUtils.pas:2810
+#: utils.js:112 FileUtils.pas:2815
 msgid "GB"
 msgstr "GB"
 
@@ -2315,7 +2318,7 @@ msgstr "Strom"
 #. #16533
 #. to update highlighting of playing track etc.
 #: viewHandlers.js:902 viewHandlers.js:933 viewHandlers.js:952
-#: viewHandlers.js:4793 viewHandlers.js:5259 viewHandlers.js:5479
+#: viewHandlers.js:4793 viewHandlers.js:5263 viewHandlers.js:5483
 #: ResStrings.pas:418
 msgid "Folders"
 msgstr "Složky"
@@ -2337,7 +2340,7 @@ msgstr "Kategorie"
 msgid "Tabbed view"
 msgstr "Zobrazení záložek"
 
-#: viewHandlers.js:1227 viewHandlers.js:6885 controls/searchView.js:153
+#: viewHandlers.js:1227 viewHandlers.js:6889 controls/searchView.js:153
 #: Scripts/statistics/dialogs/dlgStatistics.js:175 AutoOrganize.pas:1605
 msgid "Genres"
 msgstr "Žánry"
@@ -2362,7 +2365,7 @@ msgid "Feeds"
 msgstr "Zdroje"
 
 #. #18158
-#: viewHandlers.js:1981 viewHandlers.js:5529 controls/maskedit.js:77
+#: viewHandlers.js:1981 viewHandlers.js:5533 controls/maskedit.js:77
 #: helpers/mediaSync.js:2896 WinAmpPlugins.pas:5362
 msgid "Configure"
 msgstr "Konfigurace"
@@ -2381,7 +2384,7 @@ msgstr "&Odstranit"
 #. cannot edit/add release of unknown album
 #. @ts-ignore
 #. remove newly created playlist when edit is canceled for newly created playlist without a change (item 3 in #14005)
-#: viewHandlers.js:3457 viewHandlers.js:5573 controls/albumViewHeader.js:264
+#: viewHandlers.js:3457 viewHandlers.js:5577 controls/albumViewHeader.js:264
 #: controls/artistViewHeader.js:169 controls/folderTree.js:54
 #: controls/genreViewHeader.js:29 controls/playlistHeader.js:98
 #: controls/trackListView.js:1996
@@ -2468,7 +2471,7 @@ msgid "Unsubscribed"
 msgstr "Zrušené odběry"
 
 #. assignment to tracklist
-#: viewHandlers.js:4501 viewHandlers.js:7058
+#: viewHandlers.js:4501 viewHandlers.js:7062
 msgid "Are you sure you want to remove \"%s\" ?"
 msgstr "Opravdu chcete odstranit \"%s\"?"
 
@@ -2477,7 +2480,7 @@ msgstr "Opravdu chcete odstranit \"%s\"?"
 #. LS: it is better to cancel loading of parent children (otherwise it would block further reading unnecessarily)
 #. to remove the folder (dataSource) and thus this node also
 #: viewHandlers.js:4512 viewHandlers.js:4684 viewHandlers.js:4731
-#: viewHandlers.js:5113 viewHandlers.js:7513
+#: viewHandlers.js:5117 viewHandlers.js:7517
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:275
 msgid "folder"
 msgstr "složka"
@@ -2517,7 +2520,7 @@ msgid "Are you sure you want to remove %d selected items?"
 msgstr "Opravdu chcete odstranit %d vybraných položek?"
 
 #. to get fresh tracklist on F5 (view.refresh)
-#: viewHandlers.js:5000 viewHandlers.js:5404 ResStrings.pas:431
+#: viewHandlers.js:5000 viewHandlers.js:5408 ResStrings.pas:431
 msgid "All files"
 msgstr "Všechny soubory"
 
@@ -2529,23 +2532,23 @@ msgstr "Všechna videa"
 msgid "video"
 msgstr "video"
 
-#: viewHandlers.js:5077 viewHandlers.js:5327
+#: viewHandlers.js:5081 viewHandlers.js:5331
 msgid "Are you sure you want to remove playlist \"%s\" from %s?"
 msgstr "Opravdu chcete odstranit playlist \"%s\" z %s?"
 
-#: viewHandlers.js:5080 viewHandlers.js:5330
+#: viewHandlers.js:5084 viewHandlers.js:5334
 msgid "Are you sure you want to remove %d selected playlists from %s?"
 msgstr "Opravdu chcete odstranit %d vybraných playlistů z %s?"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
 #. #15626
-#: viewHandlers.js:5150 MediaManage.pas:6581 MusicUtils.pas:687
+#: viewHandlers.js:5154 MediaManage.pas:6581 MusicUtils.pas:687
 #: controls\devicesView.html:23
 msgid "Media Servers"
 msgstr "Mediální servery"
 
-#: viewHandlers.js:5181
+#: viewHandlers.js:5185
 msgid "No server available, try later"
 msgstr "Není dostupný žádný server, zkuste později"
 
@@ -2553,211 +2556,211 @@ msgstr "Není dostupný žádný server, zkuste později"
 #. and get the list of tracks already scanned into library (to merge) -- to be able to indicate which tracks are already in the library
 #. prefer the default Music collection when there are more music collections (#17051)
 #. prefer the default Music collection when there are more music collections (#16929)
-#: viewHandlers.js:5428 Filters.pas:2112 Filters.pas:2278 GlobVars.pas:2084
+#: viewHandlers.js:5432 Filters.pas:2112 Filters.pas:2278 GlobVars.pas:2084
 #: controls\deviceConfig\options\pnl_FileLocations.html:9
 msgid "Music"
 msgstr "Hudba"
 
-#: viewHandlers.js:5438 controls/searchView.js:190
+#: viewHandlers.js:5442 controls/searchView.js:190
 msgid "Videos"
 msgstr "Videa"
 
 #. we currently can't search online podcasts
-#: viewHandlers.js:5448 controls/searchView.js:349 DBStructure.pas:2061
+#: viewHandlers.js:5452 controls/searchView.js:349 DBStructure.pas:2061
 #: GlobVars.pas:2086
 msgid "Audiobooks"
 msgstr "Audioknihy"
 
-#: viewHandlers.js:5544 controls\listEditButtons.html:6
+#: viewHandlers.js:5548 controls\listEditButtons.html:6
 msgid "Delete"
 msgstr "Smazat"
 
-#: viewHandlers.js:5551
+#: viewHandlers.js:5555
 msgid "Are you sure you want to remove profile \"%s\" ?"
 msgstr "Opravdu chcete odstranit profil \"%s\"?"
 
-#: viewHandlers.js:5591
+#: viewHandlers.js:5595
 msgid "Disable"
 msgstr "Zakázat"
 
 #. toggle
-#: viewHandlers.js:5613
+#: viewHandlers.js:5617
 msgid "Sync"
 msgstr "Synchronizovat"
 
-#: viewHandlers.js:5626
+#: viewHandlers.js:5630
 msgid "Safely &remove device"
 msgstr "&Bezpečně odpojit zařízení"
 
 #. e.g. tracklist or albumlist, add its tracks at once:
-#: viewHandlers.js:5694
+#: viewHandlers.js:5698
 msgid "Devices & Services"
 msgstr "Zařízení a služby"
 
 #. timeout to accomodate when there is many devices added just during startup in one second -- to reduce unnecessary refreshNodeChildren() calling
-#: viewHandlers.js:5732 Scripts/statistics/dialogs/dlgStatistics.js:176
+#: viewHandlers.js:5736 Scripts/statistics/dialogs/dlgStatistics.js:176
 msgid "Years"
 msgstr "Roky"
 
 #. hasTreeChildren: false, // enabled in the tree so that individual years are accessible under decades (#15056)
-#: viewHandlers.js:5750
+#: viewHandlers.js:5754
 msgid "Years (orig.)"
 msgstr "Roky (původní)"
 
 #. @ts-ignore
-#: viewHandlers.js:5873 controls/albumViewHeader.js:791 CDUtils.pas:1075
+#: viewHandlers.js:5877 controls/albumViewHeader.js:791 CDUtils.pas:1075
 #: dblistutils.pas:1627 UPnPTreeHelper.pas:1917
 msgid "Unknown Album"
 msgstr "Neznámé album"
 
 #. not used list, no events needed already
-#: viewHandlers.js:5956 controls/seriesViewHeader.js:608 dblistutils.pas:1629
+#: viewHandlers.js:5960 controls/seriesViewHeader.js:608 dblistutils.pas:1629
 msgid "Unknown Series"
 msgstr "Neznámá série"
 
-#: viewHandlers.js:6422 viewHandlers.js:6435 UPnPTreeHelper.pas:1890
+#: viewHandlers.js:6426 viewHandlers.js:6439 UPnPTreeHelper.pas:1890
 msgid "Album Artists"
 msgstr "Interpreti alba"
 
 #. detect hovered item
-#: viewHandlers.js:6428 viewHandlers.js:6441 viewHandlers.js:6464
+#: viewHandlers.js:6432 viewHandlers.js:6445 viewHandlers.js:6468
 #: controls/artistGrid.js:176 controls/statusbar.js:98
 #: helpers/artistDataSource.js:78
 msgid "artist"
 msgstr "interpret"
 
-#: viewHandlers.js:6455
+#: viewHandlers.js:6459
 msgid "Contributing artists"
 msgstr "Přispívající umělci"
 
-#: viewHandlers.js:6458
+#: viewHandlers.js:6462
 msgid "Artists only"
 msgstr "Pouze interpreti"
 
-#: viewHandlers.js:6478 UPnPTreeHelper.pas:1895
+#: viewHandlers.js:6482 UPnPTreeHelper.pas:1895
 msgid "Directors"
 msgstr "Režiséři"
 
-#: viewHandlers.js:6484
+#: viewHandlers.js:6488
 msgid "director"
 msgstr "režisér"
 
-#: viewHandlers.js:6491 controls/searchView.js:80 UPnPTreeHelper.pas:1891
+#: viewHandlers.js:6495 controls/searchView.js:80 UPnPTreeHelper.pas:1891
 msgid "Composers"
 msgstr "Skladatelé"
 
-#: viewHandlers.js:6497
+#: viewHandlers.js:6501
 msgid "composer"
 msgstr "skladatel"
 
-#: viewHandlers.js:6504 controls/searchView.js:119 UPnPTreeHelper.pas:1894
+#: viewHandlers.js:6508 controls/searchView.js:119 UPnPTreeHelper.pas:1894
 msgid "Conductors"
 msgstr "Dirigenti"
 
-#: viewHandlers.js:6510
+#: viewHandlers.js:6514
 msgid "conductor"
 msgstr "dirigent"
 
-#: viewHandlers.js:6517 controls/searchView.js:253 UPnPTreeHelper.pas:1893
+#: viewHandlers.js:6521 controls/searchView.js:253 UPnPTreeHelper.pas:1893
 msgid "Producers"
 msgstr "Producenti"
 
-#: viewHandlers.js:6523
+#: viewHandlers.js:6527
 msgid "producer"
 msgstr "producent"
 
 #. searchView.localListen(LV, 'itemview', uitools.defaultItemAction); // disabled due to #15867
 #. don't save
 #. addFieldPair('publisher', _('Publisher'), FIELD_AUDIO);
-#: viewHandlers.js:6530 controls/searchView.js:219 dialogs/dlgAutotag.js:2345
+#: viewHandlers.js:6534 controls/searchView.js:219 dialogs/dlgAutotag.js:2345
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:160 MaskHelper.pas:3223
 #: UPnPTreeHelper.pas:1889
 msgid "Actors"
 msgstr "Herci"
 
-#: viewHandlers.js:6536
+#: viewHandlers.js:6540
 msgid "actor"
 msgstr "herec"
 
-#: viewHandlers.js:6543 UPnPTreeHelper.pas:1904
+#: viewHandlers.js:6547 UPnPTreeHelper.pas:1904
 msgid "Publishers"
 msgstr "Vydavatelé"
 
-#: viewHandlers.js:6549
+#: viewHandlers.js:6553
 msgid "publisher"
 msgstr "vydavatel"
 
 #. hide it until we get a message via this.statusMessage (it doesn't look good to show empty status bar)
-#: viewHandlers.js:6809 controls/statusbar.js:98
+#: viewHandlers.js:6813 controls/statusbar.js:98
 #: dialogs/dlgTrackProperties/tabBasic.js:527
 msgid "genre"
 msgstr "žánr"
 
-#: viewHandlers.js:6815
+#: viewHandlers.js:6819
 msgid "Pop"
 msgstr "Pop"
 
 #. defines word prefixes to be included within the particular genre(s)
-#: viewHandlers.js:6819
+#: viewHandlers.js:6823
 msgid "Rock"
 msgstr "Rock"
 
-#: viewHandlers.js:6823
+#: viewHandlers.js:6827
 msgid "R&B and soul"
 msgstr "R&B a soul"
 
 #. occasion tag constant
-#: viewHandlers.js:6827 NewDBCreate.pas:1250
+#: viewHandlers.js:6831 NewDBCreate.pas:1250
 msgid "Dance"
 msgstr "Tanec"
 
-#: viewHandlers.js:6831
+#: viewHandlers.js:6835
 msgid "Blues"
 msgstr "Blues"
 
-#: viewHandlers.js:6835
+#: viewHandlers.js:6839
 msgid "Jazz"
 msgstr "Jazz"
 
-#: viewHandlers.js:6839
+#: viewHandlers.js:6843
 msgid "Latin & Caribbean"
 msgstr "Latina & Karibik"
 
-#: viewHandlers.js:6844
+#: viewHandlers.js:6848
 msgid "Electronic"
 msgstr "Elektronika"
 
-#: viewHandlers.js:6849
+#: viewHandlers.js:6853
 msgid "Country"
 msgstr "Country"
 
-#: viewHandlers.js:6853
+#: viewHandlers.js:6857
 msgid "Folk"
 msgstr "Folk"
 
-#: viewHandlers.js:6857
+#: viewHandlers.js:6861
 msgid "Easy listening"
 msgstr "Snadný poslech"
 
-#: viewHandlers.js:6861
+#: viewHandlers.js:6865
 msgid "Comedy"
 msgstr "Komedie"
 
-#: viewHandlers.js:6865 controls\deviceConfig\options\pnl_FileLocations.html:17
+#: viewHandlers.js:6869 controls\deviceConfig\options\pnl_FileLocations.html:17
 msgid "Classical"
 msgstr "Klasická hudba"
 
-#: viewHandlers.js:6870
+#: viewHandlers.js:6874
 msgid "World"
 msgstr "Tradiční"
 
 #. node.addChildren(list, 'files_to_edit_default');
-#: viewHandlers.js:7284
+#: viewHandlers.js:7288
 msgid "Album Artist is not the same across tracks on an album."
 msgstr "Interpret alba není stejný pro všechny skladby na albu."
 
 #. #19480
-#: viewHandlers.js:7336
+#: viewHandlers.js:7340
 msgid ""
 "This finds all tracks with tags that don't match the database, highlighting "
 "the mismatched values. If tracks don't show highlighted fields, try enabling "
@@ -2767,7 +2770,7 @@ msgstr ""
 "hodnot. Pokud se nezobrazují zvýrazněná pole u skladeb, zkuste povolit další "
 "sloupce."
 
-#: viewHandlers.js:7343
+#: viewHandlers.js:7347
 msgid ""
 "This node finds all content for which tracks have duplicate hashes or "
 "fingerprints."
@@ -2776,25 +2779,25 @@ msgstr ""
 "digitální otisky."
 
 #. to respect order served by content
-#: viewHandlers.js:7350
+#: viewHandlers.js:7354
 msgid "Artwork is not the same across tracks on an album."
 msgstr "Obrázek není stejný pro všechny skladby na albu."
 
-#: viewHandlers.js:7353
+#: viewHandlers.js:7357
 msgid "Files have been deleted or moved."
 msgstr "Soubory byly odstraněny nebo přesunuty."
 
-#: viewHandlers.js:7356 UPnPTreeHelper.pas:1910
+#: viewHandlers.js:7360 UPnPTreeHelper.pas:1910
 msgid "Files to Edit"
 msgstr "Skladby k editaci"
 
-#: viewHandlers.js:7533 dialogs/dlgMediaProperties.js:42
+#: viewHandlers.js:7537 dialogs/dlgMediaProperties.js:42
 msgid "Media Properties"
 msgstr "Vlastnosti média"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. create folder text element
-#: viewHandlers.js:7550 controls/monitoredFoldersView.js:287 ResStrings.pas:420
+#: viewHandlers.js:7554 controls/monitoredFoldersView.js:287 ResStrings.pas:420
 #: dialogs\dlgMediaProperties.html:27
 msgid "Location"
 msgstr "Umístění"
@@ -2805,7 +2808,7 @@ msgstr "Umístění"
 #. Other group is default
 #. fill info about audio stream
 #. Audio exts then video formats, then image exts
-#: viewHandlers.js:7606 controls/deviceConfig.js:267
+#: viewHandlers.js:7610 controls/deviceConfig.js:267
 #: controls/deviceConfig.js:268 controls/trackListView.js:33
 #: dialogs/dlgSupportedFormat.js:26 BaseMedia.pas:4873 FormatsManage.pas:3845
 #: FormatsManage.pas:5538 FormatsManage.pas:5570 FormatsManage.pas:5583
@@ -2815,7 +2818,7 @@ msgstr "Hudba"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. fill info about video stream
-#: viewHandlers.js:7623 controls/deviceConfig.js:272
+#: viewHandlers.js:7627 controls/deviceConfig.js:272
 #: controls/deviceConfig.js:273 controls/trackListView.js:42
 #: dialogs/dlgSupportedFormat.js:27 BaseMedia.pas:4911 FormatsManage.pas:3851
 #: FormatsManage.pas:5540 FormatsManage.pas:5572 FormatsManage.pas:5584
@@ -2823,25 +2826,25 @@ msgstr "Hudba"
 msgid "Video"
 msgstr "Video"
 
-#: viewHandlers.js:7666 viewHandlers.js:7668 viewHandlers.js:7749
-#: viewHandlers.js:7751
+#: viewHandlers.js:7670 viewHandlers.js:7672 viewHandlers.js:7753
+#: viewHandlers.js:7755
 msgid "Web"
 msgstr "Web"
 
-#: viewHandlers.js:7726 viewHandlers.js:7834
+#: viewHandlers.js:7730 viewHandlers.js:7838
 msgid "Remove bookmark"
 msgstr "Odstranit záložku"
 
-#: viewHandlers.js:7775 viewHandlers.js:7777 GlobVars.pas:2092
+#: viewHandlers.js:7779 viewHandlers.js:7781 GlobVars.pas:2092
 msgid "Radio"
 msgstr "Rádio"
 
 #. needed e.g. because of #13492
-#: viewHandlers.js:8263 controls/multiview.js:181
+#: viewHandlers.js:8267 controls/multiview.js:181
 msgid "Home"
 msgstr "Home"
 
-#: viewHandlers.js:8279 viewHandlers.js:8301 AutoOrganize.pas:1586
+#: viewHandlers.js:8283 viewHandlers.js:8305 AutoOrganize.pas:1586
 #: ResStrings.pas:399
 msgid "Collections"
 msgstr "Kolekce"
@@ -2942,14 +2945,14 @@ msgstr "Upravit komentář"
 #. id or mbgid changed, reload view
 #. reload view, series could be merged
 #: controls/albumViewHeader.js:453 controls/artistViewHeader.js:426
-#: controls/seriesViewHeader.js:311 dialogs/dlgTrackProperties.js:670
+#: controls/seriesViewHeader.js:311 dialogs/dlgTrackProperties.js:671
 #: Scripts/swapArtistTitle/actions_add.js:15
 msgid "Are you sure that you want to modify %d files ?"
 msgstr "Opravdu chcete modifikovat %d souborů?"
 
 #: controls/albumViewHeader.js:456 controls/artistViewHeader.js:429
 #: controls/seriesViewHeader.js:314 dialogs/dlgDeleteConfirm.js:226
-#: dialogs/dlgTrackProperties.js:673 PlaylistManage.pas:1221
+#: dialogs/dlgTrackProperties.js:674 PlaylistManage.pas:1221
 msgid "In the future, do not ask me"
 msgstr "Přístě se na tuto otázku neptat"
 
@@ -2979,7 +2982,7 @@ msgid "album image"
 msgstr "obrázku alba"
 
 #. to refetch image after DS change
-#: controls/albumViewHeader.js:763 controls/listview.js:1393
+#: controls/albumViewHeader.js:763 controls/listview.js:1394
 #: dialogs/dlgDeleteConfirm.js:28
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:28 CDDBUtils.pas:1354
 #: CDDBUtils.pas:1419
@@ -3104,7 +3107,7 @@ msgstr "Povolit úpravy"
 
 #. search link is present only if searching artwork in album a not on web (when searchMissingArtwork is false)
 #. artwork was not loaded - file was already deleted or artwork removed from tag outside MM5, or file with artwork overwritten
-#: controls/artWindow.js:1523 MediaMonkeyApp.pas:8562
+#: controls/artWindow.js:1523 MediaMonkeyApp.pas:8572
 msgid "Artwork not found"
 msgstr "Obrázek nebyl nalezen"
 
@@ -3207,7 +3210,7 @@ msgstr "OK"
 #. we need to create container and bars
 #: controls/buttons.js:412 controls/downloadView.js:63
 #: controls/taskscontroller.js:285 hpCDEBurner.pas:1477 hpCDEBurner.pas:1488
-#: ResStrings.pas:583 dialogs\dlgAutotagCover.html:29
+#: RegManage.pas:591 ResStrings.pas:583 dialogs\dlgAutotagCover.html:29
 msgid "Cancel"
 msgstr "&Storno"
 
@@ -3234,7 +3237,8 @@ msgid "Yes to all"
 msgstr "Ano všemu"
 
 #: controls/buttons.js:449 FullPlayer.pas:4634 MaskHelper.pas:3303
-#: MediaMonkeyApp.pas:7514 UpNp.pas:8812 dialogs\dlgErrorLog.html:20
+#: MediaMonkeyApp.pas:7515 RegManage.pas:585 UpNp.pas:8827
+#: dialogs\dlgErrorLog.html:20
 msgid "Help"
 msgstr "Nápověda"
 
@@ -3316,17 +3320,17 @@ msgstr "Jiná"
 
 #. this listeners are unregistered when dataSource is changed
 #. API key/secret for services@mediamonkey.com
-#: controls/control.js:1396 PodcastManage.pas:4068
+#: controls/control.js:1397 PodcastManage.pas:4068
 msgid "Getting data"
 msgstr "Získávání dat"
 
 #. Add Inspect Element popup command (chromium 39 or later)
-#: controls/control.js:1489
+#: controls/control.js:1490
 msgid "Inspect Element"
 msgstr "Prozkoumat HTML prvek"
 
 #. _this._lastMousePos.x, _this._lastMousePos.y
-#: controls/control.js:1503
+#: controls/control.js:1504
 msgid "Open DevTools in Chrome"
 msgstr "Otevřít Nástroje pro vývojáře v Chrome"
 
@@ -3435,7 +3439,7 @@ msgstr "nepřehraných epizod"
 #. syncable servers already appear in the 'Storage & Services' as device profiles
 #. Try to find an already rendered group header
 #. #17949: Change to "Expand" in the future when it's translated
-#: controls/devicesView.js:157 controls/listview.js:1393
+#: controls/devicesView.js:157 controls/listview.js:1394
 #: controls/searchView.js:700 controls/treeview.js:87
 msgid "Show all"
 msgstr "Zobrazit vše"
@@ -3490,7 +3494,7 @@ msgstr "prázdný"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. update the download status and path
-#: controls/equalizer.js:24 MediaMonkeyApp.pas:8819 MediaMonkeyApp.pas:8821
+#: controls/equalizer.js:24 MediaMonkeyApp.pas:8829 MediaMonkeyApp.pas:8831
 #: MusicUtils.pas:852 controls\autoConvertConfig.html:11
 msgid "dB"
 msgstr "dB"
@@ -3559,28 +3563,28 @@ msgid "Add new"
 msgstr "Přidat nový"
 
 #. expand/collapse icons:
-#: controls/listview.js:1396 controls/treeview.js:79
+#: controls/listview.js:1397 controls/treeview.js:79
 msgid "Collapse"
 msgstr "Sbalit"
 
 #. supress toast messages when we are placed into a view, search bar is taking it
-#: controls/listview.js:2726
+#: controls/listview.js:2727
 msgid "Scroll to"
 msgstr "Posunout na"
 
-#: controls/listview.js:2726
+#: controls/listview.js:2727
 msgid "Use %s for the next match"
 msgstr "Použít %s pro další shodu"
 
 #. it just looped through all the controls to find that there is still the same (and single) occurence -- don't consider this as search failure (#15185 - item 11)
-#: controls/listview.js:2729 controls/searchBar.js:405
+#: controls/listview.js:2730 controls/searchBar.js:405
 #: controls/searchBar.js:407
 msgid "phrase not found"
 msgstr "fráze nenalezena"
 
 #. eslint-disable-next-line no-cond-assign
 #. not cleared yet
-#: controls/listview.js:4966 controls/listview.js:4970
+#: controls/listview.js:4969 controls/listview.js:4973
 msgid "Close popup"
 msgstr "Zavřít vyskakovací okno"
 
@@ -3671,7 +3675,7 @@ msgid "Continuously"
 msgstr "Průběžně"
 
 #. #17177
-#: controls/monitoredFoldersView.js:14 MediaMonkeyApp.pas:9351
+#: controls/monitoredFoldersView.js:14 MediaMonkeyApp.pas:9361
 msgid "Auto detection"
 msgstr "Automatická detekce"
 
@@ -3792,7 +3796,7 @@ msgstr "Ovládání"
 msgid "Seek bar"
 msgstr "Ukazatel průběhu"
 
-#: controls/player.js:284 UpNp.pas:13225
+#: controls/player.js:284 UpNp.pas:13240
 msgid "Internal player"
 msgstr "Interní přehrávač"
 
@@ -4283,7 +4287,7 @@ msgstr "Přípona"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:935 MaskHelper.pas:3170 MaskHelper.pas:3598
-#: MaskHelper.pas:3888 MediaMonkeyApp.pas:6444 QueryManage.pas:5060
+#: MaskHelper.pas:3888 MediaMonkeyApp.pas:6445 QueryManage.pas:5060
 #: QueryManage.pas:5061 ResStrings.pas:458
 #: dialogs\dlgTrackProperties\tabDetails.html:236
 msgid "Added"
@@ -4615,16 +4619,16 @@ msgid "Enabled"
 msgstr "Zapnuto"
 
 #: controls/serverConfig/devices.js:26 controls/serverConfig/server.js:123
-#: UpNp.pas:5833
+#: UpNp.pas:5844
 msgid "MAC address"
 msgstr "MAC adresa"
 
 #: controls/serverConfig/devices.js:34 controls/serverConfig/server.js:131
-#: UpNp.pas:5834 UpNp.pas:5840 controls\serverConfig\server.html:9
+#: UpNp.pas:5845 UpNp.pas:5851 controls\serverConfig\server.html:9
 msgid "IP address"
 msgstr "IP adresa"
 
-#: controls/serverConfig/devices.js:59 UpNp.pas:10438
+#: controls/serverConfig/devices.js:59 UpNp.pas:10453
 msgid "Last access"
 msgstr "Poslední přístup"
 
@@ -4645,7 +4649,7 @@ msgstr ""
 msgid "The server is not running"
 msgstr "Server není spuštěn"
 
-#: controls/serverConfig/server.js:139 UpNp.pas:5841
+#: controls/serverConfig/server.js:139 UpNp.pas:5852
 msgid "Client name"
 msgstr "Jméno klienta"
 
@@ -4920,7 +4924,7 @@ msgid "Icon"
 msgstr "Ikona"
 
 #: dialogs/dlgCollectionOptions.js:385
-#: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 MediaMonkeyApp.pas:7669
+#: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 MediaMonkeyApp.pas:7679
 msgid "not found!"
 msgstr "nenalezeno!"
 
@@ -5210,7 +5214,7 @@ msgid "Checking for files on the server"
 msgstr "Kontrola souborů na serveru"
 
 #. this will force also the 'Sign in' dialog (if needed)
-#: dialogs/dlgMigrateWizard.js:123 RegManage.pas:573 RegManage.pas:598
+#: dialogs/dlgMigrateWizard.js:123 RegManage.pas:712 RegManage.pas:735
 msgid "Server error"
 msgstr "Chyba serveru"
 
@@ -5490,30 +5494,6 @@ msgstr "Opravdu se chcete odhlásit z tohoto odběru"
 msgid "Register MediaMonkey Gold"
 msgstr "Registrovat MediaMonkey Gold"
 
-#. just close wizard, the message is handled in registerLicense function (native)
-#: dialogs/dlgRegisterGold.js:55 dialogs/dlgWizard.js:236 RegManage.pas:582
-msgid "Registration succeeded! Thank you for purchasing MediaMonkey Gold!"
-msgstr "Registrace proběhla úspěšně! Děkujeme za zakoupení MediaMonkey Gold!"
-
-#: dialogs/dlgRegisterGold.js:62 dialogs/dlgRegisterGold.js:70
-#: RegManage.pas:566 RegManage.pas:573 RegManage.pas:588 RegManage.pas:594
-#: RegManage.pas:598
-msgid "Registration failed"
-msgstr "Registrace se nezdařila"
-
-#: dialogs/dlgRegisterGold.js:62 dialogs/dlgWizard.js:243
-#: dialogs/dlgWizard.js:252
-msgid "The code you entered is invalid"
-msgstr "Zadaný kód je neplatný"
-
-#: dialogs/dlgRegisterGold.js:70
-msgid ""
-"Your license information is incorrect. Please cut and paste the registration "
-"information to avoid any errors."
-msgstr ""
-"Vaše informace o licenci jsou nesprávné. Vyjměte a vložte registrační údaje, "
-"abyste se vyhnuli chybám."
-
 #: dialogs/dlgScanResults.js:8
 msgid "Scan results"
 msgstr "Výsledky prohledávání"
@@ -5657,8 +5637,8 @@ msgid "Please confirm the following changes:"
 msgstr "Prosím potvrďte následující změny:"
 
 #. Button text
-#: dialogs/dlgTrackProperties.js:18 ExceptionHandler.pas:334 UpNp.pas:5832
-#: UpNp.pas:5839
+#: dialogs/dlgTrackProperties.js:18 ExceptionHandler.pas:334 UpNp.pas:5843
+#: UpNp.pas:5850
 msgid "Details"
 msgstr "Detaily"
 
@@ -5675,8 +5655,8 @@ msgstr "Vlastnosti souboru"
 #. for group test decide based on the first selected track
 #. track needs conversion
 #. e.g. online/cloud tracks that failed to download
-#: dialogs/dlgTrackProperties.js:252 Devices.pas:12983 Devices.pas:15669
-#: Devices.pas:15959 FormatsManage.pas:855 Normalization.pas:1616
+#: dialogs/dlgTrackProperties.js:252 Devices.pas:12983 Devices.pas:15670
+#: Devices.pas:15960 FormatsManage.pas:855 Normalization.pas:1616
 msgid "File %s is inaccessible"
 msgstr "Soubor %s je nedostupný"
 
@@ -5699,10 +5679,6 @@ msgstr "Průvodce nastavením"
 #: dialogs/dlgWizard.js:101
 msgid "Opening database"
 msgstr "Otevírání databáze"
-
-#: dialogs/dlgWizard.js:252
-msgid "Please try again"
-msgstr "Zkuste to prosím znovu"
 
 #: dialogs/dlgOptions/pnl_AutoDJ.js:9 dialogs/dlgOptions/pnl_AutoDJ.js:51
 #: ResStrings.pas:366 dialogs\dlgOptions\pnl_AutoDJ.html:9
@@ -5884,7 +5860,7 @@ msgid "Smaller"
 msgstr "Menší"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:33 helpers/docking.js:359
-#: helpers/docking.js:364 helpers/docking.js:587 MediaMonkeyApp.pas:9298
+#: helpers/docking.js:364 helpers/docking.js:587 MediaMonkeyApp.pas:9308
 #: ResStrings.pas:369
 msgid "Default"
 msgstr "Standardní"
@@ -5909,7 +5885,7 @@ msgstr "Název rozvržení"
 msgid "Separator"
 msgstr "Oddělovač"
 
-#: dialogs/dlgOptions/pnl_MediaServers.js:37 UpNp.pas:10426
+#: dialogs/dlgOptions/pnl_MediaServers.js:37 UpNp.pas:10441
 #: controls\serverConfig\server.html:5
 msgid "Server name"
 msgstr "Název serveru"
@@ -5944,20 +5920,20 @@ msgstr ""
 "když MediaMonkey zrovna neběží a vy nejste přihlášeni ke svým účtům. Prosím, "
 "vložte heslo ke svému účtu (%s):"
 
-#: dialogs/dlgOptions/pnl_MediaTree.js:62
 #: dialogs/dlgOptions/pnl_MediaTree.js:63
+#: dialogs/dlgOptions/pnl_MediaTree.js:64
 msgid "Visible"
 msgstr "Viditelné"
 
-#: dialogs/dlgOptions/pnl_MediaTree.js:128
+#: dialogs/dlgOptions/pnl_MediaTree.js:132
 msgid "Content to display"
 msgstr "Obsah k zobrazení"
 
-#: dialogs/dlgOptions/pnl_MediaTree.js:197
+#: dialogs/dlgOptions/pnl_MediaTree.js:206
 msgid "This will delete the \"%s\" Collection."
 msgstr "Tímto odstraníte kolekci \"%s\"."
 
-#: dialogs/dlgOptions/pnl_MediaTree.js:199
+#: dialogs/dlgOptions/pnl_MediaTree.js:208
 msgid "Delete Collection"
 msgstr "Smazat kolekci"
 
@@ -6242,7 +6218,7 @@ msgstr "skladeb"
 
 #. sources object, this is the list of all sources, addons can add its own source to this list
 #. be sure the language and TVisibilityType are loaded from settings (#21086)
-#: helpers/autoDJ.js:16 Filters.pas:2140 MediaMonkeyApp.pas:9271
+#: helpers/autoDJ.js:16 Filters.pas:2140 MediaMonkeyApp.pas:9281
 #: ResStrings.pas:419
 msgid "Entire Library"
 msgstr "Celá knihovna"
@@ -6687,7 +6663,7 @@ msgstr ""
 "Žádný odpovídající obsah online. Ověřte pravopis existujících metadat nebo "
 "upravte položku na "
 
-#: Scripts/musicBrainz/helpers/searchMusicbrainz.js:58 BaseMedia.pas:16756
+#: Scripts/musicBrainz/helpers/searchMusicbrainz.js:58 BaseMedia.pas:16757
 #: Filters.pas:2767 ResStrings.pas:391
 msgid "albums"
 msgstr "alba"
@@ -6852,7 +6828,7 @@ msgstr "Dotaz na YouTube se nezdařil: "
 msgid "Problem while updating file %s: %s"
 msgstr "Problém s aktualizováním souboru %s: %s"
 
-#: AndroidDBHandler.pas:1326 AndroidDBHandler.pas:1328 Devices.pas:16031
+#: AndroidDBHandler.pas:1326 AndroidDBHandler.pas:1328 Devices.pas:16032
 msgid "Problem while deleting file %s: %s"
 msgstr "Problém s mazáním souboru %s: %s"
 
@@ -6872,7 +6848,7 @@ msgstr "Všechny playlisty"
 msgid "%d files to be tagged"
 msgstr "%d souborů k otagování"
 
-#: BaseApp.pas:7833
+#: BaseApp.pas:7793
 msgid "There are background processes running. Terminate them?"
 msgstr "Stále běží některé procesy, chcete je ukončit?"
 
@@ -6905,12 +6881,12 @@ msgstr "%d záznamů databáze k aktualizaci"
 msgid "list"
 msgstr "seznam"
 
-#: BaseMedia.pas:20438
+#: BaseMedia.pas:20443
 msgid "Reorder track(s)"
 msgstr "Změnit pořadí skladeb"
 
 #. for tracks<=current track does copy instead of move
-#: BaseMedia.pas:20446
+#: BaseMedia.pas:20451
 msgid "Reorder/copy track(s)"
 msgstr "Změnit pořadí/kopírovat skladby"
 
@@ -7127,7 +7103,7 @@ msgstr "Odstraňuji soubor %s (%d z %d)"
 msgid "%d of %d folders processed"
 msgstr "%d z %d složek zpracováno"
 
-#: dblistutils.pas:1620 UpNp.pas:6257 UPnPTreeHelper.pas:1911 WebUtils.pas:2050
+#: dblistutils.pas:1620 UpNp.pas:6272 UPnPTreeHelper.pas:1911 WebUtils.pas:2050
 #: WebUtils.pas:2074
 msgid "Unknown Title"
 msgstr "Neznámý název"
@@ -7345,11 +7321,11 @@ msgstr ""
 "V zařízení není dostatek místa k synchronizaci vybraných souborů. Chcete "
 "přesto pokračovat?"
 
-#: Devices.pas:12050 FileUtils.pas:835 ResStrings.pas:567
+#: Devices.pas:12050 FileUtils.pas:836 ResStrings.pas:567
 msgid "Insufficient space available."
 msgstr "Nedostatek volného místa."
 
-#: Devices.pas:12052 Devices.pas:12373 Devices.pas:16153 Devices.pas:16162
+#: Devices.pas:12052 Devices.pas:12373 Devices.pas:16154 Devices.pas:16163
 msgid "Problem while copying file %s to %s"
 msgstr "Problém s kopírováním souboru %s do %s"
 
@@ -7359,12 +7335,12 @@ msgid "File %s is not supported by the device"
 msgstr "Soubor %s není podporovaný zařízením"
 
 #. no track being converted, see the tracks being downloaded from cloud
-#: Devices.pas:15474
+#: Devices.pas:15475
 msgid "downloading"
 msgstr "stahování"
 
 #. track has failed to convert
-#: Devices.pas:15925
+#: Devices.pas:15926
 msgid "Conversion of file %s failed"
 msgstr "Konverze souboru %s byla neůspěšná"
 
@@ -7400,7 +7376,7 @@ msgstr ""
 "Není možno smazat %s, přístup byl odepřen. Soubor je možná používán a nebo "
 "nemáte přístupová práva.."
 
-#: ErrHandlers.pas:168 FileUtils.pas:835
+#: ErrHandlers.pas:168 FileUtils.pas:836
 msgid "Problem with copying file %s to %s."
 msgstr "Problém s kopírováním souboru %s do %s."
 
@@ -7453,7 +7429,7 @@ msgid "There was a problem converting the following file(s):"
 msgstr "Nastal problém s konverzí následujících souborů:"
 
 #. #18222
-#: ErrHandlers.pas:444 Extensions.pas:946 MediaMonkeyApp.pas:4073
+#: ErrHandlers.pas:444 Extensions.pas:946 MediaMonkeyApp.pas:4074
 msgid "There was a problem downloading the following file(s):"
 msgstr "Nastal problém při stahování následujících souborů:"
 
@@ -7517,7 +7493,7 @@ msgstr "Neplatný doplněk: platí pouze pro MediaMonkey 4.x"
 
 #. show the addon's config immediatelly (so that users are aware)
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
-#: Extensions.pas:1101 UpNp.pas:11932
+#: Extensions.pas:1101 UpNp.pas:11947
 msgid "%s was successfully installed."
 msgstr "%s byl úspěšně nainstalován."
 
@@ -7609,39 +7585,39 @@ msgstr "Soubor s doplňkem MediaMonkey"
 msgid "Audio File"
 msgstr "Audio soubor"
 
-#: FileUtils.pas:619 Normalization.pas:1932 Normalization.pas:1993
+#: FileUtils.pas:620 Normalization.pas:1932 Normalization.pas:1993
 msgid "The file is unavailable or you may not have permission to access it."
 msgstr "Soubor není dostupný nebo nemáte oprávnění k přístupu."
 
-#: FileUtils.pas:657
+#: FileUtils.pas:658
 msgid "Cannot create file %s."
 msgstr "Není možno vytvořit soubor %s."
 
-#: FileUtils.pas:2084
+#: FileUtils.pas:2089
 msgid "Unknown error"
 msgstr "Neznámá chyba"
 
-#: FileUtils.pas:2384
+#: FileUtils.pas:2389
 msgid "Media Server cache"
 msgstr "Dočasné úložiště souborů pro Mediální servery"
 
-#: FileUtils.pas:2387
+#: FileUtils.pas:2392
 msgid "Virtual CD content"
 msgstr "Obsah pro virtuální CD"
 
-#: FileUtils.pas:2390 UPnPTreeHelper.pas:1908
+#: FileUtils.pas:2395 UPnPTreeHelper.pas:1908
 msgid "Previews"
 msgstr "Náhledy"
 
-#: FileUtils.pas:2594
+#: FileUtils.pas:2599
 msgid "The directory %s cannot be created."
 msgstr "Složka %s nemohla být vytvořena."
 
-#: FileUtils.pas:2829
+#: FileUtils.pas:2834
 msgid "Drive %s is running out of space."
 msgstr "Jednotka %s nemá dostatek místa."
 
-#: FileUtils.pas:2830
+#: FileUtils.pas:2835
 msgid "Please free up space for MediaMonkey to function properly."
 msgstr "Uvolněte prosím místo, aby MediaMonkey mohl správně fungovat."
 
@@ -7693,7 +7669,7 @@ msgstr "ABR"
 msgid "Max. bitrate"
 msgstr "Max. bitrate"
 
-#: FormatsHandler.pas:3402 FormatsHandler.pas:3642 MediaMonkeyApp.pas:7724
+#: FormatsHandler.pas:3402 FormatsHandler.pas:3642 MediaMonkeyApp.pas:7734
 msgid "MediaMonkey is unable to encode this format."
 msgstr "MediaMonkey není schopno kódovat do tohoto formátu."
 
@@ -7714,7 +7690,7 @@ msgid "Converting file %d of %d"
 msgstr "Konvertuji soubor %d z %d"
 
 #. TODOWIN8
-#: FormatsManage.pas:1424 FormatsManage.pas:1941 UpNp.pas:4870
+#: FormatsManage.pas:1424 FormatsManage.pas:1941 UpNp.pas:4880
 msgid ""
 "There isn't enough free space to convert all files. Please clear space in "
 "the temporary directory"
@@ -7936,8 +7912,8 @@ msgid "No configuration"
 msgstr "Žádná konfigurace"
 
 #. read data to a temporary buffer
-#: GeneralDecoder.pas:779 GeneralDecoder.pas:783 MediaMonkeyApp.pas:4629
-#: MediaMonkeyApp.pas:4632
+#: GeneralDecoder.pas:779 GeneralDecoder.pas:783 MediaMonkeyApp.pas:4630
+#: MediaMonkeyApp.pas:4633
 msgid "Problem while decoding file %s"
 msgstr "Problém při dekódování souboru %s"
 
@@ -8139,12 +8115,12 @@ msgstr ""
 "Nebylo možno vypálit disk. Některé ze skladeb jsou chráněny Digitální "
 "ochranou práv (DRM) zabraňující vypálení disku."
 
-#: HTMLWindow.pas:10977
+#: HTMLWindow.pas:10680
 msgid "Alert"
 msgstr "Upozornění"
 
 #. do not show this message when app is launching.
-#: HTMLWindow.pas:13733
+#: HTMLWindow.pas:12933
 msgid ""
 "The MicroPlayer is not yet enabled. To enable it, right-click on the "
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
@@ -8319,114 +8295,125 @@ msgstr "Není možno přejmenovat složku %s na %s."
 msgid "Tag update failed: %s is inaccessible."
 msgstr "Aktualizace tagu se nezdařila: %s je nepřístupná."
 
-#: MediaManage.pas:5756 MediaMonkeyApp.pas:5572
+#: MediaManage.pas:5756 MediaMonkeyApp.pas:5573
 msgid "Creating folder \"%s\" failed"
 msgstr "Vytváření složky \"%s\" selhalo"
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
-#: MediaMonkeyApp.pas:5248
+#: MediaMonkeyApp.pas:5249
 msgid "Deleted %d files from %d"
 msgstr "Smazáno %d souborů z %d"
 
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
-#: MediaMonkeyApp.pas:5307
+#: MediaMonkeyApp.pas:5308
 msgid "Removed %d files from %d"
 msgstr "Odstraněno %d souborů z %d"
 
-#: MediaMonkeyApp.pas:5575 QueryManage.pas:4318
+#: MediaMonkeyApp.pas:5576 QueryManage.pas:4318
 msgid "is not accessible"
 msgstr "není dostupná"
 
-#: MediaMonkeyApp.pas:6448
+#: MediaMonkeyApp.pas:6449
 msgid "Updated"
 msgstr "Aktualizováno"
 
-#: MediaMonkeyApp.pas:6452 QueryManage.pas:5066 QueryManage.pas:5067
+#: MediaMonkeyApp.pas:6453 QueryManage.pas:5066 QueryManage.pas:5067
 msgid "Skipped"
 msgstr "Přeskočeno"
 
-#: MediaMonkeyApp.pas:6464
+#: MediaMonkeyApp.pas:6465
 msgid "Scan log"
 msgstr "Protokol skenování"
 
-#: MediaMonkeyApp.pas:6465
+#: MediaMonkeyApp.pas:6466
 msgid "Operation"
 msgstr "Provoz"
 
-#: MediaMonkeyApp.pas:7442
+#: MediaMonkeyApp.pas:7443
 msgid "Lifetime"
 msgstr "Celoživotní"
 
-#: MediaMonkeyApp.pas:7485 MediaMonkeyApp.pas:7522 ResStrings.pas:371
+#: MediaMonkeyApp.pas:7486 ResStrings.pas:371
 msgid "Unregistered"
 msgstr "Neregistrováno"
 
-#: MediaMonkeyApp.pas:7487
+#: MediaMonkeyApp.pas:7488
 msgid "Trial version"
 msgstr "Zkušební verze"
 
-#: MediaMonkeyApp.pas:7489
+#: MediaMonkeyApp.pas:7490
 msgid "Standard edition"
 msgstr "Standardní edice"
 
-#: MediaMonkeyApp.pas:7508
+#: MediaMonkeyApp.pas:7509
 msgid "Registered"
 msgstr "Registrováno"
 
-#: MediaMonkeyApp.pas:7513
-msgid "Invalid"
-msgstr "Neplatná"
+#: MediaMonkeyApp.pas:7514 MediaMonkeyApp.pas:7523
+#, fuzzy
+#| msgid "Not calculated"
+msgid "Not activated"
+msgstr "Nespočítano"
 
-#: MediaMonkeyApp.pas:7522 RegManage.pas:538
+#: MediaMonkeyApp.pas:7523 RegManage.pas:553
 msgid "%d days remaining"
 msgstr "Zbývá %d dní"
 
-#: MediaMonkeyApp.pas:7524
-msgid "Verify"
-msgstr "Ověřit"
+#: MediaMonkeyApp.pas:7525 RegManage.pas:554
+#, fuzzy
+#| msgid "Active layout"
+msgid "Activate"
+msgstr "Aktivní rozvržení"
 
-#: MediaMonkeyApp.pas:7531
+#: MediaMonkeyApp.pas:7532
 msgid "Expired"
 msgstr "Vypršela"
 
-#: MediaMonkeyApp.pas:7532
+#: MediaMonkeyApp.pas:7533 RegManage.pas:587
 msgid "Renew"
 msgstr "Obnovit"
 
 #. #16581
-#: MediaMonkeyApp.pas:8040
+#: MediaMonkeyApp.pas:8050
 msgid "Open tray"
 msgstr "Vysunout disk"
 
-#: MediaMonkeyApp.pas:8819
+#: MediaMonkeyApp.pas:8829
 msgid "Track"
 msgstr "Skladba"
 
-#: MediaMonkeyApp.pas:8824 QueryManage.pas:4955
+#: MediaMonkeyApp.pas:8834 QueryManage.pas:4955
 msgid "Leveling"
 msgstr "Vyrovnání"
 
-#: MediaMonkeyApp.pas:9289
+#: MediaMonkeyApp.pas:9299
 msgid "Edit Properties"
 msgstr "Upravit vlastnosti"
 
-#: MediaMonkeyApp.pas:9299
+#: MediaMonkeyApp.pas:9309
 msgid "Clear list & play selected + subsequent"
 msgstr "Vyčistit seznam a hrát vybrané + následující"
 
-#: MediaMonkeyApp.pas:9300
+#: MediaMonkeyApp.pas:9310
 msgid "Clear list & play selected only"
 msgstr "Vyčistit soubory a hrát pouze vybrané"
 
-#: MediaMonkeyApp.pas:9301
+#: MediaMonkeyApp.pas:9311
 msgid "Play selected files only"
 msgstr "Přehrát pouze vybrané soubory"
 
-#: MediaMonkeyApp.pas:9868 dialogs\dlgOptions\pnl_MetadataLookup.html:33
+#: MediaMonkeyApp.pas:9887 MediaMonkeyApp.pas:9902
+#: dialogs\dlgOptions\pnl_MetadataLookup.html:33
 msgid "Database"
 msgstr "Databáze"
 
-#: MediaMonkeyApp.pas:9887 dialogs\dlgConvertFormat.html:31
+#: MediaMonkeyApp.pas:9902
+#, fuzzy
+#| msgid "processing"
+msgid "Compressing..."
+msgstr "zpracování"
+
+#: MediaMonkeyApp.pas:9922 dialogs\dlgConvertFormat.html:31
 msgid "Settings"
 msgstr "Nastavení"
 
@@ -8973,27 +8960,61 @@ msgstr "Původní datum"
 msgid "Present"
 msgstr "Současnost"
 
-#: RegManage.pas:536
-msgid "Register your Gold license to activate it."
+#: RegManage.pas:551
+#, fuzzy
+#| msgid "Register your Gold license to activate it."
+msgid "Activate your Gold license to complete registration."
 msgstr "Zaregistrujte svou Gold licenci a aktivujte ji."
 
-#: RegManage.pas:539
-msgid "Register"
-msgstr "Registrovat"
+#: RegManage.pas:590
+#, fuzzy
+#| msgid "No track to export"
+msgid "Contact support"
+msgstr "Žádná skladba k exportu"
 
-#: RegManage.pas:573 RegManage.pas:598
-msgid "Please try again later."
-msgstr "Zkuste to prosím znovu později."
+#: RegManage.pas:595
+#, fuzzy
+#| msgid "Expired"
+msgid "Expired."
+msgstr "Vypršela"
 
-#: RegManage.pas:588
-msgid "The key cannot be found"
-msgstr "Klíč nelze najít"
+#: RegManage.pas:596
+msgid ""
+"Your license information is incorrect. Please cut and paste the registration "
+"information to avoid any errors."
+msgstr ""
+"Vaše informace o licenci jsou nesprávné. Vyjměte a vložte registrační údaje, "
+"abyste se vyhnuli chybám."
 
-#: RegManage.pas:594
+#: RegManage.pas:597
+#, fuzzy
+#| msgid "Registration failed"
+msgid "Activation failed"
+msgstr "Registrace se nezdařila"
+
+#: RegManage.pas:598
 msgid "The key has been used too many times"
 msgstr "Klíč byl použit příliš mnohokrát"
 
-#: RegManage.pas:691
+#: RegManage.pas:601
+#, fuzzy
+#| msgid "License"
+msgid "License status"
+msgstr "Licence"
+
+#: RegManage.pas:601 RegManage.pas:705 RegManage.pas:712 RegManage.pas:735
+msgid "Registration failed"
+msgstr "Registrace se nezdařila"
+
+#: RegManage.pas:712 RegManage.pas:735
+msgid "Please try again later."
+msgstr "Zkuste to prosím znovu později."
+
+#: RegManage.pas:721
+msgid "Registration succeeded! Thank you for purchasing MediaMonkey Gold!"
+msgstr "Registrace proběhla úspěšně! Děkujeme za zakoupení MediaMonkey Gold!"
+
+#: RegManage.pas:828
 msgid ""
 "To upgrade or to learn more about MediaMonkey Gold, click the 'Upgrade' "
 "button."
@@ -9001,7 +9022,7 @@ msgstr ""
 "K aktualizaci nebo k získání více informací o aktualizaci na MediaMonkey "
 "Gold stiskněte tlačítko 'Aktualizovat'."
 
-#: RegManage.pas:695
+#: RegManage.pas:832
 msgid "Upgrade"
 msgstr "Aktualizace"
 
@@ -9355,11 +9376,11 @@ msgstr ""
 "Zkontrolujte, zda již běží jiná instance MediaMonkey, nebo změňte port# v "
 "Možnostech > Sdílení médií."
 
-#: UpNp.pas:4506
+#: UpNp.pas:4516
 msgid "Denied"
 msgstr "Zamítnuto"
 
-#: UpNp.pas:4508
+#: UpNp.pas:4518
 msgid "Accepted"
 msgstr "Akceptováno"
 
@@ -9367,86 +9388,86 @@ msgstr "Akceptováno"
 #. this is request to (un)check this item on the sync list for particular device
 #. to make the log nicer
 #. it is container, 'path/Artist/ABBA'
-#: UpNp.pas:4820 UpNp.pas:5618 UpNp.pas:6471
+#: UpNp.pas:4830 UpNp.pas:5628 UpNp.pas:6486
 #: controls\deviceConfig\options\pnl_FileLocations.html:73
 msgid "Root directory"
 msgstr "Kořenový adresář"
 
-#: UpNp.pas:4891
+#: UpNp.pas:4901
 msgid "Output from MediaMonkey Player"
 msgstr "Výstup z přehrávače MediaMonkey"
 
-#: UpNp.pas:5834 UpNp.pas:5840
+#: UpNp.pas:5845 UpNp.pas:5851
 msgid "This is an external IP address!"
 msgstr "Toto je externí IP adresa!"
 
-#: UpNp.pas:5836 UpNp.pas:5843
+#: UpNp.pas:5847 UpNp.pas:5854
 msgid "Do you want to grant it access?"
 msgstr "Chcete mu povolit přístup?"
 
 #. Access is not allowed, ask user to allow access
-#: UpNp.pas:5970
+#: UpNp.pas:5985
 msgid "A device [MAC address: %s] is attempting to access the %s"
 msgstr "Zařízení [MAC adresa: %s] se pokouší přistoupit k %s"
 
 #. WiFi sync
-#: UpNp.pas:5996
+#: UpNp.pas:6011
 msgid "Access denied"
 msgstr "Přístup zamítnut"
 
 #. #18189 - to advance to next track when screen is dimmed (and player seekbar rendering inactive)
 #. to not show "turned off or inaccessible" message, but just skip to the next file
-#: UpNp.pas:8576 UpNp.pas:9135 UpNp.pas:12996
+#: UpNp.pas:8591 UpNp.pas:9150 UpNp.pas:13011
 msgid "Buffering on"
 msgstr "Načítání"
 
-#: UpNp.pas:8643
+#: UpNp.pas:8658
 msgid "Connecting to"
 msgstr "Připojení k"
 
 #. some players (e.g. Samsung) requires Stop before setting another track (#10298: Next has no effect when player is Samsung TV)
-#: UpNp.pas:8738
+#: UpNp.pas:8753
 msgid "Stopping on"
 msgstr "Zastavuje se"
 
-#: UpNp.pas:8812 UpNp.pas:8581
+#: UpNp.pas:8827 UpNp.pas:8581
 msgid "The %s player is turned off or inaccessible."
 msgstr "Přehrávač %s je buď vypnutý nebo nedostupný."
 
-#: UpNp.pas:9418
+#: UpNp.pas:9433
 msgid "Multi-zone"
 msgstr "Vícezónové"
 
-#: UpNp.pas:10428
+#: UpNp.pas:10443
 msgid "Manufacturer"
 msgstr "Výrobce"
 
-#: UpNp.pas:10430
+#: UpNp.pas:10445
 msgid "Model name"
 msgstr "Jméno modelu"
 
-#: UpNp.pas:10432
+#: UpNp.pas:10447
 msgid "Model number"
 msgstr "Číslo modelu"
 
-#: UpNp.pas:10434
+#: UpNp.pas:10449
 msgid "Model description"
 msgstr "Popis modelu"
 
-#: UpNp.pas:11420
+#: UpNp.pas:11435
 msgid "The link/URL has not been entered in a valid format"
 msgstr "Vložený odkaz není ve správném formátu"
 
 #. try again after 1 second as in some environments the router re-configuration (OpenPort) makes temporal issues
-#: UpNp.pas:11443
+#: UpNp.pas:11458
 msgid "The link/URL entered does not point to a media server device"
 msgstr "Vložený odkaz není odkaz zařízení typu mediální server"
 
-#: UpNp.pas:13063
+#: UpNp.pas:13078
 msgid "Playing to %s has failed"
 msgstr "Přehrávání do %s selhalo"
 
-#: UpNp.pas:13063
+#: UpNp.pas:13078
 msgid "The format is probably unsupported by the device."
 msgstr "Formát zařízení pravděpodobně nepodporuje."
 
@@ -13241,6 +13262,27 @@ msgstr "Povolit plynulé posouvání"
 msgid "This enables smooth scrolling of lists."
 msgstr "Aktivuje hladké posouvání seznamů."
 
+#~ msgid "Enter registration key for MediaMonkey Gold"
+#~ msgstr "Zadejte registrační klíč pro MediaMonkey Gold"
+
+#~ msgid "The code you entered is invalid"
+#~ msgstr "Zadaný kód je neplatný"
+
+#~ msgid "Please try again"
+#~ msgstr "Zkuste to prosím znovu"
+
+#~ msgid "Invalid"
+#~ msgstr "Neplatná"
+
+#~ msgid "Verify"
+#~ msgstr "Ověřit"
+
+#~ msgid "Register"
+#~ msgstr "Registrovat"
+
+#~ msgid "The key cannot be found"
+#~ msgstr "Klíč nelze najít"
+
 #~ msgid "<Add New Collection...>"
 #~ msgstr "<Přidat novou kolekci...>"
 
@@ -13338,9 +13380,6 @@ msgstr "Aktivuje hladké posouvání seznamů."
 
 #~ msgid "choose source"
 #~ msgstr "vybrat zdroj"
-
-#~ msgid "No track to export"
-#~ msgstr "Žádná skladba k exportu"
 
 #~ msgid ""
 #~ "If enabled, MediaMonkey will check also whether a new beta build exists."
@@ -13624,9 +13663,6 @@ msgstr "Aktivuje hladké posouvání seznamů."
 
 #~ msgid "of"
 #~ msgstr "z"
-
-#~ msgid "processing"
-#~ msgstr "zpracování"
 
 #~ msgid "to"
 #~ msgstr "až"
