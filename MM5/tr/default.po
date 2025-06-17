@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2025-06-13 08:51\n"
-"PO-Revision-Date: 2025-06-17 05:50+0000\n"
+"PO-Revision-Date: 2025-06-18 06:50+0000\n"
 "Last-Translator: By Burhan 2010 <byburhann2010@gmail.com>\n"
 "Language-Team: Turkish <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/tr/>\n"
@@ -3949,12 +3949,12 @@ msgstr "Puanlamayı kaldır"
 #: controls/searchBar.js:26 dialogs/dlgOptions.js:115 dialogs/dlgSearch.js:6
 #: Extensions.pas:1661 controls\searchEditor.html:5
 msgid "Search"
-msgstr ""
+msgstr "Arama"
 
 #. to avoid stealing focus by resetting it to new view
 #: controls/searchBar.js:460 dialogs/dlgOptions/pnl_Search.js:55
 msgid "Filters matches"
-msgstr ""
+msgstr "Eşleşmeleri filtreler"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. in case of collection search we need to change view at first
@@ -3967,11 +3967,11 @@ msgstr "Geçerli görünümü ara"
 #: controls/searchBar.js:477 controls/searchBar.js:503
 #: dialogs/dlgOptions/pnl_Search.js:56 dialogs/dlgOptions/pnl_Search.js:57
 msgid "Scrolls to match"
-msgstr ""
+msgstr "Eşleşen kaydırmalar"
 
 #: controls/searchBar.js:477 dialogs/dlgOptions/pnl_Search.js:56
 msgid "primary sort field"
-msgstr ""
+msgstr "birincil sıralama alanı"
 
 #: controls/searchBar.js:503 dialogs/dlgOptions/pnl_Search.js:57
 msgid "all fields"
@@ -3980,49 +3980,54 @@ msgstr "tüm alanlar"
 #. LS: seems to be valid also for active list searching (e.g. in Music > All Tracks) -- i.e. this.searchType == 'activelist'
 #: controls/searchBar.js:741
 msgid "Search Tips"
-msgstr ""
+msgstr "Arama İpuçları"
 
 #. following variants are not supported in word infix mode (see #17395)
 #: controls/searchBar.js:744
 msgid "foo | finds words beginning with foo (e.g. Bar Food or fóObar )"
-msgstr ""
+msgstr "foo | foo ile başlayan kelimeleri bulur (örn. Bar Food veya fóObar)"
 
 #: controls/searchBar.js:745
 msgid "+Foo | finds words beginning with Foo (case-sensitive, e.g. Football)"
 msgstr ""
+"+Foo | Foo ile başlayan kelimeleri bulur (büyük/küçük harfe duyarlı, örn. "
+"Futbol)"
 
 #: controls/searchBar.js:747
 msgid "\"Foo\" | finds whole words  (e.g. FOO or fóo)"
-msgstr ""
+msgstr "\"Foo\" | tüm kelimeleri bulur (örn. FOO veya fóo)"
 
 #: controls/searchBar.js:748
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
 msgstr ""
+"\"foo bar\" | foo bar ifadesini içeren eşleşmeleri bulur (örn. foo barman)"
 
 #: controls/searchBar.js:749
 msgid "foo bar | finds matches with foo and bar"
-msgstr ""
+msgstr "foo bar | foo ve bar ile eşleşmeleri bulur"
 
 #: controls/searchBar.js:750
 msgid "foo OR bar | finds matches with either foo or bar"
-msgstr ""
+msgstr "foo VEYA bar | foo veya bar ile eşleşmeleri bulur"
 
 #: controls/searchBar.js:751
 msgid "foo -bar | finds matches with foo and not bar"
-msgstr ""
+msgstr "foo -bar | foo ile eşleşenleri bulur, ancak bar ile eşleşmez"
 
 #: controls/searchBar.js:752
 msgid "fieldname:foo | restricts search to a specific field. For example:"
-msgstr ""
+msgstr "fieldname:foo | aramayı belirli bir alanla sınırlar. Örneğin:"
 
 #: controls/searchBar.js:753
 msgid ""
 "artist:floy | finds words beginning with floy (in Artist) e.g. Pink Floyd"
 msgstr ""
+"sanatçı:floy | floy ile başlayan kelimeleri bulur (Sanatçıda) örneğin Pink "
+"Floyd"
 
 #: controls/searchBar.js:754
 msgid "year:2000..2006 | finds matches in range 2000 to 2006"
-msgstr ""
+msgstr "yıl:2000..2006 | 2000 ile 2006 aralığında eşleşmeler bulur"
 
 #: controls/searchBar.js:755
 msgid "rating: 4.. | finds matches with 4 stars or more"
@@ -4036,36 +4041,36 @@ msgstr "Ayarlamak için tıklayın"
 #. insert 'Match [Any/All]...'
 #: controls/searchEditor.js:759
 msgid "Nested condition"
-msgstr ""
+msgstr "İç içe koşul"
 
 #: controls/searchEditor.js:790
 msgid "Classification & Custom"
-msgstr ""
+msgstr "Sınıflandırma & Özel"
 
 #: controls/searchEditor.js:794
 msgid "Others"
-msgstr ""
+msgstr "Diğerleri"
 
 #. LS: note that the following won't work once the animated remove wouldn not be used
 #: controls/searchEditor.js:831 dialogs/dlgEditView.js:150
 msgid "A..Z"
-msgstr ""
+msgstr "A..Z"
 
 #: controls/searchEditor.js:833 dialogs/dlgEditView.js:152
 msgid "Z..A"
-msgstr ""
+msgstr "Z..A"
 
 #. #14561, orig. #14202 - item 7
 #. #14561, orig. #14202 - item 7
 #: controls/searchEditor.js:848 dialogs/dlgEditView.js:169 ResStrings.pas:397
 msgid "Random"
-msgstr ""
+msgstr "Rastgele"
 
 #. needs to be assigned due to proper vertical align
 #: controls/searchEditor.js:848 controls/searchEditor.js:904
 #: dialogs/dlgEditView.js:169
 msgid "Random Album"
-msgstr ""
+msgstr "Rastgele Albüm"
 
 #. set loaded flag
 #. show results immediatelly
@@ -4076,34 +4081,34 @@ msgstr "Sonuç bulunamadı"
 #. force to reload local image
 #: controls/seriesViewHeader.js:93
 msgid "Wrong series?"
-msgstr ""
+msgstr "Yanlış seri mi?"
 
 #: controls/seriesViewHeader.js:126
 msgid "Enter name"
-msgstr ""
+msgstr "Adınızı girin"
 
 #: controls/seriesViewHeader.js:176
 msgid "Edit series in TVDB"
-msgstr ""
+msgstr "TVDB'de diziyi düzenle"
 
 #: controls/seriesViewHeader.js:398 controls/seriesViewHeader.js:435
 #: controls/seriesViewHeader.js:465
 msgid "series image"
-msgstr ""
+msgstr "dizi resmi"
 
 #. not saved for some reason, try to fill original link
 #: controls/seriesViewHeader.js:539
 msgid "season"
-msgstr ""
+msgstr "sezon"
 
 #: controls/seriesViewHeader.js:546
 msgid "episode"
-msgstr ""
+msgstr "bölüm"
 
 #. load values:
 #: controls/serverConfig.js:80
 msgid "Clients"
-msgstr ""
+msgstr "Müşteriler"
 
 #: controls/serverConfig.js:84 dialogs\dlgOptions\pnl_Network.html:7
 msgid "Server"
@@ -4143,58 +4148,58 @@ msgstr "Aynı genişlikleri ayarla"
 
 #: controls/tracklistFilter.js:393
 msgid "Add Column"
-msgstr ""
+msgstr "Sütun Ekle"
 
 #: controls/tracklistFilter.js:402
 msgid "Remove Column"
-msgstr ""
+msgstr "Sütunu Kaldır"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. copy from tracklist menu, set tracklist for menu to our ds
 #: controls/trackListView.js:12 dialogs\dlgOptions\pnl_Appearance.html:31
 msgid "Custom 1"
-msgstr ""
+msgstr "Özel 1"
 
 #: controls/trackListView.js:13 dialogs\dlgOptions\pnl_Appearance.html:33
 msgid "Custom 2"
-msgstr ""
+msgstr "Özel 2"
 
 #: controls/trackListView.js:14 dialogs\dlgOptions\pnl_Appearance.html:35
 msgid "Custom 3"
-msgstr ""
+msgstr "Özel 3"
 
 #: controls/trackListView.js:15 dialogs\dlgOptions\pnl_Appearance.html:37
 msgid "Custom 4"
-msgstr ""
+msgstr "Özel 4"
 
 #: controls/trackListView.js:16 dialogs\dlgOptions\pnl_Appearance.html:39
 msgid "Custom 5"
-msgstr ""
+msgstr "Özel 5"
 
 #: controls/trackListView.js:17 dialogs\dlgOptions\pnl_Appearance.html:41
 msgid "Custom 6"
-msgstr ""
+msgstr "Özel 6"
 
 #: controls/trackListView.js:18 dialogs\dlgOptions\pnl_Appearance.html:43
 msgid "Custom 7"
-msgstr ""
+msgstr "Özel 7"
 
 #: controls/trackListView.js:19 dialogs\dlgOptions\pnl_Appearance.html:45
 msgid "Custom 8"
-msgstr ""
+msgstr "Özel 8"
 
 #: controls/trackListView.js:20 dialogs\dlgOptions\pnl_Appearance.html:47
 msgid "Custom 9"
-msgstr ""
+msgstr "Özel 9"
 
 #: controls/trackListView.js:21 dialogs\dlgOptions\pnl_Appearance.html:49
 msgid "Custom 10"
-msgstr ""
+msgstr "Özel 10"
 
 #: controls/trackListView.js:46 dialogs/dlgTrackProperties.js:34
 #: dialogs\dlgAutoConvertRule.html:51
 msgid "Custom"
-msgstr ""
+msgstr "Özel"
 
 #: controls/trackListView.js:54
 msgid "Play History"
@@ -4202,12 +4207,12 @@ msgstr "Oynatma Geçmişi"
 
 #: controls/trackListView.js:58
 msgid "Groups"
-msgstr ""
+msgstr "Gruplar"
 
 #: controls/trackListView.js:206 MaskHelper.pas:3129 ResStrings.pas:462
 #: ResStrings.pas:520
 msgid "Filename"
-msgstr ""
+msgstr "Dosya adı"
 
 #: controls/trackListView.js:329
 #: Scripts/statistics/dialogs/dlgStatistics.js:375
@@ -4216,18 +4221,18 @@ msgstr ""
 #: Scripts/statistics/dialogs/dlgStatistics.js:564 MaskHelper.pas:3187
 #: MaskHelper.pas:3676 MaskHelper.pas:3905 ResStrings.pas:442
 msgid "Played #"
-msgstr ""
+msgstr "Oynanan #"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:358 MaskHelper.pas:3189 MaskHelper.pas:3681
 #: MaskHelper.pas:3907 ResStrings.pas:444 Win7ToolsImpl.pas:2199
 msgid "Last Played"
-msgstr ""
+msgstr "Son Oynanan"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:374 QueryManage.pas:4950
 msgid "Last Skipped"
-msgstr ""
+msgstr "Son Atlanan"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. bitrate
@@ -4237,24 +4242,24 @@ msgstr ""
 #: QueryManage.pas:5071 ResStrings.pas:448 ResStrings.pas:449
 #: ResStrings.pas:518 dialogs\dlgOGGSettings.html:26
 msgid "Bitrate"
-msgstr ""
+msgstr "Bit hızı"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:445 MaskHelper.pas:3190 MaskHelper.pas:3691
 #: MaskHelper.pas:3909 ResStrings.pas:424 ResStrings.pas:450
 msgid "Media"
-msgstr ""
+msgstr "Medya"
 
 #: controls/trackListView.js:649 MP3Utils.pas:4467
 #: dialogs\dlgTrackProperties\tabCustom.html:107
 msgid "Extended tags"
-msgstr ""
+msgstr "Genişletilmiş etiketler"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:675 MaskHelper.pas:3191 MaskHelper.pas:3686
 #: MaskHelper.pas:3908 ResStrings.pas:451
 msgid "Filesize"
-msgstr ""
+msgstr "Dosya boyutu"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, specific for each track
@@ -4262,13 +4267,13 @@ msgstr ""
 #: QueryManage.pas:5073 ResStrings.pas:452 ResStrings.pas:522
 #: dialogs\dlgTrackProperties\tabDetails.html:25
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 #: controls/trackListView.js:711 FormatsHandler.pas:3019
 #: FormatsHandler.pas:3027 FormatsHandler.pas:3036 FormatsHandler.pas:3054
 #: ResStrings.pas:454 ResStrings.pas:455 dialogs\dlgMP3Settings.html:54
 msgid "Sample rate"
-msgstr ""
+msgstr "Örnekleme"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Songs.Author
@@ -4277,29 +4282,29 @@ msgstr ""
 #: MaskHelper.pas:3696 MaskHelper.pas:3910 QueryManage.pas:4966
 #: ResStrings.pas:456 WinAmpPlugins.pas:5359 dialogs\dlgOGGSettings.html:63
 msgid "Channels"
-msgstr ""
+msgstr "Kanallar"
 
 #: controls/trackListView.js:746 MaskHelper.pas:3193 MaskHelper.pas:3701
 #: MaskHelper.pas:3911 ResStrings.pas:386 ResStrings.pas:453
 #: dialogs\dlgSupportedFormat.html:38
 msgid "Bit depth"
-msgstr ""
+msgstr "Bit derinliği"
 
 #: controls/trackListView.js:764 ResStrings.pas:460
 #: dialogs\dlgTrackProperties\tabDetails.html:172
 msgid "Track volume"
-msgstr ""
+msgstr "Parça ses seviyesi"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:883
 msgid "Recommended path"
-msgstr ""
+msgstr "Önerilen yol"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:907 MaskHelper.pas:3167 QueryManage.pas:4942
 #: ResStrings.pas:463 ResStrings.pas:519
 msgid "Extension"
-msgstr ""
+msgstr "Eklenti"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, specific for each track
@@ -4308,13 +4313,13 @@ msgstr ""
 #: QueryManage.pas:5061 ResStrings.pas:458
 #: dialogs\dlgTrackProperties\tabDetails.html:236
 msgid "Added"
-msgstr ""
+msgstr "Eklendi"
 
 #. Songs.Lyricist
 #: controls/trackListView.js:967 MaskHelper.pas:3168 MaskHelper.pas:3593
 #: MaskHelper.pas:3887 QueryManage.pas:4978 ResStrings.pas:486
 msgid "Original Date"
-msgstr ""
+msgstr "Orijinal Tarih"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
@@ -4323,14 +4328,14 @@ msgstr ""
 #: ResStrings.pas:468 ResStrings.pas:526
 #: dialogs\dlgTrackProperties\tabBasic.html:203
 msgid "Comment"
-msgstr ""
+msgstr "Yorum"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:1127 ResStrings.pas:461
 #: dialogs\dlgTrackProperties\tabDetails.html:181
 msgid "Album volume"
-msgstr ""
+msgstr "Albüm ses seviyesi"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
@@ -4340,14 +4345,14 @@ msgstr ""
 #: ResStrings.pas:445 ResStrings.pas:515
 #: dialogs\dlgTrackProperties\tabBasic.html:104
 msgid "Disc #"
-msgstr ""
+msgstr "Disk #"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:1189 dialogs/dlgOptions/pnl_MetadataLookup.js:164
 #: ResStrings.pas:473 dialogs\dlgTrackProperties\tabDetails.html:36
 msgid "Involved people"
-msgstr ""
+msgstr "İlgili kişiler"
 
 #: controls/trackListView.js:1206 MaskHelper.pas:3163 ResStrings.pas:476
 #: ResStrings.pas:530 dialogs\dlgTrackProperties\tabDetails.html:58
@@ -4358,25 +4363,25 @@ msgstr "Orijinal Sanatçı"
 #: ResStrings.pas:489 ResStrings.pas:532
 #: dialogs\dlgTrackProperties\tabDetails.html:69
 msgid "Original Album"
-msgstr ""
+msgstr "Orijinal Albüm"
 
 #: controls/trackListView.js:1241 MaskHelper.pas:3164 ResStrings.pas:477
 #: ResStrings.pas:531 dialogs\dlgTrackProperties\tabDetails.html:80
 msgid "Original Lyricist"
-msgstr ""
+msgstr "Orijinal Söz Yazarı"
 
 #. don't save
 #: controls/trackListView.js:1259 dialogs/dlgAutotag.js:2483 Covers.pas:781
 #: MaskHelper.pas:3157 QueryManage.pas:3049 QueryManage.pas:3057
 #: QueryManage.pas:3064 ResStrings.pas:475 ResStrings.pas:529
 msgid "Lyricist"
-msgstr ""
+msgstr "Söz yazarı"
 
 #: controls/trackListView.js:1277 MaskHelper.pas:3155 MaskHelper.pas:3573
 #: MaskHelper.pas:3883 QueryManage.pas:4939 ResStrings.pas:490
 #: dialogs\dlgTrackProperties\tabDetails.html:5
 msgid "Grouping"
-msgstr ""
+msgstr "Gruplama"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this field should not be used for whole album, summary has own artwork field
@@ -4387,26 +4392,26 @@ msgstr ""
 #: ResStrings.pas:446 ResStrings.pas:516
 #: dialogs\dlgTrackProperties\tabBasic.html:112
 msgid "Track #"
-msgstr ""
+msgstr "Parça #"
 
 #. this field should not be used for whole album, specific for each track
 #: controls/trackListView.js:1457 MaskHelper.pas:3188 MaskHelper.pas:3776
 #: MaskHelper.pas:3931 ResStrings.pas:443
 msgid "Skipped #"
-msgstr ""
+msgstr "Atlandı #"
 
 #. this field should not be used for whole album, specific for each track
 #. TODO: HTML: get the dimensions a better way?
 #: controls/trackListView.js:1497 Covers.pas:1312 MaskHelper.pas:3198
 #: MaskHelper.pas:3726 MaskHelper.pas:3916 ResStrings.pas:493
 msgid "Resolution"
-msgstr ""
+msgstr "Çözünürlük"
 
 #: controls/trackListView.js:1510 FormatsHandler.pas:2998 MaskHelper.pas:3199
 #: MaskHelper.pas:3731 MaskHelper.pas:3917 ResStrings.pas:494
 #: dialogs\videoConvSettings.html:87
 msgid "Framerate"
-msgstr ""
+msgstr "Kare hızı"
 
 #. assign duration only if we don't have a better way to find it (issue #8948)
 #: controls/trackListView.js:1523 dialogs/dlgTrackProperties/tabBasic.js:509
@@ -4420,23 +4425,23 @@ msgstr "Podcast'ler"
 #: MaskHelper.pas:3176 MaskHelper.pas:3624 MaskHelper.pas:3893
 #: ResStrings.pas:498 ResStrings.pas:504
 msgid "Episode #"
-msgstr ""
+msgstr "Bölüm #"
 
 #: controls/trackListView.js:1618 dialogs/dlgTrackProperties/tabBasic.js:518
 #: MaskHelper.pas:3177 MaskHelper.pas:3631 MaskHelper.pas:3895
 #: ResStrings.pas:499 ResStrings.pas:505
 msgid "Season #"
-msgstr ""
+msgstr "Sezon #"
 
 #: controls/trackListView.js:1636 MaskHelper.pas:3201 MaskHelper.pas:3741
 #: MaskHelper.pas:3919 QueryManage.pas:1887 ResStrings.pas:488
 msgid "Screenwriter"
-msgstr ""
+msgstr "Senarist"
 
 #: controls/trackListView.js:1671 ResStrings.pas:497
 #: dialogs\dlgTrackProperties\tabBasic.html:170
 msgid "Actor(s)"
-msgstr ""
+msgstr "Aktör(s)"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
@@ -4453,29 +4458,29 @@ msgstr "Ebeveyn Değerlendirmesi"
 #: MaskHelper.pas:3641 MaskHelper.pas:3898 QueryManage.pas:4944
 #: dialogs\dlgMediaProperties.html:11
 msgid "Type"
-msgstr ""
+msgstr "Tip"
 
 #: controls/trackListView.js:1719 MaskHelper.pas:3185 MaskHelper.pas:3666
 #: MaskHelper.pas:3903 QueryManage.pas:4940 QueryManage.pas:5074
 #: QueryManage.pas:5075 dialogs\dlgTrackProperties\tabDetails.html:16
 msgid "Initial Key"
-msgstr ""
+msgstr "Başlangıç Anahtarı"
 
 #: controls/trackListView.js:1736 MaskHelper.pas:3203 ResStrings.pas:474
 #: ResStrings.pas:528 dialogs\dlgTrackProperties\tabDetails.html:92
 msgid "ISRC"
-msgstr ""
+msgstr "ISRC"
 
 #: controls/trackListView.js:1753 ResStrings.pas:472 ResStrings.pas:527
 #: dialogs\dlgTrackProperties\tabDetails.html:112
 msgid "Encoder"
-msgstr ""
+msgstr "Kodlayıcı"
 
 #: controls/trackListView.js:1770 MaskHelper.pas:3205 MaskHelper.pas:3746
 #: MaskHelper.pas:3920 ResStrings.pas:471
 #: dialogs\dlgTrackProperties\tabDetails.html:121
 msgid "Copyright"
-msgstr ""
+msgstr "Telif hakkı"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. scroll column was specified
@@ -4483,40 +4488,40 @@ msgstr ""
 #: controls/trackListView.js:2210 controls/trackListView.js:2216
 #: dialogs\dlgDelay.html:13
 msgid "in"
-msgstr ""
+msgstr "için"
 
 #. ODS('--- cancelled getWave');
 #: controls/waveform.js:95
 msgid "Update waveform"
-msgstr ""
+msgstr "Dalga formunu güncelle"
 
 #: controls/clientConfig/autoConvert.js:5
 msgid "Convert the following formats when playing %s content remotely"
-msgstr ""
+msgstr "%s içeriğini uzaktan oynatırken aşağıdaki biçimleri dönüştürün"
 
 #: controls/clientConfig/autoConvert.js:6
 #: controls/serverConfig/autoConvert.js:4
 msgid "Format on PC"
-msgstr ""
+msgstr "Bilgisayarda biçimlendir"
 
 #: controls/clientConfig/autoConvert.js:7
 #: controls/serverConfig/autoConvert.js:5
 msgid "Streaming format"
-msgstr ""
+msgstr "Akış formatı"
 
 #: controls/clientConfig/autoConvert.js:8
 #: controls/deviceConfig/options/pnl_AutoConversion.js:9
 msgid "Supported formats on '%s'"
-msgstr ""
+msgstr "'%s' üzerinde desteklenen formatlar"
 
 #: controls/clientConfig/autoConvert.js:9
 #: controls/serverConfig/autoConvert.js:7
 msgid "Level volume when sharing audio"
-msgstr ""
+msgstr "Ses paylaşımı sırasında ses seviyesini ayarlayın"
 
 #: controls/deviceConfig/options.js:9
 msgid "File Locations"
-msgstr ""
+msgstr "Dosya Konumları"
 
 #: controls/deviceConfig/options.js:13
 msgid "Tagging"
