@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-18 20:10\n"
+"POT-Creation-Date: 2025-08-21 17:44\n"
 "PO-Revision-Date: 2025-08-09 02:50+0000\n"
 "Last-Translator: 大眼仔旭 <wcxu21@126.com>\n"
 "Language-Team: Chinese (Simplified) <http://translations.mediamonkey.com/"
@@ -491,14 +491,14 @@ msgstr "艺术家"
 #: actions.js:1571 viewHandlers.js:780 viewHandlers.js:799 viewHandlers.js:814
 #: viewHandlers.js:4072 viewHandlers.js:5439 viewHandlers.js:7722
 #: controls/searchView.js:287 controls/deviceConfig/options.js:17
-#: controls/deviceConfig/syncToDevice.js:324 dialogs/dlgEditView.js:618
+#: controls/deviceConfig/syncToDevice.js:324 dialogs/dlgEditView.js:630
 #: Scripts/statistics/dialogs/dlgStatistics.js:177 AutoOrganize.pas:1635
 #: FormatsManage.pas:3866 Importers.pas:454 ResStrings.pas:430
 #: Win7ToolsImpl.pas:2195 dialogs\dlgOptions\pnl_Library.html:38
 msgid "Playlists"
 msgstr "播放列表"
 
-#: actions.js:1581 viewHandlers.js:7938
+#: actions.js:1581 viewHandlers.js:7941
 #: controls\audiobookCollectionView.html:18
 msgid "Pinned"
 msgstr "已固定"
@@ -531,7 +531,7 @@ msgstr "标题"
 #. this field should not be used for whole album, specific for each track
 #. don't save
 #: actions.js:1609 templates.js:1295 templates.js:1343 templates.js:1374
-#: uitools.js:1412 viewHandlers.js:8682 controls/albumlistView.js:602
+#: uitools.js:1412 viewHandlers.js:8685 controls/albumlistView.js:602
 #: controls/albumViewHeader.js:104 controls/albumViewHeader.js:106
 #: controls/downloadView.js:122 controls/player.js:842 controls/sortBy.js:10
 #: controls/trackListView.js:182 dialogs/dlgArtworkDetail.js:12
@@ -553,7 +553,7 @@ msgstr "专辑"
 #. this field should not be used for whole album, specific for each track
 #. don't save
 #: actions.js:1627 templates.js:1288 templates.js:1335 templates.js:1368
-#: uitools.js:1440 viewHandlers.js:8776 controls/artistViewHeader.js:59
+#: uitools.js:1440 viewHandlers.js:8779 controls/artistViewHeader.js:59
 #: controls/artistViewHeader.js:61 controls/downloadView.js:131
 #: controls/player.js:832 controls/trackListView.js:158
 #: dialogs/dlgAutotag.js:2194 dialogs/dlgDeletedTracks.js:94
@@ -669,7 +669,7 @@ msgstr "媒体库"
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not process updateValues() when just setting up the source
 #. The first line will show 'All' items
-#: actions.js:1825 actions.js:3548 uitools.js:1613 viewHandlers.js:8449
+#: actions.js:1825 actions.js:3548 uitools.js:1613 viewHandlers.js:8452
 #: controls/buttons.js:434 controls/deviceContentSequencer.js:17
 #: controls/tracklistFilter.js:676 controls/deviceConfig/syncToDevice.js:322
 #: controls/deviceConfig/syncToDevice.js:324 dialogs/dlgExtensions.js:49
@@ -1340,7 +1340,7 @@ msgstr "发送到"
 #. root items insert directly to presetColumns, so we will not need to move them here later
 #. to hide the filter on view switch
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: actions.js:3959 controls/columntracklist.js:300 controls/filterEditor.js:124
+#: actions.js:3959 controls/columntracklist.js:301 controls/filterEditor.js:124
 #: controls/tracklistFilter.js:450
 msgid "Recently used"
 msgstr "最近使用"
@@ -1463,10 +1463,10 @@ msgstr "歌词"
 #. it is a list
 #. we want to always save lyrics when clicked manually by user
 #. swap the selected part and order part for X seconds per suggestion in #19285
-#: actions.js:4629 viewHandlers.js:8035 controls/artWindow.js:2079
+#: actions.js:4629 viewHandlers.js:8038 controls/artWindow.js:2079
 #: controls/nowplayingList.js:255 controls/playingListContainer.js:117
 #: controls/statusbar.js:131 controls/statusbar.js:134
-#: dialogs/dlgEditView.js:609
+#: dialogs/dlgEditView.js:621
 msgid "Playing"
 msgstr "正在播放"
 
@@ -1932,7 +1932,7 @@ msgstr "长宽比例"
 #. for the content browser on the 'Summary' page
 #: templates.js:379 controls/deviceConfig.js:378 dialogs/dlgAutotag.js:1870
 #: MaskHelper.pas:3197 MaskHelper.pas:3721 MaskHelper.pas:3915
-#: ResStrings.pas:493 dialogs\dlgEditView.html:37
+#: ResStrings.pas:493 dialogs\dlgEditView.html:40
 msgid "Summary"
 msgstr "摘要"
 
@@ -1968,7 +1968,7 @@ msgstr "未找到歌词"
 #. temporary expand to allow editing of larger texts
 #. not "Another artist"
 #. so it is not fetched again
-#: templates.js:595 viewHandlers.js:8682 viewHandlers.js:8776
+#: templates.js:595 viewHandlers.js:8685 viewHandlers.js:8779
 #: controls/albumViewHeader.js:682 controls/artistViewHeader.js:575
 #: controls/searchView.js:587 controls/viewHeader.js:206
 #: helpers/artistDataSource.js:78 helpers/autoTagFramework.js:278
@@ -2094,7 +2094,7 @@ msgstr "请选择一个或多个文件进行此操作。"
 
 #. hide full window player and switcher
 #. TODO: add links to stations
-#: uitools.js:2469 viewHandlers.js:7794 viewHandlers.js:7902
+#: uitools.js:2469 viewHandlers.js:7794 viewHandlers.js:7905
 msgid "Edit bookmark"
 msgstr "编辑书签"
 
@@ -2136,12 +2136,12 @@ msgid "GB"
 msgstr "GB"
 
 #. available to stream from cloud
-#: utils.js:331 helpers/searchCommon.js:144 MediaManage.pas:2645
+#: utils.js:333 helpers/searchCommon.js:144 MediaManage.pas:2645
 #: ResStrings.pas:570
 msgid "Various"
 msgstr "各种各样"
 
-#: utils.js:331 helpers/searchCommon.js:144 MediaManage.pas:2646
+#: utils.js:333 helpers/searchCommon.js:144 MediaManage.pas:2646
 msgid "Various Artists"
 msgstr "各种艺术家"
 
@@ -2810,20 +2810,20 @@ msgstr "影片"
 msgid "Web"
 msgstr "因特网"
 
-#: viewHandlers.js:7808 viewHandlers.js:7916
+#: viewHandlers.js:7808 viewHandlers.js:7919
 msgid "Remove bookmark"
 msgstr "移除书签"
 
-#: viewHandlers.js:7857 viewHandlers.js:7859 GlobVars.pas:2092
+#: viewHandlers.js:7860 viewHandlers.js:7862 GlobVars.pas:2092
 msgid "Radio"
 msgstr "电台"
 
 #. needed e.g. because of #13492
-#: viewHandlers.js:8345 controls/multiview.js:181
+#: viewHandlers.js:8348 controls/multiview.js:181
 msgid "Home"
 msgstr "首页"
 
-#: viewHandlers.js:8361 viewHandlers.js:8383 AutoOrganize.pas:1586
+#: viewHandlers.js:8364 viewHandlers.js:8386 AutoOrganize.pas:1586
 #: ResStrings.pas:400
 msgid "Collections"
 msgstr "收藏"
@@ -3263,23 +3263,25 @@ msgid "Auto-conversion"
 msgstr "自动转换"
 
 # FLAC enc/dec
+#. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. get parent listview
-#: controls/columntracklist.js:191 dialogs/dlgSelectFromList.js:179
+#: controls/columntracklist.js:192 dialogs/dlgSelectFromList.js:179
+#: dialogs\dlgOptions\pnl_Appearance.html:30
 #, fuzzy
 #| msgid "AAC settings"
 msgid "Column settings"
 msgstr "AAC 设置"
 
-#: controls/columntracklist.js:203
+#: controls/columntracklist.js:204
 msgid "Automatic column widths"
 msgstr "自动列宽"
 
-#: controls/columntracklist.js:228
+#: controls/columntracklist.js:229
 msgid "Hide column"
 msgstr "隐藏列"
 
 #. root items insert directly to presetColumns, so we will not need to move them here later
-#: controls/columntracklist.js:301 controls/maskedit.js:230
+#: controls/columntracklist.js:302 controls/maskedit.js:230
 #: controls/tracklistFilter.js:451
 msgid "All fields"
 msgstr "所有字段"
@@ -3288,7 +3290,7 @@ msgstr "所有字段"
 #. not used and will be visible
 #. add fields from this.allMaskItems not mentioned in fieldGroups to Other
 #. not used and will be visible
-#: controls/columntracklist.js:358 controls/deviceConfig.js:277
+#: controls/columntracklist.js:359 controls/deviceConfig.js:277
 #: controls/deviceConfig.js:278 controls/maskedit.js:296
 #: controls/tracklistFilter.js:530 controls\artistAlbums.html:40
 msgid "Other"
@@ -3694,7 +3696,7 @@ msgid "Customize"
 msgstr "自定义"
 
 #: controls/multiview.js:285 dialogs/dlgImageSize.js:39
-#: dialogs\dlgEditView.html:50
+#: dialogs\dlgEditView.html:53
 msgid "Image size"
 msgstr "图像大小"
 
@@ -4098,43 +4100,43 @@ msgstr "移除列"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. copy from tracklist menu, set tracklist for menu to our ds
-#: controls/trackListView.js:12 dialogs\dlgOptions\pnl_Appearance.html:31
+#: controls/trackListView.js:12 dialogs\dlgOptions\pnl_Appearance.html:45
 msgid "Custom 1"
 msgstr "自定义 1"
 
-#: controls/trackListView.js:13 dialogs\dlgOptions\pnl_Appearance.html:33
+#: controls/trackListView.js:13 dialogs\dlgOptions\pnl_Appearance.html:47
 msgid "Custom 2"
 msgstr "自定义 2"
 
-#: controls/trackListView.js:14 dialogs\dlgOptions\pnl_Appearance.html:35
+#: controls/trackListView.js:14 dialogs\dlgOptions\pnl_Appearance.html:49
 msgid "Custom 3"
 msgstr "自定义 3"
 
-#: controls/trackListView.js:15 dialogs\dlgOptions\pnl_Appearance.html:37
+#: controls/trackListView.js:15 dialogs\dlgOptions\pnl_Appearance.html:51
 msgid "Custom 4"
 msgstr "自定义 4"
 
-#: controls/trackListView.js:16 dialogs\dlgOptions\pnl_Appearance.html:39
+#: controls/trackListView.js:16 dialogs\dlgOptions\pnl_Appearance.html:53
 msgid "Custom 5"
 msgstr "自定义 5"
 
-#: controls/trackListView.js:17 dialogs\dlgOptions\pnl_Appearance.html:41
+#: controls/trackListView.js:17 dialogs\dlgOptions\pnl_Appearance.html:55
 msgid "Custom 6"
 msgstr "自定义 6"
 
-#: controls/trackListView.js:18 dialogs\dlgOptions\pnl_Appearance.html:43
+#: controls/trackListView.js:18 dialogs\dlgOptions\pnl_Appearance.html:57
 msgid "Custom 7"
 msgstr "自定义 7"
 
-#: controls/trackListView.js:19 dialogs\dlgOptions\pnl_Appearance.html:45
+#: controls/trackListView.js:19 dialogs\dlgOptions\pnl_Appearance.html:59
 msgid "Custom 8"
 msgstr "自定义 8"
 
-#: controls/trackListView.js:20 dialogs\dlgOptions\pnl_Appearance.html:47
+#: controls/trackListView.js:20 dialogs\dlgOptions\pnl_Appearance.html:61
 msgid "Custom 9"
 msgstr "自定义 9"
 
-#: controls/trackListView.js:21 dialogs\dlgOptions\pnl_Appearance.html:49
+#: controls/trackListView.js:21 dialogs\dlgOptions\pnl_Appearance.html:63
 msgid "Custom 10"
 msgstr "自定义 10"
 
@@ -5012,11 +5014,31 @@ msgstr "已显示"
 msgid "Configure View"
 msgstr "配置视图"
 
-#: dialogs/dlgEditView.js:584
+#: dialogs/dlgEditView.js:413 dialogs/dlgEditView.js:416
+#: dialogs/dlgEditView.js:419
+#, fuzzy
+#| msgid "Choose columns"
+msgid "Choose Columns"
+msgstr "选择列"
+
+#. undefined
+#: dialogs/dlgEditView.js:413 dialogs/dlgEditView.js:416
+#: dialogs/dlgEditView.js:419 FullPlayer.pas:2671
+msgid "Sort"
+msgstr "排序"
+
+#. sources object, this is the list of all sources, addons can add its own source to this list
+#. be sure the language and TVisibilityType are loaded from settings (#21086)
+#: dialogs/dlgEditView.js:419 helpers/autoDJ.js:16 Filters.pas:2140
+#: MediaMonkeyApp.pas:9284 ResStrings.pas:420
+msgid "Entire Library"
+msgstr "整个媒体库"
+
+#: dialogs/dlgEditView.js:596
 msgid "Everywhere"
 msgstr "到处"
 
-#: dialogs/dlgEditView.js:712
+#: dialogs/dlgEditView.js:730
 msgid "Please enter name"
 msgstr "请输入名称"
 
@@ -5416,6 +5438,10 @@ msgstr "收藏和视图"
 
 #: dialogs/dlgOptions.js:99 Scripts\caseChecker\dialogs\dlgCaseChecker.html:51
 msgid "Fields"
+msgstr "字段"
+
+#: dialogs/dlgOptions.js:99 dialogs\dlgChooseFields.html:16
+msgid "Columns"
 msgstr "字段"
 
 #: dialogs/dlgOptions.js:103
@@ -6162,13 +6188,6 @@ msgstr "艺术家信息"
 #: helpers/searchCommon.js:385 Importers.pas:473 ResStrings.pas:390
 msgid "tracks"
 msgstr "曲目"
-
-#. sources object, this is the list of all sources, addons can add its own source to this list
-#. be sure the language and TVisibilityType are loaded from settings (#21086)
-#: helpers/autoDJ.js:16 Filters.pas:2140 MediaMonkeyApp.pas:9284
-#: ResStrings.pas:420
-msgid "Entire Library"
-msgstr "整个媒体库"
 
 #: helpers/autoDJ.js:33 Scripts/imageSearch/helpers/searchTools_add.js:250
 #: dialogs\dlgCollectionOptions.html:80
@@ -7734,11 +7753,6 @@ msgstr "添加 %d 个文件到正在播放列表"
 msgid "Clear Playing"
 msgstr "清除正在播放列表"
 
-#. undefined
-#: FullPlayer.pas:2671
-msgid "Sort"
-msgstr "排序"
-
 #: FullPlayer.pas:3040
 msgid "Currently, there is no output plug-in selected"
 msgstr "目前, 没有任一输出插件被选取"
@@ -8261,7 +8275,7 @@ msgstr "剩余 %d 天"
 msgid "Activate"
 msgstr "激活"
 
-#: MediaMonkeyApp.pas:7530
+#: MediaMonkeyApp.pas:7530 RegManage.pas:595
 msgid "Expired"
 msgstr "已到期"
 
@@ -8858,10 +8872,6 @@ msgstr "激活您的黄金许可证以完成注册。"
 msgid "Contact support"
 msgstr "联系支持人员"
 
-#: RegManage.pas:595
-msgid "Expired."
-msgstr "已到期。"
-
 #: RegManage.pas:596
 msgid ""
 "Your license information is incorrect. Please cut and paste the registration "
@@ -9428,7 +9438,7 @@ msgstr "许可证密钥"
 msgid "Output quality"
 msgstr "输出质量"
 
-#: dialogs\dlgOptions\pnl_Appearance.html:28
+#: dialogs\dlgOptions\pnl_Appearance.html:42
 msgid "This changes the header for each custom field."
 msgstr "这会更改每个自定义字段的标题。"
 
@@ -9754,7 +9764,7 @@ msgstr ""
 "同步时，编辑标签的元数据总是同步。此选项另外将导致编辑过的曲目被重新复制（对"
 "于运行第三方播放器的设备非常有用）。"
 
-#: dialogs\dlgEditView.html:23
+#: dialogs\dlgEditView.html:26
 msgid "Sorting"
 msgstr "排序"
 
@@ -10538,15 +10548,15 @@ msgstr "即时音频刻录"
 msgid "Bitrate (min)"
 msgstr "比特率（最小）"
 
-#: dialogs\dlgSelectFromList.html:24
+#: dialogs\dlgOptions\pnl_Appearance.html:12
+msgid "Ignore prefixes:"
+msgstr "忽略前缀："
+
+#: dialogs\dlgOptions\pnl_Appearance.html:33
 #, fuzzy
 #| msgid "Configure Collections and nodes"
 msgid "Unique to each Collection / Node"
 msgstr "配置收藏和节点"
-
-#: dialogs\dlgOptions\pnl_Appearance.html:12
-msgid "Ignore prefixes:"
-msgstr "忽略前缀："
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in 'Playing' list"
@@ -10870,10 +10880,6 @@ msgstr ""
 "通过在从 CD-ROM 中提取音频时将其编码为所选格式，可以加快 CD 翻录速度。对于某"
 "些较旧的驱动器，应禁用此功能，因为它可能会降低编码文件的质量。"
 
-#: dialogs\dlgSelectFromList.html:26
-msgid "Shared across all nodes in all Collections"
-msgstr ""
-
 #: dialogs\dlgSleep.html:24
 msgid "% of current volume"
 msgstr "% 的当前音量"
@@ -10881,6 +10887,10 @@ msgstr "% 的当前音量"
 #: dialogs\dlgSupportedFormat.html:71
 msgid "Levels"
 msgstr "级别"
+
+#: dialogs\dlgOptions\pnl_Appearance.html:35
+msgid "Shared across all nodes in all Collections"
+msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:5
 msgid ""
@@ -11619,7 +11629,7 @@ msgstr "使用以下目录和文件名格式组织这些文件"
 msgid "Eject CD after ripping"
 msgstr "提取之后退出CD片"
 
-#: dialogs\dlgEditView.html:44
+#: dialogs\dlgEditView.html:47
 msgid "Elements"
 msgstr "元素"
 
@@ -11828,6 +11838,12 @@ msgstr "用聚合的数据覆盖掉插曲标签中作者定义的数据"
 #: dialogs\dlgOptions\pnl_Appearance.html:14
 msgid "when sorting by"
 msgstr "当按以下方式排序时"
+
+#: dialogs\dlgOptions\pnl_Appearance.html:31
+#, fuzzy
+#| msgid "Hide column"
+msgid "Define columns for:"
+msgstr "隐藏列"
 
 #: dialogs\dlgOptions\pnl_Download.html:21
 msgid "Every week"
@@ -12158,10 +12174,6 @@ msgstr "其他 DLNA 设备显示的服务器名称"
 msgid "Remove underscores"
 msgstr "移除底线"
 
-#: dialogs\dlgChooseFields.html:16
-msgid "Columns"
-msgstr "字段"
-
 #: dialogs\dlgCollectionOptions.html:21
 msgid "Collection comment"
 msgstr "收藏评论"
@@ -12174,7 +12186,7 @@ msgstr "将转换后的文件添加到库"
 msgid "Show"
 msgstr "显示"
 
-#: dialogs\dlgSelectFromList.html:25
+#: dialogs\dlgOptions\pnl_Appearance.html:34
 msgid "Shared across nodes within a Collection"
 msgstr ""
 
@@ -12270,7 +12282,7 @@ msgstr "如果您没有许可证密钥，您可以"
 msgid "Fade volume"
 msgstr "渐弱音量"
 
-#: dialogs\dlgOptions\pnl_Appearance.html:29
+#: dialogs\dlgOptions\pnl_Appearance.html:43
 msgid "Rename custom fields (requires restart)"
 msgstr "重命名自定义字段（需要重启）"
 
@@ -12946,8 +12958,8 @@ msgstr "启用平滑滚动"
 msgid "This enables smooth scrolling of lists."
 msgstr "这启用列表的平滑滚动。"
 
-#~ msgid "Choose columns"
-#~ msgstr "选择列"
+#~ msgid "Expired."
+#~ msgstr "已到期。"
 
 #~ msgid "Registration failed"
 #~ msgstr "注册失败"
