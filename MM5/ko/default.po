@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-21 17:44\n"
+"POT-Creation-Date: 2025-08-26 13:26\n"
 "PO-Revision-Date: 2025-08-22 16:50+0000\n"
 "Last-Translator: Lee <pcsori@gmail.com>\n"
 "Language-Team: Korean <http://translations.mediamonkey.com/projects/"
@@ -315,7 +315,7 @@ msgstr "제거"
 msgid "Save image as"
 msgstr "다른 이름으로 이미지 저장"
 
-#: actions.js:1014 controls/artWindow.js:858
+#: actions.js:1014 controls/artWindow.js:872
 msgid "Show image"
 msgstr "이미지 표시"
 
@@ -511,9 +511,9 @@ msgstr "고정"
 #. this field should not be used for whole album, specific for each track
 #. don't save
 #. width: 24, // defined by icon style, this would soemtimes cause #20508
-#: actions.js:1591 templates.js:1281 templates.js:1325 templates.js:1363
+#: actions.js:1591 templates.js:1283 templates.js:1327 templates.js:1365
 #: uitools.js:1388 uitools.js:2486 viewHandlers.js:6437
-#: controls/downloadView.js:113 controls/player.js:825
+#: controls/downloadView.js:115 controls/player.js:825
 #: controls/trackListView.js:107 dialogs/dlgAutotag.js:2136
 #: dialogs/dlgDeletedTracks.js:85 dialogs/dlgOptions/pnl_Layouts.js:162
 #: dialogs/dlgOptions/pnl_LayoutToolbar.js:93
@@ -530,10 +530,10 @@ msgstr "제목"
 #. make initial setting
 #. this field should not be used for whole album, specific for each track
 #. don't save
-#: actions.js:1609 templates.js:1295 templates.js:1343 templates.js:1374
+#: actions.js:1609 templates.js:1297 templates.js:1345 templates.js:1376
 #: uitools.js:1412 viewHandlers.js:8685 controls/albumlistView.js:602
 #: controls/albumViewHeader.js:104 controls/albumViewHeader.js:106
-#: controls/downloadView.js:122 controls/player.js:842 controls/sortBy.js:10
+#: controls/downloadView.js:124 controls/player.js:842 controls/sortBy.js:10
 #: controls/trackListView.js:182 dialogs/dlgArtworkDetail.js:12
 #: dialogs/dlgAutotag.js:2230 dialogs/dlgEditView.js:21
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:151
@@ -552,9 +552,9 @@ msgstr "앨범"
 
 #. this field should not be used for whole album, specific for each track
 #. don't save
-#: actions.js:1627 templates.js:1288 templates.js:1335 templates.js:1368
+#: actions.js:1627 templates.js:1290 templates.js:1337 templates.js:1370
 #: uitools.js:1440 viewHandlers.js:8779 controls/artistViewHeader.js:59
-#: controls/artistViewHeader.js:61 controls/downloadView.js:131
+#: controls/artistViewHeader.js:61 controls/downloadView.js:133
 #: controls/player.js:832 controls/trackListView.js:158
 #: dialogs/dlgAutotag.js:2194 dialogs/dlgDeletedTracks.js:94
 #: dialogs/dlgMovedFiles.js:114 dialogs/dlgMovedFiles.js:167
@@ -630,7 +630,7 @@ msgstr "감독"
 #. editor: editors.gridViewEditors.textEdit,
 #. request for Artists
 #. e.g. XBOX searches for genre's songs (testContentBrowser_XBOX_360_Genre)
-#: actions.js:1771 uitools.js:1542 controls/downloadView.js:167
+#: actions.js:1771 uitools.js:1542 controls/downloadView.js:169
 #: controls/trackListView.js:311 dialogs/dlgAutotag.js:2304
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:156 helpers/autoTagFramework.js:339
 #: layouts/Touch/templates_add.js:35
@@ -846,7 +846,7 @@ msgstr "잘라내기"
 msgid "Copy"
 msgstr "복사"
 
-#: actions.js:2321 controls/artWindow.js:644
+#: actions.js:2321 controls/artWindow.js:650
 msgid "Paste"
 msgstr "붙여넣기"
 
@@ -867,7 +867,7 @@ msgstr "새 재생 목록(&Y)"
 #. has support for NP list in full window
 #: actions.js:2401 controls/buttons.js:454 controls/control.js:74
 #: controls/control.js:123 controls/control.js:124
-#: controls/nowplayingview.js:384 helpers/dockableDialog.js:29
+#: controls/nowplayingview.js:387 helpers/dockableDialog.js:29
 #: controls\devicesView.html:40
 msgid "Close"
 msgstr "닫기"
@@ -934,7 +934,7 @@ msgstr ""
 "미디어 서버를 자동으로 찾을 수 없는 경우, 수동으로 미디어를 추가할 수 있습니"
 "다."
 
-#: actions.js:2547 UpNp.pas:10456 controls\devicesView.html:35
+#: actions.js:2547 UpNp.pas:10459 controls\devicesView.html:35
 msgid "Device Description file path:"
 msgstr "장치 설명 파일 경로:"
 
@@ -994,7 +994,7 @@ msgid "Remote access to %s cannot be auto-configured via UPnP/NAT-PMP"
 msgstr "UPnP/NAT-PMP를 통해 %s에 대한 원격 액세스는 자동으로 구성할 수 없음"
 
 #: actions.js:2594 helpers/mediaSync.js:393 BaseApp.pas:7609 CDUtils.pas:1483
-#: RegManage.pas:706 WebUtils.pas:6414
+#: RegManage.pas:706 WebUtils.pas:6419
 msgid "There is a problem with your internet connection."
 msgstr "인터넷 연결에 문제가 있습니다."
 
@@ -1117,7 +1117,7 @@ msgstr "옵션(&O)"
 #. use global, as it could affect placing in different parts of the main window, #21469
 #. prepare menu items for 'Playing' list
 #. checkable: true,
-#: actions.js:3127 controls/artWindow.js:839 controls/artWindow.js:848
+#: actions.js:3127 controls/artWindow.js:853 controls/artWindow.js:862
 #: controls/player.js:77 controls/player.js:1165
 #: controls/playingListContainer.js:105 controls/playingListContainer.js:206
 #: dialogs/dlgOptions.js:66 Extensions.pas:1669
@@ -1175,7 +1175,7 @@ msgid "Play"
 msgstr "재생"
 
 #. force display, if playing to external player
-#: actions.js:3347 controls/downloadView.js:45 controls/player.js:326
+#: actions.js:3347 controls/downloadView.js:47 controls/player.js:326
 msgid "Pause"
 msgstr "일시 중지"
 
@@ -1476,7 +1476,7 @@ msgstr "가사"
 #. it is a list
 #. we want to always save lyrics when clicked manually by user
 #. swap the selected part and order part for X seconds per suggestion in #19285
-#: actions.js:4629 viewHandlers.js:8038 controls/artWindow.js:2079
+#: actions.js:4629 viewHandlers.js:8038 controls/artWindow.js:2095
 #: controls/nowplayingList.js:255 controls/playingListContainer.js:117
 #: controls/statusbar.js:131 controls/statusbar.js:134
 #: dialogs/dlgEditView.js:621
@@ -1488,7 +1488,7 @@ msgstr "재생 중"
 #. to load the new image thumb
 #. to show "[Deezer Preview]" text on player (#17288)
 #. to show "[Spotify Preview]" text on player (#17288)
-#: actions.js:4672 controls/artWindow.js:640 dialogs/dlgOptions.js:74
+#: actions.js:4672 controls/artWindow.js:646 dialogs/dlgOptions.js:74
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:46
 #: dialogs/dlgOptions/pnl_Layouts.js:360
 #: Scripts/deezer/helpers/cloudServices_add.js:412
@@ -1612,7 +1612,7 @@ msgid "Reset changes"
 msgstr "변경 재설정"
 
 #. to load the new image thumb
-#: actions.js:5310 controls/artWindow.js:682
+#: actions.js:5310 controls/artWindow.js:690
 msgid "Save thumbnail"
 msgstr "썸네일 저장"
 
@@ -1656,7 +1656,7 @@ msgid "Enable"
 msgstr "사용"
 
 #. reset
-#: actions.js:5413 controls/downloadView.js:140
+#: actions.js:5413 controls/downloadView.js:142
 msgid "Size"
 msgstr "크기"
 
@@ -1820,7 +1820,7 @@ msgstr "설치를 완료하려면 MediaMonkey를 다시 시작하십시오."
 #: ArtistsManage.pas:3449 ArtistsManage.pas:3692 BaseMedia.pas:5032
 #: BaseMedia.pas:16357 BaseMedia.pas:18143 BaseMedia.pas:18149 Filters.pas:3523
 #: PodcastManage.pas:1005 PodcastManage.pas:1337 PodcastManage.pas:2829
-#: ResStrings.pas:364 UpNp.pas:11075
+#: ResStrings.pas:364 UpNp.pas:11078
 msgid "Unknown"
 msgstr "알 수 없음"
 
@@ -1930,7 +1930,7 @@ msgid "Push mode"
 msgstr "푸시 모드"
 
 #. unlisten listeners added in templates.itemImageFunc()
-#: out_WASAPI_configDlg.js:169 controls/artWindow.js:1827
+#: out_WASAPI_configDlg.js:169 controls/artWindow.js:1843
 msgid "Advanced"
 msgstr "고급"
 
@@ -1964,14 +1964,14 @@ msgstr "새 탭에서 링크 열기"
 #. for correct cleaning
 #. due to a bug from MM4
 #. cannot use margin, Chromium then renders header incorrectly
-#: templates.js:582 controls/artWindow.js:1849 controls/artWindow.js:1943
+#: templates.js:582 controls/artWindow.js:1865 controls/artWindow.js:1959
 #: controls/viewHeader.js:68 RegManage.pas:587 RegManage.pas:589
 #: dialogs\dlgAutotagCover.html:29
 msgid "Lookup"
 msgstr "조회"
 
 #. to refresh also the layout (for the newly found lyrics)
-#: templates.js:585 controls/artWindow.js:1298
+#: templates.js:585 controls/artWindow.js:1314
 #: dialogs/dlgTrackProperties/tabLyrics.js:63
 #: dialogs/dlgTrackProperties/tabLyrics.js:68
 msgid "Lyrics not found"
@@ -2001,14 +2001,14 @@ msgstr "검색 중"
 
 #. online track not present in the library - toast message and add to the library
 #. online track not present in the library - toast message and add to the library
-#: templates.js:820 controls/player.js:862
+#: templates.js:822 controls/player.js:862
 msgid "Track was added to the Library"
 msgstr "트랙이 라이브러리에 추가됨"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. el.innerText = sd.album;
 #. this field should not be used for whole album, specific for each track
-#: templates.js:1302 templates.js:1329 templates.js:1379 viewHandlers.js:7054
+#: templates.js:1304 templates.js:1331 templates.js:1381 viewHandlers.js:7054
 #: controls/albumlistView.js:613 controls/player.js:852
 #: controls/trackListView.js:389
 #: Scripts/statistics/dialogs/dlgStatistics.js:331
@@ -2024,7 +2024,7 @@ msgstr "평가"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. don't save
-#: templates.js:1309 templates.js:1347 templates.js:1386
+#: templates.js:1311 templates.js:1349 templates.js:1388
 #: controls/trackListView.js:239 dialogs/dlgAutotag.js:2683
 #: Scripts/statistics/dialogs/dlgStatistics.js:179
 #: Scripts/statistics/dialogs/dlgStatistics.js:332
@@ -2037,14 +2037,14 @@ msgid "Length"
 msgstr "길이"
 
 #. ODS('--- unregistering change event for ' + itm.title);
-#: templates.js:2103 dialogs/dlgSearchImage.js:288
+#: templates.js:2105 dialogs/dlgSearchImage.js:288
 msgid "Show full size"
 msgstr "전체 크기 표시"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. row node items used e.g. when showing sub-containers + items in "List view" mode (e.g. playlists, folders)
 #. now add only bitrates to the description line
-#: templates.js:2789 controls/downloadView.js:104
+#: templates.js:2791 controls/downloadView.js:106
 #: dialogs/dlgTrackProperties/tabDetails.js:61 BaseMedia.pas:4884
 #: BaseMedia.pas:4886 BaseMedia.pas:4964 FormatsHandler.pas:2990
 #: FormatsHandler.pas:3018 FormatsHandler.pas:3034 FormatsHandler.pas:3035
@@ -2058,16 +2058,16 @@ msgid "kbps"
 msgstr "kbps"
 
 #. no image
-#: templates.js:3433
+#: templates.js:3435
 msgid "Season"
 msgstr "시즌"
 
-#: templates.js:3436
+#: templates.js:3438
 msgid "Disc"
 msgstr "디스크"
 
 #. clear promises of previous popup content
-#: templates.js:3901
+#: templates.js:3903
 msgid "The feed is no longer available"
 msgstr "피드를 더 이상 사용할 수 없음"
 
@@ -3071,57 +3071,57 @@ msgstr "아티스트 이미지"
 msgid "Unknown Artist"
 msgstr "알 수 없는 아티스트"
 
-#: controls/artWindow.js:661
+#: controls/artWindow.js:667
 msgid "Remove image"
 msgstr "이미지 제거"
 
-#: controls/artWindow.js:694 controls/nowPlaying/fullList.js:115
+#: controls/artWindow.js:704 controls/nowPlaying/fullList.js:115
 msgid "Save image"
 msgstr "이미지 저장"
 
-#: controls/artWindow.js:706 controls/nowPlaying/fullList.js:131
-#: controls/nowPlaying/largeLyrics.js:65
+#: controls/artWindow.js:718 controls/nowPlaying/fullList.js:131
+#: controls/nowPlaying/largeLyrics.js:70
 msgid "Save lyrics"
 msgstr "가사 저장"
 
-#: controls/artWindow.js:724
+#: controls/artWindow.js:738
 msgid "Images"
 msgstr "이미지"
 
-#: controls/artWindow.js:738 FormatsManage.pas:5543 FormatsManage.pas:5575
+#: controls/artWindow.js:752 FormatsManage.pas:5543 FormatsManage.pas:5575
 msgid "Image"
 msgstr "이미지"
 
 #. to load the new image thumb
-#: controls/artWindow.js:763
+#: controls/artWindow.js:777
 msgid "No images"
 msgstr "이미지 없음"
 
-#: controls/artWindow.js:775 controls/trackListView.js:50
+#: controls/artWindow.js:789 controls/trackListView.js:50
 msgid "Properties"
 msgstr "속성"
 
-#: controls/artWindow.js:879
+#: controls/artWindow.js:893
 msgid "Allow edits"
 msgstr "편집 허용"
 
 #. search link is present only if searching artwork in album a not on web (when searchMissingArtwork is false)
 #. artwork was not loaded - file was already deleted or artwork removed from tag outside MM5, or file with artwork overwritten
-#: controls/artWindow.js:1523 MediaMonkeyApp.pas:8575
+#: controls/artWindow.js:1539 MediaMonkeyApp.pas:8575
 msgid "Artwork not found"
 msgstr "삽화를 찾을 수 없음"
 
 #. min size of art window
-#: controls/artWindow.js:1703
+#: controls/artWindow.js:1719
 msgid "Artwork only"
 msgstr "삽화만"
 
 #. to load the new image thumb
-#: controls/artWindow.js:1790 dialogs/dlgTrackProperties.js:14
+#: controls/artWindow.js:1806 dialogs/dlgTrackProperties.js:14
 msgid "Basic"
 msgstr "기본"
 
-#: controls/artWindow.js:2095 controls/statusbar.js:114
+#: controls/artWindow.js:2111 controls/statusbar.js:114
 #: controls/statusbar.js:140 controls/statusbar.js:167
 #: dialogs\dlgOptions\pnl_LayoutToolbar.html:4
 msgid "Selected"
@@ -3209,7 +3209,7 @@ msgstr "확인"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. we need to create container and bars
-#: controls/buttons.js:412 controls/downloadView.js:67
+#: controls/buttons.js:412 controls/downloadView.js:69
 #: controls/taskscontroller.js:285 hpCDEBurner.pas:1477 hpCDEBurner.pas:1488
 #: RegManage.pas:591 ResStrings.pas:584 dialogs\dlgAutotagCover.html:29
 msgid "Cancel"
@@ -3452,7 +3452,7 @@ msgstr "재개"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that screen tests are user independent
-#: controls/downloadView.js:83 controls/serverConfig/server.js:115
+#: controls/downloadView.js:85 controls/serverConfig/server.js:115
 #: dialogs/dlgAbout.js:20 dialogs/dlgAutotag.js:2710
 #: dialogs/dlgOptions/pnl_MediaServers.js:62 helpers/searchCommon.js:117
 #: helpers/searchCommon.js:1210 helpers/searchCommon.js:1243
@@ -3461,25 +3461,25 @@ msgstr "재개"
 msgid "Status"
 msgstr "상태"
 
-#: controls/downloadView.js:96
+#: controls/downloadView.js:98
 msgid "Completed"
 msgstr "완료"
 
-#: controls/downloadView.js:98 helpers/autoTagFramework.js:270
+#: controls/downloadView.js:100 helpers/autoTagFramework.js:270
 msgid "Queued"
 msgstr "대기 중"
 
-#: controls/downloadView.js:102
+#: controls/downloadView.js:104
 msgid "Paused"
 msgstr "일시 중지"
 
-#: controls/downloadView.js:149 dialogs/dlgMediaProperties.js:29
+#: controls/downloadView.js:151 dialogs/dlgMediaProperties.js:29
 msgid "URL"
 msgstr "URL"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. set passed attributes
-#: controls/downloadView.js:158 controls/maskedit.js:95
+#: controls/downloadView.js:160 controls/maskedit.js:95
 #: controls/maskEditWizard.js:6 controls\deviceConfig\syncFromDevice.html:9
 msgid "Destination"
 msgstr "대상"
@@ -3760,23 +3760,23 @@ msgid "Show 'Playing' list"
 msgstr "'재생' 목록 표시"
 
 #. Main context manu of Now Playing view
-#: controls/nowplayingview.js:224
+#: controls/nowplayingview.js:227
 msgid "Show full window"
 msgstr "전체 창 표시"
 
-#: controls/nowplayingview.js:236
+#: controls/nowplayingview.js:239
 msgid "Show full screen"
 msgstr "전체 화면 표시"
 
-#: controls/nowplayingview.js:250
+#: controls/nowplayingview.js:253
 msgid "Cancel full window"
 msgstr "전체 창 취소"
 
-#: controls/nowplayingview.js:252
+#: controls/nowplayingview.js:255
 msgid "Cancel full screen"
 msgstr "전체 화면 취소"
 
-#: controls/nowplayingview.js:268
+#: controls/nowplayingview.js:271
 msgid "Choose layout"
 msgstr "레이아웃 선택"
 
@@ -3793,7 +3793,7 @@ msgstr "컨트롤"
 msgid "Seek bar"
 msgstr "탐색 막대"
 
-#: controls/player.js:284 UpNp.pas:13253
+#: controls/player.js:284 UpNp.pas:13256
 msgid "Internal player"
 msgstr "내부 플레이어"
 
@@ -4585,11 +4585,11 @@ msgstr "'%s'와 동기화할 때 다음과 같이 파일 및 메타데이터 업
 msgid "Click to look up lyrics..."
 msgstr "가사를 보려면 클릭..."
 
-#: controls/nowPlaying/largeLyrics.js:108
+#: controls/nowPlaying/largeLyrics.js:113
 msgid "Reset to original"
 msgstr "원본으로 재설정"
 
-#: controls/nowPlaying/largeLyrics.js:129
+#: controls/nowPlaying/largeLyrics.js:134
 msgid "Font size"
 msgstr "글꼴 크기"
 
@@ -4617,7 +4617,7 @@ msgstr "MAC 어드레스"
 msgid "IP address"
 msgstr "IP 주소"
 
-#: controls/serverConfig/devices.js:59 UpNp.pas:10458
+#: controls/serverConfig/devices.js:59 UpNp.pas:10461
 msgid "Last access"
 msgstr "마지막 액세스"
 
@@ -5887,7 +5887,7 @@ msgstr "새 레이아웃 이름"
 msgid "Separator"
 msgstr "구분 기호"
 
-#: dialogs/dlgOptions/pnl_MediaServers.js:38 UpNp.pas:10446
+#: dialogs/dlgOptions/pnl_MediaServers.js:38 UpNp.pas:10449
 #: controls\serverConfig\server.html:5
 msgid "Server name"
 msgstr "서버 이름"
@@ -7478,7 +7478,7 @@ msgstr "잘못된 애드온: MediaMonkey 4.x에서만 유효함"
 
 #. show the addon's config immediatelly (so that users are aware)
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
-#: Extensions.pas:1101 UpNp.pas:11952
+#: Extensions.pas:1101 UpNp.pas:11955
 msgid "%s was successfully installed."
 msgstr "%s이(가) 설치되었습니다."
 
@@ -9377,7 +9377,7 @@ msgstr "액세스가 거부되었습니다"
 
 #. #18189 - to advance to next track when screen is dimmed (and player seekbar rendering inactive)
 #. to not show "turned off or inaccessible" message, but just skip to the next file
-#: UpNp.pas:8596 UpNp.pas:9155 UpNp.pas:13024
+#: UpNp.pas:8596 UpNp.pas:9155 UpNp.pas:13027
 msgid "Buffering on"
 msgstr "버퍼링"
 
@@ -9398,36 +9398,36 @@ msgstr "%s 플레이어가 꺼져있거나 액세스 할 수 없습니다."
 msgid "Multi-zone"
 msgstr "다중 구역"
 
-#: UpNp.pas:10448
+#: UpNp.pas:10451
 msgid "Manufacturer"
 msgstr "제작사"
 
-#: UpNp.pas:10450
+#: UpNp.pas:10453
 msgid "Model name"
 msgstr "모델 이름"
 
-#: UpNp.pas:10452
+#: UpNp.pas:10455
 msgid "Model number"
 msgstr "모델 번호"
 
-#: UpNp.pas:10454
+#: UpNp.pas:10457
 msgid "Model description"
 msgstr "모델 설명"
 
-#: UpNp.pas:11440
+#: UpNp.pas:11443
 msgid "The link/URL has not been entered in a valid format"
 msgstr "링크/URL은 올바른 형식으로 입력되지 않았습니다"
 
 #. try again after 1 second as in some environments the router re-configuration (OpenPort) makes temporal issues
-#: UpNp.pas:11463
+#: UpNp.pas:11466
 msgid "The link/URL entered does not point to a media server device"
 msgstr "입력한 링크/URL은 미디어 서버 장치를 가리키지 않습니다"
 
-#: UpNp.pas:13091
+#: UpNp.pas:13094
 msgid "Playing to %s has failed"
 msgstr "%s로 재생 실패"
 
-#: UpNp.pas:13091
+#: UpNp.pas:13094
 msgid "The format is probably unsupported by the device."
 msgstr "이 형식은 장치에서 지원되지 않을 수 있습니다."
 
@@ -9451,23 +9451,23 @@ msgstr "저자"
 msgid "Original Year"
 msgstr "원본 년도"
 
-#: WebUtils.pas:4425
+#: WebUtils.pas:4430
 msgid "The file %s cannot be created."
 msgstr "%s 파일을 만들 수 없습니다."
 
-#: WebUtils.pas:6178
+#: WebUtils.pas:6183
 msgid "Searching for updates..."
 msgstr "업데이트 검색..."
 
-#: WebUtils.pas:6235
+#: WebUtils.pas:6240
 msgid "Checking for new version..."
 msgstr "새 버전 확인 중..."
 
-#: WebUtils.pas:6385
+#: WebUtils.pas:6390
 msgid "MediaMonkey %s is the current version"
 msgstr "현재 버전 - MediaMonkey %s"
 
-#: WebUtils.pas:6414
+#: WebUtils.pas:6419
 msgid "MediaMonkey could not check for updates;"
 msgstr "MediaMonkey가 업데이트를 확인할 수 없습니다;"
 
@@ -9630,6 +9630,12 @@ msgstr ""
 #: dialogs\dlgSupportedFormat.html:26
 msgid "Audio format"
 msgstr "오디오 형식"
+
+#: dialogs\dlgOptions\pnl_Appearance.html:33
+#, fuzzy
+#| msgid "Shared across nodes within a Collection"
+msgid "Each Node in each Collection"
+msgstr "컬렉션 내 노드 간 공유"
 
 #: dialogs\dlgOptions\pnl_General.html:38
 msgid "Minimizes to the MiniPlayer"
@@ -10657,10 +10663,6 @@ msgstr "비트 전송률(최소)"
 msgid "Ignore prefixes:"
 msgstr "접두사 무시:"
 
-#: dialogs\dlgOptions\pnl_Appearance.html:33
-msgid "Unique to each Collection / Node"
-msgstr "각 컬렉션/노드마다 고유함"
-
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in 'Playing' list"
 msgstr "'재생' 목록의 다음 파일"
@@ -11000,10 +11002,6 @@ msgstr "현재 볼륨의 %"
 #: dialogs\dlgSupportedFormat.html:71
 msgid "Levels"
 msgstr "평준화"
-
-#: dialogs\dlgOptions\pnl_Appearance.html:35
-msgid "Shared across all nodes in all Collections"
-msgstr "모든 컬렉션의 모든 노드에서 공유"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:5
 msgid ""
@@ -12200,6 +12198,12 @@ msgstr "최대 비트율 제한"
 msgid "large"
 msgstr "크게"
 
+#: dialogs\dlgOptions\pnl_Appearance.html:35
+#, fuzzy
+#| msgid "Entire Library"
+msgid "The entire Library"
+msgstr "전체 라이브러리"
+
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:9
 msgid "Exclude folders:"
 msgstr "제외 폴더:"
@@ -12325,8 +12329,10 @@ msgid "Show"
 msgstr "보이기"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:34
-msgid "Shared across nodes within a Collection"
-msgstr "컬렉션 내 노드 간 공유"
+#, fuzzy
+#| msgid "Edit Collection"
+msgid "Each Collection"
+msgstr "컬렉션 편집"
 
 #: dialogs\dlgOptions\pnl_General.html:10
 msgid "Include beta builds"
@@ -13110,6 +13116,12 @@ msgstr "부드러운 스크롤 사용"
 #: dialogs\dlgOptions\pnl_Performance.html:36
 msgid "This enables smooth scrolling of lists."
 msgstr "이렇게 하면, 목록을 부드럽게 스크롤할 수 있습니다."
+
+#~ msgid "Unique to each Collection / Node"
+#~ msgstr "각 컬렉션/노드마다 고유함"
+
+#~ msgid "Shared across all nodes in all Collections"
+#~ msgstr "모든 컬렉션의 모든 노드에서 공유"
 
 #~ msgid "Expired."
 #~ msgstr "만료됨."
