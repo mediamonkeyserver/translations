@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-21 17:44\n"
-"PO-Revision-Date: 2025-08-19 18:50+0000\n"
+"PO-Revision-Date: 2025-08-26 11:28+0000\n"
 "Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ja/>\n"
@@ -2301,7 +2301,7 @@ msgstr "最近追加したもの"
 
 #: viewHandlers.js:500
 msgid "Column filter"
-msgstr "列フィルター"
+msgstr "表示項目の絞り込み"
 
 #. relations are always taken from online data
 #. we currently can't search online audiobooks
@@ -2771,8 +2771,8 @@ msgid ""
 "additional columns."
 msgstr ""
 "データベースと一致しないタグを持つすべてのトラックが見つかり、一致しないもの"
-"が強調表示されます。トラックにハイライトされたフィールドが表示されない場合"
-"は、追加の列を有効にしてみてください。"
+"が強調表示されます。トラックにハイライトされた項目が表示されない場合は、追加"
+"の表示項目を有効にしてみてください。"
 
 #: viewHandlers.js:7425
 msgid ""
@@ -3294,21 +3294,21 @@ msgstr "自動変換"
 #: controls/columntracklist.js:192 dialogs/dlgSelectFromList.js:179
 #: dialogs\dlgOptions\pnl_Appearance.html:30
 msgid "Column settings"
-msgstr "列の設定"
+msgstr "表示項目の設定"
 
 #: controls/columntracklist.js:204
 msgid "Automatic column widths"
-msgstr "自動列幅"
+msgstr "表示項目の幅を自動調整"
 
 #: controls/columntracklist.js:229
 msgid "Hide column"
-msgstr "列を非表示"
+msgstr "表示項目を非表示"
 
 #. root items insert directly to presetColumns, so we will not need to move them here later
 #: controls/columntracklist.js:302 controls/maskedit.js:230
 #: controls/tracklistFilter.js:451
 msgid "All fields"
-msgstr "すべてのフィールド"
+msgstr "すべての項目"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. not used and will be visible
@@ -3958,11 +3958,11 @@ msgstr "一致するところまでスクロール"
 
 #: controls/searchBar.js:477 dialogs/dlgOptions/pnl_Search.js:56
 msgid "primary sort field"
-msgstr "プライマリソートフィールド"
+msgstr "優先的に並び替える項目"
 
 #: controls/searchBar.js:503 dialogs/dlgOptions/pnl_Search.js:57
 msgid "all fields"
-msgstr "すべてのフィールド"
+msgstr "すべての項目"
 
 #. LS: seems to be valid also for active list searching (e.g. in Music > All Tracks) -- i.e. this.searchType == 'activelist'
 #: controls/searchBar.js:741
@@ -4003,7 +4003,7 @@ msgstr "foo -bar | バーではなくfooと一致するものを検索"
 
 #: controls/searchBar.js:752
 msgid "fieldname:foo | restricts search to a specific field. For example:"
-msgstr "fieldname: foo | 検索を特定のフィールドに制限します。例:"
+msgstr "fieldname: foo | 検索を特定の項目に制限します。例:"
 
 #: controls/searchBar.js:753
 msgid ""
@@ -4135,11 +4135,11 @@ msgstr "同じ幅を設定"
 
 #: controls/tracklistFilter.js:393
 msgid "Add Column"
-msgstr "列の追加"
+msgstr "表示項目の追加"
 
 #: controls/tracklistFilter.js:402
 msgid "Remove Column"
-msgstr "列の除去"
+msgstr "表示項目を削除"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. copy from tracklist menu, set tracklist for menu to our ds
@@ -4864,7 +4864,7 @@ msgstr "古い値"
 #: dialogs/dlgAutotag.js:1874 dialogs/dlgChooseFields.js:9
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:237
 msgid "Choose fields"
-msgstr "フィールドの選択"
+msgstr "表示項目の選択"
 
 #: dialogs/dlgAutotag.js:2854
 msgid "track(s) matched"
@@ -5062,10 +5062,8 @@ msgstr "ビューの設定"
 
 #: dialogs/dlgEditView.js:413 dialogs/dlgEditView.js:416
 #: dialogs/dlgEditView.js:419
-#, fuzzy
-#| msgid "Choose columns"
 msgid "Choose Columns"
-msgstr "列の選択"
+msgstr "表示項目の選択"
 
 #. undefined
 #: dialogs/dlgEditView.js:413 dialogs/dlgEditView.js:416
@@ -5487,11 +5485,11 @@ msgstr "コレクションとビュー"
 
 #: dialogs/dlgOptions.js:99 Scripts\caseChecker\dialogs\dlgCaseChecker.html:51
 msgid "Fields"
-msgstr "フィールド"
+msgstr "項目"
 
 #: dialogs/dlgOptions.js:99 dialogs\dlgChooseFields.html:16
 msgid "Columns"
-msgstr "列"
+msgstr "表示項目"
 
 #: dialogs/dlgOptions.js:103
 msgid "Tags & playlists"
@@ -6598,8 +6596,7 @@ msgstr "トラック番号の自動インクリメント"
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
-msgstr ""
-"%d個の選択したトラックのトラック番号フィールドがトラック順に変更されます。"
+msgstr "%d個の選択したトラックのトラック番号項目がトラック順に変更されます。"
 
 #: Scripts/autoIncTrack/actions_add.js:23
 msgid "Start numbering from:"
@@ -9585,7 +9582,7 @@ msgstr "出力品質"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:42
 msgid "This changes the header for each custom field."
-msgstr "各カスタムフィールドのヘッダーが変更されます。"
+msgstr "各カスタム項目のヘッダーが変更されます。"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
 msgid ""
@@ -10124,7 +10121,7 @@ msgstr "アップデート時にダウンロード"
 
 #: dialogs\dlgPodcastSubscription.html:81
 msgid "Only if rating is less than"
-msgstr "評価が…より低いものだけ削除"
+msgstr "評価がこれより低いものだけ削除"
 
 #: dialogs\dlgSupportedFormat.html:108
 msgid "Width"
@@ -10242,9 +10239,8 @@ msgstr "小"
 msgid ""
 "This specifies a single character used to enter multiple values within a "
 "field (e.g. Rock;Folk). Spaces determine how the character is displayed."
-msgstr ""
-"フィールド内に複数の値を入力するために使用される単一の文字を指定します（例："
-"Rock;Folk）。スペースは文字の表示方法を決定します。"
+msgstr "項目内に複数の値を入力するために使用される単一の文字を指定します（例：Rock;Fo"
+"lk）。スペースは文字の表示方法を決定します。"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in 'Playing' list"
@@ -10441,7 +10437,7 @@ msgstr "メディアをスキャンする他のディレクトリについて記
 
 #: dialogs\dlgAutotagFromFilename.html:27
 msgid "Update empty fields only"
-msgstr "空フィールドのみ更新"
+msgstr "空欄の項目のみ更新"
 
 #: dialogs\dlgConvertFormat.html:47
 msgid "Encode tracks with volume leveled"
@@ -10669,7 +10665,7 @@ msgstr "ダイアログとコントロールの再配置を無効にする"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:48
 msgid "Choose how the 'Track summary' field displays for each content Type"
-msgstr "各コンテンツタイプの「トラックの概要」フィールドの表示方法を選択します"
+msgstr "各コンテンツタイプの「トラックの概要」項目の表示方法を選択します"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:6
 msgid "Ignore Shuffle"
@@ -10952,7 +10948,7 @@ msgstr "リスト全体"
 
 #: dialogs\dlgOptions\pnl_Search.html:25
 msgid "Search the following fields via the Search bar:"
-msgstr "検索バーから次のフィールドを検索します:"
+msgstr "検索バーから次の項目を検索します:"
 
 #: dialogs\dlgTrackProperties\tabArtwork.html:8
 msgid "Apply to all selected"
@@ -11493,7 +11489,7 @@ msgstr "半音"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:4
 msgid "Split multiple-value fields with:"
-msgstr "複数値フィールドの区切り記号:"
+msgstr "複数の値を含む項目の区切り文字："
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:2
 msgid ""
@@ -11988,7 +11984,7 @@ msgstr "デフォルトのアイコン"
 
 #: dialogs\dlgSelectFromList.html:18
 msgid "Selected columns"
-msgstr "選択した列"
+msgstr "選択中の表示項目"
 
 #: dialogs\dlgVideoMove.html:9
 msgid "Move video using sliders:"
@@ -12088,13 +12084,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Appearance.html:14
 msgid "when sorting by"
-msgstr "…で並べ替えた場合"
+msgstr "以下の項目で並び替えた場合"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:31
-#, fuzzy
-#| msgid "Hide column"
 msgid "Define columns for:"
-msgstr "列を非表示"
+msgstr "～の表示項目を定義"
 
 #: dialogs\dlgOptions\pnl_Download.html:21
 msgid "Every week"
@@ -12253,8 +12247,7 @@ msgstr "AccurateRipは、ビットパーフェクトなCDリッピングを実�
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Send also Album Artist field, if different from Artist"
-msgstr ""
-"アーティストが異なる場合は、アルバムアーティストのフィールドも送信します"
+msgstr "アーティストが異なる場合は、アルバムアーティストの項目も送信します"
 
 #: controls\artistAlbums.html:25
 msgid "Albums - live"
@@ -12565,7 +12558,7 @@ msgstr "音量をフェードさせる"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:43
 msgid "Rename custom fields (requires restart)"
-msgstr "カスタムフィールドの名前を変更する（再起動が必要）"
+msgstr "カスタム項目の名前を変更する（再起動が必要）"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:2
 msgid "Set the default directory / filename format for specified files."
@@ -12742,9 +12735,7 @@ msgstr "デスクトップ"
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks. Do you want to proceed?"
-msgstr ""
-"%d個の選択したトラックのトラック番号フィールドが順番に変更されます。続行しま"
-"すか？"
+msgstr "%d個の選択したトラックのトラック番号項目が順番に変更されます。続行しますか？"
 
 # Quicktime AAC/MP4 plug-in
 msgid "QuickTime"
@@ -12955,9 +12946,8 @@ msgstr "動画の出演者"
 msgid ""
 "This specifies what character is used to denote multiple values within a "
 "single field (e.g. Rock;Folk)."
-msgstr ""
-"単一のフィールド内の複数の値を示すために使用される文字を指定します（例：Rock;"
-"Folk ）。"
+msgstr "単一の項目内の複数の値を示すために使用される文字を指定します（例：Rock;Folk "
+"）。"
 
 #: viewHandlers.js:7115
 msgid ""
