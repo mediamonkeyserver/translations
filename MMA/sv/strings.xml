@@ -247,7 +247,7 @@
     <string name="album_art_cant_be_download">Albumbild kan inte laddas ner.</string>
     <string name="trial_dialog_title">Hjälp till att stödja MediaMonkey!</string>
     <string name="sync_settings_not_found_message">Ett oväntat fel inträffade vid synk-initiering.</string>
-    <string name="your_device_does_not_support_writing_to_sdcard">Din apparat kan inte skriva till sd-kort.</string>
+    <string name="your_device_does_not_support_writing_to_sdcard">Din enhet kan inte skriva till sd-kort.</string>
     <string name="disable_touch_sounds">Slå av beröringsljud</string>
     <string name="outdated_server_title">MediaMonkey för Windows är alltför gammal</string>
     <string name="outdated_server_description">Din version av MediaMonkey för Windows är alltför gammal.</string>
@@ -258,11 +258,11 @@
     <string name="write_settings_touch_sounds_permission_message">För att slå av beröringsljud behöver du ge MediaMonkey tillåtelse att ändra systeminställningar.</string>
     <plurals name="prepparing_album_art_to_remove">
         <item quantity="one">Förbereder för att ta bort albumbild…</item>
-        <item quantity="other"></item>
+        <item quantity="other">Förbereder för att ta bort albumbilder…</item>
     </plurals>
     <plurals name="removing_album_art_from_database">
         <item quantity="one">Tar bort albumbild från bibliotek…</item>
-        <item quantity="other"></item>
+        <item quantity="other">Tar bort albumbilder från bibliotek…</item>
     </plurals>
     <plurals name="delete_album_art_files">
         <item quantity="one">Tar bort albumbildfil…</item>
@@ -357,7 +357,7 @@
     <string name="search_settings_description">Artister, album, spår och video</string>
     <plurals name="removing_album_art_from_tracks">
         <item quantity="one">Tar bort albumbild från spår…</item>
-        <item quantity="other"></item>
+        <item quantity="other">Tar bort albumbilder från spår…</item>
     </plurals>
     <string name="grab_to_move">Ta tag i för att omsortera listan</string>
     <string name="delete_unselected_content_copies_summary">Ta bort lokala filer och spellistor som finns på servern men inte i synklistan.</string>
@@ -409,7 +409,7 @@
     <string name="compare_atributes_">Jämför attribut…%1$s</string>
     <string name="add_directory_to_library">Lägg till mapp</string>
     <string name="logs_details">Detaljer (obligatorisk):</string>
-    <string name="logs_details_details">Var god och beskriv problemet och hur det uppkom. (På engelska.)</string>
+    <string name="logs_details_details">Var god beskriv problemet (på engelska) och hur det uppkom.</string>
     <string name="logs_info">Debugloggar innehåller bara information relaterad till MediaMonkey funktionalitet: MediaMonkey biblioteksinformation (t.ex. spårnamn, sökvägar, metadata), konfiguration, och användningsdata. Detta används enbart för att förbättra MediaMonkeys mjukvara.</string>
     <string name="logs_email_details">Detta gör att vi kan kontakta dig för att lösa problemet.</string>
     <string name="termination_timer_title">Visa i aviseringar</string>
@@ -642,17 +642,13 @@
     <string name="termination_timer_summary">Var kvar i %1$s i aviseringslist innan stängning om pausad/inaktiv.</string>
     <string name="termination_timer_summary_always">Kör i aviseringsfältet när den är pausad/inaktiv.</string>
     <string name="write_settings_ringtone_permission_denied">Behörighet nekades. Spår kan inte ställas in som ringsignal/larm.</string>
-    <string name="write_contacts_permission_message">Var god ge MediaMonkey behörighet för att tilldela ringsignal till kontakt.</string>
+    <string name="write_contacts_permission_message">Var god ge MediaMonkey behörighet så att det går att tilldela ringsignal till kontakt.</string>
     <string name="write_contacts_permission_denied">Behörighet nekades. Ringsignalen kan inte tilldelas till kontakt.</string>
     <string name="notification_progressbar_enabled">Visa sökfältet</string>
     <string name="notification_progressbar_enabled_summary">Visa uppspelningsposition i aviseringsspelare.</string>
     <string name="need_access_more_info">Om behörighet inte beviljas sparas nytt innehåll i en privat MediaMonkey-mapp som inte kan delas med andra appar.</string>
-    <string name="storage_permission_ignore_warning">Om åtkomst inte beviljas till de begärda mapparna:
-\n
-\nMediaMonkey kommer istället att synkronisera innehåll till en MediaMonkey-specifik mapp som är otillgänglig för andra musikspelare.</string>
-    <string name="storage_permission_ignore_warning_short">Om åtkomst inte beviljas till de begärda mapparna:
-\n
-\nMediaMonkey kommer inte att kunna redigera/synkronisera innehåll till dessa platser!</string>
+    <string name="storage_permission_ignore_warning">Om åtkomst inte beviljas till de begärda mapparna:\n\nMediaMonkey kommer istället att synkronisera innehåll till en MediaMonkey-specifik mapp som är otillgänglig för andra musikspelare.</string>
+    <string name="storage_permission_ignore_warning_short">Om åtkomst inte beviljas till de begärda mapparna:\n\nMediaMonkey kommer inte att kunna redigera/synkronisera innehåll till dessa platser!</string>
     <string name="path_already_writable">Mappen %s är redan skrivbar.</string>
     <string name="path_not_requested">Sökväg %s begärdes inte. Var god välj från listan ovan.</string>
     <string name="path_invalid">Kan inte skriva till den konfigurerade platsen. MediaMonkey-specifik mapp kommer att användas istället.</string>
@@ -842,11 +838,11 @@
     <string name="license_agreement">Licensavtal</string>
     <string name="all_unselected_content">Alla ej valda filer</string>
     <string name="switch_to_wizard">Växla till guiden</string>
-    <string name="device_description_file_path">Sökväg till enhetsbeskrivningsfil</string>
+    <string name="device_description_file_path">Sökväg till UPnP-enhetsbeskrivningsfil</string>
     <string name="protocol">Protokoll</string>
     <string name="paste">Klistra in</string>
     <string name="scan">Skanna</string>
-    <string name="mediamonkey_settings_folder">mediaMonkey-inställningsmappen</string>
+    <string name="mediamonkey_settings_folder">MediaMonkey-inställningsmappen</string>
     <string name="please_grant_to_proceed">Var god ge åtkomst för att fortsätta:</string>
     <string name="retry">Försök igen</string>
     <string name="dont_sync">Synkronisera inte</string>
@@ -879,19 +875,14 @@
     <string name="auto">Auto (följ system)</string>
     <string name="artwork_folders_to_add">Albumbildsmappar att lägga till</string>
     <string name="artwork_folders_to_add_description">Spår har länkar till albumbilder som inte har lagts till i biblioteket. Lägg till dessa mappar i biblioteket så att albumbilder visas korrekt.</string>
-    <string name="artwork_folders_grant_permission">Spår har länkar till omslagsbilder som inte kan läsas. Vänligen ge åtkomst till mappen %s.</string>
-    <string name="storage_permission_message_rationale">MediaMonkey kräver åtkomst till mediefiler för att fungera. Var god ge den tillgång till dina mediefiler.</string>
-    <string name="storage_permission_message_denied_completely">MediaMonkey kräver åtkomst till mediefiler för att fungera. För att använda MediaMonkey, gå till ansökningsdetaljerna och bevilja behörigheten manuellt. Förfrågan nekades tidigare och då måste du göra så.</string>
+    <string name="artwork_folders_grant_permission">Var god ge åtkomst till mappen %s. Spår har länkar till albumbilder som inte kan läsas annars.</string>
+    <string name="storage_permission_message_rationale">Var god ge MediaMonkey åtkomst till mediafiler så att appen kan fungera.</string>
+    <string name="storage_permission_message_denied_completely">MediaMonkey kräver åtkomst till mediefiler för att fungera. För att använda MediaMonkey, gå till ansökningsdetaljerna och bevilja behörigheten manuellt. Förfrågan nekades tyvärr tidigare och då måste du göra så.</string>
     <string name="resume_playback">Återuppta uppspelning</string>
     <string name="external_storage_app_all_files_denied_title">OS-inställningar</string>
-    <string name="external_storage_app_all_files_denied_solution">\\nn För att lösa detta:
-\n
-\n 1 Tryck på \"Konfigurera...\" för att öppna behörighetsinställningarna \"Alla filer\".
-\n
-\n 2 Hitta \"Extern lagring\" i applistan och aktivera den (om den inte finns i listan trycker du på \"⋮\" &gt; \"Visa systemappar\").</string>
+    <string name="external_storage_app_all_files_denied_solution">\\nn För att lösa detta:\n\n 1 Tryck på \"Konfigurera...\" för att öppna behörighetsinställningarna \"Alla filer\".\n\n 2 Hitta \"Extern lagring\" i applistan och aktivera den (om den inte finns i listan trycker du på \"⋮\" &gt; \"Visa systemappar\").</string>
     <string name="more_info">Mer information</string>
-    <string name="no_file_manager_to_grant_access">Det finns ingen filhanterare installerad som kan bevilja mappåtkomst.
-\nVar god installera sådan från Google.</string>
+    <string name="no_file_manager_to_grant_access">Det finns ingen filhanterare installerad som kan bevilja mappåtkomst.\nVar god installera sådan från Google.</string>
     <string name="port">Port</string>
     <string name="no_selected_items">Inga objekt valda</string>
     <string name="used">använd</string>
