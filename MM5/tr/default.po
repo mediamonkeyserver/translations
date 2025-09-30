@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2025-08-26 13:26\n"
 "PO-Revision-Date: 2025-09-30 21:50+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Last-Translator: rusty <rs@mediamonkey.com>\n"
 "Language-Team: Turkish <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/tr/>\n"
 "Language: tr\n"
@@ -86,7 +86,7 @@ msgstr "Geçmiş"
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:95
 #: ResStrings.pas:428 maincontent.html:50
 msgid "'Playing' list"
-msgstr "'Oynatma' listesi"
+msgstr "'Oynatma' kuyruğu"
 
 #. load player in timeout to be sure video window is already stretched to full screen
 #: actions.js:58 playerUtils.js:449
@@ -336,7 +336,7 @@ msgstr "Sabitlemeyi kaldır"
 #. ask where to save
 #: actions.js:1074 PlaylistManage.pas:4354
 msgid "Save playlist"
-msgstr "Oynatma listesini kaydet"
+msgstr "Çalma listesini kaydet"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. #16261 - to be the first in the list after creation
@@ -344,7 +344,7 @@ msgstr "Oynatma listesini kaydet"
 #: actions.js:1094 actions.js:7162 actions.js:7192
 #: dialogs\dlgSelectPlaylist.html:11
 msgid "New playlist"
-msgstr "Yeni oynatma listesi"
+msgstr "Yeni çalma listesi"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. navigationHandlers['playlist'].navigate(newplaylist); // navigation is intentionally disabled, so that user can D&D tracks from the current view to the new playlist (#12355)
@@ -497,7 +497,7 @@ msgstr "Sanatçılar"
 #: FormatsManage.pas:3866 Importers.pas:454 ResStrings.pas:430
 #: Win7ToolsImpl.pas:2195 dialogs\dlgOptions\pnl_Library.html:38
 msgid "Playlists"
-msgstr "Oynatma listeleri"
+msgstr "Çalma listeleri"
 
 #: actions.js:1581 viewHandlers.js:7941
 #: controls\audiobookCollectionView.html:18
@@ -1385,11 +1385,11 @@ msgstr "Klasör (Kopyala/Dönüştür)"
 #: FormatsManage.pas:5577 FormatsManage.pas:5587 MaskHelper.pas:3134
 #: QueryManage.pas:4815 ResStrings.pas:537
 msgid "Playlist"
-msgstr "Oynatmalistesi"
+msgstr "Çalmalistesi"
 
 #: actions.js:4103
 msgid "M3U/XSPF playlist"
-msgstr "M3U/XSPF Oynatma Listesi"
+msgstr "M3U/XSPF çalma listesi"
 
 #. if not uninstalled
 #: actions.js:4116
@@ -2107,7 +2107,7 @@ msgstr "Seri"
 #. more than one preset is defined, place separator betweeen presets and 'touch' mode
 #: uitools.js:1799
 msgid "No playlist found"
-msgstr "Oynatma listesi bulunamadı"
+msgstr "Çalma listesi bulunamadı"
 
 #: uitools.js:2395 dialogs/dlgWizard.js:22 ResStrings.pas:643
 msgid "Registration"
@@ -2405,16 +2405,16 @@ msgstr "Yeniden Adlandır"
 #. inheritance, this way we creates 'PlaylistBase' node handler class, 'Playlist' and 'Playlists' inherits from it when creating nodeHandlers.playlist(s) instances below
 #: viewHandlers.js:3753
 msgid "playlist"
-msgstr "Oynatma listesi"
+msgstr "çalmalistesi"
 
 #. sub-views hidden by default
 #: viewHandlers.js:3855
 msgid "playlists"
-msgstr "Oynatma listeleri"
+msgstr "çalma listeleri"
 
 #: viewHandlers.js:3897 controls/playlistHeader.js:159
 msgid "Are you sure you want to remove playlist \"%s\" ?"
-msgstr "\"%s\" oynatma listesini kaldırmak istediğinizden emin misiniz?"
+msgstr "\"%s\" çalma listesini kaldırmak istediğinizden emin misiniz?"
 
 #: viewHandlers.js:3899 controls/playlistHeader.js:161 PlaylistManage.pas:915
 msgid ""
@@ -3775,7 +3775,7 @@ msgstr "Normal pencere"
 #: controls/nowplayingview.js:159 controls/nowPlaying/artistBio.js:65
 #: controls/nowPlaying/fullList.js:151
 msgid "Show 'Playing' list"
-msgstr "'Oynatma' listesini göster"
+msgstr "'Oynatma' kuyruğu göster"
 
 #. Main context manu of Now Playing view
 #: controls/nowplayingview.js:227
@@ -3819,7 +3819,7 @@ msgstr "Dahili oynatıcı"
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
 msgstr ""
-"'Oynatma' listesini karıştırır ve varsayılan oynatma komutlarının parçaları "
+"'Oynatma' kuyruğunu karıştırır ve varsayılan oynatma komutlarının parçaları "
 "karıştırmasını sağlar."
 
 #: controls/player.js:567
@@ -3892,7 +3892,7 @@ msgstr ""
 
 #: controls/playlistHeader.js:111
 msgid "Edit in Playlist Panel"
-msgstr "Oynatma Listesi Panelinde Düzenle"
+msgstr "Çalma listesi Panelinde Düzenle"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to live update tracks -- is listened e.g. by viewHandlers.tracklistBase.onShow
@@ -4994,11 +4994,11 @@ msgstr "Veritabanından ve sürücüden tüm içeriği silin"
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:83 dialogs/dlgDeleteConfirm.js:109
 msgid "Remove from the Playlist only"
-msgstr "Yalnızca Oynatma Listesinden Kaldır"
+msgstr "Yalnızca Çalma Listesinden Kaldır"
 
 #: dialogs/dlgDeleteConfirm.js:86
 msgid "Remove from the Playlist and"
-msgstr "Oynatma Listesinden Kaldır ve"
+msgstr "Çalma Listesinden Kaldır ve"
 
 #. per #15029
 #: dialogs/dlgDeleteConfirm.js:96 dialogs/dlgDeleteConfirm.js:145
@@ -5018,28 +5018,28 @@ msgstr "Tüm kopyaları silin ve veritabanından kaldırın"
 
 #: dialogs/dlgDeleteConfirm.js:110
 msgid "Delete from the Playlist and database only"
-msgstr "Sadece Oynatma Listesinden ve veritabanından sil"
+msgstr "Sadece Çalma Listesinden ve veritabanından sil"
 
 #: dialogs/dlgDeleteConfirm.js:111
 msgid "Delete from the Playlist, database and drive"
-msgstr "Oynatma Listesinden, veritabanından ve sürücüden sil"
+msgstr "Çalma Listesinden, veritabanından ve sürücüden sil"
 
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from 'Playing' list only"
-msgstr "Yalnızca 'Oynatma' listesinden kaldır"
+msgstr "Yalnızca 'Oynatma' kuyruğundan kaldır"
 
 #: dialogs/dlgDeleteConfirm.js:135
 msgid "Remove from 'Playing' list and"
-msgstr "'Oynatma' listesinden kaldır ve"
+msgstr "'Oynatma' kuyruğundan kaldır ve"
 
 #: dialogs/dlgDeleteConfirm.js:160
 msgid "Delete from 'Playing' list and the database only"
-msgstr "Sadece 'Oynatılıyor' listesinden ve veritabanından sil"
+msgstr "Sadece 'Oynatılıyor' kuyruğundan ve veritabanından sil"
 
 #: dialogs/dlgDeleteConfirm.js:161
 msgid "Delete from 'Playing' list, the database and drive"
-msgstr "'Oynatma' listesinden veritabanını ve sürücüyü sil"
+msgstr "'Oynatma' kuyruğundan, veritabanını ve sürücüyü sil"
 
 #: dialogs/dlgDeleteConfirm.js:189
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
@@ -5582,7 +5582,7 @@ msgstr "Kitaplığa dosya ekle..."
 
 #: dialogs/dlgSearch.js:9
 msgid "AutoPlaylist criteria"
-msgstr "Otomatik Oynatma Listesi kriterleri"
+msgstr "Otomatik Çalma Listesi kriterleri"
 
 #: dialogs/dlgSearchImage.js:21
 msgid "Image search"
@@ -5604,11 +5604,11 @@ msgstr "Klasör seç"
 
 #: dialogs/dlgSelectPlaylist.js:4 dialogs\dlgSelectPlaylist.html:10
 msgid "Select playlist"
-msgstr "Oynatma listesini seçin"
+msgstr "Çalma listesini seçin"
 
 #: dialogs/dlgSelectPlaylists.js:4 dialogs\dlgSelectPlaylists.html:9
 msgid "Select playlists"
-msgstr "Oynatma listelerini seç"
+msgstr "Çalma listelerini seç"
 
 #: dialogs/dlgSleep.js:5
 msgid "Sleep settings"
@@ -6549,11 +6549,11 @@ msgstr "Dosya dönüştürülüyor: %s"
 
 #: helpers/mediaSync.js:3727
 msgid "Copying playlist %s"
-msgstr "Oynatma listesi %s kopyalanıyor"
+msgstr "Çalma listesi %s kopyalanıyor"
 
 #: helpers/mediaSync.js:3755
 msgid "Preparing playlists"
-msgstr "Oynatma listelerini hazırlanıyor"
+msgstr "Çalma listelerini hazırlanıyor"
 
 #. removeEmptyFolder is optional
 #. #17023 / item 1:
@@ -6674,7 +6674,7 @@ msgstr "Dışa aktarma"
 # string till 5.0.1 version only
 #: Scripts/exportPlaylists/actions_add.js:2
 msgid "Export all playlists"
-msgstr "Tüm oynatma listelerini dışa aktar"
+msgstr "Tüm çalma listelerini dışa aktar"
 
 #. Open inifile and get last used directory
 #: Scripts/exportPlaylists/actions_add.js:41
@@ -6897,7 +6897,7 @@ msgstr "Tüm Koleksiyonlar"
 
 #: AutoOrganize.pas:1612
 msgid "All Playlists"
-msgstr "Tüm Oynatma Listeleri"
+msgstr "Tüm Çalma Listeleri"
 
 #: BackgroundStuff.pas:283
 msgid "%d files to be tagged"
@@ -7948,8 +7948,8 @@ msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
 msgstr ""
-"Karıştırma devre dışı. Oynatma listesindeki değişikliklerden dolayı tekrar "
-"karıştırılamıyor - değişiklikleri geri almak için 'Geri Al' seçeneğini "
+"Karıştırma devre dışı. ‘Oynatma’ kuyruğundaki değişiklikler nedeniyle tekrar "
+"karıştırılamaz – değişiklikleri geri almak için ‘Geri Al’ seçeneğini "
 "kullanın."
 
 #: FullPlayer.pas:7534
@@ -8234,7 +8234,7 @@ msgstr "Parça numaralarının güncellenmesi"
 
 #: M3Umanage.pas:616
 msgid "Processing playlists"
-msgstr "Oynatma listeleri işleniyor"
+msgstr "Çalma listeleri işleniyor"
 
 #: MaskHelper.pas:3132 ResStrings.pas:536
 msgid "Auto Number"
@@ -8274,7 +8274,7 @@ msgstr "Rastgele sayı"
 
 #: MaskHelper.pas:3221
 msgid "Playlist name"
-msgstr "Oynatma listesi adı"
+msgstr "Çalma listesi adı"
 
 #: MaskHelper.pas:3224
 msgid "Track folder"
@@ -8473,7 +8473,7 @@ msgstr "Ayarlar"
 
 #: MetadataStorageHandler.pas:1625
 msgid "Problem while updating playlist %s: %s"
-msgstr "Oynatma listesi %s güncellenirken sorun oluştu: %s"
+msgstr "Çalma listesi %s güncellenirken sorun oluştu: %s"
 
 #: MP3Manage.pas:255
 msgid "Compatible: CBR   96 kbps - Fair Quality"
@@ -9526,7 +9526,7 @@ msgstr "MediaMonkey güncellemeleri kontrol edemedi;"
 #. JumpList.Tasks.AddShellLink( _('Minimize to MiniPlayer'), '/w7t=gomini', Application.ExeName, 0);
 #: Win7ToolsImpl.pas:2187
 msgid "&Load Playlist"
-msgstr "&Oynatma Listesini Yükle"
+msgstr "&Çalma Listesini Yükle"
 
 #. make sure CD_Reader is the first
 #: WinAmpPlugins.pas:3220
@@ -9584,10 +9584,10 @@ msgid ""
 "'Playing' list, remove them from the 'Playing' list and the Library, or "
 "delete them from the 'Playing' list, the Library, and the computer system."
 msgstr ""
-"Eğer etkinleştirilmişse, MediaMonkey sizden 'Çalan' listesinden parçaları "
-"kaldırıp kaldırmamak, parçaları 'Çalan' listesinden ve Kütüphane'den "
-"kaldırmak veya 'Çalan' listesinden, Kütüphane'den ve bilgisayar sisteminden "
-"silmek isteyip istemediğinizi sormuş olacaktır."
+"Eğer etkinleştirilmişse, MediaMonkey sizden 'oynatma' kuyruğundan parçaları "
+"kaldırıp kaldırmamak, parçaları 'oynatma' kuyruğundan ve Kütüphane'den "
+"kaldırmak veya 'oynatma' kuyruğundan, Kütüphane'den ve bilgisayar "
+"sisteminden silmek isteyip istemediğinizi sormuş olacaktır."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -9854,7 +9854,7 @@ msgstr "1 hafta"
 #: dialogs\dlgOptions\pnl_Confirmations.html:9
 msgid "Confirm desired options on removal of files from Playlist"
 msgstr ""
-"Dosyaların Oynatma Listesinden kaldırılmasına ilişkin istenen seçenekleri "
+"Dosyaların Çalma Listesinden kaldırılmasına ilişkin istenen seçenekleri "
 "onaylayın"
 
 #: dialogs\dlgOptions\pnl_General.html:7
@@ -10024,7 +10024,7 @@ msgstr "Eşleme"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:18
 msgid "Playlist format"
-msgstr "Oynatma listesi biçimi"
+msgstr "Çalma listesi biçimi"
 
 #: controls\serverConfig\devices.html:2
 msgid "Update play count when playing remotely"
@@ -10076,7 +10076,7 @@ msgstr "İçe aktar"
 
 #: dialogs\dlgOptions\pnl_Library.html:119
 msgid "Tags then Playlists"
-msgstr "Etiketler sonra Oynatma Listeleri"
+msgstr "Etiketler sonra Çalma Listeleri"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
 msgid "Default action for files:"
@@ -10251,7 +10251,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in 'Playing' list"
-msgstr "Önceki dosyalar 'Oynatma' listesinde"
+msgstr "'oynatma' kuyruğundaki öncekiler"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
@@ -10377,8 +10377,8 @@ msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "'Playing' list."
 msgstr ""
-"Bu, 'Çalınıyor' listesinde daha önce çalınan parçalardan kaç tanesinin "
-"görüntüleneceğini belirler."
+"Bu, 'Oynatma' kuyruğunda daha önce çalınan kaç parçanın gösterileceğini "
+"belirler."
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:4
 msgid "Configure..."
@@ -10762,7 +10762,7 @@ msgstr "Önekleri yoksay:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in 'Playing' list"
-msgstr "'Oynatılıyor' listesindeki yaklaşan dosyalar"
+msgstr "'Oynatma' kuyruğundaki sonraki"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:8
 msgid ""
@@ -10983,7 +10983,7 @@ msgstr "Dosya meta verilerini cihazdan PC'ye otomatik olarak senkronize edin"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:41
 msgid "prefix for each playlist type"
-msgstr "her oynatma listesi türü için önek"
+msgstr "her çalma listesi türü için önek"
 
 #: dialogs\dlgConvertFormat.html:41
 msgid "Jitter-corrected read"
@@ -11337,7 +11337,7 @@ msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the 'Playing' list when it runs out."
 msgstr ""
-"Bu, bittiğinde parçaların otomatik olarak 'Çalınıyor' listesine eklenmesini "
+"Bu, bittiğinde parçaların otomatik olarak 'Oynatma' kuyruğuna eklenmesini "
 "sağlayan Auto-DJ özelliğini açar."
 
 #: dialogs\dlgOptions\pnl_Download.html:16
@@ -11914,8 +11914,8 @@ msgid ""
 "This determines how many tracks Auto-DJ will add to the 'Playing' list when "
 "the list begins to empty."
 msgstr ""
-"Bu, liste boşalmaya başladığında Auto-DJ'in 'Çalınıyor' listesine kaç parça "
-"ekleyeceğini belirler."
+"Bu, liste boşalmaya başladığında Auto-DJ’in ‘Oynatma’ kuyruğuna ekleyeceği "
+"parça sayısını belirler."
 
 #: dialogs\dlgOptions\pnl_Download.html:20
 msgid "Every day"
@@ -12194,17 +12194,18 @@ msgstr " kbps"
 
 #: dialogs\dlgPodcastSubscription.html:99
 msgid "Displays all episodes including those that have previously been deleted"
-msgstr ""
+msgstr "Önceden silinmiş olanlar dahil tüm bölümleri gösterir"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:8
 msgid ""
 "Do not apply to files in the specified folders (\"C:\\Directory\\\",\"C:"
 "\\directory 2\")"
 msgstr ""
+"Belirtilen klasörlerdeki dosyalara uygulama (\"C:\\Dizin\\\",\"C:\\dizin 2\")"
 
 #: dialogs\dlgOptions\pnl_Library.html:120
 msgid "Playlists (M3U, XSPF) then Tags"
-msgstr "Oynatma Listeleri (M3U, XSPF) ardından Etiketler"
+msgstr "Çalma Listeleri (M3U, XSPF) ardından Etiketler"
 
 #: dialogs\dlgOptions\pnl_Library.html:87
 msgid ""
@@ -12256,11 +12257,15 @@ msgid ""
 "Hardware acceleration improves performance and battery life, but may cause "
 "stability issues on some systems."
 msgstr ""
+"Donanım hızlandırma performans ve pil ömrünü artırır, bazı sistemlerde "
+"kararsızlık yaratabilir."
 
 #: dialogs\dlgOptions\pnl_Player.html:55
 msgid ""
 "Causes the Pop-up to appear only if MediaMonkey is minimized or inactive"
 msgstr ""
+"Açılır pencerenin yalnızca MediaMonkey küçültüldüğünde veya etkin "
+"olmadığında görünmesini sağlar"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:10
 msgid ""
@@ -12279,7 +12284,7 @@ msgstr ""
 
 #: dialogs\dlgWizard\pnlRegistration.html:14
 msgid "AccurateRip for bit-perfect CD Rips."
-msgstr ""
+msgstr "Bit mükemmeliyetinde CD Kopyalama için AccurateRip."
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:21
 msgid "Send also Album Artist field, if different from Artist"
@@ -12287,7 +12292,7 @@ msgstr "Sanatçı'dan farklıysa Albüm Sanatçısı alanını da gönderin"
 
 #: controls\artistAlbums.html:25
 msgid "Albums - live"
-msgstr ""
+msgstr "Albümler - canlı"
 
 #: controls\searchView.html:5
 msgid "Switch to advanced"
@@ -12299,20 +12304,25 @@ msgid ""
 "location to sync correctly. They don't include user-settings such as which "
 "content will sync."
 msgstr ""
+"Senkronizasyon profilleri, bir cihazın veya depolama konumunun doğru bir "
+"şekilde senkronize edilmesini sağlayan varsayılan ayarları içerir. Hangi "
+"içeriğin senkronize edileceği gibi kullanıcı ayarlarını içermezler."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:35
 msgid "Destination directory"
-msgstr ""
+msgstr "Hedef dizin"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:6
 msgid ""
 "Create playlists to more easily navigate tracks on a device. This is useful "
 "for older players or car stereos that don't have a media database."
 msgstr ""
+"Cihazda parçaları kolayca bulmak için çalma listeleri oluştur. Bu, medya "
+"veritabanı olmayan eski oynatıcılar veya araç ses sistemleri için yararlıdır."
 
 #: controls\deviceConfig\options\pnl_Playlists.html:11
 msgid "Selected Album nodes"
-msgstr ""
+msgstr "Seçili Albüm düğümleri"
 
 #: dialogs\dlgAutotag.html:10
 msgid ""
@@ -12334,19 +12344,19 @@ msgstr "Mevcut dosya adlarına göre etiketleri güncelleyin"
 
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s), replacing the originals"
-msgstr ""
+msgstr "Dosya(ları) dönüştür, orijinallerin yerine koy"
 
 #: dialogs\dlgLogin.html:17
 msgid "Password"
-msgstr ""
+msgstr "Şifre"
 
 #: dialogs\dlgMP3Settings.html:84
 msgid "VBR method"
-msgstr ""
+msgstr "VBR yöntemi"
 
 #: dialogs\dlgMP3Settings.html:9
 msgid "Use presets"
-msgstr ""
+msgstr "Ön ayarları kullan"
 
 #: dialogs\dlgOGGSettings.html:43
 msgid "Limit maximal bitrate"
@@ -12354,7 +12364,7 @@ msgstr "Maksimum bit hızını sınırla"
 
 #: dialogs\videoConvSettings.html:49
 msgid "large"
-msgstr ""
+msgstr "büyük"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:35
 msgid "The entire Library"
@@ -12362,7 +12372,7 @@ msgstr "Tüm Kitaplık"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:9
 msgid "Exclude folders:"
-msgstr ""
+msgstr "Klasörleri hariç tut:"
 
 #: dialogs\dlgOptions\pnl_General.html:3
 msgid "Interface language:"
@@ -12371,14 +12381,16 @@ msgstr "Arayüz dili seç:"
 #: dialogs\dlgOptions\pnl_General.html:16
 msgid "Submit anonymous usage statistics to help improve the software"
 msgstr ""
+"Yazılımın geliştirilmesine yardımcı olmak için anonim kullanım "
+"istatistiklerini gönder"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:6
 msgid "Looks up artist image if it's missing"
-msgstr ""
+msgstr "Eksikse sanatçı görselini arar"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:9
 msgid "Looks up artwork if it's missing"
-msgstr ""
+msgstr "Eksikse görseli arar"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:25
 msgid "Cache remote content when streaming:"
@@ -12386,15 +12398,15 @@ msgstr "Akış sırasında uzak içeriği önbelleğe al:"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:161
 msgid "Skip counter"
-msgstr ""
+msgstr "Atlama sayacı"
 
 #: controls\audiobookCollectionView.html:3
 msgid "Recently added Albums"
-msgstr ""
+msgstr "Son eklenen Albümler"
 
 #: controls\searchEditor.html:38
 msgid "Selected by"
-msgstr ""
+msgstr "Şunun tarafından seçildi"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:29
 msgid "Use Unicode (UTF-8 encoding)"
@@ -12402,19 +12414,19 @@ msgstr "Unicode (UTF-8 kodlaması) kullanın"
 
 #: dialogs\dlgAddArtwork.html:23
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: dialogs\dlgBurn.html:32
 msgid "Eject media after the burn process"
-msgstr ""
+msgstr "Yazma işlemi sonrası medyayı çıkar"
 
 #: dialogs\dlgSupportedFormat.html:63
 msgid "Video format"
-msgstr ""
+msgstr "Video formatı"
 
 #: dialogs\videoConvSettings.html:97
 msgid "Fit size exactly"
-msgstr ""
+msgstr "Boyutu tam olarak sığdır"
 
 #: dialogs\dlgOptions\pnl_General.html:47
 msgid "Temporary directory:"
@@ -12422,7 +12434,7 @@ msgstr "Geçici dizin:"
 
 #: dialogs\dlgOptions\pnl_Library.html:150
 msgid ".nfo files, Path and Filenames"
-msgstr ""
+msgstr ".nfo dosyaları, Yol ve Dosya adları"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Remove silence at the beginning / end of track"
@@ -12448,23 +12460,23 @@ msgstr ""
 
 #: controls\devicesView.html:3
 msgid "Devices"
-msgstr ""
+msgstr "Cihazlar"
 
 #: controls\devicesView.html:34
 msgid "For example rootDesc.xml. You can find this in the server's settings."
-msgstr ""
+msgstr "Örneğin rootDesc.xml. Sunucu ayarlarında bulabilirsiniz."
 
 #: controls\homeView.html:7
 msgid "(see all)"
-msgstr ""
+msgstr "(tümünü gör)"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:8
 msgid "Selected Artist nodes"
-msgstr ""
+msgstr "Seçili Sanatçı düğümleri"
 
 #: controls\serverConfig\content.html:9
 msgid "Show index for categories with many items"
-msgstr ""
+msgstr "Çok sayıda öğe içeren kategoriler için dizin göster"
 
 #: controls\serverConfig\server.html:5
 msgid "The server name as it appears to other DLNA devices"
@@ -12472,19 +12484,19 @@ msgstr "Diğer DLNA cihazlarında göründüğü şekliyle sunucu adı"
 
 #: dialogs\dlgAutotagFromFilename.html:28
 msgid "Remove underscores"
-msgstr ""
+msgstr "Alt çizgileri kaldır"
 
 #: dialogs\dlgCollectionOptions.html:21
 msgid "Collection comment"
-msgstr ""
+msgstr "Koleksiyon yorumu"
 
 #: dialogs\dlgConvertFormat.html:46
 msgid "Add converted files to the library"
-msgstr ""
+msgstr "Dönüştürülen dosyaları kitaplığa ekle"
 
 #: dialogs\dlgExtensions.html:10
 msgid "Show"
-msgstr ""
+msgstr "Göster"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:34
 msgid "Each Collection"
@@ -12496,7 +12508,7 @@ msgstr "Beta sürümlerini dahil et"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:14
 msgid "Type the key combination to activate the selected action"
-msgstr ""
+msgstr "Seçili eylemi etkinleştirmek için tuş kombinasyonunu gir"
 
 #: dialogs\dlgOptions\pnl_Library.html:115
 msgid ""
@@ -12519,7 +12531,7 @@ msgstr "Videolar için küçük resimler oluşturun"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:38
 msgid "Determines which actions are available in the Explorer context-menu"
-msgstr ""
+msgstr "Gezgin bağlam menüsünde hangi eylemlerin mevcut olduğunu belirler"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:12
 msgid "This option causes MediaMonkey to take up the entire screen."
@@ -12531,7 +12543,7 @@ msgstr "Karıştır etkinleştirildiğinde listedeki tüm parçaları karıştı
 
 #: dialogs\dlgOptions\pnl_Player.html:55
 msgid "Only when inactive"
-msgstr ""
+msgstr "Yalnızca etkin değilken"
 
 #: dialogs\dlgOptions\pnl_Player.html:51
 msgid "Causes the Pop-up to fade-out smoothly"
@@ -12543,7 +12555,7 @@ msgstr "Etiketleri güncellerken zaman damgasını değiştirin"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:216
 msgid "Last played"
-msgstr ""
+msgstr "Son oynatılan"
 
 #: dialogs\dlgWizard\pnlRegistration.html:9
 msgid "organize files automatically"
@@ -12551,13 +12563,15 @@ msgstr "dosyaları otomatik olarak düzenleyin"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:38
 msgid "Fix quotes and apostrophes"
-msgstr ""
+msgstr "Tırnak ve kesme işaretlerini düzelt"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:29
 msgid ""
 "This makes it easier to browse the device's database. Otherwise, multiple "
 "Artists/Composers would sync as a single string (e.g. 'U2;B.B. King')"
 msgstr ""
+"Bu, cihazın veritabanına göz atmayı kolaylaştırır. Yoksa çoklu sanatçılar/"
+"besteciler tek bir dize olarak eşitlenirdi (örn. 'U2;B.B. King')"
 
 #: controls\nowPlaying\fullList.html:30
 msgid "Save lyrics to tag"
@@ -12569,11 +12583,11 @@ msgstr "Yalnızca güvendiğiniz kaynaklardan yazılım yüklemelisiniz."
 
 #: dialogs\dlgAutoConvertRule.html:18
 msgid "When the format is"
-msgstr ""
+msgstr "Biçim şuyken"
 
 #: dialogs\dlgChooseFields.html:10
 msgid "File type"
-msgstr ""
+msgstr "Dosya türü"
 
 #: dialogs\dlgRegisterGold.html:32
 msgid "If you don't have a license key, you can"
@@ -12581,7 +12595,7 @@ msgstr "Lisans anahtarınız yoksa, şunları yapabilirsiniz"
 
 #: dialogs\dlgSleep.html:14
 msgid "Fade volume"
-msgstr ""
+msgstr "Sesi soldur"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:43
 msgid "Rename custom fields (requires restart)"
@@ -12589,12 +12603,12 @@ msgstr "Özel alanları yeniden adlandırın (yeniden başlatma gerektirir)"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:2
 msgid "Set the default directory / filename format for specified files."
-msgstr ""
+msgstr "Belirtilen dosyalar için varsayılan dizin/dosya adı biçimini ayarla."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the 'Playing' list"
 msgstr ""
-"Dosyaların 'Oynatma' listesinden kaldırılmasına ilişkin istenen seçenekleri "
+"Dosyaların 'Oynatma' kuyruğundan kaldırılmasına ilişkin istenen seçenekleri "
 "onaylayın"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
@@ -12635,7 +12649,7 @@ msgstr "Yavaş yavaş kaybolma:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:27
 msgid "Target volume for leveling tracks:"
-msgstr ""
+msgstr "Parçaları eşitlemede hedef ses seviyesi:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:72
 msgid "Automatically analyze volume of unanalyzed files:"
@@ -12643,27 +12657,27 @@ msgstr "Analiz edilmemiş dosyaların sesini otomatik olarak analiz edin:"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:150
 msgid "Composer(s)"
-msgstr ""
+msgstr "Besteci(ler)"
 
 #: controls\searchEditor.html:35
 msgid "minutes"
-msgstr ""
+msgstr "dakika"
 
 #: controls\deviceConfig\summary.html:10
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #: controls\deviceConfig\options\pnl_DeviceProfile.html:23
 msgid "Image:"
-msgstr ""
+msgstr "Resim:"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:2
 msgid "Sync playlists automatically"
-msgstr ""
+msgstr "Çalma listelerini otomatik eşitle"
 
 #: dialogs\dlgAddArtwork.html:20
 msgid "Image type"
-msgstr ""
+msgstr "Resim türü"
 
 #: dialogs\dlgBurn.html:26
 msgid "Cache files from network"
@@ -12671,15 +12685,15 @@ msgstr "Dosyaları ağdan önbelleğe al"
 
 #: dialogs\dlgDelay.html:15
 msgid "seconds"
-msgstr ""
+msgstr "saniye"
 
 #: dialogs\dlgSelectFromList.html:13
 msgid "Add >"
-msgstr ""
+msgstr "Ekle >"
 
 #: dialogs\dlgSleep.html:22
 msgid "Fade to"
-msgstr ""
+msgstr "Şuna soldur"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:15
 msgid "Confirm deletion of currently playing file"
@@ -12687,13 +12701,15 @@ msgstr "Şu anda oynatılan dosyanın silinmesini onaylayın"
 
 #: dialogs\dlgOptions\pnl_Library.html:59
 msgid "Seconds"
-msgstr ""
+msgstr "Saniye"
 
 #: dialogs\dlgOptions\pnl_Library.html:77
 msgid ""
 "Automatically removes attributes (e.g. Artist) that are no longer associated "
 "with any files from the Library."
 msgstr ""
+"Artık kitaplıktan herhangi bir dosyayla ilişkili olmayan öznitelikleri ("
+"örneğin Sanatçı) otomatik olarak kaldırır."
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:17
 msgid "Maximum cache size"
@@ -12705,7 +12721,7 @@ msgstr "Şifreli Güvenli Parti Modu:"
 
 #: dialogs\dlgOptions\pnl_Player.html:103
 msgid "Use default external videoplayer"
-msgstr ""
+msgstr "Varsayılan harici video oynatıcıyı kullan"
 
 #: dialogs\dlgOptions\pnl_Search.html:3
 msgid "Search mode:"
@@ -12713,165 +12729,168 @@ msgstr "Arama modu:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:13
 msgid "ID3v2.4 tags"
-msgstr ""
+msgstr "ID3v2.4 etiketleri"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:185
 msgid "Screenwriter(s)"
-msgstr ""
+msgstr "Senarist(ler)"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:36
 msgid "Lowercase common short words"
-msgstr ""
+msgstr "Kısa kelimeleri küçük harfe çevir"
 
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:23
 msgid "Recommended changes to capitalization"
-msgstr ""
+msgstr "Önerilen büyük/küçük harf değişiklikleri"
 
 # AIFF enc/dec
 msgid "AIFF settings"
-msgstr ""
+msgstr "AIFF ayarları"
 
 # ALAC enc/dec
 msgid "ALAC settings"
-msgstr ""
+msgstr "ALAC ayarları"
 
 # FLAC enc/dec
 msgid "FLAC settings"
-msgstr ""
+msgstr "FLAC ayarları"
 
 msgid "Less compression"
-msgstr ""
+msgstr "Daha az sıkıştırma"
 
 msgid "More compression"
-msgstr ""
+msgstr "Daha fazla sıkıştırma"
 
 msgid "Faster"
-msgstr ""
+msgstr "Daha hızlı"
 
 msgid "Slower"
-msgstr ""
+msgstr "Daha yavaş"
 
 # FLAC encoder level description
 msgid "Bigger number - more compression, slower"
-msgstr ""
+msgstr "Büyük sayı - daha fazla sıkıştırma, daha yavaş"
 
 # WMA encoder
 msgid "WMA settings"
-msgstr ""
+msgstr "WMA ayarları"
 
 msgid "Desktop"
-msgstr ""
+msgstr "Masaüstü"
 
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks. Do you want to proceed?"
 msgstr ""
+"Bu, seçili %d parça için parça# alanını sıralı düzende değiştirecektir. "
+"Devam etmek istiyor musunuz?"
 
 # Quicktime AAC/MP4 plug-in
 msgid "QuickTime"
-msgstr ""
+msgstr "QuickTime"
 
 msgid "Quicktime is needed to play M4A and other AAC tracks."
-msgstr ""
+msgstr "M4A ve diğer AAC parçalarını çalmak için Quicktime gerekir."
 
 msgid "New version of Quicktime is needed to play M4A and other AAC tracks."
 msgstr ""
+"M4A ve diğer AAC parçalarını çalmak için Quicktime'ın yeni sürümü gerekir."
 
 msgid "Do you want to download it?"
-msgstr ""
+msgstr "İndirmek ister misiniz?"
 
 msgid "Mid/Side stereo"
-msgstr ""
+msgstr "Orta/Yan stereo"
 
 # AAC enc/dec
 msgid "AAC settings"
-msgstr ""
+msgstr "AAC ayarları"
 
 # WMA & AAC/MP4 plug-in
 msgid "Variable bitrate (VBR)"
-msgstr ""
+msgstr "Değişken bit hızı (VBR)"
 
 msgid "Average bitrate (ABR)"
-msgstr ""
+msgstr "Ortalama bit hızı (ABR)"
 
 # WMA plug-in
 msgid "Constant bitrate (CBR) 1-pass"
-msgstr ""
+msgstr "Sabit bit hızı (CBR) 1 geçiş"
 
 msgid "Constant bitrate (CBR) 2-pass"
-msgstr ""
+msgstr "Sabit bit hızı (CBR) 2 geçişli"
 
 # Hotkeys
 msgid "Media Fast Forward"
-msgstr ""
+msgstr "Medyayı İleri Sar"
 
 msgid "Media Rewind"
-msgstr ""
+msgstr "Medya Geri Sar"
 
 msgid "Media Pause"
-msgstr ""
+msgstr "Medyayı Duraklat"
 
 msgid "Media Play"
 msgstr "Medya Oynat"
 
 msgid "Show Log File"
-msgstr ""
+msgstr "Günlük Dosyasını Göster"
 
 msgid "Clean Cache"
 msgstr "Önbelleği Temizle"
 
 # f_video plugin
 msgid "Output audio device"
-msgstr ""
+msgstr "Çıkış ses cihazı"
 
 msgid "MediaMonkey Video plug-in"
-msgstr ""
+msgstr "MediaMonkey Video eklentisi"
 
 # MP3 setup, Advanced setup, Sample Rate box
 msgid "Auto"
-msgstr ""
+msgstr "Otomatik"
 
 # Convert dialog, Format settings box for FLAC
 msgid "Compression level"
-msgstr ""
+msgstr "Sıkıştırma seviyesi"
 
 # From installer
 msgid "Warning: This will overwrite an existing %s installation!"
-msgstr ""
+msgstr "Uyarı: Bu, mevcut %s kurulumunu üzerine yazacak!"
 
 # From installer
 msgid ""
 "The directory %s already exists. Would you like to install to that directory "
 "anyway?"
-msgstr ""
+msgstr "%s dizini zaten mevcut. Yine de bu dizine yüklemek ister misiniz?"
 
 # From installer
 msgid "Installation type:"
-msgstr ""
+msgstr "Kurulum türü:"
 
 # From installer
 msgid "Download language"
-msgstr ""
+msgstr "Dili indir"
 
 # From installer
 msgid "Downloading language files for:"
-msgstr ""
+msgstr "Dil dosyaları indiriliyor:"
 
 # From installer
 msgid "Failed to download language files for:"
-msgstr ""
+msgstr "Dilin dosyaları indirilemedi:"
 
 # From installer
 msgid "Error parsing parameter"
-msgstr ""
+msgstr "Parametre ayrıştırma hatası"
 
 # From installer
 msgid "Install error"
-msgstr ""
+msgstr "Kurulum hatası"
 
 # From installer
 msgid "Portable Installation"
-msgstr ""
+msgstr "Taşınabilir Kurulum"
 
 # From installer
 msgid ""
@@ -12881,14 +12900,20 @@ msgid ""
 "none of your data is left behind. The downside is that it isn't optimized "
 "for your particular PC (e.g. no Start menu entry)."
 msgstr ""
+"Bu, MediaMonkey'yi herhangi bir bilgisayarda kullanabileceğiniz taşınabilir "
+"bir aygıtta çalıştırmanızı sağlar.%nUSB belleğiniz veya taşınabilir sabit "
+"diskiniz takılıyken MediaMonkey'ye kendi bilgisayarınızdaymış gibi "
+"erişebilir%nve fişten çekildiğinde hiçbir veriniz geride kalmaz. "
+"Dezavantajı, belirli bilgisayarınız için optimize edilmemiş olmasıdır (örn. "
+"Başlat menüsü girişi yok)."
 
 # From installer
 msgid "portable"
-msgstr ""
+msgstr "taşınabilir"
 
 # From installer
 msgid "non-portable"
-msgstr ""
+msgstr "taşınabilir olmayan"
 
 # string for 5.0 version only
 #: FullPlayer.pas:4079
@@ -12953,7 +12978,7 @@ msgstr "Dosya Listesi (&HTML)"
 # string till 5.0.1 version only
 #: Scripts/export/actions_add.js:41
 msgid "HTML (*.htm)|*.htm|All files (*.*)|*.*"
-msgstr ""
+msgstr "HTML (*.htm)|*.htm|Tüm dosyalar (*.*)|*.*"
 
 # string till 5.0.1 version only
 #: Scripts/export/actions_add.js:173
@@ -12963,7 +12988,7 @@ msgstr "Dosya Listesi (&XML)"
 # string till 5.0.1 version only
 #: Scripts/export/actions_add.js:183
 msgid "XML (*.xml)|*.xml|All files (*.*)|*.*"
-msgstr ""
+msgstr "XML (*.xml)|*.xml|Tüm dosyalar (*.*)|*.*"
 
 # string till 5.0.1 version only
 #: Scripts/export/actions_add.js:331
@@ -13015,17 +13040,17 @@ msgstr ""
 # string till 5.0.1 version only
 #: dialogs\dlgOptions\pnl_Search.html:21
 msgid "Causes search for 'an' to not return files containing 'another'"
-msgstr ""
+msgstr "an' araması için 'another' içeren dosyaların dönmemesini sağlar"
 
 # string till 5.0.2 version only
 #: Scripts\caseChecker\dialogs\dlgCaseChecker.html:42
 msgid "Customize case for these words"
-msgstr ""
+msgstr "Bu kelimelerin büyük/küçük harfini özelleştir"
 
 # string till 5.0.2 version only
 #: Scripts/caseChecker/dialogs/dlgCaseChecker.js:253
 msgid "Old Value: "
-msgstr ""
+msgstr "Eski Değer: "
 
 # string till 5.0.2 version only
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
@@ -13045,32 +13070,32 @@ msgstr "Seçili türdeki dosyalar için çapraz geçişi devre dışı bırakır
 # string till 5.0.2 version only
 #: controls\deviceConfig\summary.html:10
 msgid "Safely remove device"
-msgstr ""
+msgstr "Cihazı güvenle kaldır"
 
 # string till 5.0.3 version only
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:20
 msgid "Set sources"
-msgstr ""
+msgstr "Kaynakları ayarla"
 
 #: actions.js:3159
 msgid "Play mixed"
-msgstr ""
+msgstr "Karışık çal"
 
 #: actions.js:3174 actions.js:3189 actions.js:3192 actions.js:3207
 #: actions.js:3210 MediaMonkeyApp.pas:9057
 #: dialogs\dlgOptions\pnl_OSIntegration.html:9
 msgid "Play next"
-msgstr ""
+msgstr "Sonrakini çal"
 
 #: actions.js:3225 actions.js:3240 actions.js:3243 actions.js:3259
 #: actions.js:3262 MediaMonkeyApp.pas:9058
 #: dialogs\dlgOptions\pnl_OSIntegration.html:10
 msgid "Play last"
-msgstr ""
+msgstr "En son çal"
 
 #: actions.js:3665
 msgid "Auto-&tag from filename"
-msgstr ""
+msgstr "Dosya adından oto-&etiketle"
 
 #: dialogs/dlgAutotagFromFilename.js:83
 msgid "Auto-tag from filename"
@@ -13078,19 +13103,19 @@ msgstr "Dosya adından otomatik etiketleme"
 
 #: FileAssoc.pas:735
 msgid "Play &next in MediaMonkey"
-msgstr ""
+msgstr "MediaMonkey’de &sonraki çal"
 
 #: FileAssoc.pas:736
 msgid "Play &last in MediaMonkey"
-msgstr ""
+msgstr "MediaMonkey’de &son çal"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:54
 msgid "Play last in MediaMonkey"
-msgstr ""
+msgstr "MediaMonkey’de son çal"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
 msgid "Play next in MediaMonkey"
-msgstr ""
+msgstr "MediaMonkey’de sonraki çal"
 
 #: ResStrings.pas:879
 msgid "Could not write the image layout to the disk."
@@ -13118,11 +13143,11 @@ msgstr "'Parça özeti' için görüntüleme biçimi (örneğin Oynatıcıda):"
 
 #: uitools.js:2495
 msgid "MediaMonkey will reload (which may terminate existing processes)."
-msgstr ""
+msgstr "MediaMonkey yeniden yüklenecek (bu mevcut işlemleri sonlandırabilir)."
 
 #: dialogs/dlgScanResults.js:23
 msgid "Imported %d new files"
-msgstr ""
+msgstr "%d yeni dosya içe aktarıldı"
 
 #: dialogs/dlgScanResults.js:25
 msgid "Did not import %d files (did not match import criteria)"
@@ -13130,19 +13155,20 @@ msgstr "%d dosya içe aktarılmadı (içe aktarma ölçütleriyle eşleşmedi)"
 
 #: dialogs/dlgScanResults.js:26
 msgid "Failed to import %d files"
-msgstr ""
+msgstr "%d dosya içe aktarılamadı"
 
 #: ErrHandlers.pas:388
 msgid "There was a problem ripping or verifying the following track(s):"
 msgstr ""
+"Aşağıdaki parça(lar)ı kopyalama veya doğrulama sırasında bir sorun oluştu:"
 
 #: MediaMonkeyApp.pas:6334
 msgid "Imported"
-msgstr ""
+msgstr "İçe aktarıldı"
 
 #: MP3Utils.pas:1719 MP3Utils.pas:2002
 msgid "Adding $FAdd$ of $FTot$ ($Dir$$Str$)"
-msgstr ""
+msgstr "$FAdd$ ($Dir$$Str$) / $FTot$ ekleniyor"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:51
 msgid ""
@@ -13156,7 +13182,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Performance.html:18
 msgid "Ripping"
-msgstr ""
+msgstr "Kopyalanıyor"
 
 #: actions.js:55 controls/nowplayingList.js:308 controls/nowplayingList.js:311
 #: controls/player.js:695 controls/statusbar.js:148 controls/statusbar.js:151
@@ -13164,7 +13190,7 @@ msgstr ""
 #: dialogs/dlgOptions/pnl_LayoutPlaying.js:14 helpers/trayIcon.js:103
 #: ResStrings.pas:428 dialogs\dlgOptions\pnl_AutoDJ.html:31
 msgid "Playing list"
-msgstr ""
+msgstr "Oynatma kuyruğu"
 
 #: actions.js:3342
 msgid ""
@@ -13172,46 +13198,51 @@ msgid ""
 "changes to the Playing list."
 msgstr ""
 "Karıştırma devre dışı. Düzenlemeler nedeniyle karıştırma geri alınamıyor - "
-"Çalınan listedeki değişiklikleri geri almak için 'Geri Al'ı kullanın."
+"Oynatma kuyruğundaki değişiklikleri geri almak için 'Geri Al'ı kullanın."
 
 #: controls/player.js:303
 msgid ""
 "Shuffles the Playing list and makes default play commands shuffle tracks."
 msgstr ""
-"Oynatılan listeyi karıştırır ve varsayılan oynatma komutlarının parçaları "
+"Oynatma kuyruğunu karıştırır ve varsayılan oynatma komutlarının parçaları "
 "karıştırmasını sağlar."
 
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from Playing list only"
-msgstr "Yalnızca 'Oynatma' listesinden kaldır"
+msgstr "Yalnızca Oynatma kuyruğundan kaldır"
 
 #: dialogs/dlgDeleteConfirm.js:135
 msgid "Remove from Playing list and"
-msgstr ""
+msgstr "Yalnızca Oynatma kuyruğundan kaldır ve"
 
 #: dialogs/dlgDeleteConfirm.js:160
 msgid "Delete from Playing list and the database only"
-msgstr ""
+msgstr "Yalnızca Oynatma kuyruğundan ve veritabanından sil"
 
 #: dialogs/dlgDeleteConfirm.js:161
 msgid "Delete from Playing list, the database and drive"
-msgstr ""
+msgstr "Oynatma kuyruğundan, veritabanından ve sürücüden silin"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the Playing list when it runs out."
 msgstr ""
+"Otomatik DJ’yi aç, Oynatma kuyruğuna boşaldığında otomatik ekleme yapar."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:6
 msgid ""
 "This determines how many tracks Auto-DJ will add to the Playing list when "
 "the list begins to empty."
 msgstr ""
+"Bu, liste boşalmaya başladığında Otomatik DJ’in ‘Oynatma kuyruğu’na "
+"eklenecek parça sayısını belirler."
 
 #: controls\deviceConfig\options\pnl_Tagging.html:5
 msgid "Copies tagged artwork to folders for devices that don't read image tags"
 msgstr ""
+"Etiketli görselleri görsel etiketlerini okuyamayan cihazlar için klasörlere "
+"kopyalar"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
 msgid ""
@@ -13219,26 +13250,28 @@ msgid ""
 "Playing list, remove them from the Playing list and the Library, or delete "
 "them from the Playing list, the Library, and the computer system."
 msgstr ""
-"Etkinleştirildiğinde, MediaMonkey size parçaları Çalma listesinden "
-"kaldırmak, Çalma listesinden ve Kitaplıktan kaldırmak veya Çalma "
-"listesinden, Kitaplıktan ve bilgisayar sisteminden silmek isteyip "
+"Etkinleştirildiğinde, MediaMonkey size parçaları oynatma kuyruğundan "
+"kaldırmak, oynatma kuyruğundan ve Kitaplıktan kaldırmak veya oynatma "
+"kuyruğundan, Kitaplıktan ve bilgisayar sisteminden silmek isteyip "
 "istemediğinizi soracaktır."
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the Playing list"
 msgstr ""
-"Dosyaların Oynatma listesinden kaldırılmasına ilişkin istenen seçenekleri "
+"Dosyaların Oynatma kuyruğundan kaldırılmasına ilişkin istenen seçenekleri "
 "onaylayın"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
 msgid "Sync all Artwork to file folders"
-msgstr ""
+msgstr "Tüm Görselleri dosya klasörlerine senkronize et"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:30
 msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "Playing list."
 msgstr ""
+"Bu, Oynatma kuyruğunda daha önce çalınan kaç parçanın gösterileceğini "
+"belirler."
 
 #: dialogs\dlgOptions\pnl_General.html:28
 msgid ""
@@ -13250,15 +13283,15 @@ msgstr ""
 "Varsayılan olarak, MediaMonkey görev çubuğuna küçültülür. 'MicroPlayer'a "
 "Küçült', küçültüldüğünde Sistem tepsisinin yanında bir araç çubuğu olarak "
 "görünmesini sağlar. 'MiniPlayer'a Küçült', ana uygulama küçültüldüğünde bile "
-"'Çalınan liste' dosyalarını görüntüler."
+"'Oynatma kuyruğu' dosyalarını görüntüler."
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in Playing list"
-msgstr "Önceki dosyalar Oynatma listesinde"
+msgstr "Oynatma kuyruğundaki öncekiler"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in Playing list"
-msgstr "Oynatma listesinde yaklaşan dosyalar"
+msgstr "Oynatma kuyruğundaki sonraki"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Modify metadata as follows when syncing to '%s'"
@@ -13275,7 +13308,7 @@ msgstr "Orijinal başlık"
 
 #: UpNp.pas:2499
 msgid "Casting"
-msgstr ""
+msgstr "Yayınlanıyor"
 
 #: actions.js:2170
 msgid "This will restore the database from a backup."
@@ -13285,11 +13318,11 @@ msgstr "Bu, veritabanını bir yedekten geri yükleyecektir."
 #  Add list.
 #: FileAssoc.pas:734
 msgid "&Play in MediaMonkey"
-msgstr ""
+msgstr "MediaMonkey’de &Çal"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:44
 msgid "Play in MediaMonkey"
-msgstr ""
+msgstr "MediaMonkey’de Çal"
 
 #: FileAssoc.pas:735
 msgid "Queue &next in MediaMonkey"
@@ -13309,11 +13342,11 @@ msgstr "MediaMonkey'de son sıra"
 
 #: dialogs\dlgOptions\pnl_Performance.html:37
 msgid "Enable smooth scrolling"
-msgstr ""
+msgstr "Akıcı kaydırmayı etkinleştir"
 
 #: dialogs\dlgOptions\pnl_Performance.html:36
 msgid "This enables smooth scrolling of lists."
-msgstr ""
+msgstr "Bu, listelerin akıcı kaydırılmasını sağlar."
 
 #, fuzzy
 #~| msgid "Configure Collections and nodes"
