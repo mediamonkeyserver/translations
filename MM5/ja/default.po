@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-26 13:26\n"
-"PO-Revision-Date: 2025-10-02 05:50+0000\n"
+"PO-Revision-Date: 2026-01-20 13:53+0000\n"
 "Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ja/>\n"
@@ -309,7 +309,7 @@ msgstr "画像を探す"
 #: dialogs/dlgPodcastUnsubscribe.js:17 FullPlayer.pas:5027
 #: controls\serverConfig\devices.html:9
 msgid "Remove"
-msgstr "削除"
+msgstr "取り除く"
 
 #. @ts-ignore
 #: actions.js:995
@@ -362,7 +362,7 @@ msgstr "オートDJ"
 
 #: actions.js:1137 FullPlayer.pas:5256
 msgid "Remove duplicates"
-msgstr "重複を除去"
+msgstr "重複を取り除く"
 
 #. duplicate
 #. to reset the sort to the default per #18252
@@ -1111,7 +1111,7 @@ msgstr "取り出し"
 
 #: actions.js:3115
 msgid "&Options"
-msgstr "オプション(&O)"
+msgstr "設定(&O)"
 
 #. to refresh also the layout (not only the data)
 #. list
@@ -1289,11 +1289,11 @@ msgstr "自動タグ付け(&A)"
 
 #: actions.js:3757
 msgid "Configure current &output plug-in"
-msgstr "出力プラグインの設定(&O)"
+msgstr "現在の出力プラグインの設定(&O)"
 
 #: actions.js:3769
 msgid "Configure current &input plug-in"
-msgstr "入力プラグインの設定(&I)"
+msgstr "現在の入力プラグインの設定(&I)"
 
 #: actions.js:3781 dialogs/dlgWizard.js:18
 msgid "Share media"
@@ -1310,7 +1310,7 @@ msgstr "コレクションとノードを設定"
 #: Scripts/vis_milkshake/vis_milkshake.js:89
 #: controls\serverConfig\devices.html:9
 msgid "Options"
-msgstr "オプション"
+msgstr "設定"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. @ts-ignore
@@ -1332,7 +1332,7 @@ msgstr "すべて選択"
 #. and set focus (#13206 - item 4)
 #: actions.js:3862
 msgid "Focus tracklist on currently playing item"
-msgstr "トラックリストの現在再生中のアイテムにフォーカス"
+msgstr "トラックリストを再生中の曲にフォーカス"
 
 #. and set focus (#13206 - item 4)
 #: actions.js:3901
@@ -1520,11 +1520,11 @@ msgstr "クリア(&C)"
 
 #: actions.js:4877
 msgid "Clea&n (remove inaccessible)"
-msgstr "クリーン（アクセスできないものを削除）(&N)"
+msgstr "クリーン（アクセス不能項目を取り除く）(&N)"
 
 #: actions.js:4888
 msgid "Remove &duplicates"
-msgstr "重複しているものを削除(&D)"
+msgstr "重複を取り除く(&D)"
 
 #: actions.js:4899
 msgid "&Randomize list"
@@ -1628,7 +1628,7 @@ msgstr "自動的に"
 
 #: actions.js:5319
 msgid "Use current video frame"
-msgstr "現在の動画フレームから"
+msgstr "現在の動画フレームを使用する"
 
 #: actions.js:5331
 msgid "Audio streams"
@@ -1789,14 +1789,14 @@ msgstr ""
 msgid ""
 "Are you sure you want to remove the %s tag(s) from the selected files (file "
 "properties will not be removed from the Library)?"
-msgstr ""
-"選択したファイルから\"%s\"タグを削除してもよろしいですか（ファイルのプロパ"
-"ティはライブラリから削除されません）？"
+msgstr "選択したファイルから %s "
+"のタグを取り除いてもよろしいですか（ファイルプロパティはライブラリから削除さ"
+"れません）？"
 
 #. Public methods
 #: dndutils.js:238
 msgid "item(s)"
-msgstr "アイテム"
+msgstr "項目"
 
 #. e.g. skins and layouts don't need reload (they are loaded when switching to them)
 #. reload whole skin
@@ -1852,7 +1852,7 @@ msgstr "スムーズな一時停止"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Crossfades during seek operation"
-msgstr "シーク操作中のクロスフェード"
+msgstr "シーク操作中にクロスフェードする"
 
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:92
 msgid "Smooth seek"
@@ -2111,7 +2111,7 @@ msgstr "登録"
 #. we need at least one song to work with
 #: uitools.js:2411 dialogs/dlgTrackProperties.js:179 MP3Utils.pas:1247
 msgid "Please select one or more files for this operation."
-msgstr "この操作では１つ以上のファイルを選択してください。"
+msgstr "この操作を行うには、1つ以上のファイルを選択してください。"
 
 #. hide full window player and switcher
 #. TODO: add links to stations
@@ -2382,7 +2382,7 @@ msgstr "関連ジャンル"
 #. default visibility defined by nodeHandler:
 #: viewHandlers.js:3013
 msgid "&Remove"
-msgstr "削除(&R)"
+msgstr "取り除く(&R)"
 
 #. removes the device profile from database
 #. cannot edit/add release of unknown album
@@ -2407,19 +2407,18 @@ msgstr "プレイリスト"
 
 #: viewHandlers.js:3897 controls/playlistHeader.js:159
 msgid "Are you sure you want to remove playlist \"%s\" ?"
-msgstr "プレイリスト\"%s\"を削除してもよろしいですか？"
+msgstr "プレイリスト\"%s\"を取り除いてもよろしいですか？"
 
 #: viewHandlers.js:3899 controls/playlistHeader.js:161 PlaylistManage.pas:915
 msgid ""
 "This playlist is a parent of other playlists. Deleting it will also remove "
 "its children. Are you sure you want to delete it?"
-msgstr ""
-"このプレイリストは他のプレイリストの親です。削除すると子プレイリストも削除さ"
-"れます。削除してよろしいですか？"
+msgstr "このプレイリストは他のプレイリストの親です。削除すると、その子プレイリストも"
+"取り除かれます。本当に削除してもよろしいですか？"
 
 #: viewHandlers.js:3902
 msgid "Are you sure you want to remove %d selected playlists ?"
-msgstr "%d件の選択したプレイリストを削除してもよろしいですか？"
+msgstr "選択した%d個のプレイリストを取り除いてもよろしいですか？"
 
 #. #15926 - S4
 #. to not initiate too many stream url requests (would result in too many download threads)
@@ -2477,7 +2476,7 @@ msgstr "購読解除済み"
 #. assignment to tracklist
 #: viewHandlers.js:4574 viewHandlers.js:7140
 msgid "Are you sure you want to remove \"%s\" ?"
-msgstr "\"%s\"を削除してもよろしいですか？"
+msgstr "\"%s\"を取り除いてもよろしいですか？"
 
 #. e.g. db folders
 #. requiredColumns: 'playOrder',
@@ -2517,11 +2516,11 @@ msgstr "フォルダー\"%s\"をごみ箱に移動してもよろしいですか
 
 #: viewHandlers.js:5032
 msgid "Are you sure you want to remove \"%s\"?"
-msgstr "\"%s\"を削除してもよろしいですか？"
+msgstr "\"%s\"を取り除いてもよろしいですか？"
 
 #: viewHandlers.js:5035
 msgid "Are you sure you want to remove %d selected items?"
-msgstr "%d個の選択されたアイテムを削除してもよろしいですか？"
+msgstr "選択した%d個の項目を取り除いてもよろしいですか？"
 
 #. to get fresh tracklist on F5 (view.refresh)
 #: viewHandlers.js:5073 viewHandlers.js:5486 ResStrings.pas:432
@@ -2538,11 +2537,11 @@ msgstr "動画"
 
 #: viewHandlers.js:5159 viewHandlers.js:5409
 msgid "Are you sure you want to remove playlist \"%s\" from %s?"
-msgstr "プレイリスト\"%s\"を\"%s\"から削除してもよろしいですか？"
+msgstr "プレイリスト\"%s\"を%sから取り除いてもよろしいですか？"
 
 #: viewHandlers.js:5162 viewHandlers.js:5412
 msgid "Are you sure you want to remove %d selected playlists from %s?"
-msgstr "%d個の選択されたプレイリストを\"%s\"から削除してもよろしいですか？"
+msgstr "選択した%d個のプレイリストを%sから取り除いてもよろしいですか？"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to not show children for syncable servers in Add/Resacn dialog
@@ -2581,7 +2580,7 @@ msgstr "削除"
 
 #: viewHandlers.js:5633
 msgid "Are you sure you want to remove profile \"%s\" ?"
-msgstr "プロフィール\"%s\"を削除してもよろしいですか？"
+msgstr "プロファイル\"%s\"を取り除いてもよろしいですか？"
 
 #: viewHandlers.js:5673
 msgid "Disable"
@@ -2594,7 +2593,7 @@ msgstr "同期"
 
 #: viewHandlers.js:5708
 msgid "Safely &remove device"
-msgstr "安全にデバイスを取り外す(&R)"
+msgstr "デバイスの安全な取り外し(&R)"
 
 #. e.g. tracklist or albumlist, add its tracks at once:
 #: viewHandlers.js:5776
@@ -2837,7 +2836,7 @@ msgstr "Web"
 
 #: viewHandlers.js:7808 viewHandlers.js:7919
 msgid "Remove bookmark"
-msgstr "ブックマークを削除"
+msgstr "ブックマークを取り除く"
 
 #: viewHandlers.js:7860 viewHandlers.js:7862 GlobVars.pas:2092
 msgid "Radio"
@@ -3077,7 +3076,7 @@ msgstr "アーティスト不明"
 
 #: controls/artWindow.js:667
 msgid "Remove image"
-msgstr "画像の削除"
+msgstr "画像を取り除く"
 
 #: controls/artWindow.js:704 controls/nowPlaying/fullList.js:115
 msgid "Save image"
@@ -3294,7 +3293,7 @@ msgstr "自動変換"
 #: controls/columntracklist.js:192 dialogs/dlgSelectFromList.js:179
 #: dialogs\dlgOptions\pnl_Appearance.html:30
 msgid "Column settings"
-msgstr "列の設定"
+msgstr "表示項目の設定"
 
 #: controls/columntracklist.js:204
 msgid "Automatic column widths"
@@ -3687,7 +3686,7 @@ msgstr "自動検出"
 #. _this.dataSource.deleteSelected();
 #: controls/monitoredFoldersView.js:182
 msgid "Remove selected folder(s)"
-msgstr "選択したフォルダーを削除"
+msgstr "選択したフォルダーを取り除く"
 
 #. second mouse click in less than 3 seconds starts editing
 #: controls/monitoredFoldersView.js:249 GlobVars.pas:2087
@@ -3808,9 +3807,8 @@ msgstr "内蔵プレイヤー"
 #: controls/player.js:445
 msgid ""
 "Shuffles the 'Playing' list and makes default play commands shuffle tracks."
-msgstr ""
-"「再生中」リストをシャッフルし、デフォルトの再生コマンドでトラックをシャッフ"
-"ルします。"
+msgstr "「再生中」リストをシャッフルし、デフォルトの再生コマンドをシャッフル再生に設"
+"定します。"
 
 #: controls/player.js:567
 msgid "Speed"
@@ -3929,7 +3927,7 @@ msgstr "フィードリンクを入力してポッドキャストを手動で購
 #. experimental
 #: controls/rating.js:135
 msgid "Remove rating"
-msgstr "評価を削除"
+msgstr "評価を取り除く"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. register layoutchange event, so we can check, if we already can scroll to desired position
@@ -4139,7 +4137,7 @@ msgstr "表示項目の追加"
 
 #: controls/tracklistFilter.js:402
 msgid "Remove Column"
-msgstr "表示項目を削除"
+msgstr "表示項目を取り除く"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. copy from tracklist menu, set tracklist for menu to our ds
@@ -4484,7 +4482,7 @@ msgstr "波形の更新"
 
 #: controls/clientConfig/autoConvert.js:5
 msgid "Convert the following formats when playing %s content remotely"
-msgstr "\"%s\"コンテンツをリモートで再生する場合は、次の形式に変換します"
+msgstr "\"%s\" コンテンツをリモート再生する際に、次の形式へ変換します"
 
 #: controls/clientConfig/autoConvert.js:6
 #: controls/serverConfig/autoConvert.js:4
@@ -4616,7 +4614,7 @@ msgstr "フォントサイズ"
 #. ODS('--- saving ' + JSON.stringify(fromObject));
 #: controls/serverConfig/autoConvert.js:3
 msgid "Convert the following formats when playing remotely"
-msgstr "リモート再生の際に次の形式を変換"
+msgstr "リモート再生時に、次の形式のファイルを変換する"
 
 #: controls/serverConfig/autoConvert.js:6
 msgid "Supported formats on UPnP/DLNA clients"
@@ -4708,7 +4706,7 @@ msgstr "製品のインストール"
 #: dialogs/dlgAddonInstall.js:39 dialogs/dlgAddonInstall.js:46
 #: Scripts/imageSearch/helpers/searchTools_add.js:71
 msgid "This addon is incompatible with current version of MediaMonkey"
-msgstr "このアドオンは現行バージョンのMediaMonkeyと互換性がありません"
+msgstr "このアドオンは現在のMediaMonkeyバージョンと互換性がありません"
 
 #: dialogs/dlgAddonInstall.js:40
 #: Scripts/imageSearch/helpers/searchTools_add.js:71
@@ -4903,7 +4901,7 @@ msgstr "メディアの共有化"
 
 #: dialogs/dlgCollectionOptions.js:57
 msgid "Collection Options"
-msgstr "コレクションオプション"
+msgstr "コレクション設定"
 
 #. add new sync storage target (profile):
 #: dialogs/dlgCollectionOptions.js:83 dialogs/dlgCollectionOptions.js:139
@@ -4980,11 +4978,11 @@ msgstr "データベースとドライブからすべてのコンテンツを削
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:83 dialogs/dlgDeleteConfirm.js:109
 msgid "Remove from the Playlist only"
-msgstr "プレイリストからのみ削除"
+msgstr "プレイリストからのみ取り除く"
 
 #: dialogs/dlgDeleteConfirm.js:86
 msgid "Remove from the Playlist and"
-msgstr "プレイリストから削除"
+msgstr "プレイリストから取り除き、"
 
 #. per #15029
 #: dialogs/dlgDeleteConfirm.js:96 dialogs/dlgDeleteConfirm.js:145
@@ -5000,7 +4998,7 @@ msgstr "リモートコピーを削除してデータベースを更新する"
 #: dialogs/dlgDeleteConfirm.js:98 dialogs/dlgDeleteConfirm.js:147
 #: dialogs/dlgDeleteConfirm.js:183
 msgid "Delete all copies and remove from the database"
-msgstr "すべてのコピーを削除してデータベースから除去する"
+msgstr "すべてのコピーを削除し、データベースから取り除く"
 
 #: dialogs/dlgDeleteConfirm.js:110
 msgid "Delete from the Playlist and database only"
@@ -5013,27 +5011,27 @@ msgstr "プレイリスト、データベース、ドライブから削除"
 #. per suggestions in #15029 / ~53040
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from 'Playing' list only"
-msgstr "「再生中」リストからのみ削除"
+msgstr "「再生中」リストからのみ取り除く"
 
 #: dialogs/dlgDeleteConfirm.js:135
 msgid "Remove from 'Playing' list and"
-msgstr "「再生中」リストから削除"
+msgstr "「再生中」リストから取り除き、"
 
 #: dialogs/dlgDeleteConfirm.js:160
 msgid "Delete from 'Playing' list and the database only"
-msgstr "「再生中」リストとデータベースからのみ削除"
+msgstr "「再生中」リストとデータベースからのみ削除する"
 
 #: dialogs/dlgDeleteConfirm.js:161
 msgid "Delete from 'Playing' list, the database and drive"
-msgstr "「再生中」リスト、データベース、ドライブから削除"
+msgstr "「再生中」リスト、データベース、ドライブから削除する"
 
 #: dialogs/dlgDeleteConfirm.js:189
 msgid "Are you sure you want to remove %d files from the ''%s'' ?"
-msgstr "\"%s\"から%d個のファイルを削除してもよろしいですか？"
+msgstr "%d個のファイルを\"%s\"から取り除いてもよろしいですか？"
 
 #: dialogs/dlgDeletedTracks.js:8
 msgid "Remove unavailable files"
-msgstr "利用できないファイルを除去"
+msgstr "利用できないファイルを取り除く"
 
 #: dialogs/dlgDeletedTracks.js:62
 msgid ""
@@ -5042,7 +5040,7 @@ msgstr "次の%d個のファイルが予想される場所に見つかりませ�
 
 #: dialogs/dlgDeletedTracks.js:63
 msgid "Do you want to remove them from the Library?"
-msgstr "ライブラリから削除しますか？"
+msgstr "ライブラリから取り除いてもよろしいですか？"
 
 #: dialogs/dlgDeviceConfig.js:4 helpers/mediaSync.js:2599
 msgid "Sync settings"
@@ -5063,7 +5061,7 @@ msgstr "ビューの設定"
 #: dialogs/dlgEditView.js:413 dialogs/dlgEditView.js:416
 #: dialogs/dlgEditView.js:419
 msgid "Choose Columns"
-msgstr "列の選択"
+msgstr "表示項目の選択"
 
 #. undefined
 #: dialogs/dlgEditView.js:413 dialogs/dlgEditView.js:416
@@ -5097,7 +5095,7 @@ msgstr "続ける"
 
 #: dialogs/dlgErrorLog.js:144
 msgid "Item"
-msgstr "アイテム"
+msgstr "項目"
 
 #: dialogs/dlgExtensions.js:47 ResStrings.pas:395
 msgid "Configurable"
@@ -5514,7 +5512,7 @@ msgstr "このポッドキャストはすでに購読しています"
 #: dialogs/dlgPodcastSubscription.js:108
 #: dialogs\dlgOptions\pnl_Download.html:14
 msgid "Global podcast options"
-msgstr "グローバルポッドキャストのオプション"
+msgstr "グローバルポッドキャストの設定"
 
 #: dialogs/dlgPodcastUnsubscribe.js:12
 msgid "Are you sure you want to unsubscribe"
@@ -5879,7 +5877,7 @@ msgstr "プレビューレイアウトが設定できません。"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:27
 msgid "This panel element displays details of the playing or selected file"
-msgstr "このパネル要素は、再生または選択されたファイルの詳細を表示します"
+msgstr "このパネルは、再生中または選択中のファイルの詳細を表示します"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:31
 msgid "Smallest"
@@ -7096,9 +7094,8 @@ msgstr "%sに保存されています"
 msgid ""
 "All links to the image %s have been removed from the Library. Would you like "
 "to delete it from the drive as well?"
-msgstr ""
-"画像\"%s\"へのすべてのリンクが解除されました。PC からこの画像を削除してよろし"
-"いですか？"
+msgstr "画像\"%s\"へのすべてのリンクはライブラリから取り除かれました"
+"。ドライブからも削除しますか？"
 
 #. Get exclusive access to the DB
 #. VACUUM fails with "out of memory" exception on large databases (7 GB, 2.2 million of tracks)
@@ -7113,15 +7110,15 @@ msgstr "データベースが破損しているようです。修正を試みま
 
 #: DatabaseManage.pas:3186
 msgid "Do you really want to remove %d tracks from Virtual CD?"
-msgstr "仮想CDから%dトラックを削除してよろしいですか？"
+msgstr "本当に%d個のトラックをVirtual CDから取り除きますか？"
 
 #: DatabaseManage.pas:3245
 msgid "Do you really want to remove %d previews?"
-msgstr "%dプレビューを削除してよろしいですか？"
+msgstr "本当に%d個のプレビューを取り除きますか？"
 
 #: DatabaseManage.pas:3308
 msgid "Are you sure you want to remove %d file(s) from the Library?"
-msgstr "ライブラリから%d個のファイルを削除してもよろしいですか？"
+msgstr "本当に%d個のファイルをライブラリから取り除きますか？"
 
 #: DatabaseManage.pas:3309
 msgid "Are you sure you want to delete %d file(s)?"
@@ -7277,7 +7274,7 @@ msgstr "%sから%sに追加されました"
 
 #: Devices.pas:3758
 msgid "Remove '%s' entries from the Library?"
-msgstr "\"%s\"エントリをライブラリから削除しますか？"
+msgstr "'%s'のエントリをライブラリから取り除きますか？"
 
 #: Devices.pas:3763
 msgid "Delete downloaded content"
@@ -7285,7 +7282,7 @@ msgstr "ダウンロードしたコンテンツを削除"
 
 #: Devices.pas:3905
 msgid "Cannot remove directory %s."
-msgstr "ディレクトリ\"%s\"を削除できません。"
+msgstr "ディレクトリ\"%s\"を取り除けません。"
 
 #: Devices.pas:5250 Settings.pas:1659
 msgid "Are you sure you want to reset this profile to its default settings?"
@@ -7466,12 +7463,12 @@ msgstr "次のファイルのダウンロード中に問題が発生しました
 #. #18222
 #: ErrHandlers.pas:458
 msgid "There was a problem scanning the following item(s):"
-msgstr "次のアイテムのスキャン中に問題が発生しました:"
+msgstr "次の項目をスキャン中に問題が発生しました："
 
 #. #18222
 #: ErrHandlers.pas:471
 msgid "There was a problem synchronizing the following item(s):"
-msgstr "次のアイテムの同期中に問題が発生しました:"
+msgstr "次の項目の同期中に問題が発生しました:"
 
 #. seconds
 #. splitting or decoding failed
@@ -7633,7 +7630,7 @@ msgstr "メディアサーバーキャッシュ"
 
 #: FileUtils.pas:2392
 msgid "Virtual CD content"
-msgstr "仮想CDコンテンツ"
+msgstr "Virtual CD の内容"
 
 #: FileUtils.pas:2395 UPnPTreeHelper.pas:1908
 msgid "Previews"
@@ -7855,11 +7852,11 @@ msgstr "上へ"
 #. using checkMedia removed, #18091
 #: FullPlayer.pas:2385
 msgid "Add %d file(s) to Playing"
-msgstr "%d個のファイルを「再生中」リストに追加"
+msgstr "%d個のファイルを「再生中」リストに追加する"
 
 #: FullPlayer.pas:2568
 msgid "Clear Playing"
-msgstr "「再生中」リストをクリア"
+msgstr "「再生中」リストをクリアする"
 
 #: FullPlayer.pas:3040
 msgid "Currently, there is no output plug-in selected"
@@ -7867,8 +7864,7 @@ msgstr "現在、出力プラグインは選択されていません"
 
 #: FullPlayer.pas:3054
 msgid "Currently no input plug-in is in use (no file is playing)."
-msgstr ""
-"現在、入力プラグインは使用されていません（ファイルは再生されていません）。"
+msgstr "現在、入力プラグインは使用されていません（ファイルは再生中ではありません）。"
 
 #. run in separate thread, as caller could be terminated too fast and message would not be shown
 #. no audio hw
@@ -7905,13 +7901,13 @@ msgstr "重複は検出されませんでした。"
 
 #: FullPlayer.pas:5252
 msgid "Do you want to remove %d duplicate(s) Playing?"
-msgstr "%d件の重複した「再生中」を削除しますか？"
+msgstr "「再生中」リストから%d個の重複項目を取り除きますか？"
 
 #. lock, so the track to delete won't be scanned again
 #: FullPlayer.pas:7033
 msgid ""
 "The operation will complete after the the current file finishes playing."
-msgstr "現在のトラックの再生が終了した後にこの操作は完了します。"
+msgstr "この操作は、現在のファイルの再生が終了した後に完了します。"
 
 #. UI.showToastMessage(FormatPlus( _('Playback failed: %s is inaccessible.'), [fname]));
 #: FullPlayer.pas:7360
@@ -7922,17 +7918,15 @@ msgstr "シャッフルが無効です。シャッフルされていないリス
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the 'Playing' list."
-msgstr ""
-"シャッフルは無効です。編集のためシャッフルを解除できません。「再生中」リスト"
-"への変更を元に戻すには「元に戻す」を使用してください。"
+msgstr "シャッフルは無効です。編集が加えられたため、シャッフルを解除できません。「再"
+"生中」リストの変更を元に戻すには「元に戻す」を使用してください。"
 
 #: FullPlayer.pas:7534
 msgid ""
 "File %s is now playing. Deleting it will interrupt playback. Are you sure "
 "you want to delete it?"
-msgstr ""
-"ファイル\"%s\"が再生されています。削除すると再生が中断されます。削除してもよ"
-"ろしいですか？"
+msgstr "現在、\"%s\" "
+"を再生中です。削除すると再生が中断されます。削除してもよろしいですか？"
 
 #: FullPlayer.pas:8646
 msgid "Computing waveform for file %s"
@@ -8142,9 +8136,8 @@ msgstr "ネットワークからファイルをキャッシュ"
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disc from being burnt."
-msgstr ""
-"書き込み操作に失敗しました！一部のトラックはデジタル著作権管理によって保護さ"
-"れており、ディスクが書き込まれないようになっています。"
+msgstr "書き込みに失敗しました。一部のトラックは "
+"DRM（著作権保護）により、ディスクへの書き込みが許可されていません。"
 
 #: HTMLWindow.pas:10935
 msgid "Alert"
@@ -8340,7 +8333,7 @@ msgstr "%d個のファイルを%dから削除しました"
 #. suppress calling handleUnusedItems with notifyCommonChange, will be called once at the end
 #: MediaMonkeyApp.pas:5308
 msgid "Removed %d files from %d"
-msgstr "%d個のファイルを%dから除去しました"
+msgstr "%dから%d個のファイルを取り除きました"
 
 #: MediaMonkeyApp.pas:5576 QueryManage.pas:4318
 msgid "is not accessible"
@@ -8360,7 +8353,7 @@ msgstr "ログをスキャン"
 
 #: MediaMonkeyApp.pas:6466
 msgid "Operation"
-msgstr "オペレーション"
+msgstr "処理"
 
 #: MediaMonkeyApp.pas:7447
 msgid "Lifetime"
@@ -8417,7 +8410,7 @@ msgstr "音量揃え"
 
 #: MediaMonkeyApp.pas:9302
 msgid "Edit Properties"
-msgstr "プロパティ編集"
+msgstr "プロパティを編集"
 
 #: MediaMonkeyApp.pas:9312
 msgid "Clear list & play selected + subsequent"
@@ -8461,9 +8454,8 @@ msgstr "プリセット"
 msgid ""
 "To enable advanced codec options (e.g. higher or lower bitrates), please "
 "upgrade to MediaMonkey Gold."
-msgstr ""
-"高度なコーデックオプション（高ビットレートまたは低ビットレートなど）を有効に"
-"するには、MediaMonkey Goldにアップグレードしてください。"
+msgstr "高度なコーデック設定（例：ビットレートの調整）を有効にするには、MediaMonkey "
+"Goldにアップグレードしてください。"
 
 #: MP3Manage.pas:3704
 msgid "Removing %s tags %d of %d (%s)"
@@ -8813,7 +8805,7 @@ msgstr "アクセス可能"
 
 #: QueryManage.pas:4325
 msgid "is in Virtual CD"
-msgstr "仮想CD中にある"
+msgstr "Virtual CD に入っています"
 
 #: QueryManage.pas:4332
 msgid "has preview"
@@ -9136,7 +9128,7 @@ msgstr "RAMディスク"
 
 #: ResStrings.pas:429
 msgid "Virtual"
-msgstr "仮想"
+msgstr "Virtual"
 
 #: ResStrings.pas:440
 msgid "Length (seconds)"
@@ -9389,9 +9381,8 @@ msgstr ""
 msgid ""
 "Check whether another instance of MediaMonkey is already running or change "
 "the port# in Options > Media Sharing."
-msgstr ""
-"MediaMonkeyの別のインスタンスが既に実行されているか確認するか、「オプション」"
-"＞「メディア共有」でポート番号を変更します。"
+msgstr "MediaMonkeyがすでに起動していないか確認するか、設定＞メディア共有でポート番号"
+"を変更してください。"
 
 #: UpNp.pas:4521
 msgid "Denied"
@@ -9482,7 +9473,7 @@ msgstr "入力されたリンク/URLはメディアサーバーデバイスを�
 
 #: UpNp.pas:13094
 msgid "Playing to %s has failed"
-msgstr "%sへの再生に失敗しました"
+msgstr "%s への再生に失敗しました"
 
 #: UpNp.pas:13094
 msgid "The format is probably unsupported by the device."
@@ -9522,7 +9513,7 @@ msgstr "新しいバージョンを確認しています..."
 
 #: WebUtils.pas:6390
 msgid "MediaMonkey %s is the current version"
-msgstr "MediaMonkey %s は現行バージョンです"
+msgstr "MediaMonkey %s は最新バージョンです"
 
 #: WebUtils.pas:6419
 msgid "MediaMonkey could not check for updates;"
@@ -9543,8 +9534,8 @@ msgid ""
 "Current audio configuration cannot play %s. Verify that your sound drivers "
 "are properly installed or try to change/re-configure the output plugin."
 msgstr ""
-"現在のオーディオ構成は%sを再生できません。サウンドドライバが正しくインストー"
-"ルされていることを確認するか、出力プラグインを変更/再構成してください。"
+"現在のオーディオ設定では%sを再生できません。サウンドドライバが正しくインスト"
+"ールされているか確認するか、出力プラグインを変更/再構成してください。"
 
 #: WMAUtils.pas:332
 msgid "WMA is not supported. The codec must first be installed."
@@ -9590,9 +9581,10 @@ msgid ""
 "'Playing' list, remove them from the 'Playing' list and the Library, or "
 "delete them from the 'Playing' list, the Library, and the computer system."
 msgstr ""
-"有効にすると、MediaMonkeyは「再生中」リストからトラックを削除するか、「再生"
-"中」リストとライブラリからトラックを削除するか、「再生中」リスト、ライブラ"
-"リ、コンピュータシステムからトラックを削除するかをたずねます。"
+"有効にすると、MediaMonkey "
+"は「再生中」リストからトラックを取り除くか、「再生中」リストとライブラリから"
+"取り除くか、または「再生中」リスト・ライブラリ・コンピュータシステムから削除"
+"するかを確認します。"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
@@ -9609,10 +9601,10 @@ msgid ""
 "highly organized directory structure, in which case 'Filename + Path' will "
 "yield better results."
 msgstr ""
-"プロパティは、「ファイル名」または「ファイル名+パス」から推測されます。一般的"
-"に、ファイルが非常に整理されたディレクトリ構造に配置されている場合を除き、"
-"ファイル名のみから推測すると、「ファイル名+パス」がより良い結果をもたらしま"
-"す。"
+"プロパティは「ファイル名」または「ファイル名＋パス」から推測できます。一般的"
+"には、ファイル名のみから推測するほうが適していますが、ファイルが厳密に整理さ"
+"れたディレクトリ構造になっている場合は、「ファイル名＋パス」のほうがより良い"
+"結果になります。"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:2
 msgid ""
@@ -9860,7 +9852,7 @@ msgstr "１ 週間"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:9
 msgid "Confirm desired options on removal of files from Playlist"
-msgstr "プレイリストからファイルを削除する際のオプションを確認する"
+msgstr "プレイリストからファイルを削除する際に、確認ダイアログを表示します"
 
 #: dialogs\dlgOptions\pnl_General.html:7
 msgid "Check for updates (when connected)"
@@ -9926,9 +9918,9 @@ msgid ""
 "additionally causes edited tracks to be recopied (useful for devices running "
 "3rd-party players)."
 msgstr ""
-"同期時に、編集されたタグのメタデータは常に同期されます。このオプションは、編"
-"集したトラックを再コピーすることもできます（サードパーティプレーヤーを実行し"
-"ているデバイスで役に立ちます）。"
+"同期時には、編集されたタグのメタデータは常に同期されます。この設定を有効にす"
+"ると、編集したトラック自体も再コピーされます（サードパーティ製プレーヤーを使"
+"用するデバイスで有用です）。"
 
 #: dialogs\dlgEditView.html:26
 msgid "Sorting"
@@ -9960,7 +9952,7 @@ msgstr "最大"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:27
 msgid "Confirm sync operation when there's not enough space available"
-msgstr "十分な空き容量がない場合に同期操作を確認する"
+msgstr "空き容量が不足している場合に、同期処理の確認ダイアログを表示します"
 
 #: dialogs\dlgOptions\pnl_Layouts.html:7
 msgid "Active layout"
@@ -10030,7 +10022,7 @@ msgstr "プレイリスト形式"
 
 #: controls\serverConfig\devices.html:2
 msgid "Update play count when playing remotely"
-msgstr "リモート再生時に再生回数を更新"
+msgstr "リモート再生時に再生回数を更新する"
 
 #: dialogs\dlgAutoorganize.html:37
 msgid "Trim long paths/filenames"
@@ -10063,9 +10055,9 @@ msgstr "最小化設定:"
 msgid ""
 "This option causes MediaMonkey to never truly close--it always runs in the "
 "background, and is always accessible via the system tray."
-msgstr ""
-"このオプションを使用すると、MediaMonkeyは常にバックグラウンドで実行され、シス"
-"テムトレイから常にアクセスできます。"
+msgstr "この設定を有効にすると、MediaMonkey "
+"は完全には終了せず、バックグラウンドで動作し続け、システムトレイから常にアク"
+"セスできます。"
 
 #: dialogs\dlgOptions\pnl_General.html:32
 msgid "Minimizes to the Taskbar"
@@ -10089,7 +10081,7 @@ msgstr "他のアプリケーションから..."
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:18
 msgid "Notify last.fm about playing tracks"
-msgstr "再生しているトラックについてlast.fmに通知する"
+msgstr "再生中のトラックを last.fm に通知する"
 
 #: controls\searchEditor.html:14
 msgid "of the following criteria"
@@ -10146,9 +10138,8 @@ msgid ""
 "If enabled, MediaMonkey will prompt you whether to delete the currently "
 "playing file from the system, since doing so will cause an interruption of "
 "playback."
-msgstr ""
-"有効にすると、MediaMonkey は再生中のファイルをシステムから削除（これを行うと"
-"再生は途中で停止します）するかどうかたずねます。"
+msgstr "有効にすると、再生中のファイルをシステム（実ファイル）から削除するかどうか確"
+"認します（削除すると再生が中断されます）。"
 
 #: dialogs\dlgOptions\pnl_Download.html:8
 msgid "Number of concurrent downloads:"
@@ -10165,10 +10156,10 @@ msgid ""
 "priority of these background tasks. By default it is set to 'Lower' so that "
 "these tasks don't slow down other operations."
 msgstr ""
-"MediaMonkeyは、CDリッピング、変換、タグ付け、音量揃えなどの多数の操作をバック"
-"グラウンドで実行します。このオプションはこれらのバックグラウンドタスクの優先"
-"度を設定します。デフォルトでは、これらのタスクが他の操作を遅くしないように、"
-"「低くする」に設定されています。"
+"MediaMonkey は、CD "
+"リッピング、変換、タグ編集、音量揃えなどの処理をバックグラウンドで実行します"
+"。この設定では、これらのバックグラウンドタスクの優先度を指定できます。既定で"
+"は「低」に設定されており、他の操作の妨げにならないようになっています。"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:5
 msgid ""
@@ -10249,7 +10240,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in 'Playing' list"
-msgstr "件の以前のファイルを「再生中」リストに保持する"
+msgstr "件の「再生中」リストの前のファイル"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:5
 msgid "Enable Auto-DJ"
@@ -10271,10 +10262,10 @@ msgid ""
 "folder that isn't monitored, as doing so would result in the file being "
 "removed from the Library entirely."
 msgstr ""
-"監視先フォルダーから移動 / 削除されたファイルをライブラリから削除したい場合に"
-"有効にします。　非常に便利ですが、ファイルを監視先フォルダー以外へ移動させる"
-"ことが絶対に無い場合にのみ有効にすべきです。その場合には、結果としてライブラ"
-"リから削除されたファイルのみが対象になります。"
+"監視対象フォルダから移動または削除されたファイルをライブラリから取り除く場合"
+"に有効にします。非常に便利な機能ですが、監視対象ではないフォルダへファイルを"
+"移動することが絶対にないと確信できる場合にのみ有効にしてください。そうしない"
+"と、そのファイルはライブラリから完全に取り除かれてしまいます。"
 
 #: dialogs\dlgOptions\pnl_Library.html:172
 msgid "Scan file directories for Artwork"
@@ -10292,14 +10283,13 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:43
 msgid "When files are playing:"
-msgstr "ファイルが再生されている時:"
+msgstr "ファイル再生時:"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid ""
 "Prevents Auto-DJ from adding tracks while this Type of content is playing"
-msgstr ""
-"この種類のコンテンツが再生されている間、オートDJがトラックを追加できないよう"
-"にします"
+msgstr "このコンテンツ種別の再生中は、オートDJが他のトラックを追加しないように防ぎま"
+"す"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:56
 msgid "(Unknown)"
@@ -10365,7 +10355,7 @@ msgstr "MediaMonkey Goldの購入はこちら"
 
 #: dialogs\dlgSelectFromList.html:13
 msgid "< Remove"
-msgstr "＜削除"
+msgstr "< 取り除く"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:21
 msgid "Add files from:"
@@ -10375,7 +10365,7 @@ msgstr "ファイル追加元:"
 msgid ""
 "This determines how many previously played tracks will be displayed in the "
 "'Playing' list."
-msgstr "すでに再生されたトラックを「再生中」リストに表示する数を決定します。"
+msgstr "すでに再生されたトラックを「再生中」リストに表示する数を決めます。"
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:4
 msgid "Configure..."
@@ -10480,7 +10470,7 @@ msgstr "更新して前の曲へ (Alt-Left)"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:3
 msgid "Confirm desired options on copy of Library folders"
-msgstr "ライブラリフォルダーのコピーの際、オプションを確認する"
+msgstr "空き容量が不足している場合に、同期処理の確認ダイアログを表示します"
 
 #: dialogs\dlgOptions\pnl_Download.html:19
 msgid "Every hour"
@@ -10564,7 +10554,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Library.html:78
 msgid "Remove unused Attributes (Artist, Album, Composer, ...)"
-msgstr "未使用の属性（アーティスト、アルバム、コンポーザーなど）を削除"
+msgstr "未使用の属性を取り除く（アーティスト、アルバム、作曲者など）"
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:12
 msgid "Cache auto-converted content to:"
@@ -10627,9 +10617,8 @@ msgid ""
 "When enabled, MediaMonkey will prompt you whether to proceed with a rename "
 "operation if the resulting filename contains more than the 64-character "
 "limit that is standard for a CD."
-msgstr ""
-"有効にすると、生成されたファイル名がCDの標準である64文字の制限を超えている場"
-"合に、名前変更操作を続行するかどうかを確認するメッセージが表示されます。"
+msgstr "有効にすると、CDの標準である64文字の制限を超えるファイル名にリネームしようと"
+"した際に、続行するかどうか確認します。"
 
 #: dialogs\dlgOptions\pnl_Download.html:26
 msgid ""
@@ -10652,9 +10641,8 @@ msgstr "タスクバーに最小化"
 msgid ""
 "Enabling this option speeds up all scans subsequent to the initial one by "
 "only re-adding files that have changed in size or timestamp."
-msgstr ""
-"このオプションを有効にすると、サイズまたはタイムスタンプが変更されたファイル"
-"のみを再追加することで、最初のスキャン後のすべてのスキャンが高速化されます。"
+msgstr "この設定を有効にすると、初回以降のスキャンでは、サイズまたはタイムスタンプが"
+"変更されたファイルだけを再追加するため、処理が高速化されます。"
 
 #: dialogs\dlgOptions\pnl_Library.html:63
 msgid "Update file info from tags when rescanning files"
@@ -10750,7 +10738,7 @@ msgstr "プレフィックスを無視:"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:18
 msgid "upcoming files in 'Playing' list"
-msgstr "「再生中」リストの今後のファイル"
+msgstr "「再生中」リストのこれから控えているファイル"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:8
 msgid ""
@@ -10758,17 +10746,17 @@ msgid ""
 "playlist, remove them from the playlist and the library, or delete them from "
 "the playlist, the library, and the computer system."
 msgstr ""
-"有効にすると、MediaMonkey はトラック削除の内容（プレイリストから / プレイリス"
-"トおよびライブラリから / プレイリスト、ライブラリ、及び PC から）をたずねま"
-"す。"
+"有効にすると、MediaMonkey "
+"はプレイリストからトラックを取り除くか、プレイリストとライブラリから取り除く"
+"か、またはプレイリスト・ライブラリ・コンピュータシステムから削除するかを確認"
+"します。"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:23
 msgid ""
 "If enabled, MediaMonkey will prompt you whenever an edit operation modifies "
 "more than 50 files at once."
-msgstr ""
-"有効にすると、編集操作で一度に50個以上のファイルを変更すると、MediaMonkeyが確"
-"認を表示します。"
+msgstr "有効にすると、50個を超えるファイルを一度に編集しようとした際に、続行するかど"
+"うか確認します。"
 
 #: dialogs\dlgOptions\pnl_Download.html:4
 msgid "Default download location:"
@@ -10790,13 +10778,12 @@ msgstr "新しいベータ版のビルドも確認します。"
 msgid ""
 "This option forces a maximum of one MediaMonkey window to be open at any "
 "time."
-msgstr ""
-"このオプションを使用すると、MediaMonkeyのウィンドウが常にひとつしか開けなくな"
-"ります。"
+msgstr "この設定を有効にすると、MediaMonkey のウィンドウは常に 1 "
+"つだけ開くようになります。"
 
 #: dialogs\dlgOptions\pnl_Library.html:94
 msgid "Inferred properties then tags"
-msgstr "推測プロパティ値を優先、次にタグ"
+msgstr "推測プロパティを優先し、次にタグを使用します"
 
 #: dialogs\dlgOptions\pnl_MediaTree.html:1
 msgid ""
@@ -10836,9 +10823,9 @@ msgid ""
 "added files to your library. The main use of this is if you wish to export "
 "playlists of newly added files to a portable device."
 msgstr ""
-"このオプションは、ライブラリに新しく追加されたファイルのプレイリストを自動的"
-"に作成する場合に便利です。新しく追加されたファイルのプレイリストをポータブル"
-"デバイスにエクスポートする場合に主に使用されます。"
+"この設定は、ライブラリに新しく追加されたファイルのプレイリストを自動作成した"
+"い場合に便利です。主な用途は、そのプレイリストをポータブルデバイスにエクスポ"
+"ートする場合です。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:55
 msgid "Create playlists of tracks newly added to the library"
@@ -10901,7 +10888,7 @@ msgstr "アドオンの設定"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:6
 msgid "Confirm desired options on move of Library folders"
-msgstr "ライブラリフォルダー移動の際、オプションを確認する"
+msgstr "ライブラリフォルダを移動する際に、確認ダイアログを表示します"
 
 #: dialogs\dlgOptions\pnl_DSPModules.html:9
 msgid "Download more DSP plug-ins..."
@@ -10932,7 +10919,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:9
 msgid "This option completely hides the menu bar."
-msgstr "このオプションはメニューバーを完全に非表示にします。"
+msgstr "この設定は、メニューバーを完全に非表示にします。"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:24
 msgid "Allows music to be lowered/paused for announcements during a party"
@@ -10941,7 +10928,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Removes gaps introduced by some lossy encoders"
-msgstr "一部の損失の多いエンコーダによって導入されたギャップを削除します"
+msgstr "一部の非可逆エンコーダーによって生じるギャップを取り除きます"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
 msgid "Entire list"
@@ -10981,7 +10968,7 @@ msgstr "データベースの選択ファイルのデータを更新"
 
 #: dialogs\dlgMovedFiles.html:31
 msgid "Remove selected files from the database"
-msgstr "データベースから選択したファイルを削除する"
+msgstr "選択したファイルをデータベースから取り除く"
 
 #: dialogs\dlgPodcastSubscription.html:23
 msgid "This is not a valid RSS link and may not subscribe correctly. "
@@ -11029,7 +11016,7 @@ msgstr "UPnP/DLNA経由でのMediaMonkeyプレイヤーの入力/制御を受け
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:7
 msgid "Store MP3 file properties using:"
-msgstr "MP3プロパティ格納方法:"
+msgstr "MP3 ファイルのプロパティを保存する方法："
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:19
 msgid ""
@@ -11095,7 +11082,7 @@ msgstr ""
 
 #: dialogs\dlgSleep.html:24
 msgid "% of current volume"
-msgstr "現在の音量の％"
+msgstr "現在の音量に対する割合（％）"
 
 #: dialogs\dlgSupportedFormat.html:71
 msgid "Levels"
@@ -11148,15 +11135,15 @@ msgid ""
 "with devices that only support v1 tags, and allows for the much richer set "
 "of data that can be stored in v2 tags."
 msgstr ""
-"使用するID3タグのバージョンをv1、v2、またはその両方から選択できます。一般的に"
-"「両方」が最適です。v1タグのみをサポートするデバイスとの互換性を確保し、v2タ"
-"グに格納できるより豊富なデータセットを可能にします。"
+"使用するID3タグのバージョンとしてv1タグ、v2タグ、またはその両方を選択できます"
+"。一般的に「両方」を選ぶのが最適です。v1タグのみをサポートするデバイスとの互"
+"換性を確保しつつ、v2タグに格納できるより豊富なデータセットも利用できます。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:30
 msgid ""
 "Causes Tags to be updated immediately, as soon as changes to file properties "
 "are made."
-msgstr "ファイルのプロパティが変更されるとすぐにタグが更新されます。"
+msgstr "ファイルのプロパティが変更されると、タグがすぐに更新されます。"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:30
 msgid ""
@@ -11164,9 +11151,8 @@ msgid ""
 "adjustment that appears in the Filelist. It also determines the volume to "
 "which tracks are leveled when 'Level Track volume' is used."
 msgstr ""
-"この値は、ファイルリストに現れる音量揃え調整を表示するための基準値として使用"
-"されます。また、「トラック音量揃え」を使用したときに、トラックに調整される音"
-"量も決定します。"
+"この値は、ファイルリストに表示される音量揃え調整の基準として使用されます。ま"
+"た、「トラック音量揃え」を使用した際に、トラックが揃えられる音量も決めます。"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:20
 msgid "File name"
@@ -11210,11 +11196,11 @@ msgstr "聴かれたもののみ"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:18
 msgid "Confirm rename operations that exceed 64 character CD limit"
-msgstr "64文字のCD制限を超える名前変更操作を確認する"
+msgstr "CDの64文字制限を超える名前変更を行う際に、確認ダイアログを表示します"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:24
 msgid "Confirm modifications to more than 50 files at once"
-msgstr "一度に50以上のファイルへの変更を確認する"
+msgstr "一度に 50 個を超えるファイルを変更する際に、確認ダイアログを表示します"
 
 #: dialogs\dlgOptions\pnl_Library.html:69
 msgid ""
@@ -11294,7 +11280,7 @@ msgstr "高評価のエピソードが削除されるのを防ぎます。"
 
 #: dialogs\dlgPodcastSubscription.html:100
 msgid "Show removed episode links"
-msgstr "削除されたエピソードへのリンクを表示"
+msgstr "削除されたエピソードのリンクを表示"
 
 #: dialogs\dlgSleep.html:32
 msgid "Cancel Sleep"
@@ -11308,9 +11294,8 @@ msgstr "ビットレート（最大解像度）"
 msgid ""
 "This turns on the Auto-DJ feature which causes tracks to automatically be "
 "added to the 'Playing' list when it runs out."
-msgstr ""
-"オートDJ機能がオンになり、トラックがなくなると自動的に「再生中」リストに追加"
-"されます。"
+msgstr "オートDJ機能をオンにし、「再生中」リストが空になったときにトラックを自動追加"
+"するようにします。"
 
 #: dialogs\dlgOptions\pnl_Download.html:16
 msgid "Determines how often MediaMonkey checks for updates"
@@ -11337,7 +11322,7 @@ msgstr "ファイル情報のポップアップ表示:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:31
 msgid "Update tags when editing properties"
-msgstr "プロパティ編集時、タグを更新する"
+msgstr "プロパティ編集時にタグを更新"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:21
 msgid ""
@@ -11373,7 +11358,7 @@ msgstr "ネットワーク経由で次の情報を共有する"
 
 #: controls\deviceConfig\syncToDevice.html:5
 msgid "Hide unselected items"
-msgstr "選択されていないアイテムを非表示"
+msgstr "未選択の項目を非表示にする"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:2
 msgid "Sync playlists (recommended)"
@@ -11425,7 +11410,7 @@ msgstr "最低"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Ignore Auto-DJ when playing"
-msgstr "再生の際、オートDJ を無視"
+msgstr "再生中はオート-DJを無視します"
 
 #: dialogs\dlgOptions\pnl_Player.html:70
 msgid "Transparent"
@@ -11498,7 +11483,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:21
 msgid "Confirm scan results"
-msgstr "スキャン結果を確認する"
+msgstr "スキャン結果を確認します"
 
 #: dialogs\dlgOptions\pnl_Download.html:17
 msgid "Check for new episodes:"
@@ -11531,13 +11516,13 @@ msgid ""
 "would only occur if tags are not kept up-to-date and in synch with the "
 "Library)."
 msgstr ""
-"これにより、再度追加されたすべてのファイル（手動で「ファイルを追加...」をク"
-"リックするか、ファイルモニターを介して自動的に更新されます）、すなわちデータ"
-"ベースに既に存在するファイルも更新されます。タグを変更するために他のアプリ"
-"ケーションが使用されている場合、ライブラリはタグから収集された情報に基づいて"
-"更新されます。この欠点は、最新のファイルプロパティをタグからの古い情報で上書"
-"きできることです（これは、タグが最新の状態を維持しておらずライブラリと同期し"
-"た場合にのみ発生します)。"
+"再追加されたすべてのファイル（「ファイルの追加…」をクリックして手動で追加した"
+"場合、またはファイルモニターによって自動的に追加された場合）が更新されます――"
+"これは、すでにデータベースに存在するファイルも含まれます。その結果、他のアプ"
+"リケーションでタグが変更されていた場合、ライブラリはタグから得られた情報に基"
+"づいて更新されます。これの欠点は、最新のファイルプロパティが古いタグ情報で上"
+"書きされてしまう可能性があることです（これは、タグが最新の状態に保たれておら"
+"ずライブラリと同期していない場合にのみ発生します）。"
 
 #: dialogs\dlgOptions\pnl_OutputPlugins.html:10
 msgid "Download more output plug-ins..."
@@ -11621,7 +11606,7 @@ msgstr "有効にすると、スキャンが完了した後にMediaMonkeyが結�
 
 #: dialogs\dlgOptions\pnl_Library.html:93
 msgid "Tags then inferred properties"
-msgstr "タグ優先、次に推測プロパティ値"
+msgstr "タグ、次に推測プロパティ"
 
 #: dialogs\dlgOptions\pnl_Library.html:70
 msgid "Analyze files for duplicates (takes extra time)"
@@ -11629,7 +11614,7 @@ msgstr "重複がないかファイルを分析する（時間がかかります
 
 #: dialogs\dlgOptions\pnl_Library.html:74
 msgid "Remove unavailable items"
-msgstr "利用できないアイテムを削除する"
+msgstr "利用できない項目を取り除く"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:40
 msgid "Show context-menu actions for:"
@@ -11692,11 +11677,11 @@ msgstr "ホットキー作成時の動作を選択"
 
 #: dialogs\dlgOptions\pnl_Library.html:101
 msgid "Infer properties from:"
-msgstr "以下からプロパティを推測:"
+msgstr "プロパティの推測元:"
 
 #: dialogs\dlgOptions\pnl_Library.html:85
 msgid "Infer properties:"
-msgstr "推測プロパティ:"
+msgstr "プロパティの推測:"
 
 #: dialogs\dlgOptions\pnl_MediaTree.html:2
 msgid "Edit and configure nodes to display:"
@@ -11838,13 +11823,13 @@ msgid ""
 "unselected content should be used carefully if the remote location contains "
 "new/modified content that isn't in the local database."
 msgstr ""
-"同期リストで選択されていないリモートコンテンツ（選択されていないすべてのコン"
-"テンツ、またはローカルデータベースに存在する選択されていないコンテンツのみ）"
-"を削除します。削除は、リモートコンテンツが同期された後に行われます（そのオプ"
-"ションが利用可能/有効な場合）。一般に、リモートの場所で重複を防ぐために削除を"
-"有効にする必要がありますが、リモートの場所にローカルデータベースにない新しい/"
-"変更されたコンテンツが含まれている場合は、選択されていない’すべて’のコンテン"
-"ツを削除するオプションを慎重に使用する必要があります。"
+"同期リストで選択されていないリモートコンテンツを削除します（選択されていない"
+"すべてのコンテンツ、またはローカルデータベースに存在する選択されていないコン"
+"テンツのみのいずれか）。削除は、リモートコンテンツが同期された後に行われます"
+"（そのオプションが利用可能／有効な場合）。一般的に、リモート側で重複を防ぐた"
+"めに削除は有効にしておくべきですが、リモート側にローカルデータベースに存在し"
+"ない新規／変更済みコンテンツが含まれている場合は、「すべて」の未選択コンテン"
+"ツを削除するオプションは慎重に使用する必要があります。"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:15
 msgid "Syncs all images using the specified format and size"
@@ -11875,9 +11860,8 @@ msgstr "アスペクト比を維持する"
 msgid ""
 "This determines how many tracks Auto-DJ will add to the 'Playing' list when "
 "the list begins to empty."
-msgstr ""
-"ここでは、「再生中」リストが空になり始めたときにオートDJがリストに追加するト"
-"ラック数を指定します。"
+msgstr "「再生中」リストが空になり始めたときに、オートDJが追加するトラック数を決めま"
+"す。"
 
 #: dialogs\dlgOptions\pnl_Download.html:20
 msgid "Every day"
@@ -12028,9 +12012,9 @@ msgid ""
 "number of tracks analyzed does not affect volume analysis results, there is "
 "little reason to disable this function."
 msgstr ""
-"このオプションを選択すると、まだ音量係数が計算されていないトラックでのみ、音"
-"量解析コマンドが実行されます。解析するトラック数は音量解析結果に影響しないた"
-"め、この機能を無効にする理由はほとんどありません。"
+"このオプションは、音量係数がまだ計算されていないトラックに対してのみ、音量解"
+"析コマンドを実行します。解析されたトラック数は音量解析の結果に影響しないため"
+"、この機能を無効にする理由はほとんどありません。"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:69
 msgid "When analyzing Track volume, also analyze Album volume"
@@ -12085,7 +12069,7 @@ msgstr "以下の項目で並び替えた場合"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:31
 msgid "Define columns for:"
-msgstr "～の表示項目を定義:"
+msgstr "表示項目の定義対象:"
 
 #: dialogs\dlgOptions\pnl_Download.html:21
 msgid "Every week"
@@ -12114,19 +12098,18 @@ msgstr "更新するファイルを選択"
 #: controls\deviceConfig\syncFromDevice.html:13
 msgid ""
 "Shows a confirmation dialog with a list of the files that will be affected"
-msgstr "影響を受けるファイルのリストの確認ダイアログを表示します"
+msgstr "影響を受けるファイルの一覧を表示する確認ダイアログを表示します"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:10
 msgid "Remove artwork from tags if larger than:"
-msgstr "これより大きい画像をタグから削除:"
+msgstr "指定サイズより大きい場合、タグからアートワークを取り除く："
 
 #: controls\serverConfig\devices.html:2
 msgid ""
 "Increases the play counter for items played via this server. This may not be "
 "accurate for partially played tracks."
-msgstr ""
-"このサーバーを介して再生したアイテムの再生回数を増やします。部分的に再生され"
-"たトラックでは正確ではない場合があります。"
+msgstr "このサーバー経由で再生された項目の再生回数を増やします。ただし、部分的に再生"
+"されたトラックでは正確でない場合があります。"
 
 #: dialogs\dlgAddArtwork.html:29
 msgid "Image location"
@@ -12178,12 +12161,12 @@ msgid ""
 "Properties and then Tags' is if it is known in advance that tags are "
 "inaccurate, and filenames contain more accurate data."
 msgstr ""
-"「タグ優先、次に推測プロパティ値」を使用するか、またはその逆を指定することが"
-"できます。一般的に、タグにはより正確な情報が含まれているため、「タグ優先、次"
-"に推測プロパティ値」を選択すると、タグからプロパティがインポートされ、欠落し"
-"ている情報は推測プロパティからインポートされます。「推測プロパティ値を優先、"
-"次にタグ」を使用するのは、タグが不正確であり、ファイル名により正確なデータが"
-"含まれていることが事前に知られている場合だけです。"
+"「タグ、次に推測プロパティ」を使うか、またはその逆を使うかを指定できます。一"
+"般的に、タグのほうがより正確な情報を含んでいるため、「タグ、次に推測プロパテ"
+"ィ」を選択すると、まずタグからプロパティが取り込まれ、欠けている情報があれば"
+"推測プロパティから取り込まれます。「推測プロパティ、次にタグ」を使う必要があ"
+"るのは、タグが不正確であり、ファイル名のほうが正確なデータを含んでいることが"
+"あらかじめ分かっている場合だけです。"
 
 #: dialogs\dlgOptions\pnl_Library.html:85
 msgid ""
@@ -12194,12 +12177,12 @@ msgid ""
 "incorrect). Once you've verified the data, you can update the tags manually--"
 "see Synchronizing Your Tags."
 msgstr ""
-"タグに多くの情報が含まれていない場合、このオプションを有効にすると、"
-"MediaMonkeyはファイル名からアーティスト、タイトル、アルバムなどの情報を取得で"
-"きます。推定されたプロパティはデータベースに保存されますが、ファイルタグには"
-"保存されない（情報が正しくない場合があるため）ことに注意してください。データ"
-"を確認したら、タグを手動で更新できます。 「タグを同期させる」を参照してくださ"
-"い。"
+"タグにあまり情報が含まれていない場合、このオプションを有効にすると、"
+"MediaMonkey "
+"はファイル名からアーティスト、タイトル、アルバムなどの情報を取得できます。な"
+"お、推測されたプロパティはデータベースに保存されますが、（情報が誤っている可"
+"能性があるため）ファイルのタグには保存されません。データを確認した後は、手動"
+"でタグを更新できます。詳しくは「タグを同期させる」を参照してください。"
 
 #: dialogs\dlgOptions\pnl_Library.html:174
 msgid ""
@@ -12392,7 +12375,7 @@ msgstr ".nfoファイル、パスとファイル名"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Remove silence at the beginning / end of track"
-msgstr "トラックの先頭/末尾の無音部分を取り除く"
+msgstr "トラックの冒頭／末尾の無音を取り除く"
 
 #: dialogs\dlgWizard\pnlRegistration.html:5
 msgid ""
@@ -12404,9 +12387,8 @@ msgstr ""
 
 #: dialogs\dlgWizard\pnlRegistration.html:15
 msgid "Plus improved performance and tuning options, Sleep timer, etc."
-msgstr ""
-"さらに、パフォーマンスとチューニングオプション、スリープタイマーなどが向上し"
-"ました。"
+msgstr "さらに、パフォーマンスの改善や調整用オプション、スリープタイマーなどが含まれ"
+"ます。"
 
 #: dialogs\dlgWizard\pnlScan.html:19
 msgid "Recommends Artwork and track metadata for newly imported tracks"
@@ -12433,7 +12415,7 @@ msgstr "選択したアーティストノード"
 
 #: controls\serverConfig\content.html:9
 msgid "Show index for categories with many items"
-msgstr "アイテムの多いカテゴリのインデックスを表示"
+msgstr "項目数の多いカテゴリに索引を表示する"
 
 #: controls\serverConfig\server.html:5
 msgid "The server name as it appears to other DLNA devices"
@@ -12441,7 +12423,7 @@ msgstr "他のDLNAデバイスに表示されるサーバー名"
 
 #: dialogs\dlgAutotagFromFilename.html:28
 msgid "Remove underscores"
-msgstr "アンダースコアを除去"
+msgstr "アンダースコアを取り除く"
 
 #: dialogs\dlgCollectionOptions.html:21
 msgid "Collection comment"
@@ -12475,11 +12457,11 @@ msgid ""
 "where a music collection is arranged in such a manner that each collection "
 "of tracks has an associated playlist that defines the Album."
 msgstr ""
-"この設定は、アルバムタイトルとトラック番号プロパティをライブラリに追加する方"
-"法を定義します。オプションには、「タグのみ」、「タグの後にプレイリスト」、"
-"「プレイリストの後にタグ」があります。トラックの各コレクションにアルバムを定"
-"義するプレイリストが関連付けられているように音楽コレクションが配置されている"
-"場合を除き、常に「タグのみ」を使用する必要があります。"
+"この設定は、アルバムタイトルとトラック番号のプロパティがライブラリに追加され"
+"る方法を定義します。オプションは「タグのみ」「タグ、次にプレイリスト」「プレ"
+"イリスト、次にタグ」です。「タグのみ」は常に使用すべきですが、各トラックの集"
+"合にアルバムを定義するプレイリストが関連付けられているような構成の音楽コレク"
+"ションの場合のみ例外となります。"
 
 #: dialogs\dlgOptions\pnl_Library.html:175
 msgid "Generate thumbnails for videos"
@@ -12493,7 +12475,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:12
 msgid "This option causes MediaMonkey to take up the entire screen."
-msgstr "このオプションを使用すると、MediaMonkeyが画面全体を占有します。"
+msgstr "このオプションを有効にすると、MediaMonkey が画面全体を占有します。"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
 msgid "Shuffles all tracks in a list when Shuffle is enabled"
@@ -12568,7 +12550,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the 'Playing' list"
-msgstr "「再生中」リストからファイルを削除する際に必要なオプションを確認する"
+msgstr "「再生中」リストからファイルを削除する際に、確認ダイアログを表示します"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:37
 msgid ""
@@ -12576,9 +12558,9 @@ msgid ""
 "or [enter] is pressed. Options are Play Now, Queue Next, Queue Last, or Edit "
 "Properties."
 msgstr ""
-"ファイルをダブルクリックするか、「ENTER」キーを押したときのデフォルトの動作を"
-"指定します。「再生」、「次に再生」、「最後に再生」、または「プロパティの編"
-"集」のオプションがあります。"
+"この設定は、ファイルをダブルクリックしたとき、または［Enter］キーを押したとき"
+"の既定の動作を決定します。オプションは「今すぐ再生」「次に追加」「最後に追加"
+"」「プロパティを編集」です。"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:21
 msgid ""
@@ -12654,7 +12636,7 @@ msgstr "フェード"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:15
 msgid "Confirm deletion of currently playing file"
-msgstr "現在再生中のファイルの削除を確認する"
+msgstr "現在再生中のファイルを削除する際に確認ダイアログを表示します"
 
 #: dialogs\dlgOptions\pnl_Library.html:59
 msgid "Seconds"
@@ -12664,9 +12646,8 @@ msgstr "秒"
 msgid ""
 "Automatically removes attributes (e.g. Artist) that are no longer associated "
 "with any files from the Library."
-msgstr ""
-"ライブラリから、どのファイルにも関連付けられなくなった属性（例:アーティスト）"
-"を自動的に削除します。"
+msgstr "どのファイルとも関連しなくなった属性（例：アーティスト）をライブラリから自動"
+"的に取り除きます。"
 
 #: dialogs\dlgOptions\pnl_MediaServers.html:17
 msgid "Maximum cache size"
@@ -13053,9 +13034,9 @@ msgid ""
 "or [enter] is pressed. Options are Play Now, Play Next, Play Last, or Edit "
 "Properties."
 msgstr ""
-"ファイルをダブルクリックするか、「ENTER」キーを押したときのデフォルトの動作を"
-"指定します。「今すぐ再生」、「次に再生」、「最後に再生」、または「プロパティ"
-"の編集」のオプションがあります。"
+"この設定は、ファイルをダブルクリックしたとき、または［Enter］キーを押したとき"
+"の既定の動作を決定します。オプションは「今すぐ再生」「次に追加」「最後に追加"
+"」「プロパティを編集」です。"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
 msgid "Display format for 'Track summary'  (e.g. in Player):"
@@ -13129,11 +13110,11 @@ msgstr ""
 
 #: dialogs/dlgDeleteConfirm.js:132 dialogs/dlgDeleteConfirm.js:159
 msgid "Remove from Playing list only"
-msgstr "再生リストからのみ削除"
+msgstr "再生中リストからのみ取り除く"
 
 #: dialogs/dlgDeleteConfirm.js:135
 msgid "Remove from Playing list and"
-msgstr "再生リストから削除"
+msgstr "再生中リストから取り除き、"
 
 #: dialogs/dlgDeleteConfirm.js:160
 msgid "Delete from Playing list and the database only"
@@ -13171,13 +13152,14 @@ msgid ""
 "Playing list, remove them from the Playing list and the Library, or delete "
 "them from the Playing list, the Library, and the computer system."
 msgstr ""
-"有効にすると、MediaMonkeyは再生リストからトラックを削除するか、再生リストとラ"
-"イブラリからトラックを削除するか、再生リスト、ライブラリ、コンピュータシステ"
-"ムからトラックを削除するかをたずねます。"
+"有効にすると、MediaMonkey "
+"は再生中リストからトラックを取り除くか、再生中リストとライブラリから取り除く"
+"か、または再生中リスト・ライブラリ・コンピュータシステムから削除するかを確認"
+"します。"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the Playing list"
-msgstr "再生リストからファイルを削除する際に必要なオプションを確認する"
+msgstr "「再生中」リストからファイルを削除する際に、確認ダイアログを表示します"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
 msgid "Sync all Artwork to file folders"
@@ -13197,9 +13179,10 @@ msgid ""
 "application is minimized."
 msgstr ""
 "デフォルトでは、MediaMonkeyはタスクバーに最小化します。「マイクロプレイヤーに"
-"最小化」 は、最小化するとシステムトレイの横にツールバーとして表示されます。"
-"「ミニプレイヤーに最小化」は、メインアプリケーションが最小化されても、「再生"
-"リスト」ファイルを表示します。"
+"最小化」 "
+"は、最小化するとシステムトレイの横にツールバーとして表示されます。「ミニプレ"
+"イヤーに最小化」は、メインアプリケーションが最小化されても、「再生リスト」フ"
+"ァイルを表示します。"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in Playing list"
