@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-26 13:26\n"
-"PO-Revision-Date: 2026-01-22 13:53+0000\n"
+"PO-Revision-Date: 2026-01-23 14:53+0000\n"
 "Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ja/>\n"
@@ -404,9 +404,9 @@ msgstr "URLまたはファイルを開く(&O)"
 msgid ""
 "Enter the URL or path to a multimedia file on the internet, your computer, "
 "or your network:"
-msgstr ""
-"インターネット上、PC 上、ネットワーク上のマルチメディアファイルへのURLかパス"
-"を入力:"
+msgstr "インターネット上、コンピューター内、"
+"またはネットワーク上のマルチメディアファイルの URL "
+"またはパスを入力してください:"
 
 #: actions.js:1331
 msgid "&Download file"
@@ -418,7 +418,7 @@ msgstr "URLの入力"
 
 #: actions.js:1339
 msgid "Enter a link to a file you want to download:"
-msgstr "ダウンロードしたいファイルのリンクを入力してください:"
+msgstr "ダウンロードしたいファイルへのリンクを入力してください:"
 
 #. inits download of this track (adds to download queue)
 #: actions.js:1358 actions.js:1365
@@ -693,7 +693,7 @@ msgstr "エクスプローラー"
 #: actions.js:1861 uitools.js:2868 dialogs/dlgMovedFiles.js:15
 #: dialogs\dlgDeletedTracks.html:15
 msgid "Locate moved/missing files"
-msgstr "移動された / 見つからないファイルの場所を指定"
+msgstr "移動／欠落したファイルを検索"
 
 #: actions.js:1880
 msgid "Add to Library"
@@ -934,7 +934,7 @@ msgstr "メディアサーバーが自動的に見つからない場合、手動
 
 #: actions.js:2547 UpNp.pas:10459 controls\devicesView.html:35
 msgid "Device Description file path:"
-msgstr "デバイスの説明ファイルパス:"
+msgstr "デバイス記述ファイルのパス:"
 
 #. no message needed in case of success (as the new server just appears in the list)
 #. 127.0.0.1 can be reached, but 192.168.X.X can't (case B)
@@ -967,9 +967,8 @@ msgstr "%sのUPnP/"
 msgid ""
 "Configuration is via UPnP/NAT-PMP which only works if this device is on the "
 "same network as the router."
-msgstr ""
-"設定はこのデバイスがルーターと同じネットワーク上にある場合のみUPnP/NAT-PMP経"
-"由で機能します。"
+msgstr "UPnP／NAT‑PMPによって構成されますが、これはこのデバイスがルーターと同じネット"
+"ワーク上にある場合にのみ動作します。"
 
 #: actions.js:2587
 msgid "Configuring remote access"
@@ -1206,7 +1205,7 @@ msgstr "現在のファイル"
 #. stop should be active even if playback is paused
 #: actions.js:3437 actions.js:3440
 msgid "Every file"
-msgstr "ファイルごと"
+msgstr "すべてのファイル"
 
 #: actions.js:3472
 msgid "Crossfade"
@@ -1276,7 +1275,7 @@ msgstr "スリープ(&L)"
 
 #: actions.js:3700 dialogs/dlgAutotagFromFilename.js:81
 msgid "&Tag from filename"
-msgstr "ファイル名からタグ付け(&T)"
+msgstr "ファイル名からタグを取得(&T)"
 
 #. notShared: true, // it seems it can be shared
 #: actions.js:3724
@@ -1390,7 +1389,7 @@ msgstr "レポート"
 
 #: actions.js:4116 Scripts/export/actions_add.js:391
 msgid "File list"
-msgstr "ファイルリスト"
+msgstr "ファイル一覧"
 
 #. @ts-ignore
 #: actions.js:4136
@@ -1776,9 +1775,8 @@ msgstr "トラックが見つかりません"
 msgid ""
 "This will update the tags of the selected files so that they match your "
 "Library. Are you sure you want to proceed?"
-msgstr ""
-"選択したファイルのタグがライブラリと一致するように更新されます。続けてよろし"
-"いですか？"
+msgstr "選択したファイルのタグをライブラリと一致するように更新します。続行してもよろ"
+"しいですか？"
 
 #: actions.js:7296
 msgid ""
@@ -1824,9 +1822,8 @@ msgstr "不明"
 msgid ""
 "Select which device to use. 'Default' uses whatever device is configured by "
 "the operating system for playback."
-msgstr ""
-"使用するデバイスを選択。「デフォルト」 は、オペレーティングシステムで設定され"
-"た任意の再生デバイスを使用します。"
+msgstr "使用するデバイスを選択します。「デフォルト」を選ぶと、再生用にOSで設定されて"
+"いるデバイスが使用されます。"
 
 #: out_MMDS_configDlg.js:38
 msgid "Disable only in the case of audio problems"
@@ -2164,7 +2161,7 @@ msgstr "様々なアーティスト"
 #. Don't forget for VCD tracks:
 #: viewHandlers.js:212 dblistutils.pas:1331 DBStructure.pas:848
 msgid "Reading files..."
-msgstr "ファイルの読込中..."
+msgstr "ファイルを読み込み中…"
 
 #. cancel/free/unregister the dataSource
 #. for the cases when only ColumnBrowser sub-view is hidden (not the whole view)
@@ -2782,11 +2779,11 @@ msgstr "アルバムのトラック間でアートワークが同じではあり
 
 #: viewHandlers.js:7435
 msgid "Files have been deleted or moved."
-msgstr "ファイルが削除または移動されました。"
+msgstr "ファイルが削除されたか移動されています。"
 
 #: viewHandlers.js:7438 UPnPTreeHelper.pas:1910
 msgid "Files to Edit"
-msgstr "要編集ファイル"
+msgstr "編集するファイル"
 
 #: viewHandlers.js:7615 dialogs/dlgMediaProperties.js:42
 msgid "Media Properties"
@@ -2945,7 +2942,7 @@ msgstr "コメントを編集"
 #: controls/seriesViewHeader.js:311 dialogs/dlgTrackProperties.js:671
 #: Scripts/swapArtistTitle/actions_add.js:15
 msgid "Are you sure that you want to modify %d files ?"
-msgstr "%d個のファイルを修正してよろしいですか？"
+msgstr "%d個のファイルを変更します。よろしいですか？"
 
 #: controls/albumViewHeader.js:456 controls/artistViewHeader.js:429
 #: controls/seriesViewHeader.js:314 dialogs/dlgDeleteConfirm.js:226
@@ -3619,9 +3616,8 @@ msgstr "ファイル名"
 
 #: controls/maskEditWizard.js:78
 msgid "Filenames can be defined using mask variables or statically"
-msgstr ""
-"ファイル名は、マスク変数を使用して定義することも、静的に定義することもできま"
-"す"
+msgstr "ファイル名は、マスク変数を使って定義することも、固定的に指定することもできま"
+"す。"
 
 #: controls/maskEditWizard.js:81
 msgid "Sample:"
@@ -4551,11 +4547,11 @@ msgstr "音声を同期するときに音量を揃える"
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:13
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:27
 msgid "MediaMonkey Device Configuration file (*.mmdc)|*.mmdc"
-msgstr "MediaMonkey デバイス設定ファイル (*.mmdc)|*.mmdc"
+msgstr "MediaMonkeyデバイス構成ファイル (*.mmdc)|*.mmdc"
 
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:13
 msgid "Select MediaMonkey Device Configuration file"
-msgstr "MediaMonkey デバイス設定ファイルを選択"
+msgstr "MediaMonkeyデバイス構成ファイルを選択します"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to refresh the values, add <New Hotkey...>, filter no longer accessible actions:
@@ -4570,7 +4566,7 @@ msgstr "名前を付けて保存"
 #: controls/deviceConfig/options/pnl_DeviceProfile.js:90
 #: dialogs/dlgSearchImage.js:248 dialogs/dlgTrackProperties/tabArtwork.js:184
 msgid "Select image files"
-msgstr "画像ファイルの選択"
+msgstr "画像ファイルを選択"
 
 #: controls/deviceConfig/options/pnl_FileLocations.js:17
 msgid "Save files to the following locations on '%s'"
@@ -4668,8 +4664,7 @@ msgstr "ポータブルモード"
 
 #: dialogs/dlgAddArtwork.js:5 dialogs\dlgOptions\pnl_TagsAndPlaylists.html:68
 msgid "Save image to tag (if possible) otherwise save to file folder"
-msgstr ""
-"画像をタグ （可能な場合）に保存し、そうでない場合はアルバムのフォルダーに保存"
+msgstr "画像をタグに保存（できない場合はフォルダーに保存）"
 
 #: dialogs/dlgAddArtwork.js:6 dialogs\dlgOptions\pnl_TagsAndPlaylists.html:69
 msgid "Save image to file folder"
@@ -4677,7 +4672,7 @@ msgstr "画像をファイルのフォルダーに保存"
 
 #: dialogs/dlgAddArtwork.js:7 dialogs\dlgOptions\pnl_TagsAndPlaylists.html:70
 msgid "Save image to tag (if possible) and to file folder"
-msgstr "画像をタグ （可能な場合） およびアルバムのフォルダーに保存"
+msgstr "画像をタグに保存（可能な場合）し、ファイルのフォルダーにも保存"
 
 #: dialogs/dlgAddArtwork.js:28
 msgid "Add cover"
@@ -4794,7 +4789,7 @@ msgstr "自動タグ付け"
 
 #: dialogs/dlgAutotag.js:148 dialogs/dlgAutotag.js:168 DBStructure.pas:861
 msgid "File %d of %d processing"
-msgstr "ファイル%d/%dの処理中"
+msgstr "ファイル%d/%dを処理中"
 
 #: dialogs/dlgAutotag.js:270 PlaylistManage.pas:1221 ResStrings.pas:580
 msgid "Confirm"
@@ -4881,7 +4876,7 @@ msgstr "新しい値"
 #: dialogs/dlgAutotagFromFilename.js:387 MP3Utils.pas:1270
 #: Normalization.pas:1356
 msgid "Preparing list of files"
-msgstr "ファイルのリストを準備しています"
+msgstr "ファイル一覧を準備中"
 
 #: dialogs/dlgCDDBResult.js:12
 msgid "Choose an Album"
@@ -4930,7 +4925,7 @@ msgstr "見つかりませんでした！"
 
 #: dialogs/dlgConvertFormat.js:29
 msgid "Convert Files"
-msgstr "ファイルの変換"
+msgstr "ファイルを変換"
 
 #: dialogs/dlgConvertFormat.js:58
 msgid ""
@@ -5029,7 +5024,7 @@ msgstr "利用できないファイルを取り除く"
 #: dialogs/dlgDeletedTracks.js:62
 msgid ""
 "The following %d file(s) could not be found in their expected locations."
-msgstr "次の%d個のファイルが予想される場所に見つかりませんでした。"
+msgstr "次の%d個のファイルが、想定される場所に見つかりませんでした。"
 
 #: dialogs/dlgDeletedTracks.js:63
 msgid "Do you want to remove them from the Library?"
@@ -5245,7 +5240,7 @@ msgstr "「%s」のコンテンツをローカルデータベースに取り込�
 
 #: dialogs/dlgMoveAccompFiles.js:6
 msgid "Accompanying files"
-msgstr "付随するファイル"
+msgstr "付随ファイル"
 
 #: dialogs/dlgMovedFiles.js:124 dialogs/dlgMovedFiles.js:177
 #: dialogs/dlgMovedFiles.js:230 dialogs/dlgOptions/pnl_DSPModules.js:48
@@ -5538,7 +5533,7 @@ msgstr "検索と更新に %s かかりました"
 
 #: dialogs/dlgScanResults.js:70
 msgid "Added %d new files"
-msgstr "%d個の新規ファイルを追加しました"
+msgstr "%d個の新しいファイルを追加しました"
 
 #: dialogs/dlgScanResults.js:71
 msgid "Updated %d files"
@@ -5546,15 +5541,15 @@ msgstr "%d個のファイルを更新しました"
 
 #: dialogs/dlgScanResults.js:72
 msgid "Failed to add %d files"
-msgstr "%d個のファイルのインポートに失敗しました"
+msgstr "%d個のファイルを追加できませんでした"
 
 #: dialogs/dlgScanResults.js:73
 msgid "Skipped %d files"
-msgstr "%d個のファイルを飛ばしました"
+msgstr "%d個のファイルをスキップしました"
 
 #: dialogs/dlgScanTracks.js:12
 msgid "Add/Rescan files to the Library..."
-msgstr "ライブラリにファイルを追加/再スキャン..."
+msgstr "ファイルをライブラリに追加／再スキャン..."
 
 #: dialogs/dlgSearch.js:9
 msgid "AutoPlaylist criteria"
@@ -5639,7 +5634,7 @@ msgstr "コンテンツ"
 #: dialogs/dlgSyncConfirm.js:12
 msgid ""
 "Existing file(s) and playlist(s) to update from the device to the PC (%d)"
-msgstr "デバイスからPCへアップデートされる既存のファイルとプレイリスト （%d）"
+msgstr "デバイスからPCへ更新する既存のファイルおよびプレイリスト（%d）"
 
 #: dialogs/dlgSyncConfirm.js:25
 msgid "New file(s) and playlist(s) to copy from the device to the PC (%d)"
@@ -5691,7 +5686,7 @@ msgstr "MediaMonkeyへようこそ"
 
 #: dialogs/dlgWizard.js:13
 msgid "To get started, add your media files to the library"
-msgstr "開始するには、メディアファイルをライブラリに追加します"
+msgstr "まずはメディアファイルをライブラリに追加してください"
 
 #: dialogs/dlgWizard.js:31
 msgid "Setup Wizard"
@@ -5739,9 +5734,9 @@ msgid ""
 "compatible with Winamp 2. They generally enhance and/or modify the audio in "
 "some way."
 msgstr ""
-"MediaMonkeyプレイヤーは、Winamp2と互換性のあるDSPオーディオエフェクトプラグイ"
-"ンをサポートしています。DSPオーディオエフェクトプラグインは通常何らかの方法で"
-"オーディオを強化もしくは修正します。"
+"MediaMonkeyプレーヤーは、Winamp2と互換性のあるDSPオーディオエフェクトプラグイ"
+"ンに対応しています。これらのプラグインは、音声を強化したり変更したりするため"
+"に使用されます。"
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:13
 #: dialogs/dlgOptions/pnl_InputPlugins.js:12
@@ -6087,7 +6082,7 @@ msgstr "ASCII + UTF-8 （必要に応じて）"
 
 #: dialogs/dlgOptions/pnl_VolumeLeveling.js:6
 msgid "Automatically analyze volume of unanalyzed files"
-msgstr "解析されていないファイルの音量を自動的に解析する"
+msgstr "未解析のファイルの音量を自動解析する"
 
 #: dialogs/dlgOptions/pnl_VolumeLeveling.js:17
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:71
@@ -6102,7 +6097,7 @@ msgstr "「%s」のアートワーク変更は、同じアルバム内の他の%
 
 #: dialogs/dlgTrackProperties/tabBasic.js:35
 msgid "Multiple files selected"
-msgstr "複数ファイルが選択されました:"
+msgstr "複数のファイルが選択されています"
 
 #: dialogs/dlgTrackProperties/tabBasic.js:58 ResStrings.pas:591
 msgid "Multiple file Types selected"
@@ -6313,7 +6308,7 @@ msgstr "同期時に、データベースは「%s」内のファイルやプレ�
 
 #: helpers/mediaSync.js:684
 msgid "Only include content that matches files already in the database"
-msgstr "既にデータベースにあるファイルに一致するコンテンツのみを含める"
+msgstr "データベース内の既存のファイルに一致する内容のみ含める"
 
 #: helpers/mediaSync.js:685
 msgid ""
@@ -6473,7 +6468,7 @@ msgstr "削除しています"
 
 #: helpers/mediaSync.js:3328 helpers/mediaSync.js:3336
 msgid "(Preparing list of files)"
-msgstr "（ファイルのリストを準備中）"
+msgstr "（ファイル一覧を準備しています）"
 
 #. e.g. in case of MM5-MMS sync
 #: helpers/mediaSync.js:3341 helpers/mediaSync.js:3384 hpCDEBurner.pas:977
@@ -6581,7 +6576,7 @@ msgstr "トラック番号の自動インクリメント"
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks."
-msgstr "%d個の選択したトラックのトラック番号項目がトラック順に変更されます。"
+msgstr "選択した%d件のトラックについて、トラック番号フィールドを連番で更新します。"
 
 #: Scripts/autoIncTrack/actions_add.js:23
 msgid "Start numbering from:"
@@ -6598,12 +6593,12 @@ msgstr "更新するトラックを選択"
 
 #: Scripts/export/actions_add.js:39 Scripts/export/actions_add.js:51
 msgid "MediaMonkey Filelist"
-msgstr "MediaMonkey ファイル リスト"
+msgstr "MediaMonkeyファイルリスト"
 
 #. Write some code to finish html document
 #: Scripts/export/actions_add.js:135
 msgid "Total Files"
-msgstr "合計ファイル数"
+msgstr "総ファイル数"
 
 #: Scripts/export/actions_add.js:137
 #: Scripts/statistics/dialogs/dlgStatistics.js:377
@@ -6637,7 +6632,7 @@ msgstr "すべてのプレイリストをエクスポート"
 #. Open inifile and get last used directory
 #: Scripts/exportPlaylists/actions_add.js:41
 msgid "Select where to export all M3U files"
-msgstr "すべてのM3Uファイルをエクスポートする場所を選択"
+msgstr "すべてのM3Uファイルのエクスポート先を選択"
 
 #: Scripts/exportPodcasts/actions_add.js:2
 msgid "Export subscribed podcasts"
@@ -6811,7 +6806,7 @@ msgstr ""
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:231
 msgid "Sync root"
-msgstr "ルートを同期"
+msgstr "同期ルート"
 
 #: Scripts/vis_milkshake/vis_milkshake.js:87
 msgid "Milkshake requires Hardware Acceleration to be enabled"
@@ -6862,7 +6857,7 @@ msgstr "全プレイリスト"
 
 #: BackgroundStuff.pas:283
 msgid "%d files to be tagged"
-msgstr "%d個のファイルをタグ付け"
+msgstr "%d個のファイルにタグを付けます"
 
 #: BaseApp.pas:7849
 msgid "There are background processes running. Terminate them?"
@@ -6960,7 +6955,7 @@ msgstr ""
 
 #: CDUtils.pas:1474
 msgid "(error parsing verification file)"
-msgstr "（検証ファイルの解析エラー）"
+msgstr "（検証ファイル解析エラー）"
 
 #: CDUtils.pas:1476
 msgid ""
@@ -7183,7 +7178,7 @@ msgstr "音量未解析"
 
 #: dblistutils.pas:1642
 msgid "Unorganized Files"
-msgstr "整理されていないファイル"
+msgstr "未整理ファイル"
 
 #: dblistutils.pas:1643
 msgid "DB / Tag mismatches"
@@ -7199,7 +7194,7 @@ msgstr "タイトル/アーティストの重複"
 
 #: dblistutils.pas:1647
 msgid "Unclassified Files"
-msgstr "分類されていないファイル"
+msgstr "未分類ファイル"
 
 #: dblistutils.pas:1648
 msgid "Unknown Tempo"
@@ -7235,10 +7230,8 @@ msgstr "データベースバージョン%d.%d.%dに更新しています"
 msgid ""
 "This version of MediaMonkey supports new tag(s) (%s). Would you like to "
 "rescan files now in order to read these tags?"
-msgstr ""
-"このバージョンの MediaMonkey "
-"は新しいタグ（%s）に対応しています。これらのタグを読み取るために、今すぐファ"
-"イルを再スキャンしますか？"
+msgstr "このバージョンのMediaMonkeyは新しいタグ（%s）に対応しています。これらのタグを"
+"読み取るために、今すぐファイルを再スキャンしますか？"
 
 #: DBStructure.pas:971
 msgid ""
@@ -7291,7 +7284,7 @@ msgstr "「%s」がWi‑Fi経由でMediaMonkeyライブラリと同期しよう�
 #. Lib wasn't found, this is an unknown new device that wants a wireless sync with us, create library for the device
 #: Devices.pas:10080
 msgid "An unknown portable device"
-msgstr "未知のポータブルデバイス"
+msgstr "不明なポータブルデバイス"
 
 #: Devices.pas:10086
 msgid ""
@@ -7313,7 +7306,7 @@ msgstr ""
 
 #: Devices.pas:10089
 msgid "No / I'll sync over USB instead"
-msgstr "いいえ/代わりにUSB経由で同期します"
+msgstr "いいえ／代わりにUSBで同期する"
 
 #. capacity is unknown (e.g. Google Music)
 #: Devices.pas:11490
@@ -7332,9 +7325,8 @@ msgstr "選択したファイルを同期するための空き容量がありま
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
-msgstr ""
-"選択したファイルを同期するための充分なスペースがデバイスにありません。続行し"
-"ますか？"
+msgstr "選択したファイルを同期するための空き容量がデバイスに不足しています。続行しま"
+"すか？"
 
 #: Devices.pas:12050 FileUtils.pas:836 ResStrings.pas:568
 msgid "Insufficient space available."
@@ -7438,12 +7430,12 @@ msgstr "次のトラックの音声処理中に問題が発生しました:"
 #. #18222
 #: ErrHandlers.pas:430
 msgid "There was a problem converting the following file(s):"
-msgstr "次のファイルの変換中に問題が発生しました。"
+msgstr "次のファイルの変換中に問題が発生しました:"
 
 #. #18222
 #: ErrHandlers.pas:444 Extensions.pas:946 MediaMonkeyApp.pas:4074
 msgid "There was a problem downloading the following file(s):"
-msgstr "次のファイルのダウンロード中に問題が発生しました。"
+msgstr "次のファイルのダウンロード中に問題が発生しました:"
 
 #. #18222
 #: ErrHandlers.pas:458
@@ -7550,7 +7542,7 @@ msgstr "微調整"
 
 #: FileAssoc.pas:781
 msgid "Sync device"
-msgstr "デバイスと同期"
+msgstr "デバイスを同期"
 
 #: FileAssoc.pas:782
 msgid "Play Audio CD"
@@ -7600,7 +7592,7 @@ msgstr "オーディオファイル"
 
 #: FileUtils.pas:620 Normalization.pas:1932 Normalization.pas:1993
 msgid "The file is unavailable or you may not have permission to access it."
-msgstr "ファイルが利用できないか、アクセス権限がない可能性があります。"
+msgstr "ファイルを利用できないか、アクセス権限がありません。"
 
 #: FileUtils.pas:658
 msgid "Cannot create file %s."
@@ -7700,16 +7692,15 @@ msgstr "ファイル%sは正常に作成されませんでした。"
 #. Check whether album gain needs to be calculated:
 #: FormatsManage.pas:1414 FormatsManage.pas:1490
 msgid "Converting file %d of %d"
-msgstr "ファイル%d/%dを変換しています"
+msgstr "ファイル%d/%dを変換中"
 
 #. TODOWIN8
 #: FormatsManage.pas:1425 FormatsManage.pas:1942 UpNp.pas:4885
 msgid ""
 "There isn't enough free space to convert all files. Please clear space in "
 "the temporary directory"
-msgstr ""
-"すべてのファイルを変換するのに十分な空き容量がありません。一時ディレクトリの"
-"スペースをクリアしてください"
+msgstr "すべてのファイルを変換するための空き容量が不足しています。一時ディレクトリの"
+"空き容量を確保してください。"
 
 #: FormatsManage.pas:1454
 msgid "ripping"
@@ -8115,7 +8106,7 @@ msgstr "書き込み中...（%s）"
 
 #: hpCDEBurner.pas:1631 hpCDEBurner.pas:1731
 msgid "Caching files from network"
-msgstr "ネットワークからファイルをキャッシュ"
+msgstr "ネットワークからファイルをキャッシュ中"
 
 #: hpCDEBurner.pas:2233
 msgid ""
@@ -8405,7 +8396,7 @@ msgstr "リストをクリアして、選択したもののみ再生"
 
 #: MediaMonkeyApp.pas:9314
 msgid "Play selected files only"
-msgstr "選択ファイルの再生のみ"
+msgstr "選択したファイルのみ再生"
 
 #: MediaMonkeyApp.pas:9890 MediaMonkeyApp.pas:9904
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:33
@@ -8446,7 +8437,7 @@ msgstr "%sタグを削除しています（%d / %d、%s）"
 
 #: MP3Utils.pas:252
 msgid "Locate Moved/Missing Files"
-msgstr "移動/欠落しているファイルの場所を指定"
+msgstr "移動／欠落ファイルの検索"
 
 #: MP3Utils.pas:463 MP3Utils.pas:2734
 msgid "Error scanning directory"
@@ -8460,9 +8451,8 @@ msgstr "このディレクトリは、次の目的でのみ使用されます:"
 msgid ""
 "This assists you in locating files that have been moved to other locations, "
 "and is only available with the Gold version."
-msgstr ""
-"他の場所に移動されたファイルを見つけるのに役立ちます。Goldバージョンでのみ使"
-"用できます。"
+msgstr "これは、別の場所に移動されたファイルを検索するための機能で、Goldバージョンで"
+"のみ利用できます。"
 
 #: MP3Utils.pas:1296
 msgid "Scanning for moved files in %s (%d files scanned)."
@@ -8476,7 +8466,7 @@ msgstr "移動されたファイルをスキャン中-2回目（%d/%d個のフ�
 
 #: MP3Utils.pas:1468
 msgid "Updating file %d of %d."
-msgstr "ファイル%d/%dを更新しています。"
+msgstr "ファイル%d/%d を更新中"
 
 #. fail of this isn't a reason for terminating scanning
 #: MP3Utils.pas:1707 MP3Utils.pas:2948 MP3Utils.pas:2969
@@ -8505,7 +8495,7 @@ msgstr "ファイルが短すぎるか小さすぎます"
 
 #: MP3Utils.pas:2948
 msgid "error while reading file info"
-msgstr "ファイル情報の読み込み中にエラーが発生しました"
+msgstr "ファイル情報の読み取りエラー"
 
 #. wrong file format, no neeed for next attempt
 #: MP3Utils.pas:3864
@@ -8517,9 +8507,8 @@ msgstr "タグの更新に失敗しました:%sの形式が正しくありませ
 msgid ""
 "One or more of the selected files are inaccessible and cannot be tagged. "
 "Save artwork to the folder instead."
-msgstr ""
-"選択した1つ以上のファイルにアクセスできず、タグを付けることができません。代わ"
-"りにアートワークをフォルダーに保存します。"
+msgstr "選択したファイルの一部にアクセスできないため、タグを付けられません。アートワ"
+"ークはフォルダーに保存してください。"
 
 #: MP3Utils.pas:4076 Normalization.pas:2169
 msgid ""
@@ -8750,7 +8739,7 @@ msgstr "音量揃え係数の計算"
 
 #: PlaylistManage.pas:1204
 msgid "Duplicate file(s) detected:"
-msgstr "重複ファイルが検出されました:"
+msgstr "重複ファイルを検出しました:"
 
 #. new line
 #: PlaylistManage.pas:1216
@@ -8824,11 +8813,11 @@ msgstr "アートワークがない"
 
 #: QueryManage.pas:4438
 msgid "Is synced to"
-msgstr "同期している"
+msgstr "同期先："
 
 #: QueryManage.pas:4447
 msgid "Isn't synced to"
-msgstr "同期していない"
+msgstr "同期されていない："
 
 #: QueryManage.pas:4455
 msgid "> (days ago)"
@@ -9342,10 +9331,9 @@ msgid ""
 "to not be discoverable by other devices on the network. If you're on a home "
 "network, you may want to switch your network connection to 'Private'."
 msgstr ""
-"ネットワーク接続が「パブリック」に設定されています。これにより、通常、ネット"
-"ワーク上の他のデバイスがマシンを検出できなくなります。ホームネットワークを使"
-"用している場合は、ネットワーク接続を「プライベート」に切り替えることをお勧め"
-"します。"
+"ネットワーク接続が「パブリック」に設定されています。この設定では、通常、他の"
+"デバイスからこのPCが検出されません。自宅のネットワークを使用している場合は、"
+"接続を「プライベート」に変更することをおすすめします。"
 
 #: UpNp.pas:3758
 msgid "MediaMonkey Library"
@@ -9616,9 +9604,9 @@ msgid ""
 "Describes directories other than the above that are scanned for media when "
 "syncing. Limit the directories scanned so as not to hurt performance."
 msgstr ""
-"同期時にメディアをスキャンする際、上記以外のディレクトリについて説明します。"
-"パフォーマンスを低下させないよう、スキャンするディレクトリを制限してください"
-"。"
+"同期時にメディアをスキャンする対象として、上記以外のディレクトリを指定します"
+"。パフォーマンス低下を防ぐため、スキャン対象のディレクトリは必要最小限にして"
+"ください。"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:38
 msgid ""
@@ -9781,7 +9769,7 @@ msgstr "動画のプロパティ:"
 
 #: dialogs\dlgOptions\pnl_Library.html:66
 msgid "Only for files with changed timestamp or size"
-msgstr "タイムスタンプまたはサイズが変更されたファイルのみ"
+msgstr "タイムスタンプまたはサイズが変更されたファイルのみ対象"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:18
 msgid "This locks the current configuration of Party Mode."
@@ -9817,7 +9805,7 @@ msgstr "データを取得しています"
 
 #: dialogs\dlgAutoOrganizeRule.html:9
 msgid "File Criteria"
-msgstr "ファイルの条件"
+msgstr "ファイル条件"
 
 #: dialogs\dlgMP3Settings.html:92
 msgid "Use bit reservoir"
@@ -9829,7 +9817,7 @@ msgstr "１ 週間"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:9
 msgid "Confirm desired options on removal of files from Playlist"
-msgstr "プレイリストからのファイル削除時の希望オプションの確認"
+msgstr "プレイリストからファイルを削除する際のオプションを確認"
 
 #: dialogs\dlgOptions\pnl_General.html:7
 msgid "Check for updates (when connected)"
@@ -9840,8 +9828,8 @@ msgid ""
 "This determines what files are played when the 'Play now' command is run for "
 "a single file. It applies only when Party mode is active."
 msgstr ""
-"「今すぐ再生」コマンドが単一のファイルに対して実行されたときに再生されるファ"
-"イルを指定します。パーティーモードがアクティブである時のみ適用されます。"
+"単一ファイルに対して「今すぐ再生」コマンドを実行した際に、どのファイルを再生"
+"するかを決定します。これはパーティーモードが有効な場合にのみ適用されます。"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:8
 msgid "Enable speed adjustment"
@@ -9853,9 +9841,9 @@ msgid ""
 "English characters. Note that some players may not support unicode .m3u "
 "playlists."
 msgstr ""
-"MediaMonkeyは英語以外の文字を保持する形式で.m3uファイルを保存します。Unicode"
-"の.m3uプレイリストをサポートしていないプレイヤーもあることに注意してくださ"
-"い。"
+"非英語の文字を保持できる形式で.m3uファイルを保存するようにMediaMonkeyを設定し"
+"ます。ただし、一部のプレーヤーはunicodeの.m3uプレイリストに対応していない場合"
+"があります。"
 
 #: dialogs\dlgWizard\pnlRegistration.html:8
 msgid ""
@@ -9873,7 +9861,7 @@ msgstr "ウィンドウを最大化"
 
 #: controls\clientConfig\autoConvert.html:2
 msgid "Customize for this device"
-msgstr "このデバイスのカスタマイズ"
+msgstr "このデバイス向けにカスタマイズ"
 
 #: controls\deviceConfig\syncFromDevice.html:8
 msgid ""
@@ -9881,9 +9869,9 @@ msgid ""
 "Note that content already synced from the PC to the Device will update "
 "within the existing locations."
 msgstr ""
-"デバイス上の新規コンテンツが同期される、PC 上のフォルダーを選択してください。"
-"PC からデバイスへ既に同期されているコンテンツは、既存の場所にてアップデートさ"
-"れることに注意してください。"
+"デバイス上の新しいコンテンツを同期する際の、PC上の保存先フォルダーを選択しま"
+"す。なお、PCからデバイスへ既に同期済みのコンテンツは、既存の場所で更新されま"
+"す。"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:14
 msgid "Selected folder nodes"
@@ -9937,7 +9925,7 @@ msgstr "アクティブレイアウト"
 
 #: dialogs\dlgOptions\pnl_Library.html:52
 msgid "Ignore files smaller than"
-msgstr "これより小さいファイルを無視する"
+msgstr "次のサイズ未満のファイルを無視"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:35
 msgid "When playback is stopped:"
@@ -9960,10 +9948,9 @@ msgid ""
 "Series/Movie is contained within a folder b) for all images when multiple "
 "Albums/Series/Movies are contained within a folder."
 msgstr ""
-"１つのフォルダーに複数画像が格納される場合は常にこのファイル名が使われます。 "
-"a) １つのフォルダー中に１つのアルバム / シリーズ / 映画しか含まない場合は、１"
-"枚目の画像以外の名前に使われます。 b) １つのフォルダー中に複数のアルバム / シ"
-"リーズ / 映画が含まれる場合は、すべての画像の名前に使われます。"
+"複数の画像がフォルダーに保存される場合に使用されるファイル名です。フォルダー"
+"内に1つのアルバム／シリーズ／映画のみが含まれる場合は最初の画像以外に適用され"
+"、複数含まれる場合はすべての画像に適用されます。"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:36
 msgid "Level ripped tracks:"
@@ -10004,11 +9991,11 @@ msgstr "リモート再生時に再生回数を更新する"
 
 #: dialogs\dlgAutoorganize.html:37
 msgid "Trim long paths/filenames"
-msgstr "長いパス/ファイル名をトリミング"
+msgstr "長いパス／ファイル名を省略"
 
 #: dialogs\dlgMovedFiles.html:9
 msgid "Update the Library with the new location for the following files:"
-msgstr "以下のファイルの新しい場所でライブラリを更新します:"
+msgstr "以下のファイルの新しい場所でライブラリを更新:"
 
 #: dialogs\dlgNewVersion.html:26
 msgid "Info/Buy"
@@ -10051,7 +10038,7 @@ msgstr "タグ優先、次にプレイリスト"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:5
 msgid "Default action for files:"
-msgstr "ファイルのデフォルト動作:"
+msgstr "ファイルの既定の動作:"
 
 #: dialogs\dlgOptions\pnl_Player.html:23
 msgid "From other applications..."
@@ -10067,7 +10054,7 @@ msgstr "以下の基準のうち"
 
 #: controls\deviceConfig\syncToDevice.html:22
 msgid "Unselected Library files"
-msgstr "選択されていないライブラリのファイル"
+msgstr "未選択のライブラリファイル"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:26
 msgid "This format is used by some devices"
@@ -10079,7 +10066,7 @@ msgstr "外部IPアドレスを受け入れる"
 
 #: dialogs\dlgAddArtwork.html:38
 msgid "Apply to all files in the Album/Series"
-msgstr "アルバム/シリーズのすべてのファイルに適用"
+msgstr "アルバム／シリーズ内のすべてのファイルに適用"
 
 #: dialogs\dlgAddonInstall.html:12
 msgid "This action will install the following product"
@@ -10145,8 +10132,8 @@ msgstr ""
 msgid ""
 "Saves playback position (great for Audiobooks) for files of the selected "
 "type."
-msgstr ""
-"選択した種類のファイルの再生位置（オーディオブックに最適です）を保存します。"
+msgstr "選択した種類のファイルについて、再生位置を保存します（オーディオブックに最適"
+"）。"
 
 #: dialogs\dlgOptions\pnl_Player.html:32
 msgid ""
@@ -10154,9 +10141,9 @@ msgid ""
 "a single file. Party Mode and Playback rule settings can override this "
 "default."
 msgstr ""
-"「今すぐ再生」コマンドが単一のファイルに対して実行されたときに再生されるファ"
-"イルを指定します。パーティーモードと再生ルールの設定はこのデフォルトを上書き"
-"できます。"
+"単一ファイルに対して「今すぐ再生」コマンドを実行した際に、どのファイルを再生"
+"するかを決定します。パーティーモードや再生ルールの設定によって、この既定値は"
+"上書きされる場合があります。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:11
 msgid "ID3v1 tags"
@@ -10166,9 +10153,8 @@ msgstr "ID3v1タグ"
 msgid ""
 "This is the filename for the first image, as long as only a single Album, "
 "Series, or Movie is contained within the folder."
-msgstr ""
-"フォルダー中に１つのアルバム / シリーズ / 映画しか含まない場合、１枚目の画像"
-"のファイル名となります。"
+msgstr "フォルダー内にアルバム／シリーズ／映画が1つだけ含まれる場合の、最初の画像のフ"
+"ァイル名です。"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:3
 msgid "Target volume levels"
@@ -10184,7 +10170,7 @@ msgstr "マイライブラリ"
 
 #: dialogs\dlgAutoorganize.html:27
 msgid "Resulting directories and filenames:"
-msgstr "結果のディレクトリとファイル名:"
+msgstr "生成されるディレクトリとファイル名:"
 
 #: dialogs\dlgAutotag.html:20
 msgid "Allow compilations"
@@ -10283,18 +10269,16 @@ msgstr "EP"
 msgid ""
 "Syncs updated metadata such as ratings and play counts from the device to "
 "the PC."
-msgstr ""
-"デバイスからPCへ、評価や再生回数などの更新されたメタデータを同期します。"
+msgstr "評価や再生回数など、更新されたメタデータをデバイスからPCに同期します。"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:23
 msgid ""
 " Relative paths store file links in a playlist in relation to playlist's "
 "location, allowing the playlist and content to be moved to other locations "
 "without breaking the links."
-msgstr ""
-" 相対パスは、プレイリストの場所に関連してファイルリンクをプレイリストに保存"
-"し、リンクを途切れさせることなくプレイリストとコンテンツを他の場所に移動させ"
-"ることができます。"
+msgstr " "
+"相対パスは、プレイリストの位置を基準にファイルへのリンクを保存するため、プレ"
+"イリストとコンテンツを別の場所へ移動してもリンクが切れません。"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:28
 msgid "Use only the first Genre when multiple Genres exist"
@@ -10370,7 +10354,7 @@ msgstr "歌詞が見つからない場合、検索します"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:59
 msgid "Associate file types with MediaMonkey..."
-msgstr "ファイル形式をMediaMonkeyに関連付ける..."
+msgstr "MediaMonkeyにファイルの種類を関連付ける…"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:22
 msgid "Disable Player controls and track reordering"
@@ -10403,8 +10387,8 @@ msgstr "この同期プロファイルを初期設定にリセットします"
 #: controls\deviceConfig\options\pnl_FileLocations.html:6
 msgid ""
 "Choose the Directory/Filename format to be used for files on the device."
-msgstr ""
-"デバイス上のファイルに使用するディレクトリ/ファイル名形式を選択してください。"
+msgstr "デバイス上のファイルに使用するディレクトリ／ファイル名の形式を選択してくださ"
+"い。"
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:86
 msgid "Describes any other directories that should be scanned for media."
@@ -10458,7 +10442,7 @@ msgstr "毎時"
 
 #: dialogs\dlgOptions\pnl_Library.html:3
 msgid "When adding files to the Library"
-msgstr "ライブラリにファイルを追加するとき"
+msgstr "ライブラリへのファイル追加時"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:36
 msgid "MusicBrainz"
@@ -10486,7 +10470,7 @@ msgstr "ライブラリをより効率的に整理するための高度なライ
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Auto-sync playlists and new files from the device to the PC"
-msgstr "デバイスからPCへ、プレイリストと新しいファイルの自動同期"
+msgstr "デバイス上のプレイリストと新規ファイルをPCに自動同期する"
 
 #: dialogs\dlgAddonInstall.html:48
 msgid "I accept the terms in the license agreement"
@@ -10527,10 +10511,10 @@ msgid ""
 "'Minimize to MiniPlayer', displays 'Playing' list files even when the main "
 "application is minimized."
 msgstr ""
-"デフォルトでは、MediaMonkeyはタスクバーに最小化します。「マイクロプレイヤーに"
-"最小化」 は、最小化するとシステムトレイの横にツールバーとして表示されます。"
-"「ミニプレイヤーに最小化」は、メインアプリケーションが最小化されても「再生"
-"中」リストのファイルを表示します。"
+"既定ではMediaMonkeyはタスクバーに最小化されます。「MicroPlayerに最小化」を選"
+"ぶと、最小化時にシステムトレイ横のツールバーとして表示されます。「MiniPlayer"
+"に最小化」を選ぶと、メインアプリを最小化しても「再生中」リストのファイルが表"
+"示されます。"
 
 #: dialogs\dlgOptions\pnl_Library.html:78
 msgid "Remove unused Attributes (Artist, Album, Composer, ...)"
@@ -10554,7 +10538,7 @@ msgstr "フェードアウト"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:58
 msgid "Warn when duplicate files are added"
-msgstr "重複ファイルが追加されたときに警告する"
+msgstr "重複ファイル追加時に警告"
 
 #: dialogs\dlgTrackProperties\tabCustom.html:105
 msgid "Edit extended tags"
@@ -10586,7 +10570,7 @@ msgstr "リッピングしたトラックを検証する"
 
 #: dialogs\dlgMovedFiles.html:17
 msgid "Unlocatable files"
-msgstr "場所不明なファイル"
+msgstr "見つからないファイル"
 
 #: dialogs\dlgSpeedPitch.html:47
 msgid "Cents"
@@ -10606,8 +10590,9 @@ msgid ""
 "filename mask is not chosen, then the podcast's original filename will be "
 "used"
 msgstr ""
-"ポッドキャストを保存するディレクトリとファイル名マスクを選択します。ファイル"
-"名マスクが選択されていない場合、ポッドキャストの元のファイル名が使用されます"
+"ポッドキャストの保存先となるディレクトリとファイル名マスクを選択します。ファ"
+"イル名マスクを指定しない場合は、ポッドキャストの元のファイル名が使用されます"
+"。"
 
 #: dialogs\dlgOptions\pnl_General.html:13
 msgid "Include addons"
@@ -10654,9 +10639,9 @@ msgid ""
 "updated. This should be enabled so that other applications reading the file "
 "are aware that a change has been made."
 msgstr ""
-"タグが更新されるたびにMediaMonkeyがファイルのタイムスタンプを更新します。ファ"
-"イルを読み込む他のアプリケーションが、変更が行われたことを認識するために、有"
-"効にする必要があります。"
+"タグが更新されるたびに、MediaMonkeyがファイルのタイムスタンプを更新します。こ"
+"れを有効にしておくと、ファイルを読み取る他のアプリケーションが変更を認識でき"
+"るようになります。"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:132
 msgid "Start time"
@@ -10686,7 +10671,7 @@ msgstr "プリセットを保存..."
 
 #: controls\deviceConfig\syncToDevice.html:23
 msgid "All other media files"
-msgstr "他のすべてのメディアファイル"
+msgstr "その他のメディアファイル"
 
 #: dialogs\dlgAddArtwork.html:33
 msgid "Image filename"
@@ -10698,7 +10683,7 @@ msgstr "以下のコンテンツを変換:"
 
 #: dialogs\dlgAutoorganize.html:11
 msgid "Copy files to new destination based on file tags"
-msgstr "ファイルタグに基づいてファイルを新しい場所にコピーする"
+msgstr "ファイルタグに基づいて新しい保存先へコピー"
 
 #: dialogs\dlgBurn.html:17
 msgid "per Album"
@@ -10783,7 +10768,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Player.html:45
 msgid "Displays file information and associated artwork"
-msgstr "ファイル情報と、関連するアートワークを表示します"
+msgstr "ファイル情報と関連アートワークを表示"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:13
 msgid ""
@@ -10817,16 +10802,15 @@ msgstr "プロデューサー"
 
 #: controls\autoConvertConfig.html:9
 msgid "Target volume level"
-msgstr "音量揃えの目標"
+msgstr "目標音量レベル"
 
 #: controls\devicesView.html:8
 msgid "No devices configured. You can connect a device via USB or Wi-Fi."
-msgstr ""
-"デバイスが設定されていません。USBまたはWi-Fi経由でデバイスを接続できます。"
+msgstr "デバイスが設定されていません。USBまたはWi‑Fiでデバイスを接続できます。"
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Syncs files from the selected folders on the device to the PC."
-msgstr "デバイス上の選択フォルダーから PC へ、ファイルを同期します。"
+msgstr "デバイス上の選択したフォルダー内のファイルをPCに同期します。"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:5
 msgid ""
@@ -10834,13 +10818,13 @@ msgid ""
 "image tags. If disabled, artwork is synced to a location that only "
 "MediaMonkey can read."
 msgstr ""
-"画像タグを読み取れないデバイスやアプリケーションのアルバムフォルダにアート"
-"ワークを保存します。無効にした場合、アートワークはMediaMonkeyのみが読み込みで"
-"きる場所に同期されます。"
+"画像タグを読み取れないデバイスやアプリ向けに、アートワークをアルバムフォルダ"
+"ーへ保存します。無効にした場合、アートワークはMediaMonkeyのみが読み取れる場所"
+"に同期されます。"
 
 #: dialogs\dlgAutoorganize.html:10
 msgid "Move and rename files to new destination based on file tags"
-msgstr "ファイルタグに基づいて、新しい宛先にファイルを移動し名前を変更する"
+msgstr "ファイルタグに基づいて新しい保存先へ移動し名前を変更する"
 
 #: dialogs\dlgCollectionOptions.html:13
 msgid "Collection name"
@@ -10887,8 +10871,8 @@ msgid ""
 "This setting determines whether MediaMonkey searches file directories for "
 "artwork and links it to tracks as they are added to the Library."
 msgstr ""
-"この設定は、MediaMonkeyがアートワークをファイルディレクトリで検索し、ライブラ"
-"リに追加されたトラックにリンクするかどうかを指定します。"
+"この設定は、MediaMonkeyがファイルディレクトリ内のアートワークを検索し、ライブ"
+"ラリに追加される際にトラックへ関連付けるかどうかを決定します。"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:92
 msgid ""
@@ -10928,7 +10912,7 @@ msgstr "適用"
 
 #: controls\deviceConfig\syncFromDevice.html:15
 msgid "Auto-Sync file metadata from the device to the PC"
-msgstr "デバイスからPCへのファイルメタデータの自動同期"
+msgstr "デバイス上のファイルのメタデータをPCに自動同期する"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:41
 msgid "prefix for each playlist type"
@@ -10944,7 +10928,7 @@ msgstr "警告を消す秒数:"
 
 #: dialogs\dlgMovedFiles.html:24
 msgid "Update selected files in the database"
-msgstr "データベースの選択ファイルのデータを更新"
+msgstr "選択したファイルをデータベースで更新"
 
 #: dialogs\dlgMovedFiles.html:31
 msgid "Remove selected files from the database"
@@ -10972,7 +10956,7 @@ msgstr "利用可能な要素"
 
 #: dialogs\dlgOptions\pnl_Library.html:106
 msgid "Filenames + Path"
-msgstr "ファイル名+パス"
+msgstr "ファイル名＋パス"
 
 #: dialogs\dlgOptions\pnl_Network.html:3
 msgid "Proxy server settings"
@@ -10996,7 +10980,7 @@ msgstr "UPnP/DLNA経由でのMediaMonkeyプレイヤーの入力/制御を受け
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:7
 msgid "Store MP3 file properties using:"
-msgstr "MP3 ファイルのプロパティを保存する方法："
+msgstr "MP3ファイルのプロパティを保存する方法："
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:19
 msgid ""
@@ -11005,16 +10989,16 @@ msgid ""
 "characters appear. Some players may have trouble reading Unicode tags, "
 "though."
 msgstr ""
-"英語以外の文字を含むファイルがある場合は、非ラテン文字が表示される場合を除い"
-"て、タグをasciiに保存するascii+Unicodeを有効にする必要があります。ただし、一"
-"部のプレイヤーはUnicodeタグを読み取ることができない場合があります。"
+"非英語の文字を含むファイルがある場合は、ascii＋Unicodeを有効にすることを推奨"
+"します。これは、非ラテン文字が含まれる場合を除き、タグをasciiで保存する方式で"
+"す。ただし、一部のプレーヤーはUnicodeタグの読み取りに問題を起こす可能性があり"
+"ます。"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:57
 msgid ""
 "If enabled, a warning is provided whenever duplicate files are added to a "
 "playlist."
-msgstr ""
-"有効にすると、重複するファイルがプレイリストに追加されたときに警告が表示され"
+msgstr "有効にすると、重複したファイルがプレイリストに追加されるたびに警告が表示され"
 "ます。"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:56
@@ -11035,7 +11019,7 @@ msgstr "相対パスにする"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:9
 msgid "Copy Artwork to file tags"
-msgstr "アートワークをファイルのタグへコピー"
+msgstr "アートワークをファイルタグへコピー"
 
 #: controls\serverConfig\content.html:9
 msgid ""
@@ -11048,7 +11032,7 @@ msgstr ""
 #: dialogs\dlgAutoorganize.html:37
 msgid ""
 "Shorten paths/filenames to 256 characters for compatibility with certain apps"
-msgstr "特定のアプリとの互換性を保つため、パス/ファイル名を256文字に短縮します"
+msgstr "一部のアプリとの互換性のため、パス／ファイル名を256文字に短縮"
 
 #: dialogs\dlgConvertFormat.html:49
 msgid ""
@@ -11056,9 +11040,10 @@ msgid ""
 "being extracted from the CD-ROM. For some older drives, this should be "
 "disabled as it may reduce the quality of encoded files."
 msgstr ""
-"CD-ROMから抽出されたオーディオを選択した形式にエンコードすることで、CDのリッ"
-"ピングを高速化します。一部の古いドライブでは、エンコードされたファイルの品質"
-"が低下する可能性があるため、無効にする必要があります。"
+"この機能を有効にすると、CD-"
+"ROMから抽出しながら音声を選択した形式へ同時にエンコードするため、CDリッピング"
+"が高速化されます。ただし、古いドライブではエンコードされたファイルの品質が低"
+"下する可能性があるため、無効にすることを推奨します。"
 
 #: dialogs\dlgSleep.html:24
 msgid "% of current volume"
@@ -11066,7 +11051,7 @@ msgstr "現在の音量に対する割合（％）"
 
 #: dialogs\dlgSupportedFormat.html:71
 msgid "Levels"
-msgstr "レベル:"
+msgstr "レベル"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:5
 msgid ""
@@ -11131,8 +11116,9 @@ msgid ""
 "adjustment that appears in the Filelist. It also determines the volume to "
 "which tracks are leveled when 'Level Track volume' is used."
 msgstr ""
-"この値は、ファイルリストに表示される音量揃え調整の基準として使用されます。ま"
-"た、「トラック音量揃え」を使用した際に、トラックが揃えられる音量も決めます。"
+"この値は、ファイルリストに表示される音量揃え調整量を算出する際の基準として使"
+"用されます。また、「トラック音量揃え」を実行した際に、トラックが揃えられる音"
+"量レベルもこの値によって決まります。"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:20
 msgid "File name"
@@ -11152,7 +11138,7 @@ msgstr "確認ダイアログの表示"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:30
 msgid "Force files to resync whenever the source file has changed (slower)"
-msgstr "元のファイルが変更されるたびにファイルを強制的に再同期する（遅い）"
+msgstr "ソースファイルが変更された場合は、常にファイルを再同期します（低速）"
 
 #: dialogs\dlgAbout.html:42
 msgid "Used for developer testing (disables automatic crashlog generation)"
@@ -11212,7 +11198,7 @@ msgstr "音量、再生/一時停止コントロールを有効にする"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:66
 msgid "Only analyze files with unknown Leveling Adjustment"
-msgstr "音量調整値が不明なファイルのみ解析"
+msgstr "音量揃え調整量が不明なファイルのみ解析する"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:152
 msgid "Play counter"
@@ -11298,7 +11284,7 @@ msgstr "アーティスト画像"
 
 #: dialogs\dlgOptions\pnl_Player.html:45
 msgid "Pop-up file info:"
-msgstr "ファイル情報のポップアップ表示:"
+msgstr "ファイル情報ポップアップの表示時間:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:31
 msgid "Update tags when editing properties"
@@ -11308,9 +11294,8 @@ msgstr "プロパティ編集時にタグを更新"
 msgid ""
 "This value determines playback volume (for track(s) that have been analyzed) "
 "if 'Level playback volume' is enabled."
-msgstr ""
-"この値は、「再生音量を揃える」が有効になっている場合、再生音量（分析されたト"
-"ラック）を決定します。"
+msgstr "「再生音量を揃える」が有効な場合、この値は（解析済みのトラックに対して）再生"
+"時の音量を決定します。"
 
 #: dialogs\dlgWizard\pnlRegistration.html:10
 msgid "analyze volume automatically"
@@ -11418,16 +11403,16 @@ msgstr "各プレイリストタイプのサブディレクトリ"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:29
 msgid "This format is used by some newer devices"
-msgstr "この形式は、一部の新しいデバイスで使用されています"
+msgstr "この形式は一部の新しいデバイスで使用されています"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:28
 msgid ""
 "This makes it easier to browse the device's database. Otherwise, multiple "
 "Genres would sync as a single string (e.g. 'Rock;Pop;Accoustic')"
 msgstr ""
-"これにより、デバイスのデータベースを閲覧しやすくなります。それ以外の場合、複"
-"数のジャンルがひとつの文字列として同期します（例：'ロック;ポップ;アコース"
-"ティック'）"
+"これにより、デバイスのデータベースを参照しやすくなります。無効にすると、複数"
+"のジャンルが1つの文字列（例：'Rock;Pop;Acoustic'）として同期されてしまいます"
+"。"
 
 #: dialogs\dlgMaintainLibrary.html:10
 msgid "Maintenance"
@@ -11553,7 +11538,7 @@ msgstr "低"
 
 #: dialogs\dlgConvertFormat.html:11
 msgid "Convert file(s) to new destination"
-msgstr "ファイルを新しい保存先に変換"
+msgstr "ファイルを新しい保存先へ変換"
 
 #: dialogs\dlgMediaProperties.html:15
 msgid "Serial"
@@ -11589,7 +11574,7 @@ msgstr "タグ、次に推測プロパティ"
 
 #: dialogs\dlgOptions\pnl_Library.html:70
 msgid "Analyze files for duplicates (takes extra time)"
-msgstr "重複がないかファイルを分析する（時間がかかります）"
+msgstr "重複ファイルを分析する（時間がかかります）"
 
 #: dialogs\dlgOptions\pnl_Library.html:74
 msgid "Remove unavailable items"
@@ -11611,8 +11596,7 @@ msgstr "サブライブラリにカスタムコレクションを使用する"
 msgid ""
 "Import files, playlists, ratings, and playback history from other "
 "applications:"
-msgstr ""
-"他のアプリケーションからファイル、プレイリスト、重要度、再生履歴をインポート:"
+msgstr "他のアプリからファイル、プレイリスト、評価、再生履歴をインポートする:"
 
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:10
 msgid "Logout from last.fm service"
@@ -11632,7 +11616,7 @@ msgstr "デバイス名"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
 msgid "Sync artwork to file folders"
-msgstr "アートワークをファイルのフォルダーに同期"
+msgstr "アートワークをファイルのフォルダーに同期する"
 
 #: dialogs\dlgAutoConvertRule.html:49
 msgid "Medium"
@@ -11688,7 +11672,7 @@ msgstr "M3UプレイリストにUnicode （UTF-8エンコーディング）を�
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:7
 msgid "Level playback / sync volume:"
-msgstr "再生 / 同期の音量揃え:"
+msgstr "再生／同期時の音量を揃える:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:47
 msgid "Target volume for ripping Audio CDs:"
@@ -11698,7 +11682,7 @@ msgstr "オーディオCDリッピング時の目標音量:"
 msgid ""
 "Analyzes the relative volume of tracks on a per Album basis, and saves the "
 "leveling co-efficient."
-msgstr "トラックの相対音量をアルバムごとに分析し、調整係数を保存します。"
+msgstr "アルバム単位でトラック間の相対音量を解析し、音量揃え係数を保存します。"
 
 #: dialogs\dlgWizard\pnlShare.html:4
 msgid ""
@@ -11707,18 +11691,18 @@ msgid ""
 "g. MediaMonkey for Android) sync wirelessly. You'll be prompted to grant "
 "access for each remote device that attempts to connect."
 msgstr ""
-"ネットワーク上のUPnP/DLNAクライアント（TV、DVDプレーヤー、xBox、PlayStationな"
-"ど）にMediaMonkeyライブラリにアクセスさせて、他のMediaMonkeyクライアント"
-"（Android用MediaMonkeyなど）がワイヤレスで同期できるようにします。接続しよう"
-"とする各リモートデバイスごとにアクセスを許可するように求められます。"
+"ネットワーク上のUPnP/"
+"DLNAクライアント（TV、DVDプレーヤー、Xbox、PlayStationなど）にMediaMonkeyライ"
+"ブラリへのアクセスを許可し、他のMediaMonkeyクライアント（例：MediaMonkey for "
+"Android）がワイヤレス同期できるようにします。接続を試みる各リモートデバイスに"
+"対して、アクセス許可の確認が求められます。"
 
 #: controls\deviceConfig\options\pnl_FileLocations.html:80
 msgid ""
 "Automatically organizes files on the device according to the settings above. "
 "This can take a lot of time if the sync masks are modified."
-msgstr ""
-"上記の設定に従ってデバイス上のファイルを自動的に整理します。同期マスクが変更"
-"されると時間がかかる場合があります。"
+msgstr "上記の設定に従って、デバイス上のファイルを自動整理します。同期マスクを変更し"
+"た場合、処理に時間がかかることがあります。"
 
 #: dialogs\dlgBurn.html:14
 msgid "Level volume"
@@ -11780,9 +11764,9 @@ msgid ""
 "a single file. It can be set use the default Player settings or customized "
 "for each media Type."
 msgstr ""
-"「今すぐ再生」コマンドが単一のファイルに対して実行されたときに再生されるファ"
-"イルを指定します。デフォルトのプレイヤー設定を使用して設定することも、メディ"
-"アタイプごとにカスタマイズすることもできます。"
+"これは、単一ファイルに対して「今すぐ再生」コマンドを実行したときに再生される"
+"ファイルを決定します。既定のプレーヤー設定を使用するか、メディアタイプごとに"
+"カスタマイズできます。"
 
 #: dialogs\dlgOptions\pnl_Player.html:94
 msgid "Vertical"
@@ -11812,12 +11796,11 @@ msgstr ""
 
 #: controls\deviceConfig\options\pnl_Tagging.html:15
 msgid "Syncs all images using the specified format and size"
-msgstr "指定した形式とサイズを使用してすべての画像を同期する"
+msgstr "指定した形式とサイズで、すべての画像を同期します"
 
 #: dialogs\dlgAutoOrganizeRule.html:11
 msgid "Organize these files using the following Directory and Filename format"
-msgstr ""
-"次のディレクトリとファイル名の形式を使用して、これらのファイルを整理します"
+msgstr "次のディレクトリおよびファイル名形式を使用してこれらのファイルを整理する"
 
 #: dialogs\dlgConvertFormat.html:45
 msgid "Eject CD after ripping"
@@ -11876,8 +11859,9 @@ msgid ""
 "track. It does so by limiting the volume adjustment when possible clipping "
 "is detected."
 msgstr ""
-"クリッピング防止により、音量揃えがオーディオトラックをクリップしないようにし"
-"ます。クリッピングが検出された場合、音量調整を制限します。"
+"クリッピング防止は、音量揃えによって音声トラックがクリップしないようにする機"
+"能です。クリップの可能性が検出された場合、音量調整量を制限することで防止しま"
+"す。"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:168
 msgid "Conductor(s)"
@@ -11907,9 +11891,8 @@ msgstr "ランダムに生成されたIPポート"
 msgid ""
 "Unblocks connections from addresses outside the local network. Not "
 "recommended if Wi-Fi sync is enabled."
-msgstr ""
-"ローカルネットワーク外のアドレスからの接続のブロックを解除します。Wi-Fi同期が"
-"有効な場合はお勧めしません。"
+msgstr "ローカルネットワーク外のアドレスからの接続を許可します。Wi‑Fi同期を有効にして"
+"いる場合は推奨されません。"
 
 #: dialogs\dlgAddonInstall.html:30
 msgid "Version"
@@ -11927,7 +11910,7 @@ msgstr "出力ファイル"
 msgid ""
 "The following accompanying files were found. Please select those which you "
 "would like to move."
-msgstr "以下の添付ファイルが見つかりました。移動したいものを選択してください。"
+msgstr "次の付随ファイルが見つかりました。移動したいものを選択してください。"
 
 #: dialogs\dlgNewVersion.html:12
 msgid "New version"
@@ -11959,9 +11942,9 @@ msgid ""
 "(seconds) from being added to the Library, since it's unlikely that you "
 "really want such files to appear in your Library."
 msgstr ""
-"指定されたサイズ（KB）または時間（秒）未満のトラックがライブラリに追加される"
-"のを防ぐことができます。そのようなファイルがライブラリに表示される可能性は低"
-"いからです。"
+"これは、指定したサイズ（KB）または時間（秒）より小さいトラックがライブラリに"
+"追加されるのを防ぎます。そのようなファイルがライブラリに表示されることを本当"
+"に望むことはまずないためです。"
 
 #: dialogs\dlgOptions\pnl_Library.html:5
 msgid "Add/Scan settings"
@@ -12017,13 +12000,12 @@ msgstr "メガバイト"
 #: controls\deviceConfig\options\pnl_Tagging.html:9
 msgid ""
 "Copies Artwork to file tags for devices that only read images saved in tags"
-msgstr ""
-"タグに保存された画像のみを読み取るデバイスのファイルタグにアートワークをコ"
-"ピー"
+msgstr "アートワークをファイルのタグにコピーします。タグ内の画像しか読み取れないデバ"
+"イス向けの設定です"
 
 #: controls\serverConfig\devices.html:4
 msgid "Shares the server contents with all devices that attempt to connect"
-msgstr "接続しようとするすべてのデバイスと、サーバーの内容を共有します"
+msgstr "接続を試みるすべてのデバイスと、サーバー上のコンテンツを共有します"
 
 #: dialogs\dlgAbout.html:40
 msgid "Developer mode"
@@ -12121,9 +12103,8 @@ msgstr "以前に削除されたものを含むすべてのエピソードを表
 msgid ""
 "Do not apply to files in the specified folders (\"C:\\Directory\\\",\"C:"
 "\\directory 2\")"
-msgstr ""
-"特定フォルダーの中のファイルには適用しない (\"C:\\Directory\\\",\"C:"
-"\\directory 2\")"
+msgstr "指定したフォルダー内のファイルには適用しない（\"C:\\Directory\\\","
+"\"C:\\directory 2\"）"
 
 #: dialogs\dlgOptions\pnl_Library.html:120
 msgid "Playlists (M3U, XSPF) then Tags"
@@ -12193,11 +12174,10 @@ msgid ""
 "Album. 'per Track' levels each track independently, preferable when Albums "
 "are rarely played as a whole."
 msgstr ""
-"再生とデバイス同期の際の音量揃えにおいて、使用する音量揃え方式を選びます。"
-"「アルバムごと」では、アルバム音量係数（利用可能な場合）に基づき音量を揃え、1"
-"アルバム上の各トラック間の相対的な音量の違いは維持します。「トラックごと」 で"
-"は各トラックの音量を独立して個別に揃えます。アルバム丸ごとの再生を滅多にしな"
-"い場合に適しています。"
+"再生およびデバイス同期時に音量を揃える方法を設定します。「アルバム単位」は、"
+"（利用可能な場合）アルバムの音量係数に基づいて揃えるため、アルバム内のトラッ"
+"ク間の相対的な音量差を保持します。「トラック単位」は各トラックを個別に揃える"
+"方式で、アルバム全体を通して再生することが少ない場合に適しています。"
 
 #: dialogs\dlgWizard\pnlRegistration.html:14
 msgid "AccurateRip for bit-perfect CD Rips."
@@ -12257,11 +12237,11 @@ msgstr ""
 
 #: dialogs\dlgAutotagFromFilename.html:10
 msgid "Update tags based on existing filenames"
-msgstr "既存のファイル名に基づいてタグを更新"
+msgstr "既存のファイル名に基づいてタグを更新する"
 
 #: dialogs\dlgConvertFormat.html:10
 msgid "Convert file(s), replacing the originals"
-msgstr "ファイルを変換し、オリジナルと置換"
+msgstr "元のファイルを置き換えて変換する"
 
 #: dialogs\dlgLogin.html:17
 msgid "Password"
@@ -12349,7 +12329,7 @@ msgstr "一時ディレクトリ:"
 
 #: dialogs\dlgOptions\pnl_Library.html:150
 msgid ".nfo files, Path and Filenames"
-msgstr ".nfoファイル、パスとファイル名"
+msgstr ".nfoファイル、パスおよびファイル名"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Remove silence at the beginning / end of track"
@@ -12359,9 +12339,8 @@ msgstr "トラックの冒頭／末尾の無音を取り除く"
 msgid ""
 "Custom Auto-conversion rules to convert files on-the-fly so that they can "
 "play on any device."
-msgstr ""
-"任意のデバイスで再生できるようにファイルをオンザフライで変換するためのカスタ"
-"ム自動変換ルール。"
+msgstr "どのデバイスでも再生できるよう、ファイルをオンザフライで変換するカスタム自動"
+"変換ルールです。"
 
 #: dialogs\dlgWizard\pnlRegistration.html:15
 msgid "Plus improved performance and tuning options, Sleep timer, etc."
@@ -12409,7 +12388,7 @@ msgstr "コレクションコメント"
 
 #: dialogs\dlgConvertFormat.html:46
 msgid "Add converted files to the library"
-msgstr "変換されたファイルをライブラリに追加する"
+msgstr "変換したファイルをライブラリに追加する"
 
 #: dialogs\dlgExtensions.html:10
 msgid "Show"
@@ -12471,7 +12450,7 @@ msgstr "ポップアップをスムーズにフェードアウトさせます"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:34
 msgid "Modify timestamp when updating tags"
-msgstr "タグの更新時にタイムスタンプを変更する"
+msgstr "タグ更新時にタイムスタンプを変更する"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:216
 msgid "Last played"
@@ -12490,8 +12469,9 @@ msgid ""
 "This makes it easier to browse the device's database. Otherwise, multiple "
 "Artists/Composers would sync as a single string (e.g. 'U2;B.B. King')"
 msgstr ""
-"これにより、デバイスのデータベースを閲覧しやすくなります。それ以外の場合、複"
-"数のアーティスト/作曲家がひとつの文字列として同期します（例：'U2;B.B. King'）"
+"これにより、デバイスのデータベースを参照しやすくなります。無効にすると、複数"
+"のアーティスト／作曲者が1つの文字列（例：'U2;B.B.King'）として同期されてしま"
+"います。"
 
 #: controls\nowPlaying\fullList.html:30
 msgid "Save lyrics to tag"
@@ -12523,8 +12503,7 @@ msgstr "カスタム項目の名前を変更する（再起動が必要）"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:2
 msgid "Set the default directory / filename format for specified files."
-msgstr ""
-"指定したファイルのデフォルトのディレクトリ/ファイル名形式を設定します。"
+msgstr "指定したファイルの既定のディレクトリ／ファイル名形式を設定する"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:12
 msgid "Confirm desired options on removal of files from the 'Playing' list"
@@ -12546,10 +12525,9 @@ msgid ""
 "stopping or switching tracks; changing volume, balance or equalizer "
 "settings; and re-ordering / removing files, or adding multiple files at once."
 msgstr ""
-"これにより MediaMonkey "
-"はジュークボックスのように動作し、ユーザーはトラックの停止や切り替え、音量・"
-"バランス・イコライザ設定の変更、ファイルの並べ替えや削除、複数ファイルの一括"
-"追加ができなくなります。"
+"これによりMediaMonkeyはジュークボックスのように動作し、ユーザーはトラックの停"
+"止や切り替え、音量・バランス・イコライザ設定の変更、ファイルの並べ替えや削除"
+"、複数ファイルの一括追加ができなくなります。"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:13
 msgid "Show in full screen mode"
@@ -12567,7 +12545,7 @@ msgstr "スローフェードアウト:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:27
 msgid "Target volume for leveling tracks:"
-msgstr "トラック音量揃えの目標音量:"
+msgstr "トラックの音量揃えに使用する目標音量:"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:72
 msgid "Automatically analyze volume of unanalyzed files:"
@@ -12591,7 +12569,7 @@ msgstr "画像:"
 
 #: controls\deviceConfig\options\pnl_Playlists.html:2
 msgid "Sync playlists automatically"
-msgstr "プレイリストを自動で同期"
+msgstr "プレイリストを自動同期する"
 
 #: dialogs\dlgAddArtwork.html:20
 msgid "Image type"
@@ -12696,8 +12674,8 @@ msgstr "デスクトップ"
 msgid ""
 "This will modify the track# field in sequential order for the %d selected "
 "tracks. Do you want to proceed?"
-msgstr ""
-"%d個の選択したトラックのトラック番号項目が順番に変更されます。続行しますか？"
+msgstr "選択した%d件のトラックについて、トラック番号フィールドを連番で更新します。続"
+"行しますか？"
 
 # Quicktime AAC/MP4 plug-in
 msgid "QuickTime"
@@ -12808,11 +12786,12 @@ msgid ""
 "none of your data is left behind. The downside is that it isn't optimized "
 "for your particular PC (e.g. no Start menu entry)."
 msgstr ""
-"どのようなPCでも使用できるポータブルデバイスでMediaMonkeyを実行できます。%n "
-"USBフラッシュドライブまたはポータブルハードドライブが接続されている場合は、自"
-"分のPCと同じようにMediaMonkeyにアクセスできます。%nプラグを外すと、データは残"
-"りません。欠点は、特定のPCに最適化されていないことです（例：スタートメニュー"
-"への登録なし）。"
+"これにより、どの PC でも使えるポータブルデバイス上で MediaMonkey "
+"を実行できます。%nUSB "
+"フラッシュドライブやポータブルハードドライブを接続すると、自分の PC "
+"と同じように MediaMonkey "
+"にアクセスでき、%n取り外せばデータは一切残りません。デメリットとして、その "
+"PC 固有の最適化（例：スタートメニューへの登録）は行われません。"
 
 msgid "portable"
 msgstr "ポータブル版"
@@ -13118,9 +13097,8 @@ msgstr ""
 
 #: controls\deviceConfig\options\pnl_Tagging.html:5
 msgid "Copies tagged artwork to folders for devices that don't read image tags"
-msgstr ""
-"タグ付けされたアートワークを画像タグを読み取らないデバイスのフォルダーにコ"
-"ピーする"
+msgstr "画像タグを読み取れないデバイス向けに、タグ付きアートワークをフォルダーへコピ"
+"ーします"
 
 #: dialogs\dlgOptions\pnl_Confirmations.html:11
 msgid ""
@@ -13139,7 +13117,7 @@ msgstr "「再生中」リストからファイルを削除する際の希望設
 
 #: controls\deviceConfig\options\pnl_Tagging.html:6
 msgid "Sync all Artwork to file folders"
-msgstr "すべてのアートワークをファイルのフォルダーに同期"
+msgstr "すべてのアートワークをファイルのフォルダーに同期する"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:30
 msgid ""
@@ -13170,7 +13148,7 @@ msgstr "再生リストの今後のファイル"
 
 #: controls/deviceConfig/options/pnl_Tagging.js:5
 msgid "Modify metadata as follows when syncing to '%s'"
-msgstr "「%s」へ同期する際は次のようにメタデータを変更します"
+msgstr "「%s」への同期時に、メタデータを次のとおり変更します"
 
 #: controls/trackListView.js:1220 MaskHelper.pas:3156 ResStrings.pas:480
 #: ResStrings.pas:491 ResStrings.pas:534
