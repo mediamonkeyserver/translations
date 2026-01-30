@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-26 13:26\n"
-"PO-Revision-Date: 2026-01-29 13:53+0000\n"
+"PO-Revision-Date: 2026-01-31 06:53+0000\n"
 "Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ja/>\n"
@@ -2769,7 +2769,7 @@ msgstr "このノードは、ハッシュ値またはフィンガープリント
 #. to respect order served by content
 #: viewHandlers.js:7432
 msgid "Artwork is not the same across tracks on an album."
-msgstr "アルバムのトラック間でアートワークが同じではありません。"
+msgstr "アルバム内のトラック間でアートワークが一致していません。"
 
 #: viewHandlers.js:7435
 msgid "Files have been deleted or moved."
@@ -3153,7 +3153,7 @@ msgstr "アートワーク（ぼかし）"
 
 #: controls/backgroundImage.js:167
 msgid "Artwork (darken)"
-msgstr "アートワーク（暗くする）"
+msgstr "アートワーク（暗く）"
 
 #: controls/backgroundImage.js:178
 msgid "Artwork (original)"
@@ -3625,7 +3625,7 @@ msgstr "すべてのサブノードを表示"
 #. to hide the expand marks for corresponding nodes
 #: controls/mediaTree.js:223
 msgid "Scroll to match when typing in tree"
-msgstr "ツリーへの入力と一致するようにスクロール"
+msgstr "入力文字に一致するところまでスクロール"
 
 #. toggle:
 #: controls/mediaTree.js:232
@@ -3920,7 +3920,7 @@ msgstr "検索"
 #. to avoid stealing focus by resetting it to new view
 #: controls/searchBar.js:460 dialogs/dlgOptions/pnl_Search.js:55
 msgid "Filters matches"
-msgstr "一致するものを絞り込む"
+msgstr "一致項目を絞り込み"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. in case of collection search we need to change view at first
@@ -3965,20 +3965,19 @@ msgstr "\"Foo\" | 単語全体を検索します（例: FOOまたはfóo）"
 
 #: controls/searchBar.js:748
 msgid "\"foo bar\" | finds matches including phrase foo bar (e.g. foo barman)"
-msgstr ""
-"\"foo bar\" | foo bar（例: foo barman）を含むフレーズの一致を検索します"
+msgstr "\"foo bar\" | 語句「foo bar」を含む一致を見つけます（例：foo barman）"
 
 #: controls/searchBar.js:749
 msgid "foo bar | finds matches with foo and bar"
-msgstr "foo bar | fooとbarに一致するものを検索"
+msgstr "foo bar | 「foo」と「bar」の両方を含む一致を見つけます"
 
 #: controls/searchBar.js:750
 msgid "foo OR bar | finds matches with either foo or bar"
-msgstr "foo OR bar | fooまたはbarのいずれかと一致するものを検索します"
+msgstr "foo OR bar | 「foo」または「bar」のいずれかを含む一致を見つけます"
 
 #: controls/searchBar.js:751
 msgid "foo -bar | finds matches with foo and not bar"
-msgstr "foo -bar | バーではなくfooと一致するものを検索"
+msgstr "foo -bar | 「foo」を含み、「bar」を含まない一致を見つけます"
 
 #: controls/searchBar.js:752
 msgid "fieldname:foo | restricts search to a specific field. For example:"
@@ -3993,11 +3992,11 @@ msgstr ""
 
 #: controls/searchBar.js:754
 msgid "year:2000..2006 | finds matches in range 2000 to 2006"
-msgstr "year:2000..2006 | 2000年から2006年の範囲内の一致を検索"
+msgstr "year:2000..2006 | 2000〜2006の範囲に一致するものを見つけます"
 
 #: controls/searchBar.js:755
 msgid "rating: 4.. | finds matches with 4 stars or more"
-msgstr "rating: 4.. | 評価4以上のものを見つける"
+msgstr "rating: 4.. | 評価4以上のものを見つけます"
 
 #. #16537
 #: controls/searchEditor.js:591
@@ -5160,7 +5159,7 @@ msgstr "Youtube"
 #: dialogs/dlgMediaProperties.js:203
 msgid ""
 "Location change is complete and will take effect after MediaMonkey restarts."
-msgstr "場所の変更が完了しました。MediaMonkeyの再起動後に有効になります。"
+msgstr "場所の変更が完了しました。MediaMonkeyを再起動すると反映されます。"
 
 #. to be sure that only our 'click' event handler will be used (to be sure that setResult(res) is called also for Cancel button)
 #: dialogs/dlgMigrateWizard.js:4
@@ -6002,7 +6001,7 @@ msgstr "利用可能な場合はハードウェアアクセラレーションを
 #: dialogs/dlgOptions/pnl_Performance.js:41
 #: dialogs\dlgOptions\pnl_Appearance.html:10
 msgid "(requires restart)"
-msgstr "(要再起動)"
+msgstr "（再起動が必要）"
 
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:95
 msgid "Gap"
@@ -6567,7 +6566,7 @@ msgstr "選択した%d件のトラックについて、トラック番号フィ�
 
 #: Scripts/autoIncTrack/actions_add.js:23
 msgid "Start numbering from:"
-msgstr "ナンバリングの始点:"
+msgstr "開始番号:"
 
 #: Scripts/caseChecker/actions_add.js:2 Scripts/caseChecker/actions_add.js:12
 msgid "Case Checker"
@@ -7139,11 +7138,11 @@ msgstr "評価不明"
 
 #: dblistutils.pas:1633 UPnPTreeHelper.pas:1920
 msgid "Unknown Artwork"
-msgstr "未知のアートワーク"
+msgstr "不明なアートワーク"
 
 #: dblistutils.pas:1634
 msgid "Inconsistent Artwork"
-msgstr "一貫性のないアートワーク"
+msgstr "不整合なアートワーク"
 
 #: dblistutils.pas:1635
 msgid "Multiple Artist Albums"
@@ -7461,7 +7460,7 @@ msgstr "セーフモードで再起動"
 #. set buttons captions
 #: ExceptionHandler.pas:327
 msgid "Disable & Restart"
-msgstr "無効にして再起動"
+msgstr "無効化して再起動"
 
 #. Pointer not needed.
 #: ExceptionHandler.pas:352
@@ -8524,7 +8523,7 @@ msgstr "昨日"
 
 #: MusicUtils.pas:966
 msgid " stars"
-msgstr " 星"
+msgstr " 評価"
 
 # SOME DESCRIPTIVE TITLE.
 #. tempo tag constant
@@ -8559,7 +8558,7 @@ msgstr "非常に速い"
 #. mood tag constant
 #: NewDBCreate.pas:1243
 msgid "Wild"
-msgstr "ワイルド"
+msgstr "激しい"
 
 #
 #. mood tag constant
@@ -8571,7 +8570,7 @@ msgstr "アップビート"
 #. mood tag constant
 #: NewDBCreate.pas:1245
 msgid "Mellow"
-msgstr "まろやか"
+msgstr "穏やか"
 
 #
 #. mood tag constant
@@ -8583,19 +8582,19 @@ msgstr "落ち着いた"
 #. mood tag constant
 #: NewDBCreate.pas:1247
 msgid "Morose"
-msgstr "不機嫌"
+msgstr "憂鬱"
 
 #
 #. mood tag constant
 #: NewDBCreate.pas:1248
 msgid "Comatose"
-msgstr "眠気"
+msgstr "無気力"
 
 #
 #. occasion tag constant
 #: NewDBCreate.pas:1249
 msgid "Background"
-msgstr "バックグラウンド"
+msgstr "BGM"
 
 #
 #. occasion tag constant
@@ -8613,7 +8612,7 @@ msgstr "パーティー"
 #. occasion tag constant
 #: NewDBCreate.pas:1253
 msgid "Rave"
-msgstr "乱痴気騒ぎ"
+msgstr "レイヴ"
 
 #
 #. occasion tag constant
@@ -8789,11 +8788,11 @@ msgstr "オーディオブック以外"
 
 #: QueryManage.pas:4381
 msgid "has Artwork"
-msgstr "アートワークがある"
+msgstr "アートワークあり"
 
 #: QueryManage.pas:4388
 msgid "has no Artwork"
-msgstr "アートワークがない"
+msgstr "アートワークなし"
 
 #: QueryManage.pas:4438
 msgid "Is synced to"
@@ -8921,16 +8920,16 @@ msgstr "最近使用されていない"
 
 #: QueryManage.pas:5058 QueryManage.pas:5066
 msgid "most often"
-msgstr "最も頻繁に使用されている"
+msgstr "使用頻度が高い"
 
 #: QueryManage.pas:5059 QueryManage.pas:5067
 msgid "least often"
-msgstr "最も使われていない"
+msgstr "使用頻度が低い"
 
 #: QueryManage.pas:5064 QueryManage.pas:5065
 #: dialogs\dlgTrackProperties\tabBasic.html:158
 msgid "Original date"
-msgstr "オリジナル日付"
+msgstr "元の日付"
 
 #: QueryManage.pas:8261 QueryManage.pas:8270
 msgid "Present"
@@ -8962,7 +8961,7 @@ msgstr "このキーは何度も使用されています"
 
 #: RegManage.pas:601
 msgid "License status"
-msgstr "ライセンスステータス"
+msgstr "ライセンス状態"
 
 #: RegManage.pas:713 RegManage.pas:741
 msgid "Please try again later."
@@ -9152,9 +9151,9 @@ msgid ""
 "example, browse your classical music collection independently of your other "
 "music. Collections can only be edited with the Gold version."
 msgstr ""
-"コレクションを使用すると、ライブラリのサブセットを定義して、例えば、クラシッ"
-"ク音楽コレクションを他の音楽とは独立して閲覧できるようにすることができます。"
-"コレクションはGoldバージョンでのみ編集できます。"
+"コレクションを使うと、ライブラリ内にサブセットを定義でき、たとえばクラシック"
+"音楽のコレクションを他の音楽とは独立して閲覧できます。 "
+"コレクションの編集はGoldバージョンでのみ可能です。"
 
 #: ResStrings.pas:579
 msgid "Information"
@@ -9501,7 +9500,7 @@ msgstr "今後: "
 
 #: dialogs\dlgAutoConvertRule.html:29
 msgid "To the following format:"
-msgstr "以下の形式へ:"
+msgstr "次の形式で:"
 
 #: dialogs\dlgPodcastSubscription.html:93
 msgid "most recent episodes"
@@ -9739,7 +9738,7 @@ msgstr "自動的に保持"
 
 #: dialogs\dlgOptions\pnl_General.html:22
 msgid "Allow just one instance of MediaMonkey"
-msgstr "MediaMonkeyのひとつのインスタンスのみを許可する"
+msgstr "MediaMonkeyをひとつのインスタンスのみ許可"
 
 #: dialogs\dlgOptions\pnl_General.html:25
 msgid "Shows the MediaMonkey icon in the system tray"
@@ -10029,7 +10028,7 @@ msgstr "再生中のトラックを last.fm に通知する"
 
 #: controls\searchEditor.html:14
 msgid "of the following criteria"
-msgstr "以下の基準のうち"
+msgstr "以下の条件"
 
 #: controls\deviceConfig\syncToDevice.html:22
 msgid "Unselected Library files"
@@ -10153,7 +10152,7 @@ msgstr "生成されるディレクトリとファイル名:"
 
 #: dialogs\dlgAutotag.html:20
 msgid "Allow compilations"
-msgstr "コンパイルを許可する"
+msgstr "コンピレーションを許可"
 
 #: dialogs\dlgMaintainLibrary.html:14
 msgid "Backup and Restore"
@@ -10269,7 +10268,7 @@ msgstr "確認"
 
 #: dialogs\dlgAutoConvertRule.html:22
 msgid "If any of the following conditions are true:"
-msgstr "次のいずれかの条件が当てはまる場合:"
+msgstr "以下の条件のいずれかが真の場合:"
 
 #: dialogs\dlgAutoConvertRule.html:44
 msgid "Quality profile"
@@ -10620,7 +10619,7 @@ msgstr ""
 
 #: dialogs\dlgTrackProperties\tabDetails.html:132
 msgid "Start time"
-msgstr "開始時間"
+msgstr "開始時刻"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:141
 msgid "Stop time"
@@ -10654,7 +10653,7 @@ msgstr "画像ファイル名"
 
 #: dialogs\dlgAutoConvertRule.html:11
 msgid "Convert the following content:"
-msgstr "以下のコンテンツを変換:"
+msgstr "次の内容を変換:"
 
 #: dialogs\dlgAutoorganize.html:11
 msgid "Copy files to new destination based on file tags"
@@ -10706,9 +10705,8 @@ msgstr "既定のダウンロード場所:"
 msgid ""
 "Allows you to choose MediaMonkey's language. Close and restart MediaMonkey "
 "for the change to take effect."
-msgstr ""
-"MediaMonkeyの言語を選択できます。変更を有効にするには、MediaMonkeyを閉じて再"
-"起動する必要があります。"
+msgstr "MediaMonkeyの言語を選択できます。変更を反映するには、MediaMonkeyを閉じて再起"
+"動する必要があります。"
 
 #: dialogs\dlgOptions\pnl_General.html:10
 msgid "Also checks for new beta builds."
@@ -10736,8 +10734,8 @@ msgstr "メディアツリーで有効にするノードを選択し、コレク
 msgid ""
 "Prefer faster metadata lookups when possible (instead of slower audio "
 "fingerprinting)"
-msgstr "可能な場合は高速なメタデータ照会を優先します（低速なオーディオフィンガープリ"
-"ント処理の代わりに）"
+msgstr "可能な場合は高速なメタデータ照会を優先（低速な音声フィンガープリントの代わり"
+"に）"
 
 #: dialogs\dlgOptions\pnl_Player.html:45
 msgid "Displays file information and associated artwork"
@@ -10859,8 +10857,7 @@ msgstr "この設定は、メニューバーを完全に非表示にします。
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:24
 msgid "Allows music to be lowered/paused for announcements during a party"
-msgstr ""
-"パーティー中のお知らせのために音楽を下げたり一時停止したりすることができます"
+msgstr "パーティー中のアナウンス時に音楽を減音または一時停止できるようにします"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:12
 msgid "Removes gaps introduced by some lossy encoders"
@@ -10872,7 +10869,7 @@ msgstr "リスト全体"
 
 #: dialogs\dlgOptions\pnl_Search.html:25
 msgid "Search the following fields via the Search bar:"
-msgstr "検索バーから次の項目を検索します:"
+msgstr "検索バーで次の項目を検索:"
 
 #: dialogs\dlgTrackProperties\tabArtwork.html:8
 msgid "Apply to all selected"
@@ -11288,7 +11285,7 @@ msgstr "ウィンドウを最小化"
 
 #: controls\clientConfig\content.html:3
 msgid "Share the following over the network"
-msgstr "ネットワーク経由で次の情報を共有する"
+msgstr "次の内容をネットワーク経由で共有"
 
 #: controls\deviceConfig\syncToDevice.html:5
 msgid "Hide unselected items"
@@ -12029,7 +12026,7 @@ msgstr "影響を受けるファイルの一覧を含む確認ダイアログを
 
 #: controls\deviceConfig\options\pnl_Tagging.html:10
 msgid "Remove artwork from tags if larger than:"
-msgstr "指定サイズより大きい場合、タグからアートワークを取り除く："
+msgstr "指定サイズより大きいアートワークをタグから取り除く:"
 
 #: controls\serverConfig\devices.html:2
 msgid ""
@@ -12113,7 +12110,7 @@ msgstr ""
 #: dialogs\dlgOptions\pnl_Library.html:174
 msgid ""
 "Generates thumbnails automatically for videos that don't have any artwork."
-msgstr "アートワークの無い動画のサムネイルを自動的に生成します。"
+msgstr "アートワークのない動画に自動でサムネイルを生成します。"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:50
 msgid "'Play now' action:"
@@ -12252,7 +12249,7 @@ msgstr "欠落している場合はアーティスト画像を検索します"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:9
 msgid "Looks up artwork if it's missing"
-msgstr "欠落している場合は、アートワークを検索します"
+msgstr "アートワークなしの場合に検索して取得"
 
 #: dialogs\dlgOptions\pnl_Streaming.html:25
 msgid "Cache remote content when streaming:"
@@ -12461,7 +12458,7 @@ msgstr "音量をフェードさせる"
 
 #: dialogs\dlgOptions\pnl_Appearance.html:43
 msgid "Rename custom fields (requires restart)"
-msgstr "カスタム項目の名前を変更する（再起動が必要）"
+msgstr "カスタム項目名を変更（再起動が必要）"
 
 #: dialogs\dlgOptions\pnl_AutoOrganize.html:2
 msgid "Set the default directory / filename format for specified files."
@@ -12624,7 +12621,7 @@ msgstr "遅い"
 
 # FLAC encoder level description
 msgid "Bigger number - more compression, slower"
-msgstr "大きい数値 - 高圧縮で遅い"
+msgstr "数値が大きいほど圧縮率が高く、処理が遅くなる"
 
 msgid "WMA settings"
 msgstr "WMA設定"
@@ -12975,7 +12972,7 @@ msgstr "%d個のファイルをインポートできませんでした"
 
 #: ErrHandlers.pas:388
 msgid "There was a problem ripping or verifying the following track(s):"
-msgstr "次のトラックのリッピングまたは検証中に問題が発生しました:"
+msgstr "次のトラックの取り込みまたは検証中に問題が発生しました:"
 
 #: MediaMonkeyApp.pas:6334
 msgid "Imported"
