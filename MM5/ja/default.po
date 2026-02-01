@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-26 13:26\n"
-"PO-Revision-Date: 2026-01-31 06:53+0000\n"
+"PO-Revision-Date: 2026-02-02 04:53+0000\n"
 "Last-Translator: Sato Kazuyuki <tmks@pc5.so-net.ne.jp>\n"
 "Language-Team: Japanese <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/ja/>\n"
@@ -100,7 +100,7 @@ msgstr "選択したファイルの評価"
 
 #: actions.js:64
 msgid "Rating now playing file"
-msgstr "再生中ファイルの評価"
+msgstr "評価（再生中のファイル）"
 
 #: actions.js:75 actions.js:83 uitools.js:2474
 msgid "Add bookmark"
@@ -108,7 +108,7 @@ msgstr "ブックマークに追加"
 
 #: actions.js:91
 msgid "Edit Collection"
-msgstr "コレクションの編集"
+msgstr "コレクションを編集"
 
 #: actions.js:96 dialogs/dlgOptions/pnl_MediaTree.js:225
 #: dialogs/dlgOptions/pnl_MediaTree.js:257
@@ -853,12 +853,12 @@ msgstr "貼り付け"
 #. #16261 - to be the first in the list after creation
 #: actions.js:2357 actions.js:2369
 msgid "New AutoPlay&list"
-msgstr "新しい自動プレイリスト(&L)"
+msgstr "新規自動プレイリスト(&L)"
 
 #. #16261 - to be the first in the list after creation
 #: actions.js:2379 actions.js:2391
 msgid "New pla&ylist"
-msgstr "新しいプレイリスト(&Y)"
+msgstr "新規プレイリスト(&Y)"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. navigationHandlers['playlist'].navigate(newplaylist); // navigation is intentionally disabled, so that user can D&D tracks from the current view to the new playlist (#12355)
@@ -885,7 +885,7 @@ msgstr "プロパティ(&P)"
 #. open edit properties dialog
 #: actions.js:2448
 msgid "Subscribe to new podcast"
-msgstr "新しいポッドキャストを購読"
+msgstr "新規ポッドキャストを購読"
 
 #: actions.js:2459 actions.js:2465 dialogs/dlgChooseFolders.js:21
 #: dialogs/dlgNetworkFolder.js:10
@@ -895,7 +895,7 @@ msgstr "フォルダーの追加"
 #: actions.js:2466
 msgid ""
 "If a network location isn't found automatically, you can add one manually."
-msgstr "ネットワークでの場所が自動的に見つからない場合、手動で追加できます。"
+msgstr "ネットワークの場所が自動的に見つからない場合は、手動で追加できます。"
 
 #: actions.js:2466 controls/trackListView.js:852 dialogs/dlgAutotag.js:2696
 #: dialogs/dlgDeletedTracks.js:103 dialogs/dlgMovedFiles.js:187
@@ -1671,14 +1671,14 @@ msgstr "特大"
 
 #: actions.js:5529 viewHandlers.js:3420 controls\playlistHeader.html:8
 msgid "Play normally"
-msgstr "通常の再生"
+msgstr "通常再生"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. adds shuffle menu commands to button context menu
 #: actions.js:5555 uitools.js:2341 viewHandlers.js:3357
 #: controls\playlistHeader.html:9
 msgid "Play shuffled"
-msgstr "シャッフルして再生"
+msgstr "シャッフル再生"
 
 #: actions.js:5587 uitools.js:2342 viewHandlers.js:3391
 msgid "Play shuffled (by Album)"
@@ -1832,7 +1832,7 @@ msgstr "ハードウェアアクセラレーションを有効にする"
 
 #: out_MMDS_configDlg.js:44 out_WASAPI_configDlg.js:86
 msgid "Fades in and out on Pause/Play"
-msgstr "一時停止/再生時にフェードイン/フェードアウト"
+msgstr "再生/一時停止時にフェード"
 
 #: out_MMDS_configDlg.js:44 out_WASAPI_configDlg.js:86
 msgid "Smooth pause"
@@ -1880,11 +1880,11 @@ msgstr "ビット"
 
 #: out_WASAPI_configDlg.js:14
 msgid "Automatic choice of format (per track)"
-msgstr "形式の自動選択（トラック毎）"
+msgstr "形式の自動選択（トラックごと）"
 
 #: out_WASAPI_configDlg.js:15
 msgid "Use format of original track"
-msgstr "オリジナルトラックの形式を使用"
+msgstr "元のトラックの形式を使用"
 
 #: out_WASAPI_configDlg.js:74
 msgid "Prevents audio from other applications"
@@ -1948,7 +1948,7 @@ msgstr "概要"
 #. to allow context menu
 #: templates.js:545
 msgid "Open Link in New Tab"
-msgstr "新しいタブでリンクを開く"
+msgstr "リンクを新しいタブで開く"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. for correct cleaning
@@ -2127,7 +2127,7 @@ msgstr "選択された場所を検索:"
 
 #: uitools.js:2881
 msgid "Please select at least one folder to scan."
-msgstr "スキャンするフォルダーを少なくとも1つ選択してください。"
+msgstr "スキャンするフォルダーを少なくとも 1 つ選択してください。"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. RS_Unknown
@@ -2482,7 +2482,7 @@ msgstr "ポッドキャストのディレクトリ"
 
 #: viewHandlers.js:4607
 msgid "Unplayed"
-msgstr "未プレイ"
+msgstr "未再生"
 
 #. 1500 ms (as 'commonChange' is called every 1000 ms during scan/edits)
 #. folder, library, playlist, nowplaying, device
@@ -2777,7 +2777,7 @@ msgstr "ファイルが削除されたか移動されています。"
 
 #: viewHandlers.js:7438 UPnPTreeHelper.pas:1910
 msgid "Files to Edit"
-msgstr "編集するファイル"
+msgstr "編集が必要な項目"
 
 #: viewHandlers.js:7615 dialogs/dlgMediaProperties.js:42
 msgid "Media Properties"
@@ -2858,7 +2858,7 @@ msgstr "更新をインストールしています"
 #: controls/albumlistView.js:125 controls/gridview.js:1184
 #: controls/videoGrid.js:83 QueryManage.pas:5076
 msgid "Sort order"
-msgstr "ソート順"
+msgstr "並び順"
 
 #: controls/albumlistView.js:129 controls/gridview.js:1188
 #: controls/videoGrid.js:87
@@ -2914,7 +2914,7 @@ msgstr "別の言語を選択"
 
 #: controls/albumViewHeader.js:228 controls/artistViewHeader.js:145
 msgid "Edit in Wikipedia"
-msgstr "ウィキペディアで編集"
+msgstr "Wikipediaで編集"
 
 #: controls/albumViewHeader.js:240
 msgid "Edit album in MusicBrainz"
@@ -3141,7 +3141,7 @@ msgstr ""
 #. reenabled, to detect corrupted/wrong image files
 #: controls/backgroundImage.js:131
 msgid "Animate background on playback"
-msgstr "再生時の背景をアニメーション化"
+msgstr "再生中に背景をアニメーション"
 
 #: controls/backgroundImage.js:145
 msgid "Cycle Artist images"
@@ -3236,7 +3236,7 @@ msgstr "すべてOK"
 
 #: controls/buttons.js:470
 msgid "Edit to All"
-msgstr "すべて編集"
+msgstr "すべてに適用"
 
 #: controls/buttons.js:475
 msgid "Ignore to All"
@@ -3411,7 +3411,7 @@ msgstr "TV ショー"
 
 #: controls/deviceContentSequencer.js:75
 msgid "unplayed TV Shows"
-msgstr "未再生の TV ショー"
+msgstr "未再生のテレビ番組"
 
 #: controls/deviceContentSequencer.js:78
 msgid "episodes"
@@ -3527,7 +3527,7 @@ msgstr "形式"
 #. #16568 - item 2
 #: controls/filterEditor.js:116 controls/playlistHeader.js:261
 msgid "Hide editor"
-msgstr "エディタを非表示"
+msgstr "エディタを隠す"
 
 #: controls/filterEditor.js:129 controls\equalizer.html:9
 msgid "Reset"
@@ -3600,9 +3600,8 @@ msgstr "サブディレクトリ"
 
 #: controls/maskEditWizard.js:75
 msgid "Subdirectories can be defined statically or using mask variables"
-msgstr ""
-"サブディレクトリは、静的に定義することも、マスク変数を使用して定義することも"
-"できます"
+msgstr "サブディレクトリは、固定的に指定することも、マスク変数を使って指定することも"
+"できます。"
 
 #: controls/maskEditWizard.js:78 dialogs\dlgOptions\pnl_Library.html:105
 msgid "Filenames"
@@ -3786,7 +3785,7 @@ msgstr "シークバー"
 
 #: controls/player.js:284 UpNp.pas:13256
 msgid "Internal player"
-msgstr "内部プレーヤー"
+msgstr "内部プレイヤー"
 
 #: controls/player.js:445
 msgid ""
@@ -3886,9 +3885,8 @@ msgstr "エピソード"
 
 #: controls/podcastHeader.js:176
 msgid "This podcast is unsubscribed. Edit the podcast URL to re-activate it."
-msgstr ""
-"このポッドキャストは登録解除されています。再アクティブ化するにはポッドキャス"
-"トURLを編集してください。"
+msgstr "このポッドキャストは購読解除されています。再度有効にするには、ポッドキャスト"
+"のURLを編集してください。"
 
 #: controls/podcastSubscribeTutorial.js:23
 msgid ""
@@ -3933,7 +3931,7 @@ msgstr "現在のビューを検索"
 #: controls/searchBar.js:477 controls/searchBar.js:503
 #: dialogs/dlgOptions/pnl_Search.js:56 dialogs/dlgOptions/pnl_Search.js:57
 msgid "Scrolls to match"
-msgstr "一致するところまでスクロール"
+msgstr "一致箇所へスクロール"
 
 #: controls/searchBar.js:477 dialogs/dlgOptions/pnl_Search.js:56
 msgid "primary sort field"
@@ -4467,7 +4465,7 @@ msgstr "%sのコンテンツをリモート再生する際に、次の形式を�
 #: controls/clientConfig/autoConvert.js:6
 #: controls/serverConfig/autoConvert.js:4
 msgid "Format on PC"
-msgstr "PC上の形式"
+msgstr "PC用の形式"
 
 #: controls/clientConfig/autoConvert.js:7
 #: controls/serverConfig/autoConvert.js:5
@@ -4529,7 +4527,7 @@ msgstr "ライブラリ内の形式"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:8
 msgid "Format on the target"
-msgstr "ターゲットの形式"
+msgstr "ターゲット側の形式"
 
 #: controls/deviceConfig/options/pnl_AutoConversion.js:10
 msgid "Level volume when syncing audio"
@@ -4817,7 +4815,7 @@ msgstr "メタデータ照会"
 
 #: dialogs/dlgAutotag.js:696 helpers/autoTagFramework.js:286
 msgid "Fail"
-msgstr "失敗しました"
+msgstr "失敗"
 
 #. Dialog was already presented
 #: dialogs/dlgAutotag.js:696 hpCDEBurner.pas:1503
@@ -4845,11 +4843,11 @@ msgstr "表示項目の選択"
 
 #: dialogs/dlgAutotag.js:2854
 msgid "track(s) matched"
-msgstr "トラックが一致しました"
+msgstr "一致したトラック"
 
 #: dialogs/dlgAutotag.js:2856
 msgid "track(s) failed"
-msgstr "トラックが失敗しました"
+msgstr "トラックの処理に失敗"
 
 #: dialogs/dlgAutotag.js:2882
 msgid "Conflict"
@@ -4897,7 +4895,7 @@ msgstr "常に表示"
 #: dialogs/dlgCollectionOptions.js:85 dialogs/dlgCollectionOptions.js:140
 #: dialogs/dlgOptions/pnl_MediaTree.js:20
 msgid "Visible if content exists"
-msgstr "コンテンツが存在する場合に表示"
+msgstr "内容がある場合に表示"
 
 #: dialogs/dlgCollectionOptions.js:316
 msgid "Select new icon"
@@ -5392,7 +5390,7 @@ msgstr "無制限"
 
 #: dialogs/dlgMultizone.js:6
 msgid "Configure multi-zone playback"
-msgstr "マルチゾーン再生の設定"
+msgstr "マルチゾーン再生を設定"
 
 #: dialogs/dlgNewVersion.js:6
 msgid "New version available"
@@ -5613,7 +5611,7 @@ msgstr "形式の設定"
 
 #: dialogs/dlgSupportedFormats.js:9
 msgid "Compatible media formats"
-msgstr "互換性のあるメディア形式"
+msgstr "互換メディア形式"
 
 #: dialogs/dlgSupportedFormats.js:23
 #: Scripts/syncToFolder/viewHandlers_add.js:33
@@ -5650,7 +5648,7 @@ msgstr "詳細"
 
 #: dialogs/dlgTrackProperties.js:190
 msgid "Edit Properties for multiple files"
-msgstr "複数ファイルのプロパティを編集"
+msgstr "複数項目のプロパティを編集"
 
 #. for group test decide based on the first selected track
 #. doesn't need to be anything async for single track ATM
@@ -5693,7 +5691,7 @@ msgstr "なし"
 
 #: dialogs/dlgOptions/pnl_AutoOrganize.js:12
 msgid "Automatically organize files (during scans or edits)"
-msgstr "スキャンまたは編集時にファイルを自動整理"
+msgstr "スキャンや編集時にファイルを自動整理"
 
 #: dialogs/dlgOptions/pnl_AutoOrganize.js:15
 msgid "For auto-organize functionality, please upgrade to MediaMonkey Gold!"
@@ -5778,9 +5776,8 @@ msgstr "プラグインがインストールされると、プラグインペイ
 msgid ""
 "For DSP Audio Effect plug-ins, you can also set the order in which the "
 "plugins process the audio using the up/down arrows."
-msgstr ""
-"DSPオーディオエフェクトプラグインの場合、上下矢印を使用してプラグインがオー"
-"ディオを処理する順序を設定することもできます。"
+msgstr "DSPオーディオエフェクト用プラグインでは、上下の矢印を使って音声を処理する順序"
+"を設定できます。"
 
 #: dialogs/dlgOptions/pnl_DSPModules.js:39
 msgid "Plug-in description"
@@ -5843,7 +5840,7 @@ msgstr "プレイヤーコントロールが見つかりません。"
 
 #: dialogs/dlgOptions/pnl_LayoutPlayer.js:30
 msgid "Player layout cannot be set."
-msgstr "プレイヤーレイアウトが設定できません。"
+msgstr "プレイヤーのレイアウトを設定できません。"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:12
 msgid "Preview control not found."
@@ -5851,7 +5848,7 @@ msgstr "プレビューコントロールが見つかりません。"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:24
 msgid "Preview layout cannot be set."
-msgstr "プレビューレイアウトが設定できません。"
+msgstr "プレビューのレイアウトを設定できません。"
 
 #: dialogs/dlgOptions/pnl_LayoutPreview.js:27
 msgid "This panel element displays details of the playing or selected file"
@@ -5933,7 +5930,7 @@ msgstr "表示"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:132
 msgid "Content to display"
-msgstr "表示するコンテンツ"
+msgstr "表示する内容"
 
 #: dialogs/dlgOptions/pnl_MediaTree.js:206
 msgid "This will delete the \"%s\" Collection."
@@ -6031,7 +6028,7 @@ msgstr "ダイアクリティックを無視する"
 
 #: dialogs/dlgOptions/pnl_Search.js:36
 msgid "Match beginning of words"
-msgstr "語頭の一致"
+msgstr "単語の先頭に一致"
 
 #: dialogs/dlgOptions/pnl_Search.js:36 dialogs/dlgOptions/pnl_Search.js:37
 msgid "faster"
@@ -6047,7 +6044,7 @@ msgstr "ダイアクリティックを尊重する"
 
 #: dialogs/dlgOptions/pnl_Search.js:38
 msgid "Match within words"
-msgstr "単語内で一致"
+msgstr "単語内に一致"
 
 #: dialogs/dlgOptions/pnl_Search.js:58
 msgid "Take no action"
@@ -6211,7 +6208,7 @@ msgstr "続行してもよろしいですか？"
 #: helpers/albumDataSource.js:120
 #: Scripts/musicBrainz/helpers/musicBrainz.js:679
 msgid "Don't display info"
-msgstr "情報を表示しない"
+msgstr "オンライン情報を表示しない"
 
 #: helpers/artistDataSource.js:18
 msgid "artist info"
@@ -6333,7 +6330,7 @@ msgstr "接続済み"
 
 #: helpers/mediaSync.js:819 dblistutils.pas:1640
 msgid "Disconnected"
-msgstr "接続解除済み"
+msgstr "切断"
 
 #. return track.id.toString(); // we used MMW's track id in MMA, but now seems better to unify this with cloud storages and use targetPath as the identificator
 #: helpers/mediaSync.js:958
@@ -6477,7 +6474,7 @@ msgstr "コピーしています"
 
 #: helpers/mediaSync.js:3638
 msgid "Matching"
-msgstr "マッチング"
+msgstr "一致"
 
 #. waiting for file conversion
 #: helpers/mediaSync.js:3704
@@ -6675,7 +6672,7 @@ msgstr "統計"
 #: Scripts/statistics/actions_add.js:9
 #: Scripts/statistics/dialogs/dlgStatistics.js:93
 msgid "MediaMonkey Library Statistics"
-msgstr "MediaMonkeyライブラリ統計"
+msgstr "MediaMonkeyライブラリの統計"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:171
 msgid "Totals"
@@ -6685,7 +6682,7 @@ msgstr "合計"
 #: Scripts/statistics/dialogs/dlgStatistics.js:323 QueryManage.pas:5056
 #: QueryManage.pas:5057 QueryManage.pas:5058 QueryManage.pas:5059
 msgid "Played"
-msgstr "再生曲"
+msgstr "再生済み"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:180
 #: Scripts/statistics/dialogs/dlgStatistics.js:333
@@ -6723,7 +6720,7 @@ msgstr "ビットレート(kbps)"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:330
 msgid "Tracks played per day"
-msgstr "１ 日あたりの再生トラック数"
+msgstr "1日あたりの再生トラック数"
 
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:340
@@ -6733,7 +6730,7 @@ msgstr "アーティスト トップ %d"
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:373
 msgid "Top %d Artists played"
-msgstr "再生したアーティスト トップ %d"
+msgstr "再生回数上位%d名のアーティスト"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:402
@@ -6743,7 +6740,7 @@ msgstr "アルバム トップ %d"
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:433
 msgid "Top %d Albums played"
-msgstr "再生したアルバム トップ %d"
+msgstr "再生回数上位%d枚のアルバム"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:463
@@ -6753,7 +6750,7 @@ msgstr "ジャンル トップ %d"
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:490
 msgid "Top %d Genres played"
-msgstr "再生したジャンル トップ %d"
+msgstr "再生回数上位%d種類のジャンル"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:516
@@ -6763,13 +6760,13 @@ msgstr "評価"
 #. rating played
 #: Scripts/statistics/dialogs/dlgStatistics.js:562
 msgid "Ratings played"
-msgstr "再生中の曲の評価"
+msgstr "評価別の再生回数"
 
 #. disable auto sizing mechanism, we have fixed size
 #: Scripts/statistics/dialogs/dlgStatistics.js:600
 #: Scripts/statistics/dialogs/dlgStatistics.js:615
 msgid "MediaMonkey Music Library Statistics"
-msgstr "MediaMonkey 音楽ライブラリの統計"
+msgstr "MediaMonkeyミュージックライブラリの統計"
 
 #: Scripts/swapArtistTitle/actions_add.js:4
 #: Scripts/swapArtistTitle/actions_add.js:18
@@ -6912,7 +6909,7 @@ msgstr "FreeDBクエリのメディアは利用できません。"
 
 #: CDDBUtils.pas:1926
 msgid "Please select an Audio CD before requesting information from Freedb."
-msgstr "FreeDBから情報をリクエストする前に、オーディオCDを選択してください。"
+msgstr "Freedbに問い合わせる前に、オーディオCDを選択してください。。"
 
 #: CDDBUtils.pas:1943
 msgid "Requesting information for %s (%d of %d)"
@@ -7201,9 +7198,8 @@ msgstr "不明な品質"
 msgid ""
 "Your Library is being upgraded to the latest version. It can take up to "
 "several minutes..."
-msgstr ""
-"ライブラリを最新バージョンにアップグレードしています。最大数分かかることがあ"
-"ります..."
+msgstr "ライブラリを最新バージョンにアップグレードしています。完了まで数分かかる場合"
+"があります…"
 
 #: DBStructure.pas:276
 msgid "Updating to database version %d.%d.%d"
@@ -7386,9 +7382,8 @@ msgstr "結果"
 msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
-msgstr ""
-"ひとつ以上のトラックがリッピングまたはベリファイできませんでした。再試行した"
-"いトラックを選んでください:"
+msgstr "1つ以上のトラックをリッピングまたは検証できませんでした。再試行するトラックを"
+"選択してください:"
 
 #: ErrHandlers.pas:389
 msgid ""
@@ -7529,7 +7524,7 @@ msgstr "デバイスを同期"
 
 #: FileAssoc.pas:782
 msgid "Play Audio CD"
-msgstr "オーディオCDの再生"
+msgstr "オーディオCDを再生"
 
 #: FileAssoc.pas:783
 msgid "Burn CD/DVD/BD"
@@ -7561,9 +7556,8 @@ msgstr "MediaMonkeyでDVDを再生"
 msgid ""
 "MediaMonkey is all-in-one audio jukebox application that can organize your "
 "digital music collection."
-msgstr ""
-"MediaMonkeyは、デジタルミュージックコレクションを整理できるオールインワンオー"
-"ディオジュークボックスアプリケーションです。"
+msgstr "MediaMonkeyは、デジタル音楽コレクションを整理できるオールインワンのオーディオ"
+"ジュークボックスアプリケーションです。"
 
 #: FileAssoc.pas:1214
 msgid "MediaMonkey Addon file"
@@ -7659,7 +7653,7 @@ msgstr "最大ビットレート"
 
 #: FormatsHandler.pas:3402 FormatsHandler.pas:3642 MediaMonkeyApp.pas:7737
 msgid "MediaMonkey is unable to encode this format."
-msgstr "MediaMonkeyはこの形式のエンコードはできません。"
+msgstr "MediaMonkeyはこの形式をエンコードできません。"
 
 #. DRM
 #. accessible without error and does not play, was probably already stopped, exit, it could lead to error #17661 otherwise
@@ -7774,7 +7768,7 @@ msgstr "%dから%dの間"
 
 #: FormatsManage.pas:4553 FormatsManage.pas:4557
 msgid "bits per sample"
-msgstr "サンプルあたりのビット数"
+msgstr "ビット深度"
 
 #. video stream
 #: FormatsManage.pas:4564 FormatsManage.pas:5119
@@ -7788,7 +7782,7 @@ msgstr "%.3f以上"
 
 #: FormatsManage.pas:4592
 msgid "Between %.3f and %.3f"
-msgstr "%.3fから%.3fまでの間"
+msgstr "%.3f～%.3fの間"
 
 #. width
 #: FormatsManage.pas:4596
@@ -7807,7 +7801,7 @@ msgstr "H: "
 
 #: FormatsManage.pas:5113 FormatsManage.pas:5131 FormatsManage.pas:5144
 msgid "above"
-msgstr "上へ"
+msgstr "以上"
 
 #. using checkMedia removed, #18091
 #: FullPlayer.pas:2385
@@ -7965,7 +7959,7 @@ msgstr "メディアの停止"
 
 #: Hotkeys.pas:750
 msgid "Media Play/Pause"
-msgstr "メディアの再生/一時停止"
+msgstr "再生／一時停止"
 
 #: Hotkeys.pas:751
 msgid "Launch Mail"
@@ -8031,15 +8025,14 @@ msgstr "消去中"
 
 #: hpCDEBurner.pas:983
 msgid "Waiting for a new disc"
-msgstr "新規ディスクの挿入待ち"
+msgstr "新しいディスクを待機中"
 
 #. Check for termination, but give a warning:
 #: hpCDEBurner.pas:1005
 msgid ""
 "Terminating a Disc burn will create an unreadable disc. Are you sure you "
 "want to proceed?"
-msgstr ""
-"ディスク書き込みを終了すると、読み取れないディスクが作成されます。続行しても"
+msgstr "ディスクの書き込みを中止すると、読み取り不能なディスクになります。続行しても"
 "よろしいですか？"
 
 #: hpCDEBurner.pas:1181
@@ -8061,7 +8054,7 @@ msgstr "ディスク%sの書き込みに失敗しました"
 #. TODOWIN8
 #: hpCDEBurner.pas:1476
 msgid "Re-burn disc"
-msgstr "ディスクの再作成"
+msgstr "ディスクを書き直す"
 
 #: hpCDEBurner.pas:1483
 msgid "Burn disc %d"
@@ -8073,7 +8066,7 @@ msgstr "別のコピーを作成"
 
 #: hpCDEBurner.pas:1497
 msgid "Could not set the required speed"
-msgstr "必要な速度を設定できませんでした"
+msgstr "要求された速度を設定できませんでした。"
 
 #: hpCDEBurner.pas:1500
 msgid "Burn error"
@@ -8095,8 +8088,8 @@ msgstr "ネットワークからファイルをキャッシュ中"
 msgid ""
 "Burn operation failed! Some of the tracks are protected by Digital Rights "
 "Management, preventing the disc from being burnt."
-msgstr "書き込みに失敗しました。一部のトラックは "
-"DRM（著作権保護）により、ディスクへの書き込みが許可されていません。"
+msgstr "書き込みに失敗しました。一部のトラックはDRM（著作権保護）により、ディスクへの"
+"書き込みが許可されていません。"
 
 #: HTMLWindow.pas:10935
 msgid "Alert"
@@ -8109,8 +8102,7 @@ msgid ""
 "Taskbar, click 'Toolbars' and enable 'MediaMonkey Player'."
 msgstr ""
 "マイクロプレイヤーはまだ有効になっていません。有効にするには、タスクバーを右"
-"クリックし、「ツールバー」から「MediaMonkey "
-"プレイヤー」を有効にしてください。"
+"クリックし、「ツールバー」から「MediaMonkeyプレイヤー」を有効にしてください。"
 
 #: Importers.pas:232
 msgid ""
@@ -8158,7 +8150,7 @@ msgstr "トラック番号の更新中"
 
 #: M3Umanage.pas:616
 msgid "Processing playlists"
-msgstr "プレイリストの処理中"
+msgstr "プレイリストを処理しています"
 
 #: MaskHelper.pas:3132 ResStrings.pas:536
 msgid "Auto Number"
@@ -8214,7 +8206,7 @@ msgstr "トラック#"
 
 #: MaskHelper.pas:3881
 msgid "Disc#"
-msgstr "ディスク#"
+msgstr "ディスク番号"
 
 #: MaskHelper.pas:3894
 msgid "Episode#"
@@ -8666,29 +8658,29 @@ msgstr "アクセス可能なトラック"
 #. default auto-playlist name
 #: NewDBCreate.pas:1273
 msgid "Top rated (6 hrs)"
-msgstr "最高評価（６時間）"
+msgstr "高評価の曲（6時間）"
 
 #
 #. default auto-playlist name
 #: NewDBCreate.pas:1281
 msgid "Most played (50)"
-msgstr "再生回数最多（50回）"
+msgstr "再生回数が多い曲（50）"
 
 #
 #. default auto-playlist name
 #: NewDBCreate.pas:1288
 msgid "Unrated (1GB)"
-msgstr "未評価（1GB）"
+msgstr "未評価の曲（1GB）"
 
 #
 #. default auto-playlist name
 #: NewDBCreate.pas:1296
 msgid "Recently added (1GB)"
-msgstr "最近追加された（1GB）"
+msgstr "最近追加された曲（1GB）"
 
 #: Normalization.pas:362
 msgid "Generating thumbnail $act$ of $tot$ ($name$)"
-msgstr "$act$/$tot$ ($name$)のサムネイルを作成しています"
+msgstr "サムネイルを生成中：$tot$中$act$（$name$）"
 
 #: Normalization.pas:452
 msgid "Saving tags"
@@ -8760,11 +8752,11 @@ msgstr "Virtual CD に入っています"
 
 #: QueryManage.pas:4332
 msgid "has preview"
-msgstr "プレビューがある"
+msgstr "プレビューあり"
 
 #: QueryManage.pas:4339
 msgid "is podcast"
-msgstr "ポッドキャストである"
+msgstr "ポッドキャスト"
 
 #: QueryManage.pas:4346
 msgid "is not podcast"
@@ -8852,7 +8844,7 @@ msgstr "ローカル"
 #. Create 'any field' condition
 #: QueryManage.pas:4895
 msgid "Any text"
-msgstr "任意のテキスト"
+msgstr "任意のフィールド"
 
 #: QueryManage.pas:4927
 msgid "Album Rating"
@@ -8860,7 +8852,7 @@ msgstr "アルバムの評価"
 
 #: QueryManage.pas:4932
 msgid "# Tracks by Artist"
-msgstr "アーティスト別トラック数"
+msgstr "アーティストごとの曲数"
 
 #: QueryManage.pas:4933
 msgid "# Tracks in Album"
@@ -8868,7 +8860,7 @@ msgstr "アルバムのトラック数"
 
 #: QueryManage.pas:4934
 msgid "# Albums by Artist"
-msgstr "アーティスト別アルバム数"
+msgstr "アーティストごとのアルバム数"
 
 #: QueryManage.pas:4937
 msgid "Artist Comment"
@@ -8937,7 +8929,7 @@ msgstr "現在"
 
 #: RegManage.pas:551
 msgid "Activate your Gold license to complete registration."
-msgstr "ゴールドライセンスをアクティベートして登録を完了してください。"
+msgstr "登録を完了するには、Goldライセンスを有効化してください。"
 
 #: RegManage.pas:590
 msgid "Contact support"
@@ -8947,9 +8939,8 @@ msgstr "サポートに連絡"
 msgid ""
 "Your license information is incorrect. Please cut and paste the registration "
 "information to avoid any errors."
-msgstr ""
-"ライセンス情報が正しくありません。登録情報をカット＆ペーストして、エラーが発"
-"生しないようにしてください。"
+msgstr "ライセンス情報が正しくありません。誤りを防ぐため、登録情報はコピー＆ペースト"
+"で入力してください。"
 
 #: RegManage.pas:597
 msgid "Activation failed"
@@ -8957,7 +8948,7 @@ msgstr "アクティベーションに失敗しました"
 
 #: RegManage.pas:598
 msgid "The key has been used too many times"
-msgstr "このキーは何度も使用されています"
+msgstr "このキーは使用回数が上限に達しています。"
 
 #: RegManage.pas:601
 msgid "License status"
@@ -8969,8 +8960,7 @@ msgstr "後でもう一度お試しください。"
 
 #: RegManage.pas:723
 msgid "Registration succeeded! Thank you for purchasing MediaMonkey Gold!"
-msgstr ""
-"登録に成功しました！ MediaMonkey Goldをご購入いただきありがとうございます！"
+msgstr "登録に成功しました！ MediaMonkey Goldをご購入いただき、ありがとうございます！"
 
 #: RegManage.pas:834
 msgid ""
@@ -8991,11 +8981,11 @@ msgstr "警告"
 
 #: ResStrings.pas:376
 msgid "Progress"
-msgstr "進捗状況"
+msgstr "進行状況"
 
 #: ResStrings.pas:378
 msgid "Approx. bitrate"
-msgstr "近似ビットレート"
+msgstr "概算ビットレート"
 
 #: ResStrings.pas:379
 msgid "Average bitrate"
@@ -9003,11 +8993,11 @@ msgstr "平均ビットレート"
 
 #: ResStrings.pas:381
 msgid "Minimal bitrate"
-msgstr "ビットレート下限"
+msgstr "最小ビットレート"
 
 #: ResStrings.pas:382
 msgid "Maximal bitrate"
-msgstr "ビットレート上限"
+msgstr "最大ビットレート"
 
 #: ResStrings.pas:383
 msgid "Constant bitrate"
@@ -9165,11 +9155,11 @@ msgstr "言語"
 
 #: ResStrings.pas:705
 msgid "recent episodes first"
-msgstr "新しいエピソードを先に"
+msgstr "最新エピソードを先頭に"
 
 #: ResStrings.pas:706
 msgid "older episodes first"
-msgstr "古いエピソードを先に"
+msgstr "古いエピソードを先頭に"
 
 #: ResStrings.pas:707
 msgid "all episodes"
@@ -9201,15 +9191,15 @@ msgstr "過去 2 週間から"
 
 #: ResStrings.pas:723
 msgid "from the past month"
-msgstr "過去 1 か月間から"
+msgstr "過去1ヶ月間から"
 
 #: ResStrings.pas:728
 msgid "1 unplayed episode"
-msgstr "１つの未プレイのエピソード"
+msgstr "未再生のエピソード1件"
 
 #: ResStrings.pas:729 ResStrings.pas:730 ResStrings.pas:731 ResStrings.pas:732
 msgid "%d unplayed episodes"
-msgstr "%d件の未プレイのエピソード"
+msgstr "未再生のエピソード%d件"
 
 #: ResStrings.pas:868
 msgid "Co&ntinue"
@@ -9227,13 +9217,12 @@ msgstr "トレイを開く(&O)"
 msgid ""
 "The inserted disc cannot be written on unless it is first erased. Do you "
 "want to erase it before it is burned?"
-msgstr ""
-"挿入されたディスクを最初に消去しない限り、書き込むことはできません。書き込む"
-"前に消去しますか？"
+msgstr "挿入されたディスクは、先に消去しないと書き込めません。書き込む前に消去します"
+"か？"
 
 #: ResStrings.pas:873
 msgid "Please insert a disc to be burned..."
-msgstr "書き込むディスクを挿入してください..."
+msgstr "書き込み用のディスクを挿入してください…"
 
 #: ResStrings.pas:876
 msgid "Error erasing the CDRW."
@@ -9249,7 +9238,7 @@ msgstr "レイアウトを設定できませんでした。"
 
 #: ResStrings.pas:881
 msgid "Re-burn this disc?"
-msgstr "このディスクを再度書き込みますか？"
+msgstr "このディスクを再書き込みしますか？"
 
 #: ResStrings.pas:882
 msgid "Could not write the image layout to the disc."
@@ -9413,7 +9402,7 @@ msgstr "モデルの説明"
 
 #: UpNp.pas:11443
 msgid "The link/URL has not been entered in a valid format"
-msgstr "リンク/URLが有効な形式で入力されていません"
+msgstr "リンク／URLが正しい形式で入力されていません"
 
 #. try again after 1 second as in some environments the router re-configuration (OpenPort) makes temporal issues
 #: UpNp.pas:11466
@@ -9535,7 +9524,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:22
 msgid "Applies the changes made to an existing Hotkey entry"
-msgstr "既存のホットキーエントリに行った変更を適用します"
+msgstr "既存のホットキー項目に加えた変更を適用します"
 
 #: dialogs\dlgOptions\pnl_Library.html:147
 msgid ".nfo files"
@@ -9626,9 +9615,7 @@ msgstr "リッピング方式"
 #: dialogs\dlgPodcastSubscription.html:61
 msgid ""
 "Defines how many new episodes are downloaded if new episodes are detected"
-msgstr ""
-"新しいエピソードが検出された場合にダウンロードされる新しいエピソードの数を定"
-"義します"
+msgstr "新しいエピソード検出時のダウンロード数"
 
 #: dialogs\dlgSupportedFormat.html:26
 msgid "Audio format"
@@ -9677,7 +9664,7 @@ msgstr "既定の「今すぐ再生」動作"
 
 #: dialogs\dlgOptions\pnl_Player.html:46
 msgid "Indicates how long the Pop-up should display"
-msgstr "ポップアップの表示時間を指定します"
+msgstr "ポップアップを表示する時間を指定します"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:15
 msgid "ID3v1 and v2.4 tags"
@@ -9703,7 +9690,7 @@ msgstr "最大解像度"
 
 #: controls\serverConfig\devices.html:4
 msgid "Share automatically with all new devices"
-msgstr "すべての新規デバイスで自動的に共有化"
+msgstr "新しいデバイスと自動的に共有"
 
 #: dialogs\dlgAddonInstall.html:50
 msgid "Malicious software can damage your computer or violate your privacy."
@@ -9910,7 +9897,7 @@ msgstr "次のサイズ未満のファイルを無視"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:35
 msgid "When playback is stopped:"
-msgstr "再生が停止している場合:"
+msgstr "再生が停止しているとき:"
 
 #: dialogs\dlgOptions\pnl_Player.html:91
 msgid "Horizontal"
@@ -10179,8 +10166,9 @@ msgid ""
 "This specifies a single character used to enter multiple values within a "
 "field (e.g. Rock;Folk). Spaces determine how the character is displayed."
 msgstr ""
-"項目内に複数の値を入力するために使用される単一の文字を指定します（例：Rock;"
-"Folk）。スペースは文字の表示方法を決定します。"
+"フィールド内で複数の値を入力するために使用する 1 "
+"文字を指定します（例：Rock;Folk）。空白の有無によって、その文字の表示方法が変"
+"わります。"
 
 #: dialogs\dlgOptions\pnl_AutoDJ.html:46
 msgid "previous files in 'Playing' list"
@@ -10260,7 +10248,7 @@ msgstr " "
 
 #: controls\deviceConfig\options\pnl_Tagging.html:28
 msgid "Use only the first Genre when multiple Genres exist"
-msgstr "複数のジャンルが存在する場合、最初のジャンルのみを使用"
+msgstr "複数のジャンルがある場合は最初のジャンルのみ使用"
 
 #: controls\serverConfig\server.html:14
 msgid "Check"
@@ -10314,16 +10302,15 @@ msgstr "設定..."
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:5
 msgid "Edit hotkey"
-msgstr "ホットキー編集"
+msgstr "ホットキーを編集"
 
 #: dialogs\dlgOptions\pnl_Hotkeys.html:1
 msgid ""
 "Hotkeys let you define keyboard shortcuts to accomplish various actions. "
 "Select [New Hotkey] to create a new shortcut."
 msgstr ""
-"ホットキーを使用すると、さまざまな動作を実行するためのキーボードショートカッ"
-"トを定義できます。「新規ホットキー」を選択して、新しいショートカットを作成し"
-"ます。"
+"ホットキーを使うと、さまざまな操作に対してキーボードショートカットを設定でき"
+"ます。「新規ホットキー」を選択して、新しいショートカットを作成してください。"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:13
 msgid "Looks up lyrics if they're missing"
@@ -10444,7 +10431,7 @@ msgstr "ライブラリを効率的に整理するための高度な管理ツー
 
 #: controls\deviceConfig\syncFromDevice.html:3
 msgid "Auto-sync playlists and new files from the device to the PC"
-msgstr "デバイス上のプレイリストと新規ファイルをPCに自動同期する"
+msgstr "デバイスから PCへプレイリストと新しいファイルを自動同期"
 
 #: dialogs\dlgAddonInstall.html:48
 msgid "I accept the terms in the license agreement"
@@ -10597,7 +10584,7 @@ msgstr "ダイアログとコントロールの再配置を無効にする"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:48
 msgid "Choose how the 'Track summary' field displays for each content Type"
-msgstr "各コンテンツタイプの「トラックの概要」項目の表示方法を選択します"
+msgstr "「トラックの概要」項目の表示方法を選択"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:6
 msgid "Ignore Shuffle"
@@ -10765,7 +10752,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:55
 msgid "Create playlists of tracks newly added to the library"
-msgstr "ライブラリに新規追加されたトラックのプレイリストを作成"
+msgstr "ライブラリに新しく追加されたトラックでプレイリストを作成"
 
 #: dialogs\dlgTrackProperties\tabBasic.html:127
 msgid "Producer(s)"
@@ -10893,7 +10880,7 @@ msgstr "ジッター補正読み込み"
 
 #: dialogs\dlgErrorLog.html:14
 msgid "Warning will disappear in:"
-msgstr "警告を消す秒数:"
+msgstr "警告が消えるまでの時間:"
 
 #: dialogs\dlgMovedFiles.html:24
 msgid "Update selected files in the database"
@@ -10937,7 +10924,7 @@ msgstr "プロキシサーバーを使用する"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:17
 msgid "Show AutoPlay actions for:"
-msgstr "自動再生動作を表示:"
+msgstr "自動再生アクションの表示対象:"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:24
 msgid "DVD video playback"
@@ -11148,7 +11135,7 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:21
 msgid "Audio CD playback"
-msgstr "オーディオCDの再生"
+msgstr "オーディオCD再生"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:15
 msgid "This prevents users from exiting MediaMonkey by switching applications."
@@ -11160,7 +11147,7 @@ msgstr "メニューバーを非表示"
 
 #: dialogs\dlgOptions\pnl_PartyMode.html:25
 msgid "Enable volume, play/pause controls"
-msgstr "音量、再生/一時停止コントロールを有効にする"
+msgstr "再生操作（音量・再生／一時停止）を有効にする"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:66
 msgid "Only analyze files with unknown Leveling Adjustment"
@@ -11240,9 +11227,7 @@ msgstr "常にトレイ アイコンを表示"
 #: dialogs\dlgOptions\pnl_Layouts.html:12
 msgid ""
 "Drag available elements to a panel to be displayed, or to re-order them."
-msgstr ""
-"使用可能な要素をパネルに表示するか、それらの順序を変更するためにドラッグしま"
-"す。"
+msgstr "利用可能な要素をパネルにドラッグして表示したり、並び順を変更したりできます。"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:7
 msgid "Artist images"
@@ -11301,11 +11286,11 @@ msgstr "プレイリストの整理方法:"
 
 #: controls\deviceConfig\options\pnl_Tagging.html:29
 msgid "Use only the first value when multiple Artists / Composers exist"
-msgstr "複数のアーティスト/作曲家が存在する場合は、最初の値のみを使用"
+msgstr "複数のアーティスト／作曲者がある場合は最初の値のみ使用"
 
 #: dialogs\dlgAddArtwork.html:39
 msgid "Replace existing image"
-msgstr "既存の画像を置き換える"
+msgstr "既存の画像を置き換え"
 
 #: dialogs\dlgCollectionOptions.html:29
 msgid "Visibility"
@@ -11333,7 +11318,7 @@ msgstr "スキャン結果ダイアログを表示"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:96
 msgid "Replace existing information if confidence > "
-msgstr "既存情報を上書きする信頼度 > "
+msgstr "信頼度が〜を超える場合は既存情報を置き換え "
 
 #: dialogs\dlgOptions\pnl_Performance.html:30
 msgid "Lowest"
@@ -11353,7 +11338,7 @@ msgstr "レンダラー名:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:87
 msgid "Format for multiple images:"
-msgstr "マルチ画像の形式:"
+msgstr "複数画像の形式:"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:65
 msgid "This sets the default location where associated artwork is stored."
@@ -11394,7 +11379,7 @@ msgstr "今すぐスキャン"
 
 #: dialogs\dlgSleep.html:10
 msgid "Play audio for"
-msgstr "音楽再生時間"
+msgstr "音声を再生する時間"
 
 #: dialogs\dlgSpeedPitch.html:36
 msgid "Semitones"
@@ -11626,7 +11611,7 @@ msgstr "プレイヤー操作"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:36
 msgid "Increase play counter at:"
-msgstr "再生回数を増やす:"
+msgstr "再生回数として認める再生割合:"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:27
 msgid "Sets the size of the gap or overlap between tracks"
@@ -11634,7 +11619,7 @@ msgstr "トラック間のギャップまたはオーバーラップのサイズ
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:43
 msgid "Use Unicode (UTF-8 encoding) for M3U playlists"
-msgstr "M3Uプレイリストに Unicode（UTF-8）を使用"
+msgstr "M3UプレイリストにUnicode（UTF-8）を使用"
 
 #: dialogs\dlgOptions\pnl_VolumeLeveling.html:7
 msgid "Level playback / sync volume:"
@@ -11680,7 +11665,7 @@ msgstr "ユーザー名"
 
 #: dialogs\dlgNewVersion.html:8
 msgid "There is a new version of MediaMonkey available."
-msgstr "新しいバージョンのMediaMonkeyがあります。"
+msgstr "MediaMonkeyの新しいバージョンが利用可能です。"
 
 #: dialogs\dlgNewVersion.html:19
 msgid "Description of the new version:"
@@ -11837,9 +11822,8 @@ msgstr "指揮者"
 msgid ""
 "MediaMonkey is free, however, you can upgrade to MediaMonkey Gold to get "
 "additional features:"
-msgstr ""
-"MediaMonkeyは無料ですが、MediaMonkey Goldにアップグレードして追加機能を入手で"
-"きます:"
+msgstr "MediaMonkeyは無料で利用できますが、MediaMonkey "
+"Goldにアップグレードすると追加機能が利用できます:"
 
 #: controls\windowtitle.html:18
 msgid "Close window"
@@ -11926,7 +11910,7 @@ msgstr "ディスクを挿入したときに提示される動作を指定しま
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:49
 msgid "'Track summary' format (e.g. in Player, Tracklist):"
-msgstr "「トラック概要」形式（プレーヤーやトラックリストで使用）:"
+msgstr "「トラックの概要」形式（プレーヤーやトラックリストで使用）:"
 
 #: dialogs\dlgOptions\pnl_Player.html:61
 msgid "Transparency"
@@ -12241,7 +12225,7 @@ msgstr "インターフェースの言語:"
 
 #: dialogs\dlgOptions\pnl_General.html:16
 msgid "Submit anonymous usage statistics to help improve the software"
-msgstr "ソフトウェアの改善に役立つ匿名の使用統計情報を送信する"
+msgstr "ソフトウェア改善のために匿名の使用統計を送信する"
 
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:6
 msgid "Looks up artist image if it's missing"
@@ -12345,7 +12329,7 @@ msgstr "アンダースコアを取り除く"
 
 #: dialogs\dlgCollectionOptions.html:21
 msgid "Collection comment"
-msgstr "コレクションコメント"
+msgstr "コレクションのコメント"
 
 #: dialogs\dlgConvertFormat.html:46
 msgid "Add converted files to the library"
@@ -12405,7 +12389,7 @@ msgstr "非アクティブ時のみ"
 
 #: dialogs\dlgOptions\pnl_Player.html:51
 msgid "Causes the Pop-up to fade-out smoothly"
-msgstr "ポップアップをスムーズにフェードアウトさせます"
+msgstr "ポップアップをスムーズにフェードアウト"
 
 #: dialogs\dlgOptions\pnl_TagsAndPlaylists.html:34
 msgid "Modify timestamp when updating tags"
@@ -12413,7 +12397,7 @@ msgstr "タグ更新時にタイムスタンプを変更する"
 
 #: dialogs\dlgTrackProperties\tabDetails.html:216
 msgid "Last played"
-msgstr "最終再生"
+msgstr "最後に再生した日時"
 
 #: dialogs\dlgWizard\pnlRegistration.html:9
 msgid "organize files automatically"
@@ -12442,7 +12426,7 @@ msgstr "信頼できる提供元からのソフトウェアだけをインスト
 
 #: dialogs\dlgAutoConvertRule.html:18
 msgid "When the format is"
-msgstr "形式が以下の時:"
+msgstr "形式が次の場合:"
 
 #: dialogs\dlgChooseFields.html:10
 msgid "File type"
@@ -12640,11 +12624,10 @@ msgid "QuickTime"
 msgstr "QuickTime"
 
 msgid "Quicktime is needed to play M4A and other AAC tracks."
-msgstr "M4Aやその他のAACトラックを再生するには、Quicktimeが必要です。"
+msgstr "M4AなどのAACトラックを再生するにはQuickTime が必要です。"
 
 msgid "New version of Quicktime is needed to play M4A and other AAC tracks."
-msgstr ""
-"M4Aおよび他のAAC形式ファイルの再生には新しいバージョンのQuickTimeが必要です。"
+msgstr "M4AなどのAACトラックを再生するには、新しいバージョンのQuickTimeが必要です。"
 
 msgid "Do you want to download it?"
 msgstr "ダウンロードしますか？"
@@ -12877,7 +12860,7 @@ msgstr "クロスフェードを無効にする"
 # string till 5.0.2 version only
 #: out_MMDS_configDlg.js:50 out_WASAPI_configDlg.js:93
 msgid "Fade in new track"
-msgstr "新しいトラックでフェードイン"
+msgstr "新しいトラックをフェードイン"
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:7
 msgid "Disables crossfading for files of the selected type."
@@ -12893,7 +12876,7 @@ msgstr "ソースを設定"
 
 #: actions.js:3159
 msgid "Play mixed"
-msgstr "ミックスして再生"
+msgstr "メディアのシャッフル再生"
 
 #: actions.js:3174 actions.js:3189 actions.js:3192 actions.js:3207
 #: actions.js:3210 MediaMonkeyApp.pas:9057
@@ -12929,7 +12912,7 @@ msgstr "MediaMonkeyで最後に再生"
 
 #: dialogs\dlgOptions\pnl_OSIntegration.html:49
 msgid "Play next in MediaMonkey"
-msgstr "MediaMonkey で次に再生"
+msgstr "MediaMonkeyで次に再生"
 
 #: ResStrings.pas:879
 msgid "Could not write the image layout to the disk."
@@ -12951,12 +12934,11 @@ msgstr ""
 
 #: dialogs\dlgOptions\pnl_PlaybackRules.html:44
 msgid "Display format for 'Track summary'  (e.g. in Player):"
-msgstr "「トラック概要」の表示形式（例：プレイヤー内）:"
+msgstr "「トラックの概要」の表示形式（例：プレイヤー内）:"
 
 #: uitools.js:2495
 msgid "MediaMonkey will reload (which may terminate existing processes)."
-msgstr ""
-"MediaMonkeyを再起動します（既存のプロセスが終了する可能性があります）。"
+msgstr "MediaMonkeyを再読み込みします（実行中の処理が終了する場合があります）。"
 
 #: dialogs/dlgScanResults.js:23
 msgid "Imported %d new files"
@@ -13008,9 +12990,8 @@ msgstr "再生リスト"
 msgid ""
 "Shuffle disabled. Unable to unshuffle due to edits - use 'Undo' to revert "
 "changes to the Playing list."
-msgstr ""
-"シャッフルは無効です。編集のためシャッフルを解除できません。再生リストへの変"
-"更を元に戻すには「元に戻す」を使用してください。"
+msgstr "シャッフルは無効です。再生リストに編集が加えられたため、シャッフルを元に戻せ"
+"ません。変更を取り消すには「元に戻す」を使用してください。"
 
 #: controls/player.js:303
 msgid ""
@@ -13142,7 +13123,7 @@ msgstr "MediaMonkeyで最後に再生"
 
 #: dialogs\dlgOptions\pnl_Performance.html:37
 msgid "Enable smooth scrolling"
-msgstr "スムーズなスクロールを有効にする"
+msgstr "スムーズスクロールを有効にする"
 
 #: dialogs\dlgOptions\pnl_Performance.html:36
 msgid "This enables smooth scrolling of lists."
