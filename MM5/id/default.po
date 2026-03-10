@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "POT-Creation-Date: 2025-08-26 13:26\n"
-"PO-Revision-Date: 2025-06-03 05:50+0000\n"
+"PO-Revision-Date: 2026-03-11 07:53+0000\n"
 "Last-Translator: Lieba Natur Brilian <gingalibadeidara@gmail.com>\n"
 "Language-Team: Indonesian <http://translations.mediamonkey.com/projects/"
 "mediamonkey-5-x/application/id/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.1\n"
+"X-Generator: Weblate 5.13\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -132,7 +132,7 @@ msgstr "Mood"
 #: MaskHelper.pas:3161 ResStrings.pas:467 ResStrings.pas:525
 #: UPnPTreeHelper.pas:1925 dialogs\dlgTrackProperties\tabClassification.html:24
 msgid "Occasion"
-msgstr ""
+msgstr "Occasion"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. 1500 ms (as 'commonChange' is called every 1000 ms during scan/edits)
@@ -720,22 +720,24 @@ msgstr "Menginisialisasi unduhan dari %s"
 #. ordinary url track/episode to download
 #: actions.js:2040 DatabaseManage.pas:1081
 msgid "Rebuild full-text search index"
-msgstr ""
+msgstr "Bangun ulang indeks pencarian teks-keseluruhan"
 
 #: actions.js:2043
 msgid ""
 "Rebuilds full-text search index. This might be useful if searching via "
 "search bar doesn't work right."
 msgstr ""
+"Bangun ulang indeks pencarian teks-keseluruhan. Ini mungkin berguna jika "
+"pencarian melalui bilah pencarian tidak bekerja."
 
 #. default
 #: actions.js:2057
 msgid "Optimize database"
-msgstr ""
+msgstr "Optimalkan database"
 
 #: actions.js:2060
 msgid "Optimizes the database to improve performance"
-msgstr ""
+msgstr "Optimalkan database untuk meningkatkan performa"
 
 #. default
 #: actions.js:2070 DatabaseManage.pas:1390 DatabaseManage.pas:1515
@@ -744,23 +746,25 @@ msgstr ""
 #: DatabaseManage.pas:1801 DatabaseManage.pas:1818 DatabaseManage.pas:1835
 #: DatabaseManage.pas:1862 DatabaseManage.pas:1868
 msgid "Rebuild database"
-msgstr ""
+msgstr "Bangun ulang database"
 
 #: actions.js:2073
 msgid ""
 "Rebuilds the database. This might be useful if database is corrupted or "
 "contains inconsistent data."
 msgstr ""
+"Bangun ulang database. Ini mungkin akan berguna jika database rusak atau "
+"berisi data yang tidak konsisten."
 
 #. default
 #: actions.js:2083
 msgid "Clean URL cache"
-msgstr ""
+msgstr "Bersihkan tembolok URL"
 
 #. default
 #: actions.js:2096 dialogs/dlgMaintainLibrary.js:8
 msgid "Manage database"
-msgstr ""
+msgstr "Kelola database"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. to refresh the view after DB maintenance (mainly for 'Rebuild Database' option)
@@ -768,11 +772,11 @@ msgstr ""
 #: MediaMonkeyApp.pas:9890 MediaMonkeyApp.pas:9904 MediaMonkeyApp.pas:9924
 #: MediaMonkeyApp.pas:9936 dialogs\dlgMaintainLibrary.html:33
 msgid "Backup"
-msgstr ""
+msgstr "Cadangkan"
 
 #: actions.js:2138
 msgid "This will create a backup of the current database"
-msgstr ""
+msgstr "Ini akan membuat cadangan database saat ini"
 
 #: actions.js:2138 actions.js:2200 actions.js:2582 uitools.js:2559
 #: dialogs/dlgOptions/pnl_MediaTree.js:206
@@ -780,19 +784,19 @@ msgstr ""
 #: Scripts/autoIncTrack/actions_add.js:23
 #: Scripts/syncToFolder/viewHandlers_add.js:7 UpNp.pas:1958
 msgid "Do you want to proceed?"
-msgstr ""
+msgstr "Ingin melanjutkan?"
 
 #: actions.js:2147
 msgid "Backup is complete."
-msgstr ""
+msgstr "Pencadangan selesai."
 
 #: actions.js:2152
 msgid "Backup FAILED!"
-msgstr ""
+msgstr "Pencadangan GAGAL!"
 
 #: actions.js:2167 dialogs\dlgMaintainLibrary.html:34
 msgid "Restore from backup"
-msgstr ""
+msgstr "Pulihkan dari cadangan"
 
 #: actions.js:2174
 msgid ""
@@ -800,59 +804,63 @@ msgid ""
 "current database and MediaMonkey will be automatically restarted when "
 "finished!"
 msgstr ""
+"Apakah anda yakin ingin memulihkan database dari %s><br>Ini akan menghapus "
+"database saat ini dan MediaMonkey akan otomatis memulai ulang ketika selesai!"
 
 #: actions.js:2180
 msgid "Restore FAILED!"
-msgstr ""
+msgstr "Pemulihan GAGAL!"
 
 #: actions.js:2196 dialogs\dlgMaintainLibrary.html:35
 msgid "Clear database"
-msgstr ""
+msgstr "Bersihkan database"
 
 #: actions.js:2200
 msgid ""
 "This will delete all Library data, Playlists, and Collections but will not "
 "delete any of your files or configuration data."
 msgstr ""
+"Ini akan menghapus semua data Pustaka, Daftar Putar dan Koleksi tetapi tidak "
+"akan menghapus beberapa berkas atau data konfigurasi anda."
 
 #: actions.js:2206
 msgid "Clear FAILED! Old database restored."
-msgstr ""
+msgstr "Penghapusan GAGAL! Database lama sudah dikembalikan."
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode', // per #16067
 #: actions.js:2220 controls/searchBar.js:556
 #: dialogs\dlgOptions\pnl_Search.html:22
 msgid "Global search"
-msgstr ""
+msgstr "Pencarian global"
 
 #. OR we could show the search dialog:
 #: actions.js:2247
 msgid "Delete (permanent)"
-msgstr ""
+msgstr "Hapus (permanen)"
 
 #. @ts-ignore
 #: actions.js:2283
 msgid "Cut"
-msgstr ""
+msgstr "Potong"
 
 #: actions.js:2303
 msgid "Copy"
-msgstr ""
+msgstr "Salin"
 
 #: actions.js:2321 controls/artWindow.js:650
 msgid "Paste"
-msgstr ""
+msgstr "Tempel"
 
 #. #16261 - to be the first in the list after creation
 #: actions.js:2357 actions.js:2369
 msgid "New AutoPlay&list"
-msgstr ""
+msgstr "AutoPlay&list Baru"
 
 #. #16261 - to be the first in the list after creation
 #: actions.js:2379 actions.js:2391
 msgid "New pla&ylist"
-msgstr ""
+msgstr "Daf&tar putar baru"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. navigationHandlers['playlist'].navigate(newplaylist); // navigation is intentionally disabled, so that user can D&D tracks from the current view to the new playlist (#12355)
@@ -864,69 +872,73 @@ msgstr ""
 #: controls/nowplayingview.js:387 helpers/dockableDialog.js:29
 #: controls\devicesView.html:40
 msgid "Close"
-msgstr ""
+msgstr "Tutup"
 
 #: actions.js:2411
 msgid "E&xit"
-msgstr ""
+msgstr "K&eluar"
 
 #. window.closeWindow();
 #. msg = msg + _('Error') + ': ' + err + '<br><br>';
 #: actions.js:2423 actions.js:2607 actions.js:4990
 msgid "&Properties"
-msgstr ""
+msgstr "&Properti"
 
 #. open edit properties dialog
 #: actions.js:2448
 msgid "Subscribe to new podcast"
-msgstr ""
+msgstr "Berlangganan ke siniar baru"
 
 #: actions.js:2459 actions.js:2465 dialogs/dlgChooseFolders.js:21
 #: dialogs/dlgNetworkFolder.js:10
 msgid "Add folders"
-msgstr ""
+msgstr "Tambah folder"
 
 #: actions.js:2466
 msgid ""
 "If a network location isn't found automatically, you can add one manually."
 msgstr ""
+"Jika lokasi jaringan tidak ditemukan otomatis, anda dapat menambahkannya "
+"secara manual."
 
 #: actions.js:2466 controls/trackListView.js:852 dialogs/dlgAutotag.js:2696
 #: dialogs/dlgDeletedTracks.js:103 dialogs/dlgMovedFiles.js:187
 #: dialogs/dlgMovedFiles.js:240 MaskHelper.pas:3166 QueryManage.pas:4906
 #: ResStrings.pas:438 dialogs\dlgMediaProperties.html:33
 msgid "Path"
-msgstr ""
+msgstr "Jalur"
 
 #: actions.js:2482 dialogs\dlgWizard\pnlScan.html:10
 msgid "Add location"
-msgstr ""
+msgstr "Tambah lokasi"
 
 #. media servers added per suggestions in #13971 - item 2)
 #: actions.js:2489 viewHandlers.js:4970 dialogs/dlgMediaProperties.js:26
 #: dialogs/dlgWizard/pnlScan.js:97 QueryManage.pas:4571 ResStrings.pas:414
 msgid "Network"
-msgstr ""
+msgstr "Jaringan"
 
 #: actions.js:2497 dialogs/dlgWizard/pnlScan.js:148 QueryManage.pas:4570
 msgid "Media server"
-msgstr ""
+msgstr "Peladen media"
 
 #: actions.js:2505 dialogs/dlgWizard/pnlScan.js:185
 msgid "Cloud storage"
-msgstr ""
+msgstr "Penyimpanan awan"
 
 #: actions.js:2539 actions.js:2546
 msgid "Add media server manually"
-msgstr ""
+msgstr "Tambahkan peladen media manual"
 
 #: actions.js:2547
 msgid "If a media server isn't found automatically, you can add one manually."
 msgstr ""
+"Jika peladen media tidak ditemukan secara otomatis, anda bisa menambahkan "
+"secara manual."
 
 #: actions.js:2547 UpNp.pas:10459 controls\devicesView.html:35
 msgid "Device Description file path:"
-msgstr ""
+msgstr "Deskripsi Perangkat jalur berkas:"
 
 #. no message needed in case of success (as the new server just appears in the list)
 #. 127.0.0.1 can be reached, but 192.168.X.X can't (case B)
@@ -934,120 +946,129 @@ msgstr ""
 #: actions.js:2564 controls/serverConfig/server.js:43
 #: controls/serverConfig/server.js:52
 msgid "%s cannot be reached"
-msgstr ""
+msgstr "%s tidak dapat dijangkau"
 
 #: actions.js:2565 dialogs/dlgAutotag.js:696 Extensions.pas:960
 #: Extensions.pas:971 Extensions.pas:975 Extensions.pas:1025
 #: Extensions.pas:1106 Extensions.pas:1135 ResStrings.pas:578
 #: ResStrings.pas:643 SQLiteDB.pas:646 UI.pas:1406
 msgid "Error"
-msgstr ""
+msgstr "Kesalahan"
 
 #: actions.js:2574
 msgid "Configure remote access"
-msgstr ""
+msgstr "Konfigurasikan akses remote"
 
 #: actions.js:2582
 msgid ""
 "This will auto-configure rules on your router to allow the %s UPnP/DLNA "
 "server to be accessible from a public/external network."
 msgstr ""
+"Ini akan mengkonfigurasi-otomatis rules di router anda untuk mengizinkan %s "
+"peladen UPnP/DLNA agar bisa diakses dari jaringan publik/eksternal."
 
 #: actions.js:2582
 msgid ""
 "Configuration is via UPnP/NAT-PMP which only works if this device is on the "
 "same network as the router."
 msgstr ""
+"Konfigurasi melalui UPnP/NAT-PMP hanya bekerja jika perangkat ini aktif di "
+"jaringan sama sebagai router."
 
 #: actions.js:2587
 msgid "Configuring remote access"
-msgstr ""
+msgstr "Mengkonfigurasi akses remote"
 
 #: actions.js:2589
 msgid "Remote UPnP/DLNA access to %s was successfuly configured."
-msgstr ""
+msgstr "Akses remote UPnP/DLNA ke %s berhasil dikonfigurasi."
 
 #: actions.js:2589
 msgid ""
 "If you want to use another UPnP/DLNA client to remotely access %s, enter the "
 "following server destination to the client:"
 msgstr ""
+"Jika anda ingin menggunakan klien UPnP/DLNA lain untuk mengakses remote %s, "
+"masukkan tujuan peladen berikut ke klien:"
 
 #: actions.js:2592
 msgid "Remote access to %s cannot be auto-configured via UPnP/NAT-PMP"
 msgstr ""
+"Akses remote ke %s tidak bisa dikonfigurasi-otomatis melalui UPnP/NAT-PMP"
 
 #: actions.js:2594 helpers/mediaSync.js:393 BaseApp.pas:7609 CDUtils.pas:1483
 #: RegManage.pas:706 WebUtils.pas:6419
 msgid "There is a problem with your internet connection."
-msgstr ""
+msgstr "Ada kesalahan dengan koneksi internet anda."
 
 #: actions.js:2596
 msgid ""
 "To resolve, enable UPnP/NAT-PMP in your router configuration or manually "
 "configure port forwarding on your router and try again"
 msgstr ""
+"Untuk memperbaikinya, aktifkan UPnP/NAT/PMP di konfigurasi router anda atau "
+"konfigurasi port forwarding secara manual di router anda dan coba lagi"
 
 #: actions.js:2596
 msgid "port %d to IP address %s"
-msgstr ""
+msgstr "port %d ke Alamat IP %s"
 
 #: actions.js:2630
 msgid "Update all podcasts"
-msgstr ""
+msgstr "Memperbarui semua siniar"
 
 #: actions.js:2644
 msgid "Update podcast"
-msgstr ""
+msgstr "Perbarui siniar"
 
 #: actions.js:2656 viewHandlers.js:4477 UPnPTreeHelper.pas:1901
 msgid "Subscriptions"
-msgstr ""
+msgstr "Langganan"
 
 #. dontDownloadLink: true,
 #: actions.js:2684
 msgid "&Help"
-msgstr ""
+msgstr "&Bantuan"
 
 #: actions.js:2693 controls\windowtitle.html:14
 msgid "Help Content"
-msgstr ""
+msgstr "Konten Bantuan"
 
 #: actions.js:2705
 msgid "On-line Forum"
-msgstr ""
+msgstr "Forum On-line"
 
 #: actions.js:2717
 msgid "Technical Support"
-msgstr ""
+msgstr "Dukungan Teknisi"
 
 #: actions.js:2729 dialogs\dlgExtensions.html:20
 msgid "Check for updates"
-msgstr ""
+msgstr "Periksa pembaruan"
 
 #: actions.js:2742
 msgid "&About"
-msgstr ""
+msgstr "&Tentang"
 
 #: actions.js:2754
 msgid "Debug"
-msgstr ""
+msgstr "Debug"
 
 #: actions.js:2761
 msgid "Send logs"
-msgstr ""
+msgstr "Kirim log"
 
 #: actions.js:2768
 msgid "GPU Info"
-msgstr ""
+msgstr "Info GPU"
 
 #: actions.js:2775 actions.js:2784
 msgid "Change freeze timeout"
-msgstr ""
+msgstr "Ubah timeout penangguhan"
 
 #: actions.js:2816
 msgid "Submit crash logs automatically"
-msgstr ""
+msgstr "Kirim log crash otomatis"
 
 #. hide old progress and start new (otherwise old status stay always visible)
 #. show progress 500 ms later (when loading still not finished) -- issue #13898
@@ -1057,42 +1078,42 @@ msgstr ""
 #: BaseMedia.pas:16114 BaseMedia.pas:16757 Filters.pas:2767 Filters.pas:2825
 #: PodcastManage.pas:954
 msgid "Loading"
-msgstr ""
+msgstr "Memuat"
 
 #: actions.js:2846
 msgid "E&qualizer"
-msgstr ""
+msgstr "E&qualizer"
 
 #: actions.js:2874 controls/player.js:574 dialogs/dlgSpeedPitch.js:24
 #: dialogs\dlgSpeedPitch.html:13
 msgid "Adjust speed"
-msgstr ""
+msgstr "Sesuaikan kecepatan"
 
 #: actions.js:3019
 msgid "&Rip Audio CD"
-msgstr ""
+msgstr "&Rip CD Audio"
 
 #. to break the loop (#19401)
 #: actions.js:3067 viewHandlers.js:4825 CDUtils.pas:813 ResStrings.pas:371
 msgid "Audio CD"
-msgstr ""
+msgstr "CD Audio"
 
 #: actions.js:3067 dialogs/dlgBurn.js:8 dialogs\dlgBurn.html:38
 msgid "Burn"
-msgstr ""
+msgstr "Burn"
 
 #: actions.js:3088 dialogs/dlgCDDBResult.js:8 CDDBUtils.pas:663
 msgid "Lookup Audio CD metadata"
-msgstr ""
+msgstr "Mencari metadata CD Audio"
 
 #. = check all drives
 #: actions.js:3103
 msgid "Eject"
-msgstr ""
+msgstr "Keluarkan"
 
 #: actions.js:3115
 msgid "&Options"
-msgstr ""
+msgstr "&Opsi"
 
 #. to refresh also the layout (not only the data)
 #. list
@@ -1104,12 +1125,12 @@ msgstr ""
 #: controls/playingListContainer.js:105 controls/playingListContainer.js:206
 #: dialogs/dlgOptions.js:66 Extensions.pas:1669
 msgid "Layout"
-msgstr ""
+msgstr "Tata Letak"
 
 #: actions.js:3139 dialogs/dlgExtensions.js:10 MediaMonkeyApp.pas:9936
 #: dialogs\dlgMaintainLibrary.html:31
 msgid "Addons"
-msgstr ""
+msgstr "Addon"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. nodeUtils
@@ -1119,7 +1140,7 @@ msgstr ""
 #: controls/trackListView.js:1892 MediaMonkeyApp.pas:9299
 #: dialogs\dlgOptions\pnl_OSIntegration.html:8
 msgid "Play now"
-msgstr ""
+msgstr "Putar sekarang"
 
 #: actions.js:3171 actions.js:3245 actions.js:3299 actions.js:6306
 #: actions.js:6321 actions.js:6338 actions.js:6355 viewHandlers.js:3304
@@ -1127,47 +1148,47 @@ msgstr ""
 #: controls/trackListView.js:1892 controls/trackListView.js:1907
 #: controls/trackListView.js:1924 controls/trackListView.js:1941
 msgid "shuffled"
-msgstr ""
+msgstr "Diacak"
 
 #: actions.js:3191 actions.js:3265 actions.js:3316
 msgid "shuffled by Album"
-msgstr ""
+msgstr "Diacak berdasarkan Album"
 
 #: actions.js:3208 actions.js:6338 viewHandlers.js:3322
 #: controls/trackListView.js:1924
 msgid "Queue mixed"
-msgstr ""
+msgstr "Antrian mixed"
 
 #: actions.js:3225 actions.js:3242 actions.js:3245 actions.js:3262
 #: actions.js:3265 actions.js:6321 viewHandlers.js:3313
 #: controls/trackListView.js:1907 MediaMonkeyApp.pas:9300
 #: dialogs\dlgOptions\pnl_OSIntegration.html:9
 msgid "Queue next"
-msgstr ""
+msgstr "Antrian berikutnya"
 
 #: actions.js:3282 actions.js:3296 actions.js:3299 actions.js:3313
 #: actions.js:3316 actions.js:6355 viewHandlers.js:3331
 #: controls/trackListView.js:1941 MediaMonkeyApp.pas:9301
 #: dialogs\dlgOptions\pnl_OSIntegration.html:10
 msgid "Queue last"
-msgstr ""
+msgstr "Antrian terakhir"
 
 #: actions.js:3330 controls/player.js:220 FileAssoc.pas:784
 msgid "Play"
-msgstr ""
+msgstr "Putar"
 
 #. force display, if playing to external player
 #: actions.js:3347 controls/downloadView.js:47 controls/player.js:326
 msgid "Pause"
-msgstr ""
+msgstr "Jeda"
 
 #: actions.js:3364 Win7ToolsImpl.pas:1900
 msgid "Play/Pause"
-msgstr ""
+msgstr "Putar/Jeda"
 
 #: actions.js:3378 Win7ToolsImpl.pas:1901
 msgid "Stop"
-msgstr ""
+msgstr "Berhenti"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. stop should be active even if playback is paused
@@ -1177,25 +1198,25 @@ msgstr ""
 #: controls/player.js:605 controls/player.js:613 controls/player.js:622
 #: Scripts\lastFM\dialogs\dlgOptions\pnl_lastFM.html:9
 msgid "Off"
-msgstr ""
+msgstr "Matikan"
 
 #. stop should be active even if playback is paused
 #: actions.js:3396 actions.js:3417 actions.js:3440 actions.js:3460
 msgid "Stop after"
-msgstr ""
+msgstr "Hentikan setelah"
 
 #: actions.js:3414 actions.js:3417
 msgid "Current file"
-msgstr ""
+msgstr "Berkas saat ini"
 
 #. stop should be active even if playback is paused
 #: actions.js:3437 actions.js:3440
 msgid "Every file"
-msgstr ""
+msgstr "Setiap berkas"
 
 #: actions.js:3472
 msgid "Crossfade"
-msgstr ""
+msgstr "Crossfade"
 
 #. For screen reader support (aria-label for screen readers to read its state)
 #: actions.js:3490 controls/player.js:447 controls/player.js:449
@@ -1203,86 +1224,86 @@ msgstr ""
 #: dialogs/dlgOptions/pnl_PlaybackRules.js:80
 #: dialogs/dlgOptions/pnl_Player.js:11
 msgid "Shuffle"
-msgstr ""
+msgstr "Acak"
 
 #: actions.js:3512
 msgid "Repeat off"
-msgstr ""
+msgstr "Pengulangan mati"
 
 #: actions.js:3528
 msgid "One"
-msgstr ""
+msgstr "Satu"
 
 #. Screen reader support
 #: actions.js:3532 controls/player.js:472 controls/player.js:507
 msgid "Repeat one"
-msgstr ""
+msgstr "Ulangi sekali"
 
 #: actions.js:3552 controls/player.js:474 controls/player.js:509
 msgid "Repeat all"
-msgstr ""
+msgstr "Ulangi semua"
 
 #: actions.js:3568 controls/player.js:476 controls/player.js:511
 msgid "Repeat"
-msgstr ""
+msgstr "Ulangi"
 
 #: actions.js:3580
 msgid "Level playback volume"
-msgstr ""
+msgstr "Level volume pemutaran"
 
 #. #17191
 #: actions.js:3600 Win7ToolsImpl.pas:1902
 msgid "Next file"
-msgstr ""
+msgstr "Berkas berikutnya"
 
 #: actions.js:3614 Win7ToolsImpl.pas:1899
 msgid "Previous file"
-msgstr ""
+msgstr "Berkas sebelumnya"
 
 #: actions.js:3628
 msgid "Volume up"
-msgstr ""
+msgstr "Volume atas"
 
 #: actions.js:3642
 msgid "Volume down"
-msgstr ""
+msgstr "Volume bawah"
 
 #: actions.js:3656
 msgid "Skip 5 seconds backward"
-msgstr ""
+msgstr "Lewati 5 detik kebelakang"
 
 #: actions.js:3671
 msgid "Skip 5 seconds forward"
-msgstr ""
+msgstr "Lewati 5 detik kedepan"
 
 #: actions.js:3686
 msgid "S&leep"
-msgstr ""
+msgstr "T&idur"
 
 #: actions.js:3700 dialogs/dlgAutotagFromFilename.js:81
 msgid "&Tag from filename"
-msgstr ""
+msgstr "&Tag dari namaberkas"
 
 #. notShared: true, // it seems it can be shared
 #: actions.js:3724
 msgid "&Auto-tag"
-msgstr ""
+msgstr "&Tag-otomatis"
 
 #: actions.js:3757
 msgid "Configure current &output plug-in"
-msgstr ""
+msgstr "Konfigurasikan plug-in &keluaran saat ini"
 
 #: actions.js:3769
 msgid "Configure current &input plug-in"
-msgstr ""
+msgstr "Konfigurasikan plug-in &masukan saat ini"
 
 #: actions.js:3781 dialogs/dlgWizard.js:18
 msgid "Share media"
-msgstr ""
+msgstr "Bagikan media"
 
 #: actions.js:3793
 msgid "Configure Collections and nodes"
-msgstr ""
+msgstr "Konfigurasikan Koleksi dan nodes"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. radiogroup: 'search_mode',
@@ -1291,7 +1312,7 @@ msgstr ""
 #: Scripts/vis_milkshake/vis_milkshake.js:89
 #: controls\serverConfig\devices.html:9
 msgid "Options"
-msgstr ""
+msgstr "Opsi"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. @ts-ignore
@@ -1299,36 +1320,36 @@ msgstr ""
 #: controls/player.js:1165 dialogs/dlgOptions.js:32 dialogs/dlgOptions.js:70
 #: maincontent.html:62
 msgid "Player"
-msgstr ""
+msgstr "Pemutar"
 
 #: actions.js:3817 controls/player.js:274
 #: dialogs\dlgOptions\pnl_Streaming.html:3
 msgid "Play to"
-msgstr ""
+msgstr "Putar ke"
 
 #: actions.js:3828
 msgid "Select all"
-msgstr ""
+msgstr "Pilih semua"
 
 #. and set focus (#13206 - item 4)
 #: actions.js:3862
 msgid "Focus tracklist on currently playing item"
-msgstr ""
+msgstr "Tracklist fokus ke item yang diputar saat ini"
 
 #. and set focus (#13206 - item 4)
 #: actions.js:3901
 msgid "Cancel selection"
-msgstr ""
+msgstr "Batalkan pilihan"
 
 #. janky way of setting "new tab" label (No collections or nodes have the "add" icon by default)
 #: actions.js:3927 controls/tabs.js:260
 msgid "New tab"
-msgstr ""
+msgstr "Tab baru"
 
 #: actions.js:3942 actions.js:3972 actions.js:7146 actions.js:7177
 #: actions.js:7192
 msgid "Send to"
-msgstr ""
+msgstr "Kirim ke"
 
 #. first load MRU list
 #. root items insert directly to presetColumns, so we will not need to move them here later
@@ -1337,23 +1358,23 @@ msgstr ""
 #: actions.js:3959 controls/columntracklist.js:301 controls/filterEditor.js:124
 #: controls/tracklistFilter.js:450
 msgid "Recently used"
-msgstr ""
+msgstr "Baru saja digunakan"
 
 #: actions.js:4008
 msgid "sync"
-msgstr ""
+msgstr "sinkron"
 
 #: actions.js:4062
 msgid "Folder (&Move)"
-msgstr ""
+msgstr "Folder (&Pindah)"
 
 #: actions.js:4071
 msgid "Folder (&Copy)"
-msgstr ""
+msgstr "Folder (&Salin)"
 
 #: actions.js:4080
 msgid "Folder (Rip/Con&vert)"
-msgstr ""
+msgstr "Folder (Rip/Kon&vert)"
 
 #. online mode only for online source track
 #. result.add( _('Image')); // disabled in course of #20683
@@ -1362,84 +1383,86 @@ msgstr ""
 #: FormatsManage.pas:5577 FormatsManage.pas:5587 MaskHelper.pas:3134
 #: QueryManage.pas:4815 ResStrings.pas:537
 msgid "Playlist"
-msgstr ""
+msgstr "Daftar putar"
 
 #: actions.js:4103
 msgid "M3U/XSPF playlist"
-msgstr ""
+msgstr "Daftar Putar M3U/XSPF"
 
 #. if not uninstalled
 #: actions.js:4116
 msgid "Report"
-msgstr ""
+msgstr "Lapor"
 
 #: actions.js:4116 Scripts/export/actions_add.js:391
 msgid "File list"
-msgstr ""
+msgstr "Daftar berkas"
 
 #. @ts-ignore
 #: actions.js:4136
 msgid "E-Mail"
-msgstr ""
+msgstr "Surel"
 
 #: actions.js:4159
 msgid "Find &more from same"
-msgstr ""
+msgstr "Cari &lainnya dari kesamaan"
 
 #: actions.js:4172
 msgid "Anal&yze volume"
-msgstr ""
+msgstr "Anal&isa volume"
 
 #: actions.js:4193
 msgid "&Level Track volume"
-msgstr ""
+msgstr "&Volume Trek level"
 
 #: actions.js:4201
 msgid ""
 "Leveling Track volume irreversibly modifies the track. Are you sure you want "
 "to level the volume of the selected Tracks?"
 msgstr ""
+"Mengatur volume Trek secara permanen akan mengubah trek tersebut. Yakin "
+"ingin mengatur level volume untuk Trek yang dipilih?"
 
 #. @ts-ignore
 #: actions.js:4225
 msgid "Analyze waveform"
-msgstr ""
+msgstr "Analisa waveform"
 
 #: actions.js:4243
 msgid "Display only selected folder's content"
-msgstr ""
+msgstr "Tampilkan hanya isi folder yang dipilih"
 
 #: actions.js:4243
 msgid "Display folder content recursively"
-msgstr ""
+msgstr "Tampilkan isi folder rekursif"
 
 #: actions.js:4265
 msgid "View filter"
-msgstr ""
+msgstr "Lihat filter"
 
 #. "Any text"
 #: actions.js:4310 QueryManage.pas:2864 QueryManage.pas:2868 ResStrings.pas:543
 msgid "contains"
-msgstr ""
+msgstr "berisi"
 
 #. radiogroup: 'search_mode',
 #: actions.js:4372 controls/searchBar.js:570
 msgid "Advanced search"
-msgstr ""
+msgstr "Pencarian lanjutan"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. so that it is right most to the includeSubfolders action (with iconPriority 10)
 #: actions.js:4394 actions.js:4435 controls\mainTabContent.html:3
 msgid "Left panel"
-msgstr ""
+msgstr "Panel kiri"
 
 #: actions.js:4456 controls\mainTabContent.html:4
 msgid "Media Tree"
-msgstr ""
+msgstr "Struktur Media"
 
 #: actions.js:4541 actions.js:4570 maincontent.html:49
 msgid "Right panel"
-msgstr ""
+msgstr "Panel kanan"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. became visible, update
@@ -1451,7 +1474,7 @@ msgstr ""
 #: dialogs/dlgOptions/pnl_MetadataLookup.js:163 MaskHelper.pas:3184
 #: ResStrings.pas:470 dialogs\dlgOptions\pnl_MetadataLookup.html:14
 msgid "Lyrics"
-msgstr ""
+msgstr "Lirik"
 
 #. @ts-ignore TODO INVESTIGATE, typo?
 #. it is a list
@@ -1462,7 +1485,7 @@ msgstr ""
 #: controls/statusbar.js:131 controls/statusbar.js:134
 #: dialogs/dlgEditView.js:621
 msgid "Playing"
-msgstr ""
+msgstr "Memutar"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. no layout preset, use default
@@ -1475,35 +1498,35 @@ msgstr ""
 #: Scripts/deezer/helpers/cloudServices_add.js:412
 #: Scripts/spotify/helpers/cloudServices_add.js:362 maincontent.html:53
 msgid "Preview"
-msgstr ""
+msgstr "Pratinjau"
 
 #. was visible only for displaying visualization or video
 #: actions.js:4722 Extensions.pas:1662 Extensions.pas:1663 Extensions.pas:1664
 #: Extensions.pas:1665
 msgid "&Visualization"
-msgstr ""
+msgstr "&Visualisasi"
 
 #: actions.js:4778
 msgid "Refresh"
-msgstr ""
+msgstr "Segarkan"
 
 #. @ts-ignore
 #: actions.js:4805 dialogs/dlgOptions.js:16
 msgid "Party Mode"
-msgstr ""
+msgstr "Mode Pesta"
 
 #. is listened e.g. by Player component to update player controls disabled state
 #: actions.js:4866
 msgid "&Clear"
-msgstr ""
+msgstr "&Bersihkan"
 
 #: actions.js:4877
 msgid "Clea&n (remove inaccessible)"
-msgstr ""
+msgstr "Bersih&kan (hapus yang tidak bisa diakses)"
 
 #: actions.js:4888
 msgid "Remove &duplicates"
-msgstr ""
+msgstr "Hapus &duplikat"
 
 #: actions.js:4899
 msgid "&Randomize list"
@@ -2119,31 +2142,31 @@ msgstr ""
 #: utils.js:105 FileUtils.pas:2810 ResStrings.pas:452
 #: controls\deviceConfig\options\pnl_Tagging.html:13
 msgid "KB"
-msgstr ""
+msgstr "KB"
 
 #: utils.js:109 FileUtils.pas:2813 dialogs\dlgOptions\pnl_MediaServers.html:19
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: utils.js:112 FileUtils.pas:2815
 msgid "GB"
-msgstr ""
+msgstr "GB"
 
 #. available to stream from cloud
 #: utils.js:333 helpers/searchCommon.js:144 MediaManage.pas:2645
 #: ResStrings.pas:570
 msgid "Various"
-msgstr ""
+msgstr "Beragam"
 
 #: utils.js:333 helpers/searchCommon.js:144 MediaManage.pas:2646
 msgid "Various Artists"
-msgstr ""
+msgstr "Beragam Artis"
 
 #. is listened by ColumnBrowser sub-view
 #. Don't forget for VCD tracks:
 #: viewHandlers.js:212 dblistutils.pas:1331 DBStructure.pas:848
 msgid "Reading files..."
-msgstr ""
+msgstr "Membaca berkas..."
 
 #. cancel/free/unregister the dataSource
 #. for the cases when only ColumnBrowser sub-view is hidden (not the whole view)
@@ -2161,20 +2184,20 @@ msgstr ""
 #: viewHandlers.js:1940 viewHandlers.js:2157 viewHandlers.js:2322
 #: controls/nowplayingview.js:36 controls/playingListContainer.js:17
 msgid "List"
-msgstr ""
+msgstr "Daftar"
 
 #: viewHandlers.js:314 controls/nowplayingview.js:58
 msgid "List (by Album)"
-msgstr ""
+msgstr "Daftar (berdasarkan Album)"
 
 #: viewHandlers.js:341
 msgid "List (by Series)"
-msgstr ""
+msgstr "Daftar (berdasarkan Seri)"
 
 #. to be always pre-sorted by content (grouped by signature/fingerprint) // #20580
 #: viewHandlers.js:350
 msgid "List (by Content)"
-msgstr ""
+msgstr "Daftar (berdasarkan Konten)"
 
 #. #18256
 #: viewHandlers.js:360
@@ -2182,19 +2205,21 @@ msgid ""
 "%d tracks in your library have not been analyzed for redundancy. Would you "
 "like to analyze them now (this takes a fair amount of time)?"
 msgstr ""
+"trek %d di pustaka anda tidak memiliki analisa untuk redudan. Apakah anda "
+"ingin menganalisanya sekaran (ini memakan waktu cukup lama)?"
 
 #: viewHandlers.js:362 Devices.pas:11510 dialogs\dlgScanResults.html:10
 msgid "Don't show this again"
-msgstr ""
+msgstr "Jangan tampilkan lagi"
 
 #: viewHandlers.js:363 dblistutils.pas:1646
 msgid "Duplicate Content"
-msgstr ""
+msgstr "Duplikat Konten"
 
 #. disableStateStoring: true, // store state so focused node is restored
 #: viewHandlers.js:392 viewHandlers.js:2388 controls/playingListContainer.js:6
 msgid "Simplified list"
-msgstr ""
+msgstr "Daftar sederhana"
 
 #. onHide: inherited from Tracklist
 #. we need to ensure that the 'Info panel' is shown to show the auto-playlist criteria editor (#15522 / #16928)
@@ -2206,12 +2231,12 @@ msgstr ""
 #: viewHandlers.js:1847 viewHandlers.js:1950 viewHandlers.js:2081
 #: viewHandlers.js:2267
 msgid "Browser"
-msgstr ""
+msgstr "Peramban"
 
 #. onHide: inherited from Tracklist
 #: viewHandlers.js:414
 msgid "Grid (videos)"
-msgstr ""
+msgstr "Ubin (video)"
 
 #. onHide: inherited from TracklistBase
 #. due to #15522
@@ -2225,7 +2250,7 @@ msgstr ""
 #: viewHandlers.js:1081 viewHandlers.js:1136 viewHandlers.js:1227
 #: viewHandlers.js:1798
 msgid "Grid"
-msgstr ""
+msgstr "Ubin"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. onHide: inherited from TracklistBase
@@ -2239,40 +2264,40 @@ msgstr ""
 #: viewHandlers.js:2097 viewHandlers.js:2274
 #: dialogs\dlgOptions\pnl_MetadataLookup.html:18
 msgid "Info panel"
-msgstr ""
+msgstr "Panel info"
 
 #. new tracklist
 #: viewHandlers.js:472
 msgid "Media Nodes"
-msgstr ""
+msgstr "Node Media"
 
 #: viewHandlers.js:476
 msgid "Suggested Artists"
-msgstr ""
+msgstr "Artis yang Direkomendasikan"
 
 #: viewHandlers.js:480
 msgid "Suggested Albums"
-msgstr ""
+msgstr "Album yang Direkomendasikan"
 
 #: viewHandlers.js:484
 msgid "Pinned list"
-msgstr ""
+msgstr "Daftar yang disematkan"
 
 #: viewHandlers.js:488 controls\audiobookCollectionView.html:10
 msgid "In progress"
-msgstr ""
+msgstr "Dalam kemajuan"
 
 #: viewHandlers.js:492 controls\videoCollectionView.html:3
 msgid "Recently watched"
-msgstr ""
+msgstr "Baru saja ditonton"
 
 #: viewHandlers.js:496 controls\tvCollectionView.html:10
 msgid "Recently added"
-msgstr ""
+msgstr "Baru saja ditambahkan"
 
 #: viewHandlers.js:500
 msgid "Column filter"
-msgstr ""
+msgstr "Filter kolom"
 
 #. relations are always taken from online data
 #. we currently can't search online audiobooks
@@ -2283,12 +2308,12 @@ msgstr ""
 #: Scripts/statistics/dialogs/dlgStatistics.js:465
 #: Scripts/statistics/dialogs/dlgStatistics.js:518
 msgid "Tracks"
-msgstr ""
+msgstr "Trek"
 
 #. LS: to construct parent path when folder is sub to Pinned node (#18985) or a Location folder sub to collection (#16881)
 #: viewHandlers.js:814 viewHandlers.js:902
 msgid "Tree"
-msgstr ""
+msgstr "Struktur"
 
 #. #16533
 #. to update highlighting of playing track etc.
@@ -2296,64 +2321,64 @@ msgstr ""
 #: viewHandlers.js:4866 viewHandlers.js:5341 viewHandlers.js:5561
 #: ResStrings.pas:419
 msgid "Folders"
-msgstr ""
+msgstr "Folder"
 
 #. #15738: item 3
 #: viewHandlers.js:916 dialogs/dlgOptions/pnl_LayoutPlaying.js:27
 msgid "Status bar"
-msgstr ""
+msgstr "Bilah status"
 
 #: viewHandlers.js:968
 msgid "Collection browser"
-msgstr ""
+msgstr "Peramban koleksi"
 
 #: viewHandlers.js:982
 msgid "Categories"
-msgstr ""
+msgstr "Kategori"
 
 #: viewHandlers.js:1014
 msgid "Tabbed view"
-msgstr ""
+msgstr "Tampilan Tab"
 
 #: viewHandlers.js:1227 viewHandlers.js:6967 controls/searchView.js:153
 #: Scripts/statistics/dialogs/dlgStatistics.js:175 AutoOrganize.pas:1605
 msgid "Genres"
-msgstr ""
+msgstr "Genre"
 
 #. add title line
 #: viewHandlers.js:1377 controls/relatedArtists.js:26
 msgid "Related Artists"
-msgstr ""
+msgstr "Artis Terkait"
 
 #. horizontal scroll only for tracklist
 #: viewHandlers.js:1552
 msgid "Grid (by Album)"
-msgstr ""
+msgstr "Ubin (berdasarkan Album)"
 
 #. cancel/free/unregister the dataSource
 #: viewHandlers.js:1645
 msgid "Grid (by Series)"
-msgstr ""
+msgstr "Ubin (berdasarkan Seri)"
 
 #: viewHandlers.js:1775
 msgid "Feeds"
-msgstr ""
+msgstr "Kabar"
 
 #. #18158
 #: viewHandlers.js:1981 viewHandlers.js:5611 controls/maskedit.js:77
 #: helpers/mediaSync.js:2896 WinAmpPlugins.pas:5362
 msgid "Configure"
-msgstr ""
+msgstr "Konfigurasi"
 
 #. add title line
 #: viewHandlers.js:2039 controls/relatedGenres.js:24
 msgid "Related Genres"
-msgstr ""
+msgstr "Genre Terkait"
 
 #. default visibility defined by nodeHandler:
 #: viewHandlers.js:3013
 msgid "&Remove"
-msgstr ""
+msgstr "&Hapus"
 
 #. removes the device profile from database
 #. cannot edit/add release of unknown album
@@ -2364,72 +2389,74 @@ msgstr ""
 #: controls/genreViewHeader.js:29 controls/playlistHeader.js:98
 #: controls/trackListView.js:1996
 msgid "Rename"
-msgstr ""
+msgstr "Namai ulang"
 
 #. inheritance, this way we creates 'PlaylistBase' node handler class, 'Playlist' and 'Playlists' inherits from it when creating nodeHandlers.playlist(s) instances below
 #: viewHandlers.js:3753
 msgid "playlist"
-msgstr ""
+msgstr "daftar putar"
 
 #. sub-views hidden by default
 #: viewHandlers.js:3855
 msgid "playlists"
-msgstr ""
+msgstr "daftar putar"
 
 #: viewHandlers.js:3897 controls/playlistHeader.js:159
 msgid "Are you sure you want to remove playlist \"%s\" ?"
-msgstr ""
+msgstr "Yakin ingin menghapus daftar putar \"%s\"?"
 
 #: viewHandlers.js:3899 controls/playlistHeader.js:161 PlaylistManage.pas:915
 msgid ""
 "This playlist is a parent of other playlists. Deleting it will also remove "
 "its children. Are you sure you want to delete it?"
 msgstr ""
+"Daftar putar ini adalah induk dari daftar putar lain. Menghapus juga akan "
+"menghapus children. Yakin ingin menghapusnya?"
 
 #: viewHandlers.js:3902
 msgid "Are you sure you want to remove %d selected playlists ?"
-msgstr ""
+msgstr "Yakin ingin menghapus %d daftar putar yang dipilih ?"
 
 #. #15926 - S4
 #. to not initiate too many stream url requests (would result in too many download threads)
 #: viewHandlers.js:4196 helpers/mediaSync.js:3211
 msgid "Copying to %s:"
-msgstr ""
+msgstr "Menyalin ke %s:"
 
 #. to not notify less often and improve performance for thousands of tracks
 #: viewHandlers.js:4198 MediaManage.pas:4239 MediaManage.pas:4326
 msgid "Moving to %s:"
-msgstr ""
+msgstr "Memindahkan ke %s:"
 
 #. to refresh also the drag from area (if not refreshed automatically)
 #: viewHandlers.js:4261
 msgid "Do you really want to move '%s'?"
-msgstr ""
+msgstr "Anda yakin ingin memindahkan '%s'?"
 
 #: viewHandlers.js:4263
 msgid "Do you really want to copy '%s'?"
-msgstr ""
+msgstr "Anda yakin ingin menyalin '%s'?"
 
 #: viewHandlers.js:4269
 msgid "Copy Library content only"
-msgstr ""
+msgstr "Hanya Salin konten Pustaka"
 
 #: viewHandlers.js:4273
 msgid "Copy all content"
-msgstr ""
+msgstr "Salin semua konten"
 
 #: viewHandlers.js:4281
 msgid "Move Library content only"
-msgstr ""
+msgstr "Hanya pindahkan konten Pustaka"
 
 #: viewHandlers.js:4285
 msgid "Move all content"
-msgstr ""
+msgstr "Pindahkan semua konten"
 
 #. it's list
 #: viewHandlers.js:4402
 msgid "&Unsubscribe"
-msgstr ""
+msgstr "&Berhenti berlangganan"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. this._playlist.deleteAsync(); // remove newly created playlist when there was no edit change (item 3a in #13530)
@@ -2437,16 +2464,16 @@ msgstr ""
 #: dialogs/dlgPodcastUnsubscribe.js:6 dialogs/dlgPodcastUnsubscribe.js:17
 #: dialogs\dlgPodcastUnsubscribe.html:15
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Berhenti berlangganan"
 
 #: viewHandlers.js:4523
 msgid "Unsubscribed"
-msgstr ""
+msgstr "Sudah berhenti berlangganan"
 
 #. assignment to tracklist
 #: viewHandlers.js:4574 viewHandlers.js:7140
 msgid "Are you sure you want to remove \"%s\" ?"
-msgstr ""
+msgstr "Yakin ingin menghapus \"%s\" ?"
 
 #. e.g. db folders
 #. requiredColumns: 'playOrder',
@@ -2456,58 +2483,58 @@ msgstr ""
 #: viewHandlers.js:5195 viewHandlers.js:7595
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:275
 msgid "folder"
-msgstr ""
+msgstr "folder"
 
 #: viewHandlers.js:4592 controls/podcastSubscribeTutorial.js:23
 msgid "Podcast Directories"
-msgstr ""
+msgstr "Direktori Siniar"
 
 #: viewHandlers.js:4607
 msgid "Unplayed"
-msgstr ""
+msgstr "Belum diputar"
 
 #. 1500 ms (as 'commonChange' is called every 1000 ms during scan/edits)
 #. folder, library, playlist, nowplaying, device
 #: viewHandlers.js:4707 dialogs/dlgDeleteConfirm.js:15
 msgid "Are you sure you want to permanently delete "
-msgstr ""
+msgstr "Yakin ingin menghapus secara permanen "
 
 #: viewHandlers.js:4709
 msgid "selected folders"
-msgstr ""
+msgstr "Folder yang dipilih"
 
 #: viewHandlers.js:4716
 msgid "Are you sure you want to move the selected folders to the recycle bin?"
-msgstr ""
+msgstr "Yakin ingin memindahkan folder yang dipilih ke recycle bin?"
 
 #: viewHandlers.js:4718
 msgid "Are you sure you want to move the folder \"%s\" to the recycle bin?"
-msgstr ""
+msgstr "Yakin ingin memindahkan folder \"%s\" ke recycle bin?"
 
 #: viewHandlers.js:5032
 msgid "Are you sure you want to remove \"%s\"?"
-msgstr ""
+msgstr "Yakin ingin menghapus \"%s\"?"
 
 #: viewHandlers.js:5035
 msgid "Are you sure you want to remove %d selected items?"
-msgstr ""
+msgstr "Yakin ingin memghapus item %d yang dipilih?"
 
 #. to get fresh tracklist on F5 (view.refresh)
 #: viewHandlers.js:5073 viewHandlers.js:5486 ResStrings.pas:432
 msgid "All files"
-msgstr ""
+msgstr "Semua berkas"
 
 #: viewHandlers.js:5080
 msgid "All videos"
-msgstr ""
+msgstr "Semua video"
 
 #: viewHandlers.js:5086 FormatsManage.pas:4480 FormatsManage.pas:4493
 msgid "video"
-msgstr ""
+msgstr "video"
 
 #: viewHandlers.js:5159 viewHandlers.js:5409
 msgid "Are you sure you want to remove playlist \"%s\" from %s?"
-msgstr ""
+msgstr "Yakin ingin menghapus daftar putar \"%s\" dari %s?"
 
 #: viewHandlers.js:5162 viewHandlers.js:5412
 msgid "Are you sure you want to remove %d selected playlists from %s?"
@@ -2881,11 +2908,11 @@ msgstr ""
 
 #: controls/albumViewHeader.js:153 controls/artistViewHeader.js:100
 msgid "Update properties"
-msgstr ""
+msgstr "Memperbarui properti"
 
 #: controls/albumViewHeader.js:177
 msgid "Release"
-msgstr ""
+msgstr "Rilis"
 
 #: controls/albumViewHeader.js:204 controls/artistViewHeader.js:121
 #: controls/seriesViewHeader.js:146 controls/nowPlaying/artistBio.js:80
