@@ -13,7 +13,7 @@
     <string name="no_track_selected">Inga spår valda</string>
     <string name="media_synchronization">Wi-Fi sync</string>
     <string name="sync_server">Synkserver</string>
-    <string name="upnp_download_directory">Nedladdningskatalog</string>
+    <string name="download_directory">Nedladdningskatalog</string>
     <string name="upnp_download_directory_summary">Spara filer till: %1$s</string>
     <string name="sync_now_anyway">Synka nu oavsett</string>
     <string name="sync_now">Synka nu</string>
@@ -79,7 +79,7 @@
     <string name="initializing">Initialiserar</string>
     <string name="database_initialization">Databasinitiering…</string>
     <string name="initializing_message">Synkronisering startar…</string>
-    <string name="analyzing_details">Analyserar synkroniseringslista…</string>
+    <string name="analyzing_details">Analyserar synkroniseringslista</string>
     <string name="pairing">Matchar nya filer</string>
     <string name="pairing_details">Kontrollerar om nya filer finns…</string>
     <string name="pairing_">Parkopplar…</string>
@@ -177,12 +177,12 @@
     <string name="classical_music">Klassisk musik</string>
     <string name="tv">TV</string>
     <string name="music_video">Musikvideo</string>
-    <string name="path">"Sökväg: "</string>
-    <string name="length">"Längd: "</string>
-    <string name="last_played">"Senast spelad: "</string>
+    <string name="path">Sökväg</string>
+    <string name="length">Längd</string>
+    <string name="last_played">Senast spelad</string>
     <string name="playcount">Spelad</string>
     <string name="skipcount">Överhoppad</string>
-    <string name="size">"Storlek: "</string>
+    <string name="size">Storlek</string>
     <string name="release_date">Utgivningsdatum</string>
     <string name="artists_label">Artist(er)</string>
     <string name="waiting_for_response">Väntar på fjärrserver…</string>
@@ -318,7 +318,7 @@
     <string name="get_notified_description">Tillåt aviseringar för bakgrundsprocesser (avslagen)</string>
     <string name="skip_sync_review_description">Hoppa över dialog för granskning innan synkronisering. Slå av inställningen om du vill justera synkingsinställningarna före varje synkning.</string>
     <string name="synchronization_terminated">Synkronisering avbruten.</string>
-    <string name="server_inaccessible_searching">Server ej tillgänglig. Söker…</string>
+    <string name="server_inaccessible">Server ej tillgänglig.</string>
     <string name="server_not_responding">Server svarar inte</string>
     <string name="connection_failed_hint">Ingen kontakt med servern (försök att starta om servern och kör konfigurationsguiden för synkronisering igen)</string>
     <string name="media_not_ready_message">Ett oväntat fel inträffade vid autokonvertering av spår.</string>
@@ -378,8 +378,6 @@
     <string name="send_link_mmw_message">"För att synka MediaMonkey för Android måste du installera en MediaMonkey-synkserver/-skrivbordsapp. Se mer info på: "</string>
     <string name="lyrics_search_auto">Slå upp saknad sångtext</string>
     <string name="lyrics_search_auto_summary">Hitta saknad sångtext medans stycket spelas.</string>
-    <string name="lookup_update_database">Uppdatera databas</string>
-    <string name="lookup_update_database_summary">Uppdatera databasen med hämtat innehåll.</string>
     <string name="searching_">Söker…</string>
     <string name="edit">Redigera</string>
     <string name="personalize">Konfigurera noder</string>
@@ -445,10 +443,10 @@
     <string name="you_need_to_update_pro_version">Var god uppdatera MediaMonkey Pro till version %1$s eller senare för att låsa upp alla extra funktioner.</string>
     <string name="media_artists">Spårartist</string>
     <string name="continue_">Fortsätt</string>
-    <string name="preparing_tracks_for_deletion">Förebereder spår för borttagning…</string>
-    <string name="preparing_tracks_to_upload">Förbereder spår för uppladdning…</string>
-    <string name="preparing_download">Förbereder nedladdning…</string>
-    <string name="syncing_playlists">Synkroniserar spellista…</string>
+    <string name="preparing_tracks_for_deletion">Förebereder spår för borttagning</string>
+    <string name="preparing_tracks_to_upload">Förbereder spår för uppladdning</string>
+    <string name="preparing_download">Förbereder nedladdning</string>
+    <string name="syncing_playlists">Synkroniserar spellista</string>
     <string name="directory_is_not_included_in_sync_path">Filen måste läggas in i biblioteket för att kunna utföra denna åtgärd.</string>
     <string name="scan_the_folder_to_the_library">Skanna mappen och lägg till i biblioteket?</string>
     <string name="send_me_copy_of_id">Spara en kopia av logg ID:</string>
@@ -632,7 +630,7 @@
     <string name="upnp_category">Universal Plug and Play (UPnP)</string>
     <string name="save">Spara</string>
     <string name="search_alternate">Sök alternativ</string>
-    <string name="lookup">Slå upp information</string>
+    <string name="lookup_information">Slå upp information</string>
     <string name="choose_library_folders_title">Välj biblioteksmappar</string>
     <string name="choose_library_folders_details">Välj vilka mappar som ska skannas.</string>
     <string name="choose_library_folders_details_with_warning">Välj vilka mappar som ska skannas och rätta till åtkomstbehörigheterna.</string>
@@ -880,7 +878,7 @@
     <string name="storage_permission_message_denied_completely">MediaMonkey kräver åtkomst till mediefiler för att fungera. För att använda MediaMonkey, gå till ansökningsdetaljerna och bevilja behörigheten manuellt. Förfrågan nekades tyvärr tidigare och då måste du göra så.</string>
     <string name="resume_playback">Återuppta uppspelning</string>
     <string name="external_storage_app_all_files_denied_title">OS-inställningar</string>
-    <string name="external_storage_app_all_files_denied_solution">För att lösa detta: \n\n 1 Tryck på \'Konfigurera…\' för att öppna behörighetsinställningarna \"Alla filer\". \n\n 2 Hitta \"Extern lagring\" i applistan och aktivera den (om den inte finns i listan trycker du på \"⋮\" &gt; \"Visa systemappar\").</string>
+    <string name="external_storage_app_all_files_denied_solution">För att lösa detta: \n\n 1 Tryck på \"Konfigurera...\" för att öppna behörighetsinställningarna \"Alla filer\". \n\n 2 Hitta \"Extern lagring\" i applistan och aktivera den (om den inte finns i listan trycker du på \"⋮\" &gt; \"Visa systemappar\").</string>
     <string name="more_info">Mer information</string>
     <string name="no_file_manager_to_grant_access">Det finns ingen filhanterare installerad som kan bevilja mappåtkomst.\nVar god installera sådan från Google.</string>
     <string name="port">Port</string>
@@ -922,8 +920,26 @@
     <string name="reset_to_default">Återställ till standard</string>
     <string name="playback_engine_title">Uppspelningsmotor</string>
     <string name="native_playback_engine">Ursprunglig</string>
-    <string name="bottom_sheet_action_mode">Visa kontextmenyknapp</string>
+    <string name="bottom_sheet_action_mode">Visa kontextmeny längst ned</string>
     <string name="bottom_sheet_action_mode_summary">Visa kontextmenyn längst ned istället för högst upp.</string>
     <string name="album_grid">Albumrutnät</string>
-    <string name="try_restarting_server_and_retry">Prova att starta om servern och försök sedan igen.</string>
+
+    <string name="added">Tillagd</string>
+    <string name="apply_to_all_files_in_the_album_series">Tillämpa på alla filer i albumet/serien</string>
+    <string name="basic">Elementärt</string>
+    <string name="browse">Bläddra</string>
+    <string name="directors_label">Regissörer</string>
+    <string name="disk_num">Skiva #</string>
+    <string name="episode_num">Avsnitt #</string>
+    <string name="file">fil</string>
+    <string name="file_folder">Filsökväg</string>
+    <string name="lookup">Slå upp</string>
+    <string name="lookup_image">Slå upp bild</string>
+    <string name="lookup_lyrics">Sök sångtext</string>
+    <string name="modified_timestamp">Datumstämpel</string>
+    <string name="multiple_files_selected">Flera filer valda</string>
+    <string name="season_num">Säsong #</string>
+    <string name="stored_in_tag">Lagrad i ID3-taggen</string>
+    <string name="track_num">Spår #</string>
+    <string name="track_volume">Spårljudstyrka</string>
 </resources>

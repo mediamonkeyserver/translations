@@ -355,7 +355,7 @@
   <string name="download">Stáhnout</string>
     <string name="downloaded">Staženo</string>
     <string name="downloading">Stahuji</string>
-    <string name="upnp_download_directory">Složka pro stahování</string>
+    <string name="download_directory">Složka pro stahování</string>
     <string name="downloading_playlists_failed">Stahování playlistů se nezdařilo</string>
     <string name="upnp_download_directory_summary">Uložit soubory do: %1$s</string>
     <string name="downloading_failed">Stahování skladeb se nezdařilo</string>
@@ -430,7 +430,7 @@
     <string name="verifying_">Ověřování…</string>
     <string name="database_initialization">Inicializace databáze…</string>
     <string name="analyzing">Prozkoumávám</string>
-    <string name="analyzing_details">Prozkoumávám seznam skladeb…</string>
+    <string name="analyzing_details">Prozkoumávám seznam synchronizace</string>
     <string name="please_wait_">Čekejte prosím…</string>
     <string name="loading">Načítám…</string>
     <string name="processing_tracks">Zpracovávám skladby…</string>
@@ -439,9 +439,9 @@
     <string name="something_in_progress">Probíhá úloha na pozadí</string>
     <!-- ** Preparing -->
   <string name="preparing_">Připravuje se…</string>
-    <string name="preparing_tracks_for_deletion">Připravuji skladby pro mazání…</string>
-    <string name="preparing_tracks_to_upload">Připravuji skladby k odeslání…</string>
-    <string name="preparing_download">Připravuji stahování…</string>
+    <string name="preparing_tracks_for_deletion">Připravuji skladby pro mazání</string>
+    <string name="preparing_tracks_to_upload">Připravuji skladby k odeslání</string>
+    <string name="preparing_download">Připravuji stahování</string>
     <!-- Termination status message when the user cancels an ongoing operation e.g. sync -->
   <string name="cancelling">Přerušuji…</string>
     <!-- Processing finished -->
@@ -626,7 +626,7 @@
     <string name="uploading_metadata">Odesílám metadata na server…</string>
     <string name="downloading_metadata">Stahuji metadata ze serveru…</string>
     <string name="getting_desync_media_to_delete">Příprava seznamu souborů k odstranění…</string>
-    <string name="syncing_playlists">Synchronizace playlistů…</string>
+    <string name="syncing_playlists">Synchronizace playlistů</string>
     <!-- * Notification during sync -->
   <string name="confirm_dialog_notification_title">Potvrďte aktualizace a mazání</string>
     <string name="confirm_dialog_notification_message">Kliknutím zobrazíte potvrzovací dialog…</string>
@@ -758,7 +758,7 @@
     <string name="skipped_x_track_unsupporeted_by_receiver">Přeskakuji %1$s. Nepodporováno přijímačem.</string>
     <string name="skipping_tracks_missing_codec">Přeskakuji skladby (chybějící kodek)</string>
     <string name="unsupported_format">Nepodporovaný formát</string>
-    <string name="server_inaccessible_searching">Server je nedostupný. Vyhledávám…</string>
+    <string name="server_inaccessible">Server je nedostupný.</string>
     <string name="media_monkey_player">Přehrávač MediaMonkey</string>
     <string name="local_renderer">Místní přehrávač</string>
     <!-- Action button to Lock the UI to prevent accidental button presses -->
@@ -832,12 +832,9 @@
     <string name="searching_">Vyhledávám…</string>
     <string name="search_on_server">Hledat na serveru…</string>
     <string name="search_result">Výsledek vyhledávání</string>
-    <string name="lookup">Dohledávání informací</string>
+    <string name="lookup_information">Dohledávání informací</string>
     <string name="lyrics_search_auto">Vyhledávat chybějící texty písní</string>
     <string name="lyrics_search_auto_summary">Vyhledat chybějící texty písní při přehrávání skladby.</string>
-    <string name="lookup_update_database">Aktualizovat databázi</string>
-    <!-- preference title -->
-  <string name="lookup_update_database_summary">Aktualizovat databázi nalezeným obsahem.</string>
     <string name="search_settings_description">Interpreti, alba, skladby a videa</string>
     <string name="voice_search">Hlasové vyhledávání</string>
     <string name="cant_find_x">Nenalezeno \"%1$s\"</string>
@@ -846,12 +843,12 @@
     <string name="original">Původní</string>
     <!-- * Properties -->
   <string name="properties">Vlastnosti</string>
-    <string name="path">"Cesta: "</string>
-    <string name="length">"Délka: "</string>
-    <string name="last_played">"Naposledy hráno: "</string>
+    <string name="path">Cesta</string>
+    <string name="length">Délka</string>
+    <string name="last_played">Naposledy hráno</string>
     <string name="playcount">Hráno</string>
     <string name="skipcount">Přeskočeno</string>
-    <string name="size">"Velikost: "</string>
+    <string name="size">Velikost</string>
     <string name="release_date">Datum vydání </string>
     <string name="multiple_file_types_selected">Vybráno více typů</string>
     <string name="compare_atributes_">Porovnání atributů…%1$s</string>
@@ -1174,4 +1171,41 @@
     <string name="may_decrease_performance">Může snížit výkon</string>
     <string name="playback_engine_title">Přehrávací engine</string>
     <string name="native_playback_engine">Nativní</string>
+
+  <string name="lookup_image">Vyhledat obrázek</string>
+  <string name="lookup_lyrics">Vyhledat text</string>
+  <string name="browse">Procházet</string>
+  <string name="apply_to_all_files_in_the_album_series">Použít na všechny soubory v albu/sérii</string>
+
+
+  <string name="removed">Ostraněno</string>
+  <string name="basic">Základní</string>
+
+  <string name="disk_num">Č. disku</string>
+  <string name="track_num">Č. skladby</string>
+  <string name="added">Přidáno</string>
+  <string name="modified_timestamp">Modifikováno</string>
+  <string name="directors_label">Režisér</string>
+  <string name="season_num">Sezóna č.</string>
+  <string name="episode_num">Epizoda č.</string>
+  <string name="overrides_existing_albumart_jpg">Přepíše existující albumart.jpg</string>
+  <string name="lookup_criteria">Vyhledávací kritéria</string>
+  <string name="track_volume">Hlasitost skladby</string>
+
+  <string name="saving_items">Ukládání položek</string>
+  <string name="downloading_items">Stahování položek</string>
+  <string name="show_unavailable_servers">Zobrazit nedostupné servery</string>
+  <string name="hide_unavailable_servers">Skrýt nedostupné servery</string>
+  <string name="lookup_auto_confirm">Automaticky ukládat změny</string>
+  <string name="lookup_auto_confirm_summary">Uloží změnu bez potvrzení.</string>
+  <string name="url_is_reachable">URL je dostupná</string>
+  <string name="test_url">Otestovat URL</string>
+  <string name="url_is_unreachable">URL je nedostupná</string>
+  <string name="stored_in_tag">Uloženo v tagu</string>
+  <string name="no_playlist">Žádný playlist</string>
+  <string name="multiple_files_selected">Vybráno více souborů</string>
+  <string name="lookup">Vyhledat</string>
+  <string name="no_lookup_criteria">Chybějící vyhledávací kritéria</string>
+  <string name="copied">Zkopírováno</string>
+
 </resources>
