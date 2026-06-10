@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: MediaMonkey 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-26 13:26\n"
-"PO-Revision-Date: 2025-08-28 15:50+0000\n"
+"PO-Revision-Date: 2026-06-11 02:54+0000\n"
 "Last-Translator: 大眼仔旭 <wcxu21@126.com>\n"
 "Language-Team: Chinese (Simplified Han script) <http://"
 "translations.mediamonkey.com/projects/mediamonkey-5-x/application/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. Note: Added in 5.0.2
@@ -6582,14 +6582,13 @@ msgstr "导出已订阅的播客"
 msgid ""
 "MediaMonkey looks up images from various websites. Please choose to accept "
 "or reject cookies for images to be looked up."
-msgstr ""
-"MediaMonkey 从各种网站查找图片。请选择接受或拒绝要查找图片的网站Cookie。"
+msgstr "MediaMonkey 会从各类网站检索图片。请选择接受或拒绝用于检索图片的 Cookie。"
 
 #. save new state with settingschanged event
 #. LS: following changed to toast message because of #19274
 #: Scripts/lastFM/lastFMTools.js:213 CDDBUtils.pas:258
 msgid "There was an error while connecting to "
-msgstr "连接到时出错 "
+msgstr "连接时出错 "
 
 #. not cleared yet
 #: Scripts/musicBrainz/helpers/musicBrainz.js:1584
@@ -6606,7 +6605,7 @@ msgstr "下载内容时出错。点击重试。"
 msgid ""
 "No matching content online. Please verify the spelling of existing metadata "
 "or edit the entry in "
-msgstr "在线没有匹配内容。请验证现有元数据的拼写或编辑条目。 "
+msgstr "网上没有匹配的内容。请核实现有元数据的拼写或编辑条目。 "
 
 #: Scripts/musicBrainz/helpers/searchMusicbrainz.js:58 BaseMedia.pas:16757
 #: Filters.pas:2767 ResStrings.pas:392
@@ -6625,7 +6624,7 @@ msgstr "统计"
 #: Scripts/statistics/actions_add.js:9
 #: Scripts/statistics/dialogs/dlgStatistics.js:93
 msgid "MediaMonkey Library Statistics"
-msgstr "MediaMonkey 库统计"
+msgstr "MediaMonkey 媒体库统计"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:171
 msgid "Totals"
@@ -6635,7 +6634,7 @@ msgstr "总计"
 #: Scripts/statistics/dialogs/dlgStatistics.js:323 QueryManage.pas:5056
 #: QueryManage.pas:5057 QueryManage.pas:5058 QueryManage.pas:5059
 msgid "Played"
-msgstr "播放的"
+msgstr "已播放"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:180
 #: Scripts/statistics/dialogs/dlgStatistics.js:333
@@ -6649,11 +6648,11 @@ msgstr "文件大小"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:322
 msgid "Averages"
-msgstr "平均数"
+msgstr "平均值"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:324
 msgid "Tracks per Artist"
-msgstr "每位艺术家曲目数"
+msgstr "每位艺人的曲目数"
 
 #: Scripts/statistics/dialogs/dlgStatistics.js:325
 msgid "Tracks per Album"
@@ -6678,32 +6677,32 @@ msgstr "每天播放曲目数"
 #. Top 10 Artists
 #: Scripts/statistics/dialogs/dlgStatistics.js:340
 msgid "Top %d Artists"
-msgstr "前 %d 艺术家"
+msgstr "排名前 %d 位的艺术家"
 
 #. Top 10 Artists Played
 #: Scripts/statistics/dialogs/dlgStatistics.js:373
 msgid "Top %d Artists played"
-msgstr "前 %d 艺术家已播放"
+msgstr "播放量排名前 %d 位的艺术家"
 
 #. Top 10 Albums
 #: Scripts/statistics/dialogs/dlgStatistics.js:402
 msgid "Top %d Albums"
-msgstr "前 %d 专辑"
+msgstr "排名前 %d 的专辑"
 
 #. Top 10 Albums played
 #: Scripts/statistics/dialogs/dlgStatistics.js:433
 msgid "Top %d Albums played"
-msgstr "前 %d 专辑已播放"
+msgstr "播放次数最多的前 %d 张专辑"
 
 #. Top 10 Genres
 #: Scripts/statistics/dialogs/dlgStatistics.js:463
 msgid "Top %d Genres"
-msgstr "前 %d 流派"
+msgstr "排名前 %d 的流派"
 
 #. Top 10 genres played
 #: Scripts/statistics/dialogs/dlgStatistics.js:490
 msgid "Top %d Genres played"
-msgstr "前 %d 流派已播放"
+msgstr "播放量最高的前 %d 种流派"
 
 #. ratings
 #: Scripts/statistics/dialogs/dlgStatistics.js:516
@@ -6735,8 +6734,8 @@ msgid ""
 "This will create a new sync profile for this drive/folder so that you can "
 "sync files to this location as if it were a portable device."
 msgstr ""
-"这将为此驱动器/文件夹创建一个新的同步配置文件，以便您可以将文件同步到此位置，"
-"就像它是一个便携设备一样。"
+"这将为该驱动器或文件夹创建一个新的同步配置文件，使您能够像对待便携式设备一样"
+"，将文件同步到该位置。"
 
 #: Scripts/syncToFolder/helpers/mediaSync_add.js:231
 msgid "Sync root"
@@ -6763,38 +6762,38 @@ msgstr "搜索结果"
 #. url request failed, check for quota exceeded
 #: Scripts/youtube/helpers/youtubeHelper.js:61
 msgid "YouTube query failed: "
-msgstr "YouTube 查询失败: "
+msgstr "YouTube 查询失败： "
 
 #: AndroidDBHandler.pas:1216 AndroidDBHandler.pas:1218
 #: AndroidDBHandler.pas:1266 AndroidDBHandler.pas:1268
 #: MetadataStorageHandler.pas:1564 MetadataStorageHandler.pas:1565
 #: MetadataStorageHandler.pas:1626
 msgid "Problem while updating file %s: %s"
-msgstr "更新文件 %s 时出现问题: %s"
+msgstr "更新文件 %s 时出错：%s"
 
 #: AndroidDBHandler.pas:1326 AndroidDBHandler.pas:1328 Devices.pas:16032
 msgid "Problem while deleting file %s: %s"
-msgstr "删除文件 %s 时出现问题: %s"
+msgstr "删除文件 %s 时出错：%s"
 
 #: ArtistsManage.pas:1218 AutoOrganize.pas:1593
 msgid "All Genres"
-msgstr "所有的风格"
+msgstr "所有流派"
 
 #: AutoOrganize.pas:1567
 msgid "All Collections"
-msgstr "所有收藏"
+msgstr "所有系列"
 
 #: AutoOrganize.pas:1612
 msgid "All Playlists"
-msgstr "所有的播放列表"
+msgstr "所有播放列表"
 
 #: BackgroundStuff.pas:283
 msgid "%d files to be tagged"
-msgstr "%d 文件被定义标签"
+msgstr "待标记的 %d 个文件"
 
 #: BaseApp.pas:7849
 msgid "There are background processes running. Terminate them?"
-msgstr "有后台进程正在运行。终止它们？"
+msgstr "有后台进程正在运行。是否终止它们？"
 
 #. we don't know parent playlist id yet
 #: BaseMedia.pas:4257 Importers.pas:150 M3Umanage.pas:649 MP3Utils.pas:1603
@@ -6807,7 +6806,7 @@ msgstr "声道"
 
 #: BaseMedia.pas:4895 BaseMedia.pas:4967
 msgid "encrypted"
-msgstr "加密"
+msgstr "已加密"
 
 #. #-#-#-#-#  default.po (PACKAGE VERSION)  #-#-#-#-#
 #. show as decimal value : 1
@@ -6819,7 +6818,7 @@ msgstr "fps"
 
 #: BaseMedia.pas:15605
 msgid "%d database entries to be updated"
-msgstr "%d 数据库条目将被更新"
+msgstr "将更新 %d 条数据库记录"
 
 #: BaseMedia.pas:16114 Filters.pas:2825
 msgid "list"
@@ -6840,35 +6839,35 @@ msgstr "连接到 Freedb 时发生了一个错误: "
 
 #: CDDBUtils.pas:510 CDDBUtils.pas:985
 msgid "Retrieving result %d of %d"
-msgstr "检索结果 %d/%d"
+msgstr "正在获取第 %d 个结果（共 %d 个）"
 
 #: CDDBUtils.pas:761
 msgid "Opening connection"
-msgstr "打开连接"
+msgstr "正在打开连接"
 
 #: CDDBUtils.pas:777
 msgid "Cannot create connection."
-msgstr "不能创建连接."
+msgstr "无法建立连接。"
 
 #: CDDBUtils.pas:1327
 msgid "Updating media %s (%d of %d)"
-msgstr "更新媒体中 %s (%d of %d)"
+msgstr "正在更新媒体 %s（第 %d / %d 个）"
 
 #: CDDBUtils.pas:1844
 msgid "The media for the Freedb query is unavailable."
-msgstr "用于Freedb检索的媒体无法使用."
+msgstr "用于 Freedb 查询的介质不可用。"
 
 #: CDDBUtils.pas:1926
 msgid "Please select an Audio CD before requesting information from Freedb."
-msgstr "从Freedb要求信息之前, 请选择一张音乐CD."
+msgstr "在向 Freedb 请求信息之前，请选择一张音频 CD。"
 
 #: CDDBUtils.pas:1943
 msgid "Requesting information for %s (%d of %d)"
-msgstr "请求 %s 信息 (%d/%d)"
+msgstr "正在请求 %s 的信息（第 %d / %d 项）"
 
 #: CDDBUtils.pas:1991 CDDBUtils.pas:2016
 msgid "This Audio CD was not found in Freedb."
-msgstr "在Freedb未发现此音乐CD."
+msgstr "在 Freedb 中未找到此音频 CD。"
 
 #. not found
 #: CDUtils.pas:1468 CDUtils.pas:1471 CDUtils.pas:1474 CDUtils.pas:1481
@@ -6878,46 +6877,46 @@ msgstr "曲目 %s 验证失败"
 
 #: CDUtils.pas:1468
 msgid "(track isn't present in database)"
-msgstr "(曲目无法显示在媒体库)"
+msgstr "（数据库中不存在该曲目）"
 
 #: CDUtils.pas:1471
 msgid "(bad rip or the database has partial/inaccurate data)"
-msgstr "（错误的抓轨或数据库有部分/不准确的数据）"
+msgstr "（抓取质量差，或数据库数据不完整/不准确）"
 
 #: CDUtils.pas:1474
 msgid "(error parsing verification file)"
-msgstr "(文件无法解析)"
+msgstr "(解析验证文件时出错)"
 
 #: CDUtils.pas:1476
 msgid ""
 "Track %s verified with confidence number %d (number of people matched your "
 "rip)"
-msgstr "曲目 %s 以信任数目 %d 来验证 (符合你提取的人员数目)"
+msgstr "曲目 %s 已验证，置信度为 %d（匹配您所提取版本的用户数量）"
 
 #: CDUtils.pas:1481
 msgid "this CD doesn't exist in the database"
-msgstr "数据库中不存在此 CD"
+msgstr "这张 CD 在数据库中不存在"
 
 #: CDUtils.pas:1504
 msgid "Requesting data from AccurateRip.com database"
-msgstr "要求来自于 AccurateRip.com 数据库的数据"
+msgstr "正在向 AccurateRip.com 数据库请求数据"
 
 #. There was a jitter error
 #. we are not getting results for too long, ask user what to do...
 #: CDUtils.pas:1609 CDUtils.pas:1856
 msgid "Error ripping track"
-msgstr "错误提取曲目"
+msgstr "提取音轨时出错"
 
 #. track doesn't exist or is a data track
 #: CDUtils.pas:1706
 msgid "The CD-ROM unit %s: does not contain track number %d."
-msgstr "CD-ROM单元 %s: 没有包含曲目编号 %d."
+msgstr "CD-ROM 驱动器 %s: 不包含轨道号 %d。"
 
 #: CDUtils.pas:1897
 msgid ""
 "There were %d jitter errors while reading track %d. It is very likely that "
 "audio data is corrupt."
-msgstr "具有 %d 不稳定错误当读取光盘 %d. 它非常可能是音频数据受损导致."
+msgstr "读取轨道 %d 时发生了 %d 次抖动错误。音频数据很可能已损坏。"
 
 #: CDUtils.pas:1950
 msgid "Drive %s is currently in use."
@@ -6925,19 +6924,19 @@ msgstr "驱动器 %s 当前正在使用中。"
 
 #: Covers.pas:771
 msgid "Not specified"
-msgstr "不确定"
+msgstr "未指定"
 
 #: Covers.pas:772
 msgid "Cover (front)"
-msgstr "封面 (正面)"
+msgstr "封面（正面）"
 
 #: Covers.pas:773
 msgid "Cover (back)"
-msgstr "封面 (背面)"
+msgstr "封面（背面）"
 
 #: Covers.pas:774
 msgid "Leaflet Page"
-msgstr "活页"
+msgstr "宣传单页"
 
 #: Covers.pas:775
 msgid "Media Label"
@@ -6945,15 +6944,15 @@ msgstr "媒体标签"
 
 #: Covers.pas:776
 msgid "Lead Artist"
-msgstr "主要艺术家"
+msgstr "首席艺术家"
 
 #: Covers.pas:779
 msgid "Band"
-msgstr "乐团"
+msgstr "乐队"
 
 #: Covers.pas:782
 msgid "Recording Location"
-msgstr "录制的位置"
+msgstr "录音地点"
 
 #: Covers.pas:783
 msgid "During Recording"
@@ -6961,23 +6960,23 @@ msgstr "在录制当中"
 
 #: Covers.pas:784
 msgid "During Performance"
-msgstr "在效能表现中"
+msgstr "演出期间"
 
 #: Covers.pas:785
 msgid "Video Screen Capture"
-msgstr "视频截图"
+msgstr "视频屏幕捕获"
 
 #: Covers.pas:786
 msgid "Illustration"
-msgstr "插图"
+msgstr "插画"
 
 #: Covers.pas:787
 msgid "Band Logotype"
-msgstr "乐团标志"
+msgstr "乐队标志"
 
 #: Covers.pas:788
 msgid "Publisher Logotype"
-msgstr "发行者标志"
+msgstr "出版商标志"
 
 #: Covers.pas:1277
 msgid "Unsaved image"
@@ -6990,22 +6989,22 @@ msgstr "保存到标签"
 #. %s for image file name
 #: Covers.pas:1281
 msgid "Save to: %s"
-msgstr "保存到: %s"
+msgstr "保存到：%s"
 
 #: Covers.pas:1283
 msgid "Stored in tag"
-msgstr "存放在标签中"
+msgstr "存储在标签中"
 
 #. %s for image file name
 #: Covers.pas:1285
 msgid "Stored in %s"
-msgstr "存放在 %s"
+msgstr "存储在 %s"
 
 #: Covers.pas:3246
 msgid ""
 "All links to the image %s have been removed from the Library. Would you like "
 "to delete it from the drive as well?"
-msgstr "库中所有链接到图片 %s 的链接已被删除。您是否也要将其从驱动器中删除？"
+msgstr "指向图像 %s 的所有链接均已从媒体库中移除。您是否也想将其从存储空间中删除？"
 
 #. Get exclusive access to the DB
 #. VACUUM fails with "out of memory" exception on large databases (7 GB, 2.2 million of tracks)
@@ -7016,40 +7015,40 @@ msgstr "检查数据库结构"
 
 #: DatabaseManage.pas:1895
 msgid "The database seems to be corrupted. Attempt to fix it ?"
-msgstr "数据库似乎已损坏。尝试修复它 ?"
+msgstr "数据库似乎已损坏。尝试修复它？"
 
 #: DatabaseManage.pas:3186
 msgid "Do you really want to remove %d tracks from Virtual CD?"
-msgstr "您是否确定想要从虚拟CD中移除 %d 曲目?"
+msgstr "您真的要从 Virtual CD 中移除 %d 首曲目吗？"
 
 #: DatabaseManage.pas:3245
 msgid "Do you really want to remove %d previews?"
-msgstr "您是否真的要移除 %d 预览?"
+msgstr "您真的要移除 %d 个预览吗？"
 
 #: DatabaseManage.pas:3308
 msgid "Are you sure you want to remove %d file(s) from the Library?"
-msgstr "确定要从库中移除 %d 个文件吗？"
+msgstr "您确定要从媒体库中移除 %d 个文件吗？"
 
 #: DatabaseManage.pas:3309
 msgid "Are you sure you want to delete %d file(s)?"
-msgstr "确定要删除 %d 个文件吗？"
+msgstr "您确定要删除 %d 个文件吗？"
 
 #: DatabaseManage.pas:3331
 msgid "Removing file %s (%d of %d)"
-msgstr "移除文件 %s (%d of %d)"
+msgstr "正在删除文件 %s（第 %d 个，共 %d 个）"
 
 #: dblistutils.pas:1331
 msgid "%d of %d folders processed"
-msgstr "%d/%d 个文件夹已处理"
+msgstr "已处理 %d 个文件夹（共 %d 个）"
 
 #: dblistutils.pas:1620 UpNp.pas:6277 UPnPTreeHelper.pas:1911 WebUtils.pas:2050
 #: WebUtils.pas:2074
 msgid "Unknown Title"
-msgstr "未知的标题"
+msgstr "未知标题"
 
 #: dblistutils.pas:1622 UPnPTreeHelper.pas:1913
 msgid "Unknown Producer"
-msgstr "未知的制片"
+msgstr "未知制作人"
 
 #: dblistutils.pas:1623 UPnPTreeHelper.pas:1914
 msgid "Unknown Actor"
@@ -7057,23 +7056,23 @@ msgstr "未知演员"
 
 #: dblistutils.pas:1624
 msgid "Unknown Director"
-msgstr "未知的导演"
+msgstr "未知导演"
 
 #: dblistutils.pas:1625 UPnPTreeHelper.pas:1915
 msgid "Unknown Composer"
-msgstr "未知的作曲者"
+msgstr "未知作曲者"
 
 #: dblistutils.pas:1626 UPnPTreeHelper.pas:1916
 msgid "Unknown Conductor"
-msgstr "未知的指挥者"
+msgstr "未知指挥者"
 
 #: dblistutils.pas:1628
 msgid "Unknown Podcast"
-msgstr "未知的播客"
+msgstr "未知播客"
 
 #: dblistutils.pas:1631 UPnPTreeHelper.pas:1919
 msgid "Unknown Year"
-msgstr "未知的年份"
+msgstr "未知年份"
 
 #: dblistutils.pas:1632
 msgid "Unknown Rating"
@@ -7081,23 +7080,23 @@ msgstr "未知星级"
 
 #: dblistutils.pas:1633 UPnPTreeHelper.pas:1920
 msgid "Unknown Artwork"
-msgstr "未知的专辑图片"
+msgstr "未知专辑图像"
 
 #: dblistutils.pas:1634
 msgid "Inconsistent Artwork"
-msgstr "不一致的专辑图片"
+msgstr "不一致的专辑图像"
 
 #: dblistutils.pas:1635
 msgid "Multiple Artist Albums"
-msgstr "多重艺术家专辑"
+msgstr "群星合辑"
 
 #: dblistutils.pas:1636
 msgid "Ungrouped Multiple Artist Albums"
-msgstr "未分组的多艺术家专辑"
+msgstr "未分组的多位艺人专辑"
 
 #: dblistutils.pas:1639
 msgid "Dead Links"
-msgstr "失效的连结"
+msgstr "失效链接"
 
 #: dblistutils.pas:1641
 msgid "Unanalyzed Volume"
@@ -7109,15 +7108,15 @@ msgstr "未整理的文件"
 
 #: dblistutils.pas:1643
 msgid "DB / Tag mismatches"
-msgstr "数据库 / 标签不匹配"
+msgstr "数据库/标签不匹配"
 
 #: dblistutils.pas:1644
 msgid "Duplicate Titles"
-msgstr "重制标题"
+msgstr "重复标题"
 
 #: dblistutils.pas:1645
 msgid "Duplicate Titles/Artists"
-msgstr "重复的标题/艺术家"
+msgstr "重复标题/艺术家"
 
 #: dblistutils.pas:1647
 msgid "Unclassified Files"
@@ -7129,7 +7128,7 @@ msgstr "未知节拍"
 
 #: dblistutils.pas:1649
 msgid "Unknown Mood"
-msgstr "未知气氛"
+msgstr "未知情绪"
 
 #: dblistutils.pas:1650
 msgid "Unknown Occasion"
@@ -7144,11 +7143,11 @@ msgstr "未知品质"
 msgid ""
 "Your Library is being upgraded to the latest version. It can take up to "
 "several minutes..."
-msgstr "您的媒体库正在被更新到最新的版本. 它需要花上一些时间..."
+msgstr "您的媒体库正在升级至最新版本。此过程可能需要几分钟…"
 
 #: DBStructure.pas:276
 msgid "Updating to database version %d.%d.%d"
-msgstr "更新到数据库版本 %d.%d.%d"
+msgstr "正在更新至数据库版本 %d.%d.%d"
 
 #. BPS was added in the past, check a offer rescan
 #: DBStructure.pas:828
@@ -7156,13 +7155,14 @@ msgid ""
 "This version of MediaMonkey supports new tag(s) (%s). Would you like to "
 "rescan files now in order to read these tags?"
 msgstr ""
-"此版本的 MediaMonkey 支持新标签 (%s)。是否要立即重新扫描文件以读取这些标签？"
+"此版本的 MediaMonkey 支持新的标签 (%s)。您是否希望立即重新扫描文件以读取这些"
+"标签？"
 
 #: DBStructure.pas:971
 msgid ""
 "Library database %s can't be opened, would you like to create a new local "
 "Library?"
-msgstr "无法打开库数据库 %s，是否要创建一个新的本地库?"
+msgstr "无法打开库数据库 %s，您是否要创建一个新的本地库？"
 
 #: DBStructure.pas:2061 controls\deviceConfig\options\pnl_FileLocations.html:25
 msgid "Audiobook"
@@ -7175,19 +7175,19 @@ msgstr "最近新增的内容"
 #. "Added from {Device Title} on 2012-11-14"
 #: Devices.pas:3027
 msgid "Added from %s on %s"
-msgstr "从 %s 添加于 %s"
+msgstr "于 %s 从 %s 添加"
 
 #: Devices.pas:3758
 msgid "Remove '%s' entries from the Library?"
-msgstr "要从库中移除 '%s' 条目吗？"
+msgstr "从媒体库中移除“%s”条目？"
 
 #: Devices.pas:3763
 msgid "Delete downloaded content"
-msgstr "删除下载的内容"
+msgstr "删除已下载的内容"
 
 #: Devices.pas:3905
 msgid "Cannot remove directory %s."
-msgstr "无法移除目录 %s。"
+msgstr "无法删除目录 %s。"
 
 #: Devices.pas:5250 Settings.pas:1659
 msgid "Are you sure you want to reset this profile to its default settings?"
@@ -7195,15 +7195,15 @@ msgstr "确定要将此配置文件恢复到默认设置吗？"
 
 #: Devices.pas:8707
 msgid "The device '%s' cannot be stopped now as it appears to be in use."
-msgstr "设备 '%s' 目前无法停止，因为它似乎正在被使用。"
+msgstr "设备“%s”目前似乎正在使用中，因此无法停止。"
 
 #: Devices.pas:8708
 msgid "Problem Ejecting %s"
-msgstr "弹出 %s 出现问题"
+msgstr "弹出 %s 时出错"
 
 #: Devices.pas:10061
 msgid "\"%s\" is attempting to sync with the MediaMonkey Library over WiFi."
-msgstr "“%s” 试图通过 WiFi 与 MediaMonkey 库同步。"
+msgstr "“%s” 正在尝试通过 WiFi 与 MediaMonkey 媒体库同步。"
 
 #. Lib wasn't found, this is an unknown new device that wants a wireless sync with us, create library for the device
 #: Devices.pas:10080
@@ -7220,40 +7220,40 @@ msgid ""
 "MediaMonkey, it's recommended that you initially sync over USB to preserve "
 "your existing sync configuration."
 msgstr ""
-"%s 正试图第一次与 MediaMonkey 库同步。\n"
+"设备 %s 正在尝试首次与 MediaMonkey 库同步。\n"
 "\n"
 "\n"
 "\n"
-"注意：如果您之前使用旧版本的 MediaMonkey 同步此设备，建议您首先通过 USB 同"
-"步，以保留您现有的同步配置。"
+"注意：如果您之前已将此设备与早期版本的 MediaMonkey 同步过，建议您首次通过 "
+"USB 进行同步，以保留您现有的同步配置。"
 
 #: Devices.pas:10089
 msgid "No / I'll sync over USB instead"
-msgstr "不 / 我将通过 USB 同步"
+msgstr "否 / 我改用 USB 同步"
 
 #. capacity is unknown (e.g. Google Music)
 #: Devices.pas:11490
 msgid "Needed: %s, available: %s, to be freed: %s"
-msgstr "需要: %s， 可用: %s， 将被释放: %s"
+msgstr "所需：%s，可用：%s，待释放：%s"
 
 #: Devices.pas:11493
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to clear enough space by deleting existing files?"
 msgstr ""
-"设备上没有足够的空间来同步选定的文件。您是否希望通过删除现有文件来腾出足够的"
-"空间？"
+"设备上没有足够的空间来同步所选文件。您是否希望通过删除现有文件来腾出足够的空"
+"间？"
 
 #. Clear tracks on the device
 #: Devices.pas:11509
 msgid ""
 "There isn't enough space on the device to sync selected files. Would you "
 "like to continue?"
-msgstr "设备上没有足够的空间来同步选定的文件。您希望继续吗？"
+msgstr "设备上没有足够的空间来同步所选文件。您要继续吗？"
 
 #: Devices.pas:12050 FileUtils.pas:836 ResStrings.pas:568
 msgid "Insufficient space available."
-msgstr "没有足够的空间可用."
+msgstr "可用空间不足。"
 
 #: Devices.pas:12052 Devices.pas:12373 Devices.pas:16154 Devices.pas:16163
 msgid "Problem while copying file %s to %s"
@@ -7262,12 +7262,12 @@ msgstr "问题来自于复制文件 %s 到 %s"
 #. e.g. to know it when the tracks are part of a playlist that need to be modified (e.g. on MMS)
 #: Devices.pas:13006
 msgid "File %s is not supported by the device"
-msgstr "这个设备没有支持文件 %s"
+msgstr "设备不支持文件 %s"
 
 #. no track being converted, see the tracks being downloaded from cloud
 #: Devices.pas:15475
 msgid "downloading"
-msgstr "下载中"
+msgstr "正在下载"
 
 #. track has failed to convert
 #: Devices.pas:15926
@@ -7276,42 +7276,44 @@ msgstr "文件 %s 转换失败"
 
 #: ErrHandlers.pas:116
 msgid "File %s is read-only. Do you want to change it?"
-msgstr "文件 %s 是只读的. 您是否要改变它?"
+msgstr "文件 %s 是只读的。您要更改它吗？"
 
 #: ErrHandlers.pas:130
 msgid "The read-only attribute cannot be removed from the file %s."
-msgstr "只读的属性无法被移除从文件 %s."
+msgstr "无法从文件 %s 移除只读属性。"
 
 #: ErrHandlers.pas:137
 msgid "There was a problem updating the tag for file %s."
-msgstr "在更新标签给文件 %s 时发生了一个问题."
+msgstr "更新文件 %s 的标签时出现问题。"
 
 #: ErrHandlers.pas:144
 msgid "File %s already exists. Do you want to replace it?"
-msgstr "文件 %s 已经存在. 您是否要取代它?"
+msgstr "文件 %s 已存在。您要替换它吗？"
 
 #: ErrHandlers.pas:152
 msgid ""
 "Some components of filename %s exceed the 64 character limit for CDs. "
 "Continue renaming without editing filenames?"
-msgstr "部分文件名 %s 超过CD的64字符限制. 您是否不要编辑档名而要继续此更名?"
+msgstr ""
+"文件名 %s 的某些部分超过了 CD 格式 64 字符的限制。是否继续重命名而不修改文件"
+"名？"
 
 #: ErrHandlers.pas:160
 msgid ""
 "Cannot delete %s. Access is denied. The file may be in use or you may not "
 "have access rights."
-msgstr "不能删除 %s. 访问被拒绝. 文件可能正被使用或您没有访问权限."
+msgstr "无法删除 %s。拒绝访问。该文件可能正在被使用，或者您没有访问权限。"
 
 #: ErrHandlers.pas:168 FileUtils.pas:836
 msgid "Problem with copying file %s to %s."
-msgstr "问题来自于复制文件 %s 到 %s."
+msgstr "将文件 %s 复制到 %s 时出错。"
 
 #: ErrHandlers.pas:176
 msgid ""
 "File %s cannot be opened:\n"
 "%s"
 msgstr ""
-"文件 %s 无法开启:\n"
+"无法打开文件 %s：\n"
 "%s"
 
 #. e.g. for the confidence numbers after AccurateRip verification (#17023 - item 3)
@@ -7323,13 +7325,13 @@ msgstr "结果"
 msgid ""
 "One or more tracks could not be ripped or verified. Select track(s) you wish "
 "to retry:"
-msgstr "无法抓取或验证一条或多条曲目。选择您希望重试的曲目："
+msgstr "无法翻录或验证一个或多个音轨。请选择您希望重试的音轨："
 
 #: ErrHandlers.pas:389
 msgid ""
 "Track(s) have been verified against AccurateRip.com database with the "
 "following results:"
-msgstr "曲目已经由AccurateRip.com数据库验证后产生以下结果:"
+msgstr "已根据 AccurateRip.com 数据库核对曲目，结果如下："
 
 #: ErrHandlers.pas:390
 msgid "Ripping results"
@@ -7338,7 +7340,7 @@ msgstr "提取结果"
 #. #18222
 #: ErrHandlers.pas:403
 msgid "There was a problem leveling volume for the following track(s):"
-msgstr "为以下曲目调整音量时出现问题："
+msgstr "以下曲目的音量均衡处理出现问题："
 
 #. #18222
 #: ErrHandlers.pas:416
@@ -7348,22 +7350,22 @@ msgstr "处理以下曲目的音频时出现问题："
 #. #18222
 #: ErrHandlers.pas:430
 msgid "There was a problem converting the following file(s):"
-msgstr "转换以下的文件时, 发生了一个问题:"
+msgstr "转换以下文件时出现问题："
 
 #. #18222
 #: ErrHandlers.pas:444 Extensions.pas:946 MediaMonkeyApp.pas:4074
 msgid "There was a problem downloading the following file(s):"
-msgstr "下载以下的文件时, 发生了一个问题:"
+msgstr "下载以下文件时出现问题："
 
 #. #18222
 #: ErrHandlers.pas:458
 msgid "There was a problem scanning the following item(s):"
-msgstr "扫描以下的项目时, 发生了一个问题:"
+msgstr "扫描以下项目时出现问题："
 
 #. #18222
 #: ErrHandlers.pas:471
 msgid "There was a problem synchronizing the following item(s):"
-msgstr "同步以下的项目时, 发生了一个问题:"
+msgstr "同步以下项目时出现问题："
 
 #. seconds
 #. splitting or decoding failed
@@ -7372,20 +7374,20 @@ msgstr "同步以下的项目时, 发生了一个问题:"
 #: ErrHandlers.pas:484 FormatsHandler.pas:3400 FormatsHandler.pas:3411
 #: GeneralDecoder.pas:437
 msgid "MediaMonkey is unable to decode this format."
-msgstr "MediaMonkey无法读取这个格式."
+msgstr "MediaMonkey 无法解码此格式。"
 
 #: ErrHandlers.pas:496
 msgid ""
 "The trial version of the %s is limited to a 30-day trial period. For "
 "unrestricted use please upgrade to MediaMonkey Gold. Do you want to upgrade?"
 msgstr ""
-"%s 的试用版限制为 30 天的试用期。如需无限制使用，请升级到 MediaMonkey Gold。"
-"您想升级吗？"
+"%s 的试用版仅限 30 天试用期。如需无限制使用，请升级至 MediaMonkey Gold。您想"
+"要升级吗？"
 
 #. #18222
 #: ErrHandlers.pas:509
 msgid "There was a problem organizing the following file(s):"
-msgstr "组织以下文件时出现问题："
+msgstr "整理以下文件时出现问题："
 
 #: ExceptionHandler.pas:293
 msgid "Restart in Safe mode"
@@ -7403,11 +7405,11 @@ msgstr "调用堆栈"
 
 #: ExceptionHandler.pas:501
 msgid "There was a runtime error in Addon"
-msgstr "Addon 发生运行时错误"
+msgstr "插件中发生了运行时错误"
 
 #: ExceptionHandler.pas:501
 msgid "Do you want to disable this addon?"
-msgstr "要禁用此插件吗？"
+msgstr "您想禁用此插件吗？"
 
 #: Extensions.pas:971
 msgid "Invalid Addon: only valid for MediaMonkey 4.x"
@@ -7417,19 +7419,19 @@ msgstr "无效的插件：仅适用于 MediaMonkey 4.x"
 #. it happened to me on Win 8.1 that the file was created, but was not filled yet, therefore the sleep here (#11495)
 #: Extensions.pas:1101 UpNp.pas:11955
 msgid "%s was successfully installed."
-msgstr "安装完成."
+msgstr "%s 已成功安装。"
 
 #: Extensions.pas:1106
 msgid "%s was not installed."
-msgstr "没有安装."
+msgstr "%s 未安装。"
 
 #: Extensions.pas:1120
 msgid ""
 "This action will uninstall '%s'.\n"
 "Do you wish to continue?"
 msgstr ""
-"此操作将会卸载 '%s'.\n"
-"您是否想要继续?"
+"此操作将卸载“%s”。\n"
+"是否继续？"
 
 #: Extensions.pas:1419 Extensions.pas:1439 Extensions.pas:1445
 #: Extensions.pas:1520
@@ -7463,19 +7465,19 @@ msgstr "同步设备"
 
 #: FileAssoc.pas:782
 msgid "Play Audio CD"
-msgstr "播放音乐 CD"
+msgstr "播放音频 CD"
 
 #: FileAssoc.pas:783
 msgid "Burn CD/DVD/BD"
-msgstr "刻录到CD/DVD/BD"
+msgstr "刻录 CD/DVD/BD"
 
 #: FileAssoc.pas:785
 msgid "Rip Audio CD"
-msgstr "提取音乐CD"
+msgstr "翻录音频 CD"
 
 #: FileAssoc.pas:787
 msgid "&Install MediaMonkey package"
-msgstr "安装 MediaMonkey 包(&I)"
+msgstr "安装 MediaMonkey 软件包(&I)"
 
 #. This is localized, user sees it when iPod is connected under Vista
 #: FileAssoc.pas:875
@@ -7484,11 +7486,11 @@ msgstr "iPod"
 
 #: FileAssoc.pas:1010
 msgid "Play CD with MediaMonkey"
-msgstr "用 MediaMonkey 播放 CD"
+msgstr "使用 MediaMonkey 播放 CD"
 
 #: FileAssoc.pas:1034
 msgid "Play DVD with MediaMonkey"
-msgstr "用 MediaMonkey 播放 DVD"
+msgstr "使用 MediaMonkey 播放 DVD"
 
 #. issue #10108, if only "MediaMonkey" would be there then it won't appear in 'Set default programs' when both MM8 & MMW are installed (because of same app name)
 #: FileAssoc.pas:1144
@@ -7507,11 +7509,11 @@ msgstr "音频文件"
 
 #: FileUtils.pas:620 Normalization.pas:1932 Normalization.pas:1993
 msgid "The file is unavailable or you may not have permission to access it."
-msgstr "此文件无法使用或者您没有存取的权限."
+msgstr "该文件不可用，或者您可能没有访问权限。"
 
 #: FileUtils.pas:658
 msgid "Cannot create file %s."
-msgstr "不能创建文件 %s."
+msgstr "无法创建文件 %s。"
 
 #: FileUtils.pas:2089
 msgid "Unknown error"
@@ -7579,7 +7581,7 @@ msgstr "VBR"
 #: FormatsHandler.pas:3026 WAVUtils.pas:177 WAVUtils.pas:179
 #: dialogs\dlgWAVSettings.html:21
 msgid "Bits per sample"
-msgstr "每个采样的位"
+msgstr "每采样位数"
 
 #: FormatsHandler.pas:3033
 msgid "ABR"
@@ -7587,38 +7589,38 @@ msgstr "ABR"
 
 #: FormatsHandler.pas:3035
 msgid "Max. bitrate"
-msgstr "比特率(最大)"
+msgstr "最大比特率"
 
 #: FormatsHandler.pas:3402 FormatsHandler.pas:3642 MediaMonkeyApp.pas:7737
 msgid "MediaMonkey is unable to encode this format."
-msgstr "MediaMonkey无法编码这个格式."
+msgstr "MediaMonkey 无法编码此格式。"
 
 #. DRM
 #. accessible without error and does not play, was probably already stopped, exit, it could lead to error #17661 otherwise
 #. DRM
 #: FormatsManage.pas:1269 FullPlayer.pas:4616 GeneralDecoder.pas:446
 msgid "File %s cannot be decoded. It is possibly due to DRM restrictions."
-msgstr "文件 %s 无法被解码. 可能因为它受限于DRM保护."
+msgstr "无法解码文件 %s。这可能是由于 DRM 限制造成的。"
 
 #: FormatsManage.pas:1271
 msgid "File %s was not successfully created."
-msgstr "文件 %s 没有成功地建立."
+msgstr "文件 %s 未能成功创建。"
 
 #. Check whether album gain needs to be calculated:
 #: FormatsManage.pas:1414 FormatsManage.pas:1490
 msgid "Converting file %d of %d"
-msgstr "转换文件 %d of %d"
+msgstr "正在转换第 %d 个文件（共 %d 个）"
 
 #. TODOWIN8
 #: FormatsManage.pas:1425 FormatsManage.pas:1942 UpNp.pas:4885
 msgid ""
 "There isn't enough free space to convert all files. Please clear space in "
 "the temporary directory"
-msgstr "没有足够的空间来转换所有的文件. 请清除在暂存目录中的空间"
+msgstr "没有足够的可用空间来转换所有文件。请清理临时目录中的空间"
 
 #: FormatsManage.pas:1454
 msgid "ripping"
-msgstr "抓轨"
+msgstr "正在抓取"
 
 #. AAC MPEG4 Low Complexity
 #: FormatsManage.pas:2975
@@ -7678,7 +7680,7 @@ msgstr "VP9"
 #. #17515
 #: FormatsManage.pas:3782
 msgid "Unknown (all formats)"
-msgstr "未知 (所有格式)"
+msgstr "未知（所有格式）"
 
 #: FormatsManage.pas:4484 FormatsManage.pas:4497
 msgid "audio"
@@ -7738,7 +7740,7 @@ msgstr "H: "
 
 #: FormatsManage.pas:5113 FormatsManage.pas:5131 FormatsManage.pas:5144
 msgid "above"
-msgstr "在上于"
+msgstr "以上"
 
 #. using checkMedia removed, #18091
 #: FullPlayer.pas:2385
@@ -7747,15 +7749,15 @@ msgstr "添加 %d 个文件到正在播放列表"
 
 #: FullPlayer.pas:2568
 msgid "Clear Playing"
-msgstr "清除正在播放列表"
+msgstr "清除正在播放"
 
 #: FullPlayer.pas:3040
 msgid "Currently, there is no output plug-in selected"
-msgstr "目前, 没有任一输出插件被选取"
+msgstr "当前未选择任何输出插件"
 
 #: FullPlayer.pas:3054
 msgid "Currently no input plug-in is in use (no file is playing)."
-msgstr "目前, 没有任一输入插件在使用中 (没有文件正在播放)."
+msgstr "当前未启用输入插件（没有文件正在播放）。"
 
 #. run in separate thread, as caller could be terminated too fast and message would not be shown
 #. no audio hw
@@ -7788,7 +7790,7 @@ msgstr "随机列表"
 #. this song already was in the playlist
 #: FullPlayer.pas:5248
 msgid "No duplicates were detected."
-msgstr "没有侦测到任何副本."
+msgstr "未检测到重复项。"
 
 #: FullPlayer.pas:5252
 msgid "Do you want to remove %d duplicate(s) Playing?"
